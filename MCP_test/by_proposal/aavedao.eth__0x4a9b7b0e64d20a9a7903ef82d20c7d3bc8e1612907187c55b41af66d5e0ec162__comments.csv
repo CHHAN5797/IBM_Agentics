@@ -1,0 +1,242 @@
+space,proposal_id,proposal_title,discussion_url,end,end_iso,forum_kind,post_id,post_number,reply_to_post_number,author_username,created_at,text,text_raw,text_html
+aavedao.eth,0x4a9b7b0e64d20a9a7903ef82d20c7d3bc8e1612907187c55b41af66d5e0ec162,[TEMP CHECK] Onboard USDG to Aave V3 Core Instance,https://governance.aave.com/t/temp-check-onboard-usdg-to-aave-v3-core-instance/23014/1,1757312758,2025-09-08T06:25:58+00:00,discourse,58571,1,,ACI,2025-08-25T12:48:05.891Z,"<h2><a name=""p-58571-temp-check-onboard-usdg-to-aave-v3-core-instance-1"" class=""anchor"" href=""#p-58571-temp-check-onboard-usdg-to-aave-v3-core-instance-1""></a>[TEMP CHECK] Onboard USDG to Aave V3 Core Instance</h2>
+<h3><a name=""p-58571-author-aci-2"" class=""anchor"" href=""#p-58571-author-aci-2""></a>Author: ACI</h3>
+<h3><a name=""p-58571-date-2025-08-25-3"" class=""anchor"" href=""#p-58571-date-2025-08-25-3""></a>Date: 2025-08-25</h3>
+<h3><a name=""p-58571-summary-4"" class=""anchor"" href=""#p-58571-summary-4""></a>Summary</h3>
+<p>We propose the onboarding of USDG, a USD-backed stablecoin issued by Paxos, on Aave V3 Core Instance. This listing would initially enable users to deposit USDG to earn yield and borrow USDG as a stable asset. Collateral usage will be considered at a later date following review by Aave’s Risk Management teams.</p>
+<h3><a name=""p-58571-motivation-5"" class=""anchor"" href=""#p-58571-motivation-5""></a>Motivation</h3>
+<p>USDG is a regulated stablecoin backed 1:1 by cash and short-term U.S. Treasuries, designed with regulatory compliance and transparency as core principles.</p>
+<p>As a trusted stablecoin from Paxos, a regulated financial institution with a strong track record, USDG has gained significant adoption across various platforms, demonstrating market confidence and growing utility.</p>
+<p>Key differentiators:</p>
+<ol>
+<li>Global Dollar (USDG) is issued by Paxos Digital Singapore, which is a Major Payments Institution supervised by the Monetary Authority of Singapore. USDG is issued in the EU by Paxos Issuance Europe Oy (PIE), an Electronic Money Institution regulated by the Finnish Financial Supervisory Authority (FIN-FSA). USDG is fully compliant with the EU’s Markets in Crypto Assets Regulation (MiCA).</li>
+<li>Transparency: Regular attestations verify USDG’s reserves are fully backed by cash and short-term U.S. Treasuries.</li>
+<li>Chainlink price feed: Live and available for use in Aave integrations.</li>
+</ol>
+<h3><a name=""p-58571-specification-6"" class=""anchor"" href=""#p-58571-specification-6""></a>Specification</h3>
+<p>Risk Parameters will be provided by Risk Service Providers and proposal will be updated accordingly.</p>
+<p>USDG Overview:</p>
+<ul>
+<li>Ticker: USDG</li>
+<li>Fiat backed stablecoin</li>
+<li>Issuer: Paxos</li>
+<li>Backing assets: USD cash and short-term U.S treasuries.</li>
+<li>Audits: Multiple third-party audits</li>
+<li>Price Oracle: Chainlink</li>
+<li>USDG Listed on: Major centralized and decentralized exchanges.</li>
+</ul>
+<p>Use Cases:</p>
+<ol>
+<li>Deposits enabled for yield generation</li>
+<li>Borrowing enabled as a low-volatility asset</li>
+</ol>
+<h3><a name=""p-58571-incentives-7"" class=""anchor"" href=""#p-58571-incentives-7""></a>Incentives:</h3>
+<p>Paxos is considering incentive programs to boost adoption and enhance the competitiveness of USDG borrowing rates compared to other stablecoin assets on Aave.</p>
+<p>Detailed incentive structures will be shared with Aave DAO contributors and the community in the ARFC stage.</p>
+<h3><a name=""p-58571-disclosure-8"" class=""anchor"" href=""#p-58571-disclosure-8""></a>Disclosure</h3>
+<p>The current proposal has been powered by Skywards. ACI is not affiliated with Paxos and has not received compensation for the creation and review of this proposal.</p>
+<h3><a name=""p-58571-next-steps-9"" class=""anchor"" href=""#p-58571-next-steps-9""></a>Next Steps</h3>
+<ol>
+<li>Publication of TEMP CHECK to gather community &amp; service providers feedback, and escalate to TEMP CHECK Snapshot.</li>
+<li>Publication of a standard ARFC, if TEMP CHECK Snapshot passed, to continue collecting community &amp; service provider feedback before escalating proposal to ARFC snapshot stage.</li>
+<li>If the ARFC snapshot outcome is YAE, publish an AIP vote for final confirmation and enforcement of the proposal.</li>
+</ol>
+<h3><a name=""p-58571-copyright-10"" class=""anchor"" href=""#p-58571-copyright-10""></a>Copyright</h3>
+<p>Copyright and related rights waived via <a href=""https://creativecommons.org/publicdomain/zero/1.0/"">CC0</a></p>",,"<h2><a name=""p-58571-temp-check-onboard-usdg-to-aave-v3-core-instance-1"" class=""anchor"" href=""#p-58571-temp-check-onboard-usdg-to-aave-v3-core-instance-1""></a>[TEMP CHECK] Onboard USDG to Aave V3 Core Instance</h2>
+<h3><a name=""p-58571-author-aci-2"" class=""anchor"" href=""#p-58571-author-aci-2""></a>Author: ACI</h3>
+<h3><a name=""p-58571-date-2025-08-25-3"" class=""anchor"" href=""#p-58571-date-2025-08-25-3""></a>Date: 2025-08-25</h3>
+<h3><a name=""p-58571-summary-4"" class=""anchor"" href=""#p-58571-summary-4""></a>Summary</h3>
+<p>We propose the onboarding of USDG, a USD-backed stablecoin issued by Paxos, on Aave V3 Core Instance. This listing would initially enable users to deposit USDG to earn yield and borrow USDG as a stable asset. Collateral usage will be considered at a later date following review by Aave’s Risk Management teams.</p>
+<h3><a name=""p-58571-motivation-5"" class=""anchor"" href=""#p-58571-motivation-5""></a>Motivation</h3>
+<p>USDG is a regulated stablecoin backed 1:1 by cash and short-term U.S. Treasuries, designed with regulatory compliance and transparency as core principles.</p>
+<p>As a trusted stablecoin from Paxos, a regulated financial institution with a strong track record, USDG has gained significant adoption across various platforms, demonstrating market confidence and growing utility.</p>
+<p>Key differentiators:</p>
+<ol>
+<li>Global Dollar (USDG) is issued by Paxos Digital Singapore, which is a Major Payments Institution supervised by the Monetary Authority of Singapore. USDG is issued in the EU by Paxos Issuance Europe Oy (PIE), an Electronic Money Institution regulated by the Finnish Financial Supervisory Authority (FIN-FSA). USDG is fully compliant with the EU’s Markets in Crypto Assets Regulation (MiCA).</li>
+<li>Transparency: Regular attestations verify USDG’s reserves are fully backed by cash and short-term U.S. Treasuries.</li>
+<li>Chainlink price feed: Live and available for use in Aave integrations.</li>
+</ol>
+<h3><a name=""p-58571-specification-6"" class=""anchor"" href=""#p-58571-specification-6""></a>Specification</h3>
+<p>Risk Parameters will be provided by Risk Service Providers and proposal will be updated accordingly.</p>
+<p>USDG Overview:</p>
+<ul>
+<li>Ticker: USDG</li>
+<li>Fiat backed stablecoin</li>
+<li>Issuer: Paxos</li>
+<li>Backing assets: USD cash and short-term U.S treasuries.</li>
+<li>Audits: Multiple third-party audits</li>
+<li>Price Oracle: Chainlink</li>
+<li>USDG Listed on: Major centralized and decentralized exchanges.</li>
+</ul>
+<p>Use Cases:</p>
+<ol>
+<li>Deposits enabled for yield generation</li>
+<li>Borrowing enabled as a low-volatility asset</li>
+</ol>
+<h3><a name=""p-58571-incentives-7"" class=""anchor"" href=""#p-58571-incentives-7""></a>Incentives:</h3>
+<p>Paxos is considering incentive programs to boost adoption and enhance the competitiveness of USDG borrowing rates compared to other stablecoin assets on Aave.</p>
+<p>Detailed incentive structures will be shared with Aave DAO contributors and the community in the ARFC stage.</p>
+<h3><a name=""p-58571-disclosure-8"" class=""anchor"" href=""#p-58571-disclosure-8""></a>Disclosure</h3>
+<p>The current proposal has been powered by Skywards. ACI is not affiliated with Paxos and has not received compensation for the creation and review of this proposal.</p>
+<h3><a name=""p-58571-next-steps-9"" class=""anchor"" href=""#p-58571-next-steps-9""></a>Next Steps</h3>
+<ol>
+<li>Publication of TEMP CHECK to gather community &amp; service providers feedback, and escalate to TEMP CHECK Snapshot.</li>
+<li>Publication of a standard ARFC, if TEMP CHECK Snapshot passed, to continue collecting community &amp; service provider feedback before escalating proposal to ARFC snapshot stage.</li>
+<li>If the ARFC snapshot outcome is YAE, publish an AIP vote for final confirmation and enforcement of the proposal.</li>
+</ol>
+<h3><a name=""p-58571-copyright-10"" class=""anchor"" href=""#p-58571-copyright-10""></a>Copyright</h3>
+<p>Copyright and related rights waived via <a href=""https://creativecommons.org/publicdomain/zero/1.0/"">CC0</a></p>"
+aavedao.eth,0x4a9b7b0e64d20a9a7903ef82d20c7d3bc8e1612907187c55b41af66d5e0ec162,[TEMP CHECK] Onboard USDG to Aave V3 Core Instance,https://governance.aave.com/t/temp-check-onboard-usdg-to-aave-v3-core-instance/23014/1,1757312758,2025-09-08T06:25:58+00:00,discourse,58611,2,,ACI,2025-08-28T10:52:13.626Z,"<h1><a name=""p-58611-summary-1"" class=""anchor"" href=""#p-58611-summary-1""></a>Summary</h1>
+<p>USDG is a regulated stablecoin issued by Paxos. We intend to onboard this as a borrow asset in the first instance, with potential expansion to use as a collateral asset in the future. This is a highly strategic onboarding which is tied to several high impact partnerships which are in the pipeline.</p>
+<p>ACI is supportive of this onboarding from a business perspective and intends to vote YAE for this TEMP CHECK.</p>
+<h1><a name=""p-58611-asset-information-2"" class=""anchor"" href=""#p-58611-asset-information-2""></a>Asset information</h1>
+<div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Answer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Asset class</td>
+<td>Stablecoin</td>
+</tr>
+<tr>
+<td>Systems &amp; projects associated</td>
+<td>Paxos <a href=""https://www.paxos.com/"">https://www.paxos.com/</a></td>
+</tr>
+<tr>
+<td>Basic utilities</td>
+<td>Regulated stablecoin</td>
+</tr>
+<tr>
+<td>Use-cases of Aave onboarding</td>
+<td>Borrow asset</td>
+</tr>
+</tbody>
+</table>
+</div><h1><a name=""p-58611-commercial-information-3"" class=""anchor"" href=""#p-58611-commercial-information-3""></a><strong>Commercial information</strong></h1>
+<div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Answer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Current marketcap</td>
+<td>$529m</td>
+</tr>
+<tr>
+<td>Current marketcap in lending protocols</td>
+<td>None.</td>
+</tr>
+<tr>
+<td>Committed Aave TVL</td>
+<td>None.</td>
+</tr>
+<tr>
+<td>Expected Aave deposits</td>
+<td>$100m+</td>
+</tr>
+<tr>
+<td>Reserve factor</td>
+<td>20%</td>
+</tr>
+<tr>
+<td>Expected monthly revenue</td>
+<td>Circa $115-125k per month</td>
+</tr>
+<tr>
+<td>Aave incentives budget</td>
+<td>This will be reasonably substantial but not yet defined.</td>
+</tr>
+</tbody>
+</table>
+</div><h1><a name=""p-58611-disclaimer-4"" class=""anchor"" href=""#p-58611-disclaimer-4""></a>Disclaimer</h1>
+<p>This review was independently prepared by ACI. ACI is not directly affiliated with the protocol(s) reviewed in this assessment and did not receive any compensation from the protocol(s) or their affiliated entities for this work.</p>
+<p>The information provided should not be construed as legal, financial, tax, or professional advice.</p>
+<h1><a name=""p-58611-copyright-5"" class=""anchor"" href=""#p-58611-copyright-5""></a>Copyright</h1>
+<p>Copyright and related rights waived via <a href=""https://creativecommons.org/publicdomain/zero/1.0/"">CC0</a>.</p>",,"<h1><a name=""p-58611-summary-1"" class=""anchor"" href=""#p-58611-summary-1""></a>Summary</h1>
+<p>USDG is a regulated stablecoin issued by Paxos. We intend to onboard this as a borrow asset in the first instance, with potential expansion to use as a collateral asset in the future. This is a highly strategic onboarding which is tied to several high impact partnerships which are in the pipeline.</p>
+<p>ACI is supportive of this onboarding from a business perspective and intends to vote YAE for this TEMP CHECK.</p>
+<h1><a name=""p-58611-asset-information-2"" class=""anchor"" href=""#p-58611-asset-information-2""></a>Asset information</h1>
+<div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Answer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Asset class</td>
+<td>Stablecoin</td>
+</tr>
+<tr>
+<td>Systems &amp; projects associated</td>
+<td>Paxos <a href=""https://www.paxos.com/"">https://www.paxos.com/</a></td>
+</tr>
+<tr>
+<td>Basic utilities</td>
+<td>Regulated stablecoin</td>
+</tr>
+<tr>
+<td>Use-cases of Aave onboarding</td>
+<td>Borrow asset</td>
+</tr>
+</tbody>
+</table>
+</div><h1><a name=""p-58611-commercial-information-3"" class=""anchor"" href=""#p-58611-commercial-information-3""></a><strong>Commercial information</strong></h1>
+<div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Attribute</th>
+<th>Answer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Current marketcap</td>
+<td>$529m</td>
+</tr>
+<tr>
+<td>Current marketcap in lending protocols</td>
+<td>None.</td>
+</tr>
+<tr>
+<td>Committed Aave TVL</td>
+<td>None.</td>
+</tr>
+<tr>
+<td>Expected Aave deposits</td>
+<td>$100m+</td>
+</tr>
+<tr>
+<td>Reserve factor</td>
+<td>20%</td>
+</tr>
+<tr>
+<td>Expected monthly revenue</td>
+<td>Circa $115-125k per month</td>
+</tr>
+<tr>
+<td>Aave incentives budget</td>
+<td>This will be reasonably substantial but not yet defined.</td>
+</tr>
+</tbody>
+</table>
+</div><h1><a name=""p-58611-disclaimer-4"" class=""anchor"" href=""#p-58611-disclaimer-4""></a>Disclaimer</h1>
+<p>This review was independently prepared by ACI. ACI is not directly affiliated with the protocol(s) reviewed in this assessment and did not receive any compensation from the protocol(s) or their affiliated entities for this work.</p>
+<p>The information provided should not be construed as legal, financial, tax, or professional advice.</p>
+<h1><a name=""p-58611-copyright-5"" class=""anchor"" href=""#p-58611-copyright-5""></a>Copyright</h1>
+<p>Copyright and related rights waived via <a href=""https://creativecommons.org/publicdomain/zero/1.0/"">CC0</a>.</p>"
+aavedao.eth,0x4a9b7b0e64d20a9a7903ef82d20c7d3bc8e1612907187c55b41af66d5e0ec162,[TEMP CHECK] Onboard USDG to Aave V3 Core Instance,https://governance.aave.com/t/temp-check-onboard-usdg-to-aave-v3-core-instance/23014/1,1757312758,2025-09-08T06:25:58+00:00,discourse,58712,3,,ACI,2025-09-04T06:26:36.284Z,"<p>The current proposal has been escalated to <a href=""https://snapshot.box/#/s:aavedao.eth/proposal/0x4a9b7b0e64d20a9a7903ef82d20c7d3bc8e1612907187c55b41af66d5e0ec162"">TEMP CHECK Snapshot</a>.</p>
+<p>Vote will start tomorrow, we encourage everyone to participate.</p>",,"<p>The current proposal has been escalated to <a href=""https://snapshot.box/#/s:aavedao.eth/proposal/0x4a9b7b0e64d20a9a7903ef82d20c7d3bc8e1612907187c55b41af66d5e0ec162"">TEMP CHECK Snapshot</a>.</p>
+<p>Vote will start tomorrow, we encourage everyone to participate.</p>"

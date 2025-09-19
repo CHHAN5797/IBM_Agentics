@@ -1,0 +1,1019 @@
+space,proposal_id,proposal_title,discussion_url,post_id,post_number,reply_to_post_number,author_username,created_at,created_ts,text_raw,text_html
+aavedao.eth,0xd5807ee6ec3d33e7d86805a4287540b0a9801430ee0900ff6babb698e4f2a273,[ARFC] Onboard weETH to Aave v3 on Ethereum,https://governance.aave.com/t/arfc-onboard-weeth-to-aave-v3-on-ethereum/16758,41793,1,,ACI,2024-02-27T10:37:55.923Z,1709030275,,"<blockquote>
+<p>Proposal updated to include Risk team feedback</p>
+</blockquote>
+<h2><a name=""title-arfc-onboarding-of-weeth-to-aave-v3-on-ethereum-1"" class=""anchor"" href=""#title-arfc-onboarding-of-weeth-to-aave-v3-on-ethereum-1""></a>Title: [ARFC] Onboarding of weETH to Aave v3 on Ethereum</h2>
+<h2><a name=""author-etherfihttpetherfi-aci-aave-chan-initiative-2"" class=""anchor"" href=""#author-etherfihttpetherfi-aci-aave-chan-initiative-2""></a>Author: <a href=""http://Ether.fi"">Ether.fi</a> &amp; <a class=""mention"" href=""/u/aci"">@ACI</a> ( Aave Chan Initiative)</h2>
+<h2><a name=""date-2024-02-27-3"" class=""anchor"" href=""#date-2024-02-27-3""></a>Date: 2024-02-27</h2>
+<h3><a name=""summary-4"" class=""anchor"" href=""#summary-4""></a><strong>Summary</strong></h3>
+<p>The current ARFC seeks to add <a href=""http://Ether.fi"">Ether.fi</a> Liquid Restaking Token weETH to Aave V3 Ethereum, after the successful <a href=""https://governance.aave.com/t/temp-check-onboarding-weeth-to-aave-v3-ethereum/16546"">TEMP CHECK</a> and <a href=""https://snapshot.org/#/aave.eth/proposal/0xffe122a2fb0b34e713b7bb8e74e943b35c6cb298bafc4e50c464b62167e3246e"">TEMP CHECK Snapshot</a>.</p>
+<p>The intention behind this initiative is to enhance the diversity of assets on Aave and bolster liquidity within the ecosystem.</p>
+<h3><a name=""motivation-5"" class=""anchor"" href=""#motivation-5""></a>Motivation</h3>
+<p>eETH is an LRT that allows users to stake their ETH, accrue staking rewards, and receive additional rewards through native restaking on EigenLayer. As of February 3rd, approximately 290,310 ETH ($670M) in TVL has been deposited into the <a href=""http://ether.fi/"">ether.fi 1</a> protocol, and XX has been natively restaked in EigenLayer.</p>
+<p><a href=""http://ether.fi/"">Ether.fi</a> stands as the pioneering decentralized and non-custodial delegated staking protocol featuring an LRT (eETH). A notable feature of <a href=""http://ether.fi/"">ether.fi</a> is the control it provides stakers over their keys. The team behind the protocol is guided by the following principles:</p>
+<ol>
+<li>Decentralization is the foremost objective. <a href=""http://ether.fi/"">Ether.fi</a> is unwavering in its commitment to maintain the protocol’s non-custodial and decentralized nature, ensuring that stakers always have control over their ETH.</li>
+<li><a href=""http://ether.fi/"">Ether.fi</a> operates as a legitimate business with a sustainable revenue model, with the team dedicated to its long-term success. There is no place for deceptive or unsustainable financial practices.</li>
+<li><a href=""http://ether.fi/"">Ether.fi</a> is committed to always acting in the best interest of the Ethereum community. In the event of any missteps, the team at <a href=""http://ether.fi/"">ether.fi</a> will take responsibility and swiftly rectify the situation.</li>
+</ol>
+<p>Risks:</p>
+<p><a href=""http://ether.fi/"">ether.fi</a>’s LRT eETH is 100% redeemable. Users who deposit ETH into the protocol can withdraw their stake at any time. The holdings are publicly auditable on-chain and the protocol retains healthy reserves to offset any losses.</p>
+<h2><a name=""proof-of-liquidity-and-deposit-commitments-6"" class=""anchor"" href=""#proof-of-liquidity-and-deposit-commitments-6""></a>Proof of Liquidity and Deposit Commitments</h2>
+<p>Anyone who deposits weETH into Aave will accumulate <a href=""http://ether.fi/"">ether.fi</a>  and EigenLayer points to be used for future incentives.</p>
+<p>Users are given eETH on a 1:1 basis with a minimum deposit of 0.001 ETH.</p>
+<p><a href=""http://ether.fi/"">ether.fi</a> is also the first LSP to natively restake on EigenLayer — a move that helps improve network efficiency and provides stakers with additional rewards for their network contributions. <a href=""http://ether.fi/"">ether.fi</a> has also launched a series of partnerships with DeFi protocols to incentivize users and drive liquidity (weETH) to various platforms.</p>
+<h2><a name=""specification-7"" class=""anchor"" href=""#specification-7""></a>Specification</h2>
+<p>weETH: <a href=""https://etherscan.io/token/0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee"">0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee</a></p>
+<p>Oracle: weETH will use a exchange rate oracle developed by BGD.</p>
+<h2><a name=""risk-parameters-8"" class=""anchor"" href=""#risk-parameters-8""></a>Risk Parameters</h2>
+<div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Risk Parameter</th>
+<th>weETH</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Isolation Mode</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>Enable Borrow</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>Borrowable in Isolation</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>Enable Collateral</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>Emode Category</td>
+<td>ETH-CORRELATED</td>
+</tr>
+<tr>
+<td>Loan To Value</td>
+<td>72.5%</td>
+</tr>
+<tr>
+<td>Liquidation Threshold</td>
+<td>75%</td>
+</tr>
+<tr>
+<td>Liquidation Bonus</td>
+<td>7.5%</td>
+</tr>
+<tr>
+<td>Variable Base</td>
+<td>0.0%</td>
+</tr>
+<tr>
+<td>Variable Slope1</td>
+<td>7.00%</td>
+</tr>
+<tr>
+<td>Variable Slope2</td>
+<td>300.00%</td>
+</tr>
+<tr>
+<td>Uoptimal</td>
+<td>45.00%</td>
+</tr>
+<tr>
+<td>Reserve Factor</td>
+<td>20%</td>
+</tr>
+<tr>
+<td>Liquidation Protocol Fee</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>Supply Cap</td>
+<td>8000</td>
+</tr>
+<tr>
+<td>Borrow Cap</td>
+<td>800</td>
+</tr>
+<tr>
+<td>Debt Ceiling</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+</div><h2><a name=""useful-links-9"" class=""anchor"" href=""#useful-links-9""></a><strong>Useful Links</strong></h2>
+<p><a href=""https://www.ether.fi/"">Ether.fi</a></p>
+<p><a href=""https://governance.aave.com/t/temp-check-onboarding-weeth-to-aave-v3-ethereum/16546"">TEMP CHECK</a></p>
+<p><a href=""https://snapshot.org/#/aave.eth/proposal/0xffe122a2fb0b34e713b7bb8e74e943b35c6cb298bafc4e50c464b62167e3246e"">TEMP CHECK Snapshot</a></p>
+<h2><a name=""disclaimer-10"" class=""anchor"" href=""#disclaimer-10""></a>Disclaimer</h2>
+<p>This proposal is powered by Skywards. The Aave Chan Initiative is not directly affiliated with <a href=""http://ether.fi/"">Ether.fi</a> and did not receive compensation for creation this proposal. The co-author is a team member <a href=""http://ether.fi/"">Ether.fi</a></p>
+<h2><a name=""next-steps-11"" class=""anchor"" href=""#next-steps-11""></a>Next Steps</h2>
+<ol>
+<li>If consensus is reached on this [ARFC], escalate this proposal to the Snapshot stage.</li>
+<li>If the ARFC snapshot outcome is YAE, publish an AIP vote for final confirmation and enforcement of the proposal</li>
+<li>Copyright: Copyright and related rights waived via <a href=""https://creativecommons.org/publicdomain/zero/1.0/"">CC0</a>.</li>
+</ol>"
+aavedao.eth,0xd5807ee6ec3d33e7d86805a4287540b0a9801430ee0900ff6babb698e4f2a273,[ARFC] Onboard weETH to Aave v3 on Ethereum,https://governance.aave.com/t/arfc-onboard-weeth-to-aave-v3-on-ethereum/16758,41819,2,,ChaosLabs,2024-02-28T06:15:45.234Z,1709100945,,"<h2><a name=""overview-1"" class=""anchor"" href=""#overview-1""></a><strong>Overview</strong></h2>
+<p>Chaos Labs supports listing weETH on Aave V3 Ethereum as part of the community strategy to increase the offering of Aave protocol with more LST/LRT assets. Following is our analysis and risk parameter recommendations for the initial listing.</p>
+<p><em>Note: The following analysis is conducted solely from a market risk viewpoint, excluding centralization and third-party risk considerations. If the community aims to reduce exposure to weETH, adopting more conservative supply and borrow caps should be considered.</em></p>
+<h3><a name=""liquidity-and-market-cap-2"" class=""anchor"" href=""#liquidity-and-market-cap-2""></a><strong>Liquidity and Market Cap</strong></h3>
+<p>The launch of eETH withdrawals, or the native “liquidity pool,” occurred at the end of December 2023, indicating the relative freshness of the asset from a risk perspective. Since then, alongside a speculative point-based incentive structure, EtherFi’s TVL has skyrocketed exponentially, reaching $1.6 billion, while weETH has averaged $5.3 million in daily volume. This component underscores the necessity for a more conservative listing approach, as the pursuit of rapid, speculatively incentivized growth can potentially precipitate substantial rapid liquidity drawdowns in the future.<br>
+<img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/2/24ce7387af99445a095a97c537c50af8b7f96380.jpeg"" alt="""" data-base62-sha1=""5fBvxLhNiUNYVl1xvG18rErc3GU"" width=""2000"" height=""1816"" role=""presentation""></p>
+<h2><a name=""weeth-eth-volatility-3"" class=""anchor"" href=""#weeth-eth-volatility-3""></a>weETH / ETH Volatility</h2>
+<p><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/0/0138f64f36a7c8a5e5ee07ac4676864b42174a9d.jpeg"" alt="""" data-base62-sha1=""aOw8mNfDRygHbrUiP3tUsNVKaN"" width=""1920"" height=""738"" role=""presentation""></p>
+<h3><a name=""liquidation-threshold-4"" class=""anchor"" href=""#liquidation-threshold-4""></a><strong>Liquidation Threshold</strong></h3>
+<p>Considering the volatility and the correlation of weETH to ETH, we recommend setting the LT to 75%. This mirrors the other LSTs on Ethereum V3, albeit with a slight adjustment to account for the smaller liquidity and the asset’s relative novelty. Consequently, there might be slightly more variance expected in the future.</p>
+<h3><a name=""supply-cap-borrow-cap-and-liquidation-bonus-5"" class=""anchor"" href=""#supply-cap-borrow-cap-and-liquidation-bonus-5""></a><strong>Supply Cap, Borrow Cap, and Liquidation Bonus</strong></h3>
+<p>While Chaos Labs’ approach to initial supply caps is generally proposed through setting the Supply Cap at 2x the liquidity available under the Liquidation Penalty price impact, given the minimal weETH historical data, we initially recommend a 1x value. Although on-chain liquidity could allow for higher caps, our preference is to set the caps conservatively to observe user behavior and demand before optimizing the caps. Should demand scale, we will reassess and parameterize accordingly.</p>
+<p>Given the current DEX liquidity profile of weETH, we recommend a 7.5% Liquidation Bonus and a supply cap of 8000 weETH.</p>
+<p>Based on our observations, the utilization rate for LSTs has been low due to obvious additional borrowing costs. Therefore, we have taken a conservative approach toward LST/LRTs borrow caps of 800 weETH. However, if there is a significant increase in demand and utilization, perhaps due to external incentives, we will reassess the caps according to the utilization pattern.</p>
+<h3><a name=""ir-curve-parameters-6"" class=""anchor"" href=""#ir-curve-parameters-6""></a>IR Curve Parameters</h3>
+<p>We recommend aligning the interest rate parameters with those of cbETH and rETH on Ethereum to ensure consistency across similar assets on Aave v3.</p>
+<h2><a name=""e-mode-7"" class=""anchor"" href=""#e-mode-7""></a>E-mode</h2>
+<p>Given the asset’s overall liquidity and risk profile, we support including weETH in the ETH-correlated E-mode category. The EtherFi protocol currently boasts a 12.7k ETH withdrawal buffer in the native liquidity pool, and weETH can always be redeemed for the underlying ETH depending on the user’s involvement within the protocol. As mentioned above, the relative distribution of debt collateralized by weETH will motivate our decision to increase caps in the future, assuming ample demand and relative liquidity exist. Given the relative conservatism outside of E-mode and external speculative elements and rewards within the LRT ecosystem, we naturally expect the majority of weETH collateral to be utilized to borrow ETH and/or explicitly loop. In such cases, the contingency on DEX liquidity is mitigated due to the lack of liquidations within the mode, thereby opening up to greater increases in the future.</p>
+<h3><a name=""recommendations-8"" class=""anchor"" href=""#recommendations-8""></a>Recommendations</h3>
+<p>Following the above analysis, we recommend listing weETH with the following parameter settings:</p>
+<div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Isolation Mode</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Borrowable</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Collateral Enabled</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Supply Cap (weETH)</td>
+<td>8000</td>
+</tr>
+<tr>
+<td>Borrow Cap (weETH)</td>
+<td>800</td>
+</tr>
+<tr>
+<td>Debt Ceiling</td>
+<td>-</td>
+</tr>
+<tr>
+<td>LTV</td>
+<td>72.50%</td>
+</tr>
+<tr>
+<td>LT</td>
+<td>75.00%</td>
+</tr>
+<tr>
+<td>Liquidation Bonus</td>
+<td>7.50%</td>
+</tr>
+<tr>
+<td>Liquidation Protocol Fee</td>
+<td>10.00%</td>
+</tr>
+<tr>
+<td>Variable Base</td>
+<td>0.0%</td>
+</tr>
+<tr>
+<td>Variable Slope1</td>
+<td>7.00%</td>
+</tr>
+<tr>
+<td>Variable Slope2</td>
+<td>300.00%</td>
+</tr>
+<tr>
+<td>Uoptimal</td>
+<td>45.00%</td>
+</tr>
+<tr>
+<td>Reserve Factor</td>
+<td>15.00%</td>
+</tr>
+<tr>
+<td>Stable Borrowing</td>
+<td>Disabled</td>
+</tr>
+<tr>
+<td>Flashloanable</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Siloed Borrowing</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Borrowed in Isolation</td>
+<td>No</td>
+</tr>
+<tr>
+<td>E-Mode Category</td>
+<td>ETH-correlated</td>
+</tr>
+</tbody>
+</table>
+</div><h3><a name=""capo-recommendations-9"" class=""anchor"" href=""#capo-recommendations-9""></a><strong>CAPO recommendations:</strong></h3>
+<p>Given weETH employs buffered withdrawals for its underlying ETH equivalent exchange rate, the weETH/ETH exchange rate/USD will be utilized as the oracle alongside the correlated asset price oracle. We present our recommendations below.</p>
+<div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>maxYearlyRatioGrowthPercent</th>
+<th>ratioReferenceTime</th>
+<th>MINIMUM_SNAPSHOT_DELAY</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>8.75%</td>
+<td>monthly</td>
+<td>7 days</td>
+</tr>
+</tbody>
+</table>
+</div><p><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/c/cf8abafc057513374c4e81a4c026012fa8522552.jpeg"" alt="""" data-base62-sha1=""tC041wcjjL9Wus6PIhlio4NTLUK"" width=""1920"" height=""944"" role=""presentation""></p>"
+aavedao.eth,0xd5807ee6ec3d33e7d86805a4287540b0a9801430ee0900ff6babb698e4f2a273,[ARFC] Onboard weETH to Aave v3 on Ethereum,https://governance.aave.com/t/arfc-onboard-weeth-to-aave-v3-on-ethereum/16758,41820,3,,ChaosLabs,2024-02-28T06:20:00.099Z,1709101200,,"<aside class=""quote no-group"" data-username=""ChaosLabs"" data-post=""2"" data-topic=""16758"">
+<div class=""title"">
+<div class=""quote-controls""></div>
+<img loading=""lazy"" alt="""" width=""24"" height=""24"" src=""https://dub1.discourse-cdn.com/flex013/user_avatar/governance.aave.com/chaoslabs/48/6850_2.png"" class=""avatar""> ChaosLabs:</div>
+<blockquote>
+<h3><strong>Supply Cap, Borrow Cap, and Liquidation Bonus</strong></h3>
+<p>While Chaos Labs’ approach to initial supply caps is generally proposed through setting the Supply Cap at 2x the liquidity available under the Liquidation Penalty price impact, given the minimal weETH historical data, we initially recommend a 1x value. Although on-chain liquidity could allow for higher caps, our preference is to set the caps conservatively to observe user behavior and demand before optimizing the caps. Should demand scale, we will reassess and parameterize accordingly.</p>
+<p>Given the current DEX liquidity profile of weETH, we recommend a 7.5% Liquidation Bonus and a supply cap of 8000 weETH.</p>
+<p>Based on our observations, the utilization rate for LSTs has been low due to obvious additional borrowing costs. Therefore, we have taken a conservative approach toward LST/LRTs borrow caps of 800 weETH. However, if there is a significant increase in demand and utilization, perhaps due to external incentives, we will reassess the caps according to the utilization pattern.</p>
+</blockquote>
+</aside>
+<p>By “liquidity available under the Liquidation Penalty price impact”, we mean the maximum amount that can be sold atomically on-chain, such that the slippage on that trade is less than the liquidation penalty, in this case 7.5%. Most of the on-chain liquidity for weETH is on two balancer pools:</p>
+<ul>
+<li><a href=""https://app.balancer.fi/#/ethereum/pool/0x848a5564158d84b8a8fb68ab5d004fae11619a5400000000000000000000066a"" class=""inline-onebox"" rel=""noopener nofollow ugc"">Balancer</a></li>
+<li><a href=""https://app.balancer.fi/#/ethereum/pool/0x05ff47afada98a98982113758878f9a8b9fdda0a000000000000000000000645"" class=""inline-onebox"" rel=""noopener nofollow ugc"">Balancer</a></li>
+</ul>
+<p>Assuming that liquidity doesn’t change significantly, it should suffice to liquidate the entire amount of 8000 weETH:</p>
+<p><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/2/227e0d9c9ae7a86ddd6bc907ab0b58f90bf784d0.jpeg"" alt="""" data-base62-sha1=""4V8iHBZVp45Mzsz3UdXRW494HWE"" width=""2000"" height=""1600"" role=""presentation""></p>
+<p>Based on this liquidity data collected over the limited history of the token - we set the supply cap to 8000 weETH, providing high confidence that any weETH collateral could be liquidated if necessary. The borrow cap is derived from the supply cap - no more than 10% of the supply cap can be borrowed in the lack of a clear use case to borrow this token.</p>"
+aavedao.eth,0xd5807ee6ec3d33e7d86805a4287540b0a9801430ee0900ff6babb698e4f2a273,[ARFC] Onboard weETH to Aave v3 on Ethereum,https://governance.aave.com/t/arfc-onboard-weeth-to-aave-v3-on-ethereum/16758,41824,4,3.0,midapple,2024-02-28T07:15:57.697Z,1709104557,,<p>I see I can safely swap 9500 weETH on balancer for a lot less than the 7.5% liquidation bonus. So 8000 is not the maximum amount that can be sold atomically on chain as you mentioned. why is that? also why 800 borrow cap? thank you for your explanation.</p>
+aavedao.eth,0xd5807ee6ec3d33e7d86805a4287540b0a9801430ee0900ff6babb698e4f2a273,[ARFC] Onboard weETH to Aave v3 on Ethereum,https://governance.aave.com/t/arfc-onboard-weeth-to-aave-v3-on-ethereum/16758,41913,5,4.0,midapple,2024-02-29T22:33:07.605Z,1709245987,,"<p><a class=""mention"" href=""/u/chaoslabs"">@ChaosLabs</a> can you provide an update?</p>"
+aavedao.eth,0xd5807ee6ec3d33e7d86805a4287540b0a9801430ee0900ff6babb698e4f2a273,[ARFC] Onboard weETH to Aave v3 on Ethereum,https://governance.aave.com/t/arfc-onboard-weeth-to-aave-v3-on-ethereum/16758,42041,6,,ACI,2024-03-04T12:51:04.963Z,1709556664,,"<p>The current proposal has been escalated to <a href=""https://snapshot.org/#/aave.eth/proposal/0xd5807ee6ec3d33e7d86805a4287540b0a9801430ee0900ff6babb698e4f2a273"">ARFC Snapshot</a>.</p>
+<p>Vote will start tomorrow. We encourage everyone to participate.</p>"
+aavedao.eth,0x364de11d3a298f2c76721a8926cb32823cc29d0a95eadecbc0a98c628a38194b,[ARFC] Set ACI as Emission Manager for Liquidity Mining Programs ,https://governance.aave.com/t/arfc-set-aci-as-emission-manager-for-liquidity-mining-programs/17898,45287,1,,ACI,2024-06-06T13:06:14.697Z,1717679174,,"<h1><a name=""arfc-set-aci-as-emission-manager-for-liquidity-mining-programs-1"" class=""anchor"" href=""#arfc-set-aci-as-emission-manager-for-liquidity-mining-programs-1""></a>[ARFC] Set ACI as Emission Manager for Liquidity Mining Programs</h1>
+<h1><a name=""author-aci-aave-chan-initiative-2"" class=""anchor"" href=""#author-aci-aave-chan-initiative-2""></a>Author: ACI (Aave Chan Initiative)</h1>
+<h1><a name=""date-2024-06-06-3"" class=""anchor"" href=""#date-2024-06-06-3""></a>Date: 2024-06-06</h1>
+<hr>
+<h1><a name=""summary-4"" class=""anchor"" href=""#summary-4""></a><strong>Summary</strong></h1>
+<p>The current ARFC proposes to appoint the Aave Chan Initiative (ACI) as the Emission Manager for liquidity mining programs across Aave markets. This will enable ACI to manage incentive programs funded by different partners, with the purpose of stimulating market activity and growth.</p>
+<h1><a name=""motivation-5"" class=""anchor"" href=""#motivation-5""></a><strong>Motivation</strong></h1>
+<p>Liquidity mining programs are essential for attracting liquidity providers by offering rewards for their participation. Effective management of these programs is crucial for the sustained growth of the Aave Ecosystem. Therefore, ACI, with its extensive experience and strategic partnerships, is well-positioned to manage these emissions effectively.</p>
+<p>A recent example is the <a href=""https://forum.arbitrum.foundation/t/aave-ltipp-application-final/21741"">Long Term Incentive Program (LTIPP)</a> from Arbitrum DAO, where Aave DAO will receive 750,000 ARB tokens, illustrating the benefits of coordinated emission management.</p>
+<h1><a name=""specification-6"" class=""anchor"" href=""#specification-6""></a><strong>Specification</strong></h1>
+<ol>
+<li>Appointment of ACI as Emission Manager for Liquidity Mining Programs
+<ol>
+<li>ACI will be authorized to manage Emission Programs for Liquidity Mining across Aave Markets.</li>
+<li>ACI’s multisig address will be the one receiving and distributing emissions on behalf of the DAO.</li>
+</ol>
+</li>
+<li>Appointment of ACI as coordinator with ecosystem partners, to define and implement emission strategies, managing the distribution of rewards to liquidity providers, and monitor &amp; adjust emissions based on market performance.</li>
+<li>Integration of Liquidity mining program as part of “Dolce Vita” service of the ACI at no extra cost for the DAO.</li>
+</ol>
+<h1><a name=""implementation-7"" class=""anchor"" href=""#implementation-7""></a>Implementation</h1>
+<p>The ACI multisig address will be set as the emission manager via the <strong><code>setEmissionAdmin()</code></strong> method in the relevant emission manager contracts.</p>
+<p>ACI multisig address: 0xac140648435d03f784879cd789130F22Ef588Fcd</p>
+<p>This method will appoint the Aave Chan Initiative (ACI) wallet as the emissions admin for all potential Liquidity Mining Programs.</p>
+<h1><a name=""disclaimer-8"" class=""anchor"" href=""#disclaimer-8""></a>Disclaimer</h1>
+<p>The ACI is not presenting this ARFC on behalf of any third party and is not compensated for creating this ARFC.</p>
+<h1><a name=""next-steps-9"" class=""anchor"" href=""#next-steps-9""></a>Next Steps</h1>
+<ol>
+<li>If consensus is reached on this [ARFC], escalate this proposal to the Snapshot stage.</li>
+<li>If the ARFC snapshot outcome is YAE, publish an AIP vote for final confirmation and enforcement of the proposal.</li>
+</ol>
+<h1><a name=""copyright-10"" class=""anchor"" href=""#copyright-10""></a>Copyright</h1>
+<p>Copyright and related rights waived via <a href=""https://creativecommons.org/publicdomain/zero/1.0/"">CC0</a>.</p>"
+aavedao.eth,0x364de11d3a298f2c76721a8926cb32823cc29d0a95eadecbc0a98c628a38194b,[ARFC] Set ACI as Emission Manager for Liquidity Mining Programs ,https://governance.aave.com/t/arfc-set-aci-as-emission-manager-for-liquidity-mining-programs/17898,45424,2,,ACI,2024-06-11T19:00:08.110Z,1718132408,,"<p>The current proposal has been escalated to <a href=""https://snapshot.org/#/aave.eth/proposal/0x364de11d3a298f2c76721a8926cb32823cc29d0a95eadecbc0a98c628a38194b"">ARFC Snapshot</a>.</p>
+<p>Vote will start tomorrow, we encourage everyone to participate.</p>"
+aavedao.eth,0xdd9e4c8f5290489987463a45a24e419abaef0416ea77a2a4d019789591dc18d6,[TEMP CHECK] Launch Aave V3 on Kava EVM ,https://governance.aave.com/t/temp-check-launch-aave-v3-on-kava-evm/15829,39153,1,,TommyKavaEVM,2023-12-13T01:34:24.494Z,1702431264,,"<p>Authors: Various Kava Ecosystem Contributors</p>
+<p>Date: 2023/12/12</p>
+<p><strong>1. Simple Summary</strong></p>
+<p>KAVA in collaboration with PGov and Michigan Blockchain propose the integration of Aave V3 with KAVA. KAVA’s EVM compatibility and integration will be a crucial advancement for the Aave multichain vision. The integration will enable Aave to access the deep liquidity on Cosmos and enables Cosmos ecosystem users to get access to the premier lending protocol through KAVA</p>
+<p><strong>2. Motivation</strong></p>
+<p>This proposal aims to be a starting point in the process of bringing Aave to the KAVA Ecosystem and aims to provide necessary details to the Aave community to consider the merits of KAVA integration. Kava has been building out the cornerstones of a solid DeFi ecosystem since mainnet launch in 2022. The key dexes in the ecosystem are Kinetix (a Uniswap v3 dex plus perpetual trading platform built by the Quickswap team from Polygon), WAGMI (protocol owned liquidity dex), and Equilibre (a ve3,3 dex). There are a few burgeoning lending protocols on the chain, but with the team’s plans to deprecate the existing leading lending protocol on the Cosmos SDK side, Kava Lend, there exists an incredible opportunity for a blue chip lending protocol like Aave to establish market dominance on the EVM side.</p>
+<p>In addition to the market opportunity, the Kava ecosystem has an ongoing incentive program called the Kava Rise program which incentivizes protocol usage pro-rata based on TVL per protocol. Currently 1M Kava is being distributed per month to protocols pro-rata. Due to the proclivity for lending protocols to attract a significant portion of TVL in an ecosystem, Aave stands to earn the majority of these rewards. The current distribution of rewards is 1M Kava per month, and can increase pending governance approval as the ecosystem matures.</p>
+<p>The Kava Foundation has committed to providing liquidity mining rewards of a minimum of 1M Kava guaranteed over the first year for the Aave community.</p>
+<p><strong>Benefits of deploying on Kava</strong></p>
+<p>With the KAVA integration, Aave gets additional markets with Market Cap of $740M, ~200M of locked liquidity, native assets like ATOM, USDT, WBTC and more. KAVA itself is connected well within the Cosmos ecosystem, thus the integration will also enable the cosmos community to plug its deep $60Bn liquidity to Aave through KAVA.</p>
+<ul>
+<li>Kava today is the 12th largest chain by TVL, and 9th by number of deployed protocols as <a href=""https://defillama.com/chains"" rel=""noopener nofollow ugc"">per DefiLlama</a></li>
+<li>Kava is an EVM built on top of the Cosmos SDK, this also facilitates bringing Cosmos assets (like ATOM) natively onto the Protocol, which is not possible on other EVMs. AAVE has the opportunity to connect trading in the Cosmos and Ethereum.</li>
+<li>Kava is the largest of such an EVM chain with native Cosmos integration capabilities.</li>
+</ul>
+<p><strong>Why it makes sense for all parties involved to pursue this new deployment</strong></p>
+<p>In addition, Kava has recently garnered a partnership with Tether, as Tether selected Kava to be the native USDT distributor across the Cosmos. In other words, if a user wants an IBC denominated USDT that’s natively issued by Tether, that USDT needs to originate from Kava. In just a few short months, there has been over $150M USDT natively issued on the Kava blockchain.</p>
+<p>WETH is also available as an OFT on Kava via Stargate, and WBTC will soon be issued natively on Kava by Bitgo as well. This provides a plethora of native asset markets for Aave on Kava with deep liquidity.</p>
+<p>Some other bluechip deployments on Kava include Curve Finance, Beefy Finance, and an upcoming deployment from Yearn Finance as well.</p>
+<p>Kava’s latest partnership with Tether, Bitgo, LayerZero and other DApps mentioned above signify its steady commitment to provide a top of the line DeFi ecosystem to users.</p>
+<p>One unique benefit of an Aave v3 deployment on Kava is that Aave would be able to open up Cosmos based markets like ATOM natively on the EVM, which is currently not available on any other chain. We believe this opportunity to open up the Cosmos world to Aave presents a significant opportunity for the community.</p>
+<p><strong>3. Proof of Liquidity (POL) and Deposit Commitments:</strong></p>
+<p>The Kava Foundation has done a good job of managing its treasury in this recent bear market. Currently the treasury stands at ~360M Kava. The Foundation is happy to seed liquidity in initial markets with up to 50M Kava over the first year.</p>
+<p>As mentioned previously, the Kava Rise reward program exists to reward protocols pro-rata based on the amount TVL each project has on a monthly basis. With the commitment to seed liquidity, and the market opportunity for Aave to overtake the soon-to-be deprecated existing Kava Lend protocol, Aave has a clear opportunity to establish TVL and market dominance within the Kava ecosystem, and thereby earn a significant portion of existing 1M Kava/month liquidity mining rewards.</p>
+<p>In short, not only will Kava Foundation commit to seeding liquidity, but that seeded liquidity will also drive the flywheel of liquidity mining rewards for Aave users on Kava.</p>
+<p>Regardless of TVL, at a bare minimum, the Kava Foundation will commit to 1M Kava in liquidity mining rewards over the first year for the Aave community. It is completely up to the Aave community how it wants to use these rewards.</p>
+<p><strong>About Kava Rise Program</strong></p>
+<p>Kava Rise is an on-chain reward program that rewards builders on Kava. Rewards are distributed monthly on a pro-rata basis on the amount of TVL each project has. The current reward distribution is 1M Kava per month. And this amount can change/increase based on governance as the ecosystem continues to mature.</p>
+<p>Read more about the Kava Rise program<a href=""https://www.kava.io/developer-rewards"" rel=""noopener nofollow ugc""> here</a>.</p>
+<p><strong>4. Helpful Links</strong></p>
+<ul>
+<li>Audit 1: <a href=""https://skynet.certik.com/projects/kava"" class=""inline-onebox"" rel=""noopener nofollow ugc"">Kava - CertiK Skynet Project Insight</a></li>
+<li>Documentation:<a href=""https://docs.kava.io"" rel=""noopener nofollow ugc""> https://docs.kava.io</a></li>
+<li>Explorers:<a href=""https://www.mintscan.io/kava"" rel=""noopener nofollow ugc""> Mintscan</a>,<a href=""https://kavascan.com/"" rel=""noopener nofollow ugc""> Kavascan</a></li>
+<li><a href=""https://www.kava.io/ecosystem"" rel=""noopener nofollow ugc"">KAVA Ecosystem overview</a></li>
+<li>Kave <a href=""https://defillama.com/chain/Kava"" rel=""noopener nofollow ugc"">Defillama</a></li>
+<li><a href=""https://www.kava.io/developer-rewards"" rel=""noopener nofollow ugc"">Kava Rise Program</a></li>
+</ul>
+<p><strong>5. Disclaimer:</strong></p>
+<p>The authors of this proposal include various contributors/contractors of the Kava Ecosystem.</p>
+<p><strong>6. Next Steps</strong></p>
+<ol>
+<li>If consensus is reached on this [TEMP CHECK], escalate this proposal to the Snapshot stage.</li>
+<li>If the Snapshot outcome is YAE, this proposal will be escalated to ARFC stage</li>
+<li>Publication of a standard ARFC, collect community &amp; service providers feedback before escalating proposal to ARFC snapshot stage</li>
+<li>If the ARFC snapshot outcome is YAE, publish an AIP vote for final confirmation and enforcement of the proposal</li>
+</ol>
+<p><strong>7. Copyright:</strong></p>
+<p>Copyright and related rights waived under <a href=""https://creativecommons.org/publicdomain/zero/1.0/"" rel=""noopener nofollow ugc"">CC0</a>.</p>"
+aavedao.eth,0xdd9e4c8f5290489987463a45a24e419abaef0416ea77a2a4d019789591dc18d6,[TEMP CHECK] Launch Aave V3 on Kava EVM ,https://governance.aave.com/t/temp-check-launch-aave-v3-on-kava-evm/15829,39209,2,,Kene_StableLab,2023-12-15T00:06:22.484Z,1702598782,,"<p>We are in support of this proposal, from our perspective, it is clear that Kava has complied with the new requirements for Aave Network deployments.</p>
+<p>We are keen to hear comments from other members of the community.</p>"
+aavedao.eth,0xdd9e4c8f5290489987463a45a24e419abaef0416ea77a2a4d019789591dc18d6,[TEMP CHECK] Launch Aave V3 on Kava EVM ,https://governance.aave.com/t/temp-check-launch-aave-v3-on-kava-evm/15829,39848,3,,ACI,2024-01-07T08:01:52.729Z,1704614512,,"<p>This proposal has been escalated to the <a href=""https://snapshot.org/#/aave.eth/proposal/0xdd9e4c8f5290489987463a45a24e419abaef0416ea77a2a4d019789591dc18d6"">snapshot </a> stage</p>
+<p>Vote starts tomorrow.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57439,1,,KemarTiti,2024-08-28T14:36:06.242Z,1724855766,,"<ul>
+<li><strong>Abstract</strong></li>
+</ul>
+<p>This proposal seeks a 12 weeks extension (until November 30) of the Pyth Network’s <a href=""https://forum.arbitrum.foundation/t/pyth-network-ltipp-application-draft/22003"">previously approved LTIPP grant</a>.</p>
+<p>Initially, the Pyth Network was allocated 1,000,000 ARB through the LTIPP process. To date, we have utilized approximately 75,042 ARB over the 12-week duration of the program.</p>
+<p>We are requesting to retain 174,958 ARB, bringing our total expenditure to 250,000 ARB out of the original 1,000,000, until the new grant programs are established.</p>
+<ul>
+<li><strong>Motivation</strong></li>
+</ul>
+<p>We want to highlight that incentives for infrastructure protocols and public goods, such as the Pyth oracle, typically do not yield immediate results. The impact from making such incentives available to DeFi often unfolds over weeks or even months.</p>
+<p>For existing DeFi applications, switching to a new oracle involves significant effort and may require a new audit. Similarly, expanding from other chains to Arbitrum can be more time-consuming than anticipated, as illustrated by the Synthetix case <a href=""https://forum.arbitrum.foundation/t/synthetix-ltipp-application-final/22023/20"">here</a>.</p>
+<p>Thanks to the initial LTIPP program, Arbitrum dApps had the ability to build robust oracle systems covering over 500 assets, including cryptocurrencies, FX, stocks, ETFs, and commodities. This advancement has eliminated outdated on-chain price updates and high costs, reinforcing Arbitrum’s position as a premier layer for DeFi. This progress empowers developers to create cutting-edge applications without constraints. This extension aims to keep the momentum and further empower potential new entrants like Synthetix to deliver a best-in-class protocol.</p>
+<ul>
+<li><strong>Rationale</strong></li>
+</ul>
+<p>The proposed extension of the Pyth Network’s LTIPP grant is designed to further cultivate a thriving and innovative DeFi ecosystem on Arbitrum. The LTIPP program has already proven its effectiveness, with Pyth price updates on-chain increasing by 2-3 times and peaking at nearly 10 times the previous levels, reaching over 70,000 updates on July 14.</p>
+<p>Before the program began, the total value secured by the Pyth oracle on Arbitrum was just over 43,000 ETH. This figure has since risen to 52,500 ETH, reflecting an increase of more than 20%.</p>
+<p>Pyth has also enabled over $16.1 billion in trading volume on various Arbitrum decentralized perpetual exchanges during June and July (with August data pending). This  underscores the benefits for applications powered by Pyth Network: protocols using Pyth have experienced, including increased total value locked (TVL), higher trading volumes, and more frequent price updates driven by a growing number of applications utilizing Pyth.</p>
+<p>The request for a 12-week extension, with a reduced ARB allocation, is part of our commitment towards responsible resource management commitment to responsible resource management while continuing to support the long-term success of applications built on Arbitrum that leverage Pyth. By covering the gas costs for using the Pyth oracle, the network has enabled more developers to create robust DeFi applications without the burden of high operational expenses.</p>
+<p>This strategy strengthens Arbitrum’s position as a premier platform for DeFi innovation, where developers can access over 500 price feeds without financial or technical constraints.</p>
+<p>It’s important to understand that the impact of incentives for infastructure protocols and public goods like the Pyth price oracle are not immediate: it often takes weeks or even months to materialize.</p>
+<p>Furthermore, it’s important to recognize that the impact of incentives for infrastructure protocols and public goods like the Pyth oracle is not immediate; it often takes weeks or even months to materialize.</p>
+<p>This proposal, aims to build on the momentum generated by the initial LTIPP program, ensuring the continued growth and expansion of the Arbitrum ecosystem as new grant strategies are developed and implemented.</p>
+<ul>
+<li><strong>Key Terms</strong></li>
+</ul>
+<ol>
+<li>On-demand or pull oracle: An oracle network where anyone can permissionlessly trigger price updates on-chain by doing an Arbitrum tx</li>
+</ol>
+<ul>
+<li><strong>Specifications</strong></li>
+</ul>
+<ol>
+<li>13 weeks duration</li>
+<li>175,000 ARB</li>
+</ol>
+<p>The proposed extension duration is similar to that of the previous LTIPP program—12 weeks versus 13 weeks (including retroactive rebates for the end of August). However, the amount of ARB tokens requested for gas rebates has increased from 75,000 ARB to 175,000 ARB.</p>
+<p>This increase reflects an anticipated rise in activity and associated costs, estimated at approximately 133%. The launch of Synthetix’s Multi-Collateral Perps on Arbitrum is expected to drive a substantial increase in the number of price updates triggered on-chain. For context, Synthetix currently triggers around 1,000 daily updates on Optimism and between 3,000 and 5,000 daily updates on Base—both without additional incentives in place.</p>
+<ul>
+<li><strong>Steps to Implement</strong></li>
+</ul>
+<p>If the Arbitrum DAO approves this extension, no additional work or involvement will be required from the DAO itself. The responsibility for managing the funds and continuing the program would remain entirely with the Pyth Data Association.</p>
+<p>As during the initial 12 weeks of the LTIPP, the Pyth Data Association would continue reimbursing dApps for gas costs every two weeks. Additionally, we would maintain our practice of providing bi-weekly updates on the Arbitrum forum to ensure transparency and accountability. Our latest report is available <a href=""https://forum.arbitrum.foundation/t/pyth-network-bi-weekly-update-26-august-2024/26525"">here</a>, and we are open to including even more detailed data and information in these reports if needed.</p>
+<p>Since this is an extension of an already approved grant, no additional legal work is necessary. The Pyth Data Association has already completed KYC and signed the grant agreement with the Arbitrum Foundation.</p>
+<ul>
+<li><strong>Timeline</strong></li>
+</ul>
+<p>The LTIPP program officially ended on August 26, and until this extension proposal is approved, the Pyth Data Association has paused reimbursing the gas costs incurred by dApps during this period.</p>
+<p>If approved, the extension would be applied retroactively, starting from the end of the LTIPP program on August 26. This means that, depending on the timing of the Snapshot vote, there could be up to 2-3 weeks of retroactive gas rebates.</p>
+<p>The proposed extension would conclude on November 30, 2024.</p>
+<ul>
+<li><strong>Overall Cost</strong></li>
+</ul>
+<p>The cost to the Arbitrum DAO can be seen as an opportunity cost of 174,958 ARB, or potentially even less. Originally, the DAO approved a grant of 1,000,000 ARB—funds that were effectively budgeted and allocated—of which only 75,042 ARB was utilized during the 12-week LTIPP period.</p>
+<p>We are now requesting to retain 174,958 ARB from the initial allocation to continue offsetting costs for DeFi applications that use Pyth’s on-demand price feeds. The remaining 750,000 ARB will be returned to the Arbitrum DAO as previously agreed under the LTIPP program. Furthermore, if any funds remain unspent before the outlined timeline concludes, Pyth Data Association will promptly return those ARB tokens to the DAO.</p>
+<ul>
+<li><strong>Additional Context</strong></li>
+</ul>
+<p>We have been actively seeking feedback and advice from <a class=""mention"" href=""/u/matt_stablelab"">@Matt_StableLab</a> to determine the best approach for moving forward with this extension request.</p>
+<p>Our interest in extending the LTIPP grant was initiated in the original LTIPP discussion <a href=""https://forum.arbitrum.foundation/t/pyth-network-ltipp-application-draft/22003/10"">here</a>.</p>
+<p>Currently, we plan to submit this extension request on Snapshot by Thursday, September 5, with support from Wintermute. This timeline allows ample opportunity to gather feedback on the proposal and make any necessary adjustments based on input from the DAO.</p>
+<p>Please note that Wintermute will merely be sponsoring the proposal as a delegate which is separate from their role as an LTIPP Council member.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57485,2,,duokongcrypto,2024-08-29T04:47:30.893Z,1724906850,,"<p>Incentives for infrastructure protocols and public goods such as Pyth prophetic machines usually don’t have an immediate effect, agreed. pyth as the leading infrastructure, the ARB ecosystem needs your long term builds. in fact why not think about 1 million ARB of funding to consider giving a portion of the incentive to pledge users as a way of encouraging pledge users of PYTH</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57495,3,,0xPongi,2024-08-29T08:38:02.508Z,1724920682,,"<p>I fully support the extension of the LTIPP for Pyth Network. The initial program has already demonstrated substantial value with significant improvements in access to price feeds. As a core contributor to Pingu Exchange, which has benefited from the program, I believe that extending the grant will allow the momentum to continue.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57504,4,,ggmatch,2024-08-29T11:07:45.934Z,1724929665,,"<p>I support the extension, oracle diversity is much needed in our space and Pyth has shown constant professionalism in the years.<br>
+I think this is particularly important on a chain like Arbitrum which is the main DeFi hub between L2s.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57542,5,,cp0x,2024-08-29T22:02:53.734Z,1724968973,,"<p>I welcome the continued funding of Pyth<br>
+and understand that the financial expenditure here differs from standard protocols,<br>
+which themselves can increase the size of incentives.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57545,6,,Bruce,2024-08-29T22:51:00.939Z,1724971860,,"<p>This proposal is reasonable, as oracles-just like the Pyth nethwork, being infrastructure protocols, are essential for the development of the DeFi ecosystem, cause the prices of assets is of crucial importance in any network. The effectiveness of the initial 12-week LTIPP has already been smoothly demonstrated, and the allocated funds have been used appropriately. Since the impact of building infrastructure protocols takes time to manifest, so extending the program for another 12 weeks is justified.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57556,7,,0xTALVO.ETH_MTY,2024-08-30T01:37:45.867Z,1724981865,,"<p>Hi <a class=""mention"" href=""/u/kemartiti"">@KemarTiti</a><br>
+How does this extension align with the long-term vision for Pyth Network on Arbitrum? Are there other strategic initiatives you’re considering to further integrate Pyth within the Arbitrum ecosystem?</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57561,8,7.0,KemarTiti,2024-08-30T05:48:05.714Z,1724996885,,"<p>gm <a class=""mention"" href=""/u/0xtalvo.eth_mty"">@0xTALVO.ETH_MTY</a></p>
+<p>As for any oracle (or infrastructure provider), success is measured by the success of those who depend upon it. The initial LTIPP program granted to the Pyth oracle has already shown a great success in increasing key metrics for Arbitrum DeFi apps such an increase in TVL, trading volume (for perpetual protocols) and a significantly greater availability of freely available price updates onchain (reminder that reading Pyth prices onchain is free, only writing incurs costs).</p>
+<p>By extending the program, Pyth Network aims to build on this momentum, ensuring that Arbitrum remains a leading layer for DeFi innovation.</p>
+<p>For the latter question, the first thing that comes to mind is the support of the tentative/upcoming stARB token with a Pyth price feed. This would enable all Arbitrum dApps (money-market to perpetual protocols) to integrate and support this asset that is likely to get a significant traction given its properties.</p>
+<p>A positive side-effect outside of Arbitrum is that a Pyth stARB price feed would also be automatically available on all the other chains (70+) Pyth supports - and here Arbitrum Orbit chains could also greatly benefit from that as the Pyth oracle expands there.</p>
+<p>And as a matter of fact, the Pyth oracle has been <a href=""https://xchain-explorer.idex.io/address/0x2880aB155794e7179c9eE2e38200202908C17B43"" rel=""noopener nofollow ugc"">deployed on XCHAIN</a>, a brand new Orbit chain for IDEX, an omnichain perpetual protocol.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57564,9,8.0,0xTALVO.ETH_MTY,2024-08-30T06:57:32.570Z,1725001052,,"<p>Thanks for the quick response <a class=""mention"" href=""/u/kemartiti"">@KemarTiti</a></p>
+<p>The initial LTIPP program’s success is evident in the increased metrics and enhanced price feed availability. I think extending the program will undoubtedly build on this momentum and solidify Arbitrum’s position in DeFi. I trust the Pyth Network to continue driving this growth effectively.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57877,10,,Tane,2024-09-05T02:58:51.760Z,1725505131,,"<p>We support the program’s current success and strongly agree that Pyth should continue to receive funding to contribute to the Arbitrum ecosystem.</p>
+<p>There’s just one point we’d like to suggest for improvement. Regarding your bi-weekly reports, would it be possible to include your own analysis and insights? The current reports primarily consist of basic numerical data, and we believe it would be valuable if you could provide context on what factors influenced changes in these numbers.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57880,11,,KemarTiti,2024-09-05T03:11:27.840Z,1725505887,,"<p>FYI the proposal went live on Snapshot today</p>
+<p><a href=""https://snapshot.org/#/arbitrumfoundation.eth/proposal/0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94"" class=""onebox"" target=""_blank"" rel=""noopener nofollow ugc"">https://snapshot.org/#/arbitrumfoundation.eth/proposal/0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94</a></p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57882,12,10.0,KemarTiti,2024-09-05T03:13:53.037Z,1725506033,,"<p>Hey <a class=""mention"" href=""/u/tane"">@Tane</a></p>
+<p>Definitely, happy to do so!</p>
+<p>Have you seen some analysis/insights shared in the past you liked? Both content and structure? Whether within the Arbitrum DAO or elsewhere?</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57948,13,,EzR3aL,2024-09-05T13:35:44.486Z,1725543344,,<p>Supportive of different oracle provider and happy to support Pyth here. Hoping for longterm alginment with Arbitrum.</p>
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57950,14,12.0,Tane,2024-09-05T15:21:37.108Z,1725549697,,"<p>We find this report (and suggestions included as a proposal, which is not relevant for this case) made for Uniswap interesting: <a href=""https://gov.uniswap.org/t/rfc-proposal-to-active-2-3-4-bps-fee-tiers-on-base/24346"" class=""inline-onebox"" rel=""noopener nofollow ugc"">[RFC] Proposal to active 2, 3, 4 bps fee-tiers on Base - Proposal Discussion - Uniswap Governance</a>. It has covered not only metrics and numbers, but insights and explorations as well.</p>
+<p>Reviewing <a href=""https://forum.arbitrum.foundation/t/pyth-network-bi-weekly-update-26-august-2024/26525"">your report</a>, we believe <em>Average daily TVL, Average daily transactions, Usage per day &amp; Usage per contract</em> are important in your reports. Structurally, it’s crucial to have not only the numbers, but also their details and possible reasons for fluctuations.</p>
+<p>By sharing such information with the community, the DAO can better understand how Pyth utilizes the incentives provided by Arbitrum and what it learned from the experiment.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57951,15,,PennBlockchain,2024-09-05T16:14:39.981Z,1725552879,,"<p>The FranklinDAO / Penn Blockchain Team voted <strong>FOR</strong> this proposal on Snapshot. We appreciate Pyth’s responsible use of the LTIPP funds. We are excited to see the growth of Synthetix multi-collateral perps and see how usage will stack up against other perps platforms like Hyperliquid and GMX.</p>
+<p>Regarding the weekly reports, we would like to see the <a href=""https://dune.com/queries/3724550?from__d83555=2024-07-29+00:00:00&amp;to__d83555=2024-08-12+00:00:00"" rel=""noopener nofollow ugc"">Dune Dashboard</a> for usage per contract label each wallet address for ease of understanding.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57969,16,,BlockworksResearch,2024-09-05T18:35:00.800Z,1725561300,,"<p>Pyth submitted their extension application request early, similar to Synthetix, and thus we should honor the request for similar reasons we posted in the Synthetix proposal. Though, we do think that Pyth can certainly be evaluated on its performance by some metric, what are the total number of protocols they service, etc.</p>
+<p>As we had said in the Synthetix thread, we would like to know if there is anything that the DAO can do to better prepare protocols for possible delays. What could be a possible communication channel to relay this information better or minimize the amount of extension requests to hit the DAO forums for decision making? Should the LTIPP council have been given the proper clearance to push an extension or does this belong to some oversight body separate from the general DAO body.</p>
+<p>It’s worth noting that while Pyth received 1M in ARB for incentives, only 75,000 had been used by the end of the LTIPP. This could indicate an unintentional oversight in fund allocation. Moving forward, it would be helpful to reassess how we distribute funding to ensure we’re aligning with actual needs and optimizing ARB resources.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,58001,17,,Larva,2024-09-06T02:13:06.208Z,1725588786,,"<p>LTIPP has significantly contributed to Pyth’s development, which is evident to all. It is entirely reasonable for Pyth to apply for an extension of the LTIPP, especially since the budget is not excessively large, which is commendable. I always believe that for a business organization to succeed, it must strive to control costs—achieving more with less has always been my guiding principle. Therefore, I fully support this proposal.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,58023,18,,0xDonPepe,2024-09-06T06:58:01.412Z,1725605881,,"<p>Just voted in favor of this proposal on Snapshot. Oracles like Pyth are essential to DeFi, providing the accurate and timely data that keeps everything running smoothly. This extension, along with the Synthetix LTIP extension, go hand-in-hand as they work together to support DeFi incentives on Arbitrum—something we really need in this tough market.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,58107,19,16.0,JoJo,2024-09-07T07:52:18.515Z,1725695538,,"<aside class=""quote no-group"" data-username=""BlockworksResearch"" data-post=""16"" data-topic=""26533"">
+<div class=""title"">
+<div class=""quote-controls""></div>
+<img alt="""" width=""24"" height=""24"" src=""https://yyz1.discourse-cdn.com/flex029/user_avatar/forum.arbitrum.foundation/blockworksresearch/48/14962_2.png"" class=""avatar""> BlockworksResearch:</div>
+<blockquote>
+<p>It’s worth noting that while Pyth received 1M in ARB for incentives, only 75,000 had been used by the end of the LTIPP. This could indicate an unintentional oversight in fund allocation. Moving forward, it would be helpful to reassess how we distribute funding to ensure we’re aligning with actual needs and optimizing ARB resources.</p>
+</blockquote>
+</aside>
+<p>educated and wild guess on my side, the application was crafted and evaluated with pre dencun metrics. This has been one of the (several) challenges for both protocols and advisors during LTIPP program. Since in the <a href=""https://www.arbgrants.com/d/Arbitrum%20LTIPP/Grants-M-R/Pyth-Network"" rel=""noopener nofollow ugc"">PYTH reporting</a> there is no mention of specific delay in integration, I might just be right here but happy to have more details. Also, the byproduct of this result for future program could be that for infra projects a pre-allocated budget might not be the way to got.</p>
+<p>Going back to the snapshot, as for the synthetix application, I am, unfortunately, voting against it, as well as the other extention requests in Arbitrum. To quote my previous answer:</p>
+<aside class=""quote no-group"" data-username=""JoJo"" data-post=""14"" data-topic=""26524"">
+<div class=""title"">
+<div class=""quote-controls""></div>
+<img alt="""" width=""24"" height=""24"" src=""https://yyz1.discourse-cdn.com/flex029/user_avatar/forum.arbitrum.foundation/jojo/48/2666_2.png"" class=""avatar""><a href=""https://forum.arbitrum.foundation/t/rfc-synthetix-ltip-grant-extension-request/26524/14"">[RFC] Synthetix LTIP Grant Extension Request</a></div>
+<blockquote>
+<p>I would have normally been in favour if it wasn’t for the detox proposal just recently presented, and passed, in our DAO; but that proposal is an extremely important signal about 1) trying to see what happens to our chains with no incentives 2) give the time to the DAO to best reflect how to weaponize these programs in future. There is also the secondary point, not necessarily as important but indeed important, about competitive advantages of protocols asking for an extention versus protocols that just finished in LTIPP or about to finish in STIP.</p>
+</blockquote>
+</aside>
+<p>In here we have a different situation, which is a potential usage of funds for an infra product, so I could see the merit of the extention. But the mix of the detox proposal + the fact that most of the leftover funds are tied, in my understanding, to lower costs than expected, means that the only real reason to keep Pyth in an extention would be to facilitate his role in Arbitrum. This is something we could advocate for Synthetix and Aave as well, even if their role is different. Again, the vote of the DAO for the detox proposal is more important, and should just be respected by participants.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,58211,20,,kuiclub,2024-09-09T05:05:50.562Z,1725858350,,"<p>In favour of this proposal, pyth, as the leading prophecy predicator protocol, is the infrastructure for many network protocols and has a very important place in the arb ecology as well, and as it takes time for the infrastructure to be updated and developed, this extension makes sense.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57439,1,,KemarTiti,2024-08-28T14:36:06.242Z,1724855766,,"<ul>
+<li><strong>Abstract</strong></li>
+</ul>
+<p>This proposal seeks a 12 weeks extension (until November 30) of the Pyth Network’s <a href=""https://forum.arbitrum.foundation/t/pyth-network-ltipp-application-draft/22003"">previously approved LTIPP grant</a>.</p>
+<p>Initially, the Pyth Network was allocated 1,000,000 ARB through the LTIPP process. To date, we have utilized approximately 75,042 ARB over the 12-week duration of the program.</p>
+<p>We are requesting to retain 174,958 ARB, bringing our total expenditure to 250,000 ARB out of the original 1,000,000, until the new grant programs are established.</p>
+<ul>
+<li><strong>Motivation</strong></li>
+</ul>
+<p>We want to highlight that incentives for infrastructure protocols and public goods, such as the Pyth oracle, typically do not yield immediate results. The impact from making such incentives available to DeFi often unfolds over weeks or even months.</p>
+<p>For existing DeFi applications, switching to a new oracle involves significant effort and may require a new audit. Similarly, expanding from other chains to Arbitrum can be more time-consuming than anticipated, as illustrated by the Synthetix case <a href=""https://forum.arbitrum.foundation/t/synthetix-ltipp-application-final/22023/20"">here</a>.</p>
+<p>Thanks to the initial LTIPP program, Arbitrum dApps had the ability to build robust oracle systems covering over 500 assets, including cryptocurrencies, FX, stocks, ETFs, and commodities. This advancement has eliminated outdated on-chain price updates and high costs, reinforcing Arbitrum’s position as a premier layer for DeFi. This progress empowers developers to create cutting-edge applications without constraints. This extension aims to keep the momentum and further empower potential new entrants like Synthetix to deliver a best-in-class protocol.</p>
+<ul>
+<li><strong>Rationale</strong></li>
+</ul>
+<p>The proposed extension of the Pyth Network’s LTIPP grant is designed to further cultivate a thriving and innovative DeFi ecosystem on Arbitrum. The LTIPP program has already proven its effectiveness, with Pyth price updates on-chain increasing by 2-3 times and peaking at nearly 10 times the previous levels, reaching over 70,000 updates on July 14.</p>
+<p>Before the program began, the total value secured by the Pyth oracle on Arbitrum was just over 43,000 ETH. This figure has since risen to 52,500 ETH, reflecting an increase of more than 20%.</p>
+<p>Pyth has also enabled over $16.1 billion in trading volume on various Arbitrum decentralized perpetual exchanges during June and July (with August data pending). This  underscores the benefits for applications powered by Pyth Network: protocols using Pyth have experienced, including increased total value locked (TVL), higher trading volumes, and more frequent price updates driven by a growing number of applications utilizing Pyth.</p>
+<p>The request for a 12-week extension, with a reduced ARB allocation, is part of our commitment towards responsible resource management commitment to responsible resource management while continuing to support the long-term success of applications built on Arbitrum that leverage Pyth. By covering the gas costs for using the Pyth oracle, the network has enabled more developers to create robust DeFi applications without the burden of high operational expenses.</p>
+<p>This strategy strengthens Arbitrum’s position as a premier platform for DeFi innovation, where developers can access over 500 price feeds without financial or technical constraints.</p>
+<p>It’s important to understand that the impact of incentives for infastructure protocols and public goods like the Pyth price oracle are not immediate: it often takes weeks or even months to materialize.</p>
+<p>Furthermore, it’s important to recognize that the impact of incentives for infrastructure protocols and public goods like the Pyth oracle is not immediate; it often takes weeks or even months to materialize.</p>
+<p>This proposal, aims to build on the momentum generated by the initial LTIPP program, ensuring the continued growth and expansion of the Arbitrum ecosystem as new grant strategies are developed and implemented.</p>
+<ul>
+<li><strong>Key Terms</strong></li>
+</ul>
+<ol>
+<li>On-demand or pull oracle: An oracle network where anyone can permissionlessly trigger price updates on-chain by doing an Arbitrum tx</li>
+</ol>
+<ul>
+<li><strong>Specifications</strong></li>
+</ul>
+<ol>
+<li>13 weeks duration</li>
+<li>175,000 ARB</li>
+</ol>
+<p>The proposed extension duration is similar to that of the previous LTIPP program—12 weeks versus 13 weeks (including retroactive rebates for the end of August). However, the amount of ARB tokens requested for gas rebates has increased from 75,000 ARB to 175,000 ARB.</p>
+<p>This increase reflects an anticipated rise in activity and associated costs, estimated at approximately 133%. The launch of Synthetix’s Multi-Collateral Perps on Arbitrum is expected to drive a substantial increase in the number of price updates triggered on-chain. For context, Synthetix currently triggers around 1,000 daily updates on Optimism and between 3,000 and 5,000 daily updates on Base—both without additional incentives in place.</p>
+<ul>
+<li><strong>Steps to Implement</strong></li>
+</ul>
+<p>If the Arbitrum DAO approves this extension, no additional work or involvement will be required from the DAO itself. The responsibility for managing the funds and continuing the program would remain entirely with the Pyth Data Association.</p>
+<p>As during the initial 12 weeks of the LTIPP, the Pyth Data Association would continue reimbursing dApps for gas costs every two weeks. Additionally, we would maintain our practice of providing bi-weekly updates on the Arbitrum forum to ensure transparency and accountability. Our latest report is available <a href=""https://forum.arbitrum.foundation/t/pyth-network-bi-weekly-update-26-august-2024/26525"">here</a>, and we are open to including even more detailed data and information in these reports if needed.</p>
+<p>Since this is an extension of an already approved grant, no additional legal work is necessary. The Pyth Data Association has already completed KYC and signed the grant agreement with the Arbitrum Foundation.</p>
+<ul>
+<li><strong>Timeline</strong></li>
+</ul>
+<p>The LTIPP program officially ended on August 26, and until this extension proposal is approved, the Pyth Data Association has paused reimbursing the gas costs incurred by dApps during this period.</p>
+<p>If approved, the extension would be applied retroactively, starting from the end of the LTIPP program on August 26. This means that, depending on the timing of the Snapshot vote, there could be up to 2-3 weeks of retroactive gas rebates.</p>
+<p>The proposed extension would conclude on November 30, 2024.</p>
+<ul>
+<li><strong>Overall Cost</strong></li>
+</ul>
+<p>The cost to the Arbitrum DAO can be seen as an opportunity cost of 174,958 ARB, or potentially even less. Originally, the DAO approved a grant of 1,000,000 ARB—funds that were effectively budgeted and allocated—of which only 75,042 ARB was utilized during the 12-week LTIPP period.</p>
+<p>We are now requesting to retain 174,958 ARB from the initial allocation to continue offsetting costs for DeFi applications that use Pyth’s on-demand price feeds. The remaining 750,000 ARB will be returned to the Arbitrum DAO as previously agreed under the LTIPP program. Furthermore, if any funds remain unspent before the outlined timeline concludes, Pyth Data Association will promptly return those ARB tokens to the DAO.</p>
+<ul>
+<li><strong>Additional Context</strong></li>
+</ul>
+<p>We have been actively seeking feedback and advice from <a class=""mention"" href=""/u/matt_stablelab"">@Matt_StableLab</a> to determine the best approach for moving forward with this extension request.</p>
+<p>Our interest in extending the LTIPP grant was initiated in the original LTIPP discussion <a href=""https://forum.arbitrum.foundation/t/pyth-network-ltipp-application-draft/22003/10"">here</a>.</p>
+<p>Currently, we plan to submit this extension request on Snapshot by Thursday, September 5, with support from Wintermute. This timeline allows ample opportunity to gather feedback on the proposal and make any necessary adjustments based on input from the DAO.</p>
+<p>Please note that Wintermute will merely be sponsoring the proposal as a delegate which is separate from their role as an LTIPP Council member.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57485,2,,duokongcrypto,2024-08-29T04:47:30.893Z,1724906850,,"<p>Incentives for infrastructure protocols and public goods such as Pyth prophetic machines usually don’t have an immediate effect, agreed. pyth as the leading infrastructure, the ARB ecosystem needs your long term builds. in fact why not think about 1 million ARB of funding to consider giving a portion of the incentive to pledge users as a way of encouraging pledge users of PYTH</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57495,3,,0xPongi,2024-08-29T08:38:02.508Z,1724920682,,"<p>I fully support the extension of the LTIPP for Pyth Network. The initial program has already demonstrated substantial value with significant improvements in access to price feeds. As a core contributor to Pingu Exchange, which has benefited from the program, I believe that extending the grant will allow the momentum to continue.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57504,4,,ggmatch,2024-08-29T11:07:45.934Z,1724929665,,"<p>I support the extension, oracle diversity is much needed in our space and Pyth has shown constant professionalism in the years.<br>
+I think this is particularly important on a chain like Arbitrum which is the main DeFi hub between L2s.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57542,5,,cp0x,2024-08-29T22:02:53.734Z,1724968973,,"<p>I welcome the continued funding of Pyth<br>
+and understand that the financial expenditure here differs from standard protocols,<br>
+which themselves can increase the size of incentives.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57545,6,,Bruce,2024-08-29T22:51:00.939Z,1724971860,,"<p>This proposal is reasonable, as oracles-just like the Pyth nethwork, being infrastructure protocols, are essential for the development of the DeFi ecosystem, cause the prices of assets is of crucial importance in any network. The effectiveness of the initial 12-week LTIPP has already been smoothly demonstrated, and the allocated funds have been used appropriately. Since the impact of building infrastructure protocols takes time to manifest, so extending the program for another 12 weeks is justified.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57556,7,,0xTALVO.ETH_MTY,2024-08-30T01:37:45.867Z,1724981865,,"<p>Hi <a class=""mention"" href=""/u/kemartiti"">@KemarTiti</a><br>
+How does this extension align with the long-term vision for Pyth Network on Arbitrum? Are there other strategic initiatives you’re considering to further integrate Pyth within the Arbitrum ecosystem?</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57561,8,7.0,KemarTiti,2024-08-30T05:48:05.714Z,1724996885,,"<p>gm <a class=""mention"" href=""/u/0xtalvo.eth_mty"">@0xTALVO.ETH_MTY</a></p>
+<p>As for any oracle (or infrastructure provider), success is measured by the success of those who depend upon it. The initial LTIPP program granted to the Pyth oracle has already shown a great success in increasing key metrics for Arbitrum DeFi apps such an increase in TVL, trading volume (for perpetual protocols) and a significantly greater availability of freely available price updates onchain (reminder that reading Pyth prices onchain is free, only writing incurs costs).</p>
+<p>By extending the program, Pyth Network aims to build on this momentum, ensuring that Arbitrum remains a leading layer for DeFi innovation.</p>
+<p>For the latter question, the first thing that comes to mind is the support of the tentative/upcoming stARB token with a Pyth price feed. This would enable all Arbitrum dApps (money-market to perpetual protocols) to integrate and support this asset that is likely to get a significant traction given its properties.</p>
+<p>A positive side-effect outside of Arbitrum is that a Pyth stARB price feed would also be automatically available on all the other chains (70+) Pyth supports - and here Arbitrum Orbit chains could also greatly benefit from that as the Pyth oracle expands there.</p>
+<p>And as a matter of fact, the Pyth oracle has been <a href=""https://xchain-explorer.idex.io/address/0x2880aB155794e7179c9eE2e38200202908C17B43"" rel=""noopener nofollow ugc"">deployed on XCHAIN</a>, a brand new Orbit chain for IDEX, an omnichain perpetual protocol.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57564,9,8.0,0xTALVO.ETH_MTY,2024-08-30T06:57:32.570Z,1725001052,,"<p>Thanks for the quick response <a class=""mention"" href=""/u/kemartiti"">@KemarTiti</a></p>
+<p>The initial LTIPP program’s success is evident in the increased metrics and enhanced price feed availability. I think extending the program will undoubtedly build on this momentum and solidify Arbitrum’s position in DeFi. I trust the Pyth Network to continue driving this growth effectively.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57877,10,,Tane,2024-09-05T02:58:51.760Z,1725505131,,"<p>We support the program’s current success and strongly agree that Pyth should continue to receive funding to contribute to the Arbitrum ecosystem.</p>
+<p>There’s just one point we’d like to suggest for improvement. Regarding your bi-weekly reports, would it be possible to include your own analysis and insights? The current reports primarily consist of basic numerical data, and we believe it would be valuable if you could provide context on what factors influenced changes in these numbers.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57880,11,,KemarTiti,2024-09-05T03:11:27.840Z,1725505887,,"<p>FYI the proposal went live on Snapshot today</p>
+<p><a href=""https://snapshot.org/#/arbitrumfoundation.eth/proposal/0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94"" class=""onebox"" target=""_blank"" rel=""noopener nofollow ugc"">https://snapshot.org/#/arbitrumfoundation.eth/proposal/0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94</a></p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57882,12,10.0,KemarTiti,2024-09-05T03:13:53.037Z,1725506033,,"<p>Hey <a class=""mention"" href=""/u/tane"">@Tane</a></p>
+<p>Definitely, happy to do so!</p>
+<p>Have you seen some analysis/insights shared in the past you liked? Both content and structure? Whether within the Arbitrum DAO or elsewhere?</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57948,13,,EzR3aL,2024-09-05T13:35:44.486Z,1725543344,,<p>Supportive of different oracle provider and happy to support Pyth here. Hoping for longterm alginment with Arbitrum.</p>
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57950,14,12.0,Tane,2024-09-05T15:21:37.108Z,1725549697,,"<p>We find this report (and suggestions included as a proposal, which is not relevant for this case) made for Uniswap interesting: <a href=""https://gov.uniswap.org/t/rfc-proposal-to-active-2-3-4-bps-fee-tiers-on-base/24346"" class=""inline-onebox"" rel=""noopener nofollow ugc"">[RFC] Proposal to active 2, 3, 4 bps fee-tiers on Base - Proposal Discussion - Uniswap Governance</a>. It has covered not only metrics and numbers, but insights and explorations as well.</p>
+<p>Reviewing <a href=""https://forum.arbitrum.foundation/t/pyth-network-bi-weekly-update-26-august-2024/26525"">your report</a>, we believe <em>Average daily TVL, Average daily transactions, Usage per day &amp; Usage per contract</em> are important in your reports. Structurally, it’s crucial to have not only the numbers, but also their details and possible reasons for fluctuations.</p>
+<p>By sharing such information with the community, the DAO can better understand how Pyth utilizes the incentives provided by Arbitrum and what it learned from the experiment.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57951,15,,PennBlockchain,2024-09-05T16:14:39.981Z,1725552879,,"<p>The FranklinDAO / Penn Blockchain Team voted <strong>FOR</strong> this proposal on Snapshot. We appreciate Pyth’s responsible use of the LTIPP funds. We are excited to see the growth of Synthetix multi-collateral perps and see how usage will stack up against other perps platforms like Hyperliquid and GMX.</p>
+<p>Regarding the weekly reports, we would like to see the <a href=""https://dune.com/queries/3724550?from__d83555=2024-07-29+00:00:00&amp;to__d83555=2024-08-12+00:00:00"" rel=""noopener nofollow ugc"">Dune Dashboard</a> for usage per contract label each wallet address for ease of understanding.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57969,16,,BlockworksResearch,2024-09-05T18:35:00.800Z,1725561300,,"<p>Pyth submitted their extension application request early, similar to Synthetix, and thus we should honor the request for similar reasons we posted in the Synthetix proposal. Though, we do think that Pyth can certainly be evaluated on its performance by some metric, what are the total number of protocols they service, etc.</p>
+<p>As we had said in the Synthetix thread, we would like to know if there is anything that the DAO can do to better prepare protocols for possible delays. What could be a possible communication channel to relay this information better or minimize the amount of extension requests to hit the DAO forums for decision making? Should the LTIPP council have been given the proper clearance to push an extension or does this belong to some oversight body separate from the general DAO body.</p>
+<p>It’s worth noting that while Pyth received 1M in ARB for incentives, only 75,000 had been used by the end of the LTIPP. This could indicate an unintentional oversight in fund allocation. Moving forward, it would be helpful to reassess how we distribute funding to ensure we’re aligning with actual needs and optimizing ARB resources.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,58001,17,,Larva,2024-09-06T02:13:06.208Z,1725588786,,"<p>LTIPP has significantly contributed to Pyth’s development, which is evident to all. It is entirely reasonable for Pyth to apply for an extension of the LTIPP, especially since the budget is not excessively large, which is commendable. I always believe that for a business organization to succeed, it must strive to control costs—achieving more with less has always been my guiding principle. Therefore, I fully support this proposal.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,58023,18,,0xDonPepe,2024-09-06T06:58:01.412Z,1725605881,,"<p>Just voted in favor of this proposal on Snapshot. Oracles like Pyth are essential to DeFi, providing the accurate and timely data that keeps everything running smoothly. This extension, along with the Synthetix LTIP extension, go hand-in-hand as they work together to support DeFi incentives on Arbitrum—something we really need in this tough market.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,58107,19,16.0,JoJo,2024-09-07T07:52:18.515Z,1725695538,,"<aside class=""quote no-group"" data-username=""BlockworksResearch"" data-post=""16"" data-topic=""26533"">
+<div class=""title"">
+<div class=""quote-controls""></div>
+<img alt="""" width=""24"" height=""24"" src=""https://yyz1.discourse-cdn.com/flex029/user_avatar/forum.arbitrum.foundation/blockworksresearch/48/14962_2.png"" class=""avatar""> BlockworksResearch:</div>
+<blockquote>
+<p>It’s worth noting that while Pyth received 1M in ARB for incentives, only 75,000 had been used by the end of the LTIPP. This could indicate an unintentional oversight in fund allocation. Moving forward, it would be helpful to reassess how we distribute funding to ensure we’re aligning with actual needs and optimizing ARB resources.</p>
+</blockquote>
+</aside>
+<p>educated and wild guess on my side, the application was crafted and evaluated with pre dencun metrics. This has been one of the (several) challenges for both protocols and advisors during LTIPP program. Since in the <a href=""https://www.arbgrants.com/d/Arbitrum%20LTIPP/Grants-M-R/Pyth-Network"" rel=""noopener nofollow ugc"">PYTH reporting</a> there is no mention of specific delay in integration, I might just be right here but happy to have more details. Also, the byproduct of this result for future program could be that for infra projects a pre-allocated budget might not be the way to got.</p>
+<p>Going back to the snapshot, as for the synthetix application, I am, unfortunately, voting against it, as well as the other extention requests in Arbitrum. To quote my previous answer:</p>
+<aside class=""quote no-group"" data-username=""JoJo"" data-post=""14"" data-topic=""26524"">
+<div class=""title"">
+<div class=""quote-controls""></div>
+<img alt="""" width=""24"" height=""24"" src=""https://yyz1.discourse-cdn.com/flex029/user_avatar/forum.arbitrum.foundation/jojo/48/2666_2.png"" class=""avatar""><a href=""https://forum.arbitrum.foundation/t/rfc-synthetix-ltip-grant-extension-request/26524/14"">[RFC] Synthetix LTIP Grant Extension Request</a></div>
+<blockquote>
+<p>I would have normally been in favour if it wasn’t for the detox proposal just recently presented, and passed, in our DAO; but that proposal is an extremely important signal about 1) trying to see what happens to our chains with no incentives 2) give the time to the DAO to best reflect how to weaponize these programs in future. There is also the secondary point, not necessarily as important but indeed important, about competitive advantages of protocols asking for an extention versus protocols that just finished in LTIPP or about to finish in STIP.</p>
+</blockquote>
+</aside>
+<p>In here we have a different situation, which is a potential usage of funds for an infra product, so I could see the merit of the extention. But the mix of the detox proposal + the fact that most of the leftover funds are tied, in my understanding, to lower costs than expected, means that the only real reason to keep Pyth in an extention would be to facilitate his role in Arbitrum. This is something we could advocate for Synthetix and Aave as well, even if their role is different. Again, the vote of the DAO for the detox proposal is more important, and should just be respected by participants.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,58211,20,,kuiclub,2024-09-09T05:05:50.562Z,1725858350,,"<p>In favour of this proposal, pyth, as the leading prophecy predicator protocol, is the infrastructure for many network protocols and has a very important place in the arb ecology as well, and as it takes time for the infrastructure to be updated and developed, this extension makes sense.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57439,1,,KemarTiti,2024-08-28T14:36:06.242Z,1724855766,,"<ul>
+<li><strong>Abstract</strong></li>
+</ul>
+<p>This proposal seeks a 12 weeks extension (until November 30) of the Pyth Network’s <a href=""https://forum.arbitrum.foundation/t/pyth-network-ltipp-application-draft/22003"">previously approved LTIPP grant</a>.</p>
+<p>Initially, the Pyth Network was allocated 1,000,000 ARB through the LTIPP process. To date, we have utilized approximately 75,042 ARB over the 12-week duration of the program.</p>
+<p>We are requesting to retain 174,958 ARB, bringing our total expenditure to 250,000 ARB out of the original 1,000,000, until the new grant programs are established.</p>
+<ul>
+<li><strong>Motivation</strong></li>
+</ul>
+<p>We want to highlight that incentives for infrastructure protocols and public goods, such as the Pyth oracle, typically do not yield immediate results. The impact from making such incentives available to DeFi often unfolds over weeks or even months.</p>
+<p>For existing DeFi applications, switching to a new oracle involves significant effort and may require a new audit. Similarly, expanding from other chains to Arbitrum can be more time-consuming than anticipated, as illustrated by the Synthetix case <a href=""https://forum.arbitrum.foundation/t/synthetix-ltipp-application-final/22023/20"">here</a>.</p>
+<p>Thanks to the initial LTIPP program, Arbitrum dApps had the ability to build robust oracle systems covering over 500 assets, including cryptocurrencies, FX, stocks, ETFs, and commodities. This advancement has eliminated outdated on-chain price updates and high costs, reinforcing Arbitrum’s position as a premier layer for DeFi. This progress empowers developers to create cutting-edge applications without constraints. This extension aims to keep the momentum and further empower potential new entrants like Synthetix to deliver a best-in-class protocol.</p>
+<ul>
+<li><strong>Rationale</strong></li>
+</ul>
+<p>The proposed extension of the Pyth Network’s LTIPP grant is designed to further cultivate a thriving and innovative DeFi ecosystem on Arbitrum. The LTIPP program has already proven its effectiveness, with Pyth price updates on-chain increasing by 2-3 times and peaking at nearly 10 times the previous levels, reaching over 70,000 updates on July 14.</p>
+<p>Before the program began, the total value secured by the Pyth oracle on Arbitrum was just over 43,000 ETH. This figure has since risen to 52,500 ETH, reflecting an increase of more than 20%.</p>
+<p>Pyth has also enabled over $16.1 billion in trading volume on various Arbitrum decentralized perpetual exchanges during June and July (with August data pending). This  underscores the benefits for applications powered by Pyth Network: protocols using Pyth have experienced, including increased total value locked (TVL), higher trading volumes, and more frequent price updates driven by a growing number of applications utilizing Pyth.</p>
+<p>The request for a 12-week extension, with a reduced ARB allocation, is part of our commitment towards responsible resource management commitment to responsible resource management while continuing to support the long-term success of applications built on Arbitrum that leverage Pyth. By covering the gas costs for using the Pyth oracle, the network has enabled more developers to create robust DeFi applications without the burden of high operational expenses.</p>
+<p>This strategy strengthens Arbitrum’s position as a premier platform for DeFi innovation, where developers can access over 500 price feeds without financial or technical constraints.</p>
+<p>It’s important to understand that the impact of incentives for infastructure protocols and public goods like the Pyth price oracle are not immediate: it often takes weeks or even months to materialize.</p>
+<p>Furthermore, it’s important to recognize that the impact of incentives for infrastructure protocols and public goods like the Pyth oracle is not immediate; it often takes weeks or even months to materialize.</p>
+<p>This proposal, aims to build on the momentum generated by the initial LTIPP program, ensuring the continued growth and expansion of the Arbitrum ecosystem as new grant strategies are developed and implemented.</p>
+<ul>
+<li><strong>Key Terms</strong></li>
+</ul>
+<ol>
+<li>On-demand or pull oracle: An oracle network where anyone can permissionlessly trigger price updates on-chain by doing an Arbitrum tx</li>
+</ol>
+<ul>
+<li><strong>Specifications</strong></li>
+</ul>
+<ol>
+<li>13 weeks duration</li>
+<li>175,000 ARB</li>
+</ol>
+<p>The proposed extension duration is similar to that of the previous LTIPP program—12 weeks versus 13 weeks (including retroactive rebates for the end of August). However, the amount of ARB tokens requested for gas rebates has increased from 75,000 ARB to 175,000 ARB.</p>
+<p>This increase reflects an anticipated rise in activity and associated costs, estimated at approximately 133%. The launch of Synthetix’s Multi-Collateral Perps on Arbitrum is expected to drive a substantial increase in the number of price updates triggered on-chain. For context, Synthetix currently triggers around 1,000 daily updates on Optimism and between 3,000 and 5,000 daily updates on Base—both without additional incentives in place.</p>
+<ul>
+<li><strong>Steps to Implement</strong></li>
+</ul>
+<p>If the Arbitrum DAO approves this extension, no additional work or involvement will be required from the DAO itself. The responsibility for managing the funds and continuing the program would remain entirely with the Pyth Data Association.</p>
+<p>As during the initial 12 weeks of the LTIPP, the Pyth Data Association would continue reimbursing dApps for gas costs every two weeks. Additionally, we would maintain our practice of providing bi-weekly updates on the Arbitrum forum to ensure transparency and accountability. Our latest report is available <a href=""https://forum.arbitrum.foundation/t/pyth-network-bi-weekly-update-26-august-2024/26525"">here</a>, and we are open to including even more detailed data and information in these reports if needed.</p>
+<p>Since this is an extension of an already approved grant, no additional legal work is necessary. The Pyth Data Association has already completed KYC and signed the grant agreement with the Arbitrum Foundation.</p>
+<ul>
+<li><strong>Timeline</strong></li>
+</ul>
+<p>The LTIPP program officially ended on August 26, and until this extension proposal is approved, the Pyth Data Association has paused reimbursing the gas costs incurred by dApps during this period.</p>
+<p>If approved, the extension would be applied retroactively, starting from the end of the LTIPP program on August 26. This means that, depending on the timing of the Snapshot vote, there could be up to 2-3 weeks of retroactive gas rebates.</p>
+<p>The proposed extension would conclude on November 30, 2024.</p>
+<ul>
+<li><strong>Overall Cost</strong></li>
+</ul>
+<p>The cost to the Arbitrum DAO can be seen as an opportunity cost of 174,958 ARB, or potentially even less. Originally, the DAO approved a grant of 1,000,000 ARB—funds that were effectively budgeted and allocated—of which only 75,042 ARB was utilized during the 12-week LTIPP period.</p>
+<p>We are now requesting to retain 174,958 ARB from the initial allocation to continue offsetting costs for DeFi applications that use Pyth’s on-demand price feeds. The remaining 750,000 ARB will be returned to the Arbitrum DAO as previously agreed under the LTIPP program. Furthermore, if any funds remain unspent before the outlined timeline concludes, Pyth Data Association will promptly return those ARB tokens to the DAO.</p>
+<ul>
+<li><strong>Additional Context</strong></li>
+</ul>
+<p>We have been actively seeking feedback and advice from <a class=""mention"" href=""/u/matt_stablelab"">@Matt_StableLab</a> to determine the best approach for moving forward with this extension request.</p>
+<p>Our interest in extending the LTIPP grant was initiated in the original LTIPP discussion <a href=""https://forum.arbitrum.foundation/t/pyth-network-ltipp-application-draft/22003/10"">here</a>.</p>
+<p>Currently, we plan to submit this extension request on Snapshot by Thursday, September 5, with support from Wintermute. This timeline allows ample opportunity to gather feedback on the proposal and make any necessary adjustments based on input from the DAO.</p>
+<p>Please note that Wintermute will merely be sponsoring the proposal as a delegate which is separate from their role as an LTIPP Council member.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57485,2,,duokongcrypto,2024-08-29T04:47:30.893Z,1724906850,,"<p>Incentives for infrastructure protocols and public goods such as Pyth prophetic machines usually don’t have an immediate effect, agreed. pyth as the leading infrastructure, the ARB ecosystem needs your long term builds. in fact why not think about 1 million ARB of funding to consider giving a portion of the incentive to pledge users as a way of encouraging pledge users of PYTH</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57495,3,,0xPongi,2024-08-29T08:38:02.508Z,1724920682,,"<p>I fully support the extension of the LTIPP for Pyth Network. The initial program has already demonstrated substantial value with significant improvements in access to price feeds. As a core contributor to Pingu Exchange, which has benefited from the program, I believe that extending the grant will allow the momentum to continue.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57504,4,,ggmatch,2024-08-29T11:07:45.934Z,1724929665,,"<p>I support the extension, oracle diversity is much needed in our space and Pyth has shown constant professionalism in the years.<br>
+I think this is particularly important on a chain like Arbitrum which is the main DeFi hub between L2s.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57542,5,,cp0x,2024-08-29T22:02:53.734Z,1724968973,,"<p>I welcome the continued funding of Pyth<br>
+and understand that the financial expenditure here differs from standard protocols,<br>
+which themselves can increase the size of incentives.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57545,6,,Bruce,2024-08-29T22:51:00.939Z,1724971860,,"<p>This proposal is reasonable, as oracles-just like the Pyth nethwork, being infrastructure protocols, are essential for the development of the DeFi ecosystem, cause the prices of assets is of crucial importance in any network. The effectiveness of the initial 12-week LTIPP has already been smoothly demonstrated, and the allocated funds have been used appropriately. Since the impact of building infrastructure protocols takes time to manifest, so extending the program for another 12 weeks is justified.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57556,7,,0xTALVO.ETH_MTY,2024-08-30T01:37:45.867Z,1724981865,,"<p>Hi <a class=""mention"" href=""/u/kemartiti"">@KemarTiti</a><br>
+How does this extension align with the long-term vision for Pyth Network on Arbitrum? Are there other strategic initiatives you’re considering to further integrate Pyth within the Arbitrum ecosystem?</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57561,8,7.0,KemarTiti,2024-08-30T05:48:05.714Z,1724996885,,"<p>gm <a class=""mention"" href=""/u/0xtalvo.eth_mty"">@0xTALVO.ETH_MTY</a></p>
+<p>As for any oracle (or infrastructure provider), success is measured by the success of those who depend upon it. The initial LTIPP program granted to the Pyth oracle has already shown a great success in increasing key metrics for Arbitrum DeFi apps such an increase in TVL, trading volume (for perpetual protocols) and a significantly greater availability of freely available price updates onchain (reminder that reading Pyth prices onchain is free, only writing incurs costs).</p>
+<p>By extending the program, Pyth Network aims to build on this momentum, ensuring that Arbitrum remains a leading layer for DeFi innovation.</p>
+<p>For the latter question, the first thing that comes to mind is the support of the tentative/upcoming stARB token with a Pyth price feed. This would enable all Arbitrum dApps (money-market to perpetual protocols) to integrate and support this asset that is likely to get a significant traction given its properties.</p>
+<p>A positive side-effect outside of Arbitrum is that a Pyth stARB price feed would also be automatically available on all the other chains (70+) Pyth supports - and here Arbitrum Orbit chains could also greatly benefit from that as the Pyth oracle expands there.</p>
+<p>And as a matter of fact, the Pyth oracle has been <a href=""https://xchain-explorer.idex.io/address/0x2880aB155794e7179c9eE2e38200202908C17B43"" rel=""noopener nofollow ugc"">deployed on XCHAIN</a>, a brand new Orbit chain for IDEX, an omnichain perpetual protocol.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57564,9,8.0,0xTALVO.ETH_MTY,2024-08-30T06:57:32.570Z,1725001052,,"<p>Thanks for the quick response <a class=""mention"" href=""/u/kemartiti"">@KemarTiti</a></p>
+<p>The initial LTIPP program’s success is evident in the increased metrics and enhanced price feed availability. I think extending the program will undoubtedly build on this momentum and solidify Arbitrum’s position in DeFi. I trust the Pyth Network to continue driving this growth effectively.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57877,10,,Tane,2024-09-05T02:58:51.760Z,1725505131,,"<p>We support the program’s current success and strongly agree that Pyth should continue to receive funding to contribute to the Arbitrum ecosystem.</p>
+<p>There’s just one point we’d like to suggest for improvement. Regarding your bi-weekly reports, would it be possible to include your own analysis and insights? The current reports primarily consist of basic numerical data, and we believe it would be valuable if you could provide context on what factors influenced changes in these numbers.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57880,11,,KemarTiti,2024-09-05T03:11:27.840Z,1725505887,,"<p>FYI the proposal went live on Snapshot today</p>
+<p><a href=""https://snapshot.org/#/arbitrumfoundation.eth/proposal/0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94"" class=""onebox"" target=""_blank"" rel=""noopener nofollow ugc"">https://snapshot.org/#/arbitrumfoundation.eth/proposal/0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94</a></p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57882,12,10.0,KemarTiti,2024-09-05T03:13:53.037Z,1725506033,,"<p>Hey <a class=""mention"" href=""/u/tane"">@Tane</a></p>
+<p>Definitely, happy to do so!</p>
+<p>Have you seen some analysis/insights shared in the past you liked? Both content and structure? Whether within the Arbitrum DAO or elsewhere?</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57948,13,,EzR3aL,2024-09-05T13:35:44.486Z,1725543344,,<p>Supportive of different oracle provider and happy to support Pyth here. Hoping for longterm alginment with Arbitrum.</p>
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57950,14,12.0,Tane,2024-09-05T15:21:37.108Z,1725549697,,"<p>We find this report (and suggestions included as a proposal, which is not relevant for this case) made for Uniswap interesting: <a href=""https://gov.uniswap.org/t/rfc-proposal-to-active-2-3-4-bps-fee-tiers-on-base/24346"" class=""inline-onebox"" rel=""noopener nofollow ugc"">[RFC] Proposal to active 2, 3, 4 bps fee-tiers on Base - Proposal Discussion - Uniswap Governance</a>. It has covered not only metrics and numbers, but insights and explorations as well.</p>
+<p>Reviewing <a href=""https://forum.arbitrum.foundation/t/pyth-network-bi-weekly-update-26-august-2024/26525"">your report</a>, we believe <em>Average daily TVL, Average daily transactions, Usage per day &amp; Usage per contract</em> are important in your reports. Structurally, it’s crucial to have not only the numbers, but also their details and possible reasons for fluctuations.</p>
+<p>By sharing such information with the community, the DAO can better understand how Pyth utilizes the incentives provided by Arbitrum and what it learned from the experiment.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57951,15,,PennBlockchain,2024-09-05T16:14:39.981Z,1725552879,,"<p>The FranklinDAO / Penn Blockchain Team voted <strong>FOR</strong> this proposal on Snapshot. We appreciate Pyth’s responsible use of the LTIPP funds. We are excited to see the growth of Synthetix multi-collateral perps and see how usage will stack up against other perps platforms like Hyperliquid and GMX.</p>
+<p>Regarding the weekly reports, we would like to see the <a href=""https://dune.com/queries/3724550?from__d83555=2024-07-29+00:00:00&amp;to__d83555=2024-08-12+00:00:00"" rel=""noopener nofollow ugc"">Dune Dashboard</a> for usage per contract label each wallet address for ease of understanding.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,57969,16,,BlockworksResearch,2024-09-05T18:35:00.800Z,1725561300,,"<p>Pyth submitted their extension application request early, similar to Synthetix, and thus we should honor the request for similar reasons we posted in the Synthetix proposal. Though, we do think that Pyth can certainly be evaluated on its performance by some metric, what are the total number of protocols they service, etc.</p>
+<p>As we had said in the Synthetix thread, we would like to know if there is anything that the DAO can do to better prepare protocols for possible delays. What could be a possible communication channel to relay this information better or minimize the amount of extension requests to hit the DAO forums for decision making? Should the LTIPP council have been given the proper clearance to push an extension or does this belong to some oversight body separate from the general DAO body.</p>
+<p>It’s worth noting that while Pyth received 1M in ARB for incentives, only 75,000 had been used by the end of the LTIPP. This could indicate an unintentional oversight in fund allocation. Moving forward, it would be helpful to reassess how we distribute funding to ensure we’re aligning with actual needs and optimizing ARB resources.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,58001,17,,Larva,2024-09-06T02:13:06.208Z,1725588786,,"<p>LTIPP has significantly contributed to Pyth’s development, which is evident to all. It is entirely reasonable for Pyth to apply for an extension of the LTIPP, especially since the budget is not excessively large, which is commendable. I always believe that for a business organization to succeed, it must strive to control costs—achieving more with less has always been my guiding principle. Therefore, I fully support this proposal.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,58023,18,,0xDonPepe,2024-09-06T06:58:01.412Z,1725605881,,"<p>Just voted in favor of this proposal on Snapshot. Oracles like Pyth are essential to DeFi, providing the accurate and timely data that keeps everything running smoothly. This extension, along with the Synthetix LTIP extension, go hand-in-hand as they work together to support DeFi incentives on Arbitrum—something we really need in this tough market.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,58107,19,16.0,JoJo,2024-09-07T07:52:18.515Z,1725695538,,"<aside class=""quote no-group"" data-username=""BlockworksResearch"" data-post=""16"" data-topic=""26533"">
+<div class=""title"">
+<div class=""quote-controls""></div>
+<img alt="""" width=""24"" height=""24"" src=""https://yyz1.discourse-cdn.com/flex029/user_avatar/forum.arbitrum.foundation/blockworksresearch/48/14962_2.png"" class=""avatar""> BlockworksResearch:</div>
+<blockquote>
+<p>It’s worth noting that while Pyth received 1M in ARB for incentives, only 75,000 had been used by the end of the LTIPP. This could indicate an unintentional oversight in fund allocation. Moving forward, it would be helpful to reassess how we distribute funding to ensure we’re aligning with actual needs and optimizing ARB resources.</p>
+</blockquote>
+</aside>
+<p>educated and wild guess on my side, the application was crafted and evaluated with pre dencun metrics. This has been one of the (several) challenges for both protocols and advisors during LTIPP program. Since in the <a href=""https://www.arbgrants.com/d/Arbitrum%20LTIPP/Grants-M-R/Pyth-Network"" rel=""noopener nofollow ugc"">PYTH reporting</a> there is no mention of specific delay in integration, I might just be right here but happy to have more details. Also, the byproduct of this result for future program could be that for infra projects a pre-allocated budget might not be the way to got.</p>
+<p>Going back to the snapshot, as for the synthetix application, I am, unfortunately, voting against it, as well as the other extention requests in Arbitrum. To quote my previous answer:</p>
+<aside class=""quote no-group"" data-username=""JoJo"" data-post=""14"" data-topic=""26524"">
+<div class=""title"">
+<div class=""quote-controls""></div>
+<img alt="""" width=""24"" height=""24"" src=""https://yyz1.discourse-cdn.com/flex029/user_avatar/forum.arbitrum.foundation/jojo/48/2666_2.png"" class=""avatar""><a href=""https://forum.arbitrum.foundation/t/rfc-synthetix-ltip-grant-extension-request/26524/14"">[RFC] Synthetix LTIP Grant Extension Request</a></div>
+<blockquote>
+<p>I would have normally been in favour if it wasn’t for the detox proposal just recently presented, and passed, in our DAO; but that proposal is an extremely important signal about 1) trying to see what happens to our chains with no incentives 2) give the time to the DAO to best reflect how to weaponize these programs in future. There is also the secondary point, not necessarily as important but indeed important, about competitive advantages of protocols asking for an extention versus protocols that just finished in LTIPP or about to finish in STIP.</p>
+</blockquote>
+</aside>
+<p>In here we have a different situation, which is a potential usage of funds for an infra product, so I could see the merit of the extention. But the mix of the detox proposal + the fact that most of the leftover funds are tied, in my understanding, to lower costs than expected, means that the only real reason to keep Pyth in an extention would be to facilitate his role in Arbitrum. This is something we could advocate for Synthetix and Aave as well, even if their role is different. Again, the vote of the DAO for the detox proposal is more important, and should just be respected by participants.</p>"
+arbitrumfoundation.eth,0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94,[Pyth Network] Arbitrum LTIPP Extension Request,https://forum.arbitrum.foundation/t/rfc-pyth-network-arbitrum-ltipp-extension-request/26533/1,58211,20,,kuiclub,2024-09-09T05:05:50.562Z,1725858350,,"<p>In favour of this proposal, pyth, as the leading prophecy predicator protocol, is the infrastructure for many network protocols and has a very important place in the arb ecology as well, and as it takes time for the infrastructure to be updated and developed, this extension makes sense.</p>"
+aurafinance.eth,0xfb546cb8d9de453fd428d811ad07756b580e95ceb6689c7a51007e67adf55100,[AIP-55] CEXs Liquidity Task Force with cede.store,https://forum.aura.finance/t/aip-55-cexs-liquidity-task-force-with-cede-store/619,1805,1,,MrBobbie,2023-11-27T12:15:48.063Z,1701087348,,"<p><strong>Authors</strong><br>
+Ryan aka <a class=""mention"" href=""/u/mrbobbie"">@MrBobbie</a>, BizDev lead a Cede Labs, a french startup backed by GSR, Stake Capital, and DoraHack.</p>
+<p><strong>Summary</strong><br>
+This proposal introduces cede.store, a Chrome extension serving as an on-ramp solution to bring liquidity from centralized exchanges (CEXs) to Aura Finance. It enables users to seamlessly transfer assets from CEXs into on-chain wallets and invest them in the Aura Finance dApp. The goals are to improve user onboarding, leverage CeFi assets, and increase Aura’s TVL as well as AURA token trading volume.</p>
+<p><strong>Background</strong></p>
+<p>This proposal is essential for the protocol as it outlines the establishment of a Liquidity Task Force (LTF) focused on expanding Aura’s liquidity, increasing TVL, and onboarding new users. It emphasizes strategies to incentivize users to invest in Aura Finance by providing a superior user experience, particularly by reducing frictions associated with transferring CEX assets to a DeFi wallet.</p>
+<p><strong>Proposal</strong></p>
+<p>Cede.store is a browser extension with a non-custodial MetaMask-style interface focused on enabling users to manage off-chain assets across major CEXs like Kucoin or Bitget.</p>
+<p>The proposal suggests integrating a ‘Transfer From CEXs’ option into Aura Finance’s Bridge, allowing users to seamlessly transfer their off-chain assets to on-chain wallets (e.g., SubWallet, Rabby, Phantom) and invest in the Aura Finance dApp with a few clicks.</p>
+<p>Anticipated benefits of integrating cede.store include:</p>
+<ul>
+<li>
+<p>Aura Users: Access a new method to transfer funds to on-chain wallets, facilitating the use of Aura services such as the Bridge or Lock.</p>
+</li>
+<li>
+<p>Aura dApp: Integration removes onboarding frictions for both existing and new users, leveraging their CeFi assets while remaining within the dApp. Users can efficiently send AURA tokens from KuCoin or BitGet to their on-chain wallet, then lock them into the Aura Finance dApp, potentially increasing TVL.</p>
+</li>
+</ul>
+<p>Our documentation: <a href=""https://docs.cede.store/use-cases/withdraw"" class=""inline-onebox"" rel=""noopener nofollow ugc"">Integrate Withdrawal Features – cede.store</a><br>
+Our demo: <a href=""https://www.youtube.com/watch?v=CDP_k7oxzcg"" rel=""noopener nofollow ugc"">https://www.youtube.com/watch?v=CDP_k7oxzcg</a></p>
+<p>Regarding the concerns you may have on the security/tech side:</p>
+<p>cede.store allows users to connect their API key and Access key (OAuth) from CEXs to manage and track their off-chain assets. Our solution is a non-custodial Chrome extension with the same DeFi UX (we want to uphold DeFi values). Therefore, we don’t store the API keys; they are stored client-side, not server-side.</p>
+<p>We employ the same battle-tested encryption model as Metamask and recently underwent an audit by Hacken, receiving a perfect 10/10 score. They made the announcement recently.</p>
+<p>Additionally, we are working with Ledger’s Former CTO and Co-founder to integrate API keys in a hardware wallet, making it even more secure for users.</p>
+<p>So, we don’t store any CEX credentials. The user maintains ownership of these.</p>
+<p><strong>Voting</strong><br>
+This proposal will remain open before the next Snapshot.</p>
+<p>I appreciate and encourage an open discussion on the subject should there be any concerns or questions.</p>
+<p>This vote will be a single-choice vote. You may vote “For” or “Against” this proposal or choose to abstain from the vote. By voting “For” this proposal, you are expressing support for the integration of cede.store with the specifications outlined in this proposal.</p>"
+aurafinance.eth,0xfb546cb8d9de453fd428d811ad07756b580e95ceb6689c7a51007e67adf55100,[AIP-55] CEXs Liquidity Task Force with cede.store,https://forum.aura.finance/t/aip-55-cexs-liquidity-task-force-with-cede-store/619,1809,2,,jameskbh,2023-11-28T09:57:12.960Z,1701165432,,"<p>Hello! Thanks for your proposal!</p>
+<p>I believe the <a href=""https://coinmarketcap.com/currencies/aura-finance/#Markets"">volume</a> from Kucoin and Bitget is not that relevant to ask for an integration like this.</p>"
+aurafinance.eth,0xfb546cb8d9de453fd428d811ad07756b580e95ceb6689c7a51007e67adf55100,[AIP-55] CEXs Liquidity Task Force with cede.store,https://forum.aura.finance/t/aip-55-cexs-liquidity-task-force-with-cede-store/619,1810,3,2.0,MrBobbie,2023-11-28T11:27:59.012Z,1701170879,,"<p>Thank you for your comment!</p>
+<p>With the widget and its ‘Transfer from CEX’ feature, you can send any token. I mentioned AURA token because it’s listed on Kucoin and Bitget, but users can use the widget to send BAL tokens from CEXs to provide liquidity on the Aura Finance dApp.</p>"
+aurafinance.eth,0xfb546cb8d9de453fd428d811ad07756b580e95ceb6689c7a51007e67adf55100,[AIP-55] CEXs Liquidity Task Force with cede.store,https://forum.aura.finance/t/aip-55-cexs-liquidity-task-force-with-cede-store/619,1829,4,,Contributor,2023-12-07T05:25:25.208Z,1701926725,,"<p><a href=""https://vote.aura.finance/#/proposal/0xfb546cb8d9de453fd428d811ad07756b580e95ceb6689c7a51007e67adf55100"" class=""onebox"" target=""_blank"" rel=""noopener"">https://vote.aura.finance/#/proposal/0xfb546cb8d9de453fd428d811ad07756b580e95ceb6689c7a51007e67adf55100</a></p>"
+aurafinance.eth,0xfb546cb8d9de453fd428d811ad07756b580e95ceb6689c7a51007e67adf55100,[AIP-55] CEXs Liquidity Task Force with cede.store,https://forum.aura.finance/t/aip-55-cexs-liquidity-task-force-with-cede-store/619,1832,5,,0xButterfield,2023-12-07T10:25:49.034Z,1701944749,,"<p>Hello, thanks for the detailed proposal.</p>
+<p>Personally, I’m not sure the benefit is quite there at the moment to justify this integration, for a few reasons:</p>
+<ul>
+<li>Aura supports a long tail of assets and networks, many of which are not available on CEXes.</li>
+<li>The implementation looks simple, but it’s also not cost-free to implement and maintain.</li>
+<li>Since cede.store is a new project, the number of users that could benefit from this at the moment is probably quite small.</li>
+<li>I’m also not quite sold on the approach and wonder if this would be more fit for purpose at the wallet level than the app level. Implementing this per-app without a standard seems like a tall order.</li>
+</ul>
+<p>I’d be happy to revisit this in the future if there are more users to cater for.</p>"
+aurafinance.eth,0xed9283a03057424369a32daed76eb66a10cb091a77e31678b0b97aaf3e209662,[BIP-756] Enable Gauge for USDC/wUSDL boosted pool [Ethereum],https://forum.balancer.fi/t/bip-756-enable-gauge-for-usdc-wusdl-boosted-pool-ethereum/6289,15223,1,,roheat,2025-01-14T09:18:09.071Z,1736846289,,"<h3><a name=""p-15223-pr-with-payload-1"" class=""anchor"" href=""#p-15223-pr-with-payload-1""></a>PR with Payload</h3>
+<aside class=""onebox githubpullrequest"" data-onebox-src=""https://github.com/BalancerMaxis/multisig-ops/pull/1669"">
+  <header class=""source"">
+
+      <a href=""https://github.com/BalancerMaxis/multisig-ops/pull/1669"" target=""_blank"" rel=""noopener"">github.com/BalancerMaxis/multisig-ops</a>
+  </header>
+
+  <article class=""onebox-body"">
+    <div class=""github-row"" data-github-private-repo=""false"">
+
+
+
+    <div class=""github-icon-container"" title=""Pull Request"">
+      <svg width=""60"" height=""60"" class=""github-icon"" viewBox=""0 0 12 16"" aria-hidden=""true""><path fill-rule=""evenodd"" d=""M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z""></path></svg>
+    </div>
+
+  <div class=""github-info-container"">
+
+
+
+      <h4>
+        <a href=""https://github.com/BalancerMaxis/multisig-ops/pull/1669"" target=""_blank"" rel=""noopener"">[BIP-756] Enable Gauge for USDC/wUSDL boosted pool [Ethereum]</a>
+      </h4>
+
+    <div class=""branches"">
+      <code>BalancerMaxis:main</code> ← <code>Xeonus:enable-csUSDL-gauge-mainnet</code>
+    </div>
+
+      <div class=""github-info"">
+        <div class=""date"">
+          opened <span class=""discourse-local-date"" data-format=""ll"" data-date=""2025-01-15"" data-time=""07:57:41"" data-timezone=""UTC"">07:57AM - 15 Jan 25 UTC</span>
+        </div>
+
+        <div class=""user"">
+          <a href=""https://github.com/Xeonus"" target=""_blank"" rel=""noopener"">
+            <img alt="""" src=""https://canada1.discourse-cdn.com/flex027/uploads/balancer/original/2X/7/754a20abef67f72c9b1e174555a0a7ae7fe11d87.png"" class=""onebox-avatar-inline"" width=""20"" height=""20"" data-dominant-color=""CC8776"">
+            Xeonus
+          </a>
+        </div>
+
+        <div class=""lines"" title=""2 commits changed 2 files with 54 additions and 0 deletions"">
+          <a href=""https://github.com/BalancerMaxis/multisig-ops/pull/1669/files"" target=""_blank"" rel=""noopener"">
+            <span class=""added"">+54</span>
+            <span class=""removed"">-0</span>
+          </a>
+        </div>
+      </div>
+  </div>
+</div>
+
+  <div class=""github-row"">
+    <p class=""github-body-container"">- enable gauge for USDC/wUSDL boosted pool on Mainnet
+- [Proposal](https://forum<span class=""show-more-container""><a href=""https://github.com/BalancerMaxis/multisig-ops/pull/1669"" target=""_blank"" rel=""noopener"" class=""show-more"">…</a></span><span class=""excerpt hidden"">.balancer.fi/t/bip-756-enable-gauge-for-usdc-wusdl-boosted-pool-ethereum/6289)</span></p>
+  </div>
+
+  </article>
+
+  <div class=""onebox-metadata"">
+    
+    
+  </div>
+
+  <div style=""clear: both""></div>
+</aside>
+
+<h1><a name=""p-15223-enable-gauge-for-usdcwusdl-boosted-pool-ethereum-2"" class=""anchor"" href=""#p-15223-enable-gauge-for-usdcwusdl-boosted-pool-ethereum-2""></a>Enable Gauge for USDC/wUSDL boosted pool (Ethereum)</h1>
+<p><strong>Summary:</strong></p>
+<blockquote>
+<p>This is a proposal to enable an uncapped Balancer gauge for the USDC/wUSDL boosted pool on Ethereum.<br>
+We already have soft commits of $10M from Amber, Selini and Paxos on this USDC/wUSDL boosted pool, and implementing the gauge will help us grow the TVL even further.</p>
+</blockquote>
+<p><strong>References/Useful links:</strong></p>
+<blockquote>
+<p>Link to:<br>
+• <a href=""https://www.coinshift.xyz/"">Website</a><br>
+• <a href=""https://www.notion.so/Coinshift-Resources-170def1040e98078a54adc42f19ccda4?pvs=21"">Documentation</a><br>
+• <a href=""https://twitter.com/0xCoinshift"">Twitter</a><br>
+• <a href=""https://discord.com/invite/xadK8P7FjZ"">Discord</a><br>
+• <a href=""https://www.linkedin.com/company/coinshift-finance/"">LinkedIn</a></p>
+</blockquote>
+<p><strong>Protocol Description:</strong></p>
+<p><strong>About Coinshift</strong></p>
+<p>Coinshift is building the first <strong>onchain treasury economy</strong> offering businesses and individuals the safest way to move, manage, and grow value onchain.</p>
+<p>Since 2021, Coinshift has managed <strong>$1B in Safe accounts</strong> and facilitated <strong>$1B in payments</strong> for over 300+ organizations, including Aave, UMA, Zapper and Starknet. Coinshift is backed by Tiger Global, Sequoia and ConsenSys.</p>
+<p>Recently Coinshift launched 2 asset management products: csUSDL and csUSDC, which grew to 15M TVL within 20 days of launch with large LPs like Nascent, Dialectic and GSR.</p>
+<p><strong>About csUSDL and csUSDC</strong></p>
+<p>csUSDL and csUSDC are RWA-backed, yield-bearing stablecoins built on Morpho Protocol.<br>
+csUSDL is powered by USDL, a regulated stablecoin issued by Paxos International in Abu Dhabi, whereas csUSDC is backed by USDC.</p>
+<ul>
+<li>csUSDL and csUSDC represent the tokenized position of wUSDL and USDC in Coinshift’s vault respectively. The vaults are curated by Steakhouse Financial against blue-chip collateral like wstETH and cbBTC.</li>
+<li>The yield on csUSDL and csUSDC is fully transparent and verifiable onchain, and is independent of Coinshift’s control. The asset is fully permission-less and self-custodial by design.</li>
+</ul>
+<p><strong>Motivation:</strong></p>
+<blockquote>
+<p>The wUSDL/USDC boosted pool internally deposits the assets into csUSDL and csUSDC respectively, making the LP position highly capital efficient by offering 12-25% base APY and token incentives in MORPHO and SHIFT, which is Coinshift’s revenue-based governance and reward token.<br>
+We already have soft commits of $10M from Amber, Selini and Paxos on this USDC/wUSDL boosted pool, and implementing the gauge will help us grow the TVL even further.</p>
+</blockquote>
+<p><strong>Specifications:</strong></p>
+<ol>
+<li><strong>Governance</strong>: The Coinshift protocol will be governed by a DAO launching in early Q2, 2025 on Ethereum. For now, Coinshift Limited team’s multisig wallet currently retains specific administrative controls. These include the ability to pause the pool, adjust the swap fee, and configure the protocol fee.</li>
+<li><strong>Oracles</strong>:</li>
+</ol>
+<ul>
+<li><a href=""https://etherscan.io/address/0xb0926cfc3ac047035b11d9afb85dc782e6d9d76a"">csUSDC rate provider</a></li>
+<li><a href=""https://etherscan.io/address/0x9062a576d3e6cf6999e99e405608063033c4cff6"">csUSDL rate provider</a></li>
+</ul>
+<ol start=""3"">
+<li><strong>Audits</strong>:</li>
+</ol>
+<ul>
+<li><a href=""https://github.com/morpho-org/metamorpho-v1.1/tree/main/audits"">Morpho v1.1 audit reports</a> (OpenZeppelin and Cantina)</li>
+<li><a href=""https://github.com/paxosglobal/ybs-contract"">USDL audit reports</a> (OpenZeppelin, Certik, Zellic, Trail of Bits)</li>
+</ul>
+<ol start=""4"">
+<li><strong>Centralization vectors</strong>: Morpho Governance operates in a decentralized manner, with all changes undergoing a transparent and rigorously tested governance process. In contrast, Paxos International is a centralized entity similar to Circle, the issuer of USDC, with its governance framework dictated by the FSRA in ADGM. USDL is issued on a 1:1 basis to USDC, and is fully backed by reserves held in cash or U.S. Government Treasuries. USDL also publishes transparency reports each month which can be found<a href=""https://liftdollar.com/transparency/""> here</a>. Regarding the boosted pool, the Coinshift Limited team’s multisig wallet currently retains specific administrative controls — to pause the pool, adjust the swap fee, and configure the protocol fee.</li>
+<li><strong>Market History</strong>: Coinshift is trusted by 300+ leading web3 organizations including Aave, Gitcoin, Instadapp and Starknet.<a href=""https://app.morpho.org/vault?vault=0xbEeFc011e94f43b8B7b455eBaB290C7Ab4E216f1&amp;network=mainnet""> csUSDL can be tracked here.</a><a href=""https://app.morpho.org/vault?vault=0x7204B7Dbf9412567835633B6F00C3Edc3a8D6330&amp;network=mainnet""> csUSDC can be tracked here.</a></li>
+<li><strong>Value</strong>: This pool is highly capital efficient with 12-25% base APY and additional token incentives, making it very attractive to large market makers and hedge funds.</li>
+</ol>
+<p><strong>Contracts</strong></p>
+<ul>
+<li><a href=""https://etherscan.io/token/0xbEeFc011e94f43b8B7b455eBaB290C7Ab4E216f1"">csUSDL</a></li>
+<li><a href=""https://etherscan.io/token/0x7204B7Dbf9412567835633B6F00C3Edc3a8D6330"">csUSDC</a></li>
+<li><a href=""https://balancer.fi/pools/ethereum/v3/0x10a04efba5b880e169920fd4348527c64fb29d4d"">USDC/wUSDL Boosted Balancer pool</a></li>
+<li><a href=""https://etherscan.io/address/0x5bbaed1fadc08c5fb3e4ae3c8848777e2da77103"">Gauge</a></li>
+</ul>
+<p><strong>Specification</strong></p>
+<p>Transaction: The Balancer Maxi LM Multisig <code>eth:0xc38c5f97B34E175FFd35407fc91a937300E33860</code></p>
+<p>will interact with the GaugeAdderv4 at <code>0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd</code> and call the addGauge function with the following arguments:</p>
+<p>gauge(address): <code>0x5bbaed1fadc08c5fb3e4ae3c8848777e2da77103</code></p>
+<p>gaugeType(string): <code>Ethereum</code></p>"
+aurafinance.eth,0xed9283a03057424369a32daed76eb66a10cb091a77e31678b0b97aaf3e209662,[BIP-756] Enable Gauge for USDC/wUSDL boosted pool [Ethereum],https://forum.balancer.fi/t/bip-756-enable-gauge-for-usdc-wusdl-boosted-pool-ethereum/6289,15242,2,,Xeonus,2025-01-16T08:10:44.540Z,1737015044,,"<p>Very excited about this partnership and upcoming gauge!</p>
+<p><a href=""https://snapshot.org/#/s:balancer.eth/proposal/0x2419c0aea2b4367dac8925f6d16f460b5d252d14110dd58a3e31befa8844e9da"">https://snapshot.org/#/s:balancer.eth/proposal/0x2419c0aea2b4367dac8925f6d16f460b5d252d14110dd58a3e31befa8844e9da</a></p>"
+aurafinance.eth,0x02955431d85f69c98c634190e098f838744ed5f0adb66ddb6c57c7abe0bf6a1d,[BIP-289] Grant Maxis Permissions to Add Gnosis & zkSync Gauges,https://forum.balancer.fi/t/bip-289-grant-maxis-permissions-to-add-gnosis-zksync-gauges/4756,11488,1,,solarcurve,2023-05-10T11:17:37.764Z,1683717457,,"<h2>
+<a name=""payload-pr-bip-289httpsgithubcombalancermaxismultisig-opspull174-1"" class=""anchor"" href=""#payload-pr-bip-289httpsgithubcombalancermaxismultisig-opspull174-1""></a><a href=""https://github.com/BalancerMaxis/multisig-ops/pull/174"">Payload PR - BIP-289</a>
+</h2>
+<h2>
+<a name=""background-2"" class=""anchor"" href=""#background-2""></a>Background</h2>
+<p>The Gauge Adder v3 was deployed some time ago but only now has become usable after the introduction of the Authorizer Wrapper. This proposal grants the Maxi LM Multisig two roles - one for calling <code>addGnosisGauge</code> and one for calling <code>addZksyncGauge</code>. Note that we are not fully deployed on zkSync yet.</p>
+<p>This will remove the need to involve the DAO Multisig when adding new gauges.</p>
+<h2>
+<a name=""english-specification-3"" class=""anchor"" href=""#english-specification-3""></a>English Specification</h2>
+<p>The transaction details were generated by <a href=""https://github.com/BalancerMaxis/multisig-ops/blob/main/tools/python/gen_add_permissions_payload.py"">this script</a> with inputs and outputs in <a href=""https://github.com/BalancerMaxis/multisig-ops/tree/staging/BIPs/BIP-289"">this directory</a></p>
+<p>The following files can be found both linked below and in the payload PR linked above:</p>
+<div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Filename</th>
+<th>Description of Contents</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href=""https://github.com/BalancerMaxis/multisig-ops/blob/staging/BIPs/BIP-289/inputs.json"">inputs.json</a></td>
+<td>The inputs to the script mapping functions and deployments to target addresses that can execute them.</td>
+</tr>
+<tr>
+<td><a href=""https://github.com/BalancerMaxis/multisig-ops/blob/staging/BIPs/BIP-289/results_address_sorted.md"">results_address_sorted.md</a></td>
+<td>The resulting changes printed in a table sorted by target chain and target address. (to easily understand permisisons granted)</td>
+</tr>
+<tr>
+<td><a href=""https://github.com/BalancerMaxis/multisig-ops/blob/staging/BIPs/BIP-289/results_deployment_sorted.md"">results_deployment_sorted.md</a></td>
+<td>The resulting changes printed in a table sorted by target chain and target deployment. (for verification against action ids)</td>
+</tr>
+<tr>
+<td><a href=""https://github.com/BalancerMaxis/multisig-ops/blob/staging/BIPs/BIP-289/function_descriptions.md"">function_descriptions.md</a></td>
+<td>A table that describes what each function that is being granted privileged access to allows.</td>
+</tr>
+<tr>
+<td><a href=""https://github.com/BalancerMaxis/multisig-ops/tree/staging/BIPs/BIP-289/""><code>chainname</code>.json</a></td>
+<td>For each change with changes, a transaction builder json named after said chain exists to apply the changes described in the tables.</td>
+</tr>
+</tbody>
+</table>
+</div><p><em>More information about the various Balancer Multisigs and their functions can be found in the <a href=""https://github.com/BalancerMaxis/multisig-ops/blob/staging/multisigs.md"">multisig-ops repo</a></em></p>
+<h1>
+<a name=""specification-4"" class=""anchor"" href=""#specification-4""></a>Specification</h1>
+<p>As described in the payload json, the authorizer will be called to grant the roles as described.</p>
+<p>The change can be reviewed by the below by comparing the <a href=""https://github.com/BalancerMaxis/multisig-ops/tree/staging/BIPs/BIP-183/results_deployment_sorted.md"">results_deployment_sorted.md</a> file to the source of truth,  which should match the order found in the source of truth for actionIds on the <a href=""https://github.com/balancer-labs/balancer-v2-monorepo/tree/master/pkg/deployments/action-ids"">balancer-v2-monorepo</a>.</p>
+<p>For record, the contents of <a href=""https://github.com/BalancerMaxis/multisig-ops/tree/staging/BIPs/BIP-289/results_address_sorted.md"">results_address_sorted.md</a> are printed here:</p>
+<div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th style=""text-align:left"">deployment</th>
+<th style=""text-align:left"">chain</th>
+<th style=""text-align:left"">function</th>
+<th style=""text-align:left"">role</th>
+<th style=""text-align:left"">target</th>
+<th style=""text-align:left"">target_address</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style=""text-align:left"">20230109-gauge-adder-v3</td>
+<td style=""text-align:left"">mainnet</td>
+<td style=""text-align:left"">addGnosisGauge(address)</td>
+<td style=""text-align:left"">0xe818738e338905496f604a2a26c7ca754558870a3810786cfbb89ae28d262dc5</td>
+<td style=""text-align:left"">lm</td>
+<td style=""text-align:left"">0xc38c5f97B34E175FFd35407fc91a937300E33860</td>
+</tr>
+<tr>
+<td style=""text-align:left"">20230109-gauge-adder-v3</td>
+<td style=""text-align:left"">mainnet</td>
+<td style=""text-align:left"">addZKSyncGauge(address)</td>
+<td style=""text-align:left"">0x010cab59e1860b78f8f67210e267d2c06d77c17b4529f007c7c8acee11ea2fe0</td>
+<td style=""text-align:left"">lm</td>
+<td style=""text-align:left"">0xc38c5f97B34E175FFd35407fc91a937300E33860</td>
+</tr>
+</tbody>
+</table>
+</div><h2>
+<a name=""risk-assessment-5"" class=""anchor"" href=""#risk-assessment-5""></a>Risk Assessment</h2>
+<p>This BIP is routine operation for provisioning a new factory.  The new factories are themselves a risk mitigation.</p>
+<h2>
+<a name=""references-6"" class=""anchor"" href=""#references-6""></a>References</h2>
+<p><a href=""https://github.com/balancer-labs/balancer-v2-monorepo/tree/master/pkg/deployments"">Monorepo Deployment Addresses</a></p>"
+aurafinance.eth,0x02955431d85f69c98c634190e098f838744ed5f0adb66ddb6c57c7abe0bf6a1d,[BIP-289] Grant Maxis Permissions to Add Gnosis & zkSync Gauges,https://forum.balancer.fi/t/bip-289-grant-maxis-permissions-to-add-gnosis-zksync-gauges/4756,11504,2,,solarcurve,2023-05-10T19:47:02.072Z,1683748022,,"<p><a href=""https://snapshot.org/#/balancer.eth/proposal/0x23f6e8f79a88c7a94ada7b303a6d74aca1318b15f4e0def8910b8052f0bfc694"" class=""onebox"" target=""_blank"" rel=""noopener"">https://snapshot.org/#/balancer.eth/proposal/0x23f6e8f79a88c7a94ada7b303a6d74aca1318b15f4e0def8910b8052f0bfc694</a></p>"
+aavedao.eth,0x5ef706871a7cfdd6024aea6041c7717feb9a9d328a168279720ae3262e0f170c,UI/UX upgrade governance framework,https://governance.aave.com/t/arc-ui-ux-upgrade-governance-framework/8638,19784,1,,MarcZeller,2022-06-27T18:14:52.966Z,1656353692,,"<h1>
+<a name=""arc-uiux-upgrade-governance-framework-1"" class=""anchor"" href=""#arc-uiux-upgrade-governance-framework-1""></a>[ARC] - UI/UX upgrade governance framework</h1>
+<p>The Aave protocol is a decentralized ecosystem of smart-contracts running on several EVM networks. This ecosystem is permisionless and anyone with the required tech knowledge can freely use 100% of the Aave protocol features.</p>
+<p>That being said, for a more accessible user experience, the Aave companies created the <a href=""https://app.aave.com/"">Aave application</a> allowing the interaction with the Aave protocol without technical knowledge.</p>
+<p>To reinforce the decentralization of the application, the Aave app is deployed on IFPS and considering Flux hosting to avoid centralization of hosting,</p>
+<p>also, the Aave app, is <a href=""https://github.com/aave/interface"">fully open source</a> and allows any developer to contribute to the improvement of the application for the benefit of the end-users.</p>
+<p>As recently, we have witnessed multiple demands from third-parties to be integrated in the aave App (wallets, on-ramps etc…) The presented framework intends to provide governance guidelines to standardize the process of integration into the Aave App.</p>
+<hr>
+<h3>
+<a name=""title-arc-integrate-entity-into-the-aave-app-2"" class=""anchor"" href=""#title-arc-integrate-entity-into-the-aave-app-2""></a>Title [ARC] - integrate [Entity] into the aave app</h3>
+<h3>
+<a name=""proposal-3"" class=""anchor"" href=""#proposal-3""></a>[Proposal]</h3>
+<p>Brief presentation of the entity and ecosystem 250 words max</p>
+<h3>
+<a name=""proposed-integration-4"" class=""anchor"" href=""#proposed-integration-4""></a>[Proposed integration]</h3>
+<p>Brief presentation of the requested integration</p>
+<p>examples:</p>
+<ul>
+<li>a wallet requesting a direct support on user onboarding</li>
+<li>an onramp requesting the integration of an onramp widget</li>
+<li>a notification system requesting to be integrated into user’s dashboard</li>
+<li>a portfolio tracker requesting link in users dashboard</li>
+</ul>
+<p>In this section, the entity should detail which specific section of the app should be modified to integrate the entity.</p>
+<h3>
+<a name=""current-and-proposed-integration-of-aave-in-the-entity-ecosystem-5"" class=""anchor"" href=""#current-and-proposed-integration-of-aave-in-the-entity-ecosystem-5""></a>[Current and proposed integration of Aave in the Entity ecosystem]</h3>
+<ul>
+<li>Is the Aave app highlighted in the entity application?</li>
+<li>How does the integration benefit the Entity Aave’s current and potential future users?</li>
+</ul>
+<h3>
+<a name=""technical-integration-6"" class=""anchor"" href=""#technical-integration-6""></a>[Technical integration]</h3>
+<ul>
+<li>Link to Aave interface PR requesting the integration</li>
+</ul>
+<hr>
+<p>This framework is intended to provide standardization of UI/UX integration of the Aave App.</p>
+<p>The proposed governance process for a UI integration is to have each entity do a governance thread open for at least 5 days.</p>
+<p>Then open a snapshot vote with a starting voting period of 24h in the future with at least 3 days open vote period considered valid with a 100k AAVE YAE vote quorum.</p>
+<p>the proposed options for the snapshot must be YAE/NAY/ABSTAIN.</p>
+<p>The Aave interface GitHub maintainers will then review the integration PR and provided they don’t detect security issues, will merge the PR.</p>
+<p>In the case of a security issue detected with the PR and not discussed before the snapshot vote, the GitHub maintainers will open technical communication channels with the entity in an effort to allow the integration to be merged but will keep a veto right regardless of the governance process in the case the integration is considered harmful to Aave users security.</p>"
+aavedao.eth,0x5ef706871a7cfdd6024aea6041c7717feb9a9d328a168279720ae3262e0f170c,UI/UX upgrade governance framework,https://governance.aave.com/t/arc-ui-ux-upgrade-governance-framework/8638,19808,2,,superproduct,2022-06-28T08:29:41.888Z,1656404981,,<p>Can we update it so that a github issue will link to the snapshot post and all relevant information</p>

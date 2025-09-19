@@ -1,0 +1,6 @@
+/Users/chunghyunhan/Projects/agentics/src/agentics/mcp/orchestra.py:549: RuntimeWarning: coroutine 'FunctionTool.run' was never awaited
+  cmc_id = resolve_price_token(project_hint)
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback
+/Users/chunghyunhan/Projects/agentics/src/agentics/mcp/orchestra.py:818: RuntimeWarning: coroutine 'FunctionTool.run' was never awaited
+  out_rows.append(_normalize_row({"proposal": {"id": pid, "title": p.get("title")},
+RuntimeWarning: Enable tracemalloc to get the object allocation traceback

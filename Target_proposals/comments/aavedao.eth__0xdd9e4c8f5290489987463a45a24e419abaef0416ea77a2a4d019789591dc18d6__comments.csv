@@ -1,0 +1,54 @@
+space,proposal_id,proposal_title,discussion_url,post_id,post_number,reply_to_post_number,author_username,created_at,created_ts,text_raw,text_html
+aavedao.eth,0xdd9e4c8f5290489987463a45a24e419abaef0416ea77a2a4d019789591dc18d6,[TEMP CHECK] Launch Aave V3 on Kava EVM ,https://governance.aave.com/t/temp-check-launch-aave-v3-on-kava-evm/15829,39153,1,,TommyKavaEVM,2023-12-13T01:34:24.494Z,1702431264,,"<p>Authors: Various Kava Ecosystem Contributors</p>
+<p>Date: 2023/12/12</p>
+<p><strong>1. Simple Summary</strong></p>
+<p>KAVA in collaboration with PGov and Michigan Blockchain propose the integration of Aave V3 with KAVA. KAVA’s EVM compatibility and integration will be a crucial advancement for the Aave multichain vision. The integration will enable Aave to access the deep liquidity on Cosmos and enables Cosmos ecosystem users to get access to the premier lending protocol through KAVA</p>
+<p><strong>2. Motivation</strong></p>
+<p>This proposal aims to be a starting point in the process of bringing Aave to the KAVA Ecosystem and aims to provide necessary details to the Aave community to consider the merits of KAVA integration. Kava has been building out the cornerstones of a solid DeFi ecosystem since mainnet launch in 2022. The key dexes in the ecosystem are Kinetix (a Uniswap v3 dex plus perpetual trading platform built by the Quickswap team from Polygon), WAGMI (protocol owned liquidity dex), and Equilibre (a ve3,3 dex). There are a few burgeoning lending protocols on the chain, but with the team’s plans to deprecate the existing leading lending protocol on the Cosmos SDK side, Kava Lend, there exists an incredible opportunity for a blue chip lending protocol like Aave to establish market dominance on the EVM side.</p>
+<p>In addition to the market opportunity, the Kava ecosystem has an ongoing incentive program called the Kava Rise program which incentivizes protocol usage pro-rata based on TVL per protocol. Currently 1M Kava is being distributed per month to protocols pro-rata. Due to the proclivity for lending protocols to attract a significant portion of TVL in an ecosystem, Aave stands to earn the majority of these rewards. The current distribution of rewards is 1M Kava per month, and can increase pending governance approval as the ecosystem matures.</p>
+<p>The Kava Foundation has committed to providing liquidity mining rewards of a minimum of 1M Kava guaranteed over the first year for the Aave community.</p>
+<p><strong>Benefits of deploying on Kava</strong></p>
+<p>With the KAVA integration, Aave gets additional markets with Market Cap of $740M, ~200M of locked liquidity, native assets like ATOM, USDT, WBTC and more. KAVA itself is connected well within the Cosmos ecosystem, thus the integration will also enable the cosmos community to plug its deep $60Bn liquidity to Aave through KAVA.</p>
+<ul>
+<li>Kava today is the 12th largest chain by TVL, and 9th by number of deployed protocols as <a href=""https://defillama.com/chains"" rel=""noopener nofollow ugc"">per DefiLlama</a></li>
+<li>Kava is an EVM built on top of the Cosmos SDK, this also facilitates bringing Cosmos assets (like ATOM) natively onto the Protocol, which is not possible on other EVMs. AAVE has the opportunity to connect trading in the Cosmos and Ethereum.</li>
+<li>Kava is the largest of such an EVM chain with native Cosmos integration capabilities.</li>
+</ul>
+<p><strong>Why it makes sense for all parties involved to pursue this new deployment</strong></p>
+<p>In addition, Kava has recently garnered a partnership with Tether, as Tether selected Kava to be the native USDT distributor across the Cosmos. In other words, if a user wants an IBC denominated USDT that’s natively issued by Tether, that USDT needs to originate from Kava. In just a few short months, there has been over $150M USDT natively issued on the Kava blockchain.</p>
+<p>WETH is also available as an OFT on Kava via Stargate, and WBTC will soon be issued natively on Kava by Bitgo as well. This provides a plethora of native asset markets for Aave on Kava with deep liquidity.</p>
+<p>Some other bluechip deployments on Kava include Curve Finance, Beefy Finance, and an upcoming deployment from Yearn Finance as well.</p>
+<p>Kava’s latest partnership with Tether, Bitgo, LayerZero and other DApps mentioned above signify its steady commitment to provide a top of the line DeFi ecosystem to users.</p>
+<p>One unique benefit of an Aave v3 deployment on Kava is that Aave would be able to open up Cosmos based markets like ATOM natively on the EVM, which is currently not available on any other chain. We believe this opportunity to open up the Cosmos world to Aave presents a significant opportunity for the community.</p>
+<p><strong>3. Proof of Liquidity (POL) and Deposit Commitments:</strong></p>
+<p>The Kava Foundation has done a good job of managing its treasury in this recent bear market. Currently the treasury stands at ~360M Kava. The Foundation is happy to seed liquidity in initial markets with up to 50M Kava over the first year.</p>
+<p>As mentioned previously, the Kava Rise reward program exists to reward protocols pro-rata based on the amount TVL each project has on a monthly basis. With the commitment to seed liquidity, and the market opportunity for Aave to overtake the soon-to-be deprecated existing Kava Lend protocol, Aave has a clear opportunity to establish TVL and market dominance within the Kava ecosystem, and thereby earn a significant portion of existing 1M Kava/month liquidity mining rewards.</p>
+<p>In short, not only will Kava Foundation commit to seeding liquidity, but that seeded liquidity will also drive the flywheel of liquidity mining rewards for Aave users on Kava.</p>
+<p>Regardless of TVL, at a bare minimum, the Kava Foundation will commit to 1M Kava in liquidity mining rewards over the first year for the Aave community. It is completely up to the Aave community how it wants to use these rewards.</p>
+<p><strong>About Kava Rise Program</strong></p>
+<p>Kava Rise is an on-chain reward program that rewards builders on Kava. Rewards are distributed monthly on a pro-rata basis on the amount of TVL each project has. The current reward distribution is 1M Kava per month. And this amount can change/increase based on governance as the ecosystem continues to mature.</p>
+<p>Read more about the Kava Rise program<a href=""https://www.kava.io/developer-rewards"" rel=""noopener nofollow ugc""> here</a>.</p>
+<p><strong>4. Helpful Links</strong></p>
+<ul>
+<li>Audit 1: <a href=""https://skynet.certik.com/projects/kava"" class=""inline-onebox"" rel=""noopener nofollow ugc"">Kava - CertiK Skynet Project Insight</a></li>
+<li>Documentation:<a href=""https://docs.kava.io"" rel=""noopener nofollow ugc""> https://docs.kava.io</a></li>
+<li>Explorers:<a href=""https://www.mintscan.io/kava"" rel=""noopener nofollow ugc""> Mintscan</a>,<a href=""https://kavascan.com/"" rel=""noopener nofollow ugc""> Kavascan</a></li>
+<li><a href=""https://www.kava.io/ecosystem"" rel=""noopener nofollow ugc"">KAVA Ecosystem overview</a></li>
+<li>Kave <a href=""https://defillama.com/chain/Kava"" rel=""noopener nofollow ugc"">Defillama</a></li>
+<li><a href=""https://www.kava.io/developer-rewards"" rel=""noopener nofollow ugc"">Kava Rise Program</a></li>
+</ul>
+<p><strong>5. Disclaimer:</strong></p>
+<p>The authors of this proposal include various contributors/contractors of the Kava Ecosystem.</p>
+<p><strong>6. Next Steps</strong></p>
+<ol>
+<li>If consensus is reached on this [TEMP CHECK], escalate this proposal to the Snapshot stage.</li>
+<li>If the Snapshot outcome is YAE, this proposal will be escalated to ARFC stage</li>
+<li>Publication of a standard ARFC, collect community &amp; service providers feedback before escalating proposal to ARFC snapshot stage</li>
+<li>If the ARFC snapshot outcome is YAE, publish an AIP vote for final confirmation and enforcement of the proposal</li>
+</ol>
+<p><strong>7. Copyright:</strong></p>
+<p>Copyright and related rights waived under <a href=""https://creativecommons.org/publicdomain/zero/1.0/"" rel=""noopener nofollow ugc"">CC0</a>.</p>"
+aavedao.eth,0xdd9e4c8f5290489987463a45a24e419abaef0416ea77a2a4d019789591dc18d6,[TEMP CHECK] Launch Aave V3 on Kava EVM ,https://governance.aave.com/t/temp-check-launch-aave-v3-on-kava-evm/15829,39209,2,,Kene_StableLab,2023-12-15T00:06:22.484Z,1702598782,,"<p>We are in support of this proposal, from our perspective, it is clear that Kava has complied with the new requirements for Aave Network deployments.</p>
+<p>We are keen to hear comments from other members of the community.</p>"
+aavedao.eth,0xdd9e4c8f5290489987463a45a24e419abaef0416ea77a2a4d019789591dc18d6,[TEMP CHECK] Launch Aave V3 on Kava EVM ,https://governance.aave.com/t/temp-check-launch-aave-v3-on-kava-evm/15829,39848,3,,ACI,2024-01-07T08:01:52.729Z,1704614512,,"<p>This proposal has been escalated to the <a href=""https://snapshot.org/#/aave.eth/proposal/0xdd9e4c8f5290489987463a45a24e419abaef0416ea77a2a4d019789591dc18d6"">snapshot </a> stage</p>
+<p>Vote starts tomorrow.</p>"

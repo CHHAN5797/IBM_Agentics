@@ -1,0 +1,133 @@
+space,proposal_id,proposal_title,discussion_url,post_id,post_number,reply_to_post_number,author_username,created_at,created_ts,text_raw,text_html
+aurafinance.eth,0xed9283a03057424369a32daed76eb66a10cb091a77e31678b0b97aaf3e209662,[BIP-756] Enable Gauge for USDC/wUSDL boosted pool [Ethereum],https://forum.balancer.fi/t/bip-756-enable-gauge-for-usdc-wusdl-boosted-pool-ethereum/6289,15223,1,,roheat,2025-01-14T09:18:09.071Z,1736846289,,"<h3><a name=""p-15223-pr-with-payload-1"" class=""anchor"" href=""#p-15223-pr-with-payload-1""></a>PR with Payload</h3>
+<aside class=""onebox githubpullrequest"" data-onebox-src=""https://github.com/BalancerMaxis/multisig-ops/pull/1669"">
+  <header class=""source"">
+
+      <a href=""https://github.com/BalancerMaxis/multisig-ops/pull/1669"" target=""_blank"" rel=""noopener"">github.com/BalancerMaxis/multisig-ops</a>
+  </header>
+
+  <article class=""onebox-body"">
+    <div class=""github-row"" data-github-private-repo=""false"">
+
+
+
+    <div class=""github-icon-container"" title=""Pull Request"">
+      <svg width=""60"" height=""60"" class=""github-icon"" viewBox=""0 0 12 16"" aria-hidden=""true""><path fill-rule=""evenodd"" d=""M11 11.28V5c-.03-.78-.34-1.47-.94-2.06C9.46 2.35 8.78 2.03 8 2H7V0L4 3l3 3V4h1c.27.02.48.11.69.31.21.2.3.42.31.69v6.28A1.993 1.993 0 0 0 10 15a1.993 1.993 0 0 0 1-3.72zm-1 2.92c-.66 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2zM4 3c0-1.11-.89-2-2-2a1.993 1.993 0 0 0-1 3.72v6.56A1.993 1.993 0 0 0 2 15a1.993 1.993 0 0 0 1-3.72V4.72c.59-.34 1-.98 1-1.72zm-.8 10c0 .66-.55 1.2-1.2 1.2-.65 0-1.2-.55-1.2-1.2 0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2zM2 4.2C1.34 4.2.8 3.65.8 3c0-.65.55-1.2 1.2-1.2.65 0 1.2.55 1.2 1.2 0 .65-.55 1.2-1.2 1.2z""></path></svg>
+    </div>
+
+  <div class=""github-info-container"">
+
+
+
+      <h4>
+        <a href=""https://github.com/BalancerMaxis/multisig-ops/pull/1669"" target=""_blank"" rel=""noopener"">[BIP-756] Enable Gauge for USDC/wUSDL boosted pool [Ethereum]</a>
+      </h4>
+
+    <div class=""branches"">
+      <code>BalancerMaxis:main</code> ← <code>Xeonus:enable-csUSDL-gauge-mainnet</code>
+    </div>
+
+      <div class=""github-info"">
+        <div class=""date"">
+          opened <span class=""discourse-local-date"" data-format=""ll"" data-date=""2025-01-15"" data-time=""07:57:41"" data-timezone=""UTC"">07:57AM - 15 Jan 25 UTC</span>
+        </div>
+
+        <div class=""user"">
+          <a href=""https://github.com/Xeonus"" target=""_blank"" rel=""noopener"">
+            <img alt="""" src=""https://canada1.discourse-cdn.com/flex027/uploads/balancer/original/2X/7/754a20abef67f72c9b1e174555a0a7ae7fe11d87.png"" class=""onebox-avatar-inline"" width=""20"" height=""20"" data-dominant-color=""CC8776"">
+            Xeonus
+          </a>
+        </div>
+
+        <div class=""lines"" title=""2 commits changed 2 files with 54 additions and 0 deletions"">
+          <a href=""https://github.com/BalancerMaxis/multisig-ops/pull/1669/files"" target=""_blank"" rel=""noopener"">
+            <span class=""added"">+54</span>
+            <span class=""removed"">-0</span>
+          </a>
+        </div>
+      </div>
+  </div>
+</div>
+
+  <div class=""github-row"">
+    <p class=""github-body-container"">- enable gauge for USDC/wUSDL boosted pool on Mainnet
+- [Proposal](https://forum<span class=""show-more-container""><a href=""https://github.com/BalancerMaxis/multisig-ops/pull/1669"" target=""_blank"" rel=""noopener"" class=""show-more"">…</a></span><span class=""excerpt hidden"">.balancer.fi/t/bip-756-enable-gauge-for-usdc-wusdl-boosted-pool-ethereum/6289)</span></p>
+  </div>
+
+  </article>
+
+  <div class=""onebox-metadata"">
+    
+    
+  </div>
+
+  <div style=""clear: both""></div>
+</aside>
+
+<h1><a name=""p-15223-enable-gauge-for-usdcwusdl-boosted-pool-ethereum-2"" class=""anchor"" href=""#p-15223-enable-gauge-for-usdcwusdl-boosted-pool-ethereum-2""></a>Enable Gauge for USDC/wUSDL boosted pool (Ethereum)</h1>
+<p><strong>Summary:</strong></p>
+<blockquote>
+<p>This is a proposal to enable an uncapped Balancer gauge for the USDC/wUSDL boosted pool on Ethereum.<br>
+We already have soft commits of $10M from Amber, Selini and Paxos on this USDC/wUSDL boosted pool, and implementing the gauge will help us grow the TVL even further.</p>
+</blockquote>
+<p><strong>References/Useful links:</strong></p>
+<blockquote>
+<p>Link to:<br>
+• <a href=""https://www.coinshift.xyz/"">Website</a><br>
+• <a href=""https://www.notion.so/Coinshift-Resources-170def1040e98078a54adc42f19ccda4?pvs=21"">Documentation</a><br>
+• <a href=""https://twitter.com/0xCoinshift"">Twitter</a><br>
+• <a href=""https://discord.com/invite/xadK8P7FjZ"">Discord</a><br>
+• <a href=""https://www.linkedin.com/company/coinshift-finance/"">LinkedIn</a></p>
+</blockquote>
+<p><strong>Protocol Description:</strong></p>
+<p><strong>About Coinshift</strong></p>
+<p>Coinshift is building the first <strong>onchain treasury economy</strong> offering businesses and individuals the safest way to move, manage, and grow value onchain.</p>
+<p>Since 2021, Coinshift has managed <strong>$1B in Safe accounts</strong> and facilitated <strong>$1B in payments</strong> for over 300+ organizations, including Aave, UMA, Zapper and Starknet. Coinshift is backed by Tiger Global, Sequoia and ConsenSys.</p>
+<p>Recently Coinshift launched 2 asset management products: csUSDL and csUSDC, which grew to 15M TVL within 20 days of launch with large LPs like Nascent, Dialectic and GSR.</p>
+<p><strong>About csUSDL and csUSDC</strong></p>
+<p>csUSDL and csUSDC are RWA-backed, yield-bearing stablecoins built on Morpho Protocol.<br>
+csUSDL is powered by USDL, a regulated stablecoin issued by Paxos International in Abu Dhabi, whereas csUSDC is backed by USDC.</p>
+<ul>
+<li>csUSDL and csUSDC represent the tokenized position of wUSDL and USDC in Coinshift’s vault respectively. The vaults are curated by Steakhouse Financial against blue-chip collateral like wstETH and cbBTC.</li>
+<li>The yield on csUSDL and csUSDC is fully transparent and verifiable onchain, and is independent of Coinshift’s control. The asset is fully permission-less and self-custodial by design.</li>
+</ul>
+<p><strong>Motivation:</strong></p>
+<blockquote>
+<p>The wUSDL/USDC boosted pool internally deposits the assets into csUSDL and csUSDC respectively, making the LP position highly capital efficient by offering 12-25% base APY and token incentives in MORPHO and SHIFT, which is Coinshift’s revenue-based governance and reward token.<br>
+We already have soft commits of $10M from Amber, Selini and Paxos on this USDC/wUSDL boosted pool, and implementing the gauge will help us grow the TVL even further.</p>
+</blockquote>
+<p><strong>Specifications:</strong></p>
+<ol>
+<li><strong>Governance</strong>: The Coinshift protocol will be governed by a DAO launching in early Q2, 2025 on Ethereum. For now, Coinshift Limited team’s multisig wallet currently retains specific administrative controls. These include the ability to pause the pool, adjust the swap fee, and configure the protocol fee.</li>
+<li><strong>Oracles</strong>:</li>
+</ol>
+<ul>
+<li><a href=""https://etherscan.io/address/0xb0926cfc3ac047035b11d9afb85dc782e6d9d76a"">csUSDC rate provider</a></li>
+<li><a href=""https://etherscan.io/address/0x9062a576d3e6cf6999e99e405608063033c4cff6"">csUSDL rate provider</a></li>
+</ul>
+<ol start=""3"">
+<li><strong>Audits</strong>:</li>
+</ol>
+<ul>
+<li><a href=""https://github.com/morpho-org/metamorpho-v1.1/tree/main/audits"">Morpho v1.1 audit reports</a> (OpenZeppelin and Cantina)</li>
+<li><a href=""https://github.com/paxosglobal/ybs-contract"">USDL audit reports</a> (OpenZeppelin, Certik, Zellic, Trail of Bits)</li>
+</ul>
+<ol start=""4"">
+<li><strong>Centralization vectors</strong>: Morpho Governance operates in a decentralized manner, with all changes undergoing a transparent and rigorously tested governance process. In contrast, Paxos International is a centralized entity similar to Circle, the issuer of USDC, with its governance framework dictated by the FSRA in ADGM. USDL is issued on a 1:1 basis to USDC, and is fully backed by reserves held in cash or U.S. Government Treasuries. USDL also publishes transparency reports each month which can be found<a href=""https://liftdollar.com/transparency/""> here</a>. Regarding the boosted pool, the Coinshift Limited team’s multisig wallet currently retains specific administrative controls — to pause the pool, adjust the swap fee, and configure the protocol fee.</li>
+<li><strong>Market History</strong>: Coinshift is trusted by 300+ leading web3 organizations including Aave, Gitcoin, Instadapp and Starknet.<a href=""https://app.morpho.org/vault?vault=0xbEeFc011e94f43b8B7b455eBaB290C7Ab4E216f1&amp;network=mainnet""> csUSDL can be tracked here.</a><a href=""https://app.morpho.org/vault?vault=0x7204B7Dbf9412567835633B6F00C3Edc3a8D6330&amp;network=mainnet""> csUSDC can be tracked here.</a></li>
+<li><strong>Value</strong>: This pool is highly capital efficient with 12-25% base APY and additional token incentives, making it very attractive to large market makers and hedge funds.</li>
+</ol>
+<p><strong>Contracts</strong></p>
+<ul>
+<li><a href=""https://etherscan.io/token/0xbEeFc011e94f43b8B7b455eBaB290C7Ab4E216f1"">csUSDL</a></li>
+<li><a href=""https://etherscan.io/token/0x7204B7Dbf9412567835633B6F00C3Edc3a8D6330"">csUSDC</a></li>
+<li><a href=""https://balancer.fi/pools/ethereum/v3/0x10a04efba5b880e169920fd4348527c64fb29d4d"">USDC/wUSDL Boosted Balancer pool</a></li>
+<li><a href=""https://etherscan.io/address/0x5bbaed1fadc08c5fb3e4ae3c8848777e2da77103"">Gauge</a></li>
+</ul>
+<p><strong>Specification</strong></p>
+<p>Transaction: The Balancer Maxi LM Multisig <code>eth:0xc38c5f97B34E175FFd35407fc91a937300E33860</code></p>
+<p>will interact with the GaugeAdderv4 at <code>0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd</code> and call the addGauge function with the following arguments:</p>
+<p>gauge(address): <code>0x5bbaed1fadc08c5fb3e4ae3c8848777e2da77103</code></p>
+<p>gaugeType(string): <code>Ethereum</code></p>"
+aurafinance.eth,0xed9283a03057424369a32daed76eb66a10cb091a77e31678b0b97aaf3e209662,[BIP-756] Enable Gauge for USDC/wUSDL boosted pool [Ethereum],https://forum.balancer.fi/t/bip-756-enable-gauge-for-usdc-wusdl-boosted-pool-ethereum/6289,15242,2,,Xeonus,2025-01-16T08:10:44.540Z,1737015044,,"<p>Very excited about this partnership and upcoming gauge!</p>
+<p><a href=""https://snapshot.org/#/s:balancer.eth/proposal/0x2419c0aea2b4367dac8925f6d16f460b5d252d14110dd58a3e31befa8844e9da"">https://snapshot.org/#/s:balancer.eth/proposal/0x2419c0aea2b4367dac8925f6d16f460b5d252d14110dd58a3e31befa8844e9da</a></p>"

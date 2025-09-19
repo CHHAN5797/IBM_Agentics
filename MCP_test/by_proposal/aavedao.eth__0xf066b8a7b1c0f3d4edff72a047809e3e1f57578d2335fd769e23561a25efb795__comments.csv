@@ -1,0 +1,650 @@
+space,proposal_id,proposal_title,discussion_url,end,end_iso,forum_kind,post_id,post_number,reply_to_post_number,author_username,created_at,text,text_raw,text_html
+aavedao.eth,0xf066b8a7b1c0f3d4edff72a047809e3e1f57578d2335fd769e23561a25efb795,[ARFC] Launch GHO on Ink & set ACI as Emissions Manager for Rewards,https://governance.aave.com/t/arfc-launch-gho-on-ink-set-aci-as-emissions-manager-for-rewards/22664,1756015386,2025-08-24T06:03:06+00:00,discourse,57752,1,,TokenLogic,2025-07-23T17:33:50.204Z,"<p>title: [ARFC] Launch GHO on Ink &amp; set ACI as Emissions Manager for Rewards<br>
+author: TokenLogic<br>
+created: 2025-07-23</p>
+<h2><a name=""p-57752-summary-1"" class=""anchor"" href=""#p-57752-summary-1""></a>Summary</h2>
+<p>This proposal aims to launch GHO on the Ink blockchain and designate ACI as the Emissions Manager for GHO and aGHO, facilitating potential rewards and incentive programs.</p>
+<h2><a name=""p-57752-motivation-2"" class=""anchor"" href=""#p-57752-motivation-2""></a>Motivation</h2>
+<p>Following the successful multichain expansion of GHO to Arbitrum, Base, Avalanche launching GHO on Ink represents the next step in growing GHO’s presence.</p>
+<p>Ink is an EVM-compatible, modular Layer 2 focused on scalable, capital-efficient DeFi applications brought to life by Kraken. With Aave’s anticipated deployment on Ink, bringing GHO to the network simultaneously ensures GHO becomes a foundational stablecoin in the ecosystem from day one.</p>
+<p>This ARFC seeks community support to approve the launch of GHO on Ink, ensuring the coordination of technical deployment, risk management, and ecosystem alignment.</p>
+<p>As learned from previous launches, successful expansion of GHO requires:</p>
+<ul>
+<li>Coordinated implementation of protocol and bridging infrastructure</li>
+<li>Definition of risk parameters tailored to Ink’s ecosystem</li>
+<li>Collaboration with local DEXs and applications for utility and liquidity</li>
+<li>Early incentive programs and strategic ecosystem engagement</li>
+</ul>
+<h2><a name=""p-57752-specification-3"" class=""anchor"" href=""#p-57752-specification-3""></a>Specification</h2>
+<p>Ink will be the next immediate focus for GHO growth alongside the Aave instance launch.</p>
+<p>The proposed launch of GHO on Ink involves the following components and responsibilities:</p>
+<div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Service Provider</th>
+<th>Responsibility</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Aave Labs + Certora</td>
+<td>Deploy GHO infrastructure and CCIP bridge</td>
+</tr>
+<tr>
+<td>TokenLogic</td>
+<td>Deploy Facilitator, GSM, and Steward config</td>
+</tr>
+<tr>
+<td>Chaos Labs + Risk Llama</td>
+<td>Set and monitor risk parameters</td>
+</tr>
+<tr>
+<td>ACI + TokenLogic</td>
+<td>Incentive design and emissions distribution</td>
+</tr>
+<tr>
+<td>Aave Liquidity Committee</td>
+<td>Coordinate DEX liquidity</td>
+</tr>
+<tr>
+<td>GHO Stewards</td>
+<td>Maintain risk parameters over time</td>
+</tr>
+</tbody>
+</table>
+</div><p>ACI multisig address: <code>0xac140648435d03f784879cd789130F22Ef588Fcd</code></p>
+<p>Timeline and exact implementation details will follow in subsequent AIPs after ARFC approval.</p>
+<h3><a name=""p-57752-gho-parameters-for-aave-v3-ink-deployment-4"" class=""anchor"" href=""#p-57752-gho-parameters-for-aave-v3-ink-deployment-4""></a>GHO Parameters for Aave v3 Ink Deployment</h3>
+<div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Asset</td>
+<td>GHO</td>
+</tr>
+<tr>
+<td>Market</td>
+<td>Ink</td>
+</tr>
+<tr>
+<td>Isolation Mode</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Borrowable</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Collateral Enabled</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Supply Cap</td>
+<td>5,000,000</td>
+</tr>
+<tr>
+<td>Borrow Cap</td>
+<td>4,500,000</td>
+</tr>
+<tr>
+<td>Debt Ceiling</td>
+<td>-</td>
+</tr>
+<tr>
+<td>LTV</td>
+<td>-</td>
+</tr>
+<tr>
+<td>LT</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Liquidation Bonus</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Liquidation Protocol Fee</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Variable Base</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>Variable Slope1</td>
+<td>5.5%</td>
+</tr>
+<tr>
+<td>Variable Slope2</td>
+<td>50%</td>
+</tr>
+<tr>
+<td>Uoptimal</td>
+<td>90%</td>
+</tr>
+<tr>
+<td>Reserve Factor</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>Stable Borrowing</td>
+<td>Disabled</td>
+</tr>
+<tr>
+<td>Flashloanable</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Siloed Borrowing</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Borrowable in Isolation</td>
+<td>No</td>
+</tr>
+<tr>
+<td>E-Mode Category</td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+</div><h3><a name=""p-57752-facilitator-and-ccip-configuration-5"" class=""anchor"" href=""#p-57752-facilitator-and-ccip-configuration-5""></a>Facilitator and CCIP Configuration</h3>
+<p>A <code>GhoDirectMinter</code> facilitator will be deployed on Ethereum to support GHO issuance for Ink:</p>
+<div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mint Cap</td>
+<td>15M GHO</td>
+</tr>
+</tbody>
+</table>
+</div><p>CCIP configuration to support bridging to Ink:</p>
+<div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bucket Capacity</td>
+<td>15M GHO</td>
+</tr>
+<tr>
+<td>Inbound Capacity</td>
+<td>1,500,000</td>
+</tr>
+<tr>
+<td>Outbound Capacity</td>
+<td>1,500,000</td>
+</tr>
+<tr>
+<td>Refill Rate</td>
+<td>300 GHO/sec</td>
+</tr>
+</tbody>
+</table>
+</div><h3><a name=""p-57752-gsm-parameters-statausdt0ink-6"" class=""anchor"" href=""#p-57752-gsm-parameters-statausdt0ink-6""></a>GSM Parameters (stataUSDT0.ink)</h3>
+<div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GHO Bucket Cap</td>
+<td>10.00M</td>
+</tr>
+<tr>
+<td>USDT0 Exposure Cap</td>
+<td>5.00M</td>
+</tr>
+<tr>
+<td>Freeze Lower Bound</td>
+<td>$0.990</td>
+</tr>
+<tr>
+<td>Freeze Upper Bound</td>
+<td>$1.010</td>
+</tr>
+<tr>
+<td>Unfreeze Lower Bound</td>
+<td>$0.995</td>
+</tr>
+<tr>
+<td>Unfreeze Upper Bound</td>
+<td>$1.005</td>
+</tr>
+<tr>
+<td>Mint GHO Fee</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>Burn GHO Fee</td>
+<td>0.00%</td>
+</tr>
+</tbody>
+</table>
+</div><p>USDT0 deposits into <code>stataUSDT0.ink</code> will trigger GHO transfers from Ethereum-held inventory managed by the GSM.</p>
+<h3><a name=""p-57752-gho-steward-configuration-7"" class=""anchor"" href=""#p-57752-gho-steward-configuration-7""></a>GHO Steward Configuration</h3>
+<p><strong>GhoAaveSteward:</strong></p>
+<ul>
+<li><code>updateGhoBorrowCap</code>: ±100%</li>
+<li><code>updateGhoBorrowRate</code>: ±5% on <code>optimalUsageRatio</code>, <code>baseVariableBorrowRate</code>, <code>variableRateSlope1</code>, <code>variableRateSlope2</code></li>
+<li><code>updateGhoSupplyCap</code>: Up to +100%</li>
+</ul>
+<p><strong>GhoGsmSteward:</strong></p>
+<ul>
+<li><code>updateGsmExposureCap</code>: ±100%</li>
+<li><code>updateGsmBuySellFees</code>: ±0.5% per side (FixedFeeStrategy)</li>
+</ul>
+<p>Only callable by the GHO Steward.</p>
+<h3><a name=""p-57752-budget-8"" class=""anchor"" href=""#p-57752-budget-8""></a>Budget</h3>
+<p>To bootstrap the Ink instance and support initial growth, a specific allowance on Ethereum will be created and bridged to Ink.</p>
+<p>ALC Ethereum SAFE: <code>0xA1c93D2687f7014Aaf588c764E3Ce80aF016229b</code></p>
+<p>Initial liquidity will be sourced via aUSDT0 and routed through Aave LP partners and Ink-native DEXs.</p>
+<h2><a name=""p-57752-disclaimer-9"" class=""anchor"" href=""#p-57752-disclaimer-9""></a>Disclaimer</h2>
+<p>TokenLogic is not compensated for the creation or coordination of this proposal.</p>
+<h2><a name=""p-57752-next-steps-10"" class=""anchor"" href=""#p-57752-next-steps-10""></a>Next Steps</h2>
+<ol>
+<li>Gather feedback from the community</li>
+<li>If consensus is reached, escalate to Snapshot vote</li>
+<li>If Snapshot vote passes (YAE), proceed with AIP implementation</li>
+</ol>
+<h2><a name=""p-57752-copyright-11"" class=""anchor"" href=""#p-57752-copyright-11""></a>Copyright</h2>
+<p>Copyright and related rights waived via <a href=""https://creativecommons.org/publicdomain/zero/1.0/"" rel=""noopener nofollow ugc"">CC0</a></p>",,"<p>title: [ARFC] Launch GHO on Ink &amp; set ACI as Emissions Manager for Rewards<br>
+author: TokenLogic<br>
+created: 2025-07-23</p>
+<h2><a name=""p-57752-summary-1"" class=""anchor"" href=""#p-57752-summary-1""></a>Summary</h2>
+<p>This proposal aims to launch GHO on the Ink blockchain and designate ACI as the Emissions Manager for GHO and aGHO, facilitating potential rewards and incentive programs.</p>
+<h2><a name=""p-57752-motivation-2"" class=""anchor"" href=""#p-57752-motivation-2""></a>Motivation</h2>
+<p>Following the successful multichain expansion of GHO to Arbitrum, Base, Avalanche launching GHO on Ink represents the next step in growing GHO’s presence.</p>
+<p>Ink is an EVM-compatible, modular Layer 2 focused on scalable, capital-efficient DeFi applications brought to life by Kraken. With Aave’s anticipated deployment on Ink, bringing GHO to the network simultaneously ensures GHO becomes a foundational stablecoin in the ecosystem from day one.</p>
+<p>This ARFC seeks community support to approve the launch of GHO on Ink, ensuring the coordination of technical deployment, risk management, and ecosystem alignment.</p>
+<p>As learned from previous launches, successful expansion of GHO requires:</p>
+<ul>
+<li>Coordinated implementation of protocol and bridging infrastructure</li>
+<li>Definition of risk parameters tailored to Ink’s ecosystem</li>
+<li>Collaboration with local DEXs and applications for utility and liquidity</li>
+<li>Early incentive programs and strategic ecosystem engagement</li>
+</ul>
+<h2><a name=""p-57752-specification-3"" class=""anchor"" href=""#p-57752-specification-3""></a>Specification</h2>
+<p>Ink will be the next immediate focus for GHO growth alongside the Aave instance launch.</p>
+<p>The proposed launch of GHO on Ink involves the following components and responsibilities:</p>
+<div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Service Provider</th>
+<th>Responsibility</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Aave Labs + Certora</td>
+<td>Deploy GHO infrastructure and CCIP bridge</td>
+</tr>
+<tr>
+<td>TokenLogic</td>
+<td>Deploy Facilitator, GSM, and Steward config</td>
+</tr>
+<tr>
+<td>Chaos Labs + Risk Llama</td>
+<td>Set and monitor risk parameters</td>
+</tr>
+<tr>
+<td>ACI + TokenLogic</td>
+<td>Incentive design and emissions distribution</td>
+</tr>
+<tr>
+<td>Aave Liquidity Committee</td>
+<td>Coordinate DEX liquidity</td>
+</tr>
+<tr>
+<td>GHO Stewards</td>
+<td>Maintain risk parameters over time</td>
+</tr>
+</tbody>
+</table>
+</div><p>ACI multisig address: <code>0xac140648435d03f784879cd789130F22Ef588Fcd</code></p>
+<p>Timeline and exact implementation details will follow in subsequent AIPs after ARFC approval.</p>
+<h3><a name=""p-57752-gho-parameters-for-aave-v3-ink-deployment-4"" class=""anchor"" href=""#p-57752-gho-parameters-for-aave-v3-ink-deployment-4""></a>GHO Parameters for Aave v3 Ink Deployment</h3>
+<div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Asset</td>
+<td>GHO</td>
+</tr>
+<tr>
+<td>Market</td>
+<td>Ink</td>
+</tr>
+<tr>
+<td>Isolation Mode</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Borrowable</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Collateral Enabled</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Supply Cap</td>
+<td>5,000,000</td>
+</tr>
+<tr>
+<td>Borrow Cap</td>
+<td>4,500,000</td>
+</tr>
+<tr>
+<td>Debt Ceiling</td>
+<td>-</td>
+</tr>
+<tr>
+<td>LTV</td>
+<td>-</td>
+</tr>
+<tr>
+<td>LT</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Liquidation Bonus</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Liquidation Protocol Fee</td>
+<td>-</td>
+</tr>
+<tr>
+<td>Variable Base</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>Variable Slope1</td>
+<td>5.5%</td>
+</tr>
+<tr>
+<td>Variable Slope2</td>
+<td>50%</td>
+</tr>
+<tr>
+<td>Uoptimal</td>
+<td>90%</td>
+</tr>
+<tr>
+<td>Reserve Factor</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>Stable Borrowing</td>
+<td>Disabled</td>
+</tr>
+<tr>
+<td>Flashloanable</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Siloed Borrowing</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Borrowable in Isolation</td>
+<td>No</td>
+</tr>
+<tr>
+<td>E-Mode Category</td>
+<td>N/A</td>
+</tr>
+</tbody>
+</table>
+</div><h3><a name=""p-57752-facilitator-and-ccip-configuration-5"" class=""anchor"" href=""#p-57752-facilitator-and-ccip-configuration-5""></a>Facilitator and CCIP Configuration</h3>
+<p>A <code>GhoDirectMinter</code> facilitator will be deployed on Ethereum to support GHO issuance for Ink:</p>
+<div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mint Cap</td>
+<td>15M GHO</td>
+</tr>
+</tbody>
+</table>
+</div><p>CCIP configuration to support bridging to Ink:</p>
+<div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Bucket Capacity</td>
+<td>15M GHO</td>
+</tr>
+<tr>
+<td>Inbound Capacity</td>
+<td>1,500,000</td>
+</tr>
+<tr>
+<td>Outbound Capacity</td>
+<td>1,500,000</td>
+</tr>
+<tr>
+<td>Refill Rate</td>
+<td>300 GHO/sec</td>
+</tr>
+</tbody>
+</table>
+</div><h3><a name=""p-57752-gsm-parameters-statausdt0ink-6"" class=""anchor"" href=""#p-57752-gsm-parameters-statausdt0ink-6""></a>GSM Parameters (stataUSDT0.ink)</h3>
+<div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GHO Bucket Cap</td>
+<td>10.00M</td>
+</tr>
+<tr>
+<td>USDT0 Exposure Cap</td>
+<td>5.00M</td>
+</tr>
+<tr>
+<td>Freeze Lower Bound</td>
+<td>$0.990</td>
+</tr>
+<tr>
+<td>Freeze Upper Bound</td>
+<td>$1.010</td>
+</tr>
+<tr>
+<td>Unfreeze Lower Bound</td>
+<td>$0.995</td>
+</tr>
+<tr>
+<td>Unfreeze Upper Bound</td>
+<td>$1.005</td>
+</tr>
+<tr>
+<td>Mint GHO Fee</td>
+<td>0.00%</td>
+</tr>
+<tr>
+<td>Burn GHO Fee</td>
+<td>0.00%</td>
+</tr>
+</tbody>
+</table>
+</div><p>USDT0 deposits into <code>stataUSDT0.ink</code> will trigger GHO transfers from Ethereum-held inventory managed by the GSM.</p>
+<h3><a name=""p-57752-gho-steward-configuration-7"" class=""anchor"" href=""#p-57752-gho-steward-configuration-7""></a>GHO Steward Configuration</h3>
+<p><strong>GhoAaveSteward:</strong></p>
+<ul>
+<li><code>updateGhoBorrowCap</code>: ±100%</li>
+<li><code>updateGhoBorrowRate</code>: ±5% on <code>optimalUsageRatio</code>, <code>baseVariableBorrowRate</code>, <code>variableRateSlope1</code>, <code>variableRateSlope2</code></li>
+<li><code>updateGhoSupplyCap</code>: Up to +100%</li>
+</ul>
+<p><strong>GhoGsmSteward:</strong></p>
+<ul>
+<li><code>updateGsmExposureCap</code>: ±100%</li>
+<li><code>updateGsmBuySellFees</code>: ±0.5% per side (FixedFeeStrategy)</li>
+</ul>
+<p>Only callable by the GHO Steward.</p>
+<h3><a name=""p-57752-budget-8"" class=""anchor"" href=""#p-57752-budget-8""></a>Budget</h3>
+<p>To bootstrap the Ink instance and support initial growth, a specific allowance on Ethereum will be created and bridged to Ink.</p>
+<p>ALC Ethereum SAFE: <code>0xA1c93D2687f7014Aaf588c764E3Ce80aF016229b</code></p>
+<p>Initial liquidity will be sourced via aUSDT0 and routed through Aave LP partners and Ink-native DEXs.</p>
+<h2><a name=""p-57752-disclaimer-9"" class=""anchor"" href=""#p-57752-disclaimer-9""></a>Disclaimer</h2>
+<p>TokenLogic is not compensated for the creation or coordination of this proposal.</p>
+<h2><a name=""p-57752-next-steps-10"" class=""anchor"" href=""#p-57752-next-steps-10""></a>Next Steps</h2>
+<ol>
+<li>Gather feedback from the community</li>
+<li>If consensus is reached, escalate to Snapshot vote</li>
+<li>If Snapshot vote passes (YAE), proceed with AIP implementation</li>
+</ol>
+<h2><a name=""p-57752-copyright-11"" class=""anchor"" href=""#p-57752-copyright-11""></a>Copyright</h2>
+<p>Copyright and related rights waived via <a href=""https://creativecommons.org/publicdomain/zero/1.0/"" rel=""noopener nofollow ugc"">CC0</a></p>"
+aavedao.eth,0xf066b8a7b1c0f3d4edff72a047809e3e1f57578d2335fd769e23561a25efb795,[ARFC] Launch GHO on Ink & set ACI as Emissions Manager for Rewards,https://governance.aave.com/t/arfc-launch-gho-on-ink-set-aci-as-emissions-manager-for-rewards/22664,1756015386,2025-08-24T06:03:06+00:00,discourse,57901,2,,LlamaRisk,2025-07-29T16:29:00.953Z,"<h2><a name=""p-57901-summary-1"" class=""anchor"" href=""#p-57901-summary-1""></a>Summary</h2>
+<p>LlamaRisk supports the deployment of GHO on Ink. With GHO successfully scaling across L2s, further expansion of its availability is a logical next step. Our analysis indicates that GHO is well-positioned for additional cross-chain deployments, particularly on Ink, where it has the potential to become the primary stablecoin under current market conditions. As for GSMs supporting GHO peg stability, we do not recommend deploying the (stata)USDC.e GSM due to the limited <a href=""https://explorer.inkonchain.com/token/0xF1815bd50389c46847f0Bda824eC8da914045D14"" rel=""noopener nofollow ugc"">USDC.e market supply of 2.43M</a> on Ink.</p>
+<h2><a name=""p-57901-current-gho-scale-2"" class=""anchor"" href=""#p-57901-current-gho-scale-2""></a>Current GHO Scale</h2>
+<p><div class=""lightbox-wrapper""><a class=""lightbox"" href=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/4/4b0cf12bac59cd14147880076c01e5804360d3c1.png"" data-download-href=""/uploads/short-url/aHVxoaHkeWwIHGBUN8Y1ClVLBrH.png?dl=1"" title=""image"" rel=""noopener nofollow ugc""><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/4/4b0cf12bac59cd14147880076c01e5804360d3c1.png"" alt=""image"" data-base62-sha1=""aHVxoaHkeWwIHGBUN8Y1ClVLBrH"" width=""1279"" height=""633""><div class=""meta""><svg class=""fa d-icon d-icon-far-image svg-icon"" aria-hidden=""true""><use href=""#far-image""></use></svg><span class=""filename"">image</span><span class=""informations"">1279×633 29.8 KB</span><svg class=""fa d-icon d-icon-discourse-expand svg-icon"" aria-hidden=""true""><use href=""#discourse-expand""></use></svg></div></a></div><br>
+<em>Source: GHO Total Supply, <a href=""https://dune.com/queries/2734680/4551181"" rel=""noopener nofollow ugc"">Dune</a>, July 26, 2025</em></p>
+<p>GHO is available on Ethereum Mainnet, Arbitrum, Base, Lens, and most recently, Avalanche. Its total supply now fluctuates around 315M, marking an all-time high. This represents a YTD growth of over 115% from a supply of 146.7M at the beginning of the year.</p>
+<h2><a name=""p-57901-network-specific-considerations-3"" class=""anchor"" href=""#p-57901-network-specific-considerations-3""></a>Network-specific Considerations</h2>
+<p>Ink is an L2 built on Optimism’s OP Stack and launched by Kraken. As part of the Superchain, it inherits Ethereum’s security and complies with the SuperchainERC20 standard, enhancing cross-chain interoperability. However, Ink’s DeFi ecosystem remains nascent, as reflected by its relatively low TVL of $9.28M compared to a total value secured <a href=""https://l2beat.com/scaling/projects/ink/tvs-breakdown"" rel=""noopener nofollow ugc"">(TVS) of $103.5M</a>. This disparity suggests that most bridged assets remain idle, with limited participation in DeFi protocols on Ink.</p>
+<p><div class=""lightbox-wrapper""><a class=""lightbox"" href=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/9/94d312be5fa184f8724667a3b4275d26710c88f1.png"" data-download-href=""/uploads/short-url/leyT37AqSR0lFPJUYMtnENoCZCp.png?dl=1"" title=""image"" rel=""noopener nofollow ugc""><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/9/94d312be5fa184f8724667a3b4275d26710c88f1.png"" alt=""image"" data-base62-sha1=""leyT37AqSR0lFPJUYMtnENoCZCp"" width=""961"" height=""336""><div class=""meta""><svg class=""fa d-icon d-icon-far-image svg-icon"" aria-hidden=""true""><use href=""#far-image""></use></svg><span class=""filename"">image</span><span class=""informations"">961×336 36.8 KB</span><svg class=""fa d-icon d-icon-discourse-expand svg-icon"" aria-hidden=""true""><use href=""#discourse-expand""></use></svg></div></a></div><br>
+<em>Source: Ink TVL and Stablecoin Marketcap, <a href=""https://defillama.com/chain/ink?stablecoinsMcap=true"" rel=""noopener nofollow ugc"">DeFiLlama</a>, July 26, 2025</em></p>
+<p>Ink’s stablecoin ecosystem is in its early stages, currently dominated by <a href=""https://explorer.inkonchain.com/token/0x0200C29006150606B650577BBE7B6248F58470c1"" rel=""noopener nofollow ugc"">USDT0</a>, with a market supply of $75M, while the <a href=""https://explorer.inkonchain.com/token/0xF1815bd50389c46847f0Bda824eC8da914045D14"" rel=""noopener nofollow ugc"">Stargate-bridged USDC.e</a> lags behind with a market cap of $2.43M. This presents a significant growth opportunity for GHO on Ink. The upcoming <a href=""https://governance.aave.com/t/arfc-deploy-a-whitelabel-aave-v3-instance-on-ink/22390"">launch of a whitelabel Aave instance</a> (approved at the ARFC stage, pending AIP) is expected by the team to drive a targeted $1B in TVL to Ink, potentially serving as a strong catalyst for GHO adoption and growth on the network.</p>
+<h3><a name=""p-57901-liquidity-venues-4"" class=""anchor"" href=""#p-57901-liquidity-venues-4""></a>Liquidity Venues</h3>
+<p><div class=""lightbox-wrapper""><a class=""lightbox"" href=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/6/61561113f20d19c233a6483031551b7859d1238d.png"" data-download-href=""/uploads/short-url/dT4I7OyBT9yHNmnQKtvBWUHpcyV.png?dl=1"" title=""image"" rel=""noopener nofollow ugc""><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/6/61561113f20d19c233a6483031551b7859d1238d.png"" alt=""image"" data-base62-sha1=""dT4I7OyBT9yHNmnQKtvBWUHpcyV"" width=""1159"" height=""720""><div class=""meta""><svg class=""fa d-icon d-icon-far-image svg-icon"" aria-hidden=""true""><use href=""#far-image""></use></svg><span class=""filename"">image</span><span class=""informations"">1159×720 82.6 KB</span><svg class=""fa d-icon d-icon-discourse-expand svg-icon"" aria-hidden=""true""><use href=""#discourse-expand""></use></svg></div></a></div><br>
+<em>Source: Top 5 Velodrome Liquidity Pools on Ink, <a href=""https://velodrome.finance/liquidity?filters=Ink"" rel=""noopener nofollow ugc"">Velodrome</a>, July 26, 2025</em></p>
+<p>As of July 26, 2025, the total TVL across DEXs on Ink is approximately $9M, with <a href=""https://velodrome.finance/liquidity?filters=Ink"" rel=""noopener nofollow ugc"">Velodrome</a> and <a href=""https://www.inkyswap.com/pool/view"" rel=""noopener nofollow ugc"">InkySwap</a> accounting for the majority with $6M and $2M TVLs, respectively. The current liquidity is insufficient to support large trades with low price impact, and most transaction volume is concentrated on Velodrome. Therefore, securing initial GHO liquidity on Velodrome will be critical in driving early growth. This foundational liquidity can later support further increases in GHO supply and borrow caps on Ink.</p>
+<h3><a name=""p-57901-yield-venues-5"" class=""anchor"" href=""#p-57901-yield-venues-5""></a>Yield Venues</h3>
+<p><div class=""lightbox-wrapper""><a class=""lightbox"" href=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/b/bd281ffdb9332b7d72f9caa16f4438f94b45181c.png"" data-download-href=""/uploads/short-url/qZmcYnFTaiKMSkLTKHld4c3A8kk.png?dl=1"" title=""image"" rel=""noopener nofollow ugc""><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/b/bd281ffdb9332b7d72f9caa16f4438f94b45181c.png"" alt=""image"" data-base62-sha1=""qZmcYnFTaiKMSkLTKHld4c3A8kk"" width=""905"" height=""600""><div class=""meta""><svg class=""fa d-icon d-icon-far-image svg-icon"" aria-hidden=""true""><use href=""#far-image""></use></svg><span class=""filename"">image</span><span class=""informations"">905×600 80 KB</span><svg class=""fa d-icon d-icon-discourse-expand svg-icon"" aria-hidden=""true""><use href=""#discourse-expand""></use></svg></div></a></div></p>
+<p><em>Source: DeFi Projects on Ink by TVL, <a href=""https://defillama.com/chain/ink"" rel=""noopener nofollow ugc"">DeFiLlama</a>, July 26, 2025</em></p>
+<p>As seen from the current protocol landscape, stablecoin yield opportunities on Ink are limited. <a href=""https://app.shroomy.io/"" rel=""noopener nofollow ugc"">Shroomy Protocol</a>, an Aave V3 fork, is the only lending market, with just $67K in TVL. Yield aggregators <a href=""https://vfat.io/yield?chains=57073&amp;points=no_points-superStacks&amp;farmTypes=volatile-stable-concentrated&amp;protocols=velodrome-uniswap_v4-quickswap-equalizer-shadow-atlantis-ra-pancakeSwap-ramses-uniswap-sushiswap-blackhole-pharaoh-merchantMoe-cleo-nuri-thena-nile-aerodrome-hyperswap-oku"" rel=""noopener nofollow ugc"">vfat.io</a> and <a href=""https://app.thedeep.ink/explore"" rel=""noopener nofollow ugc"">TheDeep</a> have a combined TVL of $230K. <a href=""https://ink.dinero.xyz/"" rel=""noopener nofollow ugc"">Dinero</a>, an ETH liquid staking platform on Ink, issues iETH and currently offers a 4% staking APR. However, the yield environment is expected to improve with the upcoming launch of Ink’s whitelabeled Aave instance. The team is optimistic, projecting $1B in TVL within 90 days of launch. Additionally, Ink’s backing by Kraken could attract significant capital and users, similar to Coinbase’s impact on Base, leveraging Kraken’s existing exchange user base to drive a broader range of assets and yield opportunities over time.</p>
+<h3><a name=""p-57901-facilitators-6"" class=""anchor"" href=""#p-57901-facilitators-6""></a>Facilitators</h3>
+<p>GHO will be first minted on Mainnet and then bridged to Ink using the CCIP Bridge Facilitator. The initial configuration for the Ink GhoDirectMinter facilitator is set to have a mint cap of 15M GHO.</p>
+<h3><a name=""p-57901-gsm-7"" class=""anchor"" href=""#p-57901-gsm-7""></a>GSM</h3>
+<p>Deploying GSM modules and expanding to new chains is a robust and welcome approach to enhancing GHO stability. However, the current <a href=""https://explorer.inkonchain.com/token/0xF1815bd50389c46847f0Bda824eC8da914045D14"" rel=""noopener nofollow ugc"">USDC.e supply on Ink is limited to just 2.43M</a>, making it vulnerable to significant borrow and supply rate fluctuations if a (stata)USDC.e GSM were deployed. This low supply would also limit the GSM’s effectiveness in stabilizing the GHO peg. Therefore, we recommend holding off on deploying a GSM until the market matures further.</p>
+<h3><a name=""p-57901-recommended-parameters-8"" class=""anchor"" href=""#p-57901-recommended-parameters-8""></a>Recommended Parameters</h3>
+<p>LlamaRisk supports the parameter specification provided by TokenLogic for GHO, including facilitator mint cap, CCIP configuration, and GHO market parameters.</p>
+<h3><a name=""p-57901-disclaimer-9"" class=""anchor"" href=""#p-57901-disclaimer-9""></a>Disclaimer</h3>
+<p>This review was independently prepared by LlamaRisk, a community-led decentralized organization funded in part by the Aave DAO. LlamaRisk is not directly affiliated with the protocol(s) reviewed in this assessment and did not receive any compensation from the protocol(s) or their affiliated entities for this work.</p>
+<p>The information provided should not be construed as legal, financial, tax, or professional advice.</p>",,"<h2><a name=""p-57901-summary-1"" class=""anchor"" href=""#p-57901-summary-1""></a>Summary</h2>
+<p>LlamaRisk supports the deployment of GHO on Ink. With GHO successfully scaling across L2s, further expansion of its availability is a logical next step. Our analysis indicates that GHO is well-positioned for additional cross-chain deployments, particularly on Ink, where it has the potential to become the primary stablecoin under current market conditions. As for GSMs supporting GHO peg stability, we do not recommend deploying the (stata)USDC.e GSM due to the limited <a href=""https://explorer.inkonchain.com/token/0xF1815bd50389c46847f0Bda824eC8da914045D14"" rel=""noopener nofollow ugc"">USDC.e market supply of 2.43M</a> on Ink.</p>
+<h2><a name=""p-57901-current-gho-scale-2"" class=""anchor"" href=""#p-57901-current-gho-scale-2""></a>Current GHO Scale</h2>
+<p><div class=""lightbox-wrapper""><a class=""lightbox"" href=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/4/4b0cf12bac59cd14147880076c01e5804360d3c1.png"" data-download-href=""/uploads/short-url/aHVxoaHkeWwIHGBUN8Y1ClVLBrH.png?dl=1"" title=""image"" rel=""noopener nofollow ugc""><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/4/4b0cf12bac59cd14147880076c01e5804360d3c1.png"" alt=""image"" data-base62-sha1=""aHVxoaHkeWwIHGBUN8Y1ClVLBrH"" width=""1279"" height=""633""><div class=""meta""><svg class=""fa d-icon d-icon-far-image svg-icon"" aria-hidden=""true""><use href=""#far-image""></use></svg><span class=""filename"">image</span><span class=""informations"">1279×633 29.8 KB</span><svg class=""fa d-icon d-icon-discourse-expand svg-icon"" aria-hidden=""true""><use href=""#discourse-expand""></use></svg></div></a></div><br>
+<em>Source: GHO Total Supply, <a href=""https://dune.com/queries/2734680/4551181"" rel=""noopener nofollow ugc"">Dune</a>, July 26, 2025</em></p>
+<p>GHO is available on Ethereum Mainnet, Arbitrum, Base, Lens, and most recently, Avalanche. Its total supply now fluctuates around 315M, marking an all-time high. This represents a YTD growth of over 115% from a supply of 146.7M at the beginning of the year.</p>
+<h2><a name=""p-57901-network-specific-considerations-3"" class=""anchor"" href=""#p-57901-network-specific-considerations-3""></a>Network-specific Considerations</h2>
+<p>Ink is an L2 built on Optimism’s OP Stack and launched by Kraken. As part of the Superchain, it inherits Ethereum’s security and complies with the SuperchainERC20 standard, enhancing cross-chain interoperability. However, Ink’s DeFi ecosystem remains nascent, as reflected by its relatively low TVL of $9.28M compared to a total value secured <a href=""https://l2beat.com/scaling/projects/ink/tvs-breakdown"" rel=""noopener nofollow ugc"">(TVS) of $103.5M</a>. This disparity suggests that most bridged assets remain idle, with limited participation in DeFi protocols on Ink.</p>
+<p><div class=""lightbox-wrapper""><a class=""lightbox"" href=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/9/94d312be5fa184f8724667a3b4275d26710c88f1.png"" data-download-href=""/uploads/short-url/leyT37AqSR0lFPJUYMtnENoCZCp.png?dl=1"" title=""image"" rel=""noopener nofollow ugc""><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/9/94d312be5fa184f8724667a3b4275d26710c88f1.png"" alt=""image"" data-base62-sha1=""leyT37AqSR0lFPJUYMtnENoCZCp"" width=""961"" height=""336""><div class=""meta""><svg class=""fa d-icon d-icon-far-image svg-icon"" aria-hidden=""true""><use href=""#far-image""></use></svg><span class=""filename"">image</span><span class=""informations"">961×336 36.8 KB</span><svg class=""fa d-icon d-icon-discourse-expand svg-icon"" aria-hidden=""true""><use href=""#discourse-expand""></use></svg></div></a></div><br>
+<em>Source: Ink TVL and Stablecoin Marketcap, <a href=""https://defillama.com/chain/ink?stablecoinsMcap=true"" rel=""noopener nofollow ugc"">DeFiLlama</a>, July 26, 2025</em></p>
+<p>Ink’s stablecoin ecosystem is in its early stages, currently dominated by <a href=""https://explorer.inkonchain.com/token/0x0200C29006150606B650577BBE7B6248F58470c1"" rel=""noopener nofollow ugc"">USDT0</a>, with a market supply of $75M, while the <a href=""https://explorer.inkonchain.com/token/0xF1815bd50389c46847f0Bda824eC8da914045D14"" rel=""noopener nofollow ugc"">Stargate-bridged USDC.e</a> lags behind with a market cap of $2.43M. This presents a significant growth opportunity for GHO on Ink. The upcoming <a href=""https://governance.aave.com/t/arfc-deploy-a-whitelabel-aave-v3-instance-on-ink/22390"">launch of a whitelabel Aave instance</a> (approved at the ARFC stage, pending AIP) is expected by the team to drive a targeted $1B in TVL to Ink, potentially serving as a strong catalyst for GHO adoption and growth on the network.</p>
+<h3><a name=""p-57901-liquidity-venues-4"" class=""anchor"" href=""#p-57901-liquidity-venues-4""></a>Liquidity Venues</h3>
+<p><div class=""lightbox-wrapper""><a class=""lightbox"" href=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/6/61561113f20d19c233a6483031551b7859d1238d.png"" data-download-href=""/uploads/short-url/dT4I7OyBT9yHNmnQKtvBWUHpcyV.png?dl=1"" title=""image"" rel=""noopener nofollow ugc""><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/6/61561113f20d19c233a6483031551b7859d1238d.png"" alt=""image"" data-base62-sha1=""dT4I7OyBT9yHNmnQKtvBWUHpcyV"" width=""1159"" height=""720""><div class=""meta""><svg class=""fa d-icon d-icon-far-image svg-icon"" aria-hidden=""true""><use href=""#far-image""></use></svg><span class=""filename"">image</span><span class=""informations"">1159×720 82.6 KB</span><svg class=""fa d-icon d-icon-discourse-expand svg-icon"" aria-hidden=""true""><use href=""#discourse-expand""></use></svg></div></a></div><br>
+<em>Source: Top 5 Velodrome Liquidity Pools on Ink, <a href=""https://velodrome.finance/liquidity?filters=Ink"" rel=""noopener nofollow ugc"">Velodrome</a>, July 26, 2025</em></p>
+<p>As of July 26, 2025, the total TVL across DEXs on Ink is approximately $9M, with <a href=""https://velodrome.finance/liquidity?filters=Ink"" rel=""noopener nofollow ugc"">Velodrome</a> and <a href=""https://www.inkyswap.com/pool/view"" rel=""noopener nofollow ugc"">InkySwap</a> accounting for the majority with $6M and $2M TVLs, respectively. The current liquidity is insufficient to support large trades with low price impact, and most transaction volume is concentrated on Velodrome. Therefore, securing initial GHO liquidity on Velodrome will be critical in driving early growth. This foundational liquidity can later support further increases in GHO supply and borrow caps on Ink.</p>
+<h3><a name=""p-57901-yield-venues-5"" class=""anchor"" href=""#p-57901-yield-venues-5""></a>Yield Venues</h3>
+<p><div class=""lightbox-wrapper""><a class=""lightbox"" href=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/b/bd281ffdb9332b7d72f9caa16f4438f94b45181c.png"" data-download-href=""/uploads/short-url/qZmcYnFTaiKMSkLTKHld4c3A8kk.png?dl=1"" title=""image"" rel=""noopener nofollow ugc""><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/b/bd281ffdb9332b7d72f9caa16f4438f94b45181c.png"" alt=""image"" data-base62-sha1=""qZmcYnFTaiKMSkLTKHld4c3A8kk"" width=""905"" height=""600""><div class=""meta""><svg class=""fa d-icon d-icon-far-image svg-icon"" aria-hidden=""true""><use href=""#far-image""></use></svg><span class=""filename"">image</span><span class=""informations"">905×600 80 KB</span><svg class=""fa d-icon d-icon-discourse-expand svg-icon"" aria-hidden=""true""><use href=""#discourse-expand""></use></svg></div></a></div></p>
+<p><em>Source: DeFi Projects on Ink by TVL, <a href=""https://defillama.com/chain/ink"" rel=""noopener nofollow ugc"">DeFiLlama</a>, July 26, 2025</em></p>
+<p>As seen from the current protocol landscape, stablecoin yield opportunities on Ink are limited. <a href=""https://app.shroomy.io/"" rel=""noopener nofollow ugc"">Shroomy Protocol</a>, an Aave V3 fork, is the only lending market, with just $67K in TVL. Yield aggregators <a href=""https://vfat.io/yield?chains=57073&amp;points=no_points-superStacks&amp;farmTypes=volatile-stable-concentrated&amp;protocols=velodrome-uniswap_v4-quickswap-equalizer-shadow-atlantis-ra-pancakeSwap-ramses-uniswap-sushiswap-blackhole-pharaoh-merchantMoe-cleo-nuri-thena-nile-aerodrome-hyperswap-oku"" rel=""noopener nofollow ugc"">vfat.io</a> and <a href=""https://app.thedeep.ink/explore"" rel=""noopener nofollow ugc"">TheDeep</a> have a combined TVL of $230K. <a href=""https://ink.dinero.xyz/"" rel=""noopener nofollow ugc"">Dinero</a>, an ETH liquid staking platform on Ink, issues iETH and currently offers a 4% staking APR. However, the yield environment is expected to improve with the upcoming launch of Ink’s whitelabeled Aave instance. The team is optimistic, projecting $1B in TVL within 90 days of launch. Additionally, Ink’s backing by Kraken could attract significant capital and users, similar to Coinbase’s impact on Base, leveraging Kraken’s existing exchange user base to drive a broader range of assets and yield opportunities over time.</p>
+<h3><a name=""p-57901-facilitators-6"" class=""anchor"" href=""#p-57901-facilitators-6""></a>Facilitators</h3>
+<p>GHO will be first minted on Mainnet and then bridged to Ink using the CCIP Bridge Facilitator. The initial configuration for the Ink GhoDirectMinter facilitator is set to have a mint cap of 15M GHO.</p>
+<h3><a name=""p-57901-gsm-7"" class=""anchor"" href=""#p-57901-gsm-7""></a>GSM</h3>
+<p>Deploying GSM modules and expanding to new chains is a robust and welcome approach to enhancing GHO stability. However, the current <a href=""https://explorer.inkonchain.com/token/0xF1815bd50389c46847f0Bda824eC8da914045D14"" rel=""noopener nofollow ugc"">USDC.e supply on Ink is limited to just 2.43M</a>, making it vulnerable to significant borrow and supply rate fluctuations if a (stata)USDC.e GSM were deployed. This low supply would also limit the GSM’s effectiveness in stabilizing the GHO peg. Therefore, we recommend holding off on deploying a GSM until the market matures further.</p>
+<h3><a name=""p-57901-recommended-parameters-8"" class=""anchor"" href=""#p-57901-recommended-parameters-8""></a>Recommended Parameters</h3>
+<p>LlamaRisk supports the parameter specification provided by TokenLogic for GHO, including facilitator mint cap, CCIP configuration, and GHO market parameters.</p>
+<h3><a name=""p-57901-disclaimer-9"" class=""anchor"" href=""#p-57901-disclaimer-9""></a>Disclaimer</h3>
+<p>This review was independently prepared by LlamaRisk, a community-led decentralized organization funded in part by the Aave DAO. LlamaRisk is not directly affiliated with the protocol(s) reviewed in this assessment and did not receive any compensation from the protocol(s) or their affiliated entities for this work.</p>
+<p>The information provided should not be construed as legal, financial, tax, or professional advice.</p>"
+aavedao.eth,0xf066b8a7b1c0f3d4edff72a047809e3e1f57578d2335fd769e23561a25efb795,[ARFC] Launch GHO on Ink & set ACI as Emissions Manager for Rewards,https://governance.aave.com/t/arfc-launch-gho-on-ink-set-aci-as-emissions-manager-for-rewards/22664,1756015386,2025-08-24T06:03:06+00:00,discourse,58105,3,,ChaosLabs,2025-08-05T11:52:43.819Z,"<h2><a name=""p-58105-overview-1"" class=""anchor"" href=""#p-58105-overview-1""></a>Overview</h2>
+<p>Chaos Labs supports the proposal to deploy GHO on Ink and appoint ACI as the Emissions Manager to oversee GHO rewards and incentives and the use of stataUSDT0 as the primary asset for the GSM on the Ink instance. Our assessment takes into account GHO’s current market position, as well as the proposed risk parameters and infrastructure for its integration with Ink.</p>
+<h2><a name=""p-58105-gho-2"" class=""anchor"" href=""#p-58105-gho-2""></a>GHO</h2>
+<p>Launching GHO on Ink aligns with Aave’s broader strategy for multi‑chain expansion. Having already shown strong growth on Ethereum, Arbitrum, and Base, extending GHO to Ink offers a logical path to drive further adoption and improve accessibility across the wider ecosystem.</p>
+<p>Overall, GHO has experienced solid growth over the past three months, with its supply rising from about 240M to 310M. As of this writing, its total market capitalization is roughly $304M.</p>
+<p><div class=""lightbox-wrapper""><a class=""lightbox"" href=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/b/b3103144dc079d9fb1f0e1f61044edd5d0ad5c4b.png"" data-download-href=""/uploads/short-url/py49SGXGjbhCtwSHkTeJdg5JOR5.png?dl=1"" title=""Screenshot 2025-07-31 at 4.26.33 PM"" rel=""noopener nofollow ugc""><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/optimized/2X/b/b3103144dc079d9fb1f0e1f61044edd5d0ad5c4b_2_2000x686.png"" alt=""Screenshot 2025-07-31 at 4.26.33 PM"" data-base62-sha1=""py49SGXGjbhCtwSHkTeJdg5JOR5"" width=""2000"" height=""686"" srcset=""https://europe1.discourse-cdn.com/flex013/uploads/aave/optimized/2X/b/b3103144dc079d9fb1f0e1f61044edd5d0ad5c4b_2_2000x686.png, https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/b/b3103144dc079d9fb1f0e1f61044edd5d0ad5c4b.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/b/b3103144dc079d9fb1f0e1f61044edd5d0ad5c4b.png 2x"" data-dominant-color=""11141E""><div class=""meta""><svg class=""fa d-icon d-icon-far-image svg-icon"" aria-hidden=""true""><use href=""#far-image""></use></svg><span class=""filename"">Screenshot 2025-07-31 at 4.26.33 PM</span><span class=""informations"">2494×856 96.1 KB</span><svg class=""fa d-icon d-icon-discourse-expand svg-icon"" aria-hidden=""true""><use href=""#discourse-expand""></use></svg></div></a></div></p>
+<p>GHO’s expansion to other networks has also shown observable effects. For instance, on Base, GHO has maintained a strong growth trend over the past three months. While there has been a slight decline in the past two weeks, its supply has still grown by 10M compared to May 2025.</p>
+<p><div class=""lightbox-wrapper""><a class=""lightbox"" href=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/0/04171f81725207258b625dc1cab51c790fd7d452.png"" data-download-href=""/uploads/short-url/AbrWZ3VU3WudMhI91HDMtVMu7U.png?dl=1"" title=""Screenshot 2025-07-31 at 4.30.38 PM"" rel=""noopener nofollow ugc""><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/optimized/2X/0/04171f81725207258b625dc1cab51c790fd7d452_2_2000x696.png"" alt=""Screenshot 2025-07-31 at 4.30.38 PM"" data-base62-sha1=""AbrWZ3VU3WudMhI91HDMtVMu7U"" width=""2000"" height=""696"" srcset=""https://europe1.discourse-cdn.com/flex013/uploads/aave/optimized/2X/0/04171f81725207258b625dc1cab51c790fd7d452_2_2000x696.png, https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/0/04171f81725207258b625dc1cab51c790fd7d452.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/0/04171f81725207258b625dc1cab51c790fd7d452.png 2x"" data-dominant-color=""18284E""><div class=""meta""><svg class=""fa d-icon d-icon-far-image svg-icon"" aria-hidden=""true""><use href=""#far-image""></use></svg><span class=""filename"">Screenshot 2025-07-31 at 4.30.38 PM</span><span class=""informations"">2494×868 113 KB</span><svg class=""fa d-icon d-icon-discourse-expand svg-icon"" aria-hidden=""true""><use href=""#discourse-expand""></use></svg></div></a></div></p>
+<h2><a name=""p-58105-ink-3"" class=""anchor"" href=""#p-58105-ink-3""></a>Ink</h2>
+<p>Ink is still in its early stages but has already demonstrated strong growth momentum. Since launch, its TVL has been on a steady upward trajectory, rising from around $6M to $10M over the past two months, indicating increasing engagement in DeFi activities on the network.</p>
+<p><div class=""lightbox-wrapper""><a class=""lightbox"" href=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/f/f1ffb71ce072c3e6d21b5ab9914992b9e50cacc6.png"" data-download-href=""/uploads/short-url/ywOW95uWGBcOkaGJa31fGdEIDUq.png?dl=1"" title=""Screenshot 2025-07-31 at 4.35.09 PM"" rel=""noopener nofollow ugc""><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/f/f1ffb71ce072c3e6d21b5ab9914992b9e50cacc6.png"" alt=""Screenshot 2025-07-31 at 4.35.09 PM"" data-base62-sha1=""ywOW95uWGBcOkaGJa31fGdEIDUq"" width=""2000"" height=""641"" data-dominant-color=""151920""><div class=""meta""><svg class=""fa d-icon d-icon-far-image svg-icon"" aria-hidden=""true""><use href=""#far-image""></use></svg><span class=""filename"">Screenshot 2025-07-31 at 4.35.09 PM</span><span class=""informations"">2194×704 49.5 KB</span><svg class=""fa d-icon d-icon-discourse-expand svg-icon"" aria-hidden=""true""><use href=""#discourse-expand""></use></svg></div></a></div></p>
+<p><strong><a href=""https://defillama.com/chain/ink"" rel=""noopener nofollow ugc"">Ink TVL Over Time</a></strong></p>
+<p>At the same time, its TVS has settled at around $100M and has remained stable over the past three months, with no significant declines or major fluctuations.</p>
+<p><div class=""lightbox-wrapper""><a class=""lightbox"" href=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/b/b90a23adbe1011de882ed119e5306a47f4c194a0.png"" data-download-href=""/uploads/short-url/qoW3rt196FC2M0ZK8LVIXihzbkA.png?dl=1"" title=""Screenshot 2025-07-31 at 4.43.55 PM"" rel=""noopener nofollow ugc""><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/b/b90a23adbe1011de882ed119e5306a47f4c194a0.png"" alt=""Screenshot 2025-07-31 at 4.43.55 PM"" data-base62-sha1=""qoW3rt196FC2M0ZK8LVIXihzbkA"" width=""2000"" height=""633"" data-dominant-color=""EED2A6""><div class=""meta""><svg class=""fa d-icon d-icon-far-image svg-icon"" aria-hidden=""true""><use href=""#far-image""></use></svg><span class=""filename"">Screenshot 2025-07-31 at 4.43.55 PM</span><span class=""informations"">2322×736 39.9 KB</span><svg class=""fa d-icon d-icon-discourse-expand svg-icon"" aria-hidden=""true""><use href=""#discourse-expand""></use></svg></div></a></div></p>
+<p><strong><a href=""https://l2beat.com/scaling/projects/ink/tvs-breakdown"" rel=""noopener nofollow ugc"">Ink TVS Over Time</a></strong></p>
+<h3><a name=""p-58105-gsm-implementation-4"" class=""anchor"" href=""#p-58105-gsm-implementation-4""></a><strong>GSM Implementation</strong></h3>
+<p>We support the implementation of a stataUSDT0.ink GSM, after discussion with the Ink’s team, we expect sufficient supply to be available at launch. With ample supply and market liquidity, stataUSDT0 is expected to be an effective stabilization asset for the GSM, capable of absorbing fluctuations around the GHO peg. Additionally, a large and more liquid USDT0 market will help keep interest rates for borrowing and lending USDT0 more stable and less prone to sudden spikes or drops.</p>
+<h3><a name=""p-58105-steward-authority-framework-5"" class=""anchor"" href=""#p-58105-steward-authority-framework-5""></a><strong>Steward Authority Framework</strong></h3>
+<p>The governance framework gives GHO Stewards the authority to adjust parameters within set boundaries, achieving a balance between flexibility and prudent risk management. This structure allows for timely updates to borrow caps, interest rates, supply caps, and GSM parameters within defined limits, enabling the system to respond quickly to changing market conditions while maintaining governance oversight. Experience from previous GHO deployments shows that this approach has been effective in preserving stability during the early launch phase and supporting ongoing growth.</p>
+<h3><a name=""p-58105-parameter-recommendations-6"" class=""anchor"" href=""#p-58105-parameter-recommendations-6""></a>Parameter Recommendations</h3>
+<p>We support the proposed GHO parameters for Ink. Setting the initial supply cap at 5M and the borrow cap at 4.5M provides a balanced approach, limiting risk during the early adoption phase while maintaining sufficient liquidity, which is reasonable given Ink’s current scale.</p>
+<h2><a name=""p-58105-disclaimer-7"" class=""anchor"" href=""#p-58105-disclaimer-7""></a><strong>Disclaimer</strong></h2>
+<p>Chaos Labs has not been compensated by any third party for publishing this recommendation.</p>
+<h2><a name=""p-58105-copyright-8"" class=""anchor"" href=""#p-58105-copyright-8""></a><strong>Copyright</strong></h2>
+<p>Copyright and related rights waived via <a href=""https://creativecommons.org/publicdomain"" rel=""noopener nofollow ugc"">CC0</a></p>",,"<h2><a name=""p-58105-overview-1"" class=""anchor"" href=""#p-58105-overview-1""></a>Overview</h2>
+<p>Chaos Labs supports the proposal to deploy GHO on Ink and appoint ACI as the Emissions Manager to oversee GHO rewards and incentives and the use of stataUSDT0 as the primary asset for the GSM on the Ink instance. Our assessment takes into account GHO’s current market position, as well as the proposed risk parameters and infrastructure for its integration with Ink.</p>
+<h2><a name=""p-58105-gho-2"" class=""anchor"" href=""#p-58105-gho-2""></a>GHO</h2>
+<p>Launching GHO on Ink aligns with Aave’s broader strategy for multi‑chain expansion. Having already shown strong growth on Ethereum, Arbitrum, and Base, extending GHO to Ink offers a logical path to drive further adoption and improve accessibility across the wider ecosystem.</p>
+<p>Overall, GHO has experienced solid growth over the past three months, with its supply rising from about 240M to 310M. As of this writing, its total market capitalization is roughly $304M.</p>
+<p><div class=""lightbox-wrapper""><a class=""lightbox"" href=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/b/b3103144dc079d9fb1f0e1f61044edd5d0ad5c4b.png"" data-download-href=""/uploads/short-url/py49SGXGjbhCtwSHkTeJdg5JOR5.png?dl=1"" title=""Screenshot 2025-07-31 at 4.26.33 PM"" rel=""noopener nofollow ugc""><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/optimized/2X/b/b3103144dc079d9fb1f0e1f61044edd5d0ad5c4b_2_2000x686.png"" alt=""Screenshot 2025-07-31 at 4.26.33 PM"" data-base62-sha1=""py49SGXGjbhCtwSHkTeJdg5JOR5"" width=""2000"" height=""686"" srcset=""https://europe1.discourse-cdn.com/flex013/uploads/aave/optimized/2X/b/b3103144dc079d9fb1f0e1f61044edd5d0ad5c4b_2_2000x686.png, https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/b/b3103144dc079d9fb1f0e1f61044edd5d0ad5c4b.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/b/b3103144dc079d9fb1f0e1f61044edd5d0ad5c4b.png 2x"" data-dominant-color=""11141E""><div class=""meta""><svg class=""fa d-icon d-icon-far-image svg-icon"" aria-hidden=""true""><use href=""#far-image""></use></svg><span class=""filename"">Screenshot 2025-07-31 at 4.26.33 PM</span><span class=""informations"">2494×856 96.1 KB</span><svg class=""fa d-icon d-icon-discourse-expand svg-icon"" aria-hidden=""true""><use href=""#discourse-expand""></use></svg></div></a></div></p>
+<p>GHO’s expansion to other networks has also shown observable effects. For instance, on Base, GHO has maintained a strong growth trend over the past three months. While there has been a slight decline in the past two weeks, its supply has still grown by 10M compared to May 2025.</p>
+<p><div class=""lightbox-wrapper""><a class=""lightbox"" href=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/0/04171f81725207258b625dc1cab51c790fd7d452.png"" data-download-href=""/uploads/short-url/AbrWZ3VU3WudMhI91HDMtVMu7U.png?dl=1"" title=""Screenshot 2025-07-31 at 4.30.38 PM"" rel=""noopener nofollow ugc""><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/optimized/2X/0/04171f81725207258b625dc1cab51c790fd7d452_2_2000x696.png"" alt=""Screenshot 2025-07-31 at 4.30.38 PM"" data-base62-sha1=""AbrWZ3VU3WudMhI91HDMtVMu7U"" width=""2000"" height=""696"" srcset=""https://europe1.discourse-cdn.com/flex013/uploads/aave/optimized/2X/0/04171f81725207258b625dc1cab51c790fd7d452_2_2000x696.png, https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/0/04171f81725207258b625dc1cab51c790fd7d452.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/0/04171f81725207258b625dc1cab51c790fd7d452.png 2x"" data-dominant-color=""18284E""><div class=""meta""><svg class=""fa d-icon d-icon-far-image svg-icon"" aria-hidden=""true""><use href=""#far-image""></use></svg><span class=""filename"">Screenshot 2025-07-31 at 4.30.38 PM</span><span class=""informations"">2494×868 113 KB</span><svg class=""fa d-icon d-icon-discourse-expand svg-icon"" aria-hidden=""true""><use href=""#discourse-expand""></use></svg></div></a></div></p>
+<h2><a name=""p-58105-ink-3"" class=""anchor"" href=""#p-58105-ink-3""></a>Ink</h2>
+<p>Ink is still in its early stages but has already demonstrated strong growth momentum. Since launch, its TVL has been on a steady upward trajectory, rising from around $6M to $10M over the past two months, indicating increasing engagement in DeFi activities on the network.</p>
+<p><div class=""lightbox-wrapper""><a class=""lightbox"" href=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/f/f1ffb71ce072c3e6d21b5ab9914992b9e50cacc6.png"" data-download-href=""/uploads/short-url/ywOW95uWGBcOkaGJa31fGdEIDUq.png?dl=1"" title=""Screenshot 2025-07-31 at 4.35.09 PM"" rel=""noopener nofollow ugc""><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/f/f1ffb71ce072c3e6d21b5ab9914992b9e50cacc6.png"" alt=""Screenshot 2025-07-31 at 4.35.09 PM"" data-base62-sha1=""ywOW95uWGBcOkaGJa31fGdEIDUq"" width=""2000"" height=""641"" data-dominant-color=""151920""><div class=""meta""><svg class=""fa d-icon d-icon-far-image svg-icon"" aria-hidden=""true""><use href=""#far-image""></use></svg><span class=""filename"">Screenshot 2025-07-31 at 4.35.09 PM</span><span class=""informations"">2194×704 49.5 KB</span><svg class=""fa d-icon d-icon-discourse-expand svg-icon"" aria-hidden=""true""><use href=""#discourse-expand""></use></svg></div></a></div></p>
+<p><strong><a href=""https://defillama.com/chain/ink"" rel=""noopener nofollow ugc"">Ink TVL Over Time</a></strong></p>
+<p>At the same time, its TVS has settled at around $100M and has remained stable over the past three months, with no significant declines or major fluctuations.</p>
+<p><div class=""lightbox-wrapper""><a class=""lightbox"" href=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/b/b90a23adbe1011de882ed119e5306a47f4c194a0.png"" data-download-href=""/uploads/short-url/qoW3rt196FC2M0ZK8LVIXihzbkA.png?dl=1"" title=""Screenshot 2025-07-31 at 4.43.55 PM"" rel=""noopener nofollow ugc""><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/b/b90a23adbe1011de882ed119e5306a47f4c194a0.png"" alt=""Screenshot 2025-07-31 at 4.43.55 PM"" data-base62-sha1=""qoW3rt196FC2M0ZK8LVIXihzbkA"" width=""2000"" height=""633"" data-dominant-color=""EED2A6""><div class=""meta""><svg class=""fa d-icon d-icon-far-image svg-icon"" aria-hidden=""true""><use href=""#far-image""></use></svg><span class=""filename"">Screenshot 2025-07-31 at 4.43.55 PM</span><span class=""informations"">2322×736 39.9 KB</span><svg class=""fa d-icon d-icon-discourse-expand svg-icon"" aria-hidden=""true""><use href=""#discourse-expand""></use></svg></div></a></div></p>
+<p><strong><a href=""https://l2beat.com/scaling/projects/ink/tvs-breakdown"" rel=""noopener nofollow ugc"">Ink TVS Over Time</a></strong></p>
+<h3><a name=""p-58105-gsm-implementation-4"" class=""anchor"" href=""#p-58105-gsm-implementation-4""></a><strong>GSM Implementation</strong></h3>
+<p>We support the implementation of a stataUSDT0.ink GSM, after discussion with the Ink’s team, we expect sufficient supply to be available at launch. With ample supply and market liquidity, stataUSDT0 is expected to be an effective stabilization asset for the GSM, capable of absorbing fluctuations around the GHO peg. Additionally, a large and more liquid USDT0 market will help keep interest rates for borrowing and lending USDT0 more stable and less prone to sudden spikes or drops.</p>
+<h3><a name=""p-58105-steward-authority-framework-5"" class=""anchor"" href=""#p-58105-steward-authority-framework-5""></a><strong>Steward Authority Framework</strong></h3>
+<p>The governance framework gives GHO Stewards the authority to adjust parameters within set boundaries, achieving a balance between flexibility and prudent risk management. This structure allows for timely updates to borrow caps, interest rates, supply caps, and GSM parameters within defined limits, enabling the system to respond quickly to changing market conditions while maintaining governance oversight. Experience from previous GHO deployments shows that this approach has been effective in preserving stability during the early launch phase and supporting ongoing growth.</p>
+<h3><a name=""p-58105-parameter-recommendations-6"" class=""anchor"" href=""#p-58105-parameter-recommendations-6""></a>Parameter Recommendations</h3>
+<p>We support the proposed GHO parameters for Ink. Setting the initial supply cap at 5M and the borrow cap at 4.5M provides a balanced approach, limiting risk during the early adoption phase while maintaining sufficient liquidity, which is reasonable given Ink’s current scale.</p>
+<h2><a name=""p-58105-disclaimer-7"" class=""anchor"" href=""#p-58105-disclaimer-7""></a><strong>Disclaimer</strong></h2>
+<p>Chaos Labs has not been compensated by any third party for publishing this recommendation.</p>
+<h2><a name=""p-58105-copyright-8"" class=""anchor"" href=""#p-58105-copyright-8""></a><strong>Copyright</strong></h2>
+<p>Copyright and related rights waived via <a href=""https://creativecommons.org/publicdomain"" rel=""noopener nofollow ugc"">CC0</a></p>"

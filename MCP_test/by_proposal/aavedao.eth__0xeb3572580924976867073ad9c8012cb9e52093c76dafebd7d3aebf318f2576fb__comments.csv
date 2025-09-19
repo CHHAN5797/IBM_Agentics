@@ -1,0 +1,493 @@
+space,proposal_id,proposal_title,discussion_url,end,end_iso,forum_kind,post_id,post_number,reply_to_post_number,author_username,created_at,text,text_raw,text_html
+aavedao.eth,0xeb3572580924976867073ad9c8012cb9e52093c76dafebd7d3aebf318f2576fb,[ARFC] Launch GHO on Plasma & Set ACI as Emissions Manager for Rewards,https://governance.aave.com/t/arfc-launch-gho-on-plasma-set-aci-as-emissions-manager-for-rewards/22994,1756793068,2025-09-02T06:04:28+00:00,discourse,58519,1,,TokenLogic,2025-08-21T19:16:40.266Z,"<hr>
+<p>[ARFC] Launch GHO on Plasma &amp; Set ACI as Emissions Manager for Rewards<br>
+Author: <a class=""mention"" href=""/u/tokenlogic"">@TokenLogic</a><br>
+Created: 2025-08-21</p>
+<hr>
+<h2><a name=""p-58519-summary-1"" class=""anchor"" href=""#p-58519-summary-1""></a>Summary</h2>
+<p>This ARFC proposes deploying <strong>GHO</strong> on the Plasma blockchain and appointing <strong>ACI</strong> as the Emissions Manager for both GHO and aGHO. The goal is to establish GHO as a key stablecoin within Plasma’s ecosystem from inception, facilitating reward programs, liquidity incentives, and seamless integration with the upcoming Aave deployment on Plasma.</p>
+<h2><a name=""p-58519-motivation-2"" class=""anchor"" href=""#p-58519-motivation-2""></a>Motivation</h2>
+<p>Plasma is a <strong>purpose-built, EVM-compatible Bitcoin sidechain</strong> designed specifically for stablecoin scalability, speed, and security—offering zero-fee USDT transfers, lightning-fast finality, and Bitcoin-anchored settlement.</p>
+<p>The network is quickly approahcing launch with substantial USDT liquidity and an institutional partnership with Aave, including active GHO support on the platform.</p>
+<p>Deploying GHO concurrently with the Aave instance on Plasma ensures that GHO becomes foundational to DeFi and payments infrastructure on a chain optimized for stablecoin utility.</p>
+<h2><a name=""p-58519-specification-3"" class=""anchor"" href=""#p-58519-specification-3""></a>Specification</h2>
+<h3><a name=""p-58519-roles-and-responsibilities-4"" class=""anchor"" href=""#p-58519-roles-and-responsibilities-4""></a>Roles and Responsibilities</h3>
+<div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Service Provider</th>
+<th>Responsibility</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TokenLogic</td>
+<td>Deploy GHO infrastructure and bridging components</td>
+</tr>
+<tr>
+<td>TokenLogic</td>
+<td>Configure Facilitator, GSM, and Steward logistics</td>
+</tr>
+<tr>
+<td>Chaos Labs + LlamaRisk</td>
+<td>Review initial risk parameters tailored to Plasma</td>
+</tr>
+<tr>
+<td>BGD + Aave Labs</td>
+<td>Review Pull Requests ahead of voting submission</td>
+</tr>
+<tr>
+<td>Certora</td>
+<td>Cold Review / Audit of Pull Requests</td>
+</tr>
+<tr>
+<td>ACI + TokenLogic</td>
+<td>Design incentives and distribute emissions</td>
+</tr>
+<tr>
+<td>Aave Liquidity Committee</td>
+<td>Coordinate GHO liquidity across Plasma DEXs</td>
+</tr>
+<tr>
+<td>GHO Stewards</td>
+<td>Maintain risk parameters post-deployment</td>
+</tr>
+</tbody>
+</table>
+</div><p>ACI Multi-sig Address: <code>0xac140648435d03f784879cd789130F22Ef588Fcd</code><br>
+Gho Stewards Address: <code>0x8513e6F37dBc52De87b166980Fa3F50639694B60</code></p>
+<h3><a name=""p-58519-gho-parameters-for-aave-v3-on-plasma-5"" class=""anchor"" href=""#p-58519-gho-parameters-for-aave-v3-on-plasma-5""></a>GHO Parameters for Aave v3 on Plasma</h3>
+<div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Asset</td>
+<td>GHO</td>
+</tr>
+<tr>
+<td>Market</td>
+<td>Plasma</td>
+</tr>
+<tr>
+<td>Isolation Mode</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Borrowable</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Collateral Enabled</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Supply Cap</td>
+<td>5,000,000</td>
+</tr>
+<tr>
+<td>Borrow Cap</td>
+<td>4,500,000</td>
+</tr>
+<tr>
+<td>Debt Ceiling</td>
+<td>–</td>
+</tr>
+<tr>
+<td>LTV</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Liquidation Bonus</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Variable Base</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>Variable Slope1</td>
+<td>6.5%</td>
+</tr>
+<tr>
+<td>Variable Slope2</td>
+<td>50%</td>
+</tr>
+<tr>
+<td>Uoptimal</td>
+<td>90%</td>
+</tr>
+<tr>
+<td>Reserve Factor</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>Stable Borrowing</td>
+<td>Disabled</td>
+</tr>
+<tr>
+<td>Flashloanable</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Siloed Borrowing</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div><h3><a name=""p-58519-facilitator-bridging-configuration-6"" class=""anchor"" href=""#p-58519-facilitator-bridging-configuration-6""></a>Facilitator &amp; Bridging Configuration</h3>
+<p>Deploy a <strong>GhoDirectMinter</strong> facilitator on Ethereum to enable GHO issuance for Plasma.</p>
+<ul>
+<li><strong>Mint Cap</strong>: 15M GHO</li>
+</ul>
+<p><strong>CCIP Bridge Configuration</strong>:</p>
+<ul>
+<li><strong>Bucket Capacity</strong>: 15M GHO</li>
+<li><strong>Inbound Capacity</strong>: 1.5M GHO</li>
+<li><strong>Outbound Capacity</strong>: 1.5M GHO</li>
+<li><strong>Refill Rate</strong>: 300 GHO/sec</li>
+</ul>
+<h3><a name=""p-58519-gsm-parameters-statausdt0plasma-7"" class=""anchor"" href=""#p-58519-gsm-parameters-statausdt0plasma-7""></a>GSM Parameters (stataUSDT0.plasma)</h3>
+<div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GHO Bucket Cap</td>
+<td>10M GHO</td>
+</tr>
+<tr>
+<td>USDT Exposure Cap</td>
+<td>5M</td>
+</tr>
+<tr>
+<td>Freeze Lower Bound</td>
+<td>$0.990</td>
+</tr>
+<tr>
+<td>Freeze Upper Bound</td>
+<td>$1.010</td>
+</tr>
+<tr>
+<td>Unfreeze Lower Bound</td>
+<td>$0.995</td>
+</tr>
+<tr>
+<td>Unfreeze Upper Bound</td>
+<td>$1.005</td>
+</tr>
+<tr>
+<td>Mint GHO Fee</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>Burn GHO Fee</td>
+<td>0%</td>
+</tr>
+</tbody>
+</table>
+</div><p><em>USDT deposits into <code>stataUSDT0.plasma</code> trigger GHO transfers using Ethereum-held inventory via GSM.</em></p>
+<h3><a name=""p-58519-gho-steward-configuration-8"" class=""anchor"" href=""#p-58519-gho-steward-configuration-8""></a>GHO Steward Configuration</h3>
+<p><strong>GhoAaveSteward</strong></p>
+<ul>
+<li><code>updateGhoBorrowCap</code>: ±100%</li>
+<li><code>updateGhoBorrowRate</code>: ±5% on optimal usage ratio, base variable rates, slopes</li>
+<li><code>updateGhoSupplyCap</code>: Up to +100%</li>
+</ul>
+<p><strong>GhoGsmSteward</strong></p>
+<ul>
+<li><code>updateGsmExposureCap</code>: ±100%</li>
+<li><code>updateGsmBuySellFees</code>: ±0.5% per side (FixedFeeStrategy)</li>
+</ul>
+<p><em>Both stewards remain callable only by the GHO steward protocol.</em></p>
+<h2><a name=""p-58519-budget-9"" class=""anchor"" href=""#p-58519-budget-9""></a>Budget</h2>
+<p>Bootstrap funding on Ethereum will be bridged to Plasma via the facilitator for initial liquidity and ecosystem stimulation. The exact Ethereum SAFE address will be defined in a follow-up AIP.</p>
+<h2><a name=""p-58519-disclaimer-10"" class=""anchor"" href=""#p-58519-disclaimer-10""></a>Disclaimer</h2>
+<p>TokenLogic receives no compensation for drafting or coordinating this ARFC.</p>
+<h2><a name=""p-58519-next-steps-11"" class=""anchor"" href=""#p-58519-next-steps-11""></a>Next Steps</h2>
+<ol>
+<li>Gather feedback from the community.</li>
+<li>If consensus is reached on this ARFC, escalate this proposal to the Snapshot stage.</li>
+<li>If Snapshot outcome is YAE, escalate this proposal to the AIP stage.</li>
+</ol>
+<h2><a name=""p-58519-copyright-12"" class=""anchor"" href=""#p-58519-copyright-12""></a>Copyright</h2>
+<p>Copyright and related rights waived via <a href=""https://creativecommons.org/publicdomain/zero/1.0/"" rel=""noopener nofollow ugc"">CC0</a>.</p>",,"<hr>
+<p>[ARFC] Launch GHO on Plasma &amp; Set ACI as Emissions Manager for Rewards<br>
+Author: <a class=""mention"" href=""/u/tokenlogic"">@TokenLogic</a><br>
+Created: 2025-08-21</p>
+<hr>
+<h2><a name=""p-58519-summary-1"" class=""anchor"" href=""#p-58519-summary-1""></a>Summary</h2>
+<p>This ARFC proposes deploying <strong>GHO</strong> on the Plasma blockchain and appointing <strong>ACI</strong> as the Emissions Manager for both GHO and aGHO. The goal is to establish GHO as a key stablecoin within Plasma’s ecosystem from inception, facilitating reward programs, liquidity incentives, and seamless integration with the upcoming Aave deployment on Plasma.</p>
+<h2><a name=""p-58519-motivation-2"" class=""anchor"" href=""#p-58519-motivation-2""></a>Motivation</h2>
+<p>Plasma is a <strong>purpose-built, EVM-compatible Bitcoin sidechain</strong> designed specifically for stablecoin scalability, speed, and security—offering zero-fee USDT transfers, lightning-fast finality, and Bitcoin-anchored settlement.</p>
+<p>The network is quickly approahcing launch with substantial USDT liquidity and an institutional partnership with Aave, including active GHO support on the platform.</p>
+<p>Deploying GHO concurrently with the Aave instance on Plasma ensures that GHO becomes foundational to DeFi and payments infrastructure on a chain optimized for stablecoin utility.</p>
+<h2><a name=""p-58519-specification-3"" class=""anchor"" href=""#p-58519-specification-3""></a>Specification</h2>
+<h3><a name=""p-58519-roles-and-responsibilities-4"" class=""anchor"" href=""#p-58519-roles-and-responsibilities-4""></a>Roles and Responsibilities</h3>
+<div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Service Provider</th>
+<th>Responsibility</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TokenLogic</td>
+<td>Deploy GHO infrastructure and bridging components</td>
+</tr>
+<tr>
+<td>TokenLogic</td>
+<td>Configure Facilitator, GSM, and Steward logistics</td>
+</tr>
+<tr>
+<td>Chaos Labs + LlamaRisk</td>
+<td>Review initial risk parameters tailored to Plasma</td>
+</tr>
+<tr>
+<td>BGD + Aave Labs</td>
+<td>Review Pull Requests ahead of voting submission</td>
+</tr>
+<tr>
+<td>Certora</td>
+<td>Cold Review / Audit of Pull Requests</td>
+</tr>
+<tr>
+<td>ACI + TokenLogic</td>
+<td>Design incentives and distribute emissions</td>
+</tr>
+<tr>
+<td>Aave Liquidity Committee</td>
+<td>Coordinate GHO liquidity across Plasma DEXs</td>
+</tr>
+<tr>
+<td>GHO Stewards</td>
+<td>Maintain risk parameters post-deployment</td>
+</tr>
+</tbody>
+</table>
+</div><p>ACI Multi-sig Address: <code>0xac140648435d03f784879cd789130F22Ef588Fcd</code><br>
+Gho Stewards Address: <code>0x8513e6F37dBc52De87b166980Fa3F50639694B60</code></p>
+<h3><a name=""p-58519-gho-parameters-for-aave-v3-on-plasma-5"" class=""anchor"" href=""#p-58519-gho-parameters-for-aave-v3-on-plasma-5""></a>GHO Parameters for Aave v3 on Plasma</h3>
+<div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Asset</td>
+<td>GHO</td>
+</tr>
+<tr>
+<td>Market</td>
+<td>Plasma</td>
+</tr>
+<tr>
+<td>Isolation Mode</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Borrowable</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Collateral Enabled</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Supply Cap</td>
+<td>5,000,000</td>
+</tr>
+<tr>
+<td>Borrow Cap</td>
+<td>4,500,000</td>
+</tr>
+<tr>
+<td>Debt Ceiling</td>
+<td>–</td>
+</tr>
+<tr>
+<td>LTV</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Liquidation Bonus</td>
+<td>–</td>
+</tr>
+<tr>
+<td>Variable Base</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>Variable Slope1</td>
+<td>6.5%</td>
+</tr>
+<tr>
+<td>Variable Slope2</td>
+<td>50%</td>
+</tr>
+<tr>
+<td>Uoptimal</td>
+<td>90%</td>
+</tr>
+<tr>
+<td>Reserve Factor</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>Stable Borrowing</td>
+<td>Disabled</td>
+</tr>
+<tr>
+<td>Flashloanable</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Siloed Borrowing</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div><h3><a name=""p-58519-facilitator-bridging-configuration-6"" class=""anchor"" href=""#p-58519-facilitator-bridging-configuration-6""></a>Facilitator &amp; Bridging Configuration</h3>
+<p>Deploy a <strong>GhoDirectMinter</strong> facilitator on Ethereum to enable GHO issuance for Plasma.</p>
+<ul>
+<li><strong>Mint Cap</strong>: 15M GHO</li>
+</ul>
+<p><strong>CCIP Bridge Configuration</strong>:</p>
+<ul>
+<li><strong>Bucket Capacity</strong>: 15M GHO</li>
+<li><strong>Inbound Capacity</strong>: 1.5M GHO</li>
+<li><strong>Outbound Capacity</strong>: 1.5M GHO</li>
+<li><strong>Refill Rate</strong>: 300 GHO/sec</li>
+</ul>
+<h3><a name=""p-58519-gsm-parameters-statausdt0plasma-7"" class=""anchor"" href=""#p-58519-gsm-parameters-statausdt0plasma-7""></a>GSM Parameters (stataUSDT0.plasma)</h3>
+<div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GHO Bucket Cap</td>
+<td>10M GHO</td>
+</tr>
+<tr>
+<td>USDT Exposure Cap</td>
+<td>5M</td>
+</tr>
+<tr>
+<td>Freeze Lower Bound</td>
+<td>$0.990</td>
+</tr>
+<tr>
+<td>Freeze Upper Bound</td>
+<td>$1.010</td>
+</tr>
+<tr>
+<td>Unfreeze Lower Bound</td>
+<td>$0.995</td>
+</tr>
+<tr>
+<td>Unfreeze Upper Bound</td>
+<td>$1.005</td>
+</tr>
+<tr>
+<td>Mint GHO Fee</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>Burn GHO Fee</td>
+<td>0%</td>
+</tr>
+</tbody>
+</table>
+</div><p><em>USDT deposits into <code>stataUSDT0.plasma</code> trigger GHO transfers using Ethereum-held inventory via GSM.</em></p>
+<h3><a name=""p-58519-gho-steward-configuration-8"" class=""anchor"" href=""#p-58519-gho-steward-configuration-8""></a>GHO Steward Configuration</h3>
+<p><strong>GhoAaveSteward</strong></p>
+<ul>
+<li><code>updateGhoBorrowCap</code>: ±100%</li>
+<li><code>updateGhoBorrowRate</code>: ±5% on optimal usage ratio, base variable rates, slopes</li>
+<li><code>updateGhoSupplyCap</code>: Up to +100%</li>
+</ul>
+<p><strong>GhoGsmSteward</strong></p>
+<ul>
+<li><code>updateGsmExposureCap</code>: ±100%</li>
+<li><code>updateGsmBuySellFees</code>: ±0.5% per side (FixedFeeStrategy)</li>
+</ul>
+<p><em>Both stewards remain callable only by the GHO steward protocol.</em></p>
+<h2><a name=""p-58519-budget-9"" class=""anchor"" href=""#p-58519-budget-9""></a>Budget</h2>
+<p>Bootstrap funding on Ethereum will be bridged to Plasma via the facilitator for initial liquidity and ecosystem stimulation. The exact Ethereum SAFE address will be defined in a follow-up AIP.</p>
+<h2><a name=""p-58519-disclaimer-10"" class=""anchor"" href=""#p-58519-disclaimer-10""></a>Disclaimer</h2>
+<p>TokenLogic receives no compensation for drafting or coordinating this ARFC.</p>
+<h2><a name=""p-58519-next-steps-11"" class=""anchor"" href=""#p-58519-next-steps-11""></a>Next Steps</h2>
+<ol>
+<li>Gather feedback from the community.</li>
+<li>If consensus is reached on this ARFC, escalate this proposal to the Snapshot stage.</li>
+<li>If Snapshot outcome is YAE, escalate this proposal to the AIP stage.</li>
+</ol>
+<h2><a name=""p-58519-copyright-12"" class=""anchor"" href=""#p-58519-copyright-12""></a>Copyright</h2>
+<p>Copyright and related rights waived via <a href=""https://creativecommons.org/publicdomain/zero/1.0/"" rel=""noopener nofollow ugc"">CC0</a>.</p>"
+aavedao.eth,0xeb3572580924976867073ad9c8012cb9e52093c76dafebd7d3aebf318f2576fb,[ARFC] Launch GHO on Plasma & Set ACI as Emissions Manager for Rewards,https://governance.aave.com/t/arfc-launch-gho-on-plasma-set-aci-as-emissions-manager-for-rewards/22994,1756793068,2025-09-02T06:04:28+00:00,discourse,58594,2,,LlamaRisk,2025-08-26T23:54:02.863Z,"<h3><a name=""p-58594-summary-1"" class=""anchor"" href=""#p-58594-summary-1""></a>Summary</h3>
+<p>LlamaRisk supports launching GHO on Plasma with the initial Aave deployment on Plasma. Similarly to other GHO expansion initiatives, a measured approach is to be taken while allowing GHO to scale measurably as the demand comes. Therefore, we support the launch parameters and the strategy proposed by TokenLogic.</p>
+<p>Planned liquidity incentives will help to sustain the secondary market stability of GHO on Plasma. At the same time, the decision to implement stataGSM will ensure that a second stability buffer starts to fill since GHO’s deployment gradually.</p>
+<h3><a name=""p-58594-the-cross-chain-progress-2"" class=""anchor"" href=""#p-58594-the-cross-chain-progress-2""></a>The Cross-Chain Progress</h3>
+<p>Since GHO’s cross-chain deployments began, GHO has grown to 280M total supply, with ~26M GHO residing on the supported L2s. The Avalanche market has seen the most success, while Base market has contracted over time.</p>
+<p><div class=""lightbox-wrapper""><a class=""lightbox"" href=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/8/86dc96d1df93076e633e9b1e66e14493be6e7b53.png"" data-download-href=""/uploads/short-url/jf2AE9XyMJlLuLuHDS2gHLlAd4n.png?dl=1"" title=""image"" rel=""noopener nofollow ugc""><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/optimized/2X/8/86dc96d1df93076e633e9b1e66e14493be6e7b53_2_2000x938.png"" alt=""image"" data-base62-sha1=""jf2AE9XyMJlLuLuHDS2gHLlAd4n"" width=""2000"" height=""938"" srcset=""https://europe1.discourse-cdn.com/flex013/uploads/aave/optimized/2X/8/86dc96d1df93076e633e9b1e66e14493be6e7b53_2_2000x938.png, https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/8/86dc96d1df93076e633e9b1e66e14493be6e7b53.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/8/86dc96d1df93076e633e9b1e66e14493be6e7b53.png 2x"" data-dominant-color=""131521""><div class=""meta""><svg class=""fa d-icon d-icon-far-image svg-icon"" aria-hidden=""true""><use href=""#far-image""></use></svg><span class=""filename"">image</span><span class=""informations"">2356×1106 198 KB</span><svg class=""fa d-icon d-icon-discourse-expand svg-icon"" aria-hidden=""true""><use href=""#discourse-expand""></use></svg></div></a></div><br>
+Source: <a href=""https://aave.tokenlogic.xyz/gho"" rel=""noopener nofollow ugc"">TokenLogic GHO Dashboard</a>, August 26, 2025</p>
+<p>The historical GHO flows indicate that the overall GHO flows were positive for Arbitrum and Avalanche. In addition, the newly deployed Gnosis market has attracted ~300k in borrows.</p>
+<p><div class=""lightbox-wrapper""><a class=""lightbox"" href=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/8/8d91a3d0eac8819908450d267321fcdd0fe4845c.png"" data-download-href=""/uploads/short-url/kcnm28mcU01XWfFyisJvxvcOoAQ.png?dl=1"" title=""image"" rel=""noopener nofollow ugc""><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/optimized/2X/8/8d91a3d0eac8819908450d267321fcdd0fe4845c_2_2000x653.png"" alt=""image"" data-base62-sha1=""kcnm28mcU01XWfFyisJvxvcOoAQ"" width=""2000"" height=""653"" srcset=""https://europe1.discourse-cdn.com/flex013/uploads/aave/optimized/2X/8/8d91a3d0eac8819908450d267321fcdd0fe4845c_2_2000x653.png, https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/8/8d91a3d0eac8819908450d267321fcdd0fe4845c.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/8/8d91a3d0eac8819908450d267321fcdd0fe4845c.png 2x"" data-dominant-color=""111218""><div class=""meta""><svg class=""fa d-icon d-icon-far-image svg-icon"" aria-hidden=""true""><use href=""#far-image""></use></svg><span class=""filename"">image</span><span class=""informations"">2142×700 72 KB</span><svg class=""fa d-icon d-icon-discourse-expand svg-icon"" aria-hidden=""true""><use href=""#discourse-expand""></use></svg></div></a></div><br>
+Source: <a href=""https://aave.tokenlogic.xyz/cross-chain"" rel=""noopener nofollow ugc"">TokenLogic GHO Dashboard</a>, August 26, 2025</p>
+<h3><a name=""p-58594-current-health-of-gho-3"" class=""anchor"" href=""#p-58594-current-health-of-gho-3""></a>Current Health of GHO</h3>
+<p>After the renewed positive market conditions and increased leverage strategies, GHO’s secondary market peg was temporarily affected, reaching a discount of up to 30 bps in late July. Slight increases in GHO borrow rates and a bump in Aave Savings Rate helped to contain the outflows and reduced secondary market pressure, with GHO now back to 10 bps (0.1%) peg bounds.</p>
+<p><div class=""lightbox-wrapper""><a class=""lightbox"" href=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/2/2ce2062021718a90a72f4dea0bc85df0cdaeb773.png"" data-download-href=""/uploads/short-url/6p3ghWjhBAMPIgmHBtw6ywfN85R.png?dl=1"" title=""image"" rel=""noopener nofollow ugc""><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/2/2ce2062021718a90a72f4dea0bc85df0cdaeb773.png"" alt=""image"" data-base62-sha1=""6p3ghWjhBAMPIgmHBtw6ywfN85R"" width=""1598"" height=""798""><div class=""meta""><svg class=""fa d-icon d-icon-far-image svg-icon"" aria-hidden=""true""><use href=""#far-image""></use></svg><span class=""filename"">image</span><span class=""informations"">1598×798 60.6 KB</span><svg class=""fa d-icon d-icon-discourse-expand svg-icon"" aria-hidden=""true""><use href=""#discourse-expand""></use></svg></div></a></div><br>
+Source: <a href=""https://coinmarketcap.com/currencies/gho/"" rel=""noopener nofollow ugc"">CoinMarketCap</a>, August 26, 2025</p>
+<p>On Ethereum, GHO currently possesses a 37M sell buffer within 30 bps (0.3%) price impact, suggesting that a selling pressure that is more than 10% supply would be needed to destabilize the peg again.</p>
+<h3><a name=""p-58594-potential-use-cases-4"" class=""anchor"" href=""#p-58594-potential-use-cases-4""></a>Potential Use Cases</h3>
+<p>Currently, GHO has a collateral ratio of 3.4, with the most prominent collateral assets being WETH, ETH LSTs, and BTC wrappers. We expect similar assets to be onboarded on Aave’s Plasma markets, generating sufficient demand for GHO loans.</p>
+<p><div class=""lightbox-wrapper""><a class=""lightbox"" href=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/c/cf3264707825f3bb81a0015548a2be755ebd6494.png"" data-download-href=""/uploads/short-url/tyWNGS9CH1c5L5TzHEH3z3WwDqI.png?dl=1"" title=""image"" rel=""noopener nofollow ugc""><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/c/cf3264707825f3bb81a0015548a2be755ebd6494.png"" alt=""image"" data-base62-sha1=""tyWNGS9CH1c5L5TzHEH3z3WwDqI"" width=""1330"" height=""1296""><div class=""meta""><svg class=""fa d-icon d-icon-far-image svg-icon"" aria-hidden=""true""><use href=""#far-image""></use></svg><span class=""filename"">image</span><span class=""informations"">1330×1296 62.7 KB</span><svg class=""fa d-icon d-icon-discourse-expand svg-icon"" aria-hidden=""true""><use href=""#discourse-expand""></use></svg></div></a></div><br>
+Source: <a href=""https://aave.tokenlogic.xyz/cross-chain"" rel=""noopener nofollow ugc"">TokenLogic GHO Dashboard</a>, August 26, 2025</p>
+<p>GHO DEX integrations and incentives are also expected to improve GHO’s expansion among other yield venues on the upcoming Plasma network.</p>
+<h3><a name=""p-58594-disclaimer-5"" class=""anchor"" href=""#p-58594-disclaimer-5""></a>Disclaimer</h3>
+<p>This review was independently prepared by LlamaRisk, a community-led decentralized organization funded in part by the Aave DAO. LlamaRisk is not directly affiliated with the protocol(s) reviewed in this assessment and did not receive any compensation from the protocol(s) or their affiliated entities for this work.</p>
+<p>The information provided should not be construed as legal, financial, tax, or professional advice.</p>",,"<h3><a name=""p-58594-summary-1"" class=""anchor"" href=""#p-58594-summary-1""></a>Summary</h3>
+<p>LlamaRisk supports launching GHO on Plasma with the initial Aave deployment on Plasma. Similarly to other GHO expansion initiatives, a measured approach is to be taken while allowing GHO to scale measurably as the demand comes. Therefore, we support the launch parameters and the strategy proposed by TokenLogic.</p>
+<p>Planned liquidity incentives will help to sustain the secondary market stability of GHO on Plasma. At the same time, the decision to implement stataGSM will ensure that a second stability buffer starts to fill since GHO’s deployment gradually.</p>
+<h3><a name=""p-58594-the-cross-chain-progress-2"" class=""anchor"" href=""#p-58594-the-cross-chain-progress-2""></a>The Cross-Chain Progress</h3>
+<p>Since GHO’s cross-chain deployments began, GHO has grown to 280M total supply, with ~26M GHO residing on the supported L2s. The Avalanche market has seen the most success, while Base market has contracted over time.</p>
+<p><div class=""lightbox-wrapper""><a class=""lightbox"" href=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/8/86dc96d1df93076e633e9b1e66e14493be6e7b53.png"" data-download-href=""/uploads/short-url/jf2AE9XyMJlLuLuHDS2gHLlAd4n.png?dl=1"" title=""image"" rel=""noopener nofollow ugc""><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/optimized/2X/8/86dc96d1df93076e633e9b1e66e14493be6e7b53_2_2000x938.png"" alt=""image"" data-base62-sha1=""jf2AE9XyMJlLuLuHDS2gHLlAd4n"" width=""2000"" height=""938"" srcset=""https://europe1.discourse-cdn.com/flex013/uploads/aave/optimized/2X/8/86dc96d1df93076e633e9b1e66e14493be6e7b53_2_2000x938.png, https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/8/86dc96d1df93076e633e9b1e66e14493be6e7b53.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/8/86dc96d1df93076e633e9b1e66e14493be6e7b53.png 2x"" data-dominant-color=""131521""><div class=""meta""><svg class=""fa d-icon d-icon-far-image svg-icon"" aria-hidden=""true""><use href=""#far-image""></use></svg><span class=""filename"">image</span><span class=""informations"">2356×1106 198 KB</span><svg class=""fa d-icon d-icon-discourse-expand svg-icon"" aria-hidden=""true""><use href=""#discourse-expand""></use></svg></div></a></div><br>
+Source: <a href=""https://aave.tokenlogic.xyz/gho"" rel=""noopener nofollow ugc"">TokenLogic GHO Dashboard</a>, August 26, 2025</p>
+<p>The historical GHO flows indicate that the overall GHO flows were positive for Arbitrum and Avalanche. In addition, the newly deployed Gnosis market has attracted ~300k in borrows.</p>
+<p><div class=""lightbox-wrapper""><a class=""lightbox"" href=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/8/8d91a3d0eac8819908450d267321fcdd0fe4845c.png"" data-download-href=""/uploads/short-url/kcnm28mcU01XWfFyisJvxvcOoAQ.png?dl=1"" title=""image"" rel=""noopener nofollow ugc""><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/optimized/2X/8/8d91a3d0eac8819908450d267321fcdd0fe4845c_2_2000x653.png"" alt=""image"" data-base62-sha1=""kcnm28mcU01XWfFyisJvxvcOoAQ"" width=""2000"" height=""653"" srcset=""https://europe1.discourse-cdn.com/flex013/uploads/aave/optimized/2X/8/8d91a3d0eac8819908450d267321fcdd0fe4845c_2_2000x653.png, https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/8/8d91a3d0eac8819908450d267321fcdd0fe4845c.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/8/8d91a3d0eac8819908450d267321fcdd0fe4845c.png 2x"" data-dominant-color=""111218""><div class=""meta""><svg class=""fa d-icon d-icon-far-image svg-icon"" aria-hidden=""true""><use href=""#far-image""></use></svg><span class=""filename"">image</span><span class=""informations"">2142×700 72 KB</span><svg class=""fa d-icon d-icon-discourse-expand svg-icon"" aria-hidden=""true""><use href=""#discourse-expand""></use></svg></div></a></div><br>
+Source: <a href=""https://aave.tokenlogic.xyz/cross-chain"" rel=""noopener nofollow ugc"">TokenLogic GHO Dashboard</a>, August 26, 2025</p>
+<h3><a name=""p-58594-current-health-of-gho-3"" class=""anchor"" href=""#p-58594-current-health-of-gho-3""></a>Current Health of GHO</h3>
+<p>After the renewed positive market conditions and increased leverage strategies, GHO’s secondary market peg was temporarily affected, reaching a discount of up to 30 bps in late July. Slight increases in GHO borrow rates and a bump in Aave Savings Rate helped to contain the outflows and reduced secondary market pressure, with GHO now back to 10 bps (0.1%) peg bounds.</p>
+<p><div class=""lightbox-wrapper""><a class=""lightbox"" href=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/2/2ce2062021718a90a72f4dea0bc85df0cdaeb773.png"" data-download-href=""/uploads/short-url/6p3ghWjhBAMPIgmHBtw6ywfN85R.png?dl=1"" title=""image"" rel=""noopener nofollow ugc""><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/2/2ce2062021718a90a72f4dea0bc85df0cdaeb773.png"" alt=""image"" data-base62-sha1=""6p3ghWjhBAMPIgmHBtw6ywfN85R"" width=""1598"" height=""798""><div class=""meta""><svg class=""fa d-icon d-icon-far-image svg-icon"" aria-hidden=""true""><use href=""#far-image""></use></svg><span class=""filename"">image</span><span class=""informations"">1598×798 60.6 KB</span><svg class=""fa d-icon d-icon-discourse-expand svg-icon"" aria-hidden=""true""><use href=""#discourse-expand""></use></svg></div></a></div><br>
+Source: <a href=""https://coinmarketcap.com/currencies/gho/"" rel=""noopener nofollow ugc"">CoinMarketCap</a>, August 26, 2025</p>
+<p>On Ethereum, GHO currently possesses a 37M sell buffer within 30 bps (0.3%) price impact, suggesting that a selling pressure that is more than 10% supply would be needed to destabilize the peg again.</p>
+<h3><a name=""p-58594-potential-use-cases-4"" class=""anchor"" href=""#p-58594-potential-use-cases-4""></a>Potential Use Cases</h3>
+<p>Currently, GHO has a collateral ratio of 3.4, with the most prominent collateral assets being WETH, ETH LSTs, and BTC wrappers. We expect similar assets to be onboarded on Aave’s Plasma markets, generating sufficient demand for GHO loans.</p>
+<p><div class=""lightbox-wrapper""><a class=""lightbox"" href=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/c/cf3264707825f3bb81a0015548a2be755ebd6494.png"" data-download-href=""/uploads/short-url/tyWNGS9CH1c5L5TzHEH3z3WwDqI.png?dl=1"" title=""image"" rel=""noopener nofollow ugc""><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/c/cf3264707825f3bb81a0015548a2be755ebd6494.png"" alt=""image"" data-base62-sha1=""tyWNGS9CH1c5L5TzHEH3z3WwDqI"" width=""1330"" height=""1296""><div class=""meta""><svg class=""fa d-icon d-icon-far-image svg-icon"" aria-hidden=""true""><use href=""#far-image""></use></svg><span class=""filename"">image</span><span class=""informations"">1330×1296 62.7 KB</span><svg class=""fa d-icon d-icon-discourse-expand svg-icon"" aria-hidden=""true""><use href=""#discourse-expand""></use></svg></div></a></div><br>
+Source: <a href=""https://aave.tokenlogic.xyz/cross-chain"" rel=""noopener nofollow ugc"">TokenLogic GHO Dashboard</a>, August 26, 2025</p>
+<p>GHO DEX integrations and incentives are also expected to improve GHO’s expansion among other yield venues on the upcoming Plasma network.</p>
+<h3><a name=""p-58594-disclaimer-5"" class=""anchor"" href=""#p-58594-disclaimer-5""></a>Disclaimer</h3>
+<p>This review was independently prepared by LlamaRisk, a community-led decentralized organization funded in part by the Aave DAO. LlamaRisk is not directly affiliated with the protocol(s) reviewed in this assessment and did not receive any compensation from the protocol(s) or their affiliated entities for this work.</p>
+<p>The information provided should not be construed as legal, financial, tax, or professional advice.</p>"

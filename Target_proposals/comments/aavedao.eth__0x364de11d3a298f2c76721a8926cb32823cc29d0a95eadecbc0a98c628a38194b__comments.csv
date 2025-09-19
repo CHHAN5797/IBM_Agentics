@@ -1,0 +1,36 @@
+space,proposal_id,proposal_title,discussion_url,post_id,post_number,reply_to_post_number,author_username,created_at,created_ts,text_raw,text_html
+aavedao.eth,0x364de11d3a298f2c76721a8926cb32823cc29d0a95eadecbc0a98c628a38194b,[ARFC] Set ACI as Emission Manager for Liquidity Mining Programs ,https://governance.aave.com/t/arfc-set-aci-as-emission-manager-for-liquidity-mining-programs/17898,45287,1,,ACI,2024-06-06T13:06:14.697Z,1717679174,,"<h1><a name=""arfc-set-aci-as-emission-manager-for-liquidity-mining-programs-1"" class=""anchor"" href=""#arfc-set-aci-as-emission-manager-for-liquidity-mining-programs-1""></a>[ARFC] Set ACI as Emission Manager for Liquidity Mining Programs</h1>
+<h1><a name=""author-aci-aave-chan-initiative-2"" class=""anchor"" href=""#author-aci-aave-chan-initiative-2""></a>Author: ACI (Aave Chan Initiative)</h1>
+<h1><a name=""date-2024-06-06-3"" class=""anchor"" href=""#date-2024-06-06-3""></a>Date: 2024-06-06</h1>
+<hr>
+<h1><a name=""summary-4"" class=""anchor"" href=""#summary-4""></a><strong>Summary</strong></h1>
+<p>The current ARFC proposes to appoint the Aave Chan Initiative (ACI) as the Emission Manager for liquidity mining programs across Aave markets. This will enable ACI to manage incentive programs funded by different partners, with the purpose of stimulating market activity and growth.</p>
+<h1><a name=""motivation-5"" class=""anchor"" href=""#motivation-5""></a><strong>Motivation</strong></h1>
+<p>Liquidity mining programs are essential for attracting liquidity providers by offering rewards for their participation. Effective management of these programs is crucial for the sustained growth of the Aave Ecosystem. Therefore, ACI, with its extensive experience and strategic partnerships, is well-positioned to manage these emissions effectively.</p>
+<p>A recent example is the <a href=""https://forum.arbitrum.foundation/t/aave-ltipp-application-final/21741"">Long Term Incentive Program (LTIPP)</a> from Arbitrum DAO, where Aave DAO will receive 750,000 ARB tokens, illustrating the benefits of coordinated emission management.</p>
+<h1><a name=""specification-6"" class=""anchor"" href=""#specification-6""></a><strong>Specification</strong></h1>
+<ol>
+<li>Appointment of ACI as Emission Manager for Liquidity Mining Programs
+<ol>
+<li>ACI will be authorized to manage Emission Programs for Liquidity Mining across Aave Markets.</li>
+<li>ACI’s multisig address will be the one receiving and distributing emissions on behalf of the DAO.</li>
+</ol>
+</li>
+<li>Appointment of ACI as coordinator with ecosystem partners, to define and implement emission strategies, managing the distribution of rewards to liquidity providers, and monitor &amp; adjust emissions based on market performance.</li>
+<li>Integration of Liquidity mining program as part of “Dolce Vita” service of the ACI at no extra cost for the DAO.</li>
+</ol>
+<h1><a name=""implementation-7"" class=""anchor"" href=""#implementation-7""></a>Implementation</h1>
+<p>The ACI multisig address will be set as the emission manager via the <strong><code>setEmissionAdmin()</code></strong> method in the relevant emission manager contracts.</p>
+<p>ACI multisig address: 0xac140648435d03f784879cd789130F22Ef588Fcd</p>
+<p>This method will appoint the Aave Chan Initiative (ACI) wallet as the emissions admin for all potential Liquidity Mining Programs.</p>
+<h1><a name=""disclaimer-8"" class=""anchor"" href=""#disclaimer-8""></a>Disclaimer</h1>
+<p>The ACI is not presenting this ARFC on behalf of any third party and is not compensated for creating this ARFC.</p>
+<h1><a name=""next-steps-9"" class=""anchor"" href=""#next-steps-9""></a>Next Steps</h1>
+<ol>
+<li>If consensus is reached on this [ARFC], escalate this proposal to the Snapshot stage.</li>
+<li>If the ARFC snapshot outcome is YAE, publish an AIP vote for final confirmation and enforcement of the proposal.</li>
+</ol>
+<h1><a name=""copyright-10"" class=""anchor"" href=""#copyright-10""></a>Copyright</h1>
+<p>Copyright and related rights waived via <a href=""https://creativecommons.org/publicdomain/zero/1.0/"">CC0</a>.</p>"
+aavedao.eth,0x364de11d3a298f2c76721a8926cb32823cc29d0a95eadecbc0a98c628a38194b,[ARFC] Set ACI as Emission Manager for Liquidity Mining Programs ,https://governance.aave.com/t/arfc-set-aci-as-emission-manager-for-liquidity-mining-programs/17898,45424,2,,ACI,2024-06-11T19:00:08.110Z,1718132408,,"<p>The current proposal has been escalated to <a href=""https://snapshot.org/#/aave.eth/proposal/0x364de11d3a298f2c76721a8926cb32823cc29d0a95eadecbc0a98c628a38194b"">ARFC Snapshot</a>.</p>
+<p>Vote will start tomorrow, we encourage everyone to participate.</p>"

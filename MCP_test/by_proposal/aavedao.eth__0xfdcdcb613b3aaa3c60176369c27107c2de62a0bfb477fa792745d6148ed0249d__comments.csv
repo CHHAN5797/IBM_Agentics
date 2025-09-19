@@ -1,0 +1,483 @@
+space,proposal_id,proposal_title,discussion_url,end,end_iso,forum_kind,post_id,post_number,reply_to_post_number,author_username,created_at,text,text_raw,text_html
+aavedao.eth,0xfdcdcb613b3aaa3c60176369c27107c2de62a0bfb477fa792745d6148ed0249d,[ARFC] Launch GHO on Linea & Set ACI as Emissions Manager for Rewards,https://governance.aave.com/t/arfc-launch-gho-on-linea-set-aci-as-emissions-manager-for-rewards/22995,1756792912,2025-09-02T06:01:52+00:00,discourse,58522,1,,TokenLogic,2025-08-22T07:56:29.369Z,"<hr>
+<p>Title: [ARFC] Launch GHO on Linea &amp; Set ACI as Emissions Manager for Rewards<br>
+Author: TokenLogic<br>
+Created: 2025-08-18</p>
+<hr>
+<h2><a name=""p-58522-summary-1"" class=""anchor"" href=""#p-58522-summary-1""></a>Summary</h2>
+<p>This publication proposes deploying <strong>GHO</strong> on the Linea blockchain and appointing <strong>ACI</strong> as the Emissions Manager for both GHO and aGHO. The goal is to position GHO as the dominating decentralized stablecoin within Linea’s ecosystem.</p>
+<h2><a name=""p-58522-motivation-2"" class=""anchor"" href=""#p-58522-motivation-2""></a>Motivation</h2>
+<p>Linea is a high-performance, EVM-equivalent zk-rollup developed by ConsenSys, offering ultra-low fees, fast finality, and deep integration with Ethereum infrastructure such as Infura and MetaMask.</p>
+<p>Aave V3 has already launched on Linea, enabling increased DeFi adoption and liquidity flow. Linea is now launching <strong>Native Yield</strong>, an innovative mechanism that auto-stakes bridged ETH via Lido v3 stVaults, channeling staking rewards into DeFi liquidity incentives on Linea.</p>
+<p>Deploying GHO on Linea in concert with these momentum initiatives ensures GHO becomes a foundational stablecoin, enabling synergies with liquidity programs, boosting peg stability, and expanding GHO’s on-chain utility.</p>
+<h2><a name=""p-58522-specification-3"" class=""anchor"" href=""#p-58522-specification-3""></a>Specification</h2>
+<h3><a name=""p-58522-roles-and-responsibilities-4"" class=""anchor"" href=""#p-58522-roles-and-responsibilities-4""></a>Roles and Responsibilities</h3>
+<div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Service Provider</th>
+<th>Responsibility</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TokenLogic</td>
+<td>Deploy GHO infrastructure and bridging components</td>
+</tr>
+<tr>
+<td>TokenLogic</td>
+<td>Configure Facilitator, GSM, and Steward logistics</td>
+</tr>
+<tr>
+<td>Chaos Labs + LlamaRisk</td>
+<td>Review initial risk parameters tailored to Linea</td>
+</tr>
+<tr>
+<td>BGD + Aave Labs</td>
+<td>Review Pull Requests ahead of voting submission</td>
+</tr>
+<tr>
+<td>Certora</td>
+<td>Cold Review / Audit of Pull Requests</td>
+</tr>
+<tr>
+<td>ACI + TokenLogic</td>
+<td>Design incentives and distribute emissions</td>
+</tr>
+<tr>
+<td>Aave Liquidity Committee</td>
+<td>Coordinate GHO liquidity across Linea DEXs</td>
+</tr>
+<tr>
+<td>GHO Stewards</td>
+<td>Maintain risk parameters post-deployment</td>
+</tr>
+</tbody>
+</table>
+</div><p><strong>ACI Multi-sig Address</strong>: <code>0xac140648435d03f784879cd789130F22Ef588Fcd</code><br>
+<strong>Gho Stewards Address</strong>: <code>0x8513e6F37dBc52De87b166980Fa3F50639694B60</code></p>
+<hr>
+<h3><a name=""p-58522-gho-parameters-for-aave-v3-on-linea-5"" class=""anchor"" href=""#p-58522-gho-parameters-for-aave-v3-on-linea-5""></a>GHO Parameters for Aave v3 on Linea</h3>
+<div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Asset</td>
+<td>GHO</td>
+</tr>
+<tr>
+<td>Market</td>
+<td>Linea</td>
+</tr>
+<tr>
+<td>Isolation Mode</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Borrowable</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Collateral Enabled</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Supply Cap</td>
+<td>5,000,000</td>
+</tr>
+<tr>
+<td>Borrow Cap</td>
+<td>4,500,000</td>
+</tr>
+<tr>
+<td>Variable Base</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>Variable Slope1</td>
+<td>5.5%</td>
+</tr>
+<tr>
+<td>Variable Slope2</td>
+<td>50%</td>
+</tr>
+<tr>
+<td>Uoptimal</td>
+<td>90%</td>
+</tr>
+<tr>
+<td>Reserve Factor</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>Stable Borrowing</td>
+<td>Disabled</td>
+</tr>
+<tr>
+<td>Flashloanable</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Siloed Borrowing</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div><hr>
+<h3><a name=""p-58522-facilitator-bridging-configuration-6"" class=""anchor"" href=""#p-58522-facilitator-bridging-configuration-6""></a>Facilitator &amp; Bridging Configuration</h3>
+<p>Deploy a <strong>GhoDirectMinter</strong> facilitator on Ethereum to support issuance for Linea.</p>
+<ul>
+<li><strong>Mint Cap</strong>: 15M GHO</li>
+</ul>
+<p><strong>Bridge Configuration</strong> (e.g., via CCIP or similar):</p>
+<ul>
+<li><strong>Bucket Capacity</strong>: 15M GHO</li>
+<li><strong>Inbound Capacity</strong>: 1.5M GHO</li>
+<li><strong>Outbound Capacity</strong>: 1.5M GHO</li>
+<li><strong>Refill Rate</strong>: 300 GHO/sec</li>
+</ul>
+<hr>
+<h3><a name=""p-58522-gsm-parameters-statausdt0linea-7"" class=""anchor"" href=""#p-58522-gsm-parameters-statausdt0linea-7""></a>GSM Parameters (stataUSDT0.linea)</h3>
+<div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GHO Bucket Cap</td>
+<td>10M GHO</td>
+</tr>
+<tr>
+<td>USDT Exposure Cap</td>
+<td>5M</td>
+</tr>
+<tr>
+<td>Freeze Lower Bound</td>
+<td>$0.990</td>
+</tr>
+<tr>
+<td>Freeze Upper Bound</td>
+<td>$1.010</td>
+</tr>
+<tr>
+<td>Unfreeze Lower Bound</td>
+<td>$0.995</td>
+</tr>
+<tr>
+<td>Unfreeze Upper Bound</td>
+<td>$1.005</td>
+</tr>
+<tr>
+<td>Mint GHO Fee</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>Burn GHO Fee</td>
+<td>0%</td>
+</tr>
+</tbody>
+</table>
+</div><p><em>USDT deposits into <code>stataUSDT0.linea</code> trigger GHO transfers using Ethereum-held inventory via GSM.</em></p>
+<hr>
+<h3><a name=""p-58522-gho-steward-configuration-8"" class=""anchor"" href=""#p-58522-gho-steward-configuration-8""></a>GHO Steward Configuration</h3>
+<p><strong>GhoAaveSteward</strong></p>
+<ul>
+<li><code>updateGhoBorrowCap</code>: ±100%</li>
+<li><code>updateGhoBorrowRate</code>: ±5% on optimalUsageRatio, baseVariableBorrowRate, variableRateSlope1, variableRateSlope2</li>
+<li><code>updateGhoSupplyCap</code>: Up to +100%</li>
+</ul>
+<p><strong>GhoGsmSteward</strong></p>
+<ul>
+<li><code>updateGsmExposureCap</code>: ±100%</li>
+<li><code>updateGsmBuySellFees</code>: ±0.5% per side (FixedFeeStrategy)</li>
+</ul>
+<p><em>Both stewards remain callable only by the GHO steward protocol.</em></p>
+<hr>
+<h2><a name=""p-58522-budget-9"" class=""anchor"" href=""#p-58522-budget-9""></a>Budget</h2>
+<p>Initial capital will be deployed on Ethereum and bridged to Linea via the facilitator to support liquidity and incentive programs. Exact SAFE address to be specified in an upcoming AIP.</p>
+<h2><a name=""p-58522-disclaimer-10"" class=""anchor"" href=""#p-58522-disclaimer-10""></a>Disclaimer</h2>
+<p>TokenLogic receives no compensation for drafting or coordinating this ARFC.</p>
+<h2><a name=""p-58522-next-steps-11"" class=""anchor"" href=""#p-58522-next-steps-11""></a>Next Steps</h2>
+<ol>
+<li>Gather feedback from the community.</li>
+<li>If consensus is reached on this ARFC, escalate this proposal to the Snapshot stage.</li>
+<li>If Snapshot outcome is YAE, escalate this proposal to the AIP stage.</li>
+</ol>
+<h2><a name=""p-58522-copyright-12"" class=""anchor"" href=""#p-58522-copyright-12""></a>Copyright</h2>
+<p>Copyright and related rights waived via <a href=""https://creativecommons.org/publicdomain/zero/1.0/"" rel=""noopener nofollow ugc"">CC0</a>.</p>",,"<hr>
+<p>Title: [ARFC] Launch GHO on Linea &amp; Set ACI as Emissions Manager for Rewards<br>
+Author: TokenLogic<br>
+Created: 2025-08-18</p>
+<hr>
+<h2><a name=""p-58522-summary-1"" class=""anchor"" href=""#p-58522-summary-1""></a>Summary</h2>
+<p>This publication proposes deploying <strong>GHO</strong> on the Linea blockchain and appointing <strong>ACI</strong> as the Emissions Manager for both GHO and aGHO. The goal is to position GHO as the dominating decentralized stablecoin within Linea’s ecosystem.</p>
+<h2><a name=""p-58522-motivation-2"" class=""anchor"" href=""#p-58522-motivation-2""></a>Motivation</h2>
+<p>Linea is a high-performance, EVM-equivalent zk-rollup developed by ConsenSys, offering ultra-low fees, fast finality, and deep integration with Ethereum infrastructure such as Infura and MetaMask.</p>
+<p>Aave V3 has already launched on Linea, enabling increased DeFi adoption and liquidity flow. Linea is now launching <strong>Native Yield</strong>, an innovative mechanism that auto-stakes bridged ETH via Lido v3 stVaults, channeling staking rewards into DeFi liquidity incentives on Linea.</p>
+<p>Deploying GHO on Linea in concert with these momentum initiatives ensures GHO becomes a foundational stablecoin, enabling synergies with liquidity programs, boosting peg stability, and expanding GHO’s on-chain utility.</p>
+<h2><a name=""p-58522-specification-3"" class=""anchor"" href=""#p-58522-specification-3""></a>Specification</h2>
+<h3><a name=""p-58522-roles-and-responsibilities-4"" class=""anchor"" href=""#p-58522-roles-and-responsibilities-4""></a>Roles and Responsibilities</h3>
+<div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Service Provider</th>
+<th>Responsibility</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TokenLogic</td>
+<td>Deploy GHO infrastructure and bridging components</td>
+</tr>
+<tr>
+<td>TokenLogic</td>
+<td>Configure Facilitator, GSM, and Steward logistics</td>
+</tr>
+<tr>
+<td>Chaos Labs + LlamaRisk</td>
+<td>Review initial risk parameters tailored to Linea</td>
+</tr>
+<tr>
+<td>BGD + Aave Labs</td>
+<td>Review Pull Requests ahead of voting submission</td>
+</tr>
+<tr>
+<td>Certora</td>
+<td>Cold Review / Audit of Pull Requests</td>
+</tr>
+<tr>
+<td>ACI + TokenLogic</td>
+<td>Design incentives and distribute emissions</td>
+</tr>
+<tr>
+<td>Aave Liquidity Committee</td>
+<td>Coordinate GHO liquidity across Linea DEXs</td>
+</tr>
+<tr>
+<td>GHO Stewards</td>
+<td>Maintain risk parameters post-deployment</td>
+</tr>
+</tbody>
+</table>
+</div><p><strong>ACI Multi-sig Address</strong>: <code>0xac140648435d03f784879cd789130F22Ef588Fcd</code><br>
+<strong>Gho Stewards Address</strong>: <code>0x8513e6F37dBc52De87b166980Fa3F50639694B60</code></p>
+<hr>
+<h3><a name=""p-58522-gho-parameters-for-aave-v3-on-linea-5"" class=""anchor"" href=""#p-58522-gho-parameters-for-aave-v3-on-linea-5""></a>GHO Parameters for Aave v3 on Linea</h3>
+<div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Asset</td>
+<td>GHO</td>
+</tr>
+<tr>
+<td>Market</td>
+<td>Linea</td>
+</tr>
+<tr>
+<td>Isolation Mode</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Borrowable</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Collateral Enabled</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Supply Cap</td>
+<td>5,000,000</td>
+</tr>
+<tr>
+<td>Borrow Cap</td>
+<td>4,500,000</td>
+</tr>
+<tr>
+<td>Variable Base</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>Variable Slope1</td>
+<td>5.5%</td>
+</tr>
+<tr>
+<td>Variable Slope2</td>
+<td>50%</td>
+</tr>
+<tr>
+<td>Uoptimal</td>
+<td>90%</td>
+</tr>
+<tr>
+<td>Reserve Factor</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>Stable Borrowing</td>
+<td>Disabled</td>
+</tr>
+<tr>
+<td>Flashloanable</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Siloed Borrowing</td>
+<td>No</td>
+</tr>
+</tbody>
+</table>
+</div><hr>
+<h3><a name=""p-58522-facilitator-bridging-configuration-6"" class=""anchor"" href=""#p-58522-facilitator-bridging-configuration-6""></a>Facilitator &amp; Bridging Configuration</h3>
+<p>Deploy a <strong>GhoDirectMinter</strong> facilitator on Ethereum to support issuance for Linea.</p>
+<ul>
+<li><strong>Mint Cap</strong>: 15M GHO</li>
+</ul>
+<p><strong>Bridge Configuration</strong> (e.g., via CCIP or similar):</p>
+<ul>
+<li><strong>Bucket Capacity</strong>: 15M GHO</li>
+<li><strong>Inbound Capacity</strong>: 1.5M GHO</li>
+<li><strong>Outbound Capacity</strong>: 1.5M GHO</li>
+<li><strong>Refill Rate</strong>: 300 GHO/sec</li>
+</ul>
+<hr>
+<h3><a name=""p-58522-gsm-parameters-statausdt0linea-7"" class=""anchor"" href=""#p-58522-gsm-parameters-statausdt0linea-7""></a>GSM Parameters (stataUSDT0.linea)</h3>
+<div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GHO Bucket Cap</td>
+<td>10M GHO</td>
+</tr>
+<tr>
+<td>USDT Exposure Cap</td>
+<td>5M</td>
+</tr>
+<tr>
+<td>Freeze Lower Bound</td>
+<td>$0.990</td>
+</tr>
+<tr>
+<td>Freeze Upper Bound</td>
+<td>$1.010</td>
+</tr>
+<tr>
+<td>Unfreeze Lower Bound</td>
+<td>$0.995</td>
+</tr>
+<tr>
+<td>Unfreeze Upper Bound</td>
+<td>$1.005</td>
+</tr>
+<tr>
+<td>Mint GHO Fee</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>Burn GHO Fee</td>
+<td>0%</td>
+</tr>
+</tbody>
+</table>
+</div><p><em>USDT deposits into <code>stataUSDT0.linea</code> trigger GHO transfers using Ethereum-held inventory via GSM.</em></p>
+<hr>
+<h3><a name=""p-58522-gho-steward-configuration-8"" class=""anchor"" href=""#p-58522-gho-steward-configuration-8""></a>GHO Steward Configuration</h3>
+<p><strong>GhoAaveSteward</strong></p>
+<ul>
+<li><code>updateGhoBorrowCap</code>: ±100%</li>
+<li><code>updateGhoBorrowRate</code>: ±5% on optimalUsageRatio, baseVariableBorrowRate, variableRateSlope1, variableRateSlope2</li>
+<li><code>updateGhoSupplyCap</code>: Up to +100%</li>
+</ul>
+<p><strong>GhoGsmSteward</strong></p>
+<ul>
+<li><code>updateGsmExposureCap</code>: ±100%</li>
+<li><code>updateGsmBuySellFees</code>: ±0.5% per side (FixedFeeStrategy)</li>
+</ul>
+<p><em>Both stewards remain callable only by the GHO steward protocol.</em></p>
+<hr>
+<h2><a name=""p-58522-budget-9"" class=""anchor"" href=""#p-58522-budget-9""></a>Budget</h2>
+<p>Initial capital will be deployed on Ethereum and bridged to Linea via the facilitator to support liquidity and incentive programs. Exact SAFE address to be specified in an upcoming AIP.</p>
+<h2><a name=""p-58522-disclaimer-10"" class=""anchor"" href=""#p-58522-disclaimer-10""></a>Disclaimer</h2>
+<p>TokenLogic receives no compensation for drafting or coordinating this ARFC.</p>
+<h2><a name=""p-58522-next-steps-11"" class=""anchor"" href=""#p-58522-next-steps-11""></a>Next Steps</h2>
+<ol>
+<li>Gather feedback from the community.</li>
+<li>If consensus is reached on this ARFC, escalate this proposal to the Snapshot stage.</li>
+<li>If Snapshot outcome is YAE, escalate this proposal to the AIP stage.</li>
+</ol>
+<h2><a name=""p-58522-copyright-12"" class=""anchor"" href=""#p-58522-copyright-12""></a>Copyright</h2>
+<p>Copyright and related rights waived via <a href=""https://creativecommons.org/publicdomain/zero/1.0/"" rel=""noopener nofollow ugc"">CC0</a>.</p>"
+aavedao.eth,0xfdcdcb613b3aaa3c60176369c27107c2de62a0bfb477fa792745d6148ed0249d,[ARFC] Launch GHO on Linea & Set ACI as Emissions Manager for Rewards,https://governance.aave.com/t/arfc-launch-gho-on-linea-set-aci-as-emissions-manager-for-rewards/22995,1756792912,2025-09-02T06:01:52+00:00,discourse,58602,2,,LlamaRisk,2025-08-27T14:21:59.593Z,"<h3><a name=""p-58602-summary-1"" class=""anchor"" href=""#p-58602-summary-1""></a>Summary</h3>
+<p>LlamaRisk supports launching GHO on the Linea network. The proposed initial parameters are consistent with the initial deployments on established L2s like Arbitrum and Base, representing a measured approach to expansion.</p>
+<p>The introduction of <a href=""https://blog.lido.fi/linea-lido-bringing-native-yield-to-l2s/"" rel=""noopener nofollow ugc"">Linea’s Native Yield mechanism</a>, which channels staking rewards from bridged ETH into the ecosystem, presents a compelling opportunity for GHO’s expansion on Linea’s DEXs. Even though this mechanism introduces additional dependency and rehypothecation risks, these risks would be managed by active exposure management <a href=""https://community.linea.build/t/linea-native-yield/10588"" rel=""noopener nofollow ugc"">proposed by the Linea team</a>. Therefore, we support the proposed parameters and strategy by TokenLogic, which would allow GHO to scale safely as demand materializes.</p>
+<h3><a name=""p-58602-cross-chain-progress-market-sizing-2"" class=""anchor"" href=""#p-58602-cross-chain-progress-market-sizing-2""></a>Cross-Chain Progress &amp; Market Sizing</h3>
+<p>Since GHO’s cross-chain deployments began, GHO has grown to 280M total supply, with ~26M GHO residing on the supported L2s. The Avalanche market has seen the most success, while the Base market has contracted over time.</p>
+<p><div class=""lightbox-wrapper""><a class=""lightbox"" href=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/3/33b4efba8c6bfecce37228ddf67c0450c69bbc0a.png"" data-download-href=""/uploads/short-url/7nq0lfy4oEKpOs0JNU6GHOiuZia.png?dl=1"" title=""image"" rel=""noopener nofollow ugc""><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/optimized/2X/3/33b4efba8c6bfecce37228ddf67c0450c69bbc0a_2_2000x932.png"" alt=""image"" data-base62-sha1=""7nq0lfy4oEKpOs0JNU6GHOiuZia"" width=""2000"" height=""932"" srcset=""https://europe1.discourse-cdn.com/flex013/uploads/aave/optimized/2X/3/33b4efba8c6bfecce37228ddf67c0450c69bbc0a_2_2000x932.png, https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/3/33b4efba8c6bfecce37228ddf67c0450c69bbc0a.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/3/33b4efba8c6bfecce37228ddf67c0450c69bbc0a.png 2x"" data-dominant-color=""131521""><div class=""meta""><svg class=""fa d-icon d-icon-far-image svg-icon"" aria-hidden=""true""><use href=""#far-image""></use></svg><span class=""filename"">image</span><span class=""informations"">2338×1090 201 KB</span><svg class=""fa d-icon d-icon-discourse-expand svg-icon"" aria-hidden=""true""><use href=""#discourse-expand""></use></svg></div></a></div></p>
+<p><em>Source: <a href=""https://aave.tokenlogic.xyz/gho"" rel=""noopener nofollow ugc"">TokenLogic GHO Dashboard</a>, August 27, 2025</em></p>
+<p>The proposed initial market size for GHO on Linea is well-justified compared to previous successful deployments. At the time of GHO’s launch on Arbitrum and Base, the Aave v3 markets on those chains had a TVL that was in line with Linea’s current Aave v3 market size of $526M, suggesting a comparable initial demand for GHO borrowing and justifying the proposed caps and incentive strategy.</p>
+<h3><a name=""p-58602-current-health-of-gho-3"" class=""anchor"" href=""#p-58602-current-health-of-gho-3""></a>Current Health of GHO</h3>
+<p>After the renewed positive market conditions and increased leverage strategies, GHO’s secondary market peg was temporarily affected, reaching a discount of up to 30 bps in late July. Slight increases in GHO borrow rates and a bump in Aave Savings Rate helped to contain the outflows and reduced secondary market pressure, with GHO now back to 10 bps (0.1%) peg bounds.</p>
+<p><div class=""lightbox-wrapper""><a class=""lightbox"" href=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/2/26d947890d9a29ad88fc6bf8394d432d3070a5b6.png"" data-download-href=""/uploads/short-url/5xFF6gjemidt4HXqZUJnnG3M04e.png?dl=1"" title=""image"" rel=""noopener nofollow ugc""><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/2/26d947890d9a29ad88fc6bf8394d432d3070a5b6.png"" alt=""image"" data-base62-sha1=""5xFF6gjemidt4HXqZUJnnG3M04e"" width=""1598"" height=""794""><div class=""meta""><svg class=""fa d-icon d-icon-far-image svg-icon"" aria-hidden=""true""><use href=""#far-image""></use></svg><span class=""filename"">image</span><span class=""informations"">1598×794 61.3 KB</span><svg class=""fa d-icon d-icon-discourse-expand svg-icon"" aria-hidden=""true""><use href=""#discourse-expand""></use></svg></div></a></div><br>
+<em>Source: <a href=""https://coinmarketcap.com/currencies/gho/"" rel=""noopener nofollow ugc"">CoinMarketCap</a>, August 27, 2025</em></p>
+<p>On Ethereum, GHO currently possesses a 37M sell buffer within 30 bps (0.3%) price impact, suggesting that a selling pressure of more than 10% of the total supply would be needed to destabilize the peg again.</p>
+<h3><a name=""p-58602-potential-use-cases-on-linea-4"" class=""anchor"" href=""#p-58602-potential-use-cases-on-linea-4""></a>Potential Use Cases on Linea</h3>
+<p>The introduction of Native Yield on Linea presents a unique argument for GHO adoption. As users bridge ETH that automatically earns staking rewards via Lido v3 stVaults, there will be a natural demand to borrow against this productive collateral. GHO is well-positioned to be the stablecoin of choice for these operations, especially as the Aave v3 market on Linea only has USDC and USDT onboarded on the stablecoin side. GHO DEX integrations and incentives are also expected to improve GHO’s expansion among other yield venues on the Linea network.</p>
+<h3><a name=""p-58602-linea-yield-venues-5"" class=""anchor"" href=""#p-58602-linea-yield-venues-5""></a>Linea Yield Venues</h3>
+<p>Currently, Aave is a dominant yield venue on Linea, with Etherex permissionless DEX being the largest notable liquidity venue. As GHO is onboarded, part of the supply will likely flow to the DEXs, where new GHO liquidity pools would be bootstraped. Given the dominance of lending protocols on this chain, the potential for other external yield integrations is currently unclear.</p>
+<p><div class=""lightbox-wrapper""><a class=""lightbox"" href=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/5/5823b39a98ab0d749d7f3d942d24856b344fb668.png"" data-download-href=""/uploads/short-url/czIvtvDAd0t7WQ5u7j7c5qDK3CE.png?dl=1"" title=""image"" rel=""noopener nofollow ugc""><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/5/5823b39a98ab0d749d7f3d942d24856b344fb668.png"" alt=""image"" data-base62-sha1=""czIvtvDAd0t7WQ5u7j7c5qDK3CE"" width=""1496"" height=""1154""><div class=""meta""><svg class=""fa d-icon d-icon-far-image svg-icon"" aria-hidden=""true""><use href=""#far-image""></use></svg><span class=""filename"">image</span><span class=""informations"">1496×1154 156 KB</span><svg class=""fa d-icon d-icon-discourse-expand svg-icon"" aria-hidden=""true""><use href=""#discourse-expand""></use></svg></div></a></div><br>
+<em>Source: <a href=""https://defillama.com/chain/linea?tvl=false&amp;dexsVolume=true"" rel=""noopener nofollow ugc"">DefiLlama</a>, August 27, 2025</em></p>
+<p>The largest pools of the Etherex exchange are pairing ETH, LSTs/LRTs, and stablecoins. This liquidity profile is suitable for GHO adoption, as ETH and ETH derivatives are also prevalent GHO collateral assets on Mainnet.</p>
+<p><div class=""lightbox-wrapper""><a class=""lightbox"" href=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/d/dfc55638c103b269f5c524ba12ce1e2f55f8e81b.jpeg"" data-download-href=""/uploads/short-url/vVzgCqCfB8JkHRfrpLOENWSgFiX.jpeg?dl=1"" title=""image"" rel=""noopener nofollow ugc""><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/d/dfc55638c103b269f5c524ba12ce1e2f55f8e81b.jpeg"" alt=""image"" data-base62-sha1=""vVzgCqCfB8JkHRfrpLOENWSgFiX"" width=""1664"" height=""1402""><div class=""meta""><svg class=""fa d-icon d-icon-far-image svg-icon"" aria-hidden=""true""><use href=""#far-image""></use></svg><span class=""filename"">image</span><span class=""informations"">1664×1402 103 KB</span><svg class=""fa d-icon d-icon-discourse-expand svg-icon"" aria-hidden=""true""><use href=""#discourse-expand""></use></svg></div></a></div><br>
+<em>Source: <a href=""https://www.etherex.finance/liquidity"" rel=""noopener nofollow ugc"">Etherex DEX</a>, August 27, 2025</em></p>
+<h3><a name=""p-58602-disclaimer-6"" class=""anchor"" href=""#p-58602-disclaimer-6""></a>Disclaimer</h3>
+<p>This review was independently prepared by LlamaRisk, a community-led decentralized organization funded in part by the Aave DAO. LlamaRisk is not directly affiliated with the protocol(s) reviewed in this assessment and did not receive any compensation from the protocol(s) or their affiliated entities for this work.</p>
+<p>The information provided should not be construed as legal, financial, tax, or professional advice.</p>",,"<h3><a name=""p-58602-summary-1"" class=""anchor"" href=""#p-58602-summary-1""></a>Summary</h3>
+<p>LlamaRisk supports launching GHO on the Linea network. The proposed initial parameters are consistent with the initial deployments on established L2s like Arbitrum and Base, representing a measured approach to expansion.</p>
+<p>The introduction of <a href=""https://blog.lido.fi/linea-lido-bringing-native-yield-to-l2s/"" rel=""noopener nofollow ugc"">Linea’s Native Yield mechanism</a>, which channels staking rewards from bridged ETH into the ecosystem, presents a compelling opportunity for GHO’s expansion on Linea’s DEXs. Even though this mechanism introduces additional dependency and rehypothecation risks, these risks would be managed by active exposure management <a href=""https://community.linea.build/t/linea-native-yield/10588"" rel=""noopener nofollow ugc"">proposed by the Linea team</a>. Therefore, we support the proposed parameters and strategy by TokenLogic, which would allow GHO to scale safely as demand materializes.</p>
+<h3><a name=""p-58602-cross-chain-progress-market-sizing-2"" class=""anchor"" href=""#p-58602-cross-chain-progress-market-sizing-2""></a>Cross-Chain Progress &amp; Market Sizing</h3>
+<p>Since GHO’s cross-chain deployments began, GHO has grown to 280M total supply, with ~26M GHO residing on the supported L2s. The Avalanche market has seen the most success, while the Base market has contracted over time.</p>
+<p><div class=""lightbox-wrapper""><a class=""lightbox"" href=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/3/33b4efba8c6bfecce37228ddf67c0450c69bbc0a.png"" data-download-href=""/uploads/short-url/7nq0lfy4oEKpOs0JNU6GHOiuZia.png?dl=1"" title=""image"" rel=""noopener nofollow ugc""><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/optimized/2X/3/33b4efba8c6bfecce37228ddf67c0450c69bbc0a_2_2000x932.png"" alt=""image"" data-base62-sha1=""7nq0lfy4oEKpOs0JNU6GHOiuZia"" width=""2000"" height=""932"" srcset=""https://europe1.discourse-cdn.com/flex013/uploads/aave/optimized/2X/3/33b4efba8c6bfecce37228ddf67c0450c69bbc0a_2_2000x932.png, https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/3/33b4efba8c6bfecce37228ddf67c0450c69bbc0a.png 1.5x, https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/3/33b4efba8c6bfecce37228ddf67c0450c69bbc0a.png 2x"" data-dominant-color=""131521""><div class=""meta""><svg class=""fa d-icon d-icon-far-image svg-icon"" aria-hidden=""true""><use href=""#far-image""></use></svg><span class=""filename"">image</span><span class=""informations"">2338×1090 201 KB</span><svg class=""fa d-icon d-icon-discourse-expand svg-icon"" aria-hidden=""true""><use href=""#discourse-expand""></use></svg></div></a></div></p>
+<p><em>Source: <a href=""https://aave.tokenlogic.xyz/gho"" rel=""noopener nofollow ugc"">TokenLogic GHO Dashboard</a>, August 27, 2025</em></p>
+<p>The proposed initial market size for GHO on Linea is well-justified compared to previous successful deployments. At the time of GHO’s launch on Arbitrum and Base, the Aave v3 markets on those chains had a TVL that was in line with Linea’s current Aave v3 market size of $526M, suggesting a comparable initial demand for GHO borrowing and justifying the proposed caps and incentive strategy.</p>
+<h3><a name=""p-58602-current-health-of-gho-3"" class=""anchor"" href=""#p-58602-current-health-of-gho-3""></a>Current Health of GHO</h3>
+<p>After the renewed positive market conditions and increased leverage strategies, GHO’s secondary market peg was temporarily affected, reaching a discount of up to 30 bps in late July. Slight increases in GHO borrow rates and a bump in Aave Savings Rate helped to contain the outflows and reduced secondary market pressure, with GHO now back to 10 bps (0.1%) peg bounds.</p>
+<p><div class=""lightbox-wrapper""><a class=""lightbox"" href=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/2/26d947890d9a29ad88fc6bf8394d432d3070a5b6.png"" data-download-href=""/uploads/short-url/5xFF6gjemidt4HXqZUJnnG3M04e.png?dl=1"" title=""image"" rel=""noopener nofollow ugc""><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/2/26d947890d9a29ad88fc6bf8394d432d3070a5b6.png"" alt=""image"" data-base62-sha1=""5xFF6gjemidt4HXqZUJnnG3M04e"" width=""1598"" height=""794""><div class=""meta""><svg class=""fa d-icon d-icon-far-image svg-icon"" aria-hidden=""true""><use href=""#far-image""></use></svg><span class=""filename"">image</span><span class=""informations"">1598×794 61.3 KB</span><svg class=""fa d-icon d-icon-discourse-expand svg-icon"" aria-hidden=""true""><use href=""#discourse-expand""></use></svg></div></a></div><br>
+<em>Source: <a href=""https://coinmarketcap.com/currencies/gho/"" rel=""noopener nofollow ugc"">CoinMarketCap</a>, August 27, 2025</em></p>
+<p>On Ethereum, GHO currently possesses a 37M sell buffer within 30 bps (0.3%) price impact, suggesting that a selling pressure of more than 10% of the total supply would be needed to destabilize the peg again.</p>
+<h3><a name=""p-58602-potential-use-cases-on-linea-4"" class=""anchor"" href=""#p-58602-potential-use-cases-on-linea-4""></a>Potential Use Cases on Linea</h3>
+<p>The introduction of Native Yield on Linea presents a unique argument for GHO adoption. As users bridge ETH that automatically earns staking rewards via Lido v3 stVaults, there will be a natural demand to borrow against this productive collateral. GHO is well-positioned to be the stablecoin of choice for these operations, especially as the Aave v3 market on Linea only has USDC and USDT onboarded on the stablecoin side. GHO DEX integrations and incentives are also expected to improve GHO’s expansion among other yield venues on the Linea network.</p>
+<h3><a name=""p-58602-linea-yield-venues-5"" class=""anchor"" href=""#p-58602-linea-yield-venues-5""></a>Linea Yield Venues</h3>
+<p>Currently, Aave is a dominant yield venue on Linea, with Etherex permissionless DEX being the largest notable liquidity venue. As GHO is onboarded, part of the supply will likely flow to the DEXs, where new GHO liquidity pools would be bootstraped. Given the dominance of lending protocols on this chain, the potential for other external yield integrations is currently unclear.</p>
+<p><div class=""lightbox-wrapper""><a class=""lightbox"" href=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/5/5823b39a98ab0d749d7f3d942d24856b344fb668.png"" data-download-href=""/uploads/short-url/czIvtvDAd0t7WQ5u7j7c5qDK3CE.png?dl=1"" title=""image"" rel=""noopener nofollow ugc""><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/5/5823b39a98ab0d749d7f3d942d24856b344fb668.png"" alt=""image"" data-base62-sha1=""czIvtvDAd0t7WQ5u7j7c5qDK3CE"" width=""1496"" height=""1154""><div class=""meta""><svg class=""fa d-icon d-icon-far-image svg-icon"" aria-hidden=""true""><use href=""#far-image""></use></svg><span class=""filename"">image</span><span class=""informations"">1496×1154 156 KB</span><svg class=""fa d-icon d-icon-discourse-expand svg-icon"" aria-hidden=""true""><use href=""#discourse-expand""></use></svg></div></a></div><br>
+<em>Source: <a href=""https://defillama.com/chain/linea?tvl=false&amp;dexsVolume=true"" rel=""noopener nofollow ugc"">DefiLlama</a>, August 27, 2025</em></p>
+<p>The largest pools of the Etherex exchange are pairing ETH, LSTs/LRTs, and stablecoins. This liquidity profile is suitable for GHO adoption, as ETH and ETH derivatives are also prevalent GHO collateral assets on Mainnet.</p>
+<p><div class=""lightbox-wrapper""><a class=""lightbox"" href=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/d/dfc55638c103b269f5c524ba12ce1e2f55f8e81b.jpeg"" data-download-href=""/uploads/short-url/vVzgCqCfB8JkHRfrpLOENWSgFiX.jpeg?dl=1"" title=""image"" rel=""noopener nofollow ugc""><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/d/dfc55638c103b269f5c524ba12ce1e2f55f8e81b.jpeg"" alt=""image"" data-base62-sha1=""vVzgCqCfB8JkHRfrpLOENWSgFiX"" width=""1664"" height=""1402""><div class=""meta""><svg class=""fa d-icon d-icon-far-image svg-icon"" aria-hidden=""true""><use href=""#far-image""></use></svg><span class=""filename"">image</span><span class=""informations"">1664×1402 103 KB</span><svg class=""fa d-icon d-icon-discourse-expand svg-icon"" aria-hidden=""true""><use href=""#discourse-expand""></use></svg></div></a></div><br>
+<em>Source: <a href=""https://www.etherex.finance/liquidity"" rel=""noopener nofollow ugc"">Etherex DEX</a>, August 27, 2025</em></p>
+<h3><a name=""p-58602-disclaimer-6"" class=""anchor"" href=""#p-58602-disclaimer-6""></a>Disclaimer</h3>
+<p>This review was independently prepared by LlamaRisk, a community-led decentralized organization funded in part by the Aave DAO. LlamaRisk is not directly affiliated with the protocol(s) reviewed in this assessment and did not receive any compensation from the protocol(s) or their affiliated entities for this work.</p>
+<p>The information provided should not be construed as legal, financial, tax, or professional advice.</p>"

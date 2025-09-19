@@ -1,0 +1,13 @@
+Base URL: http://localhost:8000
+Spaces: aavedao.eth, arbitrumfoundation.eth, uniswapgovernance.eth
+Limit proposals: 10
+Timeout per req: 120s
+Max pages/posts: 5/200
+Use cutoff: True
+
+Total discourse comments: 30
+Outputs:
+ - list.json / list.csv (all proposals with discussion)
+ - list_sample.json / list_sample.csv (chosen subset)
+ - comments_all.csv / comments_all.jsonl
+ - by_proposal/<space>__<proposal_id>__comments.csv

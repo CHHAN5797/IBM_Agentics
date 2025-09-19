@@ -1,0 +1,273 @@
+space,proposal_id,proposal_title,discussion_url,post_id,post_number,reply_to_post_number,author_username,created_at,created_ts,text_raw,text_html
+aavedao.eth,0xd5807ee6ec3d33e7d86805a4287540b0a9801430ee0900ff6babb698e4f2a273,[ARFC] Onboard weETH to Aave v3 on Ethereum,https://governance.aave.com/t/arfc-onboard-weeth-to-aave-v3-on-ethereum/16758,41793,1,,ACI,2024-02-27T10:37:55.923Z,1709030275,,"<blockquote>
+<p>Proposal updated to include Risk team feedback</p>
+</blockquote>
+<h2><a name=""title-arfc-onboarding-of-weeth-to-aave-v3-on-ethereum-1"" class=""anchor"" href=""#title-arfc-onboarding-of-weeth-to-aave-v3-on-ethereum-1""></a>Title: [ARFC] Onboarding of weETH to Aave v3 on Ethereum</h2>
+<h2><a name=""author-etherfihttpetherfi-aci-aave-chan-initiative-2"" class=""anchor"" href=""#author-etherfihttpetherfi-aci-aave-chan-initiative-2""></a>Author: <a href=""http://Ether.fi"">Ether.fi</a> &amp; <a class=""mention"" href=""/u/aci"">@ACI</a> ( Aave Chan Initiative)</h2>
+<h2><a name=""date-2024-02-27-3"" class=""anchor"" href=""#date-2024-02-27-3""></a>Date: 2024-02-27</h2>
+<h3><a name=""summary-4"" class=""anchor"" href=""#summary-4""></a><strong>Summary</strong></h3>
+<p>The current ARFC seeks to add <a href=""http://Ether.fi"">Ether.fi</a> Liquid Restaking Token weETH to Aave V3 Ethereum, after the successful <a href=""https://governance.aave.com/t/temp-check-onboarding-weeth-to-aave-v3-ethereum/16546"">TEMP CHECK</a> and <a href=""https://snapshot.org/#/aave.eth/proposal/0xffe122a2fb0b34e713b7bb8e74e943b35c6cb298bafc4e50c464b62167e3246e"">TEMP CHECK Snapshot</a>.</p>
+<p>The intention behind this initiative is to enhance the diversity of assets on Aave and bolster liquidity within the ecosystem.</p>
+<h3><a name=""motivation-5"" class=""anchor"" href=""#motivation-5""></a>Motivation</h3>
+<p>eETH is an LRT that allows users to stake their ETH, accrue staking rewards, and receive additional rewards through native restaking on EigenLayer. As of February 3rd, approximately 290,310 ETH ($670M) in TVL has been deposited into the <a href=""http://ether.fi/"">ether.fi 1</a> protocol, and XX has been natively restaked in EigenLayer.</p>
+<p><a href=""http://ether.fi/"">Ether.fi</a> stands as the pioneering decentralized and non-custodial delegated staking protocol featuring an LRT (eETH). A notable feature of <a href=""http://ether.fi/"">ether.fi</a> is the control it provides stakers over their keys. The team behind the protocol is guided by the following principles:</p>
+<ol>
+<li>Decentralization is the foremost objective. <a href=""http://ether.fi/"">Ether.fi</a> is unwavering in its commitment to maintain the protocol’s non-custodial and decentralized nature, ensuring that stakers always have control over their ETH.</li>
+<li><a href=""http://ether.fi/"">Ether.fi</a> operates as a legitimate business with a sustainable revenue model, with the team dedicated to its long-term success. There is no place for deceptive or unsustainable financial practices.</li>
+<li><a href=""http://ether.fi/"">Ether.fi</a> is committed to always acting in the best interest of the Ethereum community. In the event of any missteps, the team at <a href=""http://ether.fi/"">ether.fi</a> will take responsibility and swiftly rectify the situation.</li>
+</ol>
+<p>Risks:</p>
+<p><a href=""http://ether.fi/"">ether.fi</a>’s LRT eETH is 100% redeemable. Users who deposit ETH into the protocol can withdraw their stake at any time. The holdings are publicly auditable on-chain and the protocol retains healthy reserves to offset any losses.</p>
+<h2><a name=""proof-of-liquidity-and-deposit-commitments-6"" class=""anchor"" href=""#proof-of-liquidity-and-deposit-commitments-6""></a>Proof of Liquidity and Deposit Commitments</h2>
+<p>Anyone who deposits weETH into Aave will accumulate <a href=""http://ether.fi/"">ether.fi</a>  and EigenLayer points to be used for future incentives.</p>
+<p>Users are given eETH on a 1:1 basis with a minimum deposit of 0.001 ETH.</p>
+<p><a href=""http://ether.fi/"">ether.fi</a> is also the first LSP to natively restake on EigenLayer — a move that helps improve network efficiency and provides stakers with additional rewards for their network contributions. <a href=""http://ether.fi/"">ether.fi</a> has also launched a series of partnerships with DeFi protocols to incentivize users and drive liquidity (weETH) to various platforms.</p>
+<h2><a name=""specification-7"" class=""anchor"" href=""#specification-7""></a>Specification</h2>
+<p>weETH: <a href=""https://etherscan.io/token/0xcd5fe23c85820f7b72d0926fc9b05b43e359b7ee"">0xCd5fE23C85820F7B72D0926FC9b05b43E359b7ee</a></p>
+<p>Oracle: weETH will use a exchange rate oracle developed by BGD.</p>
+<h2><a name=""risk-parameters-8"" class=""anchor"" href=""#risk-parameters-8""></a>Risk Parameters</h2>
+<div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Risk Parameter</th>
+<th>weETH</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Isolation Mode</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>Enable Borrow</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>Borrowable in Isolation</td>
+<td>NO</td>
+</tr>
+<tr>
+<td>Enable Collateral</td>
+<td>YES</td>
+</tr>
+<tr>
+<td>Emode Category</td>
+<td>ETH-CORRELATED</td>
+</tr>
+<tr>
+<td>Loan To Value</td>
+<td>72.5%</td>
+</tr>
+<tr>
+<td>Liquidation Threshold</td>
+<td>75%</td>
+</tr>
+<tr>
+<td>Liquidation Bonus</td>
+<td>7.5%</td>
+</tr>
+<tr>
+<td>Variable Base</td>
+<td>0.0%</td>
+</tr>
+<tr>
+<td>Variable Slope1</td>
+<td>7.00%</td>
+</tr>
+<tr>
+<td>Variable Slope2</td>
+<td>300.00%</td>
+</tr>
+<tr>
+<td>Uoptimal</td>
+<td>45.00%</td>
+</tr>
+<tr>
+<td>Reserve Factor</td>
+<td>20%</td>
+</tr>
+<tr>
+<td>Liquidation Protocol Fee</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>Supply Cap</td>
+<td>8000</td>
+</tr>
+<tr>
+<td>Borrow Cap</td>
+<td>800</td>
+</tr>
+<tr>
+<td>Debt Ceiling</td>
+<td>0</td>
+</tr>
+</tbody>
+</table>
+</div><h2><a name=""useful-links-9"" class=""anchor"" href=""#useful-links-9""></a><strong>Useful Links</strong></h2>
+<p><a href=""https://www.ether.fi/"">Ether.fi</a></p>
+<p><a href=""https://governance.aave.com/t/temp-check-onboarding-weeth-to-aave-v3-ethereum/16546"">TEMP CHECK</a></p>
+<p><a href=""https://snapshot.org/#/aave.eth/proposal/0xffe122a2fb0b34e713b7bb8e74e943b35c6cb298bafc4e50c464b62167e3246e"">TEMP CHECK Snapshot</a></p>
+<h2><a name=""disclaimer-10"" class=""anchor"" href=""#disclaimer-10""></a>Disclaimer</h2>
+<p>This proposal is powered by Skywards. The Aave Chan Initiative is not directly affiliated with <a href=""http://ether.fi/"">Ether.fi</a> and did not receive compensation for creation this proposal. The co-author is a team member <a href=""http://ether.fi/"">Ether.fi</a></p>
+<h2><a name=""next-steps-11"" class=""anchor"" href=""#next-steps-11""></a>Next Steps</h2>
+<ol>
+<li>If consensus is reached on this [ARFC], escalate this proposal to the Snapshot stage.</li>
+<li>If the ARFC snapshot outcome is YAE, publish an AIP vote for final confirmation and enforcement of the proposal</li>
+<li>Copyright: Copyright and related rights waived via <a href=""https://creativecommons.org/publicdomain/zero/1.0/"">CC0</a>.</li>
+</ol>"
+aavedao.eth,0xd5807ee6ec3d33e7d86805a4287540b0a9801430ee0900ff6babb698e4f2a273,[ARFC] Onboard weETH to Aave v3 on Ethereum,https://governance.aave.com/t/arfc-onboard-weeth-to-aave-v3-on-ethereum/16758,41819,2,,ChaosLabs,2024-02-28T06:15:45.234Z,1709100945,,"<h2><a name=""overview-1"" class=""anchor"" href=""#overview-1""></a><strong>Overview</strong></h2>
+<p>Chaos Labs supports listing weETH on Aave V3 Ethereum as part of the community strategy to increase the offering of Aave protocol with more LST/LRT assets. Following is our analysis and risk parameter recommendations for the initial listing.</p>
+<p><em>Note: The following analysis is conducted solely from a market risk viewpoint, excluding centralization and third-party risk considerations. If the community aims to reduce exposure to weETH, adopting more conservative supply and borrow caps should be considered.</em></p>
+<h3><a name=""liquidity-and-market-cap-2"" class=""anchor"" href=""#liquidity-and-market-cap-2""></a><strong>Liquidity and Market Cap</strong></h3>
+<p>The launch of eETH withdrawals, or the native “liquidity pool,” occurred at the end of December 2023, indicating the relative freshness of the asset from a risk perspective. Since then, alongside a speculative point-based incentive structure, EtherFi’s TVL has skyrocketed exponentially, reaching $1.6 billion, while weETH has averaged $5.3 million in daily volume. This component underscores the necessity for a more conservative listing approach, as the pursuit of rapid, speculatively incentivized growth can potentially precipitate substantial rapid liquidity drawdowns in the future.<br>
+<img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/2/24ce7387af99445a095a97c537c50af8b7f96380.jpeg"" alt="""" data-base62-sha1=""5fBvxLhNiUNYVl1xvG18rErc3GU"" width=""2000"" height=""1816"" role=""presentation""></p>
+<h2><a name=""weeth-eth-volatility-3"" class=""anchor"" href=""#weeth-eth-volatility-3""></a>weETH / ETH Volatility</h2>
+<p><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/0/0138f64f36a7c8a5e5ee07ac4676864b42174a9d.jpeg"" alt="""" data-base62-sha1=""aOw8mNfDRygHbrUiP3tUsNVKaN"" width=""1920"" height=""738"" role=""presentation""></p>
+<h3><a name=""liquidation-threshold-4"" class=""anchor"" href=""#liquidation-threshold-4""></a><strong>Liquidation Threshold</strong></h3>
+<p>Considering the volatility and the correlation of weETH to ETH, we recommend setting the LT to 75%. This mirrors the other LSTs on Ethereum V3, albeit with a slight adjustment to account for the smaller liquidity and the asset’s relative novelty. Consequently, there might be slightly more variance expected in the future.</p>
+<h3><a name=""supply-cap-borrow-cap-and-liquidation-bonus-5"" class=""anchor"" href=""#supply-cap-borrow-cap-and-liquidation-bonus-5""></a><strong>Supply Cap, Borrow Cap, and Liquidation Bonus</strong></h3>
+<p>While Chaos Labs’ approach to initial supply caps is generally proposed through setting the Supply Cap at 2x the liquidity available under the Liquidation Penalty price impact, given the minimal weETH historical data, we initially recommend a 1x value. Although on-chain liquidity could allow for higher caps, our preference is to set the caps conservatively to observe user behavior and demand before optimizing the caps. Should demand scale, we will reassess and parameterize accordingly.</p>
+<p>Given the current DEX liquidity profile of weETH, we recommend a 7.5% Liquidation Bonus and a supply cap of 8000 weETH.</p>
+<p>Based on our observations, the utilization rate for LSTs has been low due to obvious additional borrowing costs. Therefore, we have taken a conservative approach toward LST/LRTs borrow caps of 800 weETH. However, if there is a significant increase in demand and utilization, perhaps due to external incentives, we will reassess the caps according to the utilization pattern.</p>
+<h3><a name=""ir-curve-parameters-6"" class=""anchor"" href=""#ir-curve-parameters-6""></a>IR Curve Parameters</h3>
+<p>We recommend aligning the interest rate parameters with those of cbETH and rETH on Ethereum to ensure consistency across similar assets on Aave v3.</p>
+<h2><a name=""e-mode-7"" class=""anchor"" href=""#e-mode-7""></a>E-mode</h2>
+<p>Given the asset’s overall liquidity and risk profile, we support including weETH in the ETH-correlated E-mode category. The EtherFi protocol currently boasts a 12.7k ETH withdrawal buffer in the native liquidity pool, and weETH can always be redeemed for the underlying ETH depending on the user’s involvement within the protocol. As mentioned above, the relative distribution of debt collateralized by weETH will motivate our decision to increase caps in the future, assuming ample demand and relative liquidity exist. Given the relative conservatism outside of E-mode and external speculative elements and rewards within the LRT ecosystem, we naturally expect the majority of weETH collateral to be utilized to borrow ETH and/or explicitly loop. In such cases, the contingency on DEX liquidity is mitigated due to the lack of liquidations within the mode, thereby opening up to greater increases in the future.</p>
+<h3><a name=""recommendations-8"" class=""anchor"" href=""#recommendations-8""></a>Recommendations</h3>
+<p>Following the above analysis, we recommend listing weETH with the following parameter settings:</p>
+<div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Isolation Mode</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Borrowable</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Collateral Enabled</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Supply Cap (weETH)</td>
+<td>8000</td>
+</tr>
+<tr>
+<td>Borrow Cap (weETH)</td>
+<td>800</td>
+</tr>
+<tr>
+<td>Debt Ceiling</td>
+<td>-</td>
+</tr>
+<tr>
+<td>LTV</td>
+<td>72.50%</td>
+</tr>
+<tr>
+<td>LT</td>
+<td>75.00%</td>
+</tr>
+<tr>
+<td>Liquidation Bonus</td>
+<td>7.50%</td>
+</tr>
+<tr>
+<td>Liquidation Protocol Fee</td>
+<td>10.00%</td>
+</tr>
+<tr>
+<td>Variable Base</td>
+<td>0.0%</td>
+</tr>
+<tr>
+<td>Variable Slope1</td>
+<td>7.00%</td>
+</tr>
+<tr>
+<td>Variable Slope2</td>
+<td>300.00%</td>
+</tr>
+<tr>
+<td>Uoptimal</td>
+<td>45.00%</td>
+</tr>
+<tr>
+<td>Reserve Factor</td>
+<td>15.00%</td>
+</tr>
+<tr>
+<td>Stable Borrowing</td>
+<td>Disabled</td>
+</tr>
+<tr>
+<td>Flashloanable</td>
+<td>Yes</td>
+</tr>
+<tr>
+<td>Siloed Borrowing</td>
+<td>No</td>
+</tr>
+<tr>
+<td>Borrowed in Isolation</td>
+<td>No</td>
+</tr>
+<tr>
+<td>E-Mode Category</td>
+<td>ETH-correlated</td>
+</tr>
+</tbody>
+</table>
+</div><h3><a name=""capo-recommendations-9"" class=""anchor"" href=""#capo-recommendations-9""></a><strong>CAPO recommendations:</strong></h3>
+<p>Given weETH employs buffered withdrawals for its underlying ETH equivalent exchange rate, the weETH/ETH exchange rate/USD will be utilized as the oracle alongside the correlated asset price oracle. We present our recommendations below.</p>
+<div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>maxYearlyRatioGrowthPercent</th>
+<th>ratioReferenceTime</th>
+<th>MINIMUM_SNAPSHOT_DELAY</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>8.75%</td>
+<td>monthly</td>
+<td>7 days</td>
+</tr>
+</tbody>
+</table>
+</div><p><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/c/cf8abafc057513374c4e81a4c026012fa8522552.jpeg"" alt="""" data-base62-sha1=""tC041wcjjL9Wus6PIhlio4NTLUK"" width=""1920"" height=""944"" role=""presentation""></p>"
+aavedao.eth,0xd5807ee6ec3d33e7d86805a4287540b0a9801430ee0900ff6babb698e4f2a273,[ARFC] Onboard weETH to Aave v3 on Ethereum,https://governance.aave.com/t/arfc-onboard-weeth-to-aave-v3-on-ethereum/16758,41820,3,,ChaosLabs,2024-02-28T06:20:00.099Z,1709101200,,"<aside class=""quote no-group"" data-username=""ChaosLabs"" data-post=""2"" data-topic=""16758"">
+<div class=""title"">
+<div class=""quote-controls""></div>
+<img loading=""lazy"" alt="""" width=""24"" height=""24"" src=""https://dub1.discourse-cdn.com/flex013/user_avatar/governance.aave.com/chaoslabs/48/6850_2.png"" class=""avatar""> ChaosLabs:</div>
+<blockquote>
+<h3><strong>Supply Cap, Borrow Cap, and Liquidation Bonus</strong></h3>
+<p>While Chaos Labs’ approach to initial supply caps is generally proposed through setting the Supply Cap at 2x the liquidity available under the Liquidation Penalty price impact, given the minimal weETH historical data, we initially recommend a 1x value. Although on-chain liquidity could allow for higher caps, our preference is to set the caps conservatively to observe user behavior and demand before optimizing the caps. Should demand scale, we will reassess and parameterize accordingly.</p>
+<p>Given the current DEX liquidity profile of weETH, we recommend a 7.5% Liquidation Bonus and a supply cap of 8000 weETH.</p>
+<p>Based on our observations, the utilization rate for LSTs has been low due to obvious additional borrowing costs. Therefore, we have taken a conservative approach toward LST/LRTs borrow caps of 800 weETH. However, if there is a significant increase in demand and utilization, perhaps due to external incentives, we will reassess the caps according to the utilization pattern.</p>
+</blockquote>
+</aside>
+<p>By “liquidity available under the Liquidation Penalty price impact”, we mean the maximum amount that can be sold atomically on-chain, such that the slippage on that trade is less than the liquidation penalty, in this case 7.5%. Most of the on-chain liquidity for weETH is on two balancer pools:</p>
+<ul>
+<li><a href=""https://app.balancer.fi/#/ethereum/pool/0x848a5564158d84b8a8fb68ab5d004fae11619a5400000000000000000000066a"" class=""inline-onebox"" rel=""noopener nofollow ugc"">Balancer</a></li>
+<li><a href=""https://app.balancer.fi/#/ethereum/pool/0x05ff47afada98a98982113758878f9a8b9fdda0a000000000000000000000645"" class=""inline-onebox"" rel=""noopener nofollow ugc"">Balancer</a></li>
+</ul>
+<p>Assuming that liquidity doesn’t change significantly, it should suffice to liquidate the entire amount of 8000 weETH:</p>
+<p><img src=""https://europe1.discourse-cdn.com/flex013/uploads/aave/original/2X/2/227e0d9c9ae7a86ddd6bc907ab0b58f90bf784d0.jpeg"" alt="""" data-base62-sha1=""4V8iHBZVp45Mzsz3UdXRW494HWE"" width=""2000"" height=""1600"" role=""presentation""></p>
+<p>Based on this liquidity data collected over the limited history of the token - we set the supply cap to 8000 weETH, providing high confidence that any weETH collateral could be liquidated if necessary. The borrow cap is derived from the supply cap - no more than 10% of the supply cap can be borrowed in the lack of a clear use case to borrow this token.</p>"
+aavedao.eth,0xd5807ee6ec3d33e7d86805a4287540b0a9801430ee0900ff6babb698e4f2a273,[ARFC] Onboard weETH to Aave v3 on Ethereum,https://governance.aave.com/t/arfc-onboard-weeth-to-aave-v3-on-ethereum/16758,41824,4,3.0,midapple,2024-02-28T07:15:57.697Z,1709104557,,<p>I see I can safely swap 9500 weETH on balancer for a lot less than the 7.5% liquidation bonus. So 8000 is not the maximum amount that can be sold atomically on chain as you mentioned. why is that? also why 800 borrow cap? thank you for your explanation.</p>
+aavedao.eth,0xd5807ee6ec3d33e7d86805a4287540b0a9801430ee0900ff6babb698e4f2a273,[ARFC] Onboard weETH to Aave v3 on Ethereum,https://governance.aave.com/t/arfc-onboard-weeth-to-aave-v3-on-ethereum/16758,41913,5,4.0,midapple,2024-02-29T22:33:07.605Z,1709245987,,"<p><a class=""mention"" href=""/u/chaoslabs"">@ChaosLabs</a> can you provide an update?</p>"
+aavedao.eth,0xd5807ee6ec3d33e7d86805a4287540b0a9801430ee0900ff6babb698e4f2a273,[ARFC] Onboard weETH to Aave v3 on Ethereum,https://governance.aave.com/t/arfc-onboard-weeth-to-aave-v3-on-ethereum/16758,42041,6,,ACI,2024-03-04T12:51:04.963Z,1709556664,,"<p>The current proposal has been escalated to <a href=""https://snapshot.org/#/aave.eth/proposal/0xd5807ee6ec3d33e7d86805a4287540b0a9801430ee0900ff6babb698e4f2a273"">ARFC Snapshot</a>.</p>
+<p>Vote will start tomorrow. We encourage everyone to participate.</p>"

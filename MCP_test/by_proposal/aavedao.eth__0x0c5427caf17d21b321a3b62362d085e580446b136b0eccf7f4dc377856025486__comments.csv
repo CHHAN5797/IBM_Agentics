@@ -1,0 +1,614 @@
+space,proposal_id,proposal_title,discussion_url,end,end_iso,forum_kind,post_id,post_number,reply_to_post_number,author_username,created_at,text,text_raw,text_html
+aavedao.eth,0x0c5427caf17d21b321a3b62362d085e580446b136b0eccf7f4dc377856025486,[ARFC] Aave v2 Deprecation - Update,https://governance.aave.com/t/arfc-aave-v2-deprecation-update/23008,1757171644,2025-09-06T15:14:04+00:00,discourse,58554,1,,TokenLogic,2025-08-24T17:08:26.611Z,"<hr>
+<p>title: [ARFC] Aave v2 Deprecation - Update<br>
+author: <a class=""mention"" href=""/u/tokenlogic"">@TokenLogic</a> <a class=""mention"" href=""/u/chaoslabs"">@ChaosLabs</a> <a class=""mention"" href=""/u/llamarisk"">@LlamaRisk</a><br>
+created: 2024-08-24</p>
+<hr>
+<h1><a name=""p-58554-summary-1"" class=""anchor"" href=""#p-58554-summary-1""></a>Summary</h1>
+<p>This publication presents the next round of parameter updates to be implemented as we work towards deprecating v2 instances of Aave Protocol across Polygon, Ethereum and Avalanche.</p>
+<h1><a name=""p-58554-motivation-2"" class=""anchor"" href=""#p-58554-motivation-2""></a>Motivation</h1>
+<p>This publication builds on previous <a href=""https://governance.aave.com/t/arfc-aave-v2-deprecation-update-disable-new-borrows-ir-curve-and-reserve-factor-adjustments/20918"">efforts</a> that froze both Polygon v2 and Avalanche v2, to support the deprecation of Aave v2, ensuring a smooth, controlled, and secure transition to Aave v3.</p>
+<p>The proposed changes are designed to increase borrowing costs through adjustments to the interest rate curve parameters, providing users with stronger economic incentives to migrate to Aave v3. Where practical, a standardized approach of reducing the Uoptimal parameter has been applied, alongside adjustments to the Base and Slope1 parameters to raise borrow rates. At the same time, the Slope2 parameter has been reduced to prevent excessive borrowing costs. Overall, a higher borrow rate will result without exposing users to extreme borrow costs at near full utilisation of the liquidity in each reserve.</p>
+<p>The updated Uoptimtal parameter exceeds the utilisation of each reserve and over time is expected to be progressively lowered towards a 25% target.</p>
+<p>For commonly borrowed assets the Base parameter is increased to 5% with further increases planned as the liquidity in the Reserves decreases. Over time the Base parameter will be increased gradually to ensure a minimum borrow rate is always maintained.</p>
+<p>The Reserve Factor is increased to 85% resulting in a reduced deposit rate that discourage depositing idle capital into v2.</p>
+<p>These changes represent a coordinated effort among several service providers to align incentives and ensure the long-term health of the Aave ecosystem.</p>
+<h1><a name=""p-58554-specification-3"" class=""anchor"" href=""#p-58554-specification-3""></a>Specification</h1>
+<p>The following parameters are to be updated.</p>
+<div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Ethereum v2</th>
+<th style=""text-align:center"">RF Current</th>
+<th style=""text-align:center"">RF Proposed</th>
+<th style=""text-align:center"">Base Current</th>
+<th style=""text-align:center"">Base Proposed</th>
+<th style=""text-align:center"">Uoptimal Current</th>
+<th style=""text-align:center"">Uoptimal Proposed</th>
+<th style=""text-align:center"">Slope1 Current</th>
+<th style=""text-align:center"">Slope1 Proposed</th>
+<th style=""text-align:center"">Slope2 Current</th>
+<th style=""text-align:center"">Slope2 Proposed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>wETH</td>
+<td style=""text-align:center"">85.00%</td>
+<td style=""text-align:center"">85.00%</td>
+<td style=""text-align:center"">00.00%</td>
+<td style=""text-align:center"">5.00%</td>
+<td style=""text-align:center"">80.00%</td>
+<td style=""text-align:center"">25.00%</td>
+<td style=""text-align:center"">3.80%</td>
+<td style=""text-align:center"">5.00%</td>
+<td style=""text-align:center"">80.00%</td>
+<td style=""text-align:center"">40.00%</td>
+</tr>
+<tr>
+<td>wBTC</td>
+<td style=""text-align:center"">90.00%</td>
+<td style=""text-align:center"">90.00%</td>
+<td style=""text-align:center"">00.00%</td>
+<td style=""text-align:center"">20.00%</td>
+<td style=""text-align:center"">65.00%</td>
+<td style=""text-align:center"">25.00%</td>
+<td style=""text-align:center"">00.00%</td>
+<td style=""text-align:center"">00.00%</td>
+<td style=""text-align:center"">300.00%</td>
+<td style=""text-align:center"">40.00%</td>
+</tr>
+<tr>
+<td>USDC</td>
+<td style=""text-align:center"">70.00%</td>
+<td style=""text-align:center"">85.00%</td>
+<td style=""text-align:center"">00.00%</td>
+<td style=""text-align:center"">5.00%</td>
+<td style=""text-align:center"">90.00%</td>
+<td style=""text-align:center"">60.00%</td>
+<td style=""text-align:center"">12.50%</td>
+<td style=""text-align:center"">12.50%</td>
+<td style=""text-align:center"">60.00%</td>
+<td style=""text-align:center"">40.00%</td>
+</tr>
+<tr>
+<td>USDT</td>
+<td style=""text-align:center"">70.00%</td>
+<td style=""text-align:center"">85.00%</td>
+<td style=""text-align:center"">00.00%</td>
+<td style=""text-align:center"">5.00%</td>
+<td style=""text-align:center"">80.00%</td>
+<td style=""text-align:center"">40.00%</td>
+<td style=""text-align:center"">12.50%</td>
+<td style=""text-align:center"">12.50%</td>
+<td style=""text-align:center"">60.00%</td>
+<td style=""text-align:center"">40.00%</td>
+</tr>
+<tr>
+<td>DAI</td>
+<td style=""text-align:center"">70.00%</td>
+<td style=""text-align:center"">85.00%</td>
+<td style=""text-align:center"">00.00%</td>
+<td style=""text-align:center"">5.00%</td>
+<td style=""text-align:center"">80.00%</td>
+<td style=""text-align:center"">50.00%</td>
+<td style=""text-align:center"">12.50%</td>
+<td style=""text-align:center"">12.50%</td>
+<td style=""text-align:center"">60.00%</td>
+<td style=""text-align:center"">40.00%</td>
+</tr>
+</tbody>
+</table>
+</div><div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Polygon v2</th>
+<th style=""text-align:center"">RF Current</th>
+<th style=""text-align:center"">RF Proposed</th>
+<th style=""text-align:center"">Base Current</th>
+<th style=""text-align:center"">Base Proposed</th>
+<th style=""text-align:center"">Uoptimal Current</th>
+<th style=""text-align:center"">Uoptimal Proposed</th>
+<th style=""text-align:center"">Slope1 Current</th>
+<th style=""text-align:center"">Slope1 Proposed</th>
+<th style=""text-align:center"">Slope2 Current</th>
+<th style=""text-align:center"">Slope2 Proposed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>wETH</td>
+<td style=""text-align:center"">99.99%</td>
+<td style=""text-align:center"">99.99%</td>
+<td style=""text-align:center"">00.00%</td>
+<td style=""text-align:center"">5.00%</td>
+<td style=""text-align:center"">40.00%</td>
+<td style=""text-align:center"">25.00%</td>
+<td style=""text-align:center"">10.00%</td>
+<td style=""text-align:center"">15.00%</td>
+<td style=""text-align:center"">134.00%</td>
+<td style=""text-align:center"">40.00%</td>
+</tr>
+<tr>
+<td>wBTC</td>
+<td style=""text-align:center"">99.99%</td>
+<td style=""text-align:center"">99.99%</td>
+<td style=""text-align:center"">00.00%</td>
+<td style=""text-align:center"">20.00%</td>
+<td style=""text-align:center"">37.00%</td>
+<td style=""text-align:center"">25.00%</td>
+<td style=""text-align:center"">00.00%</td>
+<td style=""text-align:center"">00.00%</td>
+<td style=""text-align:center"">134.00%</td>
+<td style=""text-align:center"">40.00%</td>
+</tr>
+<tr>
+<td>USDC.e</td>
+<td style=""text-align:center"">99.99%</td>
+<td style=""text-align:center"">99.99%</td>
+<td style=""text-align:center"">00.00%</td>
+<td style=""text-align:center"">5.00%</td>
+<td style=""text-align:center"">77.00%</td>
+<td style=""text-align:center"">65.00%</td>
+<td style=""text-align:center"">15.00%</td>
+<td style=""text-align:center"">15.00%</td>
+<td style=""text-align:center"">134.00%</td>
+<td style=""text-align:center"">40.00%</td>
+</tr>
+<tr>
+<td>DAI</td>
+<td style=""text-align:center"">99.99%</td>
+<td style=""text-align:center"">99.99%</td>
+<td style=""text-align:center"">00.00%</td>
+<td style=""text-align:center"">5.00%</td>
+<td style=""text-align:center"">71.00%</td>
+<td style=""text-align:center"">45.00%</td>
+<td style=""text-align:center"">15.00%</td>
+<td style=""text-align:center"">15.00%</td>
+<td style=""text-align:center"">134.00%</td>
+<td style=""text-align:center"">40.00%</td>
+</tr>
+<tr>
+<td>USDT</td>
+<td style=""text-align:center"">99.99%</td>
+<td style=""text-align:center"">99.99%</td>
+<td style=""text-align:center"">00.00%</td>
+<td style=""text-align:center"">5.00%</td>
+<td style=""text-align:center"">52.00%</td>
+<td style=""text-align:center"">35.00%</td>
+<td style=""text-align:center"">15.00%</td>
+<td style=""text-align:center"">15.00%</td>
+<td style=""text-align:center"">134.00%</td>
+<td style=""text-align:center"">40.00%</td>
+</tr>
+<tr>
+<td>POL</td>
+<td style=""text-align:center"">99.99%</td>
+<td style=""text-align:center"">99.99%</td>
+<td style=""text-align:center"">00.00%</td>
+<td style=""text-align:center"">5.00%</td>
+<td style=""text-align:center"">48.00%</td>
+<td style=""text-align:center"">25.00%</td>
+<td style=""text-align:center"">12.00%</td>
+<td style=""text-align:center"">15.00%</td>
+<td style=""text-align:center"">134.00%</td>
+<td style=""text-align:center"">40.00%</td>
+</tr>
+</tbody>
+</table>
+</div><div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Avalanche v2</th>
+<th style=""text-align:center"">RF Current</th>
+<th style=""text-align:center"">RF Proposed</th>
+<th style=""text-align:center"">Base Current</th>
+<th style=""text-align:center"">Base Proposed</th>
+<th style=""text-align:center"">Uoptimal Current</th>
+<th style=""text-align:center"">Uoptimal Proposed</th>
+<th style=""text-align:center"">Slope1 Current</th>
+<th style=""text-align:center"">Slope1 Proposed</th>
+<th style=""text-align:center"">Slope2 Current</th>
+<th style=""text-align:center"">Slope2 Proposed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>wBTC.e</td>
+<td style=""text-align:center"">99.99%</td>
+<td style=""text-align:center"">99.99%</td>
+<td style=""text-align:center"">20.00%</td>
+<td style=""text-align:center"">20.00%</td>
+<td style=""text-align:center"">45.00%</td>
+<td style=""text-align:center"">25.00%</td>
+<td style=""text-align:center"">0.00%</td>
+<td style=""text-align:center"">0.00%</td>
+<td style=""text-align:center"">300.00%</td>
+<td style=""text-align:center"">40.00%</td>
+</tr>
+<tr>
+<td>wETH</td>
+<td style=""text-align:center"">80.00%</td>
+<td style=""text-align:center"">85.00%</td>
+<td style=""text-align:center"">0.00%</td>
+<td style=""text-align:center"">5.00%</td>
+<td style=""text-align:center"">45.00%</td>
+<td style=""text-align:center"">25.00%</td>
+<td style=""text-align:center"">10.00%</td>
+<td style=""text-align:center"">15.00%</td>
+<td style=""text-align:center"">300.00%</td>
+<td style=""text-align:center"">40.00%</td>
+</tr>
+<tr>
+<td>USDC.e</td>
+<td style=""text-align:center"">80.00%</td>
+<td style=""text-align:center"">85.00%</td>
+<td style=""text-align:center"">0.00%</td>
+<td style=""text-align:center"">5.00%</td>
+<td style=""text-align:center"">80.00%</td>
+<td style=""text-align:center"">25.00%</td>
+<td style=""text-align:center"">0.00%</td>
+<td style=""text-align:center"">0.00%</td>
+<td style=""text-align:center"">75.00%</td>
+<td style=""text-align:center"">40.00%</td>
+</tr>
+<tr>
+<td>AVAX</td>
+<td style=""text-align:center"">80.00%</td>
+<td style=""text-align:center"">85.00%</td>
+<td style=""text-align:center"">0.00%</td>
+<td style=""text-align:center"">5.00%</td>
+<td style=""text-align:center"">45.00%</td>
+<td style=""text-align:center"">25.00%</td>
+<td style=""text-align:center"">5.00%</td>
+<td style=""text-align:center"">15.00%</td>
+<td style=""text-align:center"">300.00%</td>
+<td style=""text-align:center"">40.00%</td>
+</tr>
+<tr>
+<td>USDT.e</td>
+<td style=""text-align:center"">80.00%</td>
+<td style=""text-align:center"">85.00%</td>
+<td style=""text-align:center"">0.00%</td>
+<td style=""text-align:center"">5.00%</td>
+<td style=""text-align:center"">80.00%</td>
+<td style=""text-align:center"">45.00%</td>
+<td style=""text-align:center"">9.00%</td>
+<td style=""text-align:center"">15.00%</td>
+<td style=""text-align:center"">75.00%</td>
+<td style=""text-align:center"">40.00%</td>
+</tr>
+<tr>
+<td>DAI</td>
+<td style=""text-align:center"">80.00%</td>
+<td style=""text-align:center"">85.00%</td>
+<td style=""text-align:center"">0.00%</td>
+<td style=""text-align:center"">5.00%</td>
+<td style=""text-align:center"">80.00%</td>
+<td style=""text-align:center"">80.00%</td>
+<td style=""text-align:center"">9.00%</td>
+<td style=""text-align:center"">15.00%</td>
+<td style=""text-align:center"">75.00%</td>
+<td style=""text-align:center"">40.00%</td>
+</tr>
+</tbody>
+</table>
+</div><h1><a name=""p-58554-disclosure-4"" class=""anchor"" href=""#p-58554-disclosure-4""></a>Disclosure</h1>
+<p>TokenLogic does not receive any payment for this proposal.</p>
+<h1><a name=""p-58554-next-steps-5"" class=""anchor"" href=""#p-58554-next-steps-5""></a>Next Steps</h1>
+<ol>
+<li>Gather feedback from the community.</li>
+<li>If consensus is reached on this ARFC, escalate this proposal to the Snapshot stage.</li>
+<li>If Snapshot outcome is YAE, escalate this proposal to the AIP stage.</li>
+</ol>
+<h1><a name=""p-58554-copyright-6"" class=""anchor"" href=""#p-58554-copyright-6""></a>Copyright</h1>
+<p>Copyright and related rights waived via <a href=""https://creativecommons.org/publicdomain/zero/1.0/"" rel=""noopener nofollow ugc"">CC0</a>.</p>",,"<hr>
+<p>title: [ARFC] Aave v2 Deprecation - Update<br>
+author: <a class=""mention"" href=""/u/tokenlogic"">@TokenLogic</a> <a class=""mention"" href=""/u/chaoslabs"">@ChaosLabs</a> <a class=""mention"" href=""/u/llamarisk"">@LlamaRisk</a><br>
+created: 2024-08-24</p>
+<hr>
+<h1><a name=""p-58554-summary-1"" class=""anchor"" href=""#p-58554-summary-1""></a>Summary</h1>
+<p>This publication presents the next round of parameter updates to be implemented as we work towards deprecating v2 instances of Aave Protocol across Polygon, Ethereum and Avalanche.</p>
+<h1><a name=""p-58554-motivation-2"" class=""anchor"" href=""#p-58554-motivation-2""></a>Motivation</h1>
+<p>This publication builds on previous <a href=""https://governance.aave.com/t/arfc-aave-v2-deprecation-update-disable-new-borrows-ir-curve-and-reserve-factor-adjustments/20918"">efforts</a> that froze both Polygon v2 and Avalanche v2, to support the deprecation of Aave v2, ensuring a smooth, controlled, and secure transition to Aave v3.</p>
+<p>The proposed changes are designed to increase borrowing costs through adjustments to the interest rate curve parameters, providing users with stronger economic incentives to migrate to Aave v3. Where practical, a standardized approach of reducing the Uoptimal parameter has been applied, alongside adjustments to the Base and Slope1 parameters to raise borrow rates. At the same time, the Slope2 parameter has been reduced to prevent excessive borrowing costs. Overall, a higher borrow rate will result without exposing users to extreme borrow costs at near full utilisation of the liquidity in each reserve.</p>
+<p>The updated Uoptimtal parameter exceeds the utilisation of each reserve and over time is expected to be progressively lowered towards a 25% target.</p>
+<p>For commonly borrowed assets the Base parameter is increased to 5% with further increases planned as the liquidity in the Reserves decreases. Over time the Base parameter will be increased gradually to ensure a minimum borrow rate is always maintained.</p>
+<p>The Reserve Factor is increased to 85% resulting in a reduced deposit rate that discourage depositing idle capital into v2.</p>
+<p>These changes represent a coordinated effort among several service providers to align incentives and ensure the long-term health of the Aave ecosystem.</p>
+<h1><a name=""p-58554-specification-3"" class=""anchor"" href=""#p-58554-specification-3""></a>Specification</h1>
+<p>The following parameters are to be updated.</p>
+<div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Ethereum v2</th>
+<th style=""text-align:center"">RF Current</th>
+<th style=""text-align:center"">RF Proposed</th>
+<th style=""text-align:center"">Base Current</th>
+<th style=""text-align:center"">Base Proposed</th>
+<th style=""text-align:center"">Uoptimal Current</th>
+<th style=""text-align:center"">Uoptimal Proposed</th>
+<th style=""text-align:center"">Slope1 Current</th>
+<th style=""text-align:center"">Slope1 Proposed</th>
+<th style=""text-align:center"">Slope2 Current</th>
+<th style=""text-align:center"">Slope2 Proposed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>wETH</td>
+<td style=""text-align:center"">85.00%</td>
+<td style=""text-align:center"">85.00%</td>
+<td style=""text-align:center"">00.00%</td>
+<td style=""text-align:center"">5.00%</td>
+<td style=""text-align:center"">80.00%</td>
+<td style=""text-align:center"">25.00%</td>
+<td style=""text-align:center"">3.80%</td>
+<td style=""text-align:center"">5.00%</td>
+<td style=""text-align:center"">80.00%</td>
+<td style=""text-align:center"">40.00%</td>
+</tr>
+<tr>
+<td>wBTC</td>
+<td style=""text-align:center"">90.00%</td>
+<td style=""text-align:center"">90.00%</td>
+<td style=""text-align:center"">00.00%</td>
+<td style=""text-align:center"">20.00%</td>
+<td style=""text-align:center"">65.00%</td>
+<td style=""text-align:center"">25.00%</td>
+<td style=""text-align:center"">00.00%</td>
+<td style=""text-align:center"">00.00%</td>
+<td style=""text-align:center"">300.00%</td>
+<td style=""text-align:center"">40.00%</td>
+</tr>
+<tr>
+<td>USDC</td>
+<td style=""text-align:center"">70.00%</td>
+<td style=""text-align:center"">85.00%</td>
+<td style=""text-align:center"">00.00%</td>
+<td style=""text-align:center"">5.00%</td>
+<td style=""text-align:center"">90.00%</td>
+<td style=""text-align:center"">60.00%</td>
+<td style=""text-align:center"">12.50%</td>
+<td style=""text-align:center"">12.50%</td>
+<td style=""text-align:center"">60.00%</td>
+<td style=""text-align:center"">40.00%</td>
+</tr>
+<tr>
+<td>USDT</td>
+<td style=""text-align:center"">70.00%</td>
+<td style=""text-align:center"">85.00%</td>
+<td style=""text-align:center"">00.00%</td>
+<td style=""text-align:center"">5.00%</td>
+<td style=""text-align:center"">80.00%</td>
+<td style=""text-align:center"">40.00%</td>
+<td style=""text-align:center"">12.50%</td>
+<td style=""text-align:center"">12.50%</td>
+<td style=""text-align:center"">60.00%</td>
+<td style=""text-align:center"">40.00%</td>
+</tr>
+<tr>
+<td>DAI</td>
+<td style=""text-align:center"">70.00%</td>
+<td style=""text-align:center"">85.00%</td>
+<td style=""text-align:center"">00.00%</td>
+<td style=""text-align:center"">5.00%</td>
+<td style=""text-align:center"">80.00%</td>
+<td style=""text-align:center"">50.00%</td>
+<td style=""text-align:center"">12.50%</td>
+<td style=""text-align:center"">12.50%</td>
+<td style=""text-align:center"">60.00%</td>
+<td style=""text-align:center"">40.00%</td>
+</tr>
+</tbody>
+</table>
+</div><div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Polygon v2</th>
+<th style=""text-align:center"">RF Current</th>
+<th style=""text-align:center"">RF Proposed</th>
+<th style=""text-align:center"">Base Current</th>
+<th style=""text-align:center"">Base Proposed</th>
+<th style=""text-align:center"">Uoptimal Current</th>
+<th style=""text-align:center"">Uoptimal Proposed</th>
+<th style=""text-align:center"">Slope1 Current</th>
+<th style=""text-align:center"">Slope1 Proposed</th>
+<th style=""text-align:center"">Slope2 Current</th>
+<th style=""text-align:center"">Slope2 Proposed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>wETH</td>
+<td style=""text-align:center"">99.99%</td>
+<td style=""text-align:center"">99.99%</td>
+<td style=""text-align:center"">00.00%</td>
+<td style=""text-align:center"">5.00%</td>
+<td style=""text-align:center"">40.00%</td>
+<td style=""text-align:center"">25.00%</td>
+<td style=""text-align:center"">10.00%</td>
+<td style=""text-align:center"">15.00%</td>
+<td style=""text-align:center"">134.00%</td>
+<td style=""text-align:center"">40.00%</td>
+</tr>
+<tr>
+<td>wBTC</td>
+<td style=""text-align:center"">99.99%</td>
+<td style=""text-align:center"">99.99%</td>
+<td style=""text-align:center"">00.00%</td>
+<td style=""text-align:center"">20.00%</td>
+<td style=""text-align:center"">37.00%</td>
+<td style=""text-align:center"">25.00%</td>
+<td style=""text-align:center"">00.00%</td>
+<td style=""text-align:center"">00.00%</td>
+<td style=""text-align:center"">134.00%</td>
+<td style=""text-align:center"">40.00%</td>
+</tr>
+<tr>
+<td>USDC.e</td>
+<td style=""text-align:center"">99.99%</td>
+<td style=""text-align:center"">99.99%</td>
+<td style=""text-align:center"">00.00%</td>
+<td style=""text-align:center"">5.00%</td>
+<td style=""text-align:center"">77.00%</td>
+<td style=""text-align:center"">65.00%</td>
+<td style=""text-align:center"">15.00%</td>
+<td style=""text-align:center"">15.00%</td>
+<td style=""text-align:center"">134.00%</td>
+<td style=""text-align:center"">40.00%</td>
+</tr>
+<tr>
+<td>DAI</td>
+<td style=""text-align:center"">99.99%</td>
+<td style=""text-align:center"">99.99%</td>
+<td style=""text-align:center"">00.00%</td>
+<td style=""text-align:center"">5.00%</td>
+<td style=""text-align:center"">71.00%</td>
+<td style=""text-align:center"">45.00%</td>
+<td style=""text-align:center"">15.00%</td>
+<td style=""text-align:center"">15.00%</td>
+<td style=""text-align:center"">134.00%</td>
+<td style=""text-align:center"">40.00%</td>
+</tr>
+<tr>
+<td>USDT</td>
+<td style=""text-align:center"">99.99%</td>
+<td style=""text-align:center"">99.99%</td>
+<td style=""text-align:center"">00.00%</td>
+<td style=""text-align:center"">5.00%</td>
+<td style=""text-align:center"">52.00%</td>
+<td style=""text-align:center"">35.00%</td>
+<td style=""text-align:center"">15.00%</td>
+<td style=""text-align:center"">15.00%</td>
+<td style=""text-align:center"">134.00%</td>
+<td style=""text-align:center"">40.00%</td>
+</tr>
+<tr>
+<td>POL</td>
+<td style=""text-align:center"">99.99%</td>
+<td style=""text-align:center"">99.99%</td>
+<td style=""text-align:center"">00.00%</td>
+<td style=""text-align:center"">5.00%</td>
+<td style=""text-align:center"">48.00%</td>
+<td style=""text-align:center"">25.00%</td>
+<td style=""text-align:center"">12.00%</td>
+<td style=""text-align:center"">15.00%</td>
+<td style=""text-align:center"">134.00%</td>
+<td style=""text-align:center"">40.00%</td>
+</tr>
+</tbody>
+</table>
+</div><div class=""md-table"">
+<table>
+<thead>
+<tr>
+<th>Avalanche v2</th>
+<th style=""text-align:center"">RF Current</th>
+<th style=""text-align:center"">RF Proposed</th>
+<th style=""text-align:center"">Base Current</th>
+<th style=""text-align:center"">Base Proposed</th>
+<th style=""text-align:center"">Uoptimal Current</th>
+<th style=""text-align:center"">Uoptimal Proposed</th>
+<th style=""text-align:center"">Slope1 Current</th>
+<th style=""text-align:center"">Slope1 Proposed</th>
+<th style=""text-align:center"">Slope2 Current</th>
+<th style=""text-align:center"">Slope2 Proposed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>wBTC.e</td>
+<td style=""text-align:center"">99.99%</td>
+<td style=""text-align:center"">99.99%</td>
+<td style=""text-align:center"">20.00%</td>
+<td style=""text-align:center"">20.00%</td>
+<td style=""text-align:center"">45.00%</td>
+<td style=""text-align:center"">25.00%</td>
+<td style=""text-align:center"">0.00%</td>
+<td style=""text-align:center"">0.00%</td>
+<td style=""text-align:center"">300.00%</td>
+<td style=""text-align:center"">40.00%</td>
+</tr>
+<tr>
+<td>wETH</td>
+<td style=""text-align:center"">80.00%</td>
+<td style=""text-align:center"">85.00%</td>
+<td style=""text-align:center"">0.00%</td>
+<td style=""text-align:center"">5.00%</td>
+<td style=""text-align:center"">45.00%</td>
+<td style=""text-align:center"">25.00%</td>
+<td style=""text-align:center"">10.00%</td>
+<td style=""text-align:center"">15.00%</td>
+<td style=""text-align:center"">300.00%</td>
+<td style=""text-align:center"">40.00%</td>
+</tr>
+<tr>
+<td>USDC.e</td>
+<td style=""text-align:center"">80.00%</td>
+<td style=""text-align:center"">85.00%</td>
+<td style=""text-align:center"">0.00%</td>
+<td style=""text-align:center"">5.00%</td>
+<td style=""text-align:center"">80.00%</td>
+<td style=""text-align:center"">25.00%</td>
+<td style=""text-align:center"">0.00%</td>
+<td style=""text-align:center"">0.00%</td>
+<td style=""text-align:center"">75.00%</td>
+<td style=""text-align:center"">40.00%</td>
+</tr>
+<tr>
+<td>AVAX</td>
+<td style=""text-align:center"">80.00%</td>
+<td style=""text-align:center"">85.00%</td>
+<td style=""text-align:center"">0.00%</td>
+<td style=""text-align:center"">5.00%</td>
+<td style=""text-align:center"">45.00%</td>
+<td style=""text-align:center"">25.00%</td>
+<td style=""text-align:center"">5.00%</td>
+<td style=""text-align:center"">15.00%</td>
+<td style=""text-align:center"">300.00%</td>
+<td style=""text-align:center"">40.00%</td>
+</tr>
+<tr>
+<td>USDT.e</td>
+<td style=""text-align:center"">80.00%</td>
+<td style=""text-align:center"">85.00%</td>
+<td style=""text-align:center"">0.00%</td>
+<td style=""text-align:center"">5.00%</td>
+<td style=""text-align:center"">80.00%</td>
+<td style=""text-align:center"">45.00%</td>
+<td style=""text-align:center"">9.00%</td>
+<td style=""text-align:center"">15.00%</td>
+<td style=""text-align:center"">75.00%</td>
+<td style=""text-align:center"">40.00%</td>
+</tr>
+<tr>
+<td>DAI</td>
+<td style=""text-align:center"">80.00%</td>
+<td style=""text-align:center"">85.00%</td>
+<td style=""text-align:center"">0.00%</td>
+<td style=""text-align:center"">5.00%</td>
+<td style=""text-align:center"">80.00%</td>
+<td style=""text-align:center"">80.00%</td>
+<td style=""text-align:center"">9.00%</td>
+<td style=""text-align:center"">15.00%</td>
+<td style=""text-align:center"">75.00%</td>
+<td style=""text-align:center"">40.00%</td>
+</tr>
+</tbody>
+</table>
+</div><h1><a name=""p-58554-disclosure-4"" class=""anchor"" href=""#p-58554-disclosure-4""></a>Disclosure</h1>
+<p>TokenLogic does not receive any payment for this proposal.</p>
+<h1><a name=""p-58554-next-steps-5"" class=""anchor"" href=""#p-58554-next-steps-5""></a>Next Steps</h1>
+<ol>
+<li>Gather feedback from the community.</li>
+<li>If consensus is reached on this ARFC, escalate this proposal to the Snapshot stage.</li>
+<li>If Snapshot outcome is YAE, escalate this proposal to the AIP stage.</li>
+</ol>
+<h1><a name=""p-58554-copyright-6"" class=""anchor"" href=""#p-58554-copyright-6""></a>Copyright</h1>
+<p>Copyright and related rights waived via <a href=""https://creativecommons.org/publicdomain/zero/1.0/"" rel=""noopener nofollow ugc"">CC0</a>.</p>"

@@ -1,0 +1,75 @@
+
+Language policy:
+- Use ENGLISH ONLY for every part of the output.
+- If the source text is not in English, summarize/translate it into concise English.
+- Do NOT include non-English text in the output.
+
+You are a governance analyst. Select ONE proposal option that most benefits the protocol/organization.
+
+Constraints:
+- Do NOT use or infer the final tally/result. Use only the voting timeline dynamics and discussion content.
+- Prefer options with early, sustained support; penalize late flips and isolated spikes without follow-through.
+
+Proposal:
+Title: [ARFC] Deploy Aave v3 on Plasma
+Author: 0xF1dF824419879Bb8a7E758173523F88EfB7Af193
+Choices: YAE, NAY, Abstain
+
+Title: [ARFC] Deploy Aave v3 on Plasma
+
+Body:
+# [ARFC] Deploy Aave v3 on Plasma ## Author: ACI ## Date: 2025-03-15 - > Proposal has been updated with latest Risk Parameters 2025-09-05 --- ## **Simple Summary** This ARFC proposes the deployment of an Aave V3 Instance on Plasma. ## Motivation Plasma is a high-performance, scalable, and secure blockchain purpose-built for stablecoins. Built from the ground up, it delivers zero fees, lightning-fast transactions, and the robust security that stablecoins like USD require. The network offers a performant location to the deploy the Aave protocol, and the Plasma team are planning to support Aaves launch on the network. ## Specification Risk Parameters will be provided by Risk Service Providers during the ARFC stage and ARFC will be updated accordingly. > Proposal has been updated with latest Risk Parameters 2025-09-05 # Specification | **Parameter** | Value | Value | Value | **Value** | Value | Value | Value | | --- | --- | --- | --- | --- |  
+
+Voting timeline analysis (no final tally):
+{
+  "early_lead_hits": [
+    35,
+    1,
+    0
+  ],
+  "lead_hits_by_quartile": [
+    [
+      35,
+      1,
+      0
+    ],
+    [
+      40,
+      0,
+      0
+    ],
+    [
+      19,
+      0,
+      0
+    ],
+    [
+      8,
+      0,
+      0
+    ]
+  ],
+  "lead_hits_total": [
+    102,
+    1,
+    0
+  ],
+  "lead_ratio_by_quartile": [
+    [
+      0.972222,
+      0.027778,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      1.0,
+ 

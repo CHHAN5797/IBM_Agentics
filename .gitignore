@@ -30,3 +30,12 @@ dmypy.json
 agentics.code-workspace
 # Test reports
 report.html
+
+venv/
+**/*.log
+*.parquet
+*.stderr.log
+*.stdout.log
+*.csv
+
+MCP_test/*

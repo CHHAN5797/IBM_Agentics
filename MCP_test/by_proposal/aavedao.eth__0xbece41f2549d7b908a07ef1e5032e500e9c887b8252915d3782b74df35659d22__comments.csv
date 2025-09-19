@@ -1,0 +1,73 @@
+space,proposal_id,proposal_title,discussion_url,end,end_iso,forum_kind,post_id,post_number,reply_to_post_number,author_username,created_at,text,text_raw,text_html
+aavedao.eth,0xbece41f2549d7b908a07ef1e5032e500e9c887b8252915d3782b74df35659d22,[ARFC] Aave v2 deprecation (tech) - next phase,https://governance.aave.com/t/arfc-aave-v2-deprecation-tech-next-phase/23022,1757144215,2025-09-06T07:36:55+00:00,discourse,58586,1,,bgdlabs,2025-08-26T10:44:18.619Z,"<h1><a name=""p-58586-simple-summary-1"" class=""anchor"" href=""#p-58586-simple-summary-1""></a>Simple summary</h1>
+<p>Propose to the community further non-invasive deprecation steps on the technical side, by setting the CF (Close Factor) to 100% allowing smoother liquidations, cleaning bad debt via a new ClinicSteward adapted for v2, and minor code adjustments.</p>
+<br>
+<h1><a name=""p-58586-context-2"" class=""anchor"" href=""#p-58586-context-2""></a>Context</h1>
+<p>After years of v2 being in a deprecated stage, with the majority (or all) of the assets on Ethereum/Polygon/Avalanche being frozen or disabled for borrowing, we believe it is necessary to continue with progressive deprecation steps for the system.</p>
+<p>Given that the pools are still relatively big (especially v2 Ethereum with approximately $300m in size), this phase is still not invasive to users, mainly focused on making smoother liquidations, for the DAO to be able to clean up all historic bad debt without systemically leaving dust.</p>
+<p>This proposal is, even if independent, complementary to <a href=""https://governance.aave.com/t/arfc-aave-v2-deprecation-update/23008"">this other</a> by <a class=""mention"" href=""/u/tokenlogic"">@TokenLogic</a> and the risk providers.</p>
+<br>
+<h1><a name=""p-58586-specification-3"" class=""anchor"" href=""#p-58586-specification-3""></a>Specification</h1>
+<p>The proposal will execute the following two steps on each network:</p>
+<ol>
+<li>
+<p>Replace the <code>LendingPoolCollateralManager</code> with a version implementing 100% CF (Close Factor). For clarity, this means that whenever a position is eligible for liquidation (when reaching 1 HF), the liquidator will be able to close 100% of the position, instead of 50% if over the Close Factor threshold.</p>
+</li>
+<li>
+<p>Grant <code>FUNDS_MANAGER</code> role from the Collector to a <code>ClinicStewardV2</code> smart contract, an adapted version of the one done <a href=""https://governance.aave.com/t/arfc-bgd-aave-clinicsteward/21209"">HERE</a> for Aave v3, for the DAO to clean up historic v2 bad debt with Collector’s funds.</p>
+<p>Additional details on its configuration:</p>
+<ul>
+<li>The final budgets per asset (existing bad debt) will be defined later in this thread, before the AIP stage. To be confirmed by Chaos Labs as a risk provider.</li>
+<li>The roles configuration of the steward <a href=""https://governance.aave.com/t/arfc-bgd-aave-clinicsteward/21209#p-53721-specification-3"">will be the same as on v3’s</a>: 2-of-3 for the superadmin (to not be really used), in this case, replacing kpk by one of the other risk providers. And a Dolce Vita EOA for the cleanup role, totally constrained by pre-defined budgets and on-chain logic.</li>
+</ul>
+</li>
+<li>
+<p>Do very minor changes to the precision of the system to have more compatibility with v3.</p>
+</li>
+</ol>
+<p>On the security side, the different components are to be reviewed by Certora.</p>
+<br>
+<h1><a name=""p-58586-next-steps-4"" class=""anchor"" href=""#p-58586-next-steps-4""></a>Next steps</h1>
+<ul>
+<li>Receive feedback from the community during the following days.</li>
+<li>Create the ARFC Snapshot.</li>
+<li>If the ARFC Snapshot is positive, proceed to AIP on-chain.</li>
+</ul>",,"<h1><a name=""p-58586-simple-summary-1"" class=""anchor"" href=""#p-58586-simple-summary-1""></a>Simple summary</h1>
+<p>Propose to the community further non-invasive deprecation steps on the technical side, by setting the CF (Close Factor) to 100% allowing smoother liquidations, cleaning bad debt via a new ClinicSteward adapted for v2, and minor code adjustments.</p>
+<br>
+<h1><a name=""p-58586-context-2"" class=""anchor"" href=""#p-58586-context-2""></a>Context</h1>
+<p>After years of v2 being in a deprecated stage, with the majority (or all) of the assets on Ethereum/Polygon/Avalanche being frozen or disabled for borrowing, we believe it is necessary to continue with progressive deprecation steps for the system.</p>
+<p>Given that the pools are still relatively big (especially v2 Ethereum with approximately $300m in size), this phase is still not invasive to users, mainly focused on making smoother liquidations, for the DAO to be able to clean up all historic bad debt without systemically leaving dust.</p>
+<p>This proposal is, even if independent, complementary to <a href=""https://governance.aave.com/t/arfc-aave-v2-deprecation-update/23008"">this other</a> by <a class=""mention"" href=""/u/tokenlogic"">@TokenLogic</a> and the risk providers.</p>
+<br>
+<h1><a name=""p-58586-specification-3"" class=""anchor"" href=""#p-58586-specification-3""></a>Specification</h1>
+<p>The proposal will execute the following two steps on each network:</p>
+<ol>
+<li>
+<p>Replace the <code>LendingPoolCollateralManager</code> with a version implementing 100% CF (Close Factor). For clarity, this means that whenever a position is eligible for liquidation (when reaching 1 HF), the liquidator will be able to close 100% of the position, instead of 50% if over the Close Factor threshold.</p>
+</li>
+<li>
+<p>Grant <code>FUNDS_MANAGER</code> role from the Collector to a <code>ClinicStewardV2</code> smart contract, an adapted version of the one done <a href=""https://governance.aave.com/t/arfc-bgd-aave-clinicsteward/21209"">HERE</a> for Aave v3, for the DAO to clean up historic v2 bad debt with Collector’s funds.</p>
+<p>Additional details on its configuration:</p>
+<ul>
+<li>The final budgets per asset (existing bad debt) will be defined later in this thread, before the AIP stage. To be confirmed by Chaos Labs as a risk provider.</li>
+<li>The roles configuration of the steward <a href=""https://governance.aave.com/t/arfc-bgd-aave-clinicsteward/21209#p-53721-specification-3"">will be the same as on v3’s</a>: 2-of-3 for the superadmin (to not be really used), in this case, replacing kpk by one of the other risk providers. And a Dolce Vita EOA for the cleanup role, totally constrained by pre-defined budgets and on-chain logic.</li>
+</ul>
+</li>
+<li>
+<p>Do very minor changes to the precision of the system to have more compatibility with v3.</p>
+</li>
+</ol>
+<p>On the security side, the different components are to be reviewed by Certora.</p>
+<br>
+<h1><a name=""p-58586-next-steps-4"" class=""anchor"" href=""#p-58586-next-steps-4""></a>Next steps</h1>
+<ul>
+<li>Receive feedback from the community during the following days.</li>
+<li>Create the ARFC Snapshot.</li>
+<li>If the ARFC Snapshot is positive, proceed to AIP on-chain.</li>
+</ul>"
+aavedao.eth,0xbece41f2549d7b908a07ef1e5032e500e9c887b8252915d3782b74df35659d22,[ARFC] Aave v2 deprecation (tech) - next phase,https://governance.aave.com/t/arfc-aave-v2-deprecation-tech-next-phase/23022,1757144215,2025-09-06T07:36:55+00:00,discourse,58675,2,,bgdlabs,2025-09-02T07:37:59.863Z,"<p>We have created the ARFC Snapshot for the governance pre-approval of this proposal.</p>
+<p>Voting will start in approximately 24 hours, participate <img src=""https://emoji.discourse-cdn.com/twitter/ghost.png?v=14"" title="":ghost:"" class=""emoji"" alt="":ghost:"" loading=""lazy"" width=""20"" height=""20""><br>
+<a href=""https://snapshot.box/#/s:aavedao.eth/proposal/0xbece41f2549d7b908a07ef1e5032e500e9c887b8252915d3782b74df35659d22"">https://snapshot.box/#/s:aavedao.eth/proposal/0xbece41f2549d7b908a07ef1e5032e500e9c887b8252915d3782b74df35659d22</a></p>",,"<p>We have created the ARFC Snapshot for the governance pre-approval of this proposal.</p>
+<p>Voting will start in approximately 24 hours, participate <img src=""https://emoji.discourse-cdn.com/twitter/ghost.png?v=14"" title="":ghost:"" class=""emoji"" alt="":ghost:"" loading=""lazy"" width=""20"" height=""20""><br>
+<a href=""https://snapshot.box/#/s:aavedao.eth/proposal/0xbece41f2549d7b908a07ef1e5032e500e9c887b8252915d3782b74df35659d22"">https://snapshot.box/#/s:aavedao.eth/proposal/0xbece41f2549d7b908a07ef1e5032e500e9c887b8252915d3782b74df35659d22</a></p>"

@@ -1,0 +1,136 @@
+{"model_loaded": false, "reason": "file_missing"}
+{"training": "online"}
+{
+  "space": "aavedao.eth",
+  "count": 2,
+  "start": "2025-09-08",
+  "end": "2025-09-10",
+  "decide_hours_before_end": 24,
+  "policy": "rule-based",
+  "model_trained_until": null,
+  "goal": "Prioritize DAO’s sustainable growth and broad community benefit over short-term gains.",
+  "online_learn": true
+}
+{"error": "'coroutine' object has no attribute 'get'", "proposal_id": "0x4a9b7b0e64d20a9a7903ef82d20c7d3bc8e1612907187c55b41af66d5e0ec162"}
+{"error": "'coroutine' object has no attribute 'get'", "proposal_id": "0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd"}
+{
+  "space": "aavedao.eth",
+  "period": {
+    "start": "2025-09-08",
+    "end": "2025-09-10"
+  },
+  "goal": "Prioritize DAO’s sustainable growth and broad community benefit over short-term gains.",
+  "policy": "rule-based",
+  "model_trained_until": null,
+  "online_learn": true,
+  "results": [
+    {
+      "proposal": {
+        "id": "0x4a9b7b0e64d20a9a7903ef82d20c7d3bc8e1612907187c55b41af66d5e0ec162",
+        "title": "[TEMP CHECK] Onboard USDG to Aave V3 Core Instance",
+        "discussion": null,
+        "end_ts": null,
+        "choices": null
+      },
+      "cutoff_ts": null,
+      "features": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "variables": {
+        "early_lead_ratio": 0.0,
+        "spike_index": 0.0,
+        "forum_sentiment_score": 0.0
+      },
+      "timeline": {},
+      "forum": {
+        "posts_count": 0,
+        "sentiment": {
+          "pos": 0.0,
+          "neg": 0.0,
+          "score": 0.0
+        }
+      },
+      "natural_result": {},
+      "prices": [],
+      "tvls": [],
+      "news": [],
+      "holders": null,
+      "metrics": {
+        "car_market_model": null,
+        "tvl_did": null
+      },
+      "label": null,
+      "semantics": {
+        "goal": null,
+        "plan_prompt": null,
+        "query": null,
+        "sources": []
+      },
+      "simulation_steps": [],
+      "agent_decision": {
+        "vote": "ABSTAIN",
+        "rationale": "insufficient data",
+        "p_positive": null
+      },
+      "why_decision": "Fallback due to missing pieces.",
+      "status": "error",
+      "error": "'coroutine' object has no attribute 'get'"
+    },
+    {
+      "proposal": {
+        "id": "0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+        "title": "[ARFC] Deploy Aave v3 on Plasma",
+        "discussion": null,
+        "end_ts": null,
+        "choices": null
+      },
+      "cutoff_ts": null,
+      "features": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "variables": {
+        "early_lead_ratio": 0.0,
+        "spike_index": 0.0,
+        "forum_sentiment_score": 0.0
+      },
+      "timeline": {},
+      "forum": {
+        "posts_count": 0,
+        "sentiment": {
+          "pos": 0.0,
+          "neg": 0.0,
+          "score": 0.0
+        }
+      },
+      "natural_result": {},
+      "prices": [],
+      "tvls": [],
+      "news": [],
+      "holders": null,
+      "metrics": {
+        "car_market_model": null,
+        "tvl_did": null
+      },
+      "label": null,
+      "semantics": {
+        "goal": null,
+        "plan_prompt": null,
+        "query": null,
+        "sources": []
+      },
+      "simulation_steps": [],
+      "agent_decision": {
+        "vote": "ABSTAIN",
+        "rationale": "insufficient data",
+        "p_positive": null
+      },
+      "why_decision": "Fallback due to missing pieces.",
+      "status": "error",
+      "error": "'coroutine' object has no attribute 'get'"
+    }
+  ]
+}

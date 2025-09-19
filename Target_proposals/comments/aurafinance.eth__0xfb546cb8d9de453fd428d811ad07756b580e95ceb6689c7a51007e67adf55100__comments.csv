@@ -1,0 +1,44 @@
+space,proposal_id,proposal_title,discussion_url,post_id,post_number,reply_to_post_number,author_username,created_at,created_ts,text_raw,text_html
+aurafinance.eth,0xfb546cb8d9de453fd428d811ad07756b580e95ceb6689c7a51007e67adf55100,[AIP-55] CEXs Liquidity Task Force with cede.store,https://forum.aura.finance/t/aip-55-cexs-liquidity-task-force-with-cede-store/619,1805,1,,MrBobbie,2023-11-27T12:15:48.063Z,1701087348,,"<p><strong>Authors</strong><br>
+Ryan aka <a class=""mention"" href=""/u/mrbobbie"">@MrBobbie</a>, BizDev lead a Cede Labs, a french startup backed by GSR, Stake Capital, and DoraHack.</p>
+<p><strong>Summary</strong><br>
+This proposal introduces cede.store, a Chrome extension serving as an on-ramp solution to bring liquidity from centralized exchanges (CEXs) to Aura Finance. It enables users to seamlessly transfer assets from CEXs into on-chain wallets and invest them in the Aura Finance dApp. The goals are to improve user onboarding, leverage CeFi assets, and increase Aura’s TVL as well as AURA token trading volume.</p>
+<p><strong>Background</strong></p>
+<p>This proposal is essential for the protocol as it outlines the establishment of a Liquidity Task Force (LTF) focused on expanding Aura’s liquidity, increasing TVL, and onboarding new users. It emphasizes strategies to incentivize users to invest in Aura Finance by providing a superior user experience, particularly by reducing frictions associated with transferring CEX assets to a DeFi wallet.</p>
+<p><strong>Proposal</strong></p>
+<p>Cede.store is a browser extension with a non-custodial MetaMask-style interface focused on enabling users to manage off-chain assets across major CEXs like Kucoin or Bitget.</p>
+<p>The proposal suggests integrating a ‘Transfer From CEXs’ option into Aura Finance’s Bridge, allowing users to seamlessly transfer their off-chain assets to on-chain wallets (e.g., SubWallet, Rabby, Phantom) and invest in the Aura Finance dApp with a few clicks.</p>
+<p>Anticipated benefits of integrating cede.store include:</p>
+<ul>
+<li>
+<p>Aura Users: Access a new method to transfer funds to on-chain wallets, facilitating the use of Aura services such as the Bridge or Lock.</p>
+</li>
+<li>
+<p>Aura dApp: Integration removes onboarding frictions for both existing and new users, leveraging their CeFi assets while remaining within the dApp. Users can efficiently send AURA tokens from KuCoin or BitGet to their on-chain wallet, then lock them into the Aura Finance dApp, potentially increasing TVL.</p>
+</li>
+</ul>
+<p>Our documentation: <a href=""https://docs.cede.store/use-cases/withdraw"" class=""inline-onebox"" rel=""noopener nofollow ugc"">Integrate Withdrawal Features – cede.store</a><br>
+Our demo: <a href=""https://www.youtube.com/watch?v=CDP_k7oxzcg"" rel=""noopener nofollow ugc"">https://www.youtube.com/watch?v=CDP_k7oxzcg</a></p>
+<p>Regarding the concerns you may have on the security/tech side:</p>
+<p>cede.store allows users to connect their API key and Access key (OAuth) from CEXs to manage and track their off-chain assets. Our solution is a non-custodial Chrome extension with the same DeFi UX (we want to uphold DeFi values). Therefore, we don’t store the API keys; they are stored client-side, not server-side.</p>
+<p>We employ the same battle-tested encryption model as Metamask and recently underwent an audit by Hacken, receiving a perfect 10/10 score. They made the announcement recently.</p>
+<p>Additionally, we are working with Ledger’s Former CTO and Co-founder to integrate API keys in a hardware wallet, making it even more secure for users.</p>
+<p>So, we don’t store any CEX credentials. The user maintains ownership of these.</p>
+<p><strong>Voting</strong><br>
+This proposal will remain open before the next Snapshot.</p>
+<p>I appreciate and encourage an open discussion on the subject should there be any concerns or questions.</p>
+<p>This vote will be a single-choice vote. You may vote “For” or “Against” this proposal or choose to abstain from the vote. By voting “For” this proposal, you are expressing support for the integration of cede.store with the specifications outlined in this proposal.</p>"
+aurafinance.eth,0xfb546cb8d9de453fd428d811ad07756b580e95ceb6689c7a51007e67adf55100,[AIP-55] CEXs Liquidity Task Force with cede.store,https://forum.aura.finance/t/aip-55-cexs-liquidity-task-force-with-cede-store/619,1809,2,,jameskbh,2023-11-28T09:57:12.960Z,1701165432,,"<p>Hello! Thanks for your proposal!</p>
+<p>I believe the <a href=""https://coinmarketcap.com/currencies/aura-finance/#Markets"">volume</a> from Kucoin and Bitget is not that relevant to ask for an integration like this.</p>"
+aurafinance.eth,0xfb546cb8d9de453fd428d811ad07756b580e95ceb6689c7a51007e67adf55100,[AIP-55] CEXs Liquidity Task Force with cede.store,https://forum.aura.finance/t/aip-55-cexs-liquidity-task-force-with-cede-store/619,1810,3,2.0,MrBobbie,2023-11-28T11:27:59.012Z,1701170879,,"<p>Thank you for your comment!</p>
+<p>With the widget and its ‘Transfer from CEX’ feature, you can send any token. I mentioned AURA token because it’s listed on Kucoin and Bitget, but users can use the widget to send BAL tokens from CEXs to provide liquidity on the Aura Finance dApp.</p>"
+aurafinance.eth,0xfb546cb8d9de453fd428d811ad07756b580e95ceb6689c7a51007e67adf55100,[AIP-55] CEXs Liquidity Task Force with cede.store,https://forum.aura.finance/t/aip-55-cexs-liquidity-task-force-with-cede-store/619,1829,4,,Contributor,2023-12-07T05:25:25.208Z,1701926725,,"<p><a href=""https://vote.aura.finance/#/proposal/0xfb546cb8d9de453fd428d811ad07756b580e95ceb6689c7a51007e67adf55100"" class=""onebox"" target=""_blank"" rel=""noopener"">https://vote.aura.finance/#/proposal/0xfb546cb8d9de453fd428d811ad07756b580e95ceb6689c7a51007e67adf55100</a></p>"
+aurafinance.eth,0xfb546cb8d9de453fd428d811ad07756b580e95ceb6689c7a51007e67adf55100,[AIP-55] CEXs Liquidity Task Force with cede.store,https://forum.aura.finance/t/aip-55-cexs-liquidity-task-force-with-cede-store/619,1832,5,,0xButterfield,2023-12-07T10:25:49.034Z,1701944749,,"<p>Hello, thanks for the detailed proposal.</p>
+<p>Personally, I’m not sure the benefit is quite there at the moment to justify this integration, for a few reasons:</p>
+<ul>
+<li>Aura supports a long tail of assets and networks, many of which are not available on CEXes.</li>
+<li>The implementation looks simple, but it’s also not cost-free to implement and maintain.</li>
+<li>Since cede.store is a new project, the number of users that could benefit from this at the moment is probably quite small.</li>
+<li>I’m also not quite sold on the approach and wonder if this would be more fit for purpose at the wallet level than the app level. Implementing this per-app without a standard seems like a tall order.</li>
+</ul>
+<p>I’d be happy to revisit this in the future if there are more users to cater for.</p>"

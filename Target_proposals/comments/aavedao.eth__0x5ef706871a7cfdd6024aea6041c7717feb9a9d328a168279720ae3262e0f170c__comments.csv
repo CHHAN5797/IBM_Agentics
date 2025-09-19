@@ -1,0 +1,44 @@
+space,proposal_id,proposal_title,discussion_url,post_id,post_number,reply_to_post_number,author_username,created_at,created_ts,text_raw,text_html
+aavedao.eth,0x5ef706871a7cfdd6024aea6041c7717feb9a9d328a168279720ae3262e0f170c,UI/UX upgrade governance framework,https://governance.aave.com/t/arc-ui-ux-upgrade-governance-framework/8638,19784,1,,MarcZeller,2022-06-27T18:14:52.966Z,1656353692,,"<h1>
+<a name=""arc-uiux-upgrade-governance-framework-1"" class=""anchor"" href=""#arc-uiux-upgrade-governance-framework-1""></a>[ARC] - UI/UX upgrade governance framework</h1>
+<p>The Aave protocol is a decentralized ecosystem of smart-contracts running on several EVM networks. This ecosystem is permisionless and anyone with the required tech knowledge can freely use 100% of the Aave protocol features.</p>
+<p>That being said, for a more accessible user experience, the Aave companies created the <a href=""https://app.aave.com/"">Aave application</a> allowing the interaction with the Aave protocol without technical knowledge.</p>
+<p>To reinforce the decentralization of the application, the Aave app is deployed on IFPS and considering Flux hosting to avoid centralization of hosting,</p>
+<p>also, the Aave app, is <a href=""https://github.com/aave/interface"">fully open source</a> and allows any developer to contribute to the improvement of the application for the benefit of the end-users.</p>
+<p>As recently, we have witnessed multiple demands from third-parties to be integrated in the aave App (wallets, on-ramps etc…) The presented framework intends to provide governance guidelines to standardize the process of integration into the Aave App.</p>
+<hr>
+<h3>
+<a name=""title-arc-integrate-entity-into-the-aave-app-2"" class=""anchor"" href=""#title-arc-integrate-entity-into-the-aave-app-2""></a>Title [ARC] - integrate [Entity] into the aave app</h3>
+<h3>
+<a name=""proposal-3"" class=""anchor"" href=""#proposal-3""></a>[Proposal]</h3>
+<p>Brief presentation of the entity and ecosystem 250 words max</p>
+<h3>
+<a name=""proposed-integration-4"" class=""anchor"" href=""#proposed-integration-4""></a>[Proposed integration]</h3>
+<p>Brief presentation of the requested integration</p>
+<p>examples:</p>
+<ul>
+<li>a wallet requesting a direct support on user onboarding</li>
+<li>an onramp requesting the integration of an onramp widget</li>
+<li>a notification system requesting to be integrated into user’s dashboard</li>
+<li>a portfolio tracker requesting link in users dashboard</li>
+</ul>
+<p>In this section, the entity should detail which specific section of the app should be modified to integrate the entity.</p>
+<h3>
+<a name=""current-and-proposed-integration-of-aave-in-the-entity-ecosystem-5"" class=""anchor"" href=""#current-and-proposed-integration-of-aave-in-the-entity-ecosystem-5""></a>[Current and proposed integration of Aave in the Entity ecosystem]</h3>
+<ul>
+<li>Is the Aave app highlighted in the entity application?</li>
+<li>How does the integration benefit the Entity Aave’s current and potential future users?</li>
+</ul>
+<h3>
+<a name=""technical-integration-6"" class=""anchor"" href=""#technical-integration-6""></a>[Technical integration]</h3>
+<ul>
+<li>Link to Aave interface PR requesting the integration</li>
+</ul>
+<hr>
+<p>This framework is intended to provide standardization of UI/UX integration of the Aave App.</p>
+<p>The proposed governance process for a UI integration is to have each entity do a governance thread open for at least 5 days.</p>
+<p>Then open a snapshot vote with a starting voting period of 24h in the future with at least 3 days open vote period considered valid with a 100k AAVE YAE vote quorum.</p>
+<p>the proposed options for the snapshot must be YAE/NAY/ABSTAIN.</p>
+<p>The Aave interface GitHub maintainers will then review the integration PR and provided they don’t detect security issues, will merge the PR.</p>
+<p>In the case of a security issue detected with the PR and not discussed before the snapshot vote, the GitHub maintainers will open technical communication channels with the entity in an effort to allow the integration to be merged but will keep a veto right regardless of the governance process in the case the integration is considered harmful to Aave users security.</p>"
+aavedao.eth,0x5ef706871a7cfdd6024aea6041c7717feb9a9d328a168279720ae3262e0f170c,UI/UX upgrade governance framework,https://governance.aave.com/t/arc-ui-ux-upgrade-governance-framework/8638,19808,2,,superproduct,2022-06-28T08:29:41.888Z,1656404981,,<p>Can we update it so that a github issue will link to the snapshot post and all relevant information</p>
