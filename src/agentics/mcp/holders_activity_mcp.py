@@ -462,3 +462,7 @@ def health() -> Dict[str, Any]:
     return {"ok": True, "service": "HoldersMCP"}
 
 # ------------------------------- End ------------------------------------
+
+
+if __name__ == "__main__":
+    mcp.run(transport="stdio")

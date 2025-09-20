@@ -405,3 +405,7 @@ def event_window(slug: str, event_time_utc: str, pre_days: int = 7, post_days: i
 @mcp.tool()
 def health() -> Dict[str, Any]:
     return {"ok": True, "service": "defillama_tvl_mcp", "db": str(DB_PATH), "dir": str(TVL_DIR)}
+
+
+if __name__ == "__main__":
+    mcp.run(transport="stdio")

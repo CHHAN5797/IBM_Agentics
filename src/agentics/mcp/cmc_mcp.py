@@ -531,3 +531,7 @@ def price_window(token: str, interval: str, start_date: str, end_date: str) -> D
 @mcp.tool()
 def health() -> Dict[str, Any]:
     return {"ok": True, "service": "cmc_price_mcp", "duckdb": str(DUCK_PATH)}
+
+
+if __name__ == "__main__":
+    mcp.run(transport="stdio")

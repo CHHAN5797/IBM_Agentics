@@ -502,3 +502,7 @@ def analyze_onchain(args: AnalyzeInput) -> Dict[str, Any]:
 @mcp.tool()
 def health() -> Dict[str, Any]:
     return {"ok": True, "service": "OnchainActivityMCP"}
+
+
+if __name__ == "__main__":
+    mcp.run(transport="stdio")

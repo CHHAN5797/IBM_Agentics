@@ -176,4 +176,8 @@ def fetch_page(url: str, max_bytes: int = 400_000) -> Dict[str, Any]:
 @mcp.tool()
 def health() -> Dict[str, Any]:
     return {"ok": True, "service": "ForumsMCP"}
+
+
+if __name__ == "__main__":
+    mcp.run(transport="stdio")
 # --- PATCH END ---

@@ -397,3 +397,7 @@ def proposal_news_window(project_hint: str, proposal_title_or_id: str, event_tim
 @mcp.tool()
 def health() -> Dict[str, Any]:
     return {"ok": True, "service": "govnews_mcp", "db": str(DB_PATH)}
+
+
+if __name__ == "__main__":
+    mcp.run(transport="stdio")
