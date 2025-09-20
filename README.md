@@ -70,6 +70,13 @@ We welcome new AG entusiasts to extend this framework with new applications and 
 
 🛠️ [Tools](docs/tools.md): Learn how to integrate external tools (e.g., LangChain, CrewAI) to provide access to external data necessary for logical transduction.
 
+### Offline CMC MCP
+
+- Module `agentics.mcp.cmc_offline_mcp` exposes `resolve_tokens`, `price_window`, and `healthcheck` without touching the CoinMarketCap API.
+- Place `cmc_historical_daily_2013_2025.parquet` in the repo root (or set `CMC_OFFLINE_PARQUET=/path/to/file`).
+- Only daily (`1d`) windows are available; governance/native tokens reuse the best local match.
+- Run the MCP server with `uv run python -m agentics.mcp.cmc_offline_mcp` and register it like any other FastMCP endpoint.
+
 ## 📘 Example Usage
 ```python
 from agentics import Agentics as AG
