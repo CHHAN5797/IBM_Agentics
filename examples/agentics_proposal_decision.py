@@ -77,7 +77,8 @@ def _load_mcp_tools(project_root: Path, stack: ExitStack) -> List:
         ("defillama", project_root / "src/agentics/mcp/defillama_mcp.py"),
         ("holders", project_root / "src/agentics/mcp/holders_activity_mcp.py"),
         ("onchain", project_root / "src/agentics/mcp/onchain_activity_mcp_bq_cmc.py"),
-        ("cmc", project_root / "src/agentics/mcp/cmc_mcp.py"),
+        # ("cmc", project_root / "src/agentics/mcp/cmc_mcp.py"),
+        ("cmc", project_root / "src/agentics/mcp/cmc_offline_mcp.py"),
     ]
 
     combined = None
