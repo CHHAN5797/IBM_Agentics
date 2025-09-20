@@ -5,6 +5,7 @@ from __future__ import annotations
 import asyncio
 import os
 from contextlib import ExitStack
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import List, Literal, Optional
 
@@ -14,6 +15,7 @@ from crewai_tools import MCPServerAdapter
 from dotenv import load_dotenv
 from mcp import StdioServerParameters
 from pydantic import BaseModel, Field
+import json
 
 
 class Evidence(BaseModel):
@@ -30,8 +32,8 @@ class Evidence(BaseModel):
 
 class ProposalDecision(BaseModel):
     snapshot_url: str = Field(..., description="Snapshot proposal URL under review.")
-    position: Literal["support", "oppose"] = Field(
-        ..., description="Recommended voting stance for the proposal."
+    position: Literal["support", "oppose", "abstain"] = Field(
+        ..., description="Recommended voting stance for the proposal (abstain when evidence is inconclusive)."
     )
     confidence: float = Field(
         ..., ge=0.0, le=1.0, description="Confidence score between 0 and 1 for the recommendation."
@@ -125,7 +127,7 @@ def main() -> None:
         focus = input("Focus areas or concerns (optional)> ").strip()
         prompt = [
             f"Snapshot proposal under review: {snapshot_url}",
-            "Objective: Determine whether to support or oppose the proposal.",
+            "Objective: Determine whether to support, oppose, or abstain on the proposal.",
             "Requirements: Fill every field of the ProposalDecision schema.",
             "Use MCP tools to gather verifiable facts, votes, timelines, and market data.",
             "Cite tool outputs inside the evidence list and keep quotes faithful to the source.",
@@ -142,14 +144,34 @@ def main() -> None:
             verbose_agent=True,
             description="Governance vote recommendation for a Snapshot proposal.",
             instructions=(
-                "Return a ProposalDecision object. Set snapshot_url to the provided URL and ensure "
-                "position is either 'support' or 'oppose'."
+                "Return a ProposalDecision object. Set snapshot_url to the provided URL and choose "
+                "position from 'support', 'oppose', or 'abstain' strictly based on gathered evidence."
             ),
             llm=llm,
         )
 
         result = asyncio.run(agent << [prompt_text])
         print(result.pretty_print())
+
+        states = getattr(result, "states", [])
+        if not states:
+            raise SystemExit("Agent produced no decision state; cannot write log.")
+        decision = states[0]
+        payload = {
+            "captured_at_utc": datetime.now(timezone.utc).isoformat(),
+            "snapshot_url": snapshot_url,
+            "focus": focus or None,
+            "decision": decision.model_dump(mode="json"),
+        }
+
+        decision_dir = project_root / "Decision_runs"
+        decision_dir.mkdir(parents=True, exist_ok=True)
+        timestamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+        snapshot_slug = snapshot_url.strip().split("/")[-1] or "proposal"
+        outfile = decision_dir / f"decision_{snapshot_slug}_{timestamp}.json"
+        with outfile.open("w", encoding="utf-8") as fh:
+            json.dump(payload, fh, ensure_ascii=False, indent=2)
+        print(f"Saved structured decision to {outfile}")
 
 
 if __name__ == "__main__":
