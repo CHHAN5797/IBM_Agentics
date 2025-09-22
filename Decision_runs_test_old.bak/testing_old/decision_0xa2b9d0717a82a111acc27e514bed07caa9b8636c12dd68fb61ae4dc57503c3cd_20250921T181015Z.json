@@ -1,0 +1,151 @@
+{
+  "captured_at_utc": "2025-09-21T18:10:15.162072+00:00",
+  "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+  "focus": null,
+  "tool_plan": {
+    "objective": "Determine one choice to recommend (ex-post blind).",
+    "calls": [
+      {
+        "tool": "analyze_timeline",
+        "args": {
+          "start": 1693994243,
+          "end": 1694253443,
+          "choices": [
+            "YAE",
+            "NAY",
+            "Abstain"
+          ],
+          "votes": []
+        },
+        "why": "To analyze the voting timeline and results for the given proposal's start and end times with the known choices."
+      },
+      {
+        "tool": "get_proposal_by_id",
+        "args": {
+          "proposal_id": "0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd"
+        },
+        "why": "To retrieve proposal metadata including start and end timestamps to confirm timeline and details."
+      },
+      {
+        "tool": "fetch_discussion",
+        "args": {
+          "url": "https://governance.aave.com/t/arfc-deploy-aave-v3-on-plasma/21494/1",
+          "max_pages": 5
+        },
+        "why": "To gather community discussion and sentiment around the proposal for qualitative insight."
+      },
+      {
+        "tool": "resolve_tokens",
+        "args": {
+          "project_hint": "aavedao",
+          "prefer_governance": true
+        },
+        "why": "To get authoritative governance token details related to the proposal for context on voting power."
+      },
+      {
+        "tool": "analyze_holders",
+        "args": {
+          "args": {
+            "space": "aavedao.eth",
+            "proposal_id": "0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+            "token_address": "0xC0259c59D9f980E3b5e2574cD78C9A9Bc6A8E3fc",
+            "chainid": 1,
+            "distribution_source": "topholders",
+            "top_n": 100,
+            "holderlist_page_limit": 0,
+            "cache_dir": ".cache/etherscan"
+          }
+        },
+        "why": "To analyze the token holder distribution and participation proxies to understand voter distribution."
+      },
+      {
+        "tool": "analyze_onchain",
+        "args": {
+          "args": {
+            "space": "aavedao.eth",
+            "proposal_id": "0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+            "token_address": "0xC0259c59D9f980E3b5e2574cD78C9A9Bc6A8E3fc",
+            "chain_id": 1
+          }
+        },
+        "why": "To compute on-chain activity and abnormal metrics around the proposal timeframe to assess engagement and impact."
+      },
+      {
+        "tool": "proposal_news_window",
+        "args": {
+          "project_hint": "aavedao",
+          "proposal_title_or_id": "0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+          "event_time_utc": "2025-09-06T09:37:23Z",
+          "pre_days": 7,
+          "post_days": 7,
+          "lang": "en",
+          "max_records": 100,
+          "ttl_minutes": 30
+        },
+        "why": "To gather governance-related news around the proposal event window for additional context."
+      }
+    ],
+    "notes": "The plan includes fetching proposal metadata, timeline analysis, discussion insights, token and holder analysis, on-chain activity evaluation, and news context to determine the best choice recommendation ex-post blind."
+  },
+  "decision": {
+    "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+    "selected_choice_label": "YAE",
+    "selected_choice_index": 0,
+    "confidence": 0.7,
+    "summary": "The proposal to deploy Aave v3 on Plasma is recommended with moderate confidence based on the proposal details and positive community and expert feedback, despite limited on-chain voting data.",
+    "key_arguments_for": [
+      "Plasma is a high-performance, scalable, and secure blockchain designed for stablecoins with zero fees and fast transactions.",
+      "Strong ecosystem and tooling support are expected at launch, including major assets and DeFi protocols.",
+      "Community and expert assessments (LlamaRisk, ChaosLabs) cautiously support deployment pending further mainnet launch details.",
+      "Positive risk assessments with planned phased activation and cap limits mitigate initial security concerns."
+    ],
+    "key_arguments_against": [
+      "Plasma network is in early development with limited public testnet and no mainnet data yet.",
+      "Audits and security reviews are ongoing, with some unresolved questions about slashing and decentralization.",
+      "Uncertainty remains about liquidity and on-chain activity at mainnet launch, posing operational risks.",
+      "Native governance token details and impact remain unclear."
+    ],
+    "evidence": [
+      {
+        "source_tool": "get_proposal_by_id",
+        "reference": "Proposal metadata",
+        "quote": "Choices: ['YAE', 'NAY', 'Abstain'], Start: 1757151443, End: 1757410643"
+      },
+      {
+        "source_tool": "analyze_timeline",
+        "reference": "Timeline analysis",
+        "quote": "No votes cast, no preference detected"
+      },
+      {
+        "source_tool": "fetch_discussion",
+        "reference": "Community discussion",
+        "quote": "Expert reviews support cautious deployment; positive ecosystem outlook"
+      }
+    ],
+    "available_choices": [
+      "YAE",
+      "NAY",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-09-06T09:37:23Z",
+    "event_end_utc": "2025-09-09T09:37:23Z",
+    "event_time_utc": "2025-09-09T09:37:23Z",
+    "address_of_governance_token": "0xC0259c59D9f980E3b5e2574cD78C9A9Bc6A8E3fc",
+    "token_price_impact_pct": null,
+    "tvl_impact_pct": null,
+    "actual_vote_result": {
+      "winner_label": "YAE",
+      "winner_index": 0,
+      "scores": [
+        888349.8840217041,
+        0.09615768208900824,
+        0.0
+      ],
+      "scores_total": 888349.9801793862,
+      "margin_abs": 888349.787864022,
+      "margin_pct": 1.0
+    },
+    "simulation_reason": null,
+    "references": null
+  }
+}

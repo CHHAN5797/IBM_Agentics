@@ -1,0 +1,89 @@
+{
+  "captured_at_utc": "2025-09-21T20:08:46.789389+00:00",
+  "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+  "focus": null,
+  "votes_count": 103,
+  "tool_plan": {
+    "objective": "Determine one choice to recommend (ex-post blind) for the proposal 0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd in aavedao.eth space, including analysis of full votes timeline and on-chain holder distribution and concentration.",
+    "calls": [
+      {
+        "tool": "get_proposal_by_id",
+        "args": {},
+        "why": "Fetch the proposal meta including start and end timestamps to analyze the voting timeline accurately."
+      },
+      {
+        "tool": "analyze_timeline",
+        "args": {},
+        "why": "Analyze the voting timeline with full votes data to understand vote distribution and participation across choices."
+      },
+      {
+        "tool": "analyze_onchain",
+        "args": {},
+        "why": "Compute total holders and top-100 holder distribution/concentration for on-chain participation metrics."
+      }
+    ],
+    "notes": "The start and end timestamps used in analyze_timeline are derived from EVENT_START_UTC and EVENT_"
+  },
+  "decision": {
+    "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+    "selected_choice_label": "Abstain",
+    "selected_choice_index": 2,
+    "confidence": 0.5,
+    "summary": "Due to absence of vote data and governance token address, no evidence supports 'YAE' or 'NAY'. Abstaining is the cautious recommendation.",
+    "key_arguments_for": [
+      "No vote data available to support other choices.",
+      "Lack of governance token address prevents onchain holder analysis."
+    ],
+    "key_arguments_against": [
+      "Insufficient data to recommend 'YAE' or 'NAY'.",
+      "No participation metrics available."
+    ],
+    "evidence": [
+      {
+        "source_tool": "get_proposal_by_id",
+        "reference": "proposal_id 0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+        "quote": "choices: ['YAE', 'NAY', 'Abstain'], start: 1757151443, end: 1757410643"
+      },
+      {
+        "source_tool": "analyze_timeline",
+        "reference": "empty votes",
+        "quote": "unique_voters: 0, votes_by_choice: [0,0,0]"
+      },
+      {
+        "source_tool": "resolve_tokens",
+        "reference": "project_hint aavedao",
+        "quote": "governance_token: null"
+      }
+    ],
+    "available_choices": [
+      "YAE",
+      "NAY",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-09-06T09:37:23Z",
+    "event_end_utc": "2025-09-09T09:37:23Z",
+    "event_time_utc": "2025-09-09T09:37:23Z",
+    "address_of_governance_token": "0xC0259c59D9f980E3b5e2574cD78C9A9Bc6A8E3fc",
+    "token_price_impact_pct": null,
+    "tvl_impact_pct": null,
+    "actual_vote_result": {
+      "winner_label": "YAE",
+      "winner_index": 0,
+      "scores": [
+        888349.8840217041,
+        0.09615768208900824,
+        0.0
+      ],
+      "scores_total": 888349.9801793862,
+      "margin_abs": 888349.787864022,
+      "margin_pct": 1.0
+    },
+    "simulation_reason": "No votes data available to perform vote tally or participation analysis.",
+    "references": [
+      {
+        "type": "discussion",
+        "url": "https://governance.aave.com/t/arfc-deploy-aave-v3-on-plasma/21494/1"
+      }
+    ]
+  }
+}

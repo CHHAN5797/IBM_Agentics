@@ -1,0 +1,96 @@
+{
+  "captured_at_utc": "2025-09-21T16:30:45.713625+00:00",
+  "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+  "focus": null,
+  "tool_plan": {
+    "objective": "Determine one choice to recommend (ex-post blind).",
+    "calls": [
+      {
+        "tool": "get_proposal_by_id",
+        "args": {
+          "proposal_id": "0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd"
+        },
+        "why": "To retrieve detailed metadata about the proposal, including choices and other relevant information necessary for analysis."
+      },
+      {
+        "tool": "get_votes_all",
+        "args": {
+          "proposal_id": "0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+          "batch": 500
+        },
+        "why": "To collect all votes cast for the proposal in order to analyze voting results and determine a recommended choice."
+      }
+    ],
+    "notes": "The proposal ID is known and directly used to fetch both the proposal details and all votes. No discussion URL or event time is provided, so analysis will be based solely on proposal data and votes."
+  },
+  "decision": {
+    "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+    "selected_choice_label": "YAE",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "The proposal to deploy Aave v3 on Plasma received overwhelming support with a strong majority voting YAE. The proposal details the benefits of Plasma's scalable blockchain for stablecoins and outlines risk parameters and incentive plans. The vote distribution and large voting power behind YAE indicate strong community consensus.",
+    "key_arguments_for": [
+      "Plasma offers zero fees, fast transactions, and robust security ideal for stablecoins.",
+      "Proposal includes detailed risk parameters and incentives aligned with Aave's ecosystem.",
+      "Plasma Foundation commits significant supply and exclusive incentives for Aave deployment.",
+      "Community and service provider feedback incorporated via ARFC process."
+    ],
+    "key_arguments_against": [
+      "Potential risks in deploying on a newer blockchain with evolving infrastructure.",
+      "Uncertainty about future risk parameters as they depend on risk service providers.",
+      "Dependence on Plasma Foundation and ACI for incentive management and validation."
+    ],
+    "evidence": [
+      {
+        "source_tool": "get_proposal_by_id",
+        "reference": "proposal body",
+        "quote": "This ARFC proposes the deployment of an Aave V3 Instance on Plasma... Plasma is a high-performance, scalable, and secure blockchain purpose-built for stablecoins."
+      },
+      {
+        "source_tool": "get_proposal_by_id",
+        "reference": "space strategies",
+        "quote": "Governance token addresses include 0xC0259c59D9f980E3b5e2574cD78C9A9Bc6A8E3fc and 0xa198Fac58E02A5C5F8F7e877895d50cFa9ad1E04."
+      },
+      {
+        "source_tool": "get_votes_all",
+        "reference": "vote results",
+        "quote": "Majority votes are choice 1 (YAE) with very high voting power totals."
+      }
+    ],
+    "available_choices": [
+      "YAE",
+      "NAY",
+      "Abstain"
+    ],
+    "event_time_utc": "2025-03-17T11:44:03Z",
+    "address_of_governance_token": "0xC0259c59D9f980E3b5e2574cD78C9A9Bc6A8E3fc",
+    "token_price_impact_pct": null,
+    "tvl_impact_pct": null,
+    "actual_vote_result": null,
+    "post_vote_market_reaction": {
+      "window_days": {
+        "pre": 7,
+        "post": 7
+      },
+      "price_start": null,
+      "price_end": null,
+      "price_impact_pct": null,
+      "tvl_impact_pct": null
+    },
+    "simulation_reason": null,
+    "references": [
+      {
+        "title": "Plasma Documentation",
+        "year": null,
+        "venue": null,
+        "url": "https://docs.plasma.to/"
+      },
+      {
+        "title": "ARFC Deploy Aave v3 on Plasma",
+        "year": 2025,
+        "venue": "Aave Governance Forum",
+        "url": "https://governance.aave.com/t/arfc-deploy-aave-v3-on-plasma/21494/1"
+      }
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "captured_at_utc": "2025-09-21T16:08:40.250139+00:00",
+  "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+  "focus": null,
+  "tool_plan": {
+    "objective": "Determine which option to choose from the proposal's `choices`.",
+    "calls": [
+      {
+        "tool": "resolve_protocol",
+        "args": {},
+        "why": "Resolve protocol slug for fetching TVL and price data."
+      }
+    ],
+    "notes": null
+  },
+  "decision": {
+    "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+    "selected_choice_label": "YAE",
+    "selected_choice_index": 0,
+    "confidence": 0.9,
+    "summary": "The proposal to deploy Aave V3 on Plasma is supported by strong voting preference and cautious but positive risk assessments from expert providers. Plasma is a new high-performance blockchain optimized for stablecoins with promising early testnet activity. Despite missing TVL and price impact data due to lack of cache, evidence from discussion and votes supports approval.",
+    "key_arguments_for": [
+      "Plasma offers zero fees, fast transactions, and robust security tailored for stablecoins.",
+      "Risk service providers (LlamaRisk, ChaosLabs) provisionally support deployment pending mainnet launch and security details.",
+      "The Plasma team commits significant liquidity and incentives for Aave's launch on Plasma.",
+      "Community and expert votes strongly favor approval (YAE)."
+    ],
+    "key_arguments_against": [
+      "Plasma is an early-stage network with limited on-chain data and no public mainnet yet.",
+      "Full risk parameters and audits are pending mainnet launch.",
+      "Potential technical, security, and market risks remain until mainnet is live and tested."
+    ],
+    "evidence": [
+      {
+        "source_tool": "get_proposal_by_id",
+        "reference": "Proposal metadata",
+        "quote": "Choices: ['YAE', 'NAY', 'Abstain'], end: 1757410643"
+      },
+      {
+        "source_tool": "fetch_discussion",
+        "reference": "https://governance.aave.com/t/arfc-deploy-aave-v3-on-plasma/21494",
+        "quote": "LlamaRisk supports provisional recommendation pending mainnet launch; ChaosLabs notes early stage but monitoring; no blockers found."
+      },
+      {
+        "source_tool": "get_votes_all",
+        "reference": "Snapshot votes",
+        "quote": "Strong voting support for YAE with majority vote power."
+      }
+    ],
+    "risks": [
+      "Lack of on-chain mainnet data and finalized risk parameters.",
+      "Potential undiscovered technical or security issues at mainnet launch.",
+      "Absence of TVL and price impact data limits quantitative impact assessment."
+    ],
+    "follow_up_actions": [
+      "Monitor Plasma mainnet launch and activity metrics.",
+      "Review updated risk assessments post mainnet deployment.",
+      "Reassess risk parameters and tokenomics as new data emerges."
+    ],
+    "available_choices": null,
+    "event_time_utc": "2025-09-09T04:10:43Z",
+    "address_of_governance_token": null,
+    "token_price_impact_pct": null,
+    "tvl_impact_pct": null
+  }
+}

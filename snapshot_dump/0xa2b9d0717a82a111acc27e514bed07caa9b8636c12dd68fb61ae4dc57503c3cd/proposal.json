@@ -1,0 +1,83 @@
+{
+  "id": "0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+  "title": "[ARFC] Deploy Aave v3 on Plasma",
+  "body": "# [ARFC] Deploy Aave v3 on Plasma\n\n## Author: ACI\n\n## Date: 2025-03-15\n\n-\n> Proposal has been updated with latest Risk Parameters 2025-09-05\n\n---\n\n## **Simple Summary**\n\nThis ARFC proposes the deployment of an Aave V3 Instance on Plasma.\n\n## Motivation\n\nPlasma is a high-performance, scalable, and secure blockchain purpose-built for stablecoins. Built from the ground up, it delivers zero fees, lightning-fast transactions, and the robust security that stablecoins like USD₮ require.\n\nThe network offers a performant location to the deploy the Aave protocol, and the Plasma team are planning to support Aave’s launch on the network.\n\n## Specification\n\nRisk Parameters will be provided by Risk Service Providers during the ARFC stage and ARFC will be updated accordingly.\n\n> Proposal has been updated with latest Risk Parameters 2025-09-05\n\n# Specification\n\n| **Parameter** | Value | Value | Value | **Value** | Value | Value | Value |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Asset | USD₮ | USDe | sUSDe | XAUt | WETH | weETH  | XPL |\n| Isolation Mode | No | No | No | Yes | No | No | No |\n| Borrowable | Yes | Yes | No | No | Yes | No  | No  |\n| Collateral Enabled | Yes | Yes | Yes | Yes | Yes | Yes | Yes |\n| Supply Cap | 2,200,000,000 | 500,000,000 | 450,000,000 | 7,000 | 80,000 | 10,000 | 50,000,000 |\n| Borrow Cap | 2,000,000,000 | 50,000,000 | - | - | 10,000 | -  | -  |\n| Debt Ceiling | - | - | - | - | - | - | - |\n| LTV | 75% | 72% | 0.05% | 70% | 80.5% | 0.05% | 0.00% |\n| LT | 78% | 75% | 0.1% | 75% | 83% | 0.1% | 0.1% |\n| Liquidation Bonus | 4.50% | 8.50% | 8.50% | 7.50% | 5.5% | 7% | 8% |\n| Liquidation Protocol Fee | 10% | 10% | 10% | 10% | 10% | 10% | 10% |\n| Variable Base | 2.5% | 2.5% | - | - | 0% | - | - |\n| Variable Slope1 | 4.0% | 5.0% | - | - | 2.7% | - | - |\n| Variable Slope2 | 20% | 50% | - | - | 20% | - | - |\n| Uoptimal | 92% | 85% | - | - | 92% | - | - |\n| Reserve Factor | 10% | 25% | - | - | 15% | - | - |\n\n**USDe Stablecoin E-Mode**\n\n| **Parameter** | **Value** | **Value** |\n| --- | --- | --- |\n| Asset | USDe | USD₮ |\n| Collateral | Yes | No |\n| Borrowable | No | Yes |\n| Max LTV | 90% | - |\n| Liquidation Threshold | 93% | - |\n| Liquidation Bonus | 2.0% | - |\n\n**sUSDe Stablecoin E-Mode**\n\n| **Parameter** | **Value** | **Value** | **Value** |\n| --- | --- | --- | --- |\n| Asset | USDe | sUSDe | USD₮ |\n| Collateral | Yes | Yes | No |\n| Borrowable | No | No | Yes |\n| Max LTV | 90% | 90% | - |\n| Liquidation Threshold | 92% | 92% | - |\n| Liquidation Bonus | 4.0% | 4.0% | - |\n\n**weETH WETH E-Mode**\n\n| **Parameter** | **Value** | **Value** |\n| --- | --- | --- |\n| Asset | weETH | WETH |\n| Collateral | Yes | No |\n| Borrowable | No | Yes |\n| Max LTV | 93% | - |\n| Liquidation Threshold | 95% | - |\n| Liquidation Bonus | 1.00% | - |\n\n**CAPO Parameters sUSDe**\n\n| **Token** | **Snapshot Delay** | **maxYearlyGrowthRatio** |\n| --- | --- | --- |\n| sUSDe | 14 days | 15.19% |\n\n### POL and Incentives\n\nUpon confirmation of the Aave deployment on Plasma, the Plasma Foundation will:\n\n- Supply 10M USDT\n- Ensure that in any future incentive campaign, Aave is the only lending protocol receiving incentive distributions.\n- Integrate and boost adoption of the GHO stablecoin within its ecosystem, targeting real-world and institutional use cases.\n- Collaborate with liquidity providers, institutional capital allocators, and partners to expand supply in Aave v3 for BTC and USDT.\n- Offer Aave DAO or ACI an opportunity to serve as an early validator, thereby securing the Plasma Bitcoin bridge and participating in consensus.\n- Have Aave DAO redistribute any airdrops or incentive distributions from the Plasma ecosystem to protocol users through liquidity mining.\n- Entrust ACI, on behalf of Aave DAO, to manage any liquidity mining campaign on a Plasma Aave V3 deployment.\n\n## Useful Links\n\n- Website: https://www.plasma.to/\n- Docs: https://docs.plasma.to/\n\n## **Disclaimer**\n\nThis proposal is powered by Skywards. ACI is not directly affiliated with Plasma and did not receive compensation for this proposal.\n\n## **Next Steps**\n\n1. Publish an ARFC to continue gathering community and Service Providers feedback.\n2. Escalate proposal to ARFC Snapshot.\n3. If the ARFC snapshot outcome is YAE, publish an AIP vote for final confirmation and enforcement of the proposal.\n\n## **Copyright**\n\nCopyright and related rights waived under [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+  "author": "0xF1dF824419879Bb8a7E758173523F88EfB7Af193",
+  "choices": [
+    "YAE",
+    "NAY",
+    "Abstain"
+  ],
+  "start": 1757151443,
+  "end": 1757410643,
+  "discussion": "https://governance.aave.com/t/arfc-deploy-aave-v3-on-plasma/21494/1",
+  "state": "closed",
+  "space": {
+    "id": "aavedao.eth",
+    "name": "Aave DAO",
+    "strategies": [
+      {
+        "name": "contract-call",
+        "network": "1",
+        "params": {
+          "args": [
+            "%{address}"
+          ],
+          "symbol": "AAVE in stkBPT",
+          "address": "0xC0259c59D9f980E3b5e2574cD78C9A9Bc6A8E3fc",
+          "decimals": 18,
+          "methodABI": {
+            "name": "balanceOf",
+            "type": "function",
+            "inputs": [
+              {
+                "name": "account",
+                "type": "address",
+                "internalType": "address"
+              }
+            ],
+            "outputs": [
+              {
+                "name": "",
+                "type": "uint256",
+                "internalType": "uint256"
+              }
+            ],
+            "stateMutability": "view"
+          }
+        }
+      },
+      {
+        "name": "contract-call",
+        "network": "1",
+        "params": {
+          "args": [
+            "%{address}"
+          ],
+          "symbol": "AAVE gov V3 Voting Power",
+          "address": "0xa198Fac58E02A5C5F8F7e877895d50cFa9ad1E04",
+          "decimals": 18,
+          "methodABI": {
+            "name": "getFullVotingPower",
+            "type": "function",
+            "inputs": [
+              {
+                "name": "account",
+                "type": "address",
+                "internalType": "address"
+              }
+            ],
+            "outputs": [
+              {
+                "name": "",
+                "type": "uint256",
+                "internalType": "uint256"
+              }
+            ],
+            "stateMutability": "view"
+          }
+        }
+      }
+    ]
+  }
+}

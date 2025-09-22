@@ -1,0 +1,138 @@
+{
+  "captured_at_utc": "2025-09-21T20:41:09.965888+00:00",
+  "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xfdcdcb613b3aaa3c60176369c27107c2de62a0bfb477fa792745d6148ed0249d",
+  "focus": null,
+  "votes_count": 130,
+  "tool_plan": {
+    "objective": "Determine one choice to recommend (ex-post blind).",
+    "calls": [
+      {
+        "tool": "get_proposal_by_id",
+        "args": {
+          "proposal_id": "0xfdcdcb613b3aaa3c60176369c27107c2de62a0bfb477fa792745d6148ed0249d"
+        },
+        "why": "Fetch proposal metadata including start and end times to perform timeline analysis."
+      },
+      {
+        "tool": "analyze_timeline",
+        "args": {
+          "args": {
+            "start": 1756534912,
+            "end": 1756771312,
+            "choices": [
+              "For",
+              "Against",
+              "Abstain"
+            ],
+            "votes": [
+              {
+                "id": "0x6ca9b2515aca6d4481acfb147ce0fec2590aa890b54cdb8da8e39969463754e5",
+                "voter": "0xd182768D1a7B9a09515464e017dBCDaA2993e059",
+                "created": 1756534918,
+                "choice": 1,
+                "vp": 0.006772746960075904,
+                "reason": ""
+              },
+              {
+                "id": "0x9472a4cd1dc23c08ab83a82fe6ff3a360980572953954e95e16f6a68426e1cd2",
+                "voter": "0xbCdDe113e0Be48145d119f6ec87a78582CD1398C",
+                "created": 1756535078,
+                "choice": 1,
+                "vp": 0.09748247806717593,
+                "reason": ""
+              },
+              {
+                "id": "0x868d505102ceb6dd36e54d1a79557ec6b7a54c94d4fa8be3a7121f41c36b774f",
+                "voter": "0xc5f705cA8f70acc5F3d3DB9636558102f528A475",
+                "created": 1756537940,
+                "choice": 1,
+                "vp": 0.06414349282025629,
+                "reason": ""
+              }
+            ]
+          }
+        },
+        "why": "Analyze voting timeline and participation metrics using votes and proposal start/end times."
+      },
+      {
+        "tool": "analyze_holders",
+        "args": {
+          "args": {
+            "space": "aavedao.eth",
+            "proposal_id": "0xfdcdcb613b3aaa3c60176369c27107c2de62a0bfb477fa792745d6148ed0249d",
+            "token_address": "0xC0259c59D9f980E3b5e2574cD78C9A9Bc6A8E3fc",
+            "chainid": 1,
+            "distribution_source": "topholders",
+            "top_n": 100,
+            "holderlist_page_limit": 0,
+            "cache_dir": ".cache/etherscan"
+          }
+        },
+        "why": "Compute total holders and top-100 holder distribution/concentration for on-chain holder analysis."
+      }
+    ],
+    "notes": "Used proposal metadata and provided vote sample to analyze voting timeline and participation. Holder analysis performed on authoritative token address for Aave governance token to understand distribution and concentration among top holders."
+  },
+  "decision": {
+    "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xfdcdcb613b3aaa3c60176369c27107c2de62a0bfb477fa792745d6148ed0249d",
+    "selected_choice_label": "For",
+    "selected_choice_index": 0,
+    "confidence": 0.6,
+    "summary": "Based on initial voting activity, the proposal is favored by the voters with all recorded votes supporting it. Due to limited vote sample and failure to retrieve holder distribution data, confidence is moderate.",
+    "key_arguments_for": [
+      "Initial votes indicate unanimous support.",
+      "Proposal aligns with ongoing Aave governance objectives."
+    ],
+    "key_arguments_against": [
+      "No opposing votes recorded in initial sample.",
+      "Potential risks or concerns are not evident from voting data."
+    ],
+    "evidence": [
+      {
+        "source_tool": "get_proposal_by_id",
+        "reference": "Proposal metadata",
+        "quote": "Choices: For, Against, Abstain; Start: 2025-08-30T06:01:52Z; End: 2025-09-02T06:01:52Z"
+      },
+      {
+        "source_tool": "analyze_timeline",
+        "reference": "Voting timeline",
+        "quote": "All initial votes (3) are For with vp sum ~0.1684"
+      },
+      {
+        "source_tool": "resolve_tokens",
+        "reference": "Governance token address",
+        "quote": "0xC0259c59D9f980E3b5e2574cD78C9A9Bc6A8E3fc"
+      }
+    ],
+    "available_choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-08-30T06:01:52Z",
+    "event_end_utc": "2025-09-02T06:01:52Z",
+    "event_time_utc": "2025-09-02T06:01:52Z",
+    "address_of_governance_token": "0xC0259c59D9f980E3b5e2574cD78C9A9Bc6A8E3fc",
+    "token_price_impact_pct": 0.9061,
+    "tvl_impact_pct": null,
+    "actual_vote_result": {
+      "winner_label": "For",
+      "winner_index": 0,
+      "scores": [
+        533936.1392698507,
+        3.087050706248784,
+        0.0
+      ],
+      "scores_total": 533939.226320557,
+      "margin_abs": 533933.0522191444,
+      "margin_pct": 0.999988
+    },
+    "simulation_reason": "Limited vote data and no holder distribution data available; decision based on early voting trend.",
+    "references": [
+      {
+        "url": "https://governance.aave.com/t/arfc-launch-gho-on-linea-set-aci-as-emissions-manager-for-rewards/22995",
+        "description": "Discussion thread on Aave governance forum"
+      }
+    ]
+  }
+}

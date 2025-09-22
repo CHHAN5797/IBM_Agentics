@@ -1,0 +1,41 @@
+{
+  "captured_at_utc": "2025-09-21T12:54:48.743979+00:00",
+  "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+  "focus": null,
+  "decision": {
+    "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+    "position": "support",
+    "confidence": 0.95,
+    "summary": "The proposal to deploy Aave v3 on Plasma is well-supported by the community, with detailed risk parameters and incentives outlined. Voting results show near unanimous support, indicating strong community backing. The proposal aims to leverage Plasma's high-performance blockchain for Aave's protocol expansion and includes collaboration plans with the Plasma Foundation.",
+    "key_arguments_for": [
+      "Plasma offers zero fees, fast transactions, and strong security suitable for stablecoins.",
+      "Detailed risk parameters have been provided and updated.",
+      "The Plasma Foundation will supply 10M USDT and support Aave incentives exclusively.",
+      "Collaboration opportunities with Plasma for GHO stablecoin adoption and liquidity expansion.",
+      "Community voting results show overwhelming support with 888,349 votes for YAE and negligible opposition."
+    ],
+    "key_arguments_against": [],
+    "evidence": [
+      {
+        "source_tool": "get_proposal_by_id",
+        "reference": "0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+        "quote": "This ARFC proposes the deployment of an Aave V3 Instance on Plasma... The Plasma Foundation will supply 10M USDT and ensure Aave is the only lending protocol receiving incentive distributions."
+      },
+      {
+        "source_tool": "get_proposal_result_by_id",
+        "reference": "0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+        "quote": "Scores: YAE=888,349.88; NAY=0.096; Abstain=0; State=closed."
+      }
+    ],
+    "risks": [
+      "Dependence on Plasma network performance and security over time.",
+      "Potential changes in risk parameters during the ARFC stage may affect deployment safety.",
+      "Operational risks related to integration and incentive management by ACI and Plasma Foundation."
+    ],
+    "follow_up_actions": [
+      "Monitor the ARFC stage for feedback and updates on risk parameters.",
+      "Track the final AIP vote for confirmation and enforcement.",
+      "Observe the performance and adoption metrics of Aave v3 on Plasma post-deployment."
+    ]
+  }
+}

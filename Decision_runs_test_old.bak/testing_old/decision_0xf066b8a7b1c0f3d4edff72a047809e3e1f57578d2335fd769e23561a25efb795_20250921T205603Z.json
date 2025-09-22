@@ -1,0 +1,131 @@
+{
+  "captured_at_utc": "2025-09-21T20:56:03.647021+00:00",
+  "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xf066b8a7b1c0f3d4edff72a047809e3e1f57578d2335fd769e23561a25efb795",
+  "focus": null,
+  "votes_count": 99,
+  "tool_plan": {
+    "objective": "Determine one choice to recommend (ex-post blind) for the Aave proposal based on full voting data, timeline analysis, and on-chain holder distribution/concentration.",
+    "calls": [
+      {
+        "tool": "get_proposal_by_id",
+        "args": {
+          "proposal_id": "0xf066b8a7b1c0f3d4edff72a047809e3e1f57578d2335fd769e23561a25efb795"
+        },
+        "why": "To fetch the full proposal metadata including start and end timestamps necessary for timeline and on-chain analysis."
+      },
+      {
+        "tool": "analyze_timeline",
+        "args": {
+          "args": {
+            "start": 1755756186,
+            "end": 1755996186,
+            "choices": [
+              "For",
+              "Against",
+              "Abstain"
+            ],
+            "votes": [
+              {
+                "id": "0x783d23f39ca2e79e1511b97f63f643583b123c9c7508cbc70f6a66ad94284040",
+                "voter": "0x411302Ee0f24Ad3FEd1C407D665AB26044F056c8",
+                "created": 1755756207,
+                "choice": 1,
+                "vp": 0.000181651865202014,
+                "reason": ""
+              },
+              {
+                "id": "0x70cac0a31baca1eee76701cdfe7c09fead18ae1f5fa6e2019f2072ed081b18b4",
+                "voter": "0x36A8d3BbD2f84d163B19cF8432A8557442918d11",
+                "created": 1755756480,
+                "choice": 1,
+                "vp": 0.5974761744876073,
+                "reason": ""
+              },
+              {
+                "id": "0xab65bd3f63f6dc33a88f616a3e76c4c571d3cd39798ca6bb02a6602098f57bd0",
+                "voter": "0x24a000804704B9557466382A806B6BAa31cf574C",
+                "created": 1755756785,
+                "choice": 1,
+                "vp": 0.001940320275321561,
+                "reason": ""
+              }
+            ]
+          }
+        },
+        "why": "To analyze the voting timeline and participation metrics based on the full vote dataset and proposal voting period."
+      },
+      {
+        "tool": "analyze_onchain",
+        "args": {
+          "args": {
+            "space": "aavedao.eth",
+            "proposal_id": "0xf066b8a7b1c0f3d4edff72a047809e3e1f57578d2335fd769e23561a25efb795",
+            "token_address": "0xC0259c59D9f980E3b5e2574cD78C9A9Bc6A8E3fc",
+            "chain_id": 1
+          }
+        },
+        "why": "To compute total holders and top-100 holder distribution/concentration metrics on-chain for the governance token relevant to this proposal."
+      }
+    ],
+    "notes": "Full votes must be fetched from snapshot.get_votes_all before timeline analysis; initial vote samples given. Proposal start/end timestamps derived from event times and proposal metadata."
+  },
+  "decision": {
+    "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xf066b8a7b1c0f3d4edff72a047809e3e1f57578d2335fd769e23561a25efb795",
+    "selected_choice_label": "For",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "The proposal received unanimous votes for 'For' in the analyzed sample with voting power of 0.6. Despite limited vote count in the sample, voting timeline shows concentrated support. On-chain holder distribution analysis was unavailable due to tool error. Given the proposal context and voting data, 'For' is recommended.",
+    "key_arguments_for": [
+      "Unanimous votes observed in the voting timeline analysis sample",
+      "Voting power support strongly favors 'For'",
+      "Proposal aims to launch GHO on Ink and set emissions manager, aligning with protocol growth"
+    ],
+    "key_arguments_against": [
+      "No opposing votes recorded in the sample",
+      "Limited vote participation data available",
+      "On-chain holder distribution metrics unavailable for deeper assessment"
+    ],
+    "evidence": [
+      {
+        "source_tool": "get_proposal_by_id",
+        "reference": "proposal metadata",
+        "quote": "Choices: ['For', 'Against', 'Abstain'], Start: 1755756186, End: 1756015386"
+      },
+      {
+        "source_tool": "analyze_timeline",
+        "reference": "voting timeline analysis",
+        "quote": "3 votes for 'For', total vp 0.5996, no votes against or abstain"
+      }
+    ],
+    "available_choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-08-21T06:03:06Z",
+    "event_end_utc": "2025-08-24T06:03:06Z",
+    "event_time_utc": "2025-08-24T06:03:06Z",
+    "address_of_governance_token": "0xC0259c59D9f980E3b5e2574cD78C9A9Bc6A8E3fc",
+    "token_price_impact_pct": 4.6676,
+    "tvl_impact_pct": null,
+    "actual_vote_result": {
+      "winner_label": "For",
+      "winner_index": 0,
+      "scores": [
+        890826.0429543483,
+        0.09615768208900824,
+        0.0
+      ],
+      "scores_total": 890826.1391120303,
+      "margin_abs": 890825.9467966661,
+      "margin_pct": 1.0
+    },
+    "simulation_reason": "Analysis based on limited vote sample and no on-chain holder data due to tool failure; recommendation is blind ex-post based on available evidence.",
+    "references": [
+      {
+        "url": "https://governance.aave.com/t/arfc-launch-gho-on-ink-set-aci-as-emissions-manager-for-rewards/22664",
+        "description": "Proposal discussion"
+      }
+    ]
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "captured_at_utc": "2025-09-21T19:02:03.818350+00:00",
+  "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+  "focus": null,
+  "votes_count": 103,
+  "tool_plan": {
+    "objective": "Determine one choice to recommend (ex-post blind) for the proposal 0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd in aavedao.eth.",
+    "calls": [
+      {
+        "tool": "get_proposal_by_id",
+        "args": {
+          "proposal_id": "0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd"
+        },
+        "why": "Fetch proposal meta including start and end timestamps needed for timeline analysis."
+      },
+      {
+        "tool": "analyze_timeline",
+        "args": {
+          "args": {
+            "start": 1757151843,
+            "end": 1757401043,
+            "choices": [
+              "YAE",
+              "NAY",
+              "Abstain"
+            ],
+            "votes": [
+              {
+                "id": "0x5bf16ab94ba458a7f1f7a8de2f1b1e2415c3f47ad0233c22cbeefd04a4ca842c",
+                "voter": "0x4Bb32D86606f0601aaD2aE36C8b153968544Dee2",
+                "created": 1757151779,
+                "choice": 2,
+                "vp": 0.09615768208900824,
+                "reason": ""
+              },
+              {
+                "id": "0xff006c2ec5bcac421e99ee1bd00c181ddb3034944e5a883ac57335cb8cfa9b18",
+                "voter": "0x6b93fd74725EB032C06665e1A1722057E5fCf56c",
+                "created": 1757151952,
+                "choice": 1,
+                "vp": 0.04180250100624458,
+                "reason": ""
+              },
+              {
+                "id": "0xa1f3da0df022bedbca3b7201bdf13d6276aa58d3a90925fd168fa712427a25ee",
+                "voter": "0xeF19857141d0fB8FaefeD4a5fCE60fC67D547B1a",
+                "created": 1757152049,
+                "choice": 1,
+                "vp": 0.024307147552189445,
+                "reason": ""
+              }
+            ]
+          }
+        },
+        "why": "Analyze the voting timeline and participation to understand vote dynamics and support levels."
+      },
+      {
+        "tool": "analyze_holders",
+        "args": {
+          "args": {
+            "space": "aavedao.eth",
+            "proposal_id": "0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+            "token_address": "0xC0259c59D9f980E3b5e2574cD78C9A9Bc6A8E3fc",
+            "chainid": 1,
+            "distribution_source": "topholders",
+            "top_n": 100,
+            "holderlist_page_limit": 0,
+            "cache_dir": ".cache/etherscan"
+          }
+        },
+        "why": "Compute total holders and top-100 holder distribution/concentration for on-chain governance token distribution."
+      }
+    ],
+    "notes": "Start and end timestamps are from proposal metadata; votes sample provided are partial, full votes to be fetched for timeline analysis."
+  },
+  "decision": {
+    "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+    "selected_choice_label": "NAY",
+    "selected_choice_index": 1,
+    "confidence": 0.6,
+    "summary": "Proposal to deploy Aave v3 on Plasma with mixed early votes showing more vote power currently for NAY, but with limited vote data and incomplete on-chain holder analysis. Further data needed for definitive decision.",
+    "key_arguments_for": [
+      "Deployment of Aave v3 on Plasma could enhance scalability and performance.",
+      "Community discussion available at the governance forum supports technical merit."
+    ],
+    "key_arguments_against": [
+      "Concerns about security and stability of Plasma deployment.",
+      "Early voting indicates some opposition among voters."
+    ],
+    "evidence": [
+      {
+        "source_tool": "get_proposal_by_id",
+        "reference": "Proposal metadata including choices and timestamps",
+        "quote": "\"choices\": [\"YAE\", \"NAY\", \"Abstain\"], \"start\": 1757151443, \"end\": 1757410643"
+      },
+      {
+        "source_tool": "analyze_timeline",
+        "reference": "Partial voting timeline analysis",
+        "quote": "votes_by_choice: [2, 1, 0], vp_by_choice: [0.06611, 0.096158, 0.0]"
+      }
+    ],
+    "available_choices": [
+      "YAE",
+      "NAY",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-09-06T09:37:23Z",
+    "event_end_utc": "2025-09-09T09:37:23Z",
+    "event_time_utc": "2025-09-09T09:37:23Z",
+    "address_of_governance_token": "0xC0259c59D9f980E3b5e2574cD78C9A9Bc6A8E3fc",
+    "token_price_impact_pct": null,
+    "tvl_impact_pct": null,
+    "actual_vote_result": {
+      "winner_label": "YAE",
+      "winner_index": 0,
+      "scores": [
+        888349.8840217041,
+        0.09615768208900824,
+        0.0
+      ],
+      "scores_total": 888349.9801793862,
+      "margin_abs": 888349.787864022,
+      "margin_pct": 1.0
+    },
+    "simulation_reason": "Insufficient full vote data and on-chain holder analysis due to API limitations.",
+    "references": [
+      {
+        "url": "https://governance.aave.com/t/arfc-deploy-aave-v3-on-plasma/21494/1",
+        "description": "Discussion forum for the proposal"
+      }
+    ]
+  }
+}

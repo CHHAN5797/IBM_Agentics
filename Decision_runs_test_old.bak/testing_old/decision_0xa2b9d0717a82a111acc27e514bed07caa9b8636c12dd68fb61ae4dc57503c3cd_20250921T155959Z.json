@@ -1,0 +1,157 @@
+{
+  "captured_at_utc": "2025-09-21T15:59:59.345544+00:00",
+  "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+  "focus": null,
+  "tool_plan": {
+    "objective": "Determine which option to choose from the proposal's `choices`.",
+    "calls": [
+      {
+        "tool": "resolve_proposal_id_from_url",
+        "args": {
+          "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd"
+        },
+        "why": "To extract the proposal ID needed for subsequent tool calls."
+      },
+      {
+        "tool": "get_proposal_by_id",
+        "args": {
+          "proposal_id": "0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd"
+        },
+        "why": "To retrieve proposal metadata including choices, start time, end time, and discussion link."
+      },
+      {
+        "tool": "get_votes_all",
+        "args": {
+          "proposal_id": "0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd"
+        },
+        "why": "To collect all votes for timeline analysis and participation metrics."
+      },
+      {
+        "tool": "analyze_timeline",
+        "args": {
+          "start": 1757151443,
+          "end": 1757410643,
+          "choices": [
+            "YAE",
+            "NAY",
+            "Abstain"
+          ],
+          "votes": "use votes from get_votes_all"
+        },
+        "why": "To analyze voting dynamics and trends over the proposal's active period."
+      },
+      {
+        "tool": "fetch_discussion",
+        "args": {
+          "url": "https://governance.aave.com/t/arfc-deploy-aave-v3-on-plasma/21494/1"
+        },
+        "why": "To capture forum sentiment and qualitative feedback related to the proposal."
+      },
+      {
+        "tool": "resolve_protocol",
+        "args": {
+          "project_hint": "aavedao"
+        },
+        "why": "To obtain the protocol slug for TVL and price window analysis."
+      },
+      {
+        "tool": "event_window",
+        "args": {
+          "slug": "aave",
+          "event_time_utc": "2025-03-15T00:00:00Z",
+          "pre_days": 7,
+          "post_days": 7
+        },
+        "why": "To analyze TVL changes in a window around the proposal start time."
+      },
+      {
+        "tool": "resolve_tokens",
+        "args": {
+          "project_hint": "aavedao"
+        },
+        "why": "To identify the governance token for price and holder analysis."
+      },
+      {
+        "tool": "price_window",
+        "args": {
+          "token": "AAVE",
+          "start_date": "2025-03-08",
+          "end_date": "2025-03-22",
+          "interval": "1d"
+        },
+        "why": "To observe price dynamics of the governance token around the proposal event."
+      },
+      {
+        "tool": "analyze_holders",
+        "args": {
+          "args": {
+            "space": "aavedao.eth",
+            "proposal_id": "0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+            "token_address": "address_of_governance_token",
+            "chainid": 1,
+            "distribution_source": "topholders",
+            "top_n": 100
+          }
+        },
+        "why": "To evaluate holder distribution and participation proxies for the proposal."
+      },
+      {
+        "tool": "analyze_onchain",
+        "args": {
+          "args": {
+            "space": "aavedao.eth",
+            "proposal_id": "0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+            "token_address": "address_of_governance_token",
+            "chain_id": 1
+          }
+        },
+        "why": "To assess on-chain activity and concentration metrics related to the proposal."
+      }
+    ],
+    "notes": "Replace 'address_of_governance_token' with the actual token address resolved from resolve_tokens. Dates and times are derived from proposal metadata start time."
+  },
+  "decision": {
+    "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+    "selected_choice_label": "YAE",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "The proposal to deploy Aave v3 on Plasma is strongly supported by voting power and detailed in the proposal. The majority of votes favor 'YAE' indicating community approval. Key arguments support the deployment benefits and risk parameters are addressed. No major risks identified from available data.",
+    "key_arguments_for": [
+      "Plasma offers zero fees, fast transactions, and strong security for stablecoins.",
+      "The Plasma team supports Aave's launch and will provide risk parameters.",
+      "Incentives and liquidity campaigns planned to boost adoption.",
+      "Community voting strongly favors approval."
+    ],
+    "key_arguments_against": [
+      "Potential unknowns around risk parameters until final risk providers input.",
+      "Technical and operational risks of deploying on a new chain."
+    ],
+    "evidence": [
+      {
+        "source_tool": "get_proposal_by_id",
+        "reference": "proposal metadata",
+        "quote": "Proposal detailed deployment specs and incentives."
+      },
+      {
+        "source_tool": "get_votes_all",
+        "reference": "votes data",
+        "quote": "Majority voting power supports 'YAE' choice."
+      },
+      {
+        "source_tool": "fetch_discussion",
+        "reference": "forum discussion",
+        "quote": "Community generally positive towards deployment on Plasma."
+      }
+    ],
+    "risks": [
+      "Final risk parameters are pending and may affect deployment risk.",
+      "Potential technical integration challenges on Plasma chain."
+    ],
+    "follow_up_actions": [
+      "Monitor final ARFC stage risk parameters updates.",
+      "Track on-chain activity and holder participation post-deployment.",
+      "Engage further with community for feedback on operational risks."
+    ],
+    "available_choices": null
+  }
+}

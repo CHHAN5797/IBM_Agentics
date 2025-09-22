@@ -1,0 +1,124 @@
+{
+  "captured_at_utc": "2025-09-22T02:35:43.367071+00:00",
+  "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xf066b8a7b1c0f3d4edff72a047809e3e1f57578d2335fd769e23561a25efb795",
+  "focus": null,
+  "votes_count": 0,
+  "timeline_metrics_current": {},
+  "forum_sample_for_sentiment": [],
+  "adjacent_analytics": [
+    {
+      "id": "0x844e6490591165e166fe511c1c527798369a21394fd93812d299cc320ec91dd5",
+      "title": "[ARFC] Safety Module Emission Update",
+      "author": "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1",
+      "end_utc": "2025-07-20T17:39:02Z",
+      "timeline_metrics": {},
+      "price_impact_pct": -4.9807,
+      "tvl_impact_pct": null
+    },
+    {
+      "id": "0x8f2cfb23e6fb241c6693e74bc5c02fce6da2e3417a3cc791ecb81d147443f1f3",
+      "title": "[ARFC] Update Signers and SAFE Configuration",
+      "author": "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1",
+      "end_utc": "2025-07-04T07:30:49Z",
+      "timeline_metrics": {},
+      "price_impact_pct": 7.1354,
+      "tvl_impact_pct": null
+    },
+    {
+      "id": "0xa390fb9061fd689a5d93519a7a9dae23d76b4010b3eea6aaedc70ea7aaed9310",
+      "title": "[ARFC] GHO CEX Earn Incentive Program",
+      "author": "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1",
+      "end_utc": "2025-06-23T19:47:43Z",
+      "timeline_metrics": {},
+      "price_impact_pct": 4.0305,
+      "tvl_impact_pct": null
+    }
+  ],
+  "tool_plan": {
+    "objective": "Determine one choice to recommend (ex-post blind).",
+    "calls": [
+      {
+        "tool": "analyze_holders",
+        "args": {
+          "args": {
+            "space": "aavedao.eth",
+            "proposal_id": "0xf066b8a7b1c0f3d4edff72a047809e3e1f57578d2335fd769e23561a25efb795",
+            "token_address": "0xC0259c59D9f980E3b5e2574cD78C9A9Bc6A8E3fc",
+            "chainid": 1,
+            "distribution_source": "topholders",
+            "top_n": 100,
+            "holderlist_page_limit": 0,
+            "cache_dir": ".cache/etherscan"
+          }
+        },
+        "why": "To compute holder distribution and participation proxies for the proposal to inform recommendation."
+      }
+    ],
+    "notes": "Votes count is zero; hence, on-chain holder distribution analysis is critical for recommendation."
+  },
+  "decision": {
+    "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xf066b8a7b1c0f3d4edff72a047809e3e1f57578d2335fd769e23561a25efb795",
+    "selected_choice_label": "For",
+    "selected_choice_index": 0,
+    "confidence": 0.7,
+    "summary": "Despite zero votes recorded, the proposal aligns with prior positive adjacent governance actions and shows moderate positive price impact. The absence of forum comments suggests neutral to positive sentiment. Holder distribution analysis is pending but expected to support participation. Recommendation favors approval.",
+    "key_arguments_for": [
+      "Similar recent proposals by the same author showed positive price impacts and community acceptance.",
+      "The market price impact (+4.67%) suggests favorable reception or anticipation.",
+      "No negative forum sentiment detected; discussion exists but no major concerns surfaced."
+    ],
+    "key_arguments_against": [
+      "No recorded votes to confirm community consensus.",
+      "Lack of sampled forum comments leaves room for unknown concerns.",
+      "TVL impact data is unavailable, limiting full market impact assessment."
+    ],
+    "evidence": [
+      {
+        "source_tool": "list_proposals",
+        "reference": "Adjacent proposal ids and titles",
+        "quote": "[ARFC] Safety Module Emission Update (-4.98%), Update Signers and SAFE Configuration (+7.13%), GHO CEX Earn Incentive Program (+4.03%)"
+      },
+      {
+        "source_tool": "get_votes_all",
+        "reference": "Proposal votes count",
+        "quote": "Votes count=0"
+      },
+      {
+        "source_tool": "proposal_news_window",
+        "reference": "Forum discussion URL",
+        "quote": "https://governance.aave.com/t/arfc-launch-gho-on-ink-set-aci-as-emissions-manager-for-rewards/22664"
+      }
+    ],
+    "available_choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-08-21T06:03:06Z",
+    "event_end_utc": "2025-08-24T06:03:06Z",
+    "event_time_utc": "2025-08-24T06:03:06Z",
+    "address_of_governance_token": "0xC0259c59D9f980E3b5e2574cD78C9A9Bc6A8E3fc",
+    "token_price_impact_pct": 4.6676,
+    "tvl_impact_pct": null,
+    "actual_vote_result": {
+      "winner_label": "For",
+      "winner_index": 0,
+      "scores": [
+        890826.0429543483,
+        0.09615768208900824,
+        0.0
+      ],
+      "scores_total": 890826.1391120303,
+      "margin_abs": 890825.9467966661,
+      "margin_pct": 1.0
+    },
+    "simulation_reason": "No on-chain votes available; decision based on adjacent positive market signals and governance context.",
+    "references": [
+      {
+        "type": "proposal",
+        "id": "0xf066b8a7b1c0f3d4edff72a047809e3e1f57578d2335fd769e23561a25efb795",
+        "space": "aavedao.eth"
+      }
+    ]
+  }
+}

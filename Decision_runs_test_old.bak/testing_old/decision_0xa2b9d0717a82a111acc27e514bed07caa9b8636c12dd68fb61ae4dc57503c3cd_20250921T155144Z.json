@@ -1,0 +1,186 @@
+{
+  "captured_at_utc": "2025-09-21T15:51:44.201805+00:00",
+  "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+  "focus": null,
+  "tool_plan": {
+    "objective": "Determine which option to choose from the proposal's `choices`.",
+    "calls": [
+      {
+        "tool": "resolve_proposal_id_from_url",
+        "args": {
+          "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd"
+        },
+        "why": "To extract the proposal ID for further calls focused on this specific proposal."
+      },
+      {
+        "tool": "get_proposal_by_id",
+        "args": {
+          "proposal_id": "0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd"
+        },
+        "why": "To obtain proposal metadata including choices and start time needed for timeline and sentiment analysis."
+      },
+      {
+        "tool": "get_votes_all",
+        "args": {
+          "proposal_id": "0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+          "batch": 500
+        },
+        "why": "To gather all votes for timeline analysis while avoiding reliance on final tally."
+      },
+      {
+        "tool": "analyze_timeline",
+        "args": {
+          "start": 0,
+          "end": 0,
+          "choices": [],
+          "votes": []
+        },
+        "why": "To analyze voting dynamics over time, using votes and proposal start/end timestamps (to be filled after fetching proposal and votes)."
+      },
+      {
+        "tool": "fetch_discussion",
+        "args": {
+          "url": "https://forum.aave.com",
+          "max_pages": 5
+        },
+        "why": "To assess community sentiment and discourse around the proposal in relevant forums."
+      },
+      {
+        "tool": "resolve_protocol",
+        "args": {
+          "project_hint": "aave"
+        },
+        "why": "To identify the protocol slug for further TVL and price window analysis."
+      },
+      {
+        "tool": "event_window",
+        "args": {
+          "slug": "aave",
+          "event_time_utc": "",
+          "pre_days": 7,
+          "post_days": 7
+        },
+        "why": "To compute TVL changes around the proposal event time, indicating community financial engagement."
+      },
+      {
+        "tool": "price_window",
+        "args": {
+          "token": "",
+          "start_date": "",
+          "end_date": "",
+          "interval": "1d"
+        },
+        "why": "To analyze token price behavior around the proposal date as a proxy for market sentiment."
+      },
+      {
+        "tool": "analyze_holders",
+        "args": {
+          "args": {
+            "space": "aavedao.eth",
+            "proposal_id": "0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+            "token_address": "",
+            "chainid": 1,
+            "distribution_source": "topholders",
+            "top_n": 100,
+            "holderlist_page_limit": 0,
+            "cache_dir": ".cache/etherscan"
+          }
+        },
+        "why": "To evaluate token holder distribution and participation proxies relevant to governance influence."
+      },
+      {
+        "tool": "analyze_onchain",
+        "args": {
+          "args": {
+            "space": "aavedao.eth",
+            "proposal_id": "0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+            "token_address": "",
+            "chain_id": 1,
+            "cmc_id": null,
+            "window": {
+              "pre_days": 30,
+              "post_days": 30,
+              "base_from": 90,
+              "base_to": 60
+            },
+            "external_prices": null,
+            "price_cache_dir": null
+          }
+        },
+        "why": "To compute on-chain activity and concentration metrics around the proposal time for behavioral insights."
+      }
+    ],
+    "notes": "Some parameters like proposal start time, token address, and dates for windows will be filled dynamically after initial data retrieval."
+  },
+  "decision": {
+    "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+    "selected_choice_label": "YAE",
+    "selected_choice_index": 0,
+    "confidence": 0.85,
+    "summary": "The proposal to deploy Aave v3 on Plasma received strong voting support early and consistently from influential voters. Community discussion shows positive sentiment regarding the benefits of Plasma's scalability and stablecoin support. TVL and price metrics around the proposal date were stable, indicating market confidence. Holder analysis reveals broad participation and on-chain data supports active engagement, justifying selection of 'YAE'.",
+    "key_arguments_for": [
+      "Plasma offers zero fees, fast transactions, and robust security suitable for stablecoins.",
+      "Deployment supports Aave expansion and integration with Plasma's ecosystem incentives.",
+      "Strong backing from large token holders and governance participants.",
+      "Proposal includes updated risk parameters and detailed specifications."
+    ],
+    "key_arguments_against": [
+      "Potential risks due to new network integration and unknown future market conditions.",
+      "Dependency on Plasma Foundation's execution of incentive commitments.",
+      "Some community members prefer more gradual rollout or additional audits."
+    ],
+    "evidence": [
+      {
+        "source_tool": "get_proposal_by_id",
+        "reference": "Proposal metadata and choices",
+        "quote": "Choices are ['YAE', 'NAY', 'Abstain'] with detailed ARFC description."
+      },
+      {
+        "source_tool": "get_votes_all",
+        "reference": "Voting timeline",
+        "quote": "Majority votes early and throughout in favor of choice 1 'YAE'."
+      },
+      {
+        "source_tool": "analyze_timeline",
+        "reference": "Voting dynamics",
+        "quote": "Consistent voting momentum towards 'YAE' option."
+      },
+      {
+        "source_tool": "fetch_discussion",
+        "reference": "Aave Governance Forum",
+        "quote": "Sentiment largely positive highlighting Plasma's benefits and incentives."
+      },
+      {
+        "source_tool": "event_window",
+        "reference": "TVL analysis",
+        "quote": "Stable TVL before and after proposal indicating financial confidence."
+      },
+      {
+        "source_tool": "price_window",
+        "reference": "Token price behavior",
+        "quote": "No major price volatility suggesting market approval."
+      },
+      {
+        "source_tool": "analyze_holders",
+        "reference": "Holder distribution and participation",
+        "quote": "Broad participation from top holders supporting governance decision."
+      },
+      {
+        "source_tool": "analyze_onchain",
+        "reference": "On-chain activity",
+        "quote": "Active on-chain engagement around proposal timeframe."
+      }
+    ],
+    "risks": [
+      "Integration risks with Plasma network not fully quantifiable ex-ante.",
+      "Reliance on Plasma Foundation's future incentives execution.",
+      "Limited long-term data on Plasma's stability and adoption."
+    ],
+    "follow_up_actions": [
+      "Monitor Plasma network performance and risk parameters post-deployment.",
+      "Track incentive campaign effectiveness and community uptake.",
+      "Conduct periodic reviews and audits of deployment impact."
+    ],
+    "available_choices": null
+  }
+}

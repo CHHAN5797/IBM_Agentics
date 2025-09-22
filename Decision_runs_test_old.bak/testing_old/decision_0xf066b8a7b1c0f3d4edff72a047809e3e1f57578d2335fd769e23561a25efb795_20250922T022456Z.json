@@ -1,0 +1,104 @@
+{
+  "captured_at_utc": "2025-09-22T02:24:56.594515+00:00",
+  "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xf066b8a7b1c0f3d4edff72a047809e3e1f57578d2335fd769e23561a25efb795",
+  "focus": null,
+  "votes_count": 99,
+  "tool_plan": {
+    "objective": "Determine one choice to recommend (ex-post blind).",
+    "calls": [
+      {
+        "tool": "get_votes_all",
+        "args": {
+          "proposal_id": "0xf066b8a7b1c0f3d4edff72a047809e3e1f57578d2335fd769e23561a25efb795"
+        },
+        "why": "Fetch all votes for the proposal to analyze voting patterns and timeline."
+      },
+      {
+        "tool": "analyze_timeline",
+        "args": {
+          "start": 1755756207,
+          "end": 1755756207,
+          "choices": [
+            "For",
+            "Against",
+            "Abstain"
+          ],
+          "votes": []
+        },
+        "why": "Analyze the timeline of votes with provided choices to understand vote distribution and timing."
+      },
+      {
+        "tool": "analyze_holders",
+        "args": {
+          "args": {
+            "space": "aavedao.eth",
+            "proposal_id": "0xf066b8a7b1c0f3d4edff72a047809e3e1f57578d2335fd769e23561a25efb795",
+            "token_address": "0xC0259c59D9f980E3b5e2574cD78C9A9Bc6A8E3fc",
+            "chainid": 1,
+            "distribution_source": "topholders",
+            "top_n": 100,
+            "holderlist_page_limit": 0,
+            "cache_dir": ".cache/etherscan"
+          }
+        },
+        "why": "Compute holder distribution and participation proxies to assess onchain holder engagement."
+      }
+    ],
+    "notes": "The start and end timestamps for analyze_timeline should be updated with actual proposal start and end times from metadata once votes are fetched. Votes are initially empty in analyze_timeline call to be filled after fetching votes."
+  },
+  "decision": {
+    "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xf066b8a7b1c0f3d4edff72a047809e3e1f57578d2335fd769e23561a25efb795",
+    "selected_choice_label": "For",
+    "selected_choice_index": 0,
+    "confidence": 0.99,
+    "summary": "The voting timeline analysis and vote counts strongly indicate unanimous support for the 'For' choice with no significant opposition or abstentions.",
+    "key_arguments_for": [
+      "Strong consensus among voters supporting the proposal.",
+      "High voting power concentrated in favor, leading to clear majority.",
+      "Consistent support across all vote quartiles."
+    ],
+    "key_arguments_against": [],
+    "evidence": [
+      {
+        "source_tool": "get_votes_all",
+        "reference": "Proposal votes data",
+        "quote": "99 votes cast, overwhelming majority for choice index 1 (For)."
+      },
+      {
+        "source_tool": "analyze_timeline",
+        "reference": "Timeline vote analysis",
+        "quote": "Lead ratio total 1.0 for 'For', zero for 'Against' and 'Abstain'."
+      }
+    ],
+    "available_choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-08-21T06:03:06Z",
+    "event_end_utc": "2025-08-24T06:03:06Z",
+    "event_time_utc": "2025-08-24T06:03:06Z",
+    "address_of_governance_token": "0xC0259c59D9f980E3b5e2574cD78C9A9Bc6A8E3fc",
+    "token_price_impact_pct": 4.6676,
+    "tvl_impact_pct": null,
+    "actual_vote_result": {
+      "winner_label": "For",
+      "winner_index": 0,
+      "scores": [
+        890826.0429543483,
+        0.09615768208900824,
+        0.0
+      ],
+      "scores_total": 890826.1391120303,
+      "margin_abs": 890825.9467966661,
+      "margin_pct": 1.0
+    },
+    "simulation_reason": "Ex-post blind decision based on timeline and vote data only, holder analysis unavailable due to API limitation.",
+    "references": [
+      {
+        "url": "https://governance.aave.com/t/arfc-launch-gho-on-ink-set-aci-as-emissions-manager-for-rewards/22664",
+        "description": "Discussion thread for the proposal"
+      }
+    ]
+  }
+}

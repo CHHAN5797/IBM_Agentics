@@ -56,15 +56,16 @@ def _is_discourse(url: str) -> bool:
     return h in FORUM_HOSTS and "/t/" in path
 
 def _with_page_json(u: str, page: int) -> str:
-
     pu = urlparse(u if u.endswith(".json") else (u.rstrip("/") + ".json"))
     q = dict(parse_qsl(pu.query))
+    q["include_raw"] = "1"
     if page > 1:
         q["page"] = str(page)
     else:
         q.pop("page", None)
     pu2 = pu._replace(query=urlencode(q))
     return urlunparse(pu2)
+
 
 def _get(url: str) -> requests.Response:
 
@@ -100,25 +101,33 @@ mcp = FastMCP("ForumsMCP")
 def fetch_discussion(url: str, max_pages: int = 5) -> Dict[str, Any]:
     """
     Fetch a Discourse thread as JSON with pagination; return normalized structure.
+    - If host/path not whitelisted, still try <url>.json and detect `post_stream`.
     """
-    if not _is_discourse(url):
-        return {"type": "generic", "note": "Not a known Discourse host/path", "url": url}
+    def is_discourse_like(resp_json: dict) -> bool:
+        return isinstance(resp_json, dict) and ("post_stream" in resp_json or "posts_count" in resp_json)
 
     posts: List[Dict[str, Any]] = []
     header: Dict[str, Any] = {}
     posts_count_expected: Optional[int] = None
     seen_ids: set[int] = set()
 
+    tried_whitelist = _is_discourse(url)
     for page in range(1, (max_pages if max_pages > 0 else 9999) + 1):
+        # Try Discourse JSON endpoint regardless of whitelist
         u = _with_page_json(url, page)
         rr = _get(u)
         if rr.status_code == 304:
-            
             break
         if rr.status_code != 200:
+            # If first page fails and not whitelisted → 멈추기
+            if page == 1 and not tried_whitelist:
+                return {"type": "generic", "note": "Not a Discourse JSON page", "url": url, "status": rr.status_code}
             break
 
         j = rr.json()
+        if page == 1 and not (tried_whitelist or is_discourse_like(j)):
+            return {"type": "generic", "note": "JSON fetched but not Discourse-like", "url": url}
+
         if page == 1:
             posts_count_expected = j.get("posts_count")
             header = {

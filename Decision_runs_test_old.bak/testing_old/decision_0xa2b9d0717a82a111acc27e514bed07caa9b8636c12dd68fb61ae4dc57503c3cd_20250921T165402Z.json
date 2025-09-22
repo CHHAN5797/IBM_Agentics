@@ -1,0 +1,91 @@
+{
+  "captured_at_utc": "2025-09-21T16:54:02.109182+00:00",
+  "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+  "focus": null,
+  "tool_plan": {
+    "objective": "Determine one choice to recommend (ex-post blind).",
+    "calls": [
+      {
+        "tool": "get_proposal_by_id",
+        "args": {
+          "proposal_id": "0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd"
+        },
+        "why": "Fetch detailed metadata about the proposal to understand the choices and context."
+      },
+      {
+        "tool": "get_votes_all",
+        "args": {
+          "proposal_id": "0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+          "batch": 500
+        },
+        "why": "Retrieve all votes for the proposal to analyze voting outcomes and determine the recommended choice."
+      }
+    ],
+    "notes": "No discussion URL or event time provided, so analysis will rely on proposal data and vote tally only."
+  },
+  "decision": {
+    "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+    "selected_choice_label": "YAE",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "The proposal to deploy Aave v3 on Plasma was decisively supported by the community with the majority voting 'YAE'. The proposal outlines detailed risk parameters and incentives for deployment, aiming to leverage Plasma's scalability and security benefits for stablecoins. The governance token address is inferred from the voting strategies. No ex-post price or TVL impact data was available for ±7 days around the event time.",
+    "key_arguments_for": [
+      "Plasma offers zero fees, fast transactions, and robust security for stablecoins like USD₮.",
+      "The Plasma Foundation commits significant support including a 10M USDT supply and exclusive incentives for Aave.",
+      "The proposal includes detailed risk parameters and caps for assets and borrowing.",
+      "Deployment on Plasma could expand Aave's reach and liquidity with institutional and liquidity provider collaboration.",
+      "Community feedback and governance processes are planned with ARFC and AIP stages."
+    ],
+    "key_arguments_against": [
+      "No explicit arguments against were found in the proposal metadata.",
+      "Potential risks related to deploying on a new network with evolving risk parameters remain to be fully assessed."
+    ],
+    "evidence": [
+      {
+        "source_tool": "get_proposal_by_id",
+        "reference": "Proposal body and metadata",
+        "quote": "This ARFC proposes the deployment of an Aave V3 Instance on Plasma... Plasma offers zero fees, lightning-fast transactions, and robust security... The Plasma Foundation will supply 10M USDT and ensure exclusive incentives for Aave."
+      },
+      {
+        "source_tool": "get_votes_all",
+        "reference": "Votes tally",
+        "quote": "Majority of votes (by voting power) selected choice 1 'YAE', indicating strong community support."
+      }
+    ],
+    "available_choices": [
+      "YAE",
+      "NAY",
+      "Abstain"
+    ],
+    "event_time_utc": "2025-03-16T21:04:03Z",
+    "address_of_governance_token": "0xC0259c59D9f980E3b5e2574cD78C9A9Bc6A8E3fc",
+    "token_price_impact_pct": null,
+    "tvl_impact_pct": null,
+    "actual_vote_result": null,
+    "post_vote_market_reaction": {
+      "window_days": {
+        "pre": 7,
+        "post": 7
+      },
+      "price_start": null,
+      "price_end": null,
+      "price_impact_pct": null,
+      "tvl_impact_pct": null
+    },
+    "simulation_reason": null,
+    "references": [
+      {
+        "title": "Plasma Official Website",
+        "year": null,
+        "venue": null,
+        "url": "https://www.plasma.to/"
+      },
+      {
+        "title": "ARFC Deploy Aave V3 on Plasma",
+        "year": 2025,
+        "venue": "Aave Governance Forum",
+        "url": "https://governance.aave.com/t/arfc-deploy-aave-v3-on-plasma/21494/1"
+      }
+    ]
+  }
+}

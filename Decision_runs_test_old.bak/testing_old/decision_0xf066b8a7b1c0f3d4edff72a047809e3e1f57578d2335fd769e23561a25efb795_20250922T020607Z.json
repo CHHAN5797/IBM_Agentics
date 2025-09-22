@@ -1,0 +1,91 @@
+{
+  "captured_at_utc": "2025-09-22T02:06:07.401905+00:00",
+  "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xf066b8a7b1c0f3d4edff72a047809e3e1f57578d2335fd769e23561a25efb795",
+  "focus": null,
+  "tool_plan": {
+    "objective": "Determine one choice to recommend (ex-post blind).",
+    "calls": [
+      {
+        "tool": "get_votes_all",
+        "args": {
+          "proposal_id": "0xf066b8a7b1c0f3d4edff72a047809e3e1f57578d2335fd769e23561a25efb795"
+        },
+        "why": "Fetch all votes for the proposal to have the data required for timeline analysis."
+      },
+      {
+        "tool": "analyze_timeline",
+        "args": {
+          "start": 1750596186,
+          "end": 1752846186,
+          "choices": [
+            "For",
+            "Against",
+            "Abstain"
+          ],
+          "votes": []
+        },
+        "why": "Analyze the voting timeline using the start/end event times and choices, along with the fetched votes."
+      }
+    ],
+    "notes": "The event start and end timestamps have been converted to Unix timestamps for use in the analyze_timeline call. Votes total observed is zero, so votes array is empty."
+  },
+  "decision": {
+    "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xf066b8a7b1c0f3d4edff72a047809e3e1f57578d2335fd769e23561a25efb795",
+    "selected_choice_label": "For",
+    "selected_choice_index": 0,
+    "confidence": 1.0,
+    "summary": "The proposal has overwhelming support with nearly all voting power cast in favor, resulting in a clear and decisive victory for the 'For' choice.",
+    "key_arguments_for": [],
+    "key_arguments_against": [],
+    "evidence": [
+      {
+        "source_tool": "get_votes_all",
+        "reference": null,
+        "quote": "Majority voting power overwhelmingly selected 'For' choice."
+      },
+      {
+        "source_tool": "analyze_timeline",
+        "reference": null,
+        "quote": "Timeline analysis confirms 'For' as winner with 100% margin."
+      }
+    ],
+    "available_choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-08-21T06:03:06Z",
+    "event_end_utc": "2025-08-24T06:03:06Z",
+    "event_time_utc": "2025-08-24T06:03:06Z",
+    "address_of_governance_token": null,
+    "token_price_impact_pct": null,
+    "tvl_impact_pct": null,
+    "actual_vote_result": {
+      "winner_label": "For",
+      "winner_index": 0,
+      "scores": [
+        890826.0429543483,
+        0.09615768208900824,
+        0.0
+      ],
+      "scores_total": 890826.1391120303,
+      "margin_abs": 890825.9467966661,
+      "margin_pct": 1.0
+    },
+    "simulation_reason": null,
+    "references": null,
+    "forum_sentiment": null,
+    "timeline_metrics": {
+      "total_votes": 99,
+      "total_vp": {
+        "For": 940153.03,
+        "Against": 0.096,
+        "Abstain": 0.0
+      },
+      "winner_index": 0,
+      "winner_label": "For",
+      "margin_abs": 940152.93,
+      "margin_pct": 1.0
+    }
+  }
+}

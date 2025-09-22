@@ -1,0 +1,121 @@
+{
+  "captured_at_utc": "2025-09-22T01:51:31.711645+00:00",
+  "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xf066b8a7b1c0f3d4edff72a047809e3e1f57578d2335fd769e23561a25efb795",
+  "focus": null,
+  "tool_plan": {
+    "objective": "Determine one choice to recommend (ex-post blind).",
+    "calls": [
+      {
+        "tool": "get_votes_all",
+        "args": {},
+        "why": "Fetch all votes for the proposal to analyze voting patterns."
+      },
+      {
+        "tool": "analyze_timeline",
+        "args": {},
+        "why": "Analyze the voting timeline based on the fetched votes and proposal timing to determine the recommended choice."
+      }
+    ],
+    "notes": "The start and end timestamps correspond to EVENT_START_UTC and EVENT_END_UTC respectively. The votes from the first tool will be used in the second tool call."
+  },
+  "decision": {
+    "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xf066b8a7b1c0f3d4edff72a047809e3e1f57578d2335fd769e23561a25efb795",
+    "selected_choice_label": "For",
+    "selected_choice_index": 0,
+    "confidence": 1.0,
+    "summary": "The voting timeline analysis shows unanimous and stable support for the 'For' choice throughout the voting period, with a large voting power backing it.",
+    "key_arguments_for": [
+      "Strong early and consistent support in voting power.",
+      "Unanimous lead in all quartiles of voting timeline.",
+      "High stability and early voting ratios supporting 'For'."
+    ],
+    "key_arguments_against": [
+      "Minimal voting power for 'Against' and 'Abstain', indicating weak opposition."
+    ],
+    "evidence": [
+      {
+        "source_tool": "get_votes_all",
+        "reference": "Proposal ID 0xf066b8a7b1c0f3d4edff72a047809e3e1f57578d2335fd769e23561a25efb795",
+        "quote": "Majority voting power consistently for choice 1 ('For')"
+      },
+      {
+        "source_tool": "analyze_timeline",
+        "reference": "Voting timeline analysis",
+        "quote": "Lead ratio total and stability metrics at 1.0 for 'For' choice"
+      }
+    ],
+    "available_choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-08-21T06:03:06Z",
+    "event_end_utc": "2025-08-24T06:03:06Z",
+    "event_time_utc": "2025-08-24T06:03:06Z",
+    "address_of_governance_token": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+    "token_price_impact_pct": null,
+    "tvl_impact_pct": null,
+    "actual_vote_result": {
+      "winner_label": "For",
+      "winner_index": 0,
+      "scores": [
+        890826.0429543483,
+        0.09615768208900824,
+        0.0
+      ],
+      "scores_total": 890826.1391120303,
+      "margin_abs": 890825.9467966661,
+      "margin_pct": 1.0
+    },
+    "simulation_reason": null,
+    "references": null,
+    "forum_sentiment": null,
+    "timeline_metrics": {
+      "unique_voters": 96,
+      "total_votes": 96,
+      "first_vote_at": "2025-08-21T06:41:18Z",
+      "last_vote_at": "2025-08-24T01:56:18Z",
+      "lead_ratio_total": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "stability": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "early_ratio": [
+        1.0,
+        0.0,
+        0.0
+      ],
+      "vp_by_quartile": [
+        [
+          771536.3893254359,
+          0.09615768208900824,
+          0.0
+        ],
+        [
+          74427.79325450548,
+          0.0,
+          0.0
+        ],
+        [
+          5230.909222803614,
+          0.0,
+          0.0
+        ],
+        [
+          39630.35155345645,
+          0.0,
+          0.0
+        ]
+      ],
+      "spike_index": 0.37381,
+      "spike_follow_support_ratio": 1.0,
+      "stairwise_ratio": 0.019632,
+      "half_slope_diff": -18.415526
+    }
+  }
+}

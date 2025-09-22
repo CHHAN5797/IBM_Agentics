@@ -1,0 +1,161 @@
+{
+  "captured_at_utc": "2025-09-21T16:49:26.603014+00:00",
+  "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+  "focus": null,
+  "tool_plan": {
+    "objective": "Determine which option to choose from the proposal's `choices` while remaining ex-post blind; do not use final scores/tally. Use timeline-only metrics, forums sentiment, TVL/price windows, holders & on-chain activity.",
+    "calls": [
+      {
+        "tool": "get_proposal_by_id",
+        "args": {
+          "proposal_id": "0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd"
+        },
+        "why": "To obtain the proposal metadata including start and end timestamps, choices, discussion link, and space information necessary for further analysis."
+      },
+      {
+        "tool": "get_votes_all",
+        "args": {
+          "proposal_id": "0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+          "batch": 500
+        },
+        "why": "To gather all votes data to enable timeline analysis without using final tally or scores."
+      },
+      {
+        "tool": "analyze_timeline",
+        "args": {
+          "start": 1757151443,
+          "end": 1757410643,
+          "choices": [
+            "YAE",
+            "NAY",
+            "Abstain"
+          ],
+          "votes": []
+        },
+        "why": "To analyze voting patterns over time using votes and proposal start/end timestamps, enabling ex-post blind insights about voter behavior."
+      },
+      {
+        "tool": "fetch_discussion",
+        "args": {
+          "url": "https://governance.aave.com/t/arfc-deploy-aave-v3-on-plasma/21494/1",
+          "max_pages": 5
+        },
+        "why": "To collect forum sentiment and community discussion related to the proposal around the event time."
+      },
+      {
+        "tool": "resolve_protocol",
+        "args": {
+          "project_hint": "aave"
+        },
+        "why": "To identify the protocol slug for further on-chain and TVL/price analysis."
+      },
+      {
+        "tool": "event_window",
+        "args": {
+          "slug": "aave",
+          "event_time_utc": "2025-03-15T00:00:00Z",
+          "pre_days": 7,
+          "post_days": 7
+        },
+        "why": "To compute pre/post TVL statistics around the proposal voting end event time."
+      },
+      {
+        "tool": "resolve_tokens",
+        "args": {
+          "project_hint": "aave",
+          "prefer_governance": true
+        },
+        "why": "To identify the governance token address for holder and on-chain activity analysis."
+      },
+      {
+        "tool": "analyze_holders",
+        "args": {
+          "args": {
+            "space": "aavedao.eth",
+            "proposal_id": "0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+            "token_address": null,
+            "chainid": 1,
+            "distribution_source": "topholders",
+            "top_n": 100,
+            "holderlist_page_limit": 0,
+            "cache_dir": ".cache/etherscan"
+          }
+        },
+        "why": "To analyze the distribution and participation of token holders relevant to the proposal."
+      },
+      {
+        "tool": "analyze_onchain",
+        "args": {
+          "args": {
+            "space": "aavedao.eth",
+            "proposal_id": "0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+            "token_address": null,
+            "chain_id": 1,
+            "cmc_id": null,
+            "window": {
+              "pre_days": 30,
+              "post_days": 30,
+              "base_from": 90,
+              "base_to": 60
+            },
+            "external_prices": null,
+            "price_cache_dir": null
+          }
+        },
+        "why": "To assess on-chain activity and concentration metrics around the proposal event time for governance evaluation."
+      }
+    ],
+    "notes": "The plan avoids using final tally or scores and focuses on contemporaneous data and metrics around the voting end event time. It includes proposal metadata, vote timeline, forum discussion, protocol and token resolution, TVL and price event windows, holder distribution, and on-chain activity analysis."
+  },
+  "decision": {
+    "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+    "selected_choice_label": "YAE",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "The proposal to deploy Aave v3 on Plasma received overwhelming early and total vote support, indicating strong community approval. The forum discussions highlight cautious optimism with detailed risk assessments pointing out the nascent state of Plasma's network and pending mainnet launch, but no infrastructural blockers. The governance token address is identified, but TVL and price impact data are unavailable due to missing TVL cache.",
+    "key_arguments_for": [
+      "Plasma offers zero-fee, high-performance blockchain tailored for stablecoins, promising fast transactions and strong security.",
+      "Strong early community support in voting timeline analysis with 99% early and total vote share for 'YAE'.",
+      "Detailed risk assessments from LlamaRisk and ChaosLabs, while cautious, do not present blockers and recommend proceeding with deployment.",
+      "Plasma's ecosystem includes major partners and infrastructure, with planned integration of major stablecoins and BTC bridge."
+    ],
+    "key_arguments_against": [
+      "Plasma is in early development with no fully live mainnet yet, raising technical and security uncertainties.",
+      "Lack of public audits and incomplete documentation at the time of the proposal.",
+      "Potential centralization risks from initial validator setup and token distribution.",
+      "No TVL and price impact data available for ex-post analysis due to missing TVL cache."
+    ],
+    "evidence": [
+      {
+        "source_tool": "get_proposal_by_id",
+        "reference": "proposal metadata",
+        "quote": "Choices: ['YAE', 'NAY', 'Abstain'], Voting period ended 2025-03-15T00:00:43Z"
+      },
+      {
+        "source_tool": "analyze_timeline",
+        "reference": "vote timeline analysis",
+        "quote": "Lead ratio total 99% for 'YAE' option; strong early and stable support"
+      },
+      {
+        "source_tool": "fetch_discussion",
+        "reference": "forum sentiment LlamaRisk and ChaosLabs",
+        "quote": "LlamaRisk and ChaosLabs provide cautious but supportive risk assessments; no infrastructural blockers found"
+      }
+    ],
+    "risks": [
+      "Absence of TVL and price impact data limits assessment of economic impact of proposal.",
+      "Plasma network is in early stages; mainnet launch and full audits pending.",
+      "Potential centralization and technical risks due to early-stage network and validator setup."
+    ],
+    "follow_up_actions": [
+      "Monitor Plasma mainnet launch and obtain updated risk assessments post-launch.",
+      "Refresh TVL data and recompute price and TVL impact metrics once data becomes available.",
+      "Conduct further audits and security reviews before full deployment."
+    ],
+    "available_choices": null,
+    "event_time_utc": "2025-03-15T00:00:43Z",
+    "address_of_governance_token": "0xC0259c59D9f980E3b5e2574cD78C9A9Bc6A8E3fc",
+    "token_price_impact_pct": null,
+    "tvl_impact_pct": null
+  }
+}

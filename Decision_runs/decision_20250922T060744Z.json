@@ -1,0 +1,476 @@
+{
+  "captured_at_utc": "2025-09-22T06:07:44.766633+00:00",
+  "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xf066b8a7b1c0f3d4edff72a047809e3e1f57578d2335fd769e23561a25efb795",
+  "focus": null,
+  "votes_count": 99,
+  "timeline_metrics_current": {
+    "unique_voters": 99,
+    "total_votes": 99,
+    "first_vote_at": "2025-08-21T06:03:27Z",
+    "last_vote_at": "2025-08-24T01:56:18Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        771536.9889235826,
+        0.09615768208900824,
+        0.0
+      ],
+      [
+        74427.79325450548,
+        0.0,
+        0.0
+      ],
+      [
+        5230.909222803614,
+        0.0,
+        0.0
+      ],
+      [
+        39630.35155345645,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.37381,
+    "spike_follow_support_ratio": 1.0,
+    "stairwise_ratio": 0.019632,
+    "half_slope_diff": -18.415526
+  },
+  "forum_sample_for_sentiment": [
+    {
+      "author": "TokenLogic",
+      "created": "2025-07-23T17:33:50.204Z",
+      "body": "title: \\[ARFC\\] Launch GHO on Ink & set ACI as Emissions Manager for Rewards\nauthor: TokenLogic\ncreated: 2025-07-23\n\n## Summary\n\nThis proposal aims to launch GHO on the Ink blockchain and designate ACI as the Emissions Manager for GHO and aGHO, facilitating potential rewards and incentive programs.\n\n## Motivation\n\nFollowing the successful multichain expansion of GHO to Arbitrum, Base, Avalanche launching GHO on Ink represents the next step in growing GHO’s presence.\n\nInk is an EVM-compatible, modular Layer 2 focused on scalable, capital-efficient DeFi applications brought to life by Kraken. With Aave’s anticipated deployment on Ink, bringing GHO to the network simultaneously ensures GHO becomes a foundational stablecoin in the ecosystem from day one.\n\nThis ARFC seeks community support to approve the launch of GHO on Ink, ensuring the coordination of technical deployment, risk management, and ecosystem alignment.\n\nAs learned from previous launches, successful expansion of GHO requires:\n\n* Coordinated implementation of protocol and bridging infrastructure\n* Definition of risk parameters tailored to Ink’s ecosystem\n* Collaboration with local DEXs and applications for utility and liquidity\n* Early incentive programs and strategic ecosystem engagement\n\n## Specification\n\nInk will be the next immediate focus for GHO growth alongside the Aave instance launch.\n\nThe proposed launch of GHO on Ink involves the following components and responsibilities:\n\n| Service Provider | Responsibility |\n|----|----|\n| Aave Labs + Certora | Deploy GHO infrastructure and CCIP bridge |\n| TokenLogic | Deploy Facilitator, GSM, and Steward config |\n| Chaos Labs + Risk Llama | Set and monitor risk parameters |\n| ACI + TokenLogic | Incentive design and emissions distribution |\n| Aave Liquidity Committee | Coordinate DEX liquidity |\n| GHO Stewards | Maintain risk parameters over time |\n\nACI multisig address: `0xac140648435d03f784879cd789130F22Ef588Fcd`\n\nTimeline and exact implementation details will follow in subsequent AIPs after ARFC approval.\n\n### GHO Parameters for Aave v3 Ink Deployment\n\n| Parameter | Value |\n|----|----|\n| Asset | GHO |\n| Market | Ink |\n| Isolation Mode | No |\n| Borrowable | Yes |\n| Collateral Enabled | No |\n| Supply Cap | 5,000,000 |\n| Borrow Cap | 4,500,000 |\n| Debt Ceiling | \\- |\n| LTV | \\- |\n| LT | \\- |\n| Liquidation Bonus | \\- |\n| Liquidation Protocol Fee | \\- |\n| Variable Base | 0% |\n| Variable Slope1 | 5.5% |\n| Variable Slope2 | 50% |\n| Uoptimal | 90% |\n| Reserve Factor | 10% |\n| Stable Borrowing | Disabled |\n| Flashloanable | Yes |\n| Siloed Borrowing | No |\n| Borrowable in Isolation | No |\n| E-Mode Category | N/A |\n\n### Facilitator and CCIP Configuration\n\nA `GhoDirectMinter` facilitator will be deployed on Ethereum to support GHO issuance for Ink:\n\n| Parameter | Value |\n|----|----|\n| Mint Cap | 15M GHO |\n\nCCIP configuration to support bridging to Ink:\n\n| Parameter | Value |\n|----|----|\n| Bucket Capacity | 15M GHO |\n| Inbound Capacity | 1,500,000 |\n| Outbound Capacity | 1,500,000 |\n| Refill Rate | 300 GHO/sec |\n\n### GSM Parameters (stataUSDT0.ink)\n\n| Parameter | Value |\n|----|----|\n| GHO Bucket Cap | 10.00M |\n| USDT0 Exposure Cap | 5.00M |\n| Freeze Lower Bound | $0.990 |\n| Freeze Upper Bound | $1.010 |\n| Unfreeze Lower Bound | $0.995 |\n| Unfreeze Upper Bound | $1.005 |\n| Mint GHO Fee | 0.00% |\n| Burn GHO Fee | 0.00% |\n\nUSDT0 deposits into `stataUSDT0.ink` will trigger GHO transfers from Ethereum-held inventory managed by the GSM.\n\n### GHO Steward Configuration\n\n**GhoAaveSteward:**\n\n* `updateGhoBorrowCap`: ±100%\n* `updateGhoBorrowRate`: ±5% on `optimalUsageRatio`, `baseVariableBorrowRate`, `variableRateSlope1`, `variableRateSlope2`\n* `updateGhoSupplyCap`: Up to +100%\n\n**GhoGsmSteward:**\n\n* `updateGsmExposureCap`: ±100%\n* `updateGsmBuySellFees`: ±0.5% per side (FixedFeeStrategy)\n\nOnly callable by the GHO Steward.\n\n### Budget\n\nTo bootstrap the Ink instance and support initial growth, a specific allowance on Ethereum will be created and bridged to Ink.\n\nALC Ethereum SAFE: `0xA1c93D2687f7014Aaf588c764E3Ce80aF016229b`\n\nInitial liquidity will be sourced via aUSDT0 and routed through Aave LP partners and Ink-native DEXs.\n\n## Disclaimer\n\nTokenLogic is not compensated for the creation or coordination of this proposal.\n\n## Next Steps\n\n1. Gather feedback from the community\n2. If consensus is reached, escalate to Snapshot vote\n3. If Snapshot vote passes (YAE), proceed with AIP implementation\n\n## Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/)",
+      "url": null
+    },
+    {
+      "author": "LlamaRisk",
+      "created": "2025-07-29T16:29:00.953Z",
+      "body": "## Summary\n\nLlamaRisk supports the deployment of GHO on Ink. With GHO successfully scaling across L2s, further expansion of its availability is a logical next step. Our analysis indicates that GHO is well-positioned for additional cross-chain deployments, particularly on Ink, where it has the potential to become the primary stablecoin under current market conditions. As for GSMs supporting GHO peg stability, we do not recommend deploying the (stata)USDC.e GSM due to the limited [USDC.e market supply of 2.43M](https://explorer.inkonchain.com/token/0xF1815bd50389c46847f0Bda824eC8da914045D14) on Ink.\n\n## Current GHO Scale\n\n![image|1279x633](upload://aHVxoaHkeWwIHGBUN8Y1ClVLBrH.png)\n*Source: GHO Total Supply, [Dune](https://dune.com/queries/2734680/4551181), July 26, 2025*\n\nGHO is available on Ethereum Mainnet, Arbitrum, Base, Lens, and most recently, Avalanche. Its total supply now fluctuates around 315M, marking an all-time high. This represents a YTD growth of over 115% from a supply of 146.7M at the beginning of the year.\n\n## Network-specific Considerations\n\nInk is an L2 built on Optimism’s OP Stack and launched by Kraken. As part of the Superchain, it inherits Ethereum’s security and complies with the SuperchainERC20 standard, enhancing cross-chain interoperability. However, Ink’s DeFi ecosystem remains nascent, as reflected by its relatively low TVL of $9.28M compared to a total value secured [(TVS) of $103.5M](https://l2beat.com/scaling/projects/ink/tvs-breakdown). This disparity suggests that most bridged assets remain idle, with limited participation in DeFi protocols on Ink.\n\n![image|961x336](upload://leyT37AqSR0lFPJUYMtnENoCZCp.png)\n*Source: Ink TVL and Stablecoin Marketcap, [DeFiLlama](https://defillama.com/chain/ink?stablecoinsMcap=true), July 26, 2025*\n\nInk’s stablecoin ecosystem is in its early stages, currently dominated by [USDT0](https://explorer.inkonchain.com/token/0x0200C29006150606B650577BBE7B6248F58470c1), with a market supply of $75M, while the [Stargate-bridged USDC.e](https://explorer.inkonchain.com/token/0xF1815bd50389c46847f0Bda824eC8da914045D14) lags behind with a market cap of $2.43M. This presents a significant growth opportunity for GHO on Ink. The upcoming [launch of a whitelabel Aave instance](https://governance.aave.com/t/arfc-deploy-a-whitelabel-aave-v3-instance-on-ink/22390) (approved at the ARFC stage, pending AIP) is expected by the team to drive a targeted $1B in TVL to Ink, potentially serving as a strong catalyst for GHO adoption and growth on the network.\n\n### Liquidity Venues\n\n![image|1159x720](upload://dT4I7OyBT9yHNmnQKtvBWUHpcyV.png)\n*Source: Top 5 Velodrome Liquidity Pools on Ink, [Velodrome](https://velodrome.finance/liquidity?filters=Ink), July 26, 2025*\n\nAs of July 26, 2025, the total TVL across DEXs on Ink is approximately $9M, with [Velodrome](https://velodrome.finance/liquidity?filters=Ink) and [InkySwap](https://www.inkyswap.com/pool/view) accounting for the majority with $6M and $2M TVLs, respectively. The current liquidity is insufficient to support large trades with low price impact, and most transaction volume is concentrated on Velodrome. Therefore, securing initial GHO liquidity on Velodrome will be critical in driving early growth. This foundational liquidity can later support further increases in GHO supply and borrow caps on Ink.\n\n### Yield Venues\n\n![image|905x600](upload://qZmcYnFTaiKMSkLTKHld4c3A8kk.png)\n\n*Source: DeFi Projects on Ink by TVL, [DeFiLlama](https://defillama.com/chain/ink), July 26, 2025*\n\nAs seen from the current protocol landscape, stablecoin yield opportunities on Ink are limited. [Shroomy Protocol](https://app.shroomy.io/), an Aave V3 fork, is the only lending market, with just $67K in TVL. Yield aggregators [vfat.io](https://vfat.io/yield?chains=57073&points=no_points-superStacks&farmTypes=volatile-stable-concentrated&protocols=velodrome-uniswap_v4-quickswap-equalizer-shadow-atlantis-ra-pancakeSwap-ramses-uniswap-sushiswap-blackhole-pharaoh-merchantMoe-cleo-nuri-thena-nile-aerodrome-hyperswap-oku) and [TheDeep](https://app.thedeep.ink/explore) have a combined TVL of $230K. [Dinero](https://ink.dinero.xyz/), an ETH liquid staking platform on Ink, issues iETH and currently offers a 4% staking APR. However, the yield environment is expected to improve with the upcoming launch of Ink’s whitelabeled Aave instance. The team is optimistic, projecting $1B in TVL within 90 days of launch. Additionally, Ink’s backing by Kraken could attract significant capital and users, similar to Coinbase’s impact on Base, leveraging Kraken’s existing exchange user base to drive a broader range of assets and yield opportunities over time.\n\n### Facilitators\n\nGHO will be first minted on Mainnet and then bridged to Ink using the CCIP Bridge Facilitator. The initial configuration for the Ink GhoDirectMinter facilitator is set to have a mint cap of 15M GHO.\n\n### GSM\n\nDeploying GSM modules and expanding to new chains is a robust and welcome approach to enhancing GHO stability. However, the current [USDC.e supply on Ink is limited to just 2.43M](https://explorer.inkonchain.com/token/0xF1815bd50389c46847f0Bda824eC8da914045D14), making it vulnerable to significant borrow and supply rate fluctuations if a (stata)USDC.e GSM were deployed. This low supply would also limit the GSM’s effectiveness in stabilizing the GHO peg. Therefore, we recommend holding off on deploying a GSM until the market matures further.\n\n### Recommended Parameters\n\nLlamaRisk supports the parameter specification provided by TokenLogic for GHO, including facilitator mint cap, CCIP configuration, and GHO market parameters.\n\n### Disclaimer\n\nThis review was independently prepared by LlamaRisk, a community-led decentralized organization funded in part by the Aave DAO. LlamaRisk is not directly affiliated with the protocol(s) reviewed in this assessment and did not receive any compensation from the protocol(s) or their affiliated entities for this work.\n\nThe information provided should not be construed as legal, financial, tax, or professional advice.",
+      "url": null
+    },
+    {
+      "author": "ChaosLabs",
+      "created": "2025-08-05T11:52:43.819Z",
+      "body": "## Overview\n\nChaos Labs supports the proposal to deploy GHO on Ink and appoint ACI as the Emissions Manager to oversee GHO rewards and incentives and the use of stataUSDT0 as the primary asset for the GSM on the Ink instance. Our assessment takes into account GHO’s current market position, as well as the proposed risk parameters and infrastructure for its integration with Ink.\n\n## GHO\n\nLaunching GHO on Ink aligns with Aave’s broader strategy for multi‑chain expansion. Having already shown strong growth on Ethereum, Arbitrum, and Base, extending GHO to Ink offers a logical path to drive further adoption and improve accessibility across the wider ecosystem.\n\nOverall, GHO has experienced solid growth over the past three months, with its supply rising from about 240M to 310M. As of this writing, its total market capitalization is roughly $304M.\n\n![Screenshot 2025-07-31 at 4.26.33 PM|2000x686](upload://py49SGXGjbhCtwSHkTeJdg5JOR5.png)\n\nGHO’s expansion to other networks has also shown observable effects. For instance, on Base, GHO has maintained a strong growth trend over the past three months. While there has been a slight decline in the past two weeks, its supply has still grown by 10M compared to May 2025.\n\n![Screenshot 2025-07-31 at 4.30.38 PM|2000x696](upload://AbrWZ3VU3WudMhI91HDMtVMu7U.png)\n\n## Ink\n\nInk is still in its early stages but has already demonstrated strong growth momentum. Since launch, its TVL has been on a steady upward trajectory, rising from around $6M to $10M over the past two months, indicating increasing engagement in DeFi activities on the network.\n\n![Screenshot 2025-07-31 at 4.35.09 PM|2000x641](upload://ywOW95uWGBcOkaGJa31fGdEIDUq.png)\n\n**[Ink TVL Over Time](https://defillama.com/chain/ink)**\n\nAt the same time, its TVS has settled at around $100M and has remained stable over the past three months, with no significant declines or major fluctuations.\n\n![Screenshot 2025-07-31 at 4.43.55 PM|2000x633](upload://qoW3rt196FC2M0ZK8LVIXihzbkA.png)\n\n**[Ink TVS Over Time](https://l2beat.com/scaling/projects/ink/tvs-breakdown)**\n\n### **GSM Implementation**\n\nWe support the implementation of a stataUSDT0.ink GSM, after discussion with the Ink’s team, we expect sufficient supply to be available at launch. With ample supply and market liquidity, stataUSDT0 is expected to be an effective stabilization asset for the GSM, capable of absorbing fluctuations around the GHO peg. Additionally, a large and more liquid USDT0 market will help keep interest rates for borrowing and lending USDT0 more stable and less prone to sudden spikes or drops.\n\n### **Steward Authority Framework**\n\nThe governance framework gives GHO Stewards the authority to adjust parameters within set boundaries, achieving a balance between flexibility and prudent risk management. This structure allows for timely updates to borrow caps, interest rates, supply caps, and GSM parameters within defined limits, enabling the system to respond quickly to changing market conditions while maintaining governance oversight. Experience from previous GHO deployments shows that this approach has been effective in preserving stability during the early launch phase and supporting ongoing growth.\n\n### Parameter Recommendations\n\nWe support the proposed GHO parameters for Ink. Setting the initial supply cap at 5M and the borrow cap at 4.5M provides a balanced approach, limiting risk during the early adoption phase while maintaining sufficient liquidity, which is reasonable given Ink’s current scale.\n\n## **Disclaimer**\n\nChaos Labs has not been compensated by any third party for publishing this recommendation.\n\n## **Copyright**\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain)",
+      "url": null
+    }
+  ],
+  "forum_summary": {
+    "total_comments": 3,
+    "recent_previews": [
+      {
+        "author": "TokenLogic",
+        "created": "2025-07-23T17:33:50.204Z",
+        "preview": "title: \\[ARFC\\] Launch GHO on Ink & set ACI as Emissions Manager for Rewards\nauthor: TokenLogic\ncrea"
+      },
+      {
+        "author": "LlamaRisk",
+        "created": "2025-07-29T16:29:00.953Z",
+        "preview": "## Summary\n\nLlamaRisk supports the deployment of GHO on Ink. With GHO successfully scaling across L2"
+      },
+      {
+        "author": "ChaosLabs",
+        "created": "2025-08-05T11:52:43.819Z",
+        "preview": "## Overview\n\nChaos Labs supports the proposal to deploy GHO on Ink and appoint ACI as the Emissions "
+      }
+    ],
+    "sentiment_counts": {
+      "Positive": 2,
+      "Negative": 1,
+      "Neutral": 0
+    }
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x844e6490591165e166fe511c1c527798369a21394fd93812d299cc320ec91dd5",
+      "title": "[ARFC] Safety Module Emission Update",
+      "author": "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1",
+      "end_utc": "2025-07-20T17:39:02Z",
+      "timeline_metrics": {
+        "unique_voters": 211,
+        "total_votes": 211,
+        "first_vote_at": "2025-07-17T18:34:50Z",
+        "last_vote_at": "2025-07-20T16:22:18Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            317930.4739709274,
+            3.097250706248784,
+            0.0
+          ],
+          [
+            103915.39893127313,
+            0.0,
+            0.0
+          ],
+          [
+            365336.1296328965,
+            0.0,
+            1.9048319090323e-05
+          ],
+          [
+            10902.084103024521,
+            0.000101637372839713,
+            0.006364271550893851
+          ]
+        ],
+        "spike_index": 0.417249,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 3.2e-05,
+        "half_slope_diff": 8.151529
+      },
+      "price_impact_pct": -4.9807,
+      "tvl_impact_pct": null,
+      "similarity": 0.1118
+    },
+    {
+      "id": "0x8f2cfb23e6fb241c6693e74bc5c02fce6da2e3417a3cc791ecb81d147443f1f3",
+      "title": "[ARFC] Update Signers and SAFE Configuration",
+      "author": "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1",
+      "end_utc": "2025-07-04T07:30:49Z",
+      "timeline_metrics": {
+        "unique_voters": 144,
+        "total_votes": 144,
+        "first_vote_at": "2025-07-01T07:31:27Z",
+        "last_vote_at": "2025-07-04T07:22:55Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            347744.2884165581,
+            3.087050706248784,
+            0.0
+          ],
+          [
+            125507.6044580704,
+            0.04735997802285227,
+            0.0
+          ],
+          [
+            5213.675356091225,
+            0.0,
+            0.09615768208900824
+          ],
+          [
+            25081.90832471456,
+            0.010218501056809307,
+            0.08714720639025549
+          ]
+        ],
+        "spike_index": 0.582064,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.001383,
+        "half_slope_diff": 0.813744
+      },
+      "price_impact_pct": 7.1354,
+      "tvl_impact_pct": null,
+      "similarity": 0.1233
+    },
+    {
+      "id": "0xa390fb9061fd689a5d93519a7a9dae23d76b4010b3eea6aaedc70ea7aaed9310",
+      "title": "[ARFC] GHO CEX Earn Incentive Program",
+      "author": "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1",
+      "end_utc": "2025-06-23T19:47:43Z",
+      "timeline_metrics": {
+        "unique_voters": 190,
+        "total_votes": 190,
+        "first_vote_at": "2025-06-20T19:50:19Z",
+        "last_vote_at": "2025-06-23T16:31:58Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            333769.07659939415,
+            2028.8428725310107,
+            154.25879734849343
+          ],
+          [
+            39614.9431730776,
+            2.9514419285649e-05,
+            8.5959088699983e-05
+          ],
+          [
+            42025.63105883654,
+            9999.9999,
+            0.0
+          ],
+          [
+            67671.93826630594,
+            1.4990060586936103,
+            0.0
+          ]
+        ],
+        "spike_index": 0.596085,
+        "spike_follow_support_ratio": 0.971284,
+        "stairwise_ratio": 3.9e-05,
+        "half_slope_diff": 0.82238
+      },
+      "price_impact_pct": 4.0305,
+      "tvl_impact_pct": null,
+      "similarity": 0.1299
+    }
+  ],
+  "semantic_references": [],
+  "tool_plan": {
+    "objective": "Collect votes/timeline, market/TVL impacts, forum context, adjacent proposals; then decide.",
+    "calls": [
+      {
+        "tool": "SnapshotAPI.get_votes_all",
+        "args": {
+          "proposal_id": "0xf066b8a7b1c0f3d4edff72a047809e3e1f57578d2335fd769e23561a25efb795"
+        },
+        "why": "Full vote history for timeline features"
+      },
+      {
+        "tool": "timeline.analyze_timeline",
+        "args": {
+          "start": 1755756186,
+          "end": 1756015386,
+          "choices": [
+            "For",
+            "Against",
+            "Abstain"
+          ],
+          "votes": "(from above)"
+        },
+        "why": "Participation dynamics"
+      },
+      {
+        "tool": "forums.fetch_discussion",
+        "args": {
+          "url": "https://governance.aave.com/t/arfc-launch-gho-on-ink-set-aci-as-emissions-manager-for-rewards/22664"
+        },
+        "why": "Discussion sentiment & themes"
+      }
+    ],
+    "notes": "See semantic_references for governance literature grounding"
+  },
+  "decision": {
+    "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xf066b8a7b1c0f3d4edff72a047809e3e1f57578d2335fd769e23561a25efb795",
+    "selected_choice_label": "For",
+    "selected_choice_index": 0,
+    "confidence": 1.0,
+    "summary": "The proposal to launch GHO on Ink and set ACI as Emissions Manager for rewards has unanimous strong support from voters with all timeline metrics indicating full support for the 'For' option. Adjacent ARFCs with similar context also showed strong approval. The market impact is positive with a price increase of 4.67%. The forum discussion and expert analysis emphasize the strategic importance of expanding GHO to Ink to capitalize on growth opportunities and ecosystem development.",
+    "key_arguments_for": [
+      "Unanimous and stable voting support (100% 'For' votes) across all quartiles and voting phases.",
+      "Strong positive price impact observed (+4.67%), indicating market confidence.",
+      "Adjacency to other strongly supported ARFCs indicating consistent community alignment.",
+      "Ink's nascent DeFi ecosystem and low TVL present a significant growth opportunity for GHO.",
+      "Facilitates cross-chain deployment and ecosystem expansion consistent with previous successful launches.",
+      "Expert endorsement from LlamaRisk emphasizing GHO's positioning and potential on Ink.",
+      "Strategic deployment of facilitators and GSM configuration to support peg stability and liquidity."
+    ],
+    "key_arguments_against": [
+      "Limited current TVL and liquidity on Ink may pose initial adoption challenges.",
+      "Concerns about deploying GSM modules due to limited USDC.e supply on Ink affecting peg stability.",
+      "Early stage of Ink's stablecoin ecosystem means some risks related to market maturity and usage."
+    ],
+    "evidence": [
+      {
+        "source_tool": "TIMELINE_METRICS",
+        "reference": "timeline-only analysis",
+        "quote": "lead_ratio_total: [1.0, 0.0, 0.0], stability: [1.0, 0.0, 0.0], early_ratio: [1.0, 0.0, 0.0]"
+      },
+      {
+        "source_tool": "MARKET_IMPACTS",
+        "reference": null,
+        "quote": "price_pct=4.6676"
+      },
+      {
+        "source_tool": "ADJACENT_ANALYTICS",
+        "reference": "Similar ARFC proposals",
+        "quote": "All have recommended_index=0 with strong positive support"
+      },
+      {
+        "source_tool": "FORUM_CONTEXT",
+        "reference": "governance.aave.com/t/arfc-launch-gho-on-ink-set-aci-as-emissions-manager-for-rewards/22664",
+        "quote": "Summary and expert commentary supporting the strategic deployment and potential growth of GHO on Ink."
+      }
+    ],
+    "available_choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-08-21T06:03:06Z",
+    "event_end_utc": "2025-08-24T06:03:06Z",
+    "event_time_utc": "2025-08-24T06:03:06Z",
+    "address_of_governance_token": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+    "token_price_impact_pct": 4.6676,
+    "tvl_impact_pct": null,
+    "actual_vote_result": {
+      "winner_label": "For",
+      "winner_index": 0,
+      "scores": [
+        890826.0429543483,
+        0.09615768208900824,
+        0.0
+      ],
+      "scores_total": 890826.1391120303,
+      "margin_abs": 890825.9467966661,
+      "margin_pct": 1.0
+    },
+    "simulation_reason": "The unanimous and stable voting pattern with full support for 'For' choice across all metrics and phases justifies simulation as a clear pass.",
+    "references": null,
+    "ai_final_conclusion": "The proposal is overwhelmingly supported by the community and aligns with strategic growth plans for GHO on Ink. Given the unanimous voting support, positive market reaction, and expert endorsements, the proposal should be approved.",
+    "ai_final_reason": "Voting data shows 100% support with perfect stability and early consensus. Market and adjacent analytics reinforce the positive outlook. Forum discussions and expert analyses corroborate the growth potential and strategic importance of the proposal."
+  },
+  "agentic_ai_choice": "For",
+  "actual_outcome": "For",
+  "match_result": "same"
+}
