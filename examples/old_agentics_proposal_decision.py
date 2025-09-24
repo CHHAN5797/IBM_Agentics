@@ -1,4 +1,5 @@
 from __future__ import annotations
+
 """
 Interactive Agentics — governance vote recommendation (ex‑post blind planning)
 with deterministic Timeline MCP usage, LLM‑driven forum sentiment, and robust
@@ -23,32 +24,36 @@ import asyncio
 import csv
 import json
 import os
+import random
 import re
 import time
-import random
 from contextlib import ExitStack
-from datetime import datetime, timezone, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
 
 import pandas as pd
 import requests
-from agentics import Agentics as AG
-from agentics.core.llm_connections import get_llm_provider
 from crewai_tools import MCPServerAdapter
 from dotenv import load_dotenv
-from mcp import StdioServerParameters
 from pydantic import BaseModel, Field
+
+from agentics import Agentics as AG
+from agentics.core.llm_connections import get_llm_provider
+from mcp import StdioServerParameters
 
 # --- CrewAI FilteredStream flush guard (unchanged) ---
 try:
     import crewai.llm as _crewai_llm
+
     _orig_flush = _crewai_llm.FilteredStream.flush
+
     def _safe_flush(self):
         try:
             return _orig_flush(self)
         except ValueError:
             return None
+
     _crewai_llm.FilteredStream.flush = _safe_flush
 except Exception:
     pass
@@ -57,12 +62,14 @@ except Exception:
 # Small helpers
 # ----------------------------------------------------------------------------
 
+
 def _to_dict(m):
     if hasattr(m, "model_dump"):
         return m.model_dump()
     if hasattr(m, "dict"):
         return m.dict()
     return m
+
 
 def _to_json_str(m, indent=2):
     try:
@@ -74,6 +81,7 @@ def _to_json_str(m, indent=2):
             return m.model_dump_json(indent=indent)
         return json.dumps(m, indent=indent, ensure_ascii=False)
 
+
 # ----------------------------------------------------------------------------
 # Output schemas (extended with forum sentiment & post_count)
 # ----------------------------------------------------------------------------
@@ -81,6 +89,7 @@ class Evidence(BaseModel):
     source_tool: str
     reference: Optional[str] = None
     quote: Optional[str] = None
+
 
 class ActualVoteResult(BaseModel):
     winner_label: Optional[str] = None
@@ -90,11 +99,11 @@ class ActualVoteResult(BaseModel):
     margin_abs: Optional[float] = None
     margin_pct: Optional[float] = None
 
+
 class ForumSentiment(BaseModel):
     overall_polarity: Optional[float] = Field(None, description="-1..1")
     stance_share: Optional[Dict[str, float]] = Field(
-        default=None,
-        description="Fractional shares for {'for','against','neutral'}"
+        default=None, description="Fractional shares for {'for','against','neutral'}"
     )
     toxicity_flags: Optional[List[str]] = None
     key_topics: Optional[List[str]] = None
@@ -102,6 +111,7 @@ class ForumSentiment(BaseModel):
     top_negative_quotes: Optional[List[str]] = None
     summary: Optional[str] = None
     post_count: Optional[int] = None  # NEW: number of posts analyzed
+
 
 class ProposalDecision(BaseModel):
     snapshot_url: str
@@ -126,22 +136,28 @@ class ProposalDecision(BaseModel):
     forum_sentiment: Optional[ForumSentiment] = None
     timeline_metrics: Optional[Dict[str, Any]] = None
 
+
 # Planning schemas
 class ToolCall(BaseModel):
     tool: str
     args: Dict[str, Any] = Field(default_factory=dict)
     why: str
 
+
 class ToolPlan(BaseModel):
     objective: str
     calls: List[ToolCall]
     notes: Optional[str] = None
 
+
 # ----------------------------------------------------------------------------
 # MCP wiring
 # ----------------------------------------------------------------------------
 
-def _server_params(script_path: Path, src_dir: Path, extra_env: Optional[Dict[str, str]] = None) -> StdioServerParameters:
+
+def _server_params(
+    script_path: Path, src_dir: Path, extra_env: Optional[Dict[str, str]] = None
+) -> StdioServerParameters:
     env = {"PYTHONPATH": str(src_dir), **os.environ}
     if extra_env:
         env.update(extra_env)
@@ -154,19 +170,25 @@ def _load_mcp_tools(project_root: Path, stack: ExitStack) -> List:
     """
     src_dir = project_root / "src"
     cmc_parquet = _resolve_parquet_path(project_root)
-    cmc_env = {"CMC_OFFLINE_PARQUET": str(cmc_parquet)} if cmc_parquet.exists() else None
+    cmc_env = (
+        {"CMC_OFFLINE_PARQUET": str(cmc_parquet)} if cmc_parquet.exists() else None
+    )
 
     server_specs = [
-        ("snapshot",   project_root / "src/agentics/mcp/snapshot_api.py",          None),
-        ("timeline",   project_root / "src/agentics/mcp/timeline_mcp.py",          None),
-        ("forums",     project_root / "src/agentics/mcp/forums_mcp.py",            None),
-        ("defillama",  project_root / "src/agentics/mcp/defillama_mcp.py",         None),
-        ("holders",    project_root / "src/agentics/mcp/holders_activity_mcp.py",  None),
-        ("onchain",    project_root / "src/agentics/mcp/onchain_activity_mcp_bq_cmc.py", None),
-        ("cmc",        project_root / "src/agentics/mcp/cmc_offline_mcp.py",       cmc_env),
-        ("semantics",  project_root / "src/agentics/mcp/semantics_mcp.py",         None),
-        ("registry",   project_root / "src/agentics/mcp/registry_mcp.py",          None),
-        ("govnews",    project_root / "src/agentics/mcp/govnews_mcp.py",           None),
+        ("snapshot", project_root / "src/agentics/mcp/snapshot_api.py", None),
+        ("timeline", project_root / "src/agentics/mcp/timeline_mcp.py", None),
+        ("forums", project_root / "src/agentics/mcp/forums_mcp.py", None),
+        ("defillama", project_root / "src/agentics/mcp/defillama_mcp.py", None),
+        ("holders", project_root / "src/agentics/mcp/holders_activity_mcp.py", None),
+        (
+            "onchain",
+            project_root / "src/agentics/mcp/onchain_activity_mcp_bq_cmc.py",
+            None,
+        ),
+        ("cmc", project_root / "src/agentics/mcp/cmc_offline_mcp.py", cmc_env),
+        ("semantics", project_root / "src/agentics/mcp/semantics_mcp.py", None),
+        ("registry", project_root / "src/agentics/mcp/registry_mcp.py", None),
+        ("govnews", project_root / "src/agentics/mcp/govnews_mcp.py", None),
     ]
 
     combined = None
@@ -174,11 +196,15 @@ def _load_mcp_tools(project_root: Path, stack: ExitStack) -> List:
         if not script_path.exists():
             print(f"[skip] {name}: missing server at {script_path}")
             continue
-        adapter = stack.enter_context(MCPServerAdapter(_server_params(script_path, src_dir, extra_env)))
+        adapter = stack.enter_context(
+            MCPServerAdapter(_server_params(script_path, src_dir, extra_env))
+        )
         print(f"Available {name} tools: {[tool.name for tool in adapter]}")
         combined = adapter if combined is None else combined + adapter
     if combined is None:
-        raise RuntimeError("No MCP servers could be started. Check dependencies and configuration.")
+        raise RuntimeError(
+            "No MCP servers could be started. Check dependencies and configuration."
+        )
     return combined
 
 
@@ -186,14 +212,18 @@ def _blind_toolset(tools) -> List:
     banned = {"get_proposal_result_by_id"}
     return [t for t in tools if getattr(t, "name", None) not in banned]
 
+
 # ----------------------------------------------------------------------------
 # Tool invocation shim — robust across call styles
 # ----------------------------------------------------------------------------
 
+
 def _invoke_tool(tools, name: str, **kwargs):
     tool = next((t for t in tools if getattr(t, "name", None) == name), None)
     if tool is None:
-        print(f"[invoke] Tool not found: {name}. Available: {[getattr(t,'name',None) for t in tools]}")
+        print(
+            f"[invoke] Tool not found: {name}. Available: {[getattr(t,'name',None) for t in tools]}"
+        )
         return None
     payload = dict(kwargs)
     # Try common invocation surfaces
@@ -219,15 +249,20 @@ def _invoke_tool(tools, name: str, **kwargs):
     return None
 
 
-def _invoke_tool_try_names_and_params(tools, names: List[str], param_variants: List[Dict[str, Any]]) -> Optional[dict]:
+def _invoke_tool_try_names_and_params(
+    tools, names: List[str], param_variants: List[Dict[str, Any]]
+) -> Optional[dict]:
     for nm in names:
         for params in param_variants:
             res = _invoke_tool(tools, nm, **params)
             if res is not None:
                 return res
-    print(f"[invoke] Tried names={names} with {len(param_variants)} param variants, all failed.")
+    print(
+        f"[invoke] Tried names={names} with {len(param_variants)} param variants, all failed."
+    )
     print("[invoke] Available tools:", [getattr(t, "name", None) for t in tools])
     return None
+
 
 # ----------------------------------------------------------------------------
 # Snapshot GraphQL (orchestrator‑side helpers)
@@ -284,24 +319,29 @@ query($space: String!, $first: Int!, $skip: Int!) {
 }
 """
 
+
 def _gql(query: str, variables: Dict[str, Any], timeout: int = 30) -> Dict[str, Any]:
     retries = 0
     backoff = 1.7
     while True:
         try:
-            r = _HTTP.post(SNAPSHOT_API, json={"query": query, "variables": variables}, timeout=timeout)
+            r = _HTTP.post(
+                SNAPSHOT_API,
+                json={"query": query, "variables": variables},
+                timeout=timeout,
+            )
             if r.status_code == 200:
                 return r.json()
             if r.status_code in (429, 502, 503, 504) and retries < 5:
                 ra = r.headers.get("Retry-After")
-                delay = float(ra) if (ra and ra.isdigit()) else (backoff ** retries)
+                delay = float(ra) if (ra and ra.isdigit()) else (backoff**retries)
                 time.sleep(delay + random.uniform(0.05, 0.25))
                 retries += 1
                 continue
             r.raise_for_status()
         except requests.RequestException:
             if retries < 5:
-                time.sleep((backoff ** retries) + random.uniform(0.05, 0.25))
+                time.sleep((backoff**retries) + random.uniform(0.05, 0.25))
                 retries += 1
                 continue
             raise
@@ -321,7 +361,9 @@ def _fetch_votes_all(pid: str, batch: int = 1000) -> List[dict]:
     out: List[dict] = []
     skip = 0
     while True:
-        data = _gql(VOTES_BY_PROPOSAL_Q, {"proposal": pid, "first": batch, "skip": skip})
+        data = _gql(
+            VOTES_BY_PROPOSAL_Q, {"proposal": pid, "first": batch, "skip": skip}
+        )
         chunk = (data.get("data") or {}).get("votes") or []
         if not chunk:
             break
@@ -336,7 +378,9 @@ def _fetch_all_proposals_by_space(space: str, batch: int = 100) -> List[Dict[str
     out: List[dict] = []
     skip = 0
     while True:
-        data = _gql(PROPOSALS_BY_SPACE_Q, {"space": space, "first": batch, "skip": skip})
+        data = _gql(
+            PROPOSALS_BY_SPACE_Q, {"space": space, "first": batch, "skip": skip}
+        )
         chunk = (data.get("data") or {}).get("proposals") or []
         if not chunk:
             break
@@ -349,9 +393,12 @@ def _fetch_all_proposals_by_space(space: str, batch: int = 100) -> List[Dict[str
 
 def _iso_from_unix(ts: Optional[int]) -> Optional[str]:
     try:
-        return datetime.fromtimestamp(int(ts), tz=timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+        return datetime.fromtimestamp(int(ts), tz=timezone.utc).strftime(
+            "%Y-%m-%dT%H:%M:%SZ"
+        )
     except Exception:
         return None
+
 
 # ----------------------------------------------------------------------------
 # Registry/URL helpers
@@ -399,17 +446,22 @@ def _extract_token_address_from_meta(meta: Dict[str, Any]) -> Optional[str]:
                 if r:
                     return r
         return None
+
     space = meta.get("space") or {}
     addr = dig(space.get("strategies"))
     if addr:
         return addr
     return dig(meta.get("strategies"))
 
+
 # ----------------------------------------------------------------------------
 # Adjacent proposals (for context)
 # ----------------------------------------------------------------------------
 
-_STOP = set("the and for with from into that this have has are were was will shall of in on to by at as is it be or an a we you they our their".split())
+_STOP = set(
+    "the and for with from into that this have has are were was will shall of in on to by at as is it be or an a we you they our their".split()
+)
+
 
 def _tokens(text: Optional[str]) -> set:
     if not text:
@@ -421,7 +473,8 @@ def _tokens(text: Optional[str]) -> set:
 def _jaccard(a: set, b: set) -> float:
     if not a or not b:
         return 0.0
-    inter = len(a & b); union = len(a | b)
+    inter = len(a & b)
+    union = len(a | b)
     return float(inter) / float(union) if union else 0.0
 
 
@@ -436,7 +489,14 @@ def _select_adjacent_proposals(
     current_title: Optional[str] = None,
     current_body: Optional[str] = None,
 ) -> List[Dict[str, Any]]:
-    closed_before = [p for p in all_props if (p.get("state") == "closed" and int(p.get("end") or 0) < int(current_start_unix))]
+    closed_before = [
+        p
+        for p in all_props
+        if (
+            p.get("state") == "closed"
+            and int(p.get("end") or 0) < int(current_start_unix)
+        )
+    ]
     closed_before.sort(key=lambda p: int(p.get("end") or 0), reverse=True)
     day_sec = 86400
     within_days = []
@@ -446,30 +506,40 @@ def _select_adjacent_proposals(
         else:
             break
     cur_tok = _tokens((current_title or "") + " " + (current_body or ""))
+
     def _match_topic_or_author(p: Dict[str, Any]) -> bool:
-        if current_author and p.get("author") and str(p["author"]).lower() == str(current_author).lower():
+        if (
+            current_author
+            and p.get("author")
+            and str(p["author"]).lower() == str(current_author).lower()
+        ):
             return True
-        sim = _jaccard(cur_tok, _tokens((p.get("title") or "") + " " + (p.get("body") or "")))
+        sim = _jaccard(
+            cur_tok, _tokens((p.get("title") or "") + " " + (p.get("body") or ""))
+        )
         return sim >= jaccard_min
+
     filtered = [p for p in within_days if _match_topic_or_author(p)]
     base = filtered if filtered else within_days
     take_k = min(len(within_days), max_n) if within_days else min(len(base), max_n)
     return base[:take_k]
 
+
 # ----------------------------------------------------------------------------
 # Impact helpers
 # ----------------------------------------------------------------------------
+
 
 def _pct_change(pre_vals: List[float], post_vals: List[float]) -> Optional[float]:
     pre_vals = [v for v in pre_vals if isinstance(v, (int, float))]
     post_vals = [v for v in post_vals if isinstance(v, (int, float))]
     if not pre_vals or not post_vals:
         return None
-    pre_avg = sum(pre_vals)/len(pre_vals)
-    post_avg = sum(post_vals)/len(post_vals)
+    pre_avg = sum(pre_vals) / len(pre_vals)
+    post_avg = sum(post_vals) / len(post_vals)
     if pre_avg <= 0:
         return None
-    return (post_avg/pre_avg - 1.0) * 100.0
+    return (post_avg / pre_avg - 1.0) * 100.0
 
 
 def _resolve_parquet_path(project_root: Path) -> Path:
@@ -498,17 +568,28 @@ def _normalize_ucid(ucid: Optional[str]) -> Optional[str]:
     return s or None
 
 
-def compute_token_price_impact_from_parquet(parquet_path: Path, ucid: str, event_end_utc: str,
-                                            pre_days: int = 7, post_days: int = 7) -> Optional[float]:
+def compute_token_price_impact_from_parquet(
+    parquet_path: Path,
+    ucid: str,
+    event_end_utc: str,
+    pre_days: int = 7,
+    post_days: int = 7,
+) -> Optional[float]:
     if not parquet_path.exists():
         print(f"[price_impact] parquet not found: {parquet_path}")
         return None
     try:
-        df = pd.read_parquet(parquet_path, engine="pyarrow", columns=["date", "ucid", "price_USD"])
+        df = pd.read_parquet(
+            parquet_path, engine="pyarrow", columns=["date", "ucid", "price_USD"]
+        )
     except Exception as e1:
         print(f"[price_impact] pyarrow failed: {e1}")
         try:
-            df = pd.read_parquet(parquet_path, engine="fastparquet", columns=["date", "ucid", "price_USD"])
+            df = pd.read_parquet(
+                parquet_path,
+                engine="fastparquet",
+                columns=["date", "ucid", "price_USD"],
+            )
         except Exception as e2:
             print(f"[price_impact] fastparquet failed: {e2}")
             return None
@@ -519,7 +600,7 @@ def compute_token_price_impact_from_parquet(parquet_path: Path, ucid: str, event
     df["price_USD"] = pd.to_numeric(df["price_USD"], errors="coerce")
 
     ucid_clean = _normalize_ucid(ucid)
-    df_tok = df[df["ucid"] == (ucid_clean or "")] 
+    df_tok = df[df["ucid"] == (ucid_clean or "")]
     if df_tok.empty and ucid_clean and re.fullmatch(r"\d+", ucid_clean):
         df_tok = df[df["ucid"] == str(int(ucid_clean))]
 
@@ -534,46 +615,83 @@ def compute_token_price_impact_from_parquet(parquet_path: Path, ucid: str, event
         return None
 
     pre_start = event_date - timedelta(days=pre_days)
-    post_end  = event_date + timedelta(days=post_days)
-    pre_mask  = (df_tok["date"] < event_date) & (df_tok["date"] >= pre_start)
+    post_end = event_date + timedelta(days=post_days)
+    pre_mask = (df_tok["date"] < event_date) & (df_tok["date"] >= pre_start)
     post_mask = (df_tok["date"] >= event_date) & (df_tok["date"] <= post_end)
-    pre_vals  = df_tok.loc[pre_mask, "price_USD"].dropna().tolist()
+    pre_vals = df_tok.loc[pre_mask, "price_USD"].dropna().tolist()
     post_vals = df_tok.loc[post_mask, "price_USD"].dropna().tolist()
 
     if not pre_vals:
-        prev = df_tok[df_tok["date"] < event_date].sort_values("date").tail(1)["price_USD"].dropna().tolist()
+        prev = (
+            df_tok[df_tok["date"] < event_date]
+            .sort_values("date")
+            .tail(1)["price_USD"]
+            .dropna()
+            .tolist()
+        )
         pre_vals = prev or pre_vals
     if not post_vals:
-        nxt = df_tok[df_tok["date"] >= event_date].sort_values("date").head(1)["price_USD"].dropna().tolist()
+        nxt = (
+            df_tok[df_tok["date"] >= event_date]
+            .sort_values("date")
+            .head(1)["price_USD"]
+            .dropna()
+            .tolist()
+        )
         post_vals = nxt or post_vals
 
     impact = _pct_change(pre_vals, post_vals)
     return round(impact, 4) if impact is not None else None
 
 
-def compute_tvl_impact_from_defillama_tool(tools, *, link: Optional[str], slug: Optional[str],
-                                           project_hint: Optional[str],
-                                           event_end_utc: str, pre_days: int = 7, post_days: int = 7) -> Optional[float]:
+def compute_tvl_impact_from_defillama_tool(
+    tools,
+    *,
+    link: Optional[str],
+    slug: Optional[str],
+    project_hint: Optional[str],
+    event_end_utc: str,
+    pre_days: int = 7,
+    post_days: int = 7,
+) -> Optional[float]:
     evt_js = None
     print(f"[defillama] try link={link} slug={slug} project_hint={project_hint}")
     if link:
         _ = _invoke_tool(tools, "refresh_by_link", defillama_link=link)
-        evt_js = _invoke_tool(tools, "event_window_by_link",
-                              defillama_link=link, event_time_utc=event_end_utc,
-                              pre_days=pre_days, post_days=post_days)
+        evt_js = _invoke_tool(
+            tools,
+            "event_window_by_link",
+            defillama_link=link,
+            event_time_utc=event_end_utc,
+            pre_days=pre_days,
+            post_days=post_days,
+        )
     if evt_js is None and slug:
         _ = _invoke_tool(tools, "refresh_protocol", slug=slug)
-        evt_js = _invoke_tool(tools, "event_window",
-                              slug=slug, event_time_utc=event_end_utc,
-                              pre_days=pre_days, post_days=post_days)
+        evt_js = _invoke_tool(
+            tools,
+            "event_window",
+            slug=slug,
+            event_time_utc=event_end_utc,
+            pre_days=pre_days,
+            post_days=post_days,
+        )
     if evt_js is None and project_hint:
-        res = _invoke_tool(tools, "resolve_protocol", project_hint=project_hint, ttl_hours=0)
-        sl = (res or {}).get("slug")
+        res = _invoke_tool(
+            tools, "resolve_protocol", project_hint=project_hint, ttl_hours=0
+        )
+        cands = (res or {}).get("candidates") or []
+        sl = next((c.get("slug") for c in cands if c.get("slug")), None)
         if sl:
             _ = _invoke_tool(tools, "refresh_protocol", slug=sl)
-            evt_js = _invoke_tool(tools, "event_window",
-                                  slug=sl, event_time_utc=event_end_utc,
-                                  pre_days=pre_days, post_days=post_days)
+            evt_js = _invoke_tool(
+                tools,
+                "event_window",
+                slug=sl,
+                event_time_utc=event_end_utc,
+                pre_days=pre_days,
+                post_days=post_days,
+            )
 
     if not isinstance(evt_js, dict):
         print("[tvl_impact] event_window returned non-dict or None.")
@@ -590,9 +708,13 @@ def compute_tvl_impact_from_defillama_tool(tools, *, link: Optional[str], slug: 
         return None
 
 
-def compute_price_impacts_for_adjacent(cmc_parquet: Path, ucid: Optional[str],
-                                       adjacent: List[Dict[str, Any]],
-                                       pre_days: int = 7, post_days: int = 7) -> List[Dict[str, Any]]:
+def compute_price_impacts_for_adjacent(
+    cmc_parquet: Path,
+    ucid: Optional[str],
+    adjacent: List[Dict[str, Any]],
+    pre_days: int = 7,
+    post_days: int = 7,
+) -> List[Dict[str, Any]]:
     out = []
     if not ucid:
         print("[adj_price] skipped: no UCID")
@@ -602,15 +724,23 @@ def compute_price_impacts_for_adjacent(cmc_parquet: Path, ucid: Optional[str],
         end_iso = _iso_from_unix(eid) if eid else None
         if not end_iso:
             continue
-        imp = compute_token_price_impact_from_parquet(cmc_parquet, ucid, end_iso, pre_days, post_days)
-        out.append({"id": p.get("id"), "end_utc": end_iso, "token_price_impact_pct": imp})
+        imp = compute_token_price_impact_from_parquet(
+            cmc_parquet, ucid, end_iso, pre_days, post_days
+        )
+        out.append(
+            {"id": p.get("id"), "end_utc": end_iso, "token_price_impact_pct": imp}
+        )
     return out
+
 
 # ----------------------------------------------------------------------------
 # Deterministic Timeline analysis via MCP
 # ----------------------------------------------------------------------------
 
-def _compute_timeline_via_mcp(tools, *, start_ts: int, end_ts: int, choices: List[str], pid: str) -> Optional[Dict[str, Any]]:
+
+def _compute_timeline_via_mcp(
+    tools, *, start_ts: int, end_ts: int, choices: List[str], pid: str
+) -> Optional[Dict[str, Any]]:
     # 1) Fetch full votes via the snapshot tool if present
     votes_js = None
     snap_names = ["get_votes_all", "snapshot.get_votes_all", "get_votes", "votes_all"]
@@ -629,41 +759,65 @@ def _compute_timeline_via_mcp(tools, *, start_ts: int, end_ts: int, choices: Lis
         pass
 
     tl_names = ["analyze_timeline", "timeline.analyze_timeline"]
-    args = {"start": int(start_ts), "end": int(end_ts), "choices": list(choices or []), "votes": list(votes or [])}
+    args = {
+        "start": int(start_ts),
+        "end": int(end_ts),
+        "choices": list(choices or []),
+        "votes": list(votes or []),
+    }
     tl = _invoke_tool_try_names_and_params(tools, tl_names, [args])
     if not isinstance(tl, dict):
         print("[timeline] analyze_timeline failed or returned non-dict")
         return None
     return tl
 
+
 # ----------------------------------------------------------------------------
 # Forums sentiment via LLM (fetch via ForumsMCP, summarize with LLM)
 # ----------------------------------------------------------------------------
 
-def _limit_posts_for_prompt(posts: List[Dict[str, Any]], max_chars: int = 15000) -> List[Dict[str, Any]]:
+
+def _limit_posts_for_prompt(
+    posts: List[Dict[str, Any]], max_chars: int = 15000
+) -> List[Dict[str, Any]]:
     out, used = [], 0
     for p in posts:
-        raw = (p.get("raw") or "")
+        raw = p.get("raw") or ""
         used += len(raw)
-        out.append({"id": p.get("id"), "username": p.get("username"), "raw": raw, "created_at": p.get("created_at")})
+        out.append(
+            {
+                "id": p.get("id"),
+                "username": p.get("username"),
+                "raw": raw,
+                "created_at": p.get("created_at"),
+            }
+        )
         if used >= max_chars:
             break
     return out
 
 
-def _forum_sentiment_with_llm(llm, thread_title: str, posts: List[Dict[str, Any]]) -> ForumSentiment:
+def _forum_sentiment_with_llm(
+    llm, thread_title: str, posts: List[Dict[str, Any]]
+) -> ForumSentiment:
     sys = (
         "You are an expert governance analyst. Read forum comments and produce a JSON with: "
         "overall_polarity (-1..1), stance_share for {'for','against','neutral'} that sum ~1, "
         "toxicity_flags (list of short labels if any), key_topics (<=8), top_positive_quotes (<=3 short quotes), "
         "top_negative_quotes (<=3 short quotes), and summary (<=140 words)."
     )
-    user = (
-        "Thread title: " + (thread_title or "") + "\n\n"
-        "Posts (id, username, text):\n" + json.dumps(posts, ensure_ascii=False)
+    user = "Thread title: " + (
+        thread_title or ""
+    ) + "\n\n" "Posts (id, username, text):\n" + json.dumps(posts, ensure_ascii=False)
+    agent = AG(
+        atype=ForumSentiment,
+        tools=[],
+        max_iter=1,
+        verbose_agent=False,
+        description="Forum sentiment summarizer",
+        instructions=sys,
+        llm=llm,
     )
-    agent = AG(atype=ForumSentiment, tools=[], max_iter=1, verbose_agent=False,
-               description="Forum sentiment summarizer", instructions=sys, llm=llm)
     res = asyncio.run(agent << [user])
     try:
         return res.states[0]  # type: ignore
@@ -671,7 +825,9 @@ def _forum_sentiment_with_llm(llm, thread_title: str, posts: List[Dict[str, Any]
         return ForumSentiment(summary="Sentiment analysis unavailable.")
 
 
-def compute_forum_sentiment_if_available(tools, discussion_url: Optional[str], llm) -> Optional[ForumSentiment]:
+def compute_forum_sentiment_if_available(
+    tools, discussion_url: Optional[str], llm
+) -> Optional[ForumSentiment]:
     if not discussion_url:
         return None
     fetch = _invoke_tool(tools, "fetch_discussion", url=discussion_url, max_pages=5)
@@ -687,6 +843,7 @@ def compute_forum_sentiment_if_available(tools, discussion_url: Optional[str], l
         except Exception:
             pass
     return sent
+
 
 # ----------------------------------------------------------------------------
 # Focus UI (interactive)
@@ -704,8 +861,11 @@ FOCUS_EXPLANATION = (
     "  7) Long-term sustainability vs. short-term incentives\n"
 )
 
+
 def _interactive_inputs() -> tuple[str, str]:
-    step = "url"; snapshot_url = ""; focus = ""
+    step = "url"
+    snapshot_url = ""
+    focus = ""
     options = {
         "1": "Token distribution and concentration",
         "2": "Treasury impact and budget use",
@@ -719,27 +879,53 @@ def _interactive_inputs() -> tuple[str, str]:
         if step == "url":
             val = input("Snapshot Proposal URL> ").strip()
             if not val:
-                print("A Snapshot proposal URL is required to continue. ('q' to quit)"); continue
+                print("A Snapshot proposal URL is required to continue. ('q' to quit)")
+                continue
             if val.lower() == "q":
                 raise SystemExit(0)
-            snapshot_url = val; step = "focus_yn"; continue
+            snapshot_url = val
+            step = "focus_yn"
+            continue
         if step == "focus_yn":
             print("\n" + FOCUS_EXPLANATION + "\n")
-            yn = input("Would you like to choose one of the examples above? (y/n, b=back to URL, q=quit) ").strip().lower()
-            if yn in {"q", "quit"}: raise SystemExit(0)
-            if yn in {"b", "back"}: step = "url"; continue
-            if yn in {"y", "yes"}: step = "focus_select"; continue
+            yn = (
+                input(
+                    "Would you like to choose one of the examples above? (y/n, b=back to URL, q=quit) "
+                )
+                .strip()
+                .lower()
+            )
+            if yn in {"q", "quit"}:
+                raise SystemExit(0)
+            if yn in {"b", "back"}:
+                step = "url"
+                continue
+            if yn in {"y", "yes"}:
+                step = "focus_select"
+                continue
             if yn in {"n", "no"}:
-                txt = input("Focus areas or concerns (optional; Enter to skip, 'b' to go back, 'q' to quit)> ").strip()
-                if txt.lower() in {"q", "quit"}: raise SystemExit(0)
-                if txt.lower() in {"b", "back"}: step = "focus_yn"; continue
-                focus = txt; break
-            print("Please answer with 'y' or 'n' (or 'b' to go back, 'q' to quit)." ); continue
+                txt = input(
+                    "Focus areas or concerns (optional; Enter to skip, 'b' to go back, 'q' to quit)> "
+                ).strip()
+                if txt.lower() in {"q", "quit"}:
+                    raise SystemExit(0)
+                if txt.lower() in {"b", "back"}:
+                    step = "focus_yn"
+                    continue
+                focus = txt
+                break
+            print("Please answer with 'y' or 'n' (or 'b' to go back, 'q' to quit).")
+            continue
         if step == "focus_select":
-            print("Enter number(s) (comma-separated) or your own custom text. e.g., '1,3' or 'Protocol security review focus'")
+            print(
+                "Enter number(s) (comma-separated) or your own custom text. e.g., '1,3' or 'Protocol security review focus'"
+            )
             raw = input("Your selection (b=back, q=quit)> ").strip()
-            if raw.lower() in {"q", "quit"}: raise SystemExit(0)
-            if raw.lower() in {"b", "back"}: step = "focus_yn"; continue
+            if raw.lower() in {"q", "quit"}:
+                raise SystemExit(0)
+            if raw.lower() in {"b", "back"}:
+                step = "focus_yn"
+                continue
             parts = [p.strip() for p in raw.split(",") if p.strip()]
             if parts and all(p in options for p in parts):
                 focus = "; ".join(options[p] for p in parts)
@@ -748,14 +934,18 @@ def _interactive_inputs() -> tuple[str, str]:
             break
     return snapshot_url, focus
 
+
 # ----------------------------------------------------------------------------
 # Main
 # ----------------------------------------------------------------------------
 
+
 def main() -> None:
     load_dotenv()
     project_root = Path(__file__).resolve().parent.parent
-    registry_csv = project_root / "src" / "agentics" / "assets_registry" / "dao_registry.csv"
+    registry_csv = (
+        project_root / "src" / "agentics" / "assets_registry" / "dao_registry.csv"
+    )
 
     with ExitStack() as stack:
         all_tools = _load_mcp_tools(project_root, stack)
@@ -764,7 +954,9 @@ def main() -> None:
         try:
             llm = get_llm_provider()
         except ValueError as exc:
-            raise SystemExit("No LLM provider configured. Populate .env or env vars.") from exc
+            raise SystemExit(
+                "No LLM provider configured. Populate .env or env vars."
+            ) from exc
 
         # --- Inputs ---
         snapshot_url, focus = _interactive_inputs()
@@ -776,38 +968,80 @@ def main() -> None:
         result_js = _fetch_result_by_id(pid)
         if not result_js:
             raise SystemExit("Snapshot RESULT empty. Check network or proposal id.")
-        start_ts = result_js.get("start"); end_ts = result_js.get("end")
+        start_ts = result_js.get("start")
+        end_ts = result_js.get("end")
         if start_ts is None or end_ts is None:
             raise SystemExit("Snapshot RESULT missing `start`/`end` UNIX timestamps.")
-        start_iso = _iso_from_unix(start_ts); end_iso = _iso_from_unix(end_ts)
+        start_iso = _iso_from_unix(start_ts)
+        end_iso = _iso_from_unix(end_ts)
         if not start_iso or not end_iso:
-            raise SystemExit("Invalid `start`/`end` UNIX timestamps in Snapshot RESULT.")
+            raise SystemExit(
+                "Invalid `start`/`end` UNIX timestamps in Snapshot RESULT."
+            )
 
         meta_js = _fetch_meta_by_id(pid) or {}
-        choices: List[str] = (meta_js.get("choices") or []) if isinstance(meta_js, dict) else []
-        discussion_url: Optional[str] = (meta_js.get("discussion") or None) if isinstance(meta_js, dict) else None
+        choices: List[str] = (
+            (meta_js.get("choices") or []) if isinstance(meta_js, dict) else []
+        )
+        discussion_url: Optional[str] = (
+            (meta_js.get("discussion") or None) if isinstance(meta_js, dict) else None
+        )
 
         # --- Deterministic timeline metrics via MCP (guaranteed) ---
-        timeline_out = _compute_timeline_via_mcp(all_tools, start_ts=start_ts, end_ts=end_ts, choices=choices, pid=pid)
+        timeline_out = _compute_timeline_via_mcp(
+            all_tools, start_ts=start_ts, end_ts=end_ts, choices=choices, pid=pid
+        )
         if timeline_out:
             print("\n=== Timeline (via MCP) ===")
-            print(json.dumps({k: timeline_out.get(k) for k in ["unique_voters","total_votes","first_vote_at","last_vote_at","series_step_hours"]}, indent=2))
+            print(
+                json.dumps(
+                    {
+                        k: timeline_out.get(k)
+                        for k in [
+                            "unique_voters",
+                            "total_votes",
+                            "first_vote_at",
+                            "last_vote_at",
+                            "series_step_hours",
+                        ]
+                    },
+                    indent=2,
+                )
+            )
 
         # --- Forum sentiment (LLM‑driven, optional) ---
-        forum_sentiment = compute_forum_sentiment_if_available(all_tools, discussion_url, llm)
+        forum_sentiment = compute_forum_sentiment_if_available(
+            all_tools, discussion_url, llm
+        )
         if forum_sentiment:
             print("\n=== Forum Sentiment (LLM) ===")
             print(_to_json_str(forum_sentiment, indent=2))
+
             def _top3(lst):
                 return [q for q in (lst or [])][:3]
+
             print(f"Posts analyzed: {forum_sentiment.post_count or 0}")
             print("Top + quotes:")
-            print(json.dumps(_top3(forum_sentiment.top_positive_quotes), ensure_ascii=False, indent=2))
+            print(
+                json.dumps(
+                    _top3(forum_sentiment.top_positive_quotes),
+                    ensure_ascii=False,
+                    indent=2,
+                )
+            )
             print("Top - quotes:")
-            print(json.dumps(_top3(forum_sentiment.top_negative_quotes), ensure_ascii=False, indent=2))
+            print(
+                json.dumps(
+                    _top3(forum_sentiment.top_negative_quotes),
+                    ensure_ascii=False,
+                    indent=2,
+                )
+            )
 
         # --- Adjacent proposal baseline (for context) ---
-        space_hint = _space_from_url(snapshot_url) or (meta_js.get("space") or {}).get("id")
+        space_hint = _space_from_url(snapshot_url) or (meta_js.get("space") or {}).get(
+            "id"
+        )
         adjacent_list: List[Dict[str, Any]] = []
         if space_hint:
             try:
@@ -815,34 +1049,64 @@ def main() -> None:
             except Exception:
                 all_props = []
             adjacent_list = _select_adjacent_proposals(
-                all_props, current_start_unix=int(start_ts), max_days=60, max_n=10, jaccard_min=0.30,
-                current_author=meta_js.get("author"), current_title=meta_js.get("title"), current_body=meta_js.get("body"),
+                all_props,
+                current_start_unix=int(start_ts),
+                max_days=60,
+                max_n=10,
+                jaccard_min=0.30,
+                current_author=meta_js.get("author"),
+                current_title=meta_js.get("title"),
+                current_body=meta_js.get("body"),
             )
+
         def _fmt_adj(p: Dict[str, Any]) -> Dict[str, Any]:
             return {
-                "id": p.get("id"), "title": p.get("title"), "author": p.get("author"),
-                "start": int(p.get("start") or 0), "end": int(p.get("end") or 0),
+                "id": p.get("id"),
+                "title": p.get("title"),
+                "author": p.get("author"),
+                "start": int(p.get("start") or 0),
+                "end": int(p.get("end") or 0),
                 "end_utc": _iso_from_unix(p.get("end")) if p.get("end") else None,
-                "state": p.get("state"), "choices_len": len(p.get("choices") or []),
+                "state": p.get("state"),
+                "choices_len": len(p.get("choices") or []),
             }
+
         ADJACENT_BASELINE = list(map(_fmt_adj, adjacent_list))
-        print("\n=== Adjacent Past Proposals (≤10 within 60d & topic/author matched) ===")
+        print(
+            "\n=== Adjacent Past Proposals (≤10 within 60d & topic/author matched) ==="
+        )
         print(json.dumps(ADJACENT_BASELINE, ensure_ascii=False, indent=2))
 
         # --- Price/TVL impacts ---
         cmc_parquet = _resolve_parquet_path(project_root)
 
         # Registry CSV (space → ucid/defillama hints)
-        cmc_ucid = None; defillama_link = None; defillama_slug = None
+        cmc_ucid = None
+        defillama_link = None
+        defillama_slug = None
         if registry_csv and space_hint and registry_csv.exists():
             try:
                 with registry_csv.open("r", encoding="utf-8-sig") as fh:
                     reader = csv.DictReader(fh)
                     for row in reader:
-                        if str(row.get("space") or "").strip().lower() == str(space_hint).strip().lower():
-                            cmc_ucid = str(row.get("cmc_ucid") or row.get("ucid") or "").strip() or None
-                            defillama_link = (row.get("defillama_link") or "").strip() or None
-                            name_defi = (row.get("name_defillama") or row.get("defillama_name") or "").strip()
+                        if (
+                            str(row.get("space") or "").strip().lower()
+                            == str(space_hint).strip().lower()
+                        ):
+                            cmc_ucid = (
+                                str(
+                                    row.get("cmc_ucid") or row.get("ucid") or ""
+                                ).strip()
+                                or None
+                            )
+                            defillama_link = (
+                                row.get("defillama_link") or ""
+                            ).strip() or None
+                            name_defi = (
+                                row.get("name_defillama")
+                                or row.get("defillama_name")
+                                or ""
+                            ).strip()
                             if not defillama_link and name_defi:
                                 slug = re.sub(r"\s+", "-", name_defi)
                                 slug = re.sub(r"[^a-zA-Z0-9\-]", "", slug).lower()
@@ -855,11 +1119,15 @@ def main() -> None:
                 print(f"[registry] read failed: {e}")
 
         cmc_ucid = _normalize_ucid(cmc_ucid)
-        print(f"[registry] space={space_hint} cmc_ucid={cmc_ucid} defillama_link={defillama_link} slug={defillama_slug}")
+        print(
+            f"[registry] space={space_hint} cmc_ucid={cmc_ucid} defillama_link={defillama_link} slug={defillama_slug}"
+        )
 
         token_price_impact = None
         if cmc_ucid and cmc_parquet.exists():
-            token_price_impact = compute_token_price_impact_from_parquet(cmc_parquet, cmc_ucid, end_iso, 7, 7)
+            token_price_impact = compute_token_price_impact_from_parquet(
+                cmc_parquet, cmc_ucid, end_iso, 7, 7
+            )
 
         tvl_impact = compute_tvl_impact_from_defillama_tool(
             all_tools,
@@ -867,13 +1135,25 @@ def main() -> None:
             slug=defillama_slug if (defillama_slug and not defillama_link) else None,
             project_hint=space_hint,
             event_end_utc=end_iso,
-            pre_days=7, post_days=7,
+            pre_days=7,
+            post_days=7,
         )
         print("\n=== Impact Preview (current) ===")
-        print(json.dumps({"token_price_impact_pct": token_price_impact, "tvl_impact_pct": tvl_impact}, indent=2, ensure_ascii=False))
+        print(
+            json.dumps(
+                {
+                    "token_price_impact_pct": token_price_impact,
+                    "tvl_impact_pct": tvl_impact,
+                },
+                indent=2,
+                ensure_ascii=False,
+            )
+        )
 
         # Past proposals price impact
-        adj_price_impacts = compute_price_impacts_for_adjacent(cmc_parquet, cmc_ucid, adjacent_list, 7, 7)
+        adj_price_impacts = compute_price_impacts_for_adjacent(
+            cmc_parquet, cmc_ucid, adjacent_list, 7, 7
+        )
         if adj_price_impacts:
             print("\n=== Past Proposals — Token Price Impact (±7d) ===")
             print(json.dumps(adj_price_impacts, indent=2, ensure_ascii=False))
@@ -896,7 +1176,10 @@ def main() -> None:
             plan_prompt.append(f"EXTRA EMPHASIS: {focus}")
 
         plan_agent = AG(
-            atype=ToolPlan, tools=tools_for_agent, max_iter=4, verbose_agent=False,
+            atype=ToolPlan,
+            tools=tools_for_agent,
+            max_iter=4,
+            verbose_agent=False,
             description="Plan which MCP tools to call for a governance evaluation.",
             instructions="Return a ToolPlan JSON only; do not include prose outside JSON.",
             llm=get_llm_provider(),
@@ -915,7 +1198,9 @@ def main() -> None:
             "event_start_utc": start_iso,
             "event_end_utc": end_iso,
             "timeline_preview": timeline_out,
-            "forum_sentiment_preview": _to_dict(forum_sentiment) if forum_sentiment else None,
+            "forum_sentiment_preview": (
+                _to_dict(forum_sentiment) if forum_sentiment else None
+            ),
         }
         decision_prompt = [
             f"Snapshot proposal under review: {snapshot_url}",
@@ -930,7 +1215,10 @@ def main() -> None:
             decision_prompt.append(f"Extra emphasis: {focus}")
 
         decision_agent = AG(
-            atype=ProposalDecision, tools=tools_for_agent, max_iter=14, verbose_agent=False,
+            atype=ProposalDecision,
+            tools=tools_for_agent,
+            max_iter=14,
+            verbose_agent=False,
             description="Governance vote recommendation for a Snapshot proposal (ex-post blind).",
             instructions=(
                 "Return a ProposalDecision object. Use the provided BOOTSTRAP_CONTEXT. "
@@ -956,7 +1244,9 @@ def main() -> None:
         decision: ProposalDecision = states[0]  # type: ignore
 
         # --- Coercions & enrichment ---
-        def _coerce_choice(label: str, idx: Optional[int], options: List[str]) -> Tuple[str, Optional[int]]:
+        def _coerce_choice(
+            label: str, idx: Optional[int], options: List[str]
+        ) -> Tuple[str, Optional[int]]:
             if not options:
                 return (label, idx)
             for i, c in enumerate(options):
@@ -999,11 +1289,15 @@ def main() -> None:
         if scores and choices:
             winner_idx = max(range(len(scores)), key=lambda i: scores[i])
             actual.winner_index = winner_idx
-            actual.winner_label = (choices[winner_idx] if 0 <= winner_idx < len(choices) else None)
+            actual.winner_label = (
+                choices[winner_idx] if 0 <= winner_idx < len(choices) else None
+            )
             sorted_scores = sorted(scores, reverse=True)
             if len(sorted_scores) >= 2 and actual.scores_total:
                 actual.margin_abs = float(sorted_scores[0] - sorted_scores[1])
-                actual.margin_pct = round(float(actual.margin_abs / actual.scores_total), 6)
+                actual.margin_pct = round(
+                    float(actual.margin_abs / actual.scores_total), 6
+                )
         decision.actual_vote_result = actual
 
         # --- Save structured record ---

@@ -9,15 +9,23 @@ It prints a short summary and writes two CSVs with the event-window series.
 """
 
 from __future__ import annotations
-import argparse, importlib, json, os, sys
+
+import argparse
+import importlib
+import json
+import os
+import sys
 from pathlib import Path
+
 import pandas as pd
+
 
 # ---------- Pretty helpers ----------
 def jprint(x, head=2000):
     print(json.dumps(x, indent=2, default=str)[:head])
 
-def pick_token_id(resolved: dict) -> tuple[int|None, str|None]:
+
+def pick_token_id(resolved: dict) -> tuple[int | None, str | None]:
     """Choose governance token id if available, otherwise native; return (id, symbol)."""
     gov = (resolved or {}).get("governance_token") or {}
     nat = (resolved or {}).get("native_token") or {}
@@ -26,22 +34,45 @@ def pick_token_id(resolved: dict) -> tuple[int|None, str|None]:
             return int(cand["id"]), cand.get("symbol")
     return None, None
 
+
 # ---------- Main test ----------
 def main():
     parser = argparse.ArgumentParser(description="Smoke test for TVL + CMC MCP")
-    parser.add_argument("--project_hint", type=str, default="lido-snapshot.eth",
-                        help="Protocol/DAO hint (slug/name/snapshot space), e.g., 'lido-snapshot.eth'")
-    parser.add_argument("--event_time_utc", type=str, default="2021-04-01T00:00:00Z",
-                        help="Event timestamp in ISO8601 (UTC)")
+    parser.add_argument(
+        "--project_hint",
+        type=str,
+        default="lido-snapshot.eth",
+        help="Protocol/DAO hint (slug/name/snapshot space), e.g., 'lido-snapshot.eth'",
+    )
+    parser.add_argument(
+        "--event_time_utc",
+        type=str,
+        default="2021-04-01T00:00:00Z",
+        help="Event timestamp in ISO8601 (UTC)",
+    )
     parser.add_argument("--pre_days", type=int, default=7)
     parser.add_argument("--post_days", type=int, default=7)
-    parser.add_argument("--price_interval", type=str, default="1d", choices=["1d","1h"])
-    parser.add_argument("--start_date", type=str, default="2020-01-01",
-                        help="(price) fetch start date (YYYY-MM-DD)")
-    parser.add_argument("--end_date", type=str, default="2025-12-31",
-                        help="(price) fetch end date (YYYY-MM-DD)")
-    parser.add_argument("--outdir", type=str, default="data/exports",
-                        help="Directory to write CSV outputs")
+    parser.add_argument(
+        "--price_interval", type=str, default="1d", choices=["1d", "1h"]
+    )
+    parser.add_argument(
+        "--start_date",
+        type=str,
+        default="2020-01-01",
+        help="(price) fetch start date (YYYY-MM-DD)",
+    )
+    parser.add_argument(
+        "--end_date",
+        type=str,
+        default="2025-12-31",
+        help="(price) fetch end date (YYYY-MM-DD)",
+    )
+    parser.add_argument(
+        "--outdir",
+        type=str,
+        default="data/exports",
+        help="Directory to write CSV outputs",
+    )
     args = parser.parse_args()
 
     # Ensure PYTHONPATH=src set by user before running.
@@ -49,7 +80,10 @@ def main():
         tvl = importlib.import_module("agentics.mcp.defillama_mcp")
         cmc = importlib.import_module("agentics.mcp.cmc_mcp")
     except Exception as e:
-        print("Failed to import MCP modules. Make sure PYTHONPATH=src is set.", file=sys.stderr)
+        print(
+            "Failed to import MCP modules. Make sure PYTHONPATH=src is set.",
+            file=sys.stderr,
+        )
         raise
 
     outdir = Path(args.outdir)
@@ -60,14 +94,27 @@ def main():
     tvl.refresh_protocols_cache()
     res_proto = tvl.resolve_protocol_impl(args.project_hint)
     jprint(res_proto)
-    slug = res_proto.get("protocol_slug")
+    slug = next(
+        (c.get("slug") for c in (res_proto.get("candidates") or []) if c.get("slug")),
+        None,
+    )
     if not slug:
         # One more attempt after cache refresh (defensive)
         tvl.refresh_protocols_cache()
         res_proto = tvl.resolve_protocol_impl(args.project_hint)
-        slug = res_proto.get("protocol_slug")
+        slug = next(
+            (
+                c.get("slug")
+                for c in (res_proto.get("candidates") or [])
+                if c.get("slug")
+            ),
+            None,
+        )
     if not slug:
-        print(f"[TVL] Failed to resolve protocol from hint: {args.project_hint}", file=sys.stderr)
+        print(
+            f"[TVL] Failed to resolve protocol from hint: {args.project_hint}",
+            file=sys.stderr,
+        )
         sys.exit(2)
 
     print("\n========== 2) DeFiLlama TVL: refresh + event window ==========")
@@ -78,9 +125,14 @@ def main():
         event_time_utc=args.event_time_utc,
         pre_days=args.pre_days,
         post_days=args.post_days,
-        event_id="smoke-tvl-event"
+        event_id="smoke-tvl-event",
     )
-    jprint({"protocol_slug": evt_tvl.get("protocol_slug"), "stats_keys": list((evt_tvl.get("stats") or {}).keys())})
+    jprint(
+        {
+            "protocol_slug": evt_tvl.get("protocol_slug"),
+            "stats_keys": list((evt_tvl.get("stats") or {}).keys()),
+        }
+    )
     # write window series to CSV
     tvl_series = (evt_tvl.get("stats") or {}).get("window_series") or []
     tvl_csv = outdir / f"tvl_window_{slug}.csv"
@@ -89,16 +141,23 @@ def main():
 
     print("\n========== 3) CMC Price: resolve tokens ==========")
     res_tok = cmc.resolve_tokens_impl(args.project_hint, prefer_governance=True)
-    jprint({"governance_token": res_tok.get("governance_token"),
+    jprint(
+        {
+            "governance_token": res_tok.get("governance_token"),
             "native_token": res_tok.get("native_token"),
-            "num_candidates": len(res_tok.get("candidates") or [])})
+            "num_candidates": len(res_tok.get("candidates") or []),
+        }
+    )
     tok_id, tok_sym = pick_token_id(res_tok)
     tok_label = tok_sym or str(tok_id)
     if tok_id is None:
         # try using symbol 'LDO' for lido as last resort (demo)
         fallback = "LDO" if "lido" in args.project_hint.lower() else None
         if fallback is None:
-            print(f"[CMC] Cannot resolve token id from hint '{args.project_hint}'", file=sys.stderr)
+            print(
+                f"[CMC] Cannot resolve token id from hint '{args.project_hint}'",
+                file=sys.stderr,
+            )
             sys.exit(3)
         print(f"[CMC] Falling back to symbol: {fallback}")
         tok_id = fallback
@@ -109,16 +168,22 @@ def main():
         token=tok_id,
         interval=args.price_interval,
         start_date=args.start_date,
-        end_date=args.end_date
+        end_date=args.end_date,
     )
-    jprint({"token_id": ref_px.get("token_id"), "interval": ref_px.get("interval"), "inserted_rows": ref_px.get("rows")})
+    jprint(
+        {
+            "token_id": ref_px.get("token_id"),
+            "interval": ref_px.get("interval"),
+            "inserted_rows": ref_px.get("rows"),
+        }
+    )
 
     evt_px = cmc.price_window_impl(
         token=tok_id,
         event_time_utc=args.event_time_utc,
         pre_days=args.pre_days,
         post_days=args.post_days,
-        interval=args.price_interval
+        interval=args.price_interval,
     )
     px_stats = evt_px.get("stats") or {}
     jprint({"token_id": evt_px.get("token_id"), "stats_keys": list(px_stats.keys())})
@@ -137,13 +202,16 @@ def main():
         "pre_days": args.pre_days,
         "post_days": args.post_days,
         "tvl_t0": (evt_tvl.get("stats") or {}).get("tvl_t0"),
-        "tvl_delta_0_to_postK": (evt_tvl.get("stats") or {}).get("delta_pct_0_to_postK"),
+        "tvl_delta_0_to_postK": (evt_tvl.get("stats") or {}).get(
+            "delta_pct_0_to_postK"
+        ),
         "price_t0": px_stats.get("px_t0"),
         "welch_z_on_log_ret": px_stats.get("welch_z_on_log_ret"),
-        "files": {"tvl_csv": str(tvl_csv), "price_csv": str(px_csv)}
+        "files": {"tvl_csv": str(tvl_csv), "price_csv": str(px_csv)},
     }
     jprint(summary, head=4000)
     print("\nAll good. 🎉")
+
 
 if __name__ == "__main__":
     # Tip: ensure PYTHONPATH=src
