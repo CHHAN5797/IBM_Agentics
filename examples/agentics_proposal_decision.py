@@ -14,7 +14,6 @@ This UPDATED+EXTENDED version adds:
 - (4) Adjacent proposals include an explicit Jaccard similarity score.
 - (5) ProposalDecision fields `ai_final_conclusion`, `ai_final_reason`, and stronger prompt to fill them.
 """
-import asyncio
 import csv
 import html as _html_mod
 import json
@@ -34,10 +33,15 @@ from crewai_tools import MCPServerAdapter
 from dotenv import load_dotenv
 from pydantic import BaseModel, Field
 
-from agentics import Agentics as AG
 from agentics.core.llm_connections import get_llm_provider
 from agentics.orchestra.dual_llm_runner import run_both_and_save
 from mcp import StdioServerParameters
+
+from decision_agent_runner import (
+    ActualVoteResult,
+    DecisionAgentContext,
+    run_decision_agent,
+)
 
 # --- CrewAI FilteredStream flush guard ---
 try:
@@ -96,48 +100,6 @@ def _to_json_str(m, indent=2):
         if hasattr(m, "model_dump_json"):
             return m.model_dump_json(indent=indent)
         return json.dumps(m, indent=indent, ensure_ascii=False)
-
-
-# ------------------------------------------------------------------------------
-# Output schema
-# ------------------------------------------------------------------------------
-class Evidence(BaseModel):
-    source_tool: str
-    reference: Optional[str] = None
-    quote: Optional[str] = None
-
-
-class ActualVoteResult(BaseModel):
-    winner_label: Optional[str] = None
-    winner_index: Optional[int] = None
-    scores: Optional[List[float]] = None
-    scores_total: Optional[float] = None
-    margin_abs: Optional[float] = None
-    margin_pct: Optional[float] = None
-
-
-class ProposalDecision(BaseModel):
-    snapshot_url: str
-    selected_choice_label: str
-    selected_choice_index: Optional[int] = None
-    confidence: float
-    summary: str
-    key_arguments_for: List[str] = Field(default_factory=list)
-    key_arguments_against: List[str] = Field(default_factory=list)
-    evidence: List[Evidence] = Field(default_factory=list)
-    available_choices: Optional[List[str]] = None
-    event_start_utc: Optional[str] = None
-    event_end_utc: Optional[str] = None
-    event_time_utc: Optional[str] = None
-    address_of_governance_token: Optional[str] = None
-    token_price_impact_pct: Optional[float] = None
-    tvl_impact_pct: Optional[float] = None
-    actual_vote_result: Optional[ActualVoteResult] = None
-    simulation_reason: Optional[str] = None
-    references: Optional[List[Dict[str, Any]]] = None
-    # NEW: explicit final verdict + rationale
-    ai_final_conclusion: Optional[str] = None
-    ai_final_reason: Optional[str] = None
 
 
 # ------------------------------------------------------------------------------
@@ -1321,7 +1283,7 @@ def main() -> None:
         tools_for_agent = _blind_toolset(all_tools)
 
         try:
-            _ = get_llm_provider()
+            llm_provider = get_llm_provider()
         except ValueError as exc:
             raise SystemExit(
                 "No LLM provider configured. Populate .env or env vars."
@@ -1469,67 +1431,38 @@ def main() -> None:
                 "note": "Already executed with full votes array.",
             },
         }
-        forum_snippet = {
-            "url": forum_pack.get("url"),
-            "sample_comments": forum_comments_sample,
-            "instruction": (
-                "Determine overall sentiment (support/concerns/neutral), key themes, and delegate alignment "
-                "without relying on fixed lexicon rules."
-            ),
-        }
 
-        decision_prompt = [
-            f"Snapshot proposal under review: {snapshot_url}",
-            f"Authoritative context: choices={choices}, discussion={discussion_url}, "
-            f"event_start_utc={start_iso}, event_end_utc={end_iso}",
-            f"VOTES: count={votes_count} (FULL array fetched via MCP and used in timeline).",
-            f"TIMELINE_METRICS(current): {json.dumps(TIMELINE_METRICS, ensure_ascii=False)}",
-            f"MARKET_IMPACTS(current): price_pct={token_price_impact}, tvl_pct={tvl_impact}",
-            f"ADJACENT_ANALYTICS(≤3): {json.dumps(ADJACENT_ANALYTICS, ensure_ascii=False)}",
-            f"FORUM_CONTEXT(sampled): {json.dumps(forum_snippet, ensure_ascii=False)}",
-            # NEW: explicitly request final conclusion + reason using all inputs
-            "Also set `ai_final_conclusion` (one sentence: chosen option and stance) and "
-            "`ai_final_reason` (2–4 bullet points integrating votes/timeline/market/TVL/forum/adjacent).",
-            "Objective: Choose exactly one option from the proposal's `choices`.\n"
-            "Fill every field of ProposalDecision. Do NOT use ex-post tally.",
-            "ONCHAIN GOAL (optional if needed): total holders & top-100 concentration.",
-            "ANCHOR: Use END timestamp as the event window for market/TVL.",
-            "Do NOT include token price impact (ex-post) as a pro/for argument. ",
-            "Treat price impact only as a separate observation; exclude it from key_arguments_for.",
-            f"PLANNED CALLS: {_to_json_str(tool_plan)}",
-            "HARD_HINTS:\n" + json.dumps(hard_hints, ensure_ascii=False),
-        ]
-        if focus:
-            decision_prompt.append(f"Extra emphasis: {focus}")
-
-        decision_agent = AG(
-            atype=ProposalDecision,
-            tools=tools_for_agent,
-            max_iter=14,
-            verbose_agent=False,
-            description="Governance vote recommendation for a Snapshot proposal (ex-post blind).",
-            instructions=(
-                "Return a ProposalDecision object. Use the provided CONTEXT (timeline metrics, adjacent analytics, forum sentiment cues). "
-                "Choose exactly one option from `choices` and set both label and index. "
-                "Include the full `choices` in available_choices. "
-                "Set event_start_utc and event_end_utc (copy end into event_time_utc). "
-                "Set address_of_governance_token to the authoritative token address."
-            ),
-            llm=get_llm_provider(),
+        agent_context = DecisionAgentContext(
+            snapshot_url=snapshot_url,
+            choices=choices,
+            discussion_url=discussion_url,
+            event_start_utc=start_iso,
+            event_end_utc=end_iso,
+            votes_count=votes_count,
+            timeline_metrics=TIMELINE_METRICS,
+            token_price_impact_pct=token_price_impact,
+            tvl_impact_pct=tvl_impact,
+            adjacent_analytics=ADJACENT_ANALYTICS,
+            forum_url=forum_pack.get("url"),
+            forum_sample=forum_comments_sample,
+            tool_plan_summary=_to_json_str(tool_plan),
+            hard_hints=hard_hints,
+            focus=focus or None,
         )
-        decision_result = asyncio.run(decision_agent << ["\n".join(decision_prompt)])
-        print("\n=== ProposalDecision ===")
-        try:
-            print(decision_result.pretty_print())
-        except Exception:
-            states_tmp = getattr(decision_result, "states", [])
-            if states_tmp:
-                print(_to_json_str(states_tmp[0], indent=2))  # type: ignore
 
-        states = getattr(decision_result, "states", [])
-        if not states:
-            raise SystemExit("Agent produced no decision state; cannot write log.")
-        decision: ProposalDecision = states[0]  # type: ignore
+        decision_output = run_decision_agent(
+            tools=tools_for_agent,
+            llm_provider=llm_provider,
+            context=agent_context,
+        )
+
+        print("\n=== ProposalDecision ===")
+        if decision_output.pretty_print:
+            print(decision_output.pretty_print)
+        else:
+            print(_to_json_str(decision_output.decision, indent=2))
+
+        decision = decision_output.decision
 
         # Coercions
         def _coerce_choice(
