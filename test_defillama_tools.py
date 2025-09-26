@@ -271,19 +271,19 @@ def event_stats_tvl(df: pd.DataFrame, t0: pd.Timestamp, pre_days=7, post_days=7)
 # ------------------------------ Impl functions --------------------------------
 # (Plain callables for tests and internal use. MCP tool wrappers call these.)
 
-def resolve_protocol_impl(space_or_slug: str) -> Dict[str, Any]:
+def resolve_protocol_impl(project_hint: str) -> Dict[str, Any]:
     with _db() as conn:
-        cur = conn.execute("SELECT slug FROM protocols WHERE slug=?;", (space_or_slug,))
+        cur = conn.execute("SELECT slug FROM protocols WHERE slug=?;", (project_hint,))
         hit = cur.fetchone()
     if hit:
-        return {"protocol_slug": space_or_slug, "matched_from": "slug"}
+        return {"protocol_slug": project_hint, "matched_from": "slug"}
 
     with _db() as conn:
         n = conn.execute("SELECT COUNT(*) FROM protocols;").fetchone()[0]
     if n == 0:
         refresh_protocols_cache()
 
-    guessed = guess_slug_by_space(space_or_slug)
+    guessed = guess_slug_by_space(project_hint)
     return {"protocol_slug": guessed, "matched_from": ("guess" if guessed else None)}
 
 
@@ -327,9 +327,9 @@ def event_window_impl(protocol_or_space: str, event_time_utc: str,
 # --------------------------------- MCP Tools ----------------------------------
 
 @mcp.tool()
-def resolve_protocol(space_or_slug: str) -> Dict[str, Any]:
+def resolve_protocol(project_hint: str) -> Dict[str, Any]:
     """Resolve a protocol slug from a Snapshot space or direct slug."""
-    return resolve_protocol_impl(space_or_slug)
+    return resolve_protocol_impl(project_hint)
 
 @mcp.tool()
 def refresh_protocol(protocol_slug: str) -> Dict[str, Any]:

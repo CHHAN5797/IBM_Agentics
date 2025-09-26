@@ -23,6 +23,7 @@ import re
 import re as _re_mod
 import time
 from contextlib import ExitStack
+from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
@@ -120,13 +121,28 @@ class ToolPlan(BaseModel):
 # ------------------------------------------------------------------------------
 # MCP wiring
 # ------------------------------------------------------------------------------
-def _server_params(
-    script_path: Path, src_dir: Path, extra_env: Optional[Dict[str, str]] = None
-) -> StdioServerParameters:
+
+
+@dataclass
+class ServerSpec:
+    name: str
+    script_path: Optional[Path] = None
+    module_name: Optional[str] = None
+    extra_env: Optional[Dict[str, str]] = None
+
+def _server_params(spec: ServerSpec, src_dir: Path) -> StdioServerParameters:
     env = {"PYTHONPATH": str(src_dir), **os.environ}
-    if extra_env:
-        env.update(extra_env)
-    return StdioServerParameters(command="python3", args=[str(script_path)], env=env)
+    if spec.extra_env:
+        env.update(spec.extra_env)
+
+    if spec.module_name:
+        args = ["-m", spec.module_name]
+    elif spec.script_path:
+        args = [str(spec.script_path)]
+    else:
+        raise ValueError(f"ServerSpec '{spec.name}' missing entrypoint")
+
+    return StdioServerParameters(command="python3", args=args, env=env)
 
 
 def _load_mcp_tools(project_root: Path, stack: ExitStack) -> List:
@@ -137,32 +153,66 @@ def _load_mcp_tools(project_root: Path, stack: ExitStack) -> List:
     )
 
     server_specs = [
-        ("snapshot", project_root / "src/agentics/mcp/snapshot_api.py", None),
-        ("timeline", project_root / "src/agentics/mcp/timeline_mcp.py", None),
-        ("forums", project_root / "src/agentics/mcp/forums_mcp.py", None),
-        ("defillama", project_root / "src/agentics/mcp/defillama_mcp.py", None),
-        ("holders", project_root / "src/agentics/mcp/holders_activity_mcp.py", None),
-        (
-            "onchain",
-            project_root / "src/agentics/mcp/onchain_activity_mcp_bq_cmc.py",
-            None,
+        ServerSpec(
+            name="snapshot",
+            script_path=project_root / "src/agentics/mcp/snapshot_api.py",
         ),
-        ("cmc", project_root / "src/agentics/mcp/cmc_offline_mcp.py", cmc_env),
-        ("semantics", project_root / "src/agentics/mcp/semantics_mcp.py", None),
-        ("registry", project_root / "src/agentics/mcp/registry_mcp.py", None),
-        ("govnews", project_root / "src/agentics/mcp/govnews_mcp.py", None),
-        ("sentiment", project_root / "src/agentics/mcp/sentiment_mcp.py", None),
+        ServerSpec(
+            name="timeline",
+            script_path=project_root / "src/agentics/mcp/timeline_mcp.py",
+        ),
+        ServerSpec(
+            name="forums",
+            script_path=project_root / "src/agentics/mcp/forums_mcp.py",
+        ),
+        ServerSpec(
+            name="defillama",
+            module_name="agentics.mcp.defillama_mcp",
+        ),
+        ServerSpec(
+            name="holders",
+            script_path=project_root / "src/agentics/mcp/holders_activity_mcp.py",
+        ),
+        ServerSpec(
+            name="onchain",
+            script_path=project_root / "src/agentics/mcp/onchain_activity_mcp_bq_cmc.py",
+        ),
+        ServerSpec(
+            name="cmc",
+            script_path=project_root / "src/agentics/mcp/cmc_offline_mcp.py",
+            extra_env=cmc_env,
+        ),
+        ServerSpec(
+            name="semantics",
+            script_path=project_root / "src/agentics/mcp/semantics_mcp.py",
+        ),
+        ServerSpec(
+            name="registry",
+            script_path=project_root / "src/agentics/mcp/registry_mcp.py",
+        ),
+        ServerSpec(
+            name="govnews",
+            script_path=project_root / "src/agentics/mcp/govnews_mcp.py",
+        ),
+        ServerSpec(
+            name="sentiment",
+            script_path=project_root / "src/agentics/mcp/sentiment_mcp.py",
+        ),
     ]
 
     combined = None
-    for name, script_path, extra_env in server_specs:
-        if not script_path.exists():
-            print(f"[skip] {name}: missing server at {script_path}")
+    for spec in server_specs:
+        if spec.script_path and not spec.script_path.exists():
+            print(f"[skip] {spec.name}: missing server at {spec.script_path}")
+            continue
+        if not spec.script_path and not spec.module_name:
+            print(f"[skip] {spec.name}: missing module/script configuration")
             continue
         adapter = stack.enter_context(
-            MCPServerAdapter(_server_params(script_path, src_dir, extra_env))
+            MCPServerAdapter(_server_params(spec, src_dir))
         )
-        print(f"Available {name} tools: {[tool.name for tool in adapter]}")
+        entry = spec.module_name or str(spec.script_path)
+        print(f"Available {spec.name} ({entry}) tools: {[tool.name for tool in adapter]}")
         combined = adapter if combined is None else combined + adapter
     if combined is None:
         raise RuntimeError(

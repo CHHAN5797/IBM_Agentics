@@ -1,0 +1,462 @@
+{
+  "captured_at_utc": "2025-09-26T09:02:21.611255+00:00",
+  "snapshot_url": "https://snapshot.box/#/s:arbitrumfoundation.eth/proposal/0x33754da4006d0ef38666ec5d5e85fd0966a891a594ab9dc21f23beedea2d330b",
+  "focus": null,
+  "votes_count": 2696,
+  "timeline_metrics_current": {
+    "unique_voters": 2696,
+    "total_votes": 2696,
+    "first_vote_at": "2025-08-28T17:50:25Z",
+    "last_vote_at": "2025-09-04T16:51:33Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        28697862.579359528,
+        162.51686433185088,
+        1769.671358909228
+      ],
+      [
+        13825393.498762127,
+        702024.8107804608,
+        691.4642277072376
+      ],
+      [
+        32340105.994826924,
+        75.27753780667341,
+        106.7203907342888
+      ],
+      [
+        92643211.54784389,
+        2065.9464330355718,
+        21.756030370323447
+      ]
+    ],
+    "spike_index": 0.145773,
+    "spike_follow_support_ratio": 1.0,
+    "stairwise_ratio": 0.000497,
+    "half_slope_diff": 833.308881
+  },
+  "forum_sample_for_sentiment": [
+    {
+      "author": "offchainlabs",
+      "created": "2025-08-19T17:23:09.999Z",
+      "body": "Type: Constitutional AIP\n\n## Abstract\n\nThis AIP proposes to upgrade Arbitrum One and Arbitrum Nova to ArbOS 50 Dia. Dia adds support for relevant Execution Layer (EL) changes from Ethereum’s upcoming [Fusaka upgrade](https://eips.ethereum.org/EIPS/eip-7607) (Q4 2025), enabling [EIP-2537](https://eips.ethereum.org/EIPS/eip-2537), a few bug fixes, and a handful of new features, such as a new feature called Native Mint/Burn.\n\nWhile the goal of the proposed ArbOS 50 Dia upgrade is to eventually be available for adoption by any Arbitrum Chain, this proposal only concerns the Arbitrum One and Arbitrum Nova chains, as these two chains are governed by the ArbitrumDAO. On a high level, an ArbOS upgrade can be interpreted as Arbitrum’s equivalent of a hard fork - more can be read about the subject [here](https://forum.arbitrum.foundation/t/arbitrum-arbos-upgrades/19695).\n\nPlease note that ArbOS Version 50 Dia is a proposed upgrade that builds upon ArbOS 40 Callisto, which has been previously adopted by the ArbitrumDAO - this proposal increments the version number to 50 instead of 4x due to technical details that allow for better Orbit chain customizability, as explained [here](https://docs.arbitrum.io/launch-orbit-chain/how-tos/arbos-upgrade#step-3-schedule-the-arbos-version-upgrade).\n\n## Changes that will be included in ArbOS 50 Dia:\n\n**[EIP-7951](https://eips.ethereum.org/EIPS/eip-7951): Precompile for secp256r1 Curve Support**\n\nThis EIP implements the same functionality and interface as [RIP-7212](https://github.com/ethereum/RIPs/blob/master/RIPS/rip-7212.md), which was activated as part of [ArbOS 31 Bianca](https://forum.arbitrum.foundation/t/aip-arbos-31-bianca-activation-of-arbitrum-stylus-rip-7212-support-nova-fee-router-proposal/25904). The main difference here is to add a point-at-infinity check and to update the comparison step in the signature verification algorithm. Developers should expect the same behavior as the EIP being proposed on Ethereum after Fusaka is activated.\n\n**[EIP-7825](https://eips.ethereum.org/EIPS/eip-7825): Transaction Gas Limit Cap**\n\nThis EIP introduces a gas cap for individual transactions. The goal is to ensure fairer access to block space and improve network stability. For Arbitrum One & Arbitrum Nova we are proposing a 32 million gas limit (L2 execution gas, not including L1 gas) per transaction, which is the same as the current block gas limit. This 32 million gas limit diverges from the EIPs’ proposed limit of 16 million gas per transaction for Ethereum L1. Orbit chains can customize this value according to their chains’ needs.\n\n**[EIP-7642](https://eips.ethereum.org/EIPS/eip-7642): eth/69 - history expiry and simpler receipts**\n\nThis networking upgrade removes deprecated fields used prior to Ethereum’s Proof of Stake (PoS) transition. We are including this EIP as part of GETH upstream. This is a networking change that impacts mainly L1 nodes. As arbitrum nodes do not have a P2P layer, we do not expect this to have any impact on arbitrum node operators.\n\n**[EIP-7939](https://eips.ethereum.org/EIPS/eip-7939): Count leading zeros (CLZ) opcode**\n\nThis EIP adds a new CLZ (Count Leading Zeros) opcode to efficiently count the number of zero bits at the start of a 256-bit number. This is a fundamental mathematical operation used in many algorithms, especially for mathematical computations, data compression, and cryptographic operations. Currently, implementing this operation in Solidity requires complex and expensive code - this opcode makes it much cheaper and faster.\n\n**[EIP-7823](https://eips.ethereum.org/EIPS/eip-7823): Set upper bounds for MODEXP**\n\nThis EIP introduces a 8192-bit (1024 byte) limit on each input to the MODEXP cryptographic precompile. MODEXP has been a source of consensus bugs due to unbounded inputs. By setting practical limits that cover real-world use cases (like RSA verification), this reduces the testing surface area and paves the way for future replacement with more efficient EVM code.\n\n**[EIP-7883](https://eips.ethereum.org/EIPS/eip-7883): ModExp Gas Cost Increase**\n\nThis EIP increases the gas cost of the ModExp cryptographic precompile to address underpriced operations. It raises the minimum cost from 200 to 500 gas and doubles the costs for large inputs over 32 bytes.\n\n**[EIP-7910](https://eips.ethereum.org/EIPS/eip-7910): eth_config JSON-RPC Method**\n\nThis EIP provides a new RPC method that allows the Arbitrum Nitro node to respond with key configuration variables, offering node operators the ability to gain greater confidence that their Nitro nodes are correctly configured and prepared for upcoming forks. In future Nitro releases, we expect to include additional fields specific to Arbitrum chains. This update is at the RPC level and may be enabled later than the ArbOS 50 Dia upgrade.\n\n**Enable [EIP-2537](https://eips.ethereum.org/EIPS/eip-2537): Precompile for BLS12-381 curve operations**\n\nAs [disclosed previously](https://forum.arbitrum.foundation/t/disclosure-of-support-for-eip-2537-on-arbitrum-one-and-nova/29720), the precompiled contracts for performing various operations over the BLS12-381 elliptic curve, including BLS signature verification, were added but not properly enabled in [ArbOS 40 Callisto](https://docs.arbitrum.io/run-arbitrum-node/arbos-releases/arbos40) as originally expected. ArbOS 50 Dia will now enable EIP-2537.\n\n**A few bug fixes**\n\n* ArbOS Didn’t Get Updated For L1 Calldata Price Increase\n\n  * This change standardizes the calculation of gas units for compressed batch calldata across the codebase by replacing hard-coded values with a method call (tokenGasUnits).\n\n* EIP-7702 Precompile Delegation Behavior Divergence\n\n  * Previously, calls to precompiles could execute an INVALID opcode instead of succeeding with no execution. ArbOS 50 Dia will update code to align with EIP-7702 spec to treat precompile code as empty during delegation.\n\n**A Constraint-Based Pricing Change: STF instrumentation to track multi-gas**\n\nWe have instrumented Arbitrum’s State Transition Function (STF) to track gas usage across multiple resource types including computation, storage access, storage growth, and history growth, rather than only a single total based on opcodes. This work lays the foundation for dynamic, constraint-based pricing where gas fees can adjust based on the most constrained resource at the network level. The goal is to create more stable prices, improve responsiveness to spikes, and allow the network to safely increase throughput without overloading node hardware. In this release, none of the constraints are enabled, so there will be no impact on current gas prices. This update simply adds the ability to measure and record per-resource usage, with actual pricing changes coming in a later version once constraints are configured, benchmarked and tested.\n\nTo read more about this feature, go [here](https://blog.arbitrum.io/dynamic-pricing-explainer/).\n\n**Native Token Mint/Burn**\n\nNative Token Mint/Burn is a feature that allows Arbitrum chains to use interoperability-enabled token standards (e.g., LayerZero OFTs, xERC20s, native USDC) as native gas tokens on their chains. Currently, Arbitrum chains are designed to “lock and mint” native gas tokens on the chain’s canonical bridge. However, doing so means that these “locked and minted” native gas tokens cannot interact with third-party cross-chain adapter contracts. This new feature lets an Arbitrum chain delegate minting and burning of its native gas token to a trusted bridge provider (e.g., LayerZero OFT).\n\nNative Token Mint/Burn is proposed to be included in ArbOS 50 Dia for the benefit of Arbitrum Orbit chains (reducing the need for forks) and to streamline development and testing into a single codebase. There are no plans to enable this feature on Arbitrum One or Arbitrum Nova, consequently this feature will be explicitly left disabled for Arbitrum One and Arbitrum Nova.\n\nTo read more about this feature, go [here](https://arbitrum.notion.site/Enable-Native-Mint-Burn-for-your-chain-s-gas-token-22601a3f59f880be9b99d3d55f982a17).\n\n## Fusaka EIPs that are not proposed to be in ArbOS 50 Dia\n\nSupport and implementation for the following EIPs are not planned to be part of ArbOS 50 Dia:\n\n* [EIP-7594](https://eips.ethereum.org/EIPS/eip-7594), [EIP-7918](https://eips.ethereum.org/EIPS/eip-7918), and [EIP-7892](https://eips.ethereum.org/EIPS/eip-7892), since Arbitrum chains do not have blob data markets (though they do support *posting* blob data to a non-Arbitrum parent chain)\n\n* [EIP-7917](https://eips.ethereum.org/EIPS/eip-7917), since Arbitrum chains do not have a beacon chain and therefore do not have a peer-to-peer layer like Ethereum does\n\n* [EIP-7934](https://eips.ethereum.org/EIPS/eip-7934), this EIP is to help propagating blocks between nodes. Arbitrum doesn’t do that - it sends messages (which are limited) and each node builds every block by itself\n\n* [EIP-7907](https://eips.ethereum.org/EIPS/eip-7907), since this EIP is no longer Scheduled For Inclusion (SFI) for Fusaka, as agreed upon by client teams during [ACDE #216](https://ethereum-magicians.org/t/allcoredevs-execution-acde-216-july-17-2025/24770/2) on July 17, 2025. We are currently exploring alternative ways to increase the contract size limit that do not interfere with the ability for Arbitrum chains to support EIP-7907 in the future. Please see this [forum post reply](https://forum.arbitrum.foundation/t/non-constitutional-proposal-to-direct-the-arbitrum-foundation-to-implement-an-extended-version-of-eip-7907-and-for-the-dao-to-ratify-its-deployment-on-arbitrum-one/29375/3?u=offchainlabs) for more details about this.\n\n* [EIP-7935](https://eips.ethereum.org/EIPS/eip-7935), since Arbitrum chains already have a default gas target of 28Mgas/s and we have separate, alternative plans for increasing the gas limit through other means, as mentioned [here](https://blog.arbitrum.io/scaling-arbitrum-everywhere/).\n\n## Steps to implement\n\nMore detailed information about the specific implementation and versions will be provided closer to the date of the formal on-chain Tally vote. However, this proposal will roughly follow the steps below:\n\n1. An AIP outlining the proposed upgrade and specification is proposed to the ArbitrumDAO forum for discussion (this post);\n\n2. A temperature check vote is held on Snapshot;\n\n3. Engineering work to scope out and implement the relevant changes for ArbOS 50 Dia into the Nitro node software, relevant rollup contracts, and associated upgrade actions (this work has already begun);\n\n4. A new version of Nitro and nitro-contracts, if necessary, are released that support ArbOS 50 Dia;\n\n5. A security audit of all ArbOS 50 Dia relevant changes is conducted by a third-party (Trail of Bits) and the audit report is published for public consumption;\n\n6. Should the Snapshot vote pass, ArbOS 50 Dia will be deployed to both private devnets & Arbitrum Sepolia for testing;\n\n7. A formal AIP is proposed to Tally for an on-chain vote;\n\n8. If the on-chain vote passes, ArbOS 50 Dia will be activated on Arbitrum One and on Arbitrum Nova following the required waiting periods and phases, as outlined in the [ArbitrumDAO Constitution](https://docs.arbitrum.foundation/concepts/lifecycle-anatomy-aip-proposal).\n\n**Note on Fusaka hard fork timelines:**\n\nSimilar to the [ArbOS 20 Atlas upgrade](https://docs.arbitrum.io/run-arbitrum-node/arbos-releases/arbos20) and the [Ethereum Dencun hard fork](https://blog.ethereum.org/2024/02/27/dencun-mainnet-announcement) in March 2024, the activation timestamp for ArbOS 50 Dia will be targeted for roughly the same timestamp as when Ethereum Mainnet hard forks. At the time of writing and as of the latest [All Core Devs Consensus (ACDC) Call #218 held on August 14th, 2025](https://github.com/ethereum/pm/issues/1652), the tentative timestamp of the Ethereum Mainnet fork for Fusaka is targeted for the first or second week of November 2025. The tentative dates for Ethereum Hoodi and Ethereum Sepolia to upgrade to Fusaka are around mid/late October and late September, respectively. The exact slot for mainnet Ethereum has not yet been chosen.\n\nGiven that the L1 client teams are planning to release their Fusaka-supported versions by the week of September 8, 2025 and that the required steps for a [Constitutional AIP can take more than 35 days](https://docs.arbitrum.foundation/concepts/lifecycle-anatomy-aip-proposal) from when it is posted to Tally, there is a likelihood that ArbOS 50 Dia will be activated on Arbitrum One and Arbitrum Nova *after* Ethereum Mainnet upgrades to Fusaka (if the ArbitrumDAO votes to adopt this proposal). We endeavor to continue making updates to this proposal as timelines become more concrete.",
+      "url": null
+    },
+    {
+      "author": "paulofonseca",
+      "created": "2025-08-19T21:59:07.363Z",
+      "body": "[quote=\"offchainlabs, post:1, topic:29835\"]\n(if the ArbitrumDAO votes to adopt this proposal)\n\n[/quote]\n\nand if by the time of that onchain vote, we will still have enough active delegates voting, to be able to achieve the 4.5% constitutional quorum threshold that is required to have this proposal passed.\n\nso please, the whole team at @offchainlabs, I beg you to delegate your vesting ARB tokens to active Arbitrum delegates that actually care and vote on proposals in this DAO.\n\nyou can find the most active ones and delegate to them, here: https://arbitrum.karmahq.xyz/?period=30d",
+      "url": null
+    },
+    {
+      "author": "cp0x",
+      "created": "2025-08-25T15:26:54.345Z",
+      "body": "Hi, I have some questions:\n\n1. Question about this change EIP-7825: Transaction gas limit (32M gas for Arbitrum, as opposed to 16M on Ethereum)\nUnlike Ethereum, this proposes to make the transaction size equal to the block size, which makes this EIP completely pointless. Why use it then?\n2. Question on Dynamic Pricing / Multi-dimensional Gas Pricing\nI understand that now this parameter will only read information and will not affect the cost of transactions, but I see a certain attack vector here - namely setting the target to 0 - in this case, the price of all transactions will be very high and will greatly disrupt the operation of the entire chain.\nIn this regard, I have a proposal - to introduce a limit on the minimum value - based on the results of testing and actual use\n3. It is strange that the possibility of using ARB as gas is implemented in any Orbit-chain, but not in Arbitrum itself. Why is it implemented in this way, without L2?",
+      "url": null
+    },
+    {
+      "author": "offchainlabs",
+      "created": "2025-08-26T15:53:07.736Z",
+      "body": "Hi, we have answered your questions below: \n\n1. There are two main goals for implementing this EIP, 1) Generally there's a goal of minimizing the diff from Ethereum in order to reduce the complexity and risk of maintaining the software so there's a bias towards implementing EIPs and 2) This change opens up the possibility of increasing the block gas limit of Arbitrum One in the future while maintaining the existing transaction gas limit.\n2. As mentioned in the proposal, the change here “simply adds the ability to measure and record per-resource usage, with actual pricing changes will be proposed in a later version once constraints are configured, benchmarked, and tested.” Benchmarking and testing are activities we intend to perform and use to set the minimum gas target. We want to emphasize again that the full implementation and activation of constraint-based pricing will be a separate ArbOS proposal in the future.\n   We agree that setting a gas target of 0 would indeed lead to some undesirable consequences. However, in this release, there is no interface for a chain owner to configure or set these parameters and as such, no chance anyone using ArbOS 50 could accidentally set it to 0 or any other value.\n3. Arbitrum One was deployed with ETH as a gas token. This allows for the greatest alignment with Ethereum’s user and developer experience, as well as more efficient gas pricing and payment of parent chain settlement costs.\n   Orbit chains and Arbitrum One use the same code base but can adopt different features. In this case, Arbitrum One is able to continue using ETH as a gas token, while Orbit chains that deploy can elect to use other custom gas tokens.",
+      "url": null
+    },
+    {
+      "author": "offchainlabs",
+      "created": "2025-08-29T12:50:54.445Z",
+      "body": "The ArbOS 50 proposal has progressed to Snapshot. Delegates can review and cast their vote at the following link: [Snapshot Link](https://snapshot.box/#/s:arbitrumfoundation.eth/proposal/0x33754da4006d0ef38666ec5d5e85fd0966a891a594ab9dc21f23beedea2d330b)",
+      "url": null
+    },
+    {
+      "author": "paulofonseca",
+      "created": "2025-08-29T14:40:46.625Z",
+      "body": "isn’t that… too soon? with almost no discussion about it?",
+      "url": null
+    },
+    {
+      "author": "cp0x",
+      "created": "2025-08-29T17:38:50.687Z",
+      "body": "We need to be honest here – no one besides you and me has shown any interest in this topic over the past 10 days. I’ve asked my questions and received constructive answers.\n\nI think we might be rushing a bit, since these changes are only scheduled to go live on **mainnet in November** – there’s still room for adjustments and revisions based on the outcomes of testing",
+      "url": null
+    },
+    {
+      "author": "maxlomu",
+      "created": "2025-08-31T20:32:44.238Z",
+      "body": "gm, I voted in favor on Snapshot since all the proposed changes seem reasonable to me.\n\nThe ability to mint/burn gas tokens was a market request, even if it carries important implications for the trust minimization of the L2 and with it it might bring some controversy/questions.\n\nAs I mentioned during the governance call, with the growing number of customizable elements in an Orbit chain (DA layer, gas token, ..), it would be handyl if OCL published an overview mapping the trust assumptions tied to each design choice. That would be a huge help for both builders and users.\n\nThanks!",
+      "url": null
+    },
+    {
+      "author": "Tane",
+      "created": "2025-09-02T04:54:49.561Z",
+      "body": "\nWe are voting for this proposal.\nAs an Ethereum L2, we believe it is essential that Arbitrum keeps its protocol closely aligned with Ethereum’s roadmap and upgrades. ArbOS 50 Dia addresses the majority of the necessary changes required for the upcoming Fusaka hard fork, and we see this as a critical step to maintain strong compatibility with Ethereum at the protocol level.\n\nThe detailed evaluation of technical risks will take place after the upgrade is developed and audited. For now, we do not see such potential risks as a decisive concern during the discussion phase.\n\nWe also welcome the new features introduced, particularly Native Mint/Burn and the groundwork for multi-gas tracking. Native Mint/Burn represents an important advancement for optimizing the cross-chain user experience, while the multi-gas instrumentation is a meaningful preparation for a more adaptive and stable fee model in the future.\n\nFinally, while it is unfortunate that EIP-7907 has been deferred, especially considering its relevance for advanced use cases such as FHE and Stylus, we remain optimistic about further progress on this front in future upgrades.",
+      "url": null
+    },
+    {
+      "author": "Curia",
+      "created": "2025-09-02T08:53:37.024Z",
+      "body": "We are supporting ArbOS 50 Dia because it is a straightforward but critical upgrade that keeps Arbitrum aligned with Ethereum’s Fusaka fork. The package of bug fixes and cryptographic improvements strengthens protocol security, while the new instrumentation for multi-gas tracking prepares the network for more flexible fee models ahead. Overall, we see this upgrade as low-risk, necessary, and positioning Arbitrum for continued growth.",
+      "url": null
+    },
+    {
+      "author": "Euphoria",
+      "created": "2025-09-02T08:54:49.098Z",
+      "body": "The following reflects the views of the Lampros DAO governance team, composed of Chain_L (@Blueweb) and @Euphoria, based on our combined research, analysis, and ideation.\n\nWe are voting FOR this proposal in the Snapshot voting.\n\nFirstly, thank you to the @offchainlabs team for putting this together and engaging in the thread. We read the post end-to-end and compared the changes against what builders on One and Nova depend on today.\n\n[quote=\"offchainlabs, post:1, topic:29835\"]\nDia adds support for relevant Execution Layer (EL) changes from Ethereum’s upcoming [Fusaka upgrade](https://eips.ethereum.org/EIPS/eip-7607) (Q4 2025), enabling [EIP-2537](https://eips.ethereum.org/EIPS/eip-2537), a few bug fixes, and a handful of new features, such as a new feature called Native Mint/Burn.\n[/quote]\n\nWe agree with the direction. Staying close to Ethereum reduces maintenance risk, and enabling BLS12-381 and CLZ brings real wins for developers. Keeping the pricing work to measurement only is also a prudent choice at this stage.\n\n[quote=\"offchainlabs, post:1, topic:29835\"]\nFor Arbitrum One & Arbitrum Nova we are proposing a 32 million gas limit (L2 execution gas, not including L1 gas) per transaction, which is the same as the current block gas limit.\n[/quote]\n\nSince the per-transaction cap equals the block limit, we kindly ask for a short note with recent chain data to back this choice: P95 and P99 gas used per transaction over the last 90 days, any instances where a single transaction filled most of a block, and a brief check that large single transactions do not impact sequencing fairness. If these numbers show headroom, the 32M setting is easy to support; if they suggest pressure, we can discuss a safer margin now rather than later.\n\n[quote=\"offchainlabs, post:1, topic:29835\"]\nA Constraint-Based Pricing Change: STF instrumentation to track multi-gas\n[/quote]\nMeasuring first is the right approach. To help everyone review before any later activation, it would be helpful to expose a minimal telemetry surface for the new counters (compute, storage access, storage growth, history growth), either via JSON-RPC or a Prometheus endpoint, and to share a short outline of the activation playbook when you return: which parameters can change, how changes would roll out, what checks define “go / no-go,” and how a revert would work if needed. This keeps the next step predictable for node operators and the DAO.\n\n[quote=\"offchainlabs, post:1, topic:29835\"]\nNative Token Mint/Burn is proposed to be included in ArbOS 50 Dia for the benefit of Arbitrum Orbit chains\n[/quote]\n\nWe support including it in the codebase while keeping One and Nova unchanged. For completeness, please confirm there is no configuration path that could enable Mint/Burn on One or Nova in this release, and share the audit artifacts for the Dia diff when ready. For Orbit chains that opt in, a short operator checklist and the clean migration path if a bridge provider changes would be useful. A concise “assumptions matrix” that maps token/bridge choices to added trust would also help teams make informed decisions.\n\n[quote=\"offchainlabs, post:1, topic:29835\"]\n**A few bug fixes**\n[/quote]\nThese fixes are welcome. A brief regression summary noting the test coverage and any expected effect on batch posting costs or node resource usage would make planning easier for infra teams. If there is no material impact, stating that clearly is helpful.\n\nWe understand activation could land after Fusaka due to constitutional timings. That is fine if the audit report, the RC metrics snapshot, and the upgrade notes are public before Tally.",
+      "url": null
+    },
+    {
+      "author": "jameskbh",
+      "created": "2025-09-02T09:38:11.190Z",
+      "body": "I voted FOR on this proposal. It bundles several fixes and keeps Arbitrum in pace with Ethereum mainnet.",
+      "url": null
+    }
+  ],
+  "forum_summary": {
+    "total_comments": 21,
+    "recent_previews": [
+      {
+        "author": "offchainlabs",
+        "created": "2025-08-19T17:23:09.999Z",
+        "preview": "Type: Constitutional AIP\n\n## Abstract\n\nThis AIP proposes to upgrade Arbitrum One and Arbitrum Nova t"
+      },
+      {
+        "author": "paulofonseca",
+        "created": "2025-08-19T21:59:07.363Z",
+        "preview": "[quote=\"offchainlabs, post:1, topic:29835\"]\n(if the ArbitrumDAO votes to adopt this proposal)\n\n[/quo"
+      },
+      {
+        "author": "cp0x",
+        "created": "2025-08-25T15:26:54.345Z",
+        "preview": "Hi, I have some questions:\n\n1. Question about this change EIP-7825: Transaction gas limit (32M gas f"
+      },
+      {
+        "author": "offchainlabs",
+        "created": "2025-08-26T15:53:07.736Z",
+        "preview": "Hi, we have answered your questions below: \n\n1. There are two main goals for implementing this EIP, "
+      },
+      {
+        "author": "offchainlabs",
+        "created": "2025-08-29T12:50:54.445Z",
+        "preview": "The ArbOS 50 proposal has progressed to Snapshot. Delegates can review and cast their vote at the fo"
+      }
+    ],
+    "sentiment_counts": {
+      "Positive": 4,
+      "Negative": 11,
+      "Neutral": 6
+    }
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0xd5a66f784523841511f7ffec4171b9c14404fdbf7c205086312084d19c95c193",
+      "title": "[Constitutional] AIP: Disable Legacy Tether Bridge",
+      "author": "0xb5B069370Ef24BC67F114e185D185063CE3479f8",
+      "end_utc": "2025-07-31T15:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 3265,
+        "total_votes": 3265,
+        "first_vote_at": "2025-07-24T15:00:30Z",
+        "last_vote_at": "2025-07-31T14:58:52Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            29746599.794993494,
+            1419.8052500071242,
+            27684.11916975661
+          ],
+          [
+            1720806.9025709964,
+            1610.0756401691629,
+            561.7768571871654
+          ],
+          [
+            45978128.774277166,
+            350.5130207311514,
+            56175.25226324475
+          ],
+          [
+            81996454.22370392,
+            2065.794659244552,
+            31727322.74548291
+          ]
+        ],
+        "spike_index": 0.15694,
+        "spike_follow_support_ratio": 0.999981,
+        "stairwise_ratio": 0.000608,
+        "half_slope_diff": 3563.875795
+      },
+      "price_impact_pct": null,
+      "tvl_impact_pct": null,
+      "similarity": 0.1313
+    },
+    {
+      "id": "0x765b297702f21736e7b52c23d781dc76968519fef9c7b1ca1f924d167b2a6899",
+      "title": "Arbitrum Research and Development Collective V2 - Extension",
+      "author": "0xb5B069370Ef24BC67F114e185D185063CE3479f8",
+      "end_utc": "2025-07-11T11:14:18Z",
+      "timeline_metrics": {
+        "unique_voters": 2660,
+        "total_votes": 2660,
+        "first_vote_at": "2025-07-04T11:15:14Z",
+        "last_vote_at": "2025-07-11T10:41:00Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.560625,
+            0.0,
+            0.439375,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.7357142857142858,
+          0.0,
+          0.2642857142857143,
+          0.0
+        ],
+        "stability": [
+          0.7357142857142858,
+          0.0,
+          0.2642857142857143,
+          0.0
+        ],
+        "early_ratio": [
+          0.560625,
+          0.0,
+          0.439375,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            306588.8303300099,
+            36314.56639626911,
+            93645.07055885188,
+            36547.27717600854
+          ],
+          [
+            528547.8038917561,
+            53696.17229952573,
+            60039902.543482296,
+            10780.47859952327
+          ],
+          [
+            59100.92185392212,
+            50247.47245882526,
+            29772437.705863107,
+            2337306.891590704
+          ],
+          [
+            738475.5096171526,
+            310727.218427762,
+            50231739.08366533,
+            30951842.25278785
+          ]
+        ],
+        "spike_index": 0.180455,
+        "spike_follow_support_ratio": 0.957128,
+        "stairwise_ratio": 0.00026,
+        "half_slope_diff": 1553.157723
+      },
+      "price_impact_pct": null,
+      "tvl_impact_pct": null,
+      "similarity": 0.0803
+    }
+  ],
+  "semantic_references": [],
+  "tool_plan": {
+    "objective": "Collect votes/timeline, market/TVL impacts, forum context, adjacent proposals; then decide.",
+    "calls": [
+      {
+        "tool": "SnapshotAPI.get_votes_all",
+        "args": {
+          "proposal_id": "0x33754da4006d0ef38666ec5d5e85fd0966a891a594ab9dc21f23beedea2d330b"
+        },
+        "why": "Full vote history for timeline features"
+      },
+      {
+        "tool": "timeline.analyze_timeline",
+        "args": {
+          "start": 1756403059,
+          "end": 1757007859,
+          "choices": [
+            "For",
+            "Against",
+            "Abstain"
+          ],
+          "votes": "(from above)"
+        },
+        "why": "Participation dynamics"
+      },
+      {
+        "tool": "forums.fetch_discussion",
+        "args": {
+          "url": "https://forum.arbitrum.foundation/t/constitutional-aip-arbos-version-50-dia/29835"
+        },
+        "why": "Discussion sentiment & themes"
+      }
+    ],
+    "notes": "See semantic_references for governance literature grounding"
+  },
+  "decision": {
+    "snapshot_url": "https://snapshot.box/#/s:arbitrumfoundation.eth/proposal/0x33754da4006d0ef38666ec5d5e85fd0966a891a594ab9dc21f23beedea2d330b",
+    "selected_choice_label": "For",
+    "selected_choice_index": 0,
+    "confidence": 1.0,
+    "summary": "The proposal to upgrade Arbitrum One and Arbitrum Nova to ArbOS 50 Dia has overwhelming support from the voting timeline metrics and consistent positive early, mid, and late vote ratios. The upgrade includes important EIPs to enhance network stability, security, and new features aligned with Ethereum's Fusaka upgrade. Forum discussion highlights detailed benefits and technical improvements. Past similar proposals also show strong support trends.",
+    "key_arguments_for": [
+      "Overwhelming voting support with 100% lead ratio across all quartiles.",
+      "Includes critical EIPs for network upgrade and stability.",
+      "Addresses bug fixes and new features like Native Mint/Burn and dynamic gas pricing groundwork.",
+      "Past related proposals had similar strong support and successful implementation.",
+      "Forum discussion outlines detailed technical benefits and planned security audits."
+    ],
+    "key_arguments_against": [
+      "No significant opposition found in the voting metrics or forum comments.",
+      "Some features (Native Mint/Burn) explicitly disabled for Arbitrum One and Nova to avoid risks."
+    ],
+    "evidence": [
+      {
+        "source_tool": "timeline_metrics",
+        "reference": "timeline-only analysis",
+        "quote": "lead_ratio_by_quartile: all 1.0 for 'For', stability and early ratio also 1.0"
+      },
+      {
+        "source_tool": "adjacent_analytics",
+        "reference": "Past similar proposals",
+        "quote": "Past constitutional AIP disabling legacy Tether bridge and Arbitrum R&D collective V2 had strong voter support."
+      },
+      {
+        "source_tool": "forum_context",
+        "reference": "https://forum.arbitrum.foundation/t/constitutional-aip-arbos-version-50-dia/29835",
+        "quote": "Detailed explanation of benefits, technical EIPs, security audit plans, and upgrade roadmap."
+      }
+    ],
+    "available_choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-08-28T17:44:19Z",
+    "event_end_utc": "2025-09-04T17:44:19Z",
+    "event_time_utc": "2025-09-04T17:44:19Z",
+    "address_of_governance_token": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+    "token_price_impact_pct": null,
+    "tvl_impact_pct": null,
+    "actual_vote_result": {
+      "winner_label": "For",
+      "winner_index": 0,
+      "scores": [
+        167506573.6207925,
+        704328.5516156349,
+        2589.612007721078
+      ],
+      "scores_total": 168213491.78441584,
+      "margin_abs": 166802245.06917688,
+      "margin_pct": 0.99161
+    },
+    "simulation_reason": "The decision is based on timeline metrics showing unanimous support, consistent vote ratios favoring 'For', and supporting forum discussion and adjacent proposal analytics.",
+    "references": null,
+    "ai_final_conclusion": "The proposal is strongly recommended to pass based on unanimous voter support and well-documented technical merits.",
+    "ai_final_reason": "Voting data shows a perfect lead ratio for 'For', stable and early voting trends support adoption, and no evidence of credible opposition. Forum and adjacent analytics reinforce the positive consensus."
+  },
+  "agentic_ai_choice": "For",
+  "actual_outcome": "For",
+  "match_result": "same"
+}

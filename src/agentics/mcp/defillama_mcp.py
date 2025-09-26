@@ -214,15 +214,15 @@ def _snapshot_base(hint: str) -> Optional[str]:
 
 
 def resolve_protocol_impl(
-    space_or_slug: str, ttl_hours: int = 24, top_n: int = 5
+    project_hint: str, ttl_hours: int = 24, top_n: int = 5
 ) -> Dict[str, Any]:
     """Return {candidates, refreshed} where candidates is a ranked slug list."""
-    if not space_or_slug or not isinstance(space_or_slug, str):
-        raise ValueError("space_or_slug must be a non-empty string")
+    if not project_hint or not isinstance(project_hint, str):
+        raise ValueError("project_hint must be a non-empty string")
 
-    hint = space_or_slug.strip()
+    hint = project_hint.strip()
     if not hint:
-        raise ValueError("space_or_slug must be a non-empty string")
+        raise ValueError("project_hint must be a non-empty string")
 
     direct = hint.lower()
     count = protocol_count(DB_PATH)
@@ -305,10 +305,10 @@ def event_stats_tvl(
 
 @mcp.tool()
 def resolve_protocol(
-    space_or_slug: str, ttl_hours: int = 24, top_n: int = 5
+    project_hint: str, ttl_hours: int = 24, top_n: int = 5
 ) -> Dict[str, Any]:
     """Return ranked protocol slug candidates for the provided hint."""
-    return resolve_protocol_impl(space_or_slug, ttl_hours, top_n=top_n)
+    return resolve_protocol_impl(project_hint, ttl_hours, top_n=top_n)
 
 
 @mcp.tool()
