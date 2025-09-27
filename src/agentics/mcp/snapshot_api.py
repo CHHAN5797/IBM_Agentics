@@ -24,7 +24,7 @@ import re
 import time
 import random
 from datetime import datetime, timezone
-from typing import Any, Dict, List, Optional
+from typing import Any, Dict, List, Optional, Annotated
 
 import requests
 from mcp.server.fastmcp import FastMCP
@@ -153,22 +153,66 @@ query($proposal: String!, $first: Int!, $skip: Int!) {
 """
 
 # -----------------------------
-# Pydantic I/O models (optional but helpful for schema clarity)
+# Pydantic I/O models with enhanced validation
 # -----------------------------
 class ProposalsIn(BaseModel):
-    space: str = Field(..., description="Snapshot space, e.g., 'aavedao.eth'")
-    limit: int = Field(200, ge=1, le=1000, description="Max proposals to return (client-side trim)")
+    space: str = Field(
+        ...,
+        description="Snapshot space identifier (e.g., 'aavedao.eth', 'uniswap')",
+        min_length=1,
+        max_length=100
+    )
+    limit: int = Field(
+        200,
+        ge=1,
+        le=1000,
+        description="Maximum number of proposals to return (client-side limit)"
+    )
 
 class VotesPageIn(BaseModel):
-    proposal_id: str = Field(..., description="Snapshot proposal id")
-    first: int = Field(500, ge=1, le=1000, description="Page size")
-    skip: int = Field(0, ge=0, description="Offset for pagination")
+    proposal_id: str = Field(
+        ...,
+        description="Snapshot proposal ID (hexadecimal string)",
+        min_length=1,
+        max_length=100
+    )
+    first: int = Field(
+        500,
+        ge=1,
+        le=1000,
+        description="Number of votes per page for pagination"
+    )
+    skip: int = Field(
+        0,
+        ge=0,
+        description="Number of votes to skip (pagination offset)"
+    )
 
 class SimilarProposalsIn(BaseModel):
-    proposal_id: str = Field(..., description="Reference proposal ID")
-    space: str = Field(..., description="Snapshot space, e.g., 'aavedao.eth'")
-    max_days: int = Field(60, ge=1, le=365, description="Search within N days")
-    max_n: int = Field(10, ge=1, le=50, description="Max similar proposals")
+    proposal_id: str = Field(
+        ...,
+        description="Reference proposal ID to find similar proposals for",
+        min_length=1,
+        max_length=100
+    )
+    space: str = Field(
+        ...,
+        description="Snapshot space to search within (e.g., 'aavedao.eth')",
+        min_length=1,
+        max_length=100
+    )
+    max_days: int = Field(
+        60,
+        ge=1,
+        le=365,
+        description="Maximum days to look back from reference proposal start date"
+    )
+    max_n: int = Field(
+        10,
+        ge=1,
+        le=50,
+        description="Maximum number of similar proposals to return"
+    )
 
 # -----------------------------
 # FastMCP app
@@ -308,51 +352,179 @@ def _fetch_votes_all(pid: str, batch: int = 500) -> List[dict]:
 # -----------------------------
 # Tools
 # -----------------------------
-@mcp.tool()
-def list_proposals(args: ProposalsIn) -> List[dict]:
+@mcp.tool(
+    name="list_proposals",
+    title="List Governance Proposals",
+    description="List proposals for a Snapshot space ordered by creation date (most recent first). Use this to browse governance proposals or get an overview of recent activity in a DAO space.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": True,
+        "idempotentHint": True
+    }
+)
+def list_proposals(
+    space: Annotated[str, Field(
+        description="Snapshot space identifier (e.g., 'aavedao.eth', 'uniswap')",
+        min_length=1,
+        max_length=100
+    )],
+    limit: Annotated[int, Field(
+        description="Maximum number of proposals to return (client-side limit)",
+        ge=1,
+        le=1000
+    )] = 200
+) -> List[dict]:
     """
     List proposals for a given Snapshot space (most recent first).
     This returns up to 'limit' proposals (client-side truncated).
     """
-    all_props = _fetch_all_proposals(args.space)
-    return all_props[: max(1, min(args.limit, 1000))]
+    all_props = _fetch_all_proposals(space)
+    return all_props[: max(1, min(limit, 1000))]
 
-@mcp.tool()
-def list_finished_proposals(args: ProposalsIn) -> List[dict]:
+@mcp.tool(
+    name="list_finished_proposals",
+    title="List Finished Proposals",
+    description="List completed governance proposals (closed state with ended voting period). Use this to analyze historical governance decisions and voting outcomes in a DAO space.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": True,
+        "idempotentHint": True
+    }
+)
+def list_finished_proposals(
+    space: Annotated[str, Field(
+        description="Snapshot space identifier (e.g., 'aavedao.eth', 'uniswap')",
+        min_length=1,
+        max_length=100
+    )],
+    limit: Annotated[int, Field(
+        description="Maximum number of proposals to return (client-side limit)",
+        ge=1,
+        le=1000
+    )] = 200
+) -> List[dict]:
     """
     List finished proposals (state='closed' and end <= now) for a space.
     This returns up to 'limit' proposals (client-side truncated).
     """
-    all_props = _fetch_all_proposals(args.space)
+    all_props = _fetch_all_proposals(space)
     fins = _finished_only(all_props)
-    return fins[: max(1, min(args.limit, 1000))]
+    return fins[: max(1, min(limit, 1000))]
 
-@mcp.tool()
-def get_proposal_by_id(proposal_id: str) -> dict:
+@mcp.tool(
+    name="get_proposal_by_id",
+    title="Get Proposal Details",
+    description="Retrieve detailed metadata for a specific proposal by its ID. Use this to get comprehensive information about a single governance proposal including title, body, choices, and voting parameters.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": True,
+        "idempotentHint": True
+    }
+)
+def get_proposal_by_id(
+    proposal_id: Annotated[str, Field(
+        description="Snapshot proposal ID (hexadecimal string starting with 0x)",
+        min_length=1,
+        max_length=100
+    )]
+) -> dict:
     """Get a single proposal metadata record by id."""
     return _fetch_proposal_by_id(proposal_id)
 
-@mcp.tool()
-def get_proposal_result_by_id(proposal_id: str) -> dict:
+@mcp.tool(
+    name="get_proposal_result_by_id",
+    title="Get Voting Results",
+    description="Get voting results for a proposal including vote tallies, choice options, and total scores. Use this to analyze voting outcomes and see which option won.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": True,
+        "idempotentHint": True
+    }
+)
+def get_proposal_result_by_id(
+    proposal_id: Annotated[str, Field(
+        description="Snapshot proposal ID (hexadecimal string starting with 0x)",
+        min_length=1,
+        max_length=100
+    )]
+) -> dict:
     """Get result (choices/scores/scores_total/state) for a proposal id."""
     return _fetch_proposal_result_by_id(proposal_id)
 
-@mcp.tool()
-def get_votes_page(proposal_id: str, first: int = 500, skip: int = 0) -> List[dict]:
+@mcp.tool(
+    name="get_votes_page",
+    title="Get Paginated Votes",
+    description="Get a paginated list of individual votes for a proposal. Use this to examine voting patterns, individual voter choices, and voting power distribution with pagination control.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": True,
+        "idempotentHint": True
+    }
+)
+def get_votes_page(
+    proposal_id: Annotated[str, Field(
+        description="Snapshot proposal ID (hexadecimal string starting with 0x)",
+        min_length=1,
+        max_length=100
+    )],
+    first: Annotated[int, Field(
+        description="Number of votes per page for pagination",
+        ge=1,
+        le=1000
+    )] = 500,
+    skip: Annotated[int, Field(
+        description="Number of votes to skip (pagination offset)",
+        ge=0
+    )] = 0
+) -> List[dict]:
     """Get one page of votes for a proposal (ascending by created)."""
     # Defensive bounds
     first = max(1, min(int(first or 500), 1000))
     skip = max(0, int(skip or 0))
     return _fetch_votes_page(proposal_id, first, skip)
 
-@mcp.tool()
-def get_votes_all(proposal_id: str, batch: int = 500) -> List[dict]:
+@mcp.tool(
+    name="get_votes_all",
+    title="Get All Votes",
+    description="Retrieve all votes for a proposal using automatic pagination. Use this for comprehensive vote analysis when you need the complete voting record.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": True,
+        "idempotentHint": True
+    }
+)
+def get_votes_all(
+    proposal_id: Annotated[str, Field(
+        description="Snapshot proposal ID (hexadecimal string starting with 0x)",
+        min_length=1,
+        max_length=100
+    )],
+    batch: Annotated[int, Field(
+        description="Batch size for pagination (internal use)",
+        ge=1,
+        le=1000
+    )] = 500
+) -> List[dict]:
     """Get all votes for a proposal using pagination."""
     batch = max(1, min(int(batch or 500), 1000))
     return _fetch_votes_all(proposal_id, batch=batch)
 
-@mcp.tool()
-def resolve_proposal_id_from_url(snapshot_url: str) -> Optional[str]:
+@mcp.tool(
+    name="resolve_proposal_id_from_url",
+    title="Extract Proposal ID from URL",
+    description="Extract proposal ID from a Snapshot URL. Use this to convert web URLs into proposal IDs for use with other tools.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": False,
+        "idempotentHint": True
+    }
+)
+def resolve_proposal_id_from_url(
+    snapshot_url: Annotated[str, Field(
+        description="Full Snapshot URL (e.g., 'https://snapshot.org/#/aavedao.eth/proposal/0x123...')",
+        min_length=1
+    )]
+) -> Optional[str]:
     """
     Resolve proposal id from a full Snapshot URL.
     Example: https://snapshot.org/#/aavedao.eth/proposal/0xABC... -> 0xABC...
@@ -360,8 +532,38 @@ def resolve_proposal_id_from_url(snapshot_url: str) -> Optional[str]:
     m = re.search(r"/proposal/([0-9a-zA-Z]+)", snapshot_url)
     return m.group(1) if m else None
 
-@mcp.tool()
-def find_similar_proposals(args: SimilarProposalsIn) -> List[dict]:
+@mcp.tool(
+    name="find_similar_proposals",
+    title="Find Similar Proposals",
+    description="Find proposals similar to a reference proposal using content similarity and author matching. Use this to discover historical precedents, related governance decisions, or recurring proposal patterns.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": True,
+        "idempotentHint": True
+    }
+)
+def find_similar_proposals(
+    proposal_id: Annotated[str, Field(
+        description="Reference proposal ID to find similar proposals for",
+        min_length=1,
+        max_length=100
+    )],
+    space: Annotated[str, Field(
+        description="Snapshot space to search within (e.g., 'aavedao.eth')",
+        min_length=1,
+        max_length=100
+    )],
+    max_days: Annotated[int, Field(
+        description="Maximum days to look back from reference proposal start date",
+        ge=1,
+        le=365
+    )] = 60,
+    max_n: Annotated[int, Field(
+        description="Maximum number of similar proposals to return",
+        ge=1,
+        le=50
+    )] = 10
+) -> List[dict]:
     """
     Find proposals similar to a reference proposal based on content and
     author similarity.
@@ -376,12 +578,12 @@ def find_similar_proposals(args: SimilarProposalsIn) -> List[dict]:
     """
     try:
         # Fetch reference proposal
-        reference = _fetch_proposal_by_id(args.proposal_id)
+        reference = _fetch_proposal_by_id(proposal_id)
         if not reference:
-            raise ValueError(f"Proposal not found: {args.proposal_id}")
+            raise ValueError(f"Proposal not found: {proposal_id}")
 
         # Fetch all proposals in the space
-        all_proposals = _fetch_all_proposals(args.space)
+        all_proposals = _fetch_all_proposals(space)
         if not all_proposals:
             return []
 
@@ -389,8 +591,8 @@ def find_similar_proposals(args: SimilarProposalsIn) -> List[dict]:
         similar = _find_similar_proposals_logic(
             reference_proposal=reference,
             all_proposals=all_proposals,
-            max_days=args.max_days,
-            max_n=args.max_n
+            max_days=max_days,
+            max_n=max_n
         )
 
         # Enrich with vote results if available
@@ -439,7 +641,16 @@ def find_similar_proposals(args: SimilarProposalsIn) -> List[dict]:
         # Return structured error for MCP client
         raise ValueError(f"Error finding similar proposals: {str(e)}")
 
-@mcp.tool()
+@mcp.tool(
+    name="health",
+    title="Health Check",
+    description="Check the health and configuration of the Snapshot API service. Use this to verify connectivity and service status.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": False,
+        "idempotentHint": True
+    }
+)
 def health() -> Dict[str, Any]:
     """Simple health check tool."""
     return {
