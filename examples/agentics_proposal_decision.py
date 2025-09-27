@@ -1413,28 +1413,6 @@ def main() -> None:
         )
 
         # -------- Agent pass: decision (LLM consumes metrics + forum comments) --------
-        hard_hints = {
-            "discussion_url": discussion_url
-            or "(missing: if available, call forums.fetch_discussion with it)",
-            "event_start_utc": start_iso,
-            "event_end_utc": end_iso,
-            "votes_call": {
-                "tool": "get_votes_all",
-                "args": {"proposal_id": pid},
-                "note": "Already executed.",
-            },
-            "timeline_call": {
-                "tool": "analyze_timeline",
-                "args": {
-                    "start": int(result_js.get("start") or start_unix),
-                    "end": int(result_js.get("end") or end_unix),
-                    "choices": choices,
-                    "votes": "<already provided>",
-                },
-                "note": "Already executed with full votes array.",
-            },
-        }
-
         agent_context = DecisionAgentContext(
             snapshot_url=snapshot_url,
             choices=choices,
@@ -1446,7 +1424,6 @@ def main() -> None:
             token_price_impact_pct=token_price_impact,
             tvl_impact_pct=tvl_impact,
             adjacent_analytics=ADJACENT_ANALYTICS,
-            hard_hints=hard_hints,
             focus=focus or None,
         )
 

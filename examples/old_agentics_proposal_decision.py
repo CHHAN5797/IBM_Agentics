@@ -1193,15 +1193,6 @@ def main() -> None:
         print(_to_json_str(tool_plan, indent=2))
 
         # --- Agent pass: decision ---
-        hard_hints = {
-            "discussion_url": discussion_url or "(none)",
-            "event_start_utc": start_iso,
-            "event_end_utc": end_iso,
-            "timeline_preview": timeline_out,
-            "forum_sentiment_preview": (
-                _to_dict(forum_sentiment) if forum_sentiment else None
-            ),
-        }
         decision_prompt = [
             f"Snapshot proposal under review: {snapshot_url}",
             f"Authoritative context: choices={choices}, discussion={discussion_url}, event_start_utc={start_iso}, event_end_utc={end_iso}",
@@ -1209,7 +1200,6 @@ def main() -> None:
             "Objective: Choose exactly one option from the proposal's `choices`.\nFill every field of ProposalDecision. Do NOT use ex-post tally.",
             "ONCHAIN GOAL: total holders & top-100 concentration (you may call onchain/holders MCPs if configured).",
             f"PLANNED CALLS: {_to_json_str(tool_plan)}",
-            "HARD_HINTS:\n" + json.dumps(hard_hints, ensure_ascii=False),
         ]
         if focus:
             decision_prompt.append(f"Extra emphasis: {focus}")

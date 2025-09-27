@@ -73,7 +73,6 @@ class DecisionAgentContext:
     token_price_impact_pct: Optional[float]
     tvl_impact_pct: Optional[float]
     adjacent_analytics: List[Dict[str, Any]]
-    hard_hints: Dict[str, Any]
     focus: Optional[str] = None
 
 
@@ -115,7 +114,6 @@ def _build_decision_prompt(ctx: DecisionAgentContext) -> List[str]:
         "ONCHAIN GOAL (optional if needed): total holders & top-100 concentration.",
         "ANCHOR: Use END timestamp as the event window for market/TVL.",
         "Do NOT include token price impact (ex-post) as a pro/for argument.",
-        "HARD_HINTS:\n" + json.dumps(ctx.hard_hints, ensure_ascii=False),
     ]
     if ctx.focus:
         prompt.append(f"Extra emphasis: {ctx.focus}")
