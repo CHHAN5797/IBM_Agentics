@@ -73,16 +73,9 @@ class DecisionAgentContext:
     token_price_impact_pct: Optional[float]
     tvl_impact_pct: Optional[float]
     adjacent_analytics: List[Dict[str, Any]]
-    forum_url: Optional[str]
-    forum_sample: List[Dict[str, Any]]
     tool_plan_summary: str
     hard_hints: Dict[str, Any]
     focus: Optional[str] = None
-
-    forum_instruction: str = (
-        "Determine overall sentiment (support/concerns/neutral), key themes, and delegate "
-        "alignment without relying on fixed lexicon rules."
-    )
 
 
 @dataclass
@@ -94,12 +87,6 @@ class DecisionAgentOutput:
     pretty_print: Optional[str]
 
 
-def _build_forum_snippet(ctx: DecisionAgentContext) -> Dict[str, Any]:
-    return {
-        "url": ctx.forum_url,
-        "sample_comments": ctx.forum_sample,
-        "instruction": ctx.forum_instruction,
-    }
 
 
 def _build_decision_prompt(ctx: DecisionAgentContext) -> List[str]:
@@ -121,12 +108,8 @@ def _build_decision_prompt(ctx: DecisionAgentContext) -> List[str]:
             f"{json.dumps(ctx.adjacent_analytics, ensure_ascii=False)}"
         ),
         (
-            "FORUM_CONTEXT(sampled): "
-            f"{json.dumps(_build_forum_snippet(ctx), ensure_ascii=False)}"
-        ),
-        (
             "Also set `ai_final_conclusion` (one sentence: chosen option and stance) and "
-            "`ai_final_reason` (2–4 bullet points integrating votes/timeline/market/TVL/forum/adjacent)."
+            "`ai_final_reason` (2–4 bullet points integrating votes/timeline/market/TVL/adjacent)."
         ),
         "Objective: Choose exactly one option from the proposal's `choices`.",
         "Fill every field of ProposalDecision. Do NOT use ex-post tally.",
@@ -155,10 +138,11 @@ def run_decision_agent(
         atype=ProposalDecision,
         tools=tools,
         max_iter=14,
-        verbose_agent=False,
+        verbose_agent=True,
         description="Governance vote recommendation for a Snapshot proposal (ex-post blind).",
         instructions=(
-            "Return a ProposalDecision object. Use the provided CONTEXT (timeline metrics, adjacent analytics, forum sentiment cues). "
+            "Return a ProposalDecision object. Use the provided CONTEXT (timeline metrics, adjacent analytics). "
+            "Use available MCP tools to gather forum discussion and sentiment analysis if needed. "
             "Choose exactly one option from `choices` and set both label and index. "
             "Include the full `choices` in available_choices. "
             "Set event_start_utc and event_end_utc (copy end into event_time_utc). "

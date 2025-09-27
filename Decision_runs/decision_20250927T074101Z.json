@@ -1,0 +1,103 @@
+{
+  "captured_at_utc": "2025-09-27T07:41:01.690816+00:00",
+  "snapshot_url": "https://snapshot.box/#/s:arbitrumfoundation.eth/proposal/0x131574819442cb6da293795ee9faeec4754a5af664b535b654b3d9d3d53f47e1",
+  "focus": "MCP 도구들을 반드시 호출하세요",
+  "votes_count": 0,
+  "timeline_metrics_current": {},
+  "adjacent_analytics": [
+    {
+      "id": "0x38663c36b26252acff6c6ca43663167858f51f960235dc0441bd2ad4a8f66fb1",
+      "title": "Let’s improve our governance forum with three proposals.app feature integrations",
+      "author": "0xA7860E99e3ce0752D1ac53b974E309fFf80277C6",
+      "end_utc": "2025-06-19T20:51:39Z",
+      "timeline_metrics": {},
+      "price_impact_pct": null,
+      "tvl_impact_pct": null,
+      "similarity": 0.1209
+    }
+  ],
+  "semantic_references": [],
+  "tool_plan": {
+    "objective": "Collect votes/timeline, market/TVL impacts, adjacent proposals; then decide.",
+    "calls": [
+      {
+        "tool": "SnapshotAPI.get_votes_all",
+        "args": {
+          "proposal_id": "0x131574819442cb6da293795ee9faeec4754a5af664b535b654b3d9d3d53f47e1"
+        },
+        "why": "Full vote history for timeline features"
+      },
+      {
+        "tool": "timeline.analyze_timeline",
+        "args": {
+          "start": 1750950786,
+          "end": 1751555586,
+          "choices": [
+            "Gustavo Grieco",
+            "Andrei Andonov"
+          ],
+          "votes": "(from above)"
+        },
+        "why": "Participation dynamics"
+      }
+    ],
+    "notes": "Agent can call forums.fetch_discussion and sentiment.classify_forum_comments if needed. See semantic_references for governance literature grounding"
+  },
+  "decision": {
+    "snapshot_url": "https://snapshot.box/#/s:arbitrumfoundation.eth/proposal/0x131574819442cb6da293795ee9faeec4754a5af664b535b654b3d9d3d53f47e1",
+    "selected_choice_label": "Gustavo Grieco",
+    "selected_choice_index": 0,
+    "confidence": 0.2,
+    "summary": "No votes or participation recorded; no market or TVL impacts observed; no forum discussion or sentiment data available. Defaulting to first choice with low confidence.",
+    "key_arguments_for": [
+      "No voting activity to favor either choice.",
+      "No timeline vote dynamics to indicate preference.",
+      "No market or TVL changes observed around event.",
+      "No forum discussion or sentiment data to inform decision."
+    ],
+    "key_arguments_against": [
+      "Zero votes cast, no indication of community preference.",
+      "No data to support a stronger preference for any candidate."
+    ],
+    "evidence": [
+      {
+        "source_tool": "get_votes_all",
+        "reference": "0x131574819442cb6da293795ee9faeec4754a5af664b535b654b3d9d3d53f47e1",
+        "quote": "No valid votes recorded, only one vote with empty choice."
+      },
+      {
+        "source_tool": "analyze_timeline",
+        "reference": "0x131574819442cb6da293795ee9faeec4754a5af664b535b654b3d9d3d53f47e1",
+        "quote": "Timeline analysis confirms zero participation and no vote lead."
+      }
+    ],
+    "available_choices": [
+      "Gustavo Grieco",
+      "Andrei Andonov"
+    ],
+    "event_start_utc": "2025-06-26T15:13:06Z",
+    "event_end_utc": "2025-07-03T15:13:06Z",
+    "event_time_utc": "2025-07-03T15:13:06Z",
+    "address_of_governance_token": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+    "token_price_impact_pct": null,
+    "tvl_impact_pct": null,
+    "actual_vote_result": {
+      "winner_label": "Gustavo Grieco",
+      "winner_index": 0,
+      "scores": [
+        114259373.92257132,
+        30432031.473659087
+      ],
+      "scores_total": 144756145.7738858,
+      "margin_abs": 83827342.44891223,
+      "margin_pct": 0.579093
+    },
+    "simulation_reason": null,
+    "references": null,
+    "ai_final_conclusion": "Selected 'Gustavo Grieco' with low confidence due to no voting participation or supporting data.",
+    "ai_final_reason": "• No votes cast or participation detected in the timeline.\n• No market or TVL impact observed around event window.\n• No discussion or sentiment data available to inform decision.\n• Defaulting to first choice due to lack of evidence."
+  },
+  "agentic_ai_choice": "Gustavo Grieco",
+  "actual_outcome": "Gustavo Grieco",
+  "match_result": "same"
+}

@@ -7,12 +7,12 @@ from __future__ import annotations
 Interactive Agentics example — governance vote recommendation (ex-post blind planning)
 with Focus Areas, Snapshot RESULT-based event time, DeFiLlama TVL via CSV link/slug, and CMC offline price impact.
 
-This UPDATED+EXTENDED version adds:
+This version includes:
 - (1) Robust MCP result unwrapping (incl. list[str] → JSON restore) and stable `get_votes_all`.
-- (2) Forum analytics summary: total count, 5 recent previews, sentiment buckets.
-- (3) One-time semantic literature bootstrap (DAO governance, token distribution, voting games, info aggregation).
-- (4) Adjacent proposals include an explicit Jaccard similarity score.
-- (5) ProposalDecision fields `ai_final_conclusion`, `ai_final_reason`, and stronger prompt to fill them.
+- (2) One-time semantic literature bootstrap (DAO governance, token distribution, voting games, info aggregation).
+- (3) Adjacent proposals include an explicit Jaccard similarity score.
+- (4) ProposalDecision fields `ai_final_conclusion`, `ai_final_reason`, and stronger prompt to fill them.
+- (5) Agent-driven forum analytics - agent calls forum/sentiment tools when needed instead of pre-processing.
 """
 import csv
 import html as _html_mod
@@ -1364,7 +1364,7 @@ def main() -> None:
 
         # Tool plan (for logging/debug)
         tool_plan = ToolPlan(
-            objective="Collect votes/timeline, market/TVL impacts, forum context, adjacent proposals; then decide.",
+            objective="Collect votes/timeline, market/TVL impacts, adjacent proposals; then decide.",
             calls=[
                 ToolCall(
                     tool="SnapshotAPI.get_votes_all",
@@ -1381,13 +1381,8 @@ def main() -> None:
                     },
                     why="Participation dynamics",
                 ),
-                ToolCall(
-                    tool="forums.fetch_discussion",
-                    args={"url": discussion_url},
-                    why="Discussion sentiment & themes",
-                ),
             ],
-            notes="See semantic_references for governance literature grounding",
+            notes="Agent can call forums.fetch_discussion and sentiment.classify_forum_comments if needed. See semantic_references for governance literature grounding",
         )
 
         # Votes (via MCP) + Timeline metrics
@@ -1430,12 +1425,6 @@ def main() -> None:
             event_end_utc=end_iso or "",
         )
 
-        # Forum comments (fetch + sample)
-        forum_pack = _fetch_forum_comments(all_tools, discussion_url)
-        forum_comments = forum_pack.get("comments") or []
-        # sample for LLM context (up to 12)
-        forum_comments_sample = forum_comments[:12]
-        forum_summary = _summarize_forum_comments(forum_pack, tools=all_tools)
 
         # Adjacent proposals (select by time/topic) and analytics + similarity
         all_in_space = _fetch_all_proposals_by_space(space) if space else []
@@ -1493,8 +1482,6 @@ def main() -> None:
             token_price_impact_pct=token_price_impact,
             tvl_impact_pct=tvl_impact,
             adjacent_analytics=ADJACENT_ANALYTICS,
-            forum_url=forum_pack.get("url"),
-            forum_sample=forum_comments_sample,
             tool_plan_summary=_to_json_str(tool_plan),
             hard_hints=hard_hints,
             focus=focus or None,
@@ -1585,15 +1572,13 @@ def main() -> None:
 
         match_result = _same(agentic_choice, actual_outcome)
 
-        # Persist (timeline + forum + adjacent analytics + forum_summary + semantic refs)
+        # Persist (timeline + adjacent analytics + semantic refs)
         payload = {
             "captured_at_utc": datetime.now(timezone.utc).isoformat(),
             "snapshot_url": snapshot_url,
             "focus": focus or None,
             "votes_count": votes_count,
             "timeline_metrics_current": TIMELINE_METRICS,
-            "forum_sample_for_sentiment": forum_comments_sample,
-            "forum_summary": forum_summary,  # NEW (1)
             "adjacent_analytics": ADJACENT_ANALYTICS,  # includes similarity (4)
             "semantic_references": semantic_refs,  # NEW (2; one-time bootstrap)
             "tool_plan": _to_dict(tool_plan),

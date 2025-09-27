@@ -1,0 +1,119 @@
+{
+  "captured_at_utc": "2025-09-27T07:54:56.549618+00:00",
+  "snapshot_url": "https://snapshot.box/#/s:arbitrumfoundation.eth/proposal/0x131574819442cb6da293795ee9faeec4754a5af664b535b654b3d9d3d53f47e1",
+  "focus": null,
+  "votes_count": 0,
+  "timeline_metrics_current": {},
+  "adjacent_analytics": [
+    {
+      "id": "0x38663c36b26252acff6c6ca43663167858f51f960235dc0441bd2ad4a8f66fb1",
+      "title": "Let’s improve our governance forum with three proposals.app feature integrations",
+      "author": "0xA7860E99e3ce0752D1ac53b974E309fFf80277C6",
+      "end_utc": "2025-06-19T20:51:39Z",
+      "timeline_metrics": {},
+      "price_impact_pct": null,
+      "tvl_impact_pct": null,
+      "similarity": 0.1209
+    }
+  ],
+  "semantic_references": [],
+  "tool_plan": {
+    "objective": "Collect votes/timeline, market/TVL impacts, adjacent proposals; then decide.",
+    "calls": [
+      {
+        "tool": "SnapshotAPI.get_votes_all",
+        "args": {
+          "proposal_id": "0x131574819442cb6da293795ee9faeec4754a5af664b535b654b3d9d3d53f47e1"
+        },
+        "why": "Full vote history for timeline features"
+      },
+      {
+        "tool": "timeline.analyze_timeline",
+        "args": {
+          "start": 1750950786,
+          "end": 1751555586,
+          "choices": [
+            "Gustavo Grieco",
+            "Andrei Andonov"
+          ],
+          "votes": "(from above)"
+        },
+        "why": "Participation dynamics"
+      }
+    ],
+    "notes": "Agent can call forums.fetch_discussion and sentiment.classify_forum_comments if needed. See semantic_references for governance literature grounding"
+  },
+  "decision": {
+    "snapshot_url": "https://snapshot.box/#/s:arbitrumfoundation.eth/proposal/0x131574819442cb6da293795ee9faeec4754a5af664b535b654b3d9d3d53f47e1",
+    "selected_choice_label": "Gustavo Grieco",
+    "selected_choice_index": 0,
+    "confidence": 0.55,
+    "summary": "No votes were cast during the proposal window (2025-06-26T15:13:06Z to 2025-07-03T15:13:06Z). In absence of on-chain participation, choose the first-listed candidate by default while signalling low-to-moderate confidence due to lack of voting data and market/TVL signals.",
+    "key_arguments_for": [
+      "No votes were recorded, so there is no on-chain opposition or support to contradict selecting the first-listed candidate.",
+      "Adjacent analytics show limited similarity and no measurable market or TVL impacts, indicating the proposal did not trigger material market reaction.",
+      "Selecting the first option avoids arbitrary preference for the second in a zero-participation scenario and aligns with a conservative default choice when no other signals exist."
+    ],
+    "key_arguments_against": [
+      "Zero voter turnout means any selection is speculative and not reflective of community preference.",
+      "Absence of forum discussion or sentiment data prevents assessment of qualitative community support for either candidate.",
+      "Choosing an option without votes risks misrepresenting community will if off-chain consensus favored the other candidate."
+    ],
+    "evidence": [
+      {
+        "source_tool": "get_votes_all",
+        "reference": "proposal_id: 0x131574819442cb6da293795ee9faeec4754a5af664b535b654b3d9d3d53f47e1",
+        "quote": "[] (votes array empty), count=0"
+      },
+      {
+        "source_tool": "analyze_timeline",
+        "reference": "start:1750950786 end:1751555586",
+        "quote": "No votes to analyze; timeline window specified from 2025-06-26T15:13:06Z to 2025-07-03T15:13:06Z. With zero votes, participation is nil and no temporal dynamics observed."
+      },
+      {
+        "source_tool": "adjacent_analytics",
+        "reference": "0x38663c36b26252acff6c6ca43663167858f51f960235dc0441bd2ad4a8f66fb1",
+        "quote": "Adjacent proposal with low similarity (0.1209) and no measurable price or TVL impact."
+      }
+    ],
+    "available_choices": [
+      "Gustavo Grieco",
+      "Andrei Andonov"
+    ],
+    "event_start_utc": "2025-06-26T15:13:06Z",
+    "event_end_utc": "2025-07-03T15:13:06Z",
+    "event_time_utc": "2025-07-03T15:13:06Z",
+    "address_of_governance_token": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+    "token_price_impact_pct": null,
+    "tvl_impact_pct": null,
+    "actual_vote_result": {
+      "winner_label": "Gustavo Grieco",
+      "winner_index": 0,
+      "scores": [
+        114259373.92257132,
+        30432031.473659087
+      ],
+      "scores_total": 144756145.7738858,
+      "margin_abs": 83827342.44891223,
+      "margin_pct": 0.579093
+    },
+    "simulation_reason": "With zero on-chain votes and no market/TVL signals, a determinative simulation is not possible; selection defaults to first-listed choice to produce a decision while noting low confidence.",
+    "references": [
+      {
+        "type": "snapshot_proposal",
+        "url": "https://snapshot.box/#/s:arbitrumfoundation.eth/proposal/0x131574819442cb6da293795ee9faeec4754a5af664b535b654b3d9d3d53f47e1"
+      },
+      {
+        "type": "adjacent_proposal",
+        "id": "0x38663c36b26252acff6c6ca43663167858f51f960235dc0441bd2ad4a8f66fb1",
+        "title": "Let’s improve our governance forum with three proposals.app feature integrations",
+        "end_utc": "2025-06-19T20:51:39Z"
+      }
+    ],
+    "ai_final_conclusion": "I select 'Gustavo Grieco' as the decision (neutral/weak support) due to zero on-chain votes and no market signals.",
+    "ai_final_reason": "- Zero recorded votes during the event window; no on-chain support or opposition.\n- No measurable market or TVL impact and adjacent proposals show limited relevance.\n- Lack of forum discussion and sentiment prevents qualitative leaning, so defaulting to the first-listed option with low confidence is a conservative choice."
+  },
+  "agentic_ai_choice": "Gustavo Grieco",
+  "actual_outcome": "Gustavo Grieco",
+  "match_result": "same"
+}

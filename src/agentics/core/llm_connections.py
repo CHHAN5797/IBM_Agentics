@@ -68,8 +68,7 @@ openai_llm = (
         model=os.getenv(
             "OPENAI_MODEL_ID", "openai/gpt-4"
         ),  # call model by provider/model_name
-        temperature=0.8,
-        top_p=0.9,
+        temperature=1,
         stop=["END"],
         api_key=os.getenv("OPENAI_API_KEY"),
         seed=42,
