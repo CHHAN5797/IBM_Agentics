@@ -23,11 +23,14 @@ import os
 import re
 import time
 import random
+from datetime import datetime, timezone
 from typing import Any, Dict, List, Optional
 
 import requests
 from mcp.server.fastmcp import FastMCP
 from pydantic import BaseModel, Field
+
+from agentics.utils.similarity import tokens, text_similarity
 
 # -----------------------------
 # Config
@@ -161,6 +164,12 @@ class VotesPageIn(BaseModel):
     first: int = Field(500, ge=1, le=1000, description="Page size")
     skip: int = Field(0, ge=0, description="Offset for pagination")
 
+class SimilarProposalsIn(BaseModel):
+    proposal_id: str = Field(..., description="Reference proposal ID")
+    space: str = Field(..., description="Snapshot space, e.g., 'aavedao.eth'")
+    max_days: int = Field(60, ge=1, le=365, description="Search within N days")
+    max_n: int = Field(10, ge=1, le=50, description="Max similar proposals")
+
 # -----------------------------
 # FastMCP app
 # -----------------------------
@@ -186,10 +195,89 @@ def _fetch_all_proposals(space: str, batch: int = 100) -> List[dict]:
 
 def _finished_only(proposals: List[dict]) -> List[dict]:
     """Filter proposals to those in 'closed' state whose end <= now."""
-    import datetime
-    from datetime import timezone
-    now_ts = int(datetime.datetime.now(timezone.utc).timestamp())
+    now_ts = int(datetime.now(timezone.utc).timestamp())
     return [p for p in proposals if p.get("state") == "closed" and int(p.get("end") or 0) <= now_ts]
+
+def _find_similar_proposals_logic(
+    reference_proposal: dict,
+    all_proposals: List[dict],
+    max_days: int,
+    max_n: int,
+    jaccard_min: float = 0.30
+) -> List[dict]:
+    """
+    Find similar proposals based on time proximity and content similarity.
+
+    Args:
+        reference_proposal: The proposal to find similar ones for
+        all_proposals: All proposals in the space
+        max_days: Maximum days to look back
+        max_n: Maximum number of results
+        jaccard_min: Minimum Jaccard similarity threshold
+
+    Returns:
+        List of similar proposals with similarity scores
+    """
+    ref_start = int(reference_proposal.get("start") or 0)
+    ref_title = reference_proposal.get("title") or ""
+    ref_body = reference_proposal.get("body") or ""
+    ref_author = reference_proposal.get("author") or ""
+
+    # Filter: closed proposals that ended before reference started
+    closed_before = [
+        p for p in all_proposals
+        if (
+            p.get("state") == "closed"
+            and int(p.get("end") or 0) < ref_start
+        )
+    ]
+
+    # Sort by end time (most recent first)
+    closed_before.sort(key=lambda p: int(p.get("end") or 0), reverse=True)
+
+    # Filter by time range (within max_days)
+    day_sec = 86400
+    within_days = []
+    for p in closed_before:
+        days_ago = (ref_start - int(p.get("end") or 0)) / day_sec
+        if days_ago <= max_days:
+            within_days.append(p)
+        else:
+            break  # Since sorted by end time desc, we can break early
+
+    # Calculate similarity and filter
+    ref_tokens = tokens(ref_title + " " + ref_body)
+
+    def _match_topic_or_author(p: dict) -> tuple[bool, float]:
+        # Same author match
+        if (
+            ref_author
+            and p.get("author")
+            and str(p["author"]).lower() == str(ref_author).lower()
+        ):
+            return True, 1.0  # Perfect match for same author
+
+        # Content similarity
+        p_title = p.get("title") or ""
+        p_body = p.get("body") or ""
+        p_tokens = tokens(p_title + " " + p_body)
+
+        sim = text_similarity(ref_title + " " + ref_body, p_title + " " + p_body)
+        return sim >= jaccard_min, sim
+
+    # Build results with similarity scores
+    results = []
+    for p in within_days:
+        matches, similarity = _match_topic_or_author(p)
+        if matches:
+            results.append({
+                **p,
+                "similarity_score": round(similarity, 4)
+            })
+
+    # Sort by similarity (highest first) and limit
+    results.sort(key=lambda x: x["similarity_score"], reverse=True)
+    return results[:max_n]
 
 def _fetch_proposal_by_id(pid: str) -> dict:
     data = gql(PROPOSAL_BY_ID_Q, {"id": pid})
@@ -271,6 +359,85 @@ def resolve_proposal_id_from_url(snapshot_url: str) -> Optional[str]:
     """
     m = re.search(r"/proposal/([0-9a-zA-Z]+)", snapshot_url)
     return m.group(1) if m else None
+
+@mcp.tool()
+def find_similar_proposals(args: SimilarProposalsIn) -> List[dict]:
+    """
+    Find proposals similar to a reference proposal based on content and
+    author similarity.
+
+    Returns proposals that:
+    - Are in 'closed' state and ended before the reference proposal started
+    - Are within the specified time range (max_days)
+    - Have similar content (Jaccard similarity >= 0.30) or same author
+    - Include similarity scores and basic vote results if available
+
+    Each result includes similarity_score field (0.0 to 1.0).
+    """
+    try:
+        # Fetch reference proposal
+        reference = _fetch_proposal_by_id(args.proposal_id)
+        if not reference:
+            raise ValueError(f"Proposal not found: {args.proposal_id}")
+
+        # Fetch all proposals in the space
+        all_proposals = _fetch_all_proposals(args.space)
+        if not all_proposals:
+            return []
+
+        # Find similar proposals
+        similar = _find_similar_proposals_logic(
+            reference_proposal=reference,
+            all_proposals=all_proposals,
+            max_days=args.max_days,
+            max_n=args.max_n
+        )
+
+        # Enrich with vote results if available
+        enriched = []
+        for proposal in similar:
+            enriched_proposal = {
+                "id": proposal.get("id"),
+                "title": proposal.get("title"),
+                "author": proposal.get("author"),
+                "body": proposal.get("body"),
+                "end_utc": None,
+                "similarity_score": proposal.get("similarity_score"),
+                "vote_result": None
+            }
+
+            # Convert end timestamp to UTC string
+            end_ts = proposal.get("end")
+            if end_ts:
+                try:
+                    end_dt = datetime.fromtimestamp(int(end_ts), tz=timezone.utc)
+                    enriched_proposal["end_utc"] = end_dt.strftime(
+                        "%Y-%m-%dT%H:%M:%SZ"
+                    )
+                except (ValueError, TypeError):
+                    pass
+
+            # Try to get vote result
+            try:
+                vote_result = _fetch_proposal_result_by_id(proposal.get("id", ""))
+                if vote_result and vote_result.get("choices"):
+                    enriched_proposal["vote_result"] = {
+                        "choices": vote_result.get("choices"),
+                        "scores": vote_result.get("scores"),
+                        "scores_total": vote_result.get("scores_total"),
+                        "state": vote_result.get("state")
+                    }
+            except Exception:
+                # Graceful degradation if vote result fetch fails
+                pass
+
+            enriched.append(enriched_proposal)
+
+        return enriched
+
+    except Exception as e:
+        # Return structured error for MCP client
+        raise ValueError(f"Error finding similar proposals: {str(e)}")
 
 @mcp.tool()
 def health() -> Dict[str, Any]:
