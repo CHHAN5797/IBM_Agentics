@@ -104,21 +104,6 @@ def _to_json_str(m, indent=2):
 
 
 # ------------------------------------------------------------------------------
-# Planning schema
-# ------------------------------------------------------------------------------
-class ToolCall(BaseModel):
-    tool: str
-    args: Dict[str, Any] = Field(default_factory=dict)
-    why: str
-
-
-class ToolPlan(BaseModel):
-    objective: str
-    calls: List[ToolCall]
-    notes: Optional[str] = None
-
-
-# ------------------------------------------------------------------------------
 # MCP wiring
 # ------------------------------------------------------------------------------
 
@@ -1362,28 +1347,7 @@ def main() -> None:
         start_iso = _iso_from_unix(start_unix)
         end_iso = _iso_from_unix(end_unix)
 
-        # Tool plan (for logging/debug)
-        tool_plan = ToolPlan(
-            objective="Collect votes/timeline, market/TVL impacts, adjacent proposals; then decide.",
-            calls=[
-                ToolCall(
-                    tool="SnapshotAPI.get_votes_all",
-                    args={"proposal_id": pid},
-                    why="Full vote history for timeline features",
-                ),
-                ToolCall(
-                    tool="timeline.analyze_timeline",
-                    args={
-                        "start": start_unix,
-                        "end": end_unix,
-                        "choices": choices,
-                        "votes": "(from above)",
-                    },
-                    why="Participation dynamics",
-                ),
-            ],
-            notes="Agent can call forums.fetch_discussion and sentiment.classify_forum_comments if needed. See semantic_references for governance literature grounding",
-        )
+        # Tool plan system removed - actual tool calls performed directly
 
         # Votes (via MCP) + Timeline metrics
         votes = _get_votes_via_snapshot_mcp(all_tools, pid)
@@ -1482,7 +1446,6 @@ def main() -> None:
             token_price_impact_pct=token_price_impact,
             tvl_impact_pct=tvl_impact,
             adjacent_analytics=ADJACENT_ANALYTICS,
-            tool_plan_summary=_to_json_str(tool_plan),
             hard_hints=hard_hints,
             focus=focus or None,
         )
@@ -1581,7 +1544,6 @@ def main() -> None:
             "timeline_metrics_current": TIMELINE_METRICS,
             "adjacent_analytics": ADJACENT_ANALYTICS,  # includes similarity (4)
             "semantic_references": semantic_refs,  # NEW (2; one-time bootstrap)
-            "tool_plan": _to_dict(tool_plan),
             "decision": _to_dict(
                 decision
             ),  # includes actual_vote_result (3), ai_final_* (5)
