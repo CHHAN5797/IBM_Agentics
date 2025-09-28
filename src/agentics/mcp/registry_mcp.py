@@ -15,7 +15,7 @@ ENV:
 import os
 import re
 import csv
-from typing import Any, Dict, Optional, List
+from typing import Any, Dict, Optional, List, Annotated
 
 from mcp.server.fastmcp import FastMCP
 from pydantic import BaseModel, Field
@@ -91,8 +91,21 @@ class LookupIn(BaseModel):
     # Optionally compute slug
     want_slug: bool = Field(True, description="Whether to include defillama_slug field")
 
-@mcp.tool()
-def lookup(args: LookupIn) -> Dict[str, Any]:
+@mcp.tool(
+    name="lookup",
+    title="DAO Registry Lookup",
+    description="Resolve DAO registry entry by space, name, ticker, or contract address. Returns governance token information, CMC data, and DeFiLlama metadata for DAOs and protocols.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": False,
+        "idempotentHint": True
+    }
+)
+def lookup(
+    args: Annotated[LookupIn, Field(
+        description="Lookup parameters including space, name, ticker, or contract address"
+    )]
+) -> Dict[str, Any]:
     """
     Resolve DAO registry entry.
     Returns a record with governance token address (from Contracts), native token ticker (CMC_ticker),
@@ -128,7 +141,16 @@ def lookup(args: LookupIn) -> Dict[str, Any]:
     }
     return out
 
-@mcp.tool()
+@mcp.tool(
+    name="health",
+    title="Registry Service Health Check",
+    description="Check the health status of the Registry MCP service. Returns service status and CSV data path information.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": False,
+        "idempotentHint": True
+    }
+)
 def health() -> Dict[str, Any]:
     return {"ok": True, "csv": CSV_PATH}
 

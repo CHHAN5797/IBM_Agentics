@@ -18,7 +18,7 @@ import time
 import math
 import hashlib
 from pathlib import Path
-from typing import Optional, List, Dict, Any, Tuple
+from typing import Optional, List, Dict, Any, Tuple, Annotated
 from datetime import datetime, timezone
 
 import numpy as np
@@ -371,8 +371,21 @@ def _extract_decimals(token_info: Dict[str, Any]) -> Optional[int]:
 
 mcp = FastMCP("HoldersMCP")
 
-@mcp.tool()
-def analyze_holders(args: AnalyzeArgs) -> Dict[str, Any]:
+@mcp.tool(
+    name="analyze_holders",
+    title="Analyze Token Holder Distribution",
+    description="Compute holder distribution and participation metrics for a Snapshot proposal using Etherscan data. Calculates concentration metrics (Gini coefficient, top-N share) and participation proxies to analyze voting power distribution and engagement.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": True,
+        "idempotentHint": True
+    }
+)
+def analyze_holders(
+    args: Annotated[AnalyzeArgs, Field(
+        description="Analysis parameters including proposal_id, token_address, chainid, and cache settings"
+    )]
+) -> Dict[str, Any]:
     """
     Compute holder distribution & participation proxies for a Snapshot proposal.
     - Minimizes API calls via TTL cache and shared snapshot_api reuse.
@@ -457,7 +470,16 @@ def analyze_holders(args: AnalyzeArgs) -> Dict[str, Any]:
         }
     }
 
-@mcp.tool()
+@mcp.tool(
+    name="health",
+    title="Holders Service Health Check",
+    description="Check the health status of the Holders MCP service. Returns service status and identification information.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": False,
+        "idempotentHint": True
+    }
+)
 def health() -> Dict[str, Any]:
     return {"ok": True, "service": "HoldersMCP"}
 

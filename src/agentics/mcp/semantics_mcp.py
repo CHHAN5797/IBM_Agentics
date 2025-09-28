@@ -10,10 +10,11 @@ import os
 import time
 import json
 import textwrap
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Any, Optional, Annotated
 
 import requests
 from mcp.server.fastmcp import FastMCP
+from pydantic import Field
 
 # --------------------------------------------------------------------------------------
 # Config
@@ -23,7 +24,7 @@ S2_BASE = "https://api.semanticscholar.org/graph/v1"
 S2_KEY = os.getenv("SEMANTIC_SCHOLAR_API_KEY", "").strip()
 
 TIMEOUT = int(os.getenv("SEMANTICS_HTTP_TIMEOUT", "30"))
-BASE_SLEEP = float(os.getenv("SEMANTICS_BASE_SLEEP", "0.35"))
+BASE_SLEEP = float(os.getenv("SEMANTICS_BASE_SLEEP", "1"))
 
 session = requests.Session()
 session.headers.update({"User-Agent": UA})
@@ -242,7 +243,16 @@ def _to_bibtex(p: Dict[str, Any]) -> str:
 mcp = FastMCP("SemanticsOnlyMCP")
 
 
-@mcp.tool()
+@mcp.tool(
+    name="health",
+    title="Semantics Service Health Check",
+    description="Check the health status of the Semantics MCP service. Verifies Semantic Scholar API key availability and service readiness.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": False,
+        "idempotentHint": True
+    }
+)
 def health() -> Dict[str, Any]:
     """
     Basic health with a check on whether the Semantic Scholar key is present.
@@ -256,8 +266,31 @@ def health() -> Dict[str, Any]:
     }
 
 
-@mcp.tool()
-def find_papers(queries: List[str], per_query: int = 5, enrich: bool = True) -> List[Dict[str, Any]]:
+@mcp.tool(
+    name="find_papers",
+    title="Search Academic Papers",
+    description="Search for academic papers using multiple queries via Semantic Scholar API. Returns de-duplicated normalized paper metadata with optional enrichment. Use this for literature research and academic reference gathering.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": True,
+        "idempotentHint": True
+    }
+)
+def find_papers(
+    queries: Annotated[List[str], Field(
+        description="List of search queries for academic papers",
+        min_length=1,
+        max_length=10
+    )],
+    per_query: Annotated[int, Field(
+        description="Maximum number of papers to retrieve per query",
+        ge=1,
+        le=20
+    )] = 5,
+    enrich: Annotated[bool, Field(
+        description="Whether to fetch detailed metadata for each paper"
+    )] = True
+) -> List[Dict[str, Any]]:
     """
     Search papers for a list of queries. If `enrich` is True, fetch each paper again by id/DOI.
     Returns a de-duplicated list of normalized papers.
@@ -275,12 +308,37 @@ def find_papers(queries: List[str], per_query: int = 5, enrich: bool = True) -> 
     return out
 
 
-@mcp.tool()
-def plan_prompt(goal: str,
-                y_vars: Optional[List[str]] = None,
-                domains: Optional[List[str]] = None,
-                queries: Optional[List[str]] = None,
-                per_query: int = 5) -> Dict[str, Any]:
+@mcp.tool(
+    name="plan_prompt",
+    title="Generate Research Plan Prompt",
+    description="Build a structured research plan prompt for LLM planning with literature support. Creates prompts for research planning with academic references and methodology guidance.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": True,
+        "idempotentHint": True
+    }
+)
+def plan_prompt(
+    goal: Annotated[str, Field(
+        description="Research goal or objective statement",
+        min_length=1,
+        max_length=1000
+    )],
+    y_vars: Annotated[Optional[List[str]], Field(
+        description="List of dependent variables or outcomes to measure"
+    )] = None,
+    domains: Annotated[Optional[List[str]], Field(
+        description="Research domains or fields of study"
+    )] = None,
+    queries: Annotated[Optional[List[str]], Field(
+        description="Literature search queries for supporting research"
+    )] = None,
+    per_query: Annotated[int, Field(
+        description="Number of papers to find per query",
+        ge=1,
+        le=20
+    )] = 5
+) -> Dict[str, Any]:
     """
     Build a JSON-return instruction prompt for LLM planning.
     This does NOT execute any other MCP; it only prepares prompt text.
@@ -295,9 +353,24 @@ def plan_prompt(goal: str,
     }
 
 
-@mcp.tool()
-def interpretation_prompt(plan_json: Dict[str, Any],
-                          computed_metrics: Optional[List[Dict[str, Any]]] = None) -> Dict[str, Any]:
+@mcp.tool(
+    name="interpretation_prompt",
+    title="Generate Interpretation Prompt",
+    description="Build interpretation prompts from completed research plans and computed metrics. Creates structured prompts for analyzing and interpreting research results with academic context.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": False,
+        "idempotentHint": True
+    }
+)
+def interpretation_prompt(
+    plan_json: Annotated[Dict[str, Any], Field(
+        description="Completed research plan as JSON object"
+    )],
+    computed_metrics: Annotated[Optional[List[Dict[str, Any]]], Field(
+        description="List of computed metrics and results from analysis"
+    )] = None
+) -> Dict[str, Any]:
     """
     Build an interpretation prompt from a completed plan and (optionally) externally-computed metrics.
     """
@@ -305,8 +378,23 @@ def interpretation_prompt(plan_json: Dict[str, Any],
     return {"prompt": prompt}
 
 
-@mcp.tool()
-def bibtex_from_dois(dois: List[str]) -> str:
+@mcp.tool(
+    name="bibtex_from_dois",
+    title="Generate BibTeX from DOIs",
+    description="Generate formatted BibTeX citations from a list of DOI identifiers using Semantic Scholar metadata. Use this for academic citation management and bibliography generation.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": True,
+        "idempotentHint": True
+    }
+)
+def bibtex_from_dois(
+    dois: Annotated[List[str], Field(
+        description="List of DOI identifiers for papers to cite",
+        min_length=1,
+        max_length=50
+    )]
+) -> str:
     """
     Generate a BibTeX block from a list of DOIs (best-effort).
     Missing metadata fields are tolerated.
@@ -318,8 +406,23 @@ def bibtex_from_dois(dois: List[str]) -> str:
     return "\n\n".join(items)
 
 
-@mcp.tool()
-def bibtex_from_papers(papers: List[Dict[str, Any]]) -> str:
+@mcp.tool(
+    name="bibtex_from_papers",
+    title="Generate BibTeX from Paper Objects",
+    description="Generate formatted BibTeX citations from paper metadata objects. Use this to create bibliographies from already-retrieved paper data.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": False,
+        "idempotentHint": True
+    }
+)
+def bibtex_from_papers(
+    papers: Annotated[List[Dict[str, Any]], Field(
+        description="List of paper metadata objects to convert to BibTeX",
+        min_length=1,
+        max_length=50
+    )]
+) -> str:
     """
     Generate a BibTeX block from already-normalized paper dicts (or close enough).
     """

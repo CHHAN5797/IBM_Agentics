@@ -27,7 +27,7 @@ import sqlite3
 import logging
 import hashlib
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Dict, List, Optional, Tuple, Annotated
 from datetime import datetime, timedelta
 
 import requests
@@ -38,6 +38,8 @@ try:
     from fastmcp import FastMCP
 except Exception:
     from mcp.server.fastmcp import FastMCP
+
+from pydantic import Field
 
 # ------------------------------------------------------------------------------
 # Config
@@ -380,21 +382,112 @@ def proposal_news_window_impl(project_hint: str, proposal_title_or_id: str, even
 # ------------------------------------------------------------------------------
 # Tools
 # ------------------------------------------------------------------------------
-@mcp.tool()
-def search_governance_news(project_hint: str, start_date: str, end_date: str,
-                           lang: str = "en", max_records: int = 100, ttl_minutes: int = 30) -> Dict[str, Any]:
+@mcp.tool(
+    name="search_governance_news",
+    title="Search Governance News",
+    description="Search for governance-related news within a date range using RSS feeds with cache optimization. Finds news articles related to DeFi, DAO governance, and protocol updates with intelligent deduplication.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": True,
+        "idempotentHint": True
+    }
+)
+def search_governance_news(
+    project_hint: Annotated[str, Field(
+        description="Project name or hint to search for (e.g., 'Aave', 'Uniswap', 'MakerDAO')",
+        min_length=1,
+        max_length=100
+    )],
+    start_date: Annotated[str, Field(
+        description="Start date in YYYY-MM-DD format",
+        pattern=r"^\d{4}-\d{2}-\d{2}$"
+    )],
+    end_date: Annotated[str, Field(
+        description="End date in YYYY-MM-DD format",
+        pattern=r"^\d{4}-\d{2}-\d{2}$"
+    )],
+    lang: Annotated[str, Field(
+        description="Language code for news search (e.g., 'en', 'es')",
+        max_length=5
+    )] = "en",
+    max_records: Annotated[int, Field(
+        description="Maximum number of news records to return",
+        ge=1,
+        le=500
+    )] = 100,
+    ttl_minutes: Annotated[int, Field(
+        description="Cache TTL in minutes for RSS feeds",
+        ge=1,
+        le=1440
+    )] = 30
+) -> Dict[str, Any]:
     """Search governance-related news within a date range (cache-first, conditional GET)."""
     return search_governance_news_impl(project_hint, start_date, end_date, lang, max_records, ttl_minutes)
 
-@mcp.tool()
-def proposal_news_window(project_hint: str, proposal_title_or_id: str, event_time_utc: str,
-                         pre_days: int = 7, post_days: int = 7, lang: str = "en",
-                         max_records: int = 100, ttl_minutes: int = 30) -> Dict[str, Any]:
+@mcp.tool(
+    name="proposal_news_window",
+    title="Search News Around Proposal Event",
+    description="Search governance-related news around a specific proposal event time window. Useful for analyzing news sentiment and coverage before and after governance proposals with temporal context.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": True,
+        "idempotentHint": True
+    }
+)
+def proposal_news_window(
+    project_hint: Annotated[str, Field(
+        description="Project name or hint to search for news about",
+        min_length=1,
+        max_length=100
+    )],
+    proposal_title_or_id: Annotated[str, Field(
+        description="Proposal title or identifier for context",
+        min_length=1,
+        max_length=200
+    )],
+    event_time_utc: Annotated[str, Field(
+        description="Event timestamp in UTC (ISO 8601 format)",
+        pattern=r"^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}Z?$"
+    )],
+    pre_days: Annotated[int, Field(
+        description="Number of days before event to search",
+        ge=0,
+        le=30
+    )] = 7,
+    post_days: Annotated[int, Field(
+        description="Number of days after event to search",
+        ge=0,
+        le=30
+    )] = 7,
+    lang: Annotated[str, Field(
+        description="Language code for news search",
+        max_length=5
+    )] = "en",
+    max_records: Annotated[int, Field(
+        description="Maximum number of news records to return",
+        ge=1,
+        le=500
+    )] = 100,
+    ttl_minutes: Annotated[int, Field(
+        description="Cache TTL in minutes for RSS feeds",
+        ge=1,
+        le=1440
+    )] = 30
+) -> Dict[str, Any]:
     """Search governance-related news around an event window (pre/post days)."""
     return proposal_news_window_impl(project_hint, proposal_title_or_id, event_time_utc,
                                      pre_days, post_days, lang, max_records, ttl_minutes)
 
-@mcp.tool()
+@mcp.tool(
+    name="health",
+    title="Governance News Service Health Check",
+    description="Check the health status of the Governance News MCP service. Returns service status and database path information.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": False,
+        "idempotentHint": True
+    }
+)
 def health() -> Dict[str, Any]:
     return {"ok": True, "service": "govnews_mcp", "db": str(DB_PATH)}
 

@@ -13,10 +13,11 @@ Tool:
     first_vote_at, last_vote_at, series_step_hours (heuristic 6h by default)
   * IMPORTANT: Does **not** use final tally for scoring
 """
-from typing import List, Dict, Any, Tuple, Optional, Set
+from typing import List, Dict, Any, Tuple, Optional, Set, Annotated
 from statistics import mean
 from datetime import datetime, timezone
 from mcp.server.fastmcp import FastMCP
+from pydantic import Field
 
 mcp = FastMCP("TimelineMCP")
 
@@ -146,8 +147,33 @@ def _half_slope_diff(cum_series: List[Tuple[int, float]]) -> float:
     return round(avg_slope(late) - avg_slope(early), 6)
 
 
-@mcp.tool()
-def analyze_timeline(start: int, end: int, choices: List[str], votes: List[dict]) -> Dict[str, Any]:
+@mcp.tool(
+    name="analyze_timeline",
+    title="Analyze Vote Timeline Metrics",
+    description="Analyze voting timeline patterns including quartile lead ratios, stability metrics, early voting ratio, spike/stair patterns, and half-slope differences. Use this to understand voting dynamics and temporal patterns in governance proposals.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": False,
+        "idempotentHint": True
+    }
+)
+def analyze_timeline(
+    start: Annotated[int, Field(
+        description="Proposal start timestamp (Unix seconds)",
+        ge=0
+    )],
+    end: Annotated[int, Field(
+        description="Proposal end timestamp (Unix seconds)",
+        ge=0
+    )],
+    choices: Annotated[List[str], Field(
+        description="List of voting choices/options for the proposal",
+        min_length=1
+    )],
+    votes: Annotated[List[dict], Field(
+        description="List of vote objects with voter, choice, vp, created fields"
+    )]
+) -> Dict[str, Any]:
     k = len(choices or [])
     if k == 0:
         return {"summary": "no choices", "recommended_index": None}
@@ -263,7 +289,16 @@ def analyze_timeline(start: int, end: int, choices: List[str], votes: List[dict]
     }
 
 
-@mcp.tool()
+@mcp.tool(
+    name="health",
+    title="Timeline Service Health Check",
+    description="Check the health status of the Timeline MCP service. Returns service status and identification information.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": False,
+        "idempotentHint": True
+    }
+)
 def health() -> Dict[str, Any]:
     return {"ok": True, "service": "TimelineMCP"}
 

@@ -24,7 +24,7 @@ import time
 import hashlib
 from pathlib import Path
 from datetime import datetime, timedelta, timezone
-from typing import List, Dict, Any, Optional, Tuple
+from typing import List, Dict, Any, Optional, Tuple, Annotated
 
 import numpy as np
 import pandas as pd
@@ -389,8 +389,21 @@ def segment_stats(df: pd.DataFrame, win: Tuple[datetime, datetime],
 
 mcp = FastMCP("OnchainActivityMCP")
 
-@mcp.tool()
-def analyze_onchain(args: AnalyzeInput) -> Dict[str, Any]:
+@mcp.tool(
+    name="analyze_onchain",
+    title="Analyze On-Chain Activity",
+    description="Compute on-chain activity metrics around governance proposals using BigQuery data. Analyzes transfer patterns, concentration metrics, and abnormal activity ratios during proposal time windows with optional price data integration.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": True,
+        "idempotentHint": True
+    }
+)
+def analyze_onchain(
+    args: Annotated[AnalyzeInput, Field(
+        description="Analysis parameters including proposal_id, token_address, time_windows, and optional price data"
+    )]
+) -> Dict[str, Any]:
     """
     Compute on-chain activity windows and simple concentration/abnormal metrics.
     1) Fetch Snapshot proposal meta & votes (shared helper preferred).
@@ -499,7 +512,16 @@ def analyze_onchain(args: AnalyzeInput) -> Dict[str, Any]:
         }
     }
 
-@mcp.tool()
+@mcp.tool(
+    name="health",
+    title="OnChain Activity Service Health Check",
+    description="Check the health status of the OnChain Activity MCP service. Returns service status and identification information.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": False,
+        "idempotentHint": True
+    }
+)
 def health() -> Dict[str, Any]:
     return {"ok": True, "service": "OnchainActivityMCP"}
 

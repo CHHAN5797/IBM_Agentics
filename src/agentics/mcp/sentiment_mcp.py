@@ -10,9 +10,10 @@ Sentiment MCP (FastMCP, stdio)
 """
 
 from __future__ import annotations
-from typing import Any, Dict, List, Tuple
+from typing import Any, Dict, List, Tuple, Annotated
 
 from mcp.server.fastmcp import FastMCP
+from pydantic import Field
 
 # --------------------------
 # Optional: VADER (nltk)
@@ -88,8 +89,23 @@ def _score_text(text: str) -> Tuple[float, str, str]:
 # --------------------------
 mcp = FastMCP("SentimentMCP", "1.0")
 
-@mcp.tool()
-def classify_texts(texts: List[str]) -> List[Dict[str, Any]]:
+@mcp.tool(
+    name="classify_texts",
+    title="Classify Text Sentiment",
+    description="Classify sentiment of a list of texts using VADER or fallback lexicon-based analysis. Returns sentiment scores and labels (Positive/Negative/Neutral) for each text with analysis method used.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": False,
+        "idempotentHint": True
+    }
+)
+def classify_texts(
+    texts: Annotated[List[str], Field(
+        description="List of text strings to analyze for sentiment",
+        min_length=1,
+        max_length=100
+    )]
+) -> List[Dict[str, Any]]:
     """
     Classify a list of texts. Returns list of {'text', 'score', 'label', 'method'}.
     """
@@ -99,8 +115,23 @@ def classify_texts(texts: List[str]) -> List[Dict[str, Any]]:
         out.append({"text": x, "score": s, "label": lab, "method": m})
     return out
 
-@mcp.tool()
-def classify_forum_comments(comments: List[Dict[str, Any]]) -> Dict[str, Any]:
+@mcp.tool(
+    name="classify_forum_comments",
+    title="Classify Forum Comment Sentiment",
+    description="Classify sentiment of forum comments with structured input. Analyzes comment body text and returns per-comment sentiment analysis plus aggregate counts. Use this for governance forum sentiment analysis.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": False,
+        "idempotentHint": True
+    }
+)
+def classify_forum_comments(
+    comments: Annotated[List[Dict[str, Any]], Field(
+        description="List of comment objects with 'body', 'author', 'created' fields",
+        min_length=1,
+        max_length=500
+    )]
+) -> Dict[str, Any]:
     """
     Input comments: [{'author':..., 'created':..., 'body':...}, ...]
     Returns: {'per_comment': [...], 'counts': {'Positive':x,'Negative':y,'Neutral':z}}

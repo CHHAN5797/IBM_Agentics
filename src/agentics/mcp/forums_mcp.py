@@ -2,10 +2,11 @@
 
 from __future__ import annotations
 import time, random
-from typing import Dict, Any, List, Optional, Tuple
+from typing import Dict, Any, List, Optional, Tuple, Annotated
 from urllib.parse import urlparse, urlunparse, parse_qsl, urlencode
 import requests
 from mcp.server.fastmcp import FastMCP
+from pydantic import Field
 
 TIMEOUT = 30
 BASE_SLEEP = 0.6
@@ -97,8 +98,28 @@ def _get(url: str) -> requests.Response:
 
 mcp = FastMCP("ForumsMCP")
 
-@mcp.tool()
-def fetch_discussion(url: str, max_pages: int = 5) -> Dict[str, Any]:
+@mcp.tool(
+    name="fetch_discussion",
+    title="Fetch Forum Discussion",
+    description="Fetch a Discourse forum thread with pagination support. Automatically detects Discourse forums and extracts structured discussion data including posts, authors, and timestamps. Use this for governance forum analysis.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": True,
+        "idempotentHint": True
+    }
+)
+def fetch_discussion(
+    url: Annotated[str, Field(
+        description="Forum discussion URL (preferably Discourse-based)",
+        min_length=1,
+        max_length=500
+    )],
+    max_pages: Annotated[int, Field(
+        description="Maximum number of pages to fetch for pagination",
+        ge=1,
+        le=20
+    )] = 5
+) -> Dict[str, Any]:
     """
     Fetch a Discourse thread as JSON with pagination; return normalized structure.
     - If host/path not whitelisted, still try <url>.json and detect `post_stream`.
@@ -173,8 +194,28 @@ def fetch_discussion(url: str, max_pages: int = 5) -> Dict[str, Any]:
         "complete": (isinstance(posts_count_expected, int) and len(posts) >= posts_count_expected)
     }
 
-@mcp.tool()
-def fetch_page(url: str, max_bytes: int = 400_000) -> Dict[str, Any]:
+@mcp.tool(
+    name="fetch_page",
+    title="Fetch Generic Web Page",
+    description="Fallback tool to fetch raw HTML/text content from non-Discourse pages with conditional GET caching. Use this for general web content retrieval when forum-specific tools are not applicable.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": True,
+        "idempotentHint": True
+    }
+)
+def fetch_page(
+    url: Annotated[str, Field(
+        description="Web page URL to fetch",
+        min_length=1,
+        max_length=500
+    )],
+    max_bytes: Annotated[int, Field(
+        description="Maximum bytes to read from the response content",
+        ge=1000,
+        le=1_000_000
+    )] = 400_000
+) -> Dict[str, Any]:
     """Fallback: fetch raw HTML/text for non-Discourse pages with conditional GET."""
     rr = _get(url)
     text = rr.text if rr.status_code == 200 else ""
@@ -182,7 +223,16 @@ def fetch_page(url: str, max_bytes: int = 400_000) -> Dict[str, Any]:
         text = text[:max_bytes]
     return {"type": "generic", "url": url, "status": rr.status_code, "content": text}
 
-@mcp.tool()
+@mcp.tool(
+    name="health",
+    title="Forums Service Health Check",
+    description="Check the health status of the Forums MCP service. Returns service status and identification information.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": False,
+        "idempotentHint": True
+    }
+)
 def health() -> Dict[str, Any]:
     return {"ok": True, "service": "ForumsMCP"}
 

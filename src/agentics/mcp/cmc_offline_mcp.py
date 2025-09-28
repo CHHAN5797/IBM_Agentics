@@ -11,10 +11,11 @@ from dataclasses import dataclass
 from datetime import date, datetime
 from functools import lru_cache
 from pathlib import Path
-from typing import Any, Dict, Iterable, List, Optional
+from typing import Any, Dict, Iterable, List, Optional, Annotated
 
 import duckdb
 import pandas as pd
+from pydantic import Field
 
 try:
     from fastmcp import FastMCP
@@ -269,19 +270,72 @@ def healthcheck_impl() -> Dict[str, Any]:
     }
 
 
-@mcp.tool()
-def resolve_tokens(project_hint: str, prefer_governance: bool = True) -> Dict[str, Any]:
+@mcp.tool(
+    name="resolve_tokens",
+    title="Resolve Token Candidates (Offline)",
+    description="Find and rank cryptocurrency token candidates from offline CMC data based on a project hint. Prioritizes governance tokens when available. Use this for offline token discovery without API rate limits.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": False,
+        "idempotentHint": True
+    }
+)
+def resolve_tokens(
+    project_hint: Annotated[str, Field(
+        description="Project name or hint to search for tokens (e.g., 'Aave', 'uniswap', 'compound')",
+        min_length=1,
+        max_length=100
+    )],
+    prefer_governance: Annotated[bool, Field(
+        description="Whether to prioritize governance tokens over native tokens"
+    )] = True
+) -> Dict[str, Any]:
     return resolve_tokens_impl(project_hint, prefer_governance)
 
 
-@mcp.tool()
-def price_window(token: str, start_date: str, end_date: str, interval: str = "1d") -> Dict[str, Any]:
+@mcp.tool(
+    name="price_window",
+    title="Get Price Data Window (Offline)",
+    description="Retrieve historical price data for a token within a date range from offline CMC parquet data. Only supports daily (1d) intervals. Use this for historical price analysis without API costs.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": False,
+        "idempotentHint": True
+    }
+)
+def price_window(
+    token: Annotated[str, Field(
+        description="Token symbol or CMC ID (e.g., 'BTC', 'ETH', '1027')",
+        min_length=1,
+        max_length=50
+    )],
+    start_date: Annotated[str, Field(
+        description="Start date in YYYY-MM-DD format",
+        pattern=r"^\d{4}-\d{2}-\d{2}$"
+    )],
+    end_date: Annotated[str, Field(
+        description="End date in YYYY-MM-DD format",
+        pattern=r"^\d{4}-\d{2}-\d{2}$"
+    )],
+    interval: Annotated[str, Field(
+        description="Price data interval (only '1d' supported for offline data)"
+    )] = "1d"
+) -> Dict[str, Any]:
     if interval.lower() != "1d":
         raise ValueError("offline cmc supports interval='1d' only")
     return price_window_impl(token, start_date, end_date)
 
 
-@mcp.tool()
+@mcp.tool(
+    name="healthcheck",
+    title="CMC Offline Service Health Check",
+    description="Check the health status of the CMC Offline MCP service. Verifies parquet data availability and service readiness.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": False,
+        "idempotentHint": True
+    }
+)
 def healthcheck() -> Dict[str, Any]:
     return healthcheck_impl()
 
