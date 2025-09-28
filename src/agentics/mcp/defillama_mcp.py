@@ -9,10 +9,11 @@ import time
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
-from typing import Any, Dict, List, Optional, Tuple
+from typing import Any, Dict, List, Optional, Tuple, Annotated
 
 import pandas as pd
 import requests
+from pydantic import Field
 
 try:
     from fastmcp import FastMCP
@@ -303,16 +304,54 @@ def event_stats_tvl(
 # ----------------- MCP Tools -----------------
 
 
-@mcp.tool()
+@mcp.tool(
+    name="resolve_protocol",
+    title="Resolve DeFi Protocol",
+    description="Find and rank DeFi protocol slug candidates from DeFiLlama based on a project hint. Use this to discover protocol identifiers when you have project names, including handling Snapshot space naming patterns.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": True,
+        "idempotentHint": True
+    }
+)
 def resolve_protocol(
-    project_hint: str, ttl_hours: int = 24, top_n: int = 5
+    project_hint: Annotated[str, Field(
+        description="Project name or hint to search for (e.g., 'Aave', 'uniswap', 'compound-snapshot.eth')",
+        min_length=1,
+        max_length=100
+    )],
+    ttl_hours: Annotated[int, Field(
+        description="Cache TTL in hours for protocol metadata refresh",
+        ge=0,
+        le=168
+    )] = 24,
+    top_n: Annotated[int, Field(
+        description="Maximum number of ranked candidates to return",
+        ge=1,
+        le=50
+    )] = 5
 ) -> Dict[str, Any]:
     """Return ranked protocol slug candidates for the provided hint."""
     return resolve_protocol_impl(project_hint, ttl_hours, top_n=top_n)
 
 
-@mcp.tool()
-def refresh_protocol(slug: str) -> Dict[str, Any]:
+@mcp.tool(
+    name="refresh_protocol",
+    title="Refresh Protocol TVL Data",
+    description="Ensure local TVL data cache is updated for a specific DeFi protocol. Use this to fetch the latest Total Value Locked (TVL) data from DeFiLlama and store it locally for analysis.",
+    annotations={
+        "readOnlyHint": False,
+        "openWorldHint": True,
+        "idempotentHint": True
+    }
+)
+def refresh_protocol(
+    slug: Annotated[str, Field(
+        description="DeFi protocol slug identifier (e.g., 'aave', 'uniswap-v3', 'compound')",
+        min_length=1,
+        max_length=100
+    )]
+) -> Dict[str, Any]:
     """Ensure local TVL parquet exists/updated for a given slug."""
     if not slug or not isinstance(slug, str):
         raise ValueError("slug must be a non-empty string")
@@ -326,9 +365,37 @@ def refresh_protocol(slug: str) -> Dict[str, Any]:
     return refresh_tvl_cache(canon)
 
 
-@mcp.tool()
+@mcp.tool(
+    name="event_window",
+    title="Analyze TVL Event Impact",
+    description="Analyze TVL (Total Value Locked) changes around a specific event time for a DeFi protocol. Computes abnormal TVL changes by comparing pre-event and post-event periods. Use this for governance impact analysis and market event correlation studies.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": True,
+        "idempotentHint": True
+    }
+)
 def event_window(
-    slug: str, event_time_utc: str, pre_days: int = 7, post_days: int = 7
+    slug: Annotated[str, Field(
+        description="DeFi protocol slug identifier (e.g., 'aave', 'uniswap-v3', 'compound')",
+        min_length=1,
+        max_length=100
+    )],
+    event_time_utc: Annotated[str, Field(
+        description="Event timestamp in UTC format (ISO 8601, e.g., '2023-12-01T15:30:00Z')",
+        min_length=1,
+        max_length=50
+    )],
+    pre_days: Annotated[int, Field(
+        description="Number of days before the event to analyze for baseline TVL",
+        ge=1,
+        le=90
+    )] = 7,
+    post_days: Annotated[int, Field(
+        description="Number of days after the event to analyze for impact assessment",
+        ge=1,
+        le=90
+    )] = 7
 ) -> Dict[str, Any]:
     """Compute TVL abnormal change around `event_time_utc`."""
     if not slug or not isinstance(slug, str):
@@ -353,7 +420,16 @@ def event_window(
     }
 
 
-@mcp.tool()
+@mcp.tool(
+    name="health",
+    title="Health Check",
+    description="Check the health and configuration of the DeFiLlama TVL MCP service. Use this to verify service status, data directory paths, and database connectivity.",
+    annotations={
+        "readOnlyHint": True,
+        "openWorldHint": False,
+        "idempotentHint": True
+    }
+)
 def health() -> Dict[str, Any]:
     return {
         "ok": True,
