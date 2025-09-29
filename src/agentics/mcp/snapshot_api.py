@@ -31,7 +31,7 @@ from mcp.server.fastmcp import FastMCP
 from pydantic import BaseModel, Field
 
 from agentics.utils.similarity import tokens, text_similarity
-from .defillama_utils import get_tvl_impact_for_proposal
+from agentics.mcp.defillama_utils import get_tvl_impact_for_proposal
 
 # -----------------------------
 # Config
