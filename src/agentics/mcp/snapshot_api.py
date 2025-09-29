@@ -31,6 +31,7 @@ from mcp.server.fastmcp import FastMCP
 from pydantic import BaseModel, Field
 
 from agentics.utils.similarity import tokens, text_similarity
+from .defillama_utils import get_tvl_impact_for_proposal
 
 # -----------------------------
 # Config
@@ -535,7 +536,7 @@ def resolve_proposal_id_from_url(
 @mcp.tool(
     name="find_similar_proposals",
     title="Find Similar Proposals",
-    description="Find proposals similar to a reference proposal using content similarity and author matching. Use this to discover historical precedents, related governance decisions, or recurring proposal patterns.",
+    description="Find proposals similar to a reference proposal using content similarity and author matching, enriched with DeFi protocol TVL impact analysis. Use this to discover historical precedents, related governance decisions, or recurring proposal patterns with their market impact.",
     annotations={
         "readOnlyHint": True,
         "openWorldHint": True,
@@ -572,9 +573,12 @@ def find_similar_proposals(
     - Are in 'closed' state and ended before the reference proposal started
     - Are within the specified time range (max_days)
     - Have similar content (Jaccard similarity >= 0.30) or same author
-    - Include similarity scores and basic vote results if available
+    - Include similarity scores, vote results, and TVL impact analysis
 
-    Each result includes similarity_score field (0.0 to 1.0).
+    Each result includes:
+    - similarity_score: Content similarity (0.0 to 1.0)
+    - vote_result: Voting outcome data
+    - tvl_impact: DeFi protocol TVL change analysis around proposal end time
     """
     try:
         # Fetch reference proposal
@@ -595,7 +599,7 @@ def find_similar_proposals(
             max_n=max_n
         )
 
-        # Enrich with vote results if available
+        # Enrich with vote results and TVL impact analysis
         enriched = []
         for proposal in similar:
             enriched_proposal = {
@@ -605,17 +609,18 @@ def find_similar_proposals(
                 "body": proposal.get("body"),
                 "end_utc": None,
                 "similarity_score": proposal.get("similarity_score"),
-                "vote_result": None
+                "vote_result": None,
+                "tvl_impact": None
             }
 
             # Convert end timestamp to UTC string
             end_ts = proposal.get("end")
+            end_utc_str = None
             if end_ts:
                 try:
                     end_dt = datetime.fromtimestamp(int(end_ts), tz=timezone.utc)
-                    enriched_proposal["end_utc"] = end_dt.strftime(
-                        "%Y-%m-%dT%H:%M:%SZ"
-                    )
+                    end_utc_str = end_dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+                    enriched_proposal["end_utc"] = end_utc_str
                 except (ValueError, TypeError):
                     pass
 
@@ -632,6 +637,24 @@ def find_similar_proposals(
             except Exception:
                 # Graceful degradation if vote result fetch fails
                 pass
+
+            # Try to get TVL impact analysis
+            if end_utc_str:
+                try:
+                    tvl_impact = get_tvl_impact_for_proposal(
+                        space=space,
+                        proposal_end_utc=end_utc_str,
+                        pre_days=7,
+                        post_days=7
+                    )
+                    enriched_proposal["tvl_impact"] = tvl_impact
+                except Exception as e:
+                    # Graceful degradation if TVL analysis fails
+                    enriched_proposal["tvl_impact"] = {
+                        "protocol_slug": None,
+                        "status": "analysis_failed",
+                        "error": f"TVL analysis error: {str(e)}"
+                    }
 
             enriched.append(enriched_proposal)
 
