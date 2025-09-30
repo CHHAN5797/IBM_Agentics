@@ -118,6 +118,18 @@ vllm_crewai = (
     else None
 )
 
+grok_llm = (
+    LLM(
+        model=os.getenv("GROK_MODEL_ID", "grok-2-1212"),
+        base_url="https://api.x.ai/v1",
+        api_key=os.getenv("GROK_API_KEY"),
+        temperature=0.8,
+        max_tokens=8000,
+    )
+    if os.getenv("GROK_API_KEY")
+    else None
+)
+
 logger.debug("AGENTICS is connecting to the following LLM API providers:")
 i = 0
 if watsonx_llm:
@@ -127,6 +139,10 @@ if watsonx_llm:
 if gemini_llm:
     available_llms["gemini"] = gemini_llm
     logger.debug(f"{i} - Gemini")
+    i += 1
+if grok_llm:
+    available_llms["grok"] = grok_llm
+    logger.debug(f"{i} - Grok")
     i += 1
 if openai_llm:
     available_llms["openai"] = openai_llm
