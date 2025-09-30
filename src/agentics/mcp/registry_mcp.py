@@ -39,7 +39,7 @@ def _norm(s: Optional[str]) -> str:
 def _load_rows() -> List[Dict[str, Any]]:
     if not os.path.exists(CSV_PATH):
         raise RuntimeError(f"DAO registry CSV not found: {CSV_PATH}")
-    with open(CSV_PATH, "r", encoding="utf-8") as fh:
+    with open(CSV_PATH, "r", encoding="utf-8-sig") as fh:
         reader = csv.DictReader(fh)
         raw = list(reader)
 

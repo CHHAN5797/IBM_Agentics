@@ -146,7 +146,6 @@ def tvl_to_df(pairs: List[Tuple[int, float]]) -> pd.DataFrame:
     if not pairs:
         return pd.DataFrame(columns=["date", "tvl"])
     df = pd.DataFrame(pairs, columns=["unix", "tvl"])
-    df["date"] = pd.to_datetime(df["unix"], unit="s", utc=True).tz_convert(None)
     df["date"] = (
         pd.to_datetime(df["unix"], unit="s", utc=True)
         .dt.tz_localize(None)
@@ -262,7 +261,7 @@ def _window_slice(
     df: pd.DataFrame, t0: pd.Timestamp, pre_days: int, post_days: int
 ) -> Dict[str, pd.DataFrame]:
     df = df.copy().sort_values("date")
-    t0 = pd.to_datetime(t0, utc=True).tz_convert(None)
+    t0 = pd.to_datetime(t0, utc=True).tz_localize(None)
     pre_from = t0 - timedelta(days=pre_days)
     pre_to = t0 - timedelta(days=1)
     post_from = t0 + timedelta(days=1)
@@ -291,7 +290,7 @@ def event_stats_tvl(
     post = _win_stats(segs["post"])
     abn = None if pre.tvl_avg == 0 else (post.tvl_avg / pre.tvl_avg - 1.0)
     return {
-        "event_time_utc": pd.Timestamp(t0).tz_convert(None).isoformat(),
+        "event_time_utc": pd.Timestamp(t0).tz_localize(None).isoformat(),
         "pre": {
             "n_days": pre.n_days,
             "tvl_total": pre.tvl_total,

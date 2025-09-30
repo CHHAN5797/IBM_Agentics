@@ -182,9 +182,9 @@ def _parse_rss(xml_text: str, source: str, query_label: str,
         pub = it.findtext("pubDate") or ""
         # Loose date parsing with fallback to now (UTC-naive)
         try:
-            ts = pd.to_datetime(pub, utc=True).tz_convert(None)
+            ts = pd.to_datetime(pub, utc=True).tz_localize(None)
         except Exception:
-            ts = pd.Timestamp.utcnow().tz_convert(None)
+            ts = pd.Timestamp.utcnow().tz_localize(None)
 
         # Time window filter
         if not (start <= ts.to_pydatetime() <= end):
@@ -286,8 +286,8 @@ def fetch_feed_once(source: str, url: str, query_label: str,
 # Query helpers
 # ------------------------------------------------------------------------------
 def _window_dates(start_date: str, end_date: str) -> Tuple[datetime, datetime]:
-    start = pd.to_datetime(start_date, utc=True).tz_convert(None).to_pydatetime()
-    end = pd.to_datetime(end_date, utc=True).tz_convert(None).to_pydatetime()
+    start = pd.to_datetime(start_date, utc=True).tz_localize(None).to_pydatetime()
+    end = pd.to_datetime(end_date, utc=True).tz_localize(None).to_pydatetime()
     return start, end
 
 def _query_articles_between(start: datetime, end: datetime, like: Optional[str] = None) -> List[Dict[str, Any]]:
@@ -348,7 +348,7 @@ def proposal_news_window_impl(project_hint: str, proposal_title_or_id: str, even
                               pre_days: int = 7, post_days: int = 7,
                               lang: str = "en", max_records: int = 100, ttl_minutes: int = 30) -> Dict[str, Any]:
     # Build an absolute window around the event
-    t0 = pd.to_datetime(event_time_utc, utc=True).tz_convert(None)
+    t0 = pd.to_datetime(event_time_utc, utc=True).tz_localize(None)
     start = (t0 - timedelta(days=pre_days)).to_pydatetime()
     end = (t0 + timedelta(days=post_days)).to_pydatetime()
 

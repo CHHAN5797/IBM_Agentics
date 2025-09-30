@@ -90,7 +90,7 @@ def sanitize_dict_keys(obj):
 
 
 def pydantic_model_from_csv(file_path: str) -> type[BaseModel]:
-    with open(file_path, newline="", encoding="utf-8") as csvfile:
+    with open(file_path, newline="", encoding="utf-8-sig") as csvfile:
         reader = csv.DictReader(csvfile)
         columns = [sanitize_field_name(x) for x in reader.fieldnames]
         model_name = "AType#" + ":".join(columns)

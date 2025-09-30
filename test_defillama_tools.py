@@ -310,7 +310,7 @@ def event_window_impl(protocol_or_space: str, event_time_utc: str,
         refresh_tvl_cache(slug)
         df = load_tvl(slug)
 
-    t0 = pd.to_datetime(event_time_utc, utc=True).tz_convert(None)
+    t0 = pd.to_datetime(event_time_utc, utc=True).tz_localize(None)
     stats = event_stats_tvl(df, t0, pre_days, post_days)
 
     if event_id:

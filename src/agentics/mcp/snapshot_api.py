@@ -32,6 +32,7 @@ from pydantic import BaseModel, Field
 
 from agentics.utils.similarity import tokens, text_similarity
 from agentics.mcp.defillama_utils import get_tvl_impact_for_proposal
+from agentics.mcp.cmc_utils import get_price_impact_for_proposal
 
 # -----------------------------
 # Config
@@ -610,7 +611,8 @@ def find_similar_proposals(
                 "end_utc": None,
                 "similarity_score": proposal.get("similarity_score"),
                 "vote_result": None,
-                "tvl_impact": None
+                "tvl_impact": None,
+                "price_impact": None
             }
 
             # Convert end timestamp to UTC string
@@ -654,6 +656,24 @@ def find_similar_proposals(
                         "protocol_slug": None,
                         "status": "analysis_failed",
                         "error": f"TVL analysis error: {str(e)}"
+                    }
+
+            # Try to get price impact analysis
+            if end_utc_str:
+                try:
+                    price_impact = get_price_impact_for_proposal(
+                        space=space,
+                        proposal_end_utc=end_utc_str,
+                        pre_days=7,
+                        post_days=7
+                    )
+                    enriched_proposal["price_impact"] = price_impact
+                except Exception as e:
+                    # Graceful degradation if price analysis fails
+                    enriched_proposal["price_impact"] = {
+                        "token_id": None,
+                        "status": "analysis_failed",
+                        "error": f"Price analysis error: {str(e)}"
                     }
 
             enriched.append(enriched_proposal)

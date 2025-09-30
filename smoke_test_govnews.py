@@ -35,7 +35,7 @@ def fetch_latest(feed_url: str, per_feed: int = 5):
             desc = it.findtext("description") or ""
             pub = it.findtext("pubDate") or ""
             try:
-                ts = pd.to_datetime(pub, utc=True).tz_convert(None).isoformat()
+                ts = pd.to_datetime(pub, utc=True).tz_localize(None).isoformat()
             except Exception:
                 ts = None
             out.append({
