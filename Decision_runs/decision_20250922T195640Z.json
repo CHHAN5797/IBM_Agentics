@@ -1,0 +1,536 @@
+{
+  "captured_at_utc": "2025-09-22T19:56:40.380735+00:00",
+  "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+  "focus": null,
+  "votes_count": 103,
+  "timeline_metrics_current": {
+    "unique_voters": 103,
+    "total_votes": 103,
+    "first_vote_at": "2025-09-06T09:42:59Z",
+    "last_vote_at": "2025-09-09T08:16:28Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        0.972222,
+        0.027778,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      0.9902912621359223,
+      0.009708737864077669,
+      0.0
+    ],
+    "stability": [
+      0.9902912621359223,
+      0.009708737864077669,
+      0.0
+    ],
+    "early_ratio": [
+      0.9722222222222222,
+      0.027777777777777776,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        168186.83215774538,
+        0.09615768208900824,
+        0.0
+      ],
+      [
+        313759.062037941,
+        0.0,
+        0.0
+      ],
+      [
+        73399.45700222837,
+        0.0,
+        0.0
+      ],
+      [
+        333004.5328237894,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.374852,
+    "spike_follow_support_ratio": 1.0,
+    "stairwise_ratio": 0.019441,
+    "half_slope_diff": 31.244536
+  },
+  "forum_sample_for_sentiment": [
+    {
+      "author": "ACI",
+      "created": "2025-03-18T08:33:43.181Z",
+      "body": "# [ARFC] Deploy Aave v3 on Plasma\n\n## Author: ACI\n\n## Date: 2025-03-15\n\n-\n> Proposal has been updated with latest Risk Parameters 2025-09-05\n\n---\n\n## **Simple Summary**\n\nThis ARFC proposes the deployment of an Aave V3 Instance on Plasma.\n\n## Motivation\n\nPlasma is a high-performance, scalable, and secure blockchain purpose-built for stablecoins. Built from the ground up, it delivers zero fees, lightning-fast transactions, and the robust security that stablecoins like USD₮ require.\n\nThe network offers a performant location to the deploy the Aave protocol, and the Plasma team are planning to support Aave’s launch on the network.\n\n## Specification\n\nRisk Parameters will be provided by Risk Service Providers during the ARFC stage and ARFC will be updated accordingly.\n\n> Proposal has been updated with latest Risk Parameters 2025-09-05\n\n# Specification\n\n| **Parameter** | Value | Value | Value | **Value** | Value | Value | Value |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Asset | USD₮ | USDe | sUSDe | XAUt | WETH | weETH  | XPL |\n| Isolation Mode | No | No | No | Yes | No | No | No |\n| Borrowable | Yes | Yes | No | No | Yes | No  | No  |\n| Collateral Enabled | Yes | Yes | Yes | Yes | Yes | Yes | Yes |\n| Supply Cap | 2,200,000,000 | 500,000,000 | 450,000,000 | 7,000 | 80,000 | 10,000 | 50,000,000 |\n| Borrow Cap | 2,000,000,000 | 50,000,000 | - | - | 10,000 | -  | -  |\n| Debt Ceiling | - | - | - | - | - | - | - |\n| LTV | 75% | 72% | 0.05% | 70% | 80.5% | 0.05% | 0.00% |\n| LT | 78% | 75% | 0.1% | 75% | 83% | 0.1% | 0.1% |\n| Liquidation Bonus | 4.50% | 8.50% | 8.50% | 7.50% | 5.5% | 7% | 8% |\n| Liquidation Protocol Fee | 10% | 10% | 10% | 10% | 10% | 10% | 10% |\n| Variable Base | 2.5% | 2.5% | - | - | 0% | - | - |\n| Variable Slope1 | 4.0% | 5.0% | - | - | 2.7% | - | - |\n| Variable Slope2 | 20% | 50% | - | - | 20% | - | - |\n| Uoptimal | 92% | 85% | - | - | 92% | - | - |\n| Reserve Factor | 10% | 25% | - | - | 15% | - | - |\n\n**USDe Stablecoin E-Mode**\n\n| **Parameter** | **Value** | **Value** |\n| --- | --- | --- |\n| Asset | USDe | USD₮ |\n| Collateral | Yes | No |\n| Borrowable | No | Yes |\n| Max LTV | 90% | - |\n| Liquidation Threshold | 93% | - |\n| Liquidation Bonus | 2.0% | - |\n\n**sUSDe Stablecoin E-Mode**\n\n| **Parameter** | **Value** | **Value** | **Value** |\n| --- | --- | --- | --- |\n| Asset | USDe | sUSDe | USD₮ |\n| Collateral | Yes | Yes | No |\n| Borrowable | No | No | Yes |\n| Max LTV | 90% | 90% | - |\n| Liquidation Threshold | 92% | 92% | - |\n| Liquidation Bonus | 4.0% | 4.0% | - |\n\n**weETH WETH E-Mode**\n\n| **Parameter** | **Value** | **Value** |\n| --- | --- | --- |\n| Asset | weETH | WETH |\n| Collateral | Yes | No |\n| Borrowable | No | Yes |\n| Max LTV | 93% | - |\n| Liquidation Threshold | 95% | - |\n| Liquidation Bonus | 1.00% | - |\n\n**CAPO Parameters sUSDe**\n\n| **Token** | **Snapshot Delay** | **maxYearlyGrowthRatio** |\n| --- | --- | --- |\n| sUSDe | 14 days | 15.19% |\n\n### POL and Incentives\n\nUpon confirmation of the Aave deployment on Plasma, the Plasma Foundation will:\n\n- Supply 10M USDT\n- Ensure that in any future incentive campaign, Aave is the only lending protocol receiving incentive distributions.\n- Integrate and boost adoption of the GHO stablecoin within its ecosystem, targeting real-world and institutional use cases.\n- Collaborate with liquidity providers, institutional capital allocators, and partners to expand supply in Aave v3 for BTC and USDT.\n- Offer Aave DAO or ACI an opportunity to serve as an early validator, thereby securing the Plasma Bitcoin bridge and participating in consensus.\n- Have Aave DAO redistribute any airdrops or incentive distributions from the Plasma ecosystem to protocol users through liquidity mining.\n- Entrust ACI, on behalf of Aave DAO, to manage any liquidity mining campaign on a Plasma Aave V3 deployment.\n\n## Useful Links\n\n- Website: https://www.plasma.to/\n- Docs: https://docs.plasma.to/\n\n## **Disclaimer**\n\nThis proposal is powered by Skywards. ACI is not directly affiliated with Plasma and did not receive compensation for this proposal.\n\n## **Next Steps**\n\n1. Publish an ARFC to continue gathering community and Service Providers feedback.\n2. Escalate proposal to ARFC Snapshot.\n3. If the ARFC snapshot outcome is YAE, publish an AIP vote for final confirmation and enforcement of the proposal.\n\n## **Copyright**\n\nCopyright and related rights waived under [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+      "url": null
+    },
+    {
+      "author": "LlamaRisk",
+      "created": "2025-03-25T14:21:55.624Z",
+      "body": "LlamaRisk is in close contact with Plasma's team to clarify details on the network before issuing a recommendation to voters. At this stage there is insufficient information available to emit an opinion. The developmental state of this network requires a high touch risk process and LlamaRisk is grateful for the reactivity of stakeholders proposing this change.",
+      "url": null
+    },
+    {
+      "author": "ChaosLabs",
+      "created": "2025-03-28T09:20:46.475Z",
+      "body": "### Recommendation\n\nAfter reviewing the current state of the Plasma network, we note that it remains in a very early stage of development, with no public testnet, mainnet, or accessible on-chain data. As such, we are unable to provide any asset listing or parameter recommendations at this time. While a high-level technical overview of Plasma has been published, we will publish a comprehensive analysis once the forthcoming whitepaper and additional protocol documentation are available to support a more thorough and informed evaluation. Chaos Labs will continue to monitor the development of the Plasma network and will provide recommendations once sufficient technical details and market data are available.",
+      "url": null
+    },
+    {
+      "author": "system",
+      "created": "2025-04-27T09:21:21.896Z",
+      "body": "This topic was automatically closed 30 days after the last reply. New replies are no longer allowed.",
+      "url": null
+    },
+    {
+      "author": "ACI",
+      "created": "2025-07-25T11:43:09.533Z",
+      "body": "",
+      "url": null
+    },
+    {
+      "author": "LlamaRisk",
+      "created": "2025-09-04T18:46:42.742Z",
+      "body": "## Summary\n\nLlamaRisk supports a provisional recommendation for Aave to deploy on Plasma pending a further analysis of the mainnet launch and the security features that will be implemented by the Plasma team.\n\nAt the time of writing, a testnet deployment is live with a mainnet launch scheduled later this month. While this testing phase has shown positive activity metrics, the full extent of the network is yet to be tested in an active market setting. This presents potentially technical, security, and market risks to AAVE that should be assessed post-deployment. Additionally, available documentation is largely theoretical and in practice only describes how the network is intended to work (or is still under development).\n\nWe will continue monitoring Plasma activity and provide revised asset recommendations as we move toward potential deployment.\n\n## 1. Network Fundamental Characteristics\n\n### 1.1 Network Overview\n\n![image|1536x1404](upload://mFZzPcxxJVJtkfU9J7y8m94DXcQ.jpeg)\n\n*Source: Plasma architecture, [Plasma documentation](https://docs.plasma.to/architecture/system-overview)*\n\nPlasma is a novel, high-performance blockchain designed for stablecoin efficiency. It uses a custom consensus mechanism with Ethereum compatibility and settles to the Bitcoin network. At its core, it employs PlasmaBFT, a [HotStuff-inspired](https://arxiv.org/abs/1803.05069) consensus protocol optimized for rapid transaction finality and low latency.\n\nThis network's execution layer is built on Reth, a Rust-based Ethereum Virtual Machine (EVM) node implementation. This enables full compatibility with Ethereum smart contracts. Plasma is a standalone Layer 1 blockchain that will be integrated with a trust-minimized Bitcoin Bridge, which will allow for the movement of BTC directly into Plasma without relying on centralized custodians. Plasma is billed towards facilitating fast and reliable stablecoin transfers, enabling zero-fee USD₮ transfers.\n\nNetwork changes and updates are planned to be communicated with a 2-week window before changes take effect; however, emergency upgrades affecting liveness and security will be implemented immediately. The team informed us that the chain aims to follow a progressive decentralization model with governance details to be shared in the future.\n\nXPL is intended to be the network's [native token](https://docs.plasma.to/docs/get-started/xpl/tokenomics), with a max supply of 10B. The token is intended to have transaction (gas), staking, and rewards utility on the network. Additional plans include a staked delegation mechanism for holders to delegate XPL to validators for a share of validation rewards.\n\n#### Consensus Model\n\nPlasma utilizes a Proof of Staking [mechanism](https://docs.plasma.to/docs/plasma-chain/architecture/consensus), with validators selected based on a stake-weighted random selection process. A small set of validators known as the Committee will initially secure the network at mainnet launch under the BFT consensus model, thereafter expanding.\n\nKey features described that are related to validator operations:\n\n* Liveness failures are not penalized\n\n* Slashing will be levied on rewards rather than initial collateral\n\n* No-lock staking, with no withdrawal delay\n\nPlasmaBFT pipelines consensus, meaning a new block can be proposed while a previous block is still being committed. In the event of a leader failing to confirm a block, aggregated Quorum Certificates are used. A new leader aggregates the most recent QCs from other validators to create the highest known block.\n\n#### Execution Layer\n\nPlasma does not introduce a new virtual machine design, custom language, or compatibility layer.\n\nBoth these components have only recently been implemented through the testnet launch. Change models, security measures (such as audits or formal verification), or bug bounties are not yet documented. No public repository containing Plasma code is available.\n\n#### Audits\n\n3 audits have been completed on Plasma infrastructure, 2 by Spearbit and 1 by Zellic. No published audits are available yet, with additional audits planned before the public mainnet launch. Critically, the paymaster contract (which sponsors gas-free verified USD₮ transfers only) has not been audited, but will form part of future audits\n\nA preliminary audit was shared with LlamaRisk, with 25 issues ranging from critical risk to information-related related that were identified, all issues were either fixed or acknowledged\n\n#### Bug Bounty\n\nNo bug bounty is active, but an audit competition on the node software with a >$1M reward budget is planned before the public mainnet launch.\n\nIt is difficult to evaluate what level of risk this new network will pose to Aave, given that it is untested and novel. EVM-equivalence will reduce deployment friction, but nuances in the network (e.g., OPCodes) may result in unintended effects for the DAO and its protocol. A testnet environment has been launched, with the private mainnet and mainnet beta launches slated for August and September, respectively.\n\n### 1.2 Decentralization and Legal Evaluation\n\nNo information is available at this time as to the location or number of nodes, given that the network is not yet live. One node implementation is noted, and it is based on Reth.\n\n#### Legal Evaluation\n\nKey authoritative information on Plasma and the XPL token is set out in Plasma’s [MiCA whitepaper](https://drive.google.com/file/d/1kw2CfXp0SLPGkitm6v814vmTtWOQTYBw/view), which is linked from the official [Plasma documentation](https://docs.plasma.to/docs/get-started/xpl/mica-whitepaper). This whitepaper is the project’s regulated disclosure under the EU Markets in Crypto-Assets Regulation for a crypto-asset that is neither an ART nor an EMT, and it provides the legally operative summary of the offer and the network.\n\nThe entity responsible for the issuance, offering, and sale of the XPL token is Plasma Inc., a BVI business company registered on 25 April 2025 (company no. 2175392). The whitepaper states the parent is “Plasma Foundation,” and identifies Chain Technologies Research, an exempted company in the Cayman Islands, as the legal person involved in implementation. Disputes relating to XPL are governed by BVI law with exclusive jurisdiction in the BVI courts. The whitepaper also indicates a MiCA home Member State of Malta and a list of EU/EEA host Member States for passporting.\n\nXPL has no protocol-level transfer restrictions and is designed to function as a standard, fully transferable on-chain token on the Plasma network. The whitepaper also cautions that off-chain intermediaries—centralized exchanges and other EU-regulated crypto-asset service providers—may overlay their own limits, for example, geo-blocking, min/max thresholds, KYC/AML requirements, whitelisting, and temporary administrative holds.\n\nXPL bought by U.S. participants is subject to a 12-month lock-up from the close of the public sale, during which those tokens “cannot be transferred or traded,” expressly to address U.S. securities law risk. That is reiterated in Plasma’s [own investor communications](https://www.plasma.to/insights/plasma-raises-24m-led-by-framework-and-bitfinex-usdt0-to-build-the-leading-blockchain-for-stablecoins), which state that any U.S. offer relies on exemptions and is “subject to restrictions on transferability and resale.”\n\nFor the XPL sale, KYC and jurisdictional screening are done through [Sonar by Echo](https://echo.xyz/support.html?). Echo documents that its stack uses Sumsub for KYC, and Sumsub’s documentation explains that AML screening covers sanctions, PEPs, and adverse media with ongoing monitoring. There is no public documentation from Plasma that speaks to travel-rule coverage for token transfers post-listing or to any ongoing wallet or transactional monitoring on-chain beyond Sonar’s “wallet association and transaction history checks” at sale time.\n\nOn financial capacity, the whitepaper says the entity is newly incorporated but “well-funded,” reporting approximately USD 24,000,000 in liquid assets, an estimated USD 500,000 for offer expenses, and ongoing operating costs “approximately USD 25,000 per month,” together implying more than 24 months of runway. It also attributes USD 24 million raised across Seed and Series A to rounds led by Framework Ventures and Bitfinex/USD₮0, and notes an additional strategic investment by Founders Fund.\n\n#### Validators\n\nThe whitepaper projects, for sustainability reporting purposes, an eventual validator set in the range of roughly 150–300 validators in year one, with the estimate used to model energy consumption. The same section also sets minimum consensus hardware as “2 CPU cores, 4 GB RAM, SSD” for “basic validator operations,” which is a low bar by industry standards but only indicative at this stage. Plasma describes a staged decentralization: during testnet, all consensus nodes are run by Plasma; after mainnet launch, “a small group of external validators will join,” selected for reliability, operational readiness, and geographic distribution; over time, validator access opens permissionlessly.\n\n#### Slashing\n\nThe whitepaper has internal inconsistencies on slashing. Part G.2 says “no-slashing policy” for downtime, while the sustainability section J.04–J.05 states that malicious behavior or extended downtime results in slashing. The technology section H.5 also says “validators earn … without slashing penalties.”\n\nThe analysis captures the current state of the network, with uncertainty remaining about the slashing implementation.\n\n### 1.3 Activity Benchmarks\n\nA public testnet was [announced](https://www.plasma.to/insights/plasma-testnet-is-live) on July 15, 2025, enabling contract and network infrastructure testing in preparation for the mainnet beta launch.\n\n![image|988x458](upload://iBPSSMq3BZZTpSVw8iwYG1WGQZI.png)\n\n*Source: Cumulative transactions, [Plasmascan](https://testnet.plasmascan.to/insight/chart?id=cumulative-tx&metrics=chain%3A9746_4%3ACumulative+Transactions%3A%2327aeef%3Aday%3Alinear%3Aline%3Avisible%3Ay1%3Acumulative%3A), September 3rd, 2025*\n\n![image|980x459](upload://auDpVUnfP8Ys5afjY54vWAmnLQL.png)\n\n*Source: Cumulative contracts, [Plasmascan](https://testnet.plasmascan.to/insight/chart?id=cumulativecontracts&metrics=chain%3A9746_5%3ACumulative%20Contracts%3A%2327aeef%3Aday%3Alinear%3Aline%3Avisible%3Ay1%3Acumulative%3A), September 3rd, 2025*\n\nCumulative transactions and contracts have grown significantly since the testnet’s recent launch.\n\n![image|988x459](upload://ujiEszCnoDyNYtFbYuZLbR0vIOW.png)\n\n*Source: Unique addresses, Plasmascan, September 3rd, 2025*\n\n![image|981x463](upload://aNd4PGIMAXC7Ree3Kq7U2RN0GNw.png)*Source: Active addresses, Plasmascan, September 3rd, 2025*\n\nEarly signs indicate that there is a strong interest in users engaging with the chain, as shown by unique addresses; however, a drop off can be seen in active addresses from September 1st. \n\nIt should be noted that the testnet environment is not an exact representation of what the mainnet activity will look like, and therefore serves as an early indicator of the network’s performance and interest.\n\n## 2. Network Market Outlook\n\n### 2.1 Market Infrastructure\n\nWith no mainnet network to evaluate, LlamaRisk cannot evaluate this network's actual market infrastructure. Protocols that have committed to launch on Plasma mainnet include:\n\n**Lending**: Aave, Fluid, Term Finance \n\n**DEXs**: Uniswap, Curve, Fluid \n\n**Yield**: Ethena, Pendle, Usual, Etherfi, Centrifuge, Daylight, Axis, [Usd.AI](http://Usd.AI)\n\nThe Plasma team indicated that this is not an exhaustive list.\n\nThe testnet release includes:\n\n* A protocol-managed [paymaster](https://docs.plasma.to/docs/plasma-chain/stablecoin-native-contracts/zero-fee-usdt-transfers) that facilitates zero-fee transfers of USDT (allows verified users to send USD₮ without holding XPL)\n\n* Enabling the use of whitelisted ERC-20 tokens as a custom gas token\n\n* A native BTC bridge using an MPC-based design\n\nPlasma note that these details and others to be implemented are subject to change for performance, security, or compatibility reasons.\n\nA total of 20 unique [toolings](https://docs.plasma.to/docs/plasma-chain/tools/account-abstraction) are currently integrated or in development on the Plasma testnet:\n\n**Account Abstraction** (e.g., wallets and bundlers): Gelato Relay, Protofire Safe, Thirdweb, Privy, and Turnkey \n\n**Analytics**: Dune \n\n**Block Explorers**: Routescan, Gas.zip, and Arkham \n\n**Cross-Chain**: Debridge, Hyperlane, Jumper, LayerZero, Relay, and Stargate \n\n**Testnet Faucets**: Gas.zip and Quicknode \n\n**Indexers**: Goldsky, Arkham, Quicknode, thirdweb, and Zerion \n\n**Oracles**: Chainlink, Blocksense \n\n**RPC Providers**: Tenderly, thirdweb, and QuickNode\n\nIt is expected that these toolings will also be deployed on the mainnet.\n\n### 2.2 Liquidity Landscape\n\nThe following liquidity venues and pairs are planned for the mainnet launch:\n\n| Protocol | Pairs |\n|----|----|\n| Uniswap V3 | USDT0/XPL, eETH/XPL, XAUT0/XPL, ETH/XPL |\n| Fluid | USDE/USDT, USDai/USDT, USDR/USDT, AXIS.USDT, FraxUSD/USDT, GHO/USDT,  USDO/USDT, Resolv/USDT |\n| Curve | USDE/USDT, USDai/USDT, USDR/USDT, AXIS.USDT, FraxUSD/USDT, GHO/USDT,  USDO/USD, Resolv/USDT |\n\n### 2.3 Ecosystem Resilience\n\nThe introduction of the testnet also initiated ecosystem development efforts with Plasma, encouraging builders in areas such as wallets, payment apps, and remittance tools to join their [Discord](https://discord.com/invite/plasmafdn) channel.\n\nThis strategy aims to create a developer-focused space for support, feedback, and integration into the network. This ecosystem growth strategy is currently relatively informal and is likely to become more formalized in the future with the mainnet launch. A [developer's guide](https://docs.plasma.to/docs/guides/development/quickstart) is also available in their docs.\n\n### 2.4 Major and Native Asset Outlook\n\nPlasma will focus on two assets: USDT0 and BTC. This is highly encouraging for Aave: USDT0 is already onboarded to Aave ([see LlamaRisk's report on the topic](https://www.llamarisk.com/research/regulatory-pressure-on-usdt-and-legal-features-of-usdt0)) and is a major driver of revenue on Core. Clarity on the specific Bitcoin wrapper to be used is needed, but this is an asset class that is already widely used on Aave.\n\nPending details, these two major asset types should pose no incremental risk.\n\n![image|2000x1125](upload://bqzqge9DKwiQgjAzTIKRLPTqXaa.png)*Source: [XPL Allocation](https://docs.plasma.to/docs/get-started/xpl/tokenomics#xpl-distribution), Plasma Docs*\n\nXPL is the network's native token, facilitating transactions, staking, and rewards for validators. Outside of these functions, no additional use cases have been indicated. Distribution for XPL is split: 25% investors, 25% team, 40% ecosystem and growth, and 10% to the public sale.\n\n![image|2000x1125](upload://httg2XfaADjwOhFsejyQr6TBykE.jpeg)*Source: XPL Emissions, Plasma Docs*\n\nThe planned unlock schedule for XPL that is not immediately made available at mainnet launch includes:\n\n* XPL, purchased by US investors, is subject to a 12-month lockup\n\n* 80% ecosystem and growth allocation (32% of the 40%) unlocks monthly over 3 years\n\n* ⅓ of the team and investor allocations are subject to a 1-year cliff, and the remaining ⅔ unlock monthly over 2 years\n\nShould XPL have additional future governance utility, then the planned allocation would give the team and investors an initial 50% control over the network, which presents significant centralization risk. Network changes could be enacted almost unilaterally.\n\n## 3. Onchain discoverability\n\nAs mentioned in section 2.1, 3 block explorers are currently supported for testnet: [Routescan](https://testnet.plasmascan.to/), [Gas.zip](https://plasma.gas.zip/), and [Arkham](https://platform.arkhamintelligence.com/).\n\n## 4. Impact of AAVE Deployment\n\nIt is not yet possible to gauge the impact of Aave's deployment to Plasma as the network has only recently launched a testnet. This presents a level of risk uncertainty, as the exact mainnet launch is under development.\n\n## 5. Asset suggestions\n\nLlamaRisk is favourable to recommending WETH, XAUT, USDT0, sUSDe, USDe, GHO, weETH, and XPL as the initial assets to onboard. These assets will provide the basic functionality of the new instance, with additional assets expanding use cases on the chain. To date, WETH, XAUT, USDT0, sUSDe, USDe, GHO, and weETH have been reviewed to some extent and frequency, while the native token XPL will need to be reviewed once the mainnet contracts have been deployed. Given the tokens' inherent importance to network operations, a deployment of a Plasma instance is in part an endorsement of the asset to AAVE. Therefore, to provide sufficiently optimized parameters, we recommend a separate risk assessment with live conditions.\n\n## Aave V3 Specific Parameters\n\nWill be presented jointly with [@ChaosLabs](https://governance.aave.com/u/chaoslabs).\n\n### Disclaimer\n\nThis review was independently prepared by LlamaRisk, a DeFi risk service provider funded in part by the Aave DAO. LlamaRisk is not directly affiliated with the protocol(s) reviewed in this assessment and did not receive any compensation from the protocol(s) or their affiliated entities for this work.\n\nThe information provided should not be construed as legal, financial, tax, or professional advice.",
+      "url": null
+    },
+    {
+      "author": "ChaosLabs",
+      "created": "2025-09-04T20:31:10.339Z",
+      "body": "# Summary\n\nThis document provides an initial risk assessment and recommendation for deploying Aave on Plasma. Our analysis aims to explore key technical aspects of Plasma that are relevant to Aave’s security, efficiency, and overall ecosystem viability, as well as outline assets for initial listing and corresponding E-Modes.\n\n## Plasma Overview\n\nPlasma is a high-performance EVM Layer 1 blockchain. Its stated purpose is to facilitate global stablecoin payments coupled with deep liquidity, which is supported by zero-fee USD₮ transfers and a native BTC bridge. \n\n![image|2000x1142](upload://ruwG5uMZpn7ydGyyfTBZzotersf.png)\n\n\n### **Technical Architecture**\n\nAt its core, Plasma uses a loosely coupled architecture, where PlasmaBFT handles block sequencing and finality, while `reth` handles execution. \n\n**PlasmaBFT** is a consensus mechanism for block sequencing and finality. While direct specifications of the consensus protocol are not available at the moment, documentation mentions that it follows a pipelined implementation of Fast HotStuff — a BFT consensus layer which, compared to HotStuff, eliminates the third consensus stage in most cases by asynchronously proposing the next block while the current block is being confirmed. \n\n![image (1)|1366x798](upload://mHPSh5uDfaRsnUOENBHl9IelBDD.jpeg)\n\n\nThis implementation guarantees lower common-case latency while preserving worst-case safety requirements, as cited in the initial FastHotStuff [paper](https://arxiv.org/pdf/2010.11454). \n\n![image (2)|2000x1004](upload://29omEsOEAlNq3ekYAdewBIYaaNZ.png)\n\n\n**The execution layer** is built using a modified **`reth`**, a fast [implementation](https://github.com/paradigmxyz/reth) of the Ethereum protocol by Paradigm Research. As opposed to traditional Ethereum execution environments - `reth` is Rust-based, while `geth` is a Go-based execution layer. It's important to note that using reth creates a unique risk since its first production-ready version was released in 2024, whereas geth has been in active use and development for over 10 years. \n\nThe separation of Consensus and Execution layers, along with a unique version of the consensus algorithm, enables Plasma to process multiple consensus steps in parallel, reducing latency and increasing throughput.\n\n### Transaction Fees\n\nPlasma removes fee friction by letting whitelisted ERC-20 tokens effectively act as native gas tokens. For routine USD₮ transfers, a protocol‑run Paymaster sponsors the required XPL, so verified users send USD₮ without holding any gas token. For transfers with other tokens, the same paymaster accepts whitelisted ERC-20 tokens as gas payment by converting them to XPL at an oracle‑published rate and settling the validator’s cost within the block. \n\nAdditionally, the official documentation outlines that subsidized USD₮ transfers will be capped on a rolling basis per wallet to ensure uniform access. \n\n### BTC Bridge\n\nPlasma's Bitcoin bridge brings native BTC without using traditional custodians or chain-specific wrappers. Users deposit BTC to a Plasma-controlled address on the Bitcoin blockchain; a network of verifiers, running their own Bitcoin nodes, attest and verify the transaction, approving the minting of pBTC, an ERC-20 token, on Plasma. Since pBTC uses LayerZero's Omnichain Fungible Token (OFT) standard, the asset can move between LayerZero's supported networks freely without additional chain-specific wrapping. \n\nWhen users want to withdraw their BTC, they can burn pBTC on Plasma, which triggers the verifiers to attest the transaction and jointly produce a threshold-signed Bitcoin transaction that returns the BTC to the user's chosen address on the Bitcoin network. \n\n### Decentralization\n\nPlasma is following a progressive decentralization model, implying the following stages: (1) a centrally team-operated validator set in testnet for rapid iteration; (2) a small, whitelisted external validator set at mainnet; and (3) eventual permissionless participation backed by economic incentives and protocol-level safeguards. \n\nThis approach aims to prioritize stability and reliability during the network's earlier stages of lifecycle, gradually transitioning to a more decentralized operational model over time. \n\n### Ecosystem\n\nPlasma states that its ecosystem will have a significant number of dApps at launch, including but not limited to: \n\n- Stablecoins: USD₮, Ethena, [USD.AI](http://USD.AI), and Usual\n- Yield: Ethena, Veda, Daylight, and others\n- Dex: Curve and potentially other DEXs for volatile assets\n- Bridges: LayerZero, Stargate, Jumper, and Relay\n\nBy securing commitments from leading projects in each category, Plasma ensures that the chain is operational and can provide a complete set of services on day one.\n\n### Tooling\n\nDespite using a less conventional Ethereum executor, Plasma maintains a general-purpose EVM environment that offers:\n\n1. Full compatibility with EVM smart contracts\n2. Tool compatibility (Hardhat, Foundry)\n3. Interface compatibility (ABIs and libraries)\n\nCurrently, it offers all the expected developer/analytic tooling, including upcoming data on Dune, block explorers, LayerZero infrastructure for interoperability, and RPC providers. Reliable Oracle price feeds are expected to be available at launch. \n\n## Initial Asset Listings\n\n### USD₮\n\n### Technical Overview\n\nUSDT is the world’s most widely used stablecoin, issued by Tether on Ethereum. To extend its liquidity across multiple blockchains without modifying the original contract, Tether adopted LayerZero’s Omnichain Fungible Token (OFT) standard. The OFT model introduces USD₮, a cross-chain representation that uses a 1:1 lock-and-mint process: USDT is locked on Ethereum via an adapter, and an equal amount of USD₮ is minted on the target chain, like Plasma.\n\nA typical deployment of USD₮ on a chain relies on the following smart contracts: \n\n- `TetherTokenOFTExtension` which exposes mint and burn functions on the destination chain\n- `OUpgradeable` - LayerZero’s upgradable OFT module that handles cross-chain messaging, verification, and accounting\n- Source-side Adapter, which escrows the USDT on the source chain and initiates a cross-chain transfer\n\nWhen a user bridges tokens, the adapter locks USDT and sends a LayerZero message to Plasma. `OUpgradeable` validates the payload; upon success, it calls `TetherTokenOFTExtension` to mint the exact amount of USD₮.  By locking an equivalent amount of USDT on Ethereum for every USD₮ issued on Plasma, the system ensures that total circulating value remains fully collateralized, allowing native use of that capital within Plasma.\n\n![image (3)|2000x1250](upload://qfeBGbDxpClyw9bu1aHbQrKQQ2C.png)\n\n\n### Price and Volatility\n\nSince Plasma is not live now, we cannot provide the onchain volatility data. However, given the team's significant liquidity commitments, we can expect USD₮ to exhibit price dynamics analogous to USDT on Ethereum. \n\nAs USD₮ is the largest stablecoin by market cap, its price is stable mainly in the 0.9995 — 1.0005 range, exhibiting strong peg performance. \n\n![image (4)|1999x1004](upload://fKKNtKXFiR9NphOe7Ip88jytk9F.jpeg)\n\n\nUSD₮'s 30-day rolling annualized volatility is typically extremely low, rarely exceeding 0.275%.\n\n![image (5)|2000x994](upload://5QFr4PXI5pg1hbAiDx1Gb4MzFYo.png)\n\n\n### LTV, Liquidation Threshold, and Liquidation Bonus\n\nWe recommend aligning USD₮'s risk parameters closely with the Ethereum Core market. Given that USD₮ is expected to have sufficient liquidity across multiple AMM venues, we propose the following parameters: LTV 75%, LT 78%, and Liquidation Bonus 4.5%.\n\n### Supply and Borrow Caps\n\nBased on Plasma’s liquidity commitment and USD₮’s ability to be rapidly bridged across networks with LayerZero, we recommend an initial supply cap of 2.2B and a borrow cap of 2B. These levels reflect the expectation of significant stablecoin liquidity on Plasma at launch, ensuring sufficient market depth to support both lending and borrowing activity.\n\n### IR Curve\n\nWe recommend reflecting USD₮’s deep market liquidity, long operational history, and dominant position among stablecoins on Plasma by setting the Uoptimal at 92%, a 2.5% base rate to support suppliers in the early stages of the market, slope1 at 4%, and slope2 at 20%. We believe its expected liquidity, low volatility profile, and consistently strong peg stability across various chains justify a higher utilization target while the introduction of a base rate ensures early supplier support as borrowing demand picks up, without significantly increasing liquidity risk.\n\n### Oracle/Pricing\n\nWe recommend pricing USD₮0 using the USDT/USD price feed. Additionally, we recommend wrapping the Oracle feed with a Capped Oracle, limiting the price of USDT to 1.04$ to minimize market deviations from USD₮0's underlying value.\n\n### XAUT\n\n### Technical Overview\n\nXAUt, or Tether Gold Token, is a digital asset issued by TG Commodities S.A. de C.V. that represents ownership of one fine troy ounce of physical gold per token. Each XAUt is backed by an identifiable gold bar that meets \"London Good Delivery\" standards set by the LBMA. Users verified through Tether Gold's KYC process can purchase or redeem tokens via the primary market, with redemptions requiring whole gold bar denominations. Additionally, it's important to note that XAUt is compatible with ERC-20 and LayerZero's Omnichain Fungible Token (OFT), enabling native interoperability. Additionally, XAUt has already been analyzed in depth as part of the onboarding on the Ethereum Core instance; for reference, see the [analysis](https://governance.aave.com/t/arfc-add-xaut-to-aave-v3-core-instance/22385/5). \n\n### Price and Volatility\n\nWhile XAUt is not listed on Plasma, we can provide its price dynamics observed on Ethereum. XAUt’s price is tightly correlated with the price of gold. In the past 180 days, XAUt exhibited a decreasing volatility profile, reaching a 30-day rolling volatility of 10%.\n\n![image (6)|1999x992](upload://2ho4iJmFaUmQn5CKVa6uoVQHfO4.jpeg)\n\n\nSince XAUt represents tokenized gold, its on-chain price tracks the mark-to-market value of physical gold. Because global gold markets trade only during set hours, there are periods when off-chain prices remain static while XAUt continues trading, potentially creating short-term pricing discrepancies despite gold’s typically low volatility.\n\n![image (7)|2000x1000](upload://jO795KF4CAXSy3KHrkoe2ipL2lX.jpeg)\n\n\n### **LTV, Liquidation Threshold, and Liquidation Bonus**\n\nAlthough XAUt’s reserve structure ensures a 1:1 physical gold backing, which underpins its fundamental stability, the observed volatility, particularly during off-market hours, warrants a conservative risk parameter configuration. Specifically, we recommend setting the Liquidation Bonus at 7.5%, the LTV ratio at 70%, and the LT at 75%.\n\n### **Supply and Borrow Caps**\n\nWe recommend an initial supply cap of 7,000 XAUt and not enabling it as a borrowable asset at launch.\n\n### Oracle\n\nWe recommend using the XAU oracle to price XAUt. Since gold trades only during set market hours, XAUt’s 24/7 trading can cause weekend price dislocations. As such, the XAU oracle will protect from upside deviations by underpricing the asset during these periods, while downside risks are rare and typically revert when markets reopen.\n\n### Isolation Mode and Debt Ceiling\n\nWe recommend listing XAUt in Isolation mode to prevent it from being used as collateral to borrow volatile assets. Significant price movements in the borrowed asset prices, combined with potential dislocations between XAUt’s secondary market price and XAU during off-market hours, could significantly elevate the risk of bad debt. We recommend an initial Debt Ceiling of 18,000,000 USD in order to support the complete utilization of the initial supply cap and we recommend initially including USDT as the only stable asset within the isolation mode.\n\n### USDe\n\n### Technical Overview\n\nUSDe is Ethena's synthetic USD stablecoin. For every mint, the protocol opens an equal-sized short perpetual position on major exchanges while holding spot collateral in off-exchange custodians like Copper ClearLoop. Additionally, a significant portion of the reserves is allocated to highly liquid assets and stablecoins, which currently account for over 55% of the reserves. This delta-neutral strategy and use of custodians reduce counterparty risk and ensure USDe maintains its 1:1 backing. Any excess funding income accrues to staked USDe (sUSDe).\n\nWe assume that USDe's deployment will follow the same pattern as its implementations on other EVM-compatible chains, such as Base, Arbitrum, and others. Therefore, USDe will be native to Plasma, reducing smart contract risk compared to the more complex and risky scenario of using secondary bridges. \n\n### Volatility\n\nTo estimate USDe’s onchain price performance, we can look at the USDe/USDC Uniswap pool on Ethereum. As can be observed, USDe’s DEX prices seldom exhibit minor deviations from the peg, predominantly limited by 20 bps; nevertheless, the price is primarily in the 0.999-1.002 range, typical for established stablecoins.\n\n![image (8)|2000x992](upload://6mQGSuJuQVkJt2Kq3fq67dBePtH.jpeg)\n\n\nUSDe exhibits a low volatility profile, with a 30-day volatility typically limited at under 0.6%. Occasional volatility spikes up to 0.8% are usually caused by the broader market dynamics.\n\n![image (9)|2000x993](upload://A9NjBwnr4kBZw4fR0BTDtUiBnyC.jpeg)\n\n\n### LTV, Liquidation Threshold, and Liquidation Bonus\n\nWe recommend aligning USDe’s risk parameters closely with those used in the Core market. Hence, we recommend: LTV 72%, LT 75%, and LB 8.5%. Additionally, in the following sections, we introduce specialized E-Modes, which enable higher capital efficiency for USDe in particular strategies. \n\n### IR\n\nWe recommend setting USDe’s interest rate parameters to balance its strong peg stability with prudent risk management for Plasma’s early liquidity conditions. Specifically, we propose a Uoptimal of 85%, a 2.5% base rate to support suppliers in the early stages of the market, a slope1 at 5.0% and slope2 at 50%, alongside a Reserve Factor of 25%. This configuration reflects USDe’s lower expected liquidity depth relative to dominant stablecoins like USD₮, while still allowing for competitive borrowing costs under moderate utilization. The steeper slope2 ensures that interest rates respond aggressively when utilization exceeds the optimal point, mitigating liquidity risk during periods of heightened demand.\n\n### **Supply and Borrow Caps**\n\nWe recommend an initial supply cap of 500M USDe. The borrow cap should be set at 50M USDe, ensuring adequate on-chain liquidity for liquidations while Chaos Labs will consider expanding as demand grows.\n\n### Oracle\n\nWe recommend pricing USDe based on the USDT/USD oracle, consistent with the approach already used in the Ethereum Core market. This setup anchors USDe’s and reflects its substantial exposure to USDT as the dominant backing asset, rather than relying directly on USDe’s secondary market price. To minimize deviations, the oracle should be wrapped with a stable cap mechanism (e.g., $1.04 upper bound), ensuring protection against short-term dislocations while preserving consistency across the deployments.\n\n### sUSDe\n\n### Technical Overview\n\nsUSDe is the staked version of Ethena’s synthetic stablecoin, USDe. When USDe is deposited into Ethena for staking, it is converted to sUSDe, representing a claim on the underlying USDe plus accrued yield, which is generated from Ethena’s delta-neutral strategy and is reflected in an increasing redemption rate of sUSDe/USDe. Redemption of sUSDe is subject to a 7-day withdrawal period and can only be facilitated directly on Ethereum. \n\nSince sUSDe will be deployed natively on Plasma using LayerZero’s OFT standard, akin to other deployments (e.g., Base), integration risk remains limited, and smart contract risk is limited to Ethena’s audited contracts.\n\n### Volatility\n\nAs a yield-bearing derivative of USDe, sUSDe’s price is expected to track USDe closely, with a steadily growing premium reflecting accumulated yield. \n\n![image (10)|2000x990](upload://o7oWuHkS1lWGKQKmtLMW8JohTuy.jpeg)\n\n\nBased on Ethereum DEX data, sUSDe has exhibited negligible daily volatility relative to USDe, with higher volatility periods coinciding with increased underlying yield and corresponding price increase of the token. \n\n![image (11)|2000x994](upload://treCMkWnKPFG4eTi3RTZGg94l4d.png)\n\n\n### Supply and Borrow Caps\n\nGiven the absence of day-one liquidity data for sUSDe on Plasma and considering that it is a yield-bearing asset likely to be used primarily as collateral rather than for borrowing, we recommend an initial supply cap of 450M sUSDe. Consistent with the Core market, sUSDe should initially be enabled as collateral-only, as no significant borrowing use case is currently evident. These parameters can be revisited once liquidity depth and on-chain usage have matured.\n\n### LTV, Liquidation Threshold, and Liquidation Bonus\n\nConsidering the uncertainty regarding liquidity depth in the initial period after Plasma’s launch, we recommend limiting the utility of sUSDe as collateral outside of the designated E-Modes. Specifically, we recommend setting the following risk parameters: LTV 0.05%, LT 0.1%, and Liquidation Bonus 8.5%, effectively constraining the usage of sUSDe to the sUSDe Stablecoin E-Mode.\n\n### Oracle\n\nWe recommend pricing sUSDe using the sUSDe/USDe exchange rate together with the USDT/USD oracle, consistent with the pricing approach for USDe. This ensures the value reflects accrued yield while remaining anchored to a liquid stablecoin reference. A dynamic capped oracle (CAPO) should be applied to prevent excessive deviations from fundamental value.\n\n### CAPO\n\nsUSDe’s yield is somewhat volatile; taking this into account, we recommend setting a Snapshot Delay of 14 days and setting the maxYearlyGrowthRatio to 15.19%.\n\n![image (12)|1792x1068](upload://yCpRQO1HZJMT7EtcR7iOsR9WTXC.jpeg)\n\n\n### WETH\n\n### Technical Overview\n\nAs of the time of writing, Plasma is not operational and, consequently, no bridging portals are active. However, it has been announced that a significant part of the assets will be bridged using LayerZero’s OFT standard, like the already mentioned XAUt and USD₮. Additionally, one of the OFT tokens will be WETH. Given the unified infrastructure for OFTs, no additional risk is assumed.\n\n### Volatility\n\nWhile there is no onchain data for WETH on Plasma at the moment, we can use Ethereum DEX trades data for this asset to approximate its price dynamics. \n\n![image (13)|2000x999](upload://phjbzt3FEtcqu44iRkafocp7a2I.jpeg)\n\n\nWETH has exhibited heightened volatility, peaking at 75% in June and converging to approximately 57.5% recently. \n\n![image (14)|2000x988](upload://cwt1BqfB2gUtvWWQWwpsZ044RqM.jpeg)\n\n\n\n### **LTV, Liquidation Threshold, and Liquidation Bonus**\n\nWETH is one of the most widely adopted and liquid assets in crypto, making it a reliable collateral option. Hence, higher risk parameters could be justified. Specifically, we propose to align the market with Core by setting the LTV ratio at 80.5%, the LT at 83%, and the Liquidation Bonus at 5.5% to account for potential liquidity constraints on Plasma.\n\n### Supply and Borrow Caps\n\nWe recommend setting the supply cap at 80,000 WETH, while constraining the borrow cap at 10,000 WETH.\n\n### IR Curve\n\nWe recommend setting WETH's Uoptimal at 92%, with a slope1 of 2.7% and a slope2 of 20%. Given WETH's established presence in DeFi and widespread integration across protocols, the reserve can safely handle higher utilization levels without creating significant liquidity risk.\n\n### Oracle/Pricing\n\nWe recommend pricing WETH using the ETH/USD price feed.\n\n### weETH\n\n### Technical Overview\n\nweETH is a wrapped, non-rebasing version of [Ether.fi](http://Ether.fi)'s LST, eETH, which represents ETH staked with [Ether.fi](http://Ether.fi). Wrapping eETH into weETH fixes the token balance, while accrued yield is reflected in an increasing redemption rate back to eETH. Additionally, the deployment of weETH on Plasma is going to be facilitated using LayerZero’s bridging infrastructure, given that this is the case for most of the assets, no additional risk is assumed. \n\n### Volatility and Dislocations\n\nweETH's price correlates closely with ETH, maintaining a small, steadily growing premium from accumulated staking rewards. However, weETH's secondary market price may diverge from its redemption rate during market stress, such as extended withdrawal queues, as can be observed at the moment. These dislocations are modest, typically reaching maximum values of 0.6% and averaging less than 0.3% in magnitude. \n\n![image (15)|2000x998](upload://l7bytpDlS4SDSPayh4wNeQTYr5n.jpeg)\n\n\n### LTV, Liquidation Threshold, and Liquidation Bonus\n\nIn order to limit the protocol’s exposure to liquidity and volatility risks we recommend to conservative risk parameters for weETH. Specifically, we propose setting the LTV at 0.05%, the LT at 0.1%, and the Liquidation Bonus at 7% effectively minimizing the utility of weETH as collateral outside of the dedicated weETH/WETH E-Mode.\n\n### Supply and Borrow Caps\n\nWhile Ether.fi’s staking base suggests significant liquidity potential, we recommend an initial supply cap of 10,000 weETH to limit risk until Plasma’s liquidity profile is established. Borrowing will be disabled at launch, as there are no clear use cases for borrowing weETH.\n\n### Oracle\n\nWe recommend pricing weETH via the ETH/USD price feed adjusted for the current weETH/eETH redemption rate, which ensures an accurate valuation of the accrued staking yield.\n\n### XPL\n\n### Overview\n\nXPL is Plasma's utility token, primarily used for transaction fees and staking. Unlike bridged assets, XPL is issued natively by Plasma and underpins the network's security and economic alignment. While Plasma offers gas abstraction through Paymasters and whitelisted ERC-20 tokens (e.g., USD₮), XPL remains the fundamental gas and validator incentive token.\n\n### LTV, Liquidation Threshold, and Liquidation Bonus\n\nWe expect XPL to exhibit increased volatility at launch; hence, we recommend conservative risk parameters to mitigate the potential impact on the protocol. Specifically, we propose setting the LTV at 0%, the Liquidation Threshold at 0.1%, and the Liquidation Bonus at 8%. This ensures XPL cannot be used to collateralize debt, fully containing risk during the initial rollout. Once a reliable price feed is available and liquidity stabilizes, we recommend revisiting these parameters in a subsequent AIP, introducing risk parameters aligned with observed liquidity and market dynamics.\n\n### Supply and Borrow Caps\n\nWe recommend setting the Supply Cap at 50M XPL and making the token unborrowable. This allows deposits to be supported without introducing pricing risk. As the asset matures, both caps and borrowability should be reassessed and scaled in line with market liquidity and demand. \n\n### Oracle\n\nAt launch, no spot market exists for XPL, so we recommend anchoring its price to the presale at 0.05$. This **temporary** pricing measure will **not** affect the market since XPL will be neither borrowable nor effectively usable as collateral during this period. After the initial price discovery and the introduction of liquid trading venues, we recommend switching to a market-price oracle anchored to deep spot pairs on major CEXs.\n\n## E-Mode Configurations\n\n### USDe Stablecoin E-Mode\n\nTo strengthen capital efficiency on Plasma, a dedicated USDe E-Mode should be introduced. This configuration would enable users to post USDe as collateral while borrowing USD₮ in a more capital-efficient manner than under the standard risk parameters of USDe. Given the recommendation to price USDe using USDT/USD price feeds, this E-Mode ensures that borrowing and collateral values remain tightly anchored, facilitating highly efficient stablecoin leverage while reducing exposure to volatility.\n\nBy anchoring borrowing against USD₮ while using USDe as collateral, the model preserves stability and low liquidation risk while enabling leveraged strategies that cycle USDe through borrowing and reinvestment to support user demand and liquidity growth.\n\n### sUSDe Stablecoin E-Mode\n\nWe propose creating a sUSDe stablecoin E-Mode category that aligns with the Ethereum Core market configuration to enhance capital efficiency and enable Liquid Leverage strategies on Plasma. This category would let users utilize USDe and sUSDe as collateral, with USD₮ serving as the debt asset.\n\n### Motivation\n\nEthena's Liquid Leverage model on Aave solves the typical 7-day unstaking lock for sUSDe by pairing it with liquid USDe - providing immediate capital access while sUSDe continues accruing yield. \n\n![image (16)|1998x692](upload://k3ymTms4CnovmvU5N3NvzJJDdJb.png)\n\n\nThe incentive program has been highly effective, driving over **$1.1 billion** of sUSDe inflows within days of launch on Ethereum Core, boosting stablecoin borrowing—particularly USDT—and leading Aave to raise deposit limits. Incorporating USDe and sUSDe within sUSDe E-Mode would allow users to employ similar yield-enhancing strategies while maintaining strong risk parameters (90% LTV, 92% LT, 4% liquidation bonus). As these Ethena-related E-Modes mirror Ethereum Core’s configurations, see our [risk analysis](https://governance.aave.com/t/aave-s-growing-exposure-to-ethena-risk-implications-throughout-the-growth-and-contraction-cycles-of-usde/22791) for in-depth research on the topic. \n\n### **weETH WETH** E-Mode\n\nWe recommend introducing a weETH WETH E-Mode, which traditionally enables users to borrow against staked or restaked ETH derivatives (e.g., weETH) at higher LT/LTV when collateral and debt assets are closely correlated in price. This substantially reduces liquidation risk from market volatility, as the debt and collateral prices are highly correlated.\n\n![image (17)|2000x1202](upload://ubNdoNMSPMCUDu8GVb6ce13jpja.png)\n\n\n### Motivation\n\nOn Ethereum, Arbitrum, and Base, ETH-Correlated E-Modes are facilitating a significant share of total borrowing, providing high capital efficiency for strategies such as looping LSTs/LRTs for leveraged staking/restaking yield or accessing liquidity without fully exiting a staked position. These use cases attract retail and institutional participants, driving deposit growth and borrowing demand; hence, introducing the ETH Correlated E-Mode is expected to boost demand on the newly deployed Plasma instance. \n\n### **weETH Stablecoin** E-Mode\n\nWe also recommend creating a weETH/Stablecoin E-Mode. On Ethereum core, beyond its primary use case of looping, the main demand for weETH as collateral is borrowing USDT and USDC. Therefore, we believe this setup will enhance the capital efficiency of stablecoin borrowing and is expected to boost demand on the new instance.\n\n# Specification\n\n| **Parameter** | Value | Value | Value | **Value** | Value | Value | Value |\n| --- | --- | --- | --- | --- | --- | --- | --- |\n| Asset | USD₮ | USDe | sUSDe | XAUt | WETH | weETH  | XPL |\n| Isolation Mode | No | No | No | Yes | No | No | No |\n| Borrowable | Yes | Yes | No | No | Yes | No  | No  |\n| Collateral Enabled | Yes | Yes | Yes | Yes | Yes | Yes | Yes |\n| Supply Cap | 2,200,000,000 | 500,000,000 | 450,000,000 | 7,000 | 80,000 | 10,000 | 50,000,000 |\n| Borrow Cap | 2,000,000,000 | 50,000,000 | - | - | 10,000 | -  | -  |\n| Debt Ceiling | - | - | - | 18,000,000  | - | - | - |\n| LTV | 75% | 72% | 0.05% | 70% | 80.5% | 0.05% | 0.00% |\n| LT | 78% | 75% | 0.1% | 75% | 83% | 0.1% | 0.1% |\n| Liquidation Bonus | 4.50% | 8.50% | 8.50% | 7.50% | 5.5% | 7% | 8% |\n| Liquidation Protocol Fee | 10% | 10% | 10% | 10% | 10% | 10% | 10% |\n| Variable Base | 2.5% | 2.5% | - | - | 0% | - | - |\n| Variable Slope1 | 4.0% | 5.0% | - | - | 2.7% | - | - |\n| Variable Slope2 | 20% | 50% | - | - | 20% | - | - |\n| Uoptimal | 92% | 85% | - | - | 92% | - | - |\n| Reserve Factor | 10% | 25% | - | - | 15% | - | - |\n\n**USDe Stablecoin E-Mode**\n\n| **Parameter** | **Value** | **Value** |\n| --- | --- | --- |\n| Asset | USDe | USD₮ |\n| Collateral | Yes | No |\n| Borrowable | No | Yes |\n| Max LTV | 90% | - |\n| Liquidation Threshold | 93% | - |\n| Liquidation Bonus | 2.0% | - |\n\n**sUSDe Stablecoin E-Mode**\n\n| **Parameter** | **Value** | **Value** | **Value** |\n| --- | --- | --- | --- |\n| Asset | USDe | sUSDe | USD₮ |\n| Collateral | Yes | Yes | No |\n| Borrowable | No | No | Yes |\n| Max LTV | 90% | 90% | - |\n| Liquidation Threshold | 92% | 92% | - |\n| Liquidation Bonus | 4.0% | 4.0% | - |\n\n**weETH WETH E-Mode**\n\n| **Parameter** | **Value** | **Value** |\n| --- | --- | --- |\n| Asset | weETH | WETH |\n| Collateral | Yes | No |\n| Borrowable | No | Yes |\n| Max LTV | 93% | - |\n| Liquidation Threshold | 95% | - |\n| Liquidation Bonus | 1.00% | - |\n\n**weETH Stablecoin E-Mode**\n\n| **Parameter** | **Value** | **Value** |\n| --- | --- | --- |\n| Asset | weETH | USD₮ |\n| Collateral | Yes | No |\n| Borrowable | No | Yes |\n| Max LTV | 75% | - |\n| Liquidation Threshold | 78% | - |\n| Liquidation Bonus | 7.50% | - |\n\n\n**CAPO Parameters sUSDe**\n\n| **Token** | **Snapshot Delay** | **maxYearlyGrowthRatio** |\n| --- | --- | --- |\n| sUSDe | 14 days | 15.19% |\n\n# **Disclaimer**\n\nChaos Labs has not been compensated by any third party for publishing this recommendation. Our provision of risk-related data services to the Plasma Protocol bears no influence on the content or conclusions of this analysis.\n\n# **Copyright**\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain)",
+      "url": null
+    },
+    {
+      "author": "bgdlabs",
+      "created": "2025-09-05T07:26:23.757Z",
+      "body": "Same as with any other candidate network, we will publish a full network analysis for the suitability of Aave on Plasma.\nBut given that different sections of the analysis depend on different service dependencies, and the internal Plasma infrastructure being totally final, we can't publish the analysis yet.\n\nHowever, we have been in close contact with the Plasma team to give us all the information we require for the analysis, and **we can preliminarily confirm that there should not be any infrastructural blocker for Aave on Plasma**.\n\nTherefore, with the risk analysis ready and our network pre-confirmation, we recommend proceeding immediately with the ARFC Snapshot.\n\nWe will still publish our analysis before AIP stage, and obviously, if we would find any big blocker (not expected at the moment), we would inform the community about it.",
+      "url": null
+    },
+    {
+      "author": "ACI",
+      "created": "2025-09-05T09:38:21.240Z",
+      "body": "Thank you @LlamaRisk @ChaosLabs and @bgdlabs .\n\nThe current proposal has been escalated to [ARFC Snapshot](https://snapshot.box/#/s:aavedao.eth/proposal/0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd).\n\nVote will start tomorrow, we encourage everyone to participate.",
+      "url": null
+    },
+    {
+      "author": "ACI",
+      "created": "2025-09-10T07:24:43.908Z",
+      "body": "After Snapshot monitoring, the current [ARFC Snapshot](https://snapshot.box/#/s:aavedao.eth/proposal/0x4a9b7b0e64d20a9a7903ef82d20c7d3bc8e1612907187c55b41af66d5e0ec162) recently ended, reaching out both Quorum and YAE as winning option, with 888.3K votes.\n\nTherefore, [[ARFC] Deploy Aave v3 on Plasma ](https://governance.aave.com/t/arfc-deploy-aave-v3-on-plasma/21494) has PASSED.\n\nNext step will be the publication of an AIP for final confirmation and endorsement of the proposal.",
+      "url": null
+    },
+    {
+      "author": "bgdlabs",
+      "created": "2025-09-17T16:05:42.976Z",
+      "body": "**Important update**\n\n<br>\n\nWith the AIP for the activation of Aave on Plasma imminently ready for creation, we would like to share with the community an ad-hoc approach for performing this activation.\n\nGiven the high size of pre-approved caps for assets initially listed, we think it is highly recommended, security-wise, to have a two-step process during activation:\n\n1. The activation proposal itself will list all the expected assets, but with very limited interim caps (see Table).\n2. Additionally, the activation proposal will authorise the Aave Protocol Guardian to, after the pool is active with limited caps and all systems and dependencies (assets themselves, oracles, bridges) triple checked by the technical SP (ourselves); increase the caps to the pre-approved levels.\nThis realistically can happen hours after the AIP activation itself, unless any type of problem is detected.\n\n| Asset | Interim supply cap | Final supply cap | Interim borrow cap | Final borrow cap |\n| --- | --- | --- | --- | --- |\n| USDT0 | 100’000 | 2’200’000’000 | 50’000 | 2’000’000’000  |\n| USDe | 100’000 | 500’000’000 | 50’000 | 50’000’000 |\n| sUSDe | 100’000 | 450’000’000 | 1 | 1 |\n| XAUt0 | 30 | 7’000 | 1 | 1 |\n| weETH | 20 | 10’000 | 1 | 1 |\n| WETH | 20 | 80’000 | 10 | 10’000 |\n\n<br>\n\nThis approach allows the DAO to stay conservative from a security perspective, without meaningfully impacting the activation timing.",
+      "url": null
+    },
+    {
+      "author": "bgdlabs",
+      "created": "2025-09-18T11:55:34.999Z",
+      "body": "We have submitted the proposal for the Aave governance to approve/not the activation of Aave on Plasma.\n\nVoting will start in approximately 24 hours, participate :ghost:\n[https://vote.onaave.com/proposal/?proposalId=379](https://vote.onaave.com/proposal/?proposalId=379)",
+      "url": null
+    }
+  ],
+  "forum_summary": {
+    "total_comments": 12,
+    "recent_previews": [
+      {
+        "author": "ACI",
+        "created": "2025-03-18T08:33:43.181Z",
+        "preview": "# [ARFC] Deploy Aave v3 on Plasma\n\n## Author: ACI\n\n## Date: 2025-03-15\n\n-\n> Proposal has been update"
+      },
+      {
+        "author": "LlamaRisk",
+        "created": "2025-03-25T14:21:55.624Z",
+        "preview": "LlamaRisk is in close contact with Plasma's team to clarify details on the network before issuing a "
+      },
+      {
+        "author": "ChaosLabs",
+        "created": "2025-03-28T09:20:46.475Z",
+        "preview": "### Recommendation\n\nAfter reviewing the current state of the Plasma network, we note that it remains"
+      },
+      {
+        "author": "system",
+        "created": "2025-04-27T09:21:21.896Z",
+        "preview": "This topic was automatically closed 30 days after the last reply. New replies are no longer allowed."
+      },
+      {
+        "author": "ACI",
+        "created": "2025-07-25T11:43:09.533Z",
+        "preview": ""
+      }
+    ],
+    "sentiment_counts": {
+      "Positive": 1,
+      "Negative": 6,
+      "Neutral": 5
+    }
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x1938a36120897ddf5db07e4d363f89f80d26a1c9a4fcf8aa974c7daef4c88310",
+      "title": "[ARFC] Automation of the Slope2 Parameter via Risk Oracles",
+      "author": "0xF1dF824419879Bb8a7E758173523F88EfB7Af193",
+      "end_utc": "2025-08-29T07:31:47Z",
+      "timeline_metrics": {
+        "unique_voters": 122,
+        "total_votes": 122,
+        "first_vote_at": "2025-08-26T07:42:46Z",
+        "last_vote_at": "2025-08-29T06:02:21Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            136969.2662189785,
+            0.03937986209741342,
+            0.0
+          ],
+          [
+            103481.5417324801,
+            0.0,
+            0.0
+          ],
+          [
+            287935.1167433429,
+            0.0,
+            0.0
+          ],
+          [
+            333010.2838962994,
+            3.087050706248784,
+            0.0
+          ]
+        ],
+        "spike_index": 0.386582,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.002047,
+        "half_slope_diff": -0.664709
+      },
+      "price_impact_pct": -5.2327,
+      "tvl_impact_pct": null,
+      "similarity": 0.0633
+    },
+    {
+      "id": "0x1c12498028d114d73fd1614a7f5c8ba7e922ff129b5807d35d83f436bf8b4bcd",
+      "title": "[ARFC] Onboard tBTC to Aave v3 on Base",
+      "author": "0xF1dF824419879Bb8a7E758173523F88EfB7Af193",
+      "end_utc": "2025-08-23T09:57:04Z",
+      "timeline_metrics": {
+        "unique_voters": 98,
+        "total_votes": 98,
+        "first_vote_at": "2025-08-20T11:17:46Z",
+        "last_vote_at": "2025-08-23T08:47:30Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            66784.87231949075,
+            0.0141,
+            0.0437
+          ],
+          [
+            771521.3350328418,
+            0.0,
+            156.3496308437962
+          ],
+          [
+            21827.146074798624,
+            0.0,
+            0.0
+          ],
+          [
+            30621.510134963373,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.37384,
+        "spike_follow_support_ratio": 0.999644,
+        "stairwise_ratio": 0.019376,
+        "half_slope_diff": 19.469061
+      },
+      "price_impact_pct": 9.4308,
+      "tvl_impact_pct": null,
+      "similarity": 0.2576
+    },
+    {
+      "id": "0x71290ec88466d70c071d0dcb93c230c298f69e8c7688af94cedcc1236bf14876",
+      "title": "[ARFC] Add XAUt to Aave v3 Core Instance",
+      "author": "0xF1dF824419879Bb8a7E758173523F88EfB7Af193",
+      "end_utc": "2025-08-23T09:43:18Z",
+      "timeline_metrics": {
+        "unique_voters": 99,
+        "total_votes": 99,
+        "first_vote_at": "2025-08-20T11:17:29Z",
+        "last_vote_at": "2025-08-23T08:47:42Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            66785.05378354878,
+            0.0,
+            0.0
+          ],
+          [
+            771521.6323395484,
+            0.09748247806717593,
+            156.3496308437962
+          ],
+          [
+            21826.401784809026,
+            0.0,
+            0.0
+          ],
+          [
+            30555.656875855453,
+            0.0,
+            87.01116187
+          ]
+        ],
+        "spike_index": 0.373868,
+        "spike_follow_support_ratio": 0.999644,
+        "stairwise_ratio": 0.019303,
+        "half_slope_diff": 52.817985
+      },
+      "price_impact_pct": 9.4308,
+      "tvl_impact_pct": null,
+      "similarity": 0.2649
+    }
+  ],
+  "semantic_references": [],
+  "tool_plan": {
+    "objective": "Collect votes/timeline, market/TVL impacts, forum context, adjacent proposals; then decide.",
+    "calls": [
+      {
+        "tool": "SnapshotAPI.get_votes_all",
+        "args": {
+          "proposal_id": "0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd"
+        },
+        "why": "Full vote history for timeline features"
+      },
+      {
+        "tool": "timeline.analyze_timeline",
+        "args": {
+          "start": 1757151443,
+          "end": 1757410643,
+          "choices": [
+            "YAE",
+            "NAY",
+            "Abstain"
+          ],
+          "votes": "(from above)"
+        },
+        "why": "Participation dynamics"
+      },
+      {
+        "tool": "forums.fetch_discussion",
+        "args": {
+          "url": "https://governance.aave.com/t/arfc-deploy-aave-v3-on-plasma/21494/1"
+        },
+        "why": "Discussion sentiment & themes"
+      }
+    ],
+    "notes": "See semantic_references for governance literature grounding"
+  },
+  "decision": {
+    "snapshot_url": "https://snapshot.box/#/s:aavedao.eth/proposal/0xa2b9d0717a82a111acc27e514bed07caa9b8636c12dd68fb61ae4dc57503c3cd",
+    "selected_choice_label": "YAE",
+    "selected_choice_index": 0,
+    "confidence": 0.99,
+    "summary": "The proposal to deploy Aave v3 on Plasma has strong support in the voting timeline with a lead ratio close to 99% for 'YAE'. Adjacent analytics of similar past proposals also show unanimous or near unanimous support. The forum discussion indicates a cautious but positive stance with expert risk assessments pending mainnet launch details, supporting a provisional endorsement. No negative price or TVL impacts were detected.",
+    "key_arguments_for": [
+      "Plasma offers zero fees, fast transactions, and robust security tailored for stablecoins.",
+      "Testnet deployment is live with mainnet launch imminent, showing positive activity metrics.",
+      "Strong community and voter support reflected in the voting timeline metrics.",
+      "Past similar proposals in the ecosystem showed unanimous strong support and positive outcomes.",
+      "Plasma's architecture is designed for scalability and Ethereum compatibility with novel consensus and staking mechanisms.",
+      "The Plasma Foundation commits to supply incentives and collaboration with Aave DAO for liquidity mining."
+    ],
+    "key_arguments_against": [
+      "Plasma network is in early development with no public mainnet or accessible on-chain data yet.",
+      "Insufficient information to fully assess asset listing or parameter recommendations at this stage.",
+      "Audits are completed but unpublished; security and governance details are still pending.",
+      "Potential technical, security, and market risks remain due to incomplete network maturity.",
+      "Experts recommend further monitoring and risk analysis post mainnet launch before final confirmation."
+    ],
+    "evidence": [
+      {
+        "source_tool": "TIMELINE_METRICS",
+        "reference": null,
+        "quote": "lead_ratio_total: [0.9902912621359223, 0.009708737864077669, 0.0], stability: [0.9902912621359223, 0.009708737864077669, 0.0]"
+      },
+      {
+        "source_tool": "ADJACENT_ANALYTICS",
+        "reference": "0x1938a36120897ddf5db07e4d363f89f80d26a1c9a4fcf8aa974c7daef4c88310",
+        "quote": "recommended_index: 0 with unanimous lead ratios and positive price impacts in similar ARFCs"
+      },
+      {
+        "source_tool": "FORUM_CONTEXT",
+        "reference": "https://governance.aave.com/t/arfc-deploy-aave-v3-on-plasma/21494/1",
+        "quote": "LlamaRisk supports provisional deployment pending further mainnet and security analysis; early testing phase shows positive metrics; cautious optimism expressed."
+      }
+    ],
+    "available_choices": [
+      "YAE",
+      "NAY",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-09-06T09:37:23Z",
+    "event_end_utc": "2025-09-09T09:37:23Z",
+    "event_time_utc": "2025-09-09T09:37:23Z",
+    "address_of_governance_token": "0xC0259c59D9f980E3b5e2574cD78C9A9Bc6A8E3fc",
+    "token_price_impact_pct": null,
+    "tvl_impact_pct": null,
+    "actual_vote_result": {
+      "winner_label": "YAE",
+      "winner_index": 0,
+      "scores": [
+        888349.8840217041,
+        0.09615768208900824,
+        0.0
+      ],
+      "scores_total": 888349.9801793862,
+      "margin_abs": 888349.787864022,
+      "margin_pct": 1.0
+    },
+    "simulation_reason": "Strong voter consensus with timeline metrics overwhelmingly favoring 'YAE', supported by similar past proposals and expert provisional recommendations in forum context.",
+    "references": null,
+    "ai_final_conclusion": "Approve the proposal to deploy Aave v3 on Plasma with high confidence based on strong voter support, positive adjacent analytics, and provisional expert endorsements, while acknowledging the need for ongoing monitoring post mainnet launch.",
+    "ai_final_reason": "Voting data shows near unanimous support for 'YAE', timeline stability and lead ratios confirm confidence, and expert commentary encourages deployment with caution pending further risk evaluation."
+  },
+  "agentic_ai_choice": "YAE",
+  "actual_outcome": "YAE",
+  "match_result": "same"
+}

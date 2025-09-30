@@ -84,9 +84,6 @@ class DecisionAgentOutput:
     raw_result: Any
     pretty_print: Optional[str]
 
-
-
-
 def _build_decision_prompt(ctx: DecisionAgentContext) -> List[str]:
     prompt = [
         f"Snapshot proposal under review: {ctx.snapshot_url}",
@@ -109,6 +106,25 @@ def _build_decision_prompt(ctx: DecisionAgentContext) -> List[str]:
             "Also set `ai_final_conclusion` (one sentence: chosen option and stance) and "
             "`ai_final_reason` (2–4 bullet points integrating votes/timeline/market/TVL/adjacent)."
         ),
+                       (
+            "HISTORICAL_LESSONS: retrieve similar past proposals, give 1–2 sentence summaries "
+            "of what each attempted to change, and note whether post-vote token price or TVL "
+            "declined (if so, treat that outcome as unsuccessful and learn from it)."
+        ),
+                (
+            "SENTIMENT_ALIGNMENT: inspect forum discussion comments posted before proposal end only, and Judge whether aggregated forum sentiment supports or opposes the "
+            "likely vote outcome, state whether the recommendation mirrors forum opinion, and "
+            "explicitly reference that alignment when finalizing both `ai_final_conclusion` and "
+            "`ai_final_reason`."
+            "report total comments and counts of positive/negative/neutral sentiments, and "
+            "summarize the first two comments briefly."
+        ),               
+
+        "DECISION_STANCE: conclude whether the proposal aims 'To change' or keep 'Not change, Status quo'.",
+        (
+            "INCORPORATE: weave lessons from similar proposals and forum sentiment counts into "
+            "ai_final_reason alongside market and timeline analytics."
+        ),
         "Objective: Choose exactly one option from the proposal's `choices`.",
         "Fill every field of ProposalDecision. Do NOT use ex-post tally.",
         "ONCHAIN GOAL (optional if needed): total holders & top-100 concentration.",
@@ -118,7 +134,6 @@ def _build_decision_prompt(ctx: DecisionAgentContext) -> List[str]:
     if ctx.focus:
         prompt.append(f"Extra emphasis: {ctx.focus}")
     return prompt
-
 
 def run_decision_agent(
     *,
@@ -138,14 +153,39 @@ def run_decision_agent(
         description="Governance vote recommendation for a Snapshot proposal (ex-post blind).",
         instructions=(
             "Return a ProposalDecision object. Use the provided CONTEXT (timeline metrics, adjacent analytics). "
-            "Use available MCP tools to gather forum discussion and sentiment analysis if needed. "
+            "Use available MCP tools to gather forum discussion, classify each pre-deadline comment as for/against/unclear with supporting rationale, "
+            "and run sentiment analysis to report total comments plus positive/negative/neutral counts (summarize the first two comments). "
+            "Find similar historical proposals, summarize their intended changes in 1–2 sentences each, record post-vote token price/TVL reactions, and "
+            "treat declines as unsuccessful lessons to inform the current decision. "
             "Choose exactly one option from `choices` and set both label and index. "
             "Include the full `choices` in available_choices. "
             "Set event_start_utc and event_end_utc (copy end into event_time_utc). "
-            "Set address_of_governance_token to the authoritative token address."
+            "Set address_of_governance_token to the authoritative token address. "
+            "State explicitly whether the proposal outcome recommends 'To change' or 'Not change, Status quo' and weave historical and sentiment insights into ai_final_reason."
+            "Weigh forum sentiment against the recommended option, noting if sentiment suggests the "
+            "vote does or does not reflect community views, and explicitly state in `ai_final_reason` "
+            "whether the recommendation mirrors aggregated sentiment."
         ),
         llm=llm_provider,
     )
+
+    raw_result = asyncio.run(decision_agent << [decision_prompt])
+
+    pretty = None
+    pretty_method = getattr(raw_result, "pretty_print", None)
+    if callable(pretty_method):
+        try:
+            pretty = pretty_method()
+        except Exception:
+            pretty = None
+
+    states = getattr(raw_result, "states", [])
+    if not states:
+        raise RuntimeError("Agent produced no decision state; cannot proceed.")
+
+    decision: ProposalDecision = states[0]
+
+    return DecisionAgentOutput(decision=decision, raw_result=raw_result, pretty_print=pretty)
 
     raw_result = asyncio.run(decision_agent << [decision_prompt])
 

@@ -152,8 +152,10 @@ if __name__ == "__main__":
     try:
         print("[SentimentMCP] starting (stdio)...", flush=True)
         mcp.run_stdio()
+        mcp.run(transport="stdio")
     except Exception as e:
         print("[SentimentMCP] run_stdio failed:", repr(e), file=sys.stderr, flush=True)
+        print("[SentimentMCP] run(transport=\"stdio\") failed:", repr(e), file=sys.stderr, flush=True)
         traceback.print_exc()
         try:
             print("[SentimentMCP] falling back to run()...", flush=True)

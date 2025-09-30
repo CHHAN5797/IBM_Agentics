@@ -1,3 +1,4 @@
+
 from __future__ import annotations
 """
 Semantics-Only MCP (FastMCP, stdio)
@@ -29,6 +30,82 @@ BASE_SLEEP = float(os.getenv("SEMANTICS_BASE_SLEEP", "1"))
 session = requests.Session()
 session.headers.update({"User-Agent": UA})
 
+# === NEW: rate limit, retries, cache =========================================
+import threading
+import random
+
+SEMANTICS_MAX_RPM = int(os.getenv("SEMANTICS_MAX_RPM", "30"))  
+SEMANTICS_MAX_RETRIES = int(os.getenv("SEMANTICS_MAX_RETRIES", "4"))
+SEMANTICS_MAX_BACKOFF = float(os.getenv("SEMANTICS_MAX_BACKOFF", "16"))
+
+_min_interval = 60.0 / max(1, SEMANTICS_MAX_RPM)
+_last_call_ts = 0.0
+_lock = threading.Lock()
+
+
+_cache: Dict[str, Any] = {}
+
+def _cache_key(url: str, params: Optional[Dict[str, Any]]) -> str:
+    items = tuple(sorted((params or {}).items()))
+    return f"{url}|{items}"
+
+def _rate_limit_sleep():
+    global _last_call_ts
+    with _lock:
+        now = time.time()
+        wait = _min_interval - (now - _last_call_ts)
+        if wait > 0:
+            time.sleep(wait)
+            _last_call_ts = time.time()
+        else:
+            _last_call_ts = now
+
+def _request_with_retries(method: str, url: str, *, params=None, timeout=None, headers=None):
+    key = _cache_key(url, params)
+    if method.upper() == "GET" and key in _cache:
+        return _cache[key]
+
+    attempt = 0
+    backoff = BASE_SLEEP if BASE_SLEEP > 0 else 0.5
+
+    while True:
+        _rate_limit_sleep()
+        try:
+            resp = session.request(method=method, url=url, params=params, timeout=timeout, headers=headers or _headers())
+        except requests.RequestException:
+            attempt += 1
+            if attempt > SEMANTICS_MAX_RETRIES:
+                raise
+            time.sleep(min(SEMANTICS_MAX_BACKOFF, backoff + random.uniform(0, backoff)))
+            backoff *= 2
+            continue
+
+        if 200 <= resp.status_code < 300:
+            if method.upper() == "GET":
+                _cache[key] = resp
+            return resp
+
+
+        if resp.status_code in (429, 500, 502, 503, 504):
+            attempt += 1
+            if attempt > SEMANTICS_MAX_RETRIES:
+                return resp  
+
+            ra = resp.headers.get("Retry-After")
+            if ra:
+                try:
+                    sleep_s = float(ra)
+                except Exception:
+                    sleep_s = min(SEMANTICS_MAX_BACKOFF, backoff)
+            else:
+                sleep_s = min(SEMANTICS_MAX_BACKOFF, backoff + random.uniform(0, backoff))
+            time.sleep(sleep_s)
+            backoff = min(SEMANTICS_MAX_BACKOFF, backoff * 2)
+            continue
+
+        return resp
+
+
 
 def _sleep():
     time.sleep(BASE_SLEEP)
@@ -48,41 +125,51 @@ def _headers() -> Dict[str, str]:
 def s2_search(query: str, k: int = 8) -> List[Dict[str, Any]]:
     """
     Search Semantic Scholar for papers (title/year/authors/url/abstract/externalIds).
-    Returns a list of dicts; may contain None fields if S2 lacks metadata.
+    Returns a list; may contain None fields.
+    - 안전: rate limit, retries, 캐시, 429/5xx 대응
     """
-    _sleep()
     url = f"{S2_BASE}/paper/search"
     params = {
         "query": query,
-        "limit": k,
+        "limit": max(1, min(k, 20)),
         "fields": "title,year,authors,url,abstract,externalIds,publicationTypes,venue"
     }
-    r = session.get(url, headers=_headers(), params=params, timeout=TIMEOUT)
-    if r.status_code != 200:
+    resp = _request_with_retries("GET", url, params=params, timeout=TIMEOUT, headers=_headers())
+
+    if resp.status_code != 200:
+        try:
+            _ = resp.text  # noqa
+        except Exception:
+            pass
         return []
-    data = r.json().get("data", []) or []
+
+    data = resp.json().get("data", []) or []
     return data
-
-
 def s2_get(paper_id_or_doi: str) -> Dict[str, Any]:
     """
     Fetch one paper by S2 paperId or DOI:... handle missing meta gracefully.
+    - 안전: rate limit, retries, 캐시, 404 graceful
     """
-    _sleep()
     pid = paper_id_or_doi
     url = f"{S2_BASE}/paper/{requests.utils.quote(pid)}"
     params = {
         "fields": "title,year,authors,url,abstract,externalIds,publicationTypes,venue"
     }
-    r = session.get(url, headers=_headers(), params=params, timeout=TIMEOUT)
-    if r.status_code == 404:
-        # Graceful fallback with empty metadata (caller can still proceed)
+    resp = _request_with_retries("GET", url, params=params, timeout=TIMEOUT, headers=_headers())
+
+    if resp.status_code == 404:
         return {
             "paperId": None, "title": None, "abstract": None, "year": None,
             "authors": [], "url": None, "externalIds": {}, "venue": None,
         }
-    r.raise_for_status()
-    return r.json()
+
+    if resp.status_code != 200:
+        return {
+            "paperId": None, "title": None, "abstract": None, "year": None,
+            "authors": [], "url": None, "externalIds": {}, "venue": None,
+        }
+
+    return resp.json()
 
 
 def _normalize_paper(js: Dict[str, Any]) -> Dict[str, Any]:
@@ -277,28 +364,15 @@ def health() -> Dict[str, Any]:
     }
 )
 def find_papers(
-    queries: Annotated[List[str], Field(
-        description="List of search queries for academic papers",
-        min_length=1,
-        max_length=10
-    )],
-    per_query: Annotated[int, Field(
-        description="Maximum number of papers to retrieve per query",
-        ge=1,
-        le=20
-    )] = 5,
-    enrich: Annotated[bool, Field(
-        description="Whether to fetch detailed metadata for each paper"
-    )] = True
+    queries: List[str],
+    per_query: int = 5,
+    enrich: bool = False   
 ) -> List[Dict[str, Any]]:
-    """
-    Search papers for a list of queries. If `enrich` is True, fetch each paper again by id/DOI.
-    Returns a de-duplicated list of normalized papers.
-    """
     seen = set()
     out: List[Dict[str, Any]] = []
     for q in queries:
-        for hit in s2_search(q, k=max(1, min(per_query, 20))):
+        hits = s2_search(q, k=max(1, min(per_query, 20)))
+        for hit in hits:
             pid = hit.get("paperId") or (hit.get("externalIds") or {}).get("DOI")
             if not pid or pid in seen:
                 continue
@@ -306,6 +380,7 @@ def find_papers(
             meta = s2_get(pid) if enrich else hit
             out.append(_normalize_paper(meta))
     return out
+
 
 
 @mcp.tool(
@@ -318,34 +393,41 @@ def find_papers(
         "idempotentHint": True
     }
 )
+
+# === PATCH: plan_prompt 교체 ===
 def plan_prompt(
-    goal: Annotated[str, Field(
-        description="Research goal or objective statement",
-        min_length=1,
-        max_length=1000
-    )],
-    y_vars: Annotated[Optional[List[str]], Field(
-        description="List of dependent variables or outcomes to measure"
-    )] = None,
-    domains: Annotated[Optional[List[str]], Field(
-        description="Research domains or fields of study"
-    )] = None,
-    queries: Annotated[Optional[List[str]], Field(
-        description="Literature search queries for supporting research"
-    )] = None,
-    per_query: Annotated[int, Field(
-        description="Number of papers to find per query",
-        ge=1,
-        le=20
-    )] = 5
+    goal: Annotated[str, Field(min_length=1, max_length=1000)],
+    y_vars: Annotated[Optional[List[str]], Field(description="List of dependent variables or outcomes to measure")] = None,
+    domains: Annotated[Optional[List[str]], Field(description="Research domains or fields of study")] = None,
+    queries: Annotated[Optional[List[str]], Field(description="Literature search queries for supporting research")] = None,
+    per_query: Annotated[int, Field(ge=1, le=20, description="Number of papers to find per query")] = 5,
+    use_literature: Annotated[bool, Field(description="Whether to actually run literature search")] = True,
+    year_cap: Annotated[Optional[int], Field(description="Prefer papers with year <= year_cap; best-effort")] = None,
+    enrich: Annotated[bool, Field(description="Enrich with s2_get only if truly needed")] = False,
 ) -> Dict[str, Any]:
     """
     Build a JSON-return instruction prompt for LLM planning.
-    This does NOT execute any other MCP; it only prepares prompt text.
+    Literature search is optional (controlled by use_literature).
     """
-    queries = queries or []
-    papers = find_papers(queries, per_query=per_query, enrich=True) if queries else []
-    prompt = render_plan_prompt(goal=goal, y_vars=y_vars or [], domains=domains or [], candidate_papers=papers)
+    queries = (queries or [])[:2]   # guardrail: 최대 1–2개로 제한
+    papers: List[Dict[str, Any]] = []
+
+    if use_literature and queries:
+        # 연도 캡이 있으면 연도 필터 우선, 아니면 기본 검색
+        if year_cap is not None:
+            # post-filter + normalize, 호출수 최소화
+            for q in queries:
+                # s2_search_year_capped은 이미 normalize해서 반환
+                papers.extend(s2_search_year_capped(q, k=min(per_query, 4), year_cap=year_cap))
+        else:
+            papers = find_papers(queries=queries, per_query=min(per_query, 4), enrich=enrich)
+
+    prompt = render_plan_prompt(
+        goal=goal,
+        y_vars=y_vars or [],
+        domains=domains or [],
+        candidate_papers=papers
+    )
     return {
         "mode": "build",
         "papers_found": papers,

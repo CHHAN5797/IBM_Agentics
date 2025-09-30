@@ -147,7 +147,12 @@ def tvl_to_df(pairs: List[Tuple[int, float]]) -> pd.DataFrame:
         return pd.DataFrame(columns=["date", "tvl"])
     df = pd.DataFrame(pairs, columns=["unix", "tvl"])
     df["date"] = pd.to_datetime(df["unix"], unit="s", utc=True).tz_convert(None)
+    df["date"] = (
+        pd.to_datetime(df["unix"], unit="s", utc=True)
+        .dt.tz_localize(None)
+    )
     return df.drop(columns=["unix"]).sort_values("date")[["date", "tvl"]]
+
 
 
 def _tvl_path(slug: str) -> Path:
