@@ -102,15 +102,40 @@ class LookupIn(BaseModel):
     }
 )
 def lookup(
-    args: Annotated[LookupIn, Field(
-        description="Lookup parameters including space, name, ticker, or contract address"
-    )]
+    space: Annotated[
+        Optional[str],
+        Field(None, description="Snapshot space id, e.g., 'aavedao.eth'")
+    ] = None,
+    name: Annotated[
+        Optional[str],
+        Field(None, description="DefiLlama protocol name (Name_Defillama)")
+    ] = None,
+    ticker: Annotated[
+        Optional[str],
+        Field(None, description="CMC ticker symbol, e.g., 'AAVE'")
+    ] = None,
+    contract: Annotated[
+        Optional[str],
+        Field(None, description="Token contract address (0x...)")
+    ] = None,
+    want_slug: Annotated[
+        bool,
+        Field(True, description="Whether to include defillama_slug field")
+    ] = True
 ) -> Dict[str, Any]:
     """
     Resolve DAO registry entry.
     Returns a record with governance token address (from Contracts), native token ticker (CMC_ticker),
     cmc_ucid, and DefiLlama name/slug.
     """
+    args = LookupIn(
+        space=space,
+        name=name,
+        ticker=ticker,
+        contract=contract,
+        want_slug=want_slug
+    )
+
     rows = _load_rows()
     row = _match_row(rows, space=args.space, name=args.name, ticker=args.ticker, contract=args.contract)
     if not row:
