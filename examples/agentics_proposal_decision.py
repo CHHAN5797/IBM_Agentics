@@ -130,6 +130,54 @@ def _server_params(spec: ServerSpec, src_dir: Path) -> StdioServerParameters:
     return StdioServerParameters(command="python3", args=args, env=env)
 
 
+def _add_prefix_to_mcp_tools(tools, prefix: str):
+    """
+    Add prefix to MCP tool names and update descriptions properly.
+
+    This ensures:
+    1. Tool name is prefixed (e.g., 'cmc_get_price')
+    2. Description is updated to reflect new name
+    3. LLM sees consistent tool metadata
+
+    Args:
+        tools: List of CrewAI tools from MCPServerAdapter
+        prefix: Prefix string to add (e.g., 'cmc_')
+
+    Returns:
+        The same tools list with updated names and descriptions
+    """
+    for tool in tools:
+        if tool.name.startswith(prefix):
+            continue
+
+        if tool.description.startswith("Tool Name:"):
+            match = re.search(
+                r"Tool Description: (.+)$",
+                tool.description,
+                re.DOTALL
+            )
+            original_desc = (
+                match.group(1) if match else tool.description
+            )
+        else:
+            original_desc = tool.description
+
+        tool.name = f"{prefix}{tool.name}"
+
+        args_schema_dict = {
+            k: v
+            for k, v in tool.args_schema.model_json_schema().items()
+            if k != "$defs"
+        }
+        tool.description = (
+            f"Tool Name: {tool.name}\n"
+            f"Tool Arguments: {args_schema_dict}\n"
+            f"Tool Description: {original_desc}"
+        )
+
+    return tools
+
+
 def _load_mcp_tools(project_root: Path, stack: ExitStack) -> List:
     src_dir = project_root / "src"
     cmc_parquet = project_root / "cmc_historical_daily_2013_2025.parquet"
@@ -196,6 +244,10 @@ def _load_mcp_tools(project_root: Path, stack: ExitStack) -> List:
         adapter = stack.enter_context(
             MCPServerAdapter(_server_params(spec, src_dir))
         )
+
+        prefix = f"{spec.name}_"
+        adapter = _add_prefix_to_mcp_tools(adapter, prefix)
+
         entry = spec.module_name or str(spec.script_path)
         print(f"Available {spec.name} ({entry}) tools: {[tool.name for tool in adapter]}")
         combined = adapter if combined is None else combined + adapter
@@ -208,7 +260,8 @@ def _load_mcp_tools(project_root: Path, stack: ExitStack) -> List:
 
 def _blind_toolset(tools) -> List:
     banned = {
-        "get_proposal_result_by_id"
+        "snapshot_get_proposal_result_by_id",
+        "get_proposal_result_by_id",
     }  # keep blind to ex-post tally for decision pass
     return [t for t in tools if getattr(t, "name", None) not in banned]
 
@@ -772,42 +825,68 @@ def compute_tvl_impact_from_defillama_tool(
     evt_js = None
     # 1) Link path
     if link:
-        _ = _invoke_tool(tools, "refresh_by_link", defillama_link=link)
-        evt_js = _invoke_tool(
+        _ = _invoke_tool_try_names_and_params(
             tools,
-            "event_window_by_link",
-            defillama_link=link,
-            event_time_utc=event_end_utc,
-            pre_days=pre_days,
-            post_days=post_days,
+            ["defillama_refresh_by_link", "refresh_by_link"],
+            [{"defillama_link": link}],
+        )
+        evt_js = _invoke_tool_try_names_and_params(
+            tools,
+            ["defillama_event_window_by_link", "event_window_by_link"],
+            [
+                {
+                    "defillama_link": link,
+                    "event_time_utc": event_end_utc,
+                    "pre_days": pre_days,
+                    "post_days": post_days,
+                }
+            ],
         )
     # 2) Slug path
     if evt_js is None and slug:
-        _ = _invoke_tool(tools, "refresh_protocol", slug=slug)
-        evt_js = _invoke_tool(
+        _ = _invoke_tool_try_names_and_params(
             tools,
-            "event_window",
-            slug=slug,
-            event_time_utc=event_end_utc,
-            pre_days=pre_days,
-            post_days=post_days,
+            ["defillama_refresh_protocol", "refresh_protocol"],
+            [{"slug": slug}],
+        )
+        evt_js = _invoke_tool_try_names_and_params(
+            tools,
+            ["defillama_event_window", "event_window"],
+            [
+                {
+                    "slug": slug,
+                    "event_time_utc": event_end_utc,
+                    "pre_days": pre_days,
+                    "post_days": post_days,
+                }
+            ],
         )
     # 3) Resolve path
     if evt_js is None and project_hint:
-        res = _invoke_tool(
-            tools, "resolve_protocol", project_hint=project_hint, ttl_hours=0
+        res = _invoke_tool_try_names_and_params(
+            tools,
+            ["defillama_resolve_protocol", "resolve_protocol"],
+            [{"project_hint": project_hint, "ttl_hours": 0}],
         )
         cands = (res or {}).get("candidates") or []
         sl = next((c.get("slug") for c in cands if c.get("slug")), None)
         if sl:
-            _ = _invoke_tool(tools, "refresh_protocol", slug=sl)
-            evt_js = _invoke_tool(
+            _ = _invoke_tool_try_names_and_params(
                 tools,
-                "event_window",
-                slug=sl,
-                event_time_utc=event_end_utc,
-                pre_days=pre_days,
-                post_days=post_days,
+                ["defillama_refresh_protocol", "refresh_protocol"],
+                [{"slug": sl}],
+            )
+            evt_js = _invoke_tool_try_names_and_params(
+                tools,
+                ["defillama_event_window", "event_window"],
+                [
+                    {
+                        "slug": sl,
+                        "event_time_utc": event_end_utc,
+                        "pre_days": pre_days,
+                        "post_days": post_days,
+                    }
+                ],
             )
 
     if not isinstance(evt_js, dict):
@@ -966,7 +1045,12 @@ def _get_votes_via_snapshot_mcp(tools, proposal_id: str) -> List[dict]:
             return items
         return []
 
-    names = ["get_votes_all", "snapshot.get_votes_all", "SnapshotAPI.get_votes_all"]
+    names = [
+        "snapshot_get_votes_all",
+        "get_votes_all",
+        "snapshot.get_votes_all",
+        "SnapshotAPI.get_votes_all",
+    ]
     variants = [
         {"proposal_id": proposal_id},
         {"id": proposal_id},
@@ -1005,16 +1089,15 @@ def _get_votes_via_snapshot_mcp(tools, proposal_id: str) -> List[dict]:
 def _analyze_timeline(
     tools, start_unix: int, end_unix: int, choices: List[str], votes: List[dict]
 ) -> Dict[str, Any]:
+    names = ["timeline_analyze_timeline", "analyze_timeline"]
+    params = {
+        "start": int(start_unix),
+        "end": int(end_unix),
+        "choices": choices,
+        "votes": votes,
+    }
     return (
-        _invoke_tool(
-            tools,
-            "analyze_timeline",
-            start=int(start_unix),
-            end=int(end_unix),
-            choices=choices,
-            votes=votes,
-        )
-        or {}
+        _invoke_tool_try_names_and_params(tools, names, [params]) or {}
     )
 
 
@@ -1039,6 +1122,11 @@ def _bootstrap_semantic_references(tools, project_root: Path) -> List[dict]:
     ]
 
     tool_names = [
+        "semantics_find_papers",
+        "semantics_semantics_search",
+        "semantics_search_papers",
+        "semantics_literature_search",
+        "semantics_semantic_search",
         "find_papers",
         "semantics_search",
         "search_papers",
