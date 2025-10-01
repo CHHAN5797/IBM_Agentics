@@ -575,13 +575,6 @@ def _clean_ucid(val: Optional[str]) -> Optional[str]:
     return s
 
 
-def _slug_from_defillama_link(link: Optional[str]) -> Optional[str]:
-    if not link or not isinstance(link, str):
-        return None
-    m = re.search(r"/protocol/([a-z0-9-]+)", link.strip().lower())
-    return m.group(1) if m else None
-
-
 def _registry_csv_lookup_space_only(
     csv_path: Path, *, space: Optional[str]
 ) -> Optional[Dict[str, Any]]:
@@ -620,8 +613,10 @@ def _registry_csv_lookup_space_only(
             or low.get("name")
             or ""
         ).strip()
-        row_link = (low.get("defillama_link") or "").strip()
-        row_contracts_raw = (low.get("contracts") or low.get("contract") or "").strip()
+        row_slug = (low.get("defillama_slug") or "").strip()
+        row_contracts_raw = (
+            low.get("contracts") or low.get("contract") or ""
+        ).strip()
 
         if row_space:
             spaces_seen.append(row_space)
@@ -632,7 +627,7 @@ def _registry_csv_lookup_space_only(
                 "cmc_ucid": row_ucid or None,
                 "cmc_ticker": row_ticker or None,
                 "defillama_name": row_defi or None,
-                "defillama_link": row_link or None,
+                "defillama_slug": row_slug or None,
                 "contracts": _split_contracts(row_contracts_raw) or None,
             }
 
@@ -872,7 +867,6 @@ def compute_token_price_impact_from_parquet(
 def compute_tvl_impact_from_defillama_tool(
     tools,
     *,
-    link: Optional[str],
     slug: Optional[str],
     project_hint: Optional[str],
     event_end_utc: str,
@@ -880,91 +874,108 @@ def compute_tvl_impact_from_defillama_tool(
     post_days: int = 7,
 ) -> Optional[float]:
     """
+    Compute TVL impact using DeFiLlama MCP tools.
+
     Strategy:
-      1) If link provided → refresh_by_link + event_window_by_link
-      2) Else if slug provided → refresh_protocol + event_window
-      3) Else if project_hint provided → resolve_protocol(project_hint) → step 2
-    Returns abnormal_change * 100 (%), rounded to 4 decimals.
+      1) If slug provided → refresh_protocol + event_window
+      2) Else if project_hint provided → resolve_protocol → step 1
+      3) Return abnormal_change * 100 (%), rounded to 4 decimals
+
+    Args:
+        tools: Available MCP tools
+        slug: DeFiLlama protocol slug (e.g., 'aave', 'uniswap')
+        project_hint: Project name for slug resolution if slug not
+            provided
+        event_end_utc: Event timestamp in ISO format
+        pre_days: Days before event for baseline
+        post_days: Days after event for impact
+
+    Returns:
+        TVL abnormal change percentage, or None if unavailable
     """
     evt_js = None
-    # 1) Link path
-    if link:
-        _ = _invoke_tool_try_names_and_params(
-            tools,
-            ["defillama_refresh_by_link", "refresh_by_link"],
-            [{"defillama_link": link}],
+    final_slug = None
+
+    # 1) Direct slug path
+    if slug:
+        print(f"[tvl_impact] using slug={slug!r}")
+        final_slug = slug
+    # 2) Resolve path
+    elif project_hint:
+        print(
+            f"[tvl_impact] no slug, trying resolve with "
+            f"project_hint={project_hint!r}"
         )
-        evt_js = _invoke_tool_try_names_and_params(
-            tools,
-            ["defillama_event_window_by_link", "event_window_by_link"],
-            [
-                {
-                    "defillama_link": link,
-                    "event_time_utc": event_end_utc,
-                    "pre_days": pre_days,
-                    "post_days": post_days,
-                }
-            ],
-        )
-    # 2) Slug path
-    if evt_js is None and slug:
-        _ = _invoke_tool_try_names_and_params(
-            tools,
-            ["defillama_refresh_protocol", "refresh_protocol"],
-            [{"slug": slug}],
-        )
-        evt_js = _invoke_tool_try_names_and_params(
-            tools,
-            ["defillama_event_window", "event_window"],
-            [
-                {
-                    "slug": slug,
-                    "event_time_utc": event_end_utc,
-                    "pre_days": pre_days,
-                    "post_days": post_days,
-                }
-            ],
-        )
-    # 3) Resolve path
-    if evt_js is None and project_hint:
         res = _invoke_tool_try_names_and_params(
             tools,
             ["defillama_resolve_protocol", "resolve_protocol"],
-            [{"project_hint": project_hint, "ttl_hours": 0}],
+            [{"project_hint": project_hint, "ttl_hours": 24}],
         )
         cands = (res or {}).get("candidates") or []
-        sl = next((c.get("slug") for c in cands if c.get("slug")), None)
-        if sl:
-            _ = _invoke_tool_try_names_and_params(
-                tools,
-                ["defillama_refresh_protocol", "refresh_protocol"],
-                [{"slug": sl}],
+        if cands:
+            final_slug = cands[0].get("slug")
+            print(
+                f"[tvl_impact] resolved {len(cands)} candidate(s), "
+                f"using top: {final_slug!r}"
             )
-            evt_js = _invoke_tool_try_names_and_params(
-                tools,
-                ["defillama_event_window", "event_window"],
-                [
-                    {
-                        "slug": sl,
-                        "event_time_utc": event_end_utc,
-                        "pre_days": pre_days,
-                        "post_days": post_days,
-                    }
-                ],
+        else:
+            print(
+                f"[tvl_impact] resolve_protocol found no candidates "
+                f"for {project_hint!r}"
             )
+    else:
+        print("[tvl_impact] no slug or project_hint provided")
+        return None
+
+    if not final_slug:
+        print("[tvl_impact] no valid slug available")
+        return None
+
+    # Refresh TVL cache
+    refresh_res = _invoke_tool_try_names_and_params(
+        tools,
+        ["defillama_refresh_protocol", "refresh_protocol"],
+        [{"slug": final_slug}],
+    )
+    if refresh_res:
+        print(
+            f"[tvl_impact] refresh_protocol: "
+            f"rows_added={refresh_res.get('rows_added', 0)}"
+        )
+
+    # Compute event window
+    evt_js = _invoke_tool_try_names_and_params(
+        tools,
+        ["defillama_event_window", "event_window"],
+        [
+            {
+                "slug": final_slug,
+                "event_time_utc": event_end_utc,
+                "pre_days": pre_days,
+                "post_days": post_days,
+            }
+        ],
+    )
 
     if not isinstance(evt_js, dict):
-        print("[tvl_impact] event_window returned non-dict or None.")
+        print(
+            "[tvl_impact] event_window returned non-dict or None for "
+            f"slug={final_slug!r}"
+        )
         return None
 
     stats = evt_js.get("stats") or {}
     abn = stats.get("abnormal_change")
     if abn is None:
-        print("[tvl_impact] no abnormal_change in stats.")
+        print(f"[tvl_impact] no abnormal_change in stats for {final_slug!r}")
         return None
+
     try:
-        return round(float(abn) * 100.0, 4)
-    except Exception:
+        pct = round(float(abn) * 100.0, 4)
+        print(f"[tvl_impact] slug={final_slug!r} impact={pct}%")
+        return pct
+    except Exception as e:
+        print(f"[tvl_impact] failed to convert abnormal_change: {e}")
         return None
 
 
@@ -1268,14 +1279,16 @@ def _adjacent_analytics(
     *,
     cmc_parquet: Path,
     ucid: Optional[str],
-    link: Optional[str],
     slug: Optional[str],
     project_hint: Optional[str],
     current_title: Optional[str],
     current_body: Optional[str],
     max_items: int = 3,
 ) -> List[Dict[str, Any]]:
-    """For each adjacent proposal, compute timeline metrics and impacts using the same token/TVL handles."""
+    """
+    For each adjacent proposal, compute timeline metrics and impacts
+    using the same token/TVL handles.
+    """
     out: List[Dict[str, Any]] = []
     cur_tok = _tokens((current_title or "") + " " + (current_body or ""))
     for p in proposals[:max_items]:
@@ -1286,7 +1299,9 @@ def _adjacent_analytics(
             choices = p.get("choices") or []
             votes = _get_votes_via_snapshot_mcp(tools, pid) if pid else []
             timeline = (
-                _analyze_timeline(tools, start, end, choices, votes) if votes else {}
+                _analyze_timeline(tools, start, end, choices, votes)
+                if votes
+                else {}
             )
             end_iso = _iso_from_unix(end)
             result_js = _fetch_result_by_id(pid) if pid else {}
@@ -1299,14 +1314,15 @@ def _adjacent_analytics(
             
             
             price_imp = (
-                compute_token_price_impact_from_parquet(cmc_parquet, ucid, end_iso)
+                compute_token_price_impact_from_parquet(
+                    cmc_parquet, ucid, end_iso
+                )
                 if (ucid and end_iso)
                 else None
             )
             tvl_imp = compute_tvl_impact_from_defillama_tool(
                 tools,
-                link=link,
-                slug=(slug if (slug and not link) else None),
+                slug=slug,
                 project_hint=project_hint,
                 event_end_utc=end_iso or "",
                 pre_days=7,
@@ -1392,15 +1408,13 @@ def main() -> None:
         # Token address (from space strategies/meta) + impacts
         token_address = _extract_token_address_from_meta(meta_js)
         ucid = None
-        llamalink = None
-        slug = None
+        defillama_slug = None
         # try registry by space
         space = _space_from_url(snapshot_url)
         reg = _registry_csv_lookup_space_only(registry_csv, space=space)
         if reg:
             ucid = _clean_ucid(reg.get("cmc_ucid"))
-            llamalink = reg.get("defillama_link")
-            slug = _slug_from_defillama_link(llamalink)
+            defillama_slug = reg.get("defillama_slug")
         project_hint = _pick_project_hint(space, title)
 
         market_pre_days = 7
@@ -1419,8 +1433,7 @@ def main() -> None:
         )
         tvl_impact = compute_tvl_impact_from_defillama_tool(
             all_tools,
-            link=llamalink,
-            slug=slug,
+            slug=defillama_slug,
             project_hint=project_hint,
             event_end_utc=end_iso or "",
             pre_days=market_pre_days,
@@ -1493,8 +1506,7 @@ def main() -> None:
             adj,
             cmc_parquet=project_root / "cmc_historical_daily_2013_2025.parquet",
             ucid=ucid,
-            link=llamalink,
-            slug=slug,
+            slug=defillama_slug,
             project_hint=project_hint,
             current_title=title,
             current_body=body,

@@ -34,7 +34,7 @@ DB_PATH = DATA_DIR / "defillama_cache.sqlite"
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 TVL_DIR.mkdir(parents=True, exist_ok=True)
 
-HTTP_TIMEOUT = int(os.getenv("LLAMA_HTTP_TIMEOUT", "45"))
+HTTP_TIMEOUT = int(os.getenv("LLAMA_HTTP_TIMEOUT", "90"))
 RETRY_TOTAL = int(os.getenv("LLAMA_HTTP_RETRIES", "5"))
 BASE_SLEEP = float(os.getenv("LLAMA_BASE_SLEEP", "0.35"))
 UA = os.getenv("LLAMA_UA", "defillama-mcp/slug-only-1.0")
