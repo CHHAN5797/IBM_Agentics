@@ -19,7 +19,7 @@ def main():
     Smoke test for the slug-only DeFiLlama MCP.
     - Uses the 'aave' slug directly (no link parsing).
     - Refreshes local parquet cache (if missing, downloads & writes).
-    - Computes a 7/7 pre/post TVL window around 'now' in UTC.
+    - Computes a 3/3 pre/post TVL window around 'now' in UTC.
     """
     slug = "aave"
     print(f"[1] slug={slug}")
@@ -33,14 +33,14 @@ def main():
     fpath = _tvl_path(slug)
     print(f"[check] parquet exists: {fpath} -> {fpath.exists()}")
 
-    # 3) event window: use 'now' as the event time (UTC), 7 days pre/post
+    # 3) event window: use 'now' as the event time (UTC), 3 days pre/post
     event_time_utc = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
-    print(f"[3] event_window at {event_time_utc} (pre=7, post=7) ...")
+    print(f"[3] event_window at {event_time_utc} (pre=3, post=3) ...")
     win = event_window(
         slug=slug,
         event_time_utc=event_time_utc,
-        pre_days=7,
-        post_days=7,
+        pre_days=3,
+        post_days=3,
     )
     jprint(win)
 

@@ -1,0 +1,395 @@
+{
+  "captured_at_utc": "2025-10-02T21:39:04.716252+00:00",
+  "snapshot_url": "https://snapshot.org/#/lido-snapshot.eth/proposal/0xe2165bbde749b0f0bb7d8c78447eb64e5ff4e700b7905023fdd0eec820ebe5b4",
+  "focus": null,
+  "votes_count": 61,
+  "timeline_metrics_current": {
+    "unique_voters": 61,
+    "total_votes": 61,
+    "first_vote_at": "2022-04-11T21:13:47Z",
+    "last_vote_at": "2022-04-16T09:15:08Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        24765010.91890594,
+        0.0
+      ],
+      [
+        64721378.0613314,
+        0.0
+      ],
+      [
+        24205.795866255132,
+        0.0
+      ],
+      [
+        6324.529137319987,
+        0.0
+      ]
+    ],
+    "spike_index": 0.223533,
+    "spike_follow_support_ratio": 1.0,
+    "stairwise_ratio": 0.043667,
+    "half_slope_diff": 2236.966074
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x2a75340e4bd00afd2600bf47e4219ddea8fc83b6af4086365a7842ae5443c343",
+      "title": "Lido on Solana - Proposed Transition from Chorus One to P2P",
+      "author": "0xE017a4e967c9939d01628E805DC0CC3370184e63",
+      "end_utc": "2022-04-10T23:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 57,
+        "total_votes": 57,
+        "first_vote_at": "2022-04-05T20:03:21Z",
+        "last_vote_at": "2022-04-10T10:51:01Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            41643595.32794596,
+            0.0
+          ],
+          [
+            5860.782030955547,
+            0.0
+          ],
+          [
+            15000110.38623752,
+            0.0
+          ],
+          [
+            19500.15992426325,
+            0.0
+          ]
+        ],
+        "spike_index": 0.353103,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.009323,
+        "half_slope_diff": -612.841657
+      },
+      "price_impact_pct": -8.596,
+      "tvl_impact_pct": -9.1344,
+      "similarity": 0.0667,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes",
+        "margin_abs": 56669066.656138696,
+        "scores_total": 56669066.656138696,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0x13bb40e199529c3bc725b8a12f3a946555fc0684bb48a16e3b38c0a6568d8b02",
+      "title": "Refund money spent on deposits on Ethereum to the dev team",
+      "author": "0x2809c14c910f112A1288050aFD45DBEaf96a89f6",
+      "end_utc": "2022-04-06T09:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 38,
+        "total_votes": 38,
+        "first_vote_at": "2022-03-30T09:25:33Z",
+        "last_vote_at": "2022-04-06T08:28:04Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            25933694.078369204,
+            0.0
+          ],
+          [
+            8371.780330740618,
+            0.0
+          ],
+          [
+            17719038.844515197,
+            0.0
+          ],
+          [
+            28769058.537397124,
+            30.149997840921603
+          ]
+        ],
+        "spike_index": 0.276266,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.202984,
+        "half_slope_diff": 17.881559
+      },
+      "price_impact_pct": -24.5203,
+      "tvl_impact_pct": -8.2826,
+      "similarity": 0.0538,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "For",
+        "margin_abs": 72430133.09061442,
+        "scores_total": 72430193.39061011,
+        "margin_pct": 0.9999991674743244
+      }
+    },
+    {
+      "id": "0x712919976dc89777faecda7b346713664498fe572542f767e19cf9aa4f9fd7ae",
+      "title": "Fund the depositor bot in Ethereum",
+      "author": "0x2809c14c910f112A1288050aFD45DBEaf96a89f6",
+      "end_utc": "2022-04-06T09:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 33,
+        "total_votes": 33,
+        "first_vote_at": "2022-03-30T09:26:43Z",
+        "last_vote_at": "2022-04-06T08:27:54Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            25913690.73162852,
+            0.0
+          ],
+          [
+            231.02569522664828,
+            0.0
+          ],
+          [
+            17718123.510284618,
+            0.0
+          ],
+          [
+            28769003.33973068,
+            0.0
+          ]
+        ],
+        "spike_index": 0.276377,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.202663,
+        "half_slope_diff": -41.905834
+      },
+      "price_impact_pct": -24.5203,
+      "tvl_impact_pct": -8.2826,
+      "similarity": 0.0632,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "For",
+        "margin_abs": 72401048.60733904,
+        "scores_total": 72401048.60733904,
+        "margin_pct": 1.0
+      }
+    }
+  ],
+  "similar_proposals_data": [],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/lido-snapshot.eth/proposal/0xe2165bbde749b0f0bb7d8c78447eb64e5ff4e700b7905023fdd0eec820ebe5b4",
+    "selected_choice_label": "Yes",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "The proposal to fund the Protocol Guild Pilot via a Lido grant received unanimous and stable support throughout the voting period, with strong positive forum sentiment and consistent alignment with similar past proposals. The funding aims to incentivize Ethereum core protocol contributors, which aligns with Lido's mission and long-term ecosystem health.",
+    "key_arguments_for": [
+      "Unanimous voter support with perfect stability and early decisive voting indicates strong community consensus.",
+      "Forum comments largely support the proposal, emphasizing alignment with Ethereum core development and Lido's ecosystem role.",
+      "Similar past proposals with similar aims were supported and enacted, providing precedent for positive organizational impact.",
+      "The Protocol Guild provides a novel, autonomous funding mechanism for long-term Ethereum protocol sustainability."
+    ],
+    "key_arguments_against": [
+      "Some forum comments and initial posts expressed concerns or skepticism, reflecting cautiousness about funding allocation and execution.",
+      "Adjacent historical proposals showed negative post-vote token price declines, suggesting caution in fund deployment."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://research.lido.fi/t/proposal-to-fund-the-protocol-guild-pilot-via-a-lido-grant/2016",
+        "quote": "Positive comments highlight alignment with Ethereum and Lido's mission; first post outlines proposal details."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": null,
+        "quote": "Timeline shows unanimous and stable Yes votes throughout the voting period."
+      },
+      {
+        "source_tool": "govnews_search_governance_news",
+        "reference": null,
+        "quote": "Adjacent proposals with similar structures and goals had successful outcomes."
+      }
+    ],
+    "available_choices": [
+      "Yes",
+      "No"
+    ],
+    "event_start_utc": "2022-04-11T16:58:27Z",
+    "event_end_utc": "2022-04-16T17:00:00Z",
+    "event_time_utc": "2022-04-16T17:00:00Z",
+    "address_of_governance_token": "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
+    "token_price_impact_pct": -9.2723,
+    "tvl_impact_pct": 3.386,
+    "actual_vote_result": {
+      "winner_label": "Yes",
+      "winner_index": 0,
+      "scores": [
+        89516919.30524093,
+        0.0
+      ],
+      "scores_total": 89516919.30524093,
+      "margin_abs": 89516919.30524093,
+      "margin_pct": 1.0
+    },
+    "simulation_reason": "Recommendation based on timeline unanimity, forum sentiment, and long-term organizational health, not ex-post tally.",
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Voting timeline shows unanimous and early support for 'Yes', indicating a strong and stable consensus.\n- Forum sentiment predominantly supports the proposal, emphasizing alignment with Ethereum and Lido's ecosystem health.\n- Similar past proposals with related objectives were supported and enacted, providing a precedent for positive change despite some market fluctuations.\n- Market impact shows slight negative price movement but positive TVL impact, reinforcing long-term ecosystem benefit.\n- Recommendation mirrors aggregated forum sentiment, confirming that community views align with the chosen option.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x2a75340e4bd00afd2600bf47e4219ddea8fc83b6af4086365a7842ae5443c343",
+        "title": "Lido on Solana - Proposed Transition from Chorus One to P2P",
+        "end_utc": "2022-04-10T23:00:00Z",
+        "summary": "Lido on Solana - Proposed Transition from Chorus One to P2P closed on 2022-04-10T23:00:00Z. Timeline analytics noted 57 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.07)",
+        "market_response": "token -8.60%; TVL -9.13%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0x712919976dc89777faecda7b346713664498fe572542f767e19cf9aa4f9fd7ae",
+        "title": "Fund the depositor bot in Ethereum",
+        "end_utc": "2022-04-06T09:00:00Z",
+        "summary": "Fund the depositor bot in Ethereum closed on 2022-04-06T09:00:00Z. Timeline analytics noted 33 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.06)",
+        "market_response": "token -24.52%; TVL -8.28%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -9.2723,
+    "ex_post_tvl_impact_pct": 3.386,
+    "ex_post_window": "7d pre / 7d post around event end",
+    "ex_post_note": "Token price -9.27%; TVL +3.39%"
+  },
+  "agentic_ai_choice": "Yes",
+  "actual_outcome": "Yes",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 3,
+    "Positive": 5,
+    "Neutral": 13,
+    "total_comments": 21
+  }
+}

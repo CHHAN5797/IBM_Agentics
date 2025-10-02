@@ -1,0 +1,61 @@
+{
+  "id": "0x405f2e117da8411faf34c9008adbba3069c751a725cd7a1b084dce93d853cca3",
+  "title": "[BIP-554] Enable weETH/rETH Gauge w/ 10% cap [Arbitrum]",
+  "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/823\n\n**Summary**\nThe ether.fi team proposes a Balancer Boosted Gauge for a weETH-rETH pool on Arbitrum, with a 10% emissions cap. This will serve as a 100% yield bearing pair. \n\n**References/Useful links:**\n\n```\n• Website - https://www.ether.fi/\n• Documentation - https://etherfi.gitbook.io/etherfi/ether.fi-whitepaper\n• Github Page - https://github.com/etherfi-protocol\n• Discord - https://discord.com/invite/zqGzcuQWvD\n• Twitter - https://twitter.com/ether_fi\n```\n\n**Protocol Description:**\n\nether.fi is a decentralized, non-custodial liquid staking protocol built on Ethereum, allowing users to stake their ETH and participate in the DeFi ecosystem without losing liquidity. The protocols eETH is a liquid restaking token (weETH is the non-rebasing equivalent), serving as a representation of ETH staked on the Beacon Chain, which rebases daily to reflect the associated staking rewards. Users can deposit ETH into the liquidity pool on Ethereum Mainnet to mint eETH, hold eETH to accrue rewards, and use eETH within DeFi or swap it back to ETH at any time via the liquidity pool. The protocol currently employs a permissioned validator set, however this will transition to permisionless based on the protocol roadmap.\n\nETH staked through the ether.fi liquidity pool accrues normal Ethereum staking rewards, and will also be natively restaked with EigenLayer. Staking with eETH on ether.fi automatically natively restakes that ETH to EigenLayer and accrues normal staking rewards while allowing users to keep composability on their eETH in other DeFi protocols. \n\nThe eETH contract has been live since June 2023, with eETH launching to the open market on November 15th, 2023, and has approx. 515k ETH held within it. Being a liquid representation of staked Ethereum, the price of the token is aligned to the price of ETH.\n\nThrough these mechanisms, eETH acts as a conduit for individuals to engage in Ethereum’s staking & restaking process with the added liquidity, making it easier for them to enter and exit staking positions while also benefiting from boosted rewards.\n\n**Motivation:**\n\nether.fi is looking to seed a weETH/rETH pool on balancer to serve as a primary source of liquidity for weETH on Arbitrum. Incentivising a Balancer pool will continue to boost the liquidity of the LRT on Arbitrum. Higher liquidity ensures that traders and investors can easily enter or exit positions, which is essential for the overall usability and attractiveness of the LRT token within the L2 DeFi ecosystem. \n\n**Specifications:**\n\n1. **Governance:** - Currently, the protocol utilises a multi signature wallet, with the signatories being doxxed ether.fi executives. This will change with the evolution of the protocol, moving to decentralized governance with a DAO and a governance token.\n\n2. **Oracles:** - The Protocol relies on an oracle for withdrawals and beacon state, however, the reliance on an oracle for beacon state is set to go away in an upcoming Ethereum upgrade. The Oracle is based on the hash consensus mechanism and run by the committee members. Initially, the ether.fi team will be the only ones to operate the Oracle nodes, however as the protocol grows, it will add more external parties to join the committee.\n\n* The exchange rate feed for weETH-ETH on Arbitrum has been deployed by Chainlink. \n\n3. **Audits:** - Audit reports for the ether.fi protocol are found on the GitBook page - [Audits - ether.fi](https://etherfi.gitbook.io/etherfi/security/audits). The audits have been carried out by reputable firms such as Certik, Zellic, Nethermind, Omniscia and Solidified to ensure the security of the protocol. An audit competition was also recently completed through Hats Finance.\n\n4. **Centralization vectors:** - The centralization vectors primarily relate to the Oracle until it becomes decentralized, in line with the protocol roadmap. The price (staking rewards for rebasing) and the validator management (spinning up new validators and exiting them for liquidation) are also currently centralized for the early stages of the protocol to ensure mobility. As mentioned above, the signatories currently consist of the doxxed executive team at ether.fi, however this will be upgraded with the implementation of the ether.fi DAO and governance.\n\n5. **Market History:** - eETH was first deployed November 15, 2023. Market history and protocol information can be found here on the ether.fi Dune dashboard - https://dune.com/ether_fi/etherfi\n\n6. **Value:** - The weETH/rETH pool on Balancer is intended to serve as a primary liquidity source for the token on Arbitrum. The pairing of eETH with rETH will maintain the originally intended smooth trading experience, while yielding more rewards for the liquidity providers.\n\nweETH on Arbitrum: 0x35751007a407ca6FEFfE80b3cB397736D2cf4dbe\n\nweETH/rETH Arbitrum pool on Balancer: https://app.balancer.fi/#/arbitrum/pool/0x4b3af34eb1135d59df8b9cdc2ff07d30d05334c400000000000000000000050d\n\nChild chain gauge [0x8C206459a557aA736F698401BD6029fC0Db3f3c8](https://arbiscan.io/address/0x8C206459a557aA736F698401BD6029fC0Db3f3c8#code) — mainnet root: [0xB5dCdE9aDCace88705658Aa276C557afC011FE55]\n\n### Specification\n\nTransaction: The Balancer Maxi LM Multisig `eth:0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the `addGauge` function with the following arguments:\n\ngauge(address): `0xB5dCdE9aDCace88705658Aa276C557afC011FE55`\n\ngaugeType(string): `Arbitrum`",
+  "author": "0x021C5536bd60bCe9f15FB0E32746e332E3fbFAF4",
+  "choices": [
+    "Yes, let's do it",
+    "No, this is not the way",
+    "Abstain"
+  ],
+  "discussion": "https://forum.balancer.fi/t/bip-554-enable-weeth-reth-gauge-w-10-cap-arbitrum/5593",
+  "start": 1709233200,
+  "end": 1709521200,
+  "state": "closed",
+  "space": {
+    "id": "aurafinance.eth",
+    "name": "Aura Finance",
+    "strategies": [
+      {
+        "name": "erc20-balance-of",
+        "network": "1",
+        "params": {
+          "symbol": "vlAURA",
+          "address": "0x3fa73f1e5d8a792c80f426fc8f84fbf7ce9bbcac",
+          "decimals": 18
+        }
+      },
+      {
+        "name": "delegation-with-overrides",
+        "network": "1",
+        "params": {
+          "symbol": "vlAURA (delegated)",
+          "overrides": {
+            "0x2ad55394E12016c510D3C35d91Da7d90A758b7FD": "0x1f4F47f8b55CCd4e3b674Db90E4277b7073fdE27"
+          },
+          "strategies": [
+            {
+              "name": "erc20-balance-of",
+              "params": {
+                "symbol": "vlAURA",
+                "address": "0x3fa73f1e5d8a792c80f426fc8f84fbf7ce9bbcac",
+                "decimals": 18
+              },
+              "delegationSpace": "aurafinance.eth"
+            }
+          ],
+          "delegationSpace": "aurafinance.eth"
+        }
+      },
+      {
+        "name": "erc20-balance-of",
+        "network": "8453",
+        "params": {
+          "symbol": "vlAURA",
+          "address": "0x9e1f4190f1a8Fe0cD57421533deCB57F9980922e",
+          "decimals": 18
+        }
+      }
+    ]
+  }
+}

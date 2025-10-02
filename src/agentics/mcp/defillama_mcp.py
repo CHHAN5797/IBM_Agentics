@@ -380,7 +380,7 @@ def _win_stats(seg: pd.DataFrame) -> WindowResult:
 
 
 def event_stats_tvl(
-    df: pd.DataFrame, event_time_utc: str, pre_days=7, post_days=7
+    df: pd.DataFrame, event_time_utc: str, pre_days=3, post_days=3
 ) -> Dict[str, Any]:
     t0 = pd.to_datetime(event_time_utc, utc=True)
     segs = _window_slice(df, t0, pre_days, post_days)
@@ -504,12 +504,12 @@ def event_window(
         description="Number of days before the event to analyze for baseline TVL",
         ge=1,
         le=90
-    )] = 7,
+    )] = 3,
     post_days: Annotated[int, Field(
         description="Number of days after the event to analyze for impact assessment",
         ge=1,
         le=90
-    )] = 7
+    )] = 3
 ) -> Dict[str, Any]:
     """Compute TVL abnormal change around `event_time_utc`."""
     if not slug or not isinstance(slug, str):

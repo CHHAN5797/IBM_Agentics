@@ -1,0 +1,61 @@
+{
+  "id": "0xaa2cfd26fb934875788054982e8e7cb1e94c1d10d3d6cb006e6346e3aa141a70",
+  "title": "[BIP-538] Enable ezETH/WETH Gauge [Ethereum]",
+  "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/755\n\n**Summary:**\nRenzo Protocol proposes to add veBAL gauge for the [ezETH/WETH 50/50 pool] on https://app.balancer.fi/#/ethereum/pool/0x596192bb6e41802428ac943d2f1476c1af25cc0e000000000000000000000659). \n\nGauge address: https://etherscan.io/address/0xa8B309a75f0D64ED632d45A003c68A30e59A1D8b\n\n**References/Useful links:**\n* Website: https://www.renzoprotocol.com\n* Documentation: https://docs.renzoprotocol.com\n* Github: https://github.com/renzo-protocol\n* Discord: https://discord.com/invite/renzo\n* Twitter: https://twitter.com/RenzoProtocol\n* $ezETH Token: https://etherscan.io/token/0xbf5495efe5db9ce00f80364c8b423567e58d2110\n* Dune Dashboards: https://dune.com/maybeYonas/renzo-protocol\n\n**Protocol Description:**\n\n[$ezETH] is a Liquid Restaking token and Strategy Manager for EigenLayer\n\nRenzo is the interface to the EigenLayer ecosystem securing Actively Validated Services (AVSs), offering a higher yield than ETH staking.\n\nWith +4,500 total unique depositors, +33,000 restaked ETH, and an average of ~6 ETH per deposit, Renzo is the fastest growing restaking protocol on EigenLayer\n\nRenzo introduces the Balancer Boosted Gauge for the Renzo [ezETH/WETH 50/50 pool]. ezETH, Renzo’s liquid restaking token (LRT), captures rewards, ensures liquidity, and simplifies reward management with AVSs. This approach ensures a user-friendly DeFi experience where participants deposit ETH into the liquidity pool, mint ezETH, accumulate rewards, and seamlessly engage in other DeFi activities. Renzo is on a trajectory toward a permissionless validator set, emphasizing composability in DeFi.\n\n**Motivation:**\n\nRenzo is seeking to establish the [ezETH/WETH 50/50 pool] on Balancer to further enrich liquidity for ezETH. This move aims to enhance the trading experience across the Ethereum ecosystem, making it more accessible for users while generating additional value to the Renzo community.\n\n**Specifications:**\n \n**Governance:**\nRenzo currently operates with a multi-signature wallet, featuring doxxed founding contributors. The protocol is planning to decentralize strategy management to ezPoints holders and transition to decentralized governance in the future.\n\n**Oracles:**\nRenzo uses ChainLink oracles to price assets (besides ETH) held in the protocol, and in the future, ChainLink will also be used to price assets withdrawn from Renzo.\n\n**Audits:**\nRenzo smart contracts have been audited by Halborn. All of Renzo’s smart contracts are open source.Audits can be found here: [https://github.com/HalbornSecurity/PublicReports/blob/master/Solidity Smart Contract Audits/Renzo_Protocol_EVM_Contracts_Smart_Contract_Security_Assessment_Report_Halborn_Final.pdf](https://github.com/HalbornSecurity/PublicReports/blob/master/Solidity%20Smart%20Contract%20Audits/Renzo_Protocol_EVM_Contracts_Smart_Contract_Security_Assessment_Report_Halborn_Final.pd)\n\n**Centralization vectors:**\nCentralization vectors currently revolve around the Oracle, validator management via Figment, upgradeability via proxy multisig contract, and front end hosting,\n\nOvertime, our goal is to migrate Renzo to utilize decentralized infrastructure.\n\n**Market History:**\nFrom 0 to 100, Renzo launched on EigenLayer Mainnet 1-month ago and has witnessed explosive growth. TVL is nearing +$90M USD, with +33k ETH restaked, and over +4,500 unique depositors.\n\nRenzo’s remarkable growth and strong community backing underscore its prominence servicing users with liquid restaking on EigenLayer. The ezETH/WETH pool on Balancer will mark its inaugural support on a DEX.\n \n \n![veBAL gauge.png](ipfs://bafkreihp6ndnucaokydajbmb5dma6skebx4wffdbcmfotxyrjzrxpf5zaa)\n    \n\n**Value:**\n\nRenzo recently closed a successful seed round in December 2023, raising $3.2 million in equity with a 1:1 Token Warrant. The post-round valuation stands at an impressive $25 million, showcasing strong support for Renzo’s innovative liquid restaking protocol.\n\nRenzo strives to be the most secure and efficient liquid restaking token across DeFi and on Ethereum L2’s. Renzo is currently focused on diversification efforts to increase the number of node operators on EigenLayer, increasing decentralization and improving security for Actively Validated Services (AVS). Renzo is also working on supporting various LSTs deposits through the platform and building partnerships/integrations across aggregators, DEXs, bridges, Oracle providers, L2s, and other DeFi projects. \n\nAbove all, Renzo is committed to building the most successful liquid restaking ecosystem on EigenLayer, delivering rewarding experiences for all restakers and holders of ezETH.\n\n- [Add Pool Gauge Info] https://etherscan.io/address/0xa8B309a75f0D64ED632d45A003c68A30e59A1D8b\n- Rate Provider Review https://github.com/balancer/code-review/pull/4/files\n- The Balancer Maxi LM Multisig eth:0xc38c5f97B34E175FFd35407fc91a937300E33860 will interact with the GaugeAdderv4 at 0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd and call the addGauge function with the following arguments:\n- gauge(address):0xa8B309a75f0D64ED632d45A003c68A30e59A1D8b\n- gaugeType(string): Ethereum\n\nAdditionally, this pool is requesting core pool status as per BIP-457",
+  "author": "0x021C5536bd60bCe9f15FB0E32746e332E3fbFAF4",
+  "choices": [
+    "Yes, let's do it",
+    "No, this is not the way",
+    "Abstain"
+  ],
+  "discussion": "https://forum.balancer.fi/t/bip-538-enable-ezeth-weth-gauge-ethereum/5513",
+  "start": 1705604400,
+  "end": 1705892400,
+  "state": "closed",
+  "space": {
+    "id": "aurafinance.eth",
+    "name": "Aura Finance",
+    "strategies": [
+      {
+        "name": "erc20-balance-of",
+        "network": "1",
+        "params": {
+          "symbol": "vlAURA",
+          "address": "0x3fa73f1e5d8a792c80f426fc8f84fbf7ce9bbcac",
+          "decimals": 18
+        }
+      },
+      {
+        "name": "delegation-with-overrides",
+        "network": "1",
+        "params": {
+          "symbol": "vlAURA (delegated)",
+          "overrides": {
+            "0x2ad55394E12016c510D3C35d91Da7d90A758b7FD": "0x1f4F47f8b55CCd4e3b674Db90E4277b7073fdE27"
+          },
+          "strategies": [
+            {
+              "name": "erc20-balance-of",
+              "params": {
+                "symbol": "vlAURA",
+                "address": "0x3fa73f1e5d8a792c80f426fc8f84fbf7ce9bbcac",
+                "decimals": 18
+              },
+              "delegationSpace": "aurafinance.eth"
+            }
+          ],
+          "delegationSpace": "aurafinance.eth"
+        }
+      },
+      {
+        "name": "erc20-balance-of",
+        "network": "8453",
+        "params": {
+          "symbol": "vlAURA",
+          "address": "0x9e1f4190f1a8Fe0cD57421533deCB57F9980922e",
+          "decimals": 18
+        }
+      }
+    ]
+  }
+}

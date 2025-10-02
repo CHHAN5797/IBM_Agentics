@@ -23,6 +23,7 @@ import random
 import re
 import re as _re_mod
 import time
+from copy import deepcopy
 from contextlib import ExitStack
 from dataclasses import dataclass
 from datetime import datetime, timedelta, timezone
@@ -72,12 +73,18 @@ def _html_to_text(html: str) -> str:
 
 
 def decide_and_archive(prompt_blocks):
+    enable_grok = os.getenv("AGENTICS_ENABLE_GROK", "0").lower() in {
+        "1",
+        "true",
+        "yes",
+    }
     saved = run_both_and_save(
         messages=prompt_blocks,
         decision_root="Decision_runs",
         openai_model="gpt-4o-mini",
         grok_model="grok-2",
         temperature=0.2,
+        enable_grok=enable_grok,
     )
     return saved
 
@@ -265,6 +272,28 @@ def _blind_toolset(tools) -> List:
         "get_proposal_result_by_id",
     }  # keep blind to ex-post tally for decision pass
     return [t for t in tools if getattr(t, "name", None) not in banned]
+
+
+def _restrict_agent_tools(tools) -> List:
+    allowed_prefixes = (
+        "timeline_",
+        "forums_",
+        "sentiment_",
+        "holders_",
+        "registry_",
+        "semantics_",
+        "govnews_",
+    )
+    pruned = [
+        t
+        for t in tools
+        if any(
+            getattr(t, "name", "").startswith(prefix) for prefix in allowed_prefixes
+        )
+    ]
+    if pruned:
+        return pruned
+    return tools
 
 
 # ------------------------------------------------------------------------------
@@ -793,8 +822,8 @@ def compute_token_price_impact_from_parquet(
     parquet_path: Path,
     ucid: str,
     event_end_utc: str,
-    pre_days: int = 7,
-    post_days: int = 7,
+    pre_days: int = 3,
+    post_days: int = 3,
 ) -> Optional[float]:
     """Compute average pre/post % change using offline CMC parquet."""
     if not parquet_path.exists():
@@ -873,8 +902,8 @@ def compute_tvl_impact_from_defillama_tool(
     project_hint: Optional[str],
     entity_type: Optional[str] = None,
     event_end_utc: str,
-    pre_days: int = 7,
-    post_days: int = 7,
+    pre_days: int = 3,
+    post_days: int = 3,
 ) -> Optional[float]:
     """
     Compute TVL impact using DeFiLlama MCP tools.
@@ -984,6 +1013,34 @@ def compute_tvl_impact_from_defillama_tool(
     except Exception as e:
         print(f"[tvl_impact] failed to convert abnormal_change: {e}")
         return None
+
+
+# ------------------------------------------------------------------------------
+# Snapshot similar proposal helpers
+# ------------------------------------------------------------------------------
+def _normalize_impact_block(block: Any) -> Any:
+    """Return a copy of the impact payload with pct-normalized fields."""
+    if not isinstance(block, dict):
+        return block
+    clone = dict(block)
+    value = clone.get("abnormal_change")
+    if isinstance(value, (int, float)):
+        pct = round(float(value) * 100.0, 4)
+        clone["abnormal_change_raw"] = float(value)
+        clone["abnormal_change_pct"] = pct
+        clone["abnormal_change"] = pct
+    return clone
+
+
+def _normalize_similar_raw(raw: Dict[str, Any]) -> Dict[str, Any]:
+    """Deep-copy similar proposal payload and normalize impact blocks."""
+    if not isinstance(raw, dict):
+        return raw
+    clone: Dict[str, Any] = deepcopy(raw)
+    for key in ("tvl_impact", "price_impact"):
+        if key in clone:
+            clone[key] = _normalize_impact_block(clone.get(key))
+    return clone
 
 
 # ------------------------------------------------------------------------------
@@ -1334,8 +1391,8 @@ def _adjacent_analytics(
                 entity_type=entity_type,
                 project_hint=project_hint,
                 event_end_utc=end_iso or "",
-                pre_days=7,
-                post_days=7,
+                pre_days=3,
+                post_days=3,
             )
             sim = _jaccard(
                 cur_tok, _tokens((p.get("title") or "") + " " + (p.get("body") or ""))
@@ -1371,7 +1428,7 @@ def main() -> None:
 
     with ExitStack() as stack:
         all_tools = _load_mcp_tools(project_root, stack)
-        tools_for_agent = _blind_toolset(all_tools)
+        tools_for_agent = _restrict_agent_tools(_blind_toolset(all_tools))
 
         try:
             llm_provider = get_llm_provider()
@@ -1477,58 +1534,6 @@ def main() -> None:
             pre_days=market_pre_days,
             post_days=market_post_days,
         )
-
-        SIMILAR_PROPOSALS_DATA: List[Dict[str, Any]] = []
-        if space and pid:
-            similar_raw = _invoke_tool_try_names_and_params(
-                all_tools,
-                ["snapshot_find_similar_proposals", "find_similar_proposals"],
-                [
-                    {
-                        "proposal_id": pid,
-                        "space": space,
-                        "max_days": 90,
-                        "max_n": 7,
-                    }
-                ],
-            )
-            if isinstance(similar_raw, list):
-                for entry in similar_raw:
-                    if not isinstance(entry, dict):
-                        continue
-                    vote_result = (
-                        entry.get("vote_result")
-                        if isinstance(entry.get("vote_result"), dict)
-                        else None
-                    )
-                    vote_summary = None
-                    if vote_result:
-                        vote_summary = _summarize_vote_outcome(
-                            vote_result.get("choices"),
-                            vote_result.get("scores"),
-                            vote_result.get("scores_total"),
-                        )
-                    end_utc = entry.get("end_utc")
-                    if not end_utc:
-                        end_utc = _iso_from_unix(entry.get("end"))
-                    cleaned = {
-                        "id": entry.get("id"),
-                        "title": entry.get("title"),
-                        "author": entry.get("author"),
-                        "end_utc": end_utc,
-                        "similarity_score": entry.get("similarity_score"),
-                        "vote_result": vote_result,
-                        "tvl_impact": entry.get("tvl_impact"),
-                        "price_impact": entry.get("price_impact"),
-                        "winning_option": None,
-                        "winning_margin_abs": None,
-                        "winning_margin_pct": None,
-                    }
-                    if vote_summary:
-                        cleaned["winning_option"] = vote_summary.get("winner_label")
-                        cleaned["winning_margin_abs"] = vote_summary.get("margin_abs")
-                        cleaned["winning_margin_pct"] = vote_summary.get("margin_pct")
-                    SIMILAR_PROPOSALS_DATA.append(cleaned)
 
         # Adjacent proposals (select by time/topic) and analytics + similarity
         all_in_space = _fetch_all_proposals_by_space(space) if space else []
@@ -1664,7 +1669,7 @@ def main() -> None:
                         "proposal_id": sid,
                         "cleaned": cleaned,
                         "timeline_metrics": timeline_metrics if timeline_metrics else None,
-                        "raw": raw,
+                        "raw": _normalize_similar_raw(raw),
                     }
                 )
                 

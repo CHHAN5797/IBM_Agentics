@@ -95,13 +95,19 @@ def classify_forum_comments(
 
 if __name__ == "__main__":
     import sys, traceback
+
+    def _run_stdio() -> None:
+        """Launch FastMCP over stdio across library versions."""
+        if hasattr(mcp, "run_stdio"):
+            mcp.run_stdio()
+        else:
+            mcp.run(transport="stdio")
+
     try:
         print("[SentimentMCP] starting (stdio)...", flush=True)
-        mcp.run_stdio()
-        mcp.run(transport="stdio")
+        _run_stdio()
     except Exception as e:
-        print("[SentimentMCP] run_stdio failed:", repr(e), file=sys.stderr, flush=True)
-        print("[SentimentMCP] run(transport=\"stdio\") failed:", repr(e), file=sys.stderr, flush=True)
+        print("[SentimentMCP] stdio run failed:", repr(e), file=sys.stderr, flush=True)
         traceback.print_exc()
         try:
             print("[SentimentMCP] falling back to run()...", flush=True)

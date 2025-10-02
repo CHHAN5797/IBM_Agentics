@@ -746,14 +746,14 @@ def find_similar_proposals(
             except Exception:
                 pass
 
-            # TVL impact (±7d around end)
+            # TVL impact (±3d around end)
             if end_utc_str:
                 try:
                     tvl_impact = get_tvl_impact_for_proposal(
                         space=space,
                         proposal_end_utc=end_utc_str,
-                        pre_days=7,
-                        post_days=7
+                        pre_days=3,
+                        post_days=3
                     )
                     enriched_proposal["tvl_impact"] = tvl_impact
                 except Exception as e:
@@ -763,14 +763,14 @@ def find_similar_proposals(
                         "error": f"TVL analysis error: {str(e)}"
                     }
 
-            # Price impact (±7d around end)
+            # Price impact (±3d around end)
             if end_utc_str:
                 try:
                     price_impact = get_price_impact_for_proposal(
                         space=space,
                         proposal_end_utc=end_utc_str,
-                        pre_days=7,
-                        post_days=7
+                        pre_days=3,
+                        post_days=3
                     )
                     enriched_proposal["price_impact"] = price_impact
                 except Exception as e:

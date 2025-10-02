@@ -239,7 +239,7 @@ def resolve_protocol_from_snapshot_space(space: str) -> Optional[str]:
 
 
 def event_stats_tvl(
-    df: pd.DataFrame, event_time_utc: str, pre_days=7, post_days=7
+    df: pd.DataFrame, event_time_utc: str, pre_days=3, post_days=3
 ) -> Dict[str, Any]:
     """Compute TVL statistics around an event time."""
     from dataclasses import dataclass
@@ -294,7 +294,7 @@ def event_stats_tvl(
 
 
 def get_tvl_impact_for_proposal(
-    space: str, proposal_end_utc: str, pre_days: int = 7, post_days: int = 7
+    space: str, proposal_end_utc: str, pre_days: int = 3, post_days: int = 3
 ) -> Dict[str, Any]:
     """Get TVL impact analysis for a proposal."""
     try:

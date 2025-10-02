@@ -58,7 +58,8 @@ def run_both_and_save(
     messages: List[Dict[str, str]],
     decision_root: str = "Decision_runs",
     openai_model: str = "gpt-4o-mini",
-    grok_model: str = "grok-2",
+    grok_model: Optional[str] = "grok-2",
+    enable_grok: Optional[bool] = None,
     **kwargs
 ) -> Dict[str, str]:
     """
@@ -71,7 +72,7 @@ def run_both_and_save(
 
     paths: Dict[str, str] = {}
 
-    # OpenAI
+    # OpenAI (always-on)
     oai_res: Optional[LLMResult] = None
     oai_err: Optional[str] = None
     try:
@@ -82,16 +83,23 @@ def run_both_and_save(
     oai_dir = _save_run(root, "openai", tag, messages, oai_res, oai_err)
     paths["openai"] = str(oai_dir)
 
-    # Grok (xAI)
-    grok_res: Optional[LLMResult] = None
-    grok_err: Optional[str] = None
-    try:
-        grok = GrokClient()
-        grok_res = grok.chat(messages, model=grok_model, **kwargs)
-    except Exception as e:
-        grok_err = f"{type(e).__name__}: {e}"
-    grok_dir = _save_run(root, "grokai", tag, messages, grok_res, grok_err)
-    paths["grokai"] = str(grok_dir)
+    grok_enabled = enable_grok
+    if grok_enabled is None:
+        grok_enabled = bool(grok_model)
+
+    grok_dir: Optional[Path] = None
+    if grok_enabled and grok_model:
+        grok_res: Optional[LLMResult] = None
+        grok_err: Optional[str] = None
+        try:
+            grok = GrokClient()
+            grok_res = grok.chat(messages, model=grok_model, **kwargs)
+        except Exception as e:
+            grok_err = f"{type(e).__name__}: {e}"
+        grok_dir = _save_run(root, "grokai", tag, messages, grok_res, grok_err)
+        paths["grokai"] = str(grok_dir)
+    else:
+        paths["grokai"] = ""
 
     return paths
 

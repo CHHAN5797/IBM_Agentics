@@ -572,8 +572,8 @@ def compute_token_price_impact_from_parquet(
     parquet_path: Path,
     ucid: str,
     event_end_utc: str,
-    pre_days: int = 7,
-    post_days: int = 7,
+    pre_days: int = 3,
+    post_days: int = 3,
 ) -> Optional[float]:
     if not parquet_path.exists():
         print(f"[price_impact] parquet not found: {parquet_path}")
@@ -651,8 +651,8 @@ def compute_tvl_impact_from_defillama_tool(
     slug: Optional[str],
     project_hint: Optional[str],
     event_end_utc: str,
-    pre_days: int = 7,
-    post_days: int = 7,
+    pre_days: int = 3,
+    post_days: int = 3,
 ) -> Optional[float]:
     evt_js = None
     print(f"[defillama] try link={link} slug={slug} project_hint={project_hint}")
@@ -712,8 +712,8 @@ def compute_price_impacts_for_adjacent(
     cmc_parquet: Path,
     ucid: Optional[str],
     adjacent: List[Dict[str, Any]],
-    pre_days: int = 7,
-    post_days: int = 7,
+    pre_days: int = 3,
+    post_days: int = 3,
 ) -> List[Dict[str, Any]]:
     out = []
     if not ucid:
@@ -1126,7 +1126,7 @@ def main() -> None:
         token_price_impact = None
         if cmc_ucid and cmc_parquet.exists():
             token_price_impact = compute_token_price_impact_from_parquet(
-                cmc_parquet, cmc_ucid, end_iso, 7, 7
+                cmc_parquet, cmc_ucid, end_iso, 3, 3
             )
 
         tvl_impact = compute_tvl_impact_from_defillama_tool(
@@ -1135,8 +1135,8 @@ def main() -> None:
             slug=defillama_slug if (defillama_slug and not defillama_link) else None,
             project_hint=space_hint,
             event_end_utc=end_iso,
-            pre_days=7,
-            post_days=7,
+            pre_days=3,
+            post_days=3,
         )
         print("\n=== Impact Preview (current) ===")
         print(
@@ -1152,10 +1152,10 @@ def main() -> None:
 
         # Past proposals price impact
         adj_price_impacts = compute_price_impacts_for_adjacent(
-            cmc_parquet, cmc_ucid, adjacent_list, 7, 7
+            cmc_parquet, cmc_ucid, adjacent_list, 3, 3
         )
         if adj_price_impacts:
-            print("\n=== Past Proposals — Token Price Impact (±7d) ===")
+            print("\n=== Past Proposals — Token Price Impact (±3d) ===")
             print(json.dumps(adj_price_impacts, indent=2, ensure_ascii=False))
 
         # --- Agent pass: plan ---

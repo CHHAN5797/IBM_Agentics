@@ -126,8 +126,8 @@ def _win_stats_price(seg: pd.DataFrame) -> PriceWindowResult:
 
 
 def event_stats_price(
-    df: pd.DataFrame, event_time_utc: str, pre_days: int = 7,
-    post_days: int = 7
+    df: pd.DataFrame, event_time_utc: str, pre_days: int = 3,
+    post_days: int = 3
 ) -> Dict[str, Any]:
     """Compute price statistics around an event time."""
     t0 = pd.to_datetime(event_time_utc, utc=True)
@@ -230,8 +230,8 @@ def _prepare_price_dataframe(
 
 
 def get_price_impact_for_proposal(
-    space: str, proposal_end_utc: str, pre_days: int = 7,
-    post_days: int = 7
+    space: str, proposal_end_utc: str, pre_days: int = 3,
+    post_days: int = 3
 ) -> Dict[str, Any]:
     """Get price impact analysis for a proposal."""
     try:

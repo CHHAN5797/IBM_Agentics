@@ -1,0 +1,61 @@
+{
+  "id": "0xb7457821239c6cdf9c010f555018e74e36f1959c9c6ef35be473428c1415d5f4",
+  "title": "[BIP-441] Enable qETH/WETH Gauge 2% Cap [Ethereum]",
+  "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/529\n\n**Summary:**\n>Tranches has been hosting qETH liquidity on Balancer for quite some time now. Adopting the bbaWETH boosted pools until recently has been a fruitful endeavor, but the best choice now is to qETH/WETH. This pool’s liquidity will serve as a basis for qETH liquidity and minimize risk overall. This will be considered a core pool, earn Balancer-related revenues, and support the LSD hub narrative.\n\n**References/Useful links:**\n\n> Link to:\n    • Website:https://tranchess.com/ \n• Documentation: https://docs.tranchess.com/ \n• Github Page: https://github.com/tranchess\n• Communities: [Twitter](https://twitter.com/tranchess), [Discord](https://discord.com/invite/tKxAq78VBr), [Telegram](https://discord.com/invite/tKxAq78VBr)\n\n\n**Protocol Description:**\n\n> Tranchess is a structured liquid staking and asset tracking protocol initially launched on BNB Chain in June 2021. It launched its BNB liquid staking fund in January 2022 with its own validator node and remains as one of the top 21 validator nodes and leading protocol on the BNB Chain.\n\n>Tranchess’  structure comprises one main token, known as the QUEEN token, and two tranches, BISHOP and ROOK. QUEEN tracks the underlying asset’s price and earns enhanced yield with yield farming and liquid staking features. QUEEN can be split evenly into two sub-tranches, BISHOP and ROOK. BISHOP is a stablecoin-like token that earns a steady interest by lending its underlying position to ROOK while sharing some of the liquid staking earnings. ROOK is a token with a built-in leveraged position to the underlying asset on top of its liquid staking earning base without the risk of forced liquidation.\n\n>Tranchess currently runs three asset-tracking pools: BTC, ETH and BNB on the BNB Chain, and and the ETH liquid staking pool on Ethereum. qETH is the liquid-staked ETH from the Tranchess Beacon chain staking system. For the convenience of future collaboration with other Ethereum protocols, qETH is designed so that the staking rewards of staked ETH is reflected as a change in the fair value of qETH, instead of a change in the number of qETH tokens. The qETH token amount will only change if users stake/unstake additional ETH with Tranchess. The proposed pool, qETH/WETH, allows users to swap between qETH and WETH, giving users the flexibility of swapping between qETH and WETH without going through the withdrawal process. Additionally, it serves as a basis for further incentivization activities such as the HiddenHand.\n\n\n**Motivation:**\n\n> The qETH/WETH pool is the cornerstone of the Tranchess ETH liquid staking product on Ethereum. Currently, the BNB liquid staking fund of Tranchess earns a total yield between 8.3% ~ 22.8%, a combination of Tranchess staking earning of CHESS (Tranchess governance token) and PoS staking. With the ETH liquid staking fund, Tranchess aims to provide a similar enhanced yield for users on Ethereum, and the qETH/WETH pool is an essential feature to a smooth user experience.\n\n>After several iterations of veBAL gauges, this goes back to the basics and incentivizes users to participate and would help quickly build up the liquidity of the pool at the beginning stage for a smoother swapping experience. The pool would naturally grow with the protocol, and we expect to facilitate the incentivization with Hidden Hand and the Balancer bribing narrative.\n\n\n**Specifications:**\n \n1. **Governance:** Tranchess’ governance token is CHESS, which users earn by staking with the Tranchess platform. CHESS holders can vote on various governance items, such as the staking earning split between BISHOP and ROOK, the weekly CHESS emission split among different funds, and can collect a weekly rebate of the protocol fees. CHESS holders also vote through Tranchess’s snapshot on proposals that are discussed and raised on the [Tranchess Forum](https://forum.tranchess.com/). Tranchess initiated its [Tranchess Community Counsel program](https://tranchess.medium.com/tranchess-community-council-tcc-408dfb1f5332) in April 2023 on further DAO exploration.\n\n2. **Oracles:** Tranchess adopts Chainlink as the price oracle.\n\n3. **Audits:** Tranchess has done multiple audits since launching as we continuously develop and improve the protocol. The most recent audit report can be found [here ](https://github.com/peckshield/publications/blob/master/audit_reports/PeckShield-Audit-Report-TranchessV2.1-v1.0.pdf). Additionally, Tranchess runs a [bug bounty program](https://immunefi.com/bounty/tranchess/) with Immunefi.\n\n4. **Centralization vectors:** \nThe token is not upgradeable or pausable.\nThe owner has limited minting capabilities and cannot blacklist the contract.\nTranchess ETH liquid staking is a decentralized ETH liquid staking product collectively run by the Tranchess dev team and node operators.\n\n5. **Market History:** \nLink to the [coingecko](https://www.coingecko.com/en/coins/queeneth)\n \n6. **Value:** The qETH/WETH pool would be the primary source of liquidity for Tranchess ETH liquid staking fund, a first stop that all Tranchess users would visit when staking with Tranchess. The pool organically grows with Tranchess ETH liquid staking volume, contributing to the Balancer community.\n\nPlease see full Three Rocks rate provider review [here](https://github.com/threerocks-defi/code-review/blob/main/rate-providers/QueenRateProvider.md).\n\nLink to the pool: [0x40C806394d03d350420d13CD7d1DE1C806f34956](https://etherscan.io/address/0x40C806394d03d350420d13CD7d1DE1C806f34956)\n\nLink to the gauge with 2% emissions cap: [0x6A58e7C904eCF991A3183d28FC73bE90732B7a30](https://etherscan.io/address/0x6A58e7C904eCF991A3183d28FC73bE90732B7a30)\n\n**Specifications**:\n\nThe Balancer Maxi LM Multisig `eth:0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function with the following arguments:\ngauge(address): `0x6A58e7C904eCF991A3183d28FC73bE90732B7a30`\ngaugeType(string): `Ethereum`",
+  "author": "0x021C5536bd60bCe9f15FB0E32746e332E3fbFAF4",
+  "choices": [
+    "Yes, let's do it",
+    "No, this is not the way",
+    "Abstain"
+  ],
+  "discussion": "https://forum.balancer.fi/t/bip-441-enable-qeth-weth-gauge-2-cap-ethereum/5219",
+  "start": 1695945600,
+  "end": 1696233600,
+  "state": "closed",
+  "space": {
+    "id": "aurafinance.eth",
+    "name": "Aura Finance",
+    "strategies": [
+      {
+        "name": "erc20-balance-of",
+        "network": "1",
+        "params": {
+          "symbol": "vlAURA",
+          "address": "0x3fa73f1e5d8a792c80f426fc8f84fbf7ce9bbcac",
+          "decimals": 18
+        }
+      },
+      {
+        "name": "delegation-with-overrides",
+        "network": "1",
+        "params": {
+          "symbol": "vlAURA (delegated)",
+          "overrides": {
+            "0x2ad55394E12016c510D3C35d91Da7d90A758b7FD": "0x1f4F47f8b55CCd4e3b674Db90E4277b7073fdE27"
+          },
+          "strategies": [
+            {
+              "name": "erc20-balance-of",
+              "params": {
+                "symbol": "vlAURA",
+                "address": "0x3fa73f1e5d8a792c80f426fc8f84fbf7ce9bbcac",
+                "decimals": 18
+              },
+              "delegationSpace": "aurafinance.eth"
+            }
+          ],
+          "delegationSpace": "aurafinance.eth"
+        }
+      },
+      {
+        "name": "erc20-balance-of",
+        "network": "8453",
+        "params": {
+          "symbol": "vlAURA",
+          "address": "0x9e1f4190f1a8Fe0cD57421533deCB57F9980922e",
+          "decimals": 18
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "id": "0xea237ba7b2f2490a03839b0919ebdaf93e25122ff4fc99a682afe7f8118ea52b",
+  "title": "[BIP-496] Enable osETH/ETH Gauge [Ethereum] with 10% emission cap",
+  "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/668\n\n## Summary\n\nProposal to add gauge support for the new [osETH/ETH Composable Stable](https://app.balancer.fi/#/1/pool/0xdacf5fa19b1f720111609043ac67a9818262850c000000000000000000000635) with a 10% gauge cap.\n\n## References/Useful links\n• [Website\n](https://stakewise.io) • [Documentation\n](https://docs-v3.stakewise.io/) • [Github Page\n](https://github.com/stakewise/v3-core) •  [Twitter](https://twitter.com/stakewise_io) - ~10K followers\n• [What is osETH?](https://stakewise.medium.com/what-is-oseth-a-deep-dive-into-the-overcollateralized-staked-ether-token-of-stakewise-v3-part-1-37d14e28282a)\n\n## Protocol Description\n\nStakeWise was the first non-custodial liquid staking solution on Ethereum, launched in early 2021, with a little over 100k ETH currently staked. After over a year of development and testing, the V3 upgrade is now live on Mainnet. StakeWise V3 is the (Gnosis) Safe of ETH staking, a free public good that aims to fully democratize the staking ecosystem and greatly improve the decentralisation of staked capital. Any entity can offer trustless, non-custodial staking-as-a-service via an open marketplace that gives stakers the ability to delegate to their preferred operators/staking solutions. For more details about StakeWise V3, please refer to the [StakeWise V3 Announcement](https://stakewise.medium.com/stakewise-v3-announcement-9e4fe73abdf2).\n\nStakeWise V3 features a liquid staking token, osETH, that any staker can mint to access DeFi. osETH minting is optional and can be done on-demand, for times when a liquid staking token is needed. The liquidity and integrations for osETH are provided by StakeWise DAO, creating a ready-made liquid staking ecosystem for any operator to plug into. The osETH token has in-built slashing protection due to its overcollateralisation and accrues yield from a highly diverse set of node operators. osETH is a new token that is launching with StakeWise V3 and, consequently, there is no historical price data to refer to.\n\nThe protocol is governed by StakeWise DAO, a [community-owned](https://docs.stakewise.io/governance/stakewise-dao#tokenomics) DAO with all voting rights falling to holders of SWISE, the StakeWise governance token.\n\n## Motivation\n\nosETH will be the main LST for StakeWise moving forward and the osETH-ETH Balancer pool will be the primary liquidity venue. A gauge is necessary to help bootstrap the pool’s TVL.\n\n## Specifications\n\n**1. Governance** \nThe StakeWise DAO is [community owned](https://docs.stakewise.io/governance/stakewise-dao#tokenomics) with all voting rights falling to holders of SWISE, the StakeWise governance token. The majority of the protocol’s smart contracts are immutable (incl. osETH). Contracts that are upgradable require a successful DAO vote followed by the approval of a Vault admin/owner to ensure users of the protocol retain full control over contract upgradeability.\n\n**2. Oracles** \nStakeWise relies on an Oracle network to accurately report validator balances to the protocol smart contracts. StakeWise has 11 leading commercial operators all acting under SLAs to ensure the Network runs efficiently (more information can be found [here](https://docs-v3.stakewise.io/protocol-overview-in-depth/oracles)).\n\n**3. Audits** \nHalborn and Sigma Prime ([reports are here](https://github.com/stakewise/v3-core/tree/main/audits)), alongside a public audit competition hosted by [Hats Finance](https://twitter.com/HatsFinance/status/1712166174459347001).\n\n**4. Centralization vectors**\nNo, both the StakeWise DAO and the Oracle network are decentralised.\n\n**5. Market History**\nNone, osETH is a newly deployed token.\n[Balancer pool link](https://app.balancer.fi/#/1/pool/0xdacf5fa19b1f720111609043ac67a9818262850c000000000000000000000635)\n[Gauge link](https://etherscan.io/address/0xc592c33e51A764B94DB0702D8BAf4035eD577aED)\n\n**6. Value**\nThis new Balancer pool will be the primary source of liquidity for the token.\n\n**Note:** The owner of the Pool is set to Balancer DAO and the Yield Protocol Fee has been disabled on this pool, thus not making it eligible for Core Pool status.\n\n**Specification**:\n\nThe Balancer Maxi LM Multisig eth:`0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function with the following arguments:\ngauge(address):`0xc592c33e51A764B94DB0702D8BAf4035eD577aED`\ngaugeType(string): `Ethereum`",
+  "author": "0x021C5536bd60bCe9f15FB0E32746e332E3fbFAF4",
+  "choices": [
+    "Yes, let's do it",
+    "No, this is not the way",
+    "Abstain"
+  ],
+  "discussion": "https://forum.balancer.fi/t/bip-496-enable-oseth-eth-gauge-ethereum-with-10-emission-cap/5356",
+  "start": 1701370800,
+  "end": 1701658800,
+  "state": "closed",
+  "space": {
+    "id": "aurafinance.eth",
+    "name": "Aura Finance",
+    "strategies": [
+      {
+        "name": "erc20-balance-of",
+        "network": "1",
+        "params": {
+          "symbol": "vlAURA",
+          "address": "0x3fa73f1e5d8a792c80f426fc8f84fbf7ce9bbcac",
+          "decimals": 18
+        }
+      },
+      {
+        "name": "delegation-with-overrides",
+        "network": "1",
+        "params": {
+          "symbol": "vlAURA (delegated)",
+          "overrides": {
+            "0x2ad55394E12016c510D3C35d91Da7d90A758b7FD": "0x1f4F47f8b55CCd4e3b674Db90E4277b7073fdE27"
+          },
+          "strategies": [
+            {
+              "name": "erc20-balance-of",
+              "params": {
+                "symbol": "vlAURA",
+                "address": "0x3fa73f1e5d8a792c80f426fc8f84fbf7ce9bbcac",
+                "decimals": 18
+              },
+              "delegationSpace": "aurafinance.eth"
+            }
+          ],
+          "delegationSpace": "aurafinance.eth"
+        }
+      },
+      {
+        "name": "erc20-balance-of",
+        "network": "8453",
+        "params": {
+          "symbol": "vlAURA",
+          "address": "0x9e1f4190f1a8Fe0cD57421533deCB57F9980922e",
+          "decimals": 18
+        }
+      }
+    ]
+  }
+}
