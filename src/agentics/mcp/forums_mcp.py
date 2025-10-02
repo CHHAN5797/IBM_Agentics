@@ -1,6 +1,7 @@
 # --- PATCH START: forums_mcp.py ---
 
 from __future__ import annotations
+import json
 import time, random
 from typing import Dict, Any, List, Optional, Tuple, Annotated
 from urllib.parse import urlparse, urlunparse, parse_qsl, urlencode
@@ -59,15 +60,17 @@ def _is_discourse(url: str) -> bool:
     return h in FORUM_HOSTS and "/t/" in path
 
 def _with_page_json(u: str, page: int) -> str:
-    pu = urlparse(u if u.endswith(".json") else (u.rstrip("/") + ".json"))
+    pu = urlparse(u)
+    if not pu.path.endswith(".json"):
+        pu = pu._replace(path=pu.path.rstrip("/") + ".json")
     q = dict(parse_qsl(pu.query))
     q["include_raw"] = "1"
     if page > 1:
         q["page"] = str(page)
     else:
         q.pop("page", None)
-    pu2 = pu._replace(query=urlencode(q))
-    return urlunparse(pu2)
+    pu = pu._replace(query=urlencode(q))
+    return urlunparse(pu)
 
 
 def _get(url: str) -> requests.Response:
@@ -154,7 +157,19 @@ def fetch_discussion(
                 return {"type": "generic", "note": "Not a Discourse JSON page", "url": url, "status": rr.status_code}
             break
 
-        j = rr.json()
+        try:
+            j = rr.json()
+        except (json.JSONDecodeError, requests.exceptions.JSONDecodeError):
+            if page == 1:
+                return {
+                    "type": "generic",
+                    "note": "Response is not valid JSON",
+                    "url": url,
+                    "status": rr.status_code,
+                    "content_type": rr.headers.get("Content-Type", "")
+                }
+            break
+
         if page == 1 and not (tried_whitelist or is_discourse_like(j)):
             return {"type": "generic", "note": "JSON fetched but not Discourse-like", "url": url}
 
