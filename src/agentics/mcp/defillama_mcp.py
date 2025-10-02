@@ -204,6 +204,104 @@ def load_tvl(slug: str) -> pd.DataFrame:
     return df.sort_values("date").dropna()
 
 
+def fetch_chain_tvl(chain_name: str) -> List[Tuple[int, float]]:
+    """
+    Fetch historical chain-level TVL from DeFiLlama.
+
+    Args:
+        chain_name: Chain name (e.g., 'Arbitrum', 'Ethereum')
+
+    Returns:
+        List of (unix_timestamp, tvl_usd) tuples
+    """
+    if not chain_name or not isinstance(chain_name, str):
+        raise ValueError("chain_name must be a non-empty string")
+
+    url = f"{LLAMA_BASE}/v2/historicalChainTvl/{chain_name}"
+    data = _get_json(url)
+
+    pairs = []
+    for item in data:
+        if isinstance(item, dict) and "date" in item and "tvl" in item:
+            try:
+                pairs.append((int(item["date"]), float(item["tvl"])))
+            except Exception:
+                pass
+    return pairs
+
+
+def _chain_tvl_path(chain_name: str) -> Path:
+    """Path for chain TVL parquet cache."""
+    return TVL_DIR / f"chain_{chain_name.lower()}.parquet"
+
+
+def refresh_chain_tvl_cache(chain_name: str) -> Dict[str, Any]:
+    """
+    Refresh chain TVL cache for a given chain.
+
+    Args:
+        chain_name: Chain name (e.g., 'Arbitrum', 'Ethereum')
+
+    Returns:
+        Dictionary with cache update statistics
+    """
+    pairs = fetch_chain_tvl(chain_name)
+    new_df = tvl_to_df(pairs)
+    fpath = _chain_tvl_path(chain_name)
+
+    if new_df.empty:
+        before = 0 if not fpath.exists() else len(pd.read_parquet(fpath))
+        return {
+            "chain": chain_name,
+            "rows_before": before,
+            "rows_added": 0,
+            "rows_after": before,
+            "written": False,
+        }
+
+    if fpath.exists():
+        old = pd.read_parquet(fpath)
+        before = len(old)
+        merged = (
+            pd.concat([old, new_df], ignore_index=True)
+            .drop_duplicates(subset=["date"])
+            .sort_values("date")
+        )
+    else:
+        before = 0
+        merged = new_df
+
+    rows_after = len(merged)
+    rows_added = rows_after - before
+    merged.to_parquet(fpath, index=False)
+    return {
+        "chain": chain_name,
+        "rows_before": before,
+        "rows_added": rows_added,
+        "rows_after": rows_after,
+        "written": True,
+    }
+
+
+def load_chain_tvl(chain_name: str) -> pd.DataFrame:
+    """
+    Load chain TVL from parquet cache.
+
+    Args:
+        chain_name: Chain name (e.g., 'Arbitrum', 'Ethereum')
+
+    Returns:
+        DataFrame with 'date' and 'tvl' columns
+    """
+    f = _chain_tvl_path(chain_name)
+    if not f.exists():
+        raise FileNotFoundError(
+            f"Chain TVL cache not found for chain={chain_name!r}"
+        )
+    df = pd.read_parquet(f)
+    return df.sort_values("date").dropna()
+
+
 def _snapshot_base(hint: str) -> Optional[str]:
     if not hint:
         return None
@@ -342,7 +440,7 @@ def resolve_protocol(
 @mcp.tool(
     name="refresh_protocol",
     title="Refresh Protocol TVL Data",
-    description="Ensure local TVL data cache is updated for a specific DeFi protocol. Use this to fetch the latest Total Value Locked (TVL) data from DeFiLlama and store it locally for analysis.",
+    description="Ensure local TVL data cache is updated for a specific DeFi protocol or chain. Use this to fetch the latest Total Value Locked (TVL) data from DeFiLlama and store it locally for analysis.",
     annotations={
         "readOnlyHint": False,
         "openWorldHint": True,
@@ -351,14 +449,22 @@ def resolve_protocol(
 )
 def refresh_protocol(
     slug: Annotated[str, Field(
-        description="DeFi protocol slug identifier (e.g., 'aave', 'uniswap-v3', 'compound')",
+        description="DeFi protocol slug identifier (e.g., 'aave', 'uniswap-v3', 'compound') or chain name (e.g., 'Arbitrum', 'Ethereum')",
         min_length=1,
         max_length=100
-    )]
+    )],
+    entity_type: Annotated[str, Field(
+        description="Entity type: 'protocol' for DeFi protocols or 'chain' for blockchain networks",
+        pattern="^(protocol|chain)$"
+    )] = "protocol"
 ) -> Dict[str, Any]:
-    """Ensure local TVL parquet exists/updated for a given slug."""
+    """Ensure local TVL parquet exists/updated for a given slug or chain."""
     if not slug or not isinstance(slug, str):
         raise ValueError("slug must be a non-empty string")
+
+    if entity_type == "chain":
+        return refresh_chain_tvl_cache(slug)
+
     canon = slug.strip().lower()
     if not canon:
         raise ValueError("slug must be a non-empty string")
@@ -372,7 +478,7 @@ def refresh_protocol(
 @mcp.tool(
     name="event_window",
     title="Analyze TVL Event Impact",
-    description="Analyze TVL (Total Value Locked) changes around a specific event time for a DeFi protocol. Computes abnormal TVL changes by comparing pre-event and post-event periods. Use this for governance impact analysis and market event correlation studies.",
+    description="Analyze TVL (Total Value Locked) changes around a specific event time for a DeFi protocol or chain. Computes abnormal TVL changes by comparing pre-event and post-event periods. Use this for governance impact analysis and market event correlation studies.",
     annotations={
         "readOnlyHint": True,
         "openWorldHint": True,
@@ -381,7 +487,7 @@ def refresh_protocol(
 )
 def event_window(
     slug: Annotated[str, Field(
-        description="DeFi protocol slug identifier (e.g., 'aave', 'uniswap-v3', 'compound')",
+        description="DeFi protocol slug identifier (e.g., 'aave', 'uniswap-v3', 'compound') or chain name (e.g., 'Arbitrum', 'Ethereum')",
         min_length=1,
         max_length=100
     )],
@@ -390,6 +496,10 @@ def event_window(
         min_length=1,
         max_length=50
     )],
+    entity_type: Annotated[str, Field(
+        description="Entity type: 'protocol' for DeFi protocols or 'chain' for blockchain networks",
+        pattern="^(protocol|chain)$"
+    )] = "protocol",
     pre_days: Annotated[int, Field(
         description="Number of days before the event to analyze for baseline TVL",
         ge=1,
@@ -404,6 +514,22 @@ def event_window(
     """Compute TVL abnormal change around `event_time_utc`."""
     if not slug or not isinstance(slug, str):
         raise ValueError("slug must be a non-empty string")
+
+    if entity_type == "chain":
+        try:
+            df = load_chain_tvl(slug)
+        except FileNotFoundError:
+            refresh_chain_tvl_cache(slug)
+            df = load_chain_tvl(slug)
+        stats = event_stats_tvl(
+            df, event_time_utc, pre_days=pre_days, post_days=post_days
+        )
+        return {
+            "chain": slug,
+            "window": {"pre_days": pre_days, "post_days": post_days},
+            "stats": stats,
+        }
+
     canon = slug.strip().lower()
     if not canon:
         raise ValueError("slug must be a non-empty string")

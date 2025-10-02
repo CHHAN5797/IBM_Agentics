@@ -614,6 +614,7 @@ def _registry_csv_lookup_space_only(
             or ""
         ).strip()
         row_slug = (low.get("defillama_slug") or "").strip()
+        row_type = (low.get("defillama_type") or "").strip()
         row_contracts_raw = (
             low.get("contracts") or low.get("contract") or ""
         ).strip()
@@ -628,6 +629,7 @@ def _registry_csv_lookup_space_only(
                 "cmc_ticker": row_ticker or None,
                 "defillama_name": row_defi or None,
                 "defillama_slug": row_slug or None,
+                "defillama_type": row_type or None,
                 "contracts": _split_contracts(row_contracts_raw) or None,
             }
 
@@ -869,6 +871,7 @@ def compute_tvl_impact_from_defillama_tool(
     *,
     slug: Optional[str],
     project_hint: Optional[str],
+    entity_type: Optional[str] = None,
     event_end_utc: str,
     pre_days: int = 7,
     post_days: int = 7,
@@ -883,9 +886,11 @@ def compute_tvl_impact_from_defillama_tool(
 
     Args:
         tools: Available MCP tools
-        slug: DeFiLlama protocol slug (e.g., 'aave', 'uniswap')
+        slug: DeFiLlama protocol slug (e.g., 'aave', 'uniswap') or
+            chain name (e.g., 'Arbitrum')
         project_hint: Project name for slug resolution if slug not
             provided
+        entity_type: 'protocol' or 'chain' (default: 'protocol')
         event_end_utc: Event timestamp in ISO format
         pre_days: Days before event for baseline
         post_days: Days after event for impact
@@ -895,10 +900,11 @@ def compute_tvl_impact_from_defillama_tool(
     """
     evt_js = None
     final_slug = None
+    final_entity_type = entity_type or "protocol"
 
     # 1) Direct slug path
     if slug:
-        print(f"[tvl_impact] using slug={slug!r}")
+        print(f"[tvl_impact] using slug={slug!r}, type={final_entity_type}")
         final_slug = slug
     # 2) Resolve path
     elif project_hint:
@@ -935,7 +941,7 @@ def compute_tvl_impact_from_defillama_tool(
     refresh_res = _invoke_tool_try_names_and_params(
         tools,
         ["defillama_refresh_protocol", "refresh_protocol"],
-        [{"slug": final_slug}],
+        [{"slug": final_slug, "entity_type": final_entity_type}],
     )
     if refresh_res:
         print(
@@ -951,6 +957,7 @@ def compute_tvl_impact_from_defillama_tool(
             {
                 "slug": final_slug,
                 "event_time_utc": event_end_utc,
+                "entity_type": final_entity_type,
                 "pre_days": pre_days,
                 "post_days": post_days,
             }
@@ -1280,6 +1287,7 @@ def _adjacent_analytics(
     cmc_parquet: Path,
     ucid: Optional[str],
     slug: Optional[str],
+    entity_type: Optional[str],
     project_hint: Optional[str],
     current_title: Optional[str],
     current_body: Optional[str],
@@ -1323,6 +1331,7 @@ def _adjacent_analytics(
             tvl_imp = compute_tvl_impact_from_defillama_tool(
                 tools,
                 slug=slug,
+                entity_type=entity_type,
                 project_hint=project_hint,
                 event_end_utc=end_iso or "",
                 pre_days=7,
@@ -1409,12 +1418,14 @@ def main() -> None:
         token_address = _extract_token_address_from_meta(meta_js)
         ucid = None
         defillama_slug = None
+        defillama_type = None
         # try registry by space
         space = _space_from_url(snapshot_url)
         reg = _registry_csv_lookup_space_only(registry_csv, space=space)
         if reg:
             ucid = _clean_ucid(reg.get("cmc_ucid"))
             defillama_slug = reg.get("defillama_slug")
+            defillama_type = reg.get("defillama_type")
         project_hint = _pick_project_hint(space, title)
 
         market_pre_days = 7
@@ -1434,6 +1445,7 @@ def main() -> None:
         tvl_impact = compute_tvl_impact_from_defillama_tool(
             all_tools,
             slug=defillama_slug,
+            entity_type=defillama_type,
             project_hint=project_hint,
             event_end_utc=end_iso or "",
             pre_days=market_pre_days,
@@ -1507,6 +1519,7 @@ def main() -> None:
             cmc_parquet=project_root / "cmc_historical_daily_2013_2025.parquet",
             ucid=ucid,
             slug=defillama_slug,
+            entity_type=defillama_type,
             project_hint=project_hint,
             current_title=title,
             current_body=body,
