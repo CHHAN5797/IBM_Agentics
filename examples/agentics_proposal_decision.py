@@ -1398,6 +1398,32 @@ def main() -> None:
         author = meta_js.get("author")
         choices = meta_js.get("choices") or []
         discussion_url = meta_js.get("discussion")
+        forum_sentiment_summary = None
+        if discussion_url:
+            forum_discussion = _invoke_tool_try_names_and_params(
+                all_tools,
+                ["forums_fetch_discussion", "fetch_discussion"],
+                [{"url": discussion_url, "max_pages": 5}],
+            )
+            if isinstance(forum_discussion, dict):
+                sentiment_summary = forum_discussion.get("sentiment_summary")
+                posts = forum_discussion.get("posts")
+
+                def _safe_int(value: Any) -> int:
+                    try:
+                        return int(value)
+                    except (TypeError, ValueError):
+                        return 0
+
+                if isinstance(sentiment_summary, dict) and isinstance(posts, list):
+                    forum_sentiment_summary = {
+                        "Negative": _safe_int(sentiment_summary.get("Negative")),
+                        "Positive": _safe_int(sentiment_summary.get("Positive")),
+                        "Neutral": _safe_int(sentiment_summary.get("Neutral")),
+                        "total_comments": len(posts),
+                    }
+        
+        
         start_unix = int(meta_js.get("start") or 0)
         end_unix = int(meta_js.get("end") or 0)
         start_iso = _iso_from_unix(start_unix)
@@ -1769,6 +1795,11 @@ def main() -> None:
             "actual_outcome": actual_outcome,
             "match_result": match_result,  # "same" | "different" | None
         }
+        
+        if forum_sentiment_summary is not None:
+            payload["forum_sentiment_summary"] = forum_sentiment_summary
+            print("Forum sentiment:", forum_sentiment_summary)
+
 
         logdir = project_root / "Decision_runs"
         logdir.mkdir(parents=True, exist_ok=True)
