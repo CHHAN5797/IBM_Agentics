@@ -31,7 +31,8 @@ dependencies = [
     "mcp (>=1.13.1,<2.0.0)",
     "google (>=3.0.0,<4.0.0)",
     "ipywidgets>=8.1.7",
-    "duckdb"
+    "duckdb",
+    "nltk (>=3.9.1,<4.0.0)"
 ]
 
 [tool.uv]
