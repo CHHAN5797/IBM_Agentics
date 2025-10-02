@@ -17,6 +17,7 @@ This version includes:
 import csv
 import html as _html_mod
 import json
+import pandas as pd
 import os
 import random
 import re
@@ -671,7 +672,7 @@ def _select_adjacent_proposals(
     *,
     max_days: int = 60,
     max_n: int = 10,
-    jaccard_min: float = 0.30,
+    jaccard_min: float = 0.24,
     current_author: Optional[str] = None,
     current_title: Optional[str] = None,
     current_body: Optional[str] = None,
@@ -695,7 +696,7 @@ def _select_adjacent_proposals(
             break
     cur_tok = _tokens((current_title or "") + " " + (current_body or ""))
 
-    def _match_topic_or_author(p: Dict[str, Any]) -> bool:
+    def _match_topic_or_author(p: Dict[str, Any], threshold: float) -> bool:
         if (
             current_author
             and p.get("author")
@@ -705,11 +706,22 @@ def _select_adjacent_proposals(
         sim = _jaccard(
             cur_tok, _tokens((p.get("title") or "") + " " + (p.get("body") or ""))
         )
-        return sim >= jaccard_min
+        return sim >= threshold
 
-    filtered = [p for p in within_days if _match_topic_or_author(p)]
+    thresholds = [
+        float(jaccard_min),
+        max(float(jaccard_min) - 0.06, 0.08),
+        max(float(jaccard_min) - 0.12, 0.05),
+    ]
+
+    filtered: List[Dict[str, Any]] = []
+    for thresh in thresholds:
+        filtered = [p for p in within_days if _match_topic_or_author(p, thresh)]
+        if filtered:
+            break
+
     base = filtered if filtered else within_days
-    take_k = min(len(within_days), max_n) if within_days else min(len(base), max_n)
+    take_k = min(len(base), max_n)
     return base[:take_k]
 
 
@@ -727,6 +739,58 @@ def _pct_change(pre_vals: List[float], post_vals: List[float]) -> Optional[float
         return None
     return (post_avg / pre_avg - 1.0) * 100.0
 
+def _summarize_vote_outcome(
+    choices: List[Any],
+    scores: Optional[List[Any]],
+    scores_total: Optional[Any],
+) -> Optional[Dict[str, Any]]:
+    if not choices or not scores:
+        return None
+    try:
+        float_scores = [float(x) for x in scores]
+    except (TypeError, ValueError):
+        return None
+    if not float_scores:
+        return None
+
+    winner_idx = max(range(len(float_scores)), key=float_scores.__getitem__)
+    winner_label = choices[winner_idx] if 0 <= winner_idx < len(choices) else None
+    winner_score = float_scores[winner_idx]
+    runner_up_score = max(
+        (score for i, score in enumerate(float_scores) if i != winner_idx),
+        default=0.0,
+    )
+    margin_abs = winner_score - runner_up_score
+    try:
+        total_val = (
+            float(scores_total)
+            if scores_total is not None
+            else sum(float_scores)
+        )
+    except (TypeError, ValueError):
+        total_val = sum(float_scores)
+
+    summary: Dict[str, Any] = {
+        "winner_index": winner_idx,
+        "winner_label": winner_label,
+        "margin_abs": margin_abs,
+        "scores_total": total_val,
+    }
+    if total_val:
+        summary["margin_pct"] = margin_abs / total_val
+    return summary
+
+
+def _recommended_index_to_stance(value: Optional[Any]) -> Optional[str]:
+    try:
+        idx = int(value)
+    except (TypeError, ValueError):
+        return None
+    if idx == 0:
+        return "To change"
+    if idx == 1:
+        return "Not change, Status quo"
+    return None
 
 def compute_token_price_impact_from_parquet(
     parquet_path: Path,
@@ -1226,41 +1290,13 @@ def _adjacent_analytics(
             )
             end_iso = _iso_from_unix(end)
             result_js = _fetch_result_by_id(pid) if pid else {}
-            scores = (result_js or {}).get("scores") or []
-            scores_total = (result_js or {}).get("scores_total")
-            actual_vote: Optional[Dict[str, Any]] = None
-            if scores and choices:
-                try:
-                    float_scores = [float(x) for x in scores]
-                except (TypeError, ValueError):
-                    float_scores = []
-                if float_scores:
-                    winner_idx = max(range(len(float_scores)), key=float_scores.__getitem__)
-                    winner_label = (
-                        choices[winner_idx] if 0 <= winner_idx < len(choices) else None
-                    )
-                    winner_score = float_scores[winner_idx]
-                    runner_up_score = max(
-                        (score for i, score in enumerate(float_scores) if i != winner_idx),
-                        default=0.0,
-                    )
-                    margin_abs = winner_score - runner_up_score
-                    total_val = None
-                    try:
-                        total_val = float(scores_total) if scores_total is not None else sum(float_scores)
-                    except (TypeError, ValueError):
-                        total_val = sum(float_scores)
-                    margin_pct = (
-                        (margin_abs / total_val) if total_val else None
-                    )
-                    actual_vote = {
-                        "winner_index": winner_idx,
-                        "winner_label": winner_label,
-                        "margin_abs": margin_abs,
-                        "scores_total": total_val,
-                    }
-                    if margin_pct is not None:
-                        actual_vote["margin_pct"] = margin_pct
+            actual_vote = _summarize_vote_outcome(
+                choices,
+                (result_js or {}).get("scores"),
+                (result_js or {}).get("scores_total"),
+            )
+
+            
             
             price_imp = (
                 compute_token_price_impact_from_parquet(cmc_parquet, ucid, end_iso)
@@ -1367,11 +1403,16 @@ def main() -> None:
             slug = _slug_from_defillama_link(llamalink)
         project_hint = _pick_project_hint(space, title)
 
+        market_pre_days = 7
+        market_post_days = 7
+
         token_price_impact = (
             compute_token_price_impact_from_parquet(
                 project_root / "cmc_historical_daily_2013_2025.parquet",
                 ucid or "",
                 end_iso or "",
+                pre_days=market_pre_days,
+                post_days=market_post_days,
             )
             if ucid and end_iso
             else None
@@ -1382,8 +1423,61 @@ def main() -> None:
             slug=slug,
             project_hint=project_hint,
             event_end_utc=end_iso or "",
+            pre_days=market_pre_days,
+            post_days=market_post_days,
         )
 
+        SIMILAR_PROPOSALS_DATA: List[Dict[str, Any]] = []
+        if space and pid:
+            similar_raw = _invoke_tool_try_names_and_params(
+                all_tools,
+                ["snapshot_find_similar_proposals", "find_similar_proposals"],
+                [
+                    {
+                        "proposal_id": pid,
+                        "space": space,
+                        "max_days": 90,
+                        "max_n": 7,
+                    }
+                ],
+            )
+            if isinstance(similar_raw, list):
+                for entry in similar_raw:
+                    if not isinstance(entry, dict):
+                        continue
+                    vote_result = (
+                        entry.get("vote_result")
+                        if isinstance(entry.get("vote_result"), dict)
+                        else None
+                    )
+                    vote_summary = None
+                    if vote_result:
+                        vote_summary = _summarize_vote_outcome(
+                            vote_result.get("choices"),
+                            vote_result.get("scores"),
+                            vote_result.get("scores_total"),
+                        )
+                    end_utc = entry.get("end_utc")
+                    if not end_utc:
+                        end_utc = _iso_from_unix(entry.get("end"))
+                    cleaned = {
+                        "id": entry.get("id"),
+                        "title": entry.get("title"),
+                        "author": entry.get("author"),
+                        "end_utc": end_utc,
+                        "similarity_score": entry.get("similarity_score"),
+                        "vote_result": vote_result,
+                        "tvl_impact": entry.get("tvl_impact"),
+                        "price_impact": entry.get("price_impact"),
+                        "winning_option": None,
+                        "winning_margin_abs": None,
+                        "winning_margin_pct": None,
+                    }
+                    if vote_summary:
+                        cleaned["winning_option"] = vote_summary.get("winner_label")
+                        cleaned["winning_margin_abs"] = vote_summary.get("margin_abs")
+                        cleaned["winning_margin_pct"] = vote_summary.get("margin_pct")
+                    SIMILAR_PROPOSALS_DATA.append(cleaned)
 
         # Adjacent proposals (select by time/topic) and analytics + similarity
         all_in_space = _fetch_all_proposals_by_space(space) if space else []
@@ -1407,6 +1501,122 @@ def main() -> None:
             max_items=3,
         )
 
+        SIMILAR_PROPOSALS_DATA: List[Dict[str, Any]] = []
+        similar_raw = None
+        if space and pid:
+            similar_raw = _invoke_tool_try_names_and_params(
+                all_tools,
+                ["snapshot_find_similar_proposals", "find_similar_proposals"],
+                [
+                    {"proposal_id": pid, "space": space, "max_days": 90, "max_n": 5},
+                    {"proposal_id": pid, "space": space},
+                ],
+            )
+            similar_raw = _normalize_tool_result(similar_raw)
+
+        timeline_cache = {
+            entry.get("id"): entry.get("timeline_metrics")
+            for entry in ADJACENT_ANALYTICS
+            if isinstance(entry, dict)
+            and entry.get("id")
+            and isinstance(entry.get("timeline_metrics"), dict)
+        }
+        meta_cache: Dict[str, Dict[str, Any]] = {}
+        result_cache: Dict[str, Dict[str, Any]] = {}
+
+        if isinstance(similar_raw, list):
+            for raw in similar_raw:
+                if not isinstance(raw, dict):
+                    continue
+                sid = raw.get("id") or raw.get("proposal_id")
+                if not sid:
+                    continue
+
+                timeline_metrics = timeline_cache.get(sid)
+                if timeline_metrics is None:
+                    meta = meta_cache.get(sid)
+                    if meta is None:
+                        meta = _fetch_meta_by_id(sid) if sid else {}
+                        meta_cache[sid] = meta
+                    choices_sim = (meta or {}).get("choices") or []
+                    start_sim = int((meta or {}).get("start") or 0)
+                    end_sim = int((meta or {}).get("end") or 0)
+                    votes_sim = _get_votes_via_snapshot_mcp(all_tools, sid)
+                    if votes_sim and start_sim and end_sim:
+                        timeline_metrics = _analyze_timeline(
+                            all_tools,
+                            start_sim,
+                            end_sim,
+                            choices_sim,
+                            votes_sim,
+                        )
+                        if timeline_metrics:
+                            timeline_cache[sid] = timeline_metrics
+
+                change_stance = _recommended_index_to_stance(
+                    (timeline_metrics or {}).get("recommended_index")
+                    if isinstance(timeline_metrics, dict)
+                    else None
+                )
+
+                vote_result = raw.get("vote_result")
+                vote_summary: Optional[Dict[str, Any]] = None
+                if isinstance(vote_result, dict) and vote_result.get("scores"):
+                    vote_summary = _summarize_vote_outcome(
+                        vote_result.get("choices") or [],
+                        vote_result.get("scores"),
+                        vote_result.get("scores_total"),
+                    )
+                if vote_summary is None:
+                    result = result_cache.get(sid)
+                    if result is None:
+                        result = _fetch_result_by_id(sid)
+                        result_cache[sid] = result
+                    meta = meta_cache.get(sid)
+                    if meta is None:
+                        meta = _fetch_meta_by_id(sid)
+                        meta_cache[sid] = meta
+                    vote_summary = _summarize_vote_outcome(
+                        (result or {}).get("choices")
+                        or (meta or {}).get("choices")
+                        or [],
+                        (result or {}).get("scores"),
+                        (result or {}).get("scores_total"),
+                    )
+
+                cleaned = {
+                    "proposal_id": sid,
+                    "title": raw.get("title"),
+                    "author": raw.get("author"),
+                    "end_utc": raw.get("end_utc"),
+                    "similarity_score": raw.get("similarity_score"),
+                    "winning_option": (
+                        vote_summary.get("winner_label") if vote_summary else None
+                    ),
+                    "winning_option_index": (
+                        vote_summary.get("winner_index") if vote_summary else None
+                    ),
+                    "margin_abs": (
+                        vote_summary.get("margin_abs") if vote_summary else None
+                    ),
+                    "margin_pct": (
+                        vote_summary.get("margin_pct") if vote_summary else None
+                    ),
+                    "scores_total": (
+                        vote_summary.get("scores_total") if vote_summary else None
+                    ),
+                    "change_stance": change_stance,
+                }
+
+                SIMILAR_PROPOSALS_DATA.append(
+                    {
+                        "proposal_id": sid,
+                        "cleaned": cleaned,
+                        "timeline_metrics": timeline_metrics if timeline_metrics else None,
+                        "raw": raw,
+                    }
+                )
+                
         # -------- Agent pass: decision (LLM consumes metrics + forum comments) --------
         agent_context = DecisionAgentContext(
             snapshot_url=snapshot_url,
@@ -1469,24 +1679,34 @@ def main() -> None:
         if tvl_impact is not None:
             decision.tvl_impact_pct = tvl_impact
 
+        if token_price_impact is not None or tvl_impact is not None:
+            decision.ex_post_price_impact_pct = token_price_impact
+            decision.ex_post_tvl_impact_pct = tvl_impact
+            decision.ex_post_window = (
+                f"{market_pre_days}d pre / {market_post_days}d post around event end"
+            )
+            note_parts: List[str] = []
+            if token_price_impact is not None:
+                note_parts.append(f"Token price {token_price_impact:+.2f}%")
+            if tvl_impact is not None:
+                note_parts.append(f"TVL {tvl_impact:+.2f}%")
+            decision.ex_post_note = "; ".join(note_parts) if note_parts else None
+
         # Ex-post winner/margins from RESULT (orchestrator-side only)
         scores = (result_js or {}).get("scores") or []
         scores_total = (result_js or {}).get("scores_total")
         actual = ActualVoteResult()
         actual.scores = [float(x) for x in scores] if scores else None
         actual.scores_total = float(scores_total) if scores_total is not None else None
-        if scores and choices:
-            winner_idx = max(range(len(scores)), key=lambda i: scores[i])
-            actual.winner_index = winner_idx
-            actual.winner_label = (
-                choices[winner_idx] if 0 <= winner_idx < len(choices) else None
-            )
-            sorted_scores = sorted(scores, reverse=True)
-            if len(sorted_scores) >= 2 and actual.scores_total:
-                actual.margin_abs = float(sorted_scores[0] - sorted_scores[1])
-                actual.margin_pct = round(
-                    float(actual.margin_abs / actual.scores_total), 6
-                )
+        vote_summary = _summarize_vote_outcome(choices, scores, scores_total)
+        if vote_summary:
+            actual.winner_index = vote_summary.get("winner_index")
+            actual.winner_label = vote_summary.get("winner_label")
+            if vote_summary.get("margin_abs") is not None:
+                actual.margin_abs = float(vote_summary["margin_abs"])
+            if vote_summary.get("margin_pct") is not None:
+                actual.margin_pct = round(float(vote_summary["margin_pct"]), 6)
+                
         decision.actual_vote_result = actual
 
         agentic_choice = decision.selected_choice_label
@@ -1515,6 +1735,7 @@ def main() -> None:
             "votes_count": votes_count,
             "timeline_metrics_current": TIMELINE_METRICS,
             "adjacent_analytics": ADJACENT_ANALYTICS,  # includes similarity (4)
+            "similar_proposals_data": SIMILAR_PROPOSALS_DATA,
             "semantic_references": semantic_refs,  # NEW (2; one-time bootstrap)
             "decision": _to_dict(
                 decision

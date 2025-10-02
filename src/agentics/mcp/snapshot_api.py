@@ -295,7 +295,7 @@ def _find_similar_proposals_logic(
     all_proposals: List[dict],
     max_days: int,
     max_n: int,
-    jaccard_min: float = 0.30
+    jaccard_min: float = 0.24,
 ) -> List[dict]:
     """
     Find similar proposals based on time proximity (past-only, anchored at END)
@@ -319,40 +319,66 @@ def _find_similar_proposals_logic(
     # sort candidates by end desc (newest past first)
     closed_before.sort(key=lambda p: int(p.get("end") or 0), reverse=True)
 
-    # ---- time window: within max_days back from ref_end ----
+    # ---- time windows: start with max_days, expand until we reach enough hits ----
     day_sec = 86_400
-    within_days: List[dict] = []
+    candidates: List[dict] = []
     for p in closed_before:
         end_ts = int(p.get("end") or 0)
-        days_ago = (ref_end - end_ts) / day_sec
-        if days_ago <= max_days:
-            q = dict(p)
-            q["_time_distance_days"] = float(days_ago)  # keep for tie-break
-            within_days.append(q)
-        else:
-            # since sorted desc by end time, we can break once window exceeded
-            break
+        if end_ts <= 0:
+            continue
+        days_ago = (ref_end - end_ts) / day_sec if ref_end and ref_end > end_ts else 0.0
+        q = dict(p)
+        q["_time_distance_days"] = float(days_ago)
+        candidates.append(q)
 
     # ---- cleaned ref text with Title Boost ×2 ----
     _ref_text = _clean_for_similarity(((ref_title + " ") * 2) + (ref_body or ""))
 
     # ---- local matcher: content-only similarity on cleaned texts ----
-    def _match_topic_only(p: dict) -> tuple[bool, float]:
+    def _match_topic_only(p: dict, threshold: float) -> tuple[bool, float]:
         p_title = p.get("title") or ""
         p_body  = p.get("body")  or ""
         _p_text = _clean_for_similarity(((p_title + " ") * 2) + (p_body or ""))
         sim = text_similarity(_ref_text, _p_text)
-        return (sim >= jaccard_min), sim
+        return (sim >= threshold), sim
+
+    # Prepare expanding windows with progressively more lenient thresholds.
+    base_threshold = float(jaccard_min)
+    windows: List[tuple[Optional[float], float]] = []
+    initial_window = float(max_days) if max_days and max_days > 0 else None
+
+    if initial_window is not None:
+        windows.append((initial_window, base_threshold))
+        windows.append((initial_window * 2, max(base_threshold - 0.06, 0.08)))
+        windows.append((None, max(base_threshold - 0.12, 0.05)))
+    else:
+        windows.append((None, base_threshold))
 
     # ---- score & collect ----
     results: List[dict] = []
-    for p in within_days:
-        ok, sim = _match_topic_only(p)
-        if not ok:
-            continue
-        out = {**p}
-        out["similarity_score"] = round(float(sim), 4)
-        results.append(out)
+    added_ids: set[str] = set()
+
+    for window_limit, threshold in windows:
+        for p in candidates:
+            if window_limit is not None and p.get("_time_distance_days", 0.0) > window_limit:
+                continue
+
+            pid = p.get("id") or p.get("proposal_id")
+            if pid and pid in added_ids:
+                continue
+
+            ok, sim = _match_topic_only(p, threshold)
+            if not ok:
+                continue
+
+            out = {**p}
+            out["similarity_score"] = round(float(sim), 4)
+            results.append(out)
+            if pid:
+                added_ids.add(pid)
+
+        if len(results) >= max(1, int(max_n or 1)):
+            break
 
     # ---- sort: similarity desc, then time distance asc ----
     results.sort(
