@@ -37,6 +37,7 @@ venv/
 *.stderr.log
 *.stdout.log
 *.csv
+!src/agentics/assets_registry/dao_registry.csv
 
 MCP_test/*
 .venv2/
