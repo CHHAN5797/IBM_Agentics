@@ -8,6 +8,8 @@ import requests
 from mcp.server.fastmcp import FastMCP
 from pydantic import Field
 
+from agentics.mcp.sentiment_utils import score_text
+
 TIMEOUT = 30
 BASE_SLEEP = 0.6
 JITTER = (0.1, 0.35)
@@ -100,8 +102,8 @@ mcp = FastMCP("ForumsMCP")
 
 @mcp.tool(
     name="fetch_discussion",
-    title="Fetch Forum Discussion",
-    description="Fetch a Discourse forum thread with pagination support. Automatically detects Discourse forums and extracts structured discussion data including posts, authors, and timestamps. Use this for governance forum analysis.",
+    title="Fetch Forum Discussion with Sentiment",
+    description="Fetch a Discourse forum thread with pagination support and automatic sentiment analysis. Extracts structured discussion data including posts, authors, timestamps, and sentiment scores (Positive/Negative/Neutral) for each post. Returns aggregate sentiment summary. Use this for governance forum analysis and community sentiment tracking.",
     annotations={
         "readOnlyHint": True,
         "openWorldHint": True,
@@ -121,8 +123,15 @@ def fetch_discussion(
     )] = 5
 ) -> Dict[str, Any]:
     """
-    Fetch a Discourse thread as JSON with pagination; return normalized structure.
-    - If host/path not whitelisted, still try <url>.json and detect `post_stream`.
+    Fetch a Discourse thread with pagination and sentiment analysis.
+
+    Extracts posts with sentiment scores and returns normalized structure:
+    - Tries <url>.json endpoint (whitelist-agnostic)
+    - Enriches each post with sentiment analysis
+    - Returns aggregate sentiment_summary
+
+    Returns:
+        Dict with 'posts' (includes sentiment fields) and 'sentiment_summary'
     """
     def is_discourse_like(resp_json: dict) -> bool:
         return isinstance(resp_json, dict) and ("post_stream" in resp_json or "posts_count" in resp_json)
@@ -186,12 +195,30 @@ def fetch_discussion(
         if isinstance(posts_count_expected, int) and len(posts) >= posts_count_expected:
             break
 
+    # Enrich posts with sentiment analysis
+    sentiment_counts = {"Positive": 0, "Negative": 0, "Neutral": 0}
+    for post in posts:
+        try:
+            text = post.get("raw") or post.get("cooked") or ""
+            score, label, method = score_text(text)
+            post["sentiment"] = label
+            post["sentiment_score"] = score
+            post["sentiment_method"] = method
+            sentiment_counts[label] += 1
+        except Exception:
+            # Graceful degradation on error
+            post["sentiment"] = "Neutral"
+            post["sentiment_score"] = 0.0
+            post["sentiment_method"] = "error"
+            sentiment_counts["Neutral"] += 1
+
     return {
         "type": "discourse",
         "thread": header,
         "posts": posts,
         "posts_returned": len(posts),
-        "complete": (isinstance(posts_count_expected, int) and len(posts) >= posts_count_expected)
+        "complete": (isinstance(posts_count_expected, int) and len(posts) >= posts_count_expected),
+        "sentiment_summary": sentiment_counts
     }
 
 @mcp.tool(
