@@ -12,6 +12,7 @@ This module exposes Snapshot read-only operations as MCP tools:
 - get_votes_page
 - get_votes_all
 - resolve_proposal_id_from_url
+- find_similar_proposals
 - health
 
 Run as a stdio MCP server:
@@ -33,6 +34,51 @@ from pydantic import BaseModel, Field
 from agentics.utils.similarity import tokens, text_similarity
 from agentics.mcp.defillama_utils import get_tvl_impact_for_proposal
 from agentics.mcp.cmc_utils import get_price_impact_for_proposal
+
+# -----------------------------
+# Text normalization for similarity (stopwords + noise removal)
+# -----------------------------
+_STOPWORDS = {
+    # English articles/conjunctions/prepositions/etc.
+    "a","an","the","and","or","but","if","then","else","for","to","of","in","on","at","by",
+    "with","from","as","is","are","was","were","be","been","being","this","that","these","those",
+    "it","its","it's","we","you","they","he","she","them","our","your","their","i",
+    # Domain-generic boilerplate (adjust per space if needed)
+    "proposal","proposals","snapshot","vote","votes","voting","governance","discussion","forum",
+    "thanks","thank","please","update","introduction","summary","overview"
+}
+
+_NOISE_PATTERNS = [
+    # URLs / code / markdown / HTML / social noise
+    (r"https?://\S+", " "),        # URLs
+    (r"`{3}.*?`{3}", " "),         # fenced code blocks ```...```
+    (r"`[^`]*`", " "),             # inline code `...`
+    (r"<[^>]+>", " "),             # HTML tags
+    (r"&[a-z]+;", " "),            # HTML entities
+    (r"#[A-Za-z0-9_]+", " "),      # hashtags
+    (r"@[A-Za-z0-9_]+", " "),      # mentions
+]
+
+def _clean_for_similarity(text: str) -> str:
+    """
+    Lightweight text cleaner to remove articles/stopwords and boilerplate noise
+    before tokenization and similarity. Keeps only [a-z0-9 ] then drops digits-only
+    and 1-char tokens.
+    """
+    if not text:
+        return ""
+    s = text.lower()
+    for pat, repl in _NOISE_PATTERNS:
+        s = re.sub(pat, repl, s, flags=re.DOTALL)
+    # Remove common markdown bullets/headers/quotes at line starts
+    s = re.sub(r"^\s*[>\-\*\#]+\s*", " ", s, flags=re.MULTILINE)
+    # Keep alnum + spaces; drop punctuation/symbols
+    s = re.sub(r"[^a-z0-9\s]", " ", s)
+    # Drop pure numbers
+    s = re.sub(r"\b\d+\b", " ", s)
+    # Tokenize and drop stopwords / 1-char tokens
+    toks = [t for t in s.split() if len(t) > 1 and t not in _STOPWORDS]
+    return " ".join(toks)
 
 # -----------------------------
 # Config
@@ -204,13 +250,13 @@ class SimilarProposalsIn(BaseModel):
         max_length=100
     )
     max_days: int = Field(
-        60,
+        90,  # default changed to 90
         ge=1,
         le=365,
-        description="Maximum days to look back from reference proposal start date"
+        description="Maximum days to look back FROM THE REFERENCE PROPOSAL END date"
     )
     max_n: int = Field(
-        10,
+        7,  # default changed to 7
         ge=1,
         le=50,
         description="Maximum number of similar proposals to return"
@@ -252,78 +298,72 @@ def _find_similar_proposals_logic(
     jaccard_min: float = 0.30
 ) -> List[dict]:
     """
-    Find similar proposals based on time proximity and content similarity.
+    Find similar proposals based on time proximity (past-only, anchored at END)
+    and content similarity (cleaned text with Title Boost ×2).
 
-    Args:
-        reference_proposal: The proposal to find similar ones for
-        all_proposals: All proposals in the space
-        max_days: Maximum days to look back
-        max_n: Maximum number of results
-        jaccard_min: Minimum Jaccard similarity threshold
-
-    Returns:
-        List of similar proposals with similarity scores
+    - Candidate set: proposals in 'closed' state that ended BEFORE the reference END
+    - Time window: within 'max_days' days back from the reference END
+    - Ranking: similarity desc, tie-break by smaller time distance (closer past)
     """
-    ref_start = int(reference_proposal.get("start") or 0)
+    # ---- reference anchor ----
+    ref_end  = int(reference_proposal.get("end") or reference_proposal.get("start") or 0)
     ref_title = reference_proposal.get("title") or ""
-    ref_body = reference_proposal.get("body") or ""
-    ref_author = reference_proposal.get("author") or ""
+    ref_body  = reference_proposal.get("body")  or ""
 
-    # Filter: closed proposals that ended before reference started
+    # ---- candidate pool: closed & ended before the reference END ----
     closed_before = [
         p for p in all_proposals
-        if (
-            p.get("state") == "closed"
-            and int(p.get("end") or 0) < ref_start
-        )
+        if (p.get("state") == "closed" and int(p.get("end") or 0) < ref_end)
     ]
 
-    # Sort by end time (most recent first)
+    # sort candidates by end desc (newest past first)
     closed_before.sort(key=lambda p: int(p.get("end") or 0), reverse=True)
 
-    # Filter by time range (within max_days)
-    day_sec = 86400
-    within_days = []
+    # ---- time window: within max_days back from ref_end ----
+    day_sec = 86_400
+    within_days: List[dict] = []
     for p in closed_before:
-        days_ago = (ref_start - int(p.get("end") or 0)) / day_sec
+        end_ts = int(p.get("end") or 0)
+        days_ago = (ref_end - end_ts) / day_sec
         if days_ago <= max_days:
-            within_days.append(p)
+            q = dict(p)
+            q["_time_distance_days"] = float(days_ago)  # keep for tie-break
+            within_days.append(q)
         else:
-            break  # Since sorted by end time desc, we can break early
+            # since sorted desc by end time, we can break once window exceeded
+            break
 
-    # Calculate similarity and filter
-    ref_tokens = tokens(ref_title + " " + ref_body)
+    # ---- cleaned ref text with Title Boost ×2 ----
+    _ref_text = _clean_for_similarity(((ref_title + " ") * 2) + (ref_body or ""))
 
-    def _match_topic_or_author(p: dict) -> tuple[bool, float]:
-        # Same author match
-        if (
-            ref_author
-            and p.get("author")
-            and str(p["author"]).lower() == str(ref_author).lower()
-        ):
-            return True, 1.0  # Perfect match for same author
-
-        # Content similarity
+    # ---- local matcher: content-only similarity on cleaned texts ----
+    def _match_topic_only(p: dict) -> tuple[bool, float]:
         p_title = p.get("title") or ""
-        p_body = p.get("body") or ""
-        p_tokens = tokens(p_title + " " + p_body)
+        p_body  = p.get("body")  or ""
+        _p_text = _clean_for_similarity(((p_title + " ") * 2) + (p_body or ""))
+        sim = text_similarity(_ref_text, _p_text)
+        return (sim >= jaccard_min), sim
 
-        sim = text_similarity(ref_title + " " + ref_body, p_title + " " + p_body)
-        return sim >= jaccard_min, sim
-
-    # Build results with similarity scores
-    results = []
+    # ---- score & collect ----
+    results: List[dict] = []
     for p in within_days:
-        matches, similarity = _match_topic_or_author(p)
-        if matches:
-            results.append({
-                **p,
-                "similarity_score": round(similarity, 4)
-            })
+        ok, sim = _match_topic_only(p)
+        if not ok:
+            continue
+        out = {**p}
+        out["similarity_score"] = round(float(sim), 4)
+        results.append(out)
 
-    # Sort by similarity (highest first) and limit
-    results.sort(key=lambda x: x["similarity_score"], reverse=True)
-    return results[:max_n]
+    # ---- sort: similarity desc, then time distance asc ----
+    results.sort(
+        key=lambda x: (-x.get("similarity_score", 0.0), x.get("_time_distance_days", 1e9))
+    )
+
+    # ---- top-N and clean up temp key ----
+    trimmed = results[: max(1, int(max_n or 1))]
+    for r in trimmed:
+        r.pop("_time_distance_days", None)
+    return trimmed
 
 def _fetch_proposal_by_id(pid: str) -> dict:
     data = gql(PROPOSAL_BY_ID_Q, {"id": pid})
@@ -537,7 +577,7 @@ def resolve_proposal_id_from_url(
 @mcp.tool(
     name="find_similar_proposals",
     title="Find Similar Proposals",
-    description="Find proposals similar to a reference proposal using content similarity and author matching, enriched with DeFi protocol TVL impact analysis. Use this to discover historical precedents, related governance decisions, or recurring proposal patterns with their market impact.",
+    description="Find proposals similar to a reference proposal using content similarity (no author shortcut), enriched with DeFi protocol TVL/price impact analysis.",
     annotations={
         "readOnlyHint": True,
         "openWorldHint": True,
@@ -556,30 +596,30 @@ def find_similar_proposals(
         max_length=100
     )],
     max_days: Annotated[int, Field(
-        description="Maximum days to look back from reference proposal start date",
+        description="Maximum days to look back FROM THE REFERENCE PROPOSAL END date",
         ge=1,
         le=365
-    )] = 60,
+    )] = 90,
     max_n: Annotated[int, Field(
         description="Maximum number of similar proposals to return",
         ge=1,
         le=50
-    )] = 10
+    )] = 7
 ) -> List[dict]:
     """
-    Find proposals similar to a reference proposal based on content and
-    author similarity.
+    Find proposals similar to a reference proposal based on content.
 
     Returns proposals that:
-    - Are in 'closed' state and ended before the reference proposal started
-    - Are within the specified time range (max_days)
-    - Have similar content (Jaccard similarity >= 0.30) or same author
-    - Include similarity scores, vote results, and TVL impact analysis
+    - Are in 'closed' state and ended before the reference proposal ENDED
+    - Are within the specified time range (max_days, counted back from the END)
+    - Have similar content (Jaccard similarity >= 0.30)
+    - Include similarity scores, vote results, and TVL/price impact analysis
 
     Each result includes:
     - similarity_score: Content similarity (0.0 to 1.0)
     - vote_result: Voting outcome data
     - tvl_impact: DeFi protocol TVL change analysis around proposal end time
+    - price_impact: Token price impact around proposal end time
     """
     try:
         # Fetch reference proposal
@@ -592,7 +632,7 @@ def find_similar_proposals(
         if not all_proposals:
             return []
 
-        # Find similar proposals
+        # Find similar proposals (anchored at END; past 90d by default; top 7)
         similar = _find_similar_proposals_logic(
             reference_proposal=reference,
             all_proposals=all_proposals,
@@ -600,7 +640,7 @@ def find_similar_proposals(
             max_n=max_n
         )
 
-        # Enrich with vote results and TVL impact analysis
+        # Enrich with vote results and market impacts
         enriched = []
         for proposal in similar:
             enriched_proposal = {
@@ -626,7 +666,7 @@ def find_similar_proposals(
                 except (ValueError, TypeError):
                     pass
 
-            # Try to get vote result
+            # Vote result
             try:
                 vote_result = _fetch_proposal_result_by_id(proposal.get("id", ""))
                 if vote_result and vote_result.get("choices"):
@@ -637,10 +677,9 @@ def find_similar_proposals(
                         "state": vote_result.get("state")
                     }
             except Exception:
-                # Graceful degradation if vote result fetch fails
                 pass
 
-            # Try to get TVL impact analysis
+            # TVL impact (±7d around end)
             if end_utc_str:
                 try:
                     tvl_impact = get_tvl_impact_for_proposal(
@@ -651,14 +690,13 @@ def find_similar_proposals(
                     )
                     enriched_proposal["tvl_impact"] = tvl_impact
                 except Exception as e:
-                    # Graceful degradation if TVL analysis fails
                     enriched_proposal["tvl_impact"] = {
                         "protocol_slug": None,
                         "status": "analysis_failed",
                         "error": f"TVL analysis error: {str(e)}"
                     }
 
-            # Try to get price impact analysis
+            # Price impact (±7d around end)
             if end_utc_str:
                 try:
                     price_impact = get_price_impact_for_proposal(
@@ -669,7 +707,6 @@ def find_similar_proposals(
                     )
                     enriched_proposal["price_impact"] = price_impact
                 except Exception as e:
-                    # Graceful degradation if price analysis fails
                     enriched_proposal["price_impact"] = {
                         "token_id": None,
                         "status": "analysis_failed",
