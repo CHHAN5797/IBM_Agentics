@@ -59,6 +59,8 @@ _NOISE_PATTERNS = [
     (r"@[A-Za-z0-9_]+", " "),      # mentions
 ]
 
+_STAGE_PREFIX_RE = re.compile(r"^\s*\[[^\]]+\]\s*")
+
 def _clean_for_similarity(text: str) -> str:
     """
     Lightweight text cleaner to remove articles/stopwords and boilerplate noise
@@ -79,6 +81,29 @@ def _clean_for_similarity(text: str) -> str:
     # Tokenize and drop stopwords / 1-char tokens
     toks = [t for t in s.split() if len(t) > 1 and t not in _STOPWORDS]
     return " ".join(toks)
+
+
+def _stage_dedup_key(title: str) -> tuple[str, bool]:
+    """Return canonical title key when prefixed governance stage tags ("[TEMP CHECK]") exist."""
+    if not title:
+        return "", False
+
+    s = title.strip()
+    stripped = False
+    while True:
+        match = _STAGE_PREFIX_RE.match(s)
+        if not match:
+            break
+        stripped = True
+        s = s[match.end():]
+
+    if stripped:
+        s = s.lstrip("-: ")
+        s = re.sub(r"\s+", " ", s)
+        canonical = s.strip().lower()
+        return (canonical, bool(canonical))
+
+    return "", False
 
 # -----------------------------
 # Config
@@ -355,8 +380,9 @@ def _find_similar_proposals_logic(
         windows.append((None, base_threshold))
 
     # ---- score & collect ----
-    results: List[dict] = []
-    added_ids: set[str] = set()
+    stage_best: dict[str, dict] = {}
+    plain_best: dict[str, dict] = {}
+    plain_order: List[str] = []
 
     for window_limit, threshold in windows:
         for p in candidates:
@@ -364,8 +390,6 @@ def _find_similar_proposals_logic(
                 continue
 
             pid = p.get("id") or p.get("proposal_id")
-            if pid and pid in added_ids:
-                continue
 
             ok, sim = _match_topic_only(p, threshold)
             if not ok:
@@ -373,14 +397,31 @@ def _find_similar_proposals_logic(
 
             out = {**p}
             out["similarity_score"] = round(float(sim), 4)
-            results.append(out)
-            if pid:
-                added_ids.add(pid)
 
-        if len(results) >= max(1, int(max_n or 1)):
-            break
+            stage_key, use_stage_dedup = _stage_dedup_key(p.get("title") or "")
+            if use_stage_dedup and stage_key:
+                existing = stage_best.get(stage_key)
+                if existing is None:
+                    stage_best[stage_key] = out
+                else:
+                    existing_end = int(existing.get("end") or 0)
+                    new_end = int(out.get("end") or 0)
+                    if new_end > existing_end:
+                        stage_best[stage_key] = out
+                    elif new_end == existing_end and out["similarity_score"] > existing.get("similarity_score", 0.0):
+                        stage_best[stage_key] = out
+                continue
+
+            key = pid or f"_anon_{len(plain_order)}"
+            existing = plain_best.get(key)
+            if existing is None:
+                plain_best[key] = out
+                plain_order.append(key)
+            elif out["similarity_score"] > existing.get("similarity_score", 0.0):
+                plain_best[key] = out
 
     # ---- sort: similarity desc, then time distance asc ----
+    results = list(stage_best.values()) + [plain_best[k] for k in plain_order if k in plain_best]
     results.sort(
         key=lambda x: (-x.get("similarity_score", 0.0), x.get("_time_distance_days", 1e9))
     )
@@ -630,7 +671,7 @@ def find_similar_proposals(
         description="Maximum number of similar proposals to return",
         ge=1,
         le=50
-    )] = 7
+    )] = 4
 ) -> List[dict]:
     """
     Find proposals similar to a reference proposal based on content.
