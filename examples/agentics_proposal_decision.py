@@ -1225,6 +1225,43 @@ def _adjacent_analytics(
                 _analyze_timeline(tools, start, end, choices, votes) if votes else {}
             )
             end_iso = _iso_from_unix(end)
+            result_js = _fetch_result_by_id(pid) if pid else {}
+            scores = (result_js or {}).get("scores") or []
+            scores_total = (result_js or {}).get("scores_total")
+            actual_vote: Optional[Dict[str, Any]] = None
+            if scores and choices:
+                try:
+                    float_scores = [float(x) for x in scores]
+                except (TypeError, ValueError):
+                    float_scores = []
+                if float_scores:
+                    winner_idx = max(range(len(float_scores)), key=float_scores.__getitem__)
+                    winner_label = (
+                        choices[winner_idx] if 0 <= winner_idx < len(choices) else None
+                    )
+                    winner_score = float_scores[winner_idx]
+                    runner_up_score = max(
+                        (score for i, score in enumerate(float_scores) if i != winner_idx),
+                        default=0.0,
+                    )
+                    margin_abs = winner_score - runner_up_score
+                    total_val = None
+                    try:
+                        total_val = float(scores_total) if scores_total is not None else sum(float_scores)
+                    except (TypeError, ValueError):
+                        total_val = sum(float_scores)
+                    margin_pct = (
+                        (margin_abs / total_val) if total_val else None
+                    )
+                    actual_vote = {
+                        "winner_index": winner_idx,
+                        "winner_label": winner_label,
+                        "margin_abs": margin_abs,
+                        "scores_total": total_val,
+                    }
+                    if margin_pct is not None:
+                        actual_vote["margin_pct"] = margin_pct
+            
             price_imp = (
                 compute_token_price_impact_from_parquet(cmc_parquet, ucid, end_iso)
                 if (ucid and end_iso)
@@ -1242,18 +1279,20 @@ def _adjacent_analytics(
             sim = _jaccard(
                 cur_tok, _tokens((p.get("title") or "") + " " + (p.get("body") or ""))
             )
-            out.append(
-                {
-                    "id": pid,
-                    "title": p.get("title"),
-                    "author": p.get("author"),
-                    "end_utc": end_iso,
-                    "timeline_metrics": timeline,
-                    "price_impact_pct": price_imp,
-                    "tvl_impact_pct": tvl_imp,
-                    "similarity": round(float(sim), 4),
-                }
-            )
+            entry = {
+                "id": pid,
+                "title": p.get("title"),
+                "author": p.get("author"),
+                "end_utc": end_iso,
+                "timeline_metrics": timeline,
+                "price_impact_pct": price_imp,
+                "tvl_impact_pct": tvl_imp,
+                "similarity": round(float(sim), 4),
+            }
+            if actual_vote:
+                entry["actual_vote_result"] = actual_vote
+            out.append(entry)
+            
         except Exception as e:
             print(f"[adjacent] failed for {p.get('id')}: {e}")
     return out

@@ -1,0 +1,235 @@
+{
+  "captured_at_utc": "2025-10-01T13:37:56.773033+00:00",
+  "snapshot_url": "https://snapshot.box/#/s:arbitrumfoundation.eth/proposal/0x008f190725018c3db0e6464bf31d44f09a4d7773fd1486dff0c52c27b8aba289",
+  "focus": null,
+  "votes_count": 2337,
+  "timeline_metrics_current": {
+    "unique_voters": 2337,
+    "total_votes": 2337,
+    "first_vote_at": "2025-07-31T22:05:04Z",
+    "last_vote_at": "2025-08-07T21:47:44Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        2399269.838816296,
+        164288.7987129596,
+        5891.1547989803
+      ],
+      [
+        10590760.34213709,
+        146410.0930146429,
+        139.95373926049857
+      ],
+      [
+        31146143.80608294,
+        161739.6390392273,
+        9758722.11774577
+      ],
+      [
+        108093828.9514258,
+        294650.4366421992,
+        26475181.299046285
+      ]
+    ],
+    "spike_index": 0.164375,
+    "spike_follow_support_ratio": 0.996194,
+    "stairwise_ratio": 0.000532,
+    "half_slope_diff": 7293.325228
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0xd3d164905fee7dfd8516db6150a97f7f91cf6f9377f614fa6a82333c4fb20546",
+      "title": "Updating the Code of Conduct & DAO’s Procedures",
+      "author": "0xb4c064f466931B8d0F637654c916E3F203c46f13",
+      "end_utc": "2025-07-25T00:30:00Z",
+      "timeline_metrics": {
+        "unique_voters": 2867,
+        "total_votes": 2867,
+        "first_vote_at": "2025-07-18T01:16:42Z",
+        "last_vote_at": "2025-07-25T00:27:42Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            14946939.623728225,
+            27329.334134269884,
+            542.0386290439203
+          ],
+          [
+            790268.8971347228,
+            1651.1048304557746,
+            264.9531073634298
+          ],
+          [
+            23930273.68238559,
+            2119.857297101735,
+            12.558652288296361
+          ],
+          [
+            119309794.65182671,
+            97080.6615900754,
+            16072651.254831525
+          ]
+        ],
+        "spike_index": 0.157392,
+        "spike_follow_support_ratio": 0.852149,
+        "stairwise_ratio": 0.000679,
+        "half_slope_diff": 415.506561
+      },
+      "price_impact_pct": -7.963,
+      "tvl_impact_pct": null,
+      "similarity": 0.3483
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.box/#/s:arbitrumfoundation.eth/proposal/0x008f190725018c3db0e6464bf31d44f09a4d7773fd1486dff0c52c27b8aba289",
+    "selected_choice_label": "For: Upgrade to v1.7",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "The proposal updates the Delegate Incentive Program to version 1.7, introducing a new Tier X for high voting power delegates, adjusting compensation to reflect reduced governance workload, and refining Delegate Feedback evaluation to be more objective and robust. The voting timeline metrics show unanimous and stable support for the upgrade, with a positive market price impact. Forum discussions reflect general support with critical feedback on inclusiveness, scoring stringency, and administrative overhead.",
+    "key_arguments_for": [
+      "Introduction of Tier X allows high VP delegates to participate based on voting alone, potentially increasing quorum.",
+      "Compensation adjustment aligns with reduced delegate workload due to structural DAO changes.",
+      "Refined Delegate Feedback scoring incorporates proposer and stakeholder input to reduce subjectivity.",
+      "Exclusion of vote-buying platforms aligns incentives with genuine delegate participation.",
+      "Positive market price impact indicates confidence in the proposal."
+    ],
+    "key_arguments_against": [
+      "Increased minimum VP threshold to 500,000 ARB may exclude smaller but active delegates.",
+      "More stringent Delegate Feedback criteria risk filtering out smaller active participants.",
+      "Concerns over high administrative overhead despite reduced delegate rewards.",
+      "Potential for vote farming in Tier X by splitting holdings.",
+      "Complete removal of dispute rights for subjective scoring may reduce transparency."
+    ],
+    "evidence": [
+      {
+        "source_tool": "snapshot_get_votes_all",
+        "reference": "Proposal votes data",
+        "quote": "Voting timeline metrics show unanimous lead and stability for choice index 0."
+      },
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Arbitrum Foundation forum thread 29635",
+        "quote": "Community discussion shows broad support with concerns on inclusiveness and scoring."
+      },
+      {
+        "source_tool": "registry_lookup",
+        "reference": "arbitrumfoundation.eth governance token",
+        "quote": "Governance token address: 0x912CE59144191C1204E64559FE8253a0e49E6548"
+      },
+      {
+        "source_tool": "snapshot_list_finished_proposals",
+        "reference": "Historical similar proposal 0xd3d164905fee7dfd8516db6150a97f7f91cf6f9377f614fa6a82333c4fb20546",
+        "quote": "Updating the Code of Conduct & DAO’s Procedures with moderate negative price impact (-7.96%)."
+      }
+    ],
+    "available_choices": [
+      "For: Upgrade to v1.7",
+      "Against: Keep v1.6",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-07-31T22:00:00Z",
+    "event_end_utc": "2025-08-07T22:00:00Z",
+    "event_time_utc": "2025-08-07T22:00:00Z",
+    "address_of_governance_token": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+    "token_price_impact_pct": 22.5528,
+    "tvl_impact_pct": null,
+    "actual_vote_result": {
+      "winner_label": "For: Upgrade to v1.7",
+      "winner_index": 0,
+      "scores": [
+        152230002.93846214,
+        767088.967409029,
+        36239934.52533026
+      ],
+      "scores_total": 189237026.4312013,
+      "margin_abs": 115990068.41313188,
+      "margin_pct": 0.612935
+    },
+    "simulation_reason": "Recommendation based on timeline metrics and community sentiment analysis; no ex-post tally included.",
+    "references": null,
+    "ai_final_conclusion": "Recommend option 'For: Upgrade to v1.7' reflecting strong voting support and general forum agreement.",
+    "ai_final_reason": "- Voting timeline and VP-weighted metrics show unanimous and stable support for upgrade.\n- Forum sentiment broadly supports the proposal, though concerns on inclusiveness and scoring stringency exist.\n- Historical similar proposal with some negative market impact advises caution but does not detract from current recommendation.\n- Market price impact positive, indicating community confidence.\n- Vote-buying platform exclusion aligns incentives but remains open for future reconsideration.\n- Administrative overhead concerns noted; potential for streamlining in future DIP versions.\n- Forum sentiment generally aligns with recommendation, though some minority views suggest improvements for inclusiveness and transparency."
+  },
+  "agentic_ai_choice": "For: Upgrade to v1.7",
+  "actual_outcome": "For: Upgrade to v1.7",
+  "match_result": "same"
+}
