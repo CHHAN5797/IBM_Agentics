@@ -1,0 +1,774 @@
+{
+  "captured_at_utc": "2025-10-06T23:22:14.922027+00:00",
+  "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0xb1f8b1814d9c09760daa4d7e9fa90d906b2c9ff5fbd20c8d0f5793c4f5cc4999",
+  "focus": null,
+  "votes_count": 5500,
+  "timeline_metrics_current": {
+    "unique_voters": 5500,
+    "total_votes": 5500,
+    "first_vote_at": "2023-03-23T19:05:05Z",
+    "last_vote_at": "2023-03-25T00:23:01Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        0.679818,
+        0.320182,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      0.6798181818181818,
+      0.3201818181818182,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      0.6798181818181818,
+      0.3201818181818182,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      0.6798181818181818,
+      0.3201818181818182,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        1336.6159272634206,
+        391021.7224641619,
+        96.43261537885036,
+        0.041349899661840356
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.617429,
+    "spike_follow_support_ratio": 0.173822,
+    "stairwise_ratio": 0.000145,
+    "half_slope_diff": -454.803405
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0xbda28d65ca4d64005e6019948ed52d9d62c9e73e356ab1013aa2d4829f40c735",
+      "title": "[ARC] Gauntlet Interest Rate Curve Recommendations for Aave V3 Markets (Feb 2023)",
+      "author": "0xDD659911EcBD4458db07Ee7cDdeC79bf8F859AbC",
+      "end_utc": "2023-02-27T22:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-02-22T22:01:28Z",
+        "last_vote_at": "2023-02-23T17:12:10Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            175872.4492783614,
+            3.490735978534417,
+            0.1345791298440635
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.607906,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.000246,
+        "half_slope_diff": -12.19959
+      },
+      "price_impact_pct": -1.3337,
+      "tvl_impact_pct": 1.6278,
+      "similarity": 0.1031,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "YAE",
+        "margin_abs": 670005.3987259103,
+        "scores_total": 671495.0532245083,
+        "margin_pct": 0.9977815852976956
+      }
+    },
+    {
+      "id": "0xab2381e2fcda147ec0ab8417a09c0a6188fce034c12d0c0c42a43b8cbbea8db4",
+      "title": "[ARC] Gauntlet Risk Parameter Updates for Avalanche Aave V3 (2023-02-16)",
+      "author": "0xDD659911EcBD4458db07Ee7cDdeC79bf8F859AbC",
+      "end_utc": "2023-02-26T00:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-02-22T22:02:17Z",
+        "last_vote_at": "2023-02-23T16:57:39Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            175838.93838638542,
+            4.204185730447449,
+            1.0811241719904543
+          ],
+          [
+            3.1653618375984545,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.608011,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.000234,
+        "half_slope_diff": -10.731025
+      },
+      "price_impact_pct": -1.9687,
+      "tvl_impact_pct": 0.4474,
+      "similarity": 0.1017,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "YAE",
+        "margin_abs": 671306.4419433267,
+        "scores_total": 671379.1859437627,
+        "margin_pct": 0.9998916499022327
+      }
+    },
+    {
+      "id": "0xb4c756ac701b5cbc0ec2d832652e4f1c820aa40f7d9be18eb81f87080a52c5f1",
+      "title": "[ARC] Community Risk Preference on Aave V3 Borrow/Supply Caps",
+      "author": "0xDD659911EcBD4458db07Ee7cDdeC79bf8F859AbC",
+      "end_utc": "2023-02-21T22:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-02-15T22:00:28Z",
+        "last_vote_at": "2023-02-16T15:17:05Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 2,
+        "lead_ratio_by_quartile": [
+          [
+            0.000182,
+            0.0,
+            0.999818,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.0001818181818181818,
+          0.0,
+          0.9998181818181818,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          0.0001818181818181818,
+          0.0,
+          0.9998181818181818,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.0001818181818181818,
+          0.0,
+          0.9998181818181818,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            139.44000728128725,
+            13.389306266493765,
+            708.9764425726895,
+            8.484633240126042,
+            0.4800532646242513
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.292918,
+        "spike_follow_support_ratio": 0.990185,
+        "stairwise_ratio": 0.02584,
+        "half_slope_diff": 0.057058
+      },
+      "price_impact_pct": -6.7606,
+      "tvl_impact_pct": -3.6119,
+      "similarity": 0.1534,
+      "actual_vote_result": {
+        "winner_index": 1,
+        "winner_label": "Aggressive",
+        "margin_abs": 186531.05397377443,
+        "scores_total": 799779.0342309871,
+        "margin_pct": 0.2332282367880898
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0xb4c756ac701b5cbc0ec2d832652e4f1c820aa40f7d9be18eb81f87080a52c5f1",
+      "cleaned": {
+        "proposal_id": "0xb4c756ac701b5cbc0ec2d832652e4f1c820aa40f7d9be18eb81f87080a52c5f1",
+        "title": "[ARC] Community Risk Preference on Aave V3 Borrow/Supply Caps",
+        "author": "0xDD659911EcBD4458db07Ee7cDdeC79bf8F859AbC",
+        "end_utc": "2023-02-21T22:00:00Z",
+        "similarity_score": 0.1401,
+        "winning_option": "Aggressive",
+        "winning_option_index": 1,
+        "margin_abs": 186531.05397377443,
+        "margin_pct": 0.2332282367880898,
+        "scores_total": 799779.0342309871,
+        "change_stance": null
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-02-15T22:00:28Z",
+        "last_vote_at": "2023-02-16T15:17:05Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 2,
+        "lead_ratio_by_quartile": [
+          [
+            0.000182,
+            0.0,
+            0.999818,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.0001818181818181818,
+          0.0,
+          0.9998181818181818,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          0.0001818181818181818,
+          0.0,
+          0.9998181818181818,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.0001818181818181818,
+          0.0,
+          0.9998181818181818,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            139.44000728128725,
+            13.389306266493765,
+            708.9764425726895,
+            8.484633240126042,
+            0.4800532646242513
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.292918,
+        "spike_follow_support_ratio": 0.990185,
+        "stairwise_ratio": 0.02584,
+        "half_slope_diff": 0.057058
+      },
+      "raw": {
+        "id": "0xb4c756ac701b5cbc0ec2d832652e4f1c820aa40f7d9be18eb81f87080a52c5f1",
+        "title": "[ARC] Community Risk Preference on Aave V3 Borrow/Supply Caps",
+        "author": "0xDD659911EcBD4458db07Ee7cDdeC79bf8F859AbC",
+        "body": "More details can be found in the forum post [here](https://governance.aave.com/t/arc-gauntlet-borrow-supply-cap-updates-for-aave-v3-op-and-aave-v3-avax-2023-01-27/11488).\n\nThis Snapshot vote contains the below options:\n\n1. Conservative Assumption\n2. Aggressive Assumption\n3. Conservative Assumption only for smaller markets (while allowing majors and strategic assets room to grow)\n4. Abstain\n5. Nay\n\n\nThe assumptions depend on the following question: should the community consider overall liquidity (aggressive) or only consider native-chain liquidity (conservative)?\n\n[Gauntlet's research](https://governance.aave.com/t/arc-gauntlet-borrow-supply-cap-updates-for-aave-v3-op-and-aave-v3-avax-2023-01-27/11488#:~:text=For%20Avalanche%2C%20in%20the%20last%206%20months%2C%2069.4%25%20of%20liquidations%20involved%20a%20swap%20using%20on%2Dchain%20liquidity.%20For%20Optimism%2C%20over%20the%20previous%206%20months%2C%2096.2%25%20of%20liquidations%20involved%20a%20swap%20using%20on%2Dchain%20liquidity.) has so far shown that historically, native-chain liquidity plays an important role in the success of liquidations and insolvency mitigation.\n\nThis question depends on the community’s preference: does the community want the Aave protocols on non-Ethereum chains (e.g., Optimism and Avalanche) to be safe under current liquidity conditions (in which case, Conservative is the choice)? OR, do we want these protocols to grow to increase usage and, over time, hope that liquidity conditions improve as a result of Aave’s presence on these chains?\n\n\nThe strategy and preferences of the community greatly impact parameter recommendations.\n",
+        "end_utc": "2023-02-21T22:00:00Z",
+        "similarity_score": 0.1401,
+        "vote_result": {
+          "choices": [
+            "Conservative",
+            "Aggressive",
+            "Conservative only for small mkts",
+            "Abstain",
+            "Nay"
+          ],
+          "scores": [
+            1748.2065327634698,
+            492177.8999821013,
+            305646.84600832686,
+            45.70497450940591,
+            160.37673333052916
+          ],
+          "scores_total": 799779.0342309871,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2023-02-21T22:00:00",
+          "pre_tvl_avg": 4999693793.0,
+          "post_tvl_avg": 4819110798.0,
+          "abnormal_change": -3.6119,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.036119,
+          "abnormal_change_pct": -3.6119
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2023-02-21T22:00:00",
+          "pre_price_avg": 91.070681245,
+          "post_price_avg": 83.51666431999999,
+          "abnormal_change": -8.2947,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.082947,
+          "abnormal_change_pct": -8.2947
+        }
+      }
+    },
+    {
+      "proposal_id": "0x833eca942053ffcaecbedd6c3b0d5f2392f1ad868e57f1babe9b40a2afedaaa3",
+      "cleaned": {
+        "proposal_id": "0x833eca942053ffcaecbedd6c3b0d5f2392f1ad868e57f1babe9b40a2afedaaa3",
+        "title": "[ARC] Gauntlet Risk Parameter Recommendations for V3 AVAX (2023-03-20)",
+        "author": "0xDD659911EcBD4458db07Ee7cDdeC79bf8F859AbC",
+        "end_utc": "2023-03-28T19:00:00Z",
+        "similarity_score": 0.1217,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 564906.8524876878,
+        "margin_pct": 0.9949008895779505,
+        "scores_total": 567802.1382886977,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-03-22T19:01:12Z",
+        "last_vote_at": "2023-03-24T12:50:40Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            150115.4014564209,
+            160.14632146001205,
+            315.79361624238834
+          ],
+          [
+            241532.1538917795,
+            0.25032673616661955,
+            1.4281210127673178
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.616442,
+        "spike_follow_support_ratio": 0.999993,
+        "stairwise_ratio": 5.8e-05,
+        "half_slope_diff": -2.904475
+      },
+      "raw": {
+        "id": "0x833eca942053ffcaecbedd6c3b0d5f2392f1ad868e57f1babe9b40a2afedaaa3",
+        "title": "[ARC] Gauntlet Risk Parameter Recommendations for V3 AVAX (2023-03-20)",
+        "author": "0xDD659911EcBD4458db07Ee7cDdeC79bf8F859AbC",
+        "body": "## Simple Summary\n\nAfter closely monitoring liquidity conditions across the markets following the USDC nonparity event, Gauntlet recommends the following parameter changes to mitigate risk to the protocol. These parameter changes aim to proactively manage risk following changes in liquidity. Please see [here](https://governance.aave.com/t/arc-gauntlet-risk-parameter-recommendations-2023-03-20/12385) for the forum discussion.\n\n---\n*Our borrow and supply cap recommendations utilize the methodology outlined in our [borrow and supply cap methodology](https://governance.aave.com/t/gauntlet-methodologies-borrow-and-supply-cap/11487).*\n\n---\n\n## Specification\n\n![](https://i.imgur.com/pY4ITf9.png)\n",
+        "end_utc": "2023-03-28T19:00:00Z",
+        "similarity_score": 0.1217,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "ABSTAIN",
+            "NAY"
+          ],
+          "scores": [
+            566193.7237249041,
+            1286.8712372162574,
+            321.5433265756108
+          ],
+          "scores_total": 567802.1382886977,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2023-03-28T19:00:00",
+          "pre_tvl_avg": 5581840786.0,
+          "post_tvl_avg": 5465346749.0,
+          "abnormal_change": -2.087,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.02087,
+          "abnormal_change_pct": -2.087
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2023-03-28T19:00:00",
+          "pre_price_avg": 71.347699015,
+          "post_price_avg": 72.75769454499999,
+          "abnormal_change": 1.9762,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.019762,
+          "abnormal_change_pct": 1.9762
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0xb1f8b1814d9c09760daa4d7e9fa90d906b2c9ff5fbd20c8d0f5793c4f5cc4999",
+    "selected_choice_label": "Conservative",
+    "selected_choice_index": 0,
+    "confidence": 0.85,
+    "summary": "This proposal recommends adjusting the debt ceilings for isolated assets on Aave V3 across Avalanche, Polygon, and Arbitrum chains with conservative and aggressive options. The conservative option limits exposure more strictly to mitigate risks from infinite mint attacks and non-standard token behaviors, prioritizing protocol safety.",
+    "key_arguments_for": [
+      "Conservative approach limits debt ceilings to 15% of circulating market cap or 20% of available liquidity, reducing insolvency risks.",
+      "Historical similar proposals favored conservative changes which led to stable or improved protocol risk profiles.",
+      "Forum discussions highlight concerns about whale exposure and risks, supporting cautious limits.",
+      "Timeline analysis shows strong early and stable support for the conservative option."
+    ],
+    "key_arguments_against": [
+      "Aggressive option may allow more capital efficiency and revenue generation but increases risk exposure.",
+      "Some community members prefer aggressive limits for flexibility and growth.",
+      "Market impacts from similar past proposals show mixed TVL effects, cautioning against aggressive changes."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://governance.aave.com/t/gauntlet-aave-v3-isolation-mode-methodology/12290",
+        "quote": "Forum sentiment includes negative posts from core contributors explaining risks of infinite mint attacks and the need for conservative debt ceilings to protect protocol liquidity."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Snapshot vote timeline",
+        "quote": "Timeline metrics indicate early and stable voting support strongly favoring the Conservative choice."
+      },
+      {
+        "source_tool": "govnews_search_governance_news",
+        "reference": "Adjacent analytics on similar proposals",
+        "quote": "Previous similar proposals aimed to adjust risk parameters conservatively and generally resulted in stable or improved risk posture."
+      }
+    ],
+    "available_choices": [
+      "Conservative",
+      "Aggressive",
+      "Abstain",
+      "Nay"
+    ],
+    "event_start_utc": "2023-03-23T19:00:00Z",
+    "event_end_utc": "2023-03-29T01:00:00Z",
+    "event_time_utc": "2023-03-29T01:00:00Z",
+    "address_of_governance_token": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+    "token_price_impact_pct": 2.8267,
+    "tvl_impact_pct": -0.4445,
+    "actual_vote_result": {
+      "winner_label": "Aggressive",
+      "winner_index": 1,
+      "scores": [
+        1667.2398210384438,
+        565517.4739237307,
+        111.0735457116061,
+        30.498978685688915
+      ],
+      "scores_total": 567326.2862691421,
+      "margin_abs": 563850.2341026922,
+      "margin_pct": 0.993873
+    },
+    "simulation_reason": "Recommendation based on timeline, sentiment, and historical lessons rather than final vote tally.",
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Conservative' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Timeline and voting patterns show strong and stable early support for the Conservative option, reflecting community caution.\n- Forum sentiment analysis indicates concerns about risks from non-standard tokens and whale exposures, favoring conservative risk limits.\n- Historical similar proposals adjusting risk parameters conservatively resulted in stable or improved protocol risk outcomes, advising prudence.\n- Market impact metrics for this proposal show slight positive price movement but slight TVL decline; these do not outweigh the risk mitigation benefits.\n- The recommendation aligns well with aggregated forum sentiment, reinforcing that this guidance mirrors community risk preferences for durable protocol health.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0xb4c756ac701b5cbc0ec2d832652e4f1c820aa40f7d9be18eb81f87080a52c5f1",
+        "title": "[ARC] Community Risk Preference on Aave V3 Borrow/Supply Caps",
+        "end_utc": "2023-02-21T22:00:00Z",
+        "summary": "[ARC] Community Risk Preference on Aave V3 Borrow/Supply Caps closed on 2023-02-21T22:00:00Z. Timeline analytics noted 5500 unique voters, timeline-only analysis (no final tally), recommended option index 2.",
+        "similarity_reason": "Related text overlap (score 0.15)",
+        "market_response": "token -6.76%; TVL -3.61%",
+        "change_stance": null
+      },
+      {
+        "proposal_id": "0xbda28d65ca4d64005e6019948ed52d9d62c9e73e356ab1013aa2d4829f40c735",
+        "title": "[ARC] Gauntlet Interest Rate Curve Recommendations for Aave V3 Markets (Feb 2023)",
+        "end_utc": "2023-02-27T22:00:00Z",
+        "summary": "[ARC] Gauntlet Interest Rate Curve Recommendations for Aave V3 Markets (Feb 2023) closed on 2023-02-27T22:00:00Z. Timeline analytics noted 5500 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.10)",
+        "market_response": "token -1.33%; TVL +1.63%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 2.8267,
+    "ex_post_tvl_impact_pct": -0.4445,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +2.83%; TVL -0.44%"
+  },
+  "agentic_ai_choice": "Conservative",
+  "actual_outcome": "Aggressive",
+  "match_result": "different",
+  "forum_sentiment_summary": {
+    "Negative": 3,
+    "Positive": 0,
+    "Neutral": 7,
+    "total_comments": 10
+  }
+}

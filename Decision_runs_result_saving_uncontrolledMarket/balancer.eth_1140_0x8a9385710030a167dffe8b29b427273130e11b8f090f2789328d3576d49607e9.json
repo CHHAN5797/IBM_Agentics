@@ -1,0 +1,1148 @@
+{
+  "captured_at_utc": "2025-10-08T19:42:19.764793+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x8a9385710030a167dffe8b29b427273130e11b8f090f2789328d3576d49607e9",
+  "focus": null,
+  "votes_count": 3,
+  "timeline_metrics_current": {
+    "unique_voters": 3,
+    "total_votes": 3,
+    "first_vote_at": "2025-04-04T12:29:05Z",
+    "last_vote_at": "2025-04-07T08:00:01Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        311411.3044028749,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        255133.03885441332,
+        0.0,
+        0.0
+      ],
+      [
+        2389341.7577656447,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.808334,
+    "spike_follow_support_ratio": 0.0,
+    "stairwise_ratio": 0.191666,
+    "half_slope_diff": 17.518453
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x20d68cb279298cb62f565c31f1f134bd3343dfd7721142f1b551822bd0edd816",
+      "title": "[BIP-806] Enable Gauges for fWETH/fwstETH, fWETH/waArbwstETH, fWETH/waBaswstETH",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-03-31T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 3,
+        "total_votes": 3,
+        "first_vote_at": "2025-03-28T12:23:01Z",
+        "last_vote_at": "2025-03-31T15:51:18Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            318822.1969522798,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2577332.379715236,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.821873,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.178127,
+        "half_slope_diff": 6.96875
+      },
+      "price_impact_pct": -3.661,
+      "tvl_impact_pct": -1.296,
+      "similarity": 0.2289,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2896154.5766675156,
+        "scores_total": 2896154.5766675156,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0x2636e7a6e91a30fa584560371f733b80d8f11973e97c9bb27409210bc5db9854",
+      "title": "[BIP-805] Balancer Registry Initialization",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-03-24T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5,
+        "total_votes": 5,
+        "first_vote_at": "2025-03-21T10:59:56Z",
+        "last_vote_at": "2025-03-24T08:00:03Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            326056.3114102613,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2588451.1624970958,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.819007,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.180993,
+        "half_slope_diff": 12698.401435
+      },
+      "price_impact_pct": 2.8874,
+      "tvl_impact_pct": 1.7511,
+      "similarity": 0.0769,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2914507.473907357,
+        "scores_total": 2914507.473907357,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0xa174606ee924b6ccfcf6be9862f02ac8105541bd86df98ee0f44525c429f4b69",
+      "title": "[BIP-804] Protocol Fee Controller Migration",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-03-24T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5,
+        "total_votes": 5,
+        "first_vote_at": "2025-03-21T10:59:20Z",
+        "last_vote_at": "2025-03-24T08:00:03Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            326057.9127420809,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2588452.021360224,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.819006,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.180994,
+        "half_slope_diff": 8650.659424
+      },
+      "price_impact_pct": 2.8874,
+      "tvl_impact_pct": 1.7511,
+      "similarity": 0.0837,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2914509.934102305,
+        "scores_total": 2914509.934102305,
+        "margin_pct": 1.0
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x8142b7849da32cab17ffeda8db17fb71dcf0a24bad9f9f357842c794e4de6853",
+      "cleaned": {
+        "proposal_id": "0x8142b7849da32cab17ffeda8db17fb71dcf0a24bad9f9f357842c794e4de6853",
+        "title": "[BIP-782] Enable sUSDX/USDX/aUSDT gauge [Arbitrum]",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2025-02-17T19:00:00Z",
+        "similarity_score": 0.8882,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2903015.7790765157,
+        "margin_pct": 1.0,
+        "scores_total": 2903015.7790765157,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5,
+        "total_votes": 5,
+        "first_vote_at": "2025-02-14T12:09:21Z",
+        "last_vote_at": "2025-02-17T08:37:40Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            362577.1152627468,
+            0.0,
+            0.0
+          ],
+          [
+            613.4555769975819,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2539825.208236771,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.814396,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.185604,
+        "half_slope_diff": 193.756665
+      },
+      "raw": {
+        "id": "0x8142b7849da32cab17ffeda8db17fb71dcf0a24bad9f9f357842c794e4de6853",
+        "title": "[BIP-782] Enable sUSDX/USDX/aUSDT gauge [Arbitrum]",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1762\n\n**Summary:**\nThis is a proposal to enable Balancer gauge on Arbitrum for sUSDX/USDX/aUSDT pool.\n\n\n**References/Useful links:**\n\nLink to:\n* Website: https://usdx.money/\n* Documentation: https://docs.usdx.money/\n* Github Page: [USDX Token · GitHub](https://github.com/USDXToken)\n* Communities: [X](https://x.com/usdx_money), [Telegram](https://t.me/USDX_Community), [Discord](https://discord.com/invite/usdxmoney)\n\n**Protocol Description:**\n* Stables Labs is a stablecoin infrastructure project, with USDX as its first product.\n* USDX is a synthetic stablecoin, designed to offer a stable, censorship-resistant, crypto-native money. USDX captures yield from crypto-native sources and distributes it back to its users.\n* sUSDX is a staked version of USDX; yield for sUSDX currently stands around 10%.\n* USDT is a fiat-backed USD-denominated stablecoin, issued by Tether.\n\n**Motivation:**\n\n* Stables Labs has recently concluded Season 1 of its points campaign, and saw rapid increase in its TVL. Our previous collaboration with Balancer has proven extremely effective, as our sUSDX/USDX became Balancer v2 Arbitrum's biggest pool (TVL ~$10M). sUSDX/USDX/aUSDT Balancer v3 pool will allow users to enjoy greater yield, and deep pool of liquidity to swap through.\n\n**Specifications:**\n \n1. **Governance**: currently owned by 0x3f9a06aD4c83c289DF83461fE5F24EE4c4491935 (3 out of 4 multisig).\n2. **Oracles**: The protocol does not reply on external oracles.\n3. **Audits**: [link](https://1166152427-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F5mdBNVoaU0Rn0IEZP0Y1%2Fuploads%2FAGLbaiVubfT1xuY1FdmH%2FBlocksec_Security_Audit_Report_for_USDX.pdf?alt=media&token=6326b906-c1b4-49cd-b670-666baee5d030). Additional audit reports can be viewed on [Audit | usdx.money](https://docs.usdx.money/informaiton/audit)\n4. **Centralization vectors**: The centralization vectors primarily relate to the owner of the contracts, which is a 3 out of 4 multisig. The team has 15 full-time, doxxed contributors.\n5. **Market history**: USDX has not previously de-pegged, and sUSDX is an ERC4626 token. Balancer pools for USDX/USDT and sUSDX/USDX have just been deployed.\n6. **Value**: USDX currently has $620M in TVL, making it the 4th largest protocol by TVL on [BNB Chain](https://defillama.com/chain/BSC), and 5th largest protocol by TVL on [Arbitrum](https://defillama.com/chain/Arbitrum). We will also be launching Season 2 of our points program soon, which would bring healthy amount of attention and activities around USDX.\n\nsUSDX -USDX-aUSDT Pool https://balancer.fi/pools/arbitrum/v3/0xc2B0D1A1B4cdDA10185859B5a5c543024c2df869\n\nChild Gauge [https://arbiscan.io/address/0x9419c8b7ff370db3823164acea6d9664f4b9c8a9](https://arbiscan.io/address/0x9419c8b7ff370db3823164acea6d9664f4b9c8a9)\n\nRoot Gauge [https://etherscan.io/address/0xeb312b0d7795743C3DE905bc09c0D62aA180A7a6](https://etherscan.io/address/0xeb312b0d7795743C3DE905bc09c0D62aA180A7a6)\n\n## Technical Specifications:\n\nTransaction: The Balancer Maxi LM Multisig eth:`0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the `GaugeAdderv4` at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function with the following arguments:\n\ngauge(address): [`0xeb312b0d7795743C3DE905bc09c0D62aA180A7a6`](https://etherscan.io/address/0xeb312b0d7795743C3DE905bc09c0D62aA180A7a6)\n\ngaugeType(string): `Arbitrum`\n\nEdits by Maxis:\n1. modified child chain and root gauges\n2. PR with Payload",
+        "end_utc": "2025-02-17T19:00:00Z",
+        "similarity_score": 0.8882,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2903015.7790765157,
+            0,
+            0
+          ],
+          "scores_total": 2903015.7790765157,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2025-02-17T19:00:00",
+          "pre_tvl_avg": 854096726.0,
+          "post_tvl_avg": 844430891.5,
+          "abnormal_change": -1.1317,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.011317,
+          "abnormal_change_pct": -1.1317
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2025-02-17T19:00:00",
+          "pre_price_avg": 1.9757971300000001,
+          "post_price_avg": 1.9641881149999998,
+          "abnormal_change": -0.5876,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.005876,
+          "abnormal_change_pct": -0.5876
+        }
+      }
+    },
+    {
+      "proposal_id": "0xa8edc83dfdf18dc8b13dcf653572665dddf8e450bbb35ba1ec9c3d248b0c7a2d",
+      "cleaned": {
+        "proposal_id": "0xa8edc83dfdf18dc8b13dcf653572665dddf8e450bbb35ba1ec9c3d248b0c7a2d",
+        "title": "[BIP-747] Enable USDX/USDT and sUSDX/USDX gauge [Arbitrum]",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2024-12-23T19:00:00Z",
+        "similarity_score": 0.612,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2884820.1514894753,
+        "margin_pct": 1.0,
+        "scores_total": 2884820.1514894753,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 3,
+        "total_votes": 3,
+        "first_vote_at": "2024-12-20T22:25:44Z",
+        "last_vote_at": "2024-12-23T09:48:44Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            522783.63969893835,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2362036.511790537,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.818781,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.181219,
+        "half_slope_diff": 13.59422
+      },
+      "raw": {
+        "id": "0xa8edc83dfdf18dc8b13dcf653572665dddf8e450bbb35ba1ec9c3d248b0c7a2d",
+        "title": "[BIP-747] Enable USDX/USDT and sUSDX/USDX gauge [Arbitrum]",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1603\n\n## Summary\n\nThis is a proposal to enable Balancer gauges on Arbitrum for USDX/USDT and sUSDX/USDX pools.\n\n## References/Useful LInks\n\nLink to:\n\n* Website: https://usdx.money/\n\n* Documentation: https://docs.usdx.money/\n\n* Github Page: [USDX Token · GitHub](https://github.com/USDXToken)\n\n* Communities: [X](https://x.com/usdx_money), [Telegram](https://t.me/USDX_Community), [Discord](https://discord.com/invite/usdxmoney)\n\n## Protocol Description\n\n* usdx.money is a stablecoin infrastructure project, with USDX as its first product.\n\n* USDX is a synthetic stablecoin, designed to offer a stable, censorship-resistant, crypto-native money. USDX captures yield from crypto-native sources and distributes it back to its users.\n\n* sUSDX is a staked version of USDX; yield for sUSDX currently stands around 19%.\n\n* USDT is a fiat-backed USD-denominated stablecoin, issued by Tether.\n\n## Motivation\n\n* usdx.money has recently launched its points campaign, and expects the TVL to rapidly increase. With increased TVL, usdx.money is committed to building robust liquidity for sUSDX/USDX and USDX/USDT pairs on Arbitrum Chain to facilitate secondary liquidity for USDX and sUSDX. We are seeking to bootstrap majority of our liquidity on Balancer, and this will help onboard more users to both usdx.money and Balancer.\n\n## Specification\n\n1. **Governance**: currently owned by 0x3f9a06aD4c83c289DF83461fE5F24EE4c4491935 (3 out of 4 multisig).\n\n2. **Oracles**: The protocol does not reply on external oracles.\n\n3. **Audits**: [link](https://1166152427-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F5mdBNVoaU0Rn0IEZP0Y1%2Fuploads%2FAGLbaiVubfT1xuY1FdmH%2FBlocksec_Security_Audit_Report_for_USDX.pdf?alt=media&token=6326b906-c1b4-49cd-b670-666baee5d030). Additional audit reports can be viewed on https://docs.usdx.money/informaiton/audit\n\n4. **Centralization vectors**: The centralization vectors primarily relate to the owner of the contracts, which is a 3 out of 4 multisig. The team has 15 full-time, doxxed contributors.\n\n5. **Market history**: USDX has not previously de-pegged, and sUSDX is an ERC4626 token. Balancer pools for USDX/USDT and sUSDX/USDX have just been deployed.\n\n* Addresses for USDX/USUSDT\n\n  * Pool address: https://balancer.fi/pools/arbitrum/v2/0x85564af67760063b994599b640552614238c9ee60000000000000000000005e3\n\n  * Arbitrum Child Gauge: https://arbiscan.io/address/0x7bbD2B8932610dEC2698C63fC28130224A339Df2#readContract\n\n  * Mainnet Root Gauge: https://etherscan.io/address/0x5f244e8ac0FF2d2af14368fd8EFd1E508a50CF68\n* Addresses for sUSDX/USDX\n\n  * Pool address: https://balancer.fi/pools/arbitrum/v2/0xb3047330c1cb5eb1a3670fabfb99bdc106d631eb0000000000000000000005e4\n\n  * Arbitrum Child Gauge: https://arbiscan.io/address/0x83bE87529aC31d06fEc49FF5Aedd6290b81D0700\n\n  * Mainnet Root Gauge: https://etherscan.io/address/0x0d1b58fB1fC10F2160178DE1eAE2d520335ee372\n\n6. **Value**: USDX currently has $210m in TVL, making it the th largest protocol by TVL on [BNB Chain](https://defillama.com/chain/BSC). As the protocol rolls out points program on Arbitrum, we intend for Balancer pools to be the primary source of liquidity for USDX and sUSDX on Arbitrum.\n\n### Technical Specification\nThe Balancer Maxi LM Multisig `0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function with the following arguments: gauge(address):`0x5f244e8ac0FF2d2af14368fd8EFd1E508a50CF68` gaugeType(string): `Arbitrum` gauge(address):`0x0d1b58fB1fC10F2160178DE1eAE2d520335ee372` gaugeType(string): `Arbitrum`",
+        "end_utc": "2024-12-23T19:00:00Z",
+        "similarity_score": 0.612,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2884820.1514894753,
+            0,
+            0
+          ],
+          "scores_total": 2884820.1514894753,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-12-23T19:00:00",
+          "pre_tvl_avg": 1038494990.0,
+          "post_tvl_avg": 1110455054.5,
+          "abnormal_change": 6.9293,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.069293,
+          "abnormal_change_pct": 6.9293
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-12-23T19:00:00",
+          "pre_price_avg": 2.47776569,
+          "post_price_avg": 2.6045202549999997,
+          "abnormal_change": 5.1157,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.051157,
+          "abnormal_change_pct": 5.1157
+        }
+      }
+    },
+    {
+      "proposal_id": "0x5d79b5cc47b0781dc9146367414fcad070809547cd5fc1f41ae01809aca1e36b",
+      "cleaned": {
+        "proposal_id": "0x5d79b5cc47b0781dc9146367414fcad070809547cd5fc1f41ae01809aca1e36b",
+        "title": "[BIP-700] Enable a wstETH/GYD gauge [Ethereum]",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "end_utc": "2024-09-23T18:00:00Z",
+        "similarity_score": 0.2582,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2904525.581395645,
+        "margin_pct": 1.0,
+        "scores_total": 2904525.581395645,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 6,
+        "total_votes": 6,
+        "first_vote_at": "2024-09-20T04:01:21Z",
+        "last_vote_at": "2024-09-23T06:22:34Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.011062844861338548,
+            0.0,
+            0.0
+          ],
+          [
+            237861.1240738942,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2666664.4462589063,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.834769,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.165231,
+        "half_slope_diff": 21.179496
+      },
+      "raw": {
+        "id": "0x5d79b5cc47b0781dc9146367414fcad070809547cd5fc1f41ae01809aca1e36b",
+        "title": "[BIP-700] Enable a wstETH/GYD gauge [Ethereum]",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "body": "PR With Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1359\n\n**Summary**\n> This is a proposal to enable one uncapped Balancer gauge on Ethereum for a wstETH/GYD E-CLP. \n\n**References/Useful links**\n\n> Links\n> * [Documentation of E-CLPs](https://docs.gyro.finance/gyroscope-protocol/concentrated-liquidity-pools/e-clps)\n> * [Website](https://gyro.finance/)\n> * [Github](https://github.com/gyrostable)\n> * [Discord](https://discord.com/invite/2vnqnS7wE6)\n> * [X](https://twitter.com/GyroStable)\n\n**Protocol Description**\n\n>* GYD is a USD denominated stablecoin, issued by [Gyroscope](https://gyro.finance/).\n>* wstETH is a static wrapper of stETH. stETH is a yield bearing token that represents staked ether in [Lido](https://help.lido.fi/en/articles/5230610-what-is-steth).\n\n\n**Motivation**\n\n> Gyroscope is launching further strategic pools.\n\n**Specification**\n \n>1. **Governance:** The Gyroscope Protocol will be governed by a DAO and relevant stakeholder with the full launch on Ethereum. For now, the FTL Labs multi-sig can pause the pool, change the swap fee and set the protocol fee. As a custom pool by Gyroscope, the E-CLP will be controlled by Gyroscope governance upon its launch.\n>\n>\n>2. **Oracles:** \n> * ‘rateProvider0’: wstETH rate provider on Ethereum: [0x72D07D7DcA67b8A406aD1Ec34ce969c90bFEE768](https://etherscan.io/address/0x72D07D7DcA67b8A406aD1Ec34ce969c90bFEE768)\nand relevant [review ](https://github.com/balancer/code-review/blob/main/rate-providers/wstethRateProvider.md).\n> *  ‘rateProvider1’: GYD rate provider on Ethereum: [0xD43F5a722e8e7355D790adda4642f392Dfb820a1](https://etherscan.io/address/0xD43F5a722e8e7355D790adda4642f392Dfb820a1).\n>\n>3. **Audits:** Audit reports by Nethermind, Trail of Bits, and Runtime Verification can be accessed here (the E-CLP is called the “CEMM” in these reports). In addition, the E-CLP code has been live in production since November 2022.\n>\n>4. **Centralization vectors:** No centralization vectors. The FTL Labs team’s multi-sig can - currently - pause the pool, change the swap fee and set the protocol fee.\n>\n>5. **Market History:** This is the first wstETH/GYD E-CLP on Ethereum.\n>\n>6. **Value:** This pool is intended to be the primary source of liquidity for the token(s). \n\n#### Contracts\n\n> * E-CLP: [0xC8cF54b0b70899Ea846B70361e62F3F5B22b1f4B](https://etherscan.io/address/0xC8cF54b0b70899Ea846B70361e62F3F5B22b1f4B)\n>* Gauge: [0xCda69C40176B98bB1773109d1fEa91e12F478451](https://etherscan.io/address/0xCda69C40176B98bB1773109d1fEa91e12F478451)\n\n\n#### Specification\n\n\n>Transaction: The Balancer Maxi LM Multisig `eth:0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the `addGauge` function with the following arguments:\n>\n>gauge(address): `0xCda69C40176B98bB1773109d1fEa91e12F478451`\n>gaugeType(string): `Ethereum`",
+        "end_utc": "2024-09-23T18:00:00Z",
+        "similarity_score": 0.2582,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2904525.581395645,
+            0,
+            0
+          ],
+          "scores_total": 2904525.581395645,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-09-23T18:00:00",
+          "pre_tvl_avg": 728471395.5,
+          "post_tvl_avg": 760272261.0,
+          "abnormal_change": 4.3654,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.043654,
+          "abnormal_change_pct": 4.3654
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-09-23T18:00:00",
+          "pre_price_avg": 2.00455717,
+          "post_price_avg": 2.070966935,
+          "abnormal_change": 3.3129,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.033129,
+          "abnormal_change_pct": 3.3129
+        }
+      }
+    },
+    {
+      "proposal_id": "0x11359291f1cb634d26208c2d821d99782790ef031707c76831c56d571255bbbe",
+      "cleaned": {
+        "proposal_id": "0x11359291f1cb634d26208c2d821d99782790ef031707c76831c56d571255bbbe",
+        "title": "[BIP-699] Enable a wstETH/GYD gauge [Arbitrum]",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "end_utc": "2024-09-23T18:00:00Z",
+        "similarity_score": 0.2579,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2904526.9502800624,
+        "margin_pct": 1.0,
+        "scores_total": 2904526.9502800624,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5,
+        "total_votes": 5,
+        "first_vote_at": "2024-09-20T04:01:35Z",
+        "last_vote_at": "2024-09-23T06:23:09Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.006673687456760747,
+            0.0,
+            0.0
+          ],
+          [
+            237861.84871458026,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2666665.0948917945,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.834769,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.165231,
+        "half_slope_diff": 20.251383
+      },
+      "raw": {
+        "id": "0x11359291f1cb634d26208c2d821d99782790ef031707c76831c56d571255bbbe",
+        "title": "[BIP-699] Enable a wstETH/GYD gauge [Arbitrum]",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "body": "PR With Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1358\n\n**Summary**\n> This is a proposal to enable one uncapped Balancer gauge on Arbitrum for a wstETH/GYD E-CLP. \n\n**References/Useful links**\n\n> Links\n> * [Documentation of E-CLPs](https://docs.gyro.finance/gyroscope-protocol/concentrated-liquidity-pools/e-clps)\n> * [Website](https://gyro.finance/)\n> * [Github](https://github.com/gyrostable)\n> * [Discord](https://discord.com/invite/2vnqnS7wE6)\n> * [X](https://twitter.com/GyroStable)\n\n**Protocol Description**\n\n>* GYD is a USD denominated stablecoin, issued by [Gyroscope](https://gyro.finance/).\n>* wstETH is a static wrapper of stETH. stETH is a yield bearing token that represents staked ether in [Lido](https://help.lido.fi/en/articles/5230610-what-is-steth).\n\n\n**Motivation**\n\n> Gyroscope is launching further strategic pools. The calibration was improved over the previously deployed, equivalent pool that was whitelisted [here](https://forum.balancer.fi/t/bip-691-enable-gauge-for-gyd-wsteth-e-clp-arbitrum/5956).\n\n**Specification**\n \n>1. **Governance:** The Gyroscope Protocol will be governed by a DAO and relevant stakeholder with the full launch on Ethereum. For now, the FTL Labs multi-sig can pause the pool, change the swap fee and set the protocol fee. As a custom pool by Gyroscope, the E-CLP will be controlled by Gyroscope governance upon its launch.\n>\n>\n>2. **Oracles:** \n> * ‘rateProvider0’: wstETH rate provider on Arbitrum: [0xf7c5c26B574063e7b098ed74fAd6779e65E3F836](https://arbiscan.io/address/0xf7c5c26B574063e7b098ed74fAd6779e65E3F836)\nand relevant [review ](https://github.com/balancer/code-review/blob/main/rate-providers/wstethRateProvider.md).\n> *  ‘rateProvider1’: GYD rate provider on Arbitrum: [0x72F6Da3b4bd0Ab7028F52339Ee3B1f94fffe2dD0](https://arbiscan.io/address/0x72F6Da3b4bd0Ab7028F52339Ee3B1f94fffe2dD0).\n>\n>3. **Audits:** Audit reports by Nethermind, Trail of Bits, and Runtime Verification can be accessed here (the E-CLP is called the “CEMM” in these reports). In addition, the E-CLP code has been live in production since November 2022.\n>\n>4. **Centralization vectors:** No centralization vectors. The FTL Labs team’s multi-sig can - currently - pause the pool, change the swap fee and set the protocol fee.\n>\n>5. **Market History:** n/a.\n>\n>6. **Value:** This pool is intended to be the primary source of liquidity for the token(s). \n\n#### Contracts\n\n> * E-CLP: [0x6ce1D1e46548ef657f8D7Ebddfc4BEaDB04F72f3](https://arbiscan.io/address/0x6ce1D1e46548ef657f8D7Ebddfc4BEaDB04F72f3)\n>* Child gauge on Arbitrum: [0x654a17A779B82BA7739cD3Adb2052e039c4366C5](https://arbiscan.io/address/0x654a17A779B82BA7739cD3Adb2052e039c4366C5)\n>* Arbitrum root gauge on Ethereum: [0x9E965252d1b294aF358a232933A65Bd30645c34C](https://etherscan.io/address/0x9E965252d1b294aF358a232933A65Bd30645c34C)\n\n#### Specification\n\n\n>Transaction: The Balancer Maxi LM Multisig `eth:0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the `addGauge` function with the following arguments:\n>\n>gauge(address): `0x9E965252d1b294aF358a232933A65Bd30645c34C`\n>gaugeType(string): `Arbitrum`",
+        "end_utc": "2024-09-23T18:00:00Z",
+        "similarity_score": 0.2579,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2904526.9502800624,
+            0,
+            0
+          ],
+          "scores_total": 2904526.9502800624,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-09-23T18:00:00",
+          "pre_tvl_avg": 728471395.5,
+          "post_tvl_avg": 760272261.0,
+          "abnormal_change": 4.3654,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.043654,
+          "abnormal_change_pct": 4.3654
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-09-23T18:00:00",
+          "pre_price_avg": 2.00455717,
+          "post_price_avg": 2.070966935,
+          "abnormal_change": 3.3129,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.033129,
+          "abnormal_change_pct": 3.3129
+        }
+      }
+    },
+    {
+      "proposal_id": "0x9dbf8eec494b7f53cd322bd101ff712d5a6b52dcbd6b4a203add0ac841e8c10c",
+      "cleaned": {
+        "proposal_id": "0x9dbf8eec494b7f53cd322bd101ff712d5a6b52dcbd6b4a203add0ac841e8c10c",
+        "title": "[BIP-724] Enable GYD/aUSDT gauge [Polygon PoS]",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "end_utc": "2024-10-21T18:00:00Z",
+        "similarity_score": 0.2568,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2979926.189746477,
+        "margin_pct": 1.0,
+        "scores_total": 2979926.189746477,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5,
+        "total_votes": 5,
+        "first_vote_at": "2024-10-18T10:18:47Z",
+        "last_vote_at": "2024-10-21T05:29:04Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            339713.8715142079,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.19023417886405122,
+            0.0,
+            0.0
+          ],
+          [
+            2640212.127998091,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.806859,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.193141,
+        "half_slope_diff": 30.248468
+      },
+      "raw": {
+        "id": "0x9dbf8eec494b7f53cd322bd101ff712d5a6b52dcbd6b4a203add0ac841e8c10c",
+        "title": "[BIP-724] Enable GYD/aUSDT gauge [Polygon PoS]",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "body": "PR with Payload:\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1438\n\n**Summary**\n> This is a proposal to enable one uncapped Balancer gauge on Polygon PoS for a GYD/aUSDT E-CLP. \n\n**References/Useful links**\n\n> Links\n> * [Documentation of E-CLPs](https://docs.gyro.finance/gyroscope-protocol/concentrated-liquidity-pools/e-clps)\n> * [Website](https://gyro.finance/)\n> * [Github](https://github.com/gyrostable)\n> * [Discord](https://discord.com/invite/2vnqnS7wE6)\n> * [X](https://twitter.com/GyroStable)\n\n**Protocol Description**\n\n>* GYD is a USD denominated meta-stablecoin, issued by [Gyroscope](https://gyro.finance/).\n>* USDT is a USD denominated stablecoin, issued by [Tether](https://tether.to/en/). aUSDT is the yield-bearing deposit receipt token for lending out USDT on Aave, in a static wrapper.\n\n\n**Motivation**\n\n> GYD is launching on Polygon PoS. This is a core pool to enable initial liquidity.\n\n**Specification**\n \n>1. **Governance:** The Gyroscope Protocol will be governed by a DAO and relevant stakeholder with the full launch on Ethereum. For now, the FTL Labs multi-sig can pause the pool, change the swap fee and set the protocol fee. As a custom pool by Gyroscope, the E-CLP will be controlled by Gyroscope governance upon its launch.\n>\n>\n>2. **Oracles:** \n> * ‘rateProvider0’: [0x9977a61a6aa950044d4dcD8aA0cAb76F84ea5aCd](https://polygonscan.com/address/0x9977a61a6aa950044d4dcD8aA0cAb76F84ea5aCd) and relevant [review](https://github.com/balancer/code-review/blob/main/rate-providers/statATokenLMRateProvider.md)\n> *  ‘rateProvider1’: 0x00\n>\n>3. **Audits:** Audit reports by Nethermind, Trail of Bits, and Runtime Verification can be accessed here (the E-CLP is called the “CEMM” in these reports). In addition, the E-CLP code has been live in production since November 2022.\n>\n>4. **Centralization vectors:** No centralization vectors. The FTL Labs team’s multi-sig can - currently - pause the pool, change the swap fee and set the protocol fee.\n>\n>5. **Market History:** This is the first GYD pool on Polygon PoS.\n>\n>6. **Value:** This pool is intended to better match the historic prices and low volatility of the included tokens. \n\n#### Contracts\n\n> * E-CLP: [0xa8CbbfFE0d62797AFAF7af0A23810bd5ba39a4dD](https://polygonscan.com/address/0xa8CbbfFE0d62797AFAF7af0A23810bd5ba39a4dD)\n>* Child Gauge on Polygon: [0xCC322077D4056739FC11E950326b2a97aEcB0cc8](https://polygonscan.com/address/0xCC322077D4056739FC11E950326b2a97aEcB0cc8)\n>* Root Gauge on Ethereum: [0x8E4debFB047eFCF6501665160739818E90eD621F](https://etherscan.io/address/0x8E4debFB047eFCF6501665160739818E90eD621F)\n\n\n#### Specification\n\n\n>Transaction: The Balancer Maxi LM Multisig `eth:0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the `addGauge` function with the following arguments:\n>\n>gauge(address): `0x8E4debFB047eFCF6501665160739818E90eD621F`\n>gaugeType(string): `Polygon`",
+        "end_utc": "2024-10-21T18:00:00Z",
+        "similarity_score": 0.2568,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2979926.189746477,
+            0,
+            0
+          ],
+          "scores_total": 2979926.189746477,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-10-21T18:00:00",
+          "pre_tvl_avg": 749932041.0,
+          "post_tvl_avg": 734140468.0,
+          "abnormal_change": -2.1057,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.021057,
+          "abnormal_change_pct": -2.1057
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-10-21T18:00:00",
+          "pre_price_avg": 2.1278089749999998,
+          "post_price_avg": 1.950356945,
+          "abnormal_change": -8.3397,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.083397,
+          "abnormal_change_pct": -8.3397
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x8a9385710030a167dffe8b29b427273130e11b8f090f2789328d3576d49607e9",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.85,
+    "summary": "The proposal to enable the sUSDX/USDX/aUSDT gauge on Ethereum Mainnet is supported by unanimous early votes and consistent timeline metrics. Although forum sentiment is mixed with some negativity, historical similar proposals show mostly positive outcomes. The recommendation is to approve the change for long-term benefit.",
+    "key_arguments_for": [
+      "Unanimous early voting support with stable and sustained lead for approval.",
+      "Historical similar proposals enabling gauges have generally resulted in positive or neutral market and TVL impacts.",
+      "The proposal enables bootstrapping liquidity and enhanced yield opportunities for a promising stablecoin ecosystem.",
+      "Strong governance control with multisig ownership and audited contracts reduces centralization and security risks."
+    ],
+    "key_arguments_against": [
+      "Forum sentiment includes negative concerns possibly reflecting caution or unaddressed risks.",
+      "Post-vote market impact shows a significant price and TVL decline, warranting caution.",
+      "Limited number of votes may reduce confidence in broad community support."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.balancer.fi/t/bip-807-enable-susdx-usdx-ausdt-gauge-mainnet/6453",
+        "quote": "Two forum comments before deadline, one negative sentiment highlighting concerns, one neutral post linking snapshot proposal."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Balancer.eth proposal 0x8a9385710030a167dffe8b29b427273130e11b8f090f2789328d3576d49607e9",
+        "quote": "Timeline metrics show 100% lead ratio for 'Yes, let's do it' option with perfect stability and early voting ratios."
+      },
+      {
+        "source_tool": "provided context",
+        "reference": "Adjacent similar proposals BIP-806, BIP-805, BIP-804",
+        "quote": "Historical similar proposals mostly passed with positive or neutral post-vote market responses, supporting gauge enabling changes."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-04-03T18:00:00Z",
+    "event_end_utc": "2025-04-07T18:00:00Z",
+    "event_time_utc": "2025-04-07T18:00:00Z",
+    "address_of_governance_token": "0xba100000625a3754423978a60c9317c58a424e3d",
+    "token_price_impact_pct": -23.8927,
+    "tvl_impact_pct": -10.3,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        2955886.1010229327,
+        0.0,
+        0.0
+      ],
+      "scores_total": 2955886.1010229327,
+      "margin_abs": 2955886.1010229327,
+      "margin_pct": 1.0
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- The unanimous early voting and timeline metrics strongly favor the 'Yes, let's do it' option, indicating clear community support among voters.\n- Historical similar proposals to enable gauges have mostly been successful, with positive or neutral market and TVL outcomes, supporting the potential benefits of this change.\n- Forum sentiment is mixed, with some negativity suggesting caution; however, the recommendation aligns with the vote progression rather than the limited forum sentiment, which may not represent the full community.\n- Despite the significant negative post-vote price and TVL impact, this is excluded from recommendation reasoning but noted as a risk factor.\n- Overall, the recommendation to approve aims to maximize the organization’s long-term health and liquidity growth.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x20d68cb279298cb62f565c31f1f134bd3343dfd7721142f1b551822bd0edd816",
+        "title": "[BIP-806] Enable Gauges for fWETH/fwstETH, fWETH/waArbwstETH, fWETH/waBaswstETH",
+        "end_utc": "2025-03-31T19:00:00Z",
+        "summary": "[BIP-806] Enable Gauges for fWETH/fwstETH, fWETH/waArbwstETH, fWETH/waBaswstETH closed on 2025-03-31T19:00:00Z. Timeline analytics noted 3 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Moderate text overlap (score 0.23)",
+        "market_response": "token -3.66%; TVL -1.30%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0xa174606ee924b6ccfcf6be9862f02ac8105541bd86df98ee0f44525c429f4b69",
+        "title": "[BIP-804] Protocol Fee Controller Migration",
+        "end_utc": "2025-03-24T19:00:00Z",
+        "summary": "[BIP-804] Protocol Fee Controller Migration closed on 2025-03-24T19:00:00Z. Timeline analytics noted 5 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.08)",
+        "market_response": "token +2.89%; TVL +1.75%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -23.8927,
+    "ex_post_tvl_impact_pct": -10.3,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -23.89%; TVL -10.30%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 1,
+    "Positive": 0,
+    "Neutral": 1,
+    "total_comments": 2
+  }
+}

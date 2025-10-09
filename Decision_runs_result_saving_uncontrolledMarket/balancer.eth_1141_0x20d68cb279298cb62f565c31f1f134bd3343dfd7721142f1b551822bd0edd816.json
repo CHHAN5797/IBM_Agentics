@@ -1,0 +1,1147 @@
+{
+  "captured_at_utc": "2025-10-08T19:45:02.866530+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x20d68cb279298cb62f565c31f1f134bd3343dfd7721142f1b551822bd0edd816",
+  "focus": null,
+  "votes_count": 3,
+  "timeline_metrics_current": {
+    "unique_voters": 3,
+    "total_votes": 3,
+    "first_vote_at": "2025-03-28T12:23:01Z",
+    "last_vote_at": "2025-03-31T15:51:18Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        318822.1969522798,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        2577332.379715236,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.821873,
+    "spike_follow_support_ratio": 1.0,
+    "stairwise_ratio": 0.178127,
+    "half_slope_diff": 6.96875
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x2636e7a6e91a30fa584560371f733b80d8f11973e97c9bb27409210bc5db9854",
+      "title": "[BIP-805] Balancer Registry Initialization",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-03-24T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5,
+        "total_votes": 5,
+        "first_vote_at": "2025-03-21T10:59:56Z",
+        "last_vote_at": "2025-03-24T08:00:03Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            326056.3114102613,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2588451.1624970958,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.819007,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.180993,
+        "half_slope_diff": 12698.401435
+      },
+      "price_impact_pct": 2.8874,
+      "tvl_impact_pct": 1.7511,
+      "similarity": 0.0987,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2914507.473907357,
+        "scores_total": 2914507.473907357,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0xa174606ee924b6ccfcf6be9862f02ac8105541bd86df98ee0f44525c429f4b69",
+      "title": "[BIP-804] Protocol Fee Controller Migration",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-03-24T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5,
+        "total_votes": 5,
+        "first_vote_at": "2025-03-21T10:59:20Z",
+        "last_vote_at": "2025-03-24T08:00:03Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            326057.9127420809,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2588452.021360224,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.819006,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.180994,
+        "half_slope_diff": 8650.659424
+      },
+      "price_impact_pct": 2.8874,
+      "tvl_impact_pct": 1.7511,
+      "similarity": 0.0745,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2914509.934102305,
+        "scores_total": 2914509.934102305,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0x25dc8b275484866182ee83076f48d16a5f7dbc5d99b862a86266d9a4cdd0bb6e",
+      "title": "[BIP-803] Grant v3 ECLP disable Permissions to the Emergency DAO Multisigs",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-03-24T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5,
+        "total_votes": 5,
+        "first_vote_at": "2025-03-21T10:58:44Z",
+        "last_vote_at": "2025-03-24T08:00:03Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            327133.86214926135,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2571030.0844401163,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.823625,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.176375,
+        "half_slope_diff": 5853.696927
+      },
+      "price_impact_pct": 2.8874,
+      "tvl_impact_pct": 1.7511,
+      "similarity": 0.0804,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2898163.9465893777,
+        "scores_total": 2898163.9465893777,
+        "margin_pct": 1.0
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0xb863b9bc14cc9c599ff21e3b67fd40e77286df299da967fc1070e1fadbe84f5b",
+      "cleaned": {
+        "proposal_id": "0xb863b9bc14cc9c599ff21e3b67fd40e77286df299da967fc1070e1fadbe84f5b",
+        "title": "[BIP-641] Enable wstETH/WETH E-CLP gauge [Arbitrum]",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2024-07-01T18:00:00Z",
+        "similarity_score": 0.2424,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2786593.7565968297,
+        "margin_pct": 1.0,
+        "scores_total": 2786593.7565968297,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 9,
+        "total_votes": 9,
+        "first_vote_at": "2024-06-28T06:26:11Z",
+        "last_vote_at": "2024-07-01T15:35:57Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1.4336129267694921,
+            0.0,
+            0.0
+          ],
+          [
+            1421.4558854628744,
+            0.0,
+            0.0
+          ],
+          [
+            266779.1225052558,
+            0.0,
+            0.0
+          ],
+          [
+            2518391.744593184,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.838865,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.161135,
+        "half_slope_diff": 7.769572
+      },
+      "raw": {
+        "id": "0xb863b9bc14cc9c599ff21e3b67fd40e77286df299da967fc1070e1fadbe84f5b",
+        "title": "[BIP-641] Enable wstETH/WETH E-CLP gauge [Arbitrum]",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1101\n\n### Summary \nThis is a proposal to enable one uncapped Balancer gauge for a wstETH/WETH E-CLP on Arbitrum with Core Pool status.\n\n### References/Useful links\n* [Documentation of E-CLPs](https://docs.gyro.finance/gyroscope-protocol/concentrated-liquidity-pools/e-clps)\n* [Website](https://gyro.finance/)\n* [Github](https://github.com/gyrostable)\n* [Discord](https://discord.com/invite/2vnqnS7wE6)\n* [X](https://twitter.com/GyroStable)\n\n---\n\n### Protocol description\n* \"wstETH is a wrapped version of stETH. [..] wstETH keeps your balance of stETH fixed and uses an underlying share system to reflect your staking rewards.\" - [Lido](https://help.lido.fi/en/articles/5231836-what-is-lido-s-wsteth)\n* WETH is an ERC-20 compliant wrapper of ETH.\n---\n\n### Motivation\nGyroscope is further expanding on Arbitrum. This pool is replacing a previously deployed E-CLP for the same assets and is calibrated to have a better fitting liquidity shape.\n\n---\n\n### Specifications\n#### Governance\nThe Gyroscope Protocol will be governed by a DAO and relevant stakeholder with the full launch on Ethereum. For now, the FTL Labs multi-sig can pause the pool, change the swap fee and set the protocol fee. As a custom pool by Gyroscope, the E-CLP will be controlled by Gyroscope governance upon its launch.\n\n #### Oracles\n- 'rateProvider0': wstETH rate provider on Arbitrum: [0xf7c5c26B574063e7b098ed74fAd6779e65E3F836](https://arbiscan.io/address/0xf7c5c26B574063e7b098ed74fAd6779e65E3F836)\n-  'rateProvider1': WETH rate provider on Arbitrum: 0x00\n\n#### Audits\nAudit reports by Nethermind, Trail of Bits, and Runtime Verification can be accessed here (the E-CLP is called the “CEMM” in these reports). In addition, the E-CLP code has been live in production on Polygon since November 2022.\n\n#### Centralization vectors\nNo centralization vectors. The FTL Labs team’s multi-sig can - currently - pause the pool, change the swap fee and set the protocol fee.\n\n#### Market History\n- The Gyroscope Protocol is live on Ethereum since EOY23, with E-CLPs on several other chains. Details available [here ](https://dune.com/gyro_finance/gyroscope-e-clps).\n- wstETH and WETH already have markets on Balancer and other DEXes, but without the capital efficiency of an E-CLP.\n\n## Value\nAs per “Motivation”.\n\n---\n\n#### Contracts\n- E-CLP: [0x7967FA58B9501600D96bD843173b9334983EE6E6](https://arbiscan.io/address/0x7967FA58B9501600D96bD843173b9334983EE6E6)\n- Childchain gauge on Arbitrum: [0x96d7C70c80518Ee189CB6ba672FbD22E4fDD9c19](https://arbiscan.io/address/0x96d7C70c80518Ee189CB6ba672FbD22E4fDD9c19)\n- Arbitrum Chain root gauge on Ethereum: [0x3ABa56CeC68987963566a9AA93bb7f7DD28De3F5](https://etherscan.io/address/0x3ABa56CeC68987963566a9AA93bb7f7DD28De3F5)\n\n---\n\n> Specification\n>\n> Transaction: The Balancer Maxi LM Multisig `eth:0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the `addGauge` function with the following arguments:\n>\n> gauge(address): `0x3ABa56CeC68987963566a9AA93bb7f7DD28De3F5`\n> gaugeType(string): `Arbitrum`",
+        "end_utc": "2024-07-01T18:00:00Z",
+        "similarity_score": 0.2424,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2786593.7565968297,
+            0,
+            0
+          ],
+          "scores_total": 2786593.7565968297,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-07-01T18:00:00",
+          "pre_tvl_avg": 913278234.0,
+          "post_tvl_avg": 879765718.0,
+          "abnormal_change": -3.6695,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.036695,
+          "abnormal_change_pct": -3.6695
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-07-01T18:00:00",
+          "pre_price_avg": 2.9803697,
+          "post_price_avg": 2.53644062,
+          "abnormal_change": -14.8951,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.148951,
+          "abnormal_change_pct": -14.8951
+        }
+      }
+    },
+    {
+      "proposal_id": "0x1e067d8f7a641036e809138dcc8347008038446dd15512ab29911aaecff5f3c1",
+      "cleaned": {
+        "proposal_id": "0x1e067d8f7a641036e809138dcc8347008038446dd15512ab29911aaecff5f3c1",
+        "title": "[BIP-620] Enable gauge for wstETH/WETH E-CLP [Gnosis]",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2024-06-17T18:00:00Z",
+        "similarity_score": 0.2402,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2718398.200810433,
+        "margin_pct": 0.9999999254660324,
+        "scores_total": 2718398.4034234514,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 15,
+        "total_votes": 15,
+        "first_vote_at": "2024-06-14T00:33:20Z",
+        "last_vote_at": "2024-06-17T15:00:18Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            3.10028074351579,
+            0.0,
+            0.0
+          ],
+          [
+            281430.6292123632,
+            0.0,
+            0.0
+          ],
+          [
+            129329.69406255915,
+            0.0,
+            0.0
+          ],
+          [
+            2307634.878561277,
+            0.10130650904270565,
+            0.0
+          ]
+        ],
+        "spike_index": 0.848895,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.151105,
+        "half_slope_diff": 16.554685
+      },
+      "raw": {
+        "id": "0x1e067d8f7a641036e809138dcc8347008038446dd15512ab29911aaecff5f3c1",
+        "title": "[BIP-620] Enable gauge for wstETH/WETH E-CLP [Gnosis]",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1027\n\n### Summary \nThis is a proposal to enable one uncapped Balancer gauge for a wstETH/ WETH E-CLP on Gnosis Chain. \n\nE-CLP's asymmetric concentrated liquidity profile offers capital efficiency improvements. As per previous arrangements between Balancer and Gnosis this pool shall not bear any protocol fees for the time being.\n\n### References/Useful links\n* [Documentation of E-CLPs](https://docs.gyro.finance/gyroscope-protocol/concentrated-liquidity-pools/e-clps)\n* [Website](https://gyro.finance/)\n* [Github](https://github.com/gyrostable)\n* [Discord](https://discord.com/invite/2vnqnS7wE6)\n* [X](https://twitter.com/GyroStable)\n\n---\n\n### Protocol description\n* \"wstETH is a wrapped version of stETH. [..] wstETH keeps your balance of stETH fixed and uses an underlying share system to reflect your staking rewards.\" - [Lido](https://help.lido.fi/en/articles/5231836-what-is-lido-s-wsteth)\n* WETH is an ERC-20 compliant wrapper of ETH.\n---\n\n### Motivation\nGyroscope is expanding to Gnosis Chain.\n\n---\n\n### Specifications\n#### Governance\nThe Gyroscope Protocol will be governed by a DAO and relevant stakeholder with the full launch on Ethereum. For now, the FTL Labs multi-sig can pause the pool, change the swap fee and set the protocol fee. As a custom pool by Gyroscope, the E-CLP will be controlled by Gyroscope governance upon its launch.\n\n #### Oracles\n-  'rateProvider0': WETH rate provider on Gnosis Chain: 0x00\n- 'rateProvider1': wstETH rate provider on Gnosis Chain: [0x09f9611FE9d24c6A518f656E925e3628A2ECDE3b](https://gnosisscan.io/address/0x09f9611FE9d24c6A518f656E925e3628A2ECDE3b)\n#### Audits\nAudit reports by Nethermind, Trail of Bits, and Runtime Verification can be accessed here (the E-CLP is called the “CEMM” in these reports). In addition, the E-CLP code has been live in production on Polygon since November 2022.\n\n#### Centralization vectors\nNo centralization vectors. The FTL Labs team’s multi-sig can - currently - pause the pool, change the swap fee and set the protocol fee.\n\n#### Market History\nThe Gyroscope Protocol is live on Ethereum since EOY23, with E-CLPs on several other chains. Details available [here ](https://dune.com/gyro_finance/gyroscope-e-clps).\n\n## Value\nAs per “Motivation”.\n\n---\n\n#### Contracts\n- E-CLP: [0x8DD4df4Ce580b9644437f3375e54f1ab09808228](https://gnosisscan.io/address/0x8DD4df4Ce580b9644437f3375e54f1ab09808228)\n- Childchain gauge on Gnosis Chain: [0xa1fF1e44E4f8346398767f94ae7DbeAB71522164](https://gnosisscan.io/address/0xa1fF1e44E4f8346398767f94ae7DbeAB71522164)\n- Gnosis Chain root gauge on Ethereum: [0x6d060a785530cB13795b3c5a43320c462811d43b](https://etherscan.io/address/0x6d060a785530cB13795b3c5a43320c462811d43b)\n\n---\n\n> Specification\n>\n> Transaction: The Balancer Maxi LM Multisig `eth:0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the `addGauge` function with the following arguments:\n>\n> gauge(address): `0x6d060a785530cB13795b3c5a43320c462811d43b`\n> gaugeType(string): `Gnosis`",
+        "end_utc": "2024-06-17T18:00:00Z",
+        "similarity_score": 0.2402,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2718398.302116942,
+            0.10130650904270562,
+            0
+          ],
+          "scores_total": 2718398.4034234514,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-06-17T18:00:00",
+          "pre_tvl_avg": 1027163666.5,
+          "post_tvl_avg": 973438304.0,
+          "abnormal_change": -5.2305,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.052305,
+          "abnormal_change_pct": -5.2305
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-06-17T18:00:00",
+          "pre_price_avg": 3.438442195,
+          "post_price_avg": 3.1910246349999998,
+          "abnormal_change": -7.1956,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.071956,
+          "abnormal_change_pct": -7.1956
+        }
+      }
+    },
+    {
+      "proposal_id": "0xc5784ad7962bd7641addaeefc6407785c997f51f7e7f1b5aee211b173c637006",
+      "cleaned": {
+        "proposal_id": "0xc5784ad7962bd7641addaeefc6407785c997f51f7e7f1b5aee211b173c637006",
+        "title": "[BIP-581] Enable Gauge for mstETH/wstETH [Ethereum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2024-04-08T18:00:00Z",
+        "similarity_score": 0.2295,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2878294.860258652,
+        "margin_pct": 1.0,
+        "scores_total": 2878294.860258652,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 14,
+        "total_votes": 14,
+        "first_vote_at": "2024-04-04T21:32:04Z",
+        "last_vote_at": "2024-04-08T13:14:46Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1.9253452304558383,
+            0.0,
+            0.0
+          ],
+          [
+            0.8816625840058782,
+            0.0,
+            0.0
+          ],
+          [
+            360516.53304544464,
+            0.0,
+            0.0
+          ],
+          [
+            2517775.5202053925,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.874615,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.125385,
+        "half_slope_diff": 440.2404
+      },
+      "raw": {
+        "id": "0xc5784ad7962bd7641addaeefc6407785c997f51f7e7f1b5aee211b173c637006",
+        "title": "[BIP-581] Enable Gauge for mstETH/wstETH [Ethereum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/885\n\n**Summary:**\nThis is Eigenpie's proposal to enable a gauge for the mstETH/wstETH pool on Ethereum.\nmstETH is an Eigenpie Restaked token that users receive when restaking their stETH into Eigenpie. wstETH is a wrapped version of regular stETH.\n\n**References/Useful links:**\n\n> Link to:\n    • Website: https://www.eigenlayer.magpiexyz.io/restake\n    • Documentation: https://docs.eigenpiexyz.io/\n    • Github Page: https://github.com/magpiexyz/eigenpie\n• Communities: Twitter: https://twitter.com/Eigenpiexyz_io Discord: https://discord.com/invite/magpiexyz\n    \n\n**Protocol Description:**\nmstETH is a Liquid Restaked token by Eigenpie. Eigenpie is an innovative SubDAO created by Magpie with $320M TVL, focusing on the restaking of ETH LSTs via EigenLayer. As a liquid restaking platform for Ethereum, Eigenpie’s core mechanism enables users to convert their Liquid Staked ETH tokens into Isolated Liquid Restaked ETH tokens. These are restaked versions of ETH LSTs, created by Eigenpie. This process allows users to earn passive income from Ethereum staking and EigenLayer revenue simultaneously without requiring a lockup period.\n\n**Motivation:**\nEigenpie aims to enable a gauge for mstETH/wstETH, substantially increasing its liquidity while supporting its utility and viability for integration into a range of DeFi protocols.\n\n**Specifications:**\n \n1. **Governance:** Currently, the protocol utilizes a multi-signature wallet. This will change with the evolution of the protocol, moving to decentralized governance with a DAO and a governance token.   \n\n2. **Oracles:** Rate providers have been used [wstETH](https://etherscan.io/address/0x72D07D7DcA67b8A406aD1Ec34ce969c90bFEE768#code) and [mstETH](https://etherscan.io/address/0xcc701e2d472dfa2857bf9ae24c263daa39fd2c61#code).(Under final review)\n\n\n3. **Audits:** [Blocksec](https://github.com/blocksecteam/audit-reports/blob/main/solidity/blocksec_eigenpie_1.0-signed.pdf), [Peckshield](https://github.com/peckshield/publications/blob/master/audit_reports/PeckShield-Audit-Report-Eigenpie-v1.0.pdf), [AstraSec](https://github.com/astrasecai/audit-reports/blob/main/AstraSec-AuditReport-Magpie-Eigenpie.pdf)\n4. **Centralization vectors:** Our smart contracts are upgradable contracts which are owned by a 3/6 multisig.\n\n5. **Market History:** No volatility. The Balancer pool has recently been launched.\n \n6. **Value:** The mstETH pool is intended to be a primary source of liquidity for the token on Ethereum. It will stimulate healthy volume and trading activity, providing the following value to Balancer:\n\n* **Primary Liquidity Source:** The pool establishes itself as a go-to destination for mstETH traders, offering deep liquidity and competitive pricing.\n* **Consistent Fee Generation:** As the pool's Total Value Locked (TVL) scales, it will drive substantial trading volume, generating significant swap fees for the Balancer DAO.\n\n**mstETH/wstETH pool on Balancer: https://app.balancer.fi/#/ethereum/pool/0x51c72451eddfcc08aae540fd36434bb7ba340d33000000000000000000000683**\n\nmstETH/wstETH gauge on Balancer: [Gauge](https://etherscan.io/address/0x065885bDec1e571DC309d6d3576628419C13DB99)\n\n## Technical Specification:\n\nThe Balancer Maxi LM Multisig eth:0xc38c5f97B34E175FFd35407fc91a937300E33860 will interact with the GaugeAdderv4 at 0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd and call the addGauge function with the following arguments:\n\ngauge(address): `0x065885bDec1e571DC309d6d3576628419C13DB99`\n\ngaugeType(string): `Ethereum`",
+        "end_utc": "2024-04-08T18:00:00Z",
+        "similarity_score": 0.2295,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2878294.860258652,
+            0,
+            0
+          ],
+          "scores_total": 2878294.860258652,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-04-08T18:00:00",
+          "pre_tvl_avg": 1204816396.5,
+          "post_tvl_avg": 1250019061.5,
+          "abnormal_change": 3.7518,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.037518,
+          "abnormal_change_pct": 3.7518
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-04-08T18:00:00",
+          "pre_price_avg": 4.746683145,
+          "post_price_avg": 4.888223395,
+          "abnormal_change": 2.9819,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.029819,
+          "abnormal_change_pct": 2.9819
+        }
+      }
+    },
+    {
+      "proposal_id": "0xdcfd1bbe209c4dabc0f77391104354c2735d0b1b35cbe6fe4607b3f4b3ce62aa",
+      "cleaned": {
+        "proposal_id": "0xdcfd1bbe209c4dabc0f77391104354c2735d0b1b35cbe6fe4607b3f4b3ce62aa",
+        "title": "[BIP-672] Enable Gauge for instETH/wstETH [Optimism] ",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2024-08-12T18:00:00Z",
+        "similarity_score": 0.2171,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2543648.488890737,
+        "margin_pct": 0.9995178198175602,
+        "scores_total": 2544875.5774609637,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 9,
+        "total_votes": 9,
+        "first_vote_at": "2024-08-09T12:17:34Z",
+        "last_vote_at": "2024-08-12T08:38:49Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.8267821275825619,
+            0.0,
+            0.0
+          ],
+          [
+            1245.6539774932428,
+            0.0,
+            0.0
+          ],
+          [
+            223650.00666063352,
+            0.0,
+            613.5442851133135
+          ],
+          [
+            2319365.545755596,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.911606,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.088394,
+        "half_slope_diff": 15.340295
+      },
+      "raw": {
+        "id": "0xdcfd1bbe209c4dabc0f77391104354c2735d0b1b35cbe6fe4607b3f4b3ce62aa",
+        "title": "[BIP-672] Enable Gauge for instETH/wstETH [Optimism] ",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1226\n\n**Summary:**\n\nThis is a proposal to enable uncapped Balancer gauge for instETH/wstETH pool on Optimism.\n\n**References/Useful links:**\n\n• Website: https://www.inceptionlrt.com/\n\n• Documentation: https://docs.inceptionlrt.com/\n\n• Github Page: https://github.com/inceptionlrt/smart-contracts/tree/master\n\n• Twitter: https://x.com/InceptionLRT\n\n**Protocol Description:**\n\nInceptionLRT is an omnichain liquid restaking protocol offering both Native and Isolated restaking to users. Powered by the Flash Unstake mechanism and supported by node operators with DVT Technology, InceptionLRT aims to become the most complete liquid restaking protocol in DeFi. The isolated architecture combined with the flash unstake feature solves the only drawback of isolated LRTs - liquidity fragmentation! instETH is the isolated LRT that users get by depositing stETH.\n\nstETH is a rebase token by Lido that also represents staked ether but instead of the exchange rate accumulation method, the staking rewards are given as extra stETH. Effectively, stETH always stays pegged 1:1 with ETH and stETH token balances are updated when the oracle reports the change in the total (initial deposit + staking rewards) every day. wstETH is the wrapped version of regular stETH which allows for stETH accumulation in the contract and turns the rebase model of stETH into the C-token model of other LSTs.\n\n**Motivation:**\n\nSubstantially increase the liquidity of instETH on Optimism.\n\n**Specifications:**\n\n1. **Governance:** ING holders participate in decision-making, influencing the protocol’s direction and policies, including the Node Operators, AVSs and restaking strategies.\n\n2. **Oracles:**\n\n[instETH rate provider](https://optimistic.etherscan.io/address/0xC092E0a4f5a2AdF3CF91E27cf4B7d7917D12CA2B)\n\n[wstETH rate provider](https://optimistic.etherscan.io/address/0xef42D000a3e85C4e71C57e2C6A1E600e86f5a91B)\n\n3. **Audits:**\n\nInceptionLRT undergoes security audits and checks to ensure the safety of user funds. Latest: https://docs.inceptionlrt.com/security/audit-reports\n\n4. **Centralization vectors:**\n\nThe InceptionLRT Litepaper introduced the vision for Inception as a decentralized system where independent node operators work to power the growth and development of Web3.\n\n5. **Market History:**\n\nMarket history and protocol information can be found here: https://www.coingecko.com/en/coins/inception-steth\n\n6. **Value:**\n\nThe pool is intended to be a major source of liquidity for instETH on Optimism and allow for a healthy stimulation of volume.\n\n**Contracts:**\n\n[instETH contract](https://optimistic.etherscan.io/address/0xd08C3F25862077056cb1b710937576Af899a4959)\n\n[instETH rate provider](https://optimistic.etherscan.io/address/0xC092E0a4f5a2AdF3CF91E27cf4B7d7917D12CA2B)\n\n[wstETH contract](https://optimistic.etherscan.io/address/0x1f32b1c2345538c0c6f582fcb022739c4a194ebb)\n\n[wstETH rate provider](https://optimistic.etherscan.io/address/0x9aa3cd420f830E049e2b223D0b07D8c809C94d15)\n\n[Pool link](https://op.beets.fi/pool/0xc9eb4b8ce914ee451360b315ffd1d1af8df96be9000000000000000000000143)\n\n[Pool contract](https://optimistic.etherscan.io/address/0xc9eb4b8ce914ee451360b315ffd1d1af8df96be9)\n\n[Child gauge on Optimism](https://optimistic.etherscan.io/address/0x48b0a702139cad717f760eBf55C817D545A415ca)\n\n[Root gauge on Ethereum](https://etherscan.io/address/0xAc1305f2C08E961dcEd925b585c3882afCa8C1c5)\n\n**Specification:**\n\nThe Balancer Maxi LM Multisig `eth:0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function with the following arguments:\ngauge(address): `0xAc1305f2C08E961dcEd925b585c3882afCa8C1c5`\ngaugeType(string): `Optimism`",
+        "end_utc": "2024-08-12T18:00:00Z",
+        "similarity_score": 0.2171,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2544262.0331758503,
+            0,
+            613.5442851133137
+          ],
+          "scores_total": 2544875.5774609637,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-08-12T18:00:00",
+          "pre_tvl_avg": 684397144.5,
+          "post_tvl_avg": 707123854.0,
+          "abnormal_change": 3.3207,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.033207,
+          "abnormal_change_pct": 3.3207
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-08-12T18:00:00",
+          "pre_price_avg": 1.9008912900000001,
+          "post_price_avg": 1.902855425,
+          "abnormal_change": 0.1033,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.001033,
+          "abnormal_change_pct": 0.1033
+        }
+      }
+    },
+    {
+      "proposal_id": "0xa8edc83dfdf18dc8b13dcf653572665dddf8e450bbb35ba1ec9c3d248b0c7a2d",
+      "cleaned": {
+        "proposal_id": "0xa8edc83dfdf18dc8b13dcf653572665dddf8e450bbb35ba1ec9c3d248b0c7a2d",
+        "title": "[BIP-747] Enable USDX/USDT and sUSDX/USDX gauge [Arbitrum]",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2024-12-23T19:00:00Z",
+        "similarity_score": 0.217,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2884820.1514894753,
+        "margin_pct": 1.0,
+        "scores_total": 2884820.1514894753,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 3,
+        "total_votes": 3,
+        "first_vote_at": "2024-12-20T22:25:44Z",
+        "last_vote_at": "2024-12-23T09:48:44Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            522783.63969893835,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2362036.511790537,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.818781,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.181219,
+        "half_slope_diff": 13.59422
+      },
+      "raw": {
+        "id": "0xa8edc83dfdf18dc8b13dcf653572665dddf8e450bbb35ba1ec9c3d248b0c7a2d",
+        "title": "[BIP-747] Enable USDX/USDT and sUSDX/USDX gauge [Arbitrum]",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1603\n\n## Summary\n\nThis is a proposal to enable Balancer gauges on Arbitrum for USDX/USDT and sUSDX/USDX pools.\n\n## References/Useful LInks\n\nLink to:\n\n* Website: https://usdx.money/\n\n* Documentation: https://docs.usdx.money/\n\n* Github Page: [USDX Token · GitHub](https://github.com/USDXToken)\n\n* Communities: [X](https://x.com/usdx_money), [Telegram](https://t.me/USDX_Community), [Discord](https://discord.com/invite/usdxmoney)\n\n## Protocol Description\n\n* usdx.money is a stablecoin infrastructure project, with USDX as its first product.\n\n* USDX is a synthetic stablecoin, designed to offer a stable, censorship-resistant, crypto-native money. USDX captures yield from crypto-native sources and distributes it back to its users.\n\n* sUSDX is a staked version of USDX; yield for sUSDX currently stands around 19%.\n\n* USDT is a fiat-backed USD-denominated stablecoin, issued by Tether.\n\n## Motivation\n\n* usdx.money has recently launched its points campaign, and expects the TVL to rapidly increase. With increased TVL, usdx.money is committed to building robust liquidity for sUSDX/USDX and USDX/USDT pairs on Arbitrum Chain to facilitate secondary liquidity for USDX and sUSDX. We are seeking to bootstrap majority of our liquidity on Balancer, and this will help onboard more users to both usdx.money and Balancer.\n\n## Specification\n\n1. **Governance**: currently owned by 0x3f9a06aD4c83c289DF83461fE5F24EE4c4491935 (3 out of 4 multisig).\n\n2. **Oracles**: The protocol does not reply on external oracles.\n\n3. **Audits**: [link](https://1166152427-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F5mdBNVoaU0Rn0IEZP0Y1%2Fuploads%2FAGLbaiVubfT1xuY1FdmH%2FBlocksec_Security_Audit_Report_for_USDX.pdf?alt=media&token=6326b906-c1b4-49cd-b670-666baee5d030). Additional audit reports can be viewed on https://docs.usdx.money/informaiton/audit\n\n4. **Centralization vectors**: The centralization vectors primarily relate to the owner of the contracts, which is a 3 out of 4 multisig. The team has 15 full-time, doxxed contributors.\n\n5. **Market history**: USDX has not previously de-pegged, and sUSDX is an ERC4626 token. Balancer pools for USDX/USDT and sUSDX/USDX have just been deployed.\n\n* Addresses for USDX/USUSDT\n\n  * Pool address: https://balancer.fi/pools/arbitrum/v2/0x85564af67760063b994599b640552614238c9ee60000000000000000000005e3\n\n  * Arbitrum Child Gauge: https://arbiscan.io/address/0x7bbD2B8932610dEC2698C63fC28130224A339Df2#readContract\n\n  * Mainnet Root Gauge: https://etherscan.io/address/0x5f244e8ac0FF2d2af14368fd8EFd1E508a50CF68\n* Addresses for sUSDX/USDX\n\n  * Pool address: https://balancer.fi/pools/arbitrum/v2/0xb3047330c1cb5eb1a3670fabfb99bdc106d631eb0000000000000000000005e4\n\n  * Arbitrum Child Gauge: https://arbiscan.io/address/0x83bE87529aC31d06fEc49FF5Aedd6290b81D0700\n\n  * Mainnet Root Gauge: https://etherscan.io/address/0x0d1b58fB1fC10F2160178DE1eAE2d520335ee372\n\n6. **Value**: USDX currently has $210m in TVL, making it the th largest protocol by TVL on [BNB Chain](https://defillama.com/chain/BSC). As the protocol rolls out points program on Arbitrum, we intend for Balancer pools to be the primary source of liquidity for USDX and sUSDX on Arbitrum.\n\n### Technical Specification\nThe Balancer Maxi LM Multisig `0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function with the following arguments: gauge(address):`0x5f244e8ac0FF2d2af14368fd8EFd1E508a50CF68` gaugeType(string): `Arbitrum` gauge(address):`0x0d1b58fB1fC10F2160178DE1eAE2d520335ee372` gaugeType(string): `Arbitrum`",
+        "end_utc": "2024-12-23T19:00:00Z",
+        "similarity_score": 0.217,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2884820.1514894753,
+            0,
+            0
+          ],
+          "scores_total": 2884820.1514894753,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-12-23T19:00:00",
+          "pre_tvl_avg": 1038494990.0,
+          "post_tvl_avg": 1110455054.5,
+          "abnormal_change": 6.9293,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.069293,
+          "abnormal_change_pct": 6.9293
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-12-23T19:00:00",
+          "pre_price_avg": 2.47776569,
+          "post_price_avg": 2.6045202549999997,
+          "abnormal_change": 5.1157,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.051157,
+          "abnormal_change_pct": 5.1157
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x20d68cb279298cb62f565c31f1f134bd3343dfd7721142f1b551822bd0edd816",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "Proposal to enable gauges for fWETH/fwstETH, fWETH/waArbwstETH, and fWETH/waBaswstETH pools to bootstrap liquidity and support Lido's growth with unanimous early voting support and stable timeline metrics.",
+    "key_arguments_for": [
+      "Unanimous early and stable voting support with high VP concentration for 'Yes, let's do it'.",
+      "Similar past proposals with unanimous 'Yes' votes resulted in positive market and TVL impacts.",
+      "Proposal supports increased liquidity for important pools, enhancing protocol growth and utility.",
+      "Forum discussion shows no strong opposition and generally neutral to slightly negative sentiment, not contradicting the vote outcome."
+    ],
+    "key_arguments_against": [
+      "Slight negative price and TVL impact observed post-vote, though not used for decision-making.",
+      "Some negative sentiment in forum comment expressing concerns, but outweighed by stable voting and rationale."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.balancer.fi/t/bip-806-enable-gauges-for-fweth-fwsteth-fweth-waarbwsteth-fweth-wabaswsteth/6433",
+        "quote": "3 forum comments: 1 negative sentiment, 2 neutral sentiment; first comment outlines proposal details and motivation to boost liquidity."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Balancer Proposal 0x20d68cb279298cb62f565c31f1f134bd3343dfd7721142f1b551822bd0edd816",
+        "quote": "Timeline metrics show unanimous 100% voting support for 'Yes, let's do it' with perfect stability and early ratio."
+      },
+      {
+        "source_tool": "adjacent_analytics",
+        "reference": "Similar Proposals BIP-805 and BIP-804",
+        "quote": "Both had unanimous 'Yes' votes and positive price and TVL impacts, indicating successful past changes."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-03-27T19:00:00Z",
+    "event_end_utc": "2025-03-31T19:00:00Z",
+    "event_time_utc": "2025-03-31T19:00:00Z",
+    "address_of_governance_token": "0xba100000625a3754423978a60c9317c58a424e3d",
+    "token_price_impact_pct": -3.661,
+    "tvl_impact_pct": -1.296,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        2896154.5766675156,
+        0.0,
+        0.0
+      ],
+      "scores_total": 2896154.5766675156,
+      "margin_abs": 2896154.5766675156,
+      "margin_pct": 1.0
+    },
+    "simulation_reason": "Recommendation based on timeline voting patterns, forum sentiment, and historical similar proposal outcomes without using ex-post tally.",
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Strong unanimous early voting support and stable timeline metrics indicate clear community backing.\n- Similar historical proposals achieved successful liquidity bootstrapping and positive outcomes, supporting this change.\n- Forum sentiment is mostly neutral with some negative but no strong opposition, generally aligning with the voting outcome.\n- Market and TVL impacts post-vote are slightly negative but do not influence the recommendation, focusing on long-term protocol benefit.\n- The recommendation mirrors aggregated sentiment and prioritizes durable growth and liquidity enhancement.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x2636e7a6e91a30fa584560371f733b80d8f11973e97c9bb27409210bc5db9854",
+        "title": "[BIP-805] Balancer Registry Initialization",
+        "end_utc": "2025-03-24T19:00:00Z",
+        "summary": "[BIP-805] Balancer Registry Initialization closed on 2025-03-24T19:00:00Z. Timeline analytics noted 5 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.10)",
+        "market_response": "token +2.89%; TVL +1.75%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0x25dc8b275484866182ee83076f48d16a5f7dbc5d99b862a86266d9a4cdd0bb6e",
+        "title": "[BIP-803] Grant v3 ECLP disable Permissions to the Emergency DAO Multisigs",
+        "end_utc": "2025-03-24T19:00:00Z",
+        "summary": "[BIP-803] Grant v3 ECLP disable Permissions to the Emergency DAO Multisigs closed on 2025-03-24T19:00:00Z. Timeline analytics noted 5 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.08)",
+        "market_response": "token +2.89%; TVL +1.75%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -3.661,
+    "ex_post_tvl_impact_pct": -1.296,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -3.66%; TVL -1.30%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 1,
+    "Positive": 0,
+    "Neutral": 2,
+    "total_comments": 3
+  }
+}

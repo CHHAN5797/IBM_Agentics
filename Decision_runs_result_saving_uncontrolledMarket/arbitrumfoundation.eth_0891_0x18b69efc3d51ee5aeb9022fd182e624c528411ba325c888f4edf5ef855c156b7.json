@@ -1,0 +1,256 @@
+{
+  "captured_at_utc": "2025-10-08T00:34:15.639251+00:00",
+  "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x18b69efc3d51ee5aeb9022fd182e624c528411ba325c888f4edf5ef855c156b7",
+  "focus": null,
+  "votes_count": 5485,
+  "timeline_metrics_current": {
+    "unique_voters": 5485,
+    "total_votes": 5485,
+    "first_vote_at": "2024-04-09T00:41:03Z",
+    "last_vote_at": "2024-04-15T23:58:32Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        0.998365,
+        0.000818,
+        0.000818
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      0.9996353691886964,
+      0.00018231540565177758,
+      0.00018231540565177758
+    ],
+    "stability": [
+      0.9996353691886964,
+      0.00018231540565177758,
+      0.00018231540565177758
+    ],
+    "early_ratio": [
+      0.9983646770237122,
+      0.0008176614881439084,
+      0.0008176614881439084
+    ],
+    "vp_by_quartile": [
+      [
+        492384.18227045244,
+        13697.512431550396,
+        88106.43077701466
+      ],
+      [
+        17866620.3406414,
+        395946.4901575589,
+        315461.82360598294
+      ],
+      [
+        16365858.442661969,
+        77120.06408654108,
+        2473.707452045584
+      ],
+      [
+        72215110.7227439,
+        37428547.40257644,
+        221181.72505585625
+      ]
+    ],
+    "spike_index": 0.190649,
+    "spike_follow_support_ratio": 0.244346,
+    "stairwise_ratio": 0.000579,
+    "half_slope_diff": 3807.561539
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x51df52b1596195d672c3120658b3d2aecee2a871f9c1a5ef7509298f98b9e825",
+      "title": "Double-Down on STIP Successes (STIP-Bridge) ",
+      "author": "0xAbAbE91A907fAdff921720C43ABe4098e7245E99",
+      "end_utc": "2024-03-30T00:45:54Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2024-03-23T00:47:32Z",
+        "last_vote_at": "2024-03-24T15:22:51Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            17773455.993087146,
+            16988.582404010733,
+            31581.87340230634
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.410491,
+        "spike_follow_support_ratio": 0.999618,
+        "stairwise_ratio": 0.005815,
+        "half_slope_diff": -377.008705
+      },
+      "price_impact_pct": -4.5322,
+      "tvl_impact_pct": -0.9754,
+      "similarity": 0.1241,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "For",
+        "margin_abs": 53271736.898057945,
+        "scores_total": 177411976.20288223,
+        "margin_pct": 0.3002713685864038
+      }
+    }
+  ],
+  "similar_proposals_data": [],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x18b69efc3d51ee5aeb9022fd182e624c528411ba325c888f4edf5ef855c156b7",
+    "selected_choice_label": "For",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "The proposal to grant 250,000 ARB to Harvest Finance for expanding strategies and incentivizing partner vaults has strong voting support and stable early voting dominance. Forum sentiment is mostly neutral with some negative concerns about milestones and TVL. Similar past proposals with 'For' outcomes have shown mixed market impacts but contributed to protocol growth. Overall, recommendation is to support change.",
+    "key_arguments_for": [
+      "Strong and stable voting timeline metrics favor the 'For' option with near unanimous early support.",
+      "The proposal aims to diversify strategies and incentivize partner vaults to increase TVL and user adoption on Arbitrum.",
+      "Similar previous proposals with 'For' outcomes were successful in advancing ecosystem growth despite some market fluctuations."
+    ],
+    "key_arguments_against": [
+      "Forum discussion reveals concerns about unclear milestones and decreased overall TVL compared to past levels.",
+      "Some community members find the requested grant amount excessive given current protocol performance.",
+      "Negative sentiment in forum comments highlights doubts about implementation commitment and TVL trends."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.arbitrum.foundation/t/harvest-finance-ltipp-application-draft/21811",
+        "quote": "Forum sentiment summary: 7 comments; 0 positive, 2 negative, 5 neutral. First comment detailed proposal with negative sentiment on milestones and TVL concerns."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": null,
+        "quote": "Timeline analysis shows recommended_index 0 (For) with lead ratio total near 1.0 and stability 1.0 indicating dominant and stable support."
+      },
+      {
+        "source_tool": "govnews_search_governance_news",
+        "reference": "Adjacent proposal 0x51df52b1... titled 'Double-Down on STIP Successes' with similar objectives and 'For' outcome but experienced negative price and slight TVL impact post-vote.",
+        "quote": null
+      }
+    ],
+    "available_choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2024-04-09T00:00:00Z",
+    "event_end_utc": "2024-04-16T00:00:00Z",
+    "event_time_utc": "2024-04-16T00:00:00Z",
+    "address_of_governance_token": "0x35C469919cAf33C24D4Ff2283057E761EaE6095a",
+    "token_price_impact_pct": 0.7243,
+    "tvl_impact_pct": -2.131,
+    "actual_vote_result": {
+      "winner_label": "For",
+      "winner_index": 0,
+      "scores": [
+        106939973.68831788,
+        37915311.4692521,
+        627223.6868908991
+      ],
+      "scores_total": 145482508.84446082,
+      "margin_abs": 69024662.21906579,
+      "margin_pct": 0.474453
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'For' selected with stance to keep 'Change'.",
+    "ai_final_reason": "• Timeline metrics show overwhelming and stable support for the 'For' option with nearly unanimous early voting.\n• Forum sentiment is mostly neutral with some negative feedback regarding milestones and TVL, indicating cautious community views but not outright opposition.\n• Similar previous proposals with 'For' outcomes successfully promoted ecosystem growth despite mixed market reactions, providing a positive precedent.\n• Market impact shows a modest positive price change but a slight TVL decline, which should not deter support given the proposal's strategic aims.\n• Recommendation aligns with vote sentiment and cautiously optimistic forum views, aiming for the long-term benefit of the Arbitrum ecosystem.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x51df52b1596195d672c3120658b3d2aecee2a871f9c1a5ef7509298f98b9e825",
+        "title": "Double-Down on STIP Successes (STIP-Bridge) ",
+        "end_utc": "2024-03-30T00:45:54Z",
+        "summary": "Double-Down on STIP Successes (STIP-Bridge)  closed on 2024-03-30T00:45:54Z. Timeline analytics noted 5500 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.12)",
+        "market_response": "token -4.53%; TVL -0.98%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 0.7243,
+    "ex_post_tvl_impact_pct": -2.131,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +0.72%; TVL -2.13%"
+  },
+  "agentic_ai_choice": "For",
+  "actual_outcome": "For",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 2,
+    "Positive": 0,
+    "Neutral": 5,
+    "total_comments": 7
+  }
+}

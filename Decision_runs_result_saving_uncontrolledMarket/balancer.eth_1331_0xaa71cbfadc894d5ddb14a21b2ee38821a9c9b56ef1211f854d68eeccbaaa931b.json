@@ -1,0 +1,852 @@
+{
+  "captured_at_utc": "2025-10-09T04:07:04.734236+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0xaa71cbfadc894d5ddb14a21b2ee38821a9c9b56ef1211f854d68eeccbaaa931b",
+  "focus": null,
+  "votes_count": 16,
+  "timeline_metrics_current": {
+    "unique_voters": 16,
+    "total_votes": 16,
+    "first_vote_at": "2024-05-23T18:07:49Z",
+    "last_vote_at": "2024-05-27T05:57:24Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        0.774852477973746,
+        0.0,
+        0.10797875765410697
+      ],
+      [
+        600.3197880493606,
+        0.0,
+        0.0
+      ],
+      [
+        1027.9627912075641,
+        0.0,
+        303542.6027548788
+      ],
+      [
+        2572029.161211827,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.912097,
+    "spike_follow_support_ratio": 1.0,
+    "stairwise_ratio": 0.087903,
+    "half_slope_diff": 10.529209
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x0d58256348456ae5454fda9beb9672064bb90e0edae7c61a90997c12e0ec991d",
+      "title": "[BIP-609] Enable Gauge for wrsETH/WETH [Optimism]",
+      "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+      "end_utc": "2024-05-20T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 17,
+        "total_votes": 17,
+        "first_vote_at": "2024-05-16T18:13:48Z",
+        "last_vote_at": "2024-05-20T05:26:57Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            310855.71849177533,
+            0.0,
+            613.1887578073922
+          ],
+          [
+            68672.92899026365,
+            0.0,
+            1042.3086824595896
+          ],
+          [
+            0.4740457578717326,
+            0.0,
+            0.0
+          ],
+          [
+            2359299.9793267623,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.861427,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.138573,
+        "half_slope_diff": -25.295513
+      },
+      "price_impact_pct": 12.8988,
+      "tvl_impact_pct": 16.0138,
+      "similarity": 0.0914,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2737173.5443164087,
+        "scores_total": 2740484.598294826,
+        "margin_pct": 0.9987917998223826
+      }
+    },
+    {
+      "id": "0x57fe0f1c5f49f5fa5b46da1b98ac461b1ac673f61906979bbcd7e2f9040fbafa",
+      "title": "[BIP-608] Deploy Balancer on Fraxtal",
+      "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+      "end_utc": "2024-05-20T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 15,
+        "total_votes": 15,
+        "first_vote_at": "2024-05-16T18:13:24Z",
+        "last_vote_at": "2024-05-20T05:26:57Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            310903.61731602653,
+            613.2392287349844,
+            0.0
+          ],
+          [
+            69739.00239869246,
+            0.0,
+            0.0
+          ],
+          [
+            0.4741322680874876,
+            0.0,
+            0.0
+          ],
+          [
+            2359298.946042549,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.861076,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.138924,
+        "half_slope_diff": 2.226575
+      },
+      "price_impact_pct": 12.8988,
+      "tvl_impact_pct": 16.0138,
+      "similarity": 0.0798,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2739328.8006608007,
+        "scores_total": 2740555.279118271,
+        "margin_pct": 0.9995524708197585
+      }
+    },
+    {
+      "id": "0xd13ba8f3cff914b5d99bc610ec0dfa6290a30eceddd3be2e0e518d75138e9b13",
+      "title": "[BIP-607] Update FTM Multisig to Claim vested BEETS",
+      "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+      "end_utc": "2024-05-20T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 15,
+        "total_votes": 15,
+        "first_vote_at": "2024-05-16T18:12:59Z",
+        "last_vote_at": "2024-05-20T05:26:57Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            311526.58366507007,
+            0.0,
+            0.0
+          ],
+          [
+            71737.83557591065,
+            0.0,
+            0.0
+          ],
+          [
+            0.4666596032658404,
+            0.0,
+            0.0
+          ],
+          [
+            2359298.946042549,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.860253,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.139747,
+        "half_slope_diff": 0.517094
+      },
+      "price_impact_pct": 12.8988,
+      "tvl_impact_pct": 16.0138,
+      "similarity": 0.0952,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2742563.8319431324,
+        "scores_total": 2742563.8319431324,
+        "margin_pct": 1.0
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x3a8d63ce6dbebf9b559fcd1acb367ce0c1625b805bde893b62c5a2ba2e827cbc",
+      "cleaned": {
+        "proposal_id": "0x3a8d63ce6dbebf9b559fcd1acb367ce0c1625b805bde893b62c5a2ba2e827cbc",
+        "title": "[BIP-452] Delegate BalancerDAO AAVE/stkAAVE to karpatkey",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-10-16T18:00:00Z",
+        "similarity_score": 0.3319,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3723682.27857451,
+        "margin_pct": 0.9672741246244013,
+        "scores_total": 3849665.967256634,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 60,
+        "total_votes": 60,
+        "first_vote_at": "2023-10-12T21:10:28Z",
+        "last_vote_at": "2023-10-16T13:35:56Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            7.482648771605979,
+            0.0,
+            0.0
+          ],
+          [
+            1764.40221631578,
+            0.0,
+            0.0
+          ],
+          [
+            480605.0233888865,
+            0.0,
+            62991.593566530115
+          ],
+          [
+            3304297.46543613,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.843251,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.000635,
+        "half_slope_diff": 272.197843
+      },
+      "raw": {
+        "id": "0x3a8d63ce6dbebf9b559fcd1acb367ce0c1625b805bde893b62c5a2ba2e827cbc",
+        "title": "[BIP-452] Delegate BalancerDAO AAVE/stkAAVE to karpatkey",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "title: [BIP-452] Delegate BalancerDAO AAVE/stkAAVE to karpatkey\nauthor: karpatkey\ncreated: 2023-10-06\n\n### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/549\n\n# Summary\nThis proposal seeks to delegate the [~16,9k](https://debank.com/profile/0x0efccbb9e2c09ea29551879bd9da32362b32fc89) combined stkAAVE and AAVE voting power held by the Balancer DAO treasury to karpatkey's delegation multisig. This voting power will be actively used by karpatkey in the Aave governance process.\n\n# Abstract\nSince the passing of [[BIP-103]](https://snapshot.org/#/balancer.eth/proposal/0xddc174b931a0d2e5e32276a3d0d7110367797dd24248f078d0f7876d0987c92f), karpatkey has served as the active treasury manager for Balancer DAO.\n\nIn September 2023, karpatkey posted their [delegation platform](https://governance.aave.com/t/karpatkey-delegate-platform/14417/10) and became a [recognised delegate](https://governance.aave.com/t/arc-framework-for-recognized-delegates/12982) for in Aave. In the two-month time frame since launching their delegation platform, they have participated in over 60 on and off-chain votes and have authored [one proposal](https://governance.aave.com/t/arfc-enhancing-aave-daos-liquidity-incentive-strategy-on-balancer/15061) to more closely align the Aave and Balancer ecosystems.\n\n# Motivation\nThis proposal seeks to establish an AAVE/stkAAVE delegation that would empower karpatkey to better support initiatives that align the Balancer and Aave ecosystems.\n\nkarpatkey is the treasury manager for Balancer DAO and an active delegate in the AAVE. With this positioning and awareness, the karpatkey team is well-suited to represent the Balancer DAO’s delegation.\n\nThis awareness can be demonstrated in karpatkey's first proposal in the AAVE community, [[ARFC] Enhancing Aave DAO’s Liquidity Incentive Strategy on Balancer](https://governance.aave.com/t/arfc-enhancing-aave-daos-liquidity-incentive-strategy-on-balancer/15061), which fosters governance actions that consider mutually beneficial options for both AAVE and Balancer.\n\nBy delegating this voting power, karpatkey can utilise idle voting power on additonal topics such as:\n\n* Voting incentives for Aave's pools on Balancer; and\n* Topics that make Balancer the *\"de-facto\"* AMM for GHO liquidity; and\n* Safety Module (SM) updates.\n\n# Specification\nThe Balancer Treasury managed by karpatkey `0x0efccbb9e2c09ea29551879bd9da32362b32fc89` will interact with the AAVE `0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9` and stkAAVE `0x4da27a545c0c5b758a6ba100e3a049001de870f5` token contracts in a batch transaction by calling the `delegate` function, passing the karpatkey governance multisig `0x8787FC2De4De95c53e5E3a4e5459247D9773ea52` as the delegatee for both tokens.\n\nThis will delegate the voting power and proposal power of the AAVE and stkAAVE tokens to karpatkey’s governance multi-sig.\n\n## Interacted Addresses \n| Address | Description |\n| ---- | ----- \n| [0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9](https://etherscan.io/address/0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9) | AAVE Token |\n| [0x4da27a545c0c5b758a6ba100e3a049001de870f5](https://etherscan.io/address/0x4da27a545c0c5b758a6ba100e3a049001de870f5) | stkAAVE Token |\n| [0x0efccbb9e2c09ea29551879bd9da32362b32fc89](0x0efccbb9e2c09ea29551879bd9da32362b32fc89)| Balancer Treasury managed by karpatkey (Delegator) |\n| [0x8787FC2De4De95c53e5E3a4e5459247D9773ea52](https://etherscan.io/address/0x8787FC2De4De95c53e5E3a4e5459247D9773ea52) | karpatkey governance multisig (Delegatee) |\n\n\n# Disclosure\nWe have disclosed that karpatkey is the active treasury manager for Balancer DAO.\n\n# Copyright\nCopyright and related rights waived via CC0.",
+        "end_utc": "2023-10-16T18:00:00Z",
+        "similarity_score": 0.3319,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3786674.0393240615,
+            0.16718302128119983,
+            62991.760749551395
+          ],
+          "scores_total": 3849665.967256634,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-10-16T18:00:00",
+          "pre_tvl_avg": 685153175.0,
+          "post_tvl_avg": 671906431.5,
+          "abnormal_change": -1.9334,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.019334,
+          "abnormal_change_pct": -1.9334
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-10-16T18:00:00",
+          "pre_price_avg": 3.056577275,
+          "post_price_avg": 2.96013798,
+          "abnormal_change": -3.1551,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.031551,
+          "abnormal_change_pct": -3.1551
+        }
+      }
+    },
+    {
+      "proposal_id": "0xc77803ea0a567de8d43116720f66d00f5bd775427ed38e52aaa5f452f908fc02",
+      "cleaned": {
+        "proposal_id": "0xc77803ea0a567de8d43116720f66d00f5bd775427ed38e52aaa5f452f908fc02",
+        "title": "[BIP-78] Delegate Aave Holding to Llama",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2022-10-02T18:30:00Z",
+        "similarity_score": 0.1429,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2347294.0749950716,
+        "margin_pct": 0.9999958220323047,
+        "scores_total": 2347303.8819548613,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 118,
+        "total_votes": 118,
+        "first_vote_at": "2022-09-29T18:35:51Z",
+        "last_vote_at": "2022-10-02T12:42:31Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            555376.6076819752,
+            0.0
+          ],
+          [
+            70591.82573591344,
+            3.5659515061726075
+          ],
+          [
+            1649787.4144241114,
+            1.3375283888478708
+          ],
+          [
+            71543.13063296616,
+            0.0
+          ]
+        ],
+        "spike_index": 0.336922,
+        "spike_follow_support_ratio": 0.999999,
+        "stairwise_ratio": 0.022823,
+        "half_slope_diff": 30.089396
+      },
+      "raw": {
+        "id": "0xc77803ea0a567de8d43116720f66d00f5bd775427ed38e52aaa5f452f908fc02",
+        "title": "[BIP-78] Delegate Aave Holding to Llama",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "# Summary\n\nThe proposal presents the Balancer community the opportunity to delegate any AAVE and stkAAVE proposal power and voting rights to Llama.\n\n# Abstract\n\nLlama is an active contributor in both the Aave and Balancer communities and has been working to find synergies to unlock the growth potential across both ecosystems. We have noticed that Balancer is currently not active within Aave governance and we would like to present an opportunity to the community to delegate its governance influence.\n\nLlama is a registered delegate within the Aave and Balancer ecosystems and would like to offer the Balancer community the opportunity to delegate to Llama.\n\nAave’s governance framework consists of two types of governance rights: voting rights and proposal power, [8]. Llama will create an address specifically for Balancer’s delegated voting rights, (`0x16645967f660AC05EA542D3DE2f46E41b86436d9`). Balancer’s proposal power will be delegated to an existing wallet (`0x55B16934C3661E1990939bC57322554d9B09f262`) to help support the submission of AIPs for on-chain voting at Aave.\n\n# Motivation\n\nSince the AAVE <> BAL tokenswap, the AAVE holding has not participated within Aave’s governance, which is suboptimal given the ongoing need to encourage governance participation within DeFi. By delegating to Llama, Balancer’s AAVE and or stkAAVE holding will be utilized within Aave’s governance. Balancer’s voting rights will always be used to represent Balancer’s interest in the Aave community and, if there is ever any need, Llama will consult the veBallers via the Discord Ballers channel.\n\nWhen considering if to delegate to Llama, let’s first recap some of Llama's involvement within the Balancer community. To date, Llama has either led or been involved in the following initiatives.\n\n* AAVE <> BAL token swap, [1].\n* Llama veBAL Delegate, [2].\n* Llama Aave Delegate, [3].\n* Whitelist Balancer’s Liquidity Mining Claim, [7].\n* Sturdy Finance Integration (coming soon).\n* Sharing insights into the new ConstantStablePool and Linear Pool potential with potential partners.\n* Developing potential new more exotic pools.\n\nLlama voting records can be found on Boardroom and more recently Llama started compiling a delegation thread on Aave’s governance forum, [3,4]. Please note, this is not the address that Balancer will be delegating to.\n\nVoting rights are to be delegated to a new address, `0x16645967f660AC05EA542D3DE2f46E41b86436d9`, that only Balancer will delegate to. If Balancer ever wants to run its own Snapshot, veBAL holders can then vote and Llama will implement the vote from the address 0x16645967f660AC05EA542D3DE2f46E41b86436d9 on behalf of the Balancer community. On the majority of occasions, when no such Snapshot is created, Llama will vote from this wallet with Balancer’s interests front of mind.\n\nProposal power is to be delegated to a separate wallet from which AIPs are submitted. Do note, Index Coop currently delegates proposal power and voting rights to this address, `0x55B16934C3661E1990939bC57322554d9B09f262`. At the time of writing, how this wallet votes is determined by Index Coop’s Snapshot and only Index Coop’s voting rights are delegated to this address, [5]. Llama is a delegate at Index Coop which focuses predominantly on metagovernance votes, [4].\n\nLlama will not use Balancer’s voting influence to advance itself within the Aave community, [6]. When votes like this occur, we will reach out to the Balancer Snapshot authors and request a vote be created that Llama will then decline from participating in and will enact the vote cast by veBAL holders.\n\n# Specification\n\nBalancer DAO delegates Aave governance proposal power to the following wallet:\n\n`0x55B16934C3661E1990939bC57322554d9B09f262`\n\nBalancer DAO delegates Aave governance voting rights to the following wallet:\n\n`0x16645967f660AC05EA542D3DE2f46E41b86436d9`\n\n# References\n\n[1] https://governance.aave.com/t/bgd-aave-tenderly-cli/9932\n[2] https://forum.balancer.fi/t/llama-delegation-thread/3426\n[3] https://governance.aave.com/t/delegate-to-llama/9043\n[4] https://boardroom.io/voter/0x64cc60a9f6f97ddcb8ac1378da9390b85be6da37\n[5] https://snapshot.org/#/index-coop.eth\n[6] https://governance.aave.com/t/updated-proposal-llama-aave/9924\n[7] https://governance.aave.com/t/arc-whitelist-balancer-s-liquidity-mining-claim/9724\n[8] https://docs.aave.com/developers/v/2.0/protocol-governance/governance#optional-proposal-canceling",
+        "end_utc": "2022-10-02T18:30:00Z",
+        "similarity_score": 0.1429,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way"
+          ],
+          "scores": [
+            2347298.9784749667,
+            4.903479895020478
+          ],
+          "scores_total": 2347303.8819548613,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2022-10-02T18:30:00",
+          "pre_tvl_avg": 870376540.5,
+          "post_tvl_avg": 878315710.0,
+          "abnormal_change": 0.9122,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.009122,
+          "abnormal_change_pct": 0.9122
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2022-10-02T18:30:00",
+          "pre_price_avg": 5.30086087,
+          "post_price_avg": 5.21572969,
+          "abnormal_change": -1.606,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.01606,
+          "abnormal_change_pct": -1.606
+        }
+      }
+    },
+    {
+      "proposal_id": "0xc43178bf98c91380899c23ccbe63a37d3a1b487ce35edc54c1fadfd25001d21d",
+      "cleaned": {
+        "proposal_id": "0xc43178bf98c91380899c23ccbe63a37d3a1b487ce35edc54c1fadfd25001d21d",
+        "title": "[BIP-395] Delegate AAVE/stkAAVE to TokenLogic",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-08-07T18:00:00Z",
+        "similarity_score": 0.1423,
+        "winning_option": "Abstain",
+        "winning_option_index": 2,
+        "margin_abs": 1404872.1672555048,
+        "margin_pct": 0.3612682221609081,
+        "scores_total": 3888723.339274988,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 85,
+        "total_votes": 85,
+        "first_vote_at": "2023-08-03T18:13:57Z",
+        "last_vote_at": "2023-08-07T15:44:48Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1180.0165316042023,
+            32064.73678217981,
+            6.428025717164258
+          ],
+          [
+            582.5289744590302,
+            0.0,
+            265380.1063340822
+          ],
+          [
+            506.1412170662743,
+            130248.39263414961,
+            2.426528460442568
+          ],
+          [
+            4889.6083287624315,
+            331097.67613966035,
+            3122765.2777788476
+          ]
+        ],
+        "spike_index": 0.921671,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.078329,
+        "half_slope_diff": 18.488535
+      },
+      "raw": {
+        "id": "0xc43178bf98c91380899c23ccbe63a37d3a1b487ce35edc54c1fadfd25001d21d",
+        "title": "[BIP-395] Delegate AAVE/stkAAVE to TokenLogic",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/432\n\n---\n\ntitle: [BIP-XXX] Delegate AAVE/stkAAVE to TokenLogic\nauthor: TokenLogic\ncreated: 2023-07-31\n\n---\n\n# Summary\n\nThis publication supports redirecting the AAVE and/or stkAAVE proposal and voting rights from Llama to TokenLogic. \n\nTokenLogic is a [recognised delegate](https://governance.aave.com/t/tokenlogic-delegate-platform/12516) within the Aave Community founded my Matthew Graham.\n\n# Abstract\n\nThe main contributors to the Balancer ecosystem from Llama community was Matthew Graham and dydydmoon. The earlier is now 100% focused on building [TokenLogic](https://twitter.com/Matthew_Graham_/status/1682045389552365570?s=20) and dydymoon is transitioning from Llama to TokenLogic.\n\nThis publication advocates for redirecting Balancer's AAVE and/or stkAAVE, proposal and voting rights, from Llama to TokenLogic.\n\n# Motivation\n\nThe below contains a list for recent proposals by TokenLogic.\n\n* [[BIP-370] Reallocate bb-a-USD Protocol Fees to GHO/bb-a-USD Fees](https://forum.balancer.fi/t/bip-370-reallocate-bb-a-usd-protocol-fees-to-gho-bb-a-usd-fees/4969)\n* [[BIP-361] Enable GHO/MAI Gauge [Ethereum]](https://forum.balancer.fi/t/bip-361-enable-gho-mai-gauge-ethereum/4970)\n* [[BIP-360] Enable GHO/bb-a-USD Gauge [Ethereum]](https://forum.balancer.fi/t/bip-360-enable-gho-bb-a-usd-gauge-ethereum/4965)\n* [[BIP-358] Enable GHO/wstETH Gauge [Ethereum] ](https://forum.balancer.fi/t/bip-358-enable-gho-wsteth-gauge-ethereum/4964)\n* [[BIP-357] Enable GHO/LUSD Gauge [Ethereum] ](https://forum.balancer.fi/t/bip-357-enable-gho-lusd-gauge-ethereum/4963)\n\nFurther to the above, all of Llama's proposals on the Balancer governance forum are the work of Matthew and Dydymoon. This includes the proposals to redirect protocol fees to new pools and to deposit BAL into Aave v3 deployments on Polygon and Ethereum.\n\nMatthew and Dydymoon also designed the Aave Safety Module (SM) upgrade which includes integrating Aura Finance contracts and Balancer gauges into the SM. This work is ongoing and reflects the level of knowledge both have of the Balancer ecosystem. \n\nTokenLogic is working closely with Balancer DAO, Aura DAO and other contributors within the Balancer ecosystem to support the launch of GHO. Details on the GHO launch strategy, focused on Balancer, can be found [here](https://governance.aave.com/t/arfc-gho-liquidity-pools-primary-pools-initial-strategy/14071). \n\nThis proposal suggests any stkAAVE, AAVE or BPT with voting rights (soon) that Balancer DAO holds be delegated to Tokenlogic. \n\nTokenLogic's newly created delegation address: `0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1`\n\nThe [old address](https://boardroom.io/voter/0xA06c2e5BB33cd6718b08EC9335081Cbba62861f7) for anyone seeking to check out our voting history within the Aave Community. \n\n# Specification\n\nDelegate all Aave DAO proposal and voting power to the following address:\n\n`0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1`\n\nAt time of writing this includes stkAAVE and AAVE holdings. In the future this may include other assets which have voting rights within the Aave Community.\n\n# Disclosure\n\nTokenLogic is a voting delegate within the Aave Ecosystem.\n\n# Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).\n\n## Full Payload specification\n\nThe BalancerDAO Multisig `eth:0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with the `Aave Token contract` at `0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9` and will write as proxy at ` 0x96f68837877fd0414b55050c9e794aecdbcfca59` and call the delegateByType function with the following arguments:\ndelegatee(address): `0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1`\ndelegationType(uint8): `0`\n\nwhich will grant governance voting rights.\n\nFurthermore the BalancerDAO Multisig `eth:0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with the `Aave Token contract` at `0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9` and will write as proxy at ` 0x96f68837877fd0414b55050c9e794aecdbcfca59` and call the delegateByType function with the following arguments:\ndelegatee(address): `0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1`\ndelegationType(uint8): `1`\n\nwhich will grant governance proposal power",
+        "end_utc": "2023-08-07T18:00:00Z",
+        "similarity_score": 0.1423,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            20586.114984054617,
+            1231632.5285177145,
+            2636504.695773219
+          ],
+          "scores_total": 3888723.339274988,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-08-07T18:00:00",
+          "pre_tvl_avg": 936056801.5,
+          "post_tvl_avg": 941868616.0,
+          "abnormal_change": 0.6209,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.006209,
+          "abnormal_change_pct": 0.6209
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-08-07T18:00:00",
+          "pre_price_avg": 4.262769860000001,
+          "post_price_avg": 4.247853895,
+          "abnormal_change": -0.3499,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.003499,
+          "abnormal_change_pct": -0.3499
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0xaa71cbfadc894d5ddb14a21b2ee38821a9c9b56ef1211f854d68eeccbaaa931b",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "This proposal seeks to delegate BalancerDAO's ARB voting power to karpatkey's multisig for active governance participation in Arbitrum, leveraging karpatkey's proven track record as treasury manager and delegate. Timeline metrics, forum sentiment, and historical precedent support approving this delegation to enhance DAO influence.",
+    "key_arguments_for": [
+      "Delegation enables active and expert governance participation by karpatkey in Arbitrum, aligned with BalancerDAO interests.",
+      "karpatkey has a proven track record managing treasury and governance voting across multiple protocols.",
+      "Similar past proposals to empower delegates with treasury voting power passed unanimously and showed positive market and TVL outcomes.",
+      "Delegation maintains DAO control as it can be overridden and supports strategic influence on incentive programs and treasury diversification."
+    ],
+    "key_arguments_against": [
+      "Concerns about centralizing voting power in one delegate despite the ability to override delegation.",
+      "Potential risks if delegate decisions do not fully align with broader community preferences."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.balancer.fi/t/bip-611-delegate-balancerdao-arb-to-karpatkey/5752",
+        "quote": "Proposal details and rationale from karpatkey; mixed sentiment in forum posts with 1 positive and 1 negative pre-deadline comment."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Balancer BIP-611 voting timeline",
+        "quote": "Timeline metrics show stable and unanimous lead for 'Yes, let's do it' option."
+      },
+      {
+        "source_tool": "adjacent_analytics",
+        "reference": "Similar proposals BIP-609, BIP-608, BIP-607",
+        "quote": "Historical proposals with similar delegation or treasury management changes passed with strong consensus and positive market impacts."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2024-05-23T18:00:00Z",
+    "event_end_utc": "2024-05-27T18:00:00Z",
+    "event_time_utc": "2024-05-27T18:00:00Z",
+    "address_of_governance_token": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+    "token_price_impact_pct": 0.4952,
+    "tvl_impact_pct": 1.2715,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        2134454.9903115374,
+        0.0,
+        742745.939065661
+      ],
+      "scores_total": 2877200.9293771987,
+      "margin_abs": 1391709.0512458764,
+      "margin_pct": 0.483702
+    },
+    "simulation_reason": "Recommendation based on timeline lead, stable vote pattern, forum sentiment analysis, and successful precedent in similar proposals.",
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Timeline voting metrics show unanimous and stable support for 'Yes, let's do it' throughout the proposal duration.\n- Forum sentiment is mixed but overall supports delegation given karpatkey's demonstrated governance expertise.\n- Similar historical proposals empowering delegates to manage treasury voting passed with strong consensus and led to positive market and TVL outcomes, supporting the strategic benefit of this change.\n- The recommendation aligns with aggregated forum sentiment, reflecting community support and maximizing long-term DAO governance efficacy.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0xd13ba8f3cff914b5d99bc610ec0dfa6290a30eceddd3be2e0e518d75138e9b13",
+        "title": "[BIP-607] Update FTM Multisig to Claim vested BEETS",
+        "end_utc": "2024-05-20T18:00:00Z",
+        "summary": "[BIP-607] Update FTM Multisig to Claim vested BEETS closed on 2024-05-20T18:00:00Z. Timeline analytics noted 15 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.10)",
+        "market_response": "token +12.90%; TVL +16.01%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0x0d58256348456ae5454fda9beb9672064bb90e0edae7c61a90997c12e0ec991d",
+        "title": "[BIP-609] Enable Gauge for wrsETH/WETH [Optimism]",
+        "end_utc": "2024-05-20T18:00:00Z",
+        "summary": "[BIP-609] Enable Gauge for wrsETH/WETH [Optimism] closed on 2024-05-20T18:00:00Z. Timeline analytics noted 17 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.09)",
+        "market_response": "token +12.90%; TVL +16.01%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 0.4952,
+    "ex_post_tvl_impact_pct": 1.2715,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +0.50%; TVL +1.27%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 1,
+    "Positive": 1,
+    "Neutral": 1,
+    "total_comments": 3
+  }
+}

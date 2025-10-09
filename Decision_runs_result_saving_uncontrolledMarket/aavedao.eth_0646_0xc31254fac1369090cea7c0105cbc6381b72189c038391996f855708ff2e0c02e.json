@@ -1,0 +1,244 @@
+{
+  "captured_at_utc": "2025-10-07T02:33:21.106821+00:00",
+  "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0xc31254fac1369090cea7c0105cbc6381b72189c038391996f855708ff2e0c02e",
+  "focus": null,
+  "votes_count": 5500,
+  "timeline_metrics_current": {
+    "unique_voters": 5500,
+    "total_votes": 5500,
+    "first_vote_at": "2023-01-11T11:08:15Z",
+    "last_vote_at": "2023-01-13T03:24:32Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        119010.11949474114,
+        712.3249837157572
+      ],
+      [
+        98377.15964701315,
+        15.461574163094053
+      ],
+      [
+        231.47700887353355,
+        5.722166429001726
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.499176,
+    "spike_follow_support_ratio": 0.972184,
+    "stairwise_ratio": 0.003229,
+    "half_slope_diff": 0.071455
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x944dd1c247a5a08da6d5bd59571859201fcaee53343a879a789380eeed1971da",
+      "title": "V3 Borrow Cap Recommendations (Fast-track)",
+      "author": "0xbC540e0729B732fb14afA240aA5A047aE9ba7dF0",
+      "end_utc": "2022-12-08T21:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 2421,
+        "total_votes": 2421,
+        "first_vote_at": "2022-12-06T21:11:12Z",
+        "last_vote_at": "2022-12-08T20:57:39Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.02143283837615459,
+            0.0,
+            0.0
+          ],
+          [
+            34.57963123832665,
+            0.025025379689792206,
+            0.002788537612749614
+          ],
+          [
+            180422.26137989748,
+            5.759882547788312,
+            6.789174275607014
+          ],
+          [
+            241213.89534705714,
+            6.528220703784776,
+            1.0398584312713834
+          ]
+        ],
+        "spike_index": 0.213591,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.000175,
+        "half_slope_diff": 15.464651
+      },
+      "price_impact_pct": -2.9207,
+      "tvl_impact_pct": -0.4827,
+      "similarity": 0.146,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "YAE",
+        "margin_abs": 421658.44466240023,
+        "scores_total": 421690.9027409073,
+        "margin_pct": 0.9999230287438119
+      }
+    }
+  ],
+  "similar_proposals_data": [],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0xc31254fac1369090cea7c0105cbc6381b72189c038391996f855708ff2e0c02e",
+    "selected_choice_label": "Chaos Labs Proposal",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "The proposal chooses the Chaos Labs Proposal for the initial onboarded assets on Aave Ethereum V3 markets, favoring a more conservative, risk-off launch based on current market conditions. The voting timeline shows a stable and early lead for this option. Market impacts indicate positive price and TVL changes, and the forum discussion, while mixed, provides critical considerations supporting a cautious approach.",
+    "key_arguments_for": [
+      "Strong and stable voting lead for the Chaos Labs Proposal with 100% lead ratio and early voting dominance.",
+      "Market impacts show positive price (+18.34%) and TVL (+7.88%) changes post-proposal, indicating market confidence.",
+      "Chaos Labs Proposal adopts a conservative, risk-averse strategy to avoid unnecessary risk exposure at launch.",
+      "Historical lessons warn against overly aggressive risk parameters that led to TVL loss in prior proposals."
+    ],
+    "key_arguments_against": [
+      "Forum sentiment is largely negative or neutral, expressing concerns about conservative parameters and potential inefficiencies.",
+      "Some argue that lower LT and LTV in Chaos Labs Proposal could reduce capital efficiency and disincentivize migration from V2 to V3.",
+      "Gauntlet Proposal offers more assets initially, which could reduce governance burden and facilitate a more diverse asset base."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://governance.aave.com/t/arc-aave-ethereum-v3-market-initial-onboarded-assets/11318",
+        "quote": "Discussion posts reveal detailed comparisons of the two proposals, highlighting conservative risk management in Chaos Labs Proposal and a more capital efficient but complex Gauntlet Proposal."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Snapshot vote timeline analysis",
+        "quote": "Timeline metrics show a stable, early, and dominant lead for Chaos Labs Proposal with lead ratio 1.0 and stability 1.0."
+      },
+      {
+        "source_tool": "adjacent_analytics",
+        "reference": "V3 Borrow Cap Recommendations (Fast-track)",
+        "quote": "Prior similar proposal with conservative caps resulted in negative price (-2.92%) and TVL (-0.48%) impacts, a cautionary lesson."
+      }
+    ],
+    "available_choices": [
+      "Chaos Labs Proposal",
+      "Gauntlet proposal"
+    ],
+    "event_start_utc": "2023-01-11T11:08:00Z",
+    "event_end_utc": "2023-01-14T11:08:00Z",
+    "event_time_utc": "2023-01-14T11:08:00Z",
+    "address_of_governance_token": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+    "token_price_impact_pct": 18.3423,
+    "tvl_impact_pct": 7.875,
+    "actual_vote_result": {
+      "winner_label": "Chaos Labs Proposal",
+      "winner_index": 0,
+      "scores": [
+        283205.1135382389,
+        48761.12392273793
+      ],
+      "scores_total": 331966.23746097647,
+      "margin_abs": 234443.989615501,
+      "margin_pct": 0.706228
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Chaos Labs Proposal' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- The voting timeline metrics show a strong, stable, and early lead for the Chaos Labs Proposal, indicating clear voter preference and confidence.\n- Market impacts demonstrate positive token price and TVL changes, reinforcing the viability and market support of this proposal.\n- Forum discussions provide cautious but constructive criticism, supporting a conservative approach to risk management as recommended by Chaos Labs.\n- Historical lessons from similar proposals warn against overly aggressive risk parameters that led to TVL decline, supporting the choice of a risk-off launch.\n- The recommendation aligns well with the aggregated forum sentiment and voting patterns, reflecting community views while prioritizing the protocol’s durable benefit.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x944dd1c247a5a08da6d5bd59571859201fcaee53343a879a789380eeed1971da",
+        "title": "V3 Borrow Cap Recommendations (Fast-track)",
+        "end_utc": "2022-12-08T21:00:00Z",
+        "summary": "V3 Borrow Cap Recommendations (Fast-track) closed on 2022-12-08T21:00:00Z. Timeline analytics noted 2421 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.15)",
+        "market_response": "token -2.92%; TVL -0.48%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 18.3423,
+    "ex_post_tvl_impact_pct": 7.875,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +18.34%; TVL +7.88%"
+  },
+  "agentic_ai_choice": "Chaos Labs Proposal",
+  "actual_outcome": "Chaos Labs Proposal",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 4,
+    "Positive": 0,
+    "Neutral": 2,
+    "total_comments": 6
+  }
+}

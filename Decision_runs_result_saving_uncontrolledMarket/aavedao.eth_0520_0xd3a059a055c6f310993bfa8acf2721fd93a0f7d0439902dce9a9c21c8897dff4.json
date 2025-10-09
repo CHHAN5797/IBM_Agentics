@@ -1,0 +1,1160 @@
+{
+  "captured_at_utc": "2025-10-06T09:36:41.612277+00:00",
+  "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0xd3a059a055c6f310993bfa8acf2721fd93a0f7d0439902dce9a9c21c8897dff4",
+  "focus": null,
+  "votes_count": 2013,
+  "timeline_metrics_current": {
+    "unique_voters": 1994,
+    "total_votes": 1994,
+    "first_vote_at": "2023-06-22T18:49:10Z",
+    "last_vote_at": "2023-06-25T18:28:59Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        0.998741,
+        0.001259,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      0.9994984954864594,
+      0.0005015045135406219,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      0.9994984954864594,
+      0.0005015045135406219,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      0.9987405541561712,
+      0.0012594458438287153,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        83607.33837010367,
+        41948.93761768376,
+        248.05755385305835,
+        16.49928143655177
+      ],
+      [
+        81527.53392593657,
+        26.619890879252143,
+        23.994810940895537,
+        15.962025476114874
+      ],
+      [
+        109031.81764229735,
+        368.69562948258755,
+        10.98572970483346,
+        1.6039844611591678
+      ],
+      [
+        344.7927029461416,
+        3032.828501098499,
+        62.63478012066756,
+        18.447431422850844
+      ]
+    ],
+    "spike_index": 0.396879,
+    "spike_follow_support_ratio": 0.575162,
+    "stairwise_ratio": 0.000237,
+    "half_slope_diff": 0.191336
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x602046cab7a8a9abc178fbe2c4e869c55bcea35567235e3174e0409e9c39db7b",
+      "title": "[ARFC] E-Mode Specific Supply and Borrow Caps",
+      "author": "0x683a4F9915D6216f73d6Df50151725036bD26C02",
+      "end_utc": "2023-05-12T21:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 3075,
+        "total_votes": 3075,
+        "first_vote_at": "2023-05-08T17:00:59Z",
+        "last_vote_at": "2023-05-12T20:51:51Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            6407.1176706627475,
+            18.509063468013938,
+            90.80073407329832,
+            245.74197426742154
+          ],
+          [
+            329.49979673406244,
+            229910.60136906288,
+            33.64849321446435,
+            1.180918248616479
+          ],
+          [
+            205648.61878932588,
+            108551.25463479702,
+            1249.2089260324944,
+            0.5675402082740635
+          ],
+          [
+            81448.98184013367,
+            5.511482812281198,
+            64.5536740211619,
+            17305.281497721036
+          ]
+        ],
+        "spike_index": 0.679159,
+        "spike_follow_support_ratio": 0.001587,
+        "stairwise_ratio": 5.4e-05,
+        "half_slope_diff": 2.652162
+      },
+      "price_impact_pct": -1.9614,
+      "tvl_impact_pct": -1.9326,
+      "similarity": 0.1783,
+      "actual_vote_result": {
+        "winner_index": 1,
+        "winner_label": "Option 2: No EM Specific Caps",
+        "margin_abs": 44651.6584532836,
+        "scores_total": 651311.0784047843,
+        "margin_pct": 0.0685565775460877
+      }
+    },
+    {
+      "id": "0xa34dd5c4a843f687a901f217dc7b9681a0eeec15b3930bd3222f49c860860b1c",
+      "title": "[ARFC] Aave V3 Interest Rate Curve Changes (2023-04-27) ",
+      "author": "0x683a4F9915D6216f73d6Df50151725036bD26C02",
+      "end_utc": "2023-05-12T02:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-05-05T02:05:03Z",
+        "last_vote_at": "2023-05-09T13:11:54Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            384161.16951458633,
+            8.642144517561869,
+            2.217666670922632
+          ],
+          [
+            1170.7006547157919,
+            5.893764390200373,
+            1.9560796996681957
+          ],
+          [
+            8896.937248628488,
+            2.758044450286771,
+            0.1547605540226506
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.583125,
+        "spike_follow_support_ratio": 0.98536,
+        "stairwise_ratio": 0.000504,
+        "half_slope_diff": -4.711807
+      },
+      "price_impact_pct": -1.9614,
+      "tvl_impact_pct": -1.9326,
+      "similarity": 0.2235,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "YAE",
+        "margin_abs": 638139.3148133177,
+        "scores_total": 640669.0988739885,
+        "margin_pct": 0.9960513405982636
+      }
+    },
+    {
+      "id": "0x65b77de92c88a6046a9179abe8e67d5c0e9e4203eace4425aac215dbb7d5a885",
+      "title": "[ARFC] Aave V2 Interest Rate Curve Changes (2023-04-21) ",
+      "author": "0x683a4F9915D6216f73d6Df50151725036bD26C02",
+      "end_utc": "2023-05-05T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-04-29T03:01:26Z",
+        "last_vote_at": "2023-04-30T03:17:31Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            108673.54829223496,
+            1.5523382001873003,
+            0.054352582562407666
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.994757,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 5.5e-05,
+        "half_slope_diff": -1.899969
+      },
+      "price_impact_pct": -1.9277,
+      "tvl_impact_pct": 0.6613,
+      "similarity": 0.1761,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "YAE",
+        "margin_abs": 573829.8547108464,
+        "scores_total": 574653.2111596867,
+        "margin_pct": 0.998567211610671
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0xa34dd5c4a843f687a901f217dc7b9681a0eeec15b3930bd3222f49c860860b1c",
+      "cleaned": {
+        "proposal_id": "0xa34dd5c4a843f687a901f217dc7b9681a0eeec15b3930bd3222f49c860860b1c",
+        "title": "[ARFC] Aave V3 Interest Rate Curve Changes (2023-04-27) ",
+        "author": "0x683a4F9915D6216f73d6Df50151725036bD26C02",
+        "end_utc": "2023-05-12T02:00:00Z",
+        "similarity_score": 0.1964,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 638139.3148133177,
+        "margin_pct": 0.9960513405982636,
+        "scores_total": 640669.0988739885,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-05-05T02:05:03Z",
+        "last_vote_at": "2023-05-09T13:11:54Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            384161.16951458633,
+            8.642144517561869,
+            2.217666670922632
+          ],
+          [
+            1170.7006547157919,
+            5.893764390200373,
+            1.9560796996681957
+          ],
+          [
+            8896.937248628488,
+            2.758044450286771,
+            0.1547605540226506
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.583125,
+        "spike_follow_support_ratio": 0.98536,
+        "stairwise_ratio": 0.000504,
+        "half_slope_diff": -4.711807
+      },
+      "raw": {
+        "id": "0xa34dd5c4a843f687a901f217dc7b9681a0eeec15b3930bd3222f49c860860b1c",
+        "title": "[ARFC] Aave V3 Interest Rate Curve Changes (2023-04-27) ",
+        "author": "0x683a4F9915D6216f73d6Df50151725036bD26C02",
+        "body": "\n# Simple Summary\nGauntlet proposes adjusting interest rate parameters for the Ethereum, Polygon, Avalanche, Arbitrum, and Optimism Aave V3 markets. Tokens impacted include USDC, USDT, EURS, WBTC, DPI, and CRV. If these changes are approved, our models indicate that it could lead to over $135k in annualized protocol revenue growth. Forum post can be found [here](https://governance.aave.com/t/arfc-aave-v3-interest-rate-curve-recommendations-from-gauntlet-2023-04-27/12921).\n\n# Abstract\nGiven the significant shifts in crypto markets, Gauntlet’s platform has evaluated all assets on Aave V3’s active markets and has identified opportunities to adjust parameters for certain assets for the benefit of the protocol. Our methodology makes data-informed decisions around setting borrower and supplier interest rates when market conditions require the protocol to reduce risk or when strategic opportunities present themselves to increase protocol revenue without materially impacting risk. This analysis further finetunes the interest rate curves of Aave V3 across the Ethereum, Polygon, Avalanche, Arbitrum, and Optimism markets.\n\n## Objectives\nAmong other factors, there are two primary reasons to adjust an interest rate curve:\n\n1. **mitigate the risk of 100% utilization in a pool**\n2. **build reserves via protocol revenue to cover insolvencies or other expenses in the future**\n\nAs a secondary objective, we want to **optimize the user experience of Aave's borrowers and suppliers**.\n\n## Specification\n\n![](https://i.imgur.com/t4gTDKM.png)\n\n\n**Disclaimer: Gauntlet reserves the right to not move forward with any of these parameter changes, if market conditions change meaningfully.**\n\n\n*By approving this proposal, you agree that any services provided by Gauntlet shall be governed by the terms of service available at gauntlet.network/tos.*",
+        "end_utc": "2023-05-12T02:00:00Z",
+        "similarity_score": 0.1964,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "ABSTAIN",
+            "NAY"
+          ],
+          "scores": [
+            639401.9729098505,
+            1262.65809653283,
+            4.4678676052903405
+          ],
+          "scores_total": 640669.0988739885,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2023-05-12T02:00:00",
+          "pre_tvl_avg": 5175714756.0,
+          "post_tvl_avg": 5075690657.5,
+          "abnormal_change": -1.9326,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.019326,
+          "abnormal_change_pct": -1.9326
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2023-05-12T02:00:00",
+          "pre_price_avg": 63.55772842499999,
+          "post_price_avg": 62.538428120000006,
+          "abnormal_change": -1.6037,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.016037,
+          "abnormal_change_pct": -1.6037
+        }
+      }
+    },
+    {
+      "proposal_id": "0xa121311c67b7a5bbe5b8b5fe1911663a0ab94ed339a6a4b0e1b9443f670a0e97",
+      "cleaned": {
+        "proposal_id": "0xa121311c67b7a5bbe5b8b5fe1911663a0ab94ed339a6a4b0e1b9443f670a0e97",
+        "title": "Temporarily Pause ETH Borrowing",
+        "author": "0xDD659911EcBD4458db07Ee7cDdeC79bf8F859AbC",
+        "end_utc": "2022-09-02T16:15:00Z",
+        "similarity_score": 0.1812,
+        "winning_option": "Yes and pay 60 AAVE tokens",
+        "winning_option_index": 0,
+        "margin_abs": 207565.2509330826,
+        "margin_pct": 0.9310786701570902,
+        "scores_total": 222929.87433388684,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 1380,
+        "total_votes": 1380,
+        "first_vote_at": "2022-08-30T16:23:06Z",
+        "last_vote_at": "2022-09-02T15:59:42Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.937605,
+            0.062395,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9731884057971014,
+          0.02681159420289855,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          0.9731884057971014,
+          0.02681159420289855,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.9376053962900506,
+          0.06239460370994941,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            243.9585360254777,
+            65.6001652046217,
+            254.75256344455312,
+            1361.1070580608423
+          ],
+          [
+            201715.7287211524,
+            6699.147219166167,
+            9.70410860067468,
+            11.19558463823427
+          ],
+          [
+            10366.603716342695,
+            72.07140322915949,
+            1.47599138107823,
+            2.522112420427707
+          ],
+          [
+            2088.683767054584,
+            12.90501989227479,
+            13.68685152179745,
+            10.73151575230172
+          ]
+        ],
+        "spike_index": 0.77731,
+        "spike_follow_support_ratio": 0.919378,
+        "stairwise_ratio": 0.000237,
+        "half_slope_diff": 0.22135
+      },
+      "raw": {
+        "id": "0xa121311c67b7a5bbe5b8b5fe1911663a0ab94ed339a6a4b0e1b9443f670a0e97",
+        "title": "Temporarily Pause ETH Borrowing",
+        "author": "0xDD659911EcBD4458db07Ee7cDdeC79bf8F859AbC",
+        "body": "## Simple Summary\n\nA proposal to pause ETH borrowing in the period leading up to the Ethereum Merge. \n\nIn addition, the original forum post also proposed transferring a one-time payment of 60 AAVE from the Aave treasury to the MakerDAO pause proxy in connection to the [proposal](https://governance.aave.com/t/arc-aave-ethpow-fork-risk-mitigation-plan/9438#:~:text=103%25%20to%201%2C000%25.-,AAVE%20Payment,-If%20this%20proposal). In this Snapshot vote, we also provide the options to vote for this payment.\n\n## Abstract\n\nAhead of the Ethereum Merge, the Aave protocol faces the risk of high utilization in the ETH market. Temporarily pausing ETH borrowing will mitigate this risk of high utilization.\n\n## Motivation\n\nFull details are provided in the original [forum post](https://governance.aave.com/t/arc-aave-ethpow-fork-risk-mitigation-plan/9438).\n\nThe risk of high utilization in the ETH market is driven by users potentially benefiting from the forked PoW ETH (ETHW) by borrowing ETH before the merge. High utilization interferes with liquidation transactions, thus increasing the chances of insolvency for the protocol. In addition, a high ETH borrow rate can make stETH/ETH recursive positions unprofitable, increasing the chances that users unwind their positions and drive the stETH/ETH price deviation further, causing additional liquidations and insolvency.\n\n\n## Specification\n* Calling `disableBorrowingOnReserve` to disable ETH borrowing.\n\nThe options for this Snapshot vote are as follows: \n\n1. Yes (temporarily pause ETH borrowing) and pay 60 AAVE tokens\n2. Yes (temporarily pause ETH borrowing) and decide on payment later. The community can revisit the proposed payment later, but that should not block the community from taking action (pause ETH borrowing) to derisk Aave in the interim\n3. No (do not pause ETH borrowing)\n4. Abstain\n\n## Next Steps\n* Targeting an AIP on 2022-09-02.\n\n\n\n*By approving this proposal, you agree that any services provided by Gauntlet shall be governed by the terms of service available at gauntlet.network/tos.*\n\n\n",
+        "end_utc": "2022-09-02T16:15:00Z",
+        "similarity_score": 0.1812,
+        "vote_result": {
+          "choices": [
+            "Yes and pay 60 AAVE tokens",
+            "Yes and decide payment later",
+            "No",
+            "Abstain"
+          ],
+          "scores": [
+            214414.97474057483,
+            6849.723807492226,
+            279.6195149481034,
+            1385.5562708718069
+          ],
+          "scores_total": 222929.87433388684,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2022-09-02T16:15:00",
+          "pre_tvl_avg": 6148517328.0,
+          "post_tvl_avg": 6362804206.5,
+          "abnormal_change": 3.4852,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.034852,
+          "abnormal_change_pct": 3.4852
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2022-09-02T16:15:00",
+          "pre_price_avg": 85.66757928,
+          "post_price_avg": 89.990810865,
+          "abnormal_change": 5.0465,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.050465,
+          "abnormal_change_pct": 5.0465
+        }
+      }
+    },
+    {
+      "proposal_id": "0x288caef0d79e5883884324b90daa3c5550135ea0c78738e7ca2363243340c2da",
+      "cleaned": {
+        "proposal_id": "0x288caef0d79e5883884324b90daa3c5550135ea0c78738e7ca2363243340c2da",
+        "title": "[ARC] Aave V3 Ethereum Deployment: Assets and Configurations Part 1",
+        "author": "0xDD659911EcBD4458db07Ee7cDdeC79bf8F859AbC",
+        "end_utc": "2022-11-28T20:00:00Z",
+        "similarity_score": 0.1575,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 255241.27769599535,
+        "margin_pct": 0.6080357406156922,
+        "scores_total": 419780.0567406449,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 4716,
+        "total_votes": 4716,
+        "first_vote_at": "2022-11-18T20:00:08Z",
+        "last_vote_at": "2022-11-28T19:51:57Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            818.4380954095695,
+            1222.1582098525444,
+            2.649126538714871
+          ],
+          [
+            100261.59589328464,
+            81035.50699298408,
+            1.0321582834440484
+          ],
+          [
+            90125.35384776535,
+            6.0532678962849635,
+            0.18676730777114137
+          ],
+          [
+            146303.15263631908,
+            3.5443060512192193,
+            0.3854389499547244
+          ]
+        ],
+        "spike_index": 0.287538,
+        "spike_follow_support_ratio": 0.985995,
+        "stairwise_ratio": 0.000447,
+        "half_slope_diff": 1.672728
+      },
+      "raw": {
+        "id": "0x288caef0d79e5883884324b90daa3c5550135ea0c78738e7ca2363243340c2da",
+        "title": "[ARC] Aave V3 Ethereum Deployment: Assets and Configurations Part 1",
+        "author": "0xDD659911EcBD4458db07Ee7cDdeC79bf8F859AbC",
+        "body": "## Summary\n\nSelect which assets should be listed on Aave V3 Ethereum initially.\n\n## Motivation\n\nFollowing this Snapshot vote, Gauntlet will provide initial parameter recommendations for the assets below.\n\n## Specification\n\nAssets with \"-\" below signal that the asset should not be listed on Aave V3 Ethereum.\n\n\n|Asset|Configuration|\n| --- | --- |\n|**USDC**|YES|\n|**ETH**|YES|\n|**wstETH**|YES|\n|**WBTC**|YES|\n|**USDT**|YES (Isolated)|\n|**DAI**|YES|\n|**LINK**|YES|\n|**CRV**|YES|\n|**AAVE**|YES|\n|**MKR**|YES|\n|**TUSD**|YES (Isolated)|\n|**FRAX**|YES (no collateral)|\n|**BUSD**|YES (no collateral)|\n|**YFI**|YES (isolated)|\n|**UNI**|YES (isolated)|\n|**ZRX**|YES (isolated)|\n|**MANA**|YES (isolated)|\n|**xSUSHI**|-|\n|**1INCH**|YES (isolated)|\n|**DPI**|YES (isolated)|\n|**GUSD**|-|\n|**SNX**|YES(isolated)|\n|**CVX**|YES(isolated)|\n|**BAT**|YES(isolated)|\n|**REN**|-|\n|**sUSD**|YES(no collateral)|\n|**ENJ**|-|\n|**BAL**|YES(isolated)|\n|**AMPL**|-|\n|**RAI**|-|\n|**USDP**|-|\n|**UST**|-|\n|**LUSD**|YES (no collateral)|\n|**FEI**|-|\n|**renFIL**|-|\n|**KNC**|-|\n|**ENS**|Yes (isolated)|\n\n\n\n*By approving this proposal, you agree that any services provided by Gauntlet shall be governed by the terms of service available at gauntlet.network/tos.*",
+        "end_utc": "2022-11-28T20:00:00Z",
+        "similarity_score": 0.1575,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "ABSTAIN",
+            "NAY"
+          ],
+          "scores": [
+            337508.54047277954,
+            82267.26277678419,
+            4.253491079884788
+          ],
+          "scores_total": 419780.0567406449,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2022-11-28T20:00:00",
+          "pre_tvl_avg": 3683290958.5,
+          "post_tvl_avg": 3856219580.0,
+          "abnormal_change": 4.6949,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.046949,
+          "abnormal_change_pct": 4.6949
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2022-11-28T20:00:00",
+          "pre_price_avg": 61.604425199999994,
+          "post_price_avg": 64.468841095,
+          "abnormal_change": 4.6497,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.046497,
+          "abnormal_change_pct": 4.6497
+        }
+      }
+    },
+    {
+      "proposal_id": "0x549fa2186f321a4e8a07e0d5e82f85f3e2c83189cfaee678a6df144bb67d8f54",
+      "cleaned": {
+        "proposal_id": "0x549fa2186f321a4e8a07e0d5e82f85f3e2c83189cfaee678a6df144bb67d8f54",
+        "title": "[ARC] Gauntlet <> Aave Renewal",
+        "author": "0xDD659911EcBD4458db07Ee7cDdeC79bf8F859AbC",
+        "end_utc": "2022-11-23T22:30:00Z",
+        "similarity_score": 0.152,
+        "winning_option": "NAY",
+        "winning_option_index": 1,
+        "margin_abs": 161585.98241134657,
+        "margin_pct": 0.14471168911851406,
+        "scores_total": 1116606.2907261972,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 4952,
+        "total_votes": 4952,
+        "first_vote_at": "2022-11-16T22:34:51Z",
+        "last_vote_at": "2022-11-23T22:28:23Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            306753.3045524561,
+            9.196480966579982,
+            3.750906117782767
+          ],
+          [
+            80520.8586237977,
+            2.976945274358649,
+            0.4881091872698883
+          ],
+          [
+            90056.7016773721,
+            1.184588731055182,
+            2.4029026936675004
+          ],
+          [
+            174.3229582896256,
+            639077.8122082879,
+            3.2907730183404373
+          ]
+        ],
+        "spike_index": 0.278845,
+        "spike_follow_support_ratio": 0.639816,
+        "stairwise_ratio": 9e-06,
+        "half_slope_diff": 14.94997
+      },
+      "raw": {
+        "id": "0x549fa2186f321a4e8a07e0d5e82f85f3e2c83189cfaee678a6df144bb67d8f54",
+        "title": "[ARC] Gauntlet <> Aave Renewal",
+        "author": "0xDD659911EcBD4458db07Ee7cDdeC79bf8F859AbC",
+        "body": "## Summary\nA proposal to renew Gauntlet’s 12-month engagement with Aave on continuous market risk management to maximize capital efficiency while minimizing the risk of insolvency and liquidations to create long-term sustainable growth. Full details of the proposal can be found in our [forum post](https://governance.aave.com/t/arc-gauntlet-aave-renewal/10516).\n\n\n## Proposal\nGauntlet’s Risk Management platform quantifies risk, optimizes risk parameters, runs economic stress tests, and calibrates parameters dynamically. Gauntlet uses agent-based simulation models tuned to actual market data to model tail market events and interactions between different users within DeFi protocols.\n\nFull details of the engagement scope, integration timeline, and KPIs are covered in our [forum post](https://governance.aave.com/t/arc-gauntlet-aave-renewal/10516#proposal-3).\n\n\n*By approving this proposal, you agree that any services provided by Gauntlet shall be governed by the terms of service available at gauntlet.network/tos.*",
+        "end_utc": "2022-11-23T22:30:00Z",
+        "similarity_score": 0.152,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "NAY",
+            "ABSTAIN"
+          ],
+          "scores": [
+            477505.1878119143,
+            639091.1702232609,
+            9.932691017060604
+          ],
+          "scores_total": 1116606.2907261972,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2022-11-23T22:30:00",
+          "pre_tvl_avg": 4078755672.5,
+          "post_tvl_avg": 3658821740.0,
+          "abnormal_change": -10.2956,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.102956,
+          "abnormal_change_pct": -10.2956
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2022-11-23T22:30:00",
+          "pre_price_avg": 56.608904515,
+          "post_price_avg": 60.350251415,
+          "abnormal_change": 6.6091,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.066091,
+          "abnormal_change_pct": 6.6091
+        }
+      }
+    },
+    {
+      "proposal_id": "0x65b77de92c88a6046a9179abe8e67d5c0e9e4203eace4425aac215dbb7d5a885",
+      "cleaned": {
+        "proposal_id": "0x65b77de92c88a6046a9179abe8e67d5c0e9e4203eace4425aac215dbb7d5a885",
+        "title": "[ARFC] Aave V2 Interest Rate Curve Changes (2023-04-21) ",
+        "author": "0x683a4F9915D6216f73d6Df50151725036bD26C02",
+        "end_utc": "2023-05-05T19:00:00Z",
+        "similarity_score": 0.1515,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 573829.8547108464,
+        "margin_pct": 0.998567211610671,
+        "scores_total": 574653.2111596867,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-04-29T03:01:26Z",
+        "last_vote_at": "2023-04-30T03:17:31Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            108673.54829223496,
+            1.5523382001873003,
+            0.054352582562407666
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.994757,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 5.5e-05,
+        "half_slope_diff": -1.899969
+      },
+      "raw": {
+        "id": "0x65b77de92c88a6046a9179abe8e67d5c0e9e4203eace4425aac215dbb7d5a885",
+        "title": "[ARFC] Aave V2 Interest Rate Curve Changes (2023-04-21) ",
+        "author": "0x683a4F9915D6216f73d6Df50151725036bD26C02",
+        "body": "\n\n# Simple Summary\nGauntlet proposes adjusting interest rate parameters for the Ethereum, Polygon, and Avalanche Aave V2 markets. Tokens impacted include USDP, FRAX, USDT, GUSD, WETH, WBTC, WAVAX, and WMATIC. Forum post can be found [here](https://governance.aave.com/t/arfc-aave-v2-interest-rate-curve-recommendations-from-gauntlet-2023-04-21/12846).\n\n# Abstract\nGiven the significant shifts in crypto markets, Gauntlet’s platform has evaluated all assets on Aave V2's Ethereum, Polygon, and Avalanche markets and has identified opportunities to adjust parameters for certain assets for the benefit of the protocol. Last November, we proposed interest rate curve changes for the Aave V2 Ethereum market using our interest rate curve optimization framework. Our methodology makes data-informed decisions around setting borrower and supplier interest rates when market conditions require the protocol to reduce risk or when strategic opportunities present themselves to increase protocol revenue without materially impacting risk. This analysis further finetunes the interest rate curves of Aave V2 Ethereum, and extends our methodology to Polygon and Avalanche.\n\n## Objectives\nAmong other factors, there are two primary reasons to adjust an interest rate curve:\n\n1. **mitigate the risk of 100% utilization in a pool**\n2. **build reserves via protocol revenue to cover insolvencies or other expenses in the future**\n\nAs a secondary objective, we want to **optimize the user experience of Aave's borrowers and suppliers**.\n\n## Specification\n\n![](https://i.imgur.com/UBumbXp.png)\n\n\n\n\n*By approving this proposal, you agree that any services provided by Gauntlet shall be governed by the terms of service available at gauntlet.network/tos.*",
+        "end_utc": "2023-05-05T19:00:00Z",
+        "similarity_score": 0.1515,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "ABSTAIN",
+            "NAY"
+          ],
+          "scores": [
+            574234.2046937083,
+            14.656483116295709,
+            404.3499828619211
+          ],
+          "scores_total": 574653.2111596867,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2023-05-05T19:00:00",
+          "pre_tvl_avg": 5329562506.0,
+          "post_tvl_avg": 5364808343.5,
+          "abnormal_change": 0.6613,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.006613,
+          "abnormal_change_pct": 0.6613
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2023-05-05T19:00:00",
+          "pre_price_avg": 71.26766746000001,
+          "post_price_avg": 66.72643253000001,
+          "abnormal_change": -6.3721,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.063721,
+          "abnormal_change_pct": -6.3721
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0xd3a059a055c6f310993bfa8acf2721fd93a0f7d0439902dce9a9c21c8897dff4",
+    "selected_choice_label": "Option 1: Lower LT",
+    "selected_choice_index": 0,
+    "confidence": 0.9,
+    "summary": "The proposal recommends iteratively lowering the liquidation threshold (LT) for TUSD on Aave v2 to mitigate counterparty risk due to TUSD's regulatory and peg concerns. The timeline metrics and vote dynamics strongly favor Option 1. Historical similar proposals aimed to adjust risk parameters and interest rate curves with mixed market outcomes, providing useful lessons. Forum sentiment is mostly cautious and supports risk reduction strategies, aligning with the recommendation.",
+    "key_arguments_for": [
+      "High utilization of TUSD and recent depeg concerns justify lowering LT to reduce insolvency risk.",
+      "Timeline vote analysis shows overwhelming early and sustained support for Option 1.",
+      "Similar past proposals on risk parameters had mostly successful outcomes with moderate market impacts.",
+      "Forum sentiment is predominantly negative on counterparty risk and supports derisking TUSD exposure."
+    ],
+    "key_arguments_against": [
+      "Option 1 may impact user experience due to forced liquidation of some supply (~$1500).",
+      "Some community members question quorum and process clarity.",
+      "Freezing supply (Option 2) might be more immediate but harsher and less flexible."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://governance.aave.com/t/arfc-gauntlet-recommendation-on-tusd-for-aave-v2-ethereum/13727",
+        "quote": "Gauntlet recommends lowering LT and LTV or freezing supply due to counterparty risk; forum sentiment includes negative concerns about risk and support for derisking."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Snapshot Proposal Timeline Metrics",
+        "quote": "Timeline analysis shows strong stability and early voting dominance for Option 1 with lead ratio near 1.0 and high stability."
+      },
+      {
+        "source_tool": "registry_lookup",
+        "reference": "aavedao.eth Governance Token",
+        "quote": "Governance token address: 0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9 (AAVE)"
+      },
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Forum Sentiment Summary",
+        "quote": "Total comments: 17; Positive: 2; Negative: 6; Neutral: 9; first comment negative caution on risk, second neutral update."
+      }
+    ],
+    "available_choices": [
+      "Option 1: Lower LT",
+      "Option 2: Freeze supply",
+      "Abstain",
+      "Nay"
+    ],
+    "event_start_utc": "2023-06-22T18:48:21Z",
+    "event_end_utc": "2023-06-25T18:48:21Z",
+    "event_time_utc": "2023-06-25T18:48:21Z",
+    "address_of_governance_token": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+    "token_price_impact_pct": 13.426,
+    "tvl_impact_pct": 1.1972,
+    "actual_vote_result": {
+      "winner_label": "Option 1: Lower LT",
+      "winner_index": 0,
+      "scores": [
+        316213.0595246035,
+        45400.03691480106,
+        357.9561094341213,
+        62.513475400708515
+      ],
+      "scores_total": 320289.33772427024,
+      "margin_abs": 270813.0226098024,
+      "margin_pct": 0.845526
+    },
+    "simulation_reason": "Recommendation based on timeline, forum sentiment, and similar proposals, independent of ex-post market impact or final tally.",
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Option 1: Lower LT' selected with stance to keep 'Change'.",
+    "ai_final_reason": "• Timeline analysis shows near unanimous early and sustained voting support for lowering LT, indicating strong community preference.\n• Forum sentiment is predominantly negative on counterparty risk and supports derisking TUSD exposure, aligning with the chosen option.\n• Similar past proposals adjusting risk parameters and interest rate curves provide lessons that moderate changes can protect protocol health without severe market disruption.\n• Market and TVL impact data indicate positive protocol health trends post proposal, supporting the change stance.\n• Some community concerns about quorum and process transparency exist but do not outweigh risk mitigation needs.\nThe recommendation mirrors aggregated forum opinion and vote timeline insights, prioritizing the long-term stability of the protocol by reducing TUSD exposure risks.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0xa34dd5c4a843f687a901f217dc7b9681a0eeec15b3930bd3222f49c860860b1c",
+        "title": "[ARFC] Aave V3 Interest Rate Curve Changes (2023-04-27) ",
+        "end_utc": "2023-05-12T02:00:00Z",
+        "summary": "[ARFC] Aave V3 Interest Rate Curve Changes (2023-04-27)  closed on 2023-05-12T02:00:00Z. Timeline analytics noted 5500 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Moderate text overlap (score 0.22)",
+        "market_response": "token -1.96%; TVL -1.93%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0x602046cab7a8a9abc178fbe2c4e869c55bcea35567235e3174e0409e9c39db7b",
+        "title": "[ARFC] E-Mode Specific Supply and Borrow Caps",
+        "end_utc": "2023-05-12T21:00:00Z",
+        "summary": "[ARFC] E-Mode Specific Supply and Borrow Caps closed on 2023-05-12T21:00:00Z. Timeline analytics noted 3075 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.18)",
+        "market_response": "token -1.96%; TVL -1.93%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 13.426,
+    "ex_post_tvl_impact_pct": 1.1972,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +13.43%; TVL +1.20%"
+  },
+  "agentic_ai_choice": "Option 1: Lower LT",
+  "actual_outcome": "Option 1: Lower LT",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 6,
+    "Positive": 2,
+    "Neutral": 9,
+    "total_comments": 17
+  }
+}

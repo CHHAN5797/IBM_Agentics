@@ -1,0 +1,232 @@
+{
+  "captured_at_utc": "2025-10-07T04:57:28.384007+00:00",
+  "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0xf4d2d4c89e29cd11472d5b86f013cb0995952b96099ced35eb91a03e99fbb5cf",
+  "focus": null,
+  "votes_count": 2042,
+  "timeline_metrics_current": {
+    "unique_voters": 2042,
+    "total_votes": 2042,
+    "first_vote_at": "2022-06-24T14:35:45Z",
+    "last_vote_at": "2022-06-30T15:53:06Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        1273.1240250369196,
+        266.32206143848674
+      ],
+      [
+        292.9836624796814,
+        0.3324639954710343
+      ],
+      [
+        29136.056431360248,
+        1.1205136317934044
+      ],
+      [
+        175650.7936168485,
+        1.5120072175458243
+      ]
+    ],
+    "spike_index": 0.485064,
+    "spike_follow_support_ratio": 1.0,
+    "stairwise_ratio": 0.000401,
+    "half_slope_diff": 0.762052
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0xb4886ff25f454773a779be3627863181ec7dbe1fb6b6e631678610dbe3f03a88",
+      "title": "Request for Approval. Bounty on fallback oracle misconfiguration",
+      "author": "0xf71fc92e2949ccF6A5Fd369a0b402ba80Bc61E02",
+      "end_utc": "2022-06-19T10:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 1559,
+        "total_votes": 1559,
+        "first_vote_at": "2022-06-14T13:54:39Z",
+        "last_vote_at": "2022-06-19T09:41:00Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1448.818899625845,
+            1.535441236264835
+          ],
+          [
+            571.3305896028376,
+            0.0
+          ],
+          [
+            249.38834213675042,
+            0.14504529760302054
+          ],
+          [
+            10053.185149337682,
+            33.26128938430085
+          ]
+        ],
+        "spike_index": 0.811509,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.004793,
+        "half_slope_diff": -0.067891
+      },
+      "price_impact_pct": 11.9459,
+      "tvl_impact_pct": 2.6248,
+      "similarity": 0.125,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes",
+        "margin_abs": 12287.781204784871,
+        "scores_total": 12357.66475662121,
+        "margin_pct": 0.9943449225065848
+      }
+    }
+  ],
+  "similar_proposals_data": [],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0xf4d2d4c89e29cd11472d5b86f013cb0995952b96099ced35eb91a03e99fbb5cf",
+    "selected_choice_label": "Yes",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "The proposal to approve Sigma Prime security assessment services for Aave received overwhelming support with strong early and sustained voting lead for 'Yes'. The community forum sentiment is predominantly positive, emphasizing the importance of security and Sigma Prime's proven track record with Aave. Historical adjacent proposals with similar unanimous support have led to positive outcomes. The recommendation is to approve the proposal to enhance Aave's security posture.",
+    "key_arguments_for": [
+      "Sigma Prime has a long-standing successful relationship with Aave and deep familiarity with its protocols.",
+      "The proposal ensures ongoing high-quality security assessments covering critical upgrades like the v2 to v3 migration.",
+      "Community and key contributors express strong support for the proposal highlighting security as a top priority.",
+      "Flexible engagement terms with optional testing windows provide adaptability to Aave's evolving needs."
+    ],
+    "key_arguments_against": [
+      "Some dissenting voices consider the annual security budget excessive and question the effectiveness of audits on on-chain smart contracts.",
+      "Concerns that security firms cannot prevent exploits if bugs are already on-chain."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://governance.aave.com/t/sigma-prime-security-assessment-services-for-aave/8518",
+        "quote": "Strong community support including endorsements from BGD Labs, Aave leadership, and multiple contributors emphasizing Sigma Prime's expertise and the critical importance of security."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Snapshot voting timeline",
+        "quote": "Unanimous lead for 'Yes' option throughout voting period with early voting dominance and stable support."
+      },
+      {
+        "source_tool": "registry_lookup",
+        "reference": "aavedao.eth",
+        "quote": "Governance token address 0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9 confirmed."
+      }
+    ],
+    "available_choices": [
+      "Yes",
+      "No"
+    ],
+    "event_start_utc": "2022-06-24T14:33:24Z",
+    "event_end_utc": "2022-06-30T16:00:00Z",
+    "event_time_utc": "2022-06-30T16:00:00Z",
+    "address_of_governance_token": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+    "token_price_impact_pct": -7.3772,
+    "tvl_impact_pct": -5.0846,
+    "actual_vote_result": {
+      "winner_label": "Yes",
+      "winner_index": 0,
+      "scores": [
+        206352.95773572545,
+        269.28704628329706
+      ],
+      "scores_total": 206622.24478200873,
+      "margin_abs": 206083.67068944214,
+      "margin_pct": 0.997393
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- The proposal enjoys overwhelming voting and forum support reflecting the community's prioritization of security.\n- Historical similar proposals with unanimous support have resulted in positive security outcomes.\n- Despite some dissent on budget size, the flexible engagement and Sigma Prime's expertise justify the investment.\n- Forum sentiment aligns with the recommendation, indicating the vote reflects community views.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0xb4886ff25f454773a779be3627863181ec7dbe1fb6b6e631678610dbe3f03a88",
+        "title": "Request for Approval. Bounty on fallback oracle misconfiguration",
+        "end_utc": "2022-06-19T10:00:00Z",
+        "summary": "Request for Approval. Bounty on fallback oracle misconfiguration closed on 2022-06-19T10:00:00Z. Timeline analytics noted 1559 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.12)",
+        "market_response": "token +11.95%; TVL +2.62%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -7.3772,
+    "ex_post_tvl_impact_pct": -5.0846,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -7.38%; TVL -5.08%"
+  },
+  "agentic_ai_choice": "Yes",
+  "actual_outcome": "Yes",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 2,
+    "Positive": 6,
+    "Neutral": 1,
+    "total_comments": 9
+  }
+}

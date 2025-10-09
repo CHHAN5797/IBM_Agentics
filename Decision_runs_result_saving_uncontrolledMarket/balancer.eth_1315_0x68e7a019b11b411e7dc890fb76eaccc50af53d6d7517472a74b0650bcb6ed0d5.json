@@ -1,0 +1,1147 @@
+{
+  "captured_at_utc": "2025-10-09T03:29:45.748314+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x68e7a019b11b411e7dc890fb76eaccc50af53d6d7517472a74b0650bcb6ed0d5",
+  "focus": null,
+  "votes_count": 11,
+  "timeline_metrics_current": {
+    "unique_voters": 11,
+    "total_votes": 11,
+    "first_vote_at": "2024-06-21T05:15:42Z",
+    "last_vote_at": "2024-06-24T08:07:07Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        0.3822633448194199,
+        0.0,
+        0.0
+      ],
+      [
+        276012.39662282664,
+        0.0,
+        0.0
+      ],
+      [
+        0.8918417233852212,
+        0.0,
+        0.0
+      ],
+      [
+        2458151.4579088376,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.829596,
+    "spike_follow_support_ratio": 0.0,
+    "stairwise_ratio": 0.170404,
+    "half_slope_diff": 5531.447057
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x0d9c701622948ddaa19f1183da4491d45e3c93b47d7118660887f269a05b305c",
+      "title": "[BIP-625] Enable gauge for WETH/rETH on [Gnosis]",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2024-06-17T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 17,
+        "total_votes": 17,
+        "first_vote_at": "2024-06-14T00:35:08Z",
+        "last_vote_at": "2024-06-17T14:49:56Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            6.786320088613784,
+            0.0,
+            0.0
+          ],
+          [
+            281009.6994116045,
+            0.0,
+            0.0
+          ],
+          [
+            129183.80493904768,
+            0.0,
+            0.0
+          ],
+          [
+            2307805.612283341,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.84908,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.15092,
+        "half_slope_diff": 12.878166
+      },
+      "price_impact_pct": -6.4007,
+      "tvl_impact_pct": -5.2305,
+      "similarity": 0.1792,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2718005.9029540815,
+        "scores_total": 2718005.9029540815,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0xbd5413de453ab0869895f4d09b2b9e58b6d06dc08fb89b429de135f5c2b0a3af",
+      "title": "[BIP-624] Enable rsETH / WETH Gauge (Arbitrum)",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2024-06-17T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 15,
+        "total_votes": 15,
+        "first_vote_at": "2024-06-14T00:34:52Z",
+        "last_vote_at": "2024-06-17T14:54:00Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            6.796486622211351,
+            0.0,
+            0.0
+          ],
+          [
+            281388.832370018,
+            0.0,
+            0.0
+          ],
+          [
+            6209.654546849197,
+            0.0,
+            0.0
+          ],
+          [
+            2307629.7080509346,
+            0.0,
+            0.10129413391584421
+          ]
+        ],
+        "spike_index": 0.889179,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.110821,
+        "half_slope_diff": 15.772607
+      },
+      "price_impact_pct": -6.4007,
+      "tvl_impact_pct": -5.2305,
+      "similarity": 0.1736,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2595234.8901602905,
+        "scores_total": 2595235.092748558,
+        "margin_pct": 0.9999999219383754
+      }
+    },
+    {
+      "id": "0xe23479d7b207e5f025a40ace92c3b89c4a3292dd832f4b2d63535f39d72af515",
+      "title": "[BIP-623] Enable gauge for weETH / wstETH E-CLP (Arbitrum)",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2024-06-17T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 15,
+        "total_votes": 15,
+        "first_vote_at": "2024-06-14T00:34:33Z",
+        "last_vote_at": "2024-06-17T14:57:50Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            6.796809184248275,
+            0.0,
+            0.0
+          ],
+          [
+            281400.8614355946,
+            0.0,
+            0.0
+          ],
+          [
+            6209.853229468223,
+            0.0,
+            0.0
+          ],
+          [
+            2307632.8103543324,
+            0.0,
+            0.10129776337001205
+          ]
+        ],
+        "spike_index": 0.889175,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.110825,
+        "half_slope_diff": 15.773779
+      },
+      "price_impact_pct": -6.4007,
+      "tvl_impact_pct": -5.2305,
+      "similarity": 0.1757,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2595250.220530817,
+        "scores_total": 2595250.423126343,
+        "margin_pct": 0.9999999219360396
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x24d7a10765966e955fba88fc218f8684539456e67c7500099014e053614eda85",
+      "cleaned": {
+        "proposal_id": "0x24d7a10765966e955fba88fc218f8684539456e67c7500099014e053614eda85",
+        "title": "[BIP-505] Enable 40DFX-20USDC-40TEL Gauge with 2% emissions cap",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-12-18T19:00:00Z",
+        "similarity_score": 0.1953,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 4404747.791317789,
+        "margin_pct": 0.9997292618038759,
+        "scores_total": 4405940.647740988,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 31,
+        "total_votes": 31,
+        "first_vote_at": "2023-12-15T07:00:48Z",
+        "last_vote_at": "2023-12-18T16:24:14Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.790040348883484,
+            0.0,
+            0.0
+          ],
+          [
+            236297.04097756537,
+            0.0,
+            0.0
+          ],
+          [
+            1301.9340069742632,
+            0.0,
+            596.4282115991433
+          ],
+          [
+            4167744.4545045015,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.79953,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.064925,
+        "half_slope_diff": 120.248399
+      },
+      "raw": {
+        "id": "0x24d7a10765966e955fba88fc218f8684539456e67c7500099014e053614eda85",
+        "title": "[BIP-505] Enable 40DFX-20USDC-40TEL Gauge with 2% emissions cap",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/681\n\n**Summary:**\nDFX Finance’s proposal to add a gauge for the 40DFX-20USDC-40TEL - Polygon\n\n**References/Useful links:**\nLink to:\nWebsite: [Main Website](https://dfx.finance/), [dApp](https://app.dfx.finance/)\n\n• Documentation: [Gitbook](https://docs.dfx.finance/), [Medium](https://medium.com/@dfxfinance)\n\n• Github Page: [Github](https://github.com/dfx-finance)\n\n**Protocol Description:**\n\nDFX Finance is a decentralized foreign exchange (FX) protocol that facilitates the seamless exchange of fiat-backed stablecoins denominated in a growing number of currencies. Using a hyper-efficient AMM, optimized for low volatility trading, DFX provides FX swaps with rates that will beat any bank, money changer, or FX platform. DFX is the governance token of DFX Finance which allows users to vote on protocol changes and initiatives of the DAO, and also allows users to receive boosted emissions on deposits within the DFX ecosystem.\n\n**Price History DFX:**\n\nPrice History for DFX can be found on [Coingecko](https://www.coingecko.com/en/coins/dfx-finance)\n\n**Motivation:**\n\nThe DFX token on L2s such as Arbitrum and Polygon is migrating from a bridged token to a Chainlink CCIP token. As well, DFX Finance is committed to continue to engage in the Hiddenhand Finance ecosystem in a meaningful way to further deepen DFX liquidity onchain.\n\n**Specifications:**\n\n1. Governance: DFX tokens serve as the governance token for the DFX Finance protocol. DFX token holders can vote on governance proposals through DFX’s snapshot. DFX forum is also used to discuss potential protocol changes and improvements.\n2. Oracles: DFX token does not rely on any external oracles. The DFX stablecoin pools uses Chainlink for its real world forex price feeds to facilitate efficient stablecoin swaps close to the spot price. The feeds can be found here: [Decentralized Price Reference Data | Chainlink](https://data.chain.link/ethereum/mainnet/fiat)\n3. Audits: DFX has engaged with multiple auditors including engagements with Trail of Bits, Haechi, and Zellic to audit the DFX smart contracts.\n4. Centralization vectors: Treasury functions are controlled by a 2/4 multisig including treasury yield farming, and paying bribes.\n5. Market History: DFX has been transferable since March 2021.\n6. Value: This pool will be the primary source of liquidity for DFX on Arbitrum and Polygon\n\n**40DFX-20USDC-40TEL - Polygon**\nPool: [0xc260f3c5a57caf193d1813d8fd0a02442073d6fa](https://polygonscan.com/address/0xc260f3c5a57caf193d1813d8fd0a02442073d6fa)\nGauge: [0x15639b2F9159DFD4ACF8eCf56222421ead906826](https://polygonscan.com/address/0x15639b2F9159DFD4ACF8eCf56222421ead906826)\nRoot Gauge: [0xe9b5f4d892Df284a15Ec90A58bd4385E57964f18](https://etherscan.io/address/0xe9b5f4d892Df284a15Ec90A58bd4385E57964f18)\n\n**Specification**:\n\nThe Balancer Maxi LM Multisig eth:`0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function with the following arguments:\ngauge(address): `0xe9b5f4d892Df284a15Ec90A58bd4385E57964f18`\ngaugeType(string): `Polygon`",
+        "end_utc": "2023-12-18T19:00:00Z",
+        "similarity_score": 0.1953,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            4405344.2195293885,
+            0,
+            596.4282115991432
+          ],
+          "scores_total": 4405940.647740988,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-12-18T19:00:00",
+          "pre_tvl_avg": 934201277.5,
+          "post_tvl_avg": 902080057.5,
+          "abnormal_change": -3.4384,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.034384,
+          "abnormal_change_pct": -3.4384
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-12-18T19:00:00",
+          "pre_price_avg": 3.95226796,
+          "post_price_avg": 3.9702763,
+          "abnormal_change": 0.4556,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.004556,
+          "abnormal_change_pct": 0.4556
+        }
+      }
+    },
+    {
+      "proposal_id": "0x35bd58c3d039dc32995c53c745128703101e502b60c52482b8600e061a9cd8cf",
+      "cleaned": {
+        "proposal_id": "0x35bd58c3d039dc32995c53c745128703101e502b60c52482b8600e061a9cd8cf",
+        "title": "[BIP-523] Enable LUMIN/rETH Gauge with 2% emissions cap [Arbitrum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2024-01-01T19:00:00Z",
+        "similarity_score": 0.1942,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3888186.36562077,
+        "margin_pct": 0.9997783590173137,
+        "scores_total": 3889048.3381161448,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 28,
+        "total_votes": 28,
+        "first_vote_at": "2023-12-28T19:16:38Z",
+        "last_vote_at": "2024-01-01T10:24:25Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.769231,
+            0.230769,
+            0.0
+          ],
+          [
+            0.333333,
+            0.666667,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.75,
+          0.25,
+          0.0
+        ],
+        "stability": [
+          0.75,
+          0.25,
+          0.0
+        ],
+        "early_ratio": [
+          0.7692307692307693,
+          0.23076923076923078,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.32508970097039613,
+            571.8385624527099,
+            0.760761709294867
+          ],
+          [
+            1.9654573564160431,
+            0.9336668173193902,
+            0.73984244051972
+          ],
+          [
+            361286.7385772519,
+            0.0,
+            0.023009736494208892
+          ],
+          [
+            3527185.013148679,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.907087,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.092913,
+        "half_slope_diff": 1850.251212
+      },
+      "raw": {
+        "id": "0x35bd58c3d039dc32995c53c745128703101e502b60c52482b8600e061a9cd8cf",
+        "title": "[BIP-523] Enable LUMIN/rETH Gauge with 2% emissions cap [Arbitrum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/714\n\n## Summary:\n\nLumin Finance proposal to add a gauge for the LUMIN/rETH 80/20 pool on Arbitrum.\n\n## References/Useful links:\n\nLink to:\n\n• Website: [Lumin Finance](https://lumin.finance)\n\n• Documentation: [Docs](https://docs.lumin.finance), [Medium](https://medium.com/@lumin.finance)\n\n• Github Page: [Github](https://github.com/bull-haus/lumin-contracts) (private until release, private access granted on request)\n\n## Protocol Description:\n\nLumin Finance is a decentralized peer-to-peer fixed rate lending and borrowing protocol. Launching on the Arbitrum Blockchain, powered by the $LUMIN token. Unlike most DeFi lending protocols, the lender, borrower and staker in the protocol are rewarded for their participation, in a way that will (eventually) be administered by a DAO.\n\nLumin Finance offers some unique aspects with our platform, including fee sharing, buyback-and-distribute (BBD) and buyback-and-burn (BBB). These mechanisms create a powerful circulation flow and a deflationary supply for the LUMIN token.\n\n## Motivation:\n\nBalancer 80/20 pools are a very capital-efficient way to scale liquidity, while incentives are helpful to bootstrap liquidity. Lumin Finance sees the Balancer 80/20 pool as a perfect fit for the LUMIN token, and as the goal is to turn the pool LP token into the Protocol’s governance/staking token, Lumin Finance's objective with the pool incentivization is to reward LUMIN token holders that decide to become LPs, boosting their returns. Lumin Finance will incentivize the pool through Hidden Hand voting incentive markets.\n\n## Specifications:\n\n### Governance:\n\nLumin tokens serve as the governance token for the Lumin Finance protocol. Lumin token holders can vote on governance proposals through Lumin Finance’s Snapshot. There is a plan to move to a DAO setup after launch.\n\n### Oracles:\n\nThe LUMIN token does not rely on any external oracles. Lumin Finance protocol uses so-called \"price feed proxies\" for reading asset values, with which loans and collateral valuation is determined. Lenders define which price feed proxies they accept for a given asset, borrowers choose one price feed proxy for each asset upon creating the loan.\n\nThese proxies cannot be changed for the duration of the loan, so it is impossible to switch between e.g. Chainlink and DIA for a specific asset used in the loan.\n\nPrice feed proxies are upgradeable contracts, but it is impossible to change the address of a given price feed proxy.\n\nThe price feed proxy for Chainlink has been audited by Krum Pashov.\n\nFinding M-03 relates to the Chainlink price feed oracle: https://github.com/pashov/audits/blob/master/solo/pdf/Lumin-security-review.pdf\n\nThis finding has been partially resolved, with the justification for not resolving the finding regarding stale prices documented here: https://medium.com/@lumin.finance/lumin-finance-smart-contract-audit-commented-results-e17c9b0fa1ea\n\n### Audits:\n\nA security audit of the lending and borrowing scope has been performed by Krum Pashov. The audit report can be found here: https://github.com/pashov/audits/blob/master/solo/pdf/Lumin-security-review.pdf . Lumin has commented these findings here: https://github.com/pashov/audits/blob/master/solo/pdf/Lumin-security-review.pdf\n\nAudits are planned for each additional DeFi-related scope (see e.g. \"Oracles\"). A final audit over the full scope is planned when the project has implemented the full roadmap, before management will be handed over to the DAO.\n\n\n### Centralization vectors:\n\nAccess to lumin contracts are managed by an Access Manager. https://docs.openzeppelin.com/contracts/5.x/api/access#AccessManager\n\nThe following roles are defined:\n\n- LUMIN_ADMIN_ROLE: For administration of the contracts (upgrade, pause and unpause).\n\n- ASSET_ADMIN_ROLE: For adding newly supported assets and price feeds, plus enabling / disabling assets when irregularities are noticed.\n\n- LOAN_MANAGER_ROLE: For managing asset holdings. This role is only given to the Loan Manager contract of Lumin, and is not controlled by a person or team.\n\nAny protocol user can perform liquidations.\n\n### Market History:\n\nNo history for LUMIN tokens, as it is a new launch. The Balancer pool was seeded on launch, as it will be the primary liquidity pool for the LUMIN token.\n\n### Value:\n\nThis pool will be the primary source of liquidity for LUMIN on Arbitrum, and the 80/20 setup was chosen for governance as part of a future protocol upgrade.\n\nPool: [0x39a5BfD5FE32026CD93D81859B4b38CEA78D8220](https://app.balancer.fi/#/arbitrum/pool/0x39a5bfd5fe32026cd93d81859b4b38cea78d82200002000000000000000004e0)\nGauge w 2% Cap: [0x8F44a8Cfb7FE682295Fa663348060533732F437C](https://etherscan.io/address/0x8F44a8Cfb7FE682295Fa663348060533732F437C#code)\n\nSpecification: \n\nThe Balancer Maxi LM Multisig eth:`0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function with the following arguments:\ngauge(address): `0x8F44a8Cfb7FE682295Fa663348060533732F437C`\ngaugeType(string): `Arbitrum`",
+        "end_utc": "2024-01-01T19:00:00Z",
+        "similarity_score": 0.1942,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3888473.903602557,
+            286.8965318010951,
+            287.5379817868256
+          ],
+          "scores_total": 3889048.3381161448,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-01-01T19:00:00",
+          "pre_tvl_avg": 944875900.0,
+          "post_tvl_avg": 953282441.0,
+          "abnormal_change": 0.8897,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.008897,
+          "abnormal_change_pct": 0.8897
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-01-01T19:00:00",
+          "pre_price_avg": 4.270062055,
+          "post_price_avg": 4.14261357,
+          "abnormal_change": -2.9847,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.029847,
+          "abnormal_change_pct": -2.9847
+        }
+      }
+    },
+    {
+      "proposal_id": "0x9b1c5eede3ddabbc0a606143dbbb9a4bef947cab82df9432a06b54c68dd29385",
+      "cleaned": {
+        "proposal_id": "0x9b1c5eede3ddabbc0a606143dbbb9a4bef947cab82df9432a06b54c68dd29385",
+        "title": "[BIP-563] Enable SYNO/wETH 80/20 Gauge [Arbitrum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2024-03-25T19:00:00Z",
+        "similarity_score": 0.1931,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3427758.3366482435,
+        "margin_pct": 0.9996666665270562,
+        "scores_total": 3428901.3042283636,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 24,
+        "total_votes": 24,
+        "first_vote_at": "2024-03-21T21:11:03Z",
+        "last_vote_at": "2024-03-25T12:47:55Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1269.222761079285,
+            0.0,
+            0.0
+          ],
+          [
+            161478.46839673707,
+            0.0,
+            0.0
+          ],
+          [
+            379350.13122267864,
+            0.0,
+            0.0
+          ],
+          [
+            2886231.998057809,
+            0.0,
+            571.483790059951
+          ]
+        ],
+        "spike_index": 0.764861,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.124605,
+        "half_slope_diff": 136.774316
+      },
+      "raw": {
+        "id": "0x9b1c5eede3ddabbc0a606143dbbb9a4bef947cab82df9432a06b54c68dd29385",
+        "title": "[BIP-563] Enable SYNO/wETH 80/20 Gauge [Arbitrum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/846\n\n**Summary:**\n> This is a proposal to enable Balancer Gauge for SYNO/wETH 80/20 pool on Arbitrum.\nSynonym Finance launched in February of 2024, achieved a TVL in the protocol of $10M+ and achieved a liquidity of $1M+ in the governance token pool 80SYNO-20WETH on Balancer on Arbitrum. SYNO serves as a governance token for Synonym Finance. Much like many protocols in the DeFI space, providing liquidity on Balancer and locking it on the Synonym Dapp provides users with a boost towards emissions as well as share of fees. WIth the introduction of the Gauge, BAL/AURA emissions will now further fuel the incentive for liquidity provision, amplifying the pool’s attractiveness and increasing the size of the pool even further. \n\n\n**References/Useful links:**\n\n> Link to:\nWebsite: https://www.synonym.finance/\nDocumentation: Docs: https://synonym-finance.gitbook.io/synonym-finance/documentation/overview \nGithub Page: https://github.com/SynonymFinance\nTwitter: https://twitter.com/synonymfinance\nDiscord: https://discord.com/invite/synonymfinance\n\n\n**Protocol Description:**\n\n> Synonym Finance is a universal cross-chain money market built for busy DeFi Professionals. Users can lend, borrow and earn rewards across multiple chains without leaving our unified UI. Synonym is a truly cross-chain application powered by the Wormhole xChain technology stack and further enhanced by Circle CCTP. The goal of Synonym is to unify and take advantage of the liquidity fragmented across various chains. Synonym Finance launched on Arbitrum, Ethereum and Optimism Chains. \n\n\n**Motivation:**\n\n> SYNO/wETH pool is highly important to Synonym as this pool is intended to be the primary source of liquidity on Arbitrum. Additionally, users are incentivized to provide liquidity into this pool as they will be eligible for a boost towards $SYNO emissions as well as share of the revenue. This kicks off a flow where users get emissions - lock liquidity and get even more emissions. The proposed gauge will give the chance to incentivize even higher rewards for the pool, thus increasing the liquidity of SYNO token.\nThe current sustainable yield for providing liquidity to the pool is around 15%. We expect to significantly increase the APR with enabling Balancer Gauge, via Aura in future. After that, the pool would naturally grow and attract even further user base into the ecosystem. Additionally, we expect to facilitate even further incentivization with Aura or alternatively Hidden Hand, our partners through a connection via Redacted Finance.\n\n\n**Specifications:**\n \n1. **Governance:** Synonym Finance governance’s structure is provided [here](https://synonym-finance.gitbook.io/synonym-finance/documentation/governance).   \n\n2. **Oracles:** Synonym Finance relies on Pyth Price Oracles.\n\n\n3. **Audits:** Synonym Finance has been audited twice: by Runtime Verification and Ottersec. You can find audits [here](https://synonym-finance.gitbook.io/developer-docs/audits).\n\n4. **Centralization vectors:** Due to our experience in the space, our governance is set in a decentralized manner and we are further looking to decentralize it even further. Forum - [here](https://forum.synonym.finance/overview). Due to the recent launch, the governance process is yet to be kicked off. The DAO is governed by the multisigs on Arbitrum and Ethereum. The smart contracts are verified, and any community member may propose changes or Improvements. There have already been proposals from the active members of the community. All contracts are available in the docs and are easily observed by members of the community.\n\n5. **Market History:** Synonym Finance launched on 6th of February 2024. We have launched after a merger with New Order DAO and an additional raise of $1.5M from investors led by Borderless Capital. We have reached a TVL of $13M and now are expanding into new assets & chains. $SYNO has launched on the same date. Coingecko [link](https://www.coingecko.com/en/coins/synonym-finance). Pool link: https://app.balancer.fi/#/arbitrum/pool/0xeb3e64ad9314d20bf943ac72fb69f272603f9cce0002000000000000000004f5\n \n6. **Value:** The SYNO/wETH pool would be the primary source of liquidity for SYNO governance token. In addition, the Synonym DAO sees a huge value of this gauge in growing the total liquidity locked in the pool to $10M+.\n\nChild chain gauge: [0x26634a2B85831D9916D01Fa6c2489F9c5720600a](https://arbiscan.io/address/0x26634a2B85831D9916D01Fa6c2489F9c5720600a#readContract)\nRoot gauge w/ 2% cap: [0xB9bB09ADCBcaE06F580DA494EE6987dbB083b45f](https://etherscan.io/address/0xB9bB09ADCBcaE06F580DA494EE6987dbB083b45f#code)\n\n### Specification\n\nTransaction: The Balancer Maxi LM Multisig `eth:0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the `addGauge` function with the following arguments:\n\ngauge(address): `0xB9bB09ADCBcaE06F580DA494EE6987dbB083b45f`\n\ngaugeType(string): `Arbitrum`",
+        "end_utc": "2024-03-25T19:00:00Z",
+        "similarity_score": 0.1931,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3428329.8204383035,
+            0,
+            571.483790059951
+          ],
+          "scores_total": 3428901.3042283636,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-03-25T19:00:00",
+          "pre_tvl_avg": 1218663368.5,
+          "post_tvl_avg": 1279867832.5,
+          "abnormal_change": 5.0223,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.050223,
+          "abnormal_change_pct": 5.0223
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-03-25T19:00:00",
+          "pre_price_avg": 4.81569115,
+          "post_price_avg": 5.133736955,
+          "abnormal_change": 6.6044,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.066044,
+          "abnormal_change_pct": 6.6044
+        }
+      }
+    },
+    {
+      "proposal_id": "0xa04a9b7fc0b37a54943ab48ebbf906aca5c3acfb1fd05e1b08118fe637deed5c",
+      "cleaned": {
+        "proposal_id": "0xa04a9b7fc0b37a54943ab48ebbf906aca5c3acfb1fd05e1b08118fe637deed5c",
+        "title": "[BIP-490] Enable 80OETH-20WETH Gauge [Ethereum] with a 2% emission cap",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-11-27T19:00:00Z",
+        "similarity_score": 0.1917,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 4076353.0268706037,
+        "margin_pct": 0.9996891766016112,
+        "scores_total": 4077620.4467151915,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 48,
+        "total_votes": 48,
+        "first_vote_at": "2023-11-23T23:37:35Z",
+        "last_vote_at": "2023-11-27T15:54:51Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            260345.7529026674,
+            0.006331370293565667,
+            0.0
+          ],
+          [
+            1048.7670718525947,
+            0.0,
+            633.706756609031
+          ],
+          [
+            1.6447794916680465,
+            0.0,
+            0.0
+          ],
+          [
+            3815590.568873201,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.84726,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.000259,
+        "half_slope_diff": 24.611435
+      },
+      "raw": {
+        "id": "0xa04a9b7fc0b37a54943ab48ebbf906aca5c3acfb1fd05e1b08118fe637deed5c",
+        "title": "[BIP-490] Enable 80OETH-20WETH Gauge [Ethereum] with a 2% emission cap",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/642\n\n **Summary:**\n\nWe propose the introduction of a gauge for the OETH/WETH pool on Ethereum. This initiative aims to foster greater liquidity and facilitate smoother transactions for users. By enabling this gauge, we anticipate enhancing the yield-generating opportunities for both the Balancer community and Origin Ether users. Origin has already brought over 8,443 rETH and ETH to the Balancer ecosystem and this gauge will encourage Origin to bring more.\n\n**References/Useful links:**\n\n\n\n• Website: https://oeth.com\n• Documentation: https://docs.oeth.com\n• Github: [https://github.com/originprotocol](https://github.com/originprotocol)\n\n• Communities:\n* Twitter: [https://twitter.com/OriginProtocol](https://twitter.com/OriginProtocol)\n* Medium: [https://blog.originprotocol.com/](https://blog.originprotocol.com/)\n* Defillama: [https://defillama.com/protocol/origin-ether](https://defillama.com/protocol/origin-ether)\n\n**Protocol Description:**\n\n[Origin Ether](https://www.oeth.com/) was launched in May 2023 and is an ERC20 LST aggregator that generates yield while sitting in your wallet by tapping into blue-chip protocols. OETH is backed 1:1 by ETH, WETH, stETH, rETH, and frxETH at all times; holders can go in and out of OETH as they please. Similar to stETH, OETH yield is automatically distributed at least once a day through a positive rebase in the form of additional OETH, proportional to the amount of OETH held.\n\nOETH yield comes from a combination of:\n\n1. Deploying collateral across various DeFi strategies including Balancer pools\n2. LST validator rewards\n3. A 50bip exit fee is charged to those who choose to exit OETH via the [vault contract](https://app.oeth.com/) (completely avoidable if using a DEX), this fee goes back to OETH holders\n4. By default, OETH sitting in smart contracts does not rebase, instead the interest generated from those tokens is provided to those that can rebase\n\nThese 4 yield generating functions combined enable OETH to generate higher yields than holding any single LST or farming ETH manually. The current collateral allocation and yield strategies can be seen on-chain at all times via the [OETH analytics page](https://www.oeth.com/analytics). More information on OETH and its mechanics can be found in the [OETH docs](https://docs.oeth.com/).\n\n**Motivation:**\n\nThe Balancer team has deployed the new OETH pool for us, [80OETH/20WETH](https://app.balancer.fi/#/1/pool/0x7056c8dfa8182859ed0d4fb0ef0886fdf3d2edcf000200000000000000000623), and 50 ETH of liquidity has already been [deposited](https://etherscan.io/tx/0x0d82b3357ffee2c3773f690a9fbd0c5c5930507e95e654390d225727d71b0d38). We chose to use an 80/20 pool since Origin is the largest LP and we are holding most of our capital in OETH.\n\nUp to a $13M deposit into the rETH Balancer pool has already [passed ratification](https://snapshot.org/#/ousdgov.eth/proposal/0x2ab3fd8727a268e3c0d14d9efa0ea19a2b6916415a47e7f816a5c328474342a9) in the Origin DAO and [has been allocated](https://etherscan.io/address/0x49109629ac1deb03f2e9b2fe2ac4a623e0e7dfdc#tokentxns) to the OETH Balancer strategy - a total deposit of 8,436.84 ETH, now worth over $17M. Two additional Balancer strategies have also already [passed ratification](https://vote.ousd.com/#/proposal/0x6948818628ecb112f8eacd13ea81e3c321464920f6ef34ef75f6e3f43e2cd375) in the DAO.\n\nOrigin has spent over [$8.5M on incentives](https://llama.airforce/#/bribes/rounds) in the Curve/Convex ecosystem and would like to similarly provide incentives to liquidity providers on Balancer. Origin’s Treasury is also holding several million dollars worth of CVX. Origin’s Treasury team is currently evaluating whether or not to make a similar investment in the Balancer ecosystem.\n\n**Specifications:**\n\n1. **Governance:** Origin Ether is governed by veOGV holders with any upgrades to the contracts being delayed by a 48-hour timelock. More details can be found at https://www.ousd.com/governance and in the [governance section](https://docs.oeth.com/governance/overview) of the OETH docs.\n\n2. **Oracles:** OETH is using Chainlink oracles for pricing data for rETH and stETH, and a dual oracle for frxETH that combines two sources: the Curve frxETH/ETH EMA oracle and the Uniswap frxETH/FRAX TWAP oracle. Please see the [oracle section](https://docs.oeth.com/core-concepts/price-oracles) of the OETH docs for more information.\n\n3. **Audits:** OETH was built reusing 95% of the [OUSD](https://ousd.com/) codebase, of which 10+ audits have been done since 2020. There have also been several OETH-specific audits. All audits can be seen in the [audits section](https://docs.oeth.com/security-and-risks/audits) of the OETH docs. OpenZeppelin is now on retainer to review 100% of OETH smart contract changes.\n\n4. **Centralization vectors:** With limited functionality, the [Strategists](https://docs.oeth.com/governance/admin-privileges) are tasked with rebalancing collateral between strategies or pausing deposits. However, a 48-hour timelock enforces a wait period before any changes to the OETH contracts can be executed. The timelock is the owner of our [ERC-20](https://docs.oeth.com/smart-contracts/architecture), [Vault](https://docs.oeth.com/smart-contracts/api/vault), and [Strategies](https://docs.oeth.com/smart-contracts/api/strategies) contracts. OETH currently accepts LSTs issued by Lido, RocketPool, and Frax which each have their own centralization risks.\n\n5. **Market History:** OETH currently has millions in total liquidity across [Curve](https://curve.fi/#/ethereum/pools/factory-v2-298/deposit), [Uniswap](https://info.uniswap.org/#/pools/0x52299416c469843f4e0d54688099966a6c7d720f), and [Maverick](https://app.mav.xyz/pool/0xa51822839bfa4685b27ad60305264a37eae28a68?chain=1).\n\n- Link to pool: [80OETH/20WETH](https://app.balancer.fi/#/1/pool/0x7056c8dfa8182859ed0d4fb0ef0886fdf3d2edcf000200000000000000000623)\n\n - Link to gauge: [80OETH/20WETH Gauge](https://etherscan.io/address/0x1c9E55ae29541F2D29cDf83a38F53e1143Db278E)\n\n6. **Value:** The OETH/WETH pool is intended to be a core OETH liquidity pool. Origin has already allocated a portion of its incentives budget to bribe this pool, and Balancer will benefit by attracting additional OETH liquidity.\n\nThe Balancer Maxi LM Multisig eth: 0xc38c5f97B34E175FFd35407fc91a937300E33860 will interact with the GaugeAdderv4 at 0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd and call the addGauge function with the following arguments:\n\n- gauge(address): 0x1c9E55ae29541F2D29cDf83a38F53e1143Db278E\n- gaugeType(string): Ethereum",
+        "end_utc": "2023-11-27T19:00:00Z",
+        "similarity_score": 0.1917,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            4076986.7336272127,
+            0.006331370293565667,
+            633.706756609031
+          ],
+          "scores_total": 4077620.4467151915,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-11-27T19:00:00",
+          "pre_tvl_avg": 869826761.0,
+          "post_tvl_avg": 837224491.0,
+          "abnormal_change": -3.7481,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.037481,
+          "abnormal_change_pct": -3.7481
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-11-27T19:00:00",
+          "pre_price_avg": 3.810750285,
+          "post_price_avg": 3.65660173,
+          "abnormal_change": -4.0451,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.040451,
+          "abnormal_change_pct": -4.0451
+        }
+      }
+    },
+    {
+      "proposal_id": "0x94dc131e58a6dc7d189ed46d4184b36b487c7b7b4742c4a2fb61ad27383fad0d",
+      "cleaned": {
+        "proposal_id": "0x94dc131e58a6dc7d189ed46d4184b36b487c7b7b4742c4a2fb61ad27383fad0d",
+        "title": "[BIP-411] Enable GHO/USDT/USDC Gauge [Ethereum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-09-04T18:00:00Z",
+        "similarity_score": 0.1913,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3319553.480706311,
+        "margin_pct": 0.9999999981320928,
+        "scores_total": 3319553.4869069285,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 51,
+        "total_votes": 51,
+        "first_vote_at": "2023-08-31T18:22:35Z",
+        "last_vote_at": "2023-09-04T16:14:29Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1032.9479376948645,
+            0.0,
+            0.0
+          ],
+          [
+            1218.3091091096655,
+            0.0,
+            0.0
+          ],
+          [
+            86857.95065498653,
+            0.0,
+            0.0
+          ],
+          [
+            3230444.2792051374,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.951517,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.000144,
+        "half_slope_diff": 27.714303
+      },
+      "raw": {
+        "id": "0x94dc131e58a6dc7d189ed46d4184b36b487c7b7b4742c4a2fb61ad27383fad0d",
+        "title": "[BIP-411] Enable GHO/USDT/USDC Gauge [Ethereum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "Payload with PR:\n\nhttps://github.com/BalancerMaxis/multisig-ops/pull/484\n\n**Summary:**\n\n>This pool uses the ComposableStablePoolFactory-v5 which addresses the [reentrancy vulnerability](https://forum.balancer.fi/t/reentrancy-vulnerability-scope-expanded/4345) disclosed during February 2023. This pool is to be uncapped.\n>\n>This proposal is for the creation of a new 3pool, GHO / USDT / USDC, on Ethereum.\n>\n**References/Useful links:**\n\n>*GHO*\n>* [Website](https://app.aave.com/markets/)\n>* [Documentation](https://docs.aave.com/hub/)\n>* [Github Page](https://github.com/aave/interface)\n>* [Communities](https://governance.aave.com/)\n\n**Protocol Description:**\n\n>*Aave Protocol*\nThe Aave Protocol is a decentralized liquidity protocol that is deployed across many EVM compatible networks including but not limited to Optimism, Arbitrum, Avalanche and Polygon. Currently, the Aave Protocol has a TVL of approximately $6.9 Billion.\n>\n>* GHO is a decentralized multi-collateral stable coin that is fully backed, transparent and native to the Aave Protocol.\n>* USDT is a centralised stable coin issued by Tether. \n>* USDC is a centralised stable coin issued by Circle. \n\n**Motivation:**\n\n>This proposal aims to add a veBAL gauge for GHO-USDC-USDT.\n>\n>This pool has the potential to be added to Aave DAO's SM at a later date if the Aave DAO elects to do so.\n>\n> Some veBAL holders prefer to support this new 3pool instead of GHO/BPT (USDC/DAI/USDT)\n>\n**Specifications:**\n\n1. **Governance:** \n\n>* AAVE and stkAAVE serve as the governance tokens for the Aave DAO. Holders can vote on proposals at both a Snapshot level and through the Aave DAO [on-chain governance portal](https://app.aave.com/governance/). \n\n2. **Oracles:**\n\n>* rateProvider0 (for GHO): 0x0 (none)\n>* rateProvider1 (for USDT): 0x0 (none)\n>* rateProvider1 (for USDC): 0x0 (none)\n\n3. **Audits:**\n\n>*Aave v3*\n>* [ABDK](https://github.com/aave/aave-v3-core/blob/master/audits/27-01-2022_ABDK_AaveV3.pdf)\n>* [OpenZeppelin ](https://github.com/aave/aave-v3-core/blob/master/audits/01-11-2021_OpenZeppelin_AaveV3.pdf)\n>* [Trail of Bits](https://github.com/aave/aave-v3-core/blob/master/audits/07-01-2022_TrailOfBits_AaveV3.pdf)\n>* [Peckshield](https://github.com/aave/aave-v3-core/blob/master/audits/14-01-2022_PeckShield_AaveV3.pdf)\n>* [SigmaPrime](https://github.com/aave/aave-v3-core/blob/master/audits/27-01-2022_SigmaPrime_AaveV3.pdf)\n\n>*GHO*\n>* [Sigma Prime](https://github.com/aave/gho-core/blob/main/audits/02-06-2023_SigmaPrime.pdf)\n>* [Sigma Prime](https://github.com/aave/gho-core/blob/main/audits/07-03-2023_SigmaPrime.pdf)\n>* [ABDK](https://github.com/aave/gho-core/blob/main/audits/01-03-2023_ABDK.pdf)\n>* [OpenZeppelin-v2](https://github.com/aave/gho-core/blob/main/audits/10-11-2022_Openzeppelin-v2.pdf)\n>* [OpenZeppelin-v1](https://github.com/aave/gho-core/blob/main/audits/12-08-2022_Openzeppelin-v1.pdf)\n\n4. **Centralization vectors:** \n>* Aave Governance is decentralized, and all changes must go through a transparent and well-tested governance process.\n>* Tether and Circle are both centralised entities with control over which addresses can transfer there stable coin.\n\n5. **Market History:** \n>* GHO is used in several liquidity pools\n>* USDC and USDT are widely used across many liquidity pools.\n\n6. **Value:**\n>* This pool is expected to drive meaningful TVL to Balancer and Aura Finance. The assets within the pool are not yield bearing. However, the DAOs will generate revenue from receiving a portion of the swap fees.\n\n**Pool Details**\n>Link to Pool: GHO-USDT-USDC Pool - [0x8353157092ED8Be69a9DF8F95af097bbF33Cb2aF](https://app.balancer.fi/#/ethereum/pool/0x8353157092ed8be69a9df8f95af097bbf33cb2af0000000000000000000005d9)\n>Link to Gauges: B-GHO-USDT-USDC - [0xf720e9137baa9C7612e6CA59149a5057ab320cFa](https://etherscan.io/address/0xf720e9137baa9C7612e6CA59149a5057ab320cFa) \n\n> **Specification**: \n>\n> The Balancer Maxi LM Multisig `eth:0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the `GaugeAdderv4` at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function with the following arguments:\ngauge(address): `0xf720e9137baa9C7612e6CA59149a5057ab320cFa`\ngaugeType(string): `Ethereum`\n\n**Disclosure:**\n\n>This proposal is the work of Tokenlogic who is a delegate within the Aave Ecosystem.\n>Details on TokenLogics delegation platform can be found [here](https://governance.aave.com/t/tokenlogic-delegate-platform/12516).",
+        "end_utc": "2023-09-04T18:00:00Z",
+        "similarity_score": 0.1913,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3319553.4827731834,
+            0.0020668726163282193,
+            0.0020668726163282193
+          ],
+          "scores_total": 3319553.4869069285,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-09-04T18:00:00",
+          "pre_tvl_avg": 693231153.0,
+          "post_tvl_avg": 700904469.0,
+          "abnormal_change": 1.1069,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.011069,
+          "abnormal_change_pct": 1.1069
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-09-04T18:00:00",
+          "pre_price_avg": 3.3678623649999997,
+          "post_price_avg": 3.4175693650000003,
+          "abnormal_change": 1.4759,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.014759,
+          "abnormal_change_pct": 1.4759
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x68e7a019b11b411e7dc890fb76eaccc50af53d6d7517472a74b0650bcb6ed0d5",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.85,
+    "summary": "Proposal to enable a 2% gauge for syrupUSDC/sDAI pool on Ethereum to enhance liquidity and integration in DeFi. Strong voting timeline support with unanimous leading votes. Forum discussion shows limited engagement with mixed sentiment. Similar past proposals enabled new gauges but led to market declines, advising cautious optimism.",
+    "key_arguments_for": [
+      "Strong and stable voting support across all voting quartiles for enabling the gauge.",
+      "Proposal supports increased liquidity and DeFi integration for Syrup's LP tokens.",
+      "Similar past proposals passed with strong support, showing community precedent for such changes."
+    ],
+    "key_arguments_against": [
+      "Market price and TVL showed declines after similar past proposals, indicating potential risks.",
+      "Forum sentiment is limited and slightly negative, suggesting some community reservations.",
+      "Centralization concerns as governance and operational control rest with multisig and Pool Delegates."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.balancer.fi/t/bip-627-enable-syrupusdc-sdai-gauge-ethereum/5815",
+        "quote": "Two comments: first outlines detailed proposal rationale with slight negative sentiment; second is neutral referencing snapshot link."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Balancer snapshot voting timeline",
+        "quote": "Unanimous lead and stability for 'Yes, let's do it' choice."
+      },
+      {
+        "source_tool": "govnews_proposal_news_window",
+        "reference": "Similar proposals BIP-625, BIP-624, BIP-623",
+        "quote": "All aimed to enable new gauges; all passed with unanimous yes votes but experienced price and TVL declines."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2024-06-20T18:00:00Z",
+    "event_end_utc": "2024-06-24T18:00:00Z",
+    "event_time_utc": "2024-06-24T18:00:00Z",
+    "address_of_governance_token": "0xba100000625a3754423978a60c9317c58a424e3d",
+    "token_price_impact_pct": -2.8061,
+    "tvl_impact_pct": -2.5214,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        2726906.7194779287,
+        7258.409158803395,
+        0.0
+      ],
+      "scores_total": 2734165.128636732,
+      "margin_abs": 2719648.310319125,
+      "margin_pct": 0.994691
+    },
+    "simulation_reason": "Recommendation based on timeline analytics, forum sentiment, and historical lessons prioritizing long-term protocol health.",
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Voting timeline metrics strongly favor 'Yes, let's do it' with complete lead ratios and stability.\n- Forum sentiment is limited with one negative and one neutral comment; the recommendation aligns with vote sentiment but forum sentiment is less supportive.\n- Similar historical proposals enabled new gauges, passed unanimously but were followed by price and TVL declines, indicating caution.\n- Market impacts for this proposal show modest declines; despite this, enabling the gauge should enhance liquidity and DeFi integrations, benefiting long-term protocol health.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x0d9c701622948ddaa19f1183da4491d45e3c93b47d7118660887f269a05b305c",
+        "title": "[BIP-625] Enable gauge for WETH/rETH on [Gnosis]",
+        "end_utc": "2024-06-17T18:00:00Z",
+        "summary": "[BIP-625] Enable gauge for WETH/rETH on [Gnosis] closed on 2024-06-17T18:00:00Z. Timeline analytics noted 17 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.18)",
+        "market_response": "token -6.40%; TVL -5.23%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0xe23479d7b207e5f025a40ace92c3b89c4a3292dd832f4b2d63535f39d72af515",
+        "title": "[BIP-623] Enable gauge for weETH / wstETH E-CLP (Arbitrum)",
+        "end_utc": "2024-06-17T18:00:00Z",
+        "summary": "[BIP-623] Enable gauge for weETH / wstETH E-CLP (Arbitrum) closed on 2024-06-17T18:00:00Z. Timeline analytics noted 15 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.18)",
+        "market_response": "token -6.40%; TVL -5.23%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -2.8061,
+    "ex_post_tvl_impact_pct": -2.5214,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -2.81%; TVL -2.52%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 1,
+    "Positive": 0,
+    "Neutral": 1,
+    "total_comments": 2
+  }
+}

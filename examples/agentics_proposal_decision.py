@@ -37,6 +37,7 @@ from dotenv import load_dotenv
 from pydantic import BaseModel, Field
 
 from agentics.core.llm_connections import get_llm_provider
+from agentics.mcp.defillama_utils import resolve_protocol_from_snapshot_space
 from agentics.orchestra.dual_llm_runner import run_both_and_save
 from mcp import StdioServerParameters
 
@@ -536,8 +537,11 @@ def _normalize_snapshot_url(u: str) -> str:
     return v
 
 
+_PROPOSAL_ID_RE = re.compile(r"/proposal/([A-Za-z0-9_-]+)")
+
+
 def _extract_proposal_id(u: str) -> Optional[str]:
-    m = re.search(r"/proposal/(0x[a-fA-F0-9]{64})", u)
+    m = _PROPOSAL_ID_RE.search(u)
     return m.group(1) if m else None
 
 
@@ -765,6 +769,172 @@ def _pct_change(pre_vals: List[float], post_vals: List[float]) -> Optional[float
         return None
     return (post_avg / pre_avg - 1.0) * 100.0
 
+
+_MARKET_INDEX_CACHE: Dict[str, pd.DataFrame] = {}
+
+
+def _load_market_index_df(index_path: Optional[Path]) -> Optional[pd.DataFrame]:
+    if not index_path:
+        return None
+    try:
+        resolved = str(index_path.expanduser().resolve())
+    except Exception:
+        resolved = str(index_path)
+
+    if resolved in _MARKET_INDEX_CACHE:
+        return _MARKET_INDEX_CACHE[resolved]
+
+    path_obj = Path(resolved)
+    if not path_obj.exists():
+        print(f"[market_index] file not found: {path_obj}")
+        return None
+
+    try:
+        df = pd.read_excel(path_obj, engine="openpyxl")
+    except ImportError:
+        print(
+            "[market_index] Missing dependency 'openpyxl'. Install it to enable "
+            "market-controlled price impact computation."
+        )
+        return None
+    except Exception as exc:
+        print(f"[market_index] failed to read {path_obj}: {exc}")
+        return None
+
+    if df.empty:
+        print(f"[market_index] empty worksheet in {path_obj}")
+        return None
+
+    columns = list(df.columns)
+    date_col = None
+    value_col = None
+
+    for col in columns:
+        name = str(col).strip().lower()
+        if "date" in name or "time" in name:
+            date_col = col
+            break
+    if date_col is None:
+        for col in columns:
+            if pd.api.types.is_datetime64_any_dtype(df[col]):
+                date_col = col
+                break
+    if date_col is None and columns:
+        date_col = columns[0]
+
+    priority = ["index", "value", "close", "price", "level"]
+    for target in priority:
+        for col in columns:
+            if col == date_col:
+                continue
+            name = str(col).strip().lower()
+            if target in name:
+                value_col = col
+                break
+        if value_col is not None:
+            break
+    if value_col is None:
+        for col in columns:
+            if col != date_col:
+                value_col = col
+                break
+
+    if value_col is None:
+        print(f"[market_index] could not identify value column in {path_obj}")
+        return None
+
+    idx_df = df[[date_col, value_col]].copy()
+    idx_df.columns = ["date", "index_value"]
+    idx_df["date"] = pd.to_datetime(idx_df["date"], errors="coerce").dt.date
+    idx_df["index_value"] = pd.to_numeric(idx_df["index_value"], errors="coerce")
+    idx_df = idx_df.dropna(subset=["date", "index_value"]).sort_values("date")
+
+    if idx_df.empty:
+        print(f"[market_index] no valid rows in {path_obj}")
+        return None
+
+    _MARKET_INDEX_CACHE[resolved] = idx_df
+    return idx_df
+
+
+def _market_index_pct_change(
+    index_df: pd.DataFrame,
+    event_date: datetime,
+    pre_days: int,
+    post_days: int,
+) -> Optional[float]:
+    pre_start = event_date - timedelta(days=pre_days)
+    post_end = event_date + timedelta(days=post_days)
+    pre_vals = index_df[
+        (index_df["date"] < event_date) & (index_df["date"] >= pre_start)
+    ]["index_value"].dropna().tolist()
+    post_vals = index_df[
+        (index_df["date"] >= event_date) & (index_df["date"] <= post_end)
+    ]["index_value"].dropna().tolist()
+
+    if not pre_vals:
+        prev = (
+            index_df[index_df["date"] < event_date]
+            .sort_values("date")
+            .tail(1)["index_value"]
+            .dropna()
+            .tolist()
+        )
+        pre_vals = prev or pre_vals
+    if not post_vals:
+        nxt = (
+            index_df[index_df["date"] >= event_date]
+            .sort_values("date")
+            .head(1)["index_value"]
+            .dropna()
+            .tolist()
+        )
+        post_vals = nxt or post_vals
+
+    if not pre_vals or not post_vals:
+        return None
+
+    change = _pct_change(pre_vals, post_vals)
+    return round(change, 4) if change is not None else None
+
+
+def compute_market_adjusted_price_impact(
+    parquet_path: Path,
+    index_path: Optional[Path],
+    ucid: Optional[str],
+    event_end_utc: Optional[str],
+    pre_days: int = 3,
+    post_days: int = 3,
+) -> Dict[str, Optional[float]]:
+    token_pct = (
+        compute_token_price_impact_from_parquet(
+            parquet_path, ucid or "", event_end_utc or "", pre_days, post_days
+        )
+        if (parquet_path and ucid and event_end_utc)
+        else None
+    )
+
+    index_pct: Optional[float] = None
+    abnormal_pct: Optional[float] = None
+
+    index_df = _load_market_index_df(index_path)
+    if index_df is not None and event_end_utc:
+        try:
+            event_date = pd.to_datetime(event_end_utc).date()
+        except Exception:
+            event_date = None
+        if event_date is not None:
+            index_pct = _market_index_pct_change(index_df, event_date, pre_days, post_days)
+
+    if token_pct is not None and index_pct is not None:
+        abnormal_pct = round(token_pct - index_pct, 4)
+
+    return {
+        "token_pct": token_pct,
+        "market_pct": index_pct,
+        "abnormal_pct": abnormal_pct,
+    }
+
 def _summarize_vote_outcome(
     choices: List[Any],
     scores: Optional[List[Any]],
@@ -932,9 +1102,19 @@ def compute_tvl_impact_from_defillama_tool(
     final_entity_type = entity_type or "protocol"
 
     # 1) Direct slug path
+    slug_list: List[str] = []
     if slug:
         print(f"[tvl_impact] using slug={slug!r}, type={final_entity_type}")
         final_slug = slug
+        resolved = resolve_protocol_from_snapshot_space(slug) or []
+        if resolved and len(resolved) > 1:
+            slug_list = [s.strip().lower() for s in resolved if s]
+            print(
+                "[tvl_impact] aggregating slugs="
+                f"{', '.join(slug_list)} from hint {slug!r}"
+            )
+        else:
+            slug_list = [slug.strip().lower()]
     # 2) Resolve path
     elif project_hint:
         print(
@@ -966,52 +1146,84 @@ def compute_tvl_impact_from_defillama_tool(
         print("[tvl_impact] no valid slug available")
         return None
 
-    # Refresh TVL cache
-    refresh_res = _invoke_tool_try_names_and_params(
-        tools,
-        ["defillama_refresh_protocol", "refresh_protocol"],
-        [{"slug": final_slug, "entity_type": final_entity_type}],
-    )
-    if refresh_res:
-        print(
-            f"[tvl_impact] refresh_protocol: "
-            f"rows_added={refresh_res.get('rows_added', 0)}"
+    if not slug_list:
+        resolved_auto = resolve_protocol_from_snapshot_space(final_slug) or []
+        if resolved_auto and len(resolved_auto) > 1:
+            slug_list = [s.strip().lower() for s in resolved_auto if s]
+            print(
+                "[tvl_impact] aggregating slugs="
+                f"{', '.join(slug_list)} from resolved hint {final_slug!r}"
+            )
+
+    slug_list = slug_list or [final_slug.strip().lower()]
+
+    combined_pre = 0.0
+    combined_post = 0.0
+    combined_ok = False
+
+    for idx, slug_item in enumerate(slug_list, start=1):
+        refresh_res = _invoke_tool_try_names_and_params(
+            tools,
+            ["defillama_refresh_protocol", "refresh_protocol"],
+            [{"slug": slug_item, "entity_type": final_entity_type}],
+        )
+        if refresh_res:
+            print(
+                f"[tvl_impact] refresh_protocol({slug_item}): "
+                f"rows_added={refresh_res.get('rows_added', 0)}"
+            )
+
+        evt_js = _invoke_tool_try_names_and_params(
+            tools,
+            ["defillama_event_window", "event_window"],
+            [
+                {
+                    "slug": slug_item,
+                    "event_time_utc": event_end_utc,
+                    "entity_type": final_entity_type,
+                    "pre_days": pre_days,
+                    "post_days": post_days,
+                }
+            ],
         )
 
-    # Compute event window
-    evt_js = _invoke_tool_try_names_and_params(
-        tools,
-        ["defillama_event_window", "event_window"],
-        [
-            {
-                "slug": final_slug,
-                "event_time_utc": event_end_utc,
-                "entity_type": final_entity_type,
-                "pre_days": pre_days,
-                "post_days": post_days,
-            }
-        ],
-    )
+        if not isinstance(evt_js, dict):
+            print(
+                "[tvl_impact] event_window returned non-dict or None for "
+                f"slug={slug_item!r}"
+            )
+            continue
 
-    if not isinstance(evt_js, dict):
+        stats = evt_js.get("stats") or {}
+        pre = stats.get("pre") or {}
+        post = stats.get("post") or {}
+        pre_avg = pre.get("tvl_avg")
+        post_avg = post.get("tvl_avg")
+        if pre_avg is None or post_avg is None:
+            print(f"[tvl_impact] missing tvl_avg for {slug_item!r}")
+            continue
+        combined_ok = True
+        combined_pre += float(pre_avg)
+        combined_post += float(post_avg)
         print(
-            "[tvl_impact] event_window returned non-dict or None for "
-            f"slug={final_slug!r}"
+            f"[tvl_impact] slug={slug_item!r} pre_avg={pre_avg} post_avg={post_avg}"
         )
+
+    if not combined_ok:
+        print("[tvl_impact] no usable TVL stats gathered")
         return None
 
-    stats = evt_js.get("stats") or {}
-    abn = stats.get("abnormal_change")
-    if abn is None:
-        print(f"[tvl_impact] no abnormal_change in stats for {final_slug!r}")
+    if combined_pre <= 0:
+        print("[tvl_impact] aggregated pre average is non-positive")
         return None
 
     try:
-        pct = round(float(abn) * 100.0, 4)
-        print(f"[tvl_impact] slug={final_slug!r} impact={pct}%")
+        pct = round(((combined_post / combined_pre) - 1.0) * 100.0, 4)
+        label = ",".join(slug_list) if len(slug_list) > 1 else final_slug
+        print(f"[tvl_impact] aggregated slug(s)={label!r} impact={pct}%")
         return pct
-    except Exception as e:
-        print(f"[tvl_impact] failed to convert abnormal_change: {e}")
+    except Exception as e:  # pragma: no cover - defensive
+        print(f"[tvl_impact] failed to compute aggregated abnormal_change: {e}")
         return None
 
 
@@ -1348,6 +1560,7 @@ def _adjacent_analytics(
     project_hint: Optional[str],
     current_title: Optional[str],
     current_body: Optional[str],
+    market_index_path: Optional[Path],
     max_items: int = 3,
 ) -> List[Dict[str, Any]]:
     """
@@ -1376,15 +1589,21 @@ def _adjacent_analytics(
                 (result_js or {}).get("scores_total"),
             )
 
-            
-            
-            price_imp = (
-                compute_token_price_impact_from_parquet(
-                    cmc_parquet, ucid, end_iso
+            price_metrics = (
+                compute_market_adjusted_price_impact(
+                    cmc_parquet,
+                    market_index_path,
+                    ucid,
+                    end_iso,
+                    pre_days=3,
+                    post_days=3,
                 )
                 if (ucid and end_iso)
-                else None
+                else {"token_pct": None, "market_pct": None, "abnormal_pct": None}
             )
+            price_imp = price_metrics.get("token_pct")
+            market_imp = price_metrics.get("market_pct")
+            price_adj = price_metrics.get("abnormal_pct")
             tvl_imp = compute_tvl_impact_from_defillama_tool(
                 tools,
                 slug=slug,
@@ -1404,6 +1623,8 @@ def _adjacent_analytics(
                 "end_utc": end_iso,
                 "timeline_metrics": timeline,
                 "price_impact_pct": price_imp,
+                "price_impact_market_pct": market_imp,
+                "price_impact_market_adjusted_pct": price_adj,
                 "tvl_impact_pct": tvl_imp,
                 "similarity": round(float(sim), 4),
             }
@@ -1425,6 +1646,7 @@ def main() -> None:
     registry_csv = (
         project_root / "src" / "agentics" / "assets_registry" / "dao_registry.csv"
     )
+    market_index_path = project_root / "SNP_cryptoIndex.xlsx"
 
     with ExitStack() as stack:
         all_tools = _load_mcp_tools(project_root, stack)
@@ -1511,20 +1733,20 @@ def main() -> None:
             defillama_type = reg.get("defillama_type")
         project_hint = _pick_project_hint(space, title)
 
-        market_pre_days = 7
-        market_post_days = 7
+        market_pre_days = 3
+        market_post_days = 3
 
-        token_price_impact = (
-            compute_token_price_impact_from_parquet(
-                project_root / "cmc_historical_daily_2013_2025.parquet",
-                ucid or "",
-                end_iso or "",
-                pre_days=market_pre_days,
-                post_days=market_post_days,
-            )
-            if ucid and end_iso
-            else None
+        price_metrics = compute_market_adjusted_price_impact(
+            project_root / "cmc_historical_daily_2013_2025.parquet",
+            market_index_path,
+            ucid,
+            end_iso,
+            pre_days=market_pre_days,
+            post_days=market_post_days,
         )
+        token_price_impact = price_metrics.get("token_pct")
+        market_index_impact = price_metrics.get("market_pct")
+        market_adjusted_price_impact = price_metrics.get("abnormal_pct")
         tvl_impact = compute_tvl_impact_from_defillama_tool(
             all_tools,
             slug=defillama_slug,
@@ -1554,6 +1776,7 @@ def main() -> None:
             project_hint=project_hint,
             current_title=title,
             current_body=body,
+            market_index_path=market_index_path,
             max_items=3,
         )
 
@@ -1576,6 +1799,11 @@ def main() -> None:
             if isinstance(entry, dict)
             and entry.get("id")
             and isinstance(entry.get("timeline_metrics"), dict)
+        }
+        adjacent_metric_cache = {
+            entry.get("id"): entry
+            for entry in ADJACENT_ANALYTICS
+            if isinstance(entry, dict) and entry.get("id")
         }
         meta_cache: Dict[str, Dict[str, Any]] = {}
         result_cache: Dict[str, Dict[str, Any]] = {}
@@ -1640,6 +1868,36 @@ def main() -> None:
                         (result or {}).get("scores_total"),
                     )
 
+                adj_metrics = adjacent_metric_cache.get(sid, {})
+                price_imp = adj_metrics.get("price_impact_pct")
+                market_imp = adj_metrics.get("price_impact_market_pct")
+                price_adj = adj_metrics.get("price_impact_market_adjusted_pct")
+
+                raw_end_utc = raw.get("end_utc")
+
+                if (price_imp is None or market_imp is None or price_adj is None) and ucid and raw_end_utc:
+                    fallback_metrics = compute_market_adjusted_price_impact(
+                        project_root / "cmc_historical_daily_2013_2025.parquet",
+                        market_index_path,
+                        ucid,
+                        raw_end_utc,
+                        pre_days=market_pre_days,
+                        post_days=market_post_days,
+                    )
+                    if price_imp is None:
+                        price_imp = fallback_metrics.get("token_pct")
+                    if market_imp is None:
+                        market_imp = fallback_metrics.get("market_pct")
+                    if price_adj is None:
+                        price_adj = fallback_metrics.get("abnormal_pct")
+
+                if price_imp is None:
+                    price_imp = (raw.get("price_impact") or {}).get("abnormal_change_pct")
+                if market_imp is None:
+                    market_imp = (raw.get("price_impact") or {}).get("market_pct")
+                if price_adj is None:
+                    price_adj = (raw.get("price_impact") or {}).get("abnormal_change_pct")
+
                 cleaned = {
                     "proposal_id": sid,
                     "title": raw.get("title"),
@@ -1662,6 +1920,9 @@ def main() -> None:
                         vote_summary.get("scores_total") if vote_summary else None
                     ),
                     "change_stance": change_stance,
+                    "price_impact_pct": price_imp,
+                    "price_impact_market_pct": market_imp,
+                    "price_impact_market_adjusted_pct": price_adj,
                 }
 
                 SIMILAR_PROPOSALS_DATA.append(
@@ -1669,6 +1930,9 @@ def main() -> None:
                         "proposal_id": sid,
                         "cleaned": cleaned,
                         "timeline_metrics": timeline_metrics if timeline_metrics else None,
+                        "price_impact_pct": price_imp,
+                        "price_impact_market_pct": market_imp,
+                        "price_impact_market_adjusted_pct": price_adj,
                         "raw": _normalize_similar_raw(raw),
                     }
                 )
@@ -1683,6 +1947,8 @@ def main() -> None:
             votes_count=votes_count,
             timeline_metrics=TIMELINE_METRICS,
             token_price_impact_pct=token_price_impact,
+            token_price_market_pct=market_index_impact,
+            token_price_market_adjusted_pct=market_adjusted_price_impact,
             tvl_impact_pct=tvl_impact,
             adjacent_analytics=ADJACENT_ANALYTICS,
             focus=focus or None,
@@ -1732,6 +1998,10 @@ def main() -> None:
         # Inject computed impacts
         if token_price_impact is not None:
             decision.token_price_impact_pct = token_price_impact
+        if market_index_impact is not None:
+            decision.token_price_market_pct = market_index_impact
+        if market_adjusted_price_impact is not None:
+            decision.token_price_market_adjusted_pct = market_adjusted_price_impact
         if tvl_impact is not None:
             decision.tvl_impact_pct = tvl_impact
 
@@ -1744,6 +2014,12 @@ def main() -> None:
             note_parts: List[str] = []
             if token_price_impact is not None:
                 note_parts.append(f"Token price {token_price_impact:+.2f}%")
+            if market_index_impact is not None:
+                note_parts.append(f"Market index {market_index_impact:+.2f}%")
+            if market_adjusted_price_impact is not None:
+                note_parts.append(
+                    f"Token vs market {market_adjusted_price_impact:+.2f}%"
+                )
             if tvl_impact is not None:
                 note_parts.append(f"TVL {tvl_impact:+.2f}%")
             decision.ex_post_note = "; ".join(note_parts) if note_parts else None
@@ -1796,6 +2072,8 @@ def main() -> None:
             "decision": _to_dict(
                 decision
             ),  # includes actual_vote_result (3), ai_final_* (5)
+            "market_index_impact_pct": market_index_impact,
+            "market_adjusted_price_impact_pct": market_adjusted_price_impact,
             "agentic_ai_choice": agentic_choice,
             "actual_outcome": actual_outcome,
             "match_result": match_result,  # "same" | "different" | None

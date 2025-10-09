@@ -1,0 +1,834 @@
+{
+  "captured_at_utc": "2025-10-08T17:43:38.876850+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0xa70aa4531b92ee66d1aa3ea8a3fe97fe55b3ae2a873ac02401ca865d377942e4",
+  "focus": null,
+  "votes_count": 11,
+  "timeline_metrics_current": {
+    "unique_voters": 11,
+    "total_votes": 11,
+    "first_vote_at": "2025-07-04T20:14:55Z",
+    "last_vote_at": "2025-07-08T08:00:01Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.5,
+        0.0,
+        0.5
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      0.7272727272727273,
+      0.0,
+      0.2727272727272727
+    ],
+    "stability": [
+      0.7272727272727273,
+      0.0,
+      0.2727272727272727
+    ],
+    "early_ratio": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "vp_by_quartile": [
+      [
+        0.0,
+        0.0,
+        853.7031573326043
+      ],
+      [
+        285760.9908377064,
+        0.0,
+        0.0
+      ],
+      [
+        655166.8934382242,
+        0.0,
+        0.0
+      ],
+      [
+        2442948.3468588716,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.717297,
+    "spike_follow_support_ratio": 0.0,
+    "stairwise_ratio": 0.282703,
+    "half_slope_diff": 315.512329
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x04e48c9f065d88b1737a2a892621f768254391a0b28a67d132ff41b3b976acbc",
+      "title": "[BIP-853] Gauge proposal for the siUSD-sUSDe pool",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-07-01T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 4,
+        "total_votes": 4,
+        "first_vote_at": "2025-06-27T23:49:20Z",
+        "last_vote_at": "2025-07-01T08:00:02Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            4.521724118794666,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            631056.6035859786,
+            0.0,
+            0.0
+          ],
+          [
+            2436233.001776067,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.794261,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.205739,
+        "half_slope_diff": 28.19579
+      },
+      "price_impact_pct": -0.5456,
+      "tvl_impact_pct": 1.9864,
+      "similarity": 0.0629,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 3067294.1270861644,
+        "scores_total": 3067294.1270861644,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0x9ee70ede3afa1ff578d7bd63eae2537c0fed81d6307ff1eb0807ebff20d3cf17",
+      "title": "[BIP-852] Enable Aave Boosted GHO/USDC/USDT Gauge on Balancer v3 Avalanche",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-07-01T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 4,
+        "total_votes": 4,
+        "first_vote_at": "2025-06-27T23:55:43Z",
+        "last_vote_at": "2025-07-01T08:00:02Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            4.521821557063181,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            631071.3866612689,
+            0.0,
+            0.0
+          ],
+          [
+            2436233.001776067,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.794257,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.205743,
+        "half_slope_diff": 28.178712
+      },
+      "price_impact_pct": -0.5456,
+      "tvl_impact_pct": 1.9864,
+      "similarity": 0.0712,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 3066821.663658538,
+        "scores_total": 3067308.910258893,
+        "margin_pct": 0.9998411485068474
+      }
+    },
+    {
+      "id": "0x67befecfd05e5e3ed585410f2d00af032279753dfe14ca6db9728e8b6983be7f",
+      "title": "[BIP-851] Staking POL Tokens and Delegating to Balancer’s Governance Profile",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-07-01T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 4,
+        "total_votes": 4,
+        "first_vote_at": "2025-06-27T23:53:33Z",
+        "last_vote_at": "2025-07-01T08:00:02Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            4.5361578517400565,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            633246.4512105854,
+            0.0,
+            0.0
+          ],
+          [
+            2436232.0132859633,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.793695,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.206305,
+        "half_slope_diff": 28.161669
+      },
+      "price_impact_pct": -0.5456,
+      "tvl_impact_pct": 1.9864,
+      "similarity": 0.0862,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 3069483.0006544003,
+        "scores_total": 3069483.0006544003,
+        "margin_pct": 1.0
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0xeb70fa7554ff57670aff22608345adebfbe63ab790ce0eeba85565fcbd5c0650",
+      "cleaned": {
+        "proposal_id": "0xeb70fa7554ff57670aff22608345adebfbe63ab790ce0eeba85565fcbd5c0650",
+        "title": "[BIP-141] Introduce VeBoost V2",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2022-12-26T19:00:00Z",
+        "similarity_score": 0.1732,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 4988562.446987225,
+        "margin_pct": 0.9999997702702041,
+        "scores_total": 4988563.593008921,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 261,
+        "total_votes": 261,
+        "first_vote_at": "2022-12-22T19:33:38Z",
+        "last_vote_at": "2022-12-26T14:47:56Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            634934.4574654943,
+            0.45619927347398637
+          ],
+          [
+            1185128.1331400408,
+            0.0
+          ],
+          [
+            265440.55480394425,
+            0.11681157477705227
+          ],
+          [
+            2903059.874588596,
+            0.0
+          ]
+        ],
+        "spike_index": 0.534717,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 3e-05,
+        "half_slope_diff": 36.005155
+      },
+      "raw": {
+        "id": "0xeb70fa7554ff57670aff22608345adebfbe63ab790ce0eeba85565fcbd5c0650",
+        "title": "[BIP-141] Introduce VeBoost V2",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "# Introduction\n\nveBAL holders get a boost in the liquidity mining program compared to LPs who don't hold veBAL. These boosts can be delegated to third parties, but this system has barely had any use.\n\nThis proposal aims to upgrade the boost delegation subsystem to make it compatible with other platforms, such as [Paladin's](https://paladin.vote/) boost market.\n\n# Specification\n\nThe boost system currently in use is Curve's first attempt to build such a system, and is unnecessarily complicated. It implements boosts as ERC721 NFTs, which makes the code very complex due to having to deal with enumeration and other features, and doesn't enable any useful use cases.\n\nThe new `VeBoostV2` contract was also developed by Curve, and they've been using it for the past couple months. It is much simpler than the previous iteration, and enables multiple integrations. We've also extended it to support [EIP 1271](https://eips.ethereum.org/EIPS/eip-1271), so that contract accounts can use it to delegate boosts (and prevent [issues like the one Tribe DAO encountered](https://forum.balancer.fi/t/bip-5-tribe-dao-unclaimable-bal-rewards/3196)).\n\n## Execution Details\n\nCall `setDelegation` on the `VotingEscrowDelegationProxy` (`0x6f5a2eE11E7a772AeB5114A20d0D7c0ff61EB8A0`) (address found [here](https://github.com/balancer-labs/balancer-v2-monorepo/blob/master/pkg/deployments/tasks/20220325-ve-delegation/output/mainnet.json#L3)) with the following arguments:\n - `delegation`: `0x67F8DF125B796B05895a6dc8Ecf944b9556ecb0B`\n\nThe `delegation` parameter is the new boost system: it's address can be found [here](https://github.com/balancer-labs/balancer-v2-monorepo/blob/master/pkg/deployments/tasks/20221205-veboost-v2/output/mainnet.json#L2).\n\nDoing this requires the permission to call `setDelegation`, which is `0xac0fcdc4520d7bde1c58bbefd7c8dd39aaf382a20c27991134c14fe63d2c96f3` (see [here](https://github.com/balancer-labs/balancer-v2-monorepo/blob/master/pkg/deployments/action-ids/mainnet/action-ids.json#L454)). This permission is currently held by the Governance DAO Multisig (`0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f`), so it doesn't need to be granted.\n\n# Migration\n\nAnyone can migrate any boost from the old system to the new one by calling `migrate` or `migrate_many` on the `VeBoostV2` contract (`0x67F8DF125B796B05895a6dc8Ecf944b9556ecb0B`). I've already done this for all currently existing boosts in [this transaction](https://etherscan.io/tx/0x84496dc95a49c42aba9cfcc0c1e9269512ec141c66df9662198f0ff86fbf06df). \n\nIf any boosts are created between now and the time in which the migration is completed, they can be permissionlessly migrated via that mechanism.\n\n# Risk\n\nThe [VeBoostV2](https://github.com/balancer-labs/balancer-v2-monorepo/blob/daa4fafcb1025a333b98944d4887e730354a951d/pkg/liquidity-mining/contracts/VeBoostV2.vy) contract was originally developed by Curve [and is currently in use by them](https://etherscan.io/address/0xd0921691c7debc698e6e372c6f74dc01fc9d3778#code), since [July 19th, 2022](https://etherscan.io/tx/0x2427765302e933e209805936877f5efe9f918d61bd7403052ef4923f8285ed78). It has only received trivial modifications by the Balancer Labs team (e.g. to make the `permit()` function simpler to use), so it should be as safe as the original one.\n\nIf any issues were to arise with the boost system, the most harm that could be done would be to set large boosts for some accounts and no boosts for others - but boosts are capped to 2.5x at the gauges. Then, the emergency subDAO would step in and call `killDelegation`, removing the boost system entirely until a fix was implemented.",
+        "end_utc": "2022-12-26T19:00:00Z",
+        "similarity_score": 0.1732,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way"
+          ],
+          "scores": [
+            4988563.019998073,
+            0.5730108482510387
+          ],
+          "scores_total": 4988563.593008921,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2022-12-26T19:00:00",
+          "pre_tvl_avg": 905441810.5,
+          "post_tvl_avg": 890603327.0,
+          "abnormal_change": -1.6388,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.016388,
+          "abnormal_change_pct": -1.6388
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2022-12-26T19:00:00",
+          "pre_price_avg": 5.4939719149999995,
+          "post_price_avg": 5.274847995,
+          "abnormal_change": -3.9884,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.039884,
+          "abnormal_change_pct": -3.9884
+        }
+      }
+    },
+    {
+      "proposal_id": "0xea5d85ea83360d496e5154ed92d2f247c8269296095810d94cf50ca6c9044528",
+      "cleaned": {
+        "proposal_id": "0xea5d85ea83360d496e5154ed92d2f247c8269296095810d94cf50ca6c9044528",
+        "title": "Tribe DAO : boost delegation",
+        "author": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+        "end_utc": "2022-06-05T10:30:00Z",
+        "similarity_score": 0.1605,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 124893.00089974616,
+        "margin_pct": 1.0,
+        "scores_total": 124893.00089974616,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 69,
+        "total_votes": 69,
+        "first_vote_at": "2022-06-02T10:35:49Z",
+        "last_vote_at": "2022-06-05T10:11:28Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            52797.24183301138,
+            0.0
+          ],
+          [
+            12301.944534993812,
+            0.0
+          ],
+          [
+            1848.9302134253373,
+            0.0
+          ],
+          [
+            57944.884318315584,
+            0.0
+          ]
+        ],
+        "spike_index": 0.225039,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.162243,
+        "half_slope_diff": -1.53838
+      },
+      "raw": {
+        "id": "0xea5d85ea83360d496e5154ed92d2f247c8269296095810d94cf50ca6c9044528",
+        "title": "Tribe DAO : boost delegation",
+        "author": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+        "body": "Hi everyone,\n\nAs explained in [this other post](https://forum.balancer.fi/t/tribe-dao-unclaimable-bal-rewards/3196), the Tribe DAO now has a 2-contract setup to interact with the veBAL system:\n\n* [VeBalDelegatorPCVDeposit](https://etherscan.io/address/0xc4EAc760C2C631eE0b064E39888b89158ff808B2) vote-locks the 112,041 B-80BAL-20WETH tokens held by the DAO into veBAL\n* [BalancerGaugeStaker](https://etherscan.io/address/0xf53e251352683155898295569d77b8506ba00d80) (behind [eip-1967 proxy](https://etherscan.io/address/0x66977ce30049cd0e443216bf26377966c3a109e2)) to stake the protocol-owned liquidity BPTs in various gauges (e.g. the 252,865 B-70WETH-30FEI currently held)\n\nThis approach does not allow our gauge staking to benefit from veBAL boosting (that can boost BAL earned from the LM program by up to 2.5x if the staking is spread across enough gauges).\n\nAfter discussions with the Balancer Labs team (and particularly Nicolas Venturo), a solution to this problem could be for the Balancer devs to deploy a new version VotingEscrowDelegation contract that include methods that allow the Tribe DAO to delegate its boost from the [VeBalDelegatorPCVDeposit](https://etherscan.io/address/0xc4EAc760C2C631eE0b064E39888b89158ff808B2) to the [BalancerGaugeStaker eip-1967 proxy](https://etherscan.io/address/0x66977ce30049cd0e443216bf26377966c3a109e2) (and hardcode the existing 6 boost delegations in the constructor of the new contract, to keep the same delegations during migration).\n\nWould the Balancer DAO consider doing this small migration soon, before Convex-like platforms launch (at which point, a lot more boost delegations will happen, and migration will be harder) ?\n\nThanks,\n\nErwan\n\nNico:\nWe've deployed a version of the `VotingEscrowDelegation` which includes the following:\n\n - a fix for a [bug on the original Curve implementation](https://github.com/curvefi/curve-veBoost/pull/13)\n - a preseeding with [all of the boosts created until now](https://github.com/balancer-labs/balancer-v2-monorepo/blob/master/pkg/deployments/tasks/20220530-preseeded-voting-escrow-delegation/input.ts#L31) (these can be found by looking at interactions with the [current delegation contract](https://etherscan.io/address/0x2e96068b3d5b5bae3d7515da4a1d2e52d08a2647)\n- a preseeding with [a call to set the address designated above as the operator of the TribeDAO contract](https://github.com/balancer-labs/balancer-v2-monorepo/blob/master/pkg/deployments/tasks/20220530-preseeded-voting-escrow-delegation/input.ts#L73). This will let the operator call `create_boost`, `extend_boost`, etc., using TribeDAO's veBAL balance.\n\nThe preseeding was executed in [this transaction](https://etherscan.io/tx/0x1e59b4c0b88757ed73a820b6586bfd25c0fa02d84baac5f04fad40085d553ea1), which can be inspected to look at the boosts created and approvals granted.\n\nThe address of the new delegator can be found [on the Balancer Labs repository](https://github.com/balancer-labs/balancer-v2-monorepo/blob/master/pkg/deployments/tasks/20220530-preseeded-voting-escrow-delegation/output/mainnet.json#L2). For a migration to happen, the delegation proxy's `setDelegation` function must be called from an authorized account (one with the permission `0xac0fcdc4520d7bde1c58bbefd7c8dd39aaf382a20c27991134c14fe63d2c96f3`).\n\nIt should be noted that any boosts created starting now will not be migrated as they're not included in the preseeding, and would require manual re-creation.",
+        "end_utc": "2022-06-05T10:30:00Z",
+        "similarity_score": 0.1605,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way"
+          ],
+          "scores": [
+            124893.00089974616,
+            0
+          ],
+          "scores_total": 124893.00089974616,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2022-06-05T10:30:00",
+          "pre_tvl_avg": 970362422.0,
+          "post_tvl_avg": 949273473.5,
+          "abnormal_change": -2.1733,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.021733,
+          "abnormal_change_pct": -2.1733
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2022-06-05T10:30:00",
+          "pre_price_avg": 6.725352915,
+          "post_price_avg": 7.466165345,
+          "abnormal_change": 11.0152,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.110152,
+          "abnormal_change_pct": 11.0152
+        }
+      }
+    },
+    {
+      "proposal_id": "0x830e0a1be76aef32e2f4c3a21379c3be32a29c0aa7e349ec38315872230157aa",
+      "cleaned": {
+        "proposal_id": "0x830e0a1be76aef32e2f4c3a21379c3be32a29c0aa7e349ec38315872230157aa",
+        "title": "[BIP-587] Update Snapshot Parameters with Core Contributor Author Set",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2024-04-22T18:00:00Z",
+        "similarity_score": 0.1382,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3199342.64497772,
+        "margin_pct": 0.9999999873027481,
+        "scores_total": 3199342.68560058,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 17,
+        "total_votes": 17,
+        "first_vote_at": "2024-04-19T09:09:39Z",
+        "last_vote_at": "2024-04-22T15:25:06Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            542.1624666011577,
+            0.0,
+            0.0
+          ],
+          [
+            414679.069661731,
+            0.0,
+            0.0
+          ],
+          [
+            242822.11572181573,
+            0.0,
+            0.0
+          ],
+          [
+            2541299.3377504316,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.773492,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.226508,
+        "half_slope_diff": 42.214713
+      },
+      "raw": {
+        "id": "0x830e0a1be76aef32e2f4c3a21379c3be32a29c0aa7e349ec38315872230157aa",
+        "title": "[BIP-587] Update Snapshot Parameters with Core Contributor Author Set",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### Summary\n\nThe [Balancer Snapshot](https://snapshot.org/#/balancer.eth) currently safe-guards the posting of proposals with a 200k veBAL minimum delegation threshold as per the erc20-balance-of strategy for veBAL. The Balancer Maxis are usually assisting partners and are posting snapshot proposals. With this proposal we seek to give a set of trusted core contributors the author role removing the 200k veBAL threshold so they can always post to snapshot. Other than this setting, nothing else changes and the same delegation rules apply. \nNote that the author role only allows to post and edit self-made proposals.\n\n### Motivation\n\nAs per [[BIP-163]](https://forum.balancer.fi/t/bip-163-restructure-governance-process-disband-governance-council/4244) the DAO restructured the governance process and introduced a 200,000 veBAL in delegation threshold to be able to post to snapshot. Several entities, including some delegates hold said power to post votes to snapshot (https://dune.com/balancer/vebal). However, most frequently, core contributors such as the Balancer Maxis SP are assisting partners in navigating governance by posting votes and making sure their technical specifications meet the DAOs minimal requirements.\n\nTherefore, I propose to add a set of trusted core contributors theough the author role in the balancer.eth snapshot space, removing a minimum veBAL delegation threshold for those individuals. These are the following:\n\n|Contributor name|Address|Role|\n| --- | --- | --- |\n|Xeonus|0x7019Be4E4eB74cA5F61224FeAf687d2b43998516|Author|\n|Zen Dragon|0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17|Author|\n|Zekraken|0xff0281256B2A478905B79895c1A2038A679E1751|Author|\n\nSome of the addresses can be verified [here](https://github.com/BalancerMaxis/bal_addresses/blob/main/extras/signers.json).\n\nAn example vote with an author role enabled in our testing snapshot space can be found [here](https://snapshot.org/#/balancerquadraticvoting.eth/proposal/0x83d94df2ad3f98327d719fb663e33a1e3257fd67b6c6c7c84d59d9a03f886d7e)\n\n### Risks\n\nThe above mentioned contributors have proven themselves as trustworthy individuals with a track-record of serving the DAO for more than 2.5 years. The main risk associated with granting the author role on snapshot is posting of a proposal that is not fit for vote, although that can already happen with the veBAL threshold of 200k in place. Our trusted voters and delegates are a safeguard against any malicious potential attempts that could be performed by said individuals, although the risk for such actions is extremely low. Note that the Author role can only post snapshot votes and doesn’t have any other privileges set, further reducing overall risk of potential malicious activity with the granted role.\n\n### Technical Specification\n\nThe Balancer DAO multi-sig 0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f will grant the Author role to following addresses\n\n* 0x7019Be4E4eB74cA5F61224FeAf687d2b43998516\n* 0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17\n* 0xff0281256B2A478905B79895c1A2038A679E1751\n\nThis will be done by interacting with the snapshot app over the DAO multisig, which will go to the members section of the [snapshot settings](https://snapshot.org/#/balancer.eth/settings) page and complete the following actions:\n\n* Remove the current admin (0x6cd1), it is unclear where this address came from and is not listed in governance. The DAO multisig is the owner of the balancer.eth NFT and therefore maintains rights to manage snapshot. All recent changes to snapshot have been made by this address.\n* Add the following 3 addresses author:\n  * 0x7019Be4E4eB74cA5F61224FeAf687d2b43998516\n  * 0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17\n  * 0xff0281256B2A478905B79895c1A2038A679E1751\n\nThe resulting settings string, signed by signers should read as follows:\n```\n\n{\"name\":\"Balancer\",\"network\":\"1\",\"symbol\":\"veBAL\",\"skin\":\"balancer\",\"avatar\":\"ipfs://QmfQDYJF93G53RcCUaCzyy2eEViM6kCVmp6UMKPqcM649H\",\"twitter\":\"balancer\",\"website\":\"https://balancer.fi/\",\"coingecko\":\"balancer\",\"private\":false,\"domain\":\"vote.balancer.fi\",\"admins\":[],\"moderators\":[],\"members\":[\"0x7019be4e4eb74ca5f61224feaf687d2b43998516\",\"0x7c2ea10d3e5922ba3bbbafa39dc0677353d2af17\",\"0xff0281256b2a478905b79895c1a2038a679e1751\"],\"categories\":[],\"plugins\":{\"poap\":{}},\"children\":[],\"voting\":{\"period\":345600,\"type\":\"weighted\",\"quorum\":2000000,\"hideAbstain\":false},\"strategies\":[{\"name\":\"erc20-balance-of\",\"network\":\"1\",\"params\":{\"symbol\":\"veBAL\",\"address\":\"0xC128a9954e6c874eA3d62ce62B468bA073093F25\",\"decimals\":18}},{\"name\":\"delegation-with-cap\",\"network\":\"1\",\"params\":{\"symbol\":\"veBAL (delegated)\",\"address\":\"0xC128a9954e6c874eA3d62ce62B468bA073093F25\",\"decimals\":18,\"strategies\":[{\"name\":\"erc20-balance-of\",\"params\":{\"symbol\":\"veBAL\",\"address\":\"0xC128a9954e6c874eA3d62ce62B468bA073093F25\",\"decimals\":18}}],\"capPercentage\":45,\"delegationSpace\":\"balancer.eth\"}}],\"validation\":{\"name\":\"basic\",\"params\":{}},\"voteValidation\":{\"name\":\"any\",\"params\":{}},\"filters\":{\"minScore\":200000,\"onlyMembers\":false},\"treasuries\":[{\"name\":\"Balancer DAO Treasury\",\"address\":\"0x10a19e7ee7d7f8a52822f6817de8ea18204f2e4f\",\"network\":\"1\"},{\"name\":\"Balancer DAO Treasury\",\"address\":\"0xaf23dc5983230e9eeaf93280e312e57539d098d0\",\"network\":\"42161\"},{\"name\":\"Balancer DAO Treasury\",\"address\":\"0xee071f4b516f69a1603da393cde8e76c40e5be85\",\"network\":\"137\"}],\"boost\":{\"enabled\":true,\"bribeEnabled\":false}}\n\n```",
+        "end_utc": "2024-04-22T18:00:00Z",
+        "similarity_score": 0.1382,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3199342.6585186734,
+            0.013540953479252186,
+            0.013540953479252186
+          ],
+          "scores_total": 3199342.68560058,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-04-22T18:00:00",
+          "pre_tvl_avg": 1047466122.0,
+          "post_tvl_avg": 1071848418.5,
+          "abnormal_change": 2.3277,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.023277,
+          "abnormal_change_pct": 2.3277
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-04-22T18:00:00",
+          "pre_price_avg": 3.9445514299999997,
+          "post_price_avg": 3.83323081,
+          "abnormal_change": -2.8221,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.028221,
+          "abnormal_change_pct": -2.8221
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0xa70aa4531b92ee66d1aa3ea8a3fe97fe55b3ae2a873ac02401ca865d377942e4",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.85,
+    "summary": "The proposal to implement veBoost V2.1 to allow designated operators to manage veBAL balances for lockers is well-supported by timeline metrics, forum sentiment, and positive precedent from similar past proposals.",
+    "key_arguments_for": [
+      "Enables delegation functionality for veBAL lockers that currently cannot delegate balances.",
+      "Follows a previously tested approach with minimal contract changes and migration.",
+      "Similar past proposals with similar functionality passed successfully and had positive TVL impacts.",
+      "Forum comments show appreciation and recognition of the importance of this upgrade."
+    ],
+    "key_arguments_against": [
+      "One forum comment raised risk concerns about the migration function and potential missing delegations.",
+      "Low vote count limits statistical confidence but early and stable voting supports the change."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.balancer.fi/t/bip-854-veboost-v2-1-preseeded/6611",
+        "quote": "One negative comment noted migration risk, others expressed appreciation and importance of the feature."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Balancer Proposal 0xa70aa4531b92ee66d1aa3ea8a3fe97fe55b3ae2a873ac02401ca865d377942e4",
+        "quote": "Strong timeline lead and stability metrics favor 'Yes, let's do it' choice."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-07-04T18:00:00Z",
+    "event_end_utc": "2025-07-08T18:00:00Z",
+    "event_time_utc": "2025-07-08T18:00:00Z",
+    "address_of_governance_token": "0xba100000625a3754423978a60c9317c58a424e3d",
+    "token_price_impact_pct": 8.8704,
+    "tvl_impact_pct": 8.0435,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        2258121.122556924,
+        1125755.108577878,
+        853.7031573326042
+      ],
+      "scores_total": 3384729.934292135,
+      "margin_abs": 1132366.013979046,
+      "margin_pct": 0.334551
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Timeline metrics show a stable and early lead for 'Yes, let's do it', indicating strong voter preference.\n- Forum sentiment is mostly neutral to positive, appreciating the functionality and recognizing importance; only one negative comment about migration risk.\n- Similar past proposals with similar technical changes were successful and led to positive TVL effects, indicating beneficial change.\n- Market impacts show positive price and TVL movement, supporting confidence in the proposal's benefits.\n- The recommendation aligns with aggregated forum sentiment, reflecting community views and durable organizational benefit.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x67befecfd05e5e3ed585410f2d00af032279753dfe14ca6db9728e8b6983be7f",
+        "title": "[BIP-851] Staking POL Tokens and Delegating to Balancer’s Governance Profile",
+        "end_utc": "2025-07-01T18:00:00Z",
+        "summary": "[BIP-851] Staking POL Tokens and Delegating to Balancer’s Governance Profile closed on 2025-07-01T18:00:00Z. Timeline analytics noted 4 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.09)",
+        "market_response": "token -0.55%; TVL +1.99%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0x9ee70ede3afa1ff578d7bd63eae2537c0fed81d6307ff1eb0807ebff20d3cf17",
+        "title": "[BIP-852] Enable Aave Boosted GHO/USDC/USDT Gauge on Balancer v3 Avalanche",
+        "end_utc": "2025-07-01T18:00:00Z",
+        "summary": "[BIP-852] Enable Aave Boosted GHO/USDC/USDT Gauge on Balancer v3 Avalanche closed on 2025-07-01T18:00:00Z. Timeline analytics noted 4 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.07)",
+        "market_response": "token -0.55%; TVL +1.99%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 8.8704,
+    "ex_post_tvl_impact_pct": 8.0435,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +8.87%; TVL +8.04%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 1,
+    "Positive": 0,
+    "Neutral": 3,
+    "total_comments": 4
+  }
+}

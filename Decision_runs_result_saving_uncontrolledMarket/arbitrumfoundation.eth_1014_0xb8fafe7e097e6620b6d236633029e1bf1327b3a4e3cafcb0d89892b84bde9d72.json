@@ -1,0 +1,258 @@
+{
+  "captured_at_utc": "2025-10-08T06:53:08.605790+00:00",
+  "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0xb8fafe7e097e6620b6d236633029e1bf1327b3a4e3cafcb0d89892b84bde9d72",
+  "focus": null,
+  "votes_count": 5500,
+  "timeline_metrics_current": {
+    "unique_voters": 5500,
+    "total_votes": 5500,
+    "first_vote_at": "2023-10-06T02:10:08Z",
+    "last_vote_at": "2023-10-07T16:37:47Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        0.790545,
+        0.209455,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      0.7905454545454546,
+      0.20945454545454545,
+      0.0
+    ],
+    "stability": [
+      0.7905454545454546,
+      0.20945454545454545,
+      0.0
+    ],
+    "early_ratio": [
+      0.7905454545454546,
+      0.20945454545454545,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        19683773.970288515,
+        3336853.1943761357,
+        24999.91010255913
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.643718,
+    "spike_follow_support_ratio": 0.990259,
+    "stairwise_ratio": 0.003249,
+    "half_slope_diff": -582.024481
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x66b953a7cf4de9f6de54e6eb87ae291b5cc62f12c7fed68eba91043607883221",
+      "title": "Proposal: Building the Future of NFTs: The Rarible Protocol - Arbitrum Integration Proposal [REVISED]",
+      "author": "0x1B686eE8E31c5959D9F5BBd8122a58682788eeaD",
+      "end_utc": "2023-09-01T19:16:02Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-08-25T19:16:41Z",
+        "last_vote_at": "2023-08-26T07:14:21Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            7345732.6864043195,
+            116990.02409824789,
+            226269.1116841672
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.892797,
+        "spike_follow_support_ratio": 0.529713,
+        "stairwise_ratio": 0.010323,
+        "half_slope_diff": -55.484426
+      },
+      "price_impact_pct": -5.292,
+      "tvl_impact_pct": -5.0423,
+      "similarity": 0.0258,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "For",
+        "margin_abs": 94945293.04926684,
+        "scores_total": 120779306.30293971,
+        "margin_pct": 0.786105633121656
+      }
+    }
+  ],
+  "similar_proposals_data": [],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0xb8fafe7e097e6620b6d236633029e1bf1327b3a4e3cafcb0d89892b84bde9d72",
+    "selected_choice_label": "For",
+    "selected_choice_index": 0,
+    "confidence": 0.79,
+    "summary": "This proposal requests 1.2M ARB to incentivize liquidity across Balancer pools on Arbitrum using an automated system based on veBAL voting and pool performance. Balancer is the second-largest DEX by TVL on Arbitrum, contributing to ecosystem growth and liquidity depth, especially for LST and innovative AMM designs. Despite some community concerns about efficiency and grant size, Balancer has reduced its ask from 1.6M to 1.2M ARB and demonstrated responsiveness to feedback. The majority of forum sentiment supports the proposal, highlighting Balancer's professionalism and ecosystem role.",
+    "key_arguments_for": [
+      "Balancer is the 2nd largest DEX by TVL on Arbitrum and a core liquidity provider, contributing significantly to ecosystem stability and growth.",
+      "The grant enables an automated incentive system aligned with community governance via veBAL voting, encouraging decentralized and dynamic liquidity support.",
+      "Balancer supports innovative AMM designs and LST pools, fostering DeFi innovation on Arbitrum.",
+      "The team has shown willingness to adjust the grant size in response to community feedback, lowering the ask to 1.2M ARB."
+    ],
+    "key_arguments_against": [
+      "Concerns about Balancer's capital efficiency compared to other AMMs and the effectiveness of prior grants.",
+      "Some community members perceive the grant size as high given budget constraints and question the net benefit to Arbitrum.",
+      "Recent security incidents with Balancer raise caution among some voters.",
+      "The distribution approach (direct LP incentives) is seen as inefficient by some experts."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.arbitrum.foundation/t/balancer-final-stip-round-1/16689",
+        "quote": "Balancer is the 2nd largest DEX by TVL on Arbitrum with strong community and ecosystem support. The proposal aims to extend and automate ARB incentive distributions based on veBAL voting and pool performance."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Voting timeline metrics",
+        "quote": "Early and stable lead with 79% votes for 'For' option, spike index 0.25, and high voting power concentrated in 'For' choice."
+      },
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Community sentiment",
+        "quote": "Forum sentiment is mostly positive, with supporters praising Balancer's professionalism, ecosystem role, and innovation. Opponents raise efficiency and security concerns."
+      }
+    ],
+    "available_choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2023-10-06T02:00:00Z",
+    "event_end_utc": "2023-10-13T02:00:00Z",
+    "event_time_utc": "2023-10-13T02:00:00Z",
+    "address_of_governance_token": "0xba100000625a3754423978a60c9317c58a424e3d",
+    "token_price_impact_pct": -0.6138,
+    "tvl_impact_pct": -0.4497,
+    "actual_vote_result": {
+      "winner_label": "For",
+      "winner_index": 0,
+      "scores": [
+        152432319.16020647,
+        3855816.929660354,
+        509210.9157997737
+      ],
+      "scores_total": 156797347.00566658,
+      "margin_abs": 148576502.23054612,
+      "margin_pct": 0.94757
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'For' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Voting timeline shows strong early and stable support for 'For' option with about 79% lead ratio, indicating clear voter preference.\n- Market impacts show modest declines, but these should not influence the decision as per guidelines.\n- Forum sentiment analysis reveals a majority positive outlook with constructive engagement, highlighting Balancer's ecosystem contributions, innovation, and professionalism.\n- Historical lessons from similar proposals underscore the importance of incentivizing liquidity while balancing grant size and efficiency concerns.\n- The proposal reflects responsiveness to community feedback, including a reduced grant ask, which bolsters confidence in Balancer's governance.\n- While some concerns about efficiency and security exist, the overall evidence supports approving the grant to maintain and grow liquidity on Arbitrum.\n- The recommendation aligns with aggregated forum sentiment, reflecting community views in favor of the proposal.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x66b953a7cf4de9f6de54e6eb87ae291b5cc62f12c7fed68eba91043607883221",
+        "title": "Proposal: Building the Future of NFTs: The Rarible Protocol - Arbitrum Integration Proposal [REVISED]",
+        "end_utc": "2023-09-01T19:16:02Z",
+        "summary": "Proposal: Building the Future of NFTs: The Rarible Protocol - Arbitrum Integration Proposal [REVISED] closed on 2023-09-01T19:16:02Z. Timeline analytics noted 5500 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.03)",
+        "market_response": "token -5.29%; TVL -5.04%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -0.6138,
+    "ex_post_tvl_impact_pct": -0.4497,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -0.61%; TVL -0.45%"
+  },
+  "agentic_ai_choice": "For",
+  "actual_outcome": "For",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 10,
+    "Positive": 17,
+    "Neutral": 30,
+    "total_comments": 57
+  }
+}

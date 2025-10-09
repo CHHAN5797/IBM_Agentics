@@ -413,8 +413,11 @@ def _normalize_snapshot_url(u: str) -> str:
     return v
 
 
+_PROPOSAL_ID_RE = re.compile(r"/proposal/([A-Za-z0-9_-]+)")
+
+
 def _extract_proposal_id(u: str) -> Optional[str]:
-    m = re.search(r"/proposal/(0x[a-fA-F0-9]{64})", u)
+    m = _PROPOSAL_ID_RE.search(u)
     return m.group(1) if m else None
 
 

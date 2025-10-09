@@ -1,0 +1,263 @@
+{
+  "captured_at_utc": "2025-10-07T04:31:27.210764+00:00",
+  "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0xb17b3294dcb08316cb623c717add7f82df54948d558992f886be59d0958e9b24",
+  "focus": null,
+  "votes_count": 1793,
+  "timeline_metrics_current": {
+    "unique_voters": 1793,
+    "total_votes": 1793,
+    "first_vote_at": "2022-07-28T12:26:21Z",
+    "last_vote_at": "2022-07-31T09:49:42Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        466394.7446590987,
+        0.029475478315813063,
+        17.023882222196164
+      ],
+      [
+        28518.1676183294,
+        0.34967687892290655,
+        0.14816081168682219
+      ],
+      [
+        941.3866677684605,
+        11.217504555857753,
+        0.0095
+      ],
+      [
+        4870.40873638916,
+        0.24647432954920204,
+        0.01
+      ]
+    ],
+    "spike_index": 0.366221,
+    "spike_follow_support_ratio": 0.999937,
+    "stairwise_ratio": 0.00021,
+    "half_slope_diff": -5.150294
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x5ef706871a7cfdd6024aea6041c7717feb9a9d328a168279720ae3262e0f170c",
+      "title": "UI/UX upgrade governance framework",
+      "author": "0x329c54289Ff5D6B7b7daE13592C6B1EDA1543eD4",
+      "end_utc": "2022-07-10T10:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 1417,
+        "total_votes": 1417,
+        "first_vote_at": "2022-07-07T14:03:00Z",
+        "last_vote_at": "2022-07-10T09:58:59Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            12015.611144808112,
+            0.016839283288127865,
+            0.0
+          ],
+          [
+            747.1591310383217,
+            3.222354066111389,
+            0.6112214084653628
+          ],
+          [
+            27321.928128436117,
+            1.5056481444443632,
+            0.5216083100000001
+          ],
+          [
+            38.363379233814626,
+            0.059000000000000004,
+            0.21361133882860664
+          ]
+        ],
+        "spike_index": 0.628139,
+        "spike_follow_support_ratio": 0.999369,
+        "stairwise_ratio": 0.001534,
+        "half_slope_diff": -0.247153
+      },
+      "price_impact_pct": -1.4788,
+      "tvl_impact_pct": -14.4834,
+      "similarity": 0.0712,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "YAE",
+        "margin_abs": 40118.25794202246,
+        "scores_total": 40129.21206606741,
+        "margin_pct": 0.9997270286785865
+      }
+    }
+  ],
+  "similar_proposals_data": [],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0xb17b3294dcb08316cb623c717add7f82df54948d558992f886be59d0958e9b24",
+    "selected_choice_label": "YAE",
+    "selected_choice_index": 0,
+    "confidence": 0.9,
+    "summary": "Proposal to introduce GHO, a native decentralized collateral-backed stablecoin on Aave, shows strong early and sustained voter support. Forum sentiment is mixed with cautious optimism and concerns about governance controls. Market impact shows slight price and TVL declines. Recommendation supports change to advance the protocol's long-term health with careful governance oversight.",
+    "key_arguments_for": [
+      "Strong unanimous early voting support for 'YAE' option.",
+      "GHO provides native stablecoin functionality increasing protocol competitiveness and revenue.",
+      "Forum positive comments highlight ecosystem growth potential and revenue benefits.",
+      "Similar prior proposal succeeded despite market declines, offering lessons for cautious implementation."
+    ],
+    "key_arguments_against": [
+      "Forum sentiment includes concerns about DAO control over interest rates and facilitator risks.",
+      "Market shows slight negative reaction in token price and TVL during voting period.",
+      "Historical similar proposal saw declines in price and TVL post-implementation.",
+      "Some community members urge caution and more detailed risk management frameworks."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://governance.aave.com/t/introducing-gho/8730",
+        "quote": "Mixed sentiment forum posts with key concerns on interest rate governance and risk, plus positive ecosystem growth comments."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": null,
+        "quote": "100% lead ratio and stability for 'YAE' choice throughout voting period."
+      },
+      {
+        "source_tool": "registry_lookup",
+        "reference": "aavedao.eth",
+        "quote": "Governance token address 0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9 (AAVE)"
+      },
+      {
+        "source_tool": "adjacent_analytics",
+        "reference": null,
+        "quote": "Similar prior proposal approved with 'YAE' but saw price and TVL declines; valuable lessons for risk management."
+      }
+    ],
+    "available_choices": [
+      "YAE",
+      "NAE",
+      "ABSTAIN"
+    ],
+    "event_start_utc": "2022-07-28T12:25:00Z",
+    "event_end_utc": "2022-07-31T10:00:00Z",
+    "event_time_utc": "2022-07-31T10:00:00Z",
+    "address_of_governance_token": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+    "token_price_impact_pct": -1.1906,
+    "tvl_impact_pct": -3.4604,
+    "actual_vote_result": {
+      "winner_label": "YAE",
+      "winner_index": 0,
+      "scores": [
+        500724.7076815842,
+        11.843131242645676,
+        17.191543033882986
+      ],
+      "scores_total": 500753.74235586065,
+      "margin_abs": 500707.5161385503,
+      "margin_pct": 0.999908
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'YAE' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Timeline metrics show unanimous and stable early voter support for 'YAE'.\n- Forum sentiment is mixed but not strongly opposed; concerns mainly focus on governance mechanisms for interest rates and facilitator risk management.\n- Market impact data shows slight price and TVL declines, highlighting need for cautious implementation.\n- Historical similar proposals support cautious optimism; lessons inform governance oversight needs.\n- Overall recommendation supports change to enable native stablecoin benefits while emphasizing governance vigilance to address risks.\n- The recommendation partially diverges from some forum sentiment but aligns with durable protocol benefit.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x5ef706871a7cfdd6024aea6041c7717feb9a9d328a168279720ae3262e0f170c",
+        "title": "UI/UX upgrade governance framework",
+        "end_utc": "2022-07-10T10:00:00Z",
+        "summary": "UI/UX upgrade governance framework closed on 2022-07-10T10:00:00Z. Timeline analytics noted 1417 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.07)",
+        "market_response": "token -1.48%; TVL -14.48%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -1.1906,
+    "ex_post_tvl_impact_pct": -3.4604,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -1.19%; TVL -3.46%"
+  },
+  "agentic_ai_choice": "YAE",
+  "actual_outcome": "YAE",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 18,
+    "Positive": 8,
+    "Neutral": 41,
+    "total_comments": 67
+  }
+}

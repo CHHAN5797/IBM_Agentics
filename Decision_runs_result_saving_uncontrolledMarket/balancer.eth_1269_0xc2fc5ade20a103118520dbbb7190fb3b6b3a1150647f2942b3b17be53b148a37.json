@@ -1,0 +1,962 @@
+{
+  "captured_at_utc": "2025-10-09T01:11:25.171303+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0xc2fc5ade20a103118520dbbb7190fb3b6b3a1150647f2942b3b17be53b148a37",
+  "focus": null,
+  "votes_count": 9,
+  "timeline_metrics_current": {
+    "unique_voters": 9,
+    "total_votes": 9,
+    "first_vote_at": "2024-08-09T12:18:04Z",
+    "last_vote_at": "2024-08-12T16:53:22Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        223648.6560899365,
+        0.0,
+        0.0
+      ],
+      [
+        1245.645162448812,
+        0.0,
+        0.0
+      ],
+      [
+        613.5405628281444,
+        0.0,
+        0.0
+      ],
+      [
+        2322999.5196723044,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.911513,
+    "spike_follow_support_ratio": 1.0,
+    "stairwise_ratio": 0.088487,
+    "half_slope_diff": -20.918662
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0xf9bc2c094bf303a185e730360f2464bfe9d4a2b31ef823bd162b57e247f134d2",
+      "title": "[BIP-666] Provide Balancer DAO POL to CoWAMM Pools",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2024-08-05T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 9,
+        "total_votes": 9,
+        "first_vote_at": "2024-08-02T08:58:52Z",
+        "last_vote_at": "2024-08-05T15:08:14Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.2100796687150606,
+            0.0,
+            0.0
+          ],
+          [
+            230155.5152778791,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2300930.9535105433,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.905298,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.094702,
+        "half_slope_diff": 13.087921
+      },
+      "price_impact_pct": -10.2675,
+      "tvl_impact_pct": -13.6542,
+      "similarity": 0.1182,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2530628.4013576256,
+        "scores_total": 2531086.678868091,
+        "margin_pct": 0.9998189404123171
+      }
+    },
+    {
+      "id": "0xc83ca2e347ee9c5e0f4002b4a40a0c34011083e635c2b6c2bf66538b10cc8969",
+      "title": "[BIP-665] Enable COPM:WETH and COPM:USDC “FXPool” Gauges on Polygon",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2024-08-05T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 10,
+        "total_votes": 10,
+        "first_vote_at": "2024-08-02T08:58:23Z",
+        "last_vote_at": "2024-08-05T15:07:43Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.2100828771728129,
+            0.0,
+            0.0
+          ],
+          [
+            230156.81963111402,
+            0.0,
+            0.0
+          ],
+          [
+            127642.44967164421,
+            0.0,
+            0.0
+          ],
+          [
+            9543.435956740836,
+            2291390.559022095,
+            0.0
+          ]
+        ],
+        "spike_index": 1.0,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.0,
+        "half_slope_diff": 0.0
+      },
+      "price_impact_pct": -10.2675,
+      "tvl_impact_pct": -13.6542,
+      "similarity": 0.0781,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 103145.58388712863,
+        "scores_total": 2658733.474364471,
+        "margin_pct": 0.03879500705191368
+      }
+    },
+    {
+      "id": "0x0ea2055f9ae746dcf14c1107dbd1355add527d83cfe7b58093dfce3a003127c4",
+      "title": "[BIP-664] Engage with market makers to enhance BAL liquidity on central exchanges",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2024-07-29T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 13,
+        "total_votes": 13,
+        "first_vote_at": "2024-07-25T22:13:27Z",
+        "last_vote_at": "2024-07-29T09:04:18Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.625,
+            0.0,
+            0.375
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.7692307692307693,
+          0.0,
+          0.23076923076923078
+        ],
+        "stability": [
+          0.7692307692307693,
+          0.0,
+          0.23076923076923078
+        ],
+        "early_ratio": [
+          0.625,
+          0.0,
+          0.375
+        ],
+        "vp_by_quartile": [
+          [
+            149755.68210555843,
+            0.0,
+            637.586536181012
+          ],
+          [
+            238864.58167431937,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2303421.1267711394,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.855641,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.144359,
+        "half_slope_diff": 42.855772
+      },
+      "price_impact_pct": -5.1412,
+      "tvl_impact_pct": -1.0015,
+      "similarity": 0.0698,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2687895.2342743007,
+        "scores_total": 2692678.9770871988,
+        "margin_pct": 0.9982234262407051
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x0939f6771ac9a690952936ecdcdea76abe6832a2fc388c1f4d5a36485fc12a8c",
+      "cleaned": {
+        "proposal_id": "0x0939f6771ac9a690952936ecdcdea76abe6832a2fc388c1f4d5a36485fc12a8c",
+        "title": "[BIP-628] Balancer & Cow Protocol Strategic Partnership – Launching CoWAMM Pools",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2024-06-24T18:00:00Z",
+        "similarity_score": 0.2368,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 1096389.999926926,
+        "margin_pct": 0.40031669182988733,
+        "scores_total": 2738806.6056282055,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 12,
+        "total_votes": 12,
+        "first_vote_at": "2024-06-21T05:15:58Z",
+        "last_vote_at": "2024-06-24T08:07:07Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.3822602986137259,
+            0.0,
+            0.0
+          ],
+          [
+            1452.0864509833368,
+            0.0,
+            274559.29156225594
+          ],
+          [
+            4645.672831242972,
+            0.0,
+            0.0
+          ],
+          [
+            2458148.8516323613,
+            0.0,
+            0.3208910635913726
+          ]
+        ],
+        "spike_index": 0.920464,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.079536,
+        "half_slope_diff": 3781.558753
+      },
+      "raw": {
+        "id": "0x0939f6771ac9a690952936ecdcdea76abe6832a2fc388c1f4d5a36485fc12a8c",
+        "title": "[BIP-628] Balancer & Cow Protocol Strategic Partnership – Launching CoWAMM Pools",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "```\nBIP: 628\ntitle: Balancer & Cow Protocol Strategic Partnership – Launching CoWAMM Pools\nauthor: Haris Angelidakis, Andrea Canidio, Felix Henneke, Mike_B & karpatkey\nstatus: Active\ncreated: 2024-06-17\n```\n_Note: This proposal is a result of discussions between BalancerDAO, CowDAO and karpatkey, initially posted on the [Balancer](https://forum.balancer.fi/t/bip-xxx-balancer-x-cow-protocol-strategic-partnership-cowamm/5766) and [Cow](https://forum.cow.fi/t/cip-draft-balancer-and-cow-jointly-creating-cowamm-pools/2429) forums. Given the suggested modifications, this updated version summarizes the technical content and consolidates all changes for clarity and organization. For further information and context, please refer to the original proposals posted on each forum._\n\n\n# Executive Summary\n\n\nWe propose a strategic partnership between BalancerDAO and CowDAO to develop CoWAMM pools on Balancer. The CoW Protocol settlement contract will gain privileged access to certain Balancer pools, and these pools will be treated as CoWAMMs, earning surplus in CoW Protocol’s solver competition, ensuring they always trade at the correct price and eliminating LVR.\n\n\n# Motivation\n\n\nBalancer and Cow Protocol share the vision of making DeFi accessible and safe. Balancer is a leading AMM provider, while Cow Protocol is a leading intent-based trade aggregator. The collaboration aims to establish CoWAMM as the dominant LVR-resistant AMM design, increasing liquidity provider returns and overall liquidity.\n\n\n# The Collaboration\n\n\nCreating a Balancer/CoWAMM pool involves granting the CoW Protocol settlement contract (and its solvers) exclusive or privileged access to specific Balancer pools. Beyond this, Balancer/CoWAMM pools will function like other Balancer pools, utilizing the same UI (with co-branding elements) and infrastructure. Liquidity deposited in these pools will receive the same veBAL incentives as other Balancer pools, along with additional incentives detailed below.\n\n\n# Incentive Alignments: Token Swap and Additional BAL Rewards\n\n\nTo align incentives, a milestone-contingent token swap is proposed:\n\n\n\n1. At launch, both DAOs will swap an equivalent of USD 500k worth of their native tokens and commit to holding them for at least two years from the date of this agreement passing a vote on Snapshot. Tokens can be used for strategic objectives but both DAOs will refrain from selling them during the aforementioned term.\n2. When TVL of CoWAMM/Balancer pools reaches USD 50M, each DAO will swap USD 1M worth of tokens, with the same two-year restriction.\n3. When TVL reaches USD 100M, another USD 1M token swap will occur, also locked for two years.\n\n\n# Additional incentives include:\n\n\n\n1. Revenues from Balancer/CoWAMM pools will be equally shared between CowDAO and BalancerDAO.\n2. BalancerDAO will allocate USD 250k worth of discretionary BAL incentives to strategic CoW AMM pools to incentivize liquidity provision.\n\n\n# Initial Liquidity Seeding for Strategic CoWAMM Pools\n\n\nThere is significant value in launching CowAMM pools from the beginning. Testing this technology in a live environment signals the serious commitment of both DAOs to this partnership. The following strategic pools and seeding structures are proposed:\n\n\n\n1. **USDC/WETH Pool**: Initial liquidity of USD 1M. GnosisDAO will provide USD 500k, while Balancer and CowDAOs will each contribute USD 250k. Given that CowDAO already manages a USDC/WETH CoW AMM (the SAFE contract-based pilot) with higher liquidity than requested, CowDAO commits to migrating the existing pool to a CoWAMM Balancer pool upon launch. Following a successful migration, GnosisDAO and BalancerDAO will add their committed liquidity to it.\n2. **Native Token Pools**: Two pools pairing the native token with WETH, with at least USD 500k liquidity each.\n    1. **BAL/WETH Pool**: Seeded entirely by BalancerDAO.\n    2. **COW/WETH Pool**: CowDAO will migrate its existing COW/WETH CoW AMM pool with an approximate TVL of USD 1M to a CoWAMM Balancer pool upon launch.\n\nFurther stages of liquidity seeding will be evaluated as needed. All parties involved (BalancerDAO, CowDAO, and GnosisDAO) commit to abstaining from farming incentives derived from the initial liquidity seeded into these pools.\n\n\n\n# Implementation Details\n\n\nCowDAO and BalancerDAO agree on the following implementation details:\n\n\n\n1. The amount of tokens contributed to the strategic pools will be calculated using Chainlink prices at the time of pool creation. Pools will be created or migrated as soon as technically feasible.\n2. The TVL of all CoWAMM/Balancer pools must continuously exceed a certain threshold for at least a week to be considered reached.\n3. For the second and third steps of the token swap, the average price during the week before the TVL reaches the threshold will be used.\n\nThis partnership aims to create powerful synergy, enhancing both protocols and advancing their shared vision for DeFi. karpatkey is excited to contribute to this promising endeavor.",
+        "end_utc": "2024-06-24T18:00:00Z",
+        "similarity_score": 0.2368,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            1917598.302777566,
+            0,
+            821208.30285064
+          ],
+          "scores_total": 2738806.6056282055,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-06-24T18:00:00",
+          "pre_tvl_avg": 948539282.5,
+          "post_tvl_avg": 924622854.0,
+          "abnormal_change": -2.5214,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.025214,
+          "abnormal_change_pct": -2.5214
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-06-24T18:00:00",
+          "pre_price_avg": 3.0693684350000003,
+          "post_price_avg": 3.00319412,
+          "abnormal_change": -2.156,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.02156,
+          "abnormal_change_pct": -2.156
+        }
+      }
+    },
+    {
+      "proposal_id": "0xcfc6a0a2ecb9bf8a3cb0ed7a2617093b0aba14a4a43f81044dc726ce040cb07f",
+      "cleaned": {
+        "proposal_id": "0xcfc6a0a2ecb9bf8a3cb0ed7a2617093b0aba14a4a43f81044dc726ce040cb07f",
+        "title": "Strategic Partnership with Aave DAO",
+        "author": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+        "end_utc": "2022-05-06T15:00:00Z",
+        "similarity_score": 0.1241,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 208868.93244476026,
+        "margin_pct": 0.921974793889227,
+        "scores_total": 226545.16569121665,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 84,
+        "total_votes": 84,
+        "first_vote_at": "2022-05-03T15:06:33Z",
+        "last_vote_at": "2022-05-06T14:05:07Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            56895.216333037664,
+            1096.3279866509492
+          ],
+          [
+            93149.52163014628,
+            0.0
+          ],
+          [
+            13265.125824654688,
+            0.0
+          ],
+          [
+            54397.185280149795,
+            7741.788636577252
+          ]
+        ],
+        "spike_index": 0.134833,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.313794,
+        "half_slope_diff": -36.979543
+      },
+      "raw": {
+        "id": "0xcfc6a0a2ecb9bf8a3cb0ed7a2617093b0aba14a4a43f81044dc726ce040cb07f",
+        "title": "Strategic Partnership with Aave DAO",
+        "author": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+        "body": "This proposal appears on [Balancer's forum](https://forum.balancer.fi/t/proposal-strategic-partnership-with-aave-dao/3031)\n\n---\n\ntitle: [Proposal] Strategic Partnership with Aave DAO\nstatus: Proposed\nauthor: Llama Community - @MatthewGraham\ncreated: 20-04-2022\n\n---\n\n# Simple Summary\n\nAave DAO would like to present the Balancer community the opportunity to swap 200,000 BAL for AAVE. The price is to be determined by the 90-day moving average when an AIP is presented for voting via Aave’s governance process, [1].\n\n# Abstract\n\nWith a successful Balancer Snapshot vote, an AIP will be presented for the Aave community to vote on. If passed, the contracts will be deployed enabling 200,000 BAL tokens to be deposited and the AAVE held within withdrawn. After the tokens are withdrawn, each community is able to use the newly acquired tokens without restriction.\n\nAave intends to deposit BAL, with matching ETH, into the 80/20 BAL/ETH pool and then deposit the receipt token into the vested escrow contract, locking them for 1 year. The veBAL voting influence is to be used for directing BAL incentives to liquidity pools that create TVL or provide a backstop for Aave markets, [2].\n\nA separate forum post will emerge requesting the Aave Reserve Factor address be added to the Voting Escrow contract whitelist.\n\n# Motivation\n\nAave and Balance have a long history of working together. The AAVE/ETH (80/20) Balancer V1 pool BPT is accepted within the Aave Safe Module and the newly created Balancer Boosted Pools drives TVL to Aave V2 market, [3]. In time, Aave intends to upgrade the Safety Module from 80/20 AAVE/ETH pool on Balancer V2. There are many more opportunities for both communities to work together and a tokenswap only further strengthens this relationship.\n\nAave’s veBAL voting influence can be used to vote BAL rewards to Balancer Boosted Pools which utilise Aave markets in the background to create yield for passively held liquidity, [4]. There are likely to be many more Balancer Boosted Pools that utilise aTokens in the future and the veBAL votes can be used to help bootstrap these pools by directing BAL rewards to those pools. Bootstrapping these pools benefits both communities and only strengthens the already strong relationship.\n\nBy exchanging AAVE for BAL, the tokenswap reflects the ongoing collaboration and shared vision through governance in each other’s community. Using data from Etherscan, the tokenswap is significant enough for Aave to become just outside of the Top 50 BAL tokens holder and for Balancer to become a Top 80 AAVE holder, [5,6]. Both communities will have influence in the other’s governance process and be aligned through ownership to collaborate in growing the adoption of both protocols.\n\nThe initial sizing of 200,000 BAL was reached by attaining input from some members of the Balancer community. The tokenswap is also the same size as the recent Tribe DAO and Balancer DAO token swap, [7]. In addition to the tokenswap outlined here, the Aave community is also considering purchasing an additional 100,000 BAL via a bonding curve on market, [8]. This is a separate proposal and is still in the discussion phase on Aave’s governance forum.\n\n# Implementation\n\nThe tokenswap is to be performed by both Balancer and Aave by depositing tokens into a contract like how Tribe DAO swapped TRIBE for INDEX, [9].\n\nUpon withdrawing AAVE from the contract, the Balancer community can deploy the holding without restriction from this proposal.\n\nBoth organisations can at any moment terminate the agreement through their respective governance systems.\n\n# References:\n\n[1] https://governance.aave.com/t/arc-strategic-partnership-with-balancer-part-1/7617\n[2] https://forum.balancer.fi/t/introducing-vebal-tokenomics/2512\n[3] https://pools.balancer.exchange/#/pool/0xc697051d1c6296c24ae3bcef39aca743861d9a81/\n[4] https://app.balancer.fi/#/pool/0x7b50775383d3d6f0215a8f290f2c9e2eebbeceb20000000000000000000000fe\n[5] https://etherscan.io/token/0xba100000625a3754423978a60c9317c58a424e3d#balances\n[6] https://etherscan.io/token/0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9#balances\n[7] https://tribe.fei.money/t/fip-90-fuse-boosted-usd-balancer-pool-bb-f-usd/4023\n[8] https://governance.aave.com/t/arc-strategic-partnership-with-balancer-part-2/7813\n[9] https://app.aave.com/reserve-overview/?underlyingAsset=0xae7ab96520de3a18e5e111b5eaab095312d7fe84&marketName=proto_mainnet\n\n\n\n# Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+        "end_utc": "2022-05-06T15:00:00Z",
+        "similarity_score": 0.1241,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way"
+          ],
+          "scores": [
+            217707.04906798847,
+            8838.116623228201
+          ],
+          "scores_total": 226545.16569121665,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2022-05-06T15:00:00",
+          "pre_tvl_avg": 2132076120.5,
+          "post_tvl_avg": 1847088487.0,
+          "abnormal_change": -13.3667,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.133667,
+          "abnormal_change_pct": -13.3667
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2022-05-06T15:00:00",
+          "pre_price_avg": 14.003977235,
+          "post_price_avg": 11.447064285,
+          "abnormal_change": -18.2585,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.182585,
+          "abnormal_change_pct": -18.2585
+        }
+      }
+    },
+    {
+      "proposal_id": "0x8d4969e56fa8eb13abc7a3404b3d42fe6b4afa1c7f29111bd012314f093a2fd2",
+      "cleaned": {
+        "proposal_id": "0x8d4969e56fa8eb13abc7a3404b3d42fe6b4afa1c7f29111bd012314f093a2fd2",
+        "title": "BalancerDAO <> GnosisDAO Treasury Swap",
+        "author": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+        "end_utc": "2022-01-28T15:00:00Z",
+        "similarity_score": 0.1235,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 131804.1128589915,
+        "margin_pct": 0.9999596614591468,
+        "scores_total": 131809.4298590627,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 813,
+        "total_votes": 813,
+        "first_vote_at": "2022-01-25T15:15:36Z",
+        "last_vote_at": "2022-01-28T14:52:03Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            37861.52909597261,
+            0.9800000355331446
+          ],
+          [
+            4304.90267132456,
+            0.0
+          ],
+          [
+            88957.94488157622,
+            1.6785
+          ],
+          [
+            682.3947101535488,
+            0.0
+          ]
+        ],
+        "spike_index": 0.546743,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 7.6e-05,
+        "half_slope_diff": -1.523932
+      },
+      "raw": {
+        "id": "0x8d4969e56fa8eb13abc7a3404b3d42fe6b4afa1c7f29111bd012314f093a2fd2",
+        "title": "BalancerDAO <> GnosisDAO Treasury Swap",
+        "author": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+        "body": "This proposal appears on [Balancer's forum](https://forum.balancer.fi/t/rfc-treasury-swaps-program-gno-x-bal/2110/17).\n\n\n## Simple Summary\nThe partnership aims to align the interests of GnosisDAO and BalancerDAO, by increasing the collaboration between both organizations. The technical teams of both DAOs would carry out developments in the best interest of both organizations, such as completing [Stage 3](https://medium.com/@gnosisPM/cowswap-upgrades-to-final-version-by-fully-integrating-with-balancer-v2-21f4d635da1#:~:text=and%20better%20UX.-,Stage%203%20(Soon),-Balancer%2DGnosis%2DProtocol) of the Balancer-Gnosis-Protocol integration, so that Balancer users are able to place trades in GPv2 via their UI. Traders on Balancer would then always get the best prices available on-chain -or better- if CoWs are found, eventually leading to better prices for all traders of CowSwap as trades are batched and a higher trade frequency leads to increased chances for coincidence of wants.\n\nAlso, joint marketing efforts will be made, together with a token swap, to align governance interests.\n\n## Abstract\nEven though GnosisDAO and BalancerDAO have common interests, their current level of collaboration and integration isn’t enough to achieve their common goals. A partnership agreement would be necessary to increase the depth and breadth of their joint efforts, improving coordination and resource allocation to common projects.\n\nThis improvement proposal has already passed phase 1 in both protocols:\nhttps://forum.gnosis.io/t/treasury-swaps-program-gno-x-bal/1440\nhttps://balancergrants.notion.site/DAO-Agreement-Process-a871f46c41f043fd83bce34007eb14ab\n\n## Motivation\nWe believe that achieving a greater synergy between BalancerDAO and GnosisDAO would significantly strengthen both organizations, allowing for a more efficient planning and execution of their joint projects, backed up by healthier treasuries, with increased token diversification.\n\n## Specification\nBoth parties agreed that they intend to contribute the following towards this partnership:\n\n**Technical**\nJoint work of technical teams of both DAOs to carry out developments in the best interest of both DAOs, such as completing Stage 3 of the Balancer-Gnosis-Protocol integration, so that Balancer users are able to place trades in GPv2 via their UI. Traders on Balancer will then always get the best prices available on-chain -or better- if CoWs are found. This will eventually lead to better prices for all traders of CowSwap as trades are batched and a higher trade frequency leads to increased chances for coincidence of wants.\n\n**Marketing**\nTo ensure both entities will profit from each other's reach and marketing or sales activities, we will do co-branded communication & services where useful.\n\n**Token Transaction**\nTo align governance interests, a Token Swap between the two organizations is initiated as part of this agreement.\n\n200,000 BAL from the Ecosystem Fund would be exchanged for the equivalent USD value of GNO in equal proportions from DAO Treasury, using the 90 day smooth moving average price at the time that voting ends.\n\nBoth organizations commit to holding the received assets for a period of at least 1 year. No on-chain logic will be implemented to ensure this.\n\n## Rationale\nGnosis and Balancer have worked together for the past years. The protocols have [integrated Cowswap with Balancer V2](https://medium.com/@gnosisPM/cowswap-upgrades-to-final-version-by-fully-integrating-with-balancer-v2-21f4d635da1) to enable better gas prices and UX, MEV protection, no gas fees for failed transactions, better prices due to the optimized pool settlements and use of the Balancer v2 single vault architecture.\n\n**Partnership Term**\nThe Partnership is open-ended and does not have an expiry date.\n\n**Partnership Governance**\nThe partnership is managed by representatives of the organizations directed by the respective governance processes of the organizations. In the case of this partnership, there are 2 representatives for each organization.\n\n**Exit Clause**\nBoth organizations can at any moment terminate the agreement through their respective governance systems.\n\n**Communications around the Partnership**\n- A Partnership announcement blog will be created within the 2 weeks following the agreement date.\n\n- To ensure operational effectiveness, a monthly call will be set up with at least one representative of each entity\n\nBoth DAOs acknowledge that DAO agreements are inherently unpredictable and irreversible and agree to this initial partnership agreement.\n\n## Specification\n\nIf approved, the DAO Multisig (0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f) would initiate a transaction to send 200,000 BAL to GnosisDAO (0x849d52316331967b6ff1198e5e32a0eb168d039d)\n\nGnosisDAO will send the DAO Multisig (0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f) 9051 GNO in exchange. ",
+        "end_utc": "2022-01-28T15:00:00Z",
+        "similarity_score": 0.1235,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way"
+          ],
+          "scores": [
+            131806.771359027,
+            2.658500035533143
+          ],
+          "scores_total": 131809.4298590627,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2022-01-28T15:00:00",
+          "pre_tvl_avg": 1833750031.5,
+          "post_tvl_avg": 1970343454.5,
+          "abnormal_change": 7.4489,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.074489,
+          "abnormal_change_pct": 7.4489
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2022-01-28T15:00:00",
+          "pre_price_avg": 11.59673443,
+          "post_price_avg": 12.159636169999999,
+          "abnormal_change": 4.854,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.04854,
+          "abnormal_change_pct": 4.854
+        }
+      }
+    },
+    {
+      "proposal_id": "0x6ef03b401d15183bb83c4cc87126cf95579f774b7067e502528b1a37c9af7e05",
+      "cleaned": {
+        "proposal_id": "0x6ef03b401d15183bb83c4cc87126cf95579f774b7067e502528b1a37c9af7e05",
+        "title": "MTA <> BAL Treasury Swap",
+        "author": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+        "end_utc": "2021-12-10T12:00:00Z",
+        "similarity_score": 0.1225,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 345939.5557563674,
+        "margin_pct": 0.984928544407382,
+        "scores_total": 351233.1505881114,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 762,
+        "total_votes": 762,
+        "first_vote_at": "2021-12-06T12:59:42Z",
+        "last_vote_at": "2021-12-10T09:29:47Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            104065.90666743062,
+            112.76175572862726
+          ],
+          [
+            205625.69026124486,
+            9.0
+          ],
+          [
+            7987.113153310337,
+            0.0
+          ],
+          [
+            30907.64309025406,
+            2525.035660143723
+          ]
+        ],
+        "spike_index": 0.391818,
+        "spike_follow_support_ratio": 0.998328,
+        "stairwise_ratio": 0.000183,
+        "half_slope_diff": -2.551649
+      },
+      "raw": {
+        "id": "0x6ef03b401d15183bb83c4cc87126cf95579f774b7067e502528b1a37c9af7e05",
+        "title": "MTA <> BAL Treasury Swap",
+        "author": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+        "body": "This proposal appears on [Balancer's forum](https://forum.balancer.fi/t/proposal-take-a-mta-position-to-redirect-rewards-to-balancer-pools/2354) and [MTA's forum](https://forum.mstable.org/t/tdp29-dao-dao-swap-balancer/733).\n\nHi, Balancer community,\n\nI’m Théo, core-contributor at mStable.\n\nmStable is a Decentralised Stablecoin Ecosystem composed of a capital-efficient AMM and a high-yielding savings account product.\nI am reaching out today to discuss a partnership opportunity arising from the upcoming launch of our Emission Controller.\n\n## Context\n\nmStable is about to release its version of the Gauge controller, inspired from Curve’s, which will dictate rewards distribution over the next 5 years (~35m MTA).\n\nAs we speak, two Balancer pools are receiving MTA rewards:\n\nOne on Mainet [MTA / WETH Balancer pool]\nOne on Polygon [MTA/WETH/WMATIC Balancer pool]\nBalancer & mStable have been maintaining a long-standing relationship: mStable was one of the first user of Balancer in August 2020 and had the biggest pool at some point there.\n\n## Opportunity\n\nWe thought it would be highly beneficial for Balancer to take on an MTA position and vote for those pools, thus directing higher rewards that will inevitably attract more liquidity to the pools.\n\nThis is an opportunity to go a step further with shared governance and treasury diversification while bringing significant extra TVL to Balancer. It is also a nice way to do a joint marketing campaign highlighting both protocols\n\n## Specification\n\na) Swapped amounts and origination\n\n-20k BAL against the equivalent USD value worth of MTA were agreed \n upon for this swap\n-MTA tokens would be sent from the mStable Treasury Asset \n Management subDAO ( \n 0x67905d3e4fec0c85dce68195f66dc8eb32f59179 ) to the Balancer -Treasury DAO ( 0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f )\n-BAL tokens would be sent from the Balancer Treasury DAO ( \n 0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f ) to the mStable \n Treasury Asset Management subDAO ( \n 0x67905d3e4fec0c85dce68195f66dc8eb32f59179 )\n\nb) Timeline and swap execution\n\nThis proposal will go to a Snapshot vote on the side of mStable on the 6th of December, and resolve on the 10th of December. Balancer voting will start at 7am EST Dec 6th, and resolve 7am EST Dec 10th so both protocols have the same voting window.\n\nSwap execution: Tokens will be swapped on-chain if both votes are approved, and the 1 year holding time will begin at the time the tokens from the transfer enter the wallet of the corresponding DAO.\n\nc) Pricing method and price feeds\n\nIt has been agreed to use a 30-days smooth average. The time window for the 30 days average would be from the 10th of November until the 10th of December 2021.\n\nMTA Price feed: MTA/ USD (Chainlink) BAL Price feeds: BAL/USDT (Binance)",
+        "end_utc": "2021-12-10T12:00:00Z",
+        "similarity_score": 0.1225,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way"
+          ],
+          "scores": [
+            348586.35317223973,
+            2646.79741587235
+          ],
+          "scores_total": 351233.1505881114,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2021-12-10T12:00:00",
+          "pre_tvl_avg": 2579252470.5,
+          "post_tvl_avg": 2500479647.5,
+          "abnormal_change": -3.0541,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.030541,
+          "abnormal_change_pct": -3.0541
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2021-12-10T12:00:00",
+          "pre_price_avg": 15.910035794999999,
+          "post_price_avg": 14.4509068,
+          "abnormal_change": -9.1711,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.091711,
+          "abnormal_change_pct": -9.1711
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0xc2fc5ade20a103118520dbbb7190fb3b6b3a1150647f2942b3b17be53b148a37",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "The proposal seeks to amend a previous strategic partnership agreement by removing the treasury token swap component due to changed market conditions and limited BAL availability, while preserving all other partnership terms. Voting and timeline data strongly support the proposal, and forum sentiment is positive or neutral with no opposition. Similar past proposals with aligned goals passed successfully, although some faced post-vote market declines that caution against token swap commitments now. The recommendation is to approve the amendment to enable the CoWAMM launch without delay.",
+    "key_arguments_for": [
+      "Amendment addresses changed DAO treasury constraints and removes a potentially burdensome token swap.",
+      "Proposal maintains all other incentive and liquidity seeding arrangements, preserving partnership integrity.",
+      "Forum comments show support and alignment among stakeholders and market makers.",
+      "Timeline and voting metrics show unanimous support from voters indicating clear consensus."
+    ],
+    "key_arguments_against": [
+      "No explicit opposing arguments found in forum discussion prior to voting deadline.",
+      "Potential risk that removing the token swap could affect long-term incentive alignment between DAOs."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.balancer.fi/t/bip-673-amendment-balancer-cow-protocol-strategic-partnership/5908",
+        "quote": "Amend BIP-628 to remove treasury token swap due to changed market conditions; other partnership terms unchanged."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Balancer ETH proposal 0xc2fc5a",
+        "quote": "Timeline and voting data show unanimous support with 9 votes all choosing 'Yes, let's do it'."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2024-08-08T18:00:00Z",
+    "event_end_utc": "2024-08-12T18:00:00Z",
+    "event_time_utc": "2024-08-12T18:00:00Z",
+    "address_of_governance_token": "0xba100000625a3754423978a60c9317c58a424e3d",
+    "token_price_impact_pct": 1.4544,
+    "tvl_impact_pct": 3.3207,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        2548507.3614875176,
+        0.0,
+        0.0
+      ],
+      "scores_total": 2548507.3614875176,
+      "margin_abs": 2548507.3614875176,
+      "margin_pct": 1.0
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- The proposal removes a financially significant token swap from the partnership, adapting to current DAO treasury constraints and reducing risk.\n- Voting timeline and analytics show unanimous support and stability in the 'Yes' choice, indicating strong community backing.\n- Forum sentiment is largely positive or neutral, with no opposing voices before deadline, supporting the recommendation.\n- Similar past proposals aimed to strengthen liquidity and incentives; although some saw post-vote market declines, this amendment prudently avoids overcommitting DAO resources, aligning with durable organizational health.\n- The recommendation mirrors the aggregated forum sentiment, confirming alignment between vote outcome and community views.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0xf9bc2c094bf303a185e730360f2464bfe9d4a2b31ef823bd162b57e247f134d2",
+        "title": "[BIP-666] Provide Balancer DAO POL to CoWAMM Pools",
+        "end_utc": "2024-08-05T18:00:00Z",
+        "summary": "[BIP-666] Provide Balancer DAO POL to CoWAMM Pools closed on 2024-08-05T18:00:00Z. Timeline analytics noted 9 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.12)",
+        "market_response": "token -10.27%; TVL -13.65%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0xc83ca2e347ee9c5e0f4002b4a40a0c34011083e635c2b6c2bf66538b10cc8969",
+        "title": "[BIP-665] Enable COPM:WETH and COPM:USDC “FXPool” Gauges on Polygon",
+        "end_utc": "2024-08-05T18:00:00Z",
+        "summary": "[BIP-665] Enable COPM:WETH and COPM:USDC “FXPool” Gauges on Polygon closed on 2024-08-05T18:00:00Z. Timeline analytics noted 10 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.08)",
+        "market_response": "token -10.27%; TVL -13.65%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 1.4544,
+    "ex_post_tvl_impact_pct": 3.3207,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +1.45%; TVL +3.32%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 0,
+    "Positive": 2,
+    "Neutral": 1,
+    "total_comments": 3
+  }
+}

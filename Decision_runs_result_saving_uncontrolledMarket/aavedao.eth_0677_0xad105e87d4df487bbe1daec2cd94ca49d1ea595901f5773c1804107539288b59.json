@@ -1,0 +1,234 @@
+{
+  "captured_at_utc": "2025-10-07T03:55:08.218374+00:00",
+  "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0xad105e87d4df487bbe1daec2cd94ca49d1ea595901f5773c1804107539288b59",
+  "focus": null,
+  "votes_count": 2816,
+  "timeline_metrics_current": {
+    "unique_voters": 2816,
+    "total_votes": 2816,
+    "first_vote_at": "2022-10-03T16:13:37Z",
+    "last_vote_at": "2022-10-09T15:53:54Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        121167.45931031147,
+        18.1428355132269
+      ],
+      [
+        47823.82396968762,
+        5.362221086612504
+      ],
+      [
+        87279.57556625984,
+        6.116486075892572
+      ],
+      [
+        181814.1646897022,
+        2.1145316855047773
+      ]
+    ],
+    "spike_index": 0.21696,
+    "spike_follow_support_ratio": 1.0,
+    "stairwise_ratio": 0.000264,
+    "half_slope_diff": 2.699749
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x9f65a598bee69a1dd84127d712ffedbc0795f0647e89056a297cae998dd18bf1",
+      "title": "Llama <> Aave",
+      "author": "0x5B3bFfC0bcF8D4cAEC873fDcF719F60725767c98",
+      "end_utc": "2022-09-28T19:45:00Z",
+      "timeline_metrics": {
+        "unique_voters": 2505,
+        "total_votes": 2505,
+        "first_vote_at": "2022-09-23T18:44:40Z",
+        "last_vote_at": "2022-09-28T19:02:11Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            73456.6584171881,
+            10.197864844095566
+          ],
+          [
+            10201.454338777256,
+            6.744091674633426
+          ],
+          [
+            103691.62549522433,
+            1011.9105554391372
+          ],
+          [
+            102886.88578173368,
+            12.074093356156101
+          ]
+        ],
+        "spike_index": 0.229921,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.000306,
+        "half_slope_diff": -1.550418
+      },
+      "price_impact_pct": 0.1836,
+      "tvl_impact_pct": 0.2794,
+      "similarity": 0.2897,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes",
+        "margin_abs": 289195.6974276096,
+        "scores_total": 291277.5506382376,
+        "margin_pct": 0.9928526822404736
+      }
+    }
+  ],
+  "similar_proposals_data": [],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0xad105e87d4df487bbe1daec2cd94ca49d1ea595901f5773c1804107539288b59",
+    "selected_choice_label": " Yes",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "The proposal to onboard Chaos Labs for risk management and simulation platform was met with a strong supportive voting timeline and community engagement despite mixed forum sentiment. The proposal aims to add an additional risk vendor to enhance Aave's risk management with a transparent, agent-based simulation platform. Historical precedent shows similar proposals with strong early support, and the market impact and TVL changes were minor and negative post-vote. Forum sentiment reveals concerns over Chaos Labs' modeling rigor and competition with incumbent Gauntlet but also includes positive endorsements and appreciation for the new vendor's transparency and collaborative approach. The recommendation is to approve the proposal to change, enabling multi-vendor risk management and innovation while monitoring deliverables closely.",
+    "key_arguments_for": [
+      "Adds a complementary risk management platform focusing on v3 markets, addressing gaps not covered by incumbents.",
+      "Offers transparent, agent-based simulations with open-source agents for community verification and engagement.",
+      "Pricing model with no upfront cost and 6 months free work reduces risk to the DAO.",
+      "Community and other DeFi protocol leaders endorse Chaos Labs' quality and contribution potential."
+    ],
+    "key_arguments_against": [
+      "Concerns about the statistical rigor and maturity of Chaos Labs' risk models compared to incumbents like Gauntlet.",
+      "Potential governance complexity and risk from multiple risk managers providing conflicting parameter recommendations.",
+      "Lack of a track record in DeFi governance and risk parameter recommendations, raising caution about entrusting critical tasks.",
+      "Forum debate reveals significant skepticism and warnings about potential vendor lock-in and overlapping roles."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Aave Governance Forum",
+        "quote": "Mixed forum sentiment with 18 negative, 3 neutral, and 2 positive comments; major concerns around Chaos Labs' rigor but also positive endorsements from Benqi and community members."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Snapshot voting timeline",
+        "quote": "Voting showed a consistent and stable early lead for 'Yes' with a perfect lead ratio and high stability metrics, indicating strong early support."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Adjacent similar proposal 0x9f65a5",
+        "quote": "Similar proposal also supported early and passed with a large margin, showing community willingness to onboard new risk contributors."
+      }
+    ],
+    "available_choices": [
+      " Yes",
+      "No"
+    ],
+    "event_start_utc": "2022-10-03T16:08:13Z",
+    "event_end_utc": "2022-10-09T16:00:00Z",
+    "event_time_utc": "2022-10-09T16:00:00Z",
+    "address_of_governance_token": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+    "token_price_impact_pct": -3.8075,
+    "tvl_impact_pct": -2.7888,
+    "actual_vote_result": {
+      "winner_label": " Yes",
+      "winner_index": 0,
+      "scores": [
+        438085.0235359613,
+        31.73607436123675
+      ],
+      "scores_total": 438116.75961032294,
+      "margin_abs": 438053.28746160003,
+      "margin_pct": 0.999855
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option ' Yes' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Timeline analysis shows unanimous early and stable support for 'Yes', indicating strong conviction from voters.\n- Forum sentiment is mixed but leans negative, highlighting community concerns over Chaos Labs' rigor and competition with Gauntlet; however, positive endorsements from notable DeFi actors and the open engagement approach support the proposal.\n- Market impact post-vote is slightly negative but minor; no direct evidence suggests this should prevent approval.\n- Historical lessons from a similar prior proposal show that onboarding additional risk vendors can be beneficial but requires careful monitoring.\n- The recommendation to 'Change' aligns with the voting timeline and encourages innovation and diversification in risk management, though deliverables must be closely observed.\n- The recommendation moderately diverges from aggregated forum sentiment, which is more skeptical, but prioritizes DAO long-term health and vendor competition benefits.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x9f65a598bee69a1dd84127d712ffedbc0795f0647e89056a297cae998dd18bf1",
+        "title": "Llama <> Aave",
+        "end_utc": "2022-09-28T19:45:00Z",
+        "summary": "Llama <> Aave closed on 2022-09-28T19:45:00Z. Timeline analytics noted 2505 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Moderate text overlap (score 0.29)",
+        "market_response": "token +0.18%; TVL +0.28%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -3.8075,
+    "ex_post_tvl_impact_pct": -2.7888,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -3.81%; TVL -2.79%"
+  },
+  "agentic_ai_choice": " Yes",
+  "actual_outcome": " Yes",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 18,
+    "Positive": 2,
+    "Neutral": 3,
+    "total_comments": 23
+  }
+}

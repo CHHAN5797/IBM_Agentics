@@ -1,0 +1,257 @@
+{
+  "captured_at_utc": "2025-10-08T08:52:08.125188+00:00",
+  "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x6fc671517d63e69232fafd581e9461c50150008aa61f5571d2767a150d24779c",
+  "focus": null,
+  "votes_count": 5500,
+  "timeline_metrics_current": {
+    "unique_voters": 5500,
+    "total_votes": 5500,
+    "first_vote_at": "2023-09-25T12:17:56Z",
+    "last_vote_at": "2023-09-25T16:32:31Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        448139.8336969853,
+        39924.00755081908,
+        12791.00461518683
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.246167,
+    "spike_follow_support_ratio": 0.982581,
+    "stairwise_ratio": 0.090896,
+    "half_slope_diff": -41.494161
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x5c0cecde14ec0b83c954b47c2d79348ce249019b83894f3938fc80b45e1232da",
+      "title": "Time Management in Arbitrum’s Governance",
+      "author": "0xAbAbE91A907fAdff921720C43ABe4098e7245E99",
+      "end_utc": "2023-09-07T04:00:50Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-08-31T04:01:26Z",
+        "last_vote_at": "2023-08-31T13:55:35Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            933387.5124734852,
+            16035.305171822596,
+            32910.09678099565
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.348011,
+        "spike_follow_support_ratio": 0.988314,
+        "stairwise_ratio": 0.042561,
+        "half_slope_diff": 33.006859
+      },
+      "price_impact_pct": -1.1383,
+      "tvl_impact_pct": 0.6472,
+      "similarity": 0.0595,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "For",
+        "margin_abs": 39698345.96266553,
+        "scores_total": 42148959.440151975,
+        "margin_pct": 0.9418582686254422
+      }
+    }
+  ],
+  "similar_proposals_data": [],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x6fc671517d63e69232fafd581e9461c50150008aa61f5571d2767a150d24779c",
+    "selected_choice_label": "For",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "The proposal to sponsor Ethereum Mexico 2023 by Arbitrum Foundation is recommended for approval based on strong early and stable voting support, positive community endorsements in the forum, and alignment with Arbitrum's ecosystem growth objectives. Despite some concerns about procedural funding channels and event timing, the proposal offers transparent budget details, community engagement metrics, and experienced organizers, indicating a high potential net positive impact for the DAO and Arbitrum ecosystem.",
+    "key_arguments_for": [
+      "Strong early voting support with 100% lead ratio and stability metrics favoring 'For' option",
+      "Transparent and detailed budget and event plan promoting education and community growth",
+      "Positive endorsements and support from community members and relevant stakeholders",
+      "Proposal aligns with Arbitrum's goals of ecosystem expansion, education, and user onboarding"
+    ],
+    "key_arguments_against": [
+      "Concerns about the funding channel and suggestion to use Questbook domain allocators for such events",
+      "Skepticism about event timing and ability to organize effectively before October 21",
+      "Preference expressed for a global budget for marketing/sponsorship activities instead of per-event voting"
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Arbitrum Foundation Forum discussion posts 5, 12, 17, 20, 22",
+        "quote": "Community members provided detailed event plans, budget breakdown, and endorsements; some expressed procedural concerns but recognized the proposal's value."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Voting timeline metrics",
+        "quote": "Voting showed 100% early and stable lead for 'For' with no opposition during the voting period."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Adjacent proposal 0x5c0cecde14ec0b83c954b47c2d79348ce249019b83894f3938fc80b45e1232da",
+        "quote": "Previous similar proposal on governance time management had a positive vote outcome and positive TVL impact, indicating community support for organized governance initiatives."
+      }
+    ],
+    "available_choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2023-09-25T12:17:32Z",
+    "event_end_utc": "2023-10-02T12:17:32Z",
+    "event_time_utc": "2023-10-02T12:17:32Z",
+    "address_of_governance_token": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+    "token_price_impact_pct": -3.4699,
+    "tvl_impact_pct": -0.1133,
+    "actual_vote_result": {
+      "winner_label": "For",
+      "winner_index": 0,
+      "scores": [
+        33993644.35347335,
+        18639075.592859868,
+        696226.9862036847
+      ],
+      "scores_total": 53328946.932540245,
+      "margin_abs": 15354568.760613482,
+      "margin_pct": 0.287922
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'For' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Voting timeline metrics show unanimous early and stable support for 'For' indicating strong consensus.\n- Forum sentiment is mostly positive with 7 positive, 2 negative, and 11 neutral comments; early comments show supportive rationale for sponsorship and community growth.\n- Some concerns about funding channels and timing do not outweigh overall community and organizational support.\n- Adjacent similar proposals showed successful outcomes and positive ecosystem impacts, reinforcing that this sponsorship aligns with DAO growth objectives.\n- Market impacts are slightly negative post-event but should not influence the recommendation; focus is on long-term DAO benefit.\n- Overall, the recommendation to approve mirrors the aggregated forum sentiment and voting dynamics, suggesting alignment between community opinion and proposed decision.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x5c0cecde14ec0b83c954b47c2d79348ce249019b83894f3938fc80b45e1232da",
+        "title": "Time Management in Arbitrum’s Governance",
+        "end_utc": "2023-09-07T04:00:50Z",
+        "summary": "Time Management in Arbitrum’s Governance closed on 2023-09-07T04:00:50Z. Timeline analytics noted 5500 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.06)",
+        "market_response": "token -1.14%; TVL +0.65%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -3.4699,
+    "ex_post_tvl_impact_pct": -0.1133,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -3.47%; TVL -0.11%"
+  },
+  "agentic_ai_choice": "For",
+  "actual_outcome": "For",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 2,
+    "Positive": 7,
+    "Neutral": 11,
+    "total_comments": 20
+  }
+}

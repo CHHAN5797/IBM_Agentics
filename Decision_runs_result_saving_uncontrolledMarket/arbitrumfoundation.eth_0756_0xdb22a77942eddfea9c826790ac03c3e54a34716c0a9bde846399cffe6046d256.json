@@ -1,0 +1,865 @@
+{
+  "captured_at_utc": "2025-10-07T06:48:08.357999+00:00",
+  "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0xdb22a77942eddfea9c826790ac03c3e54a34716c0a9bde846399cffe6046d256",
+  "focus": null,
+  "votes_count": 3338,
+  "timeline_metrics_current": {
+    "unique_voters": 3338,
+    "total_votes": 3338,
+    "first_vote_at": "2025-03-20T18:30:52Z",
+    "last_vote_at": "2025-03-27T18:11:12Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        24451660.8609622,
+        3476.2225396473527,
+        142.8612514057605
+      ],
+      [
+        1457690.1546327777,
+        29164.666751915807,
+        867.2035051627396
+      ],
+      [
+        28650702.711233206,
+        28.642827041751755,
+        583.4251325828537
+      ],
+      [
+        107872772.93081795,
+        0.7904455358714638,
+        19303341.47667831
+      ]
+    ],
+    "spike_index": 0.111672,
+    "spike_follow_support_ratio": 0.999997,
+    "stairwise_ratio": 0.00061,
+    "half_slope_diff": 299.781504
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0xc37793b67f39a6af9e9434003205b1d9b67dd6f75638329045257be823da4f18",
+      "title": "TMC Recommendation",
+      "author": "0xb4c064f466931B8d0F637654c916E3F203c46f13",
+      "end_utc": "2025-03-14T00:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 3201,
+        "total_votes": 3201,
+        "first_vote_at": "2025-03-07T00:12:13Z",
+        "last_vote_at": "2025-03-13T23:55:12Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            635778.917592818,
+            14787.36344214794,
+            90620.74806775458,
+            2499.916773740524,
+            1212.0056813144968
+          ],
+          [
+            1369257.7285063535,
+            388419.259280513,
+            161167.9957982983,
+            1486.205694520691,
+            291.63069946018226
+          ],
+          [
+            1667746.8238394652,
+            55452.46710559565,
+            24211212.36615468,
+            3146761.7331830794,
+            610425.0301181423
+          ],
+          [
+            40910805.20207229,
+            10133.558866367237,
+            50444743.567812085,
+            25948975.029803216,
+            22874623.44214131
+          ]
+        ],
+        "spike_index": 0.151749,
+        "spike_follow_support_ratio": 0.001169,
+        "stairwise_ratio": 0.004754,
+        "half_slope_diff": 1883.260111
+      },
+      "price_impact_pct": 5.0365,
+      "tvl_impact_pct": 2.597,
+      "similarity": 0.0773,
+      "actual_vote_result": {
+        "winner_index": 2,
+        "winner_label": "#3 Only Deploy Stable Strategy",
+        "margin_abs": 45077904.5117364,
+        "scores_total": 172546400.99263304,
+        "margin_pct": 0.26125091136303114
+      }
+    },
+    {
+      "id": "0xebbcad364ae7f02797b9cd7f30c668907d479d4bb5ba7f5d775849822297a01d",
+      "title": "Arbitrum Audit Program",
+      "author": "0xb4c064f466931B8d0F637654c916E3F203c46f13",
+      "end_utc": "2025-02-27T23:58:50Z",
+      "timeline_metrics": {
+        "unique_voters": 3351,
+        "total_votes": 3351,
+        "first_vote_at": "2025-02-21T00:04:32Z",
+        "last_vote_at": "2025-02-27T23:43:07Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.99953,
+            0.00047,
+            0.0
+          ],
+          [
+            0.10087,
+            0.89913,
+            0.0
+          ],
+          [
+            0.985423,
+            0.014577,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.8439271859146523,
+          0.15607281408534765,
+          0.0
+        ],
+        "stability": [
+          0.8439271859146523,
+          0.15607281408534765,
+          0.0
+        ],
+        "early_ratio": [
+          0.9995296331138288,
+          0.00047036688617121356,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            456163.73350515246,
+            1867748.1224833797,
+            12510.795942552726
+          ],
+          [
+            450954.29883770325,
+            468383.43147199013,
+            1355.6870200973108
+          ],
+          [
+            20044026.033817478,
+            3084249.321990656,
+            325038.7799438248
+          ],
+          [
+            58124859.198670305,
+            817772.3084131645,
+            59079583.27512378
+          ]
+        ],
+        "spike_index": 0.229096,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.000593,
+        "half_slope_diff": 460.780775
+      },
+      "price_impact_pct": 3.515,
+      "tvl_impact_pct": -6.4359,
+      "similarity": 0.0852,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "For",
+        "margin_abs": 19657514.72680033,
+        "scores_total": 144732644.98722002,
+        "margin_pct": 0.1358194948246548
+      }
+    },
+    {
+      "id": "0x7cc26491a070c74c1a4ec5a9892571d31eb690015936a35b52c0d3a97bd5497f",
+      "title": "[CONSTITUTIONAL] AIP: ArbOS Version 40 Callisto",
+      "author": "0xb4c064f466931B8d0F637654c916E3F203c46f13",
+      "end_utc": "2025-02-27T23:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 3328,
+        "total_votes": 3328,
+        "first_vote_at": "2025-02-20T23:11:25Z",
+        "last_vote_at": "2025-02-27T22:59:14Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            22645599.006057136,
+            4441.161014865948,
+            5118.151580150417
+          ],
+          [
+            697907.2049019311,
+            326.9041505596037,
+            9128.271560915973
+          ],
+          [
+            23120750.829486843,
+            2937.27898785223,
+            2724.518853975323
+          ],
+          [
+            77494986.1930486,
+            126.51077069769033,
+            20013206.217085525
+          ]
+        ],
+        "spike_index": 0.146145,
+        "spike_follow_support_ratio": 0.999988,
+        "stairwise_ratio": 0.000766,
+        "half_slope_diff": -335.73353
+      },
+      "price_impact_pct": 3.515,
+      "tvl_impact_pct": -6.4359,
+      "similarity": 0.1144,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "For",
+        "margin_abs": 103929066.07441378,
+        "scores_total": 143997252.24749905,
+        "margin_pct": 0.7217433975461072
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x22f9e560d0a4aac46cc1e49ea71858d531226d0750409acdbfd766fa9c5eb1cb",
+      "cleaned": {
+        "proposal_id": "0x22f9e560d0a4aac46cc1e49ea71858d531226d0750409acdbfd766fa9c5eb1cb",
+        "title": "Enhancing Multichain Governance: Upgrading RARI Governance Token on Arbitrum",
+        "author": "0xb5B069370Ef24BC67F114e185D185063CE3479f8",
+        "end_utc": "2024-09-12T15:57:00Z",
+        "similarity_score": 0.1908,
+        "winning_option": "For",
+        "winning_option_index": 0,
+        "margin_abs": 158660490.89248633,
+        "margin_pct": 0.9963169865216928,
+        "scores_total": 159246999.7389047,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 3402,
+        "total_votes": 3402,
+        "first_vote_at": "2024-09-05T15:57:37Z",
+        "last_vote_at": "2024-09-12T15:55:55Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            5851318.304372452,
+            13079.688686537518,
+            5536.346921020683
+          ],
+          [
+            7668231.070246906,
+            8500.96083428907,
+            1799.025512661015
+          ],
+          [
+            28919430.17950269,
+            205602.10311562454,
+            5708.219957681943
+          ],
+          [
+            116507419.96383472,
+            58725.872834021335,
+            1648.0030861236442
+          ]
+        ],
+        "spike_index": 0.116975,
+        "spike_follow_support_ratio": 0.996093,
+        "stairwise_ratio": 0.000791,
+        "half_slope_diff": 593.699577
+      },
+      "raw": {
+        "id": "0x22f9e560d0a4aac46cc1e49ea71858d531226d0750409acdbfd766fa9c5eb1cb",
+        "title": "Enhancing Multichain Governance: Upgrading RARI Governance Token on Arbitrum",
+        "author": "0xb5B069370Ef24BC67F114e185D185063CE3479f8",
+        "body": "## Abstract\n\nThe RARI DAO seeks to enhance its governance framework by upgrading the RARI token contract and bringing its governance from Ethereum mainnet to the Arbitrum ecosystem. This proposal requests a custom gateway for a new RARI L2 token contract via Arbitrum native bridge, as only the Arbitrum DAO can implement this change. The custom gateway will enable more efficient governance processes for while reducing user costs and improving overall accessibility for RARI DAO. The proposal asks to register the custom L2 token to a custom gateway on the Arbitrum native bridge.\n\n## Motivation\n\nRARI DAO is governed by the $RARI token, which when locked in veRARI grants voting access. The current token contract is on Ethereum mainnet and is not upgradable. The RARI DAO wishes to upgrade its governance, a part of which is a token contract upgrade with snapshots and delegations embedded. Only the Arbitrum DAO can however set up the mapping of L1 -> L2 token addresses in the custom gateway (which is controlled by Arbitrum DAO)  on the Arbitrum native bridge. Here is more information about the topic: https://docs.arbitrum.io/build-decentralized-apps/token-bridging/token-bridge-erc20#setting-up-your-token-with-the-generic-custom-gateway\n\n## Rationale\n\nThe RARI DAO multichain governance upgrade is designed to make governance more accessible by simplifying the UX, reducing gas fees, and enabling new token functions. This aligns with Artbitrum's commitment to user-centricity and technical inclusivity.\n\nWith a custom L2 token implementation we will be able to perform the RARI DAO governance upgrade and move our governance fully into the Arbitrum ecosystem.\n\nMore on RARI DAO's plan for governance upgrade can be found HERE.\n\n## Key Terms\n\nRARI token: RARI DAO governance token (https://etherscan.io/token/0xfca59cd816ab1ead66534d82bc21e7515ce441cf\n\nRARI DAO: body governing the Rarible Protocol and RARI chain\n\nCustom L2 RARI token: upgraded and simplified RARI token to be used in RARI DAO multichain governance moving forward\n\n## Specifications\n\nRARI token in question (https://etherscan.io/token/0xfca59cd816ab1ead66534d82bc21e7515ce441cf) does not have upgradability nor allows the owner to register in the Arbitrum token bridge router.\n\nAs such, we're requesting a custom L2 token implementation and using the (standard) custom gateway. Lacking the ability to upgrade / owner-register, we are seeking Artbirum DAO's approval to register the upgraded RARI token to the custom gateway so we can proceed with the custom L2 implementation.\n\nThe upgraded token contract was fully audited and can be found here: [https://github.com/rarible/protocol-contracts/pull/305](https://github.com/rarible/protocol-contracts/pull/305).\n\nToken contract was deployed to Arbitrum Sepolia, RARI testnet (which is on top of Arbitrum Sepolia) and all contracts were tested manually as well.\n\nRARI DAO voted in favor of the upgraded token: https://www.tally.xyz/gov/rari-foundation/proposal/85102068202527969889208024703113668965813715410446115075088330064807449302588\n\n## Steps to Implement\n\n1. Deploy token contracts on Arbitrum and RARI chains (done)\n2. Security audit of the proposed code change (in progress by Arbitrum Foundation)\n3. Onchain vote to change mapping for L1 → L2 tokens on bridge router and custom gateway (This can be done only by Arbitrum DAO)\n\n## Timeline\n\nImplementation upon the proposal's execution (aiming late September).\n\n## Overall costs\n\nN/A",
+        "end_utc": "2024-09-12T15:57:00Z",
+        "similarity_score": 0.1908,
+        "vote_result": {
+          "choices": [
+            "For",
+            "Against",
+            "Abstain"
+          ],
+          "scores": [
+            158946399.5179568,
+            285908.62547047244,
+            14691.59547748729
+          ],
+          "scores_total": 159246999.7389047,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "arbitrum",
+          "status": "tvl_data_unavailable",
+          "error": "Could not fetch TVL data: TVL cache not found for slug='arbitrum'"
+        },
+        "price_impact": {
+          "token_id": "11841",
+          "ticker": "ARB",
+          "status": "success",
+          "event_time_utc": "2024-09-12T15:57:00",
+          "pre_price_avg": 0.524448365,
+          "post_price_avg": 0.51195687,
+          "abnormal_change": -2.3818,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.023818,
+          "abnormal_change_pct": -2.3818
+        }
+      }
+    },
+    {
+      "proposal_id": "0x98a2b1eebda641b31d7d22a60708840ec7899157e00a4028f2e9f3030ddaf7a8",
+      "cleaned": {
+        "proposal_id": "0x98a2b1eebda641b31d7d22a60708840ec7899157e00a4028f2e9f3030ddaf7a8",
+        "title": "AIP: BoLD - permissionless validation for Arbitrum",
+        "author": "0xb5B069370Ef24BC67F114e185D185063CE3479f8",
+        "end_utc": "2024-06-13T18:16:34Z",
+        "similarity_score": 0.1298,
+        "winning_option": "For",
+        "winning_option_index": 0,
+        "margin_abs": 166875769.18411812,
+        "margin_pct": 0.9985912256325526,
+        "scores_total": 167111191.14671922,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2024-06-06T18:17:18Z",
+        "last_vote_at": "2024-06-10T12:00:24Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1048953.3573839813,
+            10170.911692169111,
+            19662.901950741212
+          ],
+          [
+            794855.3180078416,
+            23856.667370859064,
+            20497.554284924514
+          ],
+          [
+            3554193.3960979483,
+            1458.729631609627,
+            1512.3410699859198
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.502618,
+        "spike_follow_support_ratio": 0.97481,
+        "stairwise_ratio": 0.01607,
+        "half_slope_diff": 23.699946
+      },
+      "raw": {
+        "id": "0x98a2b1eebda641b31d7d22a60708840ec7899157e00a4028f2e9f3030ddaf7a8",
+        "title": "AIP: BoLD - permissionless validation for Arbitrum",
+        "author": "0xb5B069370Ef24BC67F114e185D185063CE3479f8",
+        "body": "This Snapshot vote aims to solicit a temperature check from the ArbitrumDAO on their stance for bringing the BoLD upgrade to Arbitrum One and Nova. BoLD is a new dispute resolution protocol that unlocks permissionless validation for Arbitrum chains and enhances their security by mitigating the risk of delay attacks.\n\nFor more information, please refer to the original [BoLD AIP Forum Post](https://forum.arbitrum.foundation/t/aip-bold-permissionless-validation-for-arbitrum/23232) where you will find public audit reports, the BoLD whitepaper (that contain the formal specification and safety proofs), as well as further explanations of how BoLD works (including an overview of BoLD’s economics, spam prevention, rewards, reimbursements and penalties) and its proposed design for Arbitrum One and Arbitrum Nova.\n\n## Constitutional Proposal\n\n## Abstract\n\nThis Constitutional AIP proposes upgrading Arbitrum One and Arbitrum Nova’s Rollup Contracts to use Arbitrum BoLD and to support a new challenger manager contract on Ethereum. Arbitrum BoLD is a new dispute resolution protocol that’s designed to replace the existing and currently deployed Arbitrum protocol. If the upgrade is approved, then validators on Arbitrum One and Arbitrum Nova can use the Nitro software to participate in BoLD. BoLD delivers two critical improvements:\n- Unlocks permissionless validation for Arbitrum chains,\n- Enhances the security of Arbitrum chains by mitigating the risk of [delay attacks](https://medium.com/offchainlabs/solutions-to-delay-attacks-on-rollups-434f9d05a07a).\n\nBoLD accomplishes this feat by ensuring that any single honest party can always successfully defend against malicious claims to an Arbitrum chain’s state. BoLD represents the next step on the journey to having the Arbitrum technology stack being recognized as a [Stage 2 Ethereum rollup](https://ethereum-magicians.org/t/proposed-milestones-for-rollups-taking-off-training-wheels/11571). The implementation of BoLD will be thoroughly tested to ensure both its effectiveness and safety. The testing plan includes:\n- A comprehensive [audit by Trail of Bits](https://github.com/trailofbits/publications/blob/master/reviews/2024-04-offchainbold-securityreview.pdf),\n- Deployment of the protocol to public testnets for at least 8 weeks,\n- A public [audit program](https://code4rena.com/audits/2024-05-arbitrum-bold),\n- [Publication of mathematical safety proofs and formal specifications](https://arxiv.org/abs/2404.10491).\n\n## Motivation\n\nThe ArbitrumDAO should consider approving this AIP as BoLD delivers critical security and decentralization improvements for Arbitrum One and Nova that benefit all Arbitrum users, Arbitrum node operators, dApps on Arbitrum, and Arbitrum bridges. These benefits can be extended to any Orbit chain that wishes to adopt BoLD.\n\nMore specifically, this new dispute resolution protocol brings the following benefits to Arbitrum chains:\n- Permissionless validation\n- Fixed delay time for assertion confirmation\n- Security Council Safety-First Approach\n\nMore details on these benefits can be found in the [Motivation section of the original proposal](https://forum.arbitrum.foundation/t/aip-bold-permissionless-validation-for-arbitrum/23232#motivation-2).\n\n## Rationale\n\nEnabling permissionless validation has been a long-term goal of Arbitrum on the [progressive journey towards decentralization](https://docs.arbitrum.foundation/state-of-progressive-decentralization).\n\nBoLD mitigates the risk of delay attacks on Optimistic Rollups by ensuring challenges can be resolved within a fixed time period as long as there is an honest party involved. This particular change unlocks permissionless validation, enabling any well-resourced honest party or parties to defend and protect Arbitrum from malicious actors.\n\nMore details on the community values that this proposal supports, can be found in the [Rationale section of the original proposal](https://forum.arbitrum.foundation/t/aip-bold-permissionless-validation-for-arbitrum/23232#rationale-3).\n\n## Implementation, Formal Specification, and Safety Proofs\n\nThe following link, [BoLD Implementation Deep Dive](https://github.com/OffchainLabs/bold/blob/main/docs/research-specs/TechnicalDeepDive.pdf), explains how BoLD is implemented and how it works at a high level. To read about the formal specifications and mathematical safety proofs for the protocol, check out the [official BoLD whitepaper](https://arxiv.org/abs/2404.10491).\n\n## Economics of Disputes, including the cost to participate, rewards, and penalties\n\nThe economics behind BoLD are carefully researched and designed to optimize for the security of the protocol while keeping costs reasonable for honest parties. More details on this topic can be found in the [Economics section of the original proposal](https://forum.arbitrum.foundation/t/aip-bold-permissionless-validation-for-arbitrum/23232#overview-of-bolds-economics-and-spam-prevention-5) and this short paper on the [Economics of Disputes in BoLD](https://github.com/OffchainLabs/bold/blob/main/docs/research-specs/Economics.pdf). \n\n## Technical Risks\n\nSome of the technical risks of the BoLD upgrade include:\n- Issues preventing liveness of challenges due to smart contract bugs in the new contracts. For instance, no honest validator able to make a move when it should be able to;\n- Safety issues where a malicious party is able to game the system and win due to logic errors in smart contracts;\n- Logic bugs in the assertion smart contracts that could affect assertion confirmation and posting, which could delay withdrawals until it is fixed; and\n- Bugs in bonding logic in the smart contracts that could lead to loss of funds due to logic errors in the Arbitrum Rollup and challenge manager smart contracts.\n\nRisks that remain the same between the current Arbitrum Rollup protocol and BoLD:\n- Bugs in the one step proof logic: BoLD does not change how one step proofs work for Arbitrum chains.\n\n## Timeline and steps to implement BoLD for Arbitrum One and Nova\n\nBelow is a list of initiatives to ensure the new BoLD dispute resolution protocol is ready to be reviewed and voted on by the ArbitrumDAO for adoption in Arbitrum One and Nova. Feedback from the community and any findings from testing will be collected and used to inform decisions and evolve BoLD along the way.\n\n1. Deployment of a public testnet with BoLD validators for a minimum of 4 weeks\n  a. Check out this guide on [how to deploy a BoLD validator on the testnet](https://github.com/offchainlabs/bold-validator-starter-kit) to begin testing out permissionless validation using Arbitrum technology!\n2. The submission of the AIP in the format of a [forum post](https://forum.arbitrum.foundation/t/aip-bold-permissionless-validation-for-arbitrum/23232).\n3. [Audit of the protocol’s implementation by Trail of Bits](https://github.com/trailofbits/publications/blob/master/reviews/2024-04-offchainbold-securityreview.pdf)\n4. Hosting of governance calls to talk about BoLD to answer questions from the community about BoLD and this AIP.\n5. This formal temperature check proposal to activate BoLD on Arbitrum’s Sepolia for a minimum of 4 weeks, be made via a Snapshot vote.\n6. Kick-start a [public audit program](https://code4rena.com/audits/2024-05-arbitrum-bold).\n7. Finalize pre-mainnet requirements, including:\n  a. Publication of BoLD migration documentation for existing validators;\n  b. Deployment of a monitoring stack to view on-going challenges on an Arbitrum chain; and\n  c. Publication of a formal procedure for The Arbitrum Foundation to handle L1 gas costs reimbursements for honest parties.\n8. Formal AIP gets submitted to Tally.\n9. Should the formal on-chain proposal pass, BoLD will activate on Arbitrum One and Nova.\n\n## Overall Cost\n\nThere is no cost for this proposal to the ArbitrumDAO as Offchain Labs, Inc. will incur all engineering and audit costs to complete the implementation of BoLD and get this new dispute resolution protocol into a mainnet-ready state. Currently, future development work for BoLD is expected to also be undertaken by Offchain Labs, Inc.\n\n## Disclaimer\n\nThe confirmation timing on any withdrawal that is in-flight when the proposed BoLD upgrade is activated will be delayed until the first BoLD assertion is confirmed. This means that for any Arbitrum chain that upgrades to use BoLD, including Arbitrum One and Arbitrum Nova, all pending withdrawals to L1 Ethereum that were initiated before the upgrade will be delayed by 1 challenge period, plus the time between the withdrawal was initiated and the time that the BoLD upgrade takes place. This is because the upgrade effectively “resets” the challenge period for that are not yet finalized.\n\n## FAQ\n\nFor additional topics & questions, please visit the BoLD specific FAQ document [here](https://www.notion.so/arbitrumfoundation/Arbitrum-BoLD-FAQ-93210f430a6a470792496be040ac9990).",
+        "end_utc": "2024-06-13T18:16:34Z",
+        "similarity_score": 0.1298,
+        "vote_result": {
+          "choices": [
+            "For",
+            "Against",
+            "Abstain"
+          ],
+          "scores": [
+            166971939.93604475,
+            43080.45874771479,
+            96170.7519266452
+          ],
+          "scores_total": 167111191.14671922,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "arbitrum",
+          "status": "tvl_data_unavailable",
+          "error": "Could not fetch TVL data: TVL cache not found for slug='arbitrum'"
+        },
+        "price_impact": {
+          "token_id": "11841",
+          "ticker": "ARB",
+          "status": "success",
+          "event_time_utc": "2024-06-13T18:16:34",
+          "pre_price_avg": 0.9553229649999999,
+          "post_price_avg": 0.9226673599999999,
+          "abnormal_change": -3.4183,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.034183,
+          "abnormal_change_pct": -3.4183
+        }
+      }
+    },
+    {
+      "proposal_id": "0x7cc26491a070c74c1a4ec5a9892571d31eb690015936a35b52c0d3a97bd5497f",
+      "cleaned": {
+        "proposal_id": "0x7cc26491a070c74c1a4ec5a9892571d31eb690015936a35b52c0d3a97bd5497f",
+        "title": "[CONSTITUTIONAL] AIP: ArbOS Version 40 Callisto",
+        "author": "0xb4c064f466931B8d0F637654c916E3F203c46f13",
+        "end_utc": "2025-02-27T23:00:00Z",
+        "similarity_score": 0.126,
+        "winning_option": "For",
+        "winning_option_index": 0,
+        "margin_abs": 103929066.07441378,
+        "margin_pct": 0.7217433975461072,
+        "scores_total": 143997252.24749905,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 3328,
+        "total_votes": 3328,
+        "first_vote_at": "2025-02-20T23:11:25Z",
+        "last_vote_at": "2025-02-27T22:59:14Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            22645599.006057136,
+            4441.161014865948,
+            5118.151580150417
+          ],
+          [
+            697907.2049019311,
+            326.9041505596037,
+            9128.271560915973
+          ],
+          [
+            23120750.829486843,
+            2937.27898785223,
+            2724.518853975323
+          ],
+          [
+            77494986.1930486,
+            126.51077069769033,
+            20013206.217085525
+          ]
+        ],
+        "spike_index": 0.146145,
+        "spike_follow_support_ratio": 0.999988,
+        "stairwise_ratio": 0.000766,
+        "half_slope_diff": -335.73353
+      },
+      "raw": {
+        "id": "0x7cc26491a070c74c1a4ec5a9892571d31eb690015936a35b52c0d3a97bd5497f",
+        "title": "[CONSTITUTIONAL] AIP: ArbOS Version 40 Callisto",
+        "author": "0xb4c064f466931B8d0F637654c916E3F203c46f13",
+        "body": "Type: Constitutional AIP\n\n## Abstract\n\nThis AIP proposes to upgrade Arbitrum One and Arbitrum Nova to ArbOS 40 “Callisto”. Callisto adds support for relevant Execution Layer (EL) changes from Ethereum’s upcoming [Pectra upgrade](https://eips.ethereum.org/EIPS/eip-7600) (H1 2025) and a small Arbitrum Stylus related fix. Among the EL changes include a way for Externally Owned Accounts (EOAs) to execute smart contract code directly from their addresses (via [EIP-7702](https://eips.ethereum.org/EIPS/eip-7702)) and new pre-compiles to efficiently perform operations over the BLS12-381 elliptic curve, including those for BLS signature verification (via [EIP-2537](https://eips.ethereum.org/EIPS/eip-2537)).\n\nWhile the goal of the proposed ArbOS 40 “Callisto” upgrade is to eventually be available for adoption by any Arbitrum Chain, this proposal only concerns the Arbitrum One and Arbitrum Nova chains, as these two chains are governed by the Arbitrum DAO. On a high level, an ArbOS upgrade can be interpreted as Arbitrum’s equivalent of a hard fork - more can be read about the subject over in Arbitrum ArbOS upgrades [here](https://forum.arbitrum.foundation/t/arbitrum-arbos-upgrades/19695).\n\nPlease note that ArbOS Version 40 “Callisto” is a proposed upgrade that builds upon ArbOS version 32 which has been previously adopted by the ArbitrumDAO - this proposal increments the version number to 40 instead of 33 due to technical details that allow for better Orbit chain customizability as explained [here](https://docs.arbitrum.io/launch-orbit-chain/how-tos/arbos-upgrade#step-3-schedule-the-arbos-version-upgrade).\n\n## Changes that will be included in ArbOS 40 Callisto:\n\n### [EIP-7702: Set EOA Account code ](https://eips.ethereum.org/EIPS/eip-7702)\n\nEIP-7702 introduces a new transaction type that allows Externally Owned Accounts (EOAs) to set executable code adding account-abstraction functionality to EOAs such as delegation, batching, sponsorship, and privilege de-escalation. In terms of batching, multiple operations can be combined (ex. token approval, token spend) in an atomic transaction. Transaction sponsorship or paymaster support can also be extended to EOAs. Discrete permissioning can also be enabled with the use of sub-keys.\n\n### [EIP-2537: Precompile for BLS12-381 curve operations](https://eips.ethereum.org/EIPS/eip-2537)\n\nThis EIP introduces precompiles for performing cryptographic operations on the [BLS12-381 curve](https://electriccoin.co/blog/new-snark-curve/) and focuses on enhancing the efficiency and security of those operations. This cryptographic primitive unlocks 120+ bits of security for operations over the pairing-friendly curves, compared to the existing BN254 precompile which only provides 80 bits of security. BLS signature verification is the primary use case for this EIP, though many other applications that rely on point additions, multiplications, and pairing operations stand to gain from this proposal; examples are zkSNARKS, cross-chain interactions, randomness beacons, and vector commitments.\n\n### [EIP-2935: Serve historical block hashes from state](https://eips.ethereum.org/EIPS/eip-2935)\n\nThis EIP proposes storing a wider window of block hashes in the storage of a dedicated system contract. Bundling historical block hashes within the state enables efficient data retrieval for applications that require extended access to historical block hashes, like stateless clients. If approved, ArbOS 40 will adapt this EIP to the L2 and store the same number of L2 block hashes that are generated in the time it takes for 8192 L1 blocks to be built - this is approximately 27 hours worth of L2 block hashes.\n\nType: Constitutional AIP\n\n## Abstract\n\nThis AIP proposes to upgrade Arbitrum One and Arbitrum Nova to ArbOS 40 “Callisto”. Callisto adds support for relevant Execution Layer (EL) changes from Ethereum’s upcoming [Pectra upgrade](https://eips.ethereum.org/EIPS/eip-7600) (H1 2025) and a small Arbitrum Stylus related fix. Among the EL changes include a way for Externally Owned Accounts (EOAs) to execute smart contract code directly from their addresses (via [EIP-7702](https://eips.ethereum.org/EIPS/eip-7702)) and new pre-compiles to efficiently perform operations over the BLS12-381 elliptic curve, including those for BLS signature verification (via [EIP-2537](https://eips.ethereum.org/EIPS/eip-2537)).\n\nWhile the goal of the proposed ArbOS 40 “Callisto” upgrade is to eventually be available for adoption by any Arbitrum Chain, this proposal only concerns the Arbitrum One and Arbitrum Nova chains, as these two chains are governed by the Arbitrum DAO. On a high level, an ArbOS upgrade can be interpreted as Arbitrum’s equivalent of a hard fork - more can be read about the subject over in Arbitrum ArbOS upgrades [here](https://forum.arbitrum.foundation/t/arbitrum-arbos-upgrades/19695).\n\nPlease note that ArbOS Version 40 “Callisto” is a proposed upgrade that builds upon ArbOS version 32 which has been previously adopted by the ArbitrumDAO - this proposal increments the version number to 40 instead of 33 due to technical details that allow for better Orbit chain customizability as explained [here](https://docs.arbitrum.io/launch-orbit-chain/how-tos/arbos-upgrade#step-3-schedule-the-arbos-version-upgrade).\n\n## Changes that will be included in ArbOS 40 Callisto:\n\n### [EIP-7702: Set EOA Account code ](https://eips.ethereum.org/EIPS/eip-7702)\n\nEIP-7702 introduces a new transaction type that allows Externally Owned Accounts (EOAs) to set executable code adding account-abstraction functionality to EOAs such as delegation, batching, sponsorship, and privilege de-escalation. In terms of batching, multiple operations can be combined (ex. token approval, token spend) in an atomic transaction. Transaction sponsorship or paymaster support can also be extended to EOAs. Discrete permissioning can also be enabled with the use of sub-keys.\n\n### [EIP-2537: Precompile for BLS12-381 curve operations](https://eips.ethereum.org/EIPS/eip-2537)\n\nThis EIP introduces precompiles for performing cryptographic operations on the [BLS12-381 curve](https://electriccoin.co/blog/new-snark-curve/) and focuses on enhancing the efficiency and security of those operations. This cryptographic primitive unlocks 120+ bits of security for operations over the pairing-friendly curves, compared to the existing BN254 precompile which only provides 80 bits of security. BLS signature verification is the primary use case for this EIP, though many other applications that rely on point additions, multiplications, and pairing operations stand to gain from this proposal; examples are zkSNARKS, cross-chain interactions, randomness beacons, and vector commitments.\n\n### [EIP-2935: Serve historical block hashes from state](https://eips.ethereum.org/EIPS/eip-2935)\n\nThis EIP proposes storing a wider window of block hashes in the storage of a dedicated system contract. Bundling historical block hashes within the state enables efficient data retrieval for applications that require extended access to historical block hashes, like stateless clients. If approved, ArbOS 40 will adapt this EIP to the L2 and store the same number of L2 block hashes that are generated in the time it takes for 8192 L1 blocks to be built - this is approximately 27 hours worth of L2 block hashes.\n\nMinor Stylus fix to correct caching behavior for contracts that do not exist\n\n### Minor Stylus fix to correct caching behavior for contracts that do not exist\n\nCurrently, Stylus will cache results from calling account_code and account_code_size for a contract that does not exist. We would like to propose a fix to address this so that the call returns the correct information that properly reflects the latest state of the contract’s code or code size. This change will not increment the Stylus version and so a re-activation of already-deployed Stylus contracts will not be required.\n\n## Pectra changes that are not included in the proposed ArbOS 40 Callisto Upgrade\n\nSupport and implementation for the following EIPs are not planned to be part of ArbOS 40 Callisto:\n\n* All Ethereum Consensus Layer (CL) Pectra changes (EIP-6610, EIP-7002, EIP-7251, EIP-7549, EIP-7691) because Arbitrum chains do not have a beacon chain and therefore do not have a peer-to-peer layer like Ethereum does.\n* [EIP-7623: Increase calldata cost](https://eips.ethereum.org/EIPS/eip-7623): because block size variance is less of a concern on Arbitrum chains. This is because of two reasons. First, Arbitrum chains do not require nodes to send blocks over the network through its peer-to-peer layer and instead rely on the parent chain’s RPC to retrieve block data. Secondly, because Arbitrum block sizes are already limited to ~100KB and so increasing calldata cost is not expected to reduce Arbitrum block sizes.\n* [EIP-7685: General purpose execution layer requests](https://eips.ethereum.org/EIPS/eip-7685): because Arbitrum chains do not have a beacon chain and, therefore, there is nothing to request from the EL on Arbitrum chains.\n* [EIP-7840: Add blob schedule to EL configuration files](https://eips.ethereum.org/EIPS/eip-7840): because Arbitrum chains do not support posting blobs on the rollup (but otherwise still does support posting blobs to Ethereum L1).\n\n## Steps to implement\n\nMore detailed information about the specific implementation and versions will be provided closer to the date of the formal on-chain Tally vote. However, this proposal will roughly follow the below steps:\n\n1. An AIP outlining the proposed upgrade and specification is proposed to the ArbitrumDAO Forum for discussion (this post)\n2. A temperature check vote is held on Snapshot\n3. Engineering work to scope out and implement the relevant changes for ArbOS 40 Callisto into the Nitro node software, relevant rollup contracts, and associated upgrade actions (this work has already begun).\n4. A security audit of all ArbOS 40 relevant changes is conducted by a third-party (Trail of Bits) and the audit report is published for public consumption.\n5. A new version of Nitro and nitro-contracts is released that support ArbOS 40 Callisto.\n6. Should the Snapshot vote pass, then ArbOS 40 Callisto will be deployed to both private devnets & Arbitrum Sepolia for testing.\n7. A formal AIP and call-to-vote is proposed to Tally for the on-chain vote.\n8. If the Tally vote passes, ArbOS 40 Callisto will be activated on Arbitrum One and on Arbitrum Nova following the required waiting periods and phases, as outlined in the [ArbitrumDAO Constitution for a Constitutional AIP](https://docs.arbitrum.foundation/concepts/lifecycle-anatomy-aip-proposal).\n\n### **Note on Pectra hard fork timelines:**\n\nSimilar to the [ArbOS 20 Atlas upgrade](https://docs.arbitrum.io/run-arbitrum-node/arbos-releases/arbos20) and the [Ethereum Dencun hard fork](https://blog.ethereum.org/2024/02/27/dencun-mainnet-announcement) in March 2024, the activation timestamp for ArbOS 40 Callisto will be targeted for roughly the same timestamp as when Ethereum Mainnet hard forks. At the time of writing and as of the latest [All Core Devs Consensus (ACDC) Call #150 held on Feb 6th, 2025](https://ethereum-magicians.org/t/all-core-devs-consensus-acdc-150-february-6-2025/22703), the timestamp of the Ethereum Mainnet fork for Pectra is targeted for April 8, 2025. The tentative dates for Ethereum Holesky and Ethereum Sepolia to upgrade to Pectra are Feb 24, 2025 and March 5, 2025, respectively. The exact slot for mainnet Ethereum is expected to be chosen on March 6, 2025.\n\nGiven that the L1 client teams are planning to release their Pectra-supported versions by Feb 13, 2025 and that the required steps for a [Constitutional AIP can take up to ~41.4 days](https://docs.arbitrum.foundation/concepts/lifecycle-anatomy-aip-proposal) (not including engineering and audit), there is a strong likelihood that ArbOS 40 Callisto will be activated on Arbitrum One and Arbitrum Nova after Ethereum Mainnet upgrades to Pectra (if the ArbitrumDAO votes to adopt this proposal). We will endeavor to keep this proposal updated as timelines become more concrete.",
+        "end_utc": "2025-02-27T23:00:00Z",
+        "similarity_score": 0.126,
+        "vote_result": {
+          "choices": [
+            "For",
+            "Against",
+            "Abstain"
+          ],
+          "scores": [
+            123959243.23349434,
+            7831.854923975474,
+            20030177.15908057
+          ],
+          "scores_total": 143997252.24749905,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "arbitrum",
+          "status": "tvl_data_unavailable",
+          "error": "Could not fetch TVL data: TVL cache not found for slug='arbitrum'"
+        },
+        "price_impact": {
+          "token_id": "11841",
+          "ticker": "ARB",
+          "status": "success",
+          "event_time_utc": "2025-02-27T23:00:00",
+          "pre_price_avg": 0.420158945,
+          "post_price_avg": 0.44021599499999997,
+          "abnormal_change": 4.7737,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.047737,
+          "abnormal_change_pct": 4.7737
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0xdb22a77942eddfea9c826790ac03c3e54a34716c0a9bde846399cffe6046d256",
+    "selected_choice_label": "For",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "This proposal aims to register the Sky Custom Gateway contracts in the Arbitrum Router to enable seamless bridging of USDS and sUSDS tokens via the official Arbitrum Bridge UI. The proposal is low risk, cost-free, and supported by multiple audits and community members, with strong community sentiment in favor.",
+    "key_arguments_for": [
+      "Improves user experience by allowing seamless bridging of USDS and sUSDS through the official Arbitrum Bridge UI.",
+      "No direct additional costs to the DAO.",
+      "Sky Custom Gateway contracts have undergone multiple reputable audits (ChainSecurity, Cantina) and formal verification (Certora).",
+      "Arbitrum DAO retains authority to update or revert gateways at any time, ensuring oversight.",
+      "Strong collaboration and readiness of both Sky and Offchain Labs to implement the proposal.",
+      "Similar past proposals (e.g., RARI gateway registration) were successful without issues."
+    ],
+    "key_arguments_against": [
+      "Concerns about the DAO’s long-term criteria and governance for custom gateways.",
+      "Questions about contingency plans for emergencies and upgrade governance balance.",
+      "Some community members feel operational decisions like this should be delegated to Offchain Labs or a specialized committee to reduce DAO governance overhead.",
+      "Need for clearer communication and transition plans for users bridging via default gateways."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Forum discussion on Arbitrum Foundation forum",
+        "quote": "Multiple community members express support citing audits, low risk, and improved UX. Some request clearer governance frameworks and contingency plans. Offchain Labs and Sky collaboration confirmed."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Timeline metrics",
+        "quote": "Voting timeline metrics show a strong and stable lead for 'For' option throughout the voting period with 100% lead ratio and stability."
+      },
+      {
+        "source_tool": "govnews_search_governance_news",
+        "reference": "Adjacent proposal analytics",
+        "quote": "Similar past proposals such as RARI gateway registration were successful and led to positive ecosystem impacts without adverse market reactions."
+      }
+    ],
+    "available_choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-03-20T18:30:00Z",
+    "event_end_utc": "2025-03-27T18:30:00Z",
+    "event_time_utc": "2025-03-27T18:30:00Z",
+    "address_of_governance_token": "0x6491c05a82219b8d1479057361ff1654749b876b",
+    "token_price_impact_pct": -10.2455,
+    "tvl_impact_pct": -5.0495,
+    "actual_vote_result": {
+      "winner_label": "For",
+      "winner_index": 0,
+      "scores": [
+        162432826.65764588,
+        32670.32256414078,
+        19304934.966567468
+      ],
+      "scores_total": 181770431.9467774,
+      "margin_abs": 143127891.69107842,
+      "margin_pct": 0.78741
+    },
+    "simulation_reason": "Recommendation based on timeline metrics, forum sentiment, and historical similar proposals; excludes ex-post tally.",
+    "references": [
+      {
+        "title": "[CONSTITUTIONAL] Proposal: For Arbitrum DAO to register the Sky Custom Gateway contracts in the Router",
+        "url": "https://forum.arbitrum.foundation/t/proposal-for-arbitrum-dao-to-register-the-sky-custom-gateway-contracts-in-the-router/28617"
+      },
+      {
+        "title": "Audit Report ChainSecurity",
+        "url": "https://github.com/makerdao/arbitrum-token-bridge/blob/master/audit/20241009-ChainSecurity_MakerDAO_Arbitrum_Token_Bridge_audit.pdf"
+      },
+      {
+        "title": "Audit Report Cantina",
+        "url": "https://github.com/makerdao/arbitrum-token-bridge/blob/master/audit/20241023-cantina-report-maker-arbitrum-token-bridge.pdf"
+      }
+    ],
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'For' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Timeline analytics show a stable and unanimous lead for 'For', indicating strong early and sustained support.\n- Forum sentiment analysis reveals significant positive sentiment and community support, with the first two comments expressing clear rationale in favor.\n- Audits and formal verification by reputable firms provide strong security assurances.\n- Historical precedent from similar successful gateway registration proposals supports the operational feasibility and positive ecosystem impact.\n- Market data shows negative price and TVL impact, but these are not considered in the recommendation as per guidelines.\n- While some concerns about governance and operational efficiency exist, they do not outweigh the benefits of improved bridging UX and ecosystem growth.\n- The recommendation aligns with majority forum sentiment, indicating that the vote likely reflects community views.\n- Overall, approving this proposal supports Arbitrum’s durable benefit by enhancing stablecoin interoperability and user experience.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x7cc26491a070c74c1a4ec5a9892571d31eb690015936a35b52c0d3a97bd5497f",
+        "title": "[CONSTITUTIONAL] AIP: ArbOS Version 40 Callisto",
+        "end_utc": "2025-02-27T23:00:00Z",
+        "summary": "[CONSTITUTIONAL] AIP: ArbOS Version 40 Callisto closed on 2025-02-27T23:00:00Z. Timeline analytics noted 3328 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.11)",
+        "market_response": "token +3.52%; TVL -6.44%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0xebbcad364ae7f02797b9cd7f30c668907d479d4bb5ba7f5d775849822297a01d",
+        "title": "Arbitrum Audit Program",
+        "end_utc": "2025-02-27T23:58:50Z",
+        "summary": "Arbitrum Audit Program closed on 2025-02-27T23:58:50Z. Timeline analytics noted 3351 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.09)",
+        "market_response": "token +3.52%; TVL -6.44%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -10.2455,
+    "ex_post_tvl_impact_pct": -5.0495,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -10.25%; TVL -5.05%"
+  },
+  "agentic_ai_choice": "For",
+  "actual_outcome": "For",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 31,
+    "Positive": 30,
+    "Neutral": 39,
+    "total_comments": 100
+  }
+}

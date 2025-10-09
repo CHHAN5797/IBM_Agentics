@@ -1,0 +1,1146 @@
+{
+  "captured_at_utc": "2025-10-08T18:46:59.636593+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x50de07d174dc227af2bc5b58b6fc8b87f08d9ab57c2441f09f06b2a4d0935383",
+  "focus": null,
+  "votes_count": 3,
+  "timeline_metrics_current": {
+    "unique_voters": 3,
+    "total_votes": 3,
+    "first_vote_at": "2025-05-16T00:52:09Z",
+    "last_vote_at": "2025-05-19T08:00:03Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        317430.5374158976,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        2427642.735128465,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.884364,
+    "spike_follow_support_ratio": 0.0,
+    "stairwise_ratio": 0.115636,
+    "half_slope_diff": 9.346434
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x93aaad0c7e6b6bd69ea9ef9406ee0590361083e14f22ba2b90b198148d04b7c3",
+      "title": "[BIP-825] Enable YieldFi yUSD/USDC gauges on Balancer v3 Arbitrum new pool deployment",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-05-12T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 6,
+        "total_votes": 6,
+        "first_vote_at": "2025-05-08T23:46:44Z",
+        "last_vote_at": "2025-05-12T08:00:01Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            274250.9435164922,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            318693.87213499245,
+            0.0,
+            699.4582015323859
+          ],
+          [
+            2616763.344265478,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.752931,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.247069,
+        "half_slope_diff": 380.563614
+      },
+      "price_impact_pct": -1.9948,
+      "tvl_impact_pct": 0.8717,
+      "similarity": 0.1799,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 3209008.701715431,
+        "scores_total": 3210407.618118495,
+        "margin_pct": 0.9995642558299548
+      }
+    },
+    {
+      "id": "0x04f8cf4b93cca840d55377bb1c7b321cbdbaea5128d3b1a67e7ab2cab2c9e993",
+      "title": "[BIP-824] Enable YieldFi yUSD/USDC gauges on Balancer v3 Base new pool deployment",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-05-12T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 6,
+        "total_votes": 6,
+        "first_vote_at": "2025-05-08T23:46:23Z",
+        "last_vote_at": "2025-05-12T08:00:01Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            274252.24787240813,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            318694.9890544721,
+            0.0,
+            699.4607019826589
+          ],
+          [
+            2616764.0383250793,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.752931,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.247069,
+        "half_slope_diff": 375.058703
+      },
+      "price_impact_pct": -1.9948,
+      "tvl_impact_pct": 0.8717,
+      "similarity": 0.1769,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 3209011.814549977,
+        "scores_total": 3210410.735953942,
+        "margin_pct": 0.9995642546954201
+      }
+    },
+    {
+      "id": "0x112f0b1077a87933d54d5e22715cb035f64fa5905bea6093f7d5c68beac1ab74",
+      "title": "[BIP-823] Enable Gauge for Safe Haven QuantAMM BTF",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-05-12T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 6,
+        "total_votes": 6,
+        "first_vote_at": "2025-05-08T23:46:08Z",
+        "last_vote_at": "2025-05-12T08:00:01Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            274258.9145804228,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            318700.69775403495,
+            0.0,
+            699.4734820618319
+          ],
+          [
+            2616768.584780699,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.752927,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.247073,
+        "half_slope_diff": 372.533689
+      },
+      "price_impact_pct": -1.9948,
+      "tvl_impact_pct": 0.8717,
+      "similarity": 0.1497,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 3209028.7236330956,
+        "scores_total": 3210427.6705972184,
+        "margin_pct": 0.999564249032322
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x4076f4ac7a02c9ea1b7723cb6ee83600642c06404170cd68ff1860e5f5c781d5",
+      "cleaned": {
+        "proposal_id": "0x4076f4ac7a02c9ea1b7723cb6ee83600642c06404170cd68ff1860e5f5c781d5",
+        "title": "[BIP-401] Enable tBTC/WBTC [Ethereum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-08-21T18:00:00Z",
+        "similarity_score": 0.1984,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3571089.9166089017,
+        "margin_pct": 1.0,
+        "scores_total": 3571089.9166089017,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 51,
+        "total_votes": 51,
+        "first_vote_at": "2023-08-17T18:49:16Z",
+        "last_vote_at": "2023-08-21T16:50:40Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            80986.48500656283,
+            0.0,
+            0.0
+          ],
+          [
+            1274.3488004864842,
+            0.0,
+            0.0
+          ],
+          [
+            1.9715029178924888,
+            0.0,
+            0.0
+          ],
+          [
+            3488827.1112989346,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.881684,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.000538,
+        "half_slope_diff": 25.048498
+      },
+      "raw": {
+        "id": "0x4076f4ac7a02c9ea1b7723cb6ee83600642c06404170cd68ff1860e5f5c781d5",
+        "title": "[BIP-401] Enable tBTC/WBTC [Ethereum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/465\n\n### Summary:\n\n> Proposal to add gauge support for 50/50 tBTC/WBTC pool on Ethereum.\n> \n> Link to pool: [0xe4e72f872c4048925a78E1e6Fddac411C9ae348A](https://etherscan.io/address/0xe4e72f872c4048925a78E1e6Fddac411C9ae348A#code)\n> Link to gauge: [0x21c377cBB2bEdDd8534308E5CdfeBE35fDF817E8](https://etherscan.io/address/0x21c377cBB2bEdDd8534308E5CdfeBE35fDF817E8)\n\n### References/Useful links:\n\nLink to:\n\n> * [Website](https://threshold.network)\n> * [Documentation](https://docs.threshold.network/)\n> * [Github Page](https://github.com/keep-network/tbtc-v2)\n> * [Forum](https://forum.threshold.network/)\n> * [Discord](https://discord.com/invite/Threshold)\n> * [Twitter](https://twitter.com/tBTC_project)\n\n### Protocol Description:\n\n> tBTC is a decentralized wrapped Bitcoin, that is 1:1 backed by mainnet BTC.\n> \n> Unlike other wrapped Bitcoins, the BTC that backs tBTC is not held by a central intermediary, but is instead held by a decentralized network of nodes using threshold cryptography.\n> \n> tBTC is trust minimised and redeemable for mainnet BTC without a centralized custodian.\n\n## Motivation:\n\n> This proposal aims to add a veBAL gauge for the Balancer tBTC/WBTC pool on Ethereum.\n> \n> Threshold DAO seeks to consolidate deep liquidity on Mainnet, and Balancer is an ideal venue to build upon.\n> \n> The DAO has budgeted T token bribes to incentivise this tBTC/WBTC pool, with the goal to attract liquidity to the pool and Balancer. Threshold DAO intends this pool to be a part of the long-term tBTC strategy.\n\n### Specifications:\n\n>1. Governance:\n> tBTC operates on Threshold DAO’s decentralized threshold encryption protocol. Threshold DAO is governed by the network’s work token, T. T token holders govern the DAO via proposals raised to the Threshold forum, which can be raised to a vote via Snapshot, as well as the on-chain Governor Bravo module via Boardroom.\n> tBTC contract deployments are currently managed via the Council multi-sig, a 6-of-9 multi sig managed by trusted community members: 0x9F6e831c8F8939DC0C830C6e492e7cEf4f9C2F5f\n>In the future, all contract authorities will be passed to the Governor Bravo contract.\n\n> 2. Oracles:\n> tBTC does not rely on an oracle price feed.\n\n>3. Audits:\n>* [Least Authority](https://leastauthority.com/blog/audits/audit-of-keep-network-tbtc-bridge-v2/) \n>* [Chainsecurity](https://chainsecurity.com/security-audit/threshold-network/)\n>* [Certik](https://skynet.certik.com/projects/threshold-network)\n>* [Immunefi Bug Bounty](https://immunefi.com/bounty/thresholdnetwork/)\n\n> 4. Centralization vectors:\n> Threshold Network governance is decentralized, and updates are ratified by the DAO.\n> tBTC contracts updates are currently managed by the Council multi-sig.\n\n> 5. Market History:\n> tBTC is a wrapped BTC token, and is pegged to the price of BTC. Since launch, tBTC’s price has not significantly diverged from that of BTC. tBTC launched in January of 2023, and currently has ~1000 BTC to collateralize the ~1000 tBTC.\n> Link to pool: [0xe4e72f872c4048925a78E1e6Fddac411C9ae348A](https://etherscan.io/address/0xe4e72f872c4048925a78E1e6Fddac411C9ae348A#code)\n> Link to gauge: [0x21c377cBB2bEdDd8534308E5CdfeBE35fDF817E8](https://etherscan.io/address/0x21c377cBB2bEdDd8534308E5CdfeBE35fDF817E8)\n\n### Value:\n\n> The Ethereum tBTC/WBTC pool is intended to be a lynchpin of BTC liquidity on Mainnet.\n> \n> Threshold DAO has allocated a portion of its incentives budget to bribe the tBTC/WBTC pool via Paladin.\n> \n> Balancer will benefit by attracting additional BTC liquidity.\n\n**Specification:**\n\nThe Balancer Maxi LM Multisig `eth:0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the `GaugeAdderv4` at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function with the following arguments:\ngauge(address): `0x21c377cBB2bEdDd8534308E5CdfeBE35fDF817E8`\ngaugeType(string): `Ethereum`",
+        "end_utc": "2023-08-21T18:00:00Z",
+        "similarity_score": 0.1984,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3571089.9166089017,
+            0,
+            0
+          ],
+          "scores_total": 3571089.9166089017,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-08-21T18:00:00",
+          "pre_tvl_avg": 847997049.0,
+          "post_tvl_avg": 654464009.0,
+          "abnormal_change": -22.8224,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.228224,
+          "abnormal_change_pct": -22.8224
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-08-21T18:00:00",
+          "pre_price_avg": 3.6801733199999997,
+          "post_price_avg": 3.546637765,
+          "abnormal_change": -3.6285,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.036285,
+          "abnormal_change_pct": -3.6285
+        }
+      }
+    },
+    {
+      "proposal_id": "0xeae89b6d36445a9e8fe7b54d883d67532a534011b9db45de25295c006c8fd47a",
+      "cleaned": {
+        "proposal_id": "0xeae89b6d36445a9e8fe7b54d883d67532a534011b9db45de25295c006c8fd47a",
+        "title": "[BIP-425] Enable 80T-20TBTC Gauge [Ethereum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-09-18T18:00:00Z",
+        "similarity_score": 0.1952,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3335813.7492883406,
+        "margin_pct": 0.998674104769316,
+        "scores_total": 3340242.5609692577,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 54,
+        "total_votes": 54,
+        "first_vote_at": "2023-09-14T20:23:58Z",
+        "last_vote_at": "2023-09-18T16:27:03Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.857143,
+            0.142857,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9629629629629629,
+          0.037037037037037035,
+          0.0
+        ],
+        "stability": [
+          0.9629629629629629,
+          0.037037037037037035,
+          0.0
+        ],
+        "early_ratio": [
+          0.8571428571428571,
+          0.14285714285714285,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            6150.591161037318,
+            0.8679176462788594,
+            0.0
+          ],
+          [
+            2.493636330394298,
+            0.0,
+            2.85690930756e-05
+          ],
+          [
+            78845.74740133938,
+            0.0,
+            0.0
+          ],
+          [
+            3255242.8608243354,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.946883,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.000961,
+        "half_slope_diff": 20.504536
+      },
+      "raw": {
+        "id": "0xeae89b6d36445a9e8fe7b54d883d67532a534011b9db45de25295c006c8fd47a",
+        "title": "[BIP-425] Enable 80T-20TBTC Gauge [Ethereum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/503\n\n## Summary:\n\n>Proposal to add gauge support for 80/20 T/tBTC pool on Ethereum.\n>\n>Link to pool: [0x6228f64d5ba8376652bfe7e36569d595347cf6fb](https://etherscan.io/address/0x6228f64d5ba8376652bfe7e36569d595347cf6fb)\n>\n>Link to gauge: [0xCc6A23446f6388D78F3037BD55f2eB820352d982](https://etherscan.io/address/0xCc6A23446f6388D78F3037BD55f2eB820352d982)\n\n## References/Useful links:\n\nLink to:\n\n>* Website: https://threshold.network\n>* Documentation: https://docs.threshold.network/\n>* Github Page: https://github.com/keep-network/tbtc-v2\n>* Forum: https://forum.threshold.network/\n>* Discord: https://discord.com/invite/Threshold\n>* Twitter: https://twitter.com/tBTC_project\n\n## Protocol Description:\n\n>tBTC is a decentralized wrapped Bitcoin, that is 1:1 backed by mainnet BTC.\n>\n>Unlike other wrapped Bitcoins, the BTC that backs tBTC is not held by a central intermediary, but is instead held by a decentralized network of nodes using threshold cryptography.\n>\n>tBTC is trust minimised and redeemable for mainnet BTC without a centralized custodian.\n\n## Motivation:\n\n>This proposal aims to add a veBAL gauge for the Balancer 80/20 T/tBTC pool on Ethereum.\n>\n>Threshold DAO seeks to consolidate deep liquidity on Mainnet, and Balancer is an ideal venue to build upon. The T/tBTC pool is a key strategic pool, central to the long term growth strategy of Threshold DAO.\n>\n>The DAO has budgeted T token bribes to incentivise this pool.\n\n## Specifications:\n\n### 1 Governance:\n\n>tBTC operates on Threshold DAO’s decentralized threshold encryption protocol. Threshold DAO is governed by the network’s work token, T. T token holders govern the DAO via proposals raised to the Threshold forum, which can be raised to a vote via Snapshot, as well as the on-chain Governor Bravo module via Boardroom.\n>\n>tBTC contract deployments are currently managed via the Council multi-sig, a 6-of-9 multi sig managed by trusted community members: 0x9F6e831c8F8939DC0C830C6e492e7cEf4f9C2F5f\n>\n>In the future, all contract authorities will be passed to the Governor Bravo contract.\n\n### 2 Oracles:\n\n>tBTC does not rely on an oracle price feed.\n\n### 3 Audits:\n\n>Least Authority: https://leastauthority.com/blog/audits/audit-of-keep-network-tbtc-bridge-v2/\n>\n>Chainsecurity: https://chainsecurity.com/security-audit/threshold-network/\n>\n>Certik: https://skynet.certik.com/projects/threshold-network\n>\n>Immunefi Bug Bounty: https://immunefi.com/bounty/thresholdnetwork/\n\n### 4 Centralization vectors:\n\n>Threshold Network governance is decentralized, and updates are ratified by the DAO.\n>\n>tBTC contracts updates are currently managed by the Council multi-sig.\n\n### 5 Market History:\n\n>tBTC is a wrapped BTC token, and is pegged to the price of BTC. Since launch, tBTC’s price has not significantly diverged from that of BTC. tBTC launched in January of 2023, and currently has ~1000 BTC to collateralize the ~1000 tBTC.\n>\n>Link to pool: [0x6228f64d5ba8376652bfe7e36569d595347cf6fb](https://etherscan.io/address/0x6228f64d5ba8376652bfe7e36569d595347cf6fb)\n>\n>Link to gauge: [0xCc6A23446f6388D78F3037BD55f2eB820352d982](https://etherscan.io/address/0xCc6A23446f6388D78F3037BD55f2eB820352d982)\n\n### Value:\n\n>The Ethereum T/tBTC pool is intended to be a core pool of Threshold’s tokenomics.\n>\n>Threshold DAO has allocated a portion of its incentives budget to bribe this pool.\n>\n>Balancer will benefit by attracting additional tBTC liquidity.\n\n**Specification:**\n\nThe Balancer Maxi LM Multisig `eth:0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the `GaugeAdderv4` at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function with the following arguments:\ngauge(address): `0xCc6A23446f6388D78F3037BD55f2eB820352d982 `\ngaugeType(string): `Ethereum`",
+        "end_utc": "2023-09-18T18:00:00Z",
+        "similarity_score": 0.1952,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3338027.721169976,
+            0.8679176462788591,
+            2213.9718816352547
+          ],
+          "scores_total": 3340242.5609692577,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-09-18T18:00:00",
+          "pre_tvl_avg": 703781963.5,
+          "post_tvl_avg": 708747706.0,
+          "abnormal_change": 0.7056,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.007056,
+          "abnormal_change_pct": 0.7056
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-09-18T18:00:00",
+          "pre_price_avg": 3.28077122,
+          "post_price_avg": 3.1880345400000003,
+          "abnormal_change": -2.8267,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.028267,
+          "abnormal_change_pct": -2.8267
+        }
+      }
+    },
+    {
+      "proposal_id": "0x5d79b5cc47b0781dc9146367414fcad070809547cd5fc1f41ae01809aca1e36b",
+      "cleaned": {
+        "proposal_id": "0x5d79b5cc47b0781dc9146367414fcad070809547cd5fc1f41ae01809aca1e36b",
+        "title": "[BIP-700] Enable a wstETH/GYD gauge [Ethereum]",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "end_utc": "2024-09-23T18:00:00Z",
+        "similarity_score": 0.1935,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2904525.581395645,
+        "margin_pct": 1.0,
+        "scores_total": 2904525.581395645,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 6,
+        "total_votes": 6,
+        "first_vote_at": "2024-09-20T04:01:21Z",
+        "last_vote_at": "2024-09-23T06:22:34Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.011062844861338548,
+            0.0,
+            0.0
+          ],
+          [
+            237861.1240738942,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2666664.4462589063,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.834769,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.165231,
+        "half_slope_diff": 21.179496
+      },
+      "raw": {
+        "id": "0x5d79b5cc47b0781dc9146367414fcad070809547cd5fc1f41ae01809aca1e36b",
+        "title": "[BIP-700] Enable a wstETH/GYD gauge [Ethereum]",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "body": "PR With Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1359\n\n**Summary**\n> This is a proposal to enable one uncapped Balancer gauge on Ethereum for a wstETH/GYD E-CLP. \n\n**References/Useful links**\n\n> Links\n> * [Documentation of E-CLPs](https://docs.gyro.finance/gyroscope-protocol/concentrated-liquidity-pools/e-clps)\n> * [Website](https://gyro.finance/)\n> * [Github](https://github.com/gyrostable)\n> * [Discord](https://discord.com/invite/2vnqnS7wE6)\n> * [X](https://twitter.com/GyroStable)\n\n**Protocol Description**\n\n>* GYD is a USD denominated stablecoin, issued by [Gyroscope](https://gyro.finance/).\n>* wstETH is a static wrapper of stETH. stETH is a yield bearing token that represents staked ether in [Lido](https://help.lido.fi/en/articles/5230610-what-is-steth).\n\n\n**Motivation**\n\n> Gyroscope is launching further strategic pools.\n\n**Specification**\n \n>1. **Governance:** The Gyroscope Protocol will be governed by a DAO and relevant stakeholder with the full launch on Ethereum. For now, the FTL Labs multi-sig can pause the pool, change the swap fee and set the protocol fee. As a custom pool by Gyroscope, the E-CLP will be controlled by Gyroscope governance upon its launch.\n>\n>\n>2. **Oracles:** \n> * ‘rateProvider0’: wstETH rate provider on Ethereum: [0x72D07D7DcA67b8A406aD1Ec34ce969c90bFEE768](https://etherscan.io/address/0x72D07D7DcA67b8A406aD1Ec34ce969c90bFEE768)\nand relevant [review ](https://github.com/balancer/code-review/blob/main/rate-providers/wstethRateProvider.md).\n> *  ‘rateProvider1’: GYD rate provider on Ethereum: [0xD43F5a722e8e7355D790adda4642f392Dfb820a1](https://etherscan.io/address/0xD43F5a722e8e7355D790adda4642f392Dfb820a1).\n>\n>3. **Audits:** Audit reports by Nethermind, Trail of Bits, and Runtime Verification can be accessed here (the E-CLP is called the “CEMM” in these reports). In addition, the E-CLP code has been live in production since November 2022.\n>\n>4. **Centralization vectors:** No centralization vectors. The FTL Labs team’s multi-sig can - currently - pause the pool, change the swap fee and set the protocol fee.\n>\n>5. **Market History:** This is the first wstETH/GYD E-CLP on Ethereum.\n>\n>6. **Value:** This pool is intended to be the primary source of liquidity for the token(s). \n\n#### Contracts\n\n> * E-CLP: [0xC8cF54b0b70899Ea846B70361e62F3F5B22b1f4B](https://etherscan.io/address/0xC8cF54b0b70899Ea846B70361e62F3F5B22b1f4B)\n>* Gauge: [0xCda69C40176B98bB1773109d1fEa91e12F478451](https://etherscan.io/address/0xCda69C40176B98bB1773109d1fEa91e12F478451)\n\n\n#### Specification\n\n\n>Transaction: The Balancer Maxi LM Multisig `eth:0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the `addGauge` function with the following arguments:\n>\n>gauge(address): `0xCda69C40176B98bB1773109d1fEa91e12F478451`\n>gaugeType(string): `Ethereum`",
+        "end_utc": "2024-09-23T18:00:00Z",
+        "similarity_score": 0.1935,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2904525.581395645,
+            0,
+            0
+          ],
+          "scores_total": 2904525.581395645,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-09-23T18:00:00",
+          "pre_tvl_avg": 728471395.5,
+          "post_tvl_avg": 760272261.0,
+          "abnormal_change": 4.3654,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.043654,
+          "abnormal_change_pct": 4.3654
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-09-23T18:00:00",
+          "pre_price_avg": 2.00455717,
+          "post_price_avg": 2.070966935,
+          "abnormal_change": 3.3129,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.033129,
+          "abnormal_change_pct": 3.3129
+        }
+      }
+    },
+    {
+      "proposal_id": "0x1e067d8f7a641036e809138dcc8347008038446dd15512ab29911aaecff5f3c1",
+      "cleaned": {
+        "proposal_id": "0x1e067d8f7a641036e809138dcc8347008038446dd15512ab29911aaecff5f3c1",
+        "title": "[BIP-620] Enable gauge for wstETH/WETH E-CLP [Gnosis]",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2024-06-17T18:00:00Z",
+        "similarity_score": 0.1933,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2718398.200810433,
+        "margin_pct": 0.9999999254660324,
+        "scores_total": 2718398.4034234514,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 15,
+        "total_votes": 15,
+        "first_vote_at": "2024-06-14T00:33:20Z",
+        "last_vote_at": "2024-06-17T15:00:18Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            3.10028074351579,
+            0.0,
+            0.0
+          ],
+          [
+            281430.6292123632,
+            0.0,
+            0.0
+          ],
+          [
+            129329.69406255915,
+            0.0,
+            0.0
+          ],
+          [
+            2307634.878561277,
+            0.10130650904270565,
+            0.0
+          ]
+        ],
+        "spike_index": 0.848895,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.151105,
+        "half_slope_diff": 16.554685
+      },
+      "raw": {
+        "id": "0x1e067d8f7a641036e809138dcc8347008038446dd15512ab29911aaecff5f3c1",
+        "title": "[BIP-620] Enable gauge for wstETH/WETH E-CLP [Gnosis]",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1027\n\n### Summary \nThis is a proposal to enable one uncapped Balancer gauge for a wstETH/ WETH E-CLP on Gnosis Chain. \n\nE-CLP's asymmetric concentrated liquidity profile offers capital efficiency improvements. As per previous arrangements between Balancer and Gnosis this pool shall not bear any protocol fees for the time being.\n\n### References/Useful links\n* [Documentation of E-CLPs](https://docs.gyro.finance/gyroscope-protocol/concentrated-liquidity-pools/e-clps)\n* [Website](https://gyro.finance/)\n* [Github](https://github.com/gyrostable)\n* [Discord](https://discord.com/invite/2vnqnS7wE6)\n* [X](https://twitter.com/GyroStable)\n\n---\n\n### Protocol description\n* \"wstETH is a wrapped version of stETH. [..] wstETH keeps your balance of stETH fixed and uses an underlying share system to reflect your staking rewards.\" - [Lido](https://help.lido.fi/en/articles/5231836-what-is-lido-s-wsteth)\n* WETH is an ERC-20 compliant wrapper of ETH.\n---\n\n### Motivation\nGyroscope is expanding to Gnosis Chain.\n\n---\n\n### Specifications\n#### Governance\nThe Gyroscope Protocol will be governed by a DAO and relevant stakeholder with the full launch on Ethereum. For now, the FTL Labs multi-sig can pause the pool, change the swap fee and set the protocol fee. As a custom pool by Gyroscope, the E-CLP will be controlled by Gyroscope governance upon its launch.\n\n #### Oracles\n-  'rateProvider0': WETH rate provider on Gnosis Chain: 0x00\n- 'rateProvider1': wstETH rate provider on Gnosis Chain: [0x09f9611FE9d24c6A518f656E925e3628A2ECDE3b](https://gnosisscan.io/address/0x09f9611FE9d24c6A518f656E925e3628A2ECDE3b)\n#### Audits\nAudit reports by Nethermind, Trail of Bits, and Runtime Verification can be accessed here (the E-CLP is called the “CEMM” in these reports). In addition, the E-CLP code has been live in production on Polygon since November 2022.\n\n#### Centralization vectors\nNo centralization vectors. The FTL Labs team’s multi-sig can - currently - pause the pool, change the swap fee and set the protocol fee.\n\n#### Market History\nThe Gyroscope Protocol is live on Ethereum since EOY23, with E-CLPs on several other chains. Details available [here ](https://dune.com/gyro_finance/gyroscope-e-clps).\n\n## Value\nAs per “Motivation”.\n\n---\n\n#### Contracts\n- E-CLP: [0x8DD4df4Ce580b9644437f3375e54f1ab09808228](https://gnosisscan.io/address/0x8DD4df4Ce580b9644437f3375e54f1ab09808228)\n- Childchain gauge on Gnosis Chain: [0xa1fF1e44E4f8346398767f94ae7DbeAB71522164](https://gnosisscan.io/address/0xa1fF1e44E4f8346398767f94ae7DbeAB71522164)\n- Gnosis Chain root gauge on Ethereum: [0x6d060a785530cB13795b3c5a43320c462811d43b](https://etherscan.io/address/0x6d060a785530cB13795b3c5a43320c462811d43b)\n\n---\n\n> Specification\n>\n> Transaction: The Balancer Maxi LM Multisig `eth:0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the `addGauge` function with the following arguments:\n>\n> gauge(address): `0x6d060a785530cB13795b3c5a43320c462811d43b`\n> gaugeType(string): `Gnosis`",
+        "end_utc": "2024-06-17T18:00:00Z",
+        "similarity_score": 0.1933,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2718398.302116942,
+            0.10130650904270562,
+            0
+          ],
+          "scores_total": 2718398.4034234514,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-06-17T18:00:00",
+          "pre_tvl_avg": 1027163666.5,
+          "post_tvl_avg": 973438304.0,
+          "abnormal_change": -5.2305,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.052305,
+          "abnormal_change_pct": -5.2305
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-06-17T18:00:00",
+          "pre_price_avg": 3.438442195,
+          "post_price_avg": 3.1910246349999998,
+          "abnormal_change": -7.1956,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.071956,
+          "abnormal_change_pct": -7.1956
+        }
+      }
+    },
+    {
+      "proposal_id": "0x3383c0a164ee6b80b27c37ce000fd8696dfb41199cb60c45691b0f4ecfcd63b7",
+      "cleaned": {
+        "proposal_id": "0x3383c0a164ee6b80b27c37ce000fd8696dfb41199cb60c45691b0f4ecfcd63b7",
+        "title": "[BIP-467] Enable tBTC/WETH & tBTC/USDbC [Base]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-11-06T19:00:00Z",
+        "similarity_score": 0.1916,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3694199.890917371,
+        "margin_pct": 0.9999999733253795,
+        "scores_total": 3694199.9894587537,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 51,
+        "total_votes": 51,
+        "first_vote_at": "2023-11-02T23:11:47Z",
+        "last_vote_at": "2023-11-06T18:38:50Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            104167.53953732329,
+            0.0,
+            0.0
+          ],
+          [
+            1127.676729337908,
+            0.0,
+            0.0
+          ],
+          [
+            1.6086536637015811,
+            0.0,
+            0.0
+          ],
+          [
+            3588903.161821501,
+            0.002716928099914138,
+            0.0
+          ]
+        ],
+        "spike_index": 0.870925,
+        "spike_follow_support_ratio": 0.997264,
+        "stairwise_ratio": 0.000537,
+        "half_slope_diff": 39.426778
+      },
+      "raw": {
+        "id": "0x3383c0a164ee6b80b27c37ce000fd8696dfb41199cb60c45691b0f4ecfcd63b7",
+        "title": "[BIP-467] Enable tBTC/WETH & tBTC/USDbC [Base]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/599\n\n## Summary:\n\nProposal to add gauge support for 50/50 tBTC/WETH and 50/50 tBTC/USDbC pool on Base.\n\n## References/Useful links:\n\nLink to:\n\n* Website: https://threshold.network\n* Explorer: https://tbtcscan.com\n* Documentation: https://docs.threshold.network/\n* Github Page: https://github.com/keep-network/tbtc-v2\n* Forum: https://forum.threshold.network/\n* Discord: https://discord.com/invite/Threshold\n* Twitter: https://twitter.com/tBTC_project\n\n## Protocol Description:\n\ntBTC is a decentralized wrapped Bitcoin, that is 1:1 backed by mainnet BTC.\n\nUnlike other wrapped Bitcoins, the BTC that backs tBTC is not held by a central intermediary, but is instead held by a decentralized network of nodes using threshold cryptography.\n\ntBTC is trust minimised and redeemable for mainnet BTC without a centralized custodian.\n\n## Motivation:\n\nThis proposal aims to add a veBAL gauge for the 50/50 tBTC/WETH pool and 50/50 tBTC/USDbC pool on Base.\n\nThreshold DAO seeks to build deep liquidity on Base, and Balancer is an ideal venue to build upon. These pools are key strategic pools, central to the long term growth strategy of Threshold DAO.\n\nThe DAO has budgeted T token bribes to incentivise this pool.\n\n## Specifications:\n\n### 1 Governance:\n\ntBTC operates on Threshold DAO’s decentralized threshold encryption protocol. Threshold DAO is governed by the network’s work token, T. T token holders govern the DAO via proposals raised to the Threshold forum, which can be raised to a vote via Snapshot, as well as the on-chain Governor Bravo module via Boardroom.\n\ntBTC contract deployments are currently managed via the Council multi-sig, a 6-of-9 multi sig managed by trusted community members: 0x9F6e831c8F8939DC0C830C6e492e7cEf4f9C2F5f\n\nIn the future, all contract authorities will be passed to the Governor Bravo contract.\n\n### 2 Oracles:\n\ntBTC does not rely on an oracle price feed.\n\n### 3 Audits:\n\nLeast Authority: https://leastauthority.com/blog/audits/audit-of-keep-network-tbtc-bridge-v2/\n\nChainsecurity: https://chainsecurity.com/security-audit/threshold-network/\n\nCertik: https://skynet.certik.com/projects/threshold-network\n\nImmunefi Bug Bounty: https://immunefi.com/bounty/thresholdnetwork/\n\n### 4 Centralization vectors:\n\nThreshold Network governance is decentralized, and updates are ratified by the DAO.\n\ntBTC contracts updates are currently managed by the Council multi-sig.\n\n### 5 Market History:\n\ntBTC is a wrapped BTC token, and is pegged to the price of BTC. Since launch, tBTC’s price has not significantly diverged from that of BTC. tBTC launched in January of 2023, and currently has ~2400 BTC to collateralize the ~2400 tBTC.\n\n### 6 Pool Details:\n\n#### tBTC/WETH Pool\n\nLink to Pool: [0x52e281318Fed4eFFfb8E46c0847a8f9B71a461A8](https://basescan.org/address/0x52e281318Fed4eFFfb8E46c0847a8f9B71a461A8)\n\nBase Gauge: [0xFA61fB6218378b9f01CA4B2b662B5c4d12915Db9](https://basescan.org/address/0xFA61fB6218378b9f01CA4B2b662B5c4d12915Db9)\n\nMainnet Gauge: [0xF6FA773b5E54F4BD20E09d806AB483d58dD55dcb](https://etherscan.io/address/0xF6FA773b5E54F4BD20E09d806AB483d58dD55dcb)\n\n#### tBTC/USDbC Pool\n\nLink to Pool: [0x036d68e4e0005da4ef1c9ebd53b948d2c083495e](https://basescan.org/address/0x036d68e4e0005da4ef1c9ebd53b948d2c083495e#readContract)\n\nBase Gauge: [0x4321edfE7dEC773A91316481FCb19D6ca6Dc5207](https://basescan.org/address/0x4321edfE7dEC773A91316481FCb19D6ca6Dc5207)\n\nMainnet Gauge: [0x156cC29C8dfA80821eD240C3cA4BA85103e10f2b](https://etherscan.io/address/0x156cC29C8dfA80821eD240C3cA4BA85103e10f2b)\n\n### Value:\n\nThe Balancer tBTC pools will support tBTC routing and liquidity on Base.\n\nThreshold DAO has allocated a portion of its incentives budget to bribe these pools Paladin. This will incentivise veBAL holders to vote on our gauge to direct protocol emissions and attract TVL as part of the Base tBTC growth strategy.\n\n Specification:\n\nThe Balancer Maxi LM Multisig eth:`0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function with the following arguments:\ngauge(address):`0xF6FA773b5E54F4BD20E09d806AB483d58dD55dcb `\ngaugeType(string): `Base`\n\ngauge(address):`0x156cC29C8dfA80821eD240C3cA4BA85103e10f2b `\ngaugeType(string): `Base`",
+        "end_utc": "2023-11-06T19:00:00Z",
+        "similarity_score": 0.1916,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3694199.93950883,
+            0.001358464049957069,
+            0.04859145939933295
+          ],
+          "scores_total": 3694199.9894587537,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-11-06T19:00:00",
+          "pre_tvl_avg": 799151789.5,
+          "post_tvl_avg": 489131984.5,
+          "abnormal_change": -38.7936,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.387936,
+          "abnormal_change_pct": -38.7936
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-11-06T19:00:00",
+          "pre_price_avg": 3.59469704,
+          "post_price_avg": 3.864296545,
+          "abnormal_change": 7.4999,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.074999,
+          "abnormal_change_pct": 7.4999
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x50de07d174dc227af2bc5b58b6fc8b87f08d9ab57c2441f09f06b2a4d0935383",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.9,
+    "summary": "Proposal to enable Smardex Boosted SDEX/waEthLidoWETH gauge on Balancer v3 Ethereum is supported by unanimous early votes and aligns with past successful gauge enabling proposals.",
+    "key_arguments_for": [
+      "Enables liquidity mining incentives for SDEX/waEthLidoWETH liquidity providers, increasing token utility.",
+      "Combines Balancer swap fees, ETH staking rewards, and SDEX/BAL incentives for yield stacking.",
+      "Historical similar proposals passed and increased TVL with minimal negative price impact."
+    ],
+    "key_arguments_against": [
+      "One forum comment expressed concerns leading to negative sentiment.",
+      "Slightly negative price impact noted in market metrics."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.balancer.fi/t/bip-828-enable-smardex-boosted-sdex-waethlidoweth-gauge-on-balancer-v3-ethereum/6512",
+        "quote": "Forum comments show one negative and two neutral sentiments with detailed proposal information."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Snapshot voting timeline",
+        "quote": "Timeline metrics show stable and unanimous early support for 'Yes, let's do it' option."
+      },
+      {
+        "source_tool": "adjacent_analytics",
+        "reference": "Similar proposals BIP-825 and BIP-824",
+        "quote": "Past similar proposals enabling gauges passed with unanimous yes votes and positive TVL impacts."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-05-15T18:00:00Z",
+    "event_end_utc": "2025-05-19T18:00:00Z",
+    "event_time_utc": "2025-05-19T18:00:00Z",
+    "address_of_governance_token": "0x4eB7C7fD67B9b2C24d9fF1601ccDa5A01bD40c7f",
+    "token_price_impact_pct": -0.4717,
+    "tvl_impact_pct": 2.8168,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        2534839.4116822374,
+        0.0,
+        210233.86086212503
+      ],
+      "scores_total": 2745073.2725443626,
+      "margin_abs": 2324605.550820112,
+      "margin_pct": 0.846828
+    },
+    "simulation_reason": "Recommendation based on timeline analytics, forum sentiment, and historical similar proposals.",
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Timeline metrics show stable and unanimous early support for enabling the gauge.\n- Forum discussion is mostly neutral with one negative comment; sentiment does not strongly oppose the proposal.\n- Historical similar proposals enabling gauges passed successfully, increasing TVL with minor negative price impacts.\n- Market metrics show slight negative price impact but a positive TVL impact, supporting long-term protocol health.\n- Recommendation aligns with voter sentiment and timeline analytics, despite mixed forum sentiment.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x93aaad0c7e6b6bd69ea9ef9406ee0590361083e14f22ba2b90b198148d04b7c3",
+        "title": "[BIP-825] Enable YieldFi yUSD/USDC gauges on Balancer v3 Arbitrum new pool deployment",
+        "end_utc": "2025-05-12T18:00:00Z",
+        "summary": "[BIP-825] Enable YieldFi yUSD/USDC gauges on Balancer v3 Arbitrum new pool deployment closed on 2025-05-12T18:00:00Z. Timeline analytics noted 6 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.18)",
+        "market_response": "token -1.99%; TVL +0.87%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0x04f8cf4b93cca840d55377bb1c7b321cbdbaea5128d3b1a67e7ab2cab2c9e993",
+        "title": "[BIP-824] Enable YieldFi yUSD/USDC gauges on Balancer v3 Base new pool deployment",
+        "end_utc": "2025-05-12T18:00:00Z",
+        "summary": "[BIP-824] Enable YieldFi yUSD/USDC gauges on Balancer v3 Base new pool deployment closed on 2025-05-12T18:00:00Z. Timeline analytics noted 6 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.18)",
+        "market_response": "token -1.99%; TVL +0.87%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -0.4717,
+    "ex_post_tvl_impact_pct": 2.8168,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -0.47%; TVL +2.82%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 1,
+    "Positive": 0,
+    "Neutral": 2,
+    "total_comments": 3
+  }
+}

@@ -1,0 +1,257 @@
+{
+  "captured_at_utc": "2025-10-08T07:27:19.934916+00:00",
+  "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x61a9b65642902868755b51fc1a7cf2a1c95ced6cf41931a16c984a9ee4c75aa1",
+  "focus": null,
+  "votes_count": 5500,
+  "timeline_metrics_current": {
+    "unique_voters": 5500,
+    "total_votes": 5500,
+    "first_vote_at": "2023-10-06T02:25:12Z",
+    "last_vote_at": "2023-10-08T00:48:55Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 1,
+    "lead_ratio_by_quartile": [
+      [
+        0.011652,
+        0.988348,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      0.01109090909090909,
+      0.988909090909091,
+      0.0
+    ],
+    "stability": [
+      0.01109090909090909,
+      0.988909090909091,
+      0.0
+    ],
+    "early_ratio": [
+      0.011652340019102196,
+      0.9883476599808978,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        2133005.2821923085,
+        2293900.7129190033,
+        243636.72483982274
+      ],
+      [
+        2719.2874404719764,
+        32763.132994340343,
+        10960.170422409092
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.306612,
+    "spike_follow_support_ratio": 0.718587,
+    "stairwise_ratio": 0.029829,
+    "half_slope_diff": -36.39073
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x66b953a7cf4de9f6de54e6eb87ae291b5cc62f12c7fed68eba91043607883221",
+      "title": "Proposal: Building the Future of NFTs: The Rarible Protocol - Arbitrum Integration Proposal [REVISED]",
+      "author": "0x1B686eE8E31c5959D9F5BBd8122a58682788eeaD",
+      "end_utc": "2023-09-01T19:16:02Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-08-25T19:16:41Z",
+        "last_vote_at": "2023-08-26T07:14:21Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            7345732.6864043195,
+            116990.02409824789,
+            226269.1116841672
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.892797,
+        "spike_follow_support_ratio": 0.529713,
+        "stairwise_ratio": 0.010323,
+        "half_slope_diff": -55.484426
+      },
+      "price_impact_pct": -5.292,
+      "tvl_impact_pct": -5.0423,
+      "similarity": 0.0239,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "For",
+        "margin_abs": 94945293.04926684,
+        "scores_total": 120779306.30293971,
+        "margin_pct": 0.786105633121656
+      }
+    }
+  ],
+  "similar_proposals_data": [],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x61a9b65642902868755b51fc1a7cf2a1c95ced6cf41931a16c984a9ee4c75aa1",
+    "selected_choice_label": "Against",
+    "selected_choice_index": 1,
+    "confidence": 0.9,
+    "summary": "The proposal seeks a large grant to support KeplerHomes MMORPG and social gameplay on Arbitrum. While innovative, concerns about timing, market fit, and negative market impacts from a similar past proposal suggest caution. Forum sentiment is mixed but leans neutral to negative. Vote timeline strongly favors 'Against'. Recommendation is to maintain status quo.",
+    "key_arguments_for": [
+      "KeplerHomes aims to build a sustainable, playable MMORPG and social gameplay on Arbitrum.",
+      "The project has a clear roadmap and KPIs to grow user retention and activity in the ecosystem.",
+      "The team has demonstrated prior development and community engagement."
+    ],
+    "key_arguments_against": [
+      "Vote timeline and early voting strongly favor 'Against'.",
+      "Similar past proposal with similar scope had negative post-vote market impacts.",
+      "Forum sentiment shows concerns about timing and product fit.",
+      "Current market impact metrics are negative, indicating risk."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.arbitrum.foundation/t/keplerhomes-final-stip-round-1/17226",
+        "quote": "Forum sentiment: 1 positive, 4 negative, 6 neutral posts; concerns expressed about timing and attractiveness."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "snapshot.org proposal timeline",
+        "quote": "Timeline metrics show strong and stable lead for 'Against' choice (index 1) with early voting support."
+      },
+      {
+        "source_tool": "adjacent_analytics",
+        "reference": "Proposal 0x66b953a7cf4de9f6de54e6eb87ae291b5cc62f12c7fed68eba91043607883221",
+        "quote": "Similar past proposal aimed to integrate Rarible Protocol; despite 'For' vote, post-vote price and TVL declined significantly."
+      }
+    ],
+    "available_choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2023-10-06T02:00:00Z",
+    "event_end_utc": "2023-10-13T02:00:00Z",
+    "event_time_utc": "2023-10-13T02:00:00Z",
+    "address_of_governance_token": "0x0000000000000000000000000000000000000000",
+    "token_price_impact_pct": -0.6138,
+    "tvl_impact_pct": -0.4497,
+    "actual_vote_result": {
+      "winner_label": "Against",
+      "winner_index": 1,
+      "scores": [
+        11890443.02233116,
+        89281960.08809546,
+        18557574.568878416
+      ],
+      "scores_total": 119729977.6793059,
+      "margin_abs": 70724385.51921704,
+      "margin_pct": 0.590699
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Not change, Status quo",
+    "ai_final_conclusion": "Option 'Against' selected with stance to keep 'Not change, Status quo'.",
+    "ai_final_reason": "- Vote timeline metrics show a clear and stable preference for 'Against', indicating strong early and sustained opposition.\n- Forum sentiment is mixed but leans neutral to negative, with concerns about timing and product-market fit.\n- Similar past proposals with similar intentions resulted in negative market reactions post-vote, suggesting risk.\n- Current market impact metrics show slight negative price and TVL changes, supporting caution.\n- Recommendation aligns with the aggregated forum sentiment and vote timeline to prioritize long-term ecosystem health by maintaining status quo.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x66b953a7cf4de9f6de54e6eb87ae291b5cc62f12c7fed68eba91043607883221",
+        "title": "Proposal: Building the Future of NFTs: The Rarible Protocol - Arbitrum Integration Proposal [REVISED]",
+        "end_utc": "2023-09-01T19:16:02Z",
+        "summary": "Proposal: Building the Future of NFTs: The Rarible Protocol - Arbitrum Integration Proposal [REVISED] closed on 2023-09-01T19:16:02Z. Timeline analytics noted 5500 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.02)",
+        "market_response": "token -5.29%; TVL -5.04%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -0.6138,
+    "ex_post_tvl_impact_pct": -0.4497,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -0.61%; TVL -0.45%"
+  },
+  "agentic_ai_choice": "Against",
+  "actual_outcome": "Against",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 4,
+    "Positive": 1,
+    "Neutral": 6,
+    "total_comments": 11
+  }
+}

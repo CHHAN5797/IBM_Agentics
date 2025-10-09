@@ -1,0 +1,1146 @@
+{
+  "captured_at_utc": "2025-10-08T23:38:16.609704+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x8bd550983b89ec3b642ce0a94136a77b91cf8d695b2f5b5c24f262c6f379b147",
+  "focus": null,
+  "votes_count": 5,
+  "timeline_metrics_current": {
+    "unique_voters": 5,
+    "total_votes": 5,
+    "first_vote_at": "2024-09-26T18:40:48Z",
+    "last_vote_at": "2024-09-30T05:14:00Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        0.003264874658194187,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        362216.21297297877,
+        0.0,
+        0.0
+      ],
+      [
+        2385334.647666671,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.868168,
+    "spike_follow_support_ratio": 0.0,
+    "stairwise_ratio": 0.131832,
+    "half_slope_diff": 14.371878
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x3afbfa271dd43aecc8ee157efbf471ec7e27e05f94242c7fe35327187200a03a",
+      "title": "[BIP-701] Enable a balETH/wstETH gauge [Ethereum]",
+      "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+      "end_utc": "2024-09-23T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5,
+        "total_votes": 5,
+        "first_vote_at": "2024-09-20T04:01:07Z",
+        "last_vote_at": "2024-09-23T06:22:15Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.006332741073527495,
+            0.0,
+            0.0
+          ],
+          [
+            369045.0373759006,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2666518.1643229816,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.798735,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.201265,
+        "half_slope_diff": 19.251541
+      },
+      "price_impact_pct": 3.3422,
+      "tvl_impact_pct": 4.3654,
+      "similarity": 0.0958,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 3035563.208031623,
+        "scores_total": 3035563.208031623,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0x5d79b5cc47b0781dc9146367414fcad070809547cd5fc1f41ae01809aca1e36b",
+      "title": "[BIP-700] Enable a wstETH/GYD gauge [Ethereum]",
+      "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+      "end_utc": "2024-09-23T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 6,
+        "total_votes": 6,
+        "first_vote_at": "2024-09-20T04:01:21Z",
+        "last_vote_at": "2024-09-23T06:22:34Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.011062844861338548,
+            0.0,
+            0.0
+          ],
+          [
+            237861.1240738942,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2666664.4462589063,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.834769,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.165231,
+        "half_slope_diff": 21.179496
+      },
+      "price_impact_pct": 3.3422,
+      "tvl_impact_pct": 4.3654,
+      "similarity": 0.1085,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2904525.581395645,
+        "scores_total": 2904525.581395645,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0x11359291f1cb634d26208c2d821d99782790ef031707c76831c56d571255bbbe",
+      "title": "[BIP-699] Enable a wstETH/GYD gauge [Arbitrum]",
+      "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+      "end_utc": "2024-09-23T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5,
+        "total_votes": 5,
+        "first_vote_at": "2024-09-20T04:01:35Z",
+        "last_vote_at": "2024-09-23T06:23:09Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.006673687456760747,
+            0.0,
+            0.0
+          ],
+          [
+            237861.84871458026,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2666665.0948917945,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.834769,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.165231,
+        "half_slope_diff": 20.251383
+      },
+      "price_impact_pct": 3.3422,
+      "tvl_impact_pct": 4.3654,
+      "similarity": 0.1071,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2904526.9502800624,
+        "scores_total": 2904526.9502800624,
+        "margin_pct": 1.0
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x9a4e64391919d25d42acf67cc463f29a613c169fb2f8503bc74e5f1a0e99919f",
+      "cleaned": {
+        "proposal_id": "0x9a4e64391919d25d42acf67cc463f29a613c169fb2f8503bc74e5f1a0e99919f",
+        "title": "[BIP-413] Kill GHO Gauges Week 35",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-09-04T18:00:00Z",
+        "similarity_score": 0.2778,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3319539.559856566,
+        "margin_pct": 0.9999999883213827,
+        "scores_total": 3319539.5986241987,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 53,
+        "total_votes": 53,
+        "first_vote_at": "2023-08-31T18:21:41Z",
+        "last_vote_at": "2023-09-04T16:15:08Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1032.7772603510173,
+            0.0,
+            0.0
+          ],
+          [
+            1218.4339406918004,
+            0.0,
+            0.02159829230608777
+          ],
+          [
+            86857.27684976785,
+            0.0,
+            0.0
+          ],
+          [
+            3230431.088975096,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.951517,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.000144,
+        "half_slope_diff": 27.431521
+      },
+      "raw": {
+        "id": "0x9a4e64391919d25d42acf67cc463f29a613c169fb2f8503bc74e5f1a0e99919f",
+        "title": "[BIP-413] Kill GHO Gauges Week 35",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/488\n\n---\n\n[BIP-413]: Kill GHO Gauges Week 35\nDate: 28/08/2023\nAuthor: @TokenLogic\n\n---\n\n# Summary\n\nThe purpose of this publication is to kill three GHO gauges:\n\n* GHO/DAI/USDC/USDT\n* GHO/OHM\n* GHO/MAI\n\nThese gauges either reduce the value proposition of other gauges that have less integration potential within the Aave ecosystem or have failed to attract any deposit liquidity since being initially deployed.\n\n# Motivation\n\nThe GHO/USDC/USDT Gauge has the potential to create a new 3pool that which has the potential to be included in the Aave Safety Module (SM). It is sub optimal for incentives to be split between the current GHO/3pool and pending GHO/USDC/USDT Gauge.\n\nThe OHM and MAI Gauges have been deployed since GHO launched on Balancer and have received no support. This is the results of various initiatives not coming to fruition. \n\n# Specification\n\nThe DAO Multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with the AuthorizerAdaptorEntrypoint at `0xf5dECDB1f3d1ee384908Fbe16D2F0348AE43a9eA` and call performAction using `0xab8f0945` for the `data(bytes)` argument and the “Gauge Address” list for each pool below will be used for the `target(address)` argument.\n\nGauge Addresses: \n\nGHO/DAI/USDC/USDT - `0x414eae9a827f4174a63fe4f10e975678ca28c898 `\nGHO/OHM - `0x73f49a29f91e016cc9bde5cdf6f5dc049280e5a9`\nGHO/MAI - `0x5c23661e747f84e0c71d782e5f1513126041734b`\n\n\n# Disclosure\n\nTokenLogic receives no payment from Aave DAO or any external source for the creation of this proposal. TokenLogic is a delegate within the Aave ecosystem.",
+        "end_utc": "2023-09-04T18:00:00Z",
+        "similarity_score": 0.2778,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3319539.578797487,
+            0.0008857904961528699,
+            0.018940920817629155
+          ],
+          "scores_total": 3319539.5986241987,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-09-04T18:00:00",
+          "pre_tvl_avg": 693231153.0,
+          "post_tvl_avg": 700904469.0,
+          "abnormal_change": 1.1069,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.011069,
+          "abnormal_change_pct": 1.1069
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-09-04T18:00:00",
+          "pre_price_avg": 3.3678623649999997,
+          "post_price_avg": 3.4175693650000003,
+          "abnormal_change": 1.4759,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.014759,
+          "abnormal_change_pct": 1.4759
+        }
+      }
+    },
+    {
+      "proposal_id": "0x209a8a1e83e41238a0c5b0db09b51077154005ae84aa76ecab4934366f445681",
+      "cleaned": {
+        "proposal_id": "0x209a8a1e83e41238a0c5b0db09b51077154005ae84aa76ecab4934366f445681",
+        "title": "[BIP-527] Gauge Kill/Unkill for 2eur Pools",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2024-01-08T19:00:00Z",
+        "similarity_score": 0.1949,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 4240631.831730185,
+        "margin_pct": 0.9999995544816574,
+        "scores_total": 4240633.721010292,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 33,
+        "total_votes": 33,
+        "first_vote_at": "2024-01-04T19:34:43Z",
+        "last_vote_at": "2024-01-08T09:03:25Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            350104.3736804771,
+            0.0,
+            0.0
+          ],
+          [
+            1191.7243056968323,
+            0.0,
+            0.9446400536217687
+          ],
+          [
+            111554.23118218798,
+            0.0,
+            0.0
+          ],
+          [
+            3777782.4472018764,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.831373,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.026875,
+        "half_slope_diff": 9.258541
+      },
+      "raw": {
+        "id": "0x209a8a1e83e41238a0c5b0db09b51077154005ae84aa76ecab4934366f445681",
+        "title": "[BIP-527] Gauge Kill/Unkill for 2eur Pools",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "## PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/723\n\n**Summary & Motivation:**\n\nIn the most recent omni-bus gauge clean up proposal [BIP-515](https://forum.balancer.fi/t/bip-515-kill-unused-gauges-week-50/5467) an oversight in gauge addresses occurred for the 2eur pool. The wrong gauge was killed and must be unkilled. Also the correct gauge was not killed, and must be killed in order to maintain the initial intentions of the proposal. The purpose of this proposal is to execute the unkill of the new gauge, and kill of the old gauge. \n|Symbol|Root Gauge Address|PoolId|\n|---|---|---|\n|2eur (PAR)|0x16289f675ca54312a8fcf99341e7439982888077|0x513cdee00251f39de280d9e5f771a6eafebcc88e000000000000000000000a6b\n|2eur (agEUR)|0x790de8abe859f399023bce73b5fe5c4870cd816a|0x77e97d4908be63394bc5dff72c8c7bddf1699882000000000000000000000a6a|\n\n\n**Specification:**\n\n#1\nThe DAO Multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will call `grantRole` on the Authorizer `0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6` with the following arguments:\n\nrole: `0x076e9815202aa39577192023cfa569d6504b003183b2bc13cd0046523dfa23ea`\naccount: `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f`\n\nThe role can be verified [here](https://github.com/balancer/balancer-deployments/blob/f622cd1652e2e111b33358dc6fa643e0d7ff221a/action-ids/mainnet/action-ids.json#L369). This will give the DAO Multisig the ability to call `unkillGauge` on a pool’s gauge.\n\n#2\nThe DAO Multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with the `AuthorizerAdaptorEntrypoint` at `0xf5dECDB1f3d1ee384908Fbe16D2F0348AE43a9eA` and call `performAction` using `0xd34fb267` for the `data(bytes)` argument and `0x16289f675ca54312a8fcf99341e7439982888077` for the `target(address)` argument.\n\n#3 \nThe DAO Multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will call `revokeRole` on the Authorizer `0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6` with the following arguments:\n\nrole: `0x076e9815202aa39577192023cfa569d6504b003183b2bc13cd0046523dfa23ea`\naccount: `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f`\n\n#4 \nThe DAO Multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with the `AuthorizerAdaptorEntrypoint` at `0xf5dECDB1f3d1ee384908Fbe16D2F0348AE43a9eA` and call performAction using `0xab8f0945` for the data(bytes) argument and `0x790de8abe859f399023bce73b5fe5c4870cd816a` will be used for the target(address) argument.",
+        "end_utc": "2024-01-08T19:00:00Z",
+        "similarity_score": 0.1949,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            4240632.7763702385,
+            0,
+            0.9446400536217686
+          ],
+          "scores_total": 4240633.721010292,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-01-08T19:00:00",
+          "pre_tvl_avg": 931422730.5,
+          "post_tvl_avg": 970042554.0,
+          "abnormal_change": 4.1463,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.041463,
+          "abnormal_change_pct": 4.1463
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-01-08T19:00:00",
+          "pre_price_avg": 3.86706437,
+          "post_price_avg": 4.350216675,
+          "abnormal_change": 12.494,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.12494,
+          "abnormal_change_pct": 12.494
+        }
+      }
+    },
+    {
+      "proposal_id": "0x844058e6c4794a72bb1c0135a1fe3f487b9b1963ca2b652e37e65b7843449782",
+      "cleaned": {
+        "proposal_id": "0x844058e6c4794a72bb1c0135a1fe3f487b9b1963ca2b652e37e65b7843449782",
+        "title": "[BIP-419] Kill Duplicate BRZ/jBRL Gauge [Polygon]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-09-11T18:00:00Z",
+        "similarity_score": 0.1782,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3533779.0595188024,
+        "margin_pct": 0.9999992185326786,
+        "scores_total": 3533781.8210538165,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 58,
+        "total_votes": 58,
+        "first_vote_at": "2023-09-07T18:57:45Z",
+        "last_vote_at": "2023-09-11T16:44:05Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            457.0727981875475,
+            0.0,
+            0.0
+          ],
+          [
+            82315.77699839717,
+            0.0,
+            0.020318086090976267
+          ],
+          [
+            214576.16678346993,
+            0.0,
+            0.0
+          ],
+          [
+            3236432.784155675,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.894684,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.000317,
+        "half_slope_diff": 15.043117
+      },
+      "raw": {
+        "id": "0x844058e6c4794a72bb1c0135a1fe3f487b9b1963ca2b652e37e65b7843449782",
+        "title": "[BIP-419] Kill Duplicate BRZ/jBRL Gauge [Polygon]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/495\n\n#### Summary\nBRZ/jBRL has recently moved to a new pool and gauge. The current pool utilized can be seen [here](https://app.balancer.fi/#/polygon/pool/0x42942cdec85078cf0e28e9cb5acd40cb53997ed6000000000000000000000bea). The duplicate pool, which is not utilized can be seen [here](https://0xe19ed40a47f9b0cea4ca6d372df66107758913ec000000000000000000000b41). There is no need to have a gauge for both pools active on the gauge controller, therefore I am proposing to kill the gauge which serves no purpose.\n\nPool address: [0xe19ed40A47F9B0CEA4ca6D372dF66107758913Ec](https://app.balancer.fi/#/polygon/pool/0xe19ed40a47f9b0cea4ca6d372df66107758913ec000000000000000000000b41)\nGauge address: [0x455f20c54b5712a84454468c7831f7c431aeeb1c](https://etherscan.io/address/0x455f20c54b5712a84454468c7831f7c431aeEB1C#readContract)\n\n#### Specification:\n\nThe DAO Multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with the AuthorizerAdaptorEntrypoint at `0xf5dECDB1f3d1ee384908Fbe16D2F0348AE43a9eA` and call performAction using `0xab8f0945` for the `data(bytes)` argument and the gauge address `0x455f20c54b5712a84454468c7831f7c431aeeb1c` will be used for the `target(address)` argument.",
+        "end_utc": "2023-09-11T18:00:00Z",
+        "similarity_score": 0.1782,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3533780.4402863095,
+            0,
+            1.3807675069031935
+          ],
+          "scores_total": 3533781.8210538165,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-09-11T18:00:00",
+          "pre_tvl_avg": 717692953.0,
+          "post_tvl_avg": 691324754.5,
+          "abnormal_change": -3.674,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.03674,
+          "abnormal_change_pct": -3.674
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-09-11T18:00:00",
+          "pre_price_avg": 3.345758385,
+          "post_price_avg": 3.259849045,
+          "abnormal_change": -2.5677,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.025677,
+          "abnormal_change_pct": -2.5677
+        }
+      }
+    },
+    {
+      "proposal_id": "0xcc03daa8b953e0bc99db4180d83d4253f774734960b6b783e0da3f6f4baeccc2",
+      "cleaned": {
+        "proposal_id": "0xcc03daa8b953e0bc99db4180d83d4253f774734960b6b783e0da3f6f4baeccc2",
+        "title": "[BIP-404] Kill Unused Gauges Week 33",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-08-21T18:00:00Z",
+        "similarity_score": 0.169,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3571066.8259233087,
+        "margin_pct": 0.9999999946170629,
+        "scores_total": 3571066.845146137,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 73,
+        "total_votes": 73,
+        "first_vote_at": "2023-08-17T18:31:37Z",
+        "last_vote_at": "2023-08-21T16:48:08Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            80989.35162380183,
+            0.0,
+            0.0
+          ],
+          [
+            1275.1264261988479,
+            0.0,
+            0.0
+          ],
+          [
+            10.860363709847485,
+            0.0,
+            0.0
+          ],
+          [
+            3488791.506732426,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.881681,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 1.1e-05,
+        "half_slope_diff": 20.383407
+      },
+      "raw": {
+        "id": "0xcc03daa8b953e0bc99db4180d83d4253f774734960b6b783e0da3f6f4baeccc2",
+        "title": "[BIP-404] Kill Unused Gauges Week 33",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/468\n\n\n#### Summary\n\nThe purpose of this proposal is to kill five* gauges which are currently not being utilized due to dead ends with partnership initiatives. The five* pools are the TWAMM rETH/wstETH on Mainnet, OHM/LUSD on Mainnet, cbETH/wstETH on Mainnet*, DFX/WETH on Arbitrum, and ACID/WETH on Arbitrum. These gauges have been active for several weeks and have received little to no votes. Killing these gauges keep our UI and system cleaner overall.\n\n#### Motivation\n\nThe TWAMM rETH/wstETH gauge is proposed to be killed at the request of the Cron Finance team. The other 4* gauges serve no purpose to veBAL holders or Balancer users based on utilization. Removing them is a house cleaning in terms of UX and safety. \n\n#### Specification: \n\nThe DAO Multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with the AuthorizerAdaptorEntrypoint at `0xf5dECDB1f3d1ee384908Fbe16D2F0348AE43a9eA` and call performAction using `0xab8f0945` for the `data(bytes)` argument and the “Root Gauge Address” list for each pool below will be used for the `target(address)` argument.\n\n|Symbol|Pool Type|Network|Root Gauge Address|Pool Id|\n|---|---|---|---|---|\n|wstETH/rETH/L|TWAMM|1|0xB5bd58C733948e3d65d86BA9604e06e5dA276FD1|0x6910c4e32d425a834fb61e983c8083a84b0ebd01000200000000000000000532|\n|wstETH/cbETH|ComposableStable|1|0x01A9502C11f411b494c62746D37e89d6f7078657| 0x9c6d47ff73e0f5e51be5fd53236e3f595c5793f200020000000000000000042c |\n|50OHM-50LUSD|Weighted|1|0xd8191A3496a1520c2B5C81D04B26F8556Fc62d7b|0x18fdf15ff782e44c1f9b6c5846ff6b0f0004f6a2000200000000000000000560|\n|B-50ACID-50WETH|Weighted|42161|0x6ba66967B0723718d616ad5F293c2AE6d7b0FCAE|0xce2da1d3e5b5e4e1913f9ff65ee029d38682d8b900020000000000000000044e|",
+        "end_utc": "2023-08-21T18:00:00Z",
+        "similarity_score": 0.169,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3571066.8355347225,
+            0,
+            0.009611413708486824
+          ],
+          "scores_total": 3571066.845146137,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-08-21T18:00:00",
+          "pre_tvl_avg": 847997049.0,
+          "post_tvl_avg": 654464009.0,
+          "abnormal_change": -22.8224,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.228224,
+          "abnormal_change_pct": -22.8224
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-08-21T18:00:00",
+          "pre_price_avg": 3.6801733199999997,
+          "post_price_avg": 3.546637765,
+          "abnormal_change": -3.6285,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.036285,
+          "abnormal_change_pct": -3.6285
+        }
+      }
+    },
+    {
+      "proposal_id": "0x755a7cd610710d74be8690d6f9addcae71c0590ad12b68de4be6016bcbcf91b2",
+      "cleaned": {
+        "proposal_id": "0x755a7cd610710d74be8690d6f9addcae71c0590ad12b68de4be6016bcbcf91b2",
+        "title": " [BIP-195] Remove MAI Gauges on Polygon and Arbitrum",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-02-27T19:00:00Z",
+        "similarity_score": 0.1649,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 4088153.007196633,
+        "margin_pct": 0.999998959683191,
+        "scores_total": 4088157.2601753487,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 266,
+        "total_votes": 266,
+        "first_vote_at": "2023-02-23T19:14:40Z",
+        "last_vote_at": "2023-02-27T16:42:38Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            675216.277413999,
+            0.06695614741376635,
+            2.0607279191853376
+          ],
+          [
+            28674.159829155135,
+            0.0645667301082254,
+            0.0
+          ],
+          [
+            259827.7896176351,
+            0.0,
+            0.0
+          ],
+          [
+            3124436.841063763,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.681542,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 1.5e-05,
+        "half_slope_diff": 36.190888
+      },
+      "raw": {
+        "id": "0x755a7cd610710d74be8690d6f9addcae71c0590ad12b68de4be6016bcbcf91b2",
+        "title": " [BIP-195] Remove MAI Gauges on Polygon and Arbitrum",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "[PR with multisig payload](https://github.com/BalancerMaxis/multisig-ops/pull/79)\n\n**Summary:**\n\nRemove MAI gauges for MAI-USDC-USDT-DAI on Polygon and MAI-USDC on Arbitrum.\n\n**Reasoning:**\n\nQiDao will be migrating rewards out of the Polygon pool, so there is no reason to keep the gauge there. Similarly for Arbitrum, there are no bribes planned for that pool. QiDao bribes for Balancer will be focused on its Ethereum MAI-USDC pool.\n\n### Specification\n#1\nThe DAO Multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with the `AuthorizerAdaptor` at `0x8F42aDBbA1B16EaAE3BB5754915E0D06059aDd75` and call `performAction` using `0xab8f0945` for the `data(bytes)` argument and `0xFBf87D2C22d1d298298ab5b0Ec957583a2731d15` for the `target(address)` argument.\n\n`0xFBf87D2C22d1d298298ab5b0Ec957583a2731d15` corresponds to the Polygon Root Gauge address for MAI-USDC-USDT-DAI on Polygon.\n\n#2\nThe DAO Multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with the `AuthorizerAdaptor` at `0x8F42aDBbA1B16EaAE3BB5754915E0D06059aDd75` and call `performAction` using `0xab8f0945` for the `data(bytes)` argument and `0xF0ea3559Cf098455921d74173dA83fF2f6979495` for the `target(address)` argument.\n\n`0xF0ea3559Cf098455921d74173dA83fF2f6979495` corresponds to the Arbitrum Root Gauge address for MAI-USDC-USDT on Arbitrum.",
+        "end_utc": "2023-02-27T19:00:00Z",
+        "similarity_score": 0.1649,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            4088155.067924552,
+            0.13152287752199177,
+            2.0607279191853376
+          ],
+          "scores_total": 4088157.2601753487,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-02-27T19:00:00",
+          "pre_tvl_avg": 1236492726.5,
+          "post_tvl_avg": 1264910815.0,
+          "abnormal_change": 2.2983,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.022983,
+          "abnormal_change_pct": 2.2983
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-02-27T19:00:00",
+          "pre_price_avg": 7.03785868,
+          "post_price_avg": 7.0906663949999995,
+          "abnormal_change": 0.7503,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.007503,
+          "abnormal_change_pct": 0.7503
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x8bd550983b89ec3b642ce0a94136a77b91cf8d695b2f5b5c24f262c6f379b147",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.85,
+    "summary": "This proposal seeks to kill the GHO/USDC Wide Range ECLP gauge to focus liquidity and rewards on the Narrow Range ECLP and full range 3pool, optimizing resource allocation in Balancer's liquidity pools.",
+    "key_arguments_for": [
+      "The wide range ECLP gauge is no longer needed due to deep liquidity in the full range 3pool and incentives for the narrow range ECLP.",
+      "Historical similar proposals with enabling gauges have passed strongly and led to positive market and TVL impacts.",
+      "Timeline voting metrics show stable, unanimous early support and strong voter confidence for the 'Yes, let's do it' option."
+    ],
+    "key_arguments_against": [
+      "Forum discussion shows a negative sentiment with concerns potentially about the gauge removal or centralization of liquidity focus.",
+      "The small number of votes (5) may not represent broad community consensus."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.balancer.fi/t/bip-706-kill-gho-usdc-wide-range-eclp-gauge/6019",
+        "quote": "The forum post by TokenLogic explains the proposal to kill the ECLP-GHO-USDC Wide Range gauge citing deep liquidity and focus on narrow range and full range 3pool."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Proposal voting timeline metrics",
+        "quote": "Lead ratio and stability metrics indicate 100% early and consistent support for the 'Yes, let's do it' option."
+      },
+      {
+        "source_tool": "adjacent_analytics",
+        "reference": "Similar proposals BIP-701 and BIP-700",
+        "quote": "Previous proposals enabling gauges showed positive price and TVL impacts, indicating successful liquidity optimization."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2024-09-26T18:00:00Z",
+    "event_end_utc": "2024-09-30T18:00:00Z",
+    "event_time_utc": "2024-09-30T18:00:00Z",
+    "address_of_governance_token": "0xBA100000625a3754423978a60c9317c58a424e3D",
+    "token_price_impact_pct": -4.4385,
+    "tvl_impact_pct": -8.2962,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        2154556.67049459,
+        0.0,
+        592994.1934099343
+      ],
+      "scores_total": 2747550.863904524,
+      "margin_abs": 1561562.4770846558,
+      "margin_pct": 0.568347
+    },
+    "simulation_reason": "Recommendation based on timeline analytics, forum sentiment, and historical lessons, independent of ex-post vote tally.",
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Timeline analysis shows unanimous and stable early support for the 'Yes' option, indicating strong voter conviction.\n- Historical similar proposals that enabled gauges resulted in positive market and TVL responses, supporting the effectiveness of targeted liquidity changes.\n- Forum sentiment is currently negative but limited in volume; this may reflect concerns but does not outweigh clear voting and analytic signals.\n- Market impacts show declines, but these post-event data are not considered in decision reasoning; the recommendation focuses on organizational long-term health.\n- The recommendation aligns with voting timeline but diverges from forum sentiment, reflecting a judgment that the vote better captures community interest than limited forum negativity.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x5d79b5cc47b0781dc9146367414fcad070809547cd5fc1f41ae01809aca1e36b",
+        "title": "[BIP-700] Enable a wstETH/GYD gauge [Ethereum]",
+        "end_utc": "2024-09-23T18:00:00Z",
+        "summary": "[BIP-700] Enable a wstETH/GYD gauge [Ethereum] closed on 2024-09-23T18:00:00Z. Timeline analytics noted 6 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.11)",
+        "market_response": "token +3.34%; TVL +4.37%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0x11359291f1cb634d26208c2d821d99782790ef031707c76831c56d571255bbbe",
+        "title": "[BIP-699] Enable a wstETH/GYD gauge [Arbitrum]",
+        "end_utc": "2024-09-23T18:00:00Z",
+        "summary": "[BIP-699] Enable a wstETH/GYD gauge [Arbitrum] closed on 2024-09-23T18:00:00Z. Timeline analytics noted 5 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.11)",
+        "market_response": "token +3.34%; TVL +4.37%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -4.4385,
+    "ex_post_tvl_impact_pct": -8.2962,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -4.44%; TVL -8.30%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 1,
+    "Positive": 0,
+    "Neutral": 0,
+    "total_comments": 1
+  }
+}

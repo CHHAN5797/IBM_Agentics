@@ -1,0 +1,699 @@
+{
+  "captured_at_utc": "2025-10-08T04:13:07.106950+00:00",
+  "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x1a0a7bee0c5b13a690275031c44d8b5efe78b86d86f6d2357299020e7a907d57",
+  "focus": null,
+  "votes_count": 5500,
+  "timeline_metrics_current": {
+    "unique_voters": 5500,
+    "total_votes": 5500,
+    "first_vote_at": "2023-12-02T17:56:11Z",
+    "last_vote_at": "2023-12-03T08:56:42Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 3,
+    "lead_ratio_by_quartile": [
+      [
+        0.116545,
+        0.0,
+        0.0,
+        0.883455
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      0.11654545454545455,
+      0.0,
+      0.0,
+      0.8834545454545455
+    ],
+    "stability": [
+      0.11654545454545455,
+      0.0,
+      0.0,
+      0.8834545454545455
+    ],
+    "early_ratio": [
+      0.11654545454545455,
+      0.0,
+      0.0,
+      0.8834545454545455
+    ],
+    "vp_by_quartile": [
+      [
+        919027.7072440509,
+        64259.322876002865,
+        32989.41453448326,
+        1913070.4875224808
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.828021,
+    "spike_follow_support_ratio": 0.333856,
+    "stairwise_ratio": 0.018098,
+    "half_slope_diff": -17.992739
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x1ac6079871dc4af55b7d67eae130e4c1bbcbabd9bb35405bc1733ef2efe45875",
+      "title": "Consolidate Security Proposals into a RFP Process",
+      "author": "0xAD16ebE6FfC7d96624A380F394cD64395B0C6144",
+      "end_utc": "2023-11-10T16:34:26Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-11-03T16:34:50Z",
+        "last_vote_at": "2023-11-04T07:44:14Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            4756346.945746808,
+            34067.821166992115,
+            13960.753034431698
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.31086,
+        "spike_follow_support_ratio": 0.985886,
+        "stairwise_ratio": 0.026638,
+        "half_slope_diff": 115.767492
+      },
+      "price_impact_pct": 1.6652,
+      "tvl_impact_pct": 7.6294,
+      "similarity": 0.0659,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "For",
+        "margin_abs": 186480785.7014247,
+        "scores_total": 187543831.7430367,
+        "margin_pct": 0.99433174617511
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x5e0057920df9a278918e4de4ee1e6de7e2415d2af985e40a6c7a1a4b47a4ce01",
+      "cleaned": {
+        "proposal_id": "0x5e0057920df9a278918e4de4ee1e6de7e2415d2af985e40a6c7a1a4b47a4ce01",
+        "title": "Arbitrum Short-term incentive Program",
+        "author": "0xF92F185AbD9E00F56cb11B0b709029633d1E37B4",
+        "end_utc": "2023-09-18T03:58:28Z",
+        "similarity_score": 0.1487,
+        "winning_option": "Up to 50M ARB through Jan 2024",
+        "winning_option_index": 1,
+        "margin_abs": 57308445.05070261,
+        "margin_pct": 0.3139709758433741,
+        "scores_total": 182527843.20832,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-09-11T04:00:51Z",
+        "last_vote_at": "2023-09-11T13:31:50Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.996727,
+            0.0,
+            0.003273,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9967272727272727,
+          0.0,
+          0.0032727272727272726,
+          0.0
+        ],
+        "stability": [
+          0.9967272727272727,
+          0.0,
+          0.0032727272727272726,
+          0.0
+        ],
+        "early_ratio": [
+          0.9967272727272727,
+          0.0,
+          0.0032727272727272726,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1722479.2087586527,
+            307337.765123827,
+            470584.17194626265,
+            37149.10917753993
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.41836,
+        "spike_follow_support_ratio": 0.203921,
+        "stairwise_ratio": 0.031344,
+        "half_slope_diff": -33.22399
+      },
+      "raw": {
+        "id": "0x5e0057920df9a278918e4de4ee1e6de7e2415d2af985e40a6c7a1a4b47a4ce01",
+        "title": "Arbitrum Short-term incentive Program",
+        "author": "0xF92F185AbD9E00F56cb11B0b709029633d1E37B4",
+        "body": "Note: This proposal has been posted on behalf of the Arbitrum Incentives Working Group as a result of multiple community calls and workshops between multiple stakeholders. It does not exclude external incentive proposals from outside of the proposed structure.*\n\n**Abstract**\nThis proposal outlines a one-time, community-created program to distribute up to 75,000,000 ARB of DAO-funded incentives targeting active Arbitrum protocols. Aimed at fulfilling short-term community needs, the program plans to allocate DAO-owned ARB towards incentives while ensuring transparent consensus and distribution methods. It spans two voting rounds and provides incentives to eligible programs designed to fund incentives through the January 31, 2024. It asks all participating grantees to self report data, and dashboards, summarizing grant performance.\n\n**Motivation**\nThis provisional framework aims to distribute incentives fairly and effectively using transparent criteria agreed upon by the community, while a thorough system is developed (1 19, 2 7, 3 4, 4 5).\nThe goals of the program are to:\n•\tSupport Network Growth: Accelerate the distribution of incentives to Arbitrum dApps to drive network and ecosystem growth.\n•\tExperiment with Incentive Grants: Experiment with grant distribution to uncover new incentive strategies that increase user engagement and increase volume, transactions, and liquidity in the Arbitrum ecosystem.\n•\tFind new models for grants and developer support that generate maximum activity on the Arbitrum network.\n•\tCreate Incentive Data: Generate data on the efficacy of distributed grants to inform future incentive programs and incentive design.\n\n**Rationale**\nBy incentivizing the use of existing Arbitrum dApps through this proposal, we anticipate increased volume, transactions, users, and liquidity, laying the groundwork for a dynamic ecosystem. While the proposal acts as an experimental program, its primary goal is to ensure basic safeguards while promoting innovative incentive strategies.\n\nGiven that this proposal aims to be a one-time, short term incentive distribution, it lacks the accountability and operational rigor that a full program may provide. As such, we encourage protocols to consider that the use of funds will be both evaluated, and monitored by the community. Any misbehavior, or failure to comply with grant requests will likely result in ineligibility, or at the very least significant discernment, in future incentive or grant programs.\n\n**Specifications**\nThe Arbitrum Short-Term Incentive Program will comprise up to a 75,000,000 ARB budget earmarked for incentive grants for eligible protocols. In order to expedite the distribution of this capital to the ecosystem, the DAO will adopt a bifurcated process comprising two separate processes: the Financial Proposal and Application Process.\n\n**Steps to Implement**\n \n![8b05a5d34faf8659a144f1d35081a89ae83e237e.png](ipfs://bafkreiaizvrpzwo5bn6lxl5ikdywhfakyphtdukgkywpuzpvlrokaaj2oe)\n     \nFollowing a successful Snapshot Temperature Check, the DAO will launch an expedited application and review process, allowing applicants to apply for grants concurrent with the on-chain vote to distribute DAO funds from the treasury.\n\nThe Snapshot Temperature Check will be designed to both achieve consensus and approve funding across four options, where each vote will distinguish support of up to X ARB through the end of January 31, 2024:\n•\tFor up to **25M ARB** through January 31, 2024.\n•\tFor up to **50M ARB** through January 31, 2024.\n•\tFor up to **75M ARB** through January 31, 2024.\n•\tAgainst.\n\n**Financial Proposal**\nThe Financial Proposal will comprise the following:\n•\tA ratification of the Arbitrum Short-Term Incentive Program and application template 37 as articulated in this document.\n•\tApproval of the eligibility criteria, grant budget parameters, distribution strategy, and evaluation requirements.\n•\tA 25,000,000, 50,000,000 or 75,000,000 ARB distribution to the program Multisig.\n•\tA 32,000 ARB operational budget for community/project facilitation.\no\t20,000 ARB to @tnorm as retroactive payment for conducting community moderation:\n\tDraft and review of multiple iterations of incentive proposals.\n\tModeration of community calls and working group telegram.\n\tCoordination individually across dozens of stakeholders and community members over the past three weeks.\no\t12,000 ARB Multisig Signers (A new version of the PL-ARB Grants Safety Multisig 17 - 2K per signer).\n\n**Multisig Setup**\nA new multisig will be created with the signers from the original pl-ARB multisig, under the name of the Arbitrum DAO. The new multisig will include two features to ensure accountability of signers and grantees:\n\n1.\tClawback capability so the DAO can retrieve funds if the multisig violates the agreement.\n2.\tStreaming of funds to grantees every second week for the grants duration using Hedgey. This allows for the halting of funds if misuse is discovered with the goal to stop bad actors, not punish bad designs.\n\n**What are the Eligibility Requirements?**\n\nGrant Requirements:\n•\tGrantees are required to keep distributions in ARB without converting to other assets.\n•\tGrantees must not farm their own incentive programs.\n•\tGrantees must outline a spending plan, provide a pro forma, and state the grant’s objective.\n•\tGrantees must commit to providing data on distributions, all ARB spending transactions, and key metrics like daily TVL, transactions, volumes, unique addresses, and transaction fees. This data should cover 30 days before, during, and after the Incentivization period, and be presented preferably in a Dune Spell/dashboard or alternatively in a report.\n•\tGrantees must agree to share all contract addresses being used to distribute incentive rewards.\n•\tGrantees must disclose the contracts being incentivized and denote any external contracts being incentivized as part of the program.\n•\tGrantees can only incentive contracts on the Arbitrum Network.\n•\tGrants are not to be used in DAO governance.\n•\tGrantees are expected to not encourage or partake in sybil attacks against the forum to sway community opinion.\n•\tGrantees must agree to KYC with the Arbitrum Foundation in order to receive funds.\n•\tGrantees must apply using the approved program application template 15.\n\nBy streaming grant payments, the multisig will be empowered to hold grantees accountable to their proposals by halting fund streaming for any of the following reasons:\n\n•\tAny use of funds not explicitly described in the grantees application.\n•\tFailure to comply with data reporting standards.\no\tGrantee recipients will be required to provide Dune dashboards uploaded and posted to the forum by eligible teams by December 15, 2023.\n•\t•\tDashboard requirements are: Daily TVL, transactions, volumes, unique addresses, and transaction fees for incentivized protocols. This data should cover 30 days before, during, and after the Incentivization period. If a metric does not apply, or this is not achievable, it should be noted in the application.\n•\t•\tMore granular dashboards (including pool-level and user analysis) will be noted by the community for future programs.\no\tIf dashboards are not posted by this date, the multisig will be empowered to halt incentive funding streams for protocols at their discretion.\nIn that this proposal aims to be experimental, the multisig is not intended to provide quality control on the design of incentive programs. Rather, they are empowered to halt streaming in the event of negligence or misuse of funds.\n\n**Eligibility and Evaluation Guidelines**\nGrants span two award cycles, but projects can only be awarded once. Projects rejected in the first cycle are invited to address delegate/community feedback and reapply for the second cycle.\nProtocols can submit grant applications for amounts they feel appropriate. While there’s no ARB limit, delegates and voters will assess each grant individually.\nAs such, the Arbitrum Working Group has included four grant categories, as well as some recommended metrics by which the community might consider evaluating the grants:\n\n•\t**Beacon Grants (<= 200K ARB)**\no\tRecommendations:\n\tLive on Arbitrum for at least 2 months.\n\tMeets one of the following criteria:\n\t.> $1.5M TVL.\n\t.>$2M 30D cumulative Volume.\n\n•\t**Siren Grants (Up to 750K ARB)**\no\tRecommendations:\n\tLive on Arbitrum for at least 4 months.\n\tMeets one of the following criteria:\n\t.> $4M TVL.\n\t.>$40M 30D cumulative Volume.\n\n•\t**Lighthouse Grants* (Up to 2M ARB)**\no\tRecommendations:\n\tLive on Arbitrum for at least 6 months.\n\tMeets one of the following criteria:\n\t.> $15M Arbitrum Network TVL.\n\t.> $100M 30D cumulative Volume.\n\n•\t**Pinnacle Grants* (> 2M ARB)**\no\tRecommendations:\n\tLive on Arbitrum for at least 12 months\n\tMeets one of the following criteria\n\t.> $30M Arbitrum Network TVL\n\t.> $200M 30D cumulative volume\n\n*Grants greater than $1M ARB will be asked to include milestone-based funding tranches in their application.\n\nOne could reasonably use the date of publication for this proposal to inform these metrics.\n\n**Steps to Implement (How does the DAO Approve Grants)?**\nGrants will be approved via a three week process across two cycles.\n\nCycle 1\n1.\tApplication Period (1 Week):\nDuring the Application Stage of the program, eligible protocols will be invited to post proposals in the “Incentive Grant Applications” Category of the Arbitrum Forum using the official Application Template 20.\nOnce posted, the community may provide feedback on the proposal through the end of the Review Period.\n\n2.\tReview Period (1 Week):\nDelegates and network stakeholders will be asked to provide feedback on grant applications upon each specific forum post. Delegates should engage with the goal of ensuring the responsible use of funds. This means an application should represent a comprehensive strategy for incentive distribution, align with the program goals and requirements, and present their plan to adhere to the aforementioned data standards.\nApplicants are expected to adjust, amend, and update their proposals in line with community feedback over this time period. Due to the accelerated timeline of the program, feedback and communication between delegates and applicants will be critical.\n\n3.\tVoting Period (1 Week):\nA delegate will sponsor the proposal throughout the governance process for each grant application. ARB holders and ARB delegates will be invited to vote on each submitted proposal via Snapshot Poll.\nTo succeed, eligible applications must receive a greater than 50% majority in favor of the proposal, and receive greater than 71.51 million ARB in favor of the application. If successful, applicants will coordinate with the Arbitrum Foundation and the PL-ARB multisig to secure the completion of KYC, and receive funding to the address included in their application.\n\nCycle 2\nRepeat the process outlined in Cycle 1, with the exception that the review period for the second round will comprise a 2 week review period.\n\n**Timeline**\n[See image above]\nSep. 01, 2023 - Forum Post\nSep. 09, 2023 - Snapshot Vote Begins\n\nCycle 1\nSep. 16, 2023 - On-Chain Vote and Application Period\nSep. 23, 2023 - Review Period Begins\nSep. 30, 2023 - Voting Round Begins\nOct. 07, 2023 - Funds Distributed\n\nCycle 2\nOct 07, 2023 - Application Period 2 Begins\nOct 14, 2023 - Review Period 2 Begins\nOct 28, 2023 - Voting Round 2 Begins\nNov. 04, 2023 - Funds Distributed\n\n**Overall Cost**\nUp to 75,032,000 ARB.\n\n**Outstanding Questions and Concerns**\n\nWhat happens if the budget is exceeded?\nWe do not expect applications to exceed the funding budget of 75M ARB. However, if requested grants do exceed the allocated budget, funding will be allocated on a first-come, first-serve basis dependent upon the time the proposal was submitted to the Arbitrum Forum. In the event that the budget is exceeded, the DAO may choose to unlock further funds for a third round, or backfund successful incentive proposals.\n\nWhat will happen to excess funds?\nFollowing Cycle 2, excess funds remaining in the multisig will be returned to the Arbitrum Treasury address by the multisig.\n\nWhat is the plan after the Short Term Incentive Program?\nThe Short Term Incentive Program is designed specifically as a one-time program, with the intention of allowing incentives while the DAO designs a more robust, sustainable program in the months throughout the end of the year.\nAt the end of the year, if there is no program in place, protocols can put forth direct votes to on-chain governance to extend their programs. This program offers an opportunity for participating protocols to demonstrate mission-aligned conduct as justification for future funding.\n\nWhat are the specific KPIs for this program - what determines its success?\n•\tCommunity Support: The primary KPI for this proposal is aligning with both delegates and protocols to agree on the distribution of funds through the end of 2023, with an agreement to work towards a more efficient, comprehensive, and effective program in 2024.\n•\tNetwork Activity: An increase in network metrics such as TVL, Volume, Users and Transactions on the incentivized protocols in addition to an increase in general network activity.\n•\tCommunity Awareness: Raised awareness, collaboration, and understanding of incentive distribution strategies and tactics.\n•\tIncentives Data: Increased data on incentives, grants, and protocol behavior to inform future Arbitrum incentive programs and iterations.\n\n**Forum Link **\n\nThis snapshot is replication of the forum post. The forum post includes link to various reference material, forms, etc... which can be reviewed on the link below \n\nhttps://forum.arbitrum.foundation/t/arbitrums-short-term-incentive-program-arbitrum-improvement-proposal/16131/",
+        "end_utc": "2023-09-18T03:58:28Z",
+        "similarity_score": 0.1487,
+        "vote_result": {
+          "choices": [
+            "Up to 25M ARB through Jan 2024",
+            "Up to 50M ARB through Jan 2024",
+            "Up to 75M ARB through Jan 2024",
+            "Against"
+          ],
+          "scores": [
+            62609699.07880869,
+            119918144.1295113,
+            0,
+            0
+          ],
+          "scores_total": 182527843.20832,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "arbitrum",
+          "status": "tvl_data_unavailable",
+          "error": "Could not fetch TVL data: TVL cache not found for slug='arbitrum'"
+        },
+        "price_impact": {
+          "token_id": "11841",
+          "ticker": "ARB",
+          "status": "success",
+          "event_time_utc": "2023-09-18T03:58:28",
+          "pre_price_avg": 0.811015845,
+          "post_price_avg": 0.841210775,
+          "abnormal_change": 3.7231,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.037231,
+          "abnormal_change_pct": 3.7231
+        }
+      }
+    },
+    {
+      "proposal_id": "0xc040de9c6a85dee5ca15de10691165bf5595245ffac922cbef61e45199522345",
+      "cleaned": {
+        "proposal_id": "0xc040de9c6a85dee5ca15de10691165bf5595245ffac922cbef61e45199522345",
+        "title": "Proposal to Backfund Successful STIP Proposals",
+        "author": "0x1B686eE8E31c5959D9F5BBd8122a58682788eeaD",
+        "end_utc": "2023-11-14T14:00:00Z",
+        "similarity_score": 0.1329,
+        "winning_option": "For",
+        "winning_option_index": 0,
+        "margin_abs": 83566706.3340463,
+        "margin_pct": 0.4271395608160685,
+        "scores_total": 195642628.31190002,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-11-07T14:00:11Z",
+        "last_vote_at": "2023-11-07T18:39:47Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1789712.9500304658,
+            13862.759276617997,
+            8958.242013870553
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.559154,
+        "spike_follow_support_ratio": 0.551616,
+        "stairwise_ratio": 0.035149,
+        "half_slope_diff": 355.085136
+      },
+      "raw": {
+        "id": "0xc040de9c6a85dee5ca15de10691165bf5595245ffac922cbef61e45199522345",
+        "title": "Proposal to Backfund Successful STIP Proposals",
+        "author": "0x1B686eE8E31c5959D9F5BBd8122a58682788eeaD",
+        "body": "# Empowering STIP to measure the impact of incentives for new builders\n\n![394a4797e0b4068e1290ae30aaf14db7e8b7ff72_2_1000x1000.jpg](ipfs://bafybeie62x7l7qgdl5vf2d2rqs5qvt6vrosprdun3qzr7alm4k66idntie)    \n\n**Call to Action for Arbitrum ecosystem**\n\nThis proposal represents a critical opportunity for our community to:\n\n* Support diverse, emerging builders and make Arbitrum a welcoming environment for new projects\n* Double the sample size and diversity of stages and categories in the STIP data set\n* Uphold constitutional values of Inclusion vs Exclusion\n* Avoid potentially irreversible harm of crushing small, high potential builders\n\n**Notes:**\n\n* This proposal draft has been prepared by the Arbitrum STIP Inclusion Working Group following a series of community calls and workshops involving various stakeholders. As a preliminary document, it seeks input from both the Arbitrum DAO and the Liquidity Working Group.\n* This proposal frequently cites AIP-9.\n* For all of our resources see here: [svy.gg/stip-backfund (DocSend)](https:/svy.gg/stip-backfund)\n\n# Abstract\n\nThis proposal outlines a one-time backfund to all \"approved but not funded proposals’’ from Arbitrum STIP. The proposed AIP increases the total budget by 21.4M to 71.4M while increasing the total participating protocols by 26, for a total of 56 funded projects. The program plans to allocate DAO-owned ARB towards incentives while leveraging distribution systems, consensus, and delegate diligence already created from STIP 1.\n\nThis program is designed to backfund approved protocols while maintaining the timelines and systems of STIP 1:\n\n* Timeline: The program is scheduled to commence and conclude concurrently with STIP 1, or within a similar timeframe, starting from the first week of November and running through January 31, 2024.\n* KYC: The program will utilize the same KYC system as STIP 1.\n* Reporting: Participating grantees are required to self-report data, maintain dashboards, and regularly summarize grant performance\n\n# Considerations\n\nBefore this proposal was drafted, a working group was formed to gauge sentiment, gather key data points, and outline the proposal's structure. The working group collaborated with delegates and projects affected by the STIP, engaging in multiple calls—including sessions with the creators of the STIP and the Incentive Working Group—to solicit feedback and refine the proposal accordingly.\n\nKey concerns discussed include:\n\n### Why not just push towards a round 2 and go through voting for all proposals again?\n\nFirst and foremost, we believe that the successful execution of this Backfund proposal will, in time, serve as a crucial catalyst for future grant structures, including a successful STIP round 2. Why? This opportunity will unify the Arbitrum ecosystem by addressing key weaknesses in the original STIP 1 structure by quickly providing approved projects and other stakeholders with the resources/data needed to design and support future programs.\n\nKey issues associated with delaying an immediate backfund and moving towards a round 2 include:\n\n* Proper design and execution add considerable time delay to a highly competitive environment within Arbitrum and other L2s\n* Requires teams with limited resources approved already for STIP 1 to spend significant time lobbying delegates\n* Removes attention away from new Round 2 proposals\n* Adds additional burden to delegates that should be focused on long-term design improvements and new STIP grants not yet approved\n* Removes key data for STIP experiment analysis by skewing learnings towards larger, well-established projects\n* Delays the alignment of the STIP with the Arbitrum constitution values of inclusivity and diversity\n* Negatively impacts new builder sentiment towards Arbitrum at a critical time in the L2 Wars\n\n\n### The budget set aside was 50M, and the DAO decided that was the acceptable spend for a short-term incentive.\n\nWhile the budget was set at 50M, the original working group proposed 75M so that:\n\n> \"The budget was raised to 75M ARB to accommodate larger protocols (Pinnacle Grants) without compromising smaller applications.\" [tnorm, September 3rd 2023.](https://forum.arbitrum.foundation/t/arbitrums-short-term-incentive-program-arbitrum-improvement-proposal/16131/12)\n\nExcess demand was a significant possibility due to the high interest in STIP and the absence of a cap for Pinnacle grants. Voters lacked the data to ascertain whether the initial 50M would be adequate to achieve the objectives of STIP.\n\nNoteworthy is that, in the event of excess demand, measures including backfunding were already outlined as potential options.\n\nProper design and fulfillment of a Round 2 or similar future funding programs may take time to develop. Meanwhile, projects that received approval but no funding have immediate initiatives requiring support. Our opportunity is to fund these initiatives, level the competitive playing field, and enhance the data available for the STIP process.\n\n \n![3698b8811ac5887c127ab2bbfc94d7f6dcbd554a_2_624x285.jpg](ipfs://bafkreibtmidazgguawh6jfzjpsmn35br2qv3uba23zvdz3kffhdwc4hyj4)\n \n![8487c56a2a8f7c7f6dd102ad36e9a20b7459b041_2_624x356.png](ipfs://bafybeihuzqen65up5nh4t666unrsu6i7mtdbazw2tcicvqewmmrx2j3zdy)\n    \n    \n\n\n### Voting behaviors for a 50M proposal shouldn’t carry over to a proposal that includes the additional backfunded amounts.\n\nDuring our consultation process, we engaged in numerous discussions that brought forth questions about backfunding. Despite the criticisms, backfunding remains the most straightforward method to address the current STIP’s skewed sample size. We advocate that backfunding is the optimal approach to achieve the STIP’s intended outcomes—specifically, to examine the impact that incentives have on the growth of the Arbitrum ecosystem. \n\nFurthermore, if the STIP continues without rectifying the issues with its sample, the analysis will be compromised by a significant methodological flaw. Backfunding is not just the “best” option; it is essential for preserving the integrity of the STIP overall.\n\nVoting behavior might have differed if the budget cap were set at 75M or 100M. The only way to determine this would be to repeat the experiment with a raised cap (an option that is unfeasible as time travel has not yet been realized).\n\nIt's helpful for us to remember the original objectives of the STIP:\n\n* To provide incentives to a diverse and inclusive group of Arbitrum projects.\n* To quickly establish an incentives program that is in harmony with Arbitrum's values and constitution.\n* To generate robust, meaningful data to shape the future design of Arbitrum grants for projects of all types and sizes.\n\n\n# Motivation\n\n> Motivation - A statement on why the Arbitrum community should implement the AIP.\n\nHow can Arbitrum create an incentives structure to grow the ecosystem? STIP started when the community began investigating creative uses for incentives. A short-term program was devised to act quickly, collect data about how incentives are used by Arbitrum protocols, and learn from the results to design new programs and grow the Arbitrum Ecosystem.\n\nAn unexpected budget problem caused many successful STIP applications to receive no funding. The real-world consequence of this mistake caused the STIP sample to be cut in half - but not at random. To determine the final STIP cohort, the applications were sorted by approval, which inadvertently skewed the sample towards incumbent protocols. This sampling bias is most egregious for collecting data about the smallest protocols; over 70% of Beacon grants were rejected due to the sorting algorithm that was used. Consequently, STIP may not be collecting sufficient data about new builders on Arbitrum.\n\nThis AIP seeks to achieve STIP's original motivations by:\n\n1) nearly doubling the sample size;\n2) adding protocols across a broad array of industry categories; and\n3) including protocols at different stages of development.\n\nThis AIP will ensure an important builder population is included in the study, while increasing the validity of the STIP results.\n\nOne of the most important questions facing Arbitrum today is how to grow the ecosystem and win the L2 Wars. STIP is a novel study on the impact of incentives for growing the Arbitrum ecosystem. In practice, the STIP excluded most new builders from the study, severely limiting the data that will be collected about the early stages of the builder pipeline. This AIP includes a broader range of protocols in the STIP study, ensuring that Arbitrum gets the data it needs about how incentives impact new builders in the Arbitrum ecosystem. It stands to reason that extending incentives to smaller projects could serve to incubate projects that grow into the high-usage dApps of tomorrow. Extending the STIP may not only increase the inclusivity of the program but also incentivize significant growth for the broader Arbitrum ecosystem at a lower cost per project, and this possibility is worth exploring.\n\n# Rationale\n\n`Rationale - An explanation of how the AIP aligns with the Arbitrum community's mission and guiding values`\n\nArbitrum's community values highlight the importance of diversity, which increases the fitness of the entire Arbitrum ecosystem by representing the needs of many kinds of participants. The original work to design STIP was careful to consider how both large and small protocols would fare under the framework. However, the unexpected budget cutoff caused the sample to skew towards large protocols, which is at odds with the values of the Arbitrum community. The cost of falling short of this ideal is that STIP systematically overlooks the possibility that incentives might be uniquely interesting to small and new protocols. By failing to incorporate protocols at the first stages of the builders onboarding pipeline, Arbitrum will be unsure about how incentives operate among this crucial group of protocols.\n\nThe Arbitrum community also values neutrality, which received careful consideration during the STIP design stages. It was well-understood that incumbent protocols were likely to prevail with their STIP applications - but it was hoped this would not preclude smaller participants from also being funded. Unfortunately, this wish for inclusion was not fulfilled and - unintentional though it may have been - funding was nevertheless distributed according to a ranking that was likely to favor incumbents. Again, despite the best efforts of the DAO and the STIP designers, the result was at odds with the values of the Arbitrum community.\n\nAbove all, Arbitrum seeks to create and nurture a thriving ecosystem - and the DAO's values are designed to provide guiding values that will always trend towards the health of the ecosystem. When the values aren't met - even unintentionally - it is possible the best interests of the ecosystem aren't met, either. In the case of STIP, accidentally excluding Beacon grants falls short of the community values - which, in all likelihood, is a critical oversight that Arbitrum would benefit from fixing.\n\n# Key Terms:\n\n- Approved but not funded STIP proposals\n- AIP-9\n- Backfund\n- Extension\n- STIP\n- STIP Round 1\n- STIP Backfunded\n\n# Specifications:\n\n`Specifications - A detailed breakdown of the platforms and technologies that will be used.`\n\nWill approve funding of an additional 21.4M ARB through the end of January 31, 2024.\n\nPlease note the STIP Backfund will leverage the multiple sections of [AIP-9](https://forum.arbitrum.foundation/t/arbitrums-short-term-incentive-program-arbitrum-improvement-proposal/16131) such as [Specification section](https://forum.arbitrum.foundation/t/arbitrums-short-term-incentive-program-arbitrum-improvement-proposal/16131#financial-proposal-5) and [Outstanding Questions and Concerns](https://forum.arbitrum.foundation/t/arbitrums-short-term-incentive-program-arbitrum-improvement-proposal/16131#outstanding-questions-and-concerns-13) and specifically:\n\n* [Financial Proposal](https://forum.arbitrum.foundation/t/arbitrums-short-term-incentive-program-arbitrum-improvement-proposal/16131#financial-proposal-5)\n* [Multisig Setup](https://forum.arbitrum.foundation/t/arbitrums-short-term-incentive-program-arbitrum-improvement-proposal/16131#eligibility-and-evaluation-guidelines-7)\n* [Eligibility Requirements](https://forum.arbitrum.foundation/t/arbitrums-short-term-incentive-program-arbitrum-improvement-proposal/16131#what-are-the-eligibility-requirements-6) and [Eligibility and Evaluation Guidelines](https://forum.arbitrum.foundation/t/arbitrums-short-term-incentive-program-arbitrum-improvement-proposal/16131#eligibility-and-evaluation-guidelines-7).\n* [KPIs](https://forum.arbitrum.foundation/t/arbitrums-short-term-incentive-program-arbitrum-improvement-proposal/16131#what-are-the-eligibility-requirements-6)\n\nSteps to Implement - \nThe steps to implement the AIP, including associated costs, manpower, and other resources for each step where applicable. For the avoidance of doubt, any AIPs involving transactions with third parties (such as grants) will need to ensure that applicable legal documentation and procedures are also included.`\n\n## Specific Recipients and Amounts for Backfund Proposal\n**We used data provided by https://www.raho.me/stip to determine which successful STIP proposals did not receive funding. This list is also available [via google docs](https://docs.google.com/spreadsheets/d/1e_HagHx883ezMlRKH3E0Ir6K_ZkoEEXzDIxPRHxKTng/).**\n\nWhich protocols are included in this AIP?\n\nWe used data provided by [https://www.raho.me/stip](https://www.raho.me/stip) to determine which successful STIP proposals did not receive funding. This list is also available [via google docs](https://docs.google.com/spreadsheets/d/1e_HagHx883ezMlRKH3E0Ir6K_ZkoEEXzDIxPRHxKTng/).\n\n![01d44beaa8e7db92f79464c3287d20487f67320d_2_641x500.jpg](ipfs://bafybeibqp26s7rzgsegrd3y662hi6na3ziwijcjjxgvbl6kg2mptxctxsm)\n\n**Total ARB for backfund**    \n\n- 21.4M ARB\n- 26 protocols\n\n| **Project** | **ARB Amount** |\n| --- | --- |\n| WOOFi | 1,000,000 |\n| Gains Network [1] | 4,500,000 |\n| DefiEdge | 200,000 |\n| Synapse | 2,000,000 |\n| ~~PancakeSwap~~ [2]|~~2,000,000~~ |\n| RabbitHole [3] | 1,000,000 |\n| Notional | 500,000 |\n| Rodeo Finance | 250,000 |\n| Magpie | 1,250,000 |\n| Stargate Finance | 2,000,000 |\n| Savvy | 200,000 |\n| Tales of Elleria | 50,000 |\n| Thales | 500,000 |\n| TIDE | 80,000 |\n| Solv Protocol | 150,000 |\n| Furucombo | 59,500 |\n| dForce | 1,000,000 |\n| Sanko GameCorp | 500,000 |\n| Ramses | 1,248,000 |\n| Vela | 1,000,000 |\n| Thetanuts Finance | 200,000 |\n| JoJo | 200,000 |\n| Wormhole | 1,800,000 |\n| Shell Protocol | 750,000 |\n| Realm | 300,000 |\n| unshETH | 375,000 |\n| StakeDAO | 200,000 |\n| WINR [4] | 38,000 |\n\n[1] Gains Network originally asked for 7M ARB, but reduced their ask to 4.5M ARB. See [announcement.](https://twitter.com/GainsNetwork_io/status/1712399633790497199)\n\n[2] PancakeSwap has removed their proposal from consideration because of KYC requirements.\n\n[3] RabbitHole's inclusion in backfunding would replace their proposal titled: [\"Proposal: Grow Arbitrum & STIP Teams by leveraging Quest Protocol built by RabbitHole\"](https://forum.arbitrum.foundation/t/proposal-grow-arbitrum-stip-teams-by-leveraging-quest-protocol-built-by-rabbithole/19185)\n\n[4] Currently, WINR will receive 462,000 of their ask - with backfunding WINR would receive 500,000.\n\n\n### Overall Cost\n\n`Overall Cost - The total cost to implement the AIP.`\n\nOverall Cost - 71.4M ARB\n\n## Projected Timeline\n\n`Timeline - Relevant timing details, including but not limited to start date, milestones, and completion dates.`\n\n_\\*Note: Timeline may change based on option selected or amount of work needed to update and develop. For DAO proposals and voting procedures please see_ [_Section 2 in the constitution._](https://docs.arbitrum.foundation/dao-constitution#section-2-dao-proposals-and-voting-procedures)\n\n| **Phase**  |  **Date / Duration**  |  **Title**  |  **Description**  |\n| --- | --- | --- | --- |\n| Phase 1: Temp check (1 week) | Th, Nov 2nd | Draft posted to forum| Discussion hosted on forum, revisions to draft, broader working group call and revisions to AIP.|\n|| Mon, Nov 6th | Temp check posted to snapshot by sponsor delegate | Reconvene in forum to post results and conclude temperature check.|\n| Phase 2: Formal AIP and call for voting (3 days): | Tues, Nov 8th\n| Phase 3: DAO votes on AIP, on Arbitrum One (14-16 days): | Thurs, Nov 10th | Snapshot vote begins(submit to Tally) | During this Phase 3, the ArbitrumDAO will be able to vote directly on-chain on a submitted AIP. Vote to approve AIP for non-constitutional funding. Tally voting: Quorum ~71.4M ARB; greater than 50% voting in favor.|\n|| Thurs, Nov 24th | DAO vote ends, results are final ||\n| Phase 4: L2 Waiting Period (3 days) | Wait | Waiting period of 3 days; then schedule on-chain txs to disburse ARB |",
+        "end_utc": "2023-11-14T14:00:00Z",
+        "similarity_score": 0.1329,
+        "vote_result": {
+          "choices": [
+            "For",
+            "Against",
+            "Abstain"
+          ],
+          "scores": [
+            132414249.6843938,
+            48847543.35034749,
+            14380835.277159804
+          ],
+          "scores_total": 195642628.31190002,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "arbitrum",
+          "status": "tvl_data_unavailable",
+          "error": "Could not fetch TVL data: TVL cache not found for slug='arbitrum'"
+        },
+        "price_impact": {
+          "token_id": "11841",
+          "ticker": "ARB",
+          "status": "success",
+          "event_time_utc": "2023-11-14T14:00:00",
+          "pre_price_avg": 1.138312975,
+          "post_price_avg": 1.0603083450000002,
+          "abnormal_change": -6.8527,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.068527,
+          "abnormal_change_pct": -6.8527
+        }
+      }
+    },
+    {
+      "proposal_id": "0xf22530295daee96dffd7f70854475c06216a4d3594929672f71c12bf638bb0c8",
+      "cleaned": {
+        "proposal_id": "0xf22530295daee96dffd7f70854475c06216a4d3594929672f71c12bf638bb0c8",
+        "title": "Proposal: Activate ARB Staking",
+        "author": "0xBbE98D590d7eB99F4a236587f2441826396053d3",
+        "end_utc": "2023-11-06T10:54:38Z",
+        "similarity_score": 0.1287,
+        "winning_option": "Fund staking with 100M ARB",
+        "winning_option_index": 3,
+        "margin_abs": 60285189.39614691,
+        "margin_pct": 0.33524722636343685,
+        "scores_total": 179823081.75994444,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-10-30T10:56:38Z",
+        "last_vote_at": "2023-10-30T21:08:11Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.999636,
+            0.000364,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9996363636363637,
+          0.0003636363636363636,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          0.9996363636363637,
+          0.0003636363636363636,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.9996363636363637,
+          0.0003636363636363636,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            22485906.13760328,
+            35659.10991540951,
+            18855.784479074377,
+            53954.69693292577,
+            91911.17098144021
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.632932,
+        "spike_follow_support_ratio": 0.850887,
+        "stairwise_ratio": 0.003237,
+        "half_slope_diff": -1361.796764
+      },
+      "raw": {
+        "id": "0xf22530295daee96dffd7f70854475c06216a4d3594929672f71c12bf638bb0c8",
+        "title": "Proposal: Activate ARB Staking",
+        "author": "0xBbE98D590d7eB99F4a236587f2441826396053d3",
+        "body": "**Changes Based on Feedback Since the Temperature Check Version (posted 20th Oct)**\n\n- For simplicity and security reasons, decided to forego the token mint aspect of the proposal entirely and fund staking with a treasury request instead. Using the mint to fund staking was deemed too circular and not a necessary step based on feedback.\n- Added the idea of the ‘Arbitrum Coalition’ as a potential key partner to gather data and monitor the impacts of this staking mechanism over the next 12 months with the end goal of using these insights to refine the ARB staking mechanism further. This collaboration is reliant on the Arbitrum Coalition’s conditional funding.\n- Added an additional 1.25% voting option\n- Clarified that voting will be ranked choice voting with five different options\n\n**Changes Based on Feedback Since the RFC Version**\n\n- Added several options for voting - 1.75%, 1.5%, and 1%. Examples of APRs at different ARB staking percentages can be found later in the proposal.\n- The maximum lock penalty % has been changed from 80% to 60%.\n- Suggested that the implementation details (selecting a vendor and auditor) will be decided in a further proposal\n\n# Abstract\nThe Arbitrum DAO treasury is growing rapidly, yet that growth is not currently being shared with token holders. The Arbitrum DAO treasury address holds 3,54B ARB tokens, and an unexpected $69,4M of unclaimed individual ARB airdrops were recently returned to the DAO treasury. The treasury is exceptionally well funded, and it’s important to note that the DAO fully controls the usage of the Arbitrum DAO treasury and that all surplus revenues belong to the DAO. This includes sequencer revenues.\n\nWe believe that the Arbitrum token needs a staking mechanism. We propose creating a mechanism that distributes ARB to token lockers. A locking mechanism would incentivize long-term token holders and become a fundamental building block for future token utility proposals (e.g., distributing sequencer revenues).\n\nAlong with creating a locking mechanism, we propose requesting 1.75%, 1.5%, 1.25% or 1% of the total ARB token supply from the Arbitrum DAO treasury and distributing this over 12 months through the proposed locking mechanism. The final amount would be decided with a Snapshot and that decision cemented on-chain with a Tally vote. We suggest that the ‘Arbitrum Coalition’ gathers data and monitors the impacts of this staking mechanism over the 12-month period and potentially audits the contracts if funded in time. Of course, this relationship is reliant on both proposals passing and the DAO and Coalition Advocate supporting the scope of work for the coalition. The goal is to use these insights to give the DAO the data and tools to refine the ARB staking mechanism further.\n\nIt is important to note that this proposal is entirely separate from the ongoing liquidity incentives framework and grant discussion. Both can and should co-exist - Arbitrum should have a functional grants framework and a staking mechanism. The Arbitrum DAO STIP program has recently concluded, and 50M ARB tokens will enter the market over the coming months. As proposed here, a supply sink through staking would benefit the Arbitrum ecosystem as a whole.\n\nIn the discussions over the previous months, we’ve seen the legal aspect be a deterrent to sharing value with ARB token holders in the form of revenue. The way we are proposing the staking mechanism through using existing treasury funds to reward lockers in ARB is the most palatable option from a legal perspective, as it does not involve sharing revenues. It also does not rule out the possibility of later moving on to a model that allows for other value accrual methods to the token. Should our proposal pass, when additional value accrual methods are proposed and the legal landscape is more mature and better understood, the process will likely be much quicker since a staking mechanism is already in use with audited contracts in place.\n\nWe thank the following delegates and others for their valuable feedback while drafting this proposal.\n\nWestie from Blockworks Research\nCoinflipcanada\nAnd several others\n\n# Motivation\nThe Arbitrum ecosystem would benefit in multiple ways from a staking mechanism that is constructed to heavily align incentives with those most aligned with the ecosystem long-term. While staking mechanisms are familiar and a mainstay across DeFi, sustainable models and their impact on the token in question have been scarcely studied. These staking mechanisms are often poorly designed and have rampant inflation that negatively affects the token.\n\nRegarding staking mechanisms, there are few examples to model after in the Layer 2 token space. We propose that the Arbitrum ecosystem takes the first step in this endeavor and leads the way - as it already does in many other verticals. We believe that to construct a long-term staking mechanism that is sustainable, there is first a need to gather actual data that is strictly specific to the Arbitrum ecosystem and the ARB token.\n\nBecause of this, we propose that the ‘Arbitrum Coalition’ monitors the effects of this 12-month staking experiment and provides quarterly updates on the impacts of the mechanism through dashboards and qualitative reporting. After the 12-month staking experiment is over, we suggest that the DAO funds the ‘Arbitrum Coalition’ to produce a comprehensive report with results and recommendations on what they believe is the most sustainable way forward in building a staking mechanism and incentive model that is sustainable yet attractive for the ARB token. The expertise of the ‘Arbitrum Coalition’ is perfectly suited for analyzing the results of this experiment, given that Gauntlet is an industry-leading authority in tokenomics design, Blockworks spearheads the industry’s research efforts and Trail of Bits is a top-tier security organization. To read more about the Arbitrum Coalition, please visit their proposal here.\n\n# Broader Implications for Arbitrum\nThis proposal passing would have extremely positive implications for the entire Arbitrum ecosystem. Having a native staking model that the DAO officially approves would be likely to have the following consequences:\n\n- Significantly increase interest in Arbitrum and the ARB token\n- Allow for composability around an ARB token that can earn yield\n- Reward long-term aligned stakers with yield while penalizing mercenary capital and short-term actors\n- Positively differentiate ARB from any other L2 tokens and bring the spotlight back to Arbitrum\n- Offer a first step and infrastructure towards introducing different forms of revenue sharing in the future\n\nThese are some of the benefits that will likely result from having a staking mechanism; however, verifying these predictions’ accuracy by an independent third party such as the ‘Arbitrum Coalition’ is important. These hypotheses cannot be truly verified without actual data, highlighting the importance of a 12-month trial period for staking.\n\n# Benefits for Users\nBy introducing a staking contract that responsibly distributes the allotted amount of tokens to users who are willing to lock their ARB, the incentives are aligned in a way that rewards those parties most loyal to the Arbitrum ecosystem. This includes long-term holders of ARB and DAOs that have received an airdrop and are willing to lock their tokens.\n\nThe figures below detail possible APRs for stakers at different staked percentages if 1.75%, 1.5%, 1.25% or 1% of the total supply was distributed annually. The current circulating supply of ARB is approximately 1.275B.\n\n![87f8dc9e506d60ebd15f3098d0ff626ee8453c71.png](ipfs://bafkreifv3akc3qub3mmknewbcjwchy2vc7astm2wp33occluoj4r576lu4)\n\n# Specification\n- The ARB staking contract will allow users to lock their ARB for up to 365 calendar days. A user’s weight is proportional to their lock time.\n- Users may increase their lock times.\n- Users may pause their lock times (meaning the time to unlock does not increase this saves having to relock continuously)\n- Users may have many independent locks.\n- Users will receive and may claim ARB emissions according to their weight.\n- Users may exit their lock for a penalty between 0-60% of their lock amount, linear vs. lock time remaining (365 days remaining would mean a 60% penalty, and 0 days would be a 0% penalty). This penalty is shared between remaining users according to weight.\n\nExample usage: ARB locker\n\n- The user locks 100 ARB for 365 days.\n   - The lock weight formula is (ARB amount locked * lock time / 365)\n   - Their ARB lock ‘weight’ is currently 100 (100 ARB * 365/365).\n   - All rewards are distributed based on a user’s weight / the total sum of all the users’ weights.\n- After 182.5 days, the user will have a lock ‘weight’ of 50 (100 ARB * 182.5/365).\n   - At this point, they may increase their lock time, do nothing, or withdraw.\n   - The early exit penalty is (0.6 * lock time / 365)%.\n   - For a lock time of 182.5 days, the penalty is, therefore, 30% of the locked amount - if the user were to withdraw now, they would receive back 70 ARB.\n- ARB staked in this contract will still have voting rights and can be delegated - voting power will not be diminished by a shorter lock length\n\n# Frequently Asked Questions\n\n1. Why a locking mechanism?\n\nA locking mechanism allows users who are long-term believers in Arbitrum to signal this belief through their actions and get rewarded for it accordingly. Locking for longer is always optional - users may lock for any time period. One year is a reasonable lock time compared to the previously popular 4-year locking model. A one-year lock is not too long to the point of disincentiving locking, as users can choose the lock duration. Not only does this give individuals optionality and a mechanism to earn a native yield on their ARB tokens, but it also gives protocols that were a part of the DAO airdrop or have otherwise accumulated ARB a mechanism to earn on their treasury.\n\n2. What are the consequences of this proposal?\n\nUltimately, this proposal introduces utility to ARB and gives users more incentive to hold. In addition, long-term believers will be net increasing their network share, which sets up a base from which we can build further proposals for ARB value accrual without worrying about the distribution mechanism.\n\n3. What would this staking mechanism mean for delegation?\n\nFrom a user standpoint, it’s important to note that the ARB staked in the proposed contract will still have voting rights and can be delegated - voting power will not be diminished by a shorter lock length. The staking contract will be upgradeable and controlled by the DAO - this ensures that the DAO can pause this distribution at any time.\n\n# Summary\nAs it stands today, ARB has no native utility or yield. We propose approving the creation of the staking contract detailed above and distributing an equivalent of 1.75%, 1.5%, 1.25%, or 1% of the total ARB supply from the DAO treasury to the staking contract. These tokens would be distributed over a 12-month period, during which the ‘Arbitrum Coalition’ could - pending their proposal passing - monitor the impacts of the proposed staking mechanism and draft a report and recommendations by the end of the period. Note that the Arbitrum Coalition proposal is entirely separate yet synergistic to this proposal. The passing of either proposal is not conditional on the other proposal’s performance.\n\nIt’s important to highlight that to move toward a final and refined version of value accrual to the ARB token, trial and experimentation is required. We believe there is a strong need for actual data from a live staking mechanism, such as the one suggested in this proposal, from the unique context of Arbitrum’s growing ecosystem to make more informed decisions on what the ultimate mechanism for ARB staking and value accrual might look like.\n\nInnovation has always been Arbitrum’s forte in both technical advancements and building a vibrant community - we believe that the approach to building a cutting-edge staking model for ARB through trial and experimentation is a logical way forward.\n\n# Timeline\nThis proposal will follow the official lifecycle of an AIP detailed here. Please note that this proposal is a non-constitutional proposal.\n\nThe suggested timeline can be found below.\n\nWeek 36-37 - Forum post, request for comments and feedback (Complete)\nWeek 43-44 - Temperature check forum post & Snapshot poll (1 week)\nWeek 45 - Formal AIP and call-for-voting (3 days)\nWeek 45-46 - On-chain DAO vote on Tally (14 days)\nWeek 47 onwards - Implementation phase\n\nIf the proposal passes, a draft of the implementation phase is detailed below in “Suggested Steps to Implement.” The final implementation schedule depends on the result of the vendor decision proposal, community review, audit schedules, and subsequent findings. A concrete schedule for the implementation stage will thus be locked in at a later stage.\n\n# Voting Options on Snapshot\nWhen this proposal moves to Snapshot, there will be five voting options. The voting method will be ranked choice voting. To read more about ranked choice voting, please visit this article from Snapshot.\n\n1. Fund staking with 1.75% of the total ARB supply (175M ARB tokens)\n2. Fund staking with 1.5% of the total ARB supply (150M ARB tokens)\n3. Fund staking with 1.25% of the total ARB supply (125M ARB tokens)\n4. Fund staking with 1% of the total ARB supply (100M ARB tokens)\n5. Do not fund staking\n\n# Suggested Steps to Implement\n1. The Arbitrum DAO will receive another proposal concerning implementation, which will aim to decide the vendor of the implementation and associated contracts and an auditor.\n2. After the contracts and audits are finished, they will be provided to the community for review for two weeks.\n3. After the community review period, the contracts will be deployed to Arbitrum, and the ownership will be transferred to the DAO.\n4. Ratification of reimbursement of costs as illustrated in the Cost sections below and disbursement of such reimbursements to applicable service providers\n\n# Costs\nThe costs of this proposal are mainly related to the implementation process, during which a vendor and auditor will be decided. The true extent of these costs can only be estimated after these decisions are made.",
+        "end_utc": "2023-11-06T10:54:38Z",
+        "similarity_score": 0.1287,
+        "vote_result": {
+          "choices": [
+            "Fund staking with 175M ARB",
+            "Fund staking with 150M ARB",
+            "Fund staking with 125M ARB",
+            "Fund staking with 100M ARB",
+            "Do not fund staking"
+          ],
+          "scores": [
+            0,
+            0,
+            0,
+            120054135.57804568,
+            59768946.18189877
+          ],
+          "scores_total": 179823081.75994444,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "arbitrum",
+          "status": "tvl_data_unavailable",
+          "error": "Could not fetch TVL data: TVL cache not found for slug='arbitrum'"
+        },
+        "price_impact": {
+          "token_id": "11841",
+          "ticker": "ARB",
+          "status": "success",
+          "event_time_utc": "2023-11-06T10:54:38",
+          "pre_price_avg": 1.09478231,
+          "post_price_avg": 1.1508865400000001,
+          "abnormal_change": 5.1247,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.051247,
+          "abnormal_change_pct": 5.1247
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x1a0a7bee0c5b13a690275031c44d8b5efe78b86d86f6d2357299020e7a907d57",
+    "selected_choice_label": "Extend deadline for both",
+    "selected_choice_index": 0,
+    "confidence": 0.85,
+    "summary": "The proposal aims to extend the deadlines for protocols in both the STIP and Backfund programs, allowing more time for ARB distribution due to delays caused by KYC and other processes. This ensures fairness and avoids rushed incentive distributions.",
+    "key_arguments_for": [
+      "Extension allows backfunded protocols more time to distribute ARB, compensating for KYC delays.",
+      "Extending deadlines for STIP protocols levels the playing field, preventing disadvantage against backfunded protocols.",
+      "Forum sentiment generally supports the extension as it promotes fairness and better incentive management.",
+      "Similar past proposals favored clear timelines and flexibility, which helped protocols succeed without rushed distributions."
+    ],
+    "key_arguments_against": [
+      "Concerns about the inability to adjust Hedgey streams, potentially weakening distribution controls.",
+      "Additional workload and complexity for the multisig and DAO due to varied extension end dates.",
+      "Some community members worried about the period where DAO relies on protocols to self-report adherence."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Forum discussion on timeline extension",
+        "quote": "Proposal aims to extend deadlines for STIP and Backfund protocols to March 1 and March 29 respectively to ensure adequate ARB distribution time."
+      },
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Forum discussion sentiment summary",
+        "quote": "Sentiment summary: 2 positive, 5 negative, 9 neutral comments. Positive comments highlight benefits of extension; negatives mainly concern operational challenges."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Current timeline metrics",
+        "quote": "High stability and lead ratio favoring the abstain option, but overall timeline supports extension for balanced incentive distribution."
+      },
+      {
+        "source_tool": "govnews_search_governance_news",
+        "reference": "Adjacent proposal",
+        "quote": "Similar proposal 'Consolidate Security Proposals into a RFP Process' showed positive TVL impact and was successful, indicating well-structured proposals benefit the ecosystem."
+      }
+    ],
+    "available_choices": [
+      "Extend deadline for both",
+      "Extend deadline backfund only",
+      "Do not extend either deadline",
+      "Abstain"
+    ],
+    "event_start_utc": "2023-12-02T17:55:46Z",
+    "event_end_utc": "2023-12-09T17:55:46Z",
+    "event_time_utc": "2023-12-09T17:55:46Z",
+    "address_of_governance_token": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+    "token_price_impact_pct": 2.5764,
+    "tvl_impact_pct": -0.2307,
+    "actual_vote_result": {
+      "winner_label": "Extend deadline for both",
+      "winner_index": 0,
+      "scores": [
+        154015030.49019444,
+        346665.97516060347,
+        225892.80959903015,
+        2803798.6008127807
+      ],
+      "scores_total": 157391387.87576678,
+      "margin_abs": 151211231.88938165,
+      "margin_pct": 0.960734
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Extend deadline for both' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- The timeline extension addresses real operational delays in KYC and distribution, ensuring protocols can fulfill their obligations without rushing.\n- Forum sentiment, while mixed, leans toward support for the extension as it promotes fairness and better incentive outcomes.\n- Similar past proposals demonstrate that flexible, clear timelines help maintain ecosystem health and successful protocol participation.\n- Market metrics indicate a mild positive token price impact, suggesting the community perceives the extension as beneficial.\n- Operational concerns about Hedgey streams and multisig workload are acknowledged but considered manageable compared to the benefits.\n- Overall, the recommendation aligns with long-term organizational health, even if it diverges from some vote tallies, and broadly mirrors forum opinion.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x1ac6079871dc4af55b7d67eae130e4c1bbcbabd9bb35405bc1733ef2efe45875",
+        "title": "Consolidate Security Proposals into a RFP Process",
+        "end_utc": "2023-11-10T16:34:26Z",
+        "summary": "Consolidate Security Proposals into a RFP Process closed on 2023-11-10T16:34:26Z. Timeline analytics noted 5500 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.07)",
+        "market_response": "token +1.67%; TVL +7.63%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 2.5764,
+    "ex_post_tvl_impact_pct": -0.2307,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +2.58%; TVL -0.23%"
+  },
+  "agentic_ai_choice": "Extend deadline for both",
+  "actual_outcome": "Extend deadline for both",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 5,
+    "Positive": 2,
+    "Neutral": 9,
+    "total_comments": 16
+  }
+}

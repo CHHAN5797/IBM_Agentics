@@ -1,0 +1,257 @@
+{
+  "captured_at_utc": "2025-10-08T03:32:55.683665+00:00",
+  "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0xbecc45a6beb55a708e25195f34db2f5ff757e0da5ff55171ca731b39428e27c3",
+  "focus": null,
+  "votes_count": 5500,
+  "timeline_metrics_current": {
+    "unique_voters": 5500,
+    "total_votes": 5500,
+    "first_vote_at": "2024-02-05T17:26:59Z",
+    "last_vote_at": "2024-02-06T07:39:24Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        2559459.962922571,
+        151219.662165784,
+        1110161.7757859586
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.886794,
+    "spike_follow_support_ratio": 0.858585,
+    "stairwise_ratio": 0.00737,
+    "half_slope_diff": -253.883107
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0xef3ed3b3735cad375953947437980db576baebbba5a0c209b2cccabcb1c30740",
+      "title": "Proposal: Experimental Incentive System for Active ArbitrumDAO Delegates",
+      "author": "0xAbAbE91A907fAdff921720C43ABe4098e7245E99",
+      "end_utc": "2023-12-14T19:57:15Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-12-07T19:58:22Z",
+        "last_vote_at": "2023-12-09T00:19:12Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.997636,
+            0.002364,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9976363636363637,
+          0.0023636363636363638,
+          0.0
+        ],
+        "stability": [
+          0.9976363636363637,
+          0.0023636363636363638,
+          0.0
+        ],
+        "early_ratio": [
+          0.9976363636363637,
+          0.0023636363636363638,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            8431358.353269637,
+            10776010.895074924,
+            180462.03360690677
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.612291,
+        "spike_follow_support_ratio": 0.453917,
+        "stairwise_ratio": 0.00306,
+        "half_slope_diff": -27.830188
+      },
+      "price_impact_pct": -4.171,
+      "tvl_impact_pct": 0.8715,
+      "similarity": 0.077,
+      "actual_vote_result": {
+        "winner_index": 1,
+        "winner_label": "Option 2 - With Karma",
+        "margin_abs": 34256802.73180019,
+        "scores_total": 129463664.16250515,
+        "margin_pct": 0.2646055397350752
+      }
+    }
+  ],
+  "similar_proposals_data": [],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0xbecc45a6beb55a708e25195f34db2f5ff757e0da5ff55171ca731b39428e27c3",
+    "selected_choice_label": "For",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "This proposal aims to enhance the Arbitrum network's resiliency by introducing a batch poster manager role to manage batch-posting permissions and increasing the max-time-variation parameters to align with Ethereum's proof of stake finality guarantees. Forum sentiment is largely supportive, emphasizing increased security and operational flexibility without altering the trust model.",
+    "key_arguments_for": [
+      "Introduces a batch poster manager role allowing key rotations without DAO intervention, improving operational security.",
+      "Increases max-time-variation parameters to reduce invalid batches caused by Ethereum L1 re-orgs, aligning with PoS finality.",
+      "Maintains the current trust model; DAO retains ability to revoke roles, ensuring control.",
+      "Supported by multiple community organizations and technical delegates, with positive audit feedback."
+    ],
+    "key_arguments_against": [
+      "Some forum members expressed difficulty understanding technical details, suggesting the need for clearer explanations.",
+      "Concerns about the significant increase in max-time-variation values and its implications were raised.",
+      "A few comments reflected neutral or negative sentiment due to complexity or audit timing."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.arbitrum.foundation/t/aip-batch-poster-manager-and-sequencer-inbox-finality-fix/20995",
+        "quote": "The proposal introduces a batch poster manager role and increases max-time-variation values, aiming to improve system resilience without changing the trust model."
+      },
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.arbitrum.foundation/t/aip-batch-poster-manager-and-sequencer-inbox-finality-fix/20995",
+        "quote": "Community delegates including Princeton Blockchain Club, Treasure’s Arbitrum Representative Council, and Savvy DeFi DAO have expressed support, highlighting security benefits and audit validation."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Snapshot proposal timeline",
+        "quote": "Timeline metrics indicate a strong early and stable lead for the 'For' choice with a lead ratio total of 1.0 and stability of 1.0."
+      }
+    ],
+    "available_choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2024-02-05T17:26:43Z",
+    "event_end_utc": "2024-02-12T17:26:43Z",
+    "event_time_utc": "2024-02-12T17:26:43Z",
+    "address_of_governance_token": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+    "token_price_impact_pct": 5.9484,
+    "tvl_impact_pct": 3.7754,
+    "actual_vote_result": {
+      "winner_label": "For",
+      "winner_index": 0,
+      "scores": [
+        149376690.18429863,
+        260376.72931183229,
+        1319572.6790116746
+      ],
+      "scores_total": 150956639.59262204,
+      "margin_abs": 148057117.50528696,
+      "margin_pct": 0.980792
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'For' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Timeline analysis shows decisive and stable early support for 'For', indicating community readiness.\n- Forum sentiment predominantly supports the proposal, emphasizing improved security and operational flexibility without changing the trust model.\n- Adjacent historical proposals with similar structural improvements provide lessons that informed this decision, reinforcing the value of proactive resilience measures.\n- Market impact shows positive price and TVL changes around the event window, supporting confidence in the proposal's benefits.\n- The recommendation aligns with forum sentiment, reflecting community views and maximizing long-term organizational health.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0xef3ed3b3735cad375953947437980db576baebbba5a0c209b2cccabcb1c30740",
+        "title": "Proposal: Experimental Incentive System for Active ArbitrumDAO Delegates",
+        "end_utc": "2023-12-14T19:57:15Z",
+        "summary": "Proposal: Experimental Incentive System for Active ArbitrumDAO Delegates closed on 2023-12-14T19:57:15Z. Timeline analytics noted 5500 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.08)",
+        "market_response": "token -4.17%; TVL +0.87%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 5.9484,
+    "ex_post_tvl_impact_pct": 3.7754,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +5.95%; TVL +3.78%"
+  },
+  "agentic_ai_choice": "For",
+  "actual_outcome": "For",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 7,
+    "Positive": 4,
+    "Neutral": 8,
+    "total_comments": 19
+  }
+}

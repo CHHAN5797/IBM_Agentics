@@ -1,0 +1,931 @@
+{
+  "captured_at_utc": "2025-10-07T17:31:23.731403+00:00",
+  "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x29c7eb60e1ed122f81aa5f4caeb5d171b27ae644666ad18aece78ff28d7b9245",
+  "focus": null,
+  "votes_count": 3153,
+  "timeline_metrics_current": {
+    "unique_voters": 3153,
+    "total_votes": 3153,
+    "first_vote_at": "2024-08-22T18:56:15Z",
+    "last_vote_at": "2024-08-29T18:47:15Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        0.808547,
+        0.191453,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      0.9289565493181098,
+      0.07104345068189026,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      0.9289565493181098,
+      0.07104345068189026,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      0.8085470085470086,
+      0.19145299145299147,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        7561234.569279127,
+        485991.63959876104,
+        12739.498596457623,
+        29408.39372890195
+      ],
+      [
+        118793.18320259727,
+        11426.695721100154,
+        398298.8678930638,
+        7491627.928048575
+      ],
+      [
+        158131.14099388896,
+        6704485.303664702,
+        2640212.0237080622,
+        1986151.4163387348
+      ],
+      [
+        48774.8657533806,
+        82045003.70569466,
+        23316868.64840424,
+        11931623.680774162
+      ]
+    ],
+    "spike_index": 0.207894,
+    "spike_follow_support_ratio": 0.963169,
+    "stairwise_ratio": 0.000431,
+    "half_slope_diff": 1847.241487
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x24188af307bee6ce66d10394d03d501746b343a686d64806ee71954e317ed382",
+      "title": "Should the DAO Default to using Shielded Voting for Snapshot Votes?",
+      "author": "0xb4c064f466931B8d0F637654c916E3F203c46f13",
+      "end_utc": "2024-08-22T12:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 3603,
+        "total_votes": 3603,
+        "first_vote_at": "2024-08-15T12:04:57Z",
+        "last_vote_at": "2024-08-22T11:52:32Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            7167294.172392528,
+            3533260.5308796293,
+            15328786.589508591,
+            954306.784416451
+          ],
+          [
+            457692.91448666377,
+            325982.0030697541,
+            7495421.369760745,
+            16066.077351973785
+          ],
+          [
+            779741.000504247,
+            26027870.024926372,
+            15397480.797617787,
+            251095.4228863697
+          ],
+          [
+            24166717.093005095,
+            29713213.92937518,
+            30957141.01365449,
+            1791.5797302737833
+          ]
+        ],
+        "spike_index": 0.233542,
+        "spike_follow_support_ratio": 0.048732,
+        "stairwise_ratio": 0.000327,
+        "half_slope_diff": 303.358009
+      },
+      "price_impact_pct": 9.7301,
+      "tvl_impact_pct": 6.335,
+      "similarity": 0.0833,
+      "actual_vote_result": {
+        "winner_index": 2,
+        "winner_label": "Against",
+        "margin_abs": 9578503.282290705,
+        "scores_total": 162573861.3035667,
+        "margin_pct": 0.058917855585684874
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x66b953a7cf4de9f6de54e6eb87ae291b5cc62f12c7fed68eba91043607883221",
+      "cleaned": {
+        "proposal_id": "0x66b953a7cf4de9f6de54e6eb87ae291b5cc62f12c7fed68eba91043607883221",
+        "title": "Proposal: Building the Future of NFTs: The Rarible Protocol - Arbitrum Integration Proposal [REVISED]",
+        "author": "0x1B686eE8E31c5959D9F5BBd8122a58682788eeaD",
+        "end_utc": "2023-09-01T19:16:02Z",
+        "similarity_score": 0.1396,
+        "winning_option": "For",
+        "winning_option_index": 0,
+        "margin_abs": 94945293.04926684,
+        "margin_pct": 0.786105633121656,
+        "scores_total": 120779306.30293971,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-08-25T19:16:41Z",
+        "last_vote_at": "2023-08-26T07:14:21Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            7345732.6864043195,
+            116990.02409824789,
+            226269.1116841672
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.892797,
+        "spike_follow_support_ratio": 0.529713,
+        "stairwise_ratio": 0.010323,
+        "half_slope_diff": -55.484426
+      },
+      "raw": {
+        "id": "0x66b953a7cf4de9f6de54e6eb87ae291b5cc62f12c7fed68eba91043607883221",
+        "title": "Proposal: Building the Future of NFTs: The Rarible Protocol - Arbitrum Integration Proposal [REVISED]",
+        "author": "0x1B686eE8E31c5959D9F5BBd8122a58682788eeaD",
+        "body": "Category: Non-constitutional\nProposer: RARI Foundation\n\n## Abstract\nThe Rari Foundation is submitting a proposal to jumpstart the growth in the Arbitrum NFT ecosystem. The proposal involves integrating Arbitrum One with the open-source Rarible Protocol, which is an indexer, order book, and SDK powering NFT-based applications, which, once integrated, can be freely and easily used by the Artbitrum builders.\n\n## Motivation\nThe Arbitrum ecosystem is hard for independent developers to build NFT-based applications due to a lack of easy-to-use tooling and infrastructure. Without this support, the developer community will opt for other chains with more robust support for building.\n\nOptimism vs. Arbitrum NFT stats as of July 27, 2023, indicate Arbitrum is not the first choice for the creation of NFT assets or contracts. Source: [NFT Scan 3](https://arbitrum.nftscan.com/).\n\n![98d064c39ba85a45bcb0c4831594150174c0ad8c_2_1380x364.png](ipfs://bafkreibumjn6k4xpmflli2bplvqr73mph4t6uuhrzvrzwuw7izhdcnkll4)\n \n![54086dc9319855e9a48199d7ee4860def6b9399b_2_1380x360.png](ipfs://bafkreieaxoqoikmypdsggspy5vjlqzajm4iod2kq5ib5k5n4ouqpoybsrm)\n\nThe open-source Rarible Protocol is focused explicitly on the NFT use case and will enable builders to develop their next dapps choosing Arbitrum, resulting in bringing in new Arbitrum users and sequencer revenue.\n\nThe Rarible Protocol is a trusted choice as it’s community governed, has an easy-to-use API, a comprehensive SDK, and is committed to expanding its capabilities to power innovative NFT use cases. Furthermore, the Protocol is used by [Rarible.com](https://rarible.com/) NFT marketplace, whose brand and community can be leveraged in raising awareness about Arbitrum venturing deeper into NFT tooling. Such signaling to the market will show that the Arbitrum community is serious about growing its ecosystem and flourishing NFTs. Rarible and the Rari Foundation will promote the integration in a cross-marketing push to ensure the NFT and crypto community knows that Arbitrum is serious about NFT growth. This support will consist of (and shall not be limited to):\n\n* Regular features on [Rarible.com](https://rarible.com/) 1 top spotlight section (1 million MAU)\n* Dedicated social support for the launch on Rarible’s and Rari Foundation’s owned channels (Twitter, Instagram, Discord, 800k+ followers combined)\n* Email blasts for the integration (500k+ subscribers)\n* Leveraging Rarible’s and Rari Foundation’s press relations\n* Potentially a hackathon\n\nThis proposal is being submitted outside of the pending grants framework in order to implement the integration asap, as waiting for the grants framework would result in significant implementation delays. As such, the Arbitrum DAO has an opportunity to express its willingness to incentivize ecosystem growth via strategic partnerships.\n\n## Rationale\n\nThe proposed AIP aligns with the Arbitrum community’s mission and guiding values by enhancing the utility, scalability, and inclusivity of the Arbitrum network. The Rarible Protocol, a decentralized toolset for NFT applications, is open-source and free, mirroring Arbitrum’s commitment to technical inclusivity and neutrality.\n\nBy integrating Arbitrum One into the Rarible Protocol, we empower developers to create more complex and innovative applications on Arbitrum. This integration increases accessibility to real-time and historical Arbitrum blockchain data, aligning closely with Arbitrum’s commitment to user-centricity and technical inclusivity.\n\nKey Terms\nThe Rari Foundation: The legal entity for the Rari DAO community that is in possession of $RARI Treasury and on the path of possession of the Rarible Protocol\n\nRarible Inc.: A leading NFT marketplace that allows users to mint, buy, and sell NFTs. One of the applications using the Rarible Protocol.\n\nRarible Protocol: Open-source, free-to-use, community-governed Protocol (which includes an SDK, indexer, and order book) for the creation, transaction, and distribution of NFTs.\n\nRarible SDK: A part of the Rarible Protocol that provides a set of tools for developers to interact with multiple blockchains\n\nA few notes on the [Rarible Protocol](https://rarible.org/):\n* It is an open-source, EVM-based SDK and multichain indexer that currently powers 4,000+ NFT marketplaces (including [Rarible.com](https://rarible.org/), and a series of non-marketplace-based applications (like wallets and NFT analytics services - see more use cases [here](https://docs.rarible.org/use-cases/use-cases-overview/)).\n* Designed as a set of building blocks, the Rarible protocol empowers the creation of fully customized NFT experiences of any level and complexity. ️\n* API access is lightning-fast, unified, and comprehensive. You gain seamless access to NFT Items, Collections, Activities, and NFT Metadata across multiple blockchains, including ETH, POL, IMX, FLOW, and TEZ, to name a few —all consolidated within a single endpoint.\n* The Protocol’s indexer is the fastest on the market. It retrieves blockchain data through fast APIs, eliminating the need for your own indexer and reducing costs associated with maintaining Blockchain Nodes.\n* User-friendly SDK allows you to connect wallets seamlessly, mint NFTs, put them up for sale, purchase NFTs, showcase collections, and so much more. The Protocol is the feature-rich product on the market (you can do anything NFT related on our Protocol).\n* Comprehensive Marketplace Support: Our platform offers unrivaled support for various marketplaces, providing access to aggregated order books from major platforms like OS, LR, X2Y2, Sudoswap, and Tezos, so you can ensure your users have access to the most competitive listings in the market.\n* Cutting-Edge NFT API Integration: We pride ourselves on providing the best NFT API support, seamlessly integrating with popular communication tools such as Discord, Zendesk, VIP support, Slack, and TG.\n* Powerful Analytics Capabilities: Our platform boasts best-in-class analytics tools, including OLAP statistics and floor price analysis, empowering users with valuable insights into market trends and performance.\n* Unmatched Reliability: We maintain the highest level of reliability, ensuring a remarkable 99.99% uptime for our Protocol, making us the most dependable choice in the market.\n\n## Specifications\nBelow is a detailed breakdown of how the integration will take place and the platforms and technologies that will be used.\n\n### Rarible Protocol: Integrating Arbitrum One\nThe Rarible Protocol is a decentralized toolset that allows developers to build NFT applications. It includes smart contracts, an indexer, an SDK, and APIs. The integration of Arbitrum One into the Rarible Protocol will extend these capabilities to the Arbitrum ecosystem, enhancing its utility and inclusivity.\n\n1. Rarible Arbitrum SDK\n - The Rarible SDK will expedite Arbitrum application development. By extending the SDK to support Arbitrum One, we will provide developers with tools for interacting with smart contracts, supporting NFT operations like minting, transferring, and burning, and integrating with multiple wallets.\n2. Rarible Orderbook & Smart Contracts\n - Our contracts, specifically the Rarible Exchange V2, will be deployed to the Arbitrum chain, granting access to our off-chain order book. Certain actions, such as canceling, confirming, updating, or when price changes occur, are on-chain, but orders are created off-chain.\n3. Rarible Public API\n - With the integration of Arbitrum One, the API will offer extended support for these chains, allowing developers to easily access and interact with NFT data on Arbitrum.\n4. Rarible Arbitrum Indexer\n - Rarible’s multichain indexer will be able to track and record NFT events on Arbitrum, providing developers with a comprehensive view of NFT activities on Arbitrum.\n\n## Steps to Implement\n### Arbitrum One integration into Rarible Protocol\n\nThe first key milestone will be integrating Arbitrum into the Rarible Protocol, which will set the foundation for future milestones involving building NFT applications on Arbitrum.\n\nTasks: Integration of Arbitrum One chain into Rarible Protocol\n\n* Arbitrum API Integration: This task involves integrating the Arbitrum API into the Rarible Protocol API to support Arbitrum One.\n* Node Preparation: A separate node for Arbitrum will be set up for rapid indexing upon approval\n* Contract Deployment: The Rarible Shared NFT, Rarible Factory (for creating collections), and Rarible ExchangeV2 contracts will be deployed to Arbitrum for users to interact with.\n* Orderbook: Rarible’s order book will be able to store listings, orders, and bids made with the Protocol\n* Arbitrum Indexer: Index NFT contracts, ERC-721/1155, ERC-20 tokens, Exchange orders & bids (from Seaport & Rarible).\n* Arbitrum support on Rarible Multichain SDK: This involves adding a new blockchain, connectors to wallets, and ensuring functionality similar to ETH/Polygon.\n* Debugging and Testing: General debugging of all components will be conducted, along with testing on production with OpenSea orders.\n* Build Testnet for Arbitrum: An additional environment for the testnet will be set up, including indexing, reindexing, etc.\n\n## Timeline\n\nThe tentative timeline consists of 7 weeks, 5 of which are the integration phase. If the proposal is approved by early September 2023, the project implementation can be executed in early Q4 2023.\n\n![f2c50222937695d8622cbfc5429a99a48c1efaab_2_1380x274.png](ipfs://bafkreidspk3ghv2f32w5jfvtidmypu32j4pmzyf4lius3zl2nflisd2xsm)\n\n## Overall Cost\n\nAs the integration of the Rarible Protocol and Arbitrum will benefit both ecosystems, we are offering to split the Rarible Protocol integration costs between our two parties with an equal share.\n\nIntegration of Arbitrum One into the Rarible Protocol\n\nDuration: 5 Weeks\n\nCosts: 200,000 $ (Artibtrum portion = 100,000 $)\n\nPayment terms:\n* 50% payable upon proposal approval\n* 50% payable upon completion\n\nThe amount is payable in USDC or ETH.\n\nNote that the Rari Foundation will absorb costs related to the service and maintenance of the Protocol upkeep after the integration implementation.",
+        "end_utc": "2023-09-01T19:16:02Z",
+        "similarity_score": 0.1396,
+        "vote_result": {
+          "choices": [
+            "For",
+            "Against",
+            "Abstain"
+          ],
+          "scores": [
+            107698883.00377052,
+            12753589.954503668,
+            326833.34466538153
+          ],
+          "scores_total": 120779306.30293971,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "arbitrum",
+          "status": "tvl_data_unavailable",
+          "error": "Could not fetch TVL data: TVL cache not found for slug='arbitrum'"
+        },
+        "price_impact": {
+          "token_id": "11841",
+          "ticker": "ARB",
+          "status": "success",
+          "event_time_utc": "2023-09-01T19:16:02",
+          "pre_price_avg": 0.929301845,
+          "post_price_avg": 0.9003635299999999,
+          "abnormal_change": -3.114,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.03114,
+          "abnormal_change_pct": -3.114
+        }
+      }
+    },
+    {
+      "proposal_id": "0x921c3d57deb2f3c84918ca3fb57479d38650b979b5902895c5822649ed86b716",
+      "cleaned": {
+        "proposal_id": "0x921c3d57deb2f3c84918ca3fb57479d38650b979b5902895c5822649ed86b716",
+        "title": "Proposal: Build Optimal Onboarding for STIP Teams (BOOST)",
+        "author": "0xA7860E99e3ce0752D1ac53b974E309fFf80277C6",
+        "end_utc": "2023-11-01T12:31:28Z",
+        "similarity_score": 0.1356,
+        "winning_option": "Against",
+        "winning_option_index": 1,
+        "margin_abs": 4931260.845235653,
+        "margin_pct": 0.03818287470095443,
+        "scores_total": 129148496.12180693,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-10-25T12:31:36Z",
+        "last_vote_at": "2023-10-25T22:49:43Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            15158942.802856091,
+            74674.73481713304,
+            35366.784346245826
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.433454,
+        "spike_follow_support_ratio": 0.998778,
+        "stairwise_ratio": 0.006024,
+        "half_slope_diff": -201.509651
+      },
+      "raw": {
+        "id": "0x921c3d57deb2f3c84918ca3fb57479d38650b979b5902895c5822649ed86b716",
+        "title": "Proposal: Build Optimal Onboarding for STIP Teams (BOOST)",
+        "author": "0xA7860E99e3ce0752D1ac53b974E309fFf80277C6",
+        "body": "Abstract\n\nThis Arbitrum Improvement Proposal (AIP) seeks to enhance user acquisition and engagement efficiency in the Arbitrum ecosystem following the Short Term Incentive Program (STIP). The proposal aims to deploy 95 total quests across 62 unique applications. The goal is to provide a comprehensive onboarding, educational, and interaction model that results in sustained user commitment and thus solidifies Arbitrum’s position as a leading Layer 2 Ethereum scaling solution.\n\nMotivation\n\nWe propose an innovative solution to address an opportunity that has surfaced following the execution of the Short Term Incentive Program (STIP) – the need for effectively onboarding, educating, and retaining new users on the Arbitrum platforms that received STIP. The STIP successfully provides incentive to perform onchain actions, but it does not address the user onboarding experience aspect of attracting new users. This proposal is viewed as the missing puzzle piece to STIP. In addition, the STIP had teams qualify, but not receive funding, providing a situation we aim to reconcile by running additional quests for those teams that will improve user retention and increase usage of their protocols.\n\nRationale\n\nOur proposal aligns meticulously with Arbitrum’s mission to foster an inclusive, vibrant, and engaged community. By ensuring all users - existing and new ones - are carried along inclusively and effectively via well-designed quests, we will be creating an environment that promotes continued learning, interaction, and commitment. This “sticky factor” is critical for a sustainable and thriving ecosystem.\n\nKey Terms\n\nWhat are Quests?\nQuests are guided learning activities, organized around specific crypto protocols and apps. They are designed to familiarize users with different protocols, their processes, and the potential benefits they offer within ecosystems like DeFi on Arbitrum.\n\nWhy are Quests Helpful?\n\nQuests provide a hands-on learning experience which makes the understanding of complex protocols more enjoyable and interactive. They provide delightful step-by-step guidance which motivates users to explore and use these protocols, thereby increasing user adoption and contributing to the broader understanding of apps.\n\nFor instance, consider the quest on Layer3 called “Exploring Radiant”. It guides users through learning about onmichain money markets, swapping, and depositing on Radiant, breaking down each step into comprehensible segments.\n\nBy engaging with the quest, users not only learn how to use the Radiant platform, but also get practical experience which they can apply in real-world situations. Quests like these play a crucial role in demystifying DeFi protocols, making them more accessible, and bringing users to Arbitrum.\n\nIn the case of Exploring Radiant, it managed to attract 31,181 completions. This demonstrates the high engagement rate and efficiency of quests as interactive learning tools in the DeFi space. The large number of participants signifies that the quest was not only successful in providing valuable insights about the protocol but also in garnering interest from a wider community, thereby increasing the adoption rate of the whole Radiant platform.\n\nBut it isn’t just Radiant.\n\nThere is a whole library of Arbitrum quests available on Layer3. As part of the STIP Enhancement and Inclusion Quest Proposal, a whole new category will be created on Layer3 to display the quests included in the STIP Enhancement and Inclusion Quest Program\n\nWhy Layer3?\nLayer3 has played a significant role in the growth of Arbitrum.\n\nWe’ve guided over 337,613 users to complete more than 5.9 million on-chain transactions on Arbitrum, all at no cost to the user or Arbitrum DAO. Our initiatives, particularly interactive quests, have already greatly increased user engagement and education on Arbitrum.\n\nBy transforming onchain operations into bite-sized, step-by-step quests, we have managed to make Arbitrum accessible to a wider audience. We have made it accessible and comprehensible to users, regardless of their technical proficiency level.\n\nSpecifications:\nTeams:\nUpon approval, we will embark on the design and execution of 95 quests structured strategically for the following protocols and teams in direct support of the STIP.\n\nThis includes one quest for each STIP-qualified protocol (29 projects, one quest each) and two quests for each recipient that received a greater than 50% majority in favor of their STIP proposal and more than 71.51 million ARB in support for their proposal (33 projects, two quests each). Each quest is meticulously designed to enhance user comprehension, interaction, and loyalty to the respective protocols.\n\nThe list of protocols and teams includes but is not limited to:\n\n1\tCamelot, Jones, Dopex, GMX, LODESTAR, Socket, Timeswap, RADIANT, Pendle Finance, MUX, Frax, Tally, Rysk, Silo Finance, Stella, Good Entry, Gamma, Umami, Abracadabra, KyberSwap, OpenOcean, Angle, Trader Joe, Dolomite, Premia, Vertex, Perennial Finance, Balancer, WINR\n\n2\tWOOFi, Gains Netowrk, DefiEdge, Synapse Protocol, PancakeSwap, Notional Finance, Rodeo, Magpie, Stargate, Savvy, Tales of Elleria, Thales, TIDE, Solv Protocol, Furucombo, dForce, Sanko GameCorp, RAMSES, Vela Exchange, Thetanuts, JOJO Exchange, Wormhole, Shell Protocol, REALM, unshETH, StakeDAO, Curve, iZUMi, Beefy Finance, Arrakis Finance, Florence Finance, CVI, Prime Protocol\n\nPayment Terms:\nThe compensation for this proposal will encompass a real-time, continuous flow of 1 million ARB tokens, streamed via the Superfluid protocol. The stream will commence immediately post-approval and will run continuously up until May 19, 2024.\n\nShould we fall short of fulfilling our obligations at any point within the specified period, a new proposal can be initiated to stop the stream of funds.\n\nIn the spirit of transparency, we commit to providing regular progress updates and upon completion of each of the 3 phases and maintaining Dune Analytics impact dashboards for the duration of the initiative, both at the application and ecosystem level. In a scenario where we fail to deliver our commitments, the community possesses the full right to propose halting the stream until the matter is adequately addressed and resolved.\n\nSteps to Implement\n\nInitiate a cooperative process with all STIP-qualified protocols to design a unique quest for each, and create two additional quests for the teams that met the criteria but weren’t granted STIP.\n\nImplement the quests in month-long phases, during which we will monitor user engagement, quest completion rates, and user feedback, among other indicators.\n\nImpact Analysis with Dune Dashboards: Post-sprint, we will analyze and present our impact utilizing detailed Dune dashboards. These dashboards will visually represent key metrics to paint a clear picture of the project’s success. Metrics categories include user engagement, unique user rates, and protocol specific metrics.\n\nBy confronting these steps, we can continuously refine our approach, ensuring that we provide mutually beneficial outcomes for both users and protocols involved in the STIP program.\n\nPhase 1 - STIP Proposal Quests (November 2023 - January 2024): Quests specifically designed for all STIP-qualified protocols will be released in six groups, each running for a month. The intention is to boost user engagement with these protocols that have received official STIP funding and guide users on how to use STIP protocols.\n\nPhase 2 - Non-STIP Proposal Quests 1 (February 2024 - April 2024): The second phase focuses on those teams that met the STIP criteria but did not receive funding. This stage ensures that these projects also get beneficial visibility and user engagement through their initial quests.\n\nPhase 3 - Non-STIP Proposal Quests 2 (March 2024 - May 2024): The final phase continues the support for non-STIP funded projects, further providing engagement through a second quest for each team. This step is designed to maintain and enhance user interest and interaction, consolidating the engagement prompted in Phase 2.\n\nRunning two quests for non-STIP funded projects (Phase 2 and 3) is particularly beneficial as it contributes to user retention through a deeper experience with the protocol.\n\nThe first quest provides users with initial exposure to the protocol, its functions, and utility. It attracts & onboards new users and raises their curiosity, while also providing a sense of familiarity and comfort with the protocol.\nThe second quest aims to solidify this relationship. A user returns to reinforce their understanding and re-engage with the protocol – a follow-up to further strengthen the interaction between the user and protocol.\nThe aim is to attract users and provide a solid foundation for them to be engaged, active and aligned with the protocol over a longer period. This ultimately contributes to the longevity and sustainability of each protocol.\n\nThis phased approach allows us to target attention to each group of protocols, ensuring each has optimized quests and yields the best possible results for all involved.\n\nOverall Cost Estimate:\nThe total cost to implement this AIP is 1M ARB where:\n\nRecurring costs will entail updates and maintenance, community engagement efforts, partnerships, performance tracking, and reporting.\n\nThis proposal lends to Arbitrum’s goal to build an engaged and knowledgeable community committed to the platform’s longevity. By incorporating all users in a guided and rewarding learning journey, we act as a funnel for new Arbitrum users, rather than current participants dominating rewards. By also acknowledging and rewarding the efforts of teams that did not qualify for STIP, we foster a fairer and more inclusive community spirit, further underlining Arbitrum’s commitment to its members.\n\nThis dynamic, transparent, and comprehensive approach propels the strength and sustainability of the Arbitrum community.",
+        "end_utc": "2023-11-01T12:31:28Z",
+        "similarity_score": 0.1356,
+        "vote_result": {
+          "choices": [
+            "For",
+            "Against",
+            "Abstain"
+          ],
+          "scores": [
+            43245644.496088326,
+            48176905.34132398,
+            37725946.28439389
+          ],
+          "scores_total": 129148496.12180693,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "arbitrum",
+          "status": "tvl_data_unavailable",
+          "error": "Could not fetch TVL data: TVL cache not found for slug='arbitrum'"
+        },
+        "price_impact": {
+          "token_id": "11841",
+          "ticker": "ARB",
+          "status": "success",
+          "event_time_utc": "2023-11-01T12:31:28",
+          "pre_price_avg": 0.955270565,
+          "post_price_avg": 1.079460415,
+          "abnormal_change": 13.0005,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.130005,
+          "abnormal_change_pct": 13.0005
+        }
+      }
+    },
+    {
+      "proposal_id": "0x5e0057920df9a278918e4de4ee1e6de7e2415d2af985e40a6c7a1a4b47a4ce01",
+      "cleaned": {
+        "proposal_id": "0x5e0057920df9a278918e4de4ee1e6de7e2415d2af985e40a6c7a1a4b47a4ce01",
+        "title": "Arbitrum Short-term incentive Program",
+        "author": "0xF92F185AbD9E00F56cb11B0b709029633d1E37B4",
+        "end_utc": "2023-09-18T03:58:28Z",
+        "similarity_score": 0.1307,
+        "winning_option": "Up to 50M ARB through Jan 2024",
+        "winning_option_index": 1,
+        "margin_abs": 57308445.05070261,
+        "margin_pct": 0.3139709758433741,
+        "scores_total": 182527843.20832,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-09-11T04:00:51Z",
+        "last_vote_at": "2023-09-11T13:31:50Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.996727,
+            0.0,
+            0.003273,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9967272727272727,
+          0.0,
+          0.0032727272727272726,
+          0.0
+        ],
+        "stability": [
+          0.9967272727272727,
+          0.0,
+          0.0032727272727272726,
+          0.0
+        ],
+        "early_ratio": [
+          0.9967272727272727,
+          0.0,
+          0.0032727272727272726,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1722479.2087586527,
+            307337.765123827,
+            470584.17194626265,
+            37149.10917753993
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.41836,
+        "spike_follow_support_ratio": 0.203921,
+        "stairwise_ratio": 0.031344,
+        "half_slope_diff": -33.22399
+      },
+      "raw": {
+        "id": "0x5e0057920df9a278918e4de4ee1e6de7e2415d2af985e40a6c7a1a4b47a4ce01",
+        "title": "Arbitrum Short-term incentive Program",
+        "author": "0xF92F185AbD9E00F56cb11B0b709029633d1E37B4",
+        "body": "Note: This proposal has been posted on behalf of the Arbitrum Incentives Working Group as a result of multiple community calls and workshops between multiple stakeholders. It does not exclude external incentive proposals from outside of the proposed structure.*\n\n**Abstract**\nThis proposal outlines a one-time, community-created program to distribute up to 75,000,000 ARB of DAO-funded incentives targeting active Arbitrum protocols. Aimed at fulfilling short-term community needs, the program plans to allocate DAO-owned ARB towards incentives while ensuring transparent consensus and distribution methods. It spans two voting rounds and provides incentives to eligible programs designed to fund incentives through the January 31, 2024. It asks all participating grantees to self report data, and dashboards, summarizing grant performance.\n\n**Motivation**\nThis provisional framework aims to distribute incentives fairly and effectively using transparent criteria agreed upon by the community, while a thorough system is developed (1 19, 2 7, 3 4, 4 5).\nThe goals of the program are to:\n•\tSupport Network Growth: Accelerate the distribution of incentives to Arbitrum dApps to drive network and ecosystem growth.\n•\tExperiment with Incentive Grants: Experiment with grant distribution to uncover new incentive strategies that increase user engagement and increase volume, transactions, and liquidity in the Arbitrum ecosystem.\n•\tFind new models for grants and developer support that generate maximum activity on the Arbitrum network.\n•\tCreate Incentive Data: Generate data on the efficacy of distributed grants to inform future incentive programs and incentive design.\n\n**Rationale**\nBy incentivizing the use of existing Arbitrum dApps through this proposal, we anticipate increased volume, transactions, users, and liquidity, laying the groundwork for a dynamic ecosystem. While the proposal acts as an experimental program, its primary goal is to ensure basic safeguards while promoting innovative incentive strategies.\n\nGiven that this proposal aims to be a one-time, short term incentive distribution, it lacks the accountability and operational rigor that a full program may provide. As such, we encourage protocols to consider that the use of funds will be both evaluated, and monitored by the community. Any misbehavior, or failure to comply with grant requests will likely result in ineligibility, or at the very least significant discernment, in future incentive or grant programs.\n\n**Specifications**\nThe Arbitrum Short-Term Incentive Program will comprise up to a 75,000,000 ARB budget earmarked for incentive grants for eligible protocols. In order to expedite the distribution of this capital to the ecosystem, the DAO will adopt a bifurcated process comprising two separate processes: the Financial Proposal and Application Process.\n\n**Steps to Implement**\n \n![8b05a5d34faf8659a144f1d35081a89ae83e237e.png](ipfs://bafkreiaizvrpzwo5bn6lxl5ikdywhfakyphtdukgkywpuzpvlrokaaj2oe)\n     \nFollowing a successful Snapshot Temperature Check, the DAO will launch an expedited application and review process, allowing applicants to apply for grants concurrent with the on-chain vote to distribute DAO funds from the treasury.\n\nThe Snapshot Temperature Check will be designed to both achieve consensus and approve funding across four options, where each vote will distinguish support of up to X ARB through the end of January 31, 2024:\n•\tFor up to **25M ARB** through January 31, 2024.\n•\tFor up to **50M ARB** through January 31, 2024.\n•\tFor up to **75M ARB** through January 31, 2024.\n•\tAgainst.\n\n**Financial Proposal**\nThe Financial Proposal will comprise the following:\n•\tA ratification of the Arbitrum Short-Term Incentive Program and application template 37 as articulated in this document.\n•\tApproval of the eligibility criteria, grant budget parameters, distribution strategy, and evaluation requirements.\n•\tA 25,000,000, 50,000,000 or 75,000,000 ARB distribution to the program Multisig.\n•\tA 32,000 ARB operational budget for community/project facilitation.\no\t20,000 ARB to @tnorm as retroactive payment for conducting community moderation:\n\tDraft and review of multiple iterations of incentive proposals.\n\tModeration of community calls and working group telegram.\n\tCoordination individually across dozens of stakeholders and community members over the past three weeks.\no\t12,000 ARB Multisig Signers (A new version of the PL-ARB Grants Safety Multisig 17 - 2K per signer).\n\n**Multisig Setup**\nA new multisig will be created with the signers from the original pl-ARB multisig, under the name of the Arbitrum DAO. The new multisig will include two features to ensure accountability of signers and grantees:\n\n1.\tClawback capability so the DAO can retrieve funds if the multisig violates the agreement.\n2.\tStreaming of funds to grantees every second week for the grants duration using Hedgey. This allows for the halting of funds if misuse is discovered with the goal to stop bad actors, not punish bad designs.\n\n**What are the Eligibility Requirements?**\n\nGrant Requirements:\n•\tGrantees are required to keep distributions in ARB without converting to other assets.\n•\tGrantees must not farm their own incentive programs.\n•\tGrantees must outline a spending plan, provide a pro forma, and state the grant’s objective.\n•\tGrantees must commit to providing data on distributions, all ARB spending transactions, and key metrics like daily TVL, transactions, volumes, unique addresses, and transaction fees. This data should cover 30 days before, during, and after the Incentivization period, and be presented preferably in a Dune Spell/dashboard or alternatively in a report.\n•\tGrantees must agree to share all contract addresses being used to distribute incentive rewards.\n•\tGrantees must disclose the contracts being incentivized and denote any external contracts being incentivized as part of the program.\n•\tGrantees can only incentive contracts on the Arbitrum Network.\n•\tGrants are not to be used in DAO governance.\n•\tGrantees are expected to not encourage or partake in sybil attacks against the forum to sway community opinion.\n•\tGrantees must agree to KYC with the Arbitrum Foundation in order to receive funds.\n•\tGrantees must apply using the approved program application template 15.\n\nBy streaming grant payments, the multisig will be empowered to hold grantees accountable to their proposals by halting fund streaming for any of the following reasons:\n\n•\tAny use of funds not explicitly described in the grantees application.\n•\tFailure to comply with data reporting standards.\no\tGrantee recipients will be required to provide Dune dashboards uploaded and posted to the forum by eligible teams by December 15, 2023.\n•\t•\tDashboard requirements are: Daily TVL, transactions, volumes, unique addresses, and transaction fees for incentivized protocols. This data should cover 30 days before, during, and after the Incentivization period. If a metric does not apply, or this is not achievable, it should be noted in the application.\n•\t•\tMore granular dashboards (including pool-level and user analysis) will be noted by the community for future programs.\no\tIf dashboards are not posted by this date, the multisig will be empowered to halt incentive funding streams for protocols at their discretion.\nIn that this proposal aims to be experimental, the multisig is not intended to provide quality control on the design of incentive programs. Rather, they are empowered to halt streaming in the event of negligence or misuse of funds.\n\n**Eligibility and Evaluation Guidelines**\nGrants span two award cycles, but projects can only be awarded once. Projects rejected in the first cycle are invited to address delegate/community feedback and reapply for the second cycle.\nProtocols can submit grant applications for amounts they feel appropriate. While there’s no ARB limit, delegates and voters will assess each grant individually.\nAs such, the Arbitrum Working Group has included four grant categories, as well as some recommended metrics by which the community might consider evaluating the grants:\n\n•\t**Beacon Grants (<= 200K ARB)**\no\tRecommendations:\n\tLive on Arbitrum for at least 2 months.\n\tMeets one of the following criteria:\n\t.> $1.5M TVL.\n\t.>$2M 30D cumulative Volume.\n\n•\t**Siren Grants (Up to 750K ARB)**\no\tRecommendations:\n\tLive on Arbitrum for at least 4 months.\n\tMeets one of the following criteria:\n\t.> $4M TVL.\n\t.>$40M 30D cumulative Volume.\n\n•\t**Lighthouse Grants* (Up to 2M ARB)**\no\tRecommendations:\n\tLive on Arbitrum for at least 6 months.\n\tMeets one of the following criteria:\n\t.> $15M Arbitrum Network TVL.\n\t.> $100M 30D cumulative Volume.\n\n•\t**Pinnacle Grants* (> 2M ARB)**\no\tRecommendations:\n\tLive on Arbitrum for at least 12 months\n\tMeets one of the following criteria\n\t.> $30M Arbitrum Network TVL\n\t.> $200M 30D cumulative volume\n\n*Grants greater than $1M ARB will be asked to include milestone-based funding tranches in their application.\n\nOne could reasonably use the date of publication for this proposal to inform these metrics.\n\n**Steps to Implement (How does the DAO Approve Grants)?**\nGrants will be approved via a three week process across two cycles.\n\nCycle 1\n1.\tApplication Period (1 Week):\nDuring the Application Stage of the program, eligible protocols will be invited to post proposals in the “Incentive Grant Applications” Category of the Arbitrum Forum using the official Application Template 20.\nOnce posted, the community may provide feedback on the proposal through the end of the Review Period.\n\n2.\tReview Period (1 Week):\nDelegates and network stakeholders will be asked to provide feedback on grant applications upon each specific forum post. Delegates should engage with the goal of ensuring the responsible use of funds. This means an application should represent a comprehensive strategy for incentive distribution, align with the program goals and requirements, and present their plan to adhere to the aforementioned data standards.\nApplicants are expected to adjust, amend, and update their proposals in line with community feedback over this time period. Due to the accelerated timeline of the program, feedback and communication between delegates and applicants will be critical.\n\n3.\tVoting Period (1 Week):\nA delegate will sponsor the proposal throughout the governance process for each grant application. ARB holders and ARB delegates will be invited to vote on each submitted proposal via Snapshot Poll.\nTo succeed, eligible applications must receive a greater than 50% majority in favor of the proposal, and receive greater than 71.51 million ARB in favor of the application. If successful, applicants will coordinate with the Arbitrum Foundation and the PL-ARB multisig to secure the completion of KYC, and receive funding to the address included in their application.\n\nCycle 2\nRepeat the process outlined in Cycle 1, with the exception that the review period for the second round will comprise a 2 week review period.\n\n**Timeline**\n[See image above]\nSep. 01, 2023 - Forum Post\nSep. 09, 2023 - Snapshot Vote Begins\n\nCycle 1\nSep. 16, 2023 - On-Chain Vote and Application Period\nSep. 23, 2023 - Review Period Begins\nSep. 30, 2023 - Voting Round Begins\nOct. 07, 2023 - Funds Distributed\n\nCycle 2\nOct 07, 2023 - Application Period 2 Begins\nOct 14, 2023 - Review Period 2 Begins\nOct 28, 2023 - Voting Round 2 Begins\nNov. 04, 2023 - Funds Distributed\n\n**Overall Cost**\nUp to 75,032,000 ARB.\n\n**Outstanding Questions and Concerns**\n\nWhat happens if the budget is exceeded?\nWe do not expect applications to exceed the funding budget of 75M ARB. However, if requested grants do exceed the allocated budget, funding will be allocated on a first-come, first-serve basis dependent upon the time the proposal was submitted to the Arbitrum Forum. In the event that the budget is exceeded, the DAO may choose to unlock further funds for a third round, or backfund successful incentive proposals.\n\nWhat will happen to excess funds?\nFollowing Cycle 2, excess funds remaining in the multisig will be returned to the Arbitrum Treasury address by the multisig.\n\nWhat is the plan after the Short Term Incentive Program?\nThe Short Term Incentive Program is designed specifically as a one-time program, with the intention of allowing incentives while the DAO designs a more robust, sustainable program in the months throughout the end of the year.\nAt the end of the year, if there is no program in place, protocols can put forth direct votes to on-chain governance to extend their programs. This program offers an opportunity for participating protocols to demonstrate mission-aligned conduct as justification for future funding.\n\nWhat are the specific KPIs for this program - what determines its success?\n•\tCommunity Support: The primary KPI for this proposal is aligning with both delegates and protocols to agree on the distribution of funds through the end of 2023, with an agreement to work towards a more efficient, comprehensive, and effective program in 2024.\n•\tNetwork Activity: An increase in network metrics such as TVL, Volume, Users and Transactions on the incentivized protocols in addition to an increase in general network activity.\n•\tCommunity Awareness: Raised awareness, collaboration, and understanding of incentive distribution strategies and tactics.\n•\tIncentives Data: Increased data on incentives, grants, and protocol behavior to inform future Arbitrum incentive programs and iterations.\n\n**Forum Link **\n\nThis snapshot is replication of the forum post. The forum post includes link to various reference material, forms, etc... which can be reviewed on the link below \n\nhttps://forum.arbitrum.foundation/t/arbitrums-short-term-incentive-program-arbitrum-improvement-proposal/16131/",
+        "end_utc": "2023-09-18T03:58:28Z",
+        "similarity_score": 0.1307,
+        "vote_result": {
+          "choices": [
+            "Up to 25M ARB through Jan 2024",
+            "Up to 50M ARB through Jan 2024",
+            "Up to 75M ARB through Jan 2024",
+            "Against"
+          ],
+          "scores": [
+            62609699.07880869,
+            119918144.1295113,
+            0,
+            0
+          ],
+          "scores_total": 182527843.20832,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "arbitrum",
+          "status": "tvl_data_unavailable",
+          "error": "Could not fetch TVL data: TVL cache not found for slug='arbitrum'"
+        },
+        "price_impact": {
+          "token_id": "11841",
+          "ticker": "ARB",
+          "status": "success",
+          "event_time_utc": "2023-09-18T03:58:28",
+          "pre_price_avg": 0.811015845,
+          "post_price_avg": 0.841210775,
+          "abnormal_change": 3.7231,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.037231,
+          "abnormal_change_pct": 3.7231
+        }
+      }
+    },
+    {
+      "proposal_id": "0xd295aabe7d3072c4397957e329ba164025c81e5844814388188bd2875d51e447",
+      "cleaned": {
+        "proposal_id": "0xd295aabe7d3072c4397957e329ba164025c81e5844814388188bd2875d51e447",
+        "title": "Non-Constitutional AIP: Arbitrum Security Enhancement Fund",
+        "author": "0x190473B3071946df65306989972706A4c006A561",
+        "end_utc": "2023-11-09T22:39:53Z",
+        "similarity_score": 0.1302,
+        "winning_option": "Against",
+        "winning_option_index": 1,
+        "margin_abs": 37638423.903648496,
+        "margin_pct": 0.3072256357514031,
+        "scores_total": 122510687.66313587,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-11-02T22:40:50Z",
+        "last_vote_at": "2023-11-03T12:55:48Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1212589.5721033409,
+            748029.5107071756,
+            144077.0817523038
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.307766,
+        "spike_follow_support_ratio": 0.998533,
+        "stairwise_ratio": 0.084072,
+        "half_slope_diff": 12.911605
+      },
+      "raw": {
+        "id": "0xd295aabe7d3072c4397957e329ba164025c81e5844814388188bd2875d51e447",
+        "title": "Non-Constitutional AIP: Arbitrum Security Enhancement Fund",
+        "author": "0x190473B3071946df65306989972706A4c006A561",
+        "body": "## Abstract\nHome to some of the best smart contract security researchers in the market and one of the strongest Developer Relations teams in the industry - professionals in Cyfrin come from backgrounds like Chainlink, Compound, Alchemy, Aragon, WorldCoin, Microsoft, Google, and other popular FinTech companies.\n\nThrough this proposal, Cyfrin would like to request $2M to improve and foster the security and longevity of the Arbitrum ecosystem.\n\nWe will do this through launching the Arbitrum Security Enhancement Fund dedicated to sponsoring audits for Arbitrum projects.\n\n## Motivation\nBlockchains solve global issues no other technology today has been able to solve: verifiable accountability, unbiased data exchange, trust without intermediaries, online ownership, permissionless transactions, global identities, to name a few…\n\nYet, until Web3 is safe, it is not scalable.\n\nIn July, total losses in the DeFi sector breached $77B according to a report from CryptoSlate. In 2022 alone, DeFi experienced hacks resulting in losses of over $3.1B. In 2023, a staggering $2.3B has already been stolen, indicating a trajectory higher than the previous year.\n\nThis is a security problem, a best practices problem, and a branding problem - rightfully keeping away institutions and users from a world-changing technology. Not solving this makes any effort of making web3 mainstream, vain.\n \n![7dbb9b4b71e82d06bc9ed50d172fbd4f740875d5.png](ipfs://bafkreig3zhjhipa7wcbmrhahe3smkhj6ytridrczvc4gizwkkkliyordde)\n    \nEvery time there is a hack on an Arbitrum project, both the Arbitrum ecosystem and the entire industry, suffer.\n\nGetting this right increases adoption at scale. Value exchange technologies without developers capable of using them appropriately have a hard time succeeding. Value exchange technologies with developers and protocols lacking security best practices create an unsafe environment for everyone participating.\n\n– The future of crypto hinders on projects prioritizing smart contract security.\n\nCyfrin commits to leveraging our team of industry experts to strengthen, support, and secure Arbitrum’s ecosystem and its developers.\n\n## Rationale\nLeveraging our auditing, engineering, and educational skill sets, the Cyfrin team will keep projects built on Arbitrum and its users safe. Through this proposal, Cyfrin aims to contribute to the long-term success of the Arbitrum ecosystem through attracting incoming TVL for the Arbitrum ecosystem, gain user trust, and show traction to potential future investors.\n\nLaser-focused on Web3 security, Cyfrin is a market leader in smart contract audits. Cyfrin offers everything from private audits to competitive public and private audits, as well as a multi-phase auditing approach we’ve designed to ensure stronger security guarantees.\n\n![eef6f8ad9af263c4f7d23396654d6993e05d7dcd.png](ipfs://bafkreigtdj7fs7vq3fy2jdavaghommp3ha5vrtd4727gvrqhmwipf6uptm)\n\nAdditionally, you may find case studies for Oku Trade and SudoSwap to learn more about how Cyfrin works.\n\nSome testimonials from clients:\n\n“It was a pleasure to work with the Cyfrin team. Their approach to security and meticulous testing is exceptionally thorough. Additionally, their intimate knowledge of the Chainlink protocol made them particularly useful for our audit.” - Getty Hill, Oku Trade Founder\n\n“Working with Cyfrin feels like a true partnership — they are just plain good at what they do and above all are as motivated as anyone to move our industry’s security practices forward” - Beanstalk\n\n“Working with Cyfrin was a good experience, they kept in touch throughout the entire audit, and also followed up post-launch. Competitive with the best of the firms.\" - 0xmons from Sudorandom Labs\n\nThrough this proposal, we’re asking Arbitrum to fund a Security Enhancement Fund to audit projects built on its infrastructure. The fund will allocate funds to private, competitive, or multi-phase audits for projects built on Arbitrum.\n\nCyfrin will power the long-term success of Arbitrum protocols, so protocols feel safer going to market and users more comfortable interacting with the Arbitrum chain.\n\n## Key Terms\nAudit: An audit is a service where a security researcher reviews a codebase in depth with the intent of finding potential vectors for exploitation. Once completed, a report is presented to the protocol to fix any potential vulnerabilities found.\n\nPrivate audit: A team, consisting of usually 2-3 security researchers, spends weeks looking at a protocol’s codebase with the aim of finding the most critical exploit vectors in a codebase, as well as perform architecture analysis, fuzz testing, improvement pull reviews, etc.\n\nPublic Competitive Audit: An audit where hundreds, if not thousands, of security researchers review a codebase and compete for funds in a set reward pool based on the complexity of vulnerabilities found, its impact, and its uniqueness.\n\nPrivate Competitive Audit: An invite-only audit where a protocol invites top-performing auditors to review their code and compete in community driven audit competition.\n\nMulti-Phase Audit: a new, innovative model known as the Diverge-Converge Multi-Phase Model. Crafted to maximize the quality of audits, a critical aspect in the Web3 space, by strategically incentivizing auditors and ensuring that the protocol codebase goes through at least three comprehensive auditing phases, enhancing the protocol’s ultimate security.\n\n## Specifications\nThe entirety of the funds will be allocated towards funding security reviews for protocols, including the costs to run the audits, hire auditors, promote contests, bring judges, do customer support, and competition moderation.\n\nThe Fund will match up to 60% for the audit requested. The remaining amount will have to be paid by the project itself requesting for funding. This is mostly to weed out projects just looking for a free audit, ensuring we’re truly enabling long-lasting impact for the ecosystem.\n\nThe one exception to this rule is projects who are already deployed on Arbitrum and who can prove a high number of active users, total value locked, or who provide user retention and stickiness across the Arbitrum ecosystem as a whole. Establishing the details of what “high” means in this case will be a task of the Allocation Committee once formed.\n\nThese audits may come in the form of competitive audits, through our CodeHawks platform, private audits through our security research team, or through our multi-phased approach combining the above.\n\n## Audit Types\nCompetitive Audits\nCodeHawks, one of the leading competitive auditing platforms in the market and home to some of the top security experts in the industry, enhances the security of protocols through community-driven smart contract security reviews.\n\nOn CodeHawks, hundreds of auditors study, test, stress, and review the same protocol’s codebase for a defined amount of time - finding bugs and potential exploit vectors. Auditors then submit the findings to the platform for judge review and monetizing based on the vulnerabilities uncovered.\n\nPrivate Audits\nPrivate audits, an option tailored to yet-to-be deployed, and already-live protocols. A hand-in-hand relationship between protocol’s engineering team and our security research squad is formalized to uncover vulnerabilities and support developers with state-of-the-art best practices guidance.\n\nThrough constant communication, the protocol’s engineering team is able to revise vulnerabilities as soon as they’re found - ensuring the team can start working on fixes immediately. Auditors also provide architecture analysis, fuzz testing, improvement pull reviews, specific knowledge like formal verification, code smells, testing feedback, etc.\n\nMulti-phase Audits\nDesigned for large and more complex protocols, the Multi-Phase audit approach has the stronger security guarantee of them all since it encourages the protocol to go through several audit phases before completing the final report.\n\nTo learn more about the Multi-Phase Audits, review here. \n\n![94de3d610083fec1fdc4d0cd35c1720832865f5b.png](ipfs://bafkreiauxpn2v4ymg4djs22mshbdtzucp73zr62byswrmto5dzr7fzqloq)\n\n## Allocation Committee\nThe Allocation Committee is the group responsible for determining which projects should receive audit funding. Cyfrin will lead the charge of setting this Committee up within 2 weeks of proposal approval.\n\nThe multisig account for the Allocation Committee will contain 5 people (3 from Arbitrum’s side, 2 from Cyfrin). Each team (Cyfrin and Arbitrum) will select who from their organizations will represent them in the Allocation Committee within 10 days of proposal approval.\n\nOnce composed, the committee will determine any additional eligibility criteria and share them with the community before opening up the application funnel. The application funnel should open within a maximum of one month post proposal approval.\n\nAdditionally, the Allocation Committee is responsible for defining the appropriate application process and reviewing applications on a recurrent basis. The process for reviewing these applications, as well as how often the Committee meets will be determined by the members based on the amount of applications received and their complexity.\n\nWe saw the community gather together under the STIP proposal and would like the same community participatory process to guide the direction of how the fund allocates the distribution. It’s a discovery process that we will run, partnering with Arbitrum to validate findings and iterate repeatedly.\n\n## Eligibility criteria for protocols applying to the Security Enhancement Fund\nThe Security Enhancement Fund aims at improving the security of all projects that have already deployed or will be deploying into the Arbitrum chain.\n\nAny protocol that adds value to the Arbitrum ecosystem across DeFi, Gaming, DAOs, or social projects, real world assets tokenization, track and trace solutions, or any other track, bringing a healthy and sustainable contribution to the ecosystem, is welcomed to apply.\n\nProjects should have already deployed to Arbitrum mainnet to apply, although exceptions can be made for:\n\nProtocols who commit to deploying on Arbitrum within 6 months of the audit - if this is the case, the code being audited must be deployed exclusively on Arbitrum for 6 months before launching elsewhere. The Allocation Committee will determine when taking such a risk is worth the assessment.\n\nProtocols who already have deployed and gained traction on other chains, looking to deploy to Arbitrum as well - if this is the case, information regarding the protocol’s TVL, active user base, and Arbitrum strategy should be shared in the application for review by the Allocation Committee.\n\n## Ineligible Projects\nIn an effort to keep the Arbitrum ecosystem secure and sustainable, we comply and leverage Arbitrum’s guidelines 2 to determine which projects are ineligible to apply for the Security Enhancement Fund.\n\nAdditionally, the Allocation Committee may establish additional guidelines for ineligible projects.\n\n## Security Enhancement Fund Distribution\nThe 100% of the funds from the Security Enhancement Fund will be used to audit Arbitrum projects.\n\nThe fund allocation per project will cover 60% of the protocol audit, expecting the protocol to cover the rest. The reasoning behind this is to ensure only protocols serious about their long-term growth get audited. However, an exception of sponsoring 80% of the audit could be made for unique situations as established by the Allocation Committee, like for a protocol amounting for large ecosystem growth or a large protocol deploying to Arbitrum.\n\nThis makes it extremely convenient for protocols built on Arbitrum to enhance the security of their codebase and protect users’ assets.\n\nAudit prices are aligned with industry standards and calculated based on the complexity of the codebase under review.\n\nFor competitive audits, the prize pool is calculated as approximately $30 multiplied by the number of lines of code in the code base.\n\nFor private audits, the cost is calculated as $60,000 multiplied by the number of weeks required by the auditors to read, understand, and review the code base in scope. The time required for each audit is evaluated before the security review by the lead auditor assigned to the project and will be made publicly available to the community.\n\nProtocols are permitted to undergo one or multiple smart contract security reviews per protocol update. The number of reviews is determined based on the codebase size, as indicated below:\n\nFor codebases or protocol updates with less than 5000 nSloc, security reviews will be limited to 1 per type.\n\nFor codebases or protocol updates with more than 5000 nSloc, security reviews will be limited to 2 per type.\n\nnSloc is an objective measure and industry that stands for Normalized Source Code. Calculated reducing all multiline functions declarations to a single line, removing all comments and empty lines and counting the remaining number of lines of code.\n\nWhatever allocation we don’t spend, at the end of the year we will return to the DAO for further use.\n\n## Steps to implement\nWithin the next year, the Cyfrin team commits to:\n\n1. Technical implementation of creating the Allocation Committee’s multisig and define its members\n2. Allocation Committee details eligibility requirements and allocation criteria\n3. Define and implement process for protocols to apply for audits alongside the Allocation Committee\n4. Review applications and start distributing funds strategically for protocols who meet the criteria\n5. Pair auditors with protocols\n6. Kick-off auditing process\n7. Amplify the Security Enhancement Fund as a great reason for projects to choose Arbitrum as their L2 of choice, as well as promotion of the protocols Cyfrin audits\n8. Final report to protocols\n\n– Keep in mind, this process may vary depending on whether the protocol is undergoing a private, competitive or multi-phase audit.\n\n## Team\nPatrick Collins: Cyfrin’s CEO and former Lead of Chainlink DevRel, Patrick revolutionized the industry onboarding hundreds of thousands of developers into web3 with its courses and speeches, with more than 3 million views on his courses and ~160.000 subscribers across platforms.\n\nAlex Roan: Cyfrin’s CTO, Alex is a veteran Web3 developer who has contributed to core DeFi infrastructure such as Chainlink and Compound - securing billions of dollars in value.\n\nHans Friese: Cyfrin Lead Auditor and Co-founder, Hans is one of the world’s top auditors, consistently ranking at the top within competitive auditor leaderboards 2. He is also the founder and Lead Engineer of Solodit, the most used vulnerability aggregator tool for auditors.\n\nDon Dodge: tech veteran with a past in Google, Microsoft, Groove, Napster, AltaVista, and more. Startup investor, advisor, and board member.\n\nMark Scrine: previously the Strategic Lead for Proof of Reserve at Chainlink Labs and led a number of their biggest integrations. These included protocols such as TUSD, Matrix Port, Avalanche Bridge, BackedFi, and Swell Network.\n\nDeveloper Relations & Marketing: Our industry leading DevRel team will work together with the Arbitrum’s community to promote, educate, and onboard auditors into the Cyfrin ecosystem, advocating for audit quality for protocols. Additionally, through Cyfrin’s Education platform, our DevRel team is brewing the next generation of software engineers into the space with Arbitrum as their L2 of choice. Composed of 6 people total, here’s an example of some of the leaders in our team:\n\nVitto Rivabella, formerly leading Developers Experience at Alchemy, the popular Web3 infrastructure provider, and Alchemy University, educating tens of thousands of Web3 developers. Web3 educator, investor, developer, public speaker and a former VFX supervisor.\n\nJuliette Chevalier, former Lead of Developer Relations at Aragon and Co-founder of Surge Women, an organization bridging the educational gap between women and crypto products. She is also a key contributor to various DAOs, angel investor, software engineer, and public speaker.\n\nCommunity Manager: Our Community Manager will foster peer-to-peer relationships and manage technical support for the students going through the Arbitrum courses - a vital resource for community members seeking assistance and supporting CodeHawks auditors to do their best work.\n\nDesign: Our design team will create visually engaging and user-friendly materials, enhancing the overall learning experience for the Abitrum developer community and CodeHawks auditors.\n\nCodeHawks Team: The CodeHawks team together with Cyfrin will run, promote, judge, support and moderate the competitions and the community, onboarding and assisting the protocols looking to onboard on Arbitrum. Once the team has made sure the protocol respects the eligibility criteria, they will manage the entire cycle from start to finish. This includes sales (answering to active inbounds, and protocols suggested by the community), contest details, marketing, judging, and final report submission.\n\nAudit Team: Our team of security researchers are experts across a variety of fields like DeFi, oracles, Web3 social, and more. They come from the industry’s top auditor leaderboard and are dedicated entirely to the private audits.\n\n## Cost\nThe budget for this proposition totals $2 million.\n\nThe entirety of the funds is dedicated towards the sponsoring of audits for protocols deployed or deploying on Arbitrum.\n\nThe entirety of the funds will be expected upon proposal approval to maintain a rapid response to audit requests and safeguard protocol integrity.\n\nUpon the onchain approval of the proposal, these funds will be transferred to the Allocation Committee’s multi-sig, as set up by Cyfrin containing the 2 Cyfrin Committee representatives. The multi-sig’s first transaction will then add the 3 Arbitrum representatives before transferring any funds to protocols.\n\nAdditionally, Cyfrin suggests the Allocation Committee reimburses the DAO quarterly in the event that the minimum expected capital for that quarter ($500,000) isn’t spent within that time period. This will also enable a tangible oversight mechanism for the DAO to ensure Cyfrin is doing the expected work.\n\n## Why $2M?\n\nAt an average cost of $60,000, sponsored at 60%, $2M would cover anywhere from 20-25 audits in the span of a year.\n\nAlthough the cost of an audit varies widely based on codebase size, complexity, and audit type, audit prices typically range between $30,000-$100,000, with an average audit being ~$60,000.\n\nAssuming the Fund covers 60% of the audit, $2M are estimated to cover anywhere from 20-25 audits within the span of a year. Additionally, 70% of the fund will be used to cover existing protocols on Abitrum, with the remaining 30% used to cover new protocols launching on the chain.\n\n– Important to note that in order to have the best possible security for a protocol, projects often go through 2 or more audits - including private and competitive audits. Particularly for complex projects already holding a high TVL, a multi-phase audit is highly advised to decrease the chances of an exploit to an absolute minimum.\n\nConsidering Arbitrum is believed to have 1.2M total commits and over 1,100 Arbitrum repositories, with over 450 active developers, this fund would cover ~10% of Arbitrum’s development.\n\n https://www.developerreport.com/ecosystems/arbitrum\n\n## Framework on payments, reporting, and oversight\n\nCyfrin pledges to publish financial reports to the DAO to uphold transparency and accountability every quarter, outlining expenditure details, audits funded, decisions made, and progress updates. These reports will be posted in the Arbitrum DAO’s forum for the DAO to periodically review.\n\nSnapshot has a maximum character limit. You can read the rest of the proposal on IPFS here: https://bafybeieamtixt3tpeajimfkye5utfdh6m3sy6y5drzz7bgdx4ilbgxubza.ipfs.dweb.link/",
+        "end_utc": "2023-11-09T22:39:53Z",
+        "similarity_score": 0.1302,
+        "vote_result": {
+          "choices": [
+            "For",
+            "Against",
+            "Abstain"
+          ],
+          "scores": [
+            32422545.318284705,
+            70060969.2219332,
+            20027173.12291615
+          ],
+          "scores_total": 122510687.66313587,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "arbitrum",
+          "status": "tvl_data_unavailable",
+          "error": "Could not fetch TVL data: TVL cache not found for slug='arbitrum'"
+        },
+        "price_impact": {
+          "token_id": "11841",
+          "ticker": "ARB",
+          "status": "success",
+          "event_time_utc": "2023-11-09T22:39:53",
+          "pre_price_avg": 1.089908015,
+          "post_price_avg": 1.1460845050000001,
+          "abnormal_change": 5.1542,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.051542,
+          "abnormal_change_pct": 5.1542
+        }
+      }
+    },
+    {
+      "proposal_id": "0x57acaed2db622fa66de2bd70d3710f48984a5e55449a0bf6e4e661306d20d148",
+      "cleaned": {
+        "proposal_id": "0x57acaed2db622fa66de2bd70d3710f48984a5e55449a0bf6e4e661306d20d148",
+        "title": "[Non-Constitutional AIP] Front-end interface to force transaction inclusion during sequencer downtime",
+        "author": "0xAbAbE91A907fAdff921720C43ABe4098e7245E99",
+        "end_utc": "2024-03-20T05:38:03Z",
+        "similarity_score": 0.1299,
+        "winning_option": "For",
+        "winning_option_index": 0,
+        "margin_abs": 61578812.6720419,
+        "margin_pct": 0.453081187508261,
+        "scores_total": 135911210.55080032,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2024-03-13T05:38:58Z",
+        "last_vote_at": "2024-03-14T17:57:12Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            12552604.840781251,
+            29603.837300664953,
+            7348640.696366871
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.520023,
+        "spike_follow_support_ratio": 0.794492,
+        "stairwise_ratio": 0.007966,
+        "half_slope_diff": 1140.932514
+      },
+      "raw": {
+        "id": "0x57acaed2db622fa66de2bd70d3710f48984a5e55449a0bf6e4e661306d20d148",
+        "title": "[Non-Constitutional AIP] Front-end interface to force transaction inclusion during sequencer downtime",
+        "author": "0xAbAbE91A907fAdff921720C43ABe4098e7245E99",
+        "body": "### **Abstract**\n\n[WakeUp Labs](http://www.wakeuplabs.io/) proposal outlines the development of a simple but effective front-end interface that enables users to force-include transactions directly on L1 when the Arbitrum Sequencer is down, aiming to increase trust among end-users navigating the Arbitrum ecosystem.\n\nInspired by a few community discussions ([Link 1](https://x.com/Cattin0x/status/1735779772054077917?s=20) & [Link 2](https://x.com/fede_intern/status/1754226077981893052?s=20)) , and validated historical events like: [Sequencer Downtime 1](https://offchain.medium.com/todays-arbitrum-sequencer-downtime-what-happened-6382a3066fbc), [Sequener Downtime 2](https://dedaub.com/blog/arbitrum-sequencer-outage), [Historical Sequencer Status](https://status.arbitrum.io/history/3) and [L2BEAT status](https://l2beat.com/scaling/risk).\nThis tool aims to empower users with the ability to bypass the Sequencer in situations where it is unavailable or censoring transactions, thus aligning with Arbitrum's vision for progressive decentralization.\n\nWakeUp Labs has a proven track record of expertise in crafting exceptional blockchain tools and infrastructure. Their contributions extend to collaborating on [open-source projects for major DAOs](https://x.com/0xMilton/status/1755972182553899487?s=20), enhancing Ethereum Foundation-funded initiatives, building complex DeFi protocols, SmartContracts and offering a [developer platform](http://www.platform.wakeuplabs.io/) that facilitates robust and scalable API calls for smart contract deployment without requiring Solidity programming skills. (Currently operating even on the Arbitrum blockchain).\n\n### **Introduction**\n\nThe Arbitrum Sequencer is a critical component of the network, responsible for submitting users' transactions to L1.\n\nUnder the current  model, the Sequencer represents a point of failure that, if compromised, could delay or prevent transaction processing.\n\nThere are ways to bypass it, but non-developer users lack that capability.\n\nThis proposal seeks to mitigate such risks by providing a user-friendly alternative transaction submission pathway, thereby enhancing the network's resilience, user autonomy, and their confidence in the Arbitrum ecosystem.\n\n### **Rationale**\n\n- **Decentralization and user empowerment:** By enabling direct L1 transaction submissions, users can circumvent Sequencer outages or censorship, maintaining their ability to transact without interruption. This capability is crucial for ensuring the network's operational integrity and aligns with the principle of progressive decentralization.\n- **Enhancing trustless security:** The proposed interface would serve as a valuable tool in rare situations where the Sequencer fails to perform its duties. It ensures that the Arbitrum Rollup maintains its trustless security model, even when permissioned components of the system are not functioning correctly.\n\n### **WakeUp Labs core team**\n\n- **[Milton Berman](https://www.linkedin.com/in/miltonberman/)**, co-founder and CEO, brings extensive experience as a CTO in a decentralized identity project supported by IDB Lab and Bitcoin NGO. He has also worked as a Product Owner at Rootstock blockchain and as a CTO in a mobile game studio company. With a background in working with large corporations, Milton possesses the technical expertise and strategic vision necessary to drive the success of our project.\n- **[Maximiliano del Hoyo](https://www.linkedin.com/in/maximiliandh/)**, co-founder and CBDO, has a diverse background in software and finance. His previous experience at notable companies like Microsoft and Nestle provides him with the necessary knowledge and network to navigate the intersection of technology and business, ensuring the effective achievement of the project's goals.\n- **[Gonzalo Silman](https://www.linkedin.com/in/gonzalo-silman/)**, co-founder and COO, possesses a unique blend of expertise in economics (former university professor), finance, and entrepreneurial experience in creating gaming products for LATAM communities. This diverse background brings a fresh perspective and innovative thinking to our project, enabling us to understand user needs and craft tailored solutions that resonate with our target audience.\n\n### **Proposal Details**\n\n### Technical Implementation\n\n1. **Transaction Monitoring:** Develop functionality to listen for user transactions on L2 that are not included by the Sequencer, with guidance from the Arbitrum SDK documentation.\n2. **Manual Transaction Hash Input:** In cases where automatic detection is not feasible, provide a user interface for manually entering the transaction hash or implement manually the previous transaction in the new solution.\n3. **L1 Transaction Replication:** Implement mechanisms to replicate the intended L2 transaction on L1, using \"Forced Withdrawal\" type transactions to push the L2 transaction from L1.\n4. **Confirmation Display:** Ensure the interface provides feedback once the transaction has successfully been processed.\n5. **Processing Time Consideration:** Account for the approximately 24-hour processing period to prevent errors or transaction duplication across chains.\n6. **Hosting, Service & Maintenance:** WakeUp will host the service, ensuring it runs 24/7. For the first three months, we will fine-tune and iterate the service. Additionally, should any problems occur, the WakeUp team is committed to identifying and resolving these issues for a minimum of the next two years.\n\n### Development Roadmap & Budget Allocation:\n\n1. **Technical Research, POC, Documentation and Testing (3 weeks, $ARB 9000):**\nDeep dive into the Delayed Inbox functionality and its integration, along with creating a PoC and validating the necessity of a new internal tool for transaction monitoring and sequencer status. We will also carefully check that our solution doesn't disrupt the proper functioning of Arbitrum; if it does, we will enable this instance only when the official sequencer is not operating correctly. This research conducted by the WakeUp Team will be made public, and the community will be able to view it, both in a summary Twitter Thread and in an Article shared on the OSS Github repository once completed.\n2. **Endpoint Development (1.5 weeks, $ARB 3500):**\nCreation of endpoints to interact with the backend logic.\n3. **Logic Integration and Testing (2 weeks, $ARB 3500):**\nConnecting the frontend to the endpoints and verifying the operational logic, and test heavily the MVP.\n4. **Design Phase (4 weeks, $ARB 5000):**\nAdditional time allocated for the design process, ensuring a user-friendly experience.\n5. **UI Development (3 weeks, $ARB 5500):**\nCrafting an aesthetic and intuitive user interface inspired by existing high-quality designs.\n6. **Open-source Preparation (3 weeks, $ARB 6000):**\nFinalizing and documenting the codebase for open-source release.\n7. **Service & Maintenance after Launch (24 months, $ARB 10000).**\nWe commit to hosting the site on Vercel or AWS, ensuring 24/7 operation for at least 24 months. Initially, the WakeUp team will refine the website based on user and Arbitrum community feedback and conduct continuous testing to ensure its reliability. Any issues, such as downtime or crashes, will be promptly addressed by the WakeUp team at least for the next two years.\n\n### **Budget and Resources**\n\n- **Estimated Timeframe:** Approximately 4.25 months for full implementation, including design phases; followed by 3 months dedicated to post-launch iterations and 24 months of hosting, monitoring, and bug fixing to address any possible error.\n- **Development Team:** One full-time Sr Solidity developer for the core implementation and Research, additional design and developer resources for the UI/UX phase. The proposal also considers a Sr part-time dev for the Maintenance after launch.\nGonzalo or Milton from the core team will also keep track of the project as PO.\n- **Cost Estimate:** 42.500 $ARB\n\n### **Conclusion**\n\nDeveloping a front-end interface to enable force-including transactions during Sequencer downtime is a crucial requirement in the Arbitrum ecosystem. This proposal aims to empower users by ensuring transaction capabilities even when the Sequencer is unavailable. By doing so, it aligns with Arbitrum's goals of decentralization and enhancing user autonomy.\n\nAdditionally, the project will provide the open-source code for the back-end solution, thereby improving trust in the solution and tool.\n\n### 03/11/2024 - Notes:\n\nSome changes have been made in this proposal, thanks to the feedback provided by @cp0x, @maxlomu and @frisson.",
+        "end_utc": "2024-03-20T05:38:03Z",
+        "similarity_score": 0.1299,
+        "vote_result": {
+          "choices": [
+            "For",
+            "Against",
+            "Abstain"
+          ],
+          "scores": [
+            98701606.25880036,
+            86810.70524175183,
+            37122793.58675846
+          ],
+          "scores_total": 135911210.55080032,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "arbitrum",
+          "status": "tvl_data_unavailable",
+          "error": "Could not fetch TVL data: TVL cache not found for slug='arbitrum'"
+        },
+        "price_impact": {
+          "token_id": "11841",
+          "ticker": "ARB",
+          "status": "success",
+          "event_time_utc": "2024-03-20T05:38:03",
+          "pre_price_avg": 1.62469208,
+          "post_price_avg": 1.599186545,
+          "abnormal_change": -1.5699,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.015699,
+          "abnormal_change_pct": -1.5699
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x29c7eb60e1ed122f81aa5f4caeb5d171b27ae644666ad18aece78ff28d7b9245",
+    "selected_choice_label": "Unicorn Partners",
+    "selected_choice_index": 0,
+    "confidence": 0.9,
+    "summary": "The proposal to sponsor the Ethereum Protocol Attackathon aims to enhance Ethereum's security, which directly benefits Arbitrum as a Layer 2 solution. Despite some concerns over costs and direct benefits, the voting and forum sentiment strongly support the highest tier Unicorn Partners option due to its comprehensive security and marketing benefits.",
+    "key_arguments_for": [
+      "Enhances Ethereum protocol security, which is critical for Arbitrum's stability and security.",
+      "Includes educational programs upskilling security researchers beneficial to Arbitrum.",
+      "Provides marketing and visibility benefits reinforcing Arbitrum's alignment with Ethereum.",
+      "Strong early and consistent voting lead and positive forum support."
+    ],
+    "key_arguments_against": [
+      "High sponsorship cost with unclear direct benefit to Arbitrum DAO.",
+      "Concerns about funding transparency and allocation details.",
+      "Some community members prefer funding more Arbitrum-native projects.",
+      "Market impact post-event showed price and TVL decline."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.arbitrum.foundation/t/ethereum-protocol-attackathon-sponsorship/26122",
+        "quote": "Forum sentiment is mostly positive with 35 positive, 18 negative, and 30 neutral posts. Early comments emphasize security benefits; some raise cost and direct benefit concerns."
+      },
+      {
+        "source_tool": "adjacent_analytics",
+        "reference": "Similar proposal on shielded voting showed stable support but negative market reaction; lessons emphasize cost-benefit balance.",
+        "quote": null
+      }
+    ],
+    "available_choices": [
+      "Unicorn Partners",
+      "Panda Partners",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2024-08-22T18:49:11Z",
+    "event_end_utc": "2024-08-29T18:49:11Z",
+    "event_time_utc": "2024-08-29T18:49:11Z",
+    "address_of_governance_token": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+    "token_price_impact_pct": -5.9867,
+    "tvl_impact_pct": -1.0802,
+    "actual_vote_result": {
+      "winner_label": "Panda Partners",
+      "winner_index": 1,
+      "scores": [
+        7886933.759228994,
+        89246907.34467922,
+        26368119.03860182,
+        21438811.41889038
+      ],
+      "scores_total": 144940771.56140047,
+      "margin_abs": 62878788.306077406,
+      "margin_pct": 0.433824
+    },
+    "simulation_reason": "Recommendation based on timeline lead ratios, forum sentiment, and strategic long-term benefits to Arbitrum DAO.",
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Unicorn Partners' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Strong and stable early and total vote lead for Unicorn Partners indicates clear community preference.\n- Forum sentiment mostly supports the proposal, emphasizing the critical importance of Ethereum security to Arbitrum.\n- Despite some concerns about cost and direct benefits, the educational and marketing advantages favor the highest sponsorship tier.\n- Historical lessons from similar proposals highlight the importance of aligning with Ethereum ecosystem security initiatives.\n- Market impact shows negative price and TVL change but does not outweigh long-term strategic benefits.\n- Recommendation mirrors aggregated forum sentiment supporting the change.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x24188af307bee6ce66d10394d03d501746b343a686d64806ee71954e317ed382",
+        "title": "Should the DAO Default to using Shielded Voting for Snapshot Votes?",
+        "end_utc": "2024-08-22T12:00:00Z",
+        "summary": "Should the DAO Default to using Shielded Voting for Snapshot Votes? closed on 2024-08-22T12:00:00Z. Timeline analytics noted 3603 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.08)",
+        "market_response": "token +9.73%; TVL +6.33%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -5.9867,
+    "ex_post_tvl_impact_pct": -1.0802,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -5.99%; TVL -1.08%"
+  },
+  "agentic_ai_choice": "Unicorn Partners",
+  "actual_outcome": "Panda Partners",
+  "match_result": "different",
+  "forum_sentiment_summary": {
+    "Negative": 18,
+    "Positive": 35,
+    "Neutral": 30,
+    "total_comments": 83
+  }
+}

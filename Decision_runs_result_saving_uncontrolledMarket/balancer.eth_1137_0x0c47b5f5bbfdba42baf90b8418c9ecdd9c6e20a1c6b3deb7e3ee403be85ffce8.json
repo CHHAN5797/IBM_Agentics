@@ -1,0 +1,1148 @@
+{
+  "captured_at_utc": "2025-10-08T19:34:50.611958+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x0c47b5f5bbfdba42baf90b8418c9ecdd9c6e20a1c6b3deb7e3ee403be85ffce8",
+  "focus": null,
+  "votes_count": 5,
+  "timeline_metrics_current": {
+    "unique_voters": 5,
+    "total_votes": 5,
+    "first_vote_at": "2025-04-11T20:00:53Z",
+    "last_vote_at": "2025-04-14T14:13:56Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        424874.6922260332,
+        0.0,
+        0.0
+      ],
+      [
+        189432.0656030833,
+        0.0,
+        0.0
+      ],
+      [
+        2398038.4043685547,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.79554,
+    "spike_follow_support_ratio": 1.0,
+    "stairwise_ratio": 0.20446,
+    "half_slope_diff": 7.300241
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0xa0c998718c02ebeb1135605352d5108d0b7d92c2b7f43b68cec8bcb7c8e07865",
+      "title": "[BIP-808] Enable Aave Boosted Pool Gauges on Base",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-04-07T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 3,
+        "total_votes": 3,
+        "first_vote_at": "2025-04-04T12:30:27Z",
+        "last_vote_at": "2025-04-07T08:00:01Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            311409.71019503206,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            255131.9478650048,
+            0.0,
+            0.0
+          ],
+          [
+            2389342.7435882087,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.808334,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.191666,
+        "half_slope_diff": 17.517946
+      },
+      "price_impact_pct": -23.8927,
+      "tvl_impact_pct": -10.3,
+      "similarity": 0.1247,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2955884.4016482458,
+        "scores_total": 2955884.4016482458,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0x8a9385710030a167dffe8b29b427273130e11b8f090f2789328d3576d49607e9",
+      "title": "[BIP-807] Enable sUSDX/USDX/aUSDT gauge [Mainnet]",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-04-07T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 3,
+        "total_votes": 3,
+        "first_vote_at": "2025-04-04T12:29:05Z",
+        "last_vote_at": "2025-04-07T08:00:01Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            311411.3044028749,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            255133.03885441332,
+            0.0,
+            0.0
+          ],
+          [
+            2389341.7577656447,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.808334,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.191666,
+        "half_slope_diff": 17.518453
+      },
+      "price_impact_pct": -23.8927,
+      "tvl_impact_pct": -10.3,
+      "similarity": 0.1629,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2955886.1010229327,
+        "scores_total": 2955886.1010229327,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0x20d68cb279298cb62f565c31f1f134bd3343dfd7721142f1b551822bd0edd816",
+      "title": "[BIP-806] Enable Gauges for fWETH/fwstETH, fWETH/waArbwstETH, fWETH/waBaswstETH",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-03-31T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 3,
+        "total_votes": 3,
+        "first_vote_at": "2025-03-28T12:23:01Z",
+        "last_vote_at": "2025-03-31T15:51:18Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            318822.1969522798,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2577332.379715236,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.821873,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.178127,
+        "half_slope_diff": 6.96875
+      },
+      "price_impact_pct": -3.661,
+      "tvl_impact_pct": -1.296,
+      "similarity": 0.1479,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2896154.5766675156,
+        "scores_total": 2896154.5766675156,
+        "margin_pct": 1.0
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x3f111e6677291ff7d8a6a528b9f3d92719fb6e0f0b32ddb75b85092ff9567674",
+      "cleaned": {
+        "proposal_id": "0x3f111e6677291ff7d8a6a528b9f3d92719fb6e0f0b32ddb75b85092ff9567674",
+        "title": "[BIP-781] Enable Gauge for slpETH-gtWETHe boosted pool [Ethereum]",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2025-02-17T19:00:00Z",
+        "similarity_score": 0.9521,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2901197.552591568,
+        "margin_pct": 0.9995773218735894,
+        "scores_total": 2902424.3438752857,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5,
+        "total_votes": 5,
+        "first_vote_at": "2025-02-14T12:09:46Z",
+        "last_vote_at": "2025-02-17T08:37:40Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            362577.9848306611,
+            0.0,
+            0.0
+          ],
+          [
+            0.06142496174507371,
+            0.0,
+            613.3956418588915
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2539232.9019778045,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.81453,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.18547,
+        "half_slope_diff": 387.286887
+      },
+      "raw": {
+        "id": "0x3f111e6677291ff7d8a6a528b9f3d92719fb6e0f0b32ddb75b85092ff9567674",
+        "title": "[BIP-781] Enable Gauge for slpETH-gtWETHe boosted pool [Ethereum]",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1766\n\n**Summary:**\nWe propose enabling a Balancer gauge for the slpETH-gtWETHe Stableswap pool on Ethereum Mainnet. This pool will serve as the primary liquidity venue for lpETH, Loop’s yield-bearing ETH derivative.\n\n**References/Useful links:**\n\nLink to:\n\n* Website: [https://loopfi.xyz](https://loopfi.xyz/)\n* Documentation: [https://docs.loopfi.xyz](https://docs.loopfi.xyz/)\n* Github Page: [Loop Finance · GitHub](https://github.com/orgs/LoopFi)\n* Communities: [Loop](https://discord.gg/mVqf2Q5Whg)\n* Token Pair: lpETH / gtWETHe\n* Gauge Address: 0x6c8C40AC9dB79C55cE5189c9b93a2a53081CED74\n* Pool Address: 0x2b261C98A81cfda61BeE7BFcf941A3D336be7957\n* Deployment Chain: Ethereum Mainnet\n\n**Protocol Description:**\n\nLoop Finance is a specialized lending protocol designed to optimize leverage strategies for DEX LP tokens, with an initial focus on Pendle LP tokens. A key protocol innovation is lpETH, a yield-bearing ETH receipt token that captures revenue from Loop’s lending activities and is collateralized by a diversified index of LRTs. slpETH is the staked form of lpETH which will receive protocol revenue and has a 7 day withdrawal period. This Balancer Pool will bypass this 7 day period by allowing people to sell slpETH directly.\n\nWhen users deposit ETH into Loop, they receive lpETH which can be:\n\n> 1. Staked to earn lending yields\n> 2. Locked in dLP (Loop’s governance token based on Balancers ve80/20 model)\n> 3. Provided as liquidity in AMM pools\n>\n>\n>\n> The lpETH token is designed to always be backed 1:1 with ETH, while growing the Net Asset Value (NAV) through various protocol mechanisms including:\n>\n>\n>\n> * Compounding revenue distribution from lending activities\n> * Arbitrage opportunities between direct minting/redemption and AMM trades\n> * Collateralisation by a diversified basket of high yielding LRT restaking strategies\n> * Swap Fees\n\n**Motivation:**\n\nEstablishing a gauge for this pool will catalyse deep, stable liquidity for lpETH-WETH which serves multiple purposes:\n\n1. **Capital Efficiency**: Enables seamless entry/exit for ETH lenders with low slippage\n2. **Price Stability**: Helps maintain lpETH’s peg through arbitrage\n3. **Yield Enhancement**: Provides additional revenue for lpETH holders through swap fees\n4. **Protocol Growth**: Facilitates broader adoption of Loop’s lending markets\n5. **Benefit Balancer Treasury**: A portion of the pool fees will be directed to the Balancer treasury, in line with protocol revenue-sharing standards.\n6. **Strategic veBAL Accumulation:**\nLoop is committed to becoming a significant veBAL holder to align long-term incentives with the Balancer ecosystem. Our protocol plans to integrate Balancer Pool Tokens (BPTs) as supported collateral, creating a synergistic relationship where veBAL voting rights will be used to direct liquidity incentives toward these integrated pools. This strategy serves multiple purposes:\n  1. Ensures sustainable liquidity for lpETH-WETH and future Loop-related pools\n  2. Creates additional yield opportunities for Loop users through BPT collateralization\n  3. Demonstrates long-term commitment to the Balancer ecosystem\n  4. Enables collaborative governance participation in both protocols\n\n**Specifications:**\n \nGovernance:\n\nLoop operates under a dual governance structure:\n\n* Technical Administration: 2/3 Multisig (addresses to be provided)\n* Protocol Parameters: dLP token holder voting\n* Admin capabilities include:\n  * Emergency pause functionality\n  * Collateral parameter adjustments\n  * Fee distribution updates\n* Timelock: 24 hours for parameter changes, no system upgrades possible\n* Future plans include transitioning to full DAO governance with TGE of LOOP by Q1 2025\n\nOracles:\n\n* Primary price feeds: Chainlink ETH/USD\n* Secondary price feeds: Time-weighted Balancer pool prices\n* Collateral pricing: Combination of constituent asset oracles and pool pricing\n* Failsafe: Circuit breakers on extreme price movements\n\nAudits: ([Security | Loop](https://docs.loopfi.xyz/extras/security))\n\n* Audit 1: Watchpug completed\n* Audit 2: Code4rena completed\n* There is an ongoing bug bounty for $100,000 on [code4rena](https://code4rena.com/bounties/loopfi#top)\n\nCentralisation Vectors:\nNo centralisation vectors\n\nMarket History:\n\nProtocol information and market history can be found here on the Loop Dune dashboard:\nhttps://dune.com/rangonomics/loopfi\n\nValue:\n\nThe slpETH-WETH pool will serve as the primary liquidity venue for slpETH with several value drivers:\n\n* **Strategic Value**:\n  * Essential infrastructure for Loop’s lending markets\n  * Complementary to Balancer’s existing ETH-based pools\n  * Potential integration with other Balancer pools through composability\n  * With TGE of the LOOP token, Loop will introduce dLP tokenomics which means that locked LOOP tokens will be sent to Balancer similar to Radiant Capital.\n* **Growth Potential**:\n  * Targeted TVL growth to $20 million within 6 months\n  * Integration with major lending protocols planned\n  * Super-chain expansion roadmap (Scroll, Optimism)\n\n### Technical Specification\nThe Balancer Maxi LM Multisig `0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function with the following arguments:\ngauge(address):`0x6c8C40AC9dB79C55cE5189c9b93a2a53081CED74`\ngaugeType(string): `Ethereum`\n\nEdit Maxis: PR and Tech spec",
+        "end_utc": "2025-02-17T19:00:00Z",
+        "similarity_score": 0.9521,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2901810.9482334265,
+            0,
+            613.3956418588914
+          ],
+          "scores_total": 2902424.3438752857,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2025-02-17T19:00:00",
+          "pre_tvl_avg": 854096726.0,
+          "post_tvl_avg": 844430891.5,
+          "abnormal_change": -1.1317,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.011317,
+          "abnormal_change_pct": -1.1317
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2025-02-17T19:00:00",
+          "pre_price_avg": 1.9757971300000001,
+          "post_price_avg": 1.9641881149999998,
+          "abnormal_change": -0.5876,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.005876,
+          "abnormal_change_pct": -0.5876
+        }
+      }
+    },
+    {
+      "proposal_id": "0x2fb5430efb587a4c7895d8b3f6712201592e98c4b2495585c0434578b074f1fa",
+      "cleaned": {
+        "proposal_id": "0x2fb5430efb587a4c7895d8b3f6712201592e98c4b2495585c0434578b074f1fa",
+        "title": "[BIP-735] Enable lpETH/wETH Gauge [Ethereum] with a 2% cap",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2024-12-02T19:00:00Z",
+        "similarity_score": 0.8448,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2968638.844375061,
+        "margin_pct": 1.0,
+        "scores_total": 2968638.844375061,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 7,
+        "total_votes": 7,
+        "first_vote_at": "2024-11-29T17:45:12Z",
+        "last_vote_at": "2024-12-02T16:03:22Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.14476301236366146,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            514949.63088498637,
+            0.0,
+            0.0
+          ],
+          [
+            2453689.068727062,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.786446,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.213554,
+        "half_slope_diff": 12.803433
+      },
+      "raw": {
+        "id": "0x2fb5430efb587a4c7895d8b3f6712201592e98c4b2495585c0434578b074f1fa",
+        "title": "[BIP-735] Enable lpETH/wETH Gauge [Ethereum] with a 2% cap",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1523\n\n**Summary:**\n\n> We propose enabling a Balancer gauge for the lpETH-WETH Stableswap pool on Ethereum Mainnet. This pool will serve as the primary liquidity venue for lpETH, Loop’s yield-bearing ETH derivative.\n\n**References/Useful links:**\n\n> Link to:\n> \n> - Website: https://loopfi.xyz\n> - Documentation: https://docs.loopfi.xyz\n> - Github Page: https://github.com/orgs/LoopFi\n> \n> - Token Pair: lpETH / wETH\n> - Gauge Address: 0xb7bb16b58b04fe4f8d270430ce57d2a4753993de\n> - Pool Address: 0xdcb5ed405a9b11250def047ae8016008fae7d69b\n> - Deployment Chain: Ethereum Mainnet\n> - Relative Weight Cap: 2%\n\n**Protocol Description:**\n\n> Loop Finance is a specialized lending protocol designed to optimize leverage strategies for DEX LP tokens, with an initial focus on Pendle LP tokens. A key protocol innovation is  lpETH, a yield-bearing ETH receipt token that captures revenue from Loop's lending activities and is collateralized by a diversified index of LRTs. \n\nWhen users deposit ETH into Loop, they receive lpETH which can be:\n> \n> 1. Staked to earn lending yields\n> 2. Locked in dLP (Loop's governance token based on Balancers ve80/20 model) \n> 3. Provided as liquidity in AMM pools\n> \n> The lpETH token is designed to always be backed 1:1 with ETH, while growing the Net Asset Value (NAV) through various protocol mechanisms including:\n> \n> - Compounding revenue distribution from lending activities\n> - Arbitrage opportunities between direct minting/redemption and AMM trades\n> - Collateralisation by a diversified basket of high yielding LRT restaking strategies\n> - Swap Fees\n\n**Motivation:**\n\n> Establishing a gauge for this pool will catalyse deep, stable liquidity for lpETH-WETH which serves multiple purposes:\n> \n> 1. **Capital Efficiency**: Enables seamless entry/exit for ETH lenders with low slippage\n> 2. **Price Stability**: Helps maintain lpETH's peg through arbitrage\n> 3. **Yield Enhancement**: Provides additional revenue for lpETH holders through swap fees\n> 4. **Protocol Growth**: Facilitates broader adoption of Loop's lending markets\n> 5. **Benefit Balancer Treasury**: A portion of the pool fees will be directed to the Balancer treasury, in line with protocol revenue-sharing standards.\n> 6. **Strategic veBAL Accumulation:**\n> Loop is committed to becoming a significant veBAL holder to align long-term incentives with the Balancer ecosystem. Our protocol plans to integrate Balancer Pool Tokens (BPTs) as supported collateral, creating a synergistic relationship where veBAL voting rights will be used to direct liquidity incentives toward these integrated pools. This strategy serves multiple purposes:\n>     1. Ensures sustainable liquidity for lpETH-WETH and future Loop-related pools\n>     2. Creates additional yield opportunities for Loop users through BPT collateralization\n>     3. Demonstrates long-term commitment to the Balancer ecosystem\n>     4. Enables collaborative governance participation in both protocols\n\n**Specifications:**\n\n> Governance:\n> \n> \n> Loop operates under a dual governance structure:\n> \n> - Technical Administration: 2/3 Multisig (addresses to be provided)\n> - Protocol Parameters: dLP token holder voting\n> - Admin capabilities include:\n>     - Emergency pause functionality\n>     - Collateral parameter adjustments\n>     - Fee distribution updates\n> - Timelock: 24 hours for parameter changes, no system upgrades possible\n> - Future plans include transitioning to full DAO governance with TGE of LOOP by Q1 2025\n> \n> Oracles:\n> \n> - Primary price feeds: Chainlink ETH/USD\n> - Secondary price feeds: Time-weighted Balancer pool prices\n> - Collateral pricing: Combination of constituent asset oracles and pool pricing\n> - Failsafe: Circuit breakers on extreme price movements\n> \n> Audits: (https://docs.loopfi.xyz/extras/security) \n> \n> - Audit 1: Watchpug completed\n> - Audit 2: Code4rena completed\n> - There is an ongoing bug bounty for $100,000 on [code4rena](https://code4rena.com/bounties/loopfi#top)\n> \n> Centralisation Vectors: \n> No centralisation vectors\n> \n> Market History:\n> \n> Protocol information and market history can be found here on the Loop Dune dashboard: \n> https://dune.com/rangonomics/loopfi\n> \n> Value:\n> \n> The lpETH-WETH pool will serve as the primary liquidity venue for lpETH with several value drivers:\n> \n> - **Strategic Value**:\n>     - Essential infrastructure for Loop's lending markets\n>     - Complementary to Balancer's existing ETH-based pools\n>     - Potential integration with other Balancer pools through composability\n>     - With TGE of the LOOP token, Loop will introduce dLP tokenomics which means that locked LOOP tokens will be sent to Balancer similar to Radiant Capital.\n> - **Growth Potential**:\n>     - Targeted TVL growth to $20 million within 6 months\n>     - Integration with major lending protocols planned\n>     - Super-chain expansion roadmap (Scroll, Optimism)\n\n**Request for Support & Contact**\nWe welcome feedback from the Balancer community to strengthen this proposal. Our core team is available for discussion through the forum or via Discord. \n\nWe value the community's guidance and look forward to collaborative moving this proposal forward in a manner to best serves both ecosystems.\n\n#### Specification\n\n> Transaction: The Balancer Maxi LM Multisig `eth:0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the `addGauge` function two times with the following arguments:\n>\n>\n>\n> 1st addGauge function call\n> gauge(address): `0xb7bb16b58b04fe4f8d270430ce57d2a4753993de`\n> gaugeType(string): `Ethereum`",
+        "end_utc": "2024-12-02T19:00:00Z",
+        "similarity_score": 0.8448,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2968638.844375061,
+            0,
+            0
+          ],
+          "scores_total": 2968638.844375061,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-12-02T19:00:00",
+          "pre_tvl_avg": 991842813.5,
+          "post_tvl_avg": 1048332962.0,
+          "abnormal_change": 5.6955,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.056955,
+          "abnormal_change_pct": 5.6955
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-12-02T19:00:00",
+          "pre_price_avg": 2.9624283499999997,
+          "post_price_avg": 3.582457485,
+          "abnormal_change": 20.9298,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.209298,
+          "abnormal_change_pct": 20.9298
+        }
+      }
+    },
+    {
+      "proposal_id": "0x5b8e3661ceaba538d7a4b15ec985a173185d7171e97b136668d9ebca1dc91340",
+      "cleaned": {
+        "proposal_id": "0x5b8e3661ceaba538d7a4b15ec985a173185d7171e97b136668d9ebca1dc91340",
+        "title": "[BIP-796] Enable orbETH/waArbWETH Gauge [Arbitrum]",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2025-03-17T19:00:00Z",
+        "similarity_score": 0.2113,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2902962.4748330708,
+        "margin_pct": 1.0,
+        "scores_total": 2902962.4748330708,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 3,
+        "total_votes": 3,
+        "first_vote_at": "2025-03-14T16:18:39Z",
+        "last_vote_at": "2025-03-17T08:00:01Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            333394.85084364994,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2569567.623989421,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.821151,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.178849,
+        "half_slope_diff": 60.452666
+      },
+      "raw": {
+        "id": "0x5b8e3661ceaba538d7a4b15ec985a173185d7171e97b136668d9ebca1dc91340",
+        "title": "[BIP-796] Enable orbETH/waArbWETH Gauge [Arbitrum]",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1819\n\n**Summary:**\n\nThis proposal aims to allow the orbETH/waArbWETH gauge to participate in the veBAL incentives.\n\n**References/Useful links:**\n\n> Link to:\n\n* Website: [https://dinero.xyz/]\n* Documentation: [https://dinero.xyz/docs]\n* Github Page: https://github.com/dinero-protocol/\n* Communities:\n  * Twitter: https://twitter.com/dinero_xyz\n  * Discord: https://discord.gg/dineroxyz\n* Dune Analytics: https://dune.com/funky/dinero\n* Pool: https://balancer.fi/pools/arbitrum/v3/0x2ece6781bace5e37386adef7a3d45d0bb05f8fce\n* Gauge: https://arbiscan.io/address/0xf3e7b852390478faa6d44319bde4782bf35bf2bd\n\n**Protocol Description:**\n\n> [orbETH](https://x.com/dinero_xyz/status/1851626380129141020) is a native ETH Liquid Staking Token (LST) for Arbitrum Orbit by [Dinero Protocol](https://dinero.xyz/). Like other ETH LSTs, orbETH increases in value as it generates ETH staking yield through apxETH on Ethereum mainnet, allowing users to seamlessly earn staking rewards.\n\norbETH can be minted natively on Arbitrum One and other orbit chains with ETH and can be easily bridged across orbit chains, ensuring smooth cross-chain interoperability and utility. When orbETH is minted, ETH is deposited into the Dinero Protocol for apxETH. Since orbETH is backed by apxETH, it directly benefits from apxETH’s above-market ETH staking yield.\n\nThe vision for orbETH is to become the go-to ETH asset for Arbitrum Orbit—so widely integrated and adopted that it surpasses even WETH in usage. As one of the first native Arbitrum Orbit ecosystem applications, orbETH aims to unify the ecosystem, enhancing liquidity, expanding utility, and fostering greater cohesion among protocols.\n\nBy integrating orbETH across the Arbitrum Orbit ecosystem, protocols, builders, and users benefit from access to native ETH staking yield, while the Arbitrum Foundation earns a share of orbETH's yield—creating a sustainable revenue stream to support network growth. This can be redistributed to protocols and users supporting orbETH.\n\nThe long term goals of orbETH are to promote orbETH and Arbitrum Orbit ecosystem success through increased liquidity, adoption, and integration of LSTs across the ecosystem.\n\norbETH can be redeemed for pxETH or ETH by unstaking on the Beacon Chain. However, for orbETH to become a cornerstone asset across the Arbitrum Orbit ecosystem, it needs deep, instant liquidity. In the first instance, bootstrapping orbETH liquidity through key orbETH liquidity pairs is crucial for ingraining orbETH as a core asset in the ecosystem.\n\n**Motivation:**\n\n> Dinero has a long and close relationship with Balancer and Aura. Because of this close relationship and Dinero’s vlAURA governance power, we want to have Balancer as the primary venue for crucial orbETH liquidity.\n\nAn LST is only as good as its peg. Therefore for orbETH to be successful, significant liquidity is required. With a gauge, Dinero plans to use its governance power and bribes to direct emissions to the gauge and incentivize crucial orbETH liquidity on Balancer, allowing for higher volumes in the LP and also generating fees for veBAL holders.\n\n**Specifications:**\n\n1. **Governance:**\n\nDinero’s governance is currently off-chain using [Snapshot](https://snapshot.org/#/redactedcartel.eth). The multisig address is: 0xA52Fd396891E7A74b641a2Cb1A6999Fcf56B077e. Decisions relating to inflation, liquidity, partnership or DAO treasury go through a DAO vote, and then are executed by the multisig. On-chain governance will come at a later stage.\n\n2. **Oracles:** Does the protocol rely on external oracles? If so, provide details about the oracles and their implementation in the protocol.\n\nNo oracles are currently used.\n\n3. **Audits:** Provide links to audit reports and any relevant details about security practices.\n\nLink to all audits can be found [here](https://dineroismoney.com/docs/security).\n\n4. **Centralization vectors:** Is there any component of the protocol that has centralization vectors? E.g. if only 1 dev manages the project, that is a centralized vector. If price oracles need to be updated by a bot, that is a centralized vector. If liquidations are done by the protocol, that is also a centralization vector.\n\n4/7 multisig (0xA52Fd396891E7A74b641a2Cb1A6999Fcf56B077e) controls the pushing of validators public keys to the contract.\n\n5. **Market History:** Has the asset observed severe volatility? In the case of stablecoins, has it depegged? In the case of an unpegged asset, have there been extreme price change events in the past? Provide specific information about the Balancer pool: how long has it been active, TVL, historical volume? **You must provide a direct link to the pool AND a link to your pool's gauge.**\n\nThe orbETH/waArbWETH has just been seeded. As explained above, pxETH has redemption mechanisms which allow the peg to be maintained/ arbitraged.\n\n6. **Value:** Is this pool intended to be the primary source of liquidity for the token(s)? If this is not the case, explain the expected value add to Balancer (can this pool generate consistent fees?)\n\nWith a gauge, Dinero plans to use its governance power and bribes to direct emissions to the gauge and incentivize crucial orbETH liquidity on Balancer, allowing for higher volumes in the LP and also generating fees for veBAL holders.\n\n### Technical Specifications\nThe Balancer Maxi LM Multisig `0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the `addGauge` function with the following arguments: gauge(address):`0x2D1c51eaB8b3c2287BA26061c0e339DA3b15B955` \ngaugeType(string): `Arbitrum`\n\nEdit Maxis:\n* Tech spec\n* PR with Payload",
+        "end_utc": "2025-03-17T19:00:00Z",
+        "similarity_score": 0.2113,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2902962.4748330708,
+            0,
+            0
+          ],
+          "scores_total": 2902962.4748330708,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2025-03-17T19:00:00",
+          "pre_tvl_avg": 670991405.0,
+          "post_tvl_avg": 683592466.0,
+          "abnormal_change": 1.878,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.01878,
+          "abnormal_change_pct": 1.878
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2025-03-17T19:00:00",
+          "pre_price_avg": 1.42496194,
+          "post_price_avg": 1.509838555,
+          "abnormal_change": 5.9564,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.059564,
+          "abnormal_change_pct": 5.9564
+        }
+      }
+    },
+    {
+      "proposal_id": "0x67c84bb1034eb58ed5f449d60092bd7319626e5316d86ca48c2ad45f22229850",
+      "cleaned": {
+        "proposal_id": "0x67c84bb1034eb58ed5f449d60092bd7319626e5316d86ca48c2ad45f22229850",
+        "title": "[BIP-764] Enable pxETH/gtWETHe Gauge [Ethereum]",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "end_utc": "2025-01-27T19:00:00Z",
+        "similarity_score": 0.2093,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2914815.498683159,
+        "margin_pct": 1.0,
+        "scores_total": 2914815.498683159,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 3,
+        "total_votes": 3,
+        "first_vote_at": "2025-01-24T21:46:44Z",
+        "last_vote_at": "2025-01-27T12:33:50Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            353212.2541654372,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2561603.2445177217,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.813956,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.186044,
+        "half_slope_diff": 42.999881
+      },
+      "raw": {
+        "id": "0x67c84bb1034eb58ed5f449d60092bd7319626e5316d86ca48c2ad45f22229850",
+        "title": "[BIP-764] Enable pxETH/gtWETHe Gauge [Ethereum]",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "body": "PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1693\n\n**Summary:**\n\nThis proposal aims to allow the pxETH/gtWETHe gauge to participate in the veBAL incentives.\n\n**References/Useful links:**\n\n> Link to:\n>* Website: [https://dinero.xyz/]\n>* Documentation: [https://dinero.xyz/docs]\n>* Github Page: https://github.com/dinero-protocol/\n>* Communities:\n>  * Twitter: https://twitter.com/dinero_xyz\n>  * Discord: https://discord.gg/dineroxyz\n>* Dune Analytics: https://dune.com/funky/dinero\n>* Pool: https://balancer.fi/pools/ethereum/v3/0x5512fdDC40842b257e2A7742Be3DaDcf31574d53\n>* Uncapped Gauge: https://etherscan.io/address/0x3a51bdf9013633Ae934a3630db96f09aE4c5814a\n\n**Protocol Description:**\n\n> pxETH is a liquid and fungible receipt token for ETH deposited into the Dinero protocol. pxETH forms an integral part of the Dinero Protocol, a protocol which aims to vertically integrate ETH staking, block proposal and building, a RPC, leverage, and yield stripping into one synergistic ecosystem comprising pxETH, the Dinero Relayer RPC, and the pxUSD stablecoin. pxETH provides users with a liquid and fungible tokenized staked ETH which benefits from Ethereum staking rewards and other revenue forms such as MEV tips and block rewards. Future pxETH yield and pxETH withdrawals can be tokenized and used within DeFi. Further details about pxETH can be found in the whitepaper [here](https://github.com/dinero-protocol/pirex-eth-whitepaper/blob/master/pxETH_whitepaper.pdf).\n>\n>In addition to the DEX liquidity for pxETH incentivized by Dinero Protocol, there are additional mechanisms to improve pxETH liquidity and support the pxETH:ETH peg in both normal and adverse market conditions allowing for greater pxETH DeFi composability.\n>\n>pxETH can be redeemed for ETH from the Dinero Protocol either instantaneously for ETH which has yet to be staked or via ETH which is unstaked from validators. In the future a novel incentivized withdrawal pool will facilitate quicker pxETH withdrawals when there is an ETH unstaking queue and/or adverse market conditions.\n>\n>The governance token for pxETH is DINERO.\n\n**Motivation:**\n\n> Dinero has a long and close relationship with Balancer and Aura. Because of this close relationship and Dinero’s vlAURA governance power, we want to have Balancer as the primary venue for crucial pxETH liquidity.\n>\n>An LST is only as good as its peg. Therefore for pxETH to be successful, significant liquidity is required. With a gauge, Dinero plans to use its governance power and bribes to direct emissions to the gauge and incentivize crucial pxETH liquidity on Balancer, allowing for higher volumes in the LP and also generating fees for veBAL holders.\n\n**Specifications:**\n\n1. **Governance:**\n\nDinero’s governance is currently off-chain using [Snapshot](https://gov.dinero.xyz/). The multisig address is: 0xA52Fd396891E7A74b641a2Cb1A6999Fcf56B077e. Decisions relating to inflation, liquidity, partnership or DAO treasury go through a DAO vote, and then are executed by the multisig. On-chain governance will come at a later stage.\n\n2. **Oracles:** Does the protocol rely on external oracles? If so, provide details about the oracles and their implementation in the protocol.\n\nNo oracles are currently used.\n\n3. **Audits:** Provide links to audit reports and any relevant details about security practices.\n\nLink to all audits can be found [here](https://github.com/dinero-protocol/audits/tree/master).\n\n4. **Centralization vectors:** Is there any component of the protocol that has centralization vectors? E.g. if only 1 dev manages the project, that is a centralized vector. If price oracles need to be updated by a bot, that is a centralized vector. If liquidations are done by the protocol, that is also a centralization vector.\n\n4/7 multisig (0xA52Fd396891E7A74b641a2Cb1A6999Fcf56B077e) controls the pushing of validators public keys to the contract.\n\n5. **Market History:** Has the asset observed severe volatility? In the case of stablecoins, has it depegged? In the case of an unpegged asset, have there been extreme price change events in the past? Provide specific information about the Balancer pool: how long has it been active, TVL, historical volume? **You must provide a direct link to the pool AND a link to your pool's gauge.**\n\nThe pxETH/gtWETHe has just been seeded. As explained above, pxETH has redemption mechanisms which allow the peg to be maintained/ arbitraged.\n\n6. **Value:** Is this pool intended to be the primary source of liquidity for the token(s)? If this is not the case, explain the expected value add to Balancer (can this pool generate consistent fees?)\n\nWith a gauge, Dinero plans to use its governance power and bribes to direct emissions to the gauge and incentivize crucial pxETH liquidity on Balancer, allowing for higher volumes in the LP and also generating fees for veBAL holders.\n\n### Technical Specifications:\n\nTransaction: The Balancer Maxi LM Multisig eth:`0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function with the following arguments:\n\ngauge(address): `0x3a51bdf9013633Ae934a3630db96f09aE4c5814a`\n\ngaugeType(string): `Ethereum`",
+        "end_utc": "2025-01-27T19:00:00Z",
+        "similarity_score": 0.2093,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2914815.498683159,
+            0,
+            0
+          ],
+          "scores_total": 2914815.498683159,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2025-01-27T19:00:00",
+          "pre_tvl_avg": 1061605232.0,
+          "post_tvl_avg": 976170870.0,
+          "abnormal_change": -8.0477,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.080477,
+          "abnormal_change_pct": -8.0477
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2025-01-27T19:00:00",
+          "pre_price_avg": 2.522562465,
+          "post_price_avg": 2.41036078,
+          "abnormal_change": -4.4479,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.044479,
+          "abnormal_change_pct": -4.4479
+        }
+      }
+    },
+    {
+      "proposal_id": "0x0578f35938f8a66a2534cf79bc1221680503bb0ef12932dac939aa63bb3406b2",
+      "cleaned": {
+        "proposal_id": "0x0578f35938f8a66a2534cf79bc1221680503bb0ef12932dac939aa63bb3406b2",
+        "title": "[BIP-444] Enable 80/20 Weighted Gauge for $OVN [Optimism, Arbitrum, and Base]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-10-02T20:00:00Z",
+        "similarity_score": 0.2047,
+        "winning_option": "No, this is not the way",
+        "winning_option_index": 1,
+        "margin_abs": 3673787.854210521,
+        "margin_pct": 0.978264168019446,
+        "scores_total": 3755414.9219717644,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 70,
+        "total_votes": 70,
+        "first_vote_at": "2023-09-28T21:21:22Z",
+        "last_vote_at": "2023-10-02T18:12:21Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            6140.550629919445,
+            997.3468633233321,
+            0.0
+          ],
+          [
+            844.0904966028365,
+            0.0,
+            0.0
+          ],
+          [
+            3.890852722253245,
+            0.0,
+            0.04763344009522331
+          ],
+          [
+            632.0780644933889,
+            3746796.9174312633,
+            0.0
+          ]
+        ],
+        "spike_index": 0.85987,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.14013,
+        "half_slope_diff": 15.277427
+      },
+      "raw": {
+        "id": "0x0578f35938f8a66a2534cf79bc1221680503bb0ef12932dac939aa63bb3406b2",
+        "title": "[BIP-444] Enable 80/20 Weighted Gauge for $OVN [Optimism, Arbitrum, and Base]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/519\n\n**Summary:**\n> We propose the introduction of an 80/20 weighted gauge for $OVN on Optimism, Arbitrum, and Base with the pairing as OVN/wUSD+. This initiative aims to foster greater liquidity and facilitate smoother transactions for users on these platforms. By enabling this gauge, we anticipate enhancing the yield-generating opportunities for both the Balancer community and Overnight Finance users.\n\n\n**References/Useful links:**\n\n> Website: https://overnight.fi\nTwitter: https://twitter.com/overnight_fi\nDocs: https://docs.overnight.fi\nDefillama: https://defillama.com/protocol/overnight-finance\n\n\n**Protocol Description:**\n> Overnight.fi is a protocol focusing on asset management, with a specialization in neutral-risk strategies. At the heart of its product line is USD+, which is a yield-driven stablecoin, fully backed by collateral. This collateral for USD+ is rooted in DeFi strategies that generate returns. These strategies encompass lending to platforms like Aave, and include both stablecoin-to-stablecoin and neutral-risk strategies.\n>\n> **USD+ by Overnight Finance**\n> \n> USD+ is a DeFi product that offers users the opportunity to invest in a diversified basket of stablecoins. The main goal of USD+ is to optimize yield generation by allocating funds across various yield-bearing protocols and platforms in the DeFi ecosystem. In essence, users deposit their stablecoins into the USD+ pool and receive interest-earning USD+ tokens in return.\n> \n> wUSD+ is a type of wrapped token within the Overnight Finance ecosystem. In simple terms, it represents a stablecoin (like USD+) that has been \"wrapped\" to create a new token that can be used within the Overnight Finance platform and potentially other decentralized finance (DeFi) platforms. This wrapping process allows for more fluid and flexible utilization of the stablecoin in various financial strategies and products, facilitating smoother transactions and broader integration within the DeFi space. It essentially helps in enhancing the functionality and interoperability of the original stablecoin, USD+.\n> \n> Currently, Overnight Finance operates on multiple chains including Base, Optimism, and Arbitrum, with a significant amount of total value locked (TVL) across various products:\n> \n> USD+: $21,772,869.93 TVL (Operates on Base, Optimism, Arbitrum, and others)\n> DAI+: $9,020,297.94 TVL (Operates on Base, Optimism, Arbitrum)\n> USDT+: $472,694.69 TVL (Operates on Binance, Linea)\n> \n> **OVN by Overnight Finance**\n> \n> OVN is the native token of the Overnight Finance protocol. It serves two main purposes: to promote the use of USD+, a yield-bearing stablecoin developed by Overnight, and to facilitate decentralized risk management within the protocol. OVN holders can participate in governance decisions, helping to align community incentives and guide the protocol's development. Additionally, OVN will be used in Insurance Vaults, where it can be staked to earn insurance premiums and potentially benefit from upward price pressure due to the protocol's revenue mechanisms. The token has a fixed supply of 1,000,000, with a detailed distribution and vesting plan to ensure the maximization of its value over time.\n\n\n**Motivation:**\n\n> The motivation behind introducing this pair on Balancer stems from a variety of strategic benefits that this integration would bring to both communities:\n> \n> 1. **Enhanced Liquidity**: The introduction of the OVN/wUSD+ pair on Balancer would significantly enhance the liquidity of these assets, facilitating smoother transactions and potentially reducing slippage.\n> 2. **Increased Yield Opportunities**: By leveraging Balancer's flexible and dynamic liquidity pools, users can explore new yield-generating opportunities, thereby maximizing their returns on investment.\n> 3. **Community Engagement and Growth**: This collaboration would foster greater community engagement, bringing together the vibrant communities of both Balancer and Overnight Finance, and potentially leading to innovative developments and partnerships in the future.\n> 4. **Strategic Alignment**: The integration aligns with Overnight Finance's strategy of expanding its ecosystem and enhancing the utility and value proposition of the OVN and wUSD+ tokens. It also aligns with Balancer's goal of fostering a diverse and robust DeFi ecosystem.\n> \n> Furthermore, to stimulate liquidity and encourage participation, the OVN/wUSD+ pair will be incentivized on the three chains - Optimism, Arbitrum, and Base. This incentive mechanism is designed to attract more users to the platform and foster a vibrant and active community around the OVN ecosystem.\n\n**Specifications:**\n > 1. **Governance:** Information on governance [Overview - Overnight Finance Docs (Beta)](https://docs.overnight.fi/tokenomics-and-governance/overview)\n> 2. **Oracles:** Does the protocol rely on external oracles? No\n> 3. **Audits:** [Audits](https://docs.overnight.fi/advanced/audits)\n> * [Hacken Audit (Feb 3, 2022) - App](https://github.com/ovnstable/ovnstable-app/blob/master/audits/hacken_2022-02-03.pdf)\n> * [Hacken Audit (Feb 3, 2022) - Core](https://github.com/ovnstable/ovnstable-core/blob/master/audits/hacken_2022-02-03.pdf)\n> * [Ackee Audit (Mar 3, 2023)](https://github.com/ovnstable/ovnstable-core/blob/master/audits/ackee_2023-03-03.pdf)\n>\n> 4. **Market History:**\n> Overnight Pulse on Beethoven [Beethoven X | Overnight Pulse ](https://op.beets.fi/pool/0xb1c9ac57594e9b1ec0f3787d9f6744ef4cb0a02400000000000000000000006e)\n> Overnight Pulse on Balancer Arbitrum [Balancer](https://app.balancer.fi/#/arbitrum/pool/0x519cce718fcd11ac09194cff4517f12d263be067000000000000000000000382)\n>\n> 5. **Value:** The pool is expected to generate trading volumes and fees for Balancer.The proposed OVN/wUSD+ pool aims to be a primary source of liquidity for both tokens, enhancing the stability and depth of the market on Balancer. We will also continuously incentivize the gauge to attract liquidity.\n\n**Contract Addresses:**\n> **wUSD+:**\nOptimism - `0xA348700745D249c3b49D2c2AcAC9A5AE8155F826`\nArbitrum - `0xB86fb1047A955C0186c77ff6263819b37B32440D`\nBase - `0xd95ca61CE9aAF2143E81Ef5462C0c2325172E028`\n>\n> **OVN**\nOptimism - `0x3b08fcd15280e7B5A6e404c4abb87F7C774D1B2e`\nArbitrum - `0xA3d1a8DEB97B111454B294E2324EfAD13a9d8396`\nBase - `0xA3d1a8DEB97B111454B294E2324EfAD13a9d8396`\n\n> **$OVN Bribing Plan**\n>\n> Total amount of bribes between all our pools:\n>\n>    per week: $20,000\n >   per month: $80,000 - $90,000\n>\n> We plan to distribute them depending on bribe effectiveness on various dexes.\n\n**Specifcations:**\n|Network|PoolId|Root Gauge|\n|---|---|---|\n|Optimism|[0x00B82BC5EDEA6E5E6C77635E31A1A25AAD99F881000200000000000000000105](https://op.beets.fi/pool/0x00B82BC5EDEA6E5E6C77635E31A1A25AAD99F881000200000000000000000105)| 0x882168aAADCD18069Eeb6d76fc7541BB394043A9 |\n|Arbitrum|[0x85ec6ae01624ae0d2a04d0ffaad3a25884c7d0f30002000000000000000004b6](https://app.balancer.fi/#/arbitrum/pool/0x85ec6ae01624ae0d2a04d0ffaad3a25884c7d0f30002000000000000000004b6)| 0x099E0C611394809099A91c93783De47c80057efb |\n|Base| [0xa036553ad30f077bd46c37b1e8ac28e010d7b39e000200000000000000000056](https://app.balancer.fi/#/base/pool/0xa036553ad30f077bd46c37b1e8ac28e010d7b39e000200000000000000000056)| 0xd31342887B2EbeEc5e91D1dF07D93250D55E9ca1 |\n\nThe gauges each have 5% caps and would qualfiy as core pools due to their yield bearing component.\n\nThe Balancer Maxi LM Multisig `eth:0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function for each of the pools, passing their corresponding Root gauge for the gauge(address) in the table above, and gaugeType(string) corresponding to their respective network in the table.",
+        "end_utc": "2023-10-02T20:00:00Z",
+        "similarity_score": 0.2047,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            40813.501513620104,
+            3714601.355724141,
+            0.06473400359515177
+          ],
+          "scores_total": 3755414.9219717644,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-10-02T20:00:00",
+          "pre_tvl_avg": 718611084.5,
+          "post_tvl_avg": 716841847.5,
+          "abnormal_change": -0.2462,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.002462,
+          "abnormal_change_pct": -0.2462
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-10-02T20:00:00",
+          "pre_price_avg": 3.3874482500000003,
+          "post_price_avg": 3.24930149,
+          "abnormal_change": -4.0782,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.040782,
+          "abnormal_change_pct": -4.0782
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x0c47b5f5bbfdba42baf90b8418c9ecdd9c6e20a1c6b3deb7e3ee403be85ffce8",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "The proposal to enable the slpUSD-waEthUSDC gauge aims to enhance liquidity, price stability, and yield for the Balancer ecosystem. Strong timeline metrics, positive forum sentiment, and precedent from similar past proposals support this change.",
+    "key_arguments_for": [
+      "Catalyzes deep and stable liquidity for slpUSD-waEthUSDC pool",
+      "Supports price stability through arbitrage and peg maintenance",
+      "Provides yield enhancement via swap fees benefiting holders",
+      "Aligns with Balancer treasury revenue-sharing standards",
+      "Similar past proposals enabling gauges were successful and well supported"
+    ],
+    "key_arguments_against": [
+      "Small vote count limits statistical confidence",
+      "Potential risks if protocol revenue projections do not materialize"
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.balancer.fi/t/bip-810-enable-slpusd-waethusdc-gauge/6462",
+        "quote": "Forum comments are positive about enabling the gauge citing capital efficiency, price stability, and protocol growth."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Balancer Snapshot proposal 0x0c47b5f5bbfdba42baf90b8418c9ecdd9c6e20a1c6b3deb7e3ee403be85ffce8",
+        "quote": "Timeline metrics recommend 'Yes, let's do it' option with a stable lead and strong VP support."
+      },
+      {
+        "source_tool": "adjacent_analytics",
+        "reference": "Similar proposals BIP-808 and BIP-807 enabled gauges and were successful without negative market impact.",
+        "quote": null
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-04-10T18:00:00Z",
+    "event_end_utc": "2025-04-14T18:00:00Z",
+    "event_time_utc": "2025-04-14T18:00:00Z",
+    "address_of_governance_token": "0xba100000625a3754423978a60c9317c58a424e3D",
+    "token_price_impact_pct": 7.1188,
+    "tvl_impact_pct": -1.639,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        3012345.162197671,
+        0.0,
+        0.0
+      ],
+      "scores_total": 3012345.162197671,
+      "margin_abs": 3012345.162197671,
+      "margin_pct": 1.0
+    },
+    "simulation_reason": "Recommendation based on timeline voting patterns, positive forum sentiment, and successful historical precedents rather than ex-post tally.",
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Timeline analytics show unanimous and stable support for enabling the gauge.\n- Forum sentiment is positive, aligning with the recommendation and indicating community support.\n- Similar past proposals to enable gauges have been successfully executed with positive market outcomes.\n- Market impact data shows a positive price impact and manageable TVL impact.\n- Despite the small vote count, the combined evidence supports the long-term benefit of this change.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x8a9385710030a167dffe8b29b427273130e11b8f090f2789328d3576d49607e9",
+        "title": "[BIP-807] Enable sUSDX/USDX/aUSDT gauge [Mainnet]",
+        "end_utc": "2025-04-07T18:00:00Z",
+        "summary": "[BIP-807] Enable sUSDX/USDX/aUSDT gauge [Mainnet] closed on 2025-04-07T18:00:00Z. Timeline analytics noted 3 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.16)",
+        "market_response": "token -23.89%; TVL -10.30%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0x20d68cb279298cb62f565c31f1f134bd3343dfd7721142f1b551822bd0edd816",
+        "title": "[BIP-806] Enable Gauges for fWETH/fwstETH, fWETH/waArbwstETH, fWETH/waBaswstETH",
+        "end_utc": "2025-03-31T19:00:00Z",
+        "summary": "[BIP-806] Enable Gauges for fWETH/fwstETH, fWETH/waArbwstETH, fWETH/waBaswstETH closed on 2025-03-31T19:00:00Z. Timeline analytics noted 3 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.15)",
+        "market_response": "token -3.66%; TVL -1.30%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 7.1188,
+    "ex_post_tvl_impact_pct": -1.639,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +7.12%; TVL -1.64%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 0,
+    "Positive": 1,
+    "Neutral": 1,
+    "total_comments": 2
+  }
+}

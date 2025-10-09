@@ -1,0 +1,157 @@
+{
+  "captured_at_utc": "2025-10-08T09:23:18.099532+00:00",
+  "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0xb0156cfc112bbe4275b0a1d6cacc3970affdad6057047b8cee79ba54d45446aa",
+  "focus": null,
+  "votes_count": 5500,
+  "timeline_metrics_current": {
+    "unique_voters": 5500,
+    "total_votes": 5500,
+    "first_vote_at": "2023-06-20T00:26:07Z",
+    "last_vote_at": "2023-06-20T09:49:58Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        7196882.205207722,
+        2738.1373694542594,
+        13367.691953624988
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.743214,
+    "spike_follow_support_ratio": 1.0,
+    "stairwise_ratio": 0.057156,
+    "half_slope_diff": -133.531556
+  },
+  "adjacent_analytics": [],
+  "similar_proposals_data": [],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0xb0156cfc112bbe4275b0a1d6cacc3970affdad6057047b8cee79ba54d45446aa",
+    "selected_choice_label": "For",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "The proposal seeks to activate support for the eth_sendRawTransactionConditional endpoint on Arbitrum One and Nova mainnets to improve account abstraction capabilities aligned with Ethereum ecosystem standards.",
+    "key_arguments_for": [
+      "Supports DAO’s constitutional value of alignment with Ethereum ecosystem standards.",
+      "Addresses critical technical issue for ERC-4337 bundlers by enabling conditional transaction validation to reduce transaction reverts.",
+      "Already developed, tested, and implemented on Arbitrum testnet with minimal cost to enable on mainnet.",
+      "Strong positive sentiment and endorsement from Arbitrum delegates, community members, and technical experts."
+    ],
+    "key_arguments_against": [
+      "Concerns about potential DOS attack risks from conditional transactions, though mitigated by updated sequencer pre-checks.",
+      "A few negative or cautious comments expressing need for thorough understanding and consideration."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Forum discussion https://forum.arbitrum.foundation/t/proposal-activate-support-for-account-abstraction-endpoint-on-one-and-nova/14790",
+        "quote": "Majority positive forum sentiment with 13 positive, 5 negative, and 3 neutral comments; early comments show both support and some caution."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": null,
+        "quote": "Timeline analysis shows unanimous early and stable lead for 'For' choice with lead ratio 1.0 and stability 1.0."
+      },
+      {
+        "source_tool": "registry_lookup",
+        "reference": "arbitrumfoundation.eth",
+        "quote": "Authoritative governance token address 0x912CE59144191C1204E64559FE8253a0e49E6548 (ARB)."
+      }
+    ],
+    "available_choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2023-06-20T00:21:00Z",
+    "event_end_utc": "2023-06-27T00:21:00Z",
+    "event_time_utc": "2023-06-27T00:21:00Z",
+    "address_of_governance_token": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+    "token_price_impact_pct": 4.0006,
+    "tvl_impact_pct": -0.7743,
+    "actual_vote_result": {
+      "winner_label": "For",
+      "winner_index": 0,
+      "scores": [
+        60523829.13279885,
+        105311.60145292307,
+        78643.78040694348
+      ],
+      "scores_total": 60707784.514658876,
+      "margin_abs": 60418517.531345926,
+      "margin_pct": 0.995235
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'For' selected with stance to keep 'Change'.",
+    "ai_final_reason": "• The voting timeline metrics show an early, strong, and stable lead for the 'For' option, indicating clear community and voting power support.\n• Forum sentiment analysis shows a dominant positive sentiment (13 positive vs 5 negative), with key community and technical figures endorsing the proposal, reflecting alignment with community views.\n• The proposal addresses a well-known technical challenge in ERC-4337 account abstraction, improving sequencer transaction validation and reducing bundler transaction failures, which supports the ecosystem's long-term technical health.\n• Potential risks such as DOS attacks are acknowledged but mitigated by protocol-level checks already implemented.\n• Market data shows a positive token price impact (+4.0%) though this is not used in the recommendation rationale.\n• Overall, the recommendation to support the proposal aligns with both the voting dynamics and forum sentiment, maximizing the DAO’s durable benefit and advancing ecosystem alignment and innovation.",
+    "similar_proposals": [],
+    "ex_post_price_impact_pct": 4.0006,
+    "ex_post_tvl_impact_pct": -0.7743,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +4.00%; TVL -0.77%"
+  },
+  "agentic_ai_choice": "For",
+  "actual_outcome": "For",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 5,
+    "Positive": 13,
+    "Neutral": 3,
+    "total_comments": 21
+  }
+}

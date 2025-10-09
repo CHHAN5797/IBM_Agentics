@@ -1,0 +1,1148 @@
+{
+  "captured_at_utc": "2025-10-09T03:32:05.161082+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x8a61e63b30d6a38518823264262a373d7f933fc278cac0b264029ab0905b127f",
+  "focus": null,
+  "votes_count": 11,
+  "timeline_metrics_current": {
+    "unique_voters": 11,
+    "total_votes": 11,
+    "first_vote_at": "2024-06-21T05:15:27Z",
+    "last_vote_at": "2024-06-24T08:07:07Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        0.3822703075752919,
+        0.0,
+        0.0
+      ],
+      [
+        276014.7248733121,
+        0.0,
+        0.0
+      ],
+      [
+        0.8918655728398037,
+        0.0,
+        0.0
+      ],
+      [
+        2458153.281749839,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.829595,
+    "spike_follow_support_ratio": 0.0,
+    "stairwise_ratio": 0.170405,
+    "half_slope_diff": 4490.631294
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x0d9c701622948ddaa19f1183da4491d45e3c93b47d7118660887f269a05b305c",
+      "title": "[BIP-625] Enable gauge for WETH/rETH on [Gnosis]",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2024-06-17T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 17,
+        "total_votes": 17,
+        "first_vote_at": "2024-06-14T00:35:08Z",
+        "last_vote_at": "2024-06-17T14:49:56Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            6.786320088613784,
+            0.0,
+            0.0
+          ],
+          [
+            281009.6994116045,
+            0.0,
+            0.0
+          ],
+          [
+            129183.80493904768,
+            0.0,
+            0.0
+          ],
+          [
+            2307805.612283341,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.84908,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.15092,
+        "half_slope_diff": 12.878166
+      },
+      "price_impact_pct": -6.4007,
+      "tvl_impact_pct": -5.2305,
+      "similarity": 0.2147,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2718005.9029540815,
+        "scores_total": 2718005.9029540815,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0xbd5413de453ab0869895f4d09b2b9e58b6d06dc08fb89b429de135f5c2b0a3af",
+      "title": "[BIP-624] Enable rsETH / WETH Gauge (Arbitrum)",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2024-06-17T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 15,
+        "total_votes": 15,
+        "first_vote_at": "2024-06-14T00:34:52Z",
+        "last_vote_at": "2024-06-17T14:54:00Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            6.796486622211351,
+            0.0,
+            0.0
+          ],
+          [
+            281388.832370018,
+            0.0,
+            0.0
+          ],
+          [
+            6209.654546849197,
+            0.0,
+            0.0
+          ],
+          [
+            2307629.7080509346,
+            0.0,
+            0.10129413391584421
+          ]
+        ],
+        "spike_index": 0.889179,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.110821,
+        "half_slope_diff": 15.772607
+      },
+      "price_impact_pct": -6.4007,
+      "tvl_impact_pct": -5.2305,
+      "similarity": 0.2328,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2595234.8901602905,
+        "scores_total": 2595235.092748558,
+        "margin_pct": 0.9999999219383754
+      }
+    },
+    {
+      "id": "0xe23479d7b207e5f025a40ace92c3b89c4a3292dd832f4b2d63535f39d72af515",
+      "title": "[BIP-623] Enable gauge for weETH / wstETH E-CLP (Arbitrum)",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2024-06-17T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 15,
+        "total_votes": 15,
+        "first_vote_at": "2024-06-14T00:34:33Z",
+        "last_vote_at": "2024-06-17T14:57:50Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            6.796809184248275,
+            0.0,
+            0.0
+          ],
+          [
+            281400.8614355946,
+            0.0,
+            0.0
+          ],
+          [
+            6209.853229468223,
+            0.0,
+            0.0
+          ],
+          [
+            2307632.8103543324,
+            0.0,
+            0.10129776337001205
+          ]
+        ],
+        "spike_index": 0.889175,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.110825,
+        "half_slope_diff": 15.773779
+      },
+      "price_impact_pct": -6.4007,
+      "tvl_impact_pct": -5.2305,
+      "similarity": 0.2156,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2595250.220530817,
+        "scores_total": 2595250.423126343,
+        "margin_pct": 0.9999999219360396
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x94206467f24ccef009b9970aa96a905b63779ca5510025f10c5c077b4e97bea5",
+      "cleaned": {
+        "proposal_id": "0x94206467f24ccef009b9970aa96a905b63779ca5510025f10c5c077b4e97bea5",
+        "title": "[BIP-615] Enable gauge for USDC/GYD & USDT/GYD [zkEVM]",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2024-06-03T18:00:00Z",
+        "similarity_score": 0.2186,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2630939.4689304307,
+        "margin_pct": 0.9999949510658288,
+        "scores_total": 2630952.752437685,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 16,
+        "total_votes": 16,
+        "first_vote_at": "2024-05-30T20:48:48Z",
+        "last_vote_at": "2024-06-03T09:09:45Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1.7897666953195437,
+            0.0,
+            0.0
+          ],
+          [
+            295780.4317774699,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.014893608675541056,
+            0.10563631667985314
+          ],
+          [
+            2335163.836321735,
+            6.574041860086846,
+            0.0
+          ]
+        ],
+        "spike_index": 0.887197,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.112803,
+        "half_slope_diff": 28.74139
+      },
+      "raw": {
+        "id": "0x94206467f24ccef009b9970aa96a905b63779ca5510025f10c5c077b4e97bea5",
+        "title": "[BIP-615] Enable gauge for USDC/GYD & USDT/GYD [zkEVM]",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1000\n\n### Summary\nThis is a proposal to enable two uncapped Balancer gauges for USDC/GYD and USDT/GYD E-CLPs on Polygon zkEVM. The pools are not yield-bearing.\n\n---\n\n### References/Useful links\n* [Documentation of E-CLPs](https://docs.gyro.finance/gyroscope-protocol/concentrated-liquidity-pools/e-clps#description-of-e-clps)\n* [Website](https://gyro.finance/)\n* [Github](https://github.com/gyrostable)\n* [Discord](https://discord.com/invite/2vnqnS7wE6)\n* [X](https://twitter.com/GyroStable)\n\n---\n\n### Protocol description\n* GYD is a USD denominated meta-stablecoin with several design innovations that put risk control on autopilot. GYD is issued by the [Gyroscope](https://gyro.finance/) protocol. \n* USDT is a USD denominated stablecoin issued by [Tether](https://tether.to/en/).\n* USDC is a USD denominated stablecoin issued by [Circle](https://www.circle.com/en/).\n\n---\n\n### Motivation\nGyroscope has expanded its GYD availability to zkEVM and created two core pools for a future liquidity network around GYD on zkEVM.\n\n---\n\n### Specifications\n#### Governance\nThe Gyroscope Protocol will be governed by a DAO and relevant stakeholder with the full launch on Ethereum. For now, the FTL Labs multi-sig can pause the pool, change the swap fee and set the protocol fee. As a custom pool by Gyroscope, the E-CLP will be controlled by Gyroscope governance upon its launch.\n\n #### Oracles\n n/a\n\n#### Audits\nAudit reports by Nethermind, Trail of Bits, and Runtime Verification can be accessed here (the E-CLP is called the “CEMM” in these reports). In addition, the E-CLP code has been live in production on Polygon since November 2022.\n\n#### Centralization vectors\nNo centralization vectors. The FTL Labs team’s multi-sig can - currently - pause the pool, change the swap fee and set the protocol fee.\n\n#### Market History\nThe Gyroscope Protocol is live on Ethereum since EOY23, with E-CLPs on several other chains. Details available [here ](https://dune.com/gyro_finance/gyroscope-e-clps).\n\n## Value\nAs per “Motivation”.\n\n---\n\n#### Contracts\n* USDC/ GYD\n  *  E-CLP: [0xd4ec150896f1784b5be2b3af460d2cb2b8c0f522](https://zkevm.polygonscan.com//address/0xd4ec150896f1784b5be2b3af460d2cb2b8c0f522)\n  * Childchain gauge on Polygon zkEVM: [0xB049896B3eDcea20dD92c94C706DC67EEa354e57](https://zkevm.polygonscan.com/address/0xB049896B3eDcea20dD92c94C706DC67EEa354e57)\n  * Polygon zkEVM root gauge on Ethereum: [0x8806BdF4D6aEB1E3b35bea43835abFAA601BC7b5](https://etherscan.io/address/0x8806BdF4D6aEB1E3b35bea43835abFAA601BC7b5)\n * USDT/ GYD\n   * E-CLP: [0xF596ac9c9b60F9C555B8290c2b039C275396afb4](https://zkevm.polygonscan.com/address/0xf596ac9c9b60f9c555b8290c2b039c275396afb4)\n   * Childchain gauge on Polygon zkEVM: [0x62AbD51DA1927ae9020264A31F31F07948f31213](https://zkevm.polygonscan.com/address/0x62AbD51DA1927ae9020264A31F31F07948f31213)\n   * Polygon zkEVM root gauge on Ethereum: [0xab973781729714Cf85849C00A015615997325985](https://etherscan.io/address/0xab973781729714Cf85849C00A015615997325985)\n\n---\n\n> Specification\n>\n> Transaction: The Balancer Maxi LM Multisig `eth:0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the `addGauge` function with the following arguments:\n>\n> gauge(address): `0x8806BdF4D6aEB1E3b35bea43835abFAA601BC7b5`\n> gaugeType(string): `PolygonZkEvm` \n> gauge(address): `0xab973781729714Cf85849C00A015615997325985`\n> gaugeType(string): `PolygonZkEvm`",
+        "end_utc": "2024-06-03T18:00:00Z",
+        "similarity_score": 0.2186,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2630946.0578658995,
+            6.588935468762388,
+            0.10563631667985314
+          ],
+          "scores_total": 2630952.752437685,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-06-03T18:00:00",
+          "pre_tvl_avg": 1143194906.5,
+          "post_tvl_avg": 1155093253.5,
+          "abnormal_change": 1.0408,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.010408,
+          "abnormal_change_pct": 1.0408
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-06-03T18:00:00",
+          "pre_price_avg": 4.0041641199999995,
+          "post_price_avg": 4.077829975,
+          "abnormal_change": 1.8397,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.018397,
+          "abnormal_change_pct": 1.8397
+        }
+      }
+    },
+    {
+      "proposal_id": "0xe88931271ba8dfddbdd9f4031f4349fe68252f9eb9f7fc38be9bbecddb16fb53",
+      "cleaned": {
+        "proposal_id": "0xe88931271ba8dfddbdd9f4031f4349fe68252f9eb9f7fc38be9bbecddb16fb53",
+        "title": "[BIP-540] Enable Gauge for [rsETH/ETHx on Ethereum Mainnet] and [WETH/rsETH on Polygon zkEVM]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2024-02-05T19:00:00Z",
+        "similarity_score": 0.2081,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 4216732.756639429,
+        "margin_pct": 1.0,
+        "scores_total": 4216732.756639429,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 36,
+        "total_votes": 36,
+        "first_vote_at": "2024-02-02T02:56:05Z",
+        "last_vote_at": "2024-02-05T16:24:42Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            666726.8310471477,
+            0.0,
+            0.0
+          ],
+          [
+            0.1631583109693712,
+            0.0,
+            0.0
+          ],
+          [
+            0.7674856783683013,
+            0.0,
+            0.0
+          ],
+          [
+            3550004.9949482926,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.840694,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.001535,
+        "half_slope_diff": 12.355029
+      },
+      "raw": {
+        "id": "0xe88931271ba8dfddbdd9f4031f4349fe68252f9eb9f7fc38be9bbecddb16fb53",
+        "title": "[BIP-540] Enable Gauge for [rsETH/ETHx on Ethereum Mainnet] and [WETH/rsETH on Polygon zkEVM]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payloads\nhttps://github.com/BalancerMaxis/multisig-ops/pull/782\n\n**Summary:**\nKelp proposes to add a veBAL gauge for the [rsETH/ETHx on Ethereum Mainnet] and [WETH/rsETH on Polygon zkEVM] on [Balancer]\n\n**Gauge Address:** \nMainnet: https://etherscan.io/address/0x0BcDb6d9b27Bd62d3De605393902C7d1a2c71Aab?\n\nPolygon zkEVM: https://etherscan.io/address/0x047301b311741ce6C007FFEF7f182Ec93ab07968#readContract\n\n**References/Useful links:**\n\n    • Website: https://kelpdao.xyz/restake/\n    • Documentation: https://kelp.gitbook.io/kelp\n    • Github Public Repo: https://github.com/Kelp-DAO/KelpDAO-contracts \n    • Twitter: https://twitter.com/KelpDAO\n\n**Protocol Description:**\n\nrsETH is the largest LST-based liquid restaked token on the EigenLayer ecosystem. It represents the liquidity of the underlying assets that have been deposited on Kelp. rsETH provides liquidity for the restaked positions, accumulates the rewards, and simplifies rewards management for AVSs\n\nKelp has more than 113,000 ETH worth of assets restaked by over 14,000 users. All of this is within 7 weeks of launching on Mainnet.\n\nBy providing liquidity for the restaked positions, rsETH allows for a seamless experience to engage with DeFi activities and maximize rewards.\n\n**Motivation:**\n\nKelp is seeking to establish the [rsETH/ETHx on Mainnet] and [WETH/rsETH on Polygon zkEVM] on Balancer to further enrich the liquidity of rsETH. This move aims to enhance the trading experience of users, making it more accessible for users while generating additional value for the Kelp community.\n\n**Specifications:**\n \n1. **Governance:** Kelp currently operates with a multi-sig wallet. The protocol is planning to transition to decentralized governance soon\n\n2. **Oracles:** Kelp is working with Redstone to create price feeds of rsETH.\n\n3. **Audits:** Kelp's smart contracts are audited by Sigma Prime and Code4rena. \nSigma Prime Report: https://kelpdao.xyz/audits/smartcontracts/SigmaPrime.pdf\nCode4rena: https://code4rena.com/reports/2023-11-kelp\n\n4. **Centralization vectors:** Centralization vectors currently are around upgradeability via proxy multi-sig and front-end hosting.\n\nOur goal is to migrate Kelp away from these vectors.\n\n5. **Market History:** Kelp has seen meteoric growth in TVL in the last few weeks with TVL over 113k ETH and >14,000 holders of rsETH.\n \nThe balancer pools are already live and are available here: \n\n[Mainnet Pool](https://app.balancer.fi/#/ethereum/pool/0x7761b6e0daa04e70637d81f1da7d186c205c2ade00000000000000000000065d) \n[Polygon zkEVM Pool](https://app.balancer.fi/#/zkevm/pool/0xffc865fcb34e754fad4b0144139b9c28c81c3eff00000000000000000000005f)\n\nGauges: \n[Mainnet Gauge](https://etherscan.io/address/0x0BcDb6d9b27Bd62d3De605393902C7d1a2c71Aab?)\n[Polygon zkEVM Gauge](https://etherscan.io/address/0x047301b311741ce6C007FFEF7f182Ec93ab07968#readContract  )\n\n6. **Value:** The balancer pool is the first liquidity pool on Polygon zkEVM and is aimed at providing liquidity to the growing community.\n\n**Technical Specifications:**\n\nTransaction: The Balancer Maxi LM Multisig eth:`0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the `addGauge` function with the following arguments:\ngauge(address):`0x0BcDb6d9b27Bd62d3De605393902C7d1a2c71Aab`\ngaugeType(string): `Ethereum`\n\ngauge(address):`0x047301b311741ce6C007FFEF7f182Ec93ab07968`\ngaugeType(string): `Polygon zkEVM`",
+        "end_utc": "2024-02-05T19:00:00Z",
+        "similarity_score": 0.2081,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            4216732.756639429,
+            0,
+            0
+          ],
+          "scores_total": 4216732.756639429,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-02-05T19:00:00",
+          "pre_tvl_avg": 914741017.5,
+          "post_tvl_avg": 936897913.0,
+          "abnormal_change": 2.4222,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.024222,
+          "abnormal_change_pct": 2.4222
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-02-05T19:00:00",
+          "pre_price_avg": 3.56533327,
+          "post_price_avg": 3.66382691,
+          "abnormal_change": 2.7625,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.027625,
+          "abnormal_change_pct": 2.7625
+        }
+      }
+    },
+    {
+      "proposal_id": "0xbd5413de453ab0869895f4d09b2b9e58b6d06dc08fb89b429de135f5c2b0a3af",
+      "cleaned": {
+        "proposal_id": "0xbd5413de453ab0869895f4d09b2b9e58b6d06dc08fb89b429de135f5c2b0a3af",
+        "title": "[BIP-624] Enable rsETH / WETH Gauge (Arbitrum)",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2024-06-17T18:00:00Z",
+        "similarity_score": 0.2065,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2595234.8901602905,
+        "margin_pct": 0.9999999219383754,
+        "scores_total": 2595235.092748558,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 15,
+        "total_votes": 15,
+        "first_vote_at": "2024-06-14T00:34:52Z",
+        "last_vote_at": "2024-06-17T14:54:00Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            6.796486622211351,
+            0.0,
+            0.0
+          ],
+          [
+            281388.832370018,
+            0.0,
+            0.0
+          ],
+          [
+            6209.654546849197,
+            0.0,
+            0.0
+          ],
+          [
+            2307629.7080509346,
+            0.0,
+            0.10129413391584421
+          ]
+        ],
+        "spike_index": 0.889179,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.110821,
+        "half_slope_diff": 15.772607
+      },
+      "raw": {
+        "id": "0xbd5413de453ab0869895f4d09b2b9e58b6d06dc08fb89b429de135f5c2b0a3af",
+        "title": "[BIP-624] Enable rsETH / WETH Gauge (Arbitrum)",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1032\n\n**Summary:**\n\nKelp proposes to add a veBAL gauge for the rsETH/WETH pool on Arbitrum\nhttps://app.balancer.fi/#/arbitrum/pool/0x90e6cb5249f5e1572afbf8a96d8a1ca6acffd73900000000000000000000055c\n\n**Child Gauge:** https://arbiscan.io/address/0x59907f88C360D576Aa38dba84F26578367F96b6C#code\n\n**Root Gauge:** https://etherscan.io/address/0x061130d4715FCD4828BfCAf6B1a9B93DF5e6e4c9\n\n**References/Useful links:**\n\n• Website: https://kelpdao.xyz/restake/\n\n• Documentation: [Introduction | Kelp](https://kelp.gitbook.io/kelp)\n\n• Github Public Repo: https://github.com/Kelp-DAO/KelpDAO-contracts\n\n• Twitter: https://twitter.com/KelpDAO\n\n**Protocol Description:**\n\nrsETH is one of the largest LST-based liquid restaked token on the EigenLayer ecosystem. It represents the liquidity of the underlying assets that have been deposited on Kelp. rsETH provides liquidity for the restaked positions, accumulates the rewards, and simplifies rewards management for AVSs\n\nKelp has more than 260,000 ETH worth of assets restaked by over 40,000 users across multiple L2s. All of this is within 4 months of launch\n\nBy providing liquidity for the restaked positions, wrsETH allows for a seamless experience to engage with DeFi activities and maximize rewards.\n\n**Motivation:**\n\nKelp is seeking to establish the [rsETH/ETH on Arbitrum] and on Balancer to further enrich the liquidity of rsETH. This move aims to enhance the trading experience of users, making it more accessible for users while generating additional value for the Kelp community.\n\n**Specifications:**\n\n1. **Governance:** Kelp currently operates with a multi-sig wallet. The protocol is planning to transition to decentralized governance soon\n2. **Oracles:** Kelp is working with Redstone to create price feeds of rsETH.\n3. **Audits:** Kelp’s smart contracts are audited by Sigma Prime and Code4rena.\n4. Sigma Prime Report: https://kelpdao.xyz/audits/smartcontracts/SigmaPrime.pdf\n5. Code4rena: [Code4rena | Keeping high severity bugs out of production](https://code4rena.com/reports/2023-11-kelp)\n6. MixBytes: [KELPDAO LRT-ETH SECURITY AUDIT REPORT](https://kelpdao.xyz/audits/smartcontracts/mixbytes.pdf)\n7. **Centralization vectors:** Centralization vectors currently are around upgradeability via proxy multi-sig and front-end hosting.\n\nKelp's goal is to migrate Kelp away from these vectors.\n\n- . **Market History:** Kelp has seen meteoric growth in TVL in the last few weeks with TVL over 260k ETH and >40,000 holders of rsETH across mainnet and L2s.\n\n\n\nArbitrum pool: [Balancer](TO BE ADDED)\nRate provider: https://arbiscan.io/address/0x3222d3de5a9a3ab884751828903044cc4adc627e#code\n\n- . **Value:** This will be the first wrsETH balancer pool on Arbitrum and is aimed at providing primary liquidity for wrsETH on ARB.\n\n**Technical Specifications:**\n\nTransaction: The Balancer Maxi LM Multisig `eth:0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the `addGauge` function with the following arguments:\n\ngauge(address): `0x061130d4715FCD4828BfCAf6B1a9B93DF5e6e4c9`\n\ngaugeType(string): `Arbitrum`",
+        "end_utc": "2024-06-17T18:00:00Z",
+        "similarity_score": 0.2065,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2595234.9914544243,
+            0,
+            0.10129413391584424
+          ],
+          "scores_total": 2595235.092748558,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-06-17T18:00:00",
+          "pre_tvl_avg": 1027163666.5,
+          "post_tvl_avg": 973438304.0,
+          "abnormal_change": -5.2305,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.052305,
+          "abnormal_change_pct": -5.2305
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-06-17T18:00:00",
+          "pre_price_avg": 3.438442195,
+          "post_price_avg": 3.1910246349999998,
+          "abnormal_change": -7.1956,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.071956,
+          "abnormal_change_pct": -7.1956
+        }
+      }
+    },
+    {
+      "proposal_id": "0xb88bbaa892e8937983e3ade13128246799c03e8a79a8827835bd0da2eecc36f5",
+      "cleaned": {
+        "proposal_id": "0xb88bbaa892e8937983e3ade13128246799c03e8a79a8827835bd0da2eecc36f5",
+        "title": "[BIP-328] Enable Initial zkEVM Gauges [zkEVM]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-06-19T18:00:00Z",
+        "similarity_score": 0.2057,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3603629.3258080874,
+        "margin_pct": 0.9997045993356602,
+        "scores_total": 3604694.1548561733,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 50,
+        "total_votes": 50,
+        "first_vote_at": "2023-06-15T18:09:46Z",
+        "last_vote_at": "2023-06-19T17:06:43Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.631579,
+            0.368421,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.86,
+          0.14,
+          0.0
+        ],
+        "stability": [
+          0.86,
+          0.14,
+          0.0
+        ],
+        "early_ratio": [
+          0.631578947368421,
+          0.3684210526315789,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.5999188500509233,
+            2.772688353651674,
+            0.05158758257243762
+          ],
+          [
+            137166.4225351688,
+            0.0,
+            0.05624196953076956
+          ],
+          [
+            151341.3673907834,
+            0.0,
+            0.0
+          ],
+          [
+            3315651.9808925944,
+            0.0,
+            530.9036008710914
+          ]
+        ],
+        "spike_index": 0.845705,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.020224,
+        "half_slope_diff": 5.687057
+      },
+      "raw": {
+        "id": "0xb88bbaa892e8937983e3ade13128246799c03e8a79a8827835bd0da2eecc36f5",
+        "title": "[BIP-328] Enable Initial zkEVM Gauges [zkEVM]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### [PR with Payloads](https://github.com/BalancerMaxis/multisig-ops/pull/266)\n\n**Summary:**\n> Balancer recently passed going forward with deployment on zkEVM [here](https://forum.balancer.fi/t/bip-224-balancer-on-polygon-zkevm/4539). Given their launch, it is in the Balancer's best interest to add core liquidity on zkEVM and to support this with the approval of several gauges. This proposal will activate gauges for the following pools if passed: wstETH/WETH , rETH/WETH, rETH/wstETH, bb-o-USD (Ovix boosted) , bb-o-USD/rETH and bb-o-USD / wstETH. This pools all contain yield bearing assets and in turn will be added to the core pool cycle. \n\n**References/Useful links:**\n\n> Link to:\n    • Website: [Polygon zkEVM](https://polygon.technology/polygon-zkevm) , [Ovix](https://www.0vix.com/)\n    • Documentation: [Polygon zkEVM](https://zkevm.polygon.technology/) , [Ovix](https://docs.0vix.com/)\n• Github Page: [Polygon zkEVM](https://github.com/0xpolygonhermez) , [Ovix Contracts](https://github.com/0Vix/0vix-contracts)\n    • Communities: [Polygon zkEVM](https://polygon.technology/community) , [Ovix](https://docs.0vix.com/references/social-media-links)\n    • Other useful links?\n\n**Protocol Description:**\n\n> The LST pools in this proposal are reiterations of pools Balancer has on several networks outside of the Ovix boosted addition. The 0VIX protocol enables users to effortlessly lend, borrow and earn interest with their digital assets. Depositors providing liquidity to the protocol may earn passive income, while borrowers are able to borrow using over-collateralization. The lending market is where boosted yield will be sourced from. \n\n**Motivation:**\n\n> These pools will act as the initial base of liquidity for Balancer's zkEVM expansion. \n\n**Specifications:**\n \n1. **Governance:** Ovix governance is outlined [here](https://docs.0vix.com/dao/governance-dao-charter). Pending their token launch. \n\n2. **Oracles:** The rate providers utilized in these pools are powered by layer zero  and have been reviewed by the Balancer Labs integrations team. \n\n3. **Audits:** Ovix audit reports can be seen [here](https://docs.0vix.com/references/audits). \n\n4. **Centralization vectors:** No centralization vectors outside of USDC and USDT inherent risks in the boosted Ovix USD pool. \n\n5. **Market History:** [rETH](https://www.coingecko.com/en/coins/rocket-pool-eth) , [wstETH](https://www.coingecko.com/en/coins/wrapped-steth), [WETH](https://www.coingecko.com/en/coins/weth), [USDC](https://www.coingecko.com/en/coins/usd-coin), [USDT](https://www.coingecko.com/en/coins/tether) \n \n6. **Value:** These pools will be the core liquidity on zkEVM during this initial launch stage. \n\n**Transaction Specifications:** \n\nThe Balancer Maxi LM Multisig `eth:0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the `GaugeAdderv4` at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the `addGauge` function with the following arguments:\n\nrETH/WETH:\ngauge(address): `0x54f220a891f468629027C3Cc8A58722D4F576402` \ngaugeType(string): `PolygonZkEvm`\n\nwstETH/WETH:\ngauge(address): `0xce99399fb4De36056A6831b159572E271360ea40` \ngaugeType(string): `PolygonZkEvm`\n\nwstETH/rETH:\ngauge(address): `0xF7d515DC47d5BD57786494628ed766d6bF31cd39` \ngaugeType(string): `PolygonZkEvm`\n\nrETH/bboUSD:\ngauge(address): `0x7949426d750FEFC25754F149B2FB446B60c39387` \ngaugeType(string): `PolygonZkEvm`\n\nwstETH/bboUSD:\ngauge(address): `0xc85679E41f1F98E694D9F8983fdD484F98F2eB02` \ngaugeType(string): `PolygonZkEvm`\n\nbboUSD\ngauge(address): `0x48799A2B0b9ec11E4fa158c781AD8bFAbB892D58` \ngaugeType(string): `PolygonZkEvm`",
+        "end_utc": "2023-06-19T18:00:00Z",
+        "similarity_score": 0.2057,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3604160.3426353526,
+            2.795393555579358,
+            531.0168272653553
+          ],
+          "scores_total": 3604694.1548561733,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-06-19T18:00:00",
+          "pre_tvl_avg": 947035268.5,
+          "post_tvl_avg": 1005458391.5,
+          "abnormal_change": 6.1691,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.061691,
+          "abnormal_change_pct": 6.1691
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-06-19T18:00:00",
+          "pre_price_avg": 4.4023449150000005,
+          "post_price_avg": 4.736171575,
+          "abnormal_change": 7.5829,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.075829,
+          "abnormal_change_pct": 7.5829
+        }
+      }
+    },
+    {
+      "proposal_id": "0x0d9c701622948ddaa19f1183da4491d45e3c93b47d7118660887f269a05b305c",
+      "cleaned": {
+        "proposal_id": "0x0d9c701622948ddaa19f1183da4491d45e3c93b47d7118660887f269a05b305c",
+        "title": "[BIP-625] Enable gauge for WETH/rETH on [Gnosis]",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2024-06-17T18:00:00Z",
+        "similarity_score": 0.2052,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2718005.9029540815,
+        "margin_pct": 1.0,
+        "scores_total": 2718005.9029540815,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 17,
+        "total_votes": 17,
+        "first_vote_at": "2024-06-14T00:35:08Z",
+        "last_vote_at": "2024-06-17T14:49:56Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            6.786320088613784,
+            0.0,
+            0.0
+          ],
+          [
+            281009.6994116045,
+            0.0,
+            0.0
+          ],
+          [
+            129183.80493904768,
+            0.0,
+            0.0
+          ],
+          [
+            2307805.612283341,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.84908,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.15092,
+        "half_slope_diff": 12.878166
+      },
+      "raw": {
+        "id": "0x0d9c701622948ddaa19f1183da4491d45e3c93b47d7118660887f269a05b305c",
+        "title": "[BIP-625] Enable gauge for WETH/rETH on [Gnosis]",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1036\n\n**Summary:**\n> * This is a proposal to enable one uncapped Balancer gauge for WETH/rETH on Gnosis chain.\n> * E-CLP’s asymmetric concentrated liquidity profile offers capital efficiency improvements. As per previous arrangements between Balancer and Gnosis this pool shall not bear any protocol fees for the time being.\n\n**References/Useful links:**\n\n> * [Documentation of E-CLPs](https://docs.gyro.finance/gyroscope-protocol/concentrated-liquidity-pools/e-clps)\n> * [Website](https://gyro.finance/)\n> * [Github](https://github.com/gyrostable)\n> * [Discord](https://discord.com/invite/2vnqnS7wE6)\n> * [X](https://twitter.com/GyroStable)\n\n**Protocol Description:**\n\n> * [When staking ETH with RocketPool] you will be given a token called rETH. rETH represents both how much ETH you deposited, and when you deposited it. The ratio includes rewards that Rocket Pool node operators earn from: The Beacon Chain itself, Priority fees from block proposals, and MEV rewards from block proposals. - [RocketPool](https://docs.rocketpool.net/guides/staking/overview.html#the-reth-token)\n> * WETH is a wrapper-token and an ERC-20 token representing ETH at a 1:1 ratio.\n>* The E-CLP uses an internal conversion to avoid a unit drift of yield-accruing tokens.\n\n**Motivation:**\n\n> Gyroscope is expanding to Gnosis Chain.\n\n**Specifications:**\n \n**Governance:**\n> The Gyroscope Protocol will be governed by a DAO and relevant stakeholder with the full launch on Ethereum. For now, the FTL Labs multi-sig can pause the pool, change the swap fee and set the protocol fee. As a custom pool by Gyroscope, the E-CLP will be controlled by Gyroscope governance upon its launch.\n\n**Oracles:**\n\n> * ‘rateProvider0’: WETH rate provider on Gnosis Chain: 0x00\n> * ‘rateProvider1’: rETH rate provider on Gnosis Chain: [0xdc90e2680094314CEaB45CE15100F6e02cEB7ceD](https://gnosisscan.io/address/0xdc90e2680094314CEaB45CE15100F6e02cEB7ceD)\n\n**Audits:**\n\n> Audit reports by Nethermind, Trail of Bits, and Runtime Verification can be accessed here (the E-CLP is called the “CEMM” in these reports). In addition, the E-CLP code has been live in production on Polygon since November 2022.\n\n**Centralization vectors:**\n\n> No centralization vectors. The FTL Labs team’s multi-sig can - currently - pause the pool, change the swap fee and set the protocol fee.\n\n**Market History:**\n\n> The Gyroscope Protocol is live on Ethereum since EOY23, with E-CLPs on several other chains. Details available [here ](https://dune.com/gyro_finance/gyroscope-e-clps).\n \n**Value:**\n\n> As per “Motivation”.\n\n\n**Contracts**\n\n> * E-CLP: [0x71E1179C5e197FA551BEEC85ca2EF8693c61b85b](https://gnosisscan.io/address/0x71E1179C5e197FA551BEEC85ca2EF8693c61b85b)\n> * Childchain gauge on Gnosis Chain: [0x25F822EB509177e393a32181182ae3981eeE6E53](https://gnosisscan.io/address/0x25F822EB509177e393a32181182ae3981eeE6E53)\n> * Gnosis Chain root gauge on Ethereum: [0xBf4116cEf22D4565A16696427Eaefc248F47Beb6](https://etherscan.io/address/0xBf4116cEf22D4565A16696427Eaefc248F47Beb6)\n\nTechnical Specification: \n\nTransaction: The Balancer Maxi LM Multisig `eth:0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the `addGauge` function with the following arguments:\n\ngauge(address): `0xBf4116cEf22D4565A16696427Eaefc248F47Beb6`\n\ngaugeType(string): `Gnosis`",
+        "end_utc": "2024-06-17T18:00:00Z",
+        "similarity_score": 0.2052,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2718005.9029540815,
+            0,
+            0
+          ],
+          "scores_total": 2718005.9029540815,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-06-17T18:00:00",
+          "pre_tvl_avg": 1027163666.5,
+          "post_tvl_avg": 973438304.0,
+          "abnormal_change": -5.2305,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.052305,
+          "abnormal_change_pct": -5.2305
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-06-17T18:00:00",
+          "pre_price_avg": 3.438442195,
+          "post_price_avg": 3.1910246349999998,
+          "abnormal_change": -7.1956,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.071956,
+          "abnormal_change_pct": -7.1956
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x8a61e63b30d6a38518823264262a373d7f933fc278cac0b264029ab0905b127f",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "The proposal aims to enable gauge creation for four Heroglyphs Genesis Token pools across Polygon, Base, and Arbitrum networks to drive liquidity and enhance token game dynamics.",
+    "key_arguments_for": [
+      "Enables gauge creation for four specific pools, potentially driving liquidity and attention to these tokens.",
+      "Heroglyphs tokens have growing ecosystem presence with memecoins and validator-driven mining mechanisms, supporting community engagement.",
+      "Timeline vote analysis shows unanimous support with all votes for 'Yes, let's do it' and strong early and stable voting power.",
+      "Similar past proposals enabling gauges for related tokens were successful with unanimous votes and no negative market or TVL feedback."
+    ],
+    "key_arguments_against": [
+      "One forum comment expressed negative sentiment highlighting concerns or reservations regarding the proposal.",
+      "Market impacts currently show slight price and TVL declines (-2.8% price, -2.5% TVL), which could indicate some caution in the ecosystem.",
+      "Limited forum discussion with only two comments may indicate lower community engagement or awareness."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.balancer.fi/t/bip-626-enable-gauges-for-4-heroglyphs-genesis-tokens/5805",
+        "quote": "Two forum comments: first negative expressing concerns, second neutral referencing snapshot proposal link."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Balancer ETH proposal 0x8a61e63b30d6a38518823264262a373d7f933fc278cac0b264029ab0905b127f",
+        "quote": "Unanimous voting for 'Yes, let's do it' with strong early and stable voting power."
+      },
+      {
+        "source_tool": "govnews_proposal_news_window",
+        "reference": "Adjacent proposals BIP-623, BIP-624, BIP-625",
+        "quote": "Similar gauge enabling proposals with unanimous 'Yes' votes and no negative market lessons."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2024-06-20T18:00:00Z",
+    "event_end_utc": "2024-06-24T18:00:00Z",
+    "event_time_utc": "2024-06-24T18:00:00Z",
+    "address_of_governance_token": "0xba100000625a3754423978a60c9317c58a424e3d",
+    "token_price_impact_pct": -2.8061,
+    "tvl_impact_pct": -2.5214,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        2726910.8749114317,
+        0.0,
+        7258.405847599277
+      ],
+      "scores_total": 2734169.2807590314,
+      "margin_abs": 2719652.4690638324,
+      "margin_pct": 0.994691
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Voting timeline shows unanimous and stable early support for enabling gauges.\n- Forum sentiment is mixed but limited, with one negative and one neutral comment; overall sentiment does not strongly oppose the proposal.\n- Similar past proposals enabling gauges for related tokens had unanimous support and no adverse market or TVL outcomes, supporting this change.\n- Market impacts show slight declines but are not indicative of failure; thus, the recommendation is to proceed for long-term ecosystem benefit.\n- The recommendation aligns broadly with the voting sentiment but acknowledges limited forum engagement.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0xbd5413de453ab0869895f4d09b2b9e58b6d06dc08fb89b429de135f5c2b0a3af",
+        "title": "[BIP-624] Enable rsETH / WETH Gauge (Arbitrum)",
+        "end_utc": "2024-06-17T18:00:00Z",
+        "summary": "[BIP-624] Enable rsETH / WETH Gauge (Arbitrum) closed on 2024-06-17T18:00:00Z. Timeline analytics noted 15 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Moderate text overlap (score 0.23)",
+        "market_response": "token -6.40%; TVL -5.23%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0xe23479d7b207e5f025a40ace92c3b89c4a3292dd832f4b2d63535f39d72af515",
+        "title": "[BIP-623] Enable gauge for weETH / wstETH E-CLP (Arbitrum)",
+        "end_utc": "2024-06-17T18:00:00Z",
+        "summary": "[BIP-623] Enable gauge for weETH / wstETH E-CLP (Arbitrum) closed on 2024-06-17T18:00:00Z. Timeline analytics noted 15 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Moderate text overlap (score 0.22)",
+        "market_response": "token -6.40%; TVL -5.23%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -2.8061,
+    "ex_post_tvl_impact_pct": -2.5214,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -2.81%; TVL -2.52%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 1,
+    "Positive": 0,
+    "Neutral": 1,
+    "total_comments": 2
+  }
+}

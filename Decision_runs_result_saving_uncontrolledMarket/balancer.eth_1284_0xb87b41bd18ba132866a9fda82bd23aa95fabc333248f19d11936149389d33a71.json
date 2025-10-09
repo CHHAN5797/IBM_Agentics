@@ -1,0 +1,864 @@
+{
+  "captured_at_utc": "2025-10-09T02:15:36.799771+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0xb87b41bd18ba132866a9fda82bd23aa95fabc333248f19d11936149389d33a71",
+  "focus": null,
+  "votes_count": 10,
+  "timeline_metrics_current": {
+    "unique_voters": 10,
+    "total_votes": 10,
+    "first_vote_at": "2024-07-11T20:53:17Z",
+    "last_vote_at": "2024-07-15T12:22:53Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        2.198655276758751,
+        0.0,
+        0.0
+      ],
+      [
+        253426.5044742139,
+        0.0,
+        0.0
+      ],
+      [
+        1363.8566712751463,
+        0.0,
+        0.0
+      ],
+      [
+        2324454.476740317,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.901214,
+    "spike_follow_support_ratio": 1.0,
+    "stairwise_ratio": 0.098786,
+    "half_slope_diff": 5.018964
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x2c69e0abd6e4fde8f67812f2636c80ced6e155c14dd64752fe521e26c8f300e0",
+      "title": "[BIP-654] Enable Gauges for baoETH-wstETH, baoETH-rETH, baoUSD-sUSDe, baoUSD-sDAI w 2% cap [Ethereum]",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2024-07-08T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 12,
+        "total_votes": 12,
+        "first_vote_at": "2024-07-05T07:37:22Z",
+        "last_vote_at": "2024-07-08T13:28:03Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.05334908440930202,
+            0.0,
+            0.0
+          ],
+          [
+            1393.8939670345167,
+            0.0,
+            0.0
+          ],
+          [
+            553314.8755395235,
+            0.0,
+            0.0
+          ],
+          [
+            0.6674588410604283,
+            0.0,
+            2334804.458450191
+          ]
+        ],
+        "spike_index": 1.0,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.0,
+        "half_slope_diff": 0.0
+      },
+      "price_impact_pct": 3.5522,
+      "tvl_impact_pct": -0.5573,
+      "similarity": 0.0698,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 379599.1559307191,
+        "scores_total": 2889513.9487646744,
+        "margin_pct": 0.13137128342744475
+      }
+    },
+    {
+      "id": "0x5869cec1214f344fed63864a14aa56c1663f4469a34e4f7b94eaa5e1bd4ecd8a",
+      "title": "[BIP-653] Build a paylod for Paladin’s bribe to liquidity mining",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2024-07-08T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 10,
+        "total_votes": 10,
+        "first_vote_at": "2024-07-05T07:37:02Z",
+        "last_vote_at": "2024-07-08T13:28:24Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.04823228954887454,
+            0.0,
+            0.0
+          ],
+          [
+            1393.899262374126,
+            0.0,
+            0.0
+          ],
+          [
+            432454.19606418523,
+            0.0,
+            0.0
+          ],
+          [
+            2334806.163404908,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.8433,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.1567,
+        "half_slope_diff": 41.534769
+      },
+      "price_impact_pct": 3.5522,
+      "tvl_impact_pct": -0.5573,
+      "similarity": 0.0563,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2768654.3069637567,
+        "scores_total": 2768654.3069637567,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0x603f5a1651388e0bbb64151c132b94589562a0636c236cdbcf4f6ba1396052bb",
+      "title": "[BIP-652] Update Addresses for Emergency subDAO Multisig",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2024-07-08T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 11,
+        "total_votes": 11,
+        "first_vote_at": "2024-07-05T07:36:49Z",
+        "last_vote_at": "2024-07-08T13:28:46Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.04823383189926975,
+            0.0,
+            0.0
+          ],
+          [
+            1393.9110297954803,
+            0.0,
+            0.0
+          ],
+          [
+            436782.6772811887,
+            0.0,
+            0.0
+          ],
+          [
+            2334805.1259184987,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.841983,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.158017,
+        "half_slope_diff": 33.466303
+      },
+      "price_impact_pct": 3.5522,
+      "tvl_impact_pct": -0.5573,
+      "similarity": 0.0861,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2772981.762463315,
+        "scores_total": 2772981.762463315,
+        "margin_pct": 1.0
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0xc16339f232e6bb23a4d27344b6fbcc196ab7ba3076f3c3d52b04d7c7eb6535d5",
+      "cleaned": {
+        "proposal_id": "0xc16339f232e6bb23a4d27344b6fbcc196ab7ba3076f3c3d52b04d7c7eb6535d5",
+        "title": "[BIP-198] Creation of Ecosystem Council and Amended Self-Insurance Fund",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-02-27T19:00:00Z",
+        "similarity_score": 0.6914,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3483787.6117790844,
+        "margin_pct": 0.8521755913786642,
+        "scores_total": 4088110.0644327933,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 274,
+        "total_votes": 274,
+        "first_vote_at": "2023-02-23T19:16:00Z",
+        "last_vote_at": "2023-02-27T16:43:45Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            675194.8689319505,
+            0.0,
+            0.12322795007908999
+          ],
+          [
+            23951.716443822515,
+            0.5403743483114265,
+            0.0
+          ],
+          [
+            264554.8362354644,
+            0.0,
+            0.3187162060198287
+          ],
+          [
+            2822099.1611683513,
+            295.9702783471542,
+            302012.52905635047
+          ]
+        ],
+        "spike_index": 0.735965,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 1.6e-05,
+        "half_slope_diff": -1.80744
+      },
+      "raw": {
+        "id": "0xc16339f232e6bb23a4d27344b6fbcc196ab7ba3076f3c3d52b04d7c7eb6535d5",
+        "title": "[BIP-198] Creation of Ecosystem Council and Amended Self-Insurance Fund",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "**Summary**\n\nBy nature of their work, major participants and service providers (MPs-SPs) to the ecosystem are exposed to potential regulatory and legal liabilities. This proposal helps manage that risk. The Ecosystem Council is a group of active MPs-SPs to the Balancer protocol. The Ecosystem Council will be delegated the administrative task to seek independent legal counsel to confirm use of any funds from the **self-insurance fund** are used as intended to cover unbudgeted litigation costs and government fines incurred as a direct result of commissioned work on behalf of the Balancer ecosystem.\n\n**Detail**\n\nWhen the Foundation was incorporated and approved [through a governance vote](https://forum.balancer.fi/t/bip-14-funding-proposal-for-the-balancer-foundation/3316) to serve Balancer, a self insurance fund of $500,000 USD was created (currently held by the [DAO Treasury](https://balancer.defilytica.com/ ) in BAL). \n\nThis proposal is to revise the use of that fund and its total amount by adding an additional $750,000 USD and its reach to protect the broader Balancer ecosystem, supporting MPs-SPs: **Balancer Labs** and the main service providers approved by governance: **Balancer Foundation, Balancer OpCo, Orb Collective, Balancer Maxis** and **Balancer Grants**.\n\nBefore any disbursement from the self-insurance fund to any applicant, the **Ecosystem Council** will consult with independent legal counsel who will verify a litigation cost and/or government fine directly related to Balancer work under an agreement with an expectation for coverage of such costs and it is not eligible under any other insurance coverage. The funds will be directly moved from the DAO Treasury multisig to recipients directly, or through Balancer OpCo, without additional governance vote.\n\n**Ecosystem Council**\n\nThe Ecosystem Council at this time has representative MPs-SPs from the Balancer Foundation, Balancer OpCo, Orb Collective, Balancer Maxis, Balancer Grants and Balancer Labs. The Ecosystem Council meets to coordinate as needed on ecosystem plans. This formation was referred to in [[BIP-1] Operating Framework for Balancer DAO](https://forum.balancer.fi/t/bip-1-operating-framework-for-balancer-dao/3237) as part of accountability mechanisms:\n\n*“There will be an internal monthly meeting with mandatory attendance by at least one representative of every actively funded SP. The goal of this meeting is to ensure all SP’s are strategically aligned across the ecosystem. Ideally each SP should keep their representative the same month to month”*\n\n**If this proposal passes**\n\nThe $500,000 already allocated to the Foundation would be augmented with an additional $750,000 and those protected by the fund would be expanded as mentioned above. The total $1,250,000 USD funds will be held in BAL earmarked in Balancer DAO Treasury until dispersed.",
+        "end_utc": "2023-02-27T19:00:00Z",
+        "similarity_score": 0.6914,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3785800.582779591,
+            296.51065269546564,
+            302012.9710005066
+          ],
+          "scores_total": 4088110.0644327933,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-02-27T19:00:00",
+          "pre_tvl_avg": 1236492726.5,
+          "post_tvl_avg": 1264910815.0,
+          "abnormal_change": 2.2983,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.022983,
+          "abnormal_change_pct": 2.2983
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-02-27T19:00:00",
+          "pre_price_avg": 7.03785868,
+          "post_price_avg": 7.0906663949999995,
+          "abnormal_change": 0.7503,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.007503,
+          "abnormal_change_pct": 0.7503
+        }
+      }
+    },
+    {
+      "proposal_id": "0x89539da97c74805ad2c9d3b25b2f95c22a2267f76db2fad0c580d100efebf8bd",
+      "cleaned": {
+        "proposal_id": "0x89539da97c74805ad2c9d3b25b2f95c22a2267f76db2fad0c580d100efebf8bd",
+        "title": "[BIP-629] Balancer DAO Service Provider & Grantee Standards",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2024-06-24T18:00:00Z",
+        "similarity_score": 0.1322,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2544263.927264269,
+        "margin_pct": 1.0,
+        "scores_total": 2544263.927264269,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 10,
+        "total_votes": 10,
+        "first_vote_at": "2024-06-21T05:16:15Z",
+        "last_vote_at": "2024-06-24T08:07:07Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.3822576875802739,
+            0.0,
+            0.0
+          ],
+          [
+            276010.5049193072,
+            0.0,
+            0.0
+          ],
+          [
+            0.8918223457033728,
+            0.0,
+            0.0
+          ],
+          [
+            2268252.1482649287,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.891516,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.108484,
+        "half_slope_diff": 10.868457
+      },
+      "raw": {
+        "id": "0x89539da97c74805ad2c9d3b25b2f95c22a2267f76db2fad0c580d100efebf8bd",
+        "title": "[BIP-629] Balancer DAO Service Provider & Grantee Standards",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "### Summary\n \nThis proposal updates [[BIP-372]](https://forum.balancer.fi/t/bip-372-adopt-sp-standards/5009) that adopted Standards for the DAO's service providers and adds the grantees to abide.\n\nI. Service Provider (SP) agrees to protect the resiliency of the DAO and promote its growth by adhering to basic ecosystem standards. SP agrees to use best efforts to adhere to the following:\n\n1. [Ecosystem Values ](https://quark-ceres-740.notion.site/Ecosystem-Values-a216455689414e4c94ad24e51e2632cb?pvs=25)\n3. [DAO Accountability Guidelines](https://quark-ceres-740.notion.site/Accountability-Guidelines-b442a4b852db46d4826a0b1c4eb0dd76?pvs=74) * This includes adhering to any contract terms covered by an agreement the Foundation/OpCo needs to sign for SP’s work\n4. [Dos and Donts of Business Development and Marketing](https://quark-ceres-740.notion.site/Dos-and-Donts-of-Ecosystem-BD-Marketing-c583dd97a421496cb9cd86cac27211d9?pvs=74)\n5. To prevent fraud, theft and token manipulation as much as possible\n6. To protect the confidentiality and privacy of data and information received in the course of Balancer work. For example, adhering to the Data Retention Policy for communications and NDA (need-to-know only sharing).\n\nII. Grantee agrees to protect the resiliency of the DAO and promote its growth by adhering to basic ecosystem standards. Grantee agrees to use best efforts to adhere to the following:\n\n1. [Ecosystem Values ](https://quark-ceres-740.notion.site/Ecosystem-Values-a216455689414e4c94ad24e51e2632cb?pvs=25) \n2. [DAO Code of Conduct](https://quark-ceres-740.notion.site/Code-of-Conduct-ee8eac523cc3425192b6782f32f984ff) * This includes adhering to any contract terms covered by an agreement the Foundation/OpCo needs to sign for grantees work\n3. To prevent fraud, theft and token manipulation as much as possible by reporting issues to Balancer OpCo as needed\n4. For marketing or promoting the Balancer protocol, to do so within community ethos to be fair, transparency and accurate\n5. To protect the confidentiality and privacy of data and information received in the course of ant Balancer ecosystem work.\n6. To operate in a manner that would not cause the grantee or a member of the Balancer ecosystem to be in violation of any laws or regulations and provide the necessary information to confirm this. This includes verification of key project members, legal entities, and anyone with access to the wallet receiving any grant funds.\n\n### Specification\n\nIf approved, these standards apply to all current and future SPs and grantees.",
+        "end_utc": "2024-06-24T18:00:00Z",
+        "similarity_score": 0.1322,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2544263.927264269,
+            0,
+            0
+          ],
+          "scores_total": 2544263.927264269,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-06-24T18:00:00",
+          "pre_tvl_avg": 948539282.5,
+          "post_tvl_avg": 924622854.0,
+          "abnormal_change": -2.5214,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.025214,
+          "abnormal_change_pct": -2.5214
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-06-24T18:00:00",
+          "pre_price_avg": 3.0693684350000003,
+          "post_price_avg": 3.00319412,
+          "abnormal_change": -2.156,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.02156,
+          "abnormal_change_pct": -2.156
+        }
+      }
+    },
+    {
+      "proposal_id": "0x3f1d11e009009dfdd310e66c696b2605018c19827cc3595263fbff32b103b1b5",
+      "cleaned": {
+        "proposal_id": "0x3f1d11e009009dfdd310e66c696b2605018c19827cc3595263fbff32b103b1b5",
+        "title": "[BIP-281] Year Two Funding Proposal for the Balancer Foundation",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-05-08T18:00:00Z",
+        "similarity_score": 0.1243,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2897348.949151326,
+        "margin_pct": 0.8622601062244211,
+        "scores_total": 3360179.751140233,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 155,
+        "total_votes": 155,
+        "first_vote_at": "2023-05-04T18:05:30Z",
+        "last_vote_at": "2023-05-08T17:09:06Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            6893.85828527779,
+            0.0,
+            0.0
+          ],
+          [
+            106.2919380972038,
+            0.0,
+            0.0
+          ],
+          [
+            5291.340613360903,
+            0.0,
+            231414.6582779302
+          ],
+          [
+            3116472.8593090433,
+            0.0,
+            0.7427165234150999
+          ]
+        ],
+        "spike_index": 0.954767,
+        "spike_follow_support_ratio": 0.999994,
+        "stairwise_ratio": 1.1e-05,
+        "half_slope_diff": 7.569887
+      },
+      "raw": {
+        "id": "0x3f1d11e009009dfdd310e66c696b2605018c19827cc3595263fbff32b103b1b5",
+        "title": "[BIP-281] Year Two Funding Proposal for the Balancer Foundation",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### [PR with Payload](https://github.com/BalancerMaxis/multisig-ops/pull/171)\n\n# Summary\n\nThis proposal is for the funding of the Balancer Foundation for year two. The year one Foundation budget started in FY22 Q2 to account for its earlier incorporation, as a result the renewal falls earlier than most other funding cycles.\n\nAs a recap, the Foundation provides the DAO with an additional mechanism for executing work in a decentralized environment, and supports resilience across the Balancer Ecosystem.\n\nThe Balancer Foundation is a traditional legal entity that is directed by the DAO. It helps create a sustainable environment where many groups of people can participate\n\nIt allows the DAO to operate at a larger scale and engage with service providers who require formal contracts.\n\nThe Foundation and its operating subsidiary act as facilitators of the Balancer Ecosystem. This governance structure, at the direction of the DAO, can leverage other teams to execute work that can further the adoption of the Balancer Protocol – for example, the front-end team or other technology providers.\n\nIn short, the Balancer Foundation acts as an agent for the DAO and part of the DAO’s governance within the structure of the traditional business world. The Balancer Foundation operates within a formal environment (The Foundation Companies Act) in the Cayman Islands and thus brings protection and certainty that comes with formal organizations.\n\nAs we are all aware, running a Foundation Company comes with certain real-world costs and financial reserve requirements. These are laid out below. For more detail, please refer to the initial funding proposal for the Foundation.\n\nThe budget identified for the Foundation is line-item specific and includes very few estimates. The Foundation has, however, assisted in achieving meaningful savings elsewhere in the ecosystem, as shared with the community [here](https://forum.balancer.fi/t/balancer-foundation-and-balancer-opco-cost-update-to-the-balancer-community-march-2023/4556).\n\nThe Foundation’s independent Cayman director reviewed these projections in comparison with a number of foundations similar in nature to the Balancer Foundation, and sees the Balancer Foundation achieving a material cost saving overall with its proposed figures.\n\n## Specification - Foundation expenses and reserves\n\nThis proposal is created to seek funding for the Balancer Foundation for four quarters, effective April 2023 running through March 2024. This proposal does not request any change to the self-insurance reserve, currently covered by the approval of [BIP-198](https://forum.balancer.fi/t/bip-198-creation-of-ecosystem-council-and-amended-self-insurance-fund/4409).\n\n### Foundation Expenses\n\nThe summary below reflects the proposed budget for these four quarters, if approved, we propose that FY23 Q2 be funded from funds already held by Balancer OpCo due to savings achieved there, rather than additional funding from the DAO. Thereafter, to be sent in quarterly payments from the DAO. If budget changes are requested they will go to a snapshot vote. If no changes are requested, this proposal will serve as the governing decision.\n\nThe Foundation’s fiscal year runs January to December, and one will see annual fees due around December/January that lead to higher funding needs in those quarters. This is the first funding cycle where four full quarters are budgeted. The other proposed changes from the previous budget are: timing of Cayman director fees aligning with the full calendar year per contract terms - this is a reset year and should only happen once; and a slight increase in allowance for legal counsel to deal with certain corporate administration matters and from a budgetary prudence perspective. The Foundation has no BAL requirements.\n\n1. Q2 FY23 - USDC 99,094 - we propose this quarter is funded from existing reserves due to savings at the operating subsidiary.\n2. Q3 FY23 - USDC 59,219 - for transfer 25 June 2023\n3. Q4 FY23 - USDC 69,634 - for transfer 25 September 2023\n4. Q1 FY24 - USDC 105,344 - for transfer 15 December 2023\n\nThe table below shows the applicable expense line items by quarter.\n\n \n![foundationYear2.png](ipfs://bafkreifktkexntxvp3wgialmlqjp2vllml7lp57v4pi62ir7jcueb3fjgm)\n    \n\n\n### ETH Address to Receive Funds:\n\n0x3B8910F378034FD6E103Df958863e5c684072693",
+        "end_utc": "2023-05-08T18:00:00Z",
+        "similarity_score": 0.1243,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3128764.3501457796,
+            0,
+            231415.4009944536
+          ],
+          "scores_total": 3360179.751140233,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-05-08T18:00:00",
+          "pre_tvl_avg": 1251654266.0,
+          "post_tvl_avg": 1152722354.5,
+          "abnormal_change": -7.9041,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.079041,
+          "abnormal_change_pct": -7.9041
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-05-08T18:00:00",
+          "pre_price_avg": 6.02602471,
+          "post_price_avg": 5.562806095,
+          "abnormal_change": -7.687,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.07687,
+          "abnormal_change_pct": -7.687
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0xb87b41bd18ba132866a9fda82bd23aa95fabc333248f19d11936149389d33a71",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "This proposal updates the Ecosystem Council's role and ratifies the use of the self-insurance fund to cover legal liabilities for key ecosystem service providers. It has unanimous and stable voting support, with mixed but generally positive forum sentiment. Historical similar proposals aiming to improve governance and service provider roles also passed with positive market responses.",
+    "key_arguments_for": [
+      "Unanimous and stable support in voting timeline for the proposal.",
+      "The Ecosystem Council helps manage legal and regulatory risks for key service providers.",
+      "Historical similar proposals received positive market responses and improved governance.",
+      "Forum commenters generally support the proposal's intent despite some concerns about fund composition."
+    ],
+    "key_arguments_against": [
+      "One forum comment expressed concern about holding the self-insurance fund solely in BAL tokens, which may be risky if an issue arises."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.balancer.fi/t/bip-658-ecosystem-council-review-and-self-insurance-cover/5856",
+        "quote": "Proposal updates BIP-198 to review Ecosystem-Council members covered by self-insurance fund; mixed sentiment with 1 positive, 1 negative, 1 neutral comment."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Snapshot voting timeline",
+        "quote": "Unanimous voting for 'Yes, let's do it' with stable lead ratio of 1.0 and early participation."
+      },
+      {
+        "source_tool": "govnews_search_governance_news",
+        "reference": "Adjacent proposals BIP-654 and BIP-653",
+        "quote": "Similar past proposals aimed at governance improvements and were supported unanimously; post-vote price impacts positive, mixed TVL impact."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2024-07-11T18:00:00Z",
+    "event_end_utc": "2024-07-15T18:00:00Z",
+    "event_time_utc": "2024-07-15T18:00:00Z",
+    "address_of_governance_token": "0xC128a9954e6c874eA3d62ce62B468bA073093F25",
+    "token_price_impact_pct": 4.0697,
+    "tvl_impact_pct": 6.535,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        2579247.0365410824,
+        0.0,
+        0.0
+      ],
+      "scores_total": 2579247.0365410824,
+      "margin_abs": 2579247.0365410824,
+      "margin_pct": 1.0
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- The voting timeline indicates unanimous and stable support for the proposal, showing strong community consensus.\n- Forum sentiment is mixed but leans positive, with the majority supporting the need for the Ecosystem Council and self-insurance fund use despite concerns about fund composition.\n- Similar historical proposals aimed at governance and ecosystem improvements passed with positive market responses, reinforcing the benefit of this change.\n- The recommendation aligns with the aggregated forum sentiment, reflecting community views while focusing on long-term ecosystem health.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x603f5a1651388e0bbb64151c132b94589562a0636c236cdbcf4f6ba1396052bb",
+        "title": "[BIP-652] Update Addresses for Emergency subDAO Multisig",
+        "end_utc": "2024-07-08T18:00:00Z",
+        "summary": "[BIP-652] Update Addresses for Emergency subDAO Multisig closed on 2024-07-08T18:00:00Z. Timeline analytics noted 11 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.09)",
+        "market_response": "token +3.55%; TVL -0.56%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0x2c69e0abd6e4fde8f67812f2636c80ced6e155c14dd64752fe521e26c8f300e0",
+        "title": "[BIP-654] Enable Gauges for baoETH-wstETH, baoETH-rETH, baoUSD-sUSDe, baoUSD-sDAI w 2% cap [Ethereum]",
+        "end_utc": "2024-07-08T18:00:00Z",
+        "summary": "[BIP-654] Enable Gauges for baoETH-wstETH, baoETH-rETH, baoUSD-sUSDe, baoUSD-sDAI w 2% cap [Ethereum] closed on 2024-07-08T18:00:00Z. Timeline analytics noted 12 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.07)",
+        "market_response": "token +3.55%; TVL -0.56%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 4.0697,
+    "ex_post_tvl_impact_pct": 6.535,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +4.07%; TVL +6.54%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 1,
+    "Positive": 1,
+    "Neutral": 1,
+    "total_comments": 3
+  }
+}

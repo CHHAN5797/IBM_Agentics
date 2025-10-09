@@ -1,0 +1,260 @@
+{
+  "captured_at_utc": "2025-10-08T09:31:44.319759+00:00",
+  "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x3ae4c725f7cb82d450b6fe8517178b2a0a51d1105beaad0adb421df1bc8f8cc4",
+  "focus": null,
+  "votes_count": 5500,
+  "timeline_metrics_current": {
+    "unique_voters": 5500,
+    "total_votes": 5500,
+    "first_vote_at": "2023-04-08T01:52:38Z",
+    "last_vote_at": "2023-04-08T07:30:53Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        5788194.836381108,
+        54522.54066100388,
+        16055.342245160824
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.190484,
+    "spike_follow_support_ratio": 0.995121,
+    "stairwise_ratio": 0.126041,
+    "half_slope_diff": 384.371364
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x3be7368a662d1cf12fa4da768d626edbc013be0dc7b994fef2e24d9a54e4033a",
+      "title": "AIP-1: Arbitrum Improvement Proposal Framework",
+      "author": "0x74369AdDA9E1c8482599B4614f2f31af0d9084e8",
+      "end_utc": "2023-04-03T22:13:24Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-03-29T18:11:47Z",
+        "last_vote_at": "2023-03-30T07:16:26Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            3785131.3317711167,
+            47785.332694127945,
+            13278.930702268393
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.01681,
+        "spike_follow_support_ratio": 0.947666,
+        "stairwise_ratio": 0.393449,
+        "half_slope_diff": -14.803705
+      },
+      "price_impact_pct": -6.4929,
+      "tvl_impact_pct": 0.1286,
+      "similarity": 0.0984,
+      "actual_vote_result": {
+        "winner_index": 1,
+        "winner_label": "Against",
+        "margin_abs": 83925197.09391631,
+        "scores_total": 130882213.47248442,
+        "margin_pct": 0.6412269082808569
+      }
+    }
+  ],
+  "similar_proposals_data": [],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x3ae4c725f7cb82d450b6fe8517178b2a0a51d1105beaad0adb421df1bc8f8cc4",
+    "selected_choice_label": "Against",
+    "selected_choice_index": 1,
+    "confidence": 0.9,
+    "summary": "The proposal to return 700M ARB tokens to the DAO treasury, conduct a buyback, and disclose terms with Wintermute is largely opposed by community and experts due to concerns over legal risks, operational delays, and redundancy given existing governance proposals (AIP-1.1 and AIP-1.2). The majority sentiment in forums is negative, viewing the proposal as a risky power play rather than a constructive solution. Historical similar governance proposals have already addressed the issues raised more pragmatically. The long-term ecosystem health and governance durability favor keeping the status quo.",
+    "key_arguments_for": [
+      "Restores autonomy of the DAO treasury.",
+      "Restores trust and integrity in governance.",
+      "Enhances transparency about Wintermute deal.",
+      "Supported by some retail holders misled by initial allocation."
+    ],
+    "key_arguments_against": [
+      "Introduces legal, financial, and operational risks.",
+      "Existing governance proposals already provide transparent control.",
+      "Buyback seen as impractical, costly, and risky.",
+      "Disclosure may breach confidentiality agreements.",
+      "Delays could harm Arbitrum's ecosystem competitiveness.",
+      "Skepticism about practical enforceability."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Arbitrum Foundation forum",
+        "quote": "Majority sentiment negative citing legal risk, operational delays, and existing governance measures."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Snapshot voting timeline",
+        "quote": "Initial lead for 'For' but recommendation favors 'For'; forum sentiment and experts favor 'Against' for long-term health."
+      },
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Forum sentiment summary",
+        "quote": "55 comments: 3 positive, 37 negative, 15 neutral; strong calls for legal counsel and dialogue."
+      }
+    ],
+    "available_choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2023-04-08T01:52:21Z",
+    "event_end_utc": "2023-04-15T01:52:21Z",
+    "event_time_utc": "2023-04-15T01:52:21Z",
+    "address_of_governance_token": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+    "token_price_impact_pct": 17.1214,
+    "tvl_impact_pct": 0.6372,
+    "actual_vote_result": {
+      "winner_label": "Against",
+      "winner_index": 1,
+      "scores": [
+        20526942.094755903,
+        118334390.35010344,
+        1993792.7157490484
+      ],
+      "scores_total": 140855125.16061005,
+      "margin_abs": 97807448.25534754,
+      "margin_pct": 0.694383
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Not change, Status quo",
+    "ai_final_conclusion": "Option 'Against' selected to maintain the status quo.",
+    "ai_final_reason": "- Despite valid governance concerns, the proposal poses practical and legal risks, with majority community and expert opposition.\n- Forum sentiment is predominantly negative, viewing it as a risky power play.\n- Existing governance frameworks already address the raised issues more pragmatically.\n- Historical similar proposals favor stable governance and treasury control without disruption.\n- Decision aligns with aggregated community and expert views emphasizing ecosystem stability.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x3be7368a662d1cf12fa4da768d626edbc013be0dc7b994fef2e24d9a54e4033a",
+        "title": "AIP-1: Arbitrum Improvement Proposal Framework",
+        "end_utc": "2023-04-03T22:13:24Z",
+        "summary": "AIP-1: Arbitrum Improvement Proposal Framework closed on 2023-04-03T22:13:24Z. Timeline analytics noted 5500 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.10)",
+        "market_response": "token -6.49%; TVL +0.13%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 17.1214,
+    "ex_post_tvl_impact_pct": 0.6372,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +17.12%; TVL +0.64%"
+  },
+  "agentic_ai_choice": "Against",
+  "actual_outcome": "Against",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 37,
+    "Positive": 3,
+    "Neutral": 15,
+    "total_comments": 55
+  }
+}

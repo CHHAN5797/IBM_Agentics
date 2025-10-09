@@ -1,0 +1,271 @@
+{
+  "captured_at_utc": "2025-10-06T22:03:37.256805+00:00",
+  "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0xc882bf5f0f0f801591bfd5f0273388ea154654220f472aa4a06fd1fe6b94bb53",
+  "focus": null,
+  "votes_count": 5500,
+  "timeline_metrics_current": {
+    "unique_voters": 5500,
+    "total_votes": 5500,
+    "first_vote_at": "2023-04-12T16:13:20Z",
+    "last_vote_at": "2023-04-13T13:33:16Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 1,
+    "lead_ratio_by_quartile": [
+      [
+        0.381636,
+        0.618364,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      0.38163636363636366,
+      0.6183636363636363,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      0.38163636363636366,
+      0.6183636363636363,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      0.38163636363636366,
+      0.6183636363636363,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        361.4619884817219,
+        299327.99491514853,
+        123.4778139371598,
+        41.884964726264876
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.805978,
+    "spike_follow_support_ratio": 0.907531,
+    "stairwise_ratio": 2.7e-05,
+    "half_slope_diff": 3.202264
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x743ae6001bb0fdfa9a8c4475a2489c20917a79084725f0101ac7c1e7f0cf27c6",
+      "title": "Safety Module upgrade to v1.5",
+      "author": "0xf71fc92e2949ccF6A5Fd369a0b402ba80Bc61E02",
+      "end_utc": "2023-03-20T22:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-03-15T22:01:56Z",
+        "last_vote_at": "2023-03-16T09:11:22Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            155964.3076155304,
+            0.5275434026455208,
+            26.638207453468254
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.688069,
+        "spike_follow_support_ratio": 0.994664,
+        "stairwise_ratio": 5.8e-05,
+        "half_slope_diff": -6.900631
+      },
+      "price_impact_pct": -3.0304,
+      "tvl_impact_pct": 3.4325,
+      "similarity": 0.0811,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "YES",
+        "margin_abs": 728893.0976899007,
+        "scores_total": 728994.6873723565,
+        "margin_pct": 0.999860644138818
+      }
+    }
+  ],
+  "similar_proposals_data": [],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0xc882bf5f0f0f801591bfd5f0273388ea154654220f472aa4a06fd1fe6b94bb53",
+    "selected_choice_label": "YES 100% max increase per 5 days",
+    "selected_choice_index": 1,
+    "confidence": 0.85,
+    "summary": "The proposal to allow a 100% max increase per 5 days for supply and borrow caps via Risk Stewards is recommended to enhance operational flexibility, reduce voter fatigue, and support growth opportunities. The community discussion shows mixed sentiment but recognizes the need for efficient cap management. Historical lessons from similar proposals support incremental pilot programs. The timeline vote dynamics indicate early support for increasing caps with stability.",
+    "key_arguments_for": [
+      "Reduces voter fatigue by delegating cap increases to trusted Risk Stewards.",
+      "Allows faster and larger cap increases to meet demand and growth opportunities.",
+      "Supported by expert risk providers (Chaos Labs and Gauntlet) with immutable smart contract constraints.",
+      "Pilot program approach allows iterative improvements and future scope expansion."
+    ],
+    "key_arguments_against": [
+      "Concerns about trust and control concentration in 2-of-2 multisig for Risk Stewards.",
+      "Uncertainty about the pilot program duration and outcomes measurement.",
+      "Some community members prefer more discussion or cautious incremental increases (50%).",
+      "Potential risks of rapid cap increases without sufficient governance oversight."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://governance.aave.com/t/bgd-risk-steward-phase-1-capsplusrisksteward/12602",
+        "quote": "Chaos Labs supports up to 100% increase due to high demand and growth needs. The community can weigh options."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Snapshot vote timeline analysis",
+        "quote": "Early vote lead and stability metrics favor options to increase caps, especially 50% and 100% increase choices."
+      },
+      {
+        "source_tool": "adjacent_analytics",
+        "reference": "Safety Module upgrade to v1.5",
+        "quote": "Similar past proposal passed with strong support and positive market impact, validating pilot incremental approach."
+      }
+    ],
+    "available_choices": [
+      "YES 50% max increase per 5 days",
+      "YES 100% max increase per 5 days",
+      "NO, more discussion needed",
+      "ABSTAIN"
+    ],
+    "event_start_utc": "2023-04-12T16:00:00Z",
+    "event_end_utc": "2023-04-17T16:00:00Z",
+    "event_time_utc": "2023-04-17T16:00:00Z",
+    "address_of_governance_token": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+    "token_price_impact_pct": -6.7124,
+    "tvl_impact_pct": -5.7243,
+    "actual_vote_result": {
+      "winner_label": "YES 100% max increase per 5 days",
+      "winner_index": 1,
+      "scores": [
+        1542.0922463424513,
+        544749.9518825397,
+        239.5836327335467,
+        100.4210663426516
+      ],
+      "scores_total": 546632.0488279568,
+      "margin_abs": 543207.8596361972,
+      "margin_pct": 0.993736
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'YES 100% max increase per 5 days' selected with stance to keep 'Change'.",
+    "ai_final_reason": "• The timeline vote and expert analysis recommend the 100% max increase for better operational flexibility.\n• Forum sentiment is mixed but acknowledges benefits in reducing voter fatigue and supporting growth.\n• Historical similar proposals favor incremental pilots with positive outcomes, supporting change.\n• Market and TVL impacts are negative post-vote but are excluded from decision rationale per instructions.\n• The recommendation aligns broadly with community and expert sentiment, endorsing a durable benefit approach.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x743ae6001bb0fdfa9a8c4475a2489c20917a79084725f0101ac7c1e7f0cf27c6",
+        "title": "Safety Module upgrade to v1.5",
+        "end_utc": "2023-03-20T22:00:00Z",
+        "summary": "Safety Module upgrade to v1.5 closed on 2023-03-20T22:00:00Z. Timeline analytics noted 5500 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.08)",
+        "market_response": "token -3.03%; TVL +3.43%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -6.7124,
+    "ex_post_tvl_impact_pct": -5.7243,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -6.71%; TVL -5.72%"
+  },
+  "agentic_ai_choice": "YES 100% max increase per 5 days",
+  "actual_outcome": "YES 100% max increase per 5 days",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 5,
+    "Positive": 1,
+    "Neutral": 5,
+    "total_comments": 11
+  }
+}

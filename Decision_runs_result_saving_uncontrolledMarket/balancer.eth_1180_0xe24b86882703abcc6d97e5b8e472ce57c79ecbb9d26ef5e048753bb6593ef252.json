@@ -1,0 +1,865 @@
+{
+  "captured_at_utc": "2025-10-08T21:22:42.530772+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0xe24b86882703abcc6d97e5b8e472ce57c79ecbb9d26ef5e048753bb6593ef252",
+  "focus": null,
+  "votes_count": 3,
+  "timeline_metrics_current": {
+    "unique_voters": 3,
+    "total_votes": 3,
+    "first_vote_at": "2025-01-24T21:47:43Z",
+    "last_vote_at": "2025-01-27T12:34:35Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        353202.6889183801,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        2561591.086489509,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.813961,
+    "spike_follow_support_ratio": 1.0,
+    "stairwise_ratio": 0.186039,
+    "half_slope_diff": 42.562416
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0xb4525d95c2696da4802905fee739ff1dfdd459962e63be01679d6ce1a65e9b84",
+      "title": "[BIP-763] Enable Boosted GHO 3pool on Balancer v3",
+      "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+      "end_utc": "2025-01-20T22:30:00Z",
+      "timeline_metrics": {
+        "unique_voters": 6,
+        "total_votes": 6,
+        "first_vote_at": "2025-01-16T22:49:54Z",
+        "last_vote_at": "2025-01-20T08:51:07Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            291786.71603126684,
+            0.0,
+            0.0
+          ],
+          [
+            586.2605072505238,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2545243.895583045,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.828624,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.171376,
+        "half_slope_diff": 509.621527
+      },
+      "price_impact_pct": -6.9663,
+      "tvl_impact_pct": 0.3051,
+      "similarity": 0.1172,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2837616.8721215622,
+        "scores_total": 2837616.8721215622,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0xdb038ae789a9d5e1f43a641c5c72bca1a29739f443564c67bff33a9f122c2d69",
+      "title": "[BIP-742] Monthly Spending Accountability Framework for Balancer DAO",
+      "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+      "end_utc": "2024-12-09T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5,
+        "total_votes": 5,
+        "first_vote_at": "2024-12-06T19:49:09Z",
+        "last_vote_at": "2024-12-09T09:02:48Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.13662742707047743,
+            0.0,
+            0.0
+          ],
+          [
+            500493.789436362,
+            0.0,
+            0.0
+          ],
+          [
+            2355012.7836443656,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.824727,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.175273,
+        "half_slope_diff": 13.674411
+      },
+      "price_impact_pct": -10.5664,
+      "tvl_impact_pct": -4.7648,
+      "similarity": 0.0588,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2855506.7097081547,
+        "scores_total": 2855506.7097081547,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0x95685a92236759db6c682af9b354d457a4e3266d9192f770da320af2aabd58be",
+      "title": "[BIP-741] Grant V3 Permissions to Maxis and Emergency DAO Multisigs",
+      "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+      "end_utc": "2024-12-09T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5,
+        "total_votes": 5,
+        "first_vote_at": "2024-12-06T19:49:27Z",
+        "last_vote_at": "2024-12-09T09:02:48Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.8,
+          0.2,
+          0.0
+        ],
+        "stability": [
+          0.8,
+          0.2,
+          0.0
+        ],
+        "early_ratio": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.136629548040182,
+            0.0
+          ],
+          [
+            500497.55780247296,
+            0.0,
+            0.0
+          ],
+          [
+            2355012.7836443656,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.824726,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.175274,
+        "half_slope_diff": 26.367404
+      },
+      "price_impact_pct": -10.5664,
+      "tvl_impact_pct": -4.7648,
+      "similarity": 0.0636,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2855510.204817291,
+        "scores_total": 2855510.4780763863,
+        "margin_pct": 0.9999999043046427
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x76050706905cc4860ab56dd118695a9dd78255c23284b4074966b56cbc1c19dd",
+      "cleaned": {
+        "proposal_id": "0x76050706905cc4860ab56dd118695a9dd78255c23284b4074966b56cbc1c19dd",
+        "title": "[BIP-537] Replace GGP Incentives On Avax",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2024-01-22T19:00:00Z",
+        "similarity_score": 0.1364,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 4371248.41083588,
+        "margin_pct": 0.9997213408993884,
+        "scores_total": 4372466.838512554,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 37,
+        "total_votes": 37,
+        "first_vote_at": "2024-01-18T21:42:39Z",
+        "last_vote_at": "2024-01-22T18:17:11Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            598526.1169932814,
+            0.0,
+            608.9201354352527
+          ],
+          [
+            2.3998174626424,
+            0.0,
+            0.0
+          ],
+          [
+            230401.6075418801,
+            0.0,
+            0.0
+          ],
+          [
+            3542927.2066186913,
+            0.5874058027068059,
+            0.0
+          ]
+        ],
+        "spike_index": 0.810127,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.05297,
+        "half_slope_diff": -105.356864
+      },
+      "raw": {
+        "id": "0x76050706905cc4860ab56dd118695a9dd78255c23284b4074966b56cbc1c19dd",
+        "title": "[BIP-537] Replace GGP Incentives On Avax",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/754\n\n**Summary & Motivation:**\n\nThe direct incentive infrastructure for Balancer pools is managed by the Balancer Maxis to facilitate rewards provided by partners as opposed by BAL from the gauge system. This is done via reward injectors which take a recipient list schedule that takes mainly the gauge address, amount of rewards per week, and number of weeks. Once an injection is executed; it adds the number of rewards per week to a gauge contract to be streamed to stakers.\n\nDuring the most recent adjustment to the injection schedule for the [ggAVAX/wAVAX pool](https://app.balancer.fi/#/avalanche/pool/0xc13546b97b9b1b15372368dc06529d7191081f5b00000000000000000000001d), the GoGoPool team requested to stream 4000 GGP over 4 weeks, at 1000 GGP per week. The transaction (can be seen [here](https://snowtrace.io/tx/0x6b1cf6ebcd19bca140c10a32d8e02d50957f6aae5b76ad1a080fdf621e8318dc?chainId=43114)) executed by the team was incorrectly configured and sent the full amount of 4000 GGP to the injector over a 1 week period which resulted in an undesired outcome for reward distribution.. To compensate the GGP team for this misconfiguration, we propose to supply the difference in incentives of 3000 GGP equivalent in BAL from the treasury at the time of execution.\n\nThis proposal requests Balancer DAO to provide 6545 BAL to be swapped to GGP and be distributed over the next 3 weeks as direct incentives to the ggAVAX/WAVAX gauge as the GoGoPool team intended. In order to facilitate this timeline; the Maxis pooled 1000 GGP to continue the injection cycle this upcoming week to not cause a break in emissions and poor user experience. The request is for a total of 6545 BAL to cover the the total 3000 GGP is to be sent to the LM Multisig for distribution.\n\n**Future Mitigation Measures:**\n\nThe Maxi team was aware of this issue moments after it occurred and attempted to mitigate it by requeuing the recipient list in an effort to correct the misconfiguration prior to the inject sending funds to the gauge. This was done just several minutes late for the firing time, and it was clear to all team members that refining our process around internal communication, transaction loading, and transaction review must all be further improved. Diligence by all parties involved can and will be improved in coming weeks. A combination of tooling, scheduling, automation, and accountability will be pursued to improve everyone on the team’s transaction handling going forward.\n\n**Specifications:**\n\nThe DAO Multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will call `transfer` on the BAL contract `0xba100000625a3754423978a60c9317c58a424e3d` with the recipient as the LM Multisig `0xc38c5f97B34E175FFd35407fc91a937300E33860` amount of 6545 BAL (`6545000000000000000000`).",
+        "end_utc": "2024-01-22T19:00:00Z",
+        "similarity_score": 0.1364,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            4371857.3309713155,
+            0.5874058027068058,
+            608.9201354352527
+          ],
+          "scores_total": 4372466.838512554,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-01-22T19:00:00",
+          "pre_tvl_avg": 964639394.0,
+          "post_tvl_avg": 871540722.5,
+          "abnormal_change": -9.6511,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.096511,
+          "abnormal_change_pct": -9.6511
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-01-22T19:00:00",
+          "pre_price_avg": 3.95373,
+          "post_price_avg": 3.57911131,
+          "abnormal_change": -9.4751,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.094751,
+          "abnormal_change_pct": -9.4751
+        }
+      }
+    },
+    {
+      "proposal_id": "0x3d8aff67780637416728bc6428ce2d5e2340d4dc474aa816941e98afd06ef271",
+      "cleaned": {
+        "proposal_id": "0x3d8aff67780637416728bc6428ce2d5e2340d4dc474aa816941e98afd06ef271",
+        "title": "[BIP-711] Expand Hidden Hand Refund Flexibility",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "end_utc": "2024-10-07T18:00:00Z",
+        "similarity_score": 0.1345,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 650370.4478034489,
+        "margin_pct": 0.20829145109557998,
+        "scores_total": 3122405.861510895,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 6,
+        "total_votes": 6,
+        "first_vote_at": "2024-10-04T02:12:59Z",
+        "last_vote_at": "2024-10-07T02:50:23Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            117328.875334774,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            596624.712493886,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            2408452.273682235
+          ]
+        ],
+        "spike_index": 1.0,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.0,
+        "half_slope_diff": 0.0
+      },
+      "raw": {
+        "id": "0x3d8aff67780637416728bc6428ce2d5e2340d4dc474aa816941e98afd06ef271",
+        "title": "[BIP-711] Expand Hidden Hand Refund Flexibility",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "body": "### Background:\n\nPer [BIP-19](https://forum.balancer.fi/t/bip-19-incentivize-core-pools-l2-usage/3329) Hidden Hand has been providing Balancer DAO an incentives recycling discount of 3%. Hidden Hand’s typical fee placed on voting incentives is 4%, however as Balancer’s core pool incentive structure enshrined Hidden Hand to a degree, their team agreed to returning 3% to the [liquidity mining multisig](https://app.safe.global/balances?safe=eth:0xc38c5f97B34E175FFd35407fc91a937300E33860) `0xc38c5f97B34E175FFd35407fc91a937300E33860`. Over time, since these incentives would have technically gone to veBAL holders, the Maxis have been re-injecting the 3% discount as vote incentives for the bootstrapping of liquidity pools when necessary. While not since inception, the Maxis have been tracking the inflow and outflow of these funds from Hidden Hand in this [repository](https://github.com/BalancerMaxis/multisig-ops/tree/2113b142f183bb2d5f7a00b1f8005a9129b67ef5/MaxiOps/brib_rebate_handling).\n\n### Summary:\n\nThe intention of this proposal is to give permission to the Balancer Maxis to have increased flexibility using the Hidden Hand rebate it receives to benefit the DAO in a plethora of ways. This would include using the tokens received for veBAL incentives, vlAura incentives, direct incentives, and potentially acquiring BAL in the case the DAO ever chooses to build any sort of token position in the governance ecosystem. The primary intention is to place varying voting incentives and direct emissions to be clear; increasing our flexibility in partner onboarding processes.\n\n### Motivation:\n\nDue to the complexity of the veBAL gauge system, as partners are on-boarded into the Balancer ecosystem, 1-3 weeks can go by before a new gauge receives any type of incentives depending on the voting epoch and the network they are deployed on. To decrease the lead time for pools to get from initial bootstrapping to self-sustaining growth the proposed incentives flexibility will have a positive impact. Partners can receive direct incentives sooner than delayed voting incentives. This will not decrease voting incentives in any way, but only bridge the gap between when they are initially placed and when they arrive for LPs to receive.\n\nNo technical specification is required. Simply a change of processes will be considered and reflected in the rebate handling repository linked above.",
+        "end_utc": "2024-10-07T18:00:00Z",
+        "similarity_score": 0.1345,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            1886388.154657172,
+            0,
+            1236017.7068537232
+          ],
+          "scores_total": 3122405.861510895,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-10-07T18:00:00",
+          "pre_tvl_avg": 714684462.0,
+          "post_tvl_avg": 696243696.5,
+          "abnormal_change": -2.5803,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.025803,
+          "abnormal_change_pct": -2.5803
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-10-07T18:00:00",
+          "pre_price_avg": 1.97304166,
+          "post_price_avg": 1.890652825,
+          "abnormal_change": -4.1757,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.041757,
+          "abnormal_change_pct": -4.1757
+        }
+      }
+    },
+    {
+      "proposal_id": "0x6b67a9abf2e2182c068a60962301bf67bd8c5fc30b6a26cd1302ffc733d2880f",
+      "cleaned": {
+        "proposal_id": "0x6b67a9abf2e2182c068a60962301bf67bd8c5fc30b6a26cd1302ffc733d2880f",
+        "title": "[BIP-689] Claim stkAAVe from Linear Pools",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2024-09-09T18:00:00Z",
+        "similarity_score": 0.125,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2876484.6821441734,
+        "margin_pct": 1.0,
+        "scores_total": 2876484.6821441734,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 6,
+        "total_votes": 6,
+        "first_vote_at": "2024-09-06T06:02:00Z",
+        "last_vote_at": "2024-09-09T10:36:52Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.13375925581027975,
+            0.0,
+            0.0
+          ],
+          [
+            252756.7456860009,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2623727.8026989168,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.826025,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.173975,
+        "half_slope_diff": 4.593104
+      },
+      "raw": {
+        "id": "0x6b67a9abf2e2182c068a60962301bf67bd8c5fc30b6a26cd1302ffc733d2880f",
+        "title": "[BIP-689] Claim stkAAVe from Linear Pools",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "PR With Payload:\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1307\n\n#### Summary\n\nBalancer DAO is capable of claiming stkAAVE tokens from Liquidity mining incentives of the previous AAVE linear pools. More details can be read here: https://governance.aave.com/t/arc-whitelist-balancer-s-liquidity-mining-claim/9724. \n\n#### Motivation\n\nstkAAVE cannot be claimed by or through the Balancer vault and can therefore executing this transaction will claim roughly 1520 stkAAVE from a previous liquidity mining campaign from AAVE. AAVE has given the Balancer DAO Multisig the permission to execute this retrieval on behalf of any accrued rewards to the vault. Regardless of what the DAO chooses to do with the retrieved tokens, this first step must be taken before anything further can be done with the tokens mined. \n\n#### Technical Specification\n\nThe DAO Mutlisig `eth:0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with the StkAaveRetrieval contract `0x0e2d46fe246eb926d939A10efA96fB7d4EB14bB3` calling `retrieve`.\n\nThis will result in all claimable stkAAVE being claimed to the DAO Multisig.",
+        "end_utc": "2024-09-09T18:00:00Z",
+        "similarity_score": 0.125,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2876484.6821441734,
+            0,
+            0
+          ],
+          "scores_total": 2876484.6821441734,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-09-09T18:00:00",
+          "pre_tvl_avg": 643255607.0,
+          "post_tvl_avg": 666726809.5,
+          "abnormal_change": 3.6488,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.036488,
+          "abnormal_change_pct": 3.6488
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-09-09T18:00:00",
+          "pre_price_avg": 1.66417657,
+          "post_price_avg": 1.882594095,
+          "abnormal_change": 13.1247,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.131247,
+          "abnormal_change_pct": 13.1247
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0xe24b86882703abcc6d97e5b8e472ce57c79ecbb9d26ef5e048753bb6593ef252",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.9,
+    "summary": "The proposal sets a standard for managing external lending market incentives by claiming rewards via the Balancer v3 vault and distributing them retroactively to LPs, aiming to improve yield distribution fairness.",
+    "key_arguments_for": [
+      "Strong timeline metrics with stable and consistent support for the 'Yes, let's do it' option.",
+      "The proposal improves LP reward distribution by managing external incentives transparently and fairly.",
+      "Historical similar proposals also passed with a 'Yes' vote, reflecting community support for related incentive management changes.",
+      "Forum discussion is neutral but informative, with no opposition expressed, indicating community acceptance."
+    ],
+    "key_arguments_against": [
+      "Market impacts showed negative price and TVL changes post-vote in similar proposals, suggesting some risk or uncertainty.",
+      "Low voter turnout (3 voters) in this proposal may limit representativeness of the vote."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.balancer.fi/t/bip-765-boosted-pool-lending-market-incentive-handling/6308/2",
+        "quote": "Proposal details the management and retroactive distribution of external lending market incentives via the Balancer v3 vault."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "proposal 0xe24b86882703abcc6d97e5b8e472ce57c79ecbb9d26ef5e048753bb6593ef252",
+        "quote": "Timeline metrics show stable lead and strong late quartile support for 'Yes, let's do it' with high stability and spike follow support ratio."
+      },
+      {
+        "source_tool": "govnews_search_governance_news",
+        "reference": null,
+        "quote": "No significant opposing sentiment or community backlash found in forum comments."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-01-23T19:00:00Z",
+    "event_end_utc": "2025-01-27T19:00:00Z",
+    "event_time_utc": "2025-01-27T19:00:00Z",
+    "address_of_governance_token": "0xba100000625a3754423978a60c9317c58a424e3D",
+    "token_price_impact_pct": -6.1908,
+    "tvl_impact_pct": -8.0477,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        2914793.775407889,
+        0.0,
+        0.0
+      ],
+      "scores_total": 2914793.775407889,
+      "margin_abs": 2914793.775407889,
+      "margin_pct": 1.0
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Timeline analysis shows strong and stable support for the 'Yes, let's do it' option.\n- Forum comments are neutral and informative, indicating community acceptance without opposition.\n- Historical similar proposals passed with 'Yes' votes despite some negative market reactions, showing community willingness to adopt such changes.\n- Market impacts (price and TVL) are negative post-vote but should not influence the recommendation; focus is on governance and long-term benefit.\n- The recommendation aligns with forum sentiment and timeline analytics, reflecting community views appropriately.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0xb4525d95c2696da4802905fee739ff1dfdd459962e63be01679d6ce1a65e9b84",
+        "title": "[BIP-763] Enable Boosted GHO 3pool on Balancer v3",
+        "end_utc": "2025-01-20T22:30:00Z",
+        "summary": "[BIP-763] Enable Boosted GHO 3pool on Balancer v3 closed on 2025-01-20T22:30:00Z. Timeline analytics noted 6 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.12)",
+        "market_response": "token -6.97%; TVL +0.31%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0x95685a92236759db6c682af9b354d457a4e3266d9192f770da320af2aabd58be",
+        "title": "[BIP-741] Grant V3 Permissions to Maxis and Emergency DAO Multisigs",
+        "end_utc": "2024-12-09T19:00:00Z",
+        "summary": "[BIP-741] Grant V3 Permissions to Maxis and Emergency DAO Multisigs closed on 2024-12-09T19:00:00Z. Timeline analytics noted 5 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.06)",
+        "market_response": "token -10.57%; TVL -4.76%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -6.1908,
+    "ex_post_tvl_impact_pct": -8.0477,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -6.19%; TVL -8.05%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 0,
+    "Positive": 0,
+    "Neutral": 3,
+    "total_comments": 3
+  }
+}

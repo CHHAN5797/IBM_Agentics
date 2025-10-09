@@ -1,0 +1,258 @@
+{
+  "captured_at_utc": "2025-10-08T08:39:27.698833+00:00",
+  "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x678e4a657f451b1acd6247618e6beb6d258e5ab9eb9122ed276e2486a9d907ee",
+  "focus": null,
+  "votes_count": 5500,
+  "timeline_metrics_current": {
+    "unique_voters": 5500,
+    "total_votes": 5500,
+    "first_vote_at": "2023-10-06T02:02:41Z",
+    "last_vote_at": "2023-10-07T13:24:19Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        43886355.41906103,
+        1997583.3686481535,
+        23754.587265098267
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.293081,
+    "spike_follow_support_ratio": 1.0,
+    "stairwise_ratio": 0.001271,
+    "half_slope_diff": 1576.289888
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x66b953a7cf4de9f6de54e6eb87ae291b5cc62f12c7fed68eba91043607883221",
+      "title": "Proposal: Building the Future of NFTs: The Rarible Protocol - Arbitrum Integration Proposal [REVISED]",
+      "author": "0x1B686eE8E31c5959D9F5BBd8122a58682788eeaD",
+      "end_utc": "2023-09-01T19:16:02Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-08-25T19:16:41Z",
+        "last_vote_at": "2023-08-26T07:14:21Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            7345732.6864043195,
+            116990.02409824789,
+            226269.1116841672
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.892797,
+        "spike_follow_support_ratio": 0.529713,
+        "stairwise_ratio": 0.010323,
+        "half_slope_diff": -55.484426
+      },
+      "price_impact_pct": -5.292,
+      "tvl_impact_pct": -5.0423,
+      "similarity": 0.0239,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "For",
+        "margin_abs": 94945293.04926684,
+        "scores_total": 120779306.30293971,
+        "margin_pct": 0.786105633121656
+      }
+    }
+  ],
+  "similar_proposals_data": [],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x678e4a657f451b1acd6247618e6beb6d258e5ab9eb9122ed276e2486a9d907ee",
+    "selected_choice_label": "For",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "The proposal requests a strategic grant for Radiant Capital to expand liquidity and ecosystem growth on Arbitrum, with a milestone-based approach ensuring efficiency and accountability.",
+    "key_arguments_for": [
+      "Radiant has demonstrated significant TVL growth (19%) and user base increase (52%) following prior ARB airdrop campaigns.",
+      "The proposal is milestone-driven with transparency reports and safeguards against over-allocation.",
+      "Radiant is the second largest protocol by TVL on Arbitrum and a key liquidity provider, supporting ecosystem health.",
+      "Community sentiment in the forum is largely positive, highlighting Radiant's professionalism and impact."
+    ],
+    "key_arguments_against": [
+      "Concerns about the high allocation (up to 70%) to RDNT-linked dLP incentives possibly deterring external users.",
+      "Some view the tokenomics as a potential barrier for new users who must buy and lock RDNT tokens.",
+      "Questions raised about mercenary liquidity and whether incentives overly favor insiders.",
+      "Calls for more ARB allocation toward broader ecosystem initiatives rather than primarily boosting RDNT."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Arbitrum Foundation forum thread: Radiant Final STIP Round 1",
+        "quote": "Forum sentiment is predominately positive with 18 positive, 13 negative, and 17 neutral comments. Early comments praise the detailed proposal, milestone structure, and Radiant's impact on Arbitrum's ecosystem."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Voting timeline metrics",
+        "quote": "Voting shows unanimous early lead and stability for 'For' option with 100% lead ratio and strong vote power concentration early in the voting period."
+      },
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Similar past proposal: Building the Future of NFTs: The Rarible Protocol - Arbitrum Integration Proposal",
+        "quote": "Prior similar proposal had strong early support but post-vote market impact showed declines, indicating importance of milestone-based grant allocation and cautious approach."
+      }
+    ],
+    "available_choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2023-10-06T02:00:00Z",
+    "event_end_utc": "2023-10-13T02:00:00Z",
+    "event_time_utc": "2023-10-13T02:00:00Z",
+    "address_of_governance_token": "0x82aF49447D8a07e3bd95BD0d56f35241523fBab1",
+    "token_price_impact_pct": -0.6138,
+    "tvl_impact_pct": -0.4497,
+    "actual_vote_result": {
+      "winner_label": "For",
+      "winner_index": 0,
+      "scores": [
+        181686359.47010753,
+        3325327.085209128,
+        499350.6351576604
+      ],
+      "scores_total": 185511037.19047508,
+      "margin_abs": 178361032.3848984,
+      "margin_pct": 0.961458
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'For' selected with stance to keep 'Change'.",
+    "ai_final_reason": "• The voting timeline metrics show a strong, stable early consensus for the 'For' option, indicating decisive community support.\n• Forum sentiment is mostly positive with detailed endorsements highlighting Radiant's success and milestone-based approach, though some concerns about tokenomics and incentives exist.\n• Market impact and TVL changes from similar past proposals caution against over-allocating funds, but Radiant's milestone guards and transparency mitigate this risk.\n• The recommendation aligns with aggregated community sentiment, supporting a change that advances Arbitrum's ecosystem growth and liquidity health.\n• The milestone-based grant with performance conditions and transparency reports maximizes accountability and reduces risk.\n• Overall, supporting this proposal balances growth, risk management, and community interest for durable benefit.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x66b953a7cf4de9f6de54e6eb87ae291b5cc62f12c7fed68eba91043607883221",
+        "title": "Proposal: Building the Future of NFTs: The Rarible Protocol - Arbitrum Integration Proposal [REVISED]",
+        "end_utc": "2023-09-01T19:16:02Z",
+        "summary": "Proposal: Building the Future of NFTs: The Rarible Protocol - Arbitrum Integration Proposal [REVISED] closed on 2023-09-01T19:16:02Z. Timeline analytics noted 5500 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.02)",
+        "market_response": "token -5.29%; TVL -5.04%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -0.6138,
+    "ex_post_tvl_impact_pct": -0.4497,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -0.61%; TVL -0.45%"
+  },
+  "agentic_ai_choice": "For",
+  "actual_outcome": "For",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 13,
+    "Positive": 18,
+    "Neutral": 17,
+    "total_comments": 48
+  }
+}

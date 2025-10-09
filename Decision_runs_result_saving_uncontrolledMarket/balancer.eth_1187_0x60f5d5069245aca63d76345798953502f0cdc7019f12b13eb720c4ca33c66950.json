@@ -1,0 +1,865 @@
+{
+  "captured_at_utc": "2025-10-08T21:40:12.736916+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x60f5d5069245aca63d76345798953502f0cdc7019f12b13eb720c4ca33c66950",
+  "focus": null,
+  "votes_count": 5,
+  "timeline_metrics_current": {
+    "unique_voters": 5,
+    "total_votes": 5,
+    "first_vote_at": "2025-01-16T22:36:49Z",
+    "last_vote_at": "2025-01-20T08:51:07Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        292399.41171967966,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        587.2068841703489
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        2545766.716131868,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.828463,
+    "spike_follow_support_ratio": 0.0,
+    "stairwise_ratio": 0.171537,
+    "half_slope_diff": 982.142242
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0xe8da337f651641f3bb7b13acf5f62334095f435a46e8421b55fe2ba15674fb6f",
+      "title": "[BIP-752] Enable E-CLP gauge for weETH/wstETH [Base]",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-01-13T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 4,
+        "total_votes": 4,
+        "first_vote_at": "2025-01-11T21:37:47Z",
+        "last_vote_at": "2025-01-13T09:14:07Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            298950.5428221082,
+            0.0,
+            0.0
+          ],
+          [
+            2529642.006619039,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.823328,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.176672,
+        "half_slope_diff": 39.609574
+      },
+      "price_impact_pct": -0.0487,
+      "tvl_impact_pct": 3.9837,
+      "similarity": 0.0951,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2828592.549441147,
+        "scores_total": 2828592.549441147,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0x9ce98920a42aea2ec2bbecaa84e1eaf2ce18e480896ba36ec505e0af2491dbc6",
+      "title": "[BIP-751] Fund the DAO Gas Station Operations for 2025",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-01-13T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 4,
+        "total_votes": 4,
+        "first_vote_at": "2025-01-11T21:38:16Z",
+        "last_vote_at": "2025-01-13T09:13:52Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            298955.32544563676,
+            0.0,
+            0.0
+          ],
+          [
+            2529646.1192927663,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.823326,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.176674,
+        "half_slope_diff": 39.727947
+      },
+      "price_impact_pct": -0.0487,
+      "tvl_impact_pct": 3.9837,
+      "similarity": 0.1071,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2828601.444738403,
+        "scores_total": 2828601.444738403,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0x86f4d00790410ea0d6d1c777258b95cd4a8b12550fc583a155af282605ec39ee",
+      "title": "[BIP-750] 2025 Gauge Management Proposal",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-01-13T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 4,
+        "total_votes": 4,
+        "first_vote_at": "2025-01-11T21:38:44Z",
+        "last_vote_at": "2025-01-13T09:13:25Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            298956.77472549386,
+            0.0,
+            0.0
+          ],
+          [
+            2529647.365557532,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.823325,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.176675,
+        "half_slope_diff": 39.941574
+      },
+      "price_impact_pct": -0.0487,
+      "tvl_impact_pct": 3.9837,
+      "similarity": 0.0724,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2828604.140283026,
+        "scores_total": 2828604.140283026,
+        "margin_pct": 1.0
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x84717624ecb0c5f965252f4d5aef06722bcd607c6867443ccf8b85771f623c41",
+      "cleaned": {
+        "proposal_id": "0x84717624ecb0c5f965252f4d5aef06722bcd607c6867443ccf8b85771f623c41",
+        "title": "[BIP-748] Permissions Policy Update Request #5 (ETH Mainnet)",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2024-12-23T19:00:00Z",
+        "similarity_score": 0.1558,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2241702.3156518564,
+        "margin_pct": 0.7771450895390187,
+        "scores_total": 2884535.1348505244,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 3,
+        "total_votes": 3,
+        "first_vote_at": "2024-12-21T09:32:31Z",
+        "last_vote_at": "2024-12-23T16:37:16Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            201081.2332919093,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2362037.491959281,
+            0.0,
+            321416.4095993341
+          ]
+        ],
+        "spike_index": 0.921548,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.078452,
+        "half_slope_diff": 0.0
+      },
+      "raw": {
+        "id": "0x84717624ecb0c5f965252f4d5aef06722bcd607c6867443ccf8b85771f623c41",
+        "title": "[BIP-748] Permissions Policy Update Request #5 (ETH Mainnet)",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "### PR with payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1601\n# Abstract\n\nThis proposal seeks BalancerDAO's approval for updates, new actions, and strategies related to the permissions policy governing the [karpatkey-managed treasury](https://app.safe.global/home?safe=eth:0x0efccbb9e2c09ea29551879bd9da32362b32fc89) on Mainnet. These changes are part of a broader effort to optimise the treasury, with the goal of enhancing its performance, flexibility, and diversification.\n\nThe proposed new permissions focus on strategies involving [Aave’s GHO](https://aave.com/gho), [Sky’s USDS](https://sky.money/), [Origin’s oETH](https://www.originprotocol.com/oeth), and [Stakewise’s osETH](https://www.stakewise.io/).\n\n\n# Motivation\n\nEffective treasury management strategies need to be adjusted based on market conditions and protocol updates, such as migrations and the introduction of new pools. Protocols and pools that were once considered immature and unsuitable for the BalancerDAO’s risk appetite can become more viable as they prove their reliability over time. This proposal aims to integrate these new strategies into the existing [Permissions Policy](https://roles.gnosisguild.org/eth:0x13c61a25DB73e7a94a244bD2205aDba8b4a60F4a/roles/MANAGER).\n\n\n# Changes to the Permissions Policy\n\nThis proposal outlines the following modifications to the permissions policy:\n\n\n\n1. GHO Carry Trade\n* Deposit, sDAI, USDS,, wstETH, osETH and WBTC on Aave v3 and allow it to be used as collateral. \n* Borrow GHO\n* Stake GHO in the Staking Module on Aave v3\n* Claim AAVE rewards\n* Claim GHO Merit rewards\n* Swap GHO &lt;> USDT, USDC, in Balancer.\n* Swap stkGHO-GHO in Cow and Maverick\n2. Sky’s USDS\n* Deposit and Withdraw USDS in Spark\n* Swap sUSDS &lt;> USDS in Cow\n* Swap USDS for Stablecoins in Cow\n3. osETH in Stakewise v3\n* Stake (and unstake) ETH on Stakewise v3.\n    * Through the [Genesis Vault](https://app.stakewise.io/vault/mainnet/0xac0f906e433d58fa868f936e8a43230473652885).\n4. oETH in Origin\n* Mint oETH in vault\n* Redeem WETH via ARM and vault\n* Swap oETH for ETH and LSTs (same policy as with other LSTs) in Cow\n* Back up swap permissions in Curve\n* Provide liquidity in oETH-ETH pool  in Curve\n* Stake LP token in Curve and Convex\n* Claim rewards, unstake and withdraw oETH-ETH in Curve and Convex.\n\n\n# Zodiac Roles Modifier Permissions Policy\n\n\n## Permissions page:\n\n[https://roles.gnosisguild.org/permissions/eth/6WhgTGie6QoelTwqaE6z8h0MqZa6UOkyZcwJif5sig](https://roles.gnosisguild.org/permissions/eth/6WhgTGie6QoelTwqaE6z8h0MqZa6UOkyZcwJif5sig) \n\n\n## Permissions diff page:\n\n[https://roles.gnosisguild.org/eth:0x13c61a25DB73e7a94a244bD2205aDba8b4a60F4a/roles/MANAGER/diff/6WhgTGie6QoelTwqaE6z8h0MqZa6UOkyZcwJif5sig](https://roles.gnosisguild.org/eth:0x13c61a25DB73e7a94a244bD2205aDba8b4a60F4a/roles/MANAGER/diff/6WhgTGie6QoelTwqaE6z8h0MqZa6UOkyZcwJif5sig)",
+        "end_utc": "2024-12-23T19:00:00Z",
+        "similarity_score": 0.1558,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2563118.7252511904,
+            0,
+            321416.4095993342
+          ],
+          "scores_total": 2884535.1348505244,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-12-23T19:00:00",
+          "pre_tvl_avg": 1038494990.0,
+          "post_tvl_avg": 1110455054.5,
+          "abnormal_change": 6.9293,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.069293,
+          "abnormal_change_pct": 6.9293
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-12-23T19:00:00",
+          "pre_price_avg": 2.47776569,
+          "post_price_avg": 2.6045202549999997,
+          "abnormal_change": 5.1157,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.051157,
+          "abnormal_change_pct": 5.1157
+        }
+      }
+    },
+    {
+      "proposal_id": "0x220379d594dfecfc09e64ea8fb9f60d112b91298bb72184f778087d6d6641451",
+      "cleaned": {
+        "proposal_id": "0x220379d594dfecfc09e64ea8fb9f60d112b91298bb72184f778087d6d6641451",
+        "title": "[BIP-732] Permissions Policy Update Request #6 (Gnosis Chain)",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2024-11-11T19:00:00Z",
+        "similarity_score": 0.142,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2382599.842881466,
+        "margin_pct": 1.0,
+        "scores_total": 2382599.842881466,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 2,
+        "total_votes": 2,
+        "first_vote_at": "2024-11-09T14:08:32Z",
+        "last_vote_at": "2024-11-11T06:44:57Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            626.0042624885864,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2381973.838618977,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.999737,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.000263,
+        "half_slope_diff": 0.0
+      },
+      "raw": {
+        "id": "0x220379d594dfecfc09e64ea8fb9f60d112b91298bb72184f778087d6d6641451",
+        "title": "[BIP-732] Permissions Policy Update Request #6 (Gnosis Chain)",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "# PR with payload\n\n[https://github.com/BalancerMaxis/multisig-ops/pull/1450](https://github.com/BalancerMaxis/multisig-ops/pull/1450) \n\n\n# Abstract\n\nThis proposal seeks BalancerDAO's approval for updates, new actions, and strategies related to the permissions policy governing the newly launched [karpatkey-managed treasury](https://app.safe.global/home?safe=gno:0x0efccbb9e2c09ea29551879bd9da32362b32fc89) on Gnosis Chain. These changes are part of a broader effort to optimise the DAO’s treasury, with the goal of enhancing its performance, flexibility, and diversification.\n\nThe proposed new permissions focus on strategies involving sDAI on Gnosis Chain and new vaults to stake GNO on Stakewise V3.\n\n\n# Motivation\n\nTreasury management strategies must adapt to changing market conditions and protocol updates, including migrations and the launch of new pools. Protocols and pools that were previously deemed too immature or risky for BalancerDAO may become viable as they demonstrate reliability over time. This proposal seeks to incorporate these updated strategies into the current Permissions Policy.\n\n\n# Changes to the Permissions Policy\n\nThis proposal outlines the following modifications to the permissions policy:\n\n\n\n1. sDAI on GC\n* Bridge DAI and GNO, Mainnet &lt;> GC, two ways, in Gnosis Bridge.\n* Deposit and withdraw xDAI &lt;> sDAI in Spark.\n* Swap sDAI &lt;> xDAI &lt;> USDC &lt;> USDT in Cow.\n* Swap GNO &lt;> WETH in Cow.\n2. Whitelist new vaults to stake GNO on Stakewise v3\n* [Axol](https://app.stakewise.io/vault/gnosis/0x33c346928ed9249cf1d5fc16ae32a8cffa1671ad), [Stakecat](https://app.stakewise.io/vault/gnosis/0xe0a342ed4e0f0dbe97c4810534cfcb6550ea017d), [SeedNode](https://app.stakewise.io/vault/gnosis/0x9eeb6be79899cfe45018866a2113c6b77fa96f35), [Stakesaurus](https://app.stakewise.io/vault/gnosis/0x3cb4692177525db38d983da0445d4eb25c3826de).\n\n\n# Zodiac Roles Modifier Permissions Policy\n\n\n## Permissions page\n\n[https://roles.gnosisguild.org/permissions/gno/6MHFZ0ZgjVykkwQgsdbxy0JvaZS4IWhii7UE8PLT9ME](https://roles.gnosisguild.org/permissions/gno/6MHFZ0ZgjVykkwQgsdbxy0JvaZS4IWhii7UE8PLT9ME) \n\n\n## Permissions diff page\n\n[https://roles.gnosisguild.org/gno:0x13c61a25DB73e7a94a244bD2205aDba8b4a60F4a/roles/MANAGER/diff/6MHFZ0ZgjVykkwQgsdbxy0JvaZS4IWhii7UE8PLT9ME](https://roles.gnosisguild.org/gno:0x13c61a25DB73e7a94a244bD2205aDba8b4a60F4a/roles/MANAGER/diff/6MHFZ0ZgjVykkwQgsdbxy0JvaZS4IWhii7UE8PLT9ME)",
+        "end_utc": "2024-11-11T19:00:00Z",
+        "similarity_score": 0.142,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2382599.842881466,
+            0,
+            0
+          ],
+          "scores_total": 2382599.842881466,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-11-11T19:00:00",
+          "pre_tvl_avg": 852142975.0,
+          "post_tvl_avg": 873951036.5,
+          "abnormal_change": 2.5592,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.025592,
+          "abnormal_change_pct": 2.5592
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-11-11T19:00:00",
+          "pre_price_avg": 2.17518002,
+          "post_price_avg": 2.1038344650000003,
+          "abnormal_change": -3.28,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.0328,
+          "abnormal_change_pct": -3.28
+        }
+      }
+    },
+    {
+      "proposal_id": "0x8029bf3058ff3ad4c392e106bf9a4c308c3fd060507e6e9e31425b4792b6f8d4",
+      "cleaned": {
+        "proposal_id": "0x8029bf3058ff3ad4c392e106bf9a4c308c3fd060507e6e9e31425b4792b6f8d4",
+        "title": "[BIP-453] Deposit 160k BAL into Aave v3",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-10-16T18:00:00Z",
+        "similarity_score": 0.1392,
+        "winning_option": "Abstain",
+        "winning_option_index": 2,
+        "margin_abs": 1251167.5179050595,
+        "margin_pct": 0.3345128976306188,
+        "scores_total": 3740266.897830181,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 67,
+        "total_votes": 67,
+        "first_vote_at": "2023-10-12T18:20:55Z",
+        "last_vote_at": "2023-10-16T13:35:42Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1184.2427327192618,
+            0.02138557703727014,
+            0.01872087621007522
+          ],
+          [
+            1765.4133339925647,
+            0.0,
+            0.0
+          ],
+          [
+            543587.4404012221,
+            0.0,
+            0.0
+          ],
+          [
+            1.9049932482915135,
+            0.0,
+            3193727.856262546
+          ]
+        ],
+        "spike_index": 0.999802,
+        "spike_follow_support_ratio": 0.999445,
+        "stairwise_ratio": 0.000198,
+        "half_slope_diff": 0.040642
+      },
+      "raw": {
+        "id": "0x8029bf3058ff3ad4c392e106bf9a4c308c3fd060507e6e9e31425b4792b6f8d4",
+        "title": "[BIP-453] Deposit 160k BAL into Aave v3",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "Payload With PR\nhttps://github.com/BalancerMaxis/multisig-ops/pull/550\n\n### Summary & Motivation\n\nSince inception Balancer has been closely partnered with Aave, be it through their safety module on v1, boosted pools for a period of time, and as a delegate and voter. Balancer DAO has a large sum of BAL tokens idle in the treasury, and one of the best possible ways to benefit ourselves and the greater ecosystem would to have BAL available to borrow on Aave. The treasury would earn returns on the deposit, and anyone interested in borrowing BAL would have access. \n\nAt the time of writing 188.34k out of 350k total BAL is deposited in the Aave v3 [module](https://app.aave.com/reserve-overview/?underlyingAsset=0xba100000625a3754423978a60c9317c58a424e3d&marketName=proto_mainnet_v3). I propose we deposit 160k, nearly the total remaining supply possible. As time goes on we can increase or decrease this strategy depending on market conditions. \n\nSpecification:\n\nThe DAO Multisig on mainnet `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with the BAL token address `0xba100000625a3754423978a60c9317c58a424e3D` by writing the `approve` function with spender(address) as Aave v3's proxy `0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2` and amount as `160000000000000000000000`. \n\nThen the DAO Multisig will then interact with Aave's contract `0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2` by writing the `supply` function with the following arguements: \n- asset: `0xba100000625a3754423978a60c9317c58a424e3D` \n- amount: `160000000000000000000000`\n- onBehalfOf: `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f`\n- referralCode: `0`",
+        "end_utc": "2023-10-16T18:00:00Z",
+        "similarity_score": 0.1392,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            1244549.6846161664,
+            0.01069278851863507,
+            2495717.202521226
+          ],
+          "scores_total": 3740266.897830181,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-10-16T18:00:00",
+          "pre_tvl_avg": 685153175.0,
+          "post_tvl_avg": 671906431.5,
+          "abnormal_change": -1.9334,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.019334,
+          "abnormal_change_pct": -1.9334
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-10-16T18:00:00",
+          "pre_price_avg": 3.056577275,
+          "post_price_avg": 2.96013798,
+          "abnormal_change": -3.1551,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.031551,
+          "abnormal_change_pct": -3.1551
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x60f5d5069245aca63d76345798953502f0cdc7019f12b13eb720c4ca33c66950",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.9,
+    "summary": "The proposal to deploy 50,000 GHO into the Buffer Router contract is supported by strong early and stable voting trends, positive and neutral forum sentiment, and consistent historical precedent from similar proposals that successfully enabled functional improvements in Balancer's ecosystem.",
+    "key_arguments_for": [
+      "Early liquidity buffer initialization is critical for efficient swaps and gas savings in Balancer V3.",
+      "Voting timeline shows unanimous and stable support for the 'Yes' option.",
+      "Similar past proposals with related operational changes passed and enhanced ecosystem function.",
+      "Forum comments appreciate the careful payload and emphasize the importance of seeding buffers for good trading."
+    ],
+    "key_arguments_against": [
+      "One forum comment suggests an alternate approach due to live balance adjustments needed, indicating some risk in exact execution.",
+      "Market price impact shows a slight decline, which may reflect short-term uncertainty."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.balancer.fi/t/bip-759-deploy-50k-gho-into-the-v3-buffer-router-contract/6291",
+        "quote": "One positive comment highlights the importance of seeding buffers for trading efficiency; one negative comment suggests adjusting the payload based on live balances."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Snapshot proposal timeline metrics",
+        "quote": "Lead ratio and stability metrics strongly favor 'Yes, let's do it' with 1.0 lead ratio total and stability."
+      },
+      {
+        "source_tool": "govnews_proposal_news_window",
+        "reference": "Adjacent proposals BIP-750, BIP-751, BIP-752",
+        "quote": "Similar proposals passed with 'Yes' votes, had minor negative price impacts but positive TVL impacts, indicating functional success."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-01-16T19:00:00Z",
+    "event_end_utc": "2025-01-20T19:00:00Z",
+    "event_time_utc": "2025-01-20T19:00:00Z",
+    "address_of_governance_token": "0xBA100000625a3754423978a60c9317c58a424e3D",
+    "token_price_impact_pct": -6.9663,
+    "tvl_impact_pct": 0.3051,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        2838166.127851547,
+        0.0,
+        587.2068841703489
+      ],
+      "scores_total": 2838753.3347357176,
+      "margin_abs": 2837578.920967377,
+      "margin_pct": 0.999586
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Voting timeline metrics show unanimous and stable early support for 'Yes, let's do it'.\n- Forum sentiment is mostly positive or neutral with some concerns about execution details, indicating general community support.\n- Similar historical proposals that involved operational changes passed successfully, contributing positively to ecosystem functionality.\n- Market impact shows minor negative price movement but positive TVL, suggesting cautious acceptance.\n- The recommendation aligns well with aggregated forum sentiment and voting dynamics, supporting a change that benefits the organization long-term.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x9ce98920a42aea2ec2bbecaa84e1eaf2ce18e480896ba36ec505e0af2491dbc6",
+        "title": "[BIP-751] Fund the DAO Gas Station Operations for 2025",
+        "end_utc": "2025-01-13T19:00:00Z",
+        "summary": "[BIP-751] Fund the DAO Gas Station Operations for 2025 closed on 2025-01-13T19:00:00Z. Timeline analytics noted 4 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.11)",
+        "market_response": "token -0.05%; TVL +3.98%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0xe8da337f651641f3bb7b13acf5f62334095f435a46e8421b55fe2ba15674fb6f",
+        "title": "[BIP-752] Enable E-CLP gauge for weETH/wstETH [Base]",
+        "end_utc": "2025-01-13T19:00:00Z",
+        "summary": "[BIP-752] Enable E-CLP gauge for weETH/wstETH [Base] closed on 2025-01-13T19:00:00Z. Timeline analytics noted 4 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.10)",
+        "market_response": "token -0.05%; TVL +3.98%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -6.9663,
+    "ex_post_tvl_impact_pct": 0.3051,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -6.97%; TVL +0.31%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 1,
+    "Positive": 1,
+    "Neutral": 1,
+    "total_comments": 3
+  }
+}

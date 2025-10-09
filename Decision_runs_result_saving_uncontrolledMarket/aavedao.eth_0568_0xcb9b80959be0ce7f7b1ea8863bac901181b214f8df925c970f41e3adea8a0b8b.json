@@ -1,0 +1,388 @@
+{
+  "captured_at_utc": "2025-10-06T21:39:51.074432+00:00",
+  "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0xcb9b80959be0ce7f7b1ea8863bac901181b214f8df925c970f41e3adea8a0b8b",
+  "focus": null,
+  "votes_count": 5500,
+  "timeline_metrics_current": {
+    "unique_voters": 5500,
+    "total_votes": 5500,
+    "first_vote_at": "2023-04-25T16:00:57Z",
+    "last_vote_at": "2023-04-27T10:40:46Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        127022.90662674367,
+        12.570768581824174,
+        4.295656201615713
+      ],
+      [
+        66.86476963392182,
+        0.2960223447731533,
+        1.6337526050598417
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.634105,
+    "spike_follow_support_ratio": 1.0,
+    "stairwise_ratio": 0.00077,
+    "half_slope_diff": -1.365905
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0xf92c5647c7f60a4a3db994b4953fc4408f5946cafdc0cebcd4c5924f40e04d36",
+      "title": "[ARFC] Deploy aCRV & CRV to veCRV",
+      "author": "0xc290Cfb8D020c0615e9C63036f4319Cc41717E68",
+      "end_utc": "2023-03-30T22:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-03-27T09:00:14Z",
+        "last_vote_at": "2023-03-28T05:44:43Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 2,
+        "lead_ratio_by_quartile": [
+          [
+            0.21,
+            0.0,
+            0.79,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.21,
+          0.0,
+          0.79,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          0.21,
+          0.0,
+          0.79,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.21,
+          0.0,
+          0.79,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            42088.03019589627,
+            7.937698720376638,
+            360797.3341493339,
+            0.32060601568376285,
+            1.5885222437143525
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.669494,
+        "spike_follow_support_ratio": 0.783792,
+        "stairwise_ratio": 1.4e-05,
+        "half_slope_diff": -5.763759
+      },
+      "price_impact_pct": 2.9491,
+      "tvl_impact_pct": 0.8327,
+      "similarity": 0.1266,
+      "actual_vote_result": {
+        "winner_index": 2,
+        "winner_label": "YAE - sdCRV",
+        "margin_abs": 137998.32353212414,
+        "scores_total": 585810.0122724774,
+        "margin_pct": 0.2355683935766142
+      }
+    },
+    {
+      "id": "0x05182d6092e7a075b94ab937a6cd57968f36c6ac225196561a58b437e591065f",
+      "title": "[ARFC] Deploy BAL & aBAL from the Collector Contract",
+      "author": "0xc290Cfb8D020c0615e9C63036f4319Cc41717E68",
+      "end_utc": "2023-03-16T12:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-03-13T12:38:56Z",
+        "last_vote_at": "2023-03-14T01:22:54Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.996727,
+            0.003273,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9967272727272727,
+          0.0032727272727272726,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          0.9967272727272727,
+          0.0032727272727272726,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.9967272727272727,
+          0.0032727272727272726,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            52712.93631739046,
+            2.0703442907179768,
+            0.05149452719213608,
+            0.16418048396528462
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.790583,
+        "spike_follow_support_ratio": 0.979839,
+        "stairwise_ratio": 2.4e-05,
+        "half_slope_diff": -0.822783
+      },
+      "price_impact_pct": 2.3283,
+      "tvl_impact_pct": 4.6543,
+      "similarity": 0.1308,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "YAE - Locking veBAL",
+        "margin_abs": 324848.5399000491,
+        "scores_total": 325173.0646125642,
+        "margin_pct": 0.999001993867783
+      }
+    }
+  ],
+  "similar_proposals_data": [],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0xcb9b80959be0ce7f7b1ea8863bac901181b214f8df925c970f41e3adea8a0b8b",
+    "selected_choice_label": "YAE",
+    "selected_choice_index": 0,
+    "confidence": 0.9,
+    "summary": "The proposal to enable private voting on Snapshot for a two-month trial period is recommended to pass to foster more independent voting behavior and reduce herding, despite some community concerns about transparency and collusion risks.",
+    "key_arguments_for": [
+      "Private voting reduces voter intimidation and herd behavior by hiding ongoing vote results.",
+      "Encourages voters to form independent opinions and participate more honestly.",
+      "Trial is reversible by community, minimizing risks.",
+      "Similar proposals indicate positive experimentation and increased engagement."
+    ],
+    "key_arguments_against": [
+      "Concerns about loss of transparency and inability to detect collusion during voting.",
+      "Risk that large holders could mask voting power and influence outcomes without accountability.",
+      "Possible negative impact on discussions during voting period.",
+      "Potential quorum risks due to lack of visible vote progress."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://governance.aave.com/t/arfc-private-voting-for-aave-governance-2-month-trial/12730",
+        "quote": "Forum sentiment is mixed with 4 positive, 14 negative, and 12 neutral comments before proposal end, highlighting concerns on transparency but also support for experimentation."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Proposal timeline metrics",
+        "quote": "Timeline metrics show 100% early and stable lead for 'YAE', indicating strong early voter preference and stability."
+      },
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Post-vote reflections",
+        "quote": "Post-trial reflections suggest the feature forced clearer opinion formation but requires more active space management."
+      }
+    ],
+    "available_choices": [
+      "YAE",
+      "NAY",
+      "ABSTAIN"
+    ],
+    "event_start_utc": "2023-04-25T16:00:00Z",
+    "event_end_utc": "2023-05-01T16:00:00Z",
+    "event_time_utc": "2023-05-01T16:00:00Z",
+    "address_of_governance_token": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+    "token_price_impact_pct": -1.8944,
+    "tvl_impact_pct": 0.107,
+    "actual_vote_result": {
+      "winner_label": "YAE",
+      "winner_index": 0,
+      "scores": [
+        414757.0298425779,
+        25.939419064591508,
+        228695.8448521096
+      ],
+      "scores_total": 643478.8141136953,
+      "margin_abs": 186061.18499046826,
+      "margin_pct": 0.289149
+    },
+    "simulation_reason": "Recommendation based on timeline metrics, forum sentiment, and adjacent analytics to maximize long-term governance health.",
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'YAE' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Timeline metrics show overwhelming and stable early support for 'YAE', indicating voter confidence.\n- Forum sentiment is mixed but leans negative primarily due to concerns about transparency and collusion; however, the recommendation aligns with the community's desire to experiment and improve governance.\n- Adjacent similar proposals show positive engagement and willingness to adopt innovations, supporting a stance to change.\n- Market and TVL impacts post-vote were minor and do not affect the decision; focus remains on governance health and fair participation.\n- The trial nature and community control over the feature's continuation mitigate risks of permanent unfavorable change.\n- Overall, the recommendation to adopt private voting balances innovation with caution, reflecting durable benefit to the DAO.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x05182d6092e7a075b94ab937a6cd57968f36c6ac225196561a58b437e591065f",
+        "title": "[ARFC] Deploy BAL & aBAL from the Collector Contract",
+        "end_utc": "2023-03-16T12:00:00Z",
+        "summary": "[ARFC] Deploy BAL & aBAL from the Collector Contract closed on 2023-03-16T12:00:00Z. Timeline analytics noted 5500 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.13)",
+        "market_response": "token +2.33%; TVL +4.65%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0xf92c5647c7f60a4a3db994b4953fc4408f5946cafdc0cebcd4c5924f40e04d36",
+        "title": "[ARFC] Deploy aCRV & CRV to veCRV",
+        "end_utc": "2023-03-30T22:00:00Z",
+        "summary": "[ARFC] Deploy aCRV & CRV to veCRV closed on 2023-03-30T22:00:00Z. Timeline analytics noted 5500 unique voters, timeline-only analysis (no final tally), recommended option index 2.",
+        "similarity_reason": "Related text overlap (score 0.13)",
+        "market_response": "token +2.95%; TVL +0.83%",
+        "change_stance": null
+      }
+    ],
+    "ex_post_price_impact_pct": -1.8944,
+    "ex_post_tvl_impact_pct": 0.107,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -1.89%; TVL +0.11%"
+  },
+  "agentic_ai_choice": "YAE",
+  "actual_outcome": "YAE",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 14,
+    "Positive": 4,
+    "Neutral": 12,
+    "total_comments": 30
+  }
+}

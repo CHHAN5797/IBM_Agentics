@@ -1,0 +1,1142 @@
+{
+  "captured_at_utc": "2025-10-08T18:49:22.642909+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x8b2dc6ca0f4276bce199ce97fc8d13cbc510170d4206b6a53f9a26250c0724ae",
+  "focus": null,
+  "votes_count": 3,
+  "timeline_metrics_current": {
+    "unique_voters": 3,
+    "total_votes": 3,
+    "first_vote_at": "2025-05-16T00:52:24Z",
+    "last_vote_at": "2025-05-19T08:00:03Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        317431.8417718135,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        2427641.7270330503,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.884363,
+    "spike_follow_support_ratio": 0.0,
+    "stairwise_ratio": 0.115637,
+    "half_slope_diff": 9.344415
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x93aaad0c7e6b6bd69ea9ef9406ee0590361083e14f22ba2b90b198148d04b7c3",
+      "title": "[BIP-825] Enable YieldFi yUSD/USDC gauges on Balancer v3 Arbitrum new pool deployment",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-05-12T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 6,
+        "total_votes": 6,
+        "first_vote_at": "2025-05-08T23:46:44Z",
+        "last_vote_at": "2025-05-12T08:00:01Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            274250.9435164922,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            318693.87213499245,
+            0.0,
+            699.4582015323859
+          ],
+          [
+            2616763.344265478,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.752931,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.247069,
+        "half_slope_diff": 380.563614
+      },
+      "price_impact_pct": -1.9948,
+      "tvl_impact_pct": 0.8717,
+      "similarity": 0.208,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 3209008.701715431,
+        "scores_total": 3210407.618118495,
+        "margin_pct": 0.9995642558299548
+      }
+    },
+    {
+      "id": "0x04f8cf4b93cca840d55377bb1c7b321cbdbaea5128d3b1a67e7ab2cab2c9e993",
+      "title": "[BIP-824] Enable YieldFi yUSD/USDC gauges on Balancer v3 Base new pool deployment",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-05-12T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 6,
+        "total_votes": 6,
+        "first_vote_at": "2025-05-08T23:46:23Z",
+        "last_vote_at": "2025-05-12T08:00:01Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            274252.24787240813,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            318694.9890544721,
+            0.0,
+            699.4607019826589
+          ],
+          [
+            2616764.0383250793,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.752931,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.247069,
+        "half_slope_diff": 375.058703
+      },
+      "price_impact_pct": -1.9948,
+      "tvl_impact_pct": 0.8717,
+      "similarity": 0.2051,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 3209011.814549977,
+        "scores_total": 3210410.735953942,
+        "margin_pct": 0.9995642546954201
+      }
+    },
+    {
+      "id": "0x112f0b1077a87933d54d5e22715cb035f64fa5905bea6093f7d5c68beac1ab74",
+      "title": "[BIP-823] Enable Gauge for Safe Haven QuantAMM BTF",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-05-12T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 6,
+        "total_votes": 6,
+        "first_vote_at": "2025-05-08T23:46:08Z",
+        "last_vote_at": "2025-05-12T08:00:01Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            274258.9145804228,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            318700.69775403495,
+            0.0,
+            699.4734820618319
+          ],
+          [
+            2616768.584780699,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.752927,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.247073,
+        "half_slope_diff": 372.533689
+      },
+      "price_impact_pct": -1.9948,
+      "tvl_impact_pct": 0.8717,
+      "similarity": 0.1531,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 3209028.7236330956,
+        "scores_total": 3210427.6705972184,
+        "margin_pct": 0.999564249032322
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x9ddde1412f040a37f283dd12b2eb16c919c5fea6bfc068bb7376329a41f75043",
+      "cleaned": {
+        "proposal_id": "0x9ddde1412f040a37f283dd12b2eb16c919c5fea6bfc068bb7376329a41f75043",
+        "title": "[BIP-819] Enable Aave Boosted osETH/aWETH Gauge on Balancer v3 Arbitrum",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2025-05-05T18:00:00Z",
+        "similarity_score": 0.3532,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3085570.615415116,
+        "margin_pct": 1.0,
+        "scores_total": 3085570.615415116,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 7,
+        "total_votes": 7,
+        "first_vote_at": "2025-05-02T11:56:01Z",
+        "last_vote_at": "2025-05-05T08:00:01Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.5209109664991531,
+            0.0,
+            0.0
+          ],
+          [
+            283647.8337812658,
+            0.0,
+            0.0
+          ],
+          [
+            418611.8180099081,
+            0.0,
+            0.0
+          ],
+          [
+            2383310.4427129757,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.772405,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.227595,
+        "half_slope_diff": 16.627125
+      },
+      "raw": {
+        "id": "0x9ddde1412f040a37f283dd12b2eb16c919c5fea6bfc068bb7376329a41f75043",
+        "title": "[BIP-819] Enable Aave Boosted osETH/aWETH Gauge on Balancer v3 Arbitrum",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "### PR with Payload \nhttps://github.com/BalancerMaxis/multisig-ops/pull/1975\n\n[BIP-819] Enable Aave Boosted osETH/aWETH Gauge on Balancer v3 Arbitrum\n\n# Summary\n\nProposal to add gauge support for the new **osETH/aWETH** Composable Stable pool on Balancer v3 for Arbitrum. \n\n# References/Useful Links\n\n- [StakeWise Website](https://stakewise.io/)\n- [StakeWise Documentation](https://docs.stakewise.io/)\n- [StakeWise Github](https://github.com/stakewise)\n- [Twitter](https://twitter.com/stakewise_io) \n\n# Protocol Description\n\nStakeWise is a DeFi protocol that provides a simple, non-custodial, and secure way to stake ETH and GNO, while preserving access to DeFi through liquid staking tokens such as osETH and osGNO. It enables users to not only stake but also farm, restake, and borrow against their staked assets.\n\nStakeWise V3 introduces a permissionless staking marketplace that allows users to choose their own node operators, optimize staking profits, minimize slashing risk, and even operate their own Vaults. Vaults are isolated, trustless staking pools that offer fully customizable staking terms, ensuring a tailored and secure staking experience for individuals, DAOs, and institutions alike.\n\nAt the core of StakeWise V3 is osETH — a liquid staking token that offers in-built slashing protection and accrues rewards from a highly diversified network of validators. osETH minting is dependent on the Vault’s LTV ratio, with standard Vaults allowing minting up to 90% of the staked ETH value, and DAO-approved Vaults offering up to 99.99% LTV, backed by stringent requirements and a 5M SWISE bond for enhanced security.\n\nStakeWise DAO, governed by SWISE token holders, oversees protocol parameters, operator standards, and Treasury management, ensuring that the protocol remains community-driven and secure.\n\nFor more details, see the [StakeWise Documentation](https://docs.stakewise.io/).\n\n# Motivation\n\nTokenLogic has been working with StakeWise to adopt an Aave Boosted pool upong migration liquidity from Balancer v2 to Balancer v3. The new Aave Boosted Pool will significantly enhance the capital efficiency of the osETH liquidity pool and provide liquidity providers access to yield from Aave. \n\nThe new **osETH/aWETH** pool will replace the existing v2 pool as the primary liquidity venue for osETH. The new Aave Boosted pools will offer superior capital efficiency with WETH deposits earning yield from Aave and greater liquidity concentration, from a higher Amplification factor, is expected to enhance liquidity depth, thereby providing a better user experience whilst also generating a cost savigns for StakeWise. \n\nA gauge is critical to bootstrap TVL, strengthen liquidity depth, and support broader DeFi integrations for osETH, helping it become a core building block for staking-related strategies across the ecosystem.\n\n# Specifications\n\n## 1. Governance\n\nThe StakeWise protocol is governed by the StakeWise DAO, with all decision-making power vested in SWISE token holders. Protocol upgrades that involve upgradable contracts must undergo a community vote, followed by multisig approval, ensuring a transparent and decentralized governance process. Core infrastructure components, such as the osETH token contracts, are immutable, providing additional security and resilience to the protocol.\n\n## 2. Oracles\n\nStakeWise leverages a decentralized and independent oracle network consisting of 11 established staking service providers. These operators are bound by service-level agreements (SLAs) and are responsible for accurately and reliably reporting validator balances to the protocol’s smart contracts, ensuring transparency and operational integrity. [More information here](https://docs.stakewise.io/protocol-overview-in-depth/oracles).\n\n## 3. Audits\n\nStakeWise V3 has been audited by **Halborn**, **Sigma Prime** and Consensys. All the audits can be found [here](https://github.com/stakewise/v3-core/tree/main/audits).\n\n## 4. Centralization Vectors\n\nStakeWise is designed to minimize centralization risks. Governance decisions are executed fully on-chain by SWISE token holders, while the oracle network is decentralized across multiple independent and reputable staking operators, ensuring robust security and trustlessness at every layer of the protocol.\n\n## 5. Market History\n\nThis is a new Balancer v3 pool specifically created to provide osETH liquidity paired with aWETH (Aave-wrapped WETH). The V2 pool has been doing great for the past two years and has grown to be one of the biggest Balancer pool by TVL.\ncf: [Balancer V2 Pool, Eth](https://balancer.fi/pools/ethereum/v2/0xdacf5fa19b1f720111609043ac67a9818262850c000000000000000000000635)\n\n## 6. Value\n\nThe **osETH/aWETH** pool will serve as the primary liquidity hub for osETH, enabling seamless integrations with major DeFi protocols that use aWETH as a base asset. Establishing deep liquidity in this pool is critical to facilitating efficient swaps and expanding osETH’s utility.\n\n# Specification\n\n## Enable Gauges\nThe Balancer Maxi LM Multisig '0xc38c5f97B34E175FFd35407fc91a937300E33860' will interact with the GaugeAdderv4 at '0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd' and call the addGauge function with the following arguments:\n\n- Pool address: 0x1a36195044abbad8807ceea78ec645c0c5d09593\n- Gauge(address): 0x0fc6169f74b1d0bbe7a269c1ee8d92edb58b1ade\n- GaugeType(string): Arbitrum\n\nMaxi Edits:\n\n* added pool address\n* added gauge address\n* add payload",
+        "end_utc": "2025-05-05T18:00:00Z",
+        "similarity_score": 0.3532,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3085570.615415116,
+            0,
+            0
+          ],
+          "scores_total": 3085570.615415116,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2025-05-05T18:00:00",
+          "pre_tvl_avg": 656861424.0,
+          "post_tvl_avg": 649810103.0,
+          "abnormal_change": -1.0735,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.010735,
+          "abnormal_change_pct": -1.0735
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2025-05-05T18:00:00",
+          "pre_price_avg": 1.061395535,
+          "post_price_avg": 1.087708385,
+          "abnormal_change": 2.4791,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.024791,
+          "abnormal_change_pct": 2.4791
+        }
+      }
+    },
+    {
+      "proposal_id": "0xf6e9a3520f41377ac8de2bdc1ad6f096e3134b505136b5aa4e912d33acb3c658",
+      "cleaned": {
+        "proposal_id": "0xf6e9a3520f41377ac8de2bdc1ad6f096e3134b505136b5aa4e912d33acb3c658",
+        "title": "[BIP-440] Enable rETH/ankrETH Gauge with Auto-bribes [Optimism]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-10-02T18:00:00Z",
+        "similarity_score": 0.231,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3638592.499876978,
+        "margin_pct": 0.9999996587467984,
+        "scores_total": 3638593.7415587413,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 62,
+        "total_votes": 62,
+        "first_vote_at": "2023-09-28T18:55:57Z",
+        "last_vote_at": "2023-10-02T16:54:37Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            7154.4281662526055,
+            0.3982780249792907,
+            0.0
+          ],
+          [
+            846.7911596877489,
+            0.129448746904466,
+            0.0
+          ],
+          [
+            3.902470446055066,
+            0.06544871313640749,
+            0.0
+          ],
+          [
+            3630588.0265868697,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.870764,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.00018,
+        "half_slope_diff": 31.073948
+      },
+      "raw": {
+        "id": "0xf6e9a3520f41377ac8de2bdc1ad6f096e3134b505136b5aa4e912d33acb3c658",
+        "title": "[BIP-440] Enable rETH/ankrETH Gauge with Auto-bribes [Optimism]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/527\n\n**Summary:**\n\n> Ankr proposes to the Balancer community the creation of a rETH/ankrETH on Optimism with the Auto-bribing feature.\n> ankrETH is a form of ETH Liquid Staking from Ankr Staking that offers instant liquidity for your staked ETH, enabling you to connect your ankrETH tokens with DeFi platforms and earn several more layers of rewards with auto-bribes.\n> Ankr is a leader in RPC nodes with projects like Aave, 1inch and SushiSwap as clients and has ~$100M TVL across the Liquid Staking Offering.\n\n**References/Useful links:**\n\n> Link to:\n> • Website: https://www.ankr.com/\n> • Documentation: [Ankr Staking – Ankr](https://www.ankr.com/docs/staking/overview/)\n> • Github Page : [Ankr · GitHub](https://github.com/Ankr-network)\n> • Twitter: https://twitter.com/ankr https://twitter.com/ankrstaking\n> • Reddit: https://www.reddit.com/r/Ankrofficial/\n> • Telegram: Contact @ankrnetwork\n\n**Protocol Description:**\n\n> Ethereum Liquid Staking as provided by Ankr Staking offers instant liquidity for your staked ETH, enabling you to connect your ankrETH tokens with DeFi platforms and earn several more layers of rewards.\n> ankrETH is a reward-bearing token, meaning that the fair value of 1 ankrETH token vs. ETH increases over time as staking rewards accumulate.\n\n**Motivation:**\n\n> The purpose of this proposal is to allow this pool to qualify for BAL incentive distribution in order to deepen the liquidity on Balancer and allow for users to swap ankrETH, the ETH Liquid Staking Asset, for ETH with the help of Auto-bribes on hidden hand.\n> The intuition behind this is to remedy the capital inefficiency associated with providing liquidity since ankrETH is generating a yield from the Staking Rewards of ETH. As a result, users have an opportunity cost when providing liquidity since the other half of the ETH they provide does not generate any yield.\n> Therefore, the goal of this proposal is to utilize BAL incentives,Swap Fees and auto-bribes in order to mitigate this capital inefficiency effect.\n\n**Specifications:**\n\n> 1. **Governance:** ANKR token-holders can propose and vote for changes to the Ankr Staking system. If a change receives enough votes, the Ankr team implements the agreed-upon changes to the platform. Further information may be found here: ANKR Governance Mechanics – Ankr\n> 2. **Oracles:** Rate provider for [ankrETH](https://optimistic.etherscan.io/address/0xCb0006B31e6b403fEeEC257A8ABeE0817bEd7eBa).\n> 3. **Audits:** Ethereum Liquid Staking smart contracts have undergone an external audit by Beosin Blockchain Security. The full audit report may be found below:\n> [Ethereum Liquid Staking – Ankr](https://www.ankr.com/docs/staking/liquid-staking/eth/overview/#audit-details)\n> 4. **Centralization vectors:** Centralisation Vectors: The Ankr 2.0 whitepaper introduced the vision for Ankr Network as a decentralized system where independent node operators work alongside Ankr nodes to power the growth and development of Web3. Further detailed information may be found here:\n> [Delegated ANKR token staking – Ankr](https://www.ankr.com/docs/staking/delegated-staking/ankr/overview/)\n> 5. **Market History:** https://www.coingecko.com/en/coins/ankr-staked-eth\n> 6. **Value:** The pool is intended to be the primary source of liquidity for ankrETH liquidity on Arbitrum and allow for a healthy stimulation of volume.\n\nPool address: [0x004700ba0a4f5f22e1E78a277fCA55e36F47E09C](https://op.beets.fi/pool/0x004700BA0A4F5F22E1E78A277FCA55E36F47E09C000000000000000000000104)\nGauge address: [0x8e486dBACb74C00dd31e489Da93d99bbeBE36cd5](https://etherscan.io/address/0x8e486dBACb74C00dd31e489Da93d99bbeBE36cd5#code)\n\n**Technical Specification:**\n\nThe Balancer Maxi LM Multisig `eth:0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function with the following arguments:\ngauge(address): `0x8e486dBACb74C00dd31e489Da93d99bbeBE36cd5`\ngaugeType(string): `Optimism`",
+        "end_utc": "2023-10-02T18:00:00Z",
+        "similarity_score": 0.231,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3638593.111891589,
+            0.6120146111633952,
+            0.01765254073743605
+          ],
+          "scores_total": 3638593.7415587413,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-10-02T18:00:00",
+          "pre_tvl_avg": 718611084.5,
+          "post_tvl_avg": 716841847.5,
+          "abnormal_change": -0.2462,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.002462,
+          "abnormal_change_pct": -0.2462
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-10-02T18:00:00",
+          "pre_price_avg": 3.3874482500000003,
+          "post_price_avg": 3.24930149,
+          "abnormal_change": -4.0782,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.040782,
+          "abnormal_change_pct": -4.0782
+        }
+      }
+    },
+    {
+      "proposal_id": "0xf9243927488220f77c43ca190e087ee0e698b3c53803cfde1831ca0373d6867d",
+      "cleaned": {
+        "proposal_id": "0xf9243927488220f77c43ca190e087ee0e698b3c53803cfde1831ca0373d6867d",
+        "title": "[BIP-727] Enable wstETH-weETHs Gauge [Ethereum]",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "end_utc": "2024-10-28T18:00:00Z",
+        "similarity_score": 0.2276,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3082340.28108665,
+        "margin_pct": 1.0,
+        "scores_total": 3082340.28108665,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 7,
+        "total_votes": 7,
+        "first_vote_at": "2024-10-24T20:27:49Z",
+        "last_vote_at": "2024-10-28T04:51:33Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            452096.2494244395,
+            0.0,
+            0.0
+          ],
+          [
+            1.3491435699029426,
+            0.0,
+            0.0
+          ],
+          [
+            0.6778349147697015,
+            0.0,
+            0.0
+          ],
+          [
+            2630242.0046837255,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.778816,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.221184,
+        "half_slope_diff": -18.795178
+      },
+      "raw": {
+        "id": "0xf9243927488220f77c43ca190e087ee0e698b3c53803cfde1831ca0373d6867d",
+        "title": "[BIP-727] Enable wstETH-weETHs Gauge [Ethereum]",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "body": "PR with Payload:\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1456\n\n**Summary**\n\nThe [ether.fi ](http://ether.fi/) team proposes a Balancer Boosted Gauge for a wstETH-weETHs pool on Ethereum, with no emissions cap. This will serve as a 100% yield bearing pair.\n\nReferences/Useful links:\n\n• Website - https://www.ether.fi/\n\n• Documentation - [ether.fi Whitepaper | ether.fi](https://etherfi.gitbook.io/etherfi/ether.fi-whitepaper)\n\n• Github Page - [etherfi-protocol · GitHub](https://github.com/etherfi-protocol)\n\n• Discord - [ether.fi](https://discord.com/invite/zqGzcuQWvD)\n\n• Twitter - https://twitter.com/ether_fi\n\n**Protocol Description:**\n\n[ether.fi ](http://ether.fi/) is a decentralised, non-custodial liquid staking protocol built on Ethereum, allowing users to stake their ETH and participate in the DeFi ecosystem without losing liquidity. The protocols weETHs is a liquid restaking token, serving as a representation of ETH staked on the Beacon Chain and restaked on Symbiotic. Users can deposit ETH into the liquidity pool on Ethereum Mainnet to mint weETHs, hold weETHs to accrue rewards, and use weETHs within DeFi or swap it back to ETH at any time via the liquidity pool. The protocol currently employs a permissioned validator set, however this will transition to permissionless based on the protocol roadmap.\n\nETH staked through the[ ether.fi ](http://ether.fi/) liquidity pool into weETHs accrues normal Ethereum staking rewards and will also be natively restaked with Symbiotic. Staking with weETHs on[ ether.fi ](http://ether.fi/) automatically restakes that ETH to Symbiotic and accrues normal staking rewards while allowing users to keep composability on their weETHs in other DeFi protocols. Being a liquid representation of staked Ethereum, the price of the token is aligned to the price of ETH.\n\nThrough these mechanisms, weETHs acts as a conduit for individuals to engage in Ethereum’s staking & restaking process with the added liquidity, making it easier for them to enter and exit staking positions while also benefiting from boosted rewards.\n\n**Motivation:**\n\n[ether.fi ](http://ether.fi/) is looking to seed a wstETH-weETHs pool on balancer to serve as a primary source of liquidity for weETHs on Ethereum. Incentivizing a Balancer pool will continue to boost the liquidity of the LRT on Ethereum. Higher liquidity ensures that traders and investors can easily enter or exit positions, which is essential for the overall usability and attractiveness of the LRT token within the DeFi ecosystem.\n\n**Specifications:**\n\n1. Governance: - Currently, the protocol utilizes a DAO and a governance token model to push large initiatives and objectives.\n\n2. Oracles: - The Protocol relies on an oracle for withdrawals and beacon state, however, the reliance on an oracle for beacon state is set to go away in an upcoming Ethereum upgrade. The Oracle is based on the hash consensus mechanism and run by the internal & external committee members.\n\n3. Audits: - Audit reports for the[ ether.fi ](http://ether.fi/) protocol are found on the GitBook page -[ Audits - ether.fi](https://etherfi.gitbook.io/etherfi/security/audits). The audits have been carried out by reputable firms such as Certik, Zellic, Nethermind, Omniscia and Solidified to ensure the security of the protocol. An audit competition was also recently completed through Hats Finance.\n4. Centralization vectors: - The centralization vectors primarily relate to the Oracle which is run by a multi-party committee. The price (staking rewards for rebasing) and the validator management (spinning up new validators and exiting them for liquidation) are also tied into the functionality of the protocol oracle.\n5. Market History: - weETHs has been deployed and functional since June '24. Market history and protocol information can be found here on the[ ether.fi ](http://ether.fi/) Dune dashboard -[ https://dune.com/ether_fi/etherfi ](https://dune.com/ether_fi/etherfi)\n6. Value: - The wstETH-weETHs pool on Balancer is intended to serve as one of the primary liquidity sources for the token on Ethereum. The pairing of wstETH with weETHs will maintain the originally intended smooth trading experience, while yielding more rewards for the liquidity providers.\n\nweETHs on Ethereum: 0x917cee801a67f933f2e6b33fc0cd1ed2d5909d88\n\nwstETH/weETHs Base pool on Balancer:[ Balancer 2 ](https://balancer.fi/pools/ethereum/v2/0x2ab8df7429f4fce60eb2c1233f0326767765e2f30000000000000000000006da)\n\n**Specification**\n\nTransaction: The Balancer Maxi LM Multisig eth:`0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function with the following arguments:\n\ngauge(address): `0x0Bb8B971AaF99eddfddE2e71736eBEBe8CC7769b`\n\ngaugeType(string): `Ethereum`",
+        "end_utc": "2024-10-28T18:00:00Z",
+        "similarity_score": 0.2276,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3082340.28108665,
+            0,
+            0
+          ],
+          "scores_total": 3082340.28108665,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-10-28T18:00:00",
+          "pre_tvl_avg": 714577556.0,
+          "post_tvl_avg": 766195573.5,
+          "abnormal_change": 7.2236,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.072236,
+          "abnormal_change_pct": 7.2236
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-10-28T18:00:00",
+          "pre_price_avg": 1.875358575,
+          "post_price_avg": 1.9267275000000001,
+          "abnormal_change": 2.7392,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.027392,
+          "abnormal_change_pct": 2.7392
+        }
+      }
+    },
+    {
+      "proposal_id": "0x7ff95888348cd78c99b28b1da88de6dceb73c9ac924a6ba85fb7508bfc781e29",
+      "cleaned": {
+        "proposal_id": "0x7ff95888348cd78c99b28b1da88de6dceb73c9ac924a6ba85fb7508bfc781e29",
+        "title": "[BIP-496] Enable osETH/ETH Gauge [Ethereum] with 10% emission cap",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-12-04T19:00:00Z",
+        "similarity_score": 0.2262,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 4078821.4733572905,
+        "margin_pct": 0.9999999189282699,
+        "scores_total": 4078821.804034431,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 37,
+        "total_votes": 37,
+        "first_vote_at": "2023-11-30T19:39:39Z",
+        "last_vote_at": "2023-12-04T16:54:39Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            9.897649011356235,
+            0.0,
+            0.12129011879122745
+          ],
+          [
+            1354.4088510363804,
+            0.0,
+            0.0
+          ],
+          [
+            253702.74715736834,
+            0.0,
+            0.0
+          ],
+          [
+            3823754.629086897,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.857394,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.014273,
+        "half_slope_diff": 27.712883
+      },
+      "raw": {
+        "id": "0x7ff95888348cd78c99b28b1da88de6dceb73c9ac924a6ba85fb7508bfc781e29",
+        "title": "[BIP-496] Enable osETH/ETH Gauge [Ethereum] with 10% emission cap",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/668\n\n## Summary\n\nProposal to add gauge support for the new [osETH/ETH Composable Stable](https://app.balancer.fi/#/1/pool/0xdacf5fa19b1f720111609043ac67a9818262850c000000000000000000000635) with a 10% gauge cap.\n\n## References/Useful links\n• [Website\n](https://stakewise.io) • [Documentation\n](https://docs-v3.stakewise.io/) • [Github Page\n](https://github.com/stakewise/v3-core) •  [Twitter](https://twitter.com/stakewise_io) - ~10K followers\n• [What is osETH?](https://stakewise.medium.com/what-is-oseth-a-deep-dive-into-the-overcollateralized-staked-ether-token-of-stakewise-v3-part-1-37d14e28282a)\n\n## Protocol Description\n\nStakeWise was the first non-custodial liquid staking solution on Ethereum, launched in early 2021, with a little over 100k ETH currently staked. After over a year of development and testing, the V3 upgrade is now live on Mainnet. StakeWise V3 is the (Gnosis) Safe of ETH staking, a free public good that aims to fully democratize the staking ecosystem and greatly improve the decentralisation of staked capital. Any entity can offer trustless, non-custodial staking-as-a-service via an open marketplace that gives stakers the ability to delegate to their preferred operators/staking solutions. For more details about StakeWise V3, please refer to the [StakeWise V3 Announcement](https://stakewise.medium.com/stakewise-v3-announcement-9e4fe73abdf2).\n\nStakeWise V3 features a liquid staking token, osETH, that any staker can mint to access DeFi. osETH minting is optional and can be done on-demand, for times when a liquid staking token is needed. The liquidity and integrations for osETH are provided by StakeWise DAO, creating a ready-made liquid staking ecosystem for any operator to plug into. The osETH token has in-built slashing protection due to its overcollateralisation and accrues yield from a highly diverse set of node operators. osETH is a new token that is launching with StakeWise V3 and, consequently, there is no historical price data to refer to.\n\nThe protocol is governed by StakeWise DAO, a [community-owned](https://docs.stakewise.io/governance/stakewise-dao#tokenomics) DAO with all voting rights falling to holders of SWISE, the StakeWise governance token.\n\n## Motivation\n\nosETH will be the main LST for StakeWise moving forward and the osETH-ETH Balancer pool will be the primary liquidity venue. A gauge is necessary to help bootstrap the pool’s TVL.\n\n## Specifications\n\n**1. Governance** \nThe StakeWise DAO is [community owned](https://docs.stakewise.io/governance/stakewise-dao#tokenomics) with all voting rights falling to holders of SWISE, the StakeWise governance token. The majority of the protocol’s smart contracts are immutable (incl. osETH). Contracts that are upgradable require a successful DAO vote followed by the approval of a Vault admin/owner to ensure users of the protocol retain full control over contract upgradeability.\n\n**2. Oracles** \nStakeWise relies on an Oracle network to accurately report validator balances to the protocol smart contracts. StakeWise has 11 leading commercial operators all acting under SLAs to ensure the Network runs efficiently (more information can be found [here](https://docs-v3.stakewise.io/protocol-overview-in-depth/oracles)).\n\n**3. Audits** \nHalborn and Sigma Prime ([reports are here](https://github.com/stakewise/v3-core/tree/main/audits)), alongside a public audit competition hosted by [Hats Finance](https://twitter.com/HatsFinance/status/1712166174459347001).\n\n**4. Centralization vectors**\nNo, both the StakeWise DAO and the Oracle network are decentralised.\n\n**5. Market History**\nNone, osETH is a newly deployed token.\n[Balancer pool link](https://app.balancer.fi/#/1/pool/0xdacf5fa19b1f720111609043ac67a9818262850c000000000000000000000635)\n[Gauge link](https://etherscan.io/address/0xc592c33e51A764B94DB0702D8BAf4035eD577aED)\n\n**6. Value**\nThis new Balancer pool will be the primary source of liquidity for the token.\n\n**Note:** The owner of the Pool is set to Balancer DAO and the Yield Protocol Fee has been disabled on this pool, thus not making it eligible for Core Pool status.\n\n**Specification**:\n\nThe Balancer Maxi LM Multisig eth:`0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function with the following arguments:\ngauge(address):`0xc592c33e51A764B94DB0702D8BAf4035eD577aED`\ngaugeType(string): `Ethereum`",
+        "end_utc": "2023-12-04T19:00:00Z",
+        "similarity_score": 0.2262,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            4078821.6386958607,
+            0,
+            0.16533857008269143
+          ],
+          "scores_total": 4078821.804034431,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-12-04T19:00:00",
+          "pre_tvl_avg": 884721094.0,
+          "post_tvl_avg": 927542887.0,
+          "abnormal_change": 4.8401,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.048401,
+          "abnormal_change_pct": 4.8401
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-12-04T19:00:00",
+          "pre_price_avg": 3.984835425,
+          "post_price_avg": 4.228889125,
+          "abnormal_change": 6.1246,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.061246,
+          "abnormal_change_pct": 6.1246
+        }
+      }
+    },
+    {
+      "proposal_id": "0x014758041154f79d7ed5d11414b352a110e2044b6a7af91dafe792415d0b3578",
+      "cleaned": {
+        "proposal_id": "0x014758041154f79d7ed5d11414b352a110e2044b6a7af91dafe792415d0b3578",
+        "title": "[BIP-493] Enable Ankr/ankrETh Gauge [Arbitrum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-12-04T19:00:00Z",
+        "similarity_score": 0.2241,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 4078870.504581002,
+        "margin_pct": 0.9999999405256546,
+        "scores_total": 4078870.74716917,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 36,
+        "total_votes": 36,
+        "first_vote_at": "2023-11-30T22:36:04Z",
+        "last_vote_at": "2023-12-04T16:53:10Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.9375,
+            0.0,
+            0.0625
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9722222222222222,
+          0.0,
+          0.027777777777777776
+        ],
+        "stability": [
+          0.9722222222222222,
+          0.0,
+          0.027777777777777776
+        ],
+        "early_ratio": [
+          0.9375,
+          0.0,
+          0.0625
+        ],
+        "vp_by_quartile": [
+          [
+            9.836794837808103,
+            0.0,
+            0.12129408404744858
+          ],
+          [
+            1354.4236352947457,
+            0.0,
+            0.0
+          ],
+          [
+            253709.23806953154,
+            0.0,
+            0.0
+          ],
+          [
+            3823797.127375422,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.857393,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.014273,
+        "half_slope_diff": 26.627894
+      },
+      "raw": {
+        "id": "0x014758041154f79d7ed5d11414b352a110e2044b6a7af91dafe792415d0b3578",
+        "title": "[BIP-493] Enable Ankr/ankrETh Gauge [Arbitrum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/664\n\n**Summary:**\n\n> Ankr proposes to the Balancer community the creation of an Ankr/ankrETH on Arbritrum with the Auto-bribing feature.\n> ankrETH is a form of ETH Liquid Staking from Ankr Staking that offers instant liquidity for your staked ETH, enabling you to connect your ankrETH tokens with DeFi platforms and earn several more layers of rewards with auto-bribes.\n> Ankr is a leader in RPC nodes with projects like Aave, 1inch and SushiSwap as clients and has ~$100M TVL across the Liquid Staking Offering.\n\n**References/Useful links:**\n\n> Link to:\n> • Website: https://www.ankr.com/\n> • Documentation: [Ankr Staking – Ankr](https://www.ankr.com/docs/staking/overview/)\n> • Github Page : [Ankr · GitHub](https://github.com/Ankr-network)\n> • Twitter: https://twitter.com/ankr https://twitter.com/ankrstaking\n> • Reddit: [Reddit - Dive into anything](https://www.reddit.com/r/Ankrofficial/)\n> • Telegram: Contact @ankrnetwork\n\n**Protocol Description:**\n\n> Ethereum Liquid Staking as provided by Ankr Staking offers instant liquidity for your staked ETH, enabling you to connect your ankrETH tokens with DeFi platforms and earn several more layers of rewards.\n> ankrETH is a reward-bearing token, meaning that the fair value of 1 ankrETH token vs. ETH increases over time as staking rewards accumulate.\n\n**Motivation:**\n\n> The purpose of this proposal is to allow this pool to qualify for BAL incentive distribution in order to deepen the liquidity on Balancer and allow for users to swap ankrETH, the ETH Liquid Staking Asset, for ETH with the help of Auto-bribes on hidden hand.\n> The intuition behind this is to remedy the capital inefficiency associated with providing liquidity since ankrETH is generating a yield from the Staking Rewards of ETH. As a result, users have an opportunity cost when providing liquidity since the other half of the ETH they provide does not generate any yield.\n> Therefore, the goal of this proposal is to utilize BAL incentives,Swap Fees and auto-bribes in order to mitigate this capital inefficiency effect.\n\n**Specifications:**\n\n> 1. **Governance:** ANKR token-holders can propose and vote for changes to the Ankr Staking system. If a change receives enough votes, the Ankr team implements the agreed-upon changes to the platform. Further information may be found here: ANKR Governance Mechanics – Ankr\n> 2. **Oracles:** Rate provider for [ankrETH ](https://optimistic.etherscan.io/address/0xCb0006B31e6b403fEeEC257A8ABeE0817bEd7eBa).\n> 3. **Audits:** Ethereum Liquid Staking smart contracts have undergone an external audit by Beosin Blockchain Security. The full audit report may be found below:\n> [Ethereum Liquid Staking – Ankr](https://www.ankr.com/docs/staking/liquid-staking/eth/overview/#audit-details)\n> 4. **Centralization vectors:** Centralisation Vectors: The Ankr 2.0 whitepaper introduced the vision for Ankr Network as a decentralized system where independent node operators work alongside Ankr nodes to power the growth and development of Web3. Further detailed information may be found here:\n> [Delegated ANKR token staking – Ankr](https://www.ankr.com/docs/staking/delegated-staking/ankr/overview/)\n> 5. **Market History:** https://www.coingecko.com/en/coins/ankr-staked-eth\n> 6. **Value:** The pool is intended to be the primary source of liquidity for ankrETH liquidity on Arbitrum and allow for a healthy stimulation of volume.\n\nPool address: [0x9f8ed1acfe0c863381b9081aff2144fc867aa773](https://app.balancer.fi/#/arbitrum/pool/0x9f8ed1acfe0c863381b9081aff2144fc867aa7730002000000000000000004d4)\nGauge address: [0x4e15b9184553740f5C822bd3d6169029D302e63e](https://etherscan.io/address/0x4e15b9184553740f5C822bd3d6169029D302e63e#code)\n\n**Specification**:\n\nThe Balancer Maxi LM Multisig eth:`0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function with the following arguments:\ngauge(address):`0x4e15b9184553740f5C822bd3d6169029D302e63e`\ngaugeType(string): `Arbitrum`\n\nAdditionally, this pool is requesting core pool status as per BIP-457",
+        "end_utc": "2023-12-04T19:00:00Z",
+        "similarity_score": 0.2241,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            4078870.625875086,
+            0,
+            0.12129408404744856
+          ],
+          "scores_total": 4078870.74716917,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-12-04T19:00:00",
+          "pre_tvl_avg": 884721094.0,
+          "post_tvl_avg": 927542887.0,
+          "abnormal_change": 4.8401,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.048401,
+          "abnormal_change_pct": 4.8401
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-12-04T19:00:00",
+          "pre_price_avg": 3.984835425,
+          "post_price_avg": 4.228889125,
+          "abnormal_change": 6.1246,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.061246,
+          "abnormal_change_pct": 6.1246
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x8b2dc6ca0f4276bce199ce97fc8d13cbc510170d4206b6a53f9a26250c0724ae",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "Proposal to enable Aave Boosted rETH/aWETH gauges on Balancer v3 L2s for Arbitrum, Base, and Optimism. The proposal is supported by timeline vote analysis and positive forum sentiment, aiming to enhance liquidity efficiency and yield opportunities for rETH on L2s.",
+    "key_arguments_for": [
+      "Transitioning from Balancer v2 to v3 with Aave Boosted pools improves capital efficiency and reduces incentive costs.",
+      "The proposal facilitates deeper liquidity and better trading efficiency by leveraging higher amplification in Composable Stable pools.",
+      "The rETH/aWETH pools will be the primary liquidity venue on L2s, supporting broader DeFi integrations and benefiting users.",
+      "Forum sentiment is positive, emphasizing the importance of bootstrapping TVL and encouraging liquidity depth."
+    ],
+    "key_arguments_against": [
+      "No explicit opposing arguments were observed in forum discussion or timeline analytics.",
+      "Small total voter count (3 voters) may limit the breadth of direct community input."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.balancer.fi/t/bip-827-enable-aave-boosted-reth-aweth-gauge-on-balancer-v3-l2s/6501",
+        "quote": "Positive forum sentiment with 1 positive and 2 neutral comments. First comment highlights the transition benefits and technical specifications."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "https://snapshot.org/#/balancer.eth/proposal/0x8b2dc6ca0f4276bce199ce97fc8d13cbc510170d4206b6a53f9a26250c0724ae",
+        "quote": "Timeline metrics show unanimous early and stable support for 'Yes, let's do it' option with a high lead ratio and stability."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-05-15T18:00:00Z",
+    "event_end_utc": "2025-05-19T18:00:00Z",
+    "event_time_utc": "2025-05-19T18:00:00Z",
+    "address_of_governance_token": "0xba100000625a3754423978a60c9317c58a424e3d",
+    "token_price_impact_pct": -0.4717,
+    "tvl_impact_pct": 2.8168,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        2745073.568804864,
+        0.0,
+        0.0
+      ],
+      "scores_total": 2745073.568804864,
+      "margin_abs": 2745073.568804864,
+      "margin_pct": 1.0
+    },
+    "simulation_reason": "Recommendation based on timeline analytics, forum sentiment, and historical lessons, not on final tally.",
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "• The timeline analysis shows consistent, early, and stable unanimous support for the 'Yes, let's do it' option, indicating strong voter confidence.\n• Forum sentiment is predominantly positive, supporting the proposal's goals of improving liquidity and capital efficiency via Aave Boosted pools.\n• Historical similar proposals to enable YieldFi and Safe Haven gauges on Balancer v3 also passed with strong support and led to positive TVL impacts, reinforcing confidence in this approach.\n• Market data shows modest TVL growth (+2.82%), indicating positive user response and protocol health improvement.\n• The recommendation aligns with aggregated forum opinion and voting timeline, reflecting community consensus to change and enhance the protocol.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x93aaad0c7e6b6bd69ea9ef9406ee0590361083e14f22ba2b90b198148d04b7c3",
+        "title": "[BIP-825] Enable YieldFi yUSD/USDC gauges on Balancer v3 Arbitrum new pool deployment",
+        "end_utc": "2025-05-12T18:00:00Z",
+        "summary": "[BIP-825] Enable YieldFi yUSD/USDC gauges on Balancer v3 Arbitrum new pool deployment closed on 2025-05-12T18:00:00Z. Timeline analytics noted 6 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Moderate text overlap (score 0.21)",
+        "market_response": "token -1.99%; TVL +0.87%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0x04f8cf4b93cca840d55377bb1c7b321cbdbaea5128d3b1a67e7ab2cab2c9e993",
+        "title": "[BIP-824] Enable YieldFi yUSD/USDC gauges on Balancer v3 Base new pool deployment",
+        "end_utc": "2025-05-12T18:00:00Z",
+        "summary": "[BIP-824] Enable YieldFi yUSD/USDC gauges on Balancer v3 Base new pool deployment closed on 2025-05-12T18:00:00Z. Timeline analytics noted 6 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Moderate text overlap (score 0.21)",
+        "market_response": "token -1.99%; TVL +0.87%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -0.4717,
+    "ex_post_tvl_impact_pct": 2.8168,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -0.47%; TVL +2.82%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 0,
+    "Positive": 1,
+    "Neutral": 2,
+    "total_comments": 3
+  }
+}

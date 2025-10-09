@@ -1,0 +1,262 @@
+{
+  "captured_at_utc": "2025-10-07T17:48:03.936560+00:00",
+  "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x0e646ace733f4a098ac7036dbadad8465ea65c8e3c485e014501d41b7b439d87",
+  "focus": null,
+  "votes_count": 3602,
+  "timeline_metrics_current": {
+    "unique_voters": 3602,
+    "total_votes": 3602,
+    "first_vote_at": "2024-08-15T16:53:41Z",
+    "last_vote_at": "2024-08-22T16:51:43Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        7210011.079757572,
+        32224.566893034986,
+        12106.52607422668
+      ],
+      [
+        1733975.692065394,
+        23888.611405465686,
+        7514677.500494903
+      ],
+      [
+        33595097.382596,
+        71595.70897053368,
+        16054866.508357275
+      ],
+      [
+        82219942.20893171,
+        40095.47031349935,
+        9258535.93098619
+      ]
+    ],
+    "spike_index": 0.150984,
+    "spike_follow_support_ratio": 0.980631,
+    "stairwise_ratio": 0.000718,
+    "half_slope_diff": 976.395775
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x07bea6e32d32b4d3ed20faec6950c3546e2319bc2497716c53ee05995d4a00eb",
+      "title": "Furucombo's Misuse of Funds",
+      "author": "0xAbAbE91A907fAdff921720C43ABe4098e7245E99",
+      "end_utc": "2024-07-26T14:45:52Z",
+      "timeline_metrics": {
+        "unique_voters": 4296,
+        "total_votes": 4296,
+        "first_vote_at": "2024-07-19T14:47:04Z",
+        "last_vote_at": "2024-07-26T14:44:52Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.996438,
+            0.003562,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9981378026070763,
+          0.00186219739292365,
+          0.0
+        ],
+        "stability": [
+          0.9981378026070763,
+          0.00186219739292365,
+          0.0
+        ],
+        "early_ratio": [
+          0.9964381121994658,
+          0.003561887800534283,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            28546258.691262137,
+            5639.3065689573805,
+            9281.583886210376
+          ],
+          [
+            29970323.644828606,
+            3003.0570089891444,
+            2659.1256995244726
+          ],
+          [
+            30170382.332354777,
+            6498740.28588099,
+            263360.9360533861
+          ],
+          [
+            50093467.110860534,
+            5642.580975018444,
+            269147.31572343205
+          ]
+        ],
+        "spike_index": 0.129383,
+        "spike_follow_support_ratio": 0.996705,
+        "stairwise_ratio": 0.000972,
+        "half_slope_diff": -711.010323
+      },
+      "price_impact_pct": -3.9344,
+      "tvl_impact_pct": 0.2231,
+      "similarity": 0.0853,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "FOR - Ban Furucombo from the Arb",
+        "margin_abs": 132267406.5488723,
+        "scores_total": 145837905.97110268,
+        "margin_pct": 0.9069480644838707
+      }
+    }
+  ],
+  "similar_proposals_data": [],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x0e646ace733f4a098ac7036dbadad8465ea65c8e3c485e014501d41b7b439d87",
+    "selected_choice_label": "For",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "Proposal to temporarily extend the Delegate Incentive System for up to two months to maintain delegate engagement while the improved v1.1 system is developed. The program has proven cost-efficient and effective in boosting governance participation.",
+    "key_arguments_for": [
+      "Maintains delegate motivation and participation continuity during transition to improved v1.1 program.",
+      "Current Delegate Incentive System is cost-efficient with substantial funds still available in multisig.",
+      "Forum sentiment shows broad community support emphasizing stability and further refinement.",
+      "Similar past proposals with positive governance impact and no negative market consequences."
+    ],
+    "key_arguments_against": [
+      "Concerns about lack of robust evidence demonstrating effectiveness so far.",
+      "Risk of consolidating power among small group of delegates without assessing contribution quality.",
+      "Some prefer analysis and improvement before extension to avoid reinforcing existing issues."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Arbitrum Foundation Forum Proposal Thread",
+        "quote": "Most comments support extension citing positive governance impact and need for continuity; some caution about incentive effectiveness and power centralization."
+      },
+      {
+        "source_tool": "registry_lookup",
+        "reference": "arbitrumfoundation.eth",
+        "quote": "Governance token address 0x912CE59144191C1204E64559FE8253a0e49E6548 identified for ARB token."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Proposal voting timeline",
+        "quote": "Unanimous lead for 'For' option across all quartiles, strong stability and early vote ratio indicate confident support."
+      },
+      {
+        "source_tool": "govnews_search_governance_news",
+        "reference": "Adjacent similar proposal",
+        "quote": "Furucombo's Misuse of Funds proposal had similar successful vote and no adverse market impact, validating positive precedent."
+      }
+    ],
+    "available_choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2024-08-15T16:52:41Z",
+    "event_end_utc": "2024-08-22T16:52:41Z",
+    "event_time_utc": "2024-08-22T16:52:41Z",
+    "address_of_governance_token": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+    "token_price_impact_pct": 9.7301,
+    "tvl_impact_pct": 6.335,
+    "actual_vote_result": {
+      "winner_label": "For",
+      "winner_index": 0,
+      "scores": [
+        124759026.3633511,
+        167804.35758253364,
+        32840186.465912603
+      ],
+      "scores_total": 157767017.18684623,
+      "margin_abs": 91918839.8974385,
+      "margin_pct": 0.582624
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'For' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Voting timeline metrics show overwhelming and stable support for 'For' option across all quartiles.\n- Market impact is positive with notable price and TVL increases during the event window.\n- Forum sentiment analysis reveals majority positive and supportive comments emphasizing continuity and refinement, though some caution about incentive effectiveness and power concentration.\n- Similar past proposals with positive outcomes reinforce the rationale for extension.\n- Recommendation aligns with aggregated community sentiment, suggesting the vote reflects genuine community views and supports organizational long-term benefit.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x07bea6e32d32b4d3ed20faec6950c3546e2319bc2497716c53ee05995d4a00eb",
+        "title": "Furucombo's Misuse of Funds",
+        "end_utc": "2024-07-26T14:45:52Z",
+        "summary": "Furucombo's Misuse of Funds closed on 2024-07-26T14:45:52Z. Timeline analytics noted 4296 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.09)",
+        "market_response": "token -3.93%; TVL +0.22%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 9.7301,
+    "ex_post_tvl_impact_pct": 6.335,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +9.73%; TVL +6.33%"
+  },
+  "agentic_ai_choice": "For",
+  "actual_outcome": "For",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 6,
+    "Positive": 12,
+    "Neutral": 27,
+    "total_comments": 45
+  }
+}

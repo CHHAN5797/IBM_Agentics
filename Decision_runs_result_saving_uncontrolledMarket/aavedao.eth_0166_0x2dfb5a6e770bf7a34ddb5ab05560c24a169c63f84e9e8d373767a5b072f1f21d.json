@@ -1,0 +1,959 @@
+{
+  "captured_at_utc": "2025-10-03T14:55:22.208279+00:00",
+  "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0x2dfb5a6e770bf7a34ddb5ab05560c24a169c63f84e9e8d373767a5b072f1f21d",
+  "focus": null,
+  "votes_count": 225,
+  "timeline_metrics_current": {
+    "unique_voters": 225,
+    "total_votes": 225,
+    "first_vote_at": "2024-10-23T09:43:51Z",
+    "last_vote_at": "2024-10-26T09:32:20Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        274422.0673105815,
+        130.48587284123414,
+        0.010808594540503383
+      ],
+      [
+        451626.8157818615,
+        20.204325031117882,
+        1.315008589268157
+      ],
+      [
+        93287.25537718947,
+        0.0,
+        1.8223412110945008
+      ],
+      [
+        10026.621516572615,
+        0.0,
+        1.10993764541945
+      ]
+    ],
+    "spike_index": 0.441712,
+    "spike_follow_support_ratio": 0.999897,
+    "stairwise_ratio": 5.7e-05,
+    "half_slope_diff": -0.973353
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x68ce69b5e71df1d77c2ad814a5d41162a40be54473576ff590d0b1bb5afde4a7",
+      "title": "[ARFC] BGD. Aave v3.2: liquid eModes",
+      "author": "0xf71fc92e2949ccF6A5Fd369a0b402ba80Bc61E02",
+      "end_utc": "2024-09-24T09:21:11Z",
+      "timeline_metrics": {
+        "unique_voters": 271,
+        "total_votes": 271,
+        "first_vote_at": "2024-09-21T09:27:50Z",
+        "last_vote_at": "2024-09-24T09:20:51Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.822917,
+            0.177083,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9372693726937269,
+          0.06273062730627306,
+          0.0
+        ],
+        "stability": [
+          0.9372693726937269,
+          0.06273062730627306,
+          0.0
+        ],
+        "early_ratio": [
+          0.8229166666666666,
+          0.17708333333333334,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            192975.069906497,
+            2.284542095020639,
+            0.003
+          ],
+          [
+            21890.781017040852,
+            1.8223412110945008,
+            0.197803743762205
+          ],
+          [
+            109683.31412909186,
+            0.04540113310210857,
+            0.02190037198030026
+          ],
+          [
+            147230.88821344232,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.408465,
+        "spike_follow_support_ratio": 0.993308,
+        "stairwise_ratio": 3.5e-05,
+        "half_slope_diff": -5.864891
+      },
+      "price_impact_pct": 2.5184,
+      "tvl_impact_pct": 4.3118,
+      "similarity": 0.1562,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "For",
+        "margin_abs": 471775.9009816332,
+        "scores_total": 471784.42825462756,
+        "margin_pct": 0.9999819254886688
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0xf453667458e093dcd5bd986e0a62b4ef9dc914dca56ef97a8dc28ca89af6c8d3",
+      "cleaned": {
+        "proposal_id": "0xf453667458e093dcd5bd986e0a62b4ef9dc914dca56ef97a8dc28ca89af6c8d3",
+        "title": "[ARFC] BGD <> Aave Phase 3 (2 scopes)",
+        "author": "0xf71fc92e2949ccF6A5Fd369a0b402ba80Bc61E02",
+        "end_utc": "2024-03-20T13:36:26Z",
+        "similarity_score": 0.411,
+        "winning_option": "For",
+        "winning_option_index": 0,
+        "margin_abs": 403738.7659485614,
+        "margin_pct": 0.993646583409499,
+        "scores_total": 406320.2880074451,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 883,
+        "total_votes": 883,
+        "first_vote_at": "2024-03-17T13:37:01Z",
+        "last_vote_at": "2024-03-20T13:34:37Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            205076.60661145378,
+            2.1597656159472503,
+            65.97897499780511
+          ],
+          [
+            49992.25700633207,
+            4.339197543106215,
+            6.754423020996035
+          ],
+          [
+            26883.552440384734,
+            0.21257927293613824,
+            1200.4951763087088
+          ],
+          [
+            123063.80040957929,
+            19.90947807567002,
+            4.22194486057466
+          ]
+        ],
+        "spike_index": 0.453166,
+        "spike_follow_support_ratio": 0.211197,
+        "stairwise_ratio": 9.8e-05,
+        "half_slope_diff": -1.680304
+      },
+      "raw": {
+        "id": "0xf453667458e093dcd5bd986e0a62b4ef9dc914dca56ef97a8dc28ca89af6c8d3",
+        "title": "[ARFC] BGD <> Aave Phase 3 (2 scopes)",
+        "author": "0xf71fc92e2949ccF6A5Fd369a0b402ba80Bc61E02",
+        "body": "# Summary\nPresent to the Aave DAO a proposal for BGD to continue as provider of development services, after Phase 1 and 2.\n\n---\n---\n\n# 1. Motivation. Aave and BGD 1, 2….3\n\nMay 9th 2022, we presented Aave <> BGD Phase 1, a proposal for services to the DAO, covering a pretty extensive scope on the big majority of Aave sub-systems; development and security related.\n\nDuring the following 15 months, we [did or participated in dozens of projects](https://governance.aave.com/t/bgd-working-day-365/13033)  of technical nature for the Aave DAO, and more importantly, we set precedent that a model of a fully independent company providing services to a decentralised entity can work.\n\nSeptember 4th 2023, we presented Aave <> BGD Phase 2, with similar type of scope as Phase 1, but with slightly different objectives in mind: the technical foundation of the Aave DAO was pretty solid from Phase 1, and possible to iterate on top of it, with a more concrete scope.\nAdditionally, we set ourselves as a goal to study how to introduce extra technical parties to service specific needs of the DAO, helping more on the decentralisation of the organisation, but without disturbing operations and delivery.\n\nAlso, we proposed a way shorter engagement (6 months), which we thought was more optimal for the DAO to have capacity to manoeuvre. The outcome of this work can be found [HERE](https://governance.aave.com/t/bgd-aave-bored-ghosts-phase-2-recap/16791).\n\n\n\nWe think that our services to the DAO on both Phases had played a role on Aave staying in top of its category for years in so nascent field, and the Aave codebase being used in other products, accounting to close to 75% of total market share category.\n\nNow we present Phase 3, continuist, but with some important changes in terms of scope.\n\n---\n---\n\n# 2. Specification. Aave <> BGD Phase III. The scope\n\nThis time, we want to explicit divide our proposal in 2 different and explicit components, each one with its separate scope, budget and duration characteristics.\n\n## Scope 1. Aave technical maintenance, improvements, security coordination and tech advisory to the DAO\n\nThis scope is the continuist component historically performed by BGD for the DAO, and will be composed of the following items:\n\n- Maintain, improve and consolidate all the Aave tooling introduced in Phases I & II, including but not limited to Aave Address Book, Aave Helpers, Aave Proposals, Risk Stewards, Seatbelt and Killswitch.\n- Maintain and improve Aave Governance v3, a.DI and Aave Robot, together with the tooling surrounding them.\n    \n    The following new items will be delivered, consequence of the research done on Phase 2:\n    \n    - Extend coverage of voting networks to rollups, apart from the current Polygon PoS and Avalanche C-Chain.\n    - Allow voting with AAVE tokens held in non-Ethereum networks.\n    - Granular and generalised consensus rules for a.DI, together with different planned optimisations.\n- Propose further improvements on top of the upcoming Aave 3.1.\n- Different v3 maintenance tasks with important development requirements, including:\n    - Improve asset off-boarding procedures.\n    - Complete removal of stable debt logic.\n- Act as reviewers of Aave <> Immunefi for all current Aave ecosystem, not including GHO (Avara currently being the reviewer). Additionally, doing proper maintenance of the bug bounty program.\n- Act as security coordinator of the Aave ecosystem, including:\n    - Continuously evaluate potential technical risks for Aave.\n    - Design specific protection strategies in the event of any vulnerability affecting Aave.\n    - If arising, create governance proposals to mitigate any type of problem affecting Aave.\n    - Coordinate with the Aave Guardian for protective emergency actions.\n- Support with further technical off-boarding strategies for legacy versions of Aave (v1, v2) in a safe manner, both for the DAO and the users of the protocol.\n- Advise other contributors on which security procedures to apply for their developments, when required.\n- Evaluate new upcoming high-level technical implications/risks for the protocol, for example, new types of assets being listed.\n- Generally advise other contributors, whenever feedback from an entity expert on the Aave protocol is required. This includes but is not limited to contributors on the risk, treasury, security reviews and miscellaneous fields.\n- Review governance proposals on pre-onchain stage, not as a full security audit, but in order to verify that we don’t see any integration problem with Aave’s smart contracts and good practises.\n\n---\n\n*Scope 1. Aave technical maintenance, improvements, security coordination and tech advisory to the DAO*\n\n**DURATION**: same as with Phase 2, 6 months, starting from proposal execution.\n\n**BUDGET**: as some items are not included in the scope (more later), the budget has been reduced from Phase 2. 1’600’000 in stablecoins and 5’000 AAVE, 60% paid up-front and 40% streamed during the 6 months engagement.\n\n\n## What is NOT part of the scope\n\n- We are a technical provider of the community, we don’t do any type of business development and/or growth, that should be responsibility of other parties.\n- We don’t do security reviews on major developments of other contributors. We offer our security advisory for minor projects solely benefiting the Aave DAO, but on bigger scopes (e.g. something like GHO), that is up to parties engaged specifically on security, like Certora.\n- We will provide feedback on design of projects that we don’t lead only whenever the project is 1) of technical nature and 2) the final design is flagged as “ready” by the contributor.\nGiven our expertise, we have pretty strong stand in architecture and design decisions, which can create conflicts if no framework is defined.\n- We only work on projects with TEMP CHECK Snapshot passed (e.g. reviews). With the activity on the DAO increasing day by day, unless a filtering of projects is applied, it is not really manageable for us to support any project in pre-TEMP CHECK stage, unless we identified a clear need from our side.\n- We are not running services on behalf of the DAO, we design them to be ran in a decentralised manner, or by parties with the proper role to do so.\nAny tool we decide to run on our infrastructure (e.g. hosting of one instance of the Aave Governance v3 interface) is our own decision, outside of the scope of engagement.\n\n---\n---\n\n## Scope 2: Aave Safety Module - Code A\n\nAs commented before, we believe now the Aave DAO is in a really solid stage of their current systems, quite future-proof and ready to scale:\n\n- Aave v3 is a solid liquidity layer, on which is possible to iterate and improve.\n- Aave Governance v3 is probably the most advanced on-chain governance system in production.\n- a.DI is a totally generic bridging layer, that can be used for any cross-chain communication need on the Aave ecosystem, in a secure and scalable manner.\n- Aave Robot is a solid automation layer, integrated with Chainlink Automation, but flexible enough for any technology.\n\nMore in the line of innovative projects like Aave Governance v3, we propose to create a completely new system in an Aave component which requires improvement: the Aave Safety Module.\n\n\n### Aave Safety Module: Code A\n\nSafety Module Code A is the major project on the innovation side of this scope, but different to previous cases, our proposed approach is different: at the moment, we will not disclose a detailed description of it, as we think this is the right strategic approach for the DAO.\n\nHowever, we can say the following about Code A:\n\n- It will change completely the dynamics of the Safety Module and its components, including stkGHO, stkAAVE and stkABPT.\n- More efficient mechanism than the current.\n- Improved use experience.\n- Heavily improved dynamics for builders to build on top, but still batteries included.\n- Affecting importantly AAVE tokenomics.\n- Holistically designed, taking into account Aave v3 and GHO.\n- Directly/indirectly benefiting any future project of the DAO.\n\nWe are aware this requires some trust by the community on our research and execution capabilities (which is reflected on the payment schedule), but considering that the main beneficiary will be explicitly the DAO and our history of services, we think it is acceptable.\n\n---\n\n*Scope 2. Safety Module Code A*\n\n**DURATION**: this scope is not continuous like Scope 1, but our estimation is similar for full completion, approximately during the next 6 months to have everything fully ready and in production.\nHowever, delivery and communications will definitely be iterative, with extensive details of Project A to be disclosed in the first 2 months, and highly probably some of its components.\n\n**BUDGET**: 1’900’000 in stablecoins and 7’500 AAVE, with the following schedule:\n\n- 40% upfront.\n- 60% in a delayed payment in 4-months from now, when we estimate to be in good stage of completion.\n\n---\n---\n\n## Terms of Service\n\n- **Major projects IP and licensing belongs to the Aave DAO**. As a service provider to a DAO like Aave, we have an obligation to defend the interests of our customer. For that reason, the major software we have produced during our engagement have been licensed to the Aave DAO governance smart contracts. This applies but is not limited for example to Aave Governance v3, a.DI or others; systems that we consider highly innovative and not only improve the efficiency of Aave, but increase the overall value of the technology owned by the DAO.\n    \n    To insist on the previous fundamental implication: \n    \n    - The Aave DAO is the sole owner of the intellectual property and licensing of those projects.\n    - It is entirely up to the DAO to decide how to use and/or commercialise them, not to BGD Labs.\n    - Our benefit from those projects is the fee we receive from the DAO for developing the software.\n    \n    Even if other models can be explorer, from our point of view, this is a pretty solid contribution model for the innovation side of the DAO.\n    \n- **BGD doesn’t decide what gets activated/applied in Aave**. We create the software and the technical proposals to activate said software, but it is and will always be up to the DAO governance to decide if that software should be enabled in production.\n- **No software is flawless, but we pursue it**. Historically, no major problem has been detected on the developments we did for the DAO, but it is impossible to assure from our side that all software will be flawless. However, we have a firm compromise of always following solid security standards and procedures, to minimise any potential impact.\n\n---\n\n# 3. Next steps\n\nIf this ARFC Snapshot is positive, we will proceed with an on-chain governance proposal that will serve as formal and binding agreement for services between the Aave DAO and BGD Labs, on the terms defined.",
+        "end_utc": "2024-03-20T13:36:26Z",
+        "similarity_score": 0.411,
+        "vote_result": {
+          "choices": [
+            "For",
+            "Against",
+            "Abstain"
+          ],
+          "scores": [
+            405016.2164677495,
+            26.62102050765962,
+            1277.4505191880846
+          ],
+          "scores_total": 406320.2880074451,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2024-03-20T13:36:26",
+          "pre_tvl_avg": 11035982849.5,
+          "post_tvl_avg": 10530939581.0,
+          "abnormal_change": -4.5763,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.045763,
+          "abnormal_change_pct": -4.5763
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2024-03-20T13:36:26",
+          "pre_price_avg": 116.36358179999999,
+          "post_price_avg": 120.093680215,
+          "abnormal_change": 3.2056,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.032056,
+          "abnormal_change_pct": 3.2056
+        }
+      }
+    },
+    {
+      "proposal_id": "0xebf0b33be0c3784b2928112414f08e31ac57705f49d46668bfef6fa6f761141d",
+      "cleaned": {
+        "proposal_id": "0xebf0b33be0c3784b2928112414f08e31ac57705f49d46668bfef6fa6f761141d",
+        "title": "[ARFC] Continuous Security Proposal Aave <> Certora",
+        "author": "0xF1dF824419879Bb8a7E758173523F88EfB7Af193",
+        "end_utc": "2024-10-15T08:01:32Z",
+        "similarity_score": 0.1741,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 766461.288574251,
+        "margin_pct": 0.9999951327753187,
+        "scores_total": 766465.0191317095,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 233,
+        "total_votes": 233,
+        "first_vote_at": "2024-10-12T08:13:37Z",
+        "last_vote_at": "2024-10-15T08:00:09Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            684807.7239176098,
+            1.8240306914155633,
+            0.038087886659006476
+          ],
+          [
+            20272.932797302525,
+            0.004047263898381908,
+            9.2988535153209e-05
+          ],
+          [
+            61375.31558702826,
+            0.0,
+            0.03622067273904682
+          ],
+          [
+            7.144350266272999,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.396633,
+        "spike_follow_support_ratio": 0.999998,
+        "stairwise_ratio": 3.2e-05,
+        "half_slope_diff": -8.149157
+      },
+      "raw": {
+        "id": "0xebf0b33be0c3784b2928112414f08e31ac57705f49d46668bfef6fa6f761141d",
+        "title": "[ARFC] Continuous Security Proposal Aave <> Certora",
+        "author": "0xF1dF824419879Bb8a7E758173523F88EfB7Af193",
+        "body": "## Author: Certora\n\n## Date: 2024-20-09\n\n----------\n\n# Summary\n\nWith 2.5 years of continuous collaboration and contribution to Aave’s ecosystem behind us, we’re as excited about the protocol's future as we were on day one!\n\nWe offer an extension of our engagement with the DAO for a total period of 12 months. The scope of our offering is divided into 2 parts for transparency on pricing and operational commitment:\n\n1. Extending the [existing services](https://governance.aave.com/t/arfc-continuous-security-proposal-aave-certora/15732) for Aave V3, which include:\n\n  1. A full-time dedicated team available to consult, research, and review maintenance work, and new developments.\n  2. Full ownership over governance proposal reviews - reviewing every governance proposal initiated on-chain.\n  3. 24/7 availability for incident response, supporting the technical providers in the investigation and mitigation of emerging bugs.\n\nNote that the scope includes all existing V3 instances and all future EVM-based V3 instances.\n\nThe price for the above scope is $1.7M. ⅔ of the price, $1.15M, will be made in Gho and ⅓, $0.55M, in AAVE.\n\n2. Safeguarding transactions against unknown attacks\n\n  1. We will develop Safeguard, a modified Ethereum client based on geth client for real-time monitoring and invariant checking for Aave V3.\n  2. We will write and monitor the invariants in real time to add another layer of security to the protocol and collaborate with the relevant entities to investigate and mitigate any suspicious transactions.\n\nNote that Safeguard is a complementary security service we provide free of charge for all existing AAVE V3 instances and all future EVM-based V3 instances.\n\nPrice Explanation\n\nLast year, we reduced our prices from $2.7M to $1.5M to reflect the bear market. This year, we suggest a small increase to cover the rise in our costs.\n\nOur regular annual price for professional services is $2.7M. We decided to reduce the price by 37% to $1.7M, to reflect our commitment to Aave’s security.\n\nAs in previous years, we request a ⅔-⅓ price breakdown of stablecoin and AAVE, respectively. As service providers and DAO members, we are strong believers in the alignment of long-term players with the protocol. Over the years, not a single AAVE token we received was sold, and the governance power was put to work through delegation to both ACI and StableLabs, which we track closely.\n\n# Background and Motivation\n\nIn March 2022, we presented [a proposal to serve as a DAO security provider](https://governance.aave.com/t/continuous-formal-verification/6308?u=certora), collaborating with the other technical contributors to help Aave deploy the finest and most secure product on the market. In the next six months, we collaborated with both BGD Labs and Aave Labs on several high-profile projects, including the AAVE token V3, governance cross-chain bridge, and Gho token.\n\nSince then, we have continuously served the DAO as a security provider, assisting with dozens of new feature deployments and protocol improvement upgrades ([Sept 2022 - Sept 2023](https://governance.aave.com/t/security-and-agility-of-aave-smart-contracts-via-continuous-formal-verification/10181/19?u=certora), [Sept 2023 - Sept 24](https://docs.google.com/document/d/1RoJPYxxf_9MAlJ6hWdl5JRHHwMW8aXGjTBGX2c3PQv0/edit?usp=sharing)), preventing several critical bugs from going live and assisting with mitigation of live bugs upon emergence.\n\nIn addition to conducting security reviews and formal verification, we also:\n\n1. Conducted several focused research and investigation efforts of components and features within the ecosystem, reporting to the developing entities about the results and recommending actions to be taken.\n2. Led 6 community efforts to review and formally verify new and existing Aave code. This included extensive education of the independent researchers community on the protocol and ecosystem as a whole.\n3. Took full ownership of on-chain governance proposal reviews, reviewing so far 153 proposals, finding 4 bugs since February.\n\n  1. We’re also continuously working with BGD Labs to improve their AIP review tooling - [Seatbelt](https://github.com/bgd-labs/seatbelt-gov-v3).\n  2. In addition to developing a complementary tool that helps highlight potential failure points and ensure the robustness of the layered review process.\n\n4. Assist with incident response investigations and mitigations.\n5. Following successful voting, on August 2024 we admitted our roles as signers for both the governance guardian and protocol emergency guardian.\n\n  1. We will continue to act in full trust of the DAO and in collaboration with the rest of the contributing parties to train and act according to the DAO’s best interest.\n\nWith the current engagement coming to an end, we propose our services for the fourth time, offering new contribution channels to the ecosystem in addition to the existing ones.\n\n# Scope\n\nWe present the suggested scope for the following year:\n\n* Year-round availability of a dedicated team for review of new code. This includes manual reviews and [formal verification](https://medium.com/certora/certora-technology-white-paper-cae5ab0bdf1) of smart contracts, as well as the use of additional tools as necessary.\n\n* 24/7 availability for incident response investigations and mitigation. Of course, this is in full collaboration with the relevant developing entities and BGD Labs, the DAO's security coordinator.\n\n* Full responsibility for reviewing every AIP that goes on-chain, preventing any faulty or malicious proposals from being executed and ensuring the highest-standard procedures are met.\n\n* We will develop an invariant-based monitoring system, called Safeguard, with invariants specifically tailored for Aave. The invariants will be written by Certora, assisted by BGD Labs for Aave V3 related components and Aave Labs for Gho related components. Alerts, results and data will be shared with BGD Labs as the system’s security coordinators.\n  * Since development is still in the early stages and it’s still undetermined when Safeguard will be up and running in stable form, bringing value to the DAO, we offer this at no additional cost on a best-effort basis.\n* We will continue to develop our governance proposals review tool to improve the overall tooling for the DAO in this domain.\nThe tool is currently in an alpha version and used solely by Certora. However, on December 1st, we’re expecting to release a beta version to the other service providers to get their feedback and feature requests. In a later stage, we plan to release the tool for public use.\n\nThe annual price for the project is $1.7M: $1.15M is paid in Gho vested linearly over one year, and $550,000 is paid in AAVE tokens vested linearly over one year. A 30-day termination is possible after a vote.\n\n# Specification\n\nThe payload will create 2 payment streams to the address 0x0F11640BF66e2D9352d9c41434A5C6E597c5e4c8 for a duration of 365 days starting from the end of the previous engagement (Sept. 11, 2024).\n\n* Create a payment stream of $1.15M Gho to 0x0F11640BF66e2D9352d9c41434A5C6E597c5e4c8 for a total of 365-Delta days.\n* Create a payment stream of $0.55M worth of AAVE to 0x0F11640BF66e2D9352d9c41434A5C6E597c5e4c8 for a total of 365-Delta days.\n\nWhere Delta is the number of days from September 11th until execution.\n\nPrice of AAVE will be determined using a 30-days average.\n\n# Next Steps\n\n1. Gather community feedback on this ARFC.\n2. If consensus is reached, escalate this proposal to ARFC snapshot stage.\n3. If ARFC snapshot outcome is YAE, escalate to AIP stage.\n\n# Disclaimer\n\nCertora is presenting this ARFC independently and is not compensated by any third party for creating this ARFC.\n\n# Copyright\n\nCopyright and related rights waived via CC0.",
+        "end_utc": "2024-10-15T08:01:32Z",
+        "similarity_score": 0.1741,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "NAY",
+            "Abstain"
+          ],
+          "scores": [
+            766463.1166522063,
+            1.8280779553139452,
+            0.0744015479332065
+          ],
+          "scores_total": 766465.0191317095,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2024-10-15T08:01:32",
+          "pre_tvl_avg": 12277910419.0,
+          "post_tvl_avg": 12964988692.0,
+          "abnormal_change": 5.5961,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.055961,
+          "abnormal_change_pct": 5.5961
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2024-10-15T08:01:32",
+          "pre_price_avg": 158.720285485,
+          "post_price_avg": 155.913324885,
+          "abnormal_change": -1.7685,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.017685,
+          "abnormal_change_pct": -1.7685
+        }
+      }
+    },
+    {
+      "proposal_id": "0x7f4941aff652cf2a41f47bc58220a952e4894fdc16e27a975045faa9c458da19",
+      "cleaned": {
+        "proposal_id": "0x7f4941aff652cf2a41f47bc58220a952e4894fdc16e27a975045faa9c458da19",
+        "title": "[TEMP CHECK] AAVEnomics update",
+        "author": "0xF1dF824419879Bb8a7E758173523F88EfB7Af193",
+        "end_utc": "2024-08-03T12:23:07Z",
+        "similarity_score": 0.1725,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 703558.8236493707,
+        "margin_pct": 0.9999966618903569,
+        "scores_total": 703561.1722137042,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 252,
+        "total_votes": 252,
+        "first_vote_at": "2024-07-31T12:30:10Z",
+        "last_vote_at": "2024-08-03T10:20:18Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            235021.88913447232,
+            1.00389280654329,
+            0.09039156252331701
+          ],
+          [
+            336065.0923081288,
+            0.001226650370619887,
+            0.026704061073121173
+          ],
+          [
+            110298.89526711946,
+            0.007576107534909462,
+            0.0
+          ],
+          [
+            22174.062674005218,
+            0.10303879046546524,
+            0.0
+          ]
+        ],
+        "spike_index": 0.264986,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 7.9e-05,
+        "half_slope_diff": -26.074773
+      },
+      "raw": {
+        "id": "0x7f4941aff652cf2a41f47bc58220a952e4894fdc16e27a975045faa9c458da19",
+        "title": "[TEMP CHECK] AAVEnomics update",
+        "author": "0xF1dF824419879Bb8a7E758173523F88EfB7Af193",
+        "body": "---\n### [TEMP CHECK] AAVEnomics update\n### Author: ACI\n###  Date: 2024-07-25\n---\n### Simple Summary:\n\nThis proposal seeks governance feedback and consensus on leveraging the Safety Module Umbrella update to create a clear path and roadmap related to the protocol \"fee switch\", defined as updated \"AAVEnomics\".\n\n## Motivation\n\n### Before we start\n\nThis proposal leverages the https://governance.aave.com/t/bgd-aave-safety-module-umbrella/18366 proposal, it is strongly advised to read it before diving into the current proposal.\nThe current proposal has been peer-reviewed by Aave service providers and active Aave DAO community representatives & delegates.\n\n### Introduction\n\nThe Aave protocol is the clear market leader in the liquidity vertical and is focused on expanding in both the stablecoin and bridging verticals. The protocol's TVL and net profit growth have largely outpaced market conditions thanks to the coordinated efforts of service providers appointed by DAO governance.\nThe Aave protocol is also the clear leader on every network Aave has deployed to, and when given a choice, DeFi users leverage Aave over alternatives.\nThis has allowed the Aave DAO not only to \"cover its own bills\" but also has built [a large treasury of ETH and stablecoins](https://aave.tokenlogic.xyz/treasury).\n\n \n![treasury.jpeg](ipfs://bafkreihrskqratcejxrmldlzopv4lj42esks3cgel2kugnd3ijzlt4leui)\n    \n\nAdditionally, during the past couple of quarters, the DAO explored revenue sharing with the Merit program, which is essentially a redistribution of the protocol's net stablecoin excess revenue to the GHO minters and stakers to support aligned behaviors and the growth of GHO. Alongside Merit, the Ahab program, which is funded by protocol net ETH & ETH-correlated assets, is mobilized to attract strategic liquidity in Aave markets, supporting protocol growth in the main & new markets.\n\nWith the ACI, we consider the DAO now ready to explore a further step in the protocol's maturity and would like to submit for governance consideration a clear path for protocol net excess revenue redistribution to the key actors of the Aave ecosystem, creating new positive dynamics and novel synergies within the industry.\n\nThis journey is designed in several incremental steps. This proposal seeks feedback on the journey as a whole as a “TEMP CHECK” and approval to begin the first step via a potential “ARFC”.\n\nTo ensure the DAO's long-term sustainability, new steps will be escalated when the protocol reaches specific growth and net excess revenue milestones.\n\n## Umbrella: A Proposed Safety Module Paradigm Shift\n\nThe Safety Module is a crucial line of defense for the Aave protocol. In case of a shortfall event, and if liquidators do not complete their tasks, the Safety Module is designed to assume the excess debt on behalf of users to avoid or at least mitigate bad debt events.\n\nFortunately, the Safety Module has never been needed for the Aave protocol. The few excess debt events in Aave protocol history have been addressed by governance through the mobilization of \"cash\" DAO treasury funds.\n\nHowever, the current model is inefficient as it relies on secondary liquidity to liquidate Safety Module assets to obtain excess debt assets and clear debt.\n\nWith both GHO and StkAAVE, the primary issue with the Safety Module is that the current $424M hosted in the Safety Module cannot effectively clear $424M of excess debt. This is because:\n\n1. The value of AAVE would be negatively impacted due to slippage.\n2. The GHO peg is unlikely to withstand the mobilization of almost two-thirds of its current supply.\n\nWhile it is highly improbable to encounter an excess debt event of this magnitude (precedent was less than 1% of this amount), the entire model has room for optimization.\n\nTherefore, Umbrella proposes:\n\n1. Segregation of coverage\n2. Elimination of reliance on secondary liquidity\n\nFrom now on, the Safety Module activation should focus on slippage-free debt burn coverage.\n\nUmbrella allows the deployment of aTokens Safety Modules that are more cost efficient and provides better protection to Aave users; This proposal seeks approval on a multi-step journey toward Umbrella Activation and redefines the Role & benefits of the AAVE assets & tokenomics in the Aave ecosystem.\n\n## Umbrella Coverage Adoption Journey\n\nAs an initial and immediate step:\n\nWe propose segregating StkGHO and StkAAVE Safety Module coverages to distinguish protections and improve StkGHO Safety Module efficiency, which would protect the GHO stablecoin.\n\nWith this upgrade, the StkGHO Safety Module is meant to only protect users from GHO debt and is mobilized to clear GHO excess debt only.\n\nGHO is a young stablecoin with limited secondary liquidity. In the current stage of GHO maturity, mobilizing GHO to protect other assets' debt will mean the death of the GHO peg and trust in GHO for limited resources gained.\n\nHowever, in the context of GHO debt protection only, StkGHO is a perfect tool. In case of a shortfall event, GHO can be seized in the Safety Module and used to clear excess debt by burning GHO. This action is absolutely slippage-free and will not impact the GHO peg.\n\nSafety Module users will suffer a below 1 StkGHO <> GHO exchange rate, but it's a risk they willingly accepted by staking.\n\nExample: If there's 100M GHO in the Safety Module and the protocol suffers a $3M excess debt GHO shortfall event, via an AIP, 3M GHO will be seized from the Safety Module to clear the debt. As a result, the StkGHO/GHO exchange rate will drop to 0.97, leading to a socialized net haircut of 3% for all Safety Module stakers (around 6 weeks of the current reward rate).\n\nThis paradigm shift will make GHO the safest and most trustworthy stablecoin in the ecosystem with currently both an average overcollateralization ratio of 2.5 and ~65% of the supply that can be mobilized to clear any form of excess debt without impacting the GHO peg.\n\nThis will de facto make Ethereum StkGHO the first Safety Module adopting the Umbrella standard.\n\nThese changes come at the cost of temporarily reduced overall V3 protection, but as discussed earlier, GHO is not mature enough to be a suitable asset to protect other debts than GHO at this moment. The reduced protection will be covered by the introduction of new Safety Modules in further steps.\n\nWe propose adopting the following:\n\n### Umbrella coverage adoption Journey doctrine:\n\n1. The Legacy Safety Module coverage is set to all live networks Aave V3 debt until replaced.\n2. The Legacy StkGHO SM protects GHO debt exclusively. This safety module becomes the prime candidate for becoming the first Umbrella safety module instance via upgrade.\n3. The Umbrella Ethereum Safety Modules will not automatically cover Aave V3 deployments; coverage must be opt-in by governance vote.\n4. Mid-term: segregate risk further by deploying network-specific Umbrella Safety Modules financed by protocol \"local\" net excess revenue.\n\n\n### StkGHO Migration and upgrade Journey\n\nGHO is growing and is meant to be a profitable product of the Aave protocol. At ~150/175M GHO, GHO is expected to be net profitable for the protocol, with revenue outpacing system subsidies.\n\nCurrently, GHO has a dual reward system with rewards in AAVE sourced from the ecosystem reserve and Merit airdrops sourced from protocol net profits.\n\nWe propose, in resonance with previous governance decisions, to slowly cut rewards of the StkGHO safety module in favor of a potential Umbrella StkGHO safety module.\n\nThe Merit programs yielded great results in terms of growth, peg preservation, and user behavior optimization. We propose to maintain the Merit program in its current form.\n\nThis will keep a dual reward system for StkGHO: a \"base yield\" paid continuously in GHO to stakers and an \"Airdrop\" yield via Merit that can be optimized to reward more users with net positive behavior for the protocol, maintaining \"boosts\" of most wanted behavior but ensuring a sustainable \"base yield\" for this part of the Safety Module. Both of these rewards are financed by Aave protocol net revenue.\n\nIn practical terms, The Legacy GHO safety module has whitelisted AAVE emissions until Oct 2024 and benefit from Merit, we propose to slowly incentivize user migration to the Umbrella stkGHO by letting the AAVE distribution slowly expire and changing the Merit reward focus on Umbrella on the next Merit round post-publication.\n\nThis will slightly increase cost and efficiency by having a few weeks off incentives on both StkGHO safety module but gains on users experience allowing them to migrate at their own pace justifies it.\n\n## A new role for Aave beyond the Legacy Safety module, AAVENomics update.\n\nAAVE is the center of gravity of the Aave protocol. It is the governance asset of the DAO, allowing true control and ownership of the Aave protocol to a degree not achieved in any other protocol in our industry. But as a Safety Module asset, it's simply not efficient enough. AAVE is not a debt token in the Aave protocol and is not as liquid as ETH and major stablecoins.\n\n### End the \"Seize and Sell\" Doctrine\n\nThe \"seize and sell\" doctrine is dangerous as it's inefficient due to slippage, creates the need to subsidize strong secondary liquidity (StkBPT Safety Module), and causes great price pressure on the asset in case of mobilizing the Safety Module. This reduces the cost of acquiring a large amount of AAVE and taking effective control and ownership of the protocol. With historically 15-30% of the Aave supply in the Safety Module and considering the average governance participation, this risk must be seriously considered.\n\nAdditionally, the relatively low maximum slashing of 30% of the AAVE Safety Module means the protocol is allocating funds that are mostly not even mobilizable to protect the protocol.\n\nLastly, the AAVE Safety Module is not sustainable as it is subsidized by the ecosystem reserve that will eventually run out of funds.\n\nWe propose the AAVE Safety Module to not be included in the Umbrella update, StkAAVE will evolve into a staking role acting as a liquidity sink and a way to collect rewards generated from the protocol revenue and other protocol benefits.\n\n### StkBPT Redefinition\n\nThe Aave DAO has spent large amounts of resources incentivizing AAVE's secondary liquidity to maintain the current Safety Module paradigm.\n\nWhile the secondary liquidity of AAVE is important, it should not be a focus of the Safety Module.\n\nThe DAO earned experience with secondary liquidity management with the Aave Liquidity Committee (ALC) program, yielding great results on GHO peg and growth.\n\nWe propose not including StkBPT from the Umbrella Safety Modules and appoint the ALC to manage AAVE secondary liquidity. We also propose the introduction of a \"Buy & Distribute\" program funded by the protocol's excess revenue, With a budget defined by Aave Finance service providers and management by the ALC.\n\nThe ALC and Aave Finance service providers will continue their journey of decentralization and automatization of these processes, contributing to a future with the human element as removed as possible from these actions.\n\nThis will increase the Safety Module's budget efficiency, make the subsidy of secondary liquidity sustainable, and allow more granular liquidity management. It is expected to optimize the funds needed to maintain the expected outcome.\n\nIn this new system, Liquidity will still be incentivized, but we expect a large optimization in the cost and management of this secondary liquidity.\n\n### Introduction of Anti-GHO\n\nCreating a GHO borrow rate discount was a good idea to align AAVE holders and GHO minters, but the discount mechanism is not efficient in terms of protocol accounting and can be optimized.\n\nWe propose, based on discussions with several service providers, particularly Bgd Labs, the removal of the GHO borrow rate discount and the introduction of a new “anti-GHO” token generated by StkAAVE holders minting GHO.\n\nThe users linearly accumulate anti-GHO, which is claimable at the user's will. Anti-GHO generation is proportionate to the interest accumulated by all GHO borrowers.\n\nAnti-GHO is a non-transferable ERC-20 linked to a couple of special-purpose GHO facilitators that can be used in two ways:\n\n1. Burn Anti-gho to mint GHO used to repay their own GHO debt \"for free.\"\n \n![burn anti gho mint.png](ipfs://bafkreifvldjg2ivjc3x7li4hmv4v4bde5xii6p6vwnlm6cdh62zgtlwv5m)\n    \n\n2. Mint GHO to be deposited on the user’s behalf in the GHO Safety Module and distribute StkGHO to the user.\n\n \n![holders stkaave.jpeg](ipfs://bafkreibylsxdbvqvwllrvmkd3x6b7e6dqcvuo6tnbevzz5g7jppb2hjp7a)\n    \n\n\nBoth special-purpose facilitators' \"debt\" will be regularly \"cleared\" by mobilizing GHO from the Aave Collector via Aave treasury regular AIPs to repay, ensuring no long-term unbacked GHO in the protocol.\n\nThis new system is more efficient, increases the alignment of AAVE stakers with GHO borrowers, and officially introduces revenue sharing of part of the Aave protocol revenue to some AAVE stakers, acting as the initial step of a more ambitious excess revenue-sharing strategy.\n\n### Closing the LEND chapter\n\nNearly 4 Years ago, After the launch of Aave V1, the Aave protocol proposed the initial AAVEnomics migrating the legacy asset LEND into the current AAVE token.\nAfter a significant amount of time passed and witnessing the lack of activity of the legacy asset, we take this proposal as an opportunity to close the LEND chapter.\n\nWe consider that 4 years and the amount of time that will pass for these proposals, publications, approvals, implementations, and execution to offer ample and fair notice to legacy users to migrate to AAVE, we propose to deactivate the legacy migrator contract and transfer the remaining balance to the Ecosystem reserve to be mobilized for Aave Stakers and protocol growth.\n\n## Activate Umbrella Atokens Safety Module, initiate “Buy and Distribute” AAVENomics\n\nThe Aave protocol is seen as the industry standard in terms of resilience and safety, making Safety Modules of Aave a popular option for protecting protocol users despite the risks.\n\nAdditionally, ~80% of the Aave protocol users deposit in the protocol but do not have Aave debt. Their use case of the protocol is to seek yield on liquidity provided. These users consider the Aave protocol safe enough to keep their assets inside the protocol contracts for the long term.\n\nThe paradigm shift to \"seize and burn\" instead of the current \"seize and sell\" increases the Safety Module efficiency significantly. The natural progression of this strategy is to mobilize users who consider the Aave protocol safe enough to hold their assets and do not seek to create debt to consider renouncing their Safety Module protection, their borrowing power and short-term aToken liquidity (cooldown period) in exchange for extra yield.\n\nThis is done by adding a Atoken category to the Umbrella Safety Module. In case of a shortfall event, these tokens are seized and used to burn debt, just as the StkGHO Umbrella Safety Module will function.\n\nMost of the Aave protocol debt is in wETH and stablecoins.\n\nTherefore, we are gathering feedback on the initiation of Umbrella Atoken Safety Modules with awETH and aUSDC.\n\nThis allows for covering most of the debt in the protocol if these assets need to be mobilized.\nBecause debt can be repaid in aTokens in Aave V3, the available secondary liquidity of these aTokens is not relevant in excess debt clearing.\n\nTo cover debt labeled in other assets, USDC and ETH are the most liquid assets in the ecosystem, making slippage considerations a low issue, especially with a focused scope of Safety Module coverage introduced earlier.\n\naTokens Safety Modules are proposed to be primarily rewarded in their respective aTokens, financed by their respective Reserve Factor collection on their assets and correlated assets.\n\nUmbrella multi-reward support allows for more mid-term synergies for “Re-Staking”, which will be explored further in this TEMP CHECK.\n\nDetails and budgets of these Umbrella Atokens Safety modules should be discussed at the ARFC stage with feedback from both Risk & Finance teams.\n\nWe’re confident this will allow a factually superior coverage of the Aave V3 protocol at a fraction of the current costs.\n\n### Activate a \"Buy & Distribute\" Program\n\nWith the new efficient Umbrella safety modules, it is expected that the protocol revenue surplus will increase. With sustainability reached milestones, this net excess revenue should be mobilized and redirected to token stakers currently funded via the ecosystem rewards contract.\n\nIn terms of rewards, the ecosystem rewards will eventually run out of funds. That being said, we propose that StkAAVE remains compensated in AAVE tokens as stakers are already aligned with the asset. To achieve this, a \"Buy & Distribute\" program is introduced to acquire AAVE assets on secondary markets from protocol revenue and distribute them to the ecosystem reserve. This upgrades the current AAVE safety module in a new “Staking Module”, not part of Umbrella.\n\nThere's little to no difference in user experience from the current situation, but in terms of protocol sustainability, it's a paradigm shift. This new system also introduces a constant demand side for the AAVE asset on secondary markets.\n\nIt is proposed that this program be funded with the net excess revenue of the protocol.\n\nRewards rates will be defined according to protocol net excess revenue and will reflect the actual financial results of the protocols, with periods of higher rewards to potential periods with zero yield.\n\nWe propose that the Aave Finance service providers manage the \"Buy & Distribute\" program via treasury AIPs to increase efficiency in the short term. We believe this process also needs to be part of the Journey of decentralization, and we expect the Aave Finance service providers to contribute to a future with the human element as removed as possible from this program \n\nFor an easier understanding of the new AAVEnomics vision, please consider the following visual representation:\n\n \n![visual representation.jpeg](ipfs://bafybeigfqm7tms5yc2homzrgar6ikt6bbplco4cejmqg5i7jqngalmm2eq)\n    \n\n## “Re-Staking” Umbrella Beyond Aave\n\nAave's Safety track record speaks for itself; while Aave had several excess debt events, the DAO never had to mobilize the legacy Safety module. With the Umbrella upgrade, we expect the efficient coverage to increase significantly compared to the current situation, from a theoretical $100m to likely billions of mid-terms.\n\nThe Aave DAO can mobilize and monetize this coverage beyond the Aave protocol. The Aave DAO service providers are risk experts who can give valuable coverage recommendations to the Aave governance.\n\nThe Umbrella multi-token incentives controller allows for rewards in several tokens, and we believe this cost-efficient coverage of already existing significant liquidity will be of high interest for third-party protocols and networks, as shown by the high interest of the “Restaking” DeFi vertical.\n\nWhile the journey to maturity on this vertical is still long, the ACI wanted to share this mid-term vision to the community of a potential new journey for protocol revenue and Umbrella Stakers Yield.\n\n## Specification\n\n### Milestones and Trigger Conditions\n\nWhile the Aave protocol's net excess revenues are at an all-time high, it would be reckless to implement significant new budget spending without considering the protocol's long-term sustainability.\nFrom a user experience perspective, a too-ambitious distribution schedule being forced to halt due to more adverse revenue collection conditions will lead to massive and unwanted frustration.\nThe Aave DAO has always been a conservative actor and has always prioritized long-term sustainability over short-term yield.\n\nWe suggest considering the following elements as key data points to execute changes in Safety Modules in steps:\n\n- Aave Collector net holdings\n- Service providers' recurring budget\n- Merit and ALC program recurring budgets\n- GHO supply\n- GHO 30-day average revenue\n- Protocol 30-day average revenue\n\nThe ACI Proposes this vision to be implemented in 3 differents ARFCs to be sequentially proposed alongside reaching set milestones, we welcome governance feedback on this implementation Journey.\n\n## Initial ARFC Doctrine Adoption and Deployment of First Umbrella Safety Module: StkGHO\n\nAdoption of the Following Doctrine:\n\n1. The Current StkAAVE and StkBPT Safety modules becomes the “Legacy Safety Module”\n2. The Legacy Safety Module is set to cover all live networks Aave V3 debt with a market size exceeding $100M and older than one year until replaced.\n3. The StkGHO Safety modules protect GHO debt.\n4. The Safety Modules do not automatically cover Aave V3 deployments; coverage must be opt-in by governance vote.\n5. Pre-authorization of introducing \"network-specific\" Umbrella Safety Module instances financed by \"local\" revenue.\n6. An Umbrella StkGHO Safety Module is deployed and becomes the first Umbrella Safety module with a reward set exclusively in GHO and financed by Aave protocol excess revenue. The feedback of Aave Finance & Risk service providers is expected to define a Safety Target for this Umbrella Safety Module.\n7. The legacy StkGHO safety module cooldown is set to zero; AAVE rewards will not be renewed at distribution expiry.\n8. The Merit Program continues as it exists today It will reward the Umbrella StkGHO in the following round its deployment to incentivize user migration\n\nThis doctrine would be adopted at the ARFC snapshot Stage.\n\nTrigger milestone:\n\n- Already Achieved\n\nExecution:\n\n- BGD Labs give the greenlight for the Umbrella upgrade, initiate the StkGHO Legacy to Umbrella Migration via AIP.\n\n**Important note:**\n\nAs the Umbrella design is still being discussed, details of implementation are subject to change and should be discussed at the ARFC stage of this proposal.\n\n## Part II: Initial ARFC Doctrine Adoption and Deployment of First Umbrella Safety Module: StkGHO\n\nAdoption of the Following Doctrine:\n\n1. The Current StkAAVE and StkBPT Safety modules becomes the “Legacy Safety Module”\n2. The Legacy Safety Module is set to cover all live networks Aave V3 debt with a market size exceeding $100M and older than one year until replaced.\n3. The StkGHO Safety modules protect GHO debt.\n4. The Safety Modules do not automatically cover Aave V3 deployments; coverage must be opt-in by governance vote.\n5. Pre-authorization of introducing \"network-specific\" Umbrella Safety Module instances financed by \"local\" revenue.\n6. An Umbrella StkGHO Safety Module is deployed and becomes the first Umbrella Safety module with a reward set exclusively in GHO and financed by Aave protocol excess revenue. The feedback of Aave Finance & Risk service providers is expected to define a Safety Target for this Umbrella Safety Module.\n7. The legacy StkGHO safety module cooldown is set to zero; AAVE rewards will not be renewed at distribution expiry.\n8. The Merit Program continues as it exists today It will reward the Umbrella StkGHO in the following round its deployment to incentivize user migration\n\nThis doctrine would be adopted at the ARFC snapshot Stage.\n\nTrigger milestone:\n\n- Already Achieved\n\nExecution:\n\n- BGD Labs give the greenlight for the Umbrella upgrade, initiate the StkGHO Legacy to Umbrella Migration via AIP.\n\nImportant note:\n\nAs the Umbrella design is still being discussed, details of implementation are subject to change and should be discussed at the ARFC stage of this proposal.\n\n## A new role for Aave beyond the Legacy Safety module, AAVEnomics update.\n\nThe next proposed step is the end of the StkAAVE GHO discount, introduce the anti-GHO system, and close the LEND chapter .\n\nTrigger milestones:\n\n- 175M GHO supply\n- Secondary liquidity allowing a 10M swap size at 1% price impact\n\nExecution:\n\n- Set borrow rate discount for Aave V3 GHO facilitator to 0%.\n- Create new GHO facilitators linked to the GHO credit system.\n- Terminate LEND migration contract.\n\n## Part III: \"Fee Switch\" Activate Umbrella Atokens Safety Module, initiate “Buy and Distribute” AAVENomics\n\nTrigger Milestones:\n\n- Aave Collector net holdings are at *2 yearly service providers' recurring costs for the past 30 days.\n- Aave protocol 90-day annualized revenue is at 150% of all protocol expenses YTD, including the AAVE acquisition budget and aWETH & aUSDC Umbrella budgets.\n- Budget is defined, financed, and readjusted quarterly by Aave Finance service providers.\n\nExecution:\n\n- Financing of secondary liquidity for AAVE with Aave Finance AIPs managed by Aave Finance service providers.\n- End of Legacy Safety Module:\n    - StkBPT cooldown is set to 0.\n    - End of StkBPT rewards. Replaced by liquidity incentives from ALC\n    - StkAAVE slashing is set to 0%. StkAAVE becomes the asset of the AAVE Staking module\n- Creation of aUSDC and aWETH Umbrella Safety Modules with aUSDC and aWETH as reward tokens. (If validated by governance feedback)\n- Financing of AAVE buy and distribute program by Aave Finance service providers; bought AAVE is distributed to the ecosystem reserve. The distribution pace of AAVE is adjusted to the quarterly budget to avoid running out of funds for stakers. This process is handled by the Aave Finance service providers until fully automated.\n\nImportant note:\n\nAs the Umbrella design is still being discussed, details of implementation are subject to change and should be discussed at the ARFC stage of this proposal. this TEMP CHECK is meant to query community sentiment and ARFC stage is meant to define actual implementation leveraging service providers and community feedback.\n\n## Acknowledgments\n\nThe ACI extends its sincere gratitude to all Aave service providers, delegates, and community members who contributed to this proposal's peer review. Your expertise and insights have been invaluable in refining and strengthening this TEMP CHECK. Special thanks to Bgd Labs for their crucial inputs on this proposal and the conception of the Umbrella Safety module. This proposal reflects the collaborative spirit and dedication of the Aave DAO.\n\n## Next Steps\n\n1. Gather community feedback on this TEMP CHECK.\n2. If consensus is achieved, move this proposal to the TEMP CHECK snapshot stage\n\n## Disclosure\n\nThe Aave Chan Initiative is independent and has not received any compensation from related parties for drafting this proposal.\n\n## Copyright\n\nCopyright and related rights waived under [Creative Commons Zero (CC0)](https://creativecommons.org/publicdomain/zero/1.0/).",
+        "end_utc": "2024-08-03T12:23:07Z",
+        "similarity_score": 0.1725,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "NAY",
+            "Abstain"
+          ],
+          "scores": [
+            703559.9393837256,
+            1.1157343549142846,
+            0.11709562359643816
+          ],
+          "scores_total": 703561.1722137042,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2024-08-03T12:23:07",
+          "pre_tvl_avg": 12865135673.5,
+          "post_tvl_avg": 10920406011.0,
+          "abnormal_change": -15.1163,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.151163,
+          "abnormal_change_pct": -15.1163
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2024-08-03T12:23:07",
+          "pre_price_avg": 113.548040155,
+          "post_price_avg": 99.855806395,
+          "abnormal_change": -12.0585,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.120585,
+          "abnormal_change_pct": -12.0585
+        }
+      }
+    },
+    {
+      "proposal_id": "0x05636d75aae6e99be9c79a6337603f69213d34c3cf0b518842aa994f2ec790bf",
+      "cleaned": {
+        "proposal_id": "0x05636d75aae6e99be9c79a6337603f69213d34c3cf0b518842aa994f2ec790bf",
+        "title": "[TEMP CHECK] TokenLogic Proposal ",
+        "author": "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1",
+        "end_utc": "2023-09-07T07:13:52Z",
+        "similarity_score": 0.1683,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 467844.0000547291,
+        "margin_pct": 0.7314293528238098,
+        "scores_total": 639629.7854994966,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-09-04T07:18:53Z",
+        "last_vote_at": "2023-09-04T07:57:45Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            6.027854503822709,
+            0.06504886388030082,
+            0.29020290269774857
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.074985,
+        "spike_follow_support_ratio": 0.999913,
+        "stairwise_ratio": 0.084108,
+        "half_slope_diff": -0.001489
+      },
+      "raw": {
+        "id": "0x05636d75aae6e99be9c79a6337603f69213d34c3cf0b518842aa994f2ec790bf",
+        "title": "[TEMP CHECK] TokenLogic Proposal ",
+        "author": "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1",
+        "body": "---\n\ntitle: [TEMP CHECK] TokenLogic Proposal \nauthor: @TokenLogic\ncreated: 2023-08-25\n\n---\n\n# Summary\n\nThis publication present the Aave Community the opportunity to onboard TokenLogic as a service provider. TokenLogic shall focus on Aave DAO finances and support GHO adoption.\n\n\n# Introduction\n\nMembers of the TokenLogic team have been contributing to Aave Protocol since mid 2020. More recently, the team has been expanding in preparation to better support our three focus areas:\n\n* Treasury Management\n* Safety Module modelling\n* GHO Adoption\n\nTokenLogic is a developer focused team with a proven track recorded dating back to March 2023 when the delegation platform was annouced. During this time we have delivered the following:\n\n* 5 AIPs, 6 payloads, several GHO related BIPs\n* [GHO liquidity pools analysis](https://governance.aave.com/t/arfc-gho-liquidity-pools-primary-pools-initial-strategy/14071)\n* Coordinated [7.7%](https://governance.aave.com/t/arfc-gho-liquidity-pools-primary-pools-initial-strategy/14071) veBAL support for GHO's launch\n* Stoodup an analytics platform \n* Launch of [GHO Analytics frontend](https://governance.aave.com/t/tokenlogic-delegate-platform/12516)\n\nThe team is growing and we onboarded an accounting team to start developing a Aave Financial Reporting (genesis to date) frontend, launch date mid/late Q4 2023.\n\n# Current & Future Areas of Focus\n\n The below provides a high level overview of our **key focus** areas:\n\n* **Treasury Management**\n    * Improving the risk adjusted return of DAO's assets\n        * Aave v2 to v3 migrations\n        * Swap long tail assets to ETH / stable coins\n    * Improving capital efficiency\n        * Convert wMATIC to MaticX & stMATIC\n    * Managing strategic assets\n        * Upgrades to Strategic Asset Manager v1 functionality as required\n    * Modelling asset purchase / bribe\n        * Participate in Quest/Bribe v acquiring asset\n    * Engage, collaborate and support community lead initiatives\n        * Example: How best to optimise CRV holding\n    * Oversee Protocol Owned Liquidity (POL) deployment\n        * If DAO elects to provide POL, ensure Boost is directed to holding to optimise returns and maintain the strategy through claiming and swapping/locking rewards.\n    * Design and create a contract for managing DAO's POL\n        * Perform swaps, claim incentives, transfer assets etc...\n    * Claim Aave Protocol revenue fees at the end of each month\n        * This bot is currently operated by Llama\n\n* **GHO Liquidity / Incentives Management**\n    * Create Liquidity Management Committee / Budget\n        * Provide modelling to support Committee decision making\n    * Liquidity Incentive Optimisation Analysis (Strategic Assets)\n        * Target pool sizes & APRs \n    * Explore synergies with Safety Module diversification\n        * Potential to include GHO liquidity pools\n        * We will lead this effort after Llama's contract finishes\n* **Financial Reporting**\n    * Runway forecast\n        * Specifically tracking asset balance and drawdown rates to show when other assets require being swapped to fund the DAO\n    * Budget and resource allocation\n        * Work with ACI and others to develop a DAO budget\n    * Transparent accurate, third party reviewed, accessible financial statments\n        * Launch a financial statment frontend mid/late Q4 2023\n        * Cover Ethereum, Polygon (PoS), Arbitrum, Optimism and Avalanche initially and expand over time.\n        * Quarterly financial publications \n    * Revenue per Reserve v time charts\n        * Daily or Hourly data showing revenue being generated per Reserve on each Aave v2 and v3 iteration\n        * Users will be able to select an asset and see total revenue noiminated in the underlying or select an instance of Aave and a specific asset.\n        * Data will be displayed graphically with some ability to interact with the charts\n* **Supporting GHO Adoption**\n    * Collaborate with other teams to support GHO adoption\n        * Promote utility and velocity\n    * Continual development of GHO Analytics frontend\n    * Promote adoption through DeFi integrations\n        * Examples include working with teams to build real yield strategies, structured products and list GHO as collateral\n* **Safety Module Improvements**\n    * Model the SM performance during shortfall events\n        * Create a frontend that show historical performance for swapping certain amounts of each asset instantly (not dutch auction) via an aggregator\n    * Model / forecast emission budget\n        * AAVE emissions are finite, GHO is better\n        * Capital efficiency could be improved through adoption of quests and/or acquiring assets that control the emission schedule of another protocol\n    * Advocate for diversification and reducing the reward budget\n        * Introduction of stable coins, ETH and other assets to reduce reliance on AAVE during shortfall events\n    * Collaborate with others to refine to enhance the SM's effectiveness at providing a backstop for Aave Protocol\n        * BGD to implement on-chain upgrades\n        * Model liquidity pool assets to be added to SM\n        * Work with ACI, BGD, Llama and others to determine a target coverage, implementation of proposals and refine the asset blend\n\nEach of the areas detailed above is interwoven and has a material affect on the DAO's financial status. TokenLogic is committed to working with other DAO contributors collaboratively and constructively to better the Aave Protocol. \n\nTo support the initiatives aboves, we have created an analytics platform. The GHO dashboard is our first analytics initiative. Beyond GHO, we plan on using the analytics platform to provide the DAO with near live revenue data stream for each asset reserve on supported networks. We seek to always incorporate community feedback and build out any requests from the community.\n\nOur team is very well connected across defi and we intend to support Aave and GHO where ever we can. To this end, we are already working with several teams looking to integrate GHO and have been working with @0xbilll at AGD with targeted spending initiatives.\n\nTo ensure continuation of active work scopes, TokenLogic will continue to manage the migration of users on Polygon v2 to v3. This includes either fortnightly or monthly parameter adjustments. We encourage another service provider to pick up the Avalanche v2 migration. However, if required, we are happy to support provided it doesn't impact our key focus ares which we will be measure against.\n\n# Prior Work\n\nThis section, we will focus on what TokenLogic has delivered to Aave DAO:\n\n* [TokenLogic Delegate Platform](https://governance.aave.com/t/tokenlogic-delegate-platform/12516)\n* Asset Listings\n    * [[ARFC] Add FRAX to Aave V3 Ethereum](https://governance.aave.com/t/arfc-add-frax-to-aave-v3-ethereum/13051)\n    * [[AIP] Add FRAX Ethereum Aave v3](https://app.aave.com/governance/proposal/260/)\n    * [[ARFC] Add FRAX Arbitrum Aave v3](https://governance.aave.com/t/arfc-add-frax-arbitrum-aave-v3/13222)\n    * [[AIP] Add ARB to Aave V3 Arbitrum Pool](https://app.aave.com/governance/proposal/273/)\n* GHO Liquidity\n    * [[TEMP CHECK] GHO Liquidity Pools](https://governance.aave.com/t/temp-check-gho-liquidity-pools/13655)\n    * [[ARFC] GHO Liquidity Pools: Primary Pools Initial Strategy](https://governance.aave.com/t/arfc-gho-liquidity-pools-primary-pools-initial-strategy/14071)\n    * Coordinated veBAL and vlAURA support for the launch of GHO\n* GHO Analytics Dashboard\n    * https://aave.tokenlogic.com.au/\n* GHO Yield Strategy\n    * Supported **Sommelier** with development of real yield strategies that manage GHO liquidity across several DEXs. Current at audit stage.\n    * Worked with **Beefy Finance** to launch several farming strategies that utilise Balancer GHO liquidity pools\n* Sunseting Polygon v2 - Via [Butter Incentivized Delegate Campaign](https://governance.aave.com/t/temp-check-incentivized-delegate-campaign-3-month/11732)\n    * [[TEMP CHECK] Polygon v2 to v3 Liquidity Migration](https://governance.aave.com/t/temp-check-polygon-v2-to-v3-liquidity-migration/12350)\n   * [[ARFC] Polygon v2 - Parameter Update](https://governance.aave.com/t/arfc-polygon-v2-parameter-update/12817)\n    * [[AIP] Polygon v2 - Parameter Update](https://app.aave.com/governance/proposal/250/)\n    * [[AIP] Reserve Factor Updates - Polygon Aave v2](https://app.aave.com/governance/proposal/?proposalId=284)\n* Supply Cap Increase\n    * [[ARFC] Supply Cap - stMATIC Polygon](https://governance.aave.com/t/arfc-supply-cap-stmatic-polygon/14355)\n    * [[AIP] Supply Cap Update - stMATIC Polygon v3](https://app.aave.com/governance/proposal/?proposalId=300)\n* Polygon v2 Treasury to v3 Migration\n    * [[Payload] Treasury Management - Polygon v2 to v3 Migration](https://github.com/bgd-labs/aave-proposals/pull/267) \n    * [[AIP] Treasury Management - Polygon v2 to v3 Migration](https://app.aave.com/governance/proposal/?proposalId=303)\n* Avalanche v2 Treasury to v3 Migration\n    * [[TEMP CHECK] Treasury Management - Avalanche v2 to v3 Migration](https://governance.aave.com/t/temp-check-treasury-management-avalanche-v2-to-v3-migration/14218)\n    * [[ARFC] Treasury Management - Avalanche v2 to v3 Migration](https://governance.aave.com/t/arfc-treasury-management-avalanche-v2-to-v3-migration/14469)\n\nThere are also several gauge proposals presented on the Balancer governance forum and even BPT asset listing proposals on Sturdy Finance that support GHO's launch and depositing funds into Aave v3 respectively.\n\nDelivering the above work has enabled TokenLogic to grow the team beyond @MatthewGraham and @DeFiJesus, to include @Dydymoon, @scottincrypto, @agentmak and TBA (soon). With several developers, strategists and accountants apart the team, we are mostly manned up and ready to take on a more involved service provider scope. \n\n# Budget\n\nWe are requesting a total budget of 350,000 USD for an initial 6 month period to support our initiatives.\n\nThis budget will contribute to covering operational expenses, including tools, subscriptions, and infrastructure plus the resources required to deliver our work.\n\nThe payment terms are as shown below:\n\nUpfront Transfer: ~~210,000~~ 0 GHO\nStream: ~~140,000~~ 350,000 GHO\n\nThis is a ~~60/40~~ 0/100 split of upfront/streamed.\n\nAddress: `eth:0x3e4A9f478C0c13A15137Fc81e9d8269F127b4B40`\n\nSimilar to ACI, TokenLogic is to be included in the [Gas Rebate](https://governance.aave.com/t/arfc-gas-rebate-for-recognized-delegates/13290) program that reimburses on-chain voting, calling revenue contracts and deployment costs.\n\nTokenLogic commits to not receiving any funds from other entities for creating proposals and publishing AIPs on Aave Protocol.\n\n# Defining Success\n\nThe below provides an overview of how the DAO can assess TokenLogic's performance:\n\n* Migrate Aave DAO funds from v2 to v3\n* Create Liquidity Committee with funding\n* Optimise GHO liquidity incentives \n* Strategic Assets are being actively used\n* Runway funding sustained (>6 months of the correct assets)\n* Convert Treasury assets to LSTs\n* Launch financial statement frontend\n* Continual flow of new GHO Dashboard features\n\nAs DAOs are dynamic, when more urgent priorities emerge TokenLogic will support and proactively work with other service providers to act in Aave's best interest. \n\n# Next Steps\n\nIf the [TEMP CHECK] is successful and the community supports our proposal, we will move forward with a formal [ARFC] submission to governance.\n\nWe are committed to maintaining transparency throughout the process and providing regular updates the community on our progress.\n\nWe thank everyone for considering our proposal and appreciate your support. We look forward to working together and driving success to the Aave Protocol.\n\n# Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+        "end_utc": "2023-09-07T07:13:52Z",
+        "similarity_score": 0.1683,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "NAY",
+            "ABSTAIN"
+          ],
+          "scores": [
+            553722.5468140147,
+            85878.54675928556,
+            28.69192623010456
+          ],
+          "scores_total": 639629.7854994966,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2023-09-07T07:13:52",
+          "pre_tvl_avg": 4540563220.5,
+          "post_tvl_avg": 4582539648.5,
+          "abnormal_change": 0.9245,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.009245,
+          "abnormal_change_pct": 0.9245
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2023-09-07T07:13:52",
+          "pre_price_avg": 55.28316035,
+          "post_price_avg": 55.12771549,
+          "abnormal_change": -0.2812,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.002812,
+          "abnormal_change_pct": -0.2812
+        }
+      }
+    },
+    {
+      "proposal_id": "0xf92c5647c7f60a4a3db994b4953fc4408f5946cafdc0cebcd4c5924f40e04d36",
+      "cleaned": {
+        "proposal_id": "0xf92c5647c7f60a4a3db994b4953fc4408f5946cafdc0cebcd4c5924f40e04d36",
+        "title": "[ARFC] Deploy aCRV & CRV to veCRV",
+        "author": "0xc290Cfb8D020c0615e9C63036f4319Cc41717E68",
+        "end_utc": "2023-03-30T22:00:00Z",
+        "similarity_score": 0.1681,
+        "winning_option": "YAE - sdCRV",
+        "winning_option_index": 2,
+        "margin_abs": 137998.32353212414,
+        "margin_pct": 0.2355683935766142,
+        "scores_total": 585810.0122724774,
+        "change_stance": null
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-03-27T09:00:14Z",
+        "last_vote_at": "2023-03-28T05:44:43Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 2,
+        "lead_ratio_by_quartile": [
+          [
+            0.21,
+            0.0,
+            0.79,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.21,
+          0.0,
+          0.79,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          0.21,
+          0.0,
+          0.79,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.21,
+          0.0,
+          0.79,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            42088.03019589627,
+            7.937698720376638,
+            360797.3341493339,
+            0.32060601568376285,
+            1.5885222437143525
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.669494,
+        "spike_follow_support_ratio": 0.783792,
+        "stairwise_ratio": 1.4e-05,
+        "half_slope_diff": -5.763759
+      },
+      "raw": {
+        "id": "0xf92c5647c7f60a4a3db994b4953fc4408f5946cafdc0cebcd4c5924f40e04d36",
+        "title": "[ARFC] Deploy aCRV & CRV to veCRV",
+        "author": "0xc290Cfb8D020c0615e9C63036f4319Cc41717E68",
+        "body": "- - -\n\ntitle: [ARFC] Deploy aCRV & CRV to veCRV\nauthor: @llamaxyz - TokenLogic & @Dydymoon \ndate: 2023.02.09\n\n- - -\n\n# Simple Summary\n\nThis proposal presents Aave with thr options for managing the CRV holding, with @Llamaxyz recommending to lock the CRV for veCRV via Curve Finance.\n\n# Abstract\n\nAave currently holds approximately 696k CRV across Ethereum and Polygon networks. Llama has been looking at potential sources for CRV yield and governance influence. This proposal presents one high yield and one governance focused strategy for consideration:\n\nOption 1) veCRV - Lowest risk, governance and direct control CRV emissions\nOption 2) st-yCRV - High yield, no CRV emission influence and exit liquidity risk\nOption 3 ) sdCRV - High yield, proportional CRV emission influence and exit liquidity risk\n\nTo vote NAE is to deposit CRV in Aave v3 on the network it was earned. This represents the “do nothing” approach.\n\nA Snapshot vote presenting the three options will determine which options will be presented as an AIP. Each option has varying degrees of complexity to implement, with Option 1) being the most difficult in a decentralized way, but more closely aligned with Aave’s GHO and staked aToken direction.\n\n# Motivation\n\nAave currently holds 696k of CRV across Ethereum and Polygon networks. \n\nTo support Aave in choosing how best to manage the CRV holding, Llama presents three high-level strategies to choose between.\n\n## Option 1) veCRV - Lowest risk, governance and direct control CRV emissions\n\nOption 1) includes locking CRV, participating in Curve Finance governance, and voting to direct incentives to pools of Aave’s choosing. veCRV could be used to boost adoption of GHO, yield on staked aToken reserves, and yield on Protocol Owned Liquidity, to name a few potential use cases.\n\n### Pros\n\n* **Gauge weight power (Influence on CRV weekly emission)**\n\nBy locking it 4 years and relocking periodically to get the max voting power, the DAO would be able to redirect 0.0068 CRV/veCRV on the pools of its choice (Most likely directed to a GHO one) \n\nWith the current emission (reduced every year by 15%) the DAO would control 4,740 CRV of emission per week, representing $234.13K per year obtained without any additional expenses. \n\n* **Protocol fees (Profit sharing in 3CRV Stable pool)**\n\n50% of all protocol fees on Curve are directed to LPs, and the other 50% goes to veCRV holders. The current APR is 3,43% which is representative of the usual economic activity. With regular volumes, the APR is close to 2-5%, but weeks like USDC depeg, the APR was 15%. \nNo extra counterparty risk (No protocol on top of Curve) \n\nUnlike the two other options, the CRV will be locked on Curve directly from the Collector contract. This reduces the risks compared to using protocols on top of Curve which adds an additional layer of smart contract counterparty risks. \n\n* **Easy management of the veCRV position & votes** \n\nRe-locking the veCRV position can be made accessible, via adding a function on the Collector Contract. Llama can then create a bot which automatically calls the function and re-commits the veCRV holding. \nThe veCRV option only requires to lock CRV, no extra token required. \n\nWhen a gauge vote is submitted on Curve, there is no need to revote each week even if the position is increased, unless Aave decides to change the vote. \n\n* **Additional features from holding veCRV** \n\nGovernance Power to participate in the DAO decisions (On-Chain)\n\nveBoost which can be sold or utilized to maximize the rewards on the funds deposited: While we agree that the impact will be minimal at first, the veBoost will grow over time with the veCRV holdings, compared to both other solutions where it is lost. \n\n### Cons\n\n* **4 unlock period with frequent relock to keep the max voting power**\n\nThe goal of this strategy is to always relock to have the maximum voting power, and increase the position over time with the CRV earned. If Aave decides to stop this strategy at a later stage, the same amount of CRV that was locked will be available after 4 years. \n\nLlama can automate the relock periodically to avoid the decay. \n\n* **Complex participation in DAO decisions**\n\nGovernance participation can be challenging with the collector contract because of the important amount of DAO decisions voted, and there is no way to delegate the veCRV governance power. \n\n## Option 2) st-yCRV - High yield, no CRV emission influence and exit liquidity risk\n\nOption 2) focuses on yield, forgoes governance influence (participating in votes), and presents a higher-yielding investment strategy that, over time, will lead to Aave own more CRV relative to Option 1).\n\nThis option does not offer any governance influence which leads to an easier management. \n\nHowever, considering the recent events such as USDC de-peg and Euler hack which impacted many protocols, Llama believes that security should be prioritized and Aave  should proceed with the lowest risk proposal. \n\n### Pros\n\n* **Gauge weight power profits (Influence on CRV weekly emission)** \n\nWhile it’s not possible to directly vote with st-yCRV, Yearn utilizes the voting power to vote for the highest vote incentives on the market, then sells everything for CRV and compounds the strategy overtime. \n\n* **Boosted protocol fees profits (Profit sharing in 3CRV Stable pool)**\n\nYearn utilize its veCRV holdings to boost the distribution of the 3CRV (Currently 1.66x) \nAll 3CRV are collected, sold for CRV and compounded overtime.\n\n* **Temporary MegaBoost in CRV**\n\nAs mentioned earlier in this thread, Yearn decided to distribute 30k CRV/Week for a defined amount of time to maximize the yield. These CRV are also compounded in the strategy. Unless the decision is renewed, this should not be taken into account as the initial incentives should end soon. \n\n* **Easy management of the CRV position**\n\nRequires a deposit & stake to enter the strategy. The yield sources are collected in, or sold for CRV which are automatically compounded in st-yCRV. No further action is required by Aave post-staking yCRV.\n\nTotal current APR: 33%\n\n* **Transferable Asset (yCRV)** \n\nWhen CRV are deposited on Yearn, it is periodically relocked as veCRV, but the protocol mint yCRV at 1:1. These yCRV can be staked for st-yCRV and transferred or sold on the yCRV-CRV pool on Curve. \n\n### Cons\n\nNo direct governance influence** \n\nAll the gauge weight power and 3CRV are sold for CRV, and the governance power and veBoost are kept by Yearn. \n\nExtra counterparty risk (Yearn on top of Curve)** \n\nThis solution adds extra smart contract and counterparty risks as required to trust Yearn as a good manager of the strategy. \n\nHigh risk asset profile (Depeg risk)**\n\nThe yCRV is transferable, but the liquidity remains limited: $8.4M.\n \nWith the current Aave holdings and yCRV liquidity, it would be possible to exchange 680k yCRV with a rate of 0.9936:1. \n\nHowever, any selling pressure on the yCRV could lead to Aave incurring significant slippage when trying to exit the position. \n\n## Option 3) sdCRV - High yield, proportional CRV emission influence and exit liquidity risk\n\nsdCRV was proposed by the Stake DAO team in the comments, and presents as an hybrid solution between maximizing yield and governance influence. However, it requires veSDT holdings or boost delegation to Aave to be considered efficient compared to other solutions. \n\nUntil recently, the voting power on sdCRV was acquired progressively over a 30 day period. Stake DAO mentioned a parameter change related to asdcrv, but we couldn’t find any vote or public announcement about this update. However, even after this period, the voting power of 1 sdCRV was not equal to 1 veCRV if Aave does not lock SDT itself  or receive delegation from veSDT holders. \n\n## Pros\n\n* **Proportional gauge weight power (Influence on CRV weekly emission)**\n\nBy depositing 696k CRV on Stake, it would result in a voting power of 0.61 veCRV vote / sdCRV. With the current emission (reduced every year by 15%) the Aave would control 2,891 CRV of emission per week, representing $142.80K per year obtained without any additional expenses or veSDT boost holdings or delegation. \n\nTo avoid a SDT acquisition and reduced voting power, Marc Zeller from ACI is to delegate all his veSDT voting power (270k) to Aave for one year, as well as relocking & re-delegating every week enabling Aave to retain the provided boost. \n\nOther parties mentioned on the forum said that they consider to delegate, but no one other than ACI confirmed that they will delegate, relock & redelegate frequently or disclosed their holdings to track the delegation, so it’s not taken into account in this recap.  \n\nAccording to AaveChan engagement, the veSDT holding delegation would boost the voting power  to 1.14x for 1 year. \n\nWith the current emission (reduced every year by 15%) the DAO would control 5,403 CRV of emission per week, representing $266.9K per year obtained with 270k veSDT boost delegated. However, as soon as the delegation is over, the voting power will be back to 0.61x. \n\n* **Proportional protocol fees (Profit sharing in 3CRV Stable pool)**\n\nSame as on Curve, the 3CRV fees are distributed to sdCRV stakers. \n\n* **Transferable Asset (sdCRV)** \n\nWhen CRV are deposited on Stake DAO, it is periodically relocked as veCRV, but the protocol mint sdCRV at 1:1. These sdCRV can be staked for sdCRV-gauge, transferred or sold on the sdCRV-CRV pool on Curve. \n\nAdditionally, the Stake DAO team communicated that the votes now operate like veCRV.  Please note, Llama has not been able to publicly find this announcement beyond this forum thread.\n\n## Cons\n\n* **Extra counterparty risk (Stake on top of Curve)**\n\nThis solution adds extra smart contracts risks, similar to st-yCRV with additional counterparty risk through reliance on ACI and/or others to provide delegated veSDT support. This veSDT support requires weekly relock and redelegation to avoid impacting the boost.\n\nAs Aave’s CRV continues to grow in line with Aave revenue, additional veSDT delegation will be required to maintain the maximum boost. Llama does not question ACI’s dedication to Aave. After the initial committed 1 year period, Aave will receive reduced voting power if an alternative veSDT delegate is not found.\n\n* **High risk asset profile (Depeg risk)** \n\nThe sdCRV is transferable, but the liquidity remains limited: $3.8M.\n\n\nWith the current Aave holdings and liquidity, it would be possible to exchange 680k sdCRV with a rate of 0.9826:1.\n\n* **Management of the rewards**\n\nConsidering that Aave will vote for pools with no vote incentives have decided on the Curve pools, Aave would not earn part of the yield disclosed on the UI. \n\n\nMoreover, all rewards from vote incentives are sold for SDT and distributed. If Aave is to accumulate a CRV holding over time, the SDT tokens would need to be swapped to CRV. \n\n* **No veBoost (Kept by Stake DAO)** \n\nSame as Yearn, Stake DAO would keep the veBoost to maximize the yield on their strategies. \n\n## NAE - aCRV on v3 Liquidity Pools\n\nTo vote NAE involves Aave holding all CRV positions in the form of aCRV.\n\nAll CRV is to be migrated/deposited into Aave v3 on the respective network and held as aCRV. In order to achieve this, CRV must first be listed on Aave v3 Ethereum. The only smart contract exposure is the Aave protocol and this strategy best represents the “do nothing” approach versus either optimizing for governance influence with yield, Option 1), or outright CRV yield, Option 2).\n\n## Comments\n\nLlama suggests Option 1) to focus on accumulating active voting power and enabling Aave to determine how to manage the position.\n\nWe are particularly interested in creating an Aave aToken liquidity pool and explore what can be done to support GHO and staked aTokens when more details emerge around those upgrades. In our opinion, Option 2) has several significant unknowns which can impact the success of the strategy.\n\n# Next Steps\n\nThe proposal with the most YAE votes will be presented as an AIP  for voting. \n\n# Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+        "end_utc": "2023-03-30T22:00:00Z",
+        "similarity_score": 0.1681,
+        "vote_result": {
+          "choices": [
+            "YAE - veCRV",
+            "YAE - st-yCRV",
+            "YAE - sdCRV",
+            "NAE",
+            "ABSTAIN"
+          ],
+          "scores": [
+            223863.1174055209,
+            42.21780378455575,
+            361861.44093764503,
+            32.39284916331697,
+            10.843276423838155
+          ],
+          "scores_total": 585810.0122724774,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2023-03-30T22:00:00",
+          "pre_tvl_avg": 5488039008.5,
+          "post_tvl_avg": 5533736038.0,
+          "abnormal_change": 0.8327,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.008327,
+          "abnormal_change_pct": 0.8327
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2023-03-30T22:00:00",
+          "pre_price_avg": 71.756570495,
+          "post_price_avg": 73.624622155,
+          "abnormal_change": 2.6033,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.026033,
+          "abnormal_change_pct": 2.6033
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0x2dfb5a6e770bf7a34ddb5ab05560c24a169c63f84e9e8d373767a5b072f1f21d",
+    "selected_choice_label": "For",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "The proposal seeks to renew BGD Labs as the provider of development and security coordination services for the Aave DAO, continuing their multi-year engagement with a focus on protocol stability, innovation, and governance support.",
+    "key_arguments_for": [
+      "BGD Labs has a strong track record of contributing to Aave's protocol stability, security, and growth.",
+      "The timeline voting analysis shows unanimous and stable support for the proposal from early voting through to the end.",
+      "Forum sentiment is largely positive or neutral with endorsement from key contributors and security partners.",
+      "Similar past proposals like liquid eModes upgrades showed positive market responses and successful implementation.",
+      "The proposal includes commitments to further protocol improvements, security coordination, and governance tooling enhancements."
+    ],
+    "key_arguments_against": [
+      "One early negative forum comment expressed concerns but was outweighed by positive community feedback.",
+      "Some caution advised on limiting changes to the core V3 codebase due to TVL risk."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://governance.aave.com/t/aave-bored-ghosts-developing-phase-4/19484",
+        "quote": "Forum comments are mostly positive or neutral supporting renewal of BGD Labs, with endorsements from security and governance contributors."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": null,
+        "quote": "Voting timeline shows stable, unanimous lead for 'For' option with 100% lead ratio and high stability metrics."
+      },
+      {
+        "source_tool": "govnews_search_governance_news",
+        "reference": "Similar proposal: ARFC BGD. Aave v3.2 liquid eModes",
+        "quote": "Previous related proposal showed positive market impact with 2.52% price increase and 4.31% TVL growth."
+      }
+    ],
+    "available_choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2024-10-23T09:36:29Z",
+    "event_end_utc": "2024-10-26T09:36:29Z",
+    "event_time_utc": "2024-10-26T09:36:29Z",
+    "address_of_governance_token": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+    "token_price_impact_pct": 2.3519,
+    "tvl_impact_pct": 2.494,
+    "actual_vote_result": {
+      "winner_label": "For",
+      "winner_index": 0,
+      "scores": [
+        829362.7599862049,
+        150.69019787235203,
+        4.258096040322611
+      ],
+      "scores_total": 829517.7082801176,
+      "margin_abs": 829212.0697883326,
+      "margin_pct": 0.999632
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'For' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- The proposal has strong, unanimous early and sustained voting support with high timeline stability favoring 'For'.\n- Forum discussion is predominantly positive or neutral, supporting renewal and praising BGD's contributions, aligning with the vote outcome.\n- Similar past proposals with related technical upgrades showed positive market and TVL responses, indicating community and market confidence.\n- The proposal advances Aave's technical stability, innovation, and governance support, critical for long-term health, outweighing minor cautionary views.\n- Recommendation mirrors aggregated sentiment, indicating the vote reflects community views well.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x68ce69b5e71df1d77c2ad814a5d41162a40be54473576ff590d0b1bb5afde4a7",
+        "title": "[ARFC] BGD. Aave v3.2: liquid eModes",
+        "end_utc": "2024-09-24T09:21:11Z",
+        "summary": "[ARFC] BGD. Aave v3.2: liquid eModes closed on 2024-09-24T09:21:11Z. Timeline analytics noted 271 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.16)",
+        "market_response": "token +2.52%; TVL +4.31%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 2.3519,
+    "ex_post_tvl_impact_pct": 2.494,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +2.35%; TVL +2.49%"
+  },
+  "agentic_ai_choice": "For",
+  "actual_outcome": "For",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 1,
+    "Positive": 4,
+    "Neutral": 7,
+    "total_comments": 12
+  }
+}

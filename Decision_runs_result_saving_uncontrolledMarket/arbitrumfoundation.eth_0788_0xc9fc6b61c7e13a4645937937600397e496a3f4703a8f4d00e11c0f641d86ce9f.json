@@ -1,0 +1,908 @@
+{
+  "captured_at_utc": "2025-10-07T16:11:54.795914+00:00",
+  "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0xc9fc6b61c7e13a4645937937600397e496a3f4703a8f4d00e11c0f641d86ce9f",
+  "focus": null,
+  "votes_count": 4354,
+  "timeline_metrics_current": {
+    "unique_voters": 4354,
+    "total_votes": 4354,
+    "first_vote_at": "2024-10-17T14:01:22Z",
+    "last_vote_at": "2024-10-24T13:57:56Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        1400554.5736078403,
+        968943.3830130904,
+        7714008.87445657,
+        4629.227625306136,
+        177993.62027406407
+      ],
+      [
+        5142047.430667049,
+        3302915.5130593465,
+        7408.216962867712,
+        503335.39616591664,
+        66102.19829372456
+      ],
+      [
+        25046635.721257687,
+        712315.318392984,
+        40053.45593153026,
+        10243.869082616879,
+        227798.9339608919
+      ],
+      [
+        71901657.46931066,
+        15112208.161057344,
+        352725.6486063802,
+        7078545.873412084,
+        1738.9414816795877
+      ]
+    ],
+    "spike_index": 0.177789,
+    "spike_follow_support_ratio": 1.0,
+    "stairwise_ratio": 0.000763,
+    "half_slope_diff": 1994.535695
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x66812a5c91fe5f590965148c76f1ca609fdc5ded722544673c275a3b2ed94549",
+      "title": "ArbitrumDAO Procurement Committee Phase II",
+      "author": "0x560b03B06eF02B24F994e470d949008cda5e1841",
+      "end_utc": "2024-09-12T11:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 3356,
+        "total_votes": 3356,
+        "first_vote_at": "2024-09-05T11:01:12Z",
+        "last_vote_at": "2024-09-12T10:57:24Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1002422.2969075806,
+            13667.636482544647,
+            17359.98079064459
+          ],
+          [
+            622434.7863689201,
+            12681.549556401751,
+            2230.2609904597202
+          ],
+          [
+            11835741.867236106,
+            13868.184152998045,
+            2868750.9365411275
+          ],
+          [
+            101213561.92145333,
+            21361811.443209723,
+            521644.464560053
+          ]
+        ],
+        "spike_index": 0.136499,
+        "spike_follow_support_ratio": 0.975274,
+        "stairwise_ratio": 0.000951,
+        "half_slope_diff": 380.212999
+      },
+      "price_impact_pct": 0.0969,
+      "tvl_impact_pct": 0.5165,
+      "similarity": 0.1785,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes - Extend",
+        "margin_abs": 93272132.05856434,
+        "scores_total": 139486175.32824987,
+        "margin_pct": 0.6686837017293578
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x66812a5c91fe5f590965148c76f1ca609fdc5ded722544673c275a3b2ed94549",
+      "cleaned": {
+        "proposal_id": "0x66812a5c91fe5f590965148c76f1ca609fdc5ded722544673c275a3b2ed94549",
+        "title": "ArbitrumDAO Procurement Committee Phase II",
+        "author": "0x560b03B06eF02B24F994e470d949008cda5e1841",
+        "end_utc": "2024-09-12T11:00:00Z",
+        "similarity_score": 0.1813,
+        "winning_option": "Yes - Extend",
+        "winning_option_index": 0,
+        "margin_abs": 93272132.05856434,
+        "margin_pct": 0.6686837017293578,
+        "scores_total": 139486175.32824987,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 3356,
+        "total_votes": 3356,
+        "first_vote_at": "2024-09-05T11:01:12Z",
+        "last_vote_at": "2024-09-12T10:57:24Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1002422.2969075806,
+            13667.636482544647,
+            17359.98079064459
+          ],
+          [
+            622434.7863689201,
+            12681.549556401751,
+            2230.2609904597202
+          ],
+          [
+            11835741.867236106,
+            13868.184152998045,
+            2868750.9365411275
+          ],
+          [
+            101213561.92145333,
+            21361811.443209723,
+            521644.464560053
+          ]
+        ],
+        "spike_index": 0.136499,
+        "spike_follow_support_ratio": 0.975274,
+        "stairwise_ratio": 0.000951,
+        "half_slope_diff": 380.212999
+      },
+      "raw": {
+        "id": "0x66812a5c91fe5f590965148c76f1ca609fdc5ded722544673c275a3b2ed94549",
+        "title": "ArbitrumDAO Procurement Committee Phase II",
+        "author": "0x560b03B06eF02B24F994e470d949008cda5e1841",
+        "body": "The Arbitrum DAO Procurement Committee (ADPC), composed of Axis Advisory, Areta, and Daimon Legal, is proposing to extend its term for an additional 6 months. The initial phase, which ends on August 20, 2024, was a proof of concept that established a comprehensive procurement process to support Arbitrum DAO's decentralized governance structure. This second phase, starting upon the successful on-chain vote, aims to build on the successes and lessons learned from the pilot phase, with a focus on delivering strategic procurement benefits for the DAO.\n\n## Key Achievements in Phase I:\nDuring its first phase, the ADPC successfully implemented procurement frameworks and marketplaces uniquely tailored for Arbitrum DAO, creating a foundation for cost savings and operational efficiency. Through the development of a solid legal and operational infrastructure, the committee has positioned Arbitrum DAO as a leader not just in the technical sphere but also in decentralized governance. The pilot phase showcased the benefits of using advanced sourcing methodologies and well-structured procurement to enhance the DAO’s operations.\n_______________________\n## Plans for Phase II:\n\n### 1. Procurement for Two Key Vertical Sectors:\n\n**Vertical 1:** Focused on procuring RPC (Remote Procedure Call) providers for projects building in the Arbitrum ecosystem. This decision is based on thorough engagement with DAO delegates and stakeholders, identifying RPC services as a core requirement for projects in the ecosystem.\n\n**Vertical 2:** Aims to manage procurement for events scheduled within the DAO's Events Strategy for 2025. The ADPC will work in collaboration with Entropy Advisors and Disruption Joe, though no separate funding will be requested for event services in this proposal. The ADPC will create evaluation criteria, publish a request for proposals (RFP), and evaluate responses from potential suppliers. However, contract negotiations will not be handled by the ADPC, as they will fall under the purview of the Arbitrum Foundation or other third parties involved.\n\n### 2. Continued Management of the Subsidy Fund for Security Services:\nBuilding on the success of the initial cohort, the ADPC will continue overseeing the security services fund and will publish a proposal for its extension.\n\n### 3. Operational Expense (OpEx) Budget Creation:\nThe ADPC will define and propose an OpEx budget for the Arbitrum DAO, which will be managed by the Multi-Signature Safe (MSS). This will allow the DAO to use services from whitelisted providers without needing to undergo the full proposal process (Forum, Snapshot, On-Chain). The proposal will include multiple budget options for the community to vote on, allowing flexibility in how the budget is allocated.\n\n### 4. Phase II Outcome Report:\nUpon completion of the second phase, the ADPC will publish a detailed report outlining the results and key achievements, similar to the one produced for Phase I. This report will be submitted to the DAO for review.\n\n### 5. Alignment with DAO Stakeholders:\nThe ADPC will continue to engage with key stakeholders within the DAO to ensure that it remains aligned with the evolving governance structure of Arbitrum, particularly as the DAO explores potential changes like establishing an operating company (OpCo). The ADPC will also handle ad-hoc tasks, such as connecting whitelisted service providers with new projects or proposals within the DAO.\n\n### 6. Optional Additional Vertical Sectors:\nUpon successful completion of the work packages outlined above, the ADPC may take on up to two additional verticals based on DAO demand and the committee’s capacity. This work would require approval through the DAO’s governance process and would be contingent on the ADPC’s term being extended if necessary.\n_______________________\n## Budget for Phase II:\nThe total budget for this 6-month period is $414,000. This amount includes operational expenses and will be disbursed in six monthly installments. The funding request will (based on prices at the time of posting and subject to change) total 915,658 ARB, calculated based on the average ARB price at $0.5425/ARB. A buffer is included to protect against ARB price depreciation, ensuring that the ADPC can meet its financial obligations. The funds will be OTC’d to USDC. Any unutilized ARB will be returned to the Arbitrum DAO treasury at the end of the term.\n_______________________\n## Additional Information:\nThe proposal also includes the re-election of the current ADPC members (Axis Advisory, Areta, and Daimon Legal) to continue their roles in Phase II. This is intended to provide continuity and ensure that the progress made in Phase I can be built upon without interruption.\n\nThe committee believes that by extending its tenure, it can continue to deliver significant value to the Arbitrum ecosystem by optimizing procurement processes, securing vital services, and enabling a smoother governance structure for the DAO. Ultimately, the ADPC’s work in Phase II will help position Arbitrum DAO for long-term success, both in terms of operational efficiency and decentralized governance practices.",
+        "end_utc": "2024-09-12T11:00:00Z",
+        "similarity_score": 0.1813,
+        "vote_result": {
+          "choices": [
+            "Yes - Extend",
+            "No - Do Not Extend",
+            "Abstain"
+          ],
+          "scores": [
+            114674160.871966,
+            21402028.81340166,
+            3409985.6428822856
+          ],
+          "scores_total": 139486175.32824987,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "arbitrum",
+          "status": "tvl_data_unavailable",
+          "error": "Could not fetch TVL data: TVL cache not found for slug='arbitrum'"
+        },
+        "price_impact": {
+          "token_id": "11841",
+          "ticker": "ARB",
+          "status": "success",
+          "event_time_utc": "2024-09-12T11:00:00",
+          "pre_price_avg": 0.524448365,
+          "post_price_avg": 0.51195687,
+          "abnormal_change": -2.3818,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.023818,
+          "abnormal_change_pct": -2.3818
+        }
+      }
+    },
+    {
+      "proposal_id": "0x42f68a26ff5a5be692a80468a1d1885cf07d590836536f5169cc4b69f64f3f37",
+      "cleaned": {
+        "proposal_id": "0x42f68a26ff5a5be692a80468a1d1885cf07d590836536f5169cc4b69f64f3f37",
+        "title": "The Arbitrum Coalition",
+        "author": "0xA5dF0cf3F95C6cd97d998b9D990a86864095d9b0",
+        "end_utc": "2023-11-10T17:07:23Z",
+        "similarity_score": 0.1737,
+        "winning_option": "Do Not Fund The Coalition",
+        "winning_option_index": 1,
+        "margin_abs": 32465309.856519997,
+        "margin_pct": 0.13500555694236718,
+        "scores_total": 240473878.20028165,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-11-03T17:07:41Z",
+        "last_vote_at": "2023-11-04T08:36:56Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.994182,
+            0.005818,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9941818181818182,
+          0.005818181818181818,
+          0.0
+        ],
+        "stability": [
+          0.9941818181818182,
+          0.005818181818181818,
+          0.0
+        ],
+        "early_ratio": [
+          0.9941818181818182,
+          0.005818181818181818,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            13973862.169469545,
+            19360440.95662626,
+            47536.98061534841
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.631273,
+        "spike_follow_support_ratio": 0.651384,
+        "stairwise_ratio": 0.003416,
+        "half_slope_diff": -397.210848
+      },
+      "raw": {
+        "id": "0x42f68a26ff5a5be692a80468a1d1885cf07d590836536f5169cc4b69f64f3f37",
+        "title": "The Arbitrum Coalition",
+        "author": "0xA5dF0cf3F95C6cd97d998b9D990a86864095d9b0",
+        "body": "Non-Constitutional\n\nAbstract\nTLDR: This proposal funds a coalition led by Blockworks Research, Gauntlet, and Trail of Bits in order to aid in turning Arbitrum DAO members’ ideas into reality for a term of 12 months.\n\nThe Arbitrum Coalition is an organization initially made up of Blockworks Research, Gauntlet, and Trail of Bits. The Coalition aims to execute turnkey R&D work on behalf of the Arbitrum DAO. The Coalition’s mandate is to help steer the path from ideation in the forum to the optimal, efficient, and safe execution of proposals. In other words, being a steward in making the DAO’s visions a reality. The coalition will provide the necessary resources so that the DAO can make informed decisions.\n\nMotivation\nThe Arbitrum forum includes many worthwhile suggestions, but often lacks the required research, coordination, design, and risk assessment to move forward optimally. For example, iterating on proposals, drumming up delegate awareness, and finding the necessary partners to execute an idea are often difficult tasks. The Arbitrum Coalition’s mandate is to help distill information and accelerate governance decision-making so DAO participants can make informed decisions.\n\nThe Coalition has best-in-class experience/specialized expertise and personnel to execute on this venture and are all already notable contributors to the DAO. Areas of expertise include but are not limited to research, framework creation, risk assessment, secure code reviews, threat modeling, and testing enhancements.The Coalition will take the necessary steps to ensure the Arbitrum DAO has the resources it needs to accomplish its goals.\n\nAs a case study demonstrating the need for the Coalition, there was a lot of discussion around returning tokens 3 accidentally sent to the airdrop address back to the recipients. However, there was no one to call on to look at the landscape of how other protocols deal with this issue, design and implement a mechanism, or take it through the governance process. Likewise, the DAO has seen multiple grant programs suggested but has not been able to assess what has worked or not worked for similar programs in the past from an objective perspective. A multitude of such cases can be seen over Arbitrum DAO’s short tenure. These are the exact roles the coalition will undertake for ideas that gain traction among DAO stakeholders.\n\nHad the coalition existed during the time of the STIP proposal, it would have played a pivotal role in alleviating many of the inefficiencies and challenges delegates faced in the process. Blockworks Research and Gauntlet would have been prepared to develop comprehensive resources in support of the program end-to-end. From simplifying the evaluation of proposals with concise explanations and quantitative analysis to simplifying the voting process for delegates, and ultimately eliminating the need for a second process aimed at finding a service provider to monitor and analyze the program once live, by doing it ourselves. While we did make modest contributions in this regard 4 [2 1], our commitment would have been backed by substantially greater resources. In addition, the Coalition would (and will, should this proposal pass) do its own analysis of how this STIP program performed (after the fact) and provide feedback and recommendations on how to improve it in the future. The Coalition would have advocated for streamlined voting methods in place of 105 separate votes and created efficient voting dashboards, reducing the reliance on last-minute community-funded solutions. While it’s a missed opportunity, it highlights the potential for future value.\n\nAdditionally, complex mechanism designs like creating a permissionless validator set (BOLD) and sequencer design (timeboost) can be made more easily understandable for ARB delegates with support from the Coalition and researched impartially versus other potential solutions when proposals of this nature inevitably go on the forum.\n\nThe Coalition will help community stakeholders make the best possible decisions when it comes to AIPs. For example, Trail of Bits will aim to review each onchain proposal’s source code to ensure it achieves what is stated. This code review ability is a feat many delegates cannot achieve on their own and will be extremely useful to enable competent voting. Blockworks Research will distill the competitive landscape and underlying technology and Gauntlet will be able assess potential risks to the Arbitrum ecosystem.\n\nAn example that demonstrates the value the Coalition will provide relates to support decision-making for the Arbitrum Plutus DAO proposal to Activate ARB Staking 8. Adding an inflation rate to the token poses concerns around risks to the token, new independently created staking contracts would need to be audited, and it would be helpful if delegates had access to quantitative research surrounding how inflation has impacted other tokens in the past. The Coalition can work together to provide objective analysis, quantitative research, and, if desired by the community, audits and execution for this proposal and others like it.\n\nThe Arbitrum Coalition will help the DAO reduce friction and operate effectively. Having three of the most experienced service providers in crypto best positioned and resourced to act at the behest of the DAO will be a tremendous value add.\n\nRationale\nOne key difference between Arbitrum and many other protocols is the immense power given to the DAO at token generation, which makes the DAO fully responsible for the coordination and growth of the protocol.\n\nArbitrum’s impressive decentralization demonstrates that the DAO can’t rely on single entities such as Offchain Labs or the Arbitrum Foundation. Any steps taken to help create a robust decentralized ecosystem of service providers so that the DAO is not dependent on any single entity is a step in the right direction. This way if any one organization falls, is negatively regulated, or otherwise encumbered, the protocol continues to march forward. The Arbitrum Coalition is the first initiative toward this overarching goal.\n\nAdditionally, the Coalition will aid in bringing more service providers subservient to the DAO. For example, it can be a steward in creating a methodology for other budgeted entities to come into existence.\n\nOther DAOs have a diverse ecosystem of service providers who help the DAO operate efficiently. The Coalition will be the first entity working towards this overarching structure such that over time the DAO will have an ecosystem of service providers executing on key roles like grants, development, growth, risk, legal, and more. This is a necessity in maintaining a truly decentralized and efficiently operating DAO.\n\nTwo additional benefits to funding the coalition will be the professionalization of DAO undertakings and growth for Arbitrum. All representatives of the coalition are professional and will bring competent and effective work and communication into the DAO that should help proposals move along with less friction. Additionally, the entities involved have a combined audience of far over 500,000 and will be sure to produce public content on the work we do for the DAO to hopefully drive more users and developers into the ecosystem.\n\nThe Coalition’s purpose is not to replace delegates, but rather to support, serve, and empower both them and the community as a whole with tools and deep insights to streamline effective decision making.\n\nIntroduction to The Coalition\nTrail of Bits: Since 2012, Trail of Bits has helped secure some of the world’s most targeted organizations and devices. They combine high-end security research with a real-world attacker mentality to reduce risk and fortify code. They have worked extensively with Offchain Labs and performed over 1,800 hours of security review of Arbitrum through four focused engagements, including Nitro and Arbitrum V2. Many firms in DeFi, including Optimism, Balancer, Uniswap, and Compound 1 trust Trail of Bits expertise to help secure their code, and you can find many more in their Publications repository. They’ve succeeded in finding vulnerabilities in highly verified systems 1 and providing the best solutions regardless of whether they invented them. They are relentless about raising the baseline in the communities they work, and have developed and made freely available some of the most-used security tools, reference guides, and security 1 research in the industry.\n\nGauntlet: Gauntlet 3’s quantitative optimization solutions drive rapid and sustainable growth for DeFi’s top protocols, DAOs, and ecosystems through research 2, reports 2, products 2, and bespoke engagements 4. Gauntlet has the longest track record in DeFi risk management, with a managed peak at $40+B for DeFi protocols such as Aave and Compound.\n\nBlockworks Research: Blockworks Research 1 is a team of analysts that delivers institutional-grade data-driven research and analysis for L1s, L2s, DeFi, and gaming/consumer applications. Our team is well-known in the industry for producing high-quality, actionable research reports and data dashboards covering various topics, including L2s, dApps, tokenomics, technical upgrades, emerging trends, governance, MEV, and market analysis. The team is divided into protocol-specific coverage so that our analysts are experts in their respective niches. Blockworks Research is a branch of Blockworks 1, a media company hosting conferences, podcasts, and an editorial site.\n\nKey Terms\nThe Arbitrum Coalition (“the Coalition”): A group initially made up of Blockworks Research, Gauntlet, and Trail of Bits whose mandate is to empower delegates with resources for making the most informed decisions possible.\n\nDAO Advocate: A single designated entity that maintains the ability to direct the coalition’s efforts. Functions as a referee between the DAO and the coalition. We suggest L2BEAT fulfill the role of the Advocate as a proven good actor for the Arbitrum DAO given their contributions and status in the DAO. The advocate will receive a stipend of $8,000 per month for their work. The advocate’s main responsibility is ensuring the DAO’s best interests are met by the Coalition.\n\nCoalition Member Termination: Ultimately, and above all, this Coalition will exist to serve the Arbitrum DAO. As such, individual members of the Coalition can be considered for replacement if their service does not meet the standards of this proposal or the DAO’s expectation. In the scenario a Coalition Member is considered for replacement, the DAO will need to examine the list of alternative vendors as well as any new market entrants eligible for consideration and pass a vote through\na Snapshot vote (reaching quorum) to stop the following payments to the vendor and replace said entity with a counterpart. The Coalition member will be considered terminated upon the vote passing. The same process may be executed in order to terminate and stop the stream of funds for the entirety of the Coalition and/or the DAO Advocate.\n\nCoalition Member Exit: As a malleable entity, if a member of the Arbitrum Coalition wishes to exit for any reason, they may do so by providing a two week lead time of departure and offer a list of viable replacements. Payments to the Member will stop 14 days after notice is given.\n\nSpecifications\nThe advocate will have the ability to call on the coalition for R&D efforts at their discretion and act as the DAO’s representative to ensure that the Coalition is working on the most value-added initiatives and providing beyond satisfactory value. The advocate will solely act on the DAO’s behalf and function as a facilitator. From analysis, to modeling, to payload the Coalition will tackle and streamline workstreams together.\n\nThe roles of the Coalition include but are not limited to:\n\nTrail of Bits: Reviewing onchain upgrade proposals to ensure that they align with the design and specification of the proposal through whitebox source code reviews. This role is particularly important given the prevalence of governance attacks, as seen with Tornado Cash. When no proposal requires a code review, Trail of Bits will focus on building content to help review further proposals, including tools (dedicated Slither detectors, fuzzing harness, proposal state diff visualizer, … ) and educational material (tutorial, checklist, code walkthrough, …)\n\nGauntlet: Will empower the Arbitrum DAO with an understanding of the optimal path for growth through our quantitative work. Decisions in ecosystems, specifically DeFi, benefit from design, research, and modeling to determine how to incentivize usage, maximize economic efficiency, protect systemic health, and plan for the future with rigorously validated insights. Examples of some recent work include Aave Killswitch 1, Uniswap incentive design 1, ongoing Arbitrum USDC migration 1, and Cost of MEV: Quantifying Economic (un)Fairness in the Decentralized World 1.\n\nBlockworks Research: Will provide objective data-driven research surrounding proposals to help delegates understand the context, competitive environments, and make more informed decisions. These reports may also be used as a tool for those writing proposals to improve their work. Additionally, Blockworks Research will function as the project manager handling logistics such as communication with the DAO and speaking with delegates. BWR is also able to input on mechanism design.\n\nThe Advocate is not a part of the coalition and exists purely to facilitate the DAO’s interests and direct the coalition. The Advocate is a representative of the DAO.\n\nWe believe it pertinent to get The Coalition stood up with haste and that Blockworks Research, Gauntlet, and Trail of Bits make up ideal initial members. That said, The Coalition is a malleable entity that can change, expand, and contract in domains and members as the DAO wishes. The Advocate as L2BEAT, likewise, should be looked at as a temporary seat that is always open to change. At the end of the 12 month period the domains and members should be reevaluated based on performance, lessons learned, and the adapting needs of the DAO as expected for the following 12 months.\n\nProjects\nThe Arbitrum Coalition aims to provide the following services as a first priority\n\nForum Proposal Review [BWR]\nWill provide impartial data-driven research surrounding proposals to help delegates understand the context and competitive environments such that they can make more informed decisions. These reports may also be used as a tool for those writing proposals to improve their work. The Advocate will direct the frequency and research topics of this work.\nReview on chain proposal code updates [Trail of Bits]\nWhite box security review of source code through a combination of manual and automated review, which may include a review the proposal for design flaws and identifying security and correctness properties\nReviews do not include proposals that are initiated by Offchain Labs and the Arbitrum foundation. These proposals are already going through security reviews (including by Trail of Bits)\nJust-In-Time Quants [Gauntlet]\nGauntlet’s Applied Research 4 and Risk teams will deliver quantitative review, research, and modeling or simulation for DAO proposals and initiatives relating to economic risk, design, or optimization.\nArbitrum Ecosystem Risk Dashboard [Gauntlet]\nA public ecosystem risk dashboard, similar to Aave 3 and Compound 1, provides users, investors, and voters continuous visibility into market risk throughout the ecosystem. Market risk metrics will include Volatility, CEX/DEX liquidity, and Gauntlet Safety Ratings, to inform ongoing risk-return optimizations. Gauntlet will hold monthly Risk Training sessions on how to use the dashboard from deployment to adoption and beyond.\nService Provider Onboarding Framework [BWR]\nEstablish a framework that the DAO may choose to utilize as a tool for onboarding future service providers.\nThe framework will include potential requirements and criteria; solutions for checks and balances; onboarding and offboarding processes for additional service providers including but not limited to legal counsel, operations, engineering, and marketing. All potential service providers can be thoroughly vetted by BWR, if the DAO chooses, ensuring sufficient staffing and resource availability.\nFollowing the DAO signaling an appetite for such an activity, Blockworks Research can propose and host a service provider onboarding process. The initial proposal will attempt to allocate a budget of ARB that service providers can then apply to receive a portion of through an RFP. The DAO will then vote which service providers to onboard. Recruiting, criteria, the process, budgeting suggestions, and facilitation can be handled by The Coalition. Though BWR is happy to take the proposal through the process, the DAO may opt to use the framework in any capacity it wishes, including ones that exclude BWR from future involvement.\nProject Management [BWR]\nWill handle communication with DAO surrounding coalition activities. Additionally, it will be the point of contact for DAO stakeholders and service providers. Blockworks is responsible for the overall execution of the coalition, documenting its success, escalating issues, and recommending solutions. Blockworks will maintain its own governance process to ensure continuity.\nOnce the first priority services are met, the Arbitrum Coalition can provide the following. Though these are examples of activities that can be executed on, the DAO, through The Advocate, will have decision making power over the scope of the coalition’s work.\n\nTooling Creation and Enhancement [Trail of Bits]\n\nDevelop and enhance tooling to enhance the security of the Arbitrum ecosystem and its proposals, including:\nSpecific static analysis bug detectors targeting code update.\nDevelop fuzzing capabilities to test the validity of the new upgrade states and verify that the state changing will not break any invariant\nVisualize the state of the governance contracts, in particular: the state of previous proposals, current emitted and delegates votes, how the tokens are delegated,\nVisualize and verify correct encoding of values used in the governance contracts and the action contracts.\nEducational material [Trail of Bits]\n\nProvide educational material and guidelines for reviewing upgrades procedures, including: Tutorials, Checklists, Code walkthrough\nResearch New Mechanisms [BWR]\n\nObjectively analyze and contribute to the design of new and existing mechanisms such as sequencers, fraud proofs, data availability solutions, and more. All research will be data and evidence driven evidence, where available. Projects to be prioritized by The Advocate.\nDelegate Engagement [BWR]\n\nWill create processes that incentivize delegates to be more active contributors to proposals rather than passive reviewers. For instance, a delegate incentives framework with accompanying requirements. Additionally, host regular cadence calls with delegates and those that authored proposals to work together on iteration.\nGrowth Initiatives [BWR]\n\nWill produce content surrounding coalition activities. Blockworks Research’s podcast, 0xResearch, will feature a segment on a weekly basis throughout the coalition’s term that will discuss the latest updates in Arbitrum the protocol or governance. Additionally, Twitter threads and newsletter mentions will be regularly provided in order to attract more developers and users into the Arbitrum ecosystem.\nCosts\nThe total cost of the coalition for the 1-year term will be based on the 30-day VWAP price of ARB on the day prior to the onchain proposal. One quarter of payment will be paid upfront to each Coalition Member, with a 274 day stream of the following ¾ starting 91 days from the AIP’s execution. The stream of funds will remain in DAO control and can be cut off at any time through an onchain DAO proposal. As of the ARB price on October 25th, this proposal is estimated to cos",
+        "end_utc": "2023-11-10T17:07:23Z",
+        "similarity_score": 0.1737,
+        "vote_result": {
+          "choices": [
+            "Fund The Coalition",
+            "Do Not Fund The Coalition",
+            "Abstain"
+          ],
+          "scores": [
+            75654740.65802632,
+            108120050.51454632,
+            56699087.02770899
+          ],
+          "scores_total": 240473878.20028165,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "arbitrum",
+          "status": "tvl_data_unavailable",
+          "error": "Could not fetch TVL data: TVL cache not found for slug='arbitrum'"
+        },
+        "price_impact": {
+          "token_id": "11841",
+          "ticker": "ARB",
+          "status": "success",
+          "event_time_utc": "2023-11-10T17:07:23",
+          "pre_price_avg": 1.1508865400000001,
+          "post_price_avg": 1.138312975,
+          "abnormal_change": -1.0925,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.010925,
+          "abnormal_change_pct": -1.0925
+        }
+      }
+    },
+    {
+      "proposal_id": "0xa0e14b85197d73e825ac30f72b7d895d644ed06159a32a578f4efe47a2739b2f",
+      "cleaned": {
+        "proposal_id": "0xa0e14b85197d73e825ac30f72b7d895d644ed06159a32a578f4efe47a2739b2f",
+        "title": "[Non-Constitutional] Fund the Arbitrum Grants Framework Proposal Milestone 1",
+        "author": "0x1B686eE8E31c5959D9F5BBd8122a58682788eeaD",
+        "end_utc": "2023-07-13T18:00:00Z",
+        "similarity_score": 0.1659,
+        "winning_option": "For",
+        "winning_option_index": 0,
+        "margin_abs": 6187394.789685488,
+        "margin_pct": 0.06143668945066654,
+        "scores_total": 100711722.01838684,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-07-06T18:00:16Z",
+        "last_vote_at": "2023-07-07T04:14:09Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            389204.1209875736,
+            14494034.836576413,
+            19328.921513052603
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.57904,
+        "spike_follow_support_ratio": 0.713418,
+        "stairwise_ratio": 0.002332,
+        "half_slope_diff": -404.488666
+      },
+      "raw": {
+        "id": "0xa0e14b85197d73e825ac30f72b7d895d644ed06159a32a578f4efe47a2739b2f",
+        "title": "[Non-Constitutional] Fund the Arbitrum Grants Framework Proposal Milestone 1",
+        "author": "0x1B686eE8E31c5959D9F5BBd8122a58682788eeaD",
+        "body": "Proposer: disruptionjoe.eth\n\nAuthors: Plurality Labs\n\nReviewers: ccerv1.eth, emu.eth, dennison.eth, nich.eth, zer8🧠.eth, pepperonijoe.eth, shawn164.eth, azeemkhan.eth, jmcook.eth, boilerrat.eth, jord.eth, ui369.eth, spengrah.eth, griff.eth\n\n[A 7 min explainer](https://www.loom.com/share/2852597b76b74fec8ce6c6698fa73bd3)\n\n### TL;DR\nThis proposal requests 3.971 million ARB (0.08% of the total treasury) to fund the first of three milestones in a comprehensive plan to build an Arbitrum DAO Pluralistic Grants Program.\n\nIf successful, the project will further establish Arbitrum as the go to scaling solution for Ethereum.\n\nMilestone 1 is the start of this journey with a funding request that breaks down as follows:\n1. 2.6 million ARB (72%): Funding Arbitrum ecosystem development\n2. 450k ARB (12.5%): Plurality Labs Services\n3. 260k ARB (7.2%): Grant Program Managers\n4. 300k ARB (8.3%): Matching Gitcoin funding pools using Arbitrum\n5. 361k ARB project buffer*\n\n*Representing 10% of funds requested. This will be used as a project buffer with funds either deployed in support of the program, recycled into ecosystem development or returned to Arbitrum DAO.\n\nSuccessful completion of these deliverables will be a major value driver for the Arbitrum ecosystem. This success of this program will be assessed through metrics including, but not limited to:\n\n* Number of active developers\n* Dev Github quality\n* Delegate engagement satisfaction\n* Voter participation\n* Capture-resistance\n\n### Deliverables\n\nAt the end of Milestone 1, Plurality Labs will have delivered:\n\n**Discover | Facilitate DAO native workshops**\n\n* Conduct Arbitrum DAO Vision, Mission, Values workshops\n* Clearly define funding priorities in a bottom-up way\n* Establish and confirm key success metrics for the Grants Program\n* Scope out requirements for a Gitcoin Grants round on Arbitrum\n* Establish clear communications cadences & channels for all key stakeholders to engage with the program\n\n**Design | Construct best in class Pluralistic Grants Program**\n\n* Identify suitable tools and technology to support a robust, secure and efficient grants program (i.e. Allo)\n* Design and process map the end to end grant funding flows\n* Design approach, process and channels for sourcing high impact grants ideas\n* Design Grantee Registration process and grant pipeline management structure\n* Design Grant Program manager application process and assessment criteria\n* Work with Gitcoin to set up and launch a Gitcoin Grants round on Arbitrum\n* Design credibly neutral grant funding evaluation criteria, reporting structure and cadence\n\n**Execute | Facilitate the successful execution of Pluralist Grants Programs**\n\n* Onboard and coach Pluralist Program Managers in grant program best practices\n* Deploy 2.6 million ARB in funding to programs selected via the Pluralist Program Managers\n* Deploy 300k ARB to Gitcoin Grants round recipients\n* Oversee grants rounds to ensure they are free from fraud or abuse\n\n**Evaluate | Report back on grant funding outcomes**\n\n* Publish financial & analytics reports on grant funding value, volume, outcomes and other relevant metrics requested by the community\n* Share key learnings and grants program best practices with Arbitrum DAO and the wider web3 community\n* Collate community feedback and input on grants programs efficacy and success\n* Evaluate, review and iterate based on this feedback to continually improve the overall impact of the Arbitrum DAO grants program\n\n### Motivation\n\nWe are here because Arbitrum intends to deploy one of the largest DAO treasuries ever to grow their ecosystem. A 10% difference in the allocation efficiency of funds could mean hundreds of millions of waste which would impede Arbitrum’s ability to actualize its full potential. It’s easy to say, “we can solve these problems later”, but we have an opportunity to start on the right track and solve these problems today\n\nThe Plurality Labs team has a chip on our shoulder. We have all been in DAOs and have seen how governance can fail, sometimes quickly, sometimes quietly. Our common thread is the shared values of trust, transparency and freedom combined with a passion for helping DAOs solve hard problems.\n\n### Issues with fully Centralized and Decentralized Grants Programs\n\nWithin web3 we have seen three main vehicles by which Grants Funding can be allocated to builders. Below we have outlined why we believe Arbitrum DAO should take a pluralist approach to grants funding.\n\n### Centralised Grants Program: Problems\n \n![0311b2837f5d19e1de6302c085e0eb8b800963cf_2_624x345.png](ipfs://bafkreidp5ob5oiuy77fqrklknkgy2jujbdeavyhhxyxptnaar7txya4ybu)\n    \n* Limited transparency and auditability: A centrally managed grants program may lack transparency in decision-making processes, grant distribution, and fund allocation. This opacity can undermine trust and hinder the overall effectiveness of the program\n* Limited community participation: Web3 communities thrive on active participation and collaboration. A centrally managed grants program may not effectively engage community members at all levels of the organization in the decision-making and codesign processes.\n* Domain expertise and scale: Volume of grants requests may overwhelm capacity of small centralized team who may also lack domain specific expertise on programs requesting funding\n* Bias and limited experimentation: Centralized Grants teams bring their standardized approach to grant vetting leading to a lack of experimentation which creates an inherent selection bias. The selection bias can even be non-malicious as they are biased by forces like being more likely to “open the door” for those who they know or have worked with before.h.\n\n### Decentralised Grants Program: Problems\n\n![b5cb3f790e8de949030775b29bba6030f6ef6421_2_624x287.png](ipfs://bafkreidqzewoyc2jyhr6a5mbqrcaml4cowvjqbp7bmtjgpzyfe2hqcwcbe)\n    \n* Lack of time: Delegates will stop engaging if the request is for more than is reasonable. Reviewing a grant, especially if it is a direct grant for larger amounts can be expected to take from 1-4 hours each. Delegates cannot take that much time.\n* Inclusion and accessibility: Navigating the delegates and governance process of a large DAO represents a major lift for any prospective grants applicants. Those able to do so will likely have the best network and most capital, not necessarily the best grants ideas…\n* Lack of coordination: With a decentralized grants program, decision-making and coordination are distributed among multiple stakeholders. This can lead to challenges in achieving consensus, coordinating efforts, and aligning priorities.\n* Evaluation of impact: It is challenging for the DAO to assess the relative impact of different grants programs if no standardized reporting cadence, key metrics and evaluation criteria is maintained centrally.\n* Mitigating risks and fraud: Decentralized grants programs are vulnerable to risks such as fraudulent proposals, mismanagement of funds, and malicious actors. Implementing mechanisms for due diligence, verification, reputation systems and Sybil defense can help mitigate these risks and protect the integrity of grants funding.\n* Not fully developed: Even solutions like quadratic funding which lets users directly express their interest still require a program manager. They must shepherd the round and ensure quality fraud protection while making objective decisions about eligibility criteria, user and project appeals, and more. Until we design the open and permissionless protocol to handle these subjective components, the model still has single points of failure.\n\n### Launching the Arbitrum DAO Pluralistic Grants program\n\nA Pluralist Grants program provides a perfect middle ground between Decentralized and Centralized Grants programs, unlocking the “best of both worlds.\n\nAt its core the Pluralistic Grants Model will see the Pluralistic Grants Program Allocator onboard 4-6 pluralist grants managers who will be responsible for distributing funds to grant applicants that benefits the Arbitrum Ecosystem. Sourcing and selection of these ideas will use novel combinations of bottoms-up and top-down mechanisms facilitated by Plurality Labs.\n\nThe programs will focus on specific needs within the ecosystem and their potential impact, for example, one Pluralist Grants Manager may focus on bringing a novel new technique for fund allocation or deep grants proposal expertise (i.e. Questbook). Another might stand up an Arbitrum gaming specific grants program. This flexibility allows for experimentation to allow Arbitrum DAO to discover what works best and allows for the specific needs of the Arbitrum ecosystem to be catered to.\n\nOur approach includes a progressive decentralization of the Pluralist Grants Program Allocator. During Milestone 1, Plurality Labs will maintain accountability for sourcing, selecting, reporting on and delivering results of the chosen pluralist grants programs.\n\nMilestones 2 & 3 will see experimentation with decentralized allocation mechanisms in a Proof of Concept stage with the goal of running at least one round of Pluralist Grants Program selection in a fully decentralized way without needing any corrective intervention.\n\n![0e9c91acb14f197ac0396d79f28b7f530aedfd36_2_624x363.png](ipfs://bafkreiaumlf7kbilxwrxnx7hixajjiz5pzbpr73ciybkkgdnbqsjefqzru)\n    \n> 💡The Pluralist Grants Programs will be selected after the proposal passes governance and the Discovery Phase is completed.\n\nDuring the discovery phase, we will gather input from delegates and the broader community to define the vision, mission, and values of the Arbitrum DAO, and determine what needs to be funded.\n\nOnce this foundation is established, we will evaluate the best domains and mechanisms for allocating resources and capital to grantees. Pluralistic Program managers will play a crucial role in promoting experimentation, decentralization of decisions, and improved resource allocation outcomes.\n\nWe have observed that many previous grants programs has struggled with an inability to source great grant opportunities, which we hope to address in the following ways:\n\n* Applications to be program managers should separate from the applications for grant program ideas\n* Create a backlog of “high impact work to be done” be created, allowing competent builders to step to deliver impact for Arbiturm DAO\n* Create a list of builders, potential grantees, and those interested in supporting the Arbitrum ecosystem which can be direct towards the “high impact work that needs to be done”\n* Robust evaluation and reporting facilitated by Plurality Labs reduce time/effort/reliance on Project Manager and Grantees to demonstrate their success to the community\n* Launch a Grant Program accelerator program to provide grantees clear guidelines, training and support to develop a high quality grant submissions\n\nThe selection of the Pluralist Grants Programs and their managers will involve a facilitated bottoms-up approach, sourcing ideas, people, and processes. Factors considered in the selection may include, but are not limited to:\n\n* Previous experience delivering grants programs.\n* Domain expertise and knowledge\n* Ability to source innovate grants projects and support in the maintenance of a health pipeline of grants submission\n* Maturity of program specific processes and tooling\n* Nature of proposed funding allocation mechanism and data on demonstrated impact/success of mechanism\n* Demonstrated involvement with and commitment to Arbitrum ecosystem and its values\n\nThis is an exhaustive list, and the criteria for selecting Program Managers will be further refined in the Discovery and Design phase, with input from delegates and the broader community. We are committed to maintaining credible neutrality in the selection process.\n\nWith this approach we are confident that the Arbitrum DAO Pluralistic Grants Program will be fair, impactful and ultimately support the growth and success of the Arbitrum Ecosystem.\n\n### The Pluralistic Grants model also provides 300k ARB to support matching Gitcoin rounds which run on Arbitrum.\n\nThis is not payment to Gitcoin the organization, but a payment to grant recipients in a Gitcoin Arbitrum round we intend to launch. Gitcoin core rounds include support for Open Source Software, Ethereum Infrastructure, & Zero Knowledge. This aligns with the stated Arbitrum goal of supporting the Ethereum ecosystem while also attracting users which might otherwise choose another L2. It also allows us to tap into support of the Gitcoin DevRel team to help source builders, host hackathons.\n\nFunding grants this way will not only benefit the Arbitrum ecosystem, but enable the Gitcoin product team to prioritize making their Allo protocol available on Arbitrum. By being able to execute pluralistic programs on their Allo protocol allows us an open data substrate which will enable us to compare programs and projects across the pluralist framework. It also allows program managers to use quadratic funding and quadratic voting (if they choose) which require Sybil defense. This is a crucial enabler for the next section.\n\n![88d617338384427ed53607b929264bc8b623ef43_2_624x281.png](ipfs://bafkreiaylf4ugerhg5c755rx2ffjydpjcri6sx7mohjrafoiuylihkijfy)\n    \n### Improved Accountability, Transparency and Reporting are key benefits of the Pluralistic Grants model.\n\nWeb3 spends 100’s of millions annually on different grants and grants programs and to date, there has been little focus on the efficiency of those grant programs or the efficacy of their spend. We intend to build grant program efficiency metrics as well specific grantee project efficacy (or results) metrics.\n\nBy using a common framework for executing a plurality of grant programs, we have the ability to identify, track and refine metrics for each unique grant program. Something that has not been done to date, and would be more difficult to do in stand alone grant environments.\n\nBy doing this, we can begin to build qualitative data on the efficiency of each distribution method in a way that can identify improvements for that mechanism, but also compare mechanisms across stakeholder groups and use cases. By building these metrics, Arbitrum will be able to parse down the crowded field of grant-execution options and deliver the most effective Grants Program web3 has seen to date.\n\nGrant program execution typically stops when the money has been distributed, and we think that is premature. As part of this program we intend to experiment with a series of existing post-project evaluation tools (after action reviews, qualitative/quantitative metrics, case studies) but add in or invent novel web3 project evaluation solutions (hypercerts, on-chain analysis, panel reviews) to rate every project receiving funding in a way that can demonstrate the efficacy of the spending as it relates to building the Arbitrum ecosystem.\n\nWe know there are inefficiencies and fraud in the web3 grant mechanisms; this part of the program allows Arbitrum to make the most of its investments. Doing this will lead to a higher return on the Arbitrum investment and more funding for the most worthy projects, while leaving room to experiment with the novel web3 mechanism that can help us revolutionize the grant process.\n\n### Multisig Management\n\nAll funds will be sent to a Grants Safety Multisig*. This multisig will review, sign and execute all fund disbursement for the Arbitrum DAO Pluralistic Grants program. The role of the grants multisig is to process the requests made by Plurality Labs while also being able to review issues. At no point will Plurality Labs hold the funds designated for grant funding. The final form of this proposal will either name the selected individual or state the electoral process.\n\n> 💡 We also intend to use the Zodiac module shared by the Tally team allowing the DAO the ability to clawback funds from the grants program at any time.\n\n### Team\n\nPlurality Labs Team\n\n**Disruption Joe**\n\nRan grants operations for Gitcoin Grants rounds 8-10 growing gross marketplace value from $2 - $10 million. First Gitcoin employee to leave the company and work full-time for the DAO. Started the Fraud Detection & Defense (FDD) workstream. FDD is responsible for stopping over $3 million in fraud while Gitcoin Grants delivered over $50 million in funding.\n\nMore reading about the work done in the [FDD Review](https://gov.gitcoin.co/t/introducing-the-fdd-review/11095). Joe will be supporting overall project management and grants framework design.\n\n**Pepperoni Jo3 (on behalf of [r3gen.finance](https://www.r3gen.finance/))**\n\nCofounder of r3gen, a web3 financial service provider working with clients including Squid, Coordinape, Inverse Finance and Treasure DAO. Previously PwC consulting alumni specializing in Org Design, Operational Excellence and Change. Joined web3 full time at Index Coop where he served on the Leadership Council as Head of People and Community.\n\nMore information on the r3gen services and team [can be found here](https://docsend.com/view/xj359rx3fj83irdg).\n\n**Mary Quandt**\n\nPeople-first strategic design-thinking and organizational development leader. Partners with global business leaders to accelerate business strategies and execute people- and organization-focused solutions. Leadership approach combines possibility and participation while keeping firm foot in practical implementation. Thrives on building, leading and growing inclusive cross-functional teams to challenge the status quo. Experience includes IndexCoop, US Election Assistance Commission, Johnson & Johnson, Human Performance Institute, GE, Amazon, Martha Stewart and Charles Schwab to name a few.\n\n**Shawn Grubb**\n\nAs former CIO, CEO, and non-profit chairman of the board, Shawn spent his corporate career preparing for DAO governance. Introduced to the blockchain in 2015 he went full-time degen in 2019 but moved to DAOs in 2021 when he joined Index Coop leading the governance communications and people operations. In August 2022, he joined Gitcoin where he currently leads governance\n\n### Looking Ahead: Milestone 2 & 3\n\nThe overall plan is to deploy a pluralist grants framework which operates in a politically decentralized & capture resistant way. This will fund grants programs in a continuous way that minimizes bureaucracy and increases action while providing accountability as part of the system.\n\nPrior to releasing funds for milestone 2 to begin, Plurality Labs will offer a review of the previous milestone accomplishments and failures. They will provide a breakdown at that time based on how this project evolves.\n\nMilestones 2 & 3 are about scaling the frameworks and models we use while iteratively testing them. After Milestone 3, we hope to have built the needed components for this whole process to run on chain.\n\nIf successful, Plurality Labs would no longer be needed as a project manager of the overall grants program. Onchain decisions of the community would allocate funding to the programs which have been proven useful. Plurality labs could then be an equal peer to any other program competing for a portion of continuous funding available to the ecosystem.\n\n### Voting Options\n\n1. Yes, fund Milestone 1 (3.971 million ARB)\n2. No, do not fund Milestone 1\n3. Abstain",
+        "end_utc": "2023-07-13T18:00:00Z",
+        "similarity_score": 0.1659,
+        "vote_result": {
+          "choices": [
+            "For",
+            "Against",
+            "Abstain"
+          ],
+          "scores": [
+            53146424.65610952,
+            46959029.86642403,
+            606267.4958540833
+          ],
+          "scores_total": 100711722.01838684,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "arbitrum",
+          "status": "tvl_data_unavailable",
+          "error": "Could not fetch TVL data: TVL cache not found for slug='arbitrum'"
+        },
+        "price_impact": {
+          "token_id": "11841",
+          "ticker": "ARB",
+          "status": "success",
+          "event_time_utc": "2023-07-13T18:00:00",
+          "pre_price_avg": 1.1234627499999998,
+          "post_price_avg": 1.269339585,
+          "abnormal_change": 12.9846,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.129846,
+          "abnormal_change_pct": 12.9846
+        }
+      }
+    },
+    {
+      "proposal_id": "0x3161a3d9486ab7b6099be9fda16d6498f329249c0ad33b0f75090f2ceb557789",
+      "cleaned": {
+        "proposal_id": "0x3161a3d9486ab7b6099be9fda16d6498f329249c0ad33b0f75090f2ceb557789",
+        "title": "Entropy Advisors: Exclusively Working With Arbitrum DAO",
+        "author": "0xA7860E99e3ce0752D1ac53b974E309fFf80277C6",
+        "end_utc": "2024-08-01T18:48:03Z",
+        "similarity_score": 0.1561,
+        "winning_option": "Fund Entropy",
+        "winning_option_index": 0,
+        "margin_abs": 148971379.9280609,
+        "margin_pct": 0.8774916527546466,
+        "scores_total": 169769569.27214718,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 4782,
+        "total_votes": 4782,
+        "first_vote_at": "2024-07-18T18:49:08Z",
+        "last_vote_at": "2024-08-01T18:26:19Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            15200421.023190062,
+            332542.01233014883,
+            24155.44884997908
+          ],
+          [
+            47440401.149173036,
+            5921276.246043851,
+            2839.5064110726153
+          ],
+          [
+            17940652.267868258,
+            3888.825704026756,
+            2534.0686548233016
+          ],
+          [
+            75451814.13324797,
+            416664.96917077544,
+            7032379.621502945
+          ]
+        ],
+        "spike_index": 0.11502,
+        "spike_follow_support_ratio": 0.999946,
+        "stairwise_ratio": 0.000858,
+        "half_slope_diff": 334.322421
+      },
+      "raw": {
+        "id": "0x3161a3d9486ab7b6099be9fda16d6498f329249c0ad33b0f75090f2ceb557789",
+        "title": "Entropy Advisors: Exclusively Working With Arbitrum DAO",
+        "author": "0xA7860E99e3ce0752D1ac53b974E309fFf80277C6",
+        "body": "## Abstract\nThis proposal aims to secure funding for Entropy Advisors to continue its work exclusively with the Arbitrum DAO for one year. During this period, we will deliver strategic proposals, guide key partners through the DAO processes, and align the priorities of essential stakeholders for the betterment of Arbitrum. We will also expand our efforts to include a small set of additional verticals by hiring skilled contributors in areas where the DAO needs support, such as data analytics, technical proposal creation, marketing, or any other needs that may arise.\n\nWith a budget of $2.47M for the year paid in monthly installments and stored with the Foundation for DAO-clawback capabilities, along with an optional up to 1.5 million ARB for performance-based bonuses voted on by the DAO near the end of the term and put in a 3-year vesting contact to ensure long-term alignment, we will continue to build a dedicated team focused solely on enhancing the Arbitrum DAO’s success. The primary goal of our work is to help Arbitrum DAO continue its path toward efficient and effective operations and execute its long-term vision of becoming a sustainable entity with diversified revenue streams. We believe that over the coming years, Arbitrum DAO has the potential to generate hundreds of millions of dollars per year while maintaining its status as the leading Ethereum scaling solution with an ever-growing base of users and developers. All of Entropy Advisors’ employees will work full-time towards achieving this goal.\n\n## Motivation and Rationale\nArbitrum DAO is set up to prosper with its cutting-edge technology stack that will soon support numerous coding languages, a vibrant community of users and developers, abundant resources in the DAO treasury, and the ecosystem’s commitment to scaling the most decentralized and secure L2 on Ethereum. Despite our belief that Arbitrum holds a strong position in the market today, there is a lot of work to be done over the next 3-5 years to ensure Arbitrum maintains and advances its position. We have diagnosed some key areas in need of improvement that we feel well suited to take on:\n\n1. Designing, drafting and executing proposals that benefit Arbitrum.\n2. Strengthening overall governance processes and providing feedback to other DAO contributors, unlocking efficiencies and ensuring redundant work is avoided.\n3. Acting as a mesh layer between key stakeholders, e.g., active delegates, development teams such as Offchain Labs, and the Arbitrum Foundation.\n4. Helping potential 3rd party strategic partners navigate the DAO to attract high-quality companies and individuals within the ecosystem and RFP applicant pools.\n5. Attracting/retaining top talent working full-time, professionally on behalf of Arbitrum DAO.\n6. Improving the ability of the DAO to spend money effectively and support a long term sustainable future for Arbitrum.\n\nToday the Arbitrum DAO faces friction executing across all of the aforementioned tasks. Many times those creating proposals have known or unknown ulterior motives and incentives at play. It is difficult for aspiring contributors and partners to navigate the DAO. No one is incentivized to bolster RFP applicant pools. Communication is fragmented with no entity in place to tie perspectives together, and operations/goals often overlap across initiatives. There are numerous proposals that are consensus to move forward but do not progress because there is no financial incentive to do so. There is inadequate accountability over and transparency into DAO funded programs. The problems are ever-evolving and growing, and the Arbitrum DAO needs an entity that only has the DAO’s best interests in mind to fill the gaps.\n\nOur team (@swmartin19, @mattonchain, and @pruitt) brings an extensive network as well as experience in research, governance, brand building, and project management to the Arbitrum DAO, having led well-known brands in the space such as Blockworks Research and 404 DAO. We have all been involved in the DAO since the beginning, starting with Blockworks Research’s entry into the DAO by highlighting flaws in the DAO’s very first proposal, AIP-1. We are not afraid to push against the status quo if we believe it helps Arbitrum achieve its goals.\n\nEntropy Advisors was extremely fortunate to receive a grant from the Arbitrum Foundation. As such, we have been able to use the past few months contributing full-time to Arbitrum DAO to further showcase our value in the community. We have hosted bi-weekly 1-on-1 calls with a cohort of large delegates, with the foundation, and with OCL, and feel that we have a strong hold on various stakeholder’s interests, strategic goals for Arbitrum, working initiatives, etc. When paired with our experience and networks within the industry, we believe that we are uniquely positioned to help Arbitrum achieve its long-term goals with all stakeholder perspectives in mind. With exclusivity meaning no official or unofficial engagements with any other client, Entropy Advisors can serve Arbitrum DAO with no ulterior motives or conflicts of interest.\n\nToday, virtually no money is spent on operations, while the DAO has spent almost 435M ARB in total with ~95% going towards investments, incentives, and grants (Source: Delphi & R3gen). We believe it is absolutely imperative for the DAO to make an investment in operations, simultaneously ensuring different initiatives across the ecosystem can be set in motion swiftly, fit together seamlessly, and can reach the best talent, while the DAO’s expenditures can be managed in a way that enables long-term sustainability. It is evident that this is becoming a wider-reaching theme within the DAO, but requires a heavy lift (see OpCo proposal from @dkpremia that asks for 25M ARB). We are NOT looking to replace OpCo, but rather drastically reduce the scope and funding request by helping formulate operational procedures until the OpCo is formally stood up. At that point, the DAO can decide what role Entropy Advisors plays as a service provider to the OpCo.\n\nWith the budget as outlined, Entropy will be able to hire up to 10 employees with a diverse range of skill sets including governance, data analytics, marketing, and development/engineering. We will be able to hire top talent in our industry who will dedicate their full-time bandwidth to Arbitrum DAO. Regardless of Arbitrum’s current strategic priorities, whether cutting costs or scaling strategies, our team will work to execute the goals of the DAO. Given Arbitrum’s dominance, size, and number of initiatives it is important that we build a well-rounded team at Entropy that can operate as the tip of the spear as a catalyst for change across the many sectors that the DAO operates.\n\n## Entropy’s Portfolio\nAt the beginning of May, we introduced Entropy Advisors to the Arbitrum DAO. We are a governance operations-focused business, working exclusively with Arbitrum. Our initial efforts have already driven several notable initiatives, demonstrating our capability and commitment to enhancing the Arbitrum DAO:\n\n![entropy.jpeg](ipfs://bafkreiea7v6o66utcod7ynuqcwuoh7ybc53fkmq57tpubeqklzug7q32au)\n    \n* Worked with @r3gen_Finance to create a proposal that reduces DAO OpEx on multi-sig signers, by establishing the Multisig Support Service.\n\n   * We leveraged our network to ensure a competitive applicant pool, which ultimately resulted in one of the most competent applicant rosters (40 in total) in the DAO’s history despite just a $1,500-$2,500 monthly wage per signer.\n\n   * The proposal is expected to save the DAO almost $400,000 per year.\n\n   * Entropy managed the application process, and will soon host a call with the winning applicants to go over multi-sig best practices.\n\n* Conducted research into Arbitrum DAO’s sequencer margin / transaction fee mechanism, kicking off a conversation that aims to increase the DAO’s treasury value rather than deplete it of resources.\n\n   * Attended/helped drive forward discussions related to DAO budgeting and sequencer revenue through working group calls.\n\n   * Followed up with a formal proposal to increase the L2 minimum base fee on Arbitrum One, with plans to establish a more long-term solution that includes service providers.\n\n   * This proposal, if passed, could bring the DAO an extra $5-15M per year of profit.\n\n   * We also tapped on the ARDC to conduct research into these areas, thereby utilizing existing resources at the DAO’s disposal rather than wasting additional resources.\n\n* Moved quickly to get Hack Humanity, the entity behind GovHack, ample funding to throw an event in Brussels at ETH CC for the Arbitrum community. These events require a substantial amount of lead time to plan, and the event would not have been possible if a few extra weeks had passed prior to getting the event funded.\n\n    * This is a great example of Entropy Advisors helping 3rd party service providers navigate the DAO while also combatting the collective inactive problem mentioned above. Everyone wanted Arbitrum DAO representation in Brussels and Entropy stepped in to get it done.\n\n* Introduced a governance calendar that encourages proposals to start and finish Snapshot and Tally voting on the same day each week, requires some support from delegates before proposals move to Snapshot from the Forum, and a holiday break at the turn of the new year.\n\n   *  The goal of this proposal was to reduce delegate fatigue by incorporating a more predictable structure, and ensuring things only go to Snapshot once they have been thoroughly reviewed by the broader community.\n\n***PLEASE NOTE THE REMAINDER OF THIS PROPOSAL HAS BEEN CUT OF DUE TO CHAR COUNT BUT CAN BE FOUND IN FORUM***",
+        "end_utc": "2024-08-01T18:48:03Z",
+        "similarity_score": 0.1561,
+        "vote_result": {
+          "choices": [
+            "Fund Entropy",
+            "Do not fund",
+            "Abstain"
+          ],
+          "scores": [
+            156033288.5734797,
+            6674372.053248803,
+            7061908.64541882
+          ],
+          "scores_total": 169769569.27214718,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "arbitrum",
+          "status": "tvl_data_unavailable",
+          "error": "Could not fetch TVL data: TVL cache not found for slug='arbitrum'"
+        },
+        "price_impact": {
+          "token_id": "11841",
+          "ticker": "ARB",
+          "status": "success",
+          "event_time_utc": "2024-08-01T18:48:03",
+          "pre_price_avg": 0.667679465,
+          "post_price_avg": 0.58637459,
+          "abnormal_change": -12.1772,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.121772,
+          "abnormal_change_pct": -12.1772
+        }
+      }
+    },
+    {
+      "proposal_id": "0xe968af3f6b06d386958e513c2285f72f7172aabd2661311a485270bab3b1c7db",
+      "cleaned": {
+        "proposal_id": "0xe968af3f6b06d386958e513c2285f72f7172aabd2661311a485270bab3b1c7db",
+        "title": "Funding Gas Rebate and Trading Competition Program to Amplify Arbitrum’s Ecosystem Growth ",
+        "author": "0x9808E45C613eBA00bA18fB3D314dC4d4712c4A85",
+        "end_utc": "2023-11-18T17:35:06Z",
+        "similarity_score": 0.1554,
+        "winning_option": "Do Not Fund",
+        "winning_option_index": 1,
+        "margin_abs": 118585212.79733011,
+        "margin_pct": 0.8113697768944648,
+        "scores_total": 146154338.22444996,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-11-11T17:35:33Z",
+        "last_vote_at": "2023-11-12T02:36:42Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            5594339.473611566,
+            12576051.987025838
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.971073,
+        "spike_follow_support_ratio": 0.01463,
+        "stairwise_ratio": 0.001251,
+        "half_slope_diff": -1776.605752
+      },
+      "raw": {
+        "id": "0xe968af3f6b06d386958e513c2285f72f7172aabd2661311a485270bab3b1c7db",
+        "title": "Funding Gas Rebate and Trading Competition Program to Amplify Arbitrum’s Ecosystem Growth ",
+        "author": "0x9808E45C613eBA00bA18fB3D314dC4d4712c4A85",
+        "body": "Abstract:\nThis Arbitrum Improvement Proposal (AIP) is presented with the vision of further enhancing the Arbitrum ecosystem following the Short Term Incentive Program (STIP). Acknowledging the STIP’s instrumental role in the growth of the Arbitrum ecosystem, this proposal seeks to extend its positive impact by introducing a gas rebate and trading incentive program created by Rage Trade, a native perp aggregator on Arbitrum. Through this initiative, we aspire to not only complement the milestones achieved by the STIP but also to significantly increase the influx of new traders into the Arbitrum ecosystem.\n\nMotivation:\nAs the Short Term Incentive Program (STIP) kicks off, it sets the stage for the Arbitrum ecosystem to experience amplified growth. The STIP is poised to play a pivotal role in promoting on-chain activities and reinforcing key protocols. However, there is plenty of opportunity to intensify user engagement and participation, especially when considering innovative platforms like Rage Trade.\n\nThis proposal is driven by the ambition to harness this potential, acting synergistically with the anticipated successes of the STIP. Through Rage Trade’s introduction of a gas rebate and trading incentive program, our objective is not just to elevate trading activity, but also to enhance the overall user experience, attracting and onboarding new traders to the ecosystem. This effort is geared towards empowering platforms that, in line with Arbitrum’s vision, are poised for growth but require additional support to maximize their contribution.\n\nRationale:\n\nThis proposal aligns with Arbitrum’s mission to foster a dynamic and engaged community. By allocating 100% of the grant funds to create a gas rebate and trading incentives program, Rage Trade’s platform aims to refine the user experience of traders while offering gas savings and trading incentives to stimulate a competitive yet cooperative environment.\n\nSpecifications: A detailed breakdown of the platforms and technologies that will be used.\nRage Trade Platform:\n\nAs a prime broker and perpetual aggregator, Rage Trade unifies top decentralized perpetual exchanges across all EVM-compatible chains. It streamlines the trading experience by eliminating complexities associated with collateral and gas fund management, ensuring a faster, more efficient, and user-friendly environment for traders.\n\nGas Tank Mechanism:\n\nThe Gas Tank is a unique feature of Rage Trade that simplifies trading across different chains. Users deposit funds into their account, and a portion goes into the Gas Tank. This fund is then used to cover gas fees across various chains, eliminating the need for users to manage gas fees separately.\n\nSession-Based Trading System:\n\nRage Trade employs a session-based trading system where users create a session that lasts for a specified duration (e.g., 7 days). This system reduces the need for manual transaction signing, making the trading experience smoother and more akin to centralized exchanges.\n\nMulti-Leg Trading and Auto-Populating Bridge:\n\nThe platform allows users to create multiple trades from different chains and perps on Arbitrum, enabling them to spread risk and optimize execution. Additionally, Rage Trade handles all the bridging details, automatically selecting the best bridge or swap routes for seamless trade execution.\n\nCustom Route Selection:\n\nUsers have the option to split their orders based on various criteria such as best execution price, lowest funding fees, or routes with bonuses like emissions or airdrops. This feature provides flexibility and optimization for trade execution.\n\nAggregated Referral & Competitions:\n\nRage Trade aggregates referrals and competitions across different perp protocols, allowing users to participate in various trading competitions and referral programs through a single platform.\n\nIncentive Distribution:\n\nThe proposal involves the distribution of 1.5 million ARB tokens to incentivize trading volume on Rage Trade. The distribution will be structured to reward active traders and participants in trading competitions, fostering increased engagement and liquidity on the platform.\n\nTrading Competitions:\n\nA series of trading competitions will be organized, with ARB tokens allocated as prizes. These competitions aim to attract traders, boost trading volume, and create a vibrant trading community on Rage Trade.\n\nUser Engagement and Performance Metrics:\nRage Trade has successfully cultivated a dynamic user base, boasting 70,000 active traders who regularly engage with our platform. This robust participation is a testament to our platform’s appeal and functionality within the trading community.\n\nIn addition to our active traders, we have nurtured a strong Liquidity Provider (LP) community, with 26,000 LPs contributing to our ecosystem. This substantial number of LPs underscores our platform’s reliability and the trust placed in us by those who provide liquidity, further cementing our role as a pivotal player in the Arbitrum ecosystem.\n\nOverall, our protocol’s historical performance not only demonstrates significant growth and adoption but also highlights our consistent delivery of value to our users, traders, and liquidity providers. These metrics are indicative of our integral position within the Arbitrum ecosystem and our potential to further enhance and expand our offerings with sustained support.\n\nRage’s Perpetual Performance:\n\nRage Trade v1 has experienced a remarkable market reception, evidenced by a staggering $735M in Total Trading Volume against Rage’s Total Value Locked (TVL). This impressive figure reflects the high demand and active engagement within our user base, showcasing the platform’s appeal and effectiveness.\n\n\n\n962×642 21.9 KB\nRage’s Vaults Performance:\n\nOur vault offerings, including the 80-20 Tricrypto Vault and GLP Vault, have achieved a notable peak TVL of approximately $19.87 million (at 100% max capacity since launch). This achievement highlights the trust and confidence users place in our vault products.\n\nAt its peak, Rage Trade accounted for about 1.4% of the entire Arbitrum TVL, marking our significant contribution to the overall ecosystem. This percentage represents our substantial impact and the value we add to the broader Arbitrum community.\n\nThe 80-20 Tricrypto vault, in particular, has demonstrated exceptional performance. Over its 10-month lifespan, it outperformed holding GLP by 8%. Specifically, from July 2022 to April 2023, the 80-20 Tricrypto vault yielded a 44% return compared to a 36% return from merely holding GLP, showcasing its effectiveness and profitability.\n\nSteps to Implement: The steps to implement the AIP, including associated costs, manpower, and other resources for each step where applicable. For the avoidance of doubt, any AIPs involving transactions with third parties (such as grants) will need to ensure that applicable legal documentation and procedures are also included.\nTo implement this proposal, we will follow a structured approach, ensuring each phase contributes effectively to the overall goal. Here’s how we plan to proceed:\n\nData Reporting and Transparency: Rage Trade is committed to transparency and will implement Dune dashboards for real-time tracking of all relevant metrics. These dashboards will ensure community members have access to up-to-date data, reflecting our progress and adherence to the commitments outlined in this proposal. This approach emphasizes our dedication to transparency and accountability within the Arbitrum ecosystem.\n\nIncentive Allocation: We will begin by using a portion of the ARB tokens for our gas rebate program to offset gas fees for our users. This will serve as the initial spark to ignite trading activities on the Rage Trade platform.\n\nFee Offset & Trading Competitions: We will then allocate the remaining tokens to incentivize trading, including trade competitions and offsetting fees implemented by integrated perp protocols. The trading competitions will be strategically scheduled over time to ensure ongoing participation and interest.\n\nRegular Updates and Reporting: Throughout the implementation, we will continuously monitor platform performance, trader engagement, and community feedback. This will allow us to make real-time adjustments and improvements where necessary. To maintain transparency, we will provide the community with regular updates and reports. These will include key performance metrics and insights gained from the implementation process.\n\nReview and Analysis: At the end of the implementation phase, we will conduct a thorough review. This will involve analyzing successes, identifying areas for improvement, and extracting key learnings for future initiatives.\n\nBy following these steps, we aim to ensure not just the successful implementation of the proposal but also to contribute valuable insights for the continuous growth and development of the Arbitrum ecosystem.\n\nTimeline: Relevant timing details, including but not limited to start date, milestones, and completion dates.\nThe implementation of this proposal is structured into a 4-month period, with each month focusing on specific objectives and milestones:\n\nMonth 1 - Initiation and Setup (Immediately upon approval):\n\nAllocation of ARB tokens to the designated multisig wallet to immediately initiate gas rebates and trading fee offsets. Setup of the Dune dashboard for tracking key metrics such as trading volume and unique traders. Announcement of the initiative and upcoming trading competitions to the community.\n\nMonth 2 - Launch of Trading Competitions:\n\nOfficial launch of the first set of trading competitions.\n\nActive monitoring of trading activities and engagement levels.\n\nFirst monthly update provided to the community, highlighting early results and trader participation.\n\nMonth 3 - Mid-term Review and Adjustments:\n\nComprehensive review of the first two months, analyzing trader engagement and competition outcomes.\n\nAdjustments made to competitions and incentives based on feedback and data analysis.\n\nSecond monthly update provided, including insights and any changes implemented.\n\nMonth 4 - Final Push and Comprehensive Analysis:\n\nContinued incentivization and promotion of trading activities.\n\nFinal monthly update provided, leading up to the comprehensive quarterly report.\n\nPreparation of the detailed analysis report, evaluating the proposal’s success based on predefined objectives.\n\nPost-4-Month Period - Evaluation and Reporting:\n\nRelease of a comprehensive quarterly report, detailing the overall impact of the proposal on trading volume, trader engagement, and growth within the Arbitrum ecosystem. Evaluation of the initiative’s success and consideration of potential future actions based on the outcomes.\n\nThis timeline ensures a structured approach to implementing the proposal, with regular updates and transparency. It allows for adjustments based on real-time data and community feedback, ensuring the initiative remains aligned with its goal of driving growth within the Arbitrum ecosystem.\n\nKey Performance Indicators (KPIs):\n\nTo measure the success of achieving the grant objectives, we will focus on the following Key Performance Indicators (KPIs):\n\nDaily Volume: Aiming for a 30-day moving average of $10M in daily volume.\nDaily Traders: Targeting a 30-day moving average of 300 unique traders.\nIntegration: Committing to integrate 1 or more perpetual DEXes per 2 weeks (accounting for audit time).\nThese KPIs will serve as benchmarks to gauge our progress and effectiveness in utilizing the grant to drive growth and engagement within the Arbitrum ecosystem.\n\nGrant Breakdown:\nRage Trade aims to leverage the grant to attract a substantial influx of users to the Arbitrum ecosystem, bolstering user interaction, transaction volume, TVL, and overall activity.\n\nStrategically, Rage Trade will allocate ~ 33% of the grant to gas rebates, with the other ~ 66% of the grant being directed towards offsetting integrated perp protocols’ trading fees and various trading competitions. The endgame is to amplify user onboarding and trading enthusiasm, resonating with genuine market dynamics.\n\nIt’s crucial to clarify that rebate rates will be determined by the genuine fees incurred by users. If our partnering protocols grant separate rebates or rewards, Rage Trade commits to ensuring that the total sum of rebates will never surpass the fees accrued. Throughout this promotional phase, trade-to-earn schemes will not be entertained. Additionally, the Rage Trade team will vigilantly deter and counteract wash trading and Sybil-attack incidents. Offending addresses linked with such activities will be publicly disclosed and denied the associated rebates.\n\nGas Rebates Explained:\nOnce a week, traders will receive ARB tokens as a gas rebate, mirroring the gas fees they’ve incurred throughout the week. This rebate system ensures that users can trade more freely, knowing a portion of their gas fees will be returned. The gas rebate will be uniformly applied across all protocols integrated with Rage Trade on Arbitrum, ensuring fairness and consistency for all traders. The rebate amount a trader receives will be directly proportional to the actual gas fees they’ve paid, eliminating any potential for manipulative practices like trade-to-earn schemes.\n\nFee Rebates Explained:\n\nARB tokens will be rewarded as fee rebates to our traders every Friday, reflecting the fees they’ve accumulated over the week.\n\nThis fee waiver will be consistently applied across all collaborating protocols.\n\nTraders’ rebate entitlements will strictly correlate with their actual trading fees, nullifying the chance for trade-to-earn practices. The rate of expenditure from the grant will be contingent on the volume of organic trading transpiring each week. The Rage Trade team pledges to continually identify and thwart wash trading and sybil-attack attempts.\n\nTo safeguard the integrity of the campaign, the specifics of the anti-wash-trading & anti-sybil-attack measures will be kept confidential and will be communicated post-event, mirroring best practices employed in protocol airdrop launches.\n\nExample of Fee Structure Post-Reduction:\n\nIf additional perps trading mechanisms in the Arbitrum realm are incorporated with Rage Trade amidst this campaign, the fee waiver will extend to those as well.\n\nIntegrated protocol trading fee rates before and after reduction\n\nGMX V1: 0.1% → 0%\n\nGMX V2: 0.05% / 0.07% → 0%\n\nOverall Cost: The total cost to implement the AIP.\nThe total cost to implement this AIP for Rage Trade is 1.5M ARB tokens. This cost is solely dedicated to funding trading competitions and volume incentives on the Rage Trade platform. The breakdown is as follows:\n\nGas Rebates: 500k ARB tokens will be allocated for offsetting gas fees when trading perps on Arbitrum.\n\nTrading Fee Rebates & Competitions: The remaining 1m ARB will be used as trading fee offsets and trading competitions.\n\nThere are no additional costs involved in this proposal. The entire 1.5M ARB token request is focused on directly incentivizing users and enhancing their trading experience on Rage Trade.",
+        "end_utc": "2023-11-18T17:35:06Z",
+        "similarity_score": 0.1554,
+        "vote_result": {
+          "choices": [
+            "Fund (1.5m arb)",
+            "Do Not Fund"
+          ],
+          "scores": [
+            13784562.713559736,
+            132369775.51088984
+          ],
+          "scores_total": 146154338.22444996,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "arbitrum",
+          "status": "tvl_data_unavailable",
+          "error": "Could not fetch TVL data: TVL cache not found for slug='arbitrum'"
+        },
+        "price_impact": {
+          "token_id": "11841",
+          "ticker": "ARB",
+          "status": "success",
+          "event_time_utc": "2023-11-18T17:35:06",
+          "pre_price_avg": 1.0603083450000002,
+          "post_price_avg": 0.99415807,
+          "abnormal_change": -6.2388,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.062388,
+          "abnormal_change_pct": -6.2388
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0xc9fc6b61c7e13a4645937937600397e496a3f4703a8f4d00e11c0f641d86ce9f",
+    "selected_choice_label": "Funded with 1.73M USDC + Council",
+    "selected_choice_index": 0,
+    "confidence": 0.9,
+    "summary": "The proposal to fund the Arbitrum Research & Development Collective (ARDC) with 1.73M USDC plus a Supervisory Council is recommended due to strong prior value delivery, structured improvements in governance, and community sentiment favoring cautious, efficient funding.",
+    "key_arguments_for": [
+      "ARDC V1 returned over 1 million ARB to the DAO Treasury, demonstrating tangible value.",
+      "The introduction of a Supervisory Council provides better oversight and strategic alignment with DAO priorities.",
+      "The retainer payment model ties compensation to actual project needs, promoting efficient resource use.",
+      "Community sentiment largely supports continuation with the lowest funding option to balance impact and fiscal prudence.",
+      "The ARDC provides essential research, risk assessment, and security analysis critical to the DAO's long-term health."
+    ],
+    "key_arguments_against": [
+      "Concerns about potential bureaucracy and overlapping roles with other DAO entities.",
+      "Some community members question the necessity of the Supervisory Council and additional layers.",
+      "Lack of clear KPIs and evaluation metrics beyond report counts.",
+      "Some delegates express uncertainty about the differences among the funding options and deliverables."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Forum discussion: https://forum.arbitrum.foundation/t/non-constitutional-arbitrum-research-and-development-collective-term-2/26922",
+        "quote": "Multiple delegates express support for ARDC continuation citing value from V1, improved governance with Supervisory Council, and efficiency of the retainer model. Some raise concerns about bureaucracy and overlapping roles."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Snapshot voting timeline metrics",
+        "quote": "Timeline analytics recommend option 0: Funded with 1.73M USDC + Council with strong early and consistent vote support."
+      }
+    ],
+    "available_choices": [
+      "Funded with 1.73M USDC + Council",
+      "Funded with 2.09M USDC + Council",
+      "Funded with 2.60M USDC + Council",
+      "Abstain",
+      "Do not fund the ARDC"
+    ],
+    "event_start_utc": "2024-10-17T14:00:00Z",
+    "event_end_utc": "2024-10-24T14:00:00Z",
+    "event_time_utc": "2024-10-24T14:00:00Z",
+    "address_of_governance_token": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+    "token_price_impact_pct": -8.763,
+    "tvl_impact_pct": -3.5448,
+    "actual_vote_result": {
+      "winner_label": "Funded with 1.73M USDC + Council",
+      "winner_index": 0,
+      "scores": [
+        90700635.70066504,
+        27794141.686292112,
+        10922761.792975094,
+        8835028.13580752,
+        1519294.5108801308
+      ],
+      "scores_total": 139771861.82661986,
+      "margin_abs": 62906494.01437293,
+      "margin_pct": 0.450066
+    },
+    "simulation_reason": "Based on prior ARDC success, community sentiment, and voting timeline metrics, option 0 offers a balanced approach maximizing long-term DAO benefit with manageable risk.",
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Funded with 1.73M USDC + Council' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- The ARDC V1 demonstrated clear value by delivering research outputs and returning significant ARB to the DAO treasury.\n- The introduction of a Supervisory Council enhances accountability and operational oversight, addressing prior gaps.\n- The retainer payment model aligns incentives by linking compensation to project needs, reducing inefficiencies.\n- Community forum sentiment largely supports continuation with the lowest budget option, reflecting cautious optimism.\n- Timeline analytics strongly favor option 0 with stable and consistent support throughout the voting period.\n- Although some concerns about bureaucracy and overlapping roles exist, the proposed structure consolidates roles to minimize complexity.\n- The recommendation aligns with community sentiment, suggesting the vote outcome reflects broader DAO views.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x66812a5c91fe5f590965148c76f1ca609fdc5ded722544673c275a3b2ed94549",
+        "title": "ArbitrumDAO Procurement Committee Phase II",
+        "end_utc": "2024-09-12T11:00:00Z",
+        "summary": "ArbitrumDAO Procurement Committee Phase II closed on 2024-09-12T11:00:00Z. Timeline analytics noted 3356 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.18)",
+        "market_response": "token +0.10%; TVL +0.52%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -8.763,
+    "ex_post_tvl_impact_pct": -3.5448,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -8.76%; TVL -3.54%"
+  },
+  "agentic_ai_choice": "Funded with 1.73M USDC + Council",
+  "actual_outcome": "Funded with 1.73M USDC + Council",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 30,
+    "Positive": 25,
+    "Neutral": 45,
+    "total_comments": 100
+  }
+}

@@ -1,0 +1,832 @@
+{
+  "captured_at_utc": "2025-10-09T01:51:02.820462+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x136a2f06b3ae1b0e9e14442eba24d738470710686be4bbbbc9e4967f84e31503",
+  "focus": null,
+  "votes_count": 9,
+  "timeline_metrics_current": {
+    "unique_voters": 9,
+    "total_votes": 9,
+    "first_vote_at": "2024-08-09T12:15:25Z",
+    "last_vote_at": "2024-08-12T08:38:49Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        223659.81559360545,
+        0.0,
+        0.0
+      ],
+      [
+        1245.6904130102237,
+        0.0,
+        0.0
+      ],
+      [
+        128589.93024714613,
+        613.5596705586795,
+        0.0
+      ],
+      [
+        2319366.548665911,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.867746,
+    "spike_follow_support_ratio": 0.0,
+    "stairwise_ratio": 0.132254,
+    "half_slope_diff": -22.621908
+  },
+  "adjacent_analytics": [],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0xf5e1d90f47596bbe84657b78780c3ac8fceac6d7da8e1720926e1168c2ad7fad",
+      "cleaned": {
+        "proposal_id": "0xf5e1d90f47596bbe84657b78780c3ac8fceac6d7da8e1720926e1168c2ad7fad",
+        "title": "[BIP-513] Seed BAL Liquidity on Avalanche",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-12-25T19:00:00Z",
+        "similarity_score": 0.1611,
+        "winning_option": "Abstain",
+        "winning_option_index": 2,
+        "margin_abs": 495948.07651920314,
+        "margin_pct": 0.10947230084051619,
+        "scores_total": 4530352.1777780205,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 27,
+        "total_votes": 27,
+        "first_vote_at": "2023-12-21T21:12:01Z",
+        "last_vote_at": "2023-12-25T17:54:25Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            369307.163514946,
+            0.0,
+            583.209861262021
+          ],
+          [
+            315950.75293554045,
+            0.0,
+            0.0
+          ],
+          [
+            1279.6528342548322,
+            0.0,
+            0.0
+          ],
+          [
+            322704.6658783551,
+            0.0,
+            3520526.7327536643
+          ]
+        ],
+        "spike_index": 0.999834,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.000166,
+        "half_slope_diff": 0.0
+      },
+      "raw": {
+        "id": "0xf5e1d90f47596bbe84657b78780c3ac8fceac6d7da8e1720926e1168c2ad7fad",
+        "title": "[BIP-513] Seed BAL Liquidity on Avalanche",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/696\n\n# Introduction\n\nEarlier this year, governance has approved to [deploy Balancer on Avalanche](https://snapshot.org/#/balancer.eth/proposal/0xfac459b1f0ce7eec8965814a062a3eac195b5988990ae7a6a59e4022304837c3)\n\nAfter a bootstrapping phase where [an initial set of gauges was added](https://snapshot.org/#/balancer.eth/proposal/0x6459a7430d378236892af46e14afbecb56f51a81cd8e48b92e8a5774a919d7d6) the deployment is now at a much more mature state with approximately $7mln in TVL and $400k in daily trading volume. Furthermore, BAL emissions are flowing to major AVAX LST pools that are also part of our core pool framework. However, currently, no deep liquidity exists for BAL to trade with on Avalanche.\n\n# Motivation\n\nGiven the lack of BAL liquidity on Avalanche, we propose to seed $100k in BAL/WAVAX liquidity in a 80:20 [pool](https://app.balancer.fi/#/avalanche/pool/0xa39d8651689c8b6e5a9e0aa4362629aef2c58f55000200000000000000000038) on Avalanche so that protocol participants can trade against a core pair. This liquidity will be provisioned from the DAO treasury on mainnet. Funds will be bridged to Avalanche and deposited to a newly created BAL:WAVAX 80:20 pool.\n\nAt the time of the writing of this proposal, approximately $5k worth of BAL is emitted every day on Avalanche gauges. Therefore, a base liquidity of at least $100k is sufficient to provide a solid trading pair without too much slippage.This core liquidity pool will help participants to trade against WAVAX and therefore reduce friction of non-existent BAL liquidity. This measure should therefore improve UX for LPs and autocompounders significantly.\n\nExamples of provisioning of 80:20 pools for other assets like Aura showed success on deployments like OP: https://op.beets.fi/pool/0x2f6b6973f38381fe453ea819b7e0f0897adeaae7000200000000000000000113\n\n# Risk Assessment\n\nFollowing risks may arise when provisioning liquidity on AVAX:\n\n* Incurring losses while trading or provisioning liquidity\n* Incurring impermanent loss by providing BAL against a non-ETH related asset like AVAX.\n\nIncurring losses while trading or provisioning liquidity\n\nAs the DAO doesn’t hold any WAVAX liquidity, it needs to trade it on the open market. We suggest that USDC shall be traded by the LM Multi-sig on Avax that will use aggregators like 1inch to facilitate the trade and reduce price impact from trading USDC to WAVAX. The final BPT position shall then be transferred to the multi-sig to complete the transactions\n\nIncurring impermanent loss by providing BAL against a non-ETH related asset like AVAX\n\nOne of Balancer’s core strengths is to provision a 80:20 pool to reduce IL. To demonstrate,\n\nwe can sketch out certain extreme scenarios where AVAX price would appreciate much more compared to BAL price. In such a scenario, we would incur so called impermanent loss on our position which describes the loss of value of the underlying assets in the pool compared to when the assets were simply held. We can use a tool like our IL calculator https://balancer.tools/impermanentLoss to simulate following scenario:\n\n|Token|Price start|Price End|Difference (%)|\n| --- | --- | --- | --- |\n|BAL|4|6|50|\n|AVAX|35|100|185|\n\nGiven this scenario for an investment of $100k we would incur IL of approx 3.7%. It is safe to assume that this pool will get at least 5% of trading fee rewards, which would negate any impact of IL.\n\n \n![bip-513.png](ipfs://bafkreibe7ajfhl4dp672rqmf6sbj47b6duxs3tc6uezx5udmc7ye7rxl3y)\n    \n\nWe therefore conclude that IL always plays a role but should not affect any significant losses to the DAO in this configuration.\n\n# Technical Specification\n\nThe Balancer DAO Treasury Multi-sig `0x10a19e7ee7d7f8a52822f6817de8ea18204f2e4f` will send 20,000 USDC and $80k USD worth of BAL (real amount at time of writing) to the Maxi LM Multisig `0xc38c5f97B34E175FFd35407fc91a937300E33860` which will bridge the funds to the LM Multisig on AVAX: `0x326A7778DB9B741Cb2acA0DE07b9402C7685dAc6` using Stargate Finance bridge via WalletConnect.\n\nAfter funds have arrived on Avalanche, the LM multi-sig on Avalanche will trade $20k USDC to WAVAX on 1inch.\n\nA total of approx. $100k of BAL and WAVAX will be deposited into pool [0xa39d8651689c8b6e5a9e0aa4362629aef2c58f55](https://app.balancer.fi/#/avalanche/pool/0xa39d8651689c8b6e5a9e0aa4362629aef2c58f55000200000000000000000038)\n\nFinally, the BPT token will be transferred to the DAO Multi-sig to complete the transaction.",
+        "end_utc": "2023-12-25T19:00:00Z",
+        "similarity_score": 0.1611,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2017202.0506294088,
+            0,
+            2513150.127148612
+          ],
+          "scores_total": 4530352.1777780205,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-12-25T19:00:00",
+          "pre_tvl_avg": 940248910.0,
+          "post_tvl_avg": 953239957.0,
+          "abnormal_change": 1.3817,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.013817,
+          "abnormal_change_pct": 1.3817
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-12-25T19:00:00",
+          "pre_price_avg": 4.141005475,
+          "post_price_avg": 4.5243818650000005,
+          "abnormal_change": 9.2581,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.092581,
+          "abnormal_change_pct": 9.2581
+        }
+      }
+    },
+    {
+      "proposal_id": "0x23516280ee531f274f7106039066944b2159e3f9ff2a369614a8894c98ec6e03",
+      "cleaned": {
+        "proposal_id": "0x23516280ee531f274f7106039066944b2159e3f9ff2a369614a8894c98ec6e03",
+        "title": "[BIP-524] Seed BAL Liquidity on Optimism",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2024-01-01T19:00:00Z",
+        "similarity_score": 0.1463,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3889036.144900092,
+        "margin_pct": 1.0,
+        "scores_total": 3889036.144900092,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 31,
+        "total_votes": 31,
+        "first_vote_at": "2023-12-28T19:17:53Z",
+        "last_vote_at": "2024-01-01T10:24:25Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            572.9224345992271,
+            0.0,
+            0.0
+          ],
+          [
+            3.6460519877596838,
+            0.0,
+            0.0
+          ],
+          [
+            361285.50543285604,
+            0.0,
+            0.0
+          ],
+          [
+            3527174.0709806485,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.906953,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.000149,
+        "half_slope_diff": 961.334741
+      },
+      "raw": {
+        "id": "0x23516280ee531f274f7106039066944b2159e3f9ff2a369614a8894c98ec6e03",
+        "title": "[BIP-524] Seed BAL Liquidity on Optimism",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/715\n\n# Introduction\n\nIn July 2022 the joint Balancer/Beethoven X deployment was launched on Optimism. Additionally, the Aura deployment on Optimism has been active since the summer of 2023 in collaboration with it. The TVL of the deployment is currently at ~$31M with a monthly increase of ~30% over the last three months.\n\nThis proposal seeks the approval to use BAL and wETH from the DAO treasury multisig to create BAL/wETH liquidity on the Optimism deployment.\n\n# Motivation\n\nWhile BAL tokens are emitted as rewards to the joint Balancer/Beethoven X deployment and Aura users on Optimism, then currently the actual BAL liquidity on the chain for the users to trade against is low. Therefore we propose the seeding of BAL/wETH 80:20 pool on Optimism with $100k, which is deemed sufficient for the approximate $4k worth of BAL that is emitted every day on Optimism gauges at the current numbers. It is also in similar range as AURA liquidity on Optimism provided by Aura in the pool https://op.beets.fi/pool/0x2f6b6973f38381fe453ea819b7e0f0897adeaae7000200000000000000000113 and BEETS liquidity provided by Beethoven X in the pool https://op.beets.fi/pool/0xc1f46ce83439886f0ea9c21512b36e7e67239d2c000200000000000000000108.\n\nFunds would be bridged to Optimism and deposited to a newly created BAL/wETH 80:20 pool https://op.beets.fi/pool/0xc38c2fc871188935b9c615e73b17f2e7e463c8b1000200000000000000000119. Overall, we expect this action to improve the user experience of the liquidity providers significantly.\n\n# Risk Assessment\n\nFor the purpose of this proposal, ~$80k worth of BAL and ~$20k wETH will need to be bridged to Optimism and paired up as a BPT. Due to this the funds will likely incur some amount of impermanent loss, but since BAL price action is already strongly tied to ETH and the 80:20 pool structure efficiently lowers the amount of IL compared to 50:50 pool, then the overall effect of it is considered low and it is likely the trading fees negate any impact of it.\n\n# Technical Specification\n\nThe Balancer DAO Treasury Multi-sig `0x10a19e7ee7d7f8a52822f6817de8ea18204f2e4f` will send $80k USD worth of BAL and $20k USD worth of wETH to the Maxi LM Multisig `0xc38c5f97B34E175FFd35407fc91a937300E33860`, which will bridge the funds to LM multisig on Optimism: `0x09Df1626110803C7b3b07085Ef1E053494155089` using Stargate Finance bridge via WalletConnect.\n\nAfter funds have arrived on Optimism, the LM multisig will deposit the funds into pool https://op.beets.fi/pool/0xc38c2fc871188935b9c615e73b17f2e7e463c8b1000200000000000000000119.\n\nFinally, the BPT tokens will be transferred to the DAO multisig to complete the transaction.",
+        "end_utc": "2024-01-01T19:00:00Z",
+        "similarity_score": 0.1463,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3889036.144900092,
+            0,
+            0
+          ],
+          "scores_total": 3889036.144900092,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-01-01T19:00:00",
+          "pre_tvl_avg": 944875900.0,
+          "post_tvl_avg": 953282441.0,
+          "abnormal_change": 0.8897,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.008897,
+          "abnormal_change_pct": 0.8897
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-01-01T19:00:00",
+          "pre_price_avg": 4.270062055,
+          "post_price_avg": 4.14261357,
+          "abnormal_change": -2.9847,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.029847,
+          "abnormal_change_pct": -2.9847
+        }
+      }
+    },
+    {
+      "proposal_id": "0xf9bc2c094bf303a185e730360f2464bfe9d4a2b31ef823bd162b57e247f134d2",
+      "cleaned": {
+        "proposal_id": "0xf9bc2c094bf303a185e730360f2464bfe9d4a2b31ef823bd162b57e247f134d2",
+        "title": "[BIP-666] Provide Balancer DAO POL to CoWAMM Pools",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2024-08-05T18:00:00Z",
+        "similarity_score": 0.1395,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2530628.4013576256,
+        "margin_pct": 0.9998189404123171,
+        "scores_total": 2531086.678868091,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 9,
+        "total_votes": 9,
+        "first_vote_at": "2024-08-02T08:58:52Z",
+        "last_vote_at": "2024-08-05T15:08:14Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.2100796687150606,
+            0.0,
+            0.0
+          ],
+          [
+            230155.5152778791,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2300930.9535105433,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.905298,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.094702,
+        "half_slope_diff": 13.087921
+      },
+      "raw": {
+        "id": "0xf9bc2c094bf303a185e730360f2464bfe9d4a2b31ef823bd162b57e247f134d2",
+        "title": "[BIP-666] Provide Balancer DAO POL to CoWAMM Pools",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1196\n\n## Summary\nAuthors: @Mike_B, @Xeonus \n\nIn this proposal, we aim to formalize the launch requirements for CoWAMM’s for Balancer. This includes the following:\n\n* Transfer $250k in BAL for discretionary incentives\n* Transfer $250k in BAL + $250k in WETH to seed the BAL/WETH CoWAMM pool for a total of $500k\n* Transfer $125k in USDC and $125k in WETH to seed Balancer DAO’s portion of the USDC/WETH pool for a total of $250k\n\nFor a total of \n\n**$500k in BAL**, **$125k USDC**, and **$375k in WETH**\n\n## Motivation\n\nThis proposal serves to formalise the execution of the approved obligations outlined in [BIP-628](https://forum.balancer.fi/t/bip-628-balancer-cow-protocol-strategic-partnership-launching-cowamm-pools/5813) as at the time of BIP-628’s writing, the smart contracts had yet to be finalized. The execution only includes the provisioning of POL and not any token swap agreements so far.\n\n## Execution Specification\n\nFor the sake of simplicity and not having to specify join parameters (which can vary depending on asset pricing), the entirety of these funds will be sent to the LM multisig at 0xc38c5f97B34E175FFd35407fc91a937300E33860\n\nPrice of BAL: $2.34\nPrice of WETH: $3171\n\n||Amount ($)|BAL|USDC|WETH|\n|---|---|---|---|---|\n|BAL Incentives|$250,000.00|106837.61|0.00|0.00|\n|USDC/WETH Pool|$250,000.00|0.00|125000.00|39.42|\n|BAL/WETH Pool|$500,000.00|106837.61|0.00|78.84|\n\nThis comes to a total of\n\n**125,000 USDC**\n**213675.21 BAL**\n**118.26 WETH**\n\nAfter which, the appropriate funds will be added to the corresponding CoWAMM pool after which the LP tokens will be transferred back to the DAO multisig.\n\nThis proposal will fulfill all our obligations outlined by BIP-628.\n\n## Technical Specification\nThe DAO multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with USDC at `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48` by writing transfer, passing `0xc38c5f97B34E175FFd35407fc91a937300E33860` as recipient and the amount 125000 as `125000000000`. \nThe DAO multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with BAL at `0xba100000625a3754423978a60c9317c58a424e3D` by writing transfer, passing `0xc38c5f97B34E175FFd35407fc91a937300E33860` as recipient and the amount 213675.21 as 213675210000000000000000.\nFinally, the DAO multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with WETH at `0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2` by writing transfer, passing `0xc38c5f97B34E175FFd35407fc91a937300E33860` as dst and the amount 118.26 as 181260000000000000000 at wad.",
+        "end_utc": "2024-08-05T18:00:00Z",
+        "similarity_score": 0.1395,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2530857.540112858,
+            0,
+            229.13875523252756
+          ],
+          "scores_total": 2531086.678868091,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-08-05T18:00:00",
+          "pre_tvl_avg": 761921168.5,
+          "post_tvl_avg": 657886621.5,
+          "abnormal_change": -13.6542,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.136542,
+          "abnormal_change_pct": -13.6542
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-08-05T18:00:00",
+          "pre_price_avg": 2.01110141,
+          "post_price_avg": 1.89067861,
+          "abnormal_change": -5.9879,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.059879,
+          "abnormal_change_pct": -5.9879
+        }
+      }
+    },
+    {
+      "proposal_id": "0x5c12d1838c1a873eab1beabc406940999c97cfff2564d967f8f4a385a6e7a021",
+      "cleaned": {
+        "proposal_id": "0x5c12d1838c1a873eab1beabc406940999c97cfff2564d967f8f4a385a6e7a021",
+        "title": "[BIP-45] Balancer LP BAL into MLP",
+        "author": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+        "end_utc": "2022-08-21T15:30:00Z",
+        "similarity_score": 0.13,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 492589.4781174914,
+        "margin_pct": 0.9548039075462986,
+        "scores_total": 515906.432958964,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 116,
+        "total_votes": 116,
+        "first_vote_at": "2022-08-18T15:32:51Z",
+        "last_vote_at": "2022-08-21T15:18:49Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            258481.58559723222,
+            1216.796719999883
+          ],
+          [
+            138380.78005880362,
+            0.0
+          ],
+          [
+            7.6779827169097885,
+            1539.1893745968446
+          ],
+          [
+            107377.91189947508,
+            8902.491326139565
+          ]
+        ],
+        "spike_index": 0.19857,
+        "spike_follow_support_ratio": 0.448832,
+        "stairwise_ratio": 0.024899,
+        "half_slope_diff": -24.750617
+      },
+      "raw": {
+        "id": "0x5c12d1838c1a873eab1beabc406940999c97cfff2564d967f8f4a385a6e7a021",
+        "title": "[BIP-45] Balancer LP BAL into MLP",
+        "author": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+        "body": "**Introduction**\n\nTracer DAO has recently rebranded to Mycelium and expanded its strategic direction as part of a recent [governance proposal](https://snapshot.org/#/tracer.eth/proposal/0x2f2103cc31a01e36f94d488ae5c3ea9a9d57b5f4543a8897fe2d74c9f8c3ec7c). Balancer has and will continue to be a significant part of the Mycelium ecosystem. With the Perpetual Pools, Balancer serves as the secondary market for pool token and we are building tools that will leverage BLP tokens to aggregate stable coin and other assets to serve as collateral in Perpetual Pool markets. \n\nNext week, Mycelium is releasing a Perpetual Swap product. The product is a generalised fork of GMX. If you’re familiar with the GMX model you are probably aware of their liquidity token, GLP. Mycelium will be releasing MLP which is effectively a yield bearing index of stablecoins and bluechip crypto tokens that acts as the universal counter-party for leveraged traders. MLP will introduce a number of new assets relative to GLP, one of which is BAL. BAL will be used in the MLP pool to collateralise trader’s long BAL positions, which are executed at the oracle price with no slippage. The MLP pool will also act as an AMM allowing traders to buy and sell BAL. \n\nThe token weights in the pool are adjusted to help hedge the holders of MLP against trader open positions. For example, if a large number of traders are long BAL, the MLP pool target weighting would be adjusted to have a higher BAL holding. Initially, BAL will have a target weighting of 1% of the MLP Pool. \n\nPlease find more information here: [Perpetual Swap and MLP background](https://tracerdao.medium.com/mycelium-perpetual-swaps-5f0cf94a456b) \n\n**Motivation**\n\nThe following proposal is for the Balancer community to allocate a percentage of the BAL held in the Balancer treasury towards the MLP liquidity pool. To provide [incentives to LPs](https://tracerdao.medium.com/lp-incentives-8587a4ee7fc8), Mycelium will be targeting a 25% APR to LPs for the first month after launch. 70% of fees generated by traders will be distributed to MLP holders. These fees will be paid out to MLP holders in ETH. If the APR derived from ETH rewards is under the targeted 25% APR, the shortfall will be subsidised with escrowed MYC, Mycelium’s native token, that vests over a 6 month period. \n\nThe goal of this proposal is to diversify the Balancer treasury, deposit BAL into the MLP liquidity pool and, earn ETH and MYC rewards. As a result, the Balancer community would generate yield on liquid treasury assets. $200,000 worth of BAL would help seed liquidity into MLP to allow traders to go long BAL in an meaningful as we launch Mycelium Perpetual Swaps.\n\n**Risks**\n\n* Single sided asset supplied; LPs are protected against impermanent loss seen in traditional AMM models. Despite only depositing BAL, the treasury would be exposed to every asset in the MLP pool (see the chart above).\n\n* Smart Contract risk; Mycelium Perpetual Swap contracts are unaudited, but are a direct fork of the GMX codebase, which has been audited. GMX code has facilitated 10’s of billions in volume via their codebase and has hundreds of millions locked in its contracts.\n\n* Oracle risk; all transactions are executed at the oracle price feed. If the oracle price feed were to be manipulated in some way LPs may realise losses. To mitigate this risk, Mycelium Perpetual Swaps is using an aggregated oracle pricing system pulling in data feeds directly from Chainlink, Binance, Bitfinex and FTX. By aggregating these feeds prices are normalised, eliminating the risk of exchange specific volatility.\n\n* Trader’s profits; LPs are providing assets for traders to go long and short. If traders are profitable, that would cause a portion of LPs capital to be lost in the form of trader’s gains. Historically, as seen with GMX, traders have suffered consistent losses against the pools.\n\nI’m eager to get the discussion going and hear what the community thinks.\n\n### Specification\n\nThe DAO Multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will transfer 30,800 BAL (~$200k) to the LM Multisig `0xc38c5f97B34E175FFd35407fc91a937300E33860`. From there, the BAL will be bridged to Arbitrum and deposited into MLP.",
+        "end_utc": "2022-08-21T15:30:00Z",
+        "similarity_score": 0.13,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way"
+          ],
+          "scores": [
+            504247.9555382277,
+            11658.477420736292
+          ],
+          "scores_total": 515906.432958964,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2022-08-21T15:30:00",
+          "pre_tvl_avg": 854815559.0,
+          "post_tvl_avg": 831267551.0,
+          "abnormal_change": -2.7547,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.027547,
+          "abnormal_change_pct": -2.7547
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2022-08-21T15:30:00",
+          "pre_price_avg": 5.6312186650000005,
+          "post_price_avg": 6.451052430000001,
+          "abnormal_change": 14.5587,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.145587,
+          "abnormal_change_pct": 14.5587
+        }
+      }
+    },
+    {
+      "proposal_id": "0xc57b68f24f9e43a32cbae625ba8248783ec74659cef2a8c302d5b6724f35af8e",
+      "cleaned": {
+        "proposal_id": "0xc57b68f24f9e43a32cbae625ba8248783ec74659cef2a8c302d5b6724f35af8e",
+        "title": " [BIP-181] Enable bb-euler-FRAX/bb-euler-USDC Gauge [Ethereum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-02-13T21:00:00Z",
+        "similarity_score": 0.1261,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 4404222.1367396265,
+        "margin_pct": 0.9999997750067742,
+        "scores_total": 4404223.127659995,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 296,
+        "total_votes": 296,
+        "first_vote_at": "2023-02-09T21:13:53Z",
+        "last_vote_at": "2023-02-13T20:12:56Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            616336.3243237898,
+            0.08418956891559685
+          ],
+          [
+            6208.902384596296,
+            0.41127061580051827
+          ],
+          [
+            114821.46428263723,
+            0.0
+          ],
+          [
+            3666855.941208787,
+            0.0
+          ]
+        ],
+        "spike_index": 0.616382,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 1.6e-05,
+        "half_slope_diff": 19.418087
+      },
+      "raw": {
+        "id": "0xc57b68f24f9e43a32cbae625ba8248783ec74659cef2a8c302d5b6724f35af8e",
+        "title": " [BIP-181] Enable bb-euler-FRAX/bb-euler-USDC Gauge [Ethereum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "[PR with multisig payload](https://github.com/BalancerMaxis/multisig-ops/pull/59)\n\n**Summary:**\n\n> Due to the recent [vulnerability disclosure](https://forum.balancer.fi/t/reentrancy-vulnerability-scope-expanded/4345), the deployment of the [ComposableStablePoolFactory-v3](https://etherscan.io/address/0xdba127fbc23fb20f5929c546af220a991b5c6e01#readContract) is configured to address the potential issues related to Balancer’s previous composable stable pools (v2).This pool uses the new pool factory and will be composed of three Euler linear pools. The underlying tokens are USDC and FRAX. These will each be wrapped through Euler’s market to earn LPs additional yield. This gauge would enter as a “core pool” under BIP-19, meaning protocol fees earned by this pool would be used to bribe for votes on it. The gauge can be uncapped based on the contents being all large cap stable tokens.\n\n**References/Useful links:**\n\n> Euler: Link to:\n> • [Website](https://www.euler.finance/)\n> • [Documentation](https://docs.euler.finance/)\n> • [Github Page](https://github.com/euler-xyz)\n> • [Communities](https://forum.euler.finance/)\n> FRAX: Link to:\n• [Website ](https://frax.finance/)\n• [Documentation](https://docs.frax.finance/)\n• [Github Page](https://github.com/FraxFinance/frax-solidity)\n• [Communities ](https://discord.gg/MTZu6Hf57d) - Discord link\n> USDC: Link to:\n> • [Website](https://www.circle.com/en/usdc)\n> • [Documentation](https://developers.circle.com/docs/what-is-usdc)\n> • [Github Page](https://github.com/centrehq/centre-tokens)\n> • [Communities](https://www.coingecko.com/en/coins/usd-coin) - Coingecko link\n\n**Protocol Description:**\n\n> Euler is a permissionless lending protocol custom-built to help users lend and borrow digital assets. This provides yield bearing sources for various tokens, this case the stablecoins listed above. USDC is the dollar backed stablecoin issued by Circle. \n\n**Motivation:**\n\n> Balancer’s heavy interest in taking over the yield bearing token space and increased capital efficiency through linear and boosted pool architecture continues to take effect. This provides better trading routes on the protocol and more sustainable pool options for liquidity providers to place their funds. The great migration as we are going through now will harbor many more boosted pool options for users and Balancer to tap into a wide variety of yield sources. Euler is providing the capacity for various tokens outside of bb-euler-USD, one being FRAX in this pool. \n\n**Specifications:**\n\n1. **Governance:** USDC are centralized and does not have a governance forum. Euler’s governance details can be seen [here](https://docs.euler.finance/euler-governance/getting-started). FRAX governance process can be seen [here](https://docs.frax.finance/smart-contracts/governance) and their snapshot [here](https://snapshot.org/#/frax.eth).\n2. **Oracles:** This pool only relies on the rate providers of the linear pools to inform when yield is earned. \n3. **Audits:** See Euler’s [here](https://docs.euler.finance/security/audits) FRAX See [here ](https://docs.frax.finance/other/audits)\n4. **Centralization vectors:** USDC is inherently centralized. FRAX governance process is highlighted above, and their stability mechanism is described [here](https://docs.frax.finance/amo/overview). Also their decentralization ratio is described [here](https://docs.frax.finance/amo/decentralization-ratio-dr).\n5. **Market History:** See USDC [here ](https://www.coingecko.com/en/coins/%5D(https://www.coingecko.com/en/coins/usd-coin)). and Euler [here](https://www.coingecko.com/en/coins/euler). FRAX [here ](https://www.coingecko.com/en/coins/frax).\n6. **Value:** LPs & Balancer will earn the protocol fee on underlying bb-euler-FRAX and bb-euler-USDC as well as swap fees. BIP-19 will incentivize TVL to continue to grow here with trading volume and this implementation will continue to draw in new volume, as well as showcase the power of these pool types.\n\nLink to pool: [0x00C2A4be503869Fa751c2DbcB7156cc970b5a8dA](https://etherscan.io/address/0x00C2A4be503869Fa751c2DbcB7156cc970b5a8dA#readContract)\nLink to gauge: [0xD65979f15cfB52E9a6a4f8DEA34c69c1568EA4A8](https://etherscan.io/address/0xD65979f15cfB52E9a6a4f8DEA34c69c1568EA4A8)\n\n### Specification\n\nThe DAO Multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with the AuthorizerAdaptor at `0x8F42aDBbA1B16EaAE3BB5754915E0D06059aDd75` and call performAction with the GaugeController at `0xC128468b7Ce63eA702C1f104D55A2566b13D3ABD` for the target(address) argument and using 0x3a04f900 followed by the gauge address `0xD65979f15cfB52E9a6a4f8DEA34c69c1568EA4A8` and the corresponding gauge type for the data(bytes) argument.\n\ndata(bytes) : `0x3a04f900000000000000000000000000d65979f15cfb52e9a6a4f8dea34c69c1568ea4a80000000000000000000000000000000000000000000000000000000000000002`",
+        "end_utc": "2023-02-13T21:00:00Z",
+        "similarity_score": 0.1261,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way"
+          ],
+          "scores": [
+            4404222.632199811,
+            0.49546018471611514
+          ],
+          "scores_total": 4404223.127659995,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-02-13T21:00:00",
+          "pre_tvl_avg": 1138638813.5,
+          "post_tvl_avg": 1199124733.0,
+          "abnormal_change": 5.3121,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.053121,
+          "abnormal_change_pct": 5.3121
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-02-13T21:00:00",
+          "pre_price_avg": 6.345068725,
+          "post_price_avg": 7.136884200000001,
+          "abnormal_change": 12.4792,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.124792,
+          "abnormal_change_pct": 12.4792
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x136a2f06b3ae1b0e9e14442eba24d738470710686be4bbbbc9e4967f84e31503",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "The proposal aims to provide protocol owned liquidity to a 80BAL-20WETH:WETH pool to improve pricing accuracy of the 80BAL-20WETH BPT and its dependent tokens, utilizing idle BAL liquidity to generate revenue. Voting timeline shows unanimous and stable support, market impact data indicates positive price and TVL changes, while forum sentiment shows minor reservations but no strong opposition.",
+    "key_arguments_for": [
+      "Improves pricing accuracy for the 80BAL-20WETH BPT, benefiting veBAL and derivative tokens like sdBAL and auraBAL.",
+      "Utilizes idle BAL liquidity to generate potential revenue through increased trading activity.",
+      "Voting timeline metrics show stable and consistent unanimous support throughout the proposal period.",
+      "Market impact data indicates positive token price (+1.45%) and TVL (+3.32%) changes post-proposal."
+    ],
+    "key_arguments_against": [
+      "Forum discussion includes concerns about risks of wrong configuration and minimal impermanent loss despite correlated assets.",
+      "One main forum comment expressed negative sentiment possibly reflecting caution about execution complexity."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.balancer.fi/t/bip-669-provide-80bal-20weth-weth-pol-on-ethereum/5894",
+        "quote": "Proposal to provide 80BAL-20WETH:WETH POL to improve pricing and utilize idle BAL liquidity, with detailed execution and risk specifications."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": null,
+        "quote": "Voting timeline shows 100% lead ratio and perfect stability for the 'Yes, let's do it' choice."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2024-08-08T18:00:00Z",
+    "event_end_utc": "2024-08-12T18:00:00Z",
+    "event_time_utc": "2024-08-12T18:00:00Z",
+    "address_of_governance_token": "0xba100000625a3754423978a60c9317c58a424e3d",
+    "token_price_impact_pct": 1.4544,
+    "tvl_impact_pct": 3.3207,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        2672861.984919673,
+        613.5596705586795,
+        0.0
+      ],
+      "scores_total": 2673475.5445902315,
+      "margin_abs": 2672248.425249114,
+      "margin_pct": 0.999541
+    },
+    "simulation_reason": "Recommendation based on timeline analytics, forum sentiment, and market impact favoring proposal approval for durable organizational benefit.",
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Timeline analytics show unanimous and stable support for approval throughout voting period.\n- Market data indicates positive price and TVL impact consistent with proposal benefits.\n- Forum sentiment shows minor caution but no majority opposition, indicating vote outcome reasonably reflects community views.\n- The proposal addresses critical pricing inefficiencies and idle asset utilization, maximizing long-term DAO health.",
+    "similar_proposals": [],
+    "ex_post_price_impact_pct": 1.4544,
+    "ex_post_tvl_impact_pct": 3.3207,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +1.45%; TVL +3.32%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 1,
+    "Positive": 0,
+    "Neutral": 2,
+    "total_comments": 3
+  }
+}

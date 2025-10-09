@@ -1,0 +1,954 @@
+{
+  "captured_at_utc": "2025-10-09T04:02:13.948322+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x34f21bba6d0dac30d29d3e92ffb46bd45aec6127901e07ce59d0900ed49a4b94",
+  "focus": null,
+  "votes_count": 16,
+  "timeline_metrics_current": {
+    "unique_voters": 16,
+    "total_votes": 16,
+    "first_vote_at": "2024-05-30T20:47:51Z",
+    "last_vote_at": "2024-06-03T09:10:21Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        1.7897802139573096,
+        0.0,
+        0.0
+      ],
+      [
+        295782.2570120449,
+        0.0,
+        0.0
+      ],
+      [
+        0.10563688514857822,
+        0.014893811598695725,
+        0.0
+      ],
+      [
+        2337231.403894817,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.8865,
+    "spike_follow_support_ratio": 1.0,
+    "stairwise_ratio": 0.1135,
+    "half_slope_diff": 9.529847
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x436e1f8b83c63820c8c2fc3cb7eeb564b376e59d984e62ff442052223d3f9aaf",
+      "title": "[BIP-585] Enable ComposableStablePool V6 - Long pause windows",
+      "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+      "end_utc": "2024-04-22T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 18,
+        "total_votes": 18,
+        "first_vote_at": "2024-04-19T09:08:47Z",
+        "last_vote_at": "2024-04-22T15:25:45Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.5109295281305782,
+            0.0,
+            0.0
+          ],
+          [
+            414688.26720881526,
+            0.0,
+            0.0
+          ],
+          [
+            242824.3125458873,
+            0.0,
+            0.0
+          ],
+          [
+            2546021.572835411,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.772478,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.227522,
+        "half_slope_diff": 43.358862
+      },
+      "price_impact_pct": 0.6756,
+      "tvl_impact_pct": 2.3277,
+      "similarity": 0.2457,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 3203534.6635196423,
+        "scores_total": 3203534.6635196423,
+        "margin_pct": 1.0
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0xbfbc6796f9b9321b1340103718e494d469fa8aae4b6525eeaaa4c0cdf3c8b78b",
+      "cleaned": {
+        "proposal_id": "0xbfbc6796f9b9321b1340103718e494d469fa8aae4b6525eeaaa4c0cdf3c8b78b",
+        "title": "[BIP-214] Enable Permissions for BatchRelayer v5",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-03-20T19:00:00Z",
+        "similarity_score": 0.3478,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 4772205.681772564,
+        "margin_pct": 0.9999996159788636,
+        "scores_total": 4772207.514401116,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 254,
+        "total_votes": 254,
+        "first_vote_at": "2023-03-16T19:28:33Z",
+        "last_vote_at": "2023-03-20T17:52:50Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            780774.833693735,
+            0.00378276699205965,
+            0.8161339046953247
+          ],
+          [
+            1229.4361054491574,
+            0.00593011759465518,
+            0.0
+          ],
+          [
+            561997.9160825487,
+            0.16059105602009363,
+            0.0
+          ],
+          [
+            3428204.3120247354,
+            0.030056803054069464,
+            0.0
+          ]
+        ],
+        "spike_index": 0.581548,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 2e-05,
+        "half_slope_diff": 35.971079
+      },
+      "raw": {
+        "id": "0xbfbc6796f9b9321b1340103718e494d469fa8aae4b6525eeaaa4c0cdf3c8b78b",
+        "title": "[BIP-214] Enable Permissions for BatchRelayer v5",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "## [Payload PR - BIP-214](https://github.com/BalancerMaxis/multisig-ops/pull/110)\n\n## Background\nA new version of the primary relayer,  [BatchRelayer 5.0](https://github.com/balancer/balancer-v2-monorepo/tree/master/pkg/deployments/tasks/20230314-batch-relayer-v5).\nDeployment of the fifth BalancerRelayer using BatchRelayerLibrary, for combining multiple operations (swaps, joins, etc.) in a single transaction.\n\nThis new version provides full support for all versions of Stable Pools: in particular, V2 and higher, which support proportional joins and exits. It also adds support for many new protocol wrappers: CompoundV2 (Midas), Euler, Gearbox, Silo, Tetu, and Yearn as well as other new protocols that use  a similar wrapper wrapper.\n\n## English Specification\n\nThe transaction details were generated by [this script](https://github.com/BalancerMaxis/multisig-ops/blob/main/tools/python/gen_add_permissions_payload.py) with inputs and outputs in [this directory](https://github.com/BalancerMaxis/multisig-ops/tree/staging/BIPs/BIP-214)\n\nThe following files can be found both linked below and in the payload PR linked above:\n\n| Filename                                                                                                                             | Description of Contents                                                                                                              |\n|--------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|\n| [inputs.json](https://github.com/BalancerMaxis/multisig-ops/blob/staging/BIPs/BIP-214/inputs.json)                                   | The inputs to the script mapping functions and deployments to target addresses that can execute them.                                |\n| [results_address_sorted.md](https://github.com/BalancerMaxis/multisig-ops/blob/staging/BIPs/BIP-214/results_address_sorted.md)       | The resulting changes printed in a table sorted by target chain and target address. (to easily understand permisisons granted)       |\n| [results_deployment_sorted.md](https://github.com/BalancerMaxis/multisig-ops/blob/staging/BIPs/BIP-214/results_deployment_sorted.md) | The resulting changes printed in a table sorted by target chain and target deployment. (for verification against action ids)         |\n| [function_descriptions.md](https://github.com/BalancerMaxis/multisig-ops/blob/staging/BIPs/BIP-214/function_descriptions.md)         | A table that describes what each function that is being granted privileged access to allows.                                         |                                                                                                                                             |\n| [`chainname`.json](https://github.com/BalancerMaxis/multisig-ops/tree/staging/BIPs/BIP-214/)                                         | For each change with changes, a transaction builder json named after said chain exists to apply the changes described in the tables. |\n\n# Specification\n\nAs described in the payload json, the authorizer will be called to grant the roles as described.  \n\nThe change can be reviewed by the below by comparing the [results_deployment_sorted.md](https://github.com/BalancerMaxis/multisig-ops/tree/staging/BIPs/BIP-183/results_deployment_sorted.md) file to the source of truth,  which should match the order found in the source of truth for actionIds on the [balancer-v2-monorepo](https://github.com/balancer-labs/balancer-v2-monorepo/tree/master/pkg/deployments/action-ids).\n\nFor record, the contents of [results_address_sorted.md](https://github.com/BalancerMaxis/multisig-ops/tree/staging/BIPs/BIP-214/results_address_sorted.md) are printed here:\n\n\n\n| deployment     | chain    | function                                                                                                          | role                                                               | target          | target_address                             |\n|:---------------|:---------|:------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------|:----------------|:-------------------------------------------|\n| 20210418-vault | arbitrum | batchSwap(uint8,(bytes32,uint256,uint256,uint256,bytes)[],address[],(address,bool,address,bool),int256[],uint256) | 0x1282ab709b2b70070f829c46bc36f76b32ad4989fecb2fcb09a1b3ce00bbfc30 | BalancerRelayer | 0x5bf3B7c14b10f16939d63Bd679264A1Aa951B4D5 |\n| 20210418-vault | arbitrum | exitPool(bytes32,address,address,(address[],uint256[],bytes,bool))                                                | 0xc149e88b59429ded7f601ab52ecd62331cac006ae07c16543439ed138dcb8d34 | BalancerRelayer | 0x5bf3B7c14b10f16939d63Bd679264A1Aa951B4D5 |\n| 20210418-vault | arbitrum | joinPool(bytes32,address,address,(address[],uint256[],bytes,bool))                                                | 0x78ad1b68d148c070372f8643c4648efbb63c6a8a338f3c24714868e791367653 | BalancerRelayer | 0x5bf3B7c14b10f16939d63Bd679264A1Aa951B4D5 |\n| 20210418-vault | arbitrum | manageUserBalance((uint8,address,uint256,address,address)[])                                                      | 0xeba777d811cd36c06d540d7ff2ed18ed042fd67bbf7c9afcf88c818c7ee6b498 | BalancerRelayer | 0x5bf3B7c14b10f16939d63Bd679264A1Aa951B4D5 |\n| 20210418-vault | arbitrum | setRelayerApproval(address,address,bool)                                                                          | 0x0014a06d322ff07fcc02b12f93eb77bb76e28cdee4fc0670b9dec98d24bbfec8 | BalancerRelayer | 0x5bf3B7c14b10f16939d63Bd679264A1Aa951B4D5 |\n| 20210418-vault | arbitrum | swap((bytes32,uint8,address,address,uint256,bytes),(address,bool,address,bool),uint256,uint256)                   | 0x7b8a1d293670124924a0f532213753b89db10bde737249d4540e9a03657d1aff | BalancerRelayer | 0x5bf3B7c14b10f16939d63Bd679264A1Aa951B4D5 |\n| 20210418-vault | mainnet  | batchSwap(uint8,(bytes32,uint256,uint256,uint256,bytes)[],address[],(address,bool,address,bool),int256[],uint256) | 0x1282ab709b2b70070f829c46bc36f76b32ad4989fecb2fcb09a1b3ce00bbfc30 | BalancerRelayer | 0x2536dfeeCB7A0397CF98eDaDA8486254533b1aFA |\n| 20210418-vault | mainnet  | exitPool(bytes32,address,address,(address[],uint256[],bytes,bool))                                                | 0xc149e88b59429ded7f601ab52ecd62331cac006ae07c16543439ed138dcb8d34 | BalancerRelayer | 0x2536dfeeCB7A0397CF98eDaDA8486254533b1aFA |\n| 20210418-vault | mainnet  | joinPool(bytes32,address,address,(address[],uint256[],bytes,bool))                                                | 0x78ad1b68d148c070372f8643c4648efbb63c6a8a338f3c24714868e791367653 | BalancerRelayer | 0x2536dfeeCB7A0397CF98eDaDA8486254533b1aFA |\n| 20210418-vault | mainnet  | manageUserBalance((uint8,address,uint256,address,address)[])                                                      | 0xeba777d811cd36c06d540d7ff2ed18ed042fd67bbf7c9afcf88c818c7ee6b498 | BalancerRelayer | 0x2536dfeeCB7A0397CF98eDaDA8486254533b1aFA |\n| 20210418-vault | mainnet  | setRelayerApproval(address,address,bool)                                                                          | 0x0014a06d322ff07fcc02b12f93eb77bb76e28cdee4fc0670b9dec98d24bbfec8 | BalancerRelayer | 0x2536dfeeCB7A0397CF98eDaDA8486254533b1aFA |\n| 20210418-vault | mainnet  | swap((bytes32,uint8,address,address,uint256,bytes),(address,bool,address,bool),uint256,uint256)                   | 0x7b8a1d293670124924a0f532213753b89db10bde737249d4540e9a03657d1aff | BalancerRelayer | 0x2536dfeeCB7A0397CF98eDaDA8486254533b1aFA |\n| 20210418-vault | optimism | batchSwap(uint8,(bytes32,uint256,uint256,uint256,bytes)[],address[],(address,bool,address,bool),int256[],uint256) | 0x1282ab709b2b70070f829c46bc36f76b32ad4989fecb2fcb09a1b3ce00bbfc30 | BalancerRelayer | 0x1a58897Ab366082028ced3740900ecBD765Af738 |\n| 20210418-vault | optimism | exitPool(bytes32,address,address,(address[],uint256[],bytes,bool))                                                | 0xc149e88b59429ded7f601ab52ecd62331cac006ae07c16543439ed138dcb8d34 | BalancerRelayer | 0x1a58897Ab366082028ced3740900ecBD765Af738 |\n| 20210418-vault | optimism | joinPool(bytes32,address,address,(address[],uint256[],bytes,bool))                                                | 0x78ad1b68d148c070372f8643c4648efbb63c6a8a338f3c24714868e791367653 | BalancerRelayer | 0x1a58897Ab366082028ced3740900ecBD765Af738 |\n| 20210418-vault | optimism | manageUserBalance((uint8,address,uint256,address,address)[])                                                      | 0xeba777d811cd36c06d540d7ff2ed18ed042fd67bbf7c9afcf88c818c7ee6b498 | BalancerRelayer | 0x1a58897Ab366082028ced3740900ecBD765Af738 |\n| 20210418-vault | optimism | setRelayerApproval(address,address,bool)                                                                          | 0x0014a06d322ff07fcc02b12f93eb77bb76e28cdee4fc0670b9dec98d24bbfec8 | BalancerRelayer | 0x1a58897Ab366082028ced3740900ecBD765Af738 |\n| 20210418-vault | optimism | swap((bytes32,uint8,address,address,uint256,bytes),(address,bool,address,bool),uint256,uint256)                   | 0x7b8a1d293670124924a0f532213753b89db10bde737249d4540e9a03657d1aff | BalancerRelayer | 0x1a58897Ab366082028ced3740900ecBD765Af738 |\n| 20210418-vault | polygon  | batchSwap(uint8,(bytes32,uint256,uint256,uint256,bytes)[],address[],(address,bool,address,bool),int256[],uint256) | 0x1282ab709b2b70070f829c46bc36f76b32ad4989fecb2fcb09a1b3ce00bbfc30 | BalancerRelayer | 0x28A224d9d398a1eBB7BA69BCA515898966Bb1B6b |\n| 20210418-vault | polygon  | exitPool(bytes32,address,address,(address[],uint256[],bytes,bool))                                                | 0xc149e88b59429ded7f601ab52ecd62331cac006ae07c16543439ed138dcb8d34 | BalancerRelayer | 0x28A224d9d398a1eBB7BA69BCA515898966Bb1B6b |\n| 20210418-vault | polygon  | joinPool(bytes32,address,address,(address[],uint256[],bytes,bool))                                                | 0x78ad1b68d148c070372f8643c4648efbb63c6a8a338f3c24714868e791367653 | BalancerRelayer | 0x28A224d9d398a1eBB7BA69BCA515898966Bb1B6b |\n| 20210418-vault | polygon  | manageUserBalance((uint8,address,uint256,address,address)[])                                                      | 0xeba777d811cd36c06d540d7ff2ed18ed042fd67bbf7c9afcf88c818c7ee6b498 | BalancerRelayer | 0x28A224d9d398a1eBB7BA69BCA515898966Bb1B6b |\n| 20210418-vault | polygon  | setRelayerApproval(address,address,bool)                                                                          | 0x0014a06d322ff07fcc02b12f93eb77bb76e28cdee4fc0670b9dec98d24bbfec8 | BalancerRelayer | 0x28A224d9d398a1eBB7BA69BCA515898966Bb1B6b |\n| 20210418-vault | polygon  | swap((bytes32,uint8,address,address,uint256,bytes),(address,bool,address,bool),uint256,uint256)                   | 0x7b8a1d293670124924a0f532213753b89db10bde737249d4540e9a03657d1aff | BalancerRelayer | 0x28A224d9d398a1eBB7BA69BCA515898966Bb1B6b |\n## Risk Assessment\nThis BIP is routine operation for provisioning a contract deployment/Batch Relayer.  Users must also approve BatchRelayers before they have access.  More details can be found in the [Special Vault Permissions Context doc](../../docs/Authorizer/vault_permissions.md).  \n\n## References\n\n[Directory of Addresses used by script which generated the table and multsig payloads](https://github.com/BalancerMaxis/multisig-ops/blob/main/tools/python/brownie/helpers/addresses.py)",
+        "end_utc": "2023-03-20T19:00:00Z",
+        "similarity_score": 0.3478,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            4772206.497906468,
+            0.20036074366087792,
+            0.8161339046953247
+          ],
+          "scores_total": 4772207.514401116,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-03-20T19:00:00",
+          "pre_tvl_avg": 1344179673.0,
+          "post_tvl_avg": 1337603101.0,
+          "abnormal_change": -0.4893,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.004893,
+          "abnormal_change_pct": -0.4893
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-03-20T19:00:00",
+          "pre_price_avg": 6.716938085,
+          "post_price_avg": 6.803064225,
+          "abnormal_change": 1.2822,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.012822,
+          "abnormal_change_pct": 1.2822
+        }
+      }
+    },
+    {
+      "proposal_id": "0x42c6aa9444292fb9d9ee3f0045e851781e5fafd794f388e7422bf1ab2803c4d6",
+      "cleaned": {
+        "proposal_id": "0x42c6aa9444292fb9d9ee3f0045e851781e5fafd794f388e7422bf1ab2803c4d6",
+        "title": "[BIP-353] Grant Permissions for Composable Stable Pool Factory v5",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-07-17T18:00:00Z",
+        "similarity_score": 0.3333,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3667587.2206987753,
+        "margin_pct": 0.9999999898485253,
+        "scores_total": 3667587.2579301945,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 62,
+        "total_votes": 62,
+        "first_vote_at": "2023-07-13T18:44:14Z",
+        "last_vote_at": "2023-07-17T16:44:22Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            4.1079503115819564,
+            0.0,
+            0.0
+          ],
+          [
+            1345.00337870318,
+            0.0,
+            0.0
+          ],
+          [
+            389209.1917265495,
+            0.0,
+            0.0
+          ],
+          [
+            3277028.954874629,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.843671,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.000179,
+        "half_slope_diff": 43.223051
+      },
+      "raw": {
+        "id": "0x42c6aa9444292fb9d9ee3f0045e851781e5fafd794f388e7422bf1ab2803c4d6",
+        "title": "[BIP-353] Grant Permissions for Composable Stable Pool Factory v5",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "## [Payload PR - BIP-353](https://github.com/BalancerMaxis/multisig-ops/pull/358)\n\n## Background\nThe [v5 Composable Stable Pool Factory](https://github.com/balancer/balancer-deployments/tree/master/tasks/20230711-composable-stable-pool-v5)  were deployed to fix issue reported by a whitehat and requiring many CSPv4 pools to be put in recovery mode.  A full disclosure about the issue will be posted by Balancer Labs once they have wrapped up the ImmuniFi process(paid out). Some initial \"wire-up\" of permissions is required to bring them into standard function.  This BIP lays out these changes and requests permission to apply them.\n\n## English Specification\n\nThe transaction details were generated by [this script](https://github.com/BalancerMaxis/multisig-ops/blob/main/action-scripts/gen_add_permissions_payload.py) with inputs and outputs in [this directory](https://github.com/BalancerMaxis/multisig-ops/tree/staging/BIPs/2023-W28/BIP-353)\n\nThe following files can be found both linked below and in the payload PR linked above:\n\n| Filename                                                                                                                             | Description of Contents                                                                                                              |\n|--------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|\n| [inputs.json](https://github.com/BalancerMaxis/multisig-ops/blob/staging/BIPs/2023-W28/BIP-353/inputs.json)                                   | The inputs to the script mapping functions and deployments to target addresses that can execute them.                                |\n| [results_address_sorted.md](https://github.com/BalancerMaxis/multisig-ops/blob/staging/BIPs/2023-W28/BIP-353/results_address_sorted.md)       | The resulting changes printed in a table sorted by target chain and target address. (to easily understand permisisons granted)       |\n| [results_deployment_sorted.md](https://github.com/BalancerMaxis/multisig-ops/blob/staging/BIPs/2023-W28/BIP-353/results_deployment_sorted.md) | The resulting changes printed in a table sorted by target chain and target deployment. (for verification against action ids)         |\n| [function_descriptions.md](https://github.com/BalancerMaxis/multisig-ops/blob/staging/BIPs/2023-W28/BIP-353/function_descriptions.md)         | A table that describes what each function that is being granted privileged access to allows.                                         |                                                                                                                                             |\n| [`chainname`.json](https://github.com/BalancerMaxis/multisig-ops/tree/staging/BIPs/2023-W28/BIP-353/)                                         | For each change with changes, a transaction builder json named after said chain exists to apply the changes described in the tables. |\n\n_More information about the various Balancer Multisigs and their functions can be found in the [multisig-ops repo](https://github.com/BalancerMaxis/multisig-ops/blob/staging/multisigs.md)_\n\n# Specification\n\nAs described in the payload json, the authorizer will be called to grant the roles as described.  \n\nThe change can be reviewed by the below by comparing the [results_deployment_sorted.md](https://github.com/BalancerMaxis/multisig-ops/tree/staging/BIPs/2023-W28/BIP-353/results_deployment_sorted.md) file to the source of truth,  which should match the order found in the source of truth for actionIds on the [balancer-deployments](https://github.com/balancer/balancer-deployments/tree/master/action-ids).\n\nFor record, the contents of [results_address_sorted.md](https://github.com/BalancerMaxis/multisig-ops/tree/staging/BIPs/2023-W28/BIP-353/results_address_sorted.md) are printed here:\n\n\n\n| deployment                         | chain     | function                                           | role                                                               | caller                                           | caller_address                             |\n|:-----------------------------------|:----------|:---------------------------------------------------|:-------------------------------------------------------------------|:-------------------------------------------------|:-------------------------------------------|\n| 20230711-composable-stable-pool-v5 | arbitrum  | enableRecoveryMode()                               | 0xa6c4d4b9774fc0afef75aa08e9c80377e0b5e5be609a4dafefe381cc580a9e7b | 20221123-pool-recovery-helper/PoolRecoveryHelper | 0xb5e56CC3d2e38e53b1166175C59e921A37cDC1E2 |\n| 20230711-composable-stable-pool-v5 | arbitrum  | setSwapFeePercentage(uint256)                      | 0xfab324385696857b52130b135e7e81f8b7f34382c9b27f254b6bca9a70fe0784 | multisigs/lm                                     | 0xc38c5f97B34E175FFd35407fc91a937300E33860 |\n| 20230711-composable-stable-pool-v5 | arbitrum  | startAmplificationParameterUpdate(uint256,uint256) | 0x3be753be2ced552d75d5556694d2012e157294f50103c95273191fb5a0209481 | multisigs/lm                                     | 0xc38c5f97B34E175FFd35407fc91a937300E33860 |\n| 20230711-composable-stable-pool-v5 | arbitrum  | stopAmplificationParameterUpdate()                 | 0x9d2042bf873d984ff8ce2661c7f5854078b8bbf1d618d0509ec379533d3ba9af | multisigs/lm                                     | 0xc38c5f97B34E175FFd35407fc91a937300E33860 |\n| 20230711-composable-stable-pool-v5 | arbitrum  | disable()                                          | 0x063bbaf4b25095681176c8be04d41958e40ee88e0a6fe895a8d225cda9bd64ad | multisigs/emergency                              | 0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D |\n| 20230711-composable-stable-pool-v5 | arbitrum  | disableRecoveryMode()                              | 0xc0255b53e66bf2965d8fbd2af1cec52f34060d539ff8dd3c96a8d6aaa678d109 | multisigs/emergency                              | 0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D |\n| 20230711-composable-stable-pool-v5 | arbitrum  | enableRecoveryMode()                               | 0xa6c4d4b9774fc0afef75aa08e9c80377e0b5e5be609a4dafefe381cc580a9e7b | multisigs/emergency                              | 0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D |\n| 20230711-composable-stable-pool-v5 | arbitrum  | pause()                                            | 0x998b893d641593fd3aa179e7641c4e0a7ead0e9f8d25df6d5637ab28d32e924e | multisigs/emergency                              | 0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D |\n| 20230711-composable-stable-pool-v5 | avalanche | disable()                                          | 0x1426567817459896eea032971802f23ffedf7dbce9ba83c56000f1f9616a25ed | multisigs/emergency                              | 0x308f8d3536261C32c97D2f85ddc357f5cCdF33F0 |\n| 20230711-composable-stable-pool-v5 | avalanche | disableRecoveryMode()                              | 0xffb70f4f9562b3a5f8e82e3c9eeb43b6769d1af1086819e6881cb0456404ecc1 | multisigs/emergency                              | 0x308f8d3536261C32c97D2f85ddc357f5cCdF33F0 |\n| 20230711-composable-stable-pool-v5 | avalanche | enableRecoveryMode()                               | 0x4fba353c4ff3db60adac7b39685b4c7079fa9c9080841748fc9ce74f8a1160b0 | multisigs/emergency                              | 0x308f8d3536261C32c97D2f85ddc357f5cCdF33F0 |\n| 20230711-composable-stable-pool-v5 | avalanche | pause()                                            | 0x2f33caac3ea80144501f854d7fc8870e770fe1ec5260b2f09d45014e4ae11b0c | multisigs/emergency                              | 0x308f8d3536261C32c97D2f85ddc357f5cCdF33F0 |\n| 20230711-composable-stable-pool-v5 | avalanche | setSwapFeePercentage(uint256)                      | 0x846447d11e52871f13911642f2df294a08a10c704fd3746ee2b8e99ef3dd802a | multisigs/lm                                     | 0x326A7778DB9B741Cb2acA0DE07b9402C7685dAc6 |\n| 20230711-composable-stable-pool-v5 | avalanche | startAmplificationParameterUpdate(uint256,uint256) | 0x61422cbfc16cfb61b82397377ab5165c6755ee7466a24630f4027d79453e83e5 | multisigs/lm                                     | 0x326A7778DB9B741Cb2acA0DE07b9402C7685dAc6 |\n| 20230711-composable-stable-pool-v5 | avalanche | stopAmplificationParameterUpdate()                 | 0x28dcd620872aaaed93f0363c5b4b038f3b1fcaba6944fb976d670390e56accd0 | multisigs/lm                                     | 0x326A7778DB9B741Cb2acA0DE07b9402C7685dAc6 |\n| 20230711-composable-stable-pool-v5 | avalanche | enableRecoveryMode()                               | 0x4fba353c4ff3db60adac7b39685b4c7079fa9c9080841748fc9ce74f8a1160b0 | 20221123-pool-recovery-helper/PoolRecoveryHelper | 0x3b8cA519122CdD8efb272b0D3085453404B25bD0 |\n| 20230711-composable-stable-pool-v5 | gnosis    | setSwapFeePercentage(uint256)                      | 0x22627da2e7670aed1292420d5f0a2a49a7bd5992e0aef001702aa3285b5979b3 | multisigs/lm                                     | 0x14969B55a675d13a1700F71A37511bc22D90155a |\n| 20230711-composable-stable-pool-v5 | gnosis    | startAmplificationParameterUpdate(uint256,uint256) | 0x86f2cd537c832d7823d7b51e7f52288e383427c8c41180561f0f8054bc216f56 | multisigs/lm                                     | 0x14969B55a675d13a1700F71A37511bc22D90155a |\n| 20230711-composable-stable-pool-v5 | gnosis    | stopAmplificationParameterUpdate()                 | 0x0c055dc6cd1d6558914ef49c536f751680f8c413a3563007992801443bcca7a5 | multisigs/lm                                     | 0x14969B55a675d13a1700F71A37511bc22D90155a |\n| 20230711-composable-stable-pool-v5 | gnosis    | enableRecoveryMode()                               | 0x73c3332de64a6f7b137bea3255a221d779cc0f170ea4892ff0581faf799230ff | 20221123-pool-recovery-helper/PoolRecoveryHelper | 0xc3ccacE87f6d3A81724075ADcb5ddd85a8A1bB68 |\n| 20230711-composable-stable-pool-v5 | gnosis    | disable()                                          | 0x3dd110fd101a1be6115ceb811a85535de6c9c019360c7d67c022c48a3dd685d9 | multisigs/emergency                              | 0xd6110A7756080a4e3BCF4e7EBBCA8E8aDFBC9962 |\n| 20230711-composable-stable-pool-v5 | gnosis    | disableRecoveryMode()                              | 0x8f33b1eaf9e2f2523d32b89a23d1a83e1225eb96ef489fde9b81bc44c7e207c1 | multisigs/emergency                              | 0xd6110A7756080a4e3BCF4e7EBBCA8E8aDFBC9962 |\n| 20230711-composable-stable-pool-v5 | gnosis    | enableRecoveryMode()                               | 0x73c3332de64a6f7b137bea3255a221d779cc0f170ea4892ff0581faf799230ff | multisigs/emergency                              | 0xd6110A7756080a4e3BCF4e7EBBCA8E8aDFBC9962 |\n| 20230711-composable-stable-pool-v5 | gnosis    | pause()                                            | 0x04221c483f49fe794f5ce394e0ffc086722e106b9fef863610ccfbe1a019b997 | multisigs/emergency                              | 0xd6110A7756080a4e3BCF4e7EBBCA8E8aDFBC9962 |\n| 20230711-composable-stable-pool-v5 | mainnet   | enableRecoveryMode()                               | 0x9a645ed7f1bf603a8f6a44b2227b47a0355b902e65abb9d45e60bbc7e220992f | 20221123-pool-recovery-helper/PoolRecoveryHelper | 0x1b300C86980a5195bCF49bD419A068D98dC133Db |\n| 20230711-composable-stable-pool-v5 | mainnet   | disable()                                          | 0xceeb84f98e049989237e570ba87203572b1ba663061d817739b66a9fb08a7901 | multisigs/emergency                              | 0xA29F61256e948F3FB707b4b3B138C5cCb9EF9888 |\n| 20230711-composable-stable-pool-v5 | mainnet   | disableRecoveryMode()                              | 0x004ed6bc39c7b1141c8d34bc8c481dde189197c700d070129e6f6a3cbbfdce9f | multisigs/emergency                              | 0xA29F61256e948F3FB707b4b3B138C5cCb9EF9888 |\n| 20230711-composable-stable-pool-v5 | mainnet   | enableRecoveryMode()                               | 0x9a645ed7f1bf603a8f6a44b2227b47a0355b902e65abb9d45e60bbc7e220992f | multisigs/emergency                              | 0xA29F61256e948F3FB707b4b3B138C5cCb9EF9888 |\n| 20230711-composable-stable-pool-v5 | mainnet   | pause()                                            | 0xbb09fe1ad67eb7a320ad9131d81ea3835e51215410ea5d5866bc516003d06287 | multisigs/emergency                              | 0xA29F61256e948F3FB707b4b3B138C5cCb9EF9888 |\n| 20230711-composable-stable-pool-v5 | mainnet   | setSwapFeePercentage(uint256)                      | 0x42bc3b76ebdb675c6f7836b464d27c7517e14b05dc08bb944a4837563fc805ca | multisigs/lm                                     | 0xc38c5f97B34E175FFd35407fc91a937300E33860 |\n| 20230711-composable-stable-pool-v5 | mainnet   | startAmplificationParameterUpdate(uint256,uint256) | 0x6bf9f64e8755a240cd5604ab5cabd4a1eed020059be9a1a64be071859f023276 | multisigs/lm                                     | 0xc38c5f97B34E175FFd35407fc91a937300E33860 |\n| 20230711-composable-stable-pool-v5 | mainnet   | stopAmplificationParameterUpdate()                 | 0xd5e70e51651eb5be66f83b01794f74b5dbb417b607bf0425c5c5d3aa7386b38b | multisigs/lm                                     | 0xc38c5f97B34E175FFd35407fc91a937300E33860 |\n| 20230711-composable-stable-pool-v5 | optimism  | setSwapFeePercentage(uint256)                      | 0x167c1baf0159e423e633f0a68e1025918332919ade802b33759880576cb2c50d | multisigs/lm                                     | 0x09Df1626110803C7b3b07085Ef1E053494155089 |\n| 20230711-composable-stable-pool-v5 | optimism  | startAmplificationParameterUpdate(uint256,uint256) | 0xadd685e44755d3d511a26b97a7c40f42354f1e494795ad163dd79e22da45026e | multisigs/lm                                     | 0x09Df1626110803C7b3b07085Ef1E053494155089 |\n| 20230711-composable-stable-pool-v5 | optimism  | stopAmplificationParameterUpdate()                 | 0xdbfdeb1d2ce00232fda29f8069f731deb70f0e1438aa8a1e35e89eac02403c23 | multisigs/lm                                     | 0x09Df1626110803C7b3b07085Ef1E053494155089 |\n| 20230711-composable-stable-pool-v5 | optimism  | enableRecoveryMode()                               | 0x7f42c77cb4b9f8e5f51b922886e6f62e00feaf246cccf2927a0f00dd3150e1ae | 20221123-pool-recovery-helper/PoolRecoveryHelper | 0x26743984e3357eFC59f2fd6C1aFDC310335a61c9 |\n| 20230711-composable-stable-pool-v5 | optimism  | disable()                                          | 0x209075578b0c6819e5f117c0e9c4cafdfb4bac956e8ea969ff11fb444cd95b08 | multisigs/emergency                              | 0xd4c87b33afcE39F1E3F4aF1ce8fFFF7241d9128B |\n| 20230711-composable-stable-pool-v5 | optimism  | disableRecoveryMode()                              | 0xb4b8b756b9cc9f73e9debc41c8f8a805f6f964192d26d6f1bf764f147279bc8b | multisigs/emergency                              | 0xd4c87b33afcE39F1E3F4aF1ce8fFFF7241d9128B |\n| 20230711-composable-stable-pool-v5 | optimism  | enableRecoveryMode()                               | 0x7f42c77cb4b9f8e5f51b922886e6f62e00feaf246cccf2927a0f00dd3150e1ae | multisigs/emergency                              | 0xd4c87b33afcE39F1E3F4aF1ce8fFFF7241d9128B |\n| 20230711-composable-stable-pool-v5 | optimism  | pause()                                            | 0xb4dacaceeadf349e2eaf81fae99db22f312f7b8d19bd3aa0aae4d74e8c40460a | multisigs/emergency                              | 0xd4c87b33afcE39F1E3F4aF1ce8fFFF7241d9128B |\n| 20230711-composable-stable-pool-v5 | polygon   | disable()                                          | 0x740f4332364e3e7815877d3129b935f10ce37584e973ed33b93e793000a1c263 | multisigs/emergency                              | 0x3c58668054c299bE836a0bBB028Bee3aD4724846 |\n| 20230711-composable-stable-pool-v5 | polygon   | disableRecoveryMode()                              | 0xacd6e3cd60fe4741be79438b5d7599a59db6fe321838b1aafd090cb76ac6a5d0 | multisigs/emergency                              | 0x3c58668054c299bE836a0bBB028Bee3aD4724846 |\n| 20230711-composable-stable-pool-v5 | polygon   | enableRecoveryMode()                               | 0x2ac3edb051b1334473999eeea35bc4ff0f87e8c066b66f6940819629a2ccf820 | multisigs/emergency                              | 0x3c58668054c299bE836a0bBB028Bee3aD4724846 |\n| 20230711-composable-stable-pool-v5 | polygon   | pause()                                            | 0x91ce64502d2ca1550ea11bbfcdc5a965e2646c09818313a851c0eeb71cedbb1d | multisigs/emergency                              | 0x3c58668054c299bE836a0bBB028Bee3aD4724846 |\n| 20230711-composable-stable-pool-v5 | polygon   | enableRecoveryMode()                               | 0x2ac3edb051b1334473999eeea35bc4ff0f87e8c066b66f6940819629a2ccf820 | 20221123-pool-recovery-helper/PoolRecoveryHelper | 0x495F696430F4A51F7fcB98FbE68a9Cb7A07fB1bA |\n| 20230711-composable-stable-pool-v5 | polygon   | setSwapFeePercentage(uint256)                      | 0x8e9ee99533bd178c1573e352145db0eeb33e8722b92d1d6fbc1de799b41f180c | multisigs/lm                                     | 0xc38c5f97B34E175FFd35407fc91a937300E33860 |\n| 20230711-composable-stable-pool-v5 | polygon   | startAmplificationParameterUpdate(uint256,uint256) | 0x38db2dc993d272984aa505f0b59a8b6aac970193c0e50bfa5e8ba503c053a2a5 | multisigs/lm                                     | 0xc38c5f97B34E175FFd35407fc91a937300E33860 |\n| 20230711-composable-stable-pool-v5 | polygon   | stopAmplificationParameterUpdate()                 | 0xbb90aa662dea36fc9db5c97eafcf6a4379941e6e2675d8c1bc1416a42b77db25 | multisigs/lm                                     | 0xc38c5f97B34E175FFd35407fc91a937300E33860 |\n| 20230711-composable-stable-pool-v5 | zkevm     | disable()                                          | 0x0ebf042d38f8e1bb630c3010c686232d7334f90360a82eb23623fd01fbe8e656 | multisigs/emergency                              | 0x79b131498355daa2cC740936fcb9A7dF76A86223 |\n| 20230711-composable-stable-pool-v5 | zkevm     | disableRecoveryMode()                              | 0xcfd45e344ead8485b80a5f9da66791663c8306984e9c6dc12eda2ee747cce604 | multisigs/emergency                              | 0x79b131498355daa2cC740936fcb9A7dF76A86223 |\n| 20230711-composable-stable-pool-v5 | zkevm     | enableRecoveryMode()                               | 0x6fa5acf6e6e303c2d281bf1af5f4d83642a125c5a3308cdf67e956bec276b69e | multisigs/emergency                              | 0x79b131498355daa2cC740936fcb9A7dF76A86223 |\n| 20230711-composable-stable-pool-v5 | zkevm     | pause()                                            | 0xa5d55e5978cb5ab0a8b23eed8889931ca33b54522edde10e348f4f96d35f0b35 | multisigs/emergency                              | 0x79b131498355daa2cC740936fcb9A7dF76A86223 |\n| 20230711-composable-stable-pool-v5 | zkevm     | setSwapFeePercentage(uint256)                      | 0x04dd8b85ae9bff95ec24f18269d23bd2d04784d5f5d8b35261545b82ed754a85 | multisigs/lm                                     | 0xB59Ab49CA8d064E645Bf2c546d9FE6d1d4147a09 |\n| 20230711-composable-stable-pool-v5 | zkevm     | startAmplificationParameterUpdate(uint256,uint256) | 0x1307ea331d8ab1feffafb967ddf20c66fd92ce496eda1de129a4608d4b40f313 | multisigs/lm                                     | 0xB59Ab49CA8d064E645Bf2c546d9FE6d1d4147a09 |\n| 20230711-composable-stable-pool-v5 | zkevm     | stopAmplificationParameterUpdate()                 | 0xbd408e756684e5ea83089ee33aa05ce9410b392967bffc71c11fb394026e7a09 | multisigs/lm                                     | 0xB59Ab49CA8d064E645Bf2c546d9FE6d1d4147a09 |\n| 20230711-composable-stable-pool-v5 | zkevm     | enableRecoveryMode()                               | 0x6fa5acf6e6e303c2d281bf1af5f4d83642a125c5a3308cdf67e956bec276b69e | 20221123-pool-recovery-helper/PoolRecoveryHelper | 0xf7D5DcE55E6D47852F054697BAB6A1B48A00ddbd |\n## Risk Assessment\nThis BIP is routine operation for provisioning a new factory.  The new factories are themselves a risk mitigation.\n\n\n## References\n\n[Balancer Deployments](https://github.com/balancer/balancer-deployments)\n[BAL Addresses](https://github.com/BalancerMaxis/bal_addresses)",
+        "end_utc": "2023-07-17T18:00:00Z",
+        "similarity_score": 0.3333,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3667587.239314485,
+            0,
+            0.018615709474488047
+          ],
+          "scores_total": 3667587.2579301945,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-07-17T18:00:00",
+          "pre_tvl_avg": 1068999823.0,
+          "post_tvl_avg": 1031841970.5,
+          "abnormal_change": -3.4759,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.034759,
+          "abnormal_change_pct": -3.4759
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-07-17T18:00:00",
+          "pre_price_avg": 4.761206455,
+          "post_price_avg": 4.624854695,
+          "abnormal_change": -2.8638,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.028638,
+          "abnormal_change_pct": -2.8638
+        }
+      }
+    },
+    {
+      "proposal_id": "0x20df1e5e328764e55926a17d407555b73da28b60ade8fb6feea34186ab920c0a",
+      "cleaned": {
+        "proposal_id": "0x20df1e5e328764e55926a17d407555b73da28b60ade8fb6feea34186ab920c0a",
+        "title": "[BIP-318] Grant Avalanche Permissions",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-06-12T18:00:00Z",
+        "similarity_score": 0.3311,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3482133.8438816783,
+        "margin_pct": 0.9999988666766739,
+        "scores_total": 3482137.7902696608,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 98,
+        "total_votes": 98,
+        "first_vote_at": "2023-06-08T19:56:20Z",
+        "last_vote_at": "2023-06-12T13:52:47Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.982143,
+            0.017857,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9897959183673469,
+          0.01020408163265306,
+          0.0
+        ],
+        "stability": [
+          0.9897959183673469,
+          0.01020408163265306,
+          0.0
+        ],
+        "early_ratio": [
+          0.9821428571428571,
+          0.017857142857142856,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            6522.375907087597,
+            0.03322044183962791,
+            1.92412599109603
+          ],
+          [
+            17.61631882830648,
+            0.0,
+            0.0
+          ],
+          [
+            153194.4323522853,
+            0.0,
+            0.0
+          ],
+          [
+            3322401.4083450283,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.874347,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 9e-06,
+        "half_slope_diff": 11.036014
+      },
+      "raw": {
+        "id": "0x20df1e5e328764e55926a17d407555b73da28b60ade8fb6feea34186ab920c0a",
+        "title": "[BIP-318] Grant Avalanche Permissions",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "## [Payload PR - BIP-318](https://github.com/BalancerMaxis/multisig-ops/pull/246)\n\n## Background\nThe goal of this BIP is to grant all necessary permissions and perform various \"start up\" actions to bring Avalanche up to par with Balancer's other networks ahead of our upcoming launch.\n\nBIP-318 grants all base permissions for the network to operate\nBIP-318A sets the protocol fee on swaps and yield to 50%\nBIP-318B adds the child chain gauge factory to the pseudo minter to allow the L2 gauges to emit BAL\nBIP-318C enables the authorizer wrapper\nBIP-318D adds the avalanche root gauge factory to the gauge adder v4\n\nNote, there will be upcoming governance to enable layer zero boosts on Avalanche and zkEVM.\n## English Specification\n\nThe transaction details were generated by [this script](https://github.com/BalancerMaxis/multisig-ops/blob/main/action-scripts/gen_add_permissions_payload.py) with inputs and outputs in [this directory](https://github.com/BalancerMaxis/multisig-ops/tree/staging/BIPs/2023-W23/BIP-318)\n\nThe following files can be found both linked below and in the payload PR linked above:\n\n| Filename                                                                                                                             | Description of Contents                                                                                                              |\n|--------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|\n| [inputs.json](https://github.com/BalancerMaxis/multisig-ops/blob/staging/BIPs/2023-W23/BIP-318/inputs.json)                          | The inputs to the script mapping functions and deployments to target addresses that can execute them.                                |\n| [results_address_sorted.md](https://github.com/BalancerMaxis/multisig-ops/blob/staging/BIPs/2023-W23/BIP-318/results_address_sorted.md) | The resulting changes printed in a table sorted by target chain and target address (to easily understand permissions granted).       |\n| [results_deployment_sorted.md](https://github.com/BalancerMaxis/multisig-ops/blob/staging/BIPs/2023-W23/BIP-318/results_deployment_sorted.md) | The resulting changes printed in a table sorted by target chain and target deployment (for verification against action ids).         |\n| [function_descriptions.md](https://github.com/BalancerMaxis/multisig-ops/blob/staging/BIPs/2023-W23/BIP-318/function_descriptions.md) | A table that describes what each function that is being granted privileged access allows.                                            |\n| [chainname.json](https://github.com/BalancerMaxis/multisig-ops/tree/staging/BIPs/2023-W23/BIP-318/)                               | For each change with changes, a transaction builder JSON named after said chain exists to apply the changes described in the tables. |\n\n\n\n_More information about the various Balancer Multisigs and their functions can be found in the [multisig-ops repo](https://github.com/BalancerMaxis/multisig-ops/blob/staging/multisigs.md)_\n\n# Specification\n\nAs described in the payload json, the authorizer will be called to grant the roles as described.  \n\nThe change can be reviewed by the below by comparing the [results_deployment_sorted.md](https://github.com/BalancerMaxis/multisig-ops/tree/staging/BIPs/2023-W23/BIP-318/results_deployment_sorted.md) file to the source of truth,  which should match the order found in the source of truth for actionIds on the [balancer-deployments](https://github.com/balancer/balancer-deployments/tree/master/action-ids).\n\nThe full list of specifications can be read on the forum and the pull request data as well as [results_address_sorted.md](https://github.com/BalancerMaxis/multisig-ops/tree/staging/BIPs/2023-W23/BIP-318/results_address_sorted.md)\n\n## Risk Assessment\nThis BIP is routine operation for provisioning a new factory.  The new factories are themselves a risk mitigation.\n\n\n## References\n\n[Balancer Deployments](https://github.com/balancer/balancer-deployments)\n[BAL Addresses](https://github.com/BalancerMaxis/bal_addresses)",
+        "end_utc": "2023-06-12T18:00:00Z",
+        "similarity_score": 0.3311,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3482135.7866373984,
+            0.06087654236421244,
+            1.942755720336118
+          ],
+          "scores_total": 3482137.7902696608,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-06-12T18:00:00",
+          "pre_tvl_avg": 994090761.0,
+          "post_tvl_avg": 950952749.5,
+          "abnormal_change": -4.3394,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.043394,
+          "abnormal_change_pct": -4.3394
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-06-12T18:00:00",
+          "pre_price_avg": 4.52449452,
+          "post_price_avg": 4.258680425,
+          "abnormal_change": -5.875,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.05875,
+          "abnormal_change_pct": -5.875
+        }
+      }
+    },
+    {
+      "proposal_id": "0x7ce64257c3dd36c557fbc9bed565592afc982310c9e8802d41e7198971e8f35f",
+      "cleaned": {
+        "proposal_id": "0x7ce64257c3dd36c557fbc9bed565592afc982310c9e8802d41e7198971e8f35f",
+        "title": "[BIP-205] Enable relayers on gnosis chain and add other missing permissions",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-03-06T19:00:00Z",
+        "similarity_score": 0.328,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 4037763.630722605,
+        "margin_pct": 0.9981064514652588,
+        "scores_total": 4045423.8371017566,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 276,
+        "total_votes": 276,
+        "first_vote_at": "2023-03-02T19:08:35Z",
+        "last_vote_at": "2023-03-06T17:31:22Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            715414.4034098053,
+            0.00398995424435181,
+            3829.125811466557
+          ],
+          [
+            296105.97060459974,
+            0.0,
+            0.12088841303453801
+          ],
+          [
+            253471.52684018185,
+            0.0807061239796836,
+            0.5716417876590969
+          ],
+          [
+            2776601.7460367647,
+            0.08934558018803246,
+            0.19782707918528805
+          ]
+        ],
+        "spike_index": 0.677905,
+        "spike_follow_support_ratio": 0.939471,
+        "stairwise_ratio": 1.6e-05,
+        "half_slope_diff": 3.160975
+      },
+      "raw": {
+        "id": "0x7ce64257c3dd36c557fbc9bed565592afc982310c9e8802d41e7198971e8f35f",
+        "title": "[BIP-205] Enable relayers on gnosis chain and add other missing permissions",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "## [Payload PR - BIP-205](https://github.com/BalancerMaxis/multisig-ops/pull/93)\n\n## Background\nGnosis Chain is the first chain provisioned by the Maxis in quite a while.  In the process of bringing this chain online, we have already passed governance to enable 4 gauges, as well as [granting EmergencyDAO permissions](https://forum.balancer.fi/t/bip-183-grant-v2-factory-disable-and-v3-standard-permissions-on-gnosis-chain/4385).  As Gnosis was working to move some initial capital into the vaults, they discovered that it was not possible to deposit base assets like USDC into these nested pools.  \n\nWe learned in the last days that the set of deployed smart contracts from blabs  are handed over without any configuration, and it is (as it should be) the responsibility of Balancer Governance to provision a new chain.   \n\n\n\n## English Specification\n\nThe authorization payload script outlined above was modified to allow it to:\n\n- Check each permission to see if it is already granted.\n- Skip any permissions that are already in place with the exact same actionId and caller.\n- Halt and throw an error if any of the roles already have a caller assigned other than the one specified in the template.\n\n# Specification\n\nAs described in the payload json, the authorizer will be called to grant the roles as described.  \n\nThe change can be reviewed by the below by comparing the [results_deployment_sorted.md](https://github.com/BalancerMaxis/multisig-ops/tree/staging/BIPs/BIP-183/results_deployment_sorted.md) file to the source of truth,  which should match the order found in the source of truth for actionIds on the [balancer-v2-monorepo](https://github.com/balancer-labs/balancer-v2-monorepo/tree/master/pkg/deployments/action-ids).\n\nFor record, the contents of [results_address_sorted.md](https://github.com/BalancerMaxis/multisig-ops/tree/staging/BIPs/BIP-205/results_address_sorted.md) are printed here:\n\n\n\n| deployment                                 | chain   | function                                                                                                          | role                                                               | target                         | target_address                             |\n|:-------------------------------------------|:--------|:------------------------------------------------------------------------------------------------------------------|:-------------------------------------------------------------------|:-------------------------------|:-------------------------------------------|\n| 20221122-composable-stable-pool-v2         | gnosis  | setSwapFeePercentage(uint256)                                                                                     | 0x60b21b2ae5a82434b74afd79abbbafb941197b06237922de3a54d36aaa9c4ea2 | lm                             | 0x14969B55a675d13a1700F71A37511bc22D90155a |\n| 20221122-composable-stable-pool-v2         | gnosis  | startAmplificationParameterUpdate(uint256,uint256)                                                                | 0xd82b3ab66c70adebd687f4d69dae8b0abd33cacede07deb0c948dc2383f4aeb7 | lm                             | 0x14969B55a675d13a1700F71A37511bc22D90155a |\n| 20221122-composable-stable-pool-v2         | gnosis  | stopAmplificationParameterUpdate()                                                                                | 0x8ab1e42805feb8214d075b216e36ee38c5f3064d5c2ada1d99aa9f63367a029d | lm                             | 0x14969B55a675d13a1700F71A37511bc22D90155a |\n| 20221207-aave-rebalanced-linear-pool-v3    | gnosis  | setSwapFeePercentage(uint256)                                                                                     | 0x528c3020f2bd77511812b0aacb3cb91170124524cfdf0d4941db79d4ebf6ff72 | lm                             | 0x14969B55a675d13a1700F71A37511bc22D90155a |\n| 20220527-child-chain-gauge-token-adder     | gnosis  | addTokenToGauge(address,address,address)                                                                          | 0x1ff8dca7a9af725b8fde69703b657ae58c04e9a7153ef1025379deb0dda4f926 | lm                             | 0x14969B55a675d13a1700F71A37511bc22D90155a |\n| 20220517-protocol-fee-withdrawer           | gnosis  | withdrawCollectedFees(address[],uint256[],address)                                                                | 0xf6c9a5b5acca77f76aed5abd6f810c52c3ff5f4a8a40ee9e1bc09f85795e73da | lm                             | 0x14969B55a675d13a1700F71A37511bc22D90155a |\n| 20220725-protocol-fee-percentages-provider | gnosis  | setFeeTypePercentage(uint256,uint256)                                                                             | 0x77b2549a67e235e7bd37726ed4ebd404701323182a0028ea067bb8337e6e15a3 | dao                            | 0x2a5AEcE0bb9EfFD7608213AE1745873385515c18 |\n| 20210418-vault                             | gnosis  | setFlashLoanFeePercentage(uint256)                                                                                | 0xbe2a180d5cc5d803a8eec4cea569989fc1c593d7eeadd1f262f360a68b0e842e | ProtocolFeePercentagesProvider | 0x41B953164995c11C81DA73D212ED8Af25741b7Ac |\n| 20210418-vault                             | gnosis  | setSwapFeePercentage(uint256)                                                                                     | 0xb28b769768735d011b267f781c3be90bce51d5059ba015bc7a28b3e882fb2083 | ProtocolFeePercentagesProvider | 0x41B953164995c11C81DA73D212ED8Af25741b7Ac |\n| 20220413-child-chain-gauge-factory         | gnosis  | notify_reward_amount(address)                                                                                     | 0xf139842955587e7816c90b6d72792f2b7e6014d560464517094450df28164bc8 | blabs_ops                      | 0x955556b002d05c7B31a9394c10897c1DA19eAEab |\n| 20221123-pool-recovery-helper              | gnosis  | addPoolFactory(address)                                                                                           | 0x27f2737d0304362f4d515085adcfa1319a27436bb556d75e8ce5216c8ad601be | blabs_ops                      | 0x955556b002d05c7B31a9394c10897c1DA19eAEab |\n| 20221123-pool-recovery-helper              | gnosis  | removePoolFactory(address)                                                                                        | 0xf73432698cd2e092161276906856b882c56056a85b0a0792733cc87cc6d49e57 | blabs_ops                      | 0x955556b002d05c7B31a9394c10897c1DA19eAEab |\n| 20230206-weighted-pool-v3                  | gnosis  | enableRecoveryMode()                                                                                              | 0x2e31b466b15801536da90012c6e9916b3e0587c2d0b7c63328971c531b6ccf87 | PoolRecoveryHelper             | 0xc3ccacE87f6d3A81724075ADcb5ddd85a8A1bB68 |\n| 20230206-composable-stable-pool-v3         | gnosis  | enableRecoveryMode()                                                                                              | 0xd6f4df0a512a29fa4cf2fcfbe4a0b5ea1266a4bbb1ab6fb5761205dbb038441f | PoolRecoveryHelper             | 0xc3ccacE87f6d3A81724075ADcb5ddd85a8A1bB68 |\n| 20221122-composable-stable-pool-v2         | gnosis  | enableRecoveryMode()                                                                                              | 0x793ca26aa62caae6b2fb946bce982e9d0448354abd818cabb58abd0d04a3ef03 | PoolRecoveryHelper             | 0xc3ccacE87f6d3A81724075ADcb5ddd85a8A1bB68 |\n| 20221207-aave-rebalanced-linear-pool-v3    | gnosis  | enableRecoveryMode()                                                                                              | 0x2b9e0eea2297118ae92c9c5b6b9ca813c821186c7eb196bd9893a4113354ec4e | PoolRecoveryHelper             | 0xc3ccacE87f6d3A81724075ADcb5ddd85a8A1bB68 |\n| 20230206-aave-rebalanced-linear-pool-v4    | gnosis  | enableRecoveryMode()                                                                                              | 0x55183eaafc9e607c22ca713ce26b115fe0e7e47216af41fcec2f0fff0d6f622a | PoolRecoveryHelper             | 0xc3ccacE87f6d3A81724075ADcb5ddd85a8A1bB68 |\n| 20220609-stable-pool-v2                    | gnosis  | disable()                                                                                                         | 0x06efe7e891755c060de5033e398e2d4d9f1bc713591717209ef84b7e021bd154 | emergency                      | 0xd6110A7756080a4e3BCF4e7EBBCA8E8aDFBC9962 |\n| 20221122-composable-stable-pool-v2         | gnosis  | pause()                                                                                                           | 0x21e53d020b912764bb3a437d64ccad86ad4b36334ab4933c92b4f7e20ec74c34 | emergency                      | 0xd6110A7756080a4e3BCF4e7EBBCA8E8aDFBC9962 |\n| 20221207-aave-rebalanced-linear-pool-v3    | gnosis  | disable()                                                                                                         | 0x12068567376f5214f735cd6e477a885e135c8964f6771112086ce1fda7cc475d | emergency                      | 0xd6110A7756080a4e3BCF4e7EBBCA8E8aDFBC9962 |\n| 20221207-aave-rebalanced-linear-pool-v3    | gnosis  | pause()                                                                                                           | 0xd919e97356fc5c0cb30e2fdb110ca94a297b955b06db82ee8d9d603c7f9d1989 | emergency                      | 0xd6110A7756080a4e3BCF4e7EBBCA8E8aDFBC9962 |\n| 20230206-aave-rebalanced-linear-pool-v4    | gnosis  | pause()                                                                                                           | 0x9fca6ce6b2733f09e22be866cbbfc8b9b4b6822e7ff1e1c9b5c10895e2bbb6b0 | emergency                      | 0xd6110A7756080a4e3BCF4e7EBBCA8E8aDFBC9962 |\n| 20210418-vault                             | gnosis  | setPaused(bool)                                                                                                   | 0xb5593fe09464f360ecf835d5b9319ce69900ae1b29d13844b73c250b1f5f92fb | emergency                      | 0xd6110A7756080a4e3BCF4e7EBBCA8E8aDFBC9962 |\n| 20220517-protocol-fee-withdrawer           | gnosis  | denylistToken(address)                                                                                            | 0x6843b94f991c5dbdf5c0bd1ce79ce0de10b8e72ed8b70dbe019e3eda4079802a | emergency                      | 0xd6110A7756080a4e3BCF4e7EBBCA8E8aDFBC9962 |\n| 20210418-vault                             | gnosis  | withdrawCollectedFees(address[],uint256[],address)                                                                | 0xb2b6e48fa160a7c887d9d7a68b6a9bb9d47d4953d33e07f3a39e175d75e97796 | ProtocolFeesWithdrawer         | 0xdAE7e32ADc5d490a43cCba1f0c736033F2b4eFca |\n| 20210418-vault                             | gnosis  | batchSwap(uint8,(bytes32,uint256,uint256,uint256,bytes)[x],address[x],(address,bool,address,bool),int256[x],uint256) | 0x1282ab709b2b70070f829c46bc36f76b32ad4989fecb2fcb09a1b3ce00bbfc30 | BalancerRelayer                | 0xeF606F58A4FD0fCcb066c6203d0994694d3eB2D3 |\n| 20210418-vault                             | gnosis  | exitPool(bytes32,address,address,(address[ ],uint256[ ],bytes,bool))                                                | 0xc149e88b59429ded7f601ab52ecd62331cac006ae07c16543439ed138dcb8d34 | BalancerRelayer                | 0xeF606F58A4FD0fCcb066c6203d0994694d3eB2D3 |\n| 20210418-vault                             | gnosis  | joinPool(bytes32,address,address,(address[],uint256[],bytes,bool))                                                | 0x78ad1b68d148c070372f8643c4648efbb63c6a8a338f3c24714868e791367653 | BalancerRelayer                | 0xeF606F58A4FD0fCcb066c6203d0994694d3eB2D3 |\n| 20210418-vault                             | gnosis  | manageUserBalance((uint8,address,uint256,address,address)[])                                                      | 0xeba777d811cd36c06d540d7ff2ed18ed042fd67bbf7c9afcf88c818c7ee6b498 | BalancerRelayer                | 0xeF606F58A4FD0fCcb066c6203d0994694d3eB2D3 |\n| 20210418-vault                             | gnosis  | setRelayerApproval(address,address,bool)                                                                          | 0x0014a06d322ff07fcc02b12f93eb77bb76e28cdee4fc0670b9dec98d24bbfec8 | BalancerRelayer                | 0xeF606F58A4FD0fCcb066c6203d0994694d3eB2D3 |\n| 20210418-vault                             | gnosis  | swap((bytes32,uint8,address,address,uint256,bytes),(address,bool,address,bool),uint256,uint256)                   | 0x7b8a1d293670124924a0f532213753b89db10bde737249d4540e9a03657d1aff | BalancerRelayer                | 0xeF606F58A4FD0fCcb066c6203d0994694d3eB2D3 |\n## Risk Assessment\nThis BIP is routine operation for provisioning a new factory.  The new factories are themselves a risk mitigation.\n\n\n## References\n\n[Directory of Addresses used by script which generated the table and multsig payloads](https://github.com/BalancerMaxis/multisig-ops/blob/main/tools/python/brownie/helpers/addresses.py)\n\n### Important note: the full proposal specifications can be read on the forum because of the 14'400 character limit of snapshot. All relevant payload information is contained within this proposal text",
+        "end_utc": "2023-03-06T19:00:00Z",
+        "similarity_score": 0.328,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            4041593.646891352,
+            0.17404165841206787,
+            3830.016168746436
+          ],
+          "scores_total": 4045423.8371017566,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-03-06T19:00:00",
+          "pre_tvl_avg": 1230262238.0,
+          "post_tvl_avg": 1260757429.5,
+          "abnormal_change": 2.4788,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.024788,
+          "abnormal_change_pct": 2.4788
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-03-06T19:00:00",
+          "pre_price_avg": 6.3584822800000005,
+          "post_price_avg": 5.939900345,
+          "abnormal_change": -6.583,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.06583,
+          "abnormal_change_pct": -6.583
+        }
+      }
+    },
+    {
+      "proposal_id": "0x0eaa8c9b099febc431b2bb71350538fe5dad72f968cc8bbaed41b85e59a69e50",
+      "cleaned": {
+        "proposal_id": "0x0eaa8c9b099febc431b2bb71350538fe5dad72f968cc8bbaed41b85e59a69e50",
+        "title": "[BIP-183] Grant V2 factory disable() and V3 standard permissions on Gnosis Chain",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-02-20T19:00:00Z",
+        "similarity_score": 0.3253,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 4237066.301431067,
+        "margin_pct": 0.999998970733718,
+        "scores_total": 4237070.662505034,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 317,
+        "total_votes": 317,
+        "first_vote_at": "2023-02-16T19:21:50Z",
+        "last_vote_at": "2023-02-20T18:55:33Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            861358.1692970112,
+            1.7412484512911885
+          ],
+          [
+            24496.49217442987,
+            0.43928853224973163
+          ],
+          [
+            576189.3439497364,
+            0.0
+          ],
+          [
+            2775024.476546873,
+            0.0
+          ]
+        ],
+        "spike_index": 0.631108,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 1.8e-05,
+        "half_slope_diff": 17.241105
+      },
+      "raw": {
+        "id": "0x0eaa8c9b099febc431b2bb71350538fe5dad72f968cc8bbaed41b85e59a69e50",
+        "title": "[BIP-183] Grant V2 factory disable() and V3 standard permissions on Gnosis Chain",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "## [Payload PR - BIP-183](https://github.com/BalancerMaxis/multisig-ops/pull/57)\n\n\n## Background\nBalancer is getting ready to double-down on gnosis-chain.  In doing so, we want to ensure that all of our recent updates, described in [BIP-175](https://forum.balancer.fi/t/bip-175-grant-permissions-for-v3-pool-factories/4360) are applied to the gnosis chain.\n\nThis involves granting the Emergency DAO  access and the mandate to disable the V2 pool factories, and granting the proper permissions as defined by prior governance around pools and factories to the parties as specified below.\n\nThe [v3 Weighted Pool Factory](https://github.com/balancer-labs/balancer-v2-monorepo/tree/master/pkg/deployments/tasks/20230206-weighted-pool-v3) and the [v3 Composable Stable Pool Factory](https://github.com/balancer-labs/balancer-v2-monorepo/tree/master/pkg/deployments/tasks//20230206-composable-stable-pool-v3) where deployed to fix reentrancy issue described [here](https://forum.balancer.fi/t/reentrancy-vulnerability-scope-expanded/4345).  \n\n\n## English Specification\n\nThe transaction details were generated by [this script](https://github.com/BalancerMaxis/multisig-ops/blob/main/tools/python/gen_add_permissions_payload.py) with inputs and outputs in [this directory](https://github.com/BalancerMaxis/multisig-ops/tree/staging/BIPs/BIP-183)\n\nThe following files can be found both linked below and in the payload PR linked above:\n\n| Filename                                                                                                                               | Description of Contents                                                                                                              |\n|----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|\n| [inputs.json](https://github.com/BalancerMaxis/multisig-ops/blob/staging/BIPs/BIP-183/inputs.json)                                     | The inputs to the script mapping functions and deployments to target addresses that can execute them.                                |\n| [results_address_sorted.md](https://github.com/BalancerMaxis/multisig-ops/blob/staging/BIPs/BIP-183/results_address_sorted.md)         | The resulting changes printed in a table sorted by target chain and target address. (to easily understand permisisons granted)       |\n| [results_deployment_sorted.md](https://github.com/BalancerMaxis/multisig-ops/blob/staging/BIPs/BIP-183/results_deployment_sorted.md)   | The resulting changes printed in a table sorted by target chain and target deployment. (for verification against action ids)         |\n| [function_descriptions.md](https://github.com/BalancerMaxis/multisig-ops/blob/staging/BIPs/BIP-183/function_descriptions.md)           | A table that describes what each function that is being granted privileged access to allows.                                         |                                                                                                                                             |\n| [`chainname`.json](https://github.com/BalancerMaxis/multisig-ops/tree/staging/BIPs/BIP-183/)                                           | For each change with changes, a transaction builder json named after said chain exists to apply the changes described in the tables. |\n\nIn the tables above:\n\nThe \"emergency\" caller group:\n - maps to the Balancer Emergency DAO Multisig as defined in [this vote](https://forum.balancer.fi/t/form-the-emergency-subdao/3197).\n\nThe \"feeManager\" caller group:\n - maps to the feeManager multisig controlled by the Balancer Maxis on all chains except mainnet.\n - On mainnet a special feeSetter multisig exists to manage a-factors and a gautletFeeSetter contract that allows bulk changing of fees.  \n - The maxi's functionally control all contracts that make up the feeManager target group.\n\n_More information about the various Balancer Multisigs and their functions can be found in the [multisig-ops repo](https://github.com/BalancerMaxis/multisig-ops/blob/staging/multisigs.md)_\n# Specification\n\nAs described in the payload json, the authorizer will be called to grant the roles as described.  \n\nThe change can be reviewed by the below by comparing the [results_deployment_sorted.md](https://github.com/BalancerMaxis/multisig-ops/tree/staging/BIPs/BIP-183/results_deployment_sorted.md) file to the source of truth,  which should match the order found in the source of truth for actionIds on the [balancer-v2-monorepo](https://github.com/balancer-labs/balancer-v2-monorepo/tree/master/pkg/deployments/action-ids).\n\nFor record, the contents of [results_address_sorted.md](https://github.com/BalancerMaxis/multisig-ops/blob/staging/BIPs/BIP-183/results_address_sorted.md) are printed here:\n\n\n| deployment                         | chain   | function                                           | role                                                               | target     | target_address                             |\n|:-----------------------------------|:--------|:---------------------------------------------------|:-------------------------------------------------------------------|:-----------|:-------------------------------------------|\n| 20230206-weighted-pool-v3          | gnosis  | setSwapFeePercentage(uint256)                      | 0xec5cf9ce37bce68429403f673d6dfd0a89d33d4af5960016f9a1bbd07c71be88 | feeManager | 0x14969B55a675d13a1700F71A37511bc22D90155a |\n| 20230206-composable-stable-pool-v3 | gnosis  | setSwapFeePercentage(uint256)                      | 0x49832d9b75ad868dbf821cf6ee67ab240ff87c62516d7ce788883fdb8845b215 | feeManager | 0x14969B55a675d13a1700F71A37511bc22D90155a |\n| 20230206-composable-stable-pool-v3 | gnosis  | startAmplificationParameterUpdate(uint256,uint256) | 0x8b804839ef6ccdd1c81145961370ad18658e0bf277e9541fcac3915a5608b94d | feeManager | 0x14969B55a675d13a1700F71A37511bc22D90155a |\n| 20230206-composable-stable-pool-v3 | gnosis  | stopAmplificationParameterUpdate()                 | 0xe0b032f405d9019d046250109c96eb24cf9ff8ed4694d761a65f6153000193c3 | feeManager | 0x14969B55a675d13a1700F71A37511bc22D90155a |\n| 20220908-weighted-pool-v2          | gnosis  | disable()                                          | 0x0a7c328c61ac04bc0e79818b5fa98658f18c222d04e7433de4d87fcbfa15e08e | emergency  | 0xd6110A7756080a4e3BCF4e7EBBCA8E8aDFBC9962 |\n| 20221122-composable-stable-pool-v2 | gnosis  | disable()                                          | 0xa676b10c0a312087e255fee5692d8b31aec2a0839a91e715a43860c3e62437e3 | emergency  | 0xd6110A7756080a4e3BCF4e7EBBCA8E8aDFBC9962 |\n| 20230206-weighted-pool-v3          | gnosis  | disable()                                          | 0xbe826ebecfd64701333db6557b090b44c6155461ce9aaf6efce57ad8dc12bd2e | emergency  | 0xd6110A7756080a4e3BCF4e7EBBCA8E8aDFBC9962 |\n| 20230206-weighted-pool-v3          | gnosis  | enableRecoveryMode()                               | 0x2e31b466b15801536da90012c6e9916b3e0587c2d0b7c63328971c531b6ccf87 | emergency  | 0xd6110A7756080a4e3BCF4e7EBBCA8E8aDFBC9962 |\n| 20230206-weighted-pool-v3          | gnosis  | pause()                                            | 0xbfd04f562f5ffcabe925c3bca0e8c47adfc4018a6ddeea8baaeccc502815f86d | emergency  | 0xd6110A7756080a4e3BCF4e7EBBCA8E8aDFBC9962 |\n| 20230206-composable-stable-pool-v3 | gnosis  | disable()                                          | 0x9f637c196de3124bc0febbb78f206994fdb68c3f8fe8070b42230a76e14ece0b | emergency  | 0xd6110A7756080a4e3BCF4e7EBBCA8E8aDFBC9962 |\n| 20230206-composable-stable-pool-v3 | gnosis  | enableRecoveryMode()                               | 0xd6f4df0a512a29fa4cf2fcfbe4a0b5ea1266a4bbb1ab6fb5761205dbb038441f | emergency  | 0xd6110A7756080a4e3BCF4e7EBBCA8E8aDFBC9962 |\n| 20230206-composable-stable-pool-v3 | gnosis  | pause()                                            | 0xf5a74fe74a42c6fe47ddc84feffff02db467d464946b66b317ef6ceeb66bda38 | emergency  | 0xd6110A7756080a4e3BCF4e7EBBCA8E8aDFBC9962 |\n## Risk Assessment\nThis BIP is routine operation for provisioning a new factory.  The new factories are themselves a risk mitigation.\n\n\n## References\n\n[Directory of Addresses used by script which generated the table and multsig payloads](https://github.com/BalancerMaxis/multisig-ops/blob/main/tools/python/brownie/helpers/addresses.py)",
+        "end_utc": "2023-02-20T19:00:00Z",
+        "similarity_score": 0.3253,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way"
+          ],
+          "scores": [
+            4237068.481968051,
+            2.18053698354092
+          ],
+          "scores_total": 4237070.662505034,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-02-20T19:00:00",
+          "pre_tvl_avg": 1276817548.0,
+          "post_tvl_avg": 1269670799.0,
+          "abnormal_change": -0.5597,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.005597,
+          "abnormal_change_pct": -0.5597
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-02-20T19:00:00",
+          "pre_price_avg": 7.314743385,
+          "post_price_avg": 7.200028275,
+          "abnormal_change": -1.5683,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.015683,
+          "abnormal_change_pct": -1.5683
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x34f21bba6d0dac30d29d3e92ffb46bd45aec6127901e07ce59d0900ed49a4b94",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "Proposal BIP-613 aims to add permissions and initial configurations to enable Balancer protocol operations on Fraxtal and Mode chains, aligning with previous similar chain permission upgrades.",
+    "key_arguments_for": [
+      "This proposal is standard operating procedure for enabling new chains (Fraxtal and Mode) with necessary permissions and configurations.",
+      "Similar past proposals (e.g., BIP-585) were successful and recommended, showing no risk to protocol operation.",
+      "Timeline analytics show unanimous and stable support throughout the voting period with early and continuous backing.",
+      "Market impact metrics indicate positive price and TVL changes during the proposal window, suggesting community and market confidence."
+    ],
+    "key_arguments_against": [
+      "The forum discussion shows limited engagement with one negative sentiment post highlighting risk concerns, though these are mitigated by the protocol not yet being active on these chains.",
+      "No explicit opposing arguments detailed in forum or voting data."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.balancer.fi/t/bip-613-wire-up-permissions-and-initial-configuration-for-mode-and-fraxtal-chains/5778",
+        "quote": "The proposal adds permissions to Balancer multisigs to enable operation on Fraxtal and Mode chains, similar to previous chain permission BIPs."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": null,
+        "quote": "Timeline metrics show 100% lead ratio for the 'Yes, let's do it' option across all quartiles with full stability and early voting support."
+      },
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": null,
+        "quote": "Forum sentiment: 2 comments total; 1 negative (concern about risk but protocol inactive on new chains), 1 neutral."
+      },
+      {
+        "source_tool": "govnews_search_governance_news",
+        "reference": null,
+        "quote": "Market price increased by 0.612% and TVL increased by 1.04% around the proposal event window."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2024-05-30T18:00:00Z",
+    "event_end_utc": "2024-06-03T18:00:00Z",
+    "event_time_utc": "2024-06-03T18:00:00Z",
+    "address_of_governance_token": "0xba100000625a3754423978a60c9317c58a424e3d",
+    "token_price_impact_pct": 0.612,
+    "tvl_impact_pct": 1.0408,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        2633015.4858993716,
+        0.04265920084887394,
+        0.04265920084887394
+      ],
+      "scores_total": 2633015.571217773,
+      "margin_abs": 2633015.443240171,
+      "margin_pct": 1.0
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- The proposal is a necessary procedural step to enable Balancer on new chains, following precedent from similar successful chain deployment BIPs like BIP-585.\n- Voting timeline analytics show unanimous and stable support for 'Yes, let's do it' with no vote shifts or competing options gaining traction.\n- Market indicators during the proposal period showed positive price and TVL growth, reinforcing community and market confidence.\n- Forum sentiment is limited but generally aligns with the recommendation; the single negative post's concerns are mitigated by the protocol not being active on these chains yet.\n- The recommendation to 'Change' aligns with both vote dynamics and aggregated community sentiment, supporting the protocol's long-term operational health and expansion.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x436e1f8b83c63820c8c2fc3cb7eeb564b376e59d984e62ff442052223d3f9aaf",
+        "title": "[BIP-585] Enable ComposableStablePool V6 - Long pause windows",
+        "end_utc": "2024-04-22T18:00:00Z",
+        "summary": "[BIP-585] Enable ComposableStablePool V6 - Long pause windows closed on 2024-04-22T18:00:00Z. Timeline analytics noted 18 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Moderate text overlap (score 0.25)",
+        "market_response": "token +0.68%; TVL +2.33%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 0.612,
+    "ex_post_tvl_impact_pct": 1.0408,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +0.61%; TVL +1.04%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 1,
+    "Positive": 0,
+    "Neutral": 1,
+    "total_comments": 2
+  }
+}

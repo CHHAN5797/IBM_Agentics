@@ -1,0 +1,980 @@
+{
+  "captured_at_utc": "2025-10-09T05:08:16.546749+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x830e0a1be76aef32e2f4c3a21379c3be32a29c0aa7e349ec38315872230157aa",
+  "focus": null,
+  "votes_count": 17,
+  "timeline_metrics_current": {
+    "unique_voters": 17,
+    "total_votes": 17,
+    "first_vote_at": "2024-04-19T09:09:39Z",
+    "last_vote_at": "2024-04-22T15:25:06Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        542.1624666011577,
+        0.0,
+        0.0
+      ],
+      [
+        414679.069661731,
+        0.0,
+        0.0
+      ],
+      [
+        242822.11572181573,
+        0.0,
+        0.0
+      ],
+      [
+        2541299.3377504316,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.773492,
+    "spike_follow_support_ratio": 1.0,
+    "stairwise_ratio": 0.226508,
+    "half_slope_diff": 42.214713
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0xe04f0c88c95f24c1cac5a816f4d702fdbeb2316c1a05bddd307298008b4aceb8",
+      "title": "[BIP-584] Enable PRF/WETH (80/20) Gauges with 2% emission cap (Arbitrum)",
+      "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+      "end_utc": "2024-04-08T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 18,
+        "total_votes": 18,
+        "first_vote_at": "2024-04-04T21:25:04Z",
+        "last_vote_at": "2024-04-08T13:16:32Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1.449610061369465,
+            0.0,
+            0.0
+          ],
+          [
+            1.5600543487144312,
+            0.0,
+            0.0
+          ],
+          [
+            359363.64584479015,
+            0.0,
+            0.0
+          ],
+          [
+            2517757.937776294,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.874965,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.125035,
+        "half_slope_diff": 313.416344
+      },
+      "price_impact_pct": 4.2768,
+      "tvl_impact_pct": 3.7518,
+      "similarity": 0.0845,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2877124.5932854945,
+        "scores_total": 2877124.5932854945,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0xe3d26ad2edcb9b565ffc2f1bdcff5aa8fb3002e59c8e65e3c2e8217e61ae5986",
+      "title": "[BIP-583] Enable Gauges for sUSDe / USDC and USDe / USDC [Arbitrum]",
+      "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+      "end_utc": "2024-04-08T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 15,
+        "total_votes": 15,
+        "first_vote_at": "2024-04-04T21:31:30Z",
+        "last_vote_at": "2024-04-08T13:15:59Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1.4268000376587084,
+            0.0,
+            0.0
+          ],
+          [
+            1.3729434089500907,
+            0.0,
+            0.0
+          ],
+          [
+            359815.00449945073,
+            0.0,
+            0.0
+          ],
+          [
+            2517765.6609301534,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.874828,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.125172,
+        "half_slope_diff": 364.078711
+      },
+      "price_impact_pct": 4.2768,
+      "tvl_impact_pct": 3.7518,
+      "similarity": 0.1002,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2877583.4651730503,
+        "scores_total": 2877583.4651730503,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0x0ba45a5cdaf3875e1ebcd9f67f3a4e3ba827c110d89d726fb0c173af441d4478",
+      "title": "[BIP-582] Enable shezUSD/sDAI Gauge w 2% cap [Ethereum]",
+      "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+      "end_utc": "2024-04-08T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 15,
+        "total_votes": 15,
+        "first_vote_at": "2024-04-04T21:25:53Z",
+        "last_vote_at": "2024-04-08T13:15:25Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1.4480208304095126,
+            0.0,
+            0.0
+          ],
+          [
+            1.3729496873019686,
+            0.0,
+            0.0
+          ],
+          [
+            359816.4734588483,
+            0.0,
+            0.0
+          ],
+          [
+            2517769.1868095496,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.874828,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.125172,
+        "half_slope_diff": 370.698923
+      },
+      "price_impact_pct": 4.2768,
+      "tvl_impact_pct": 3.7518,
+      "similarity": 0.096,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2877588.481238915,
+        "scores_total": 2877588.481238915,
+        "margin_pct": 1.0
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0xe8c75512fad1ae00352d70da8572b2184e430d9fbfd1e77369ddc3639bc22695",
+      "cleaned": {
+        "proposal_id": "0xe8c75512fad1ae00352d70da8572b2184e430d9fbfd1e77369ddc3639bc22695",
+        "title": "Hand Over Swap Fee and Amplification Factor Control to the BalancerDAO",
+        "author": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+        "end_utc": "2022-03-28T11:30:00Z",
+        "similarity_score": 0.1366,
+        "winning_option": "Yes, let's do it.",
+        "winning_option_index": 0,
+        "margin_abs": 390758.7086943728,
+        "margin_pct": 0.9999854055284958,
+        "scores_total": 390764.41169444413,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 741,
+        "total_votes": 741,
+        "first_vote_at": "2022-03-25T11:45:17Z",
+        "last_vote_at": "2022-03-28T09:54:02Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            363624.0799202779,
+            2.851500000000001
+          ],
+          [
+            7873.133047316498,
+            0.0
+          ],
+          [
+            6280.012357893571,
+            3.5533144293e-08
+          ],
+          [
+            12984.334868920112,
+            0.0
+          ]
+        ],
+        "spike_index": 0.396676,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 3.2e-05,
+        "half_slope_diff": -27.945594
+      },
+      "raw": {
+        "id": "0xe8c75512fad1ae00352d70da8572b2184e430d9fbfd1e77369ddc3639bc22695",
+        "title": "Hand Over Swap Fee and Amplification Factor Control to the BalancerDAO",
+        "author": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+        "body": "This proposal appears on [Balancer's forum](https://forum.balancer.fi/t/proposal-hand-over-swap-fee-and-amplification-factor-control-to-the-balancer-dao/2550).\n\n# Motivation\n\nFor the last year, swap fees on the Balancer protocol have been controlled by Gauntlet [[1]](https://medium.com/balancer-protocol/balancer-partners-with-gauntlet-to-make-dynamic-fee-pools-a-reality-97b3fb1760df). Gauntlet aims to quantitatively and algorithmically find the best swap fee configuration for a given pool and market conditions [[2]](https://medium.com/gauntlet-networks/balancer-v2-pools-trading-fee-methodology-7a65df671b8c). As the partnership is due for renewal February 17th the DAO is proposing to take over ownership, ultimately terminating the contract with Gauntlet.The DAO has analysed the situation and found several issues in favour of stopping Gauntlet swap fee control. Gauntlet has signalled that they will “sunset the Fee Optimization Product” and want to hand over the swap fee controller, therefore agreeing with our intention of transitioning control to the DAO.\n\nTo summarise the situation from the Balancer DAOs perspective, following issues led to the termination of the partnership:\n\n* Gauntlet uses closed-source code - this is against the open-source spirit of Balancer\n* We would expect a high cost of about 10-15k BAL per year to use their product\n* The protocol swap fees have never really been algorithmically controlled but rather changes have been made with some sort of “unknown” methodology\n* Manual intervention was needed\n* Adjusting intervals were weeks, not days or hours - inacceptable for a system that has to react fast to market conditions\n\nBased on these factors we propose to take over ownership of swap fee control to the treasury subDAO. We propose a multi-phase transition (see specifications) to achieve a fully automated system that anybody can contribute to.\n\n# Risk assessment/mitigation\n\nWe anticipate minimal to no risk in handing over the swap fee control to the DAO. The multi-phase plan will guarantee that a reasonable swap fee control mechanism will be in place at some point. For the first iteration, the treasury subDAO will take ownership of a multisig setting swap fees. Even “harmful” configurations could be easily undone and assets would always stay safe.\n\nGas costs will be covered by the treasury funds. We do not expect high costs as these are non-complex operations on the swap fee controller.*emphasized text*\n\n# Specification\n\n## Phase 1: handing over fee control to DAO\n\nIn the first phase the subDAO takes over control of swap fee settings for all pools. The first iteration will manage pools manually. For simplicity, the fees will be tier-structured as follows:\n\n### Tier system\n\n|Tier|Pool type|Fee range|\n| --- | --- | --- |\n|1|Stable pools|<=0.01%|\n|2|Standard and index pairs|<=0.1%|\n|3|Ecosystem pairs (e.g. BAL/WETH 80/20)|>1% and <= 5%|\n|4|Experimental pairs (e.g. hot coins)|>5%|\n\nExplanation on the pairs and why those fees were chosen:\n\n**Tier 1**: Stable pools need to have the lowest possible but still attractive fees for LPs to leverage trading routes with major integrators. Therefore fees for this tier are set as low as possible. Gauntlet claimed that they increased our Stab3l pool performance with their analytical mechanisms. However, this modification was done manually after consultation with a DAO member [[3]](https://medium.com/gauntlet-networks/balancer-optimizes-capital-efficiency-and-doubles-lp-revenue-using-gauntlet-865584bcca2a).\n\n**Tier 2**: Standard pools and index pairs will have a max. standard swap fee of <0.1% but will usually range around 0.0.025% and 0.05%. This is in line with competing protocols that charge around 0.05% for pools like WBTC/WETH and WETH/STABLE pools\n\n**Tier 3**: Pairs containing BAL tokens should have fees >1% as this would greatly improve rewards for liquidity providers as well as the treasury. We argue that setting ecosystem fees to such a high number should not have any immediate effect as other incentives, such as the upcoming veBAL [[4]](https://vote.balancer.fi/#/proposal/0x9fe19c491cf90ed2e3ed9c15761c43d39fd1fb732a940aba8058ff69787ee90a) system guarantee that BAL liquidity stays within the protocol\n\n**Tier 4**: Swap fees for experimental or other ecosystem pairs can go up as high as 5-10%. An example are the element.fi pools that are currently set at 10%\n\n## Phase 2: dynamic control by the treasury subDAO\n\nThe specifications for phase 2 are not fully set. A possibility is to assign a group of multisig signers that can adjust swap fee percentages “on the fly” as they see fit. This implementation would have the advantage that we could quickly adjust fee structures based on market conditions and / or other factors like partnerships.\n\n## Phase 3: fully automated control with strategically fixed values\n\nThe ultimate goal is to replace the closed-source gauntlet algorithm with our own implementation. We want an open-source and well documented system where anybody can contribute and improve upon. The new system should adjust swap fees based on clearly defined parameters and should be able to react quickly - so that we do not end up with a weekly fee update as it is currently done by Gauntlet. Other protocols have successfully introduced dynamic fee control based on market conditions [[5]](https://blog.synthetix.io/dynamic-exchange-fees-explained/).\n\n## Additional delegation power: setting amplification factors\n\nGovernance has delegated to Gauntlet the power to set not only swap fees but also the amplification factor of stable and metastable pools. All of these permissions need to be handed over to some other party or revoked. We propose to also hand over the control of the amplification factor to the Balancer DAO, as Gauntled was so kind to hand over ownership of their Gnosis safe.\n\n# Implementation\n## Implementation for Swap Fee Control\n\nFee controllers for each chain will be set as follows:\n\n|Chain|Controller|Change|\n| --- | --- | --- |\n| Mainnet | [Gauntled controller contract](https://etherscan.io/address/0xe4a8ed6c1d8d048bd29a00946bfcf2db10e7923b/advanced#writeContract) | Yes - hand over control, add new signers|\n|Polygon|[Polygon Gnosis Safe](https://bafybeih5ygj2c5iwcusasd7lr3oqv5kxbblhtivkd7vk3h4wps45kxdofy.ipfs.infura-ipfs.io/#/wallet/0xd2bD536ADB0198f74D5f4f2Bd4Fe68Bae1e1Ba80)|no change|\n|Arbitrum|[Arbitrum Gnosis Safe](https://bafybeih5ygj2c5iwcusasd7lr3oqv5kxbblhtivkd7vk3h4wps45kxdofy.ipfs.infura-ipfs.io/#/wallet/0x6207ed574152496c9B072C24FD87cE9cd9E17320)|no change|\n\nAs seen in the table above, only for mainnet a change has to be initiated as follows:\nGauntled offered to hand over the ownership of their fee setter contract at https://etherscan.io/address/0xe4a8ed6c1d8d048bd29a00946bfcf2db10e7923b/advanced#writeContract\nfor mainnet. The signers of the Liquidity mining distribution safe at https://gnosis-safe.io/app/eth:0xc38c5f97B34E175FFd35407fc91a937300E33860/settings/owners will be added to the above mentioned contract. These are:\n\n* 0x1b004189e64d5b2F71d5Be554470E6c49e10123B\n* 0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3\n* 0x58Ff691f7849b0666085CFb693568160Cfb9d22D\n* 0x6bB4720473d4D7133f944785e5EE1A650C07f34e\n* 0x7019Be4E4eB74cA5F61224FeAf687d2b43998516\n* 0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae\n* 0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D\n\n## Implementation for Amplification Factor Control\n\n* No action is required by the governance multisig in any network.\n* The set of owners of Gauntlet’s Gnosis Safe (0xf4a80929163c5179ca042e1b292f5efbbe3d89e6) will be modified to the following list of addresses:\n  * 0x1b004189e64d5b2F71d5Be554470E6c49e10123B\n  * 0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3\n  * 0x58Ff691f7849b0666085CFb693568160Cfb9d22D\n  * 0x6bB4720473d4D7133f944785e5EE1A650C07f34e\n  * 0x7019Be4E4eB74cA5F61224FeAf687d2b43998516\n  * 0xafFC70b81D54F229A5F50ec07e2c76D2AAAD07Ae\n  * 0xc4591c41e01a7a654B5427f39Bbd1dEe5bD45D1D\n\nThese are the same signers currently in charge of the Liquidity mining distribution safe at [0xc38c5f97B34E175FFd35407fc91a937300E33860](https://gnosis-safe.io/app/eth:0xc38c5f97B34E175FFd35407fc91a937300E33860/settings/owners).\n\nFurther information on the previous setup can be found on snapshot [[6]](https://snapshot.org/#/balancer.eth/proposal/0x1008c675a698341691b29c7ba65de56d93422ceae3ce8492cfffd3afe7bcb3f8).\n\n# References\n\n[1] https://medium.com/balancer-protocol/balancer-partners-with-gauntlet-to-make-dynamic-fee-pools-a-reality-97b3fb1760df\n\n[2] https://medium.com/gauntlet-networks/balancer-v2-pools-trading-fee-methodology-7a65df671b8c\n\n[3] https://medium.com/gauntlet-networks/balancer-optimizes-capital-efficiency-and-doubles-lp-revenue-using-gauntlet-865584bcca2a\n\n[4] [Introducing veBAL tokenomics](https://forum.balancer.fi/t/introducing-vebal-tokenomics/2512)\n\n[5] https://blog.synthetix.io/dynamic-exchange-fees-explained/\n\n[6] [[Proposal] Boosted Pools: Authorize Gauntlet and the Ballers Multisig to manage pool parameters](https://forum.balancer.fi/t/proposal-boosted-pools-authorize-gauntlet-and-the-ballers-multisig-to-manage-pool-parameters/2400)",
+        "end_utc": "2022-03-28T11:30:00Z",
+        "similarity_score": 0.1366,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it.",
+            "No, this is not the way."
+          ],
+          "scores": [
+            390761.56019440835,
+            2.851500035533143
+          ],
+          "scores_total": 390764.41169444413,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2022-03-28T11:30:00",
+          "pre_tvl_avg": 1988524367.0,
+          "post_tvl_avg": 2149001477.0,
+          "abnormal_change": 8.0702,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.080702,
+          "abnormal_change_pct": 8.0702
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2022-03-28T11:30:00",
+          "pre_price_avg": 13.416361715,
+          "post_price_avg": 16.111903925,
+          "abnormal_change": 20.0915,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.200915,
+          "abnormal_change_pct": 20.0915
+        }
+      }
+    },
+    {
+      "proposal_id": "0xcd2cab0522b0e9a90ad40f93aca4505b17d60468224c22b69c4f9bd2bbd64e31",
+      "cleaned": {
+        "proposal_id": "0xcd2cab0522b0e9a90ad40f93aca4505b17d60468224c22b69c4f9bd2bbd64e31",
+        "title": "[BIP-163] Restructure Governance Process - Disband Governance Council",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2023-01-30T19:00:00Z",
+        "similarity_score": 0.1261,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3686579.2526668413,
+        "margin_pct": 0.9999993342190534,
+        "scores_total": 3686581.7071227,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 320,
+        "total_votes": 320,
+        "first_vote_at": "2023-01-26T19:08:14Z",
+        "last_vote_at": "2023-01-30T17:46:38Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            697397.2931457397,
+            0.3345805648661517
+          ],
+          [
+            1045.8960222105754,
+            0.22948793718909405
+          ],
+          [
+            334706.2811157376,
+            0.46926622000321505
+          ],
+          [
+            2653431.0096110785,
+            0.1938932072111571
+          ]
+        ],
+        "spike_index": 0.719749,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 2e-05,
+        "half_slope_diff": -2.61447
+      },
+      "raw": {
+        "id": "0xcd2cab0522b0e9a90ad40f93aca4505b17d60468224c22b69c4f9bd2bbd64e31",
+        "title": "[BIP-163] Restructure Governance Process - Disband Governance Council",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "# [RFC] Restructure Governance Process - Disband Gov Council\n\n## TL;DR:\n\nThis BIP  focuses around the process by which BIPs move from the Forum to Snapshot, and how approved snapshots are implemented on-chain. \n\nFirst and foremost, if passed, it provides a single place with a consolidated statement of the current governance process (see Specification) \n\nIn doing so it:\n\n- Disbands the Gov Council and allows any address with over 200,000 veBAL in delegation to post a snapshot.\n- Sets more clear rules for what makes something fit for governance, and how snapshots must be posted.\n- Clearly lays out the process for validating and implementing approved governance matters, and who is responsible for conducting said process.\n\n## Motivation\n\nThe  motivations of this BIP are 2-fold:\n\n1. Increase decentralization in Balancer governance.  \n2. Create more separation of concern between the governance decision making process and the risk-aware implementation of decided proposals.\n\n## Background:\n\nDecision Making:\n\n[The Governance Process Revamp](https://snapshot.org/#/balancer.eth/proposal/0x3bbcaaad4f0a928b8dabaf97bfd9679752254aee6e63597df32a7453663354d6) originally appointed a governance council with the mandate to  ensuring “soft community consensus” before bringing a proposal to snapshot.   In February 2022,  [Governance Process Revamp 2.0](https://snapshot.org/#/balancer.eth/proposal/0x1d1e0a8646d8d7601c7fb453f7ef4223c484308e8247b318e2dbaae6d02d53f2) proposed that “soft-consensus” was too subjective of a measurement, giving the council too much power vs veBAL Voters.  It moved the councils mandate to ensuring that a proposal was “well-defined” in that it:\n\n- Includes Motivation, Specification, and Risk sections.\n- Includes an exact specification of any on-chain calls that need to be made, which include exact details of the calls to be run in english with required addresses and calls.\n- Communicates clear and specific intent  (not spam)\n- Follows the rules set forth by and does not conflict with outstanding governance proposals.\n\nIn an effort to further decentralize, and with significant precedent for “well-defined” in place, it is unclear why a specific council is required to assert these things before bringing an item to snapshot.  Further, there have been some murmurings in recent governance discussions of the Gov Council using their power to steer the governance process towards a specific outcome.  \n\nIn the end, governance exists to enact the will of veBAL holders.  Large governance participants and/or delegates seem to have sufficient vested interest in the protocol to treat the governance process with respect and not spam governance with incomplete and/or deceptive proposals. \n\nProposal Implementation:\nThe [Balancer Maxis](https://forum.balancer.fi/t/bip-145-fund-the-balancer-maxis-for-q1-2023/4208) are responsible for facilitating the on-chain implementation of governance and operation of the protocol.  In doing so, they currently must translate the specification of each governance topic into a a specific set of instructions (taking form of a Gnosis Safe Transaction Builder JSON file), validate that it does not create unreasonable risk for the protocol, load it into the safe, and coordinate with the respective signers to execute.  \n\nThe Maxis and the Governance Council currently have the overlapping membership, so the process of ensuring that the specification is clear enough to generate such a JSON naturally occurs during the forum discussion.  The specification often needs to be changed by the original proposer accordingly or needs change by the Maxis to ensure that exact implementation to spec is possible.\n\n## Specification\n \n![gov1.png](ipfs://bafkreid5hhpq6ainb4r2bismrg6zc2kk2tpvr44ylfls6pvb2tbjonmv6m)\n    \n\nProposal Requirements:\n\nThe following, posted to either the [General Proposals](https://forum.balancer.fi/c/governance/proposals/11) or the [BAL Gauges](https://forum.balancer.fi/c/vebal/13) section of the Balancer Forum, is required for a proposal to go to snapshot:\n\n- Includes Motivation Section:  What is the reason for this, why is it good for the veBAL ecosystem?\n- Includes English Specification: Clearly state exactly what this proposal will change and the effects it will have on the operation of the protocol or balance of the treasury.\n- Includes multisig transaction payload:  A compete [Gnosis Safe Transaction Builder JSON](https://help.gnosis-safe.io/en/articles/4680071-transaction-builder).  The Balancer Maxis can show you how to build this or put it together for you if you need help.\n- Includes Risks: What risks does this pose to the protocol?\n    - For Spend (how does it affect runway)\n    - For Gauge Votes (consider pool makeup and caps as per the [Gauge Framework](https://forum.balancer.fi/t/bip-57-introduce-gauge-framework-v1/3604) and/or community discussion)\n    - For other changes explain any and all risks clearly.\n\nFurther, votes requesting new gauges should include the following information:\n\n- What are the initial fees set to, and what is the reasoning for this?\n- If stableswap, How is the A-factor set and why was the given a-factor chosen?\n- If custom pool, How does this pool generate revenue?  Is 50% of the revenue generated sent to the fees collector?  Where can details about the performance of this pool be found?  Where can users deposit into it and trade through it?\n\nSubmitting the Transaction Payload File(s) to github:\n\n\n\nA PR must be created to the [BalancerMaxis/multisig-ops](https://github.com/BalancerMaxis/multisig-operations) repository on Github.  Instructions and examples for how to build various transaction payloads  and upload it to Github can be found [HERE](https://github.com/BalancerMaxis/multisig-ops/tree/main/BIPs/Examples/).\n\nIf not using examples.  Here is a clearer spec:\n\n- BIPs that require transactions against a single multisig should have their payload file uploaded  named like `BIP-XXX.json` or `BIP-XXX.csv` directly into the `/BIPs` folder of this repo.\n- BIPs that require transactions against multiple multisigs should have a directory named `BIP-XXX` with files for each multisig placed in this directory. Files should be named like `[chain]-[multisig].[extention]` where chain is like `mainnet, arbi, polygon, etc` and multisig is like `dao, gauge, fees, etc`. \n\nPosting the Proposal to Snapshot:\n\nAny address with over 200,000 veBAL held or in delegation may create a new snapshot vote directly on the snapshot forum.  With great power comes great responsibility.  Snapshot posters are expected to ensure the following:\n\n- The Snapshot body should begin with a link to the transaction payload PR on github.  Followed by the full text of the BIP.  If the text is too long, it can be truncated.\n    - Note that if the proposal requires no on-chain actions to be executed, the payload is not required.\n- A link to the forum discussion should be included in the discussion (optional) field of Snapshot.\n- The BIP is titled like BIP-[XXX] Title from Forum, where XXX is the next number in the BIP sequence.\n- The Original Forum Poster should update their post to match the title from the snapshot and include a link to it at the bottom of the body of the Forum Post.\n- Barring clear community consensus otherwise the vote Should be of Type “Basic Voting” and the choices should be one of  [**Yes, let’s do it** -  **No, This is not the way** - **Abstain**].\n- Runs for 96 hours starting on a **Thursday (GMT).**\n- Has a quorum of 2 million veBAL.\n\n**NOTE:** The technical process of defining and applying governance on-chain is likely to shift over time.  A pull request of verifiable code to the Github repo listed below shall be considered the formal way to submit a payload.  Details on additional types of payloads (other than transaction builder JSONs and airdrop CSVs) may be added.  The main [README](https://github.com/BalancerMaxis/multisig-ops/blob/main/README.md) for this repo will be kept up to date with information and specifications about how to create and submit payloads. \n\nExecution of Proposals approved by governance:\n\nIf the BIP passes, the Balancer Maxis will make every effort to confirm that the payload and the English definitions match, load the specified payloads into the appropriate multisig, and coordinate with signers for execution.  \n\nFollowing execution.  The Maxis will comment on the forum post for the proposal and include a link to any transactions relevant to execution at the bottom of the body.\n\nThe Maxis may send the proposal back to the proposer for revision and a new snapshot (with the same BIP number) for the following reasons:\n\n- The Payload  does not match the english specification\n- The Payload is not in a recognisable/verifiable form by the Maxis. \n    - Tx Builder JSON files and airdrop CSVs are always ok.\n- The Payload does simulate successfully in tenderly and/or produce the desired results on fork.\n    - In this case the Maxis will help to fix the payload and facilitate a revote to approve.\n\n- The snapshot did not conform the the guidelines defined directly above.\n    - Start/End Time\n    - Quorum\n    - Necessary Content\n\nThe Gov Council therefore has no remaining purpose and is dissolved. \n\nTechnical Specification:\n\nIf this vote passes,  the proposal validation setting in the [balancer snapshot space settings](https://snapshot.org/#/balancer.eth/settings) should be configured to match the following.  Note that we are currently working with snapshot to add the ability to restrict voting to be started on a specific day of the week.  If more options become available to better validate inputs against the policies stand here before posting a snapshot, they may be applied without further governance:\n\n \n![gov2.png](ipfs://bafkreihq5c73gzeb5riwjn3k5sy5drr4ocvfawb3gezfbkmg7qd34yhqym)\n    \n\n\n## Community Conversation, Revision and Alpha Testing:\n\nOver the next week or two, as the community discusses this change the text of this BIP may be adapted.   Additionally, I will work to build set of resources that explain the basics of how Balancer On-chain Governance works and provides template proposals and JSON files for various types of commonly requested governance.   I will post links to these resources as links in this section of the Forum Post as they become available.\n\nIt would be very helpful to work with some Governance Proposers on to demonstrate the new BIP format in upcoming governance.  If you’re interested in getting involved and bringing something to Balancer governance, please get in touch.  You can message me here or find me on the Balancer Discord.",
+        "end_utc": "2023-01-30T19:00:00Z",
+        "similarity_score": 0.1261,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way"
+          ],
+          "scores": [
+            3686580.4798947703,
+            1.227227929269618
+          ],
+          "scores_total": 3686581.7071227,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-01-30T19:00:00",
+          "pre_tvl_avg": 1084781371.5,
+          "post_tvl_avg": 1140966475.5,
+          "abnormal_change": 5.1794,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.051794,
+          "abnormal_change_pct": 5.1794
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-01-30T19:00:00",
+          "pre_price_avg": 6.98164757,
+          "post_price_avg": 6.996471095,
+          "abnormal_change": 0.2123,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.002123,
+          "abnormal_change_pct": 0.2123
+        }
+      }
+    },
+    {
+      "proposal_id": "0x23f6e8f79a88c7a94ada7b303a6d74aca1318b15f4e0def8910b8052f0bfc694",
+      "cleaned": {
+        "proposal_id": "0x23f6e8f79a88c7a94ada7b303a6d74aca1318b15f4e0def8910b8052f0bfc694",
+        "title": "[BIP-289] Grant Maxis Permissions to Add Gnosis & zkSync Gauges",
+        "author": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+        "end_utc": "2023-05-15T18:00:00Z",
+        "similarity_score": 0.121,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3679958.519118217,
+        "margin_pct": 0.9999998032285474,
+        "scores_total": 3679959.2432291424,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 142,
+        "total_votes": 142,
+        "first_vote_at": "2023-05-11T18:02:33Z",
+        "last_vote_at": "2023-05-15T16:20:57Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            45896.42431371435,
+            0.3571891493818583,
+            0.0
+          ],
+          [
+            179920.1426701094,
+            0.0,
+            0.0
+          ],
+          [
+            92.3835982942195,
+            0.004866313790985612,
+            0.0
+          ],
+          [
+            3454049.930591562,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.811672,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 1.1e-05,
+        "half_slope_diff": 8.55922
+      },
+      "raw": {
+        "id": "0x23f6e8f79a88c7a94ada7b303a6d74aca1318b15f4e0def8910b8052f0bfc694",
+        "title": "[BIP-289] Grant Maxis Permissions to Add Gnosis & zkSync Gauges",
+        "author": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+        "body": "## [Payload PR - BIP-289](https://github.com/BalancerMaxis/multisig-ops/pull/174)\n\n## Background\nThe Gauge Adder v3 was deployed some time ago but only now has become usable after the introduction of the Authorizer Wrapper. This proposal grants the Maxi LM Multisig two roles - one for calling `addGnosisGauge` and one for calling `addZksyncGauge`. Note that we are not fully deployed on zkSync yet.\n\nThis will remove the need to involve the DAO Multisig when adding new gauges.\n\n## English Specification\n\nThe transaction details were generated by [this script](https://github.com/BalancerMaxis/multisig-ops/blob/main/tools/python/gen_add_permissions_payload.py) with inputs and outputs in [this directory](https://github.com/BalancerMaxis/multisig-ops/tree/staging/BIPs/BIP-289)\n\nThe following files can be found both linked below and in the payload PR linked above:\n\n| Filename                                                                                                                             | Description of Contents                                                                                                              |\n|--------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------|\n| [inputs.json](https://github.com/BalancerMaxis/multisig-ops/blob/staging/BIPs/BIP-289/inputs.json)                                   | The inputs to the script mapping functions and deployments to target addresses that can execute them.                                |\n| [results_address_sorted.md](https://github.com/BalancerMaxis/multisig-ops/blob/staging/BIPs/BIP-289/results_address_sorted.md)       | The resulting changes printed in a table sorted by target chain and target address. (to easily understand permisisons granted)       |\n| [results_deployment_sorted.md](https://github.com/BalancerMaxis/multisig-ops/blob/staging/BIPs/BIP-289/results_deployment_sorted.md) | The resulting changes printed in a table sorted by target chain and target deployment. (for verification against action ids)         |\n| [function_descriptions.md](https://github.com/BalancerMaxis/multisig-ops/blob/staging/BIPs/BIP-289/function_descriptions.md)         | A table that describes what each function that is being granted privileged access to allows.                                         |                                                                                                                                             |\n| [`chainname`.json](https://github.com/BalancerMaxis/multisig-ops/tree/staging/BIPs/BIP-289/)                                         | For each change with changes, a transaction builder json named after said chain exists to apply the changes described in the tables. |\n\n_More information about the various Balancer Multisigs and their functions can be found in the [multisig-ops repo](https://github.com/BalancerMaxis/multisig-ops/blob/staging/multisigs.md)_\n\n# Specification\n\nAs described in the payload json, the authorizer will be called to grant the roles as described.  \n\nThe change can be reviewed by the below by comparing the [results_deployment_sorted.md](https://github.com/BalancerMaxis/multisig-ops/tree/staging/BIPs/BIP-183/results_deployment_sorted.md) file to the source of truth,  which should match the order found in the source of truth for actionIds on the [balancer-v2-monorepo](https://github.com/balancer-labs/balancer-v2-monorepo/tree/master/pkg/deployments/action-ids).\n\nFor record, the contents of [results_address_sorted.md](https://github.com/BalancerMaxis/multisig-ops/tree/staging/BIPs/BIP-289/results_address_sorted.md) are printed here:\n\n\n\n| deployment              | chain   | function                | role                                                               | target   | target_address                             |\n|:------------------------|:--------|:------------------------|:-------------------------------------------------------------------|:---------|:-------------------------------------------|\n| 20230109-gauge-adder-v3 | mainnet | addGnosisGauge(address) | 0xe818738e338905496f604a2a26c7ca754558870a3810786cfbb89ae28d262dc5 | lm       | 0xc38c5f97B34E175FFd35407fc91a937300E33860 |\n| 20230109-gauge-adder-v3 | mainnet | addZKSyncGauge(address) | 0x010cab59e1860b78f8f67210e267d2c06d77c17b4529f007c7c8acee11ea2fe0 | lm       | 0xc38c5f97B34E175FFd35407fc91a937300E33860 |\n## Risk Assessment\nThis BIP is routine operation for provisioning a new factory.  The new factories are themselves a risk mitigation.\n\n\n## References\n\n[Monorepo Deployment Addresses](https://github.com/balancer-labs/balancer-v2-monorepo/tree/master/pkg/deployments)",
+        "end_utc": "2023-05-15T18:00:00Z",
+        "similarity_score": 0.121,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3679958.88117368,
+            0.3620554631728439,
+            0
+          ],
+          "scores_total": 3679959.2432291424,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-05-15T18:00:00",
+          "pre_tvl_avg": 1107959574.0,
+          "post_tvl_avg": 1104989448.5,
+          "abnormal_change": -0.2681,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.002681,
+          "abnormal_change_pct": -0.2681
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-05-15T18:00:00",
+          "pre_price_avg": 5.5291013499999995,
+          "post_price_avg": 5.53430832,
+          "abnormal_change": 0.0942,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.000942,
+          "abnormal_change_pct": 0.0942
+        }
+      }
+    },
+    {
+      "proposal_id": "0x08b2b37a5dfec7de7ff8916551b5d229b8d401ca5353e5e969992c64ad715a8d",
+      "cleaned": {
+        "proposal_id": "0x08b2b37a5dfec7de7ff8916551b5d229b8d401ca5353e5e969992c64ad715a8d",
+        "title": "[BIP-521] Cap individual voter weight on Snapshot",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-12-25T19:00:00Z",
+        "similarity_score": 0.1203,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 4583323.706949123,
+        "margin_pct": 0.98530564503508,
+        "scores_total": 4651677.101460169,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 37,
+        "total_votes": 37,
+        "first_vote_at": "2023-12-21T21:21:22Z",
+        "last_vote_at": "2023-12-25T17:51:24Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            378632.36373062653,
+            0.0,
+            0.0
+          ],
+          [
+            311297.0086586827,
+            5661.196814271345,
+            0.0
+          ],
+          [
+            112967.55683427284,
+            0.0,
+            0.0
+          ],
+          [
+            3843118.975422316,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.757731,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.09578,
+        "half_slope_diff": 86.077792
+      },
+      "raw": {
+        "id": "0x08b2b37a5dfec7de7ff8916551b5d229b8d401ca5353e5e969992c64ad715a8d",
+        "title": "[BIP-521] Cap individual voter weight on Snapshot",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "## Background\n\nSee [discussion here](https://forum.balancer.fi/t/ensuring-continued-balance-in-dao-snapshot-votes/5379).\n\nOver the past 18 months since the launch of veBAL, there have been a number of turbulent votes within the DAO, accompanied by gradual changes in voter composition. During this time a number of measures have been implemented to maintain balance of votes and voter integrity.\n\nWhilst the reality of voting is quite nuanced, as Aura approaches 50% of the veBAL share it is becoming a concern that the distribution of votes is again becoming imbalanced and that action needs to be taken.\n\nThis BIP seeks to begin to address those concerns by putting a cap on the individual voter weight on Snapshot to 45%, meaning that Aura's voting power (and any individual voter) would be capped at 45% of the total supply of veBAL.\n\n## Specification\n\nUpdate the settings in the Balancer Snapshot space to use the following strategy:\n\nStrategy: [delegation-with-cap](https://github.com/snapshot-labs/snapshot-strategies/tree/master/src/strategies/delegation-with-cap)\n\nBody: \n\n```\n{\n  \"symbol\": \"veBAL (delegated)\",\n  \"address\": \"0xC128a9954e6c874eA3d62ce62B468bA073093F25\",\n  \"decimals\": 18,\n  \"strategies\": [\n    {\n      \"name\": \"erc20-balance-of\",\n      \"params\": {\n        \"symbol\": \"veBAL\",\n        \"address\": \"0xC128a9954e6c874eA3d62ce62B468bA073093F25\",\n        \"decimals\": 18\n      }\n    }\n  ],\n  \"delegationSpace\": \"balancer.eth\",\n  \"capPercentage\": 45\n}\n\n```\n\n## Risk Assessment\n\nThis BIP changes the snapshot strategy which is a significant factor, although has been tested by both the author and by Snapshot developers. It can also be replaced if it does not function as expected.\n\n## Specifications\nIf approved, the DAO Multisig (which is set as admin of the snapshot space) will load the configuration `delegation-with-cap` and set `capPercentage` to 45 in the Settings menu via the snapshot gnosis safe app.",
+        "end_utc": "2023-12-25T19:00:00Z",
+        "similarity_score": 0.1203,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            4617500.404204646,
+            34176.697255523264,
+            0
+          ],
+          "scores_total": 4651677.101460169,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-12-25T19:00:00",
+          "pre_tvl_avg": 940248910.0,
+          "post_tvl_avg": 953239957.0,
+          "abnormal_change": 1.3817,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.013817,
+          "abnormal_change_pct": 1.3817
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-12-25T19:00:00",
+          "pre_price_avg": 4.141005475,
+          "post_price_avg": 4.5243818650000005,
+          "abnormal_change": 9.2581,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.092581,
+          "abnormal_change_pct": 9.2581
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x830e0a1be76aef32e2f4c3a21379c3be32a29c0aa7e349ec38315872230157aa",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "This proposal seeks to update Snapshot parameters by granting trusted core contributors author roles, removing the 200k veBAL delegation threshold to post proposals. Timeline voting analysis shows unanimous strong support with stable early voting. Similar past proposals to enable gauges with emission caps were successful and positively impacted market metrics. Forum sentiment is limited and slightly negative/neutral but does not outweigh the strong vote and beneficial precedent.",
+    "key_arguments_for": [
+      "Unanimous strong early and stable support for the proposal in voting timeline.",
+      "Historical similar proposals enabling core contributor roles and gauge caps were successful with positive market responses.",
+      "The proposal improves governance efficiency by allowing trusted contributors to post proposals without high delegation thresholds.",
+      "Market impact shows modest positive price and TVL effects."
+    ],
+    "key_arguments_against": [
+      "Sparse forum discussion with some negative sentiment on the risk of misusing author roles.",
+      "Concerns about risk of unfit proposals being posted by authors, though mitigated by voter safeguards."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Balancer forum BIP-587 discussion",
+        "quote": "Forum comments are limited; first comment summarizes the proposal and expresses risk concerns; second comment is a neutral link to the proposal."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Proposal voting timeline",
+        "quote": "All votes cast for 'Yes, let's do it' with high early ratio and stability, recommended index 0."
+      },
+      {
+        "source_tool": "govnews_search_governance_news",
+        "reference": "Adjacent proposals BIP-582, BIP-583, BIP-584",
+        "quote": "Similar proposals had unanimous 'Yes' votes and positive post-vote market responses, supporting the effectiveness of enabling contributor roles and gauge emission caps."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2024-04-18T18:00:00Z",
+    "event_end_utc": "2024-04-22T18:00:00Z",
+    "event_time_utc": "2024-04-22T18:00:00Z",
+    "address_of_governance_token": "0xc128a9954e6c874ea3d62ce62b468ba073093f25",
+    "token_price_impact_pct": 0.6756,
+    "tvl_impact_pct": 2.3277,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        3199342.6585186734,
+        0.013540953479252186,
+        0.013540953479252186
+      ],
+      "scores_total": 3199342.68560058,
+      "margin_abs": 3199342.64497772,
+      "margin_pct": 1.0
+    },
+    "simulation_reason": "Recommendation based on timeline voting dynamics, historical successful precedents, and market impact projections.",
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Voting timeline shows unanimous and stable support for the proposal from all voters.\n- Similar past proposals enabling author roles and emission caps were successful with positive market outcomes.\n- Forum sentiment is limited and slightly negative but does not outweigh the strong vote and proven beneficial changes.\n- Market impact data supports a modest positive effect on token price and TVL.\n- Recommendation aligns with vote and historical success, despite limited forum negativity, reflecting community and organizational durable benefit.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0xe3d26ad2edcb9b565ffc2f1bdcff5aa8fb3002e59c8e65e3c2e8217e61ae5986",
+        "title": "[BIP-583] Enable Gauges for sUSDe / USDC and USDe / USDC [Arbitrum]",
+        "end_utc": "2024-04-08T18:00:00Z",
+        "summary": "[BIP-583] Enable Gauges for sUSDe / USDC and USDe / USDC [Arbitrum] closed on 2024-04-08T18:00:00Z. Timeline analytics noted 15 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.10)",
+        "market_response": "token +4.28%; TVL +3.75%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0x0ba45a5cdaf3875e1ebcd9f67f3a4e3ba827c110d89d726fb0c173af441d4478",
+        "title": "[BIP-582] Enable shezUSD/sDAI Gauge w 2% cap [Ethereum]",
+        "end_utc": "2024-04-08T18:00:00Z",
+        "summary": "[BIP-582] Enable shezUSD/sDAI Gauge w 2% cap [Ethereum] closed on 2024-04-08T18:00:00Z. Timeline analytics noted 15 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.10)",
+        "market_response": "token +4.28%; TVL +3.75%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 0.6756,
+    "ex_post_tvl_impact_pct": 2.3277,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +0.68%; TVL +2.33%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 1,
+    "Positive": 0,
+    "Neutral": 1,
+    "total_comments": 2
+  }
+}

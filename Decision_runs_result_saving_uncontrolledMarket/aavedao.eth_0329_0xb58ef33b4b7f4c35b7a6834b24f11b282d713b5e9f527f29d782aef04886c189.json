@@ -1,0 +1,848 @@
+{
+  "captured_at_utc": "2025-10-05T22:01:57.730021+00:00",
+  "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0xb58ef33b4b7f4c35b7a6834b24f11b282d713b5e9f527f29d782aef04886c189",
+  "focus": null,
+  "votes_count": 998,
+  "timeline_metrics_current": {
+    "unique_voters": 998,
+    "total_votes": 998,
+    "first_vote_at": "2024-02-23T13:41:47Z",
+    "last_vote_at": "2024-02-26T13:40:47Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        85273.8560737344,
+        2585.8927529052967,
+        61.9419291438119
+      ],
+      [
+        255305.74311658536,
+        0.17963984597088228,
+        1200.0983238260108
+      ],
+      [
+        23337.92449925084,
+        0.28499890356210805,
+        0.000283597231923039
+      ],
+      [
+        182213.7157387773,
+        0.40491333486451775,
+        440.0087356302008
+      ]
+    ],
+    "spike_index": 0.353887,
+    "spike_follow_support_ratio": 0.994353,
+    "stairwise_ratio": 8.2e-05,
+    "half_slope_diff": 36.331304
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x387f779952a20e850f941111ccf7aa49022ee35274fd219b9759c0ea240b72e1",
+      "title": "[ARFC] BGD. Correlated-asset price oracle (CAPO)",
+      "author": "0xf71fc92e2949ccF6A5Fd369a0b402ba80Bc61E02",
+      "end_utc": "2024-02-09T09:23:36Z",
+      "timeline_metrics": {
+        "unique_voters": 737,
+        "total_votes": 737,
+        "first_vote_at": "2024-02-06T09:24:29Z",
+        "last_vote_at": "2024-02-09T09:22:52Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            245727.6208454772,
+            2.247268967554579,
+            0.5230082124473934
+          ],
+          [
+            267222.5927802093,
+            0.5577890055344333,
+            2.395083224214299
+          ],
+          [
+            61258.4910304175,
+            0.17132228327990562,
+            0.008444247521668145
+          ],
+          [
+            22396.819780080026,
+            0.24511885073444464,
+            0.5
+          ]
+        ],
+        "spike_index": 0.229824,
+        "spike_follow_support_ratio": 0.999995,
+        "stairwise_ratio": 8e-05,
+        "half_slope_diff": 1.385744
+      },
+      "price_impact_pct": 4.6634,
+      "tvl_impact_pct": 5.0921,
+      "similarity": 0.1039,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "For",
+        "margin_abs": 596602.0979004999,
+        "scores_total": 596612.1724709752,
+        "margin_pct": 0.9999831137027702
+      }
+    },
+    {
+      "id": "0x67fa557b990018a7d438aca3991c01ff503d82f559db027c8dada969d4f149d4",
+      "title": "[ARFC]  Retroactive bug bounties proposal (pre-Immunefi)",
+      "author": "0xf71fc92e2949ccF6A5Fd369a0b402ba80Bc61E02",
+      "end_utc": "2024-01-13T13:03:08Z",
+      "timeline_metrics": {
+        "unique_voters": 2767,
+        "total_votes": 2767,
+        "first_vote_at": "2024-01-10T13:03:18Z",
+        "last_vote_at": "2024-01-13T12:50:41Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.998008,
+            0.0,
+            0.001992
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9996385977593061,
+          0.0,
+          0.0003614022406938923
+        ],
+        "stability": [
+          0.9996385977593061,
+          0.0,
+          0.0003614022406938923
+        ],
+        "early_ratio": [
+          0.99800796812749,
+          0.0,
+          0.00199203187250996
+        ],
+        "vp_by_quartile": [
+          [
+            169246.914530217,
+            4.664417501268632,
+            173782.61099610705
+          ],
+          [
+            100545.70820161443,
+            2.728007245115617,
+            3013.4964486534586
+          ],
+          [
+            42663.40970272327,
+            0.6646194070658489,
+            2.25329776363276
+          ],
+          [
+            80.0751007022885,
+            4.204692415151021,
+            10.576599430340602
+          ]
+        ],
+        "spike_index": 0.316911,
+        "spike_follow_support_ratio": 0.362313,
+        "stairwise_ratio": 0.000119,
+        "half_slope_diff": -2.306844
+      },
+      "price_impact_pct": -3.5931,
+      "tvl_impact_pct": -3.7357,
+      "similarity": 0.1787,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "For",
+        "margin_abs": 135727.17019330186,
+        "scores_total": 489357.3066137791,
+        "margin_pct": 0.27735801296704315
+      }
+    },
+    {
+      "id": "0x7451f00809986c7cb8cce7ef4587efdfedad06089ebf2851d64122d00b035d9c",
+      "title": "[TEMP CHECK] Further Aave v1 deprecation strategy",
+      "author": "0xf71fc92e2949ccF6A5Fd369a0b402ba80Bc61E02",
+      "end_utc": "2024-01-13T12:52:54Z",
+      "timeline_metrics": {
+        "unique_voters": 2602,
+        "total_votes": 2602,
+        "first_vote_at": "2024-01-10T12:56:08Z",
+        "last_vote_at": "2024-01-13T12:52:36Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.997763,
+            0.002237,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9996156802459646,
+          0.0003843197540353574,
+          0.0
+        ],
+        "stability": [
+          0.9996156802459646,
+          0.0003843197540353574,
+          0.0
+        ],
+        "early_ratio": [
+          0.9977628635346756,
+          0.0022371364653243847,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            340799.5288780107,
+            0.3984634560323749,
+            1.4679416621636034
+          ],
+          [
+            5307.879180238029,
+            21.910743188453374,
+            0.465755065537963
+          ],
+          [
+            42658.45608334356,
+            0.6051811532863071,
+            0.7883983242049448
+          ],
+          [
+            157.12356920445654,
+            1.4477640319306637,
+            0.07265195746028182
+          ]
+        ],
+        "spike_index": 0.245305,
+        "spike_follow_support_ratio": 0.999793,
+        "stairwise_ratio": 0.000103,
+        "half_slope_diff": -2.440714
+      },
+      "price_impact_pct": -3.5931,
+      "tvl_impact_pct": -3.7357,
+      "similarity": 0.1552,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "For",
+        "margin_abs": 388898.6255589669,
+        "scores_total": 388950.1446096355,
+        "margin_pct": 0.9998675433050158
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x67fa557b990018a7d438aca3991c01ff503d82f559db027c8dada969d4f149d4",
+      "cleaned": {
+        "proposal_id": "0x67fa557b990018a7d438aca3991c01ff503d82f559db027c8dada969d4f149d4",
+        "title": "[ARFC]  Retroactive bug bounties proposal (pre-Immunefi)",
+        "author": "0xf71fc92e2949ccF6A5Fd369a0b402ba80Bc61E02",
+        "end_utc": "2024-01-13T13:03:08Z",
+        "similarity_score": 0.1717,
+        "winning_option": "For",
+        "winning_option_index": 0,
+        "margin_abs": 135727.17019330186,
+        "margin_pct": 0.27735801296704315,
+        "scores_total": 489357.3066137791,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 2767,
+        "total_votes": 2767,
+        "first_vote_at": "2024-01-10T13:03:18Z",
+        "last_vote_at": "2024-01-13T12:50:41Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.998008,
+            0.0,
+            0.001992
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9996385977593061,
+          0.0,
+          0.0003614022406938923
+        ],
+        "stability": [
+          0.9996385977593061,
+          0.0,
+          0.0003614022406938923
+        ],
+        "early_ratio": [
+          0.99800796812749,
+          0.0,
+          0.00199203187250996
+        ],
+        "vp_by_quartile": [
+          [
+            169246.914530217,
+            4.664417501268632,
+            173782.61099610705
+          ],
+          [
+            100545.70820161443,
+            2.728007245115617,
+            3013.4964486534586
+          ],
+          [
+            42663.40970272327,
+            0.6646194070658489,
+            2.25329776363276
+          ],
+          [
+            80.0751007022885,
+            4.204692415151021,
+            10.576599430340602
+          ]
+        ],
+        "spike_index": 0.316911,
+        "spike_follow_support_ratio": 0.362313,
+        "stairwise_ratio": 0.000119,
+        "half_slope_diff": -2.306844
+      },
+      "raw": {
+        "id": "0x67fa557b990018a7d438aca3991c01ff503d82f559db027c8dada969d4f149d4",
+        "title": "[ARFC]  Retroactive bug bounties proposal (pre-Immunefi)",
+        "author": "0xf71fc92e2949ccF6A5Fd369a0b402ba80Bc61E02",
+        "body": "---\nTitle: [ARFC]  Retroactive bug bounties proposal (pre-Immunefi)\n\nAuthor: BGD Labs @bgdlabs\n\nDate: 2024-01-09\n\n---\n\n## Summary\n\nRequest for bounties pending from before the setup of the Aave <> Immunefi official bug bounty program, amounting a grand total of $86’500.\n\n**The objective of this ARFC is to pre-authorise such payments, to be processed via an on-chain AIP**\n\n## Motivation\n\nBefore the setup of the Aave <> Immunefi bug bounty program on [September 25th 2023](https://governance-v2.aave.com/governance/proposal/325/), security reports by white hats where evaluated in an ad-hoc basis, proposing bounties/rewards following an approach like on [this proposal](https://governance.aave.com/t/bgd-bug-bounties-proposal/13077). That was not optimal, as there was no formal scope defined, or strict ranges of bounties depending on severity and impact.\n\nCurrently, every report is being processed via Immunefi and the rules of the Aave program, however, there were other reports submitted via other channel before that (usually security@aave.com). As these reports should be evaluated at time of submission for fairness, and outside of the Immunefi scope defined afterwards, we think it is a good idea to reward them separately and retro-actively outside the program.\n\n## Specification\n\n### Reports\n\nFirst of all, we want to clarify certain aspects for the community:\n\n- The proposed rewards and evaluation metrics follow the ones we did ad-hoc in the past [HERE](https://governance.aave.com/t/bgd-bug-bounties-proposal/13077#clarification-on-evaluation-2), as we don’t think it is fair for the white-hats to apply the rewards ranges on the current Immunefi program and out-of-scope rules, as they were defined afterwards.\n- In one of the cases, we recommended the white hat to submit the report via Immunefi, in order to have access to the mediation procedure of the platform. As this mediation process was finally requested by the white hat, Immunefi charges the corresponding fee of 10% of the amount, which we think is legitimate.\n- At the moment, *we are not disclosing the full details of some of the reports*, because even if none of them create any risk for Aave now, one has dependencies with another report (not disclosed yet) and the other could increase risk to non-Aave entities.\n\n\n### 1. Inconsistent validation on  Aave v2/v3\n\nWhen calling `borrow()` with stable rate mode on Aave v2 and v3, one of the validations is that not more than a percentage of the total available liquidity can be borrowed at once.\n\nHowever, `swapBorrowRateMode()` doesn’t validate the same, which is unexpected and could lead to more stable rate borrowings than intended.\n\nIt is important to highlight that this is not possible at the moment, with minting of stable rate disabled.\n\n\n**Severity:  Low**\n\nThe issue didn’t create any immediate problem in the protocol, but overexposure to stable rate mode is not expected.\n\n**Likelihood:  Certain**\n\nThis problem was present on the deployed versions of Aave v2 and v3, on those assets with stable rate enabled.\n\n**Proposed bounty:** 10’000 USD\n\n---\n\n### 2. Inconsistent HF (Health Factor) behaviour swap borrow rate mode\n\nWhen swapping borrow rate mode, the HF of an user is not validated, as debt should remain the same. However, under edge scenarios, the HF of an user could slightly change (by ~1 unit of lowest asset’s decimals).\n\n\n**Severity:  No impact**\n\nThis is not a bug or creates any exploit scenario, but it is unexpected behaviour.\n\n**Likelihood:  Certain**\n\nThis problem was present on the deployed versions of Aave v2 and v3, on those assets with stable rate enabled.\n\n**Proposed bounty:** 5’000 USD\n\n---\n\n### 3. Price manipulation of asset listed on Aave\n\nBy executing a complex strategy (involving compromising the asset’s trusted infrastructure), it could be possible to inflate the price of one of the assets listed on Aave v2.\n\nEven if this belongs more to the centralisation risk of the asset, and we don’t consider a bug of the protocol, it was taken into account for off-boarding consideration of the asset by risk providers of Aave, and we believe it is fair to reward retro-actively.\n\nAs this risk still exist on the asset itself and more protocols could be using it, even if we don’t really see any immediate risk, we will not be disclosing at the moment details of it, until the team applies extra measures.\n\n\n**Severity:  Critical**\n\nBeing a price manipulation, the impact on the protocol would hypotetically be important.\n\n**Likelihood: Not likely**\n\nThe attack involves compromising asset’s infrastructure (which would directly disqualify on the current Aave <> Immunefi program), together with extra techniques; so we consider it theoretically possible, but highly improbable.\n\n**Proposed bounty:** 65’000 USD. Additionally, 6’500 USD as Immunefi fee.\n\n## Next steps\n\nIf this ARFC is positive, afterwards we will proceed with an on-chain governance proposal, releasing the funds to the corresponding addresses.",
+        "end_utc": "2024-01-13T13:03:08Z",
+        "similarity_score": 0.1717,
+        "vote_result": {
+          "choices": [
+            "For",
+            "Against",
+            "Abstain"
+          ],
+          "scores": [
+            312536.1075352563,
+            12.26173656860112,
+            176808.93734195444
+          ],
+          "scores_total": 489357.3066137791,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2024-01-13T13:03:08",
+          "pre_tvl_avg": 7680658214.5,
+          "post_tvl_avg": 7393735660.0,
+          "abnormal_change": -3.7357,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.037357,
+          "abnormal_change_pct": -3.7357
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2024-01-13T13:03:08",
+          "pre_price_avg": 106.350854795,
+          "post_price_avg": 102.6825488,
+          "abnormal_change": -3.4492,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.034492,
+          "abnormal_change_pct": -3.4492
+        }
+      }
+    },
+    {
+      "proposal_id": "0x7451f00809986c7cb8cce7ef4587efdfedad06089ebf2851d64122d00b035d9c",
+      "cleaned": {
+        "proposal_id": "0x7451f00809986c7cb8cce7ef4587efdfedad06089ebf2851d64122d00b035d9c",
+        "title": "[TEMP CHECK] Further Aave v1 deprecation strategy",
+        "author": "0xf71fc92e2949ccF6A5Fd369a0b402ba80Bc61E02",
+        "end_utc": "2024-01-13T12:52:54Z",
+        "similarity_score": 0.1559,
+        "winning_option": "For",
+        "winning_option_index": 0,
+        "margin_abs": 388898.6255589669,
+        "margin_pct": 0.9998675433050158,
+        "scores_total": 388950.1446096355,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 2602,
+        "total_votes": 2602,
+        "first_vote_at": "2024-01-10T12:56:08Z",
+        "last_vote_at": "2024-01-13T12:52:36Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.997763,
+            0.002237,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9996156802459646,
+          0.0003843197540353574,
+          0.0
+        ],
+        "stability": [
+          0.9996156802459646,
+          0.0003843197540353574,
+          0.0
+        ],
+        "early_ratio": [
+          0.9977628635346756,
+          0.0022371364653243847,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            340799.5288780107,
+            0.3984634560323749,
+            1.4679416621636034
+          ],
+          [
+            5307.879180238029,
+            21.910743188453374,
+            0.465755065537963
+          ],
+          [
+            42658.45608334356,
+            0.6051811532863071,
+            0.7883983242049448
+          ],
+          [
+            157.12356920445654,
+            1.4477640319306637,
+            0.07265195746028182
+          ]
+        ],
+        "spike_index": 0.245305,
+        "spike_follow_support_ratio": 0.999793,
+        "stairwise_ratio": 0.000103,
+        "half_slope_diff": -2.440714
+      },
+      "raw": {
+        "id": "0x7451f00809986c7cb8cce7ef4587efdfedad06089ebf2851d64122d00b035d9c",
+        "title": "[TEMP CHECK] Further Aave v1 deprecation strategy",
+        "author": "0xf71fc92e2949ccF6A5Fd369a0b402ba80Bc61E02",
+        "body": "---\nTitle: [TEMP CHECK] Further Aave v1 deprecation strategy\n\nAuthor: BGD Labs @bgdlabs\n\nDate: 2024-01-09\n\n---\n\n## Summary\nApprove further steps of Aave v1 off-boarding, to reduce operational overhead on deprecated Aave instances.\n\n\n## Motivation\nThe Aave protocol v1 was released in January 2020 and eventually superseded by Aave protocol v2 in December on the same year.\n\nWhile Aave v1 has been deprecated for a long time, some liquidity is still stuck on the protocol 1. Even if this instance is not covered by the Aave Safety Module, being part of Aave, it still is monitored and evaluated whenever development and/or security decisions are made.\n\nThis creates meaningful overhead for all involved development & security teams, which directly adds cost to the Aave DAO. Additionally, the architecture of Aave v1 is quite different to Aave v2 & v3, making it the most ad-hoc instance of Aave.\n\nFor the previous reasons, we think the community should evaluate approving extra off-boarding steps.\n\n\n## Specification\nTo achieve a complete off-boarding of Aave v1, the following needs to be completed:\n\n- All debt has to be settled, in order to allow liquidity providers on v1 to withdraw.\n- All assets have to be withdrawn.\n\nTo minimise the impact on users we propose a phased approach, where each phase could last in the order of 1-3 weeks.\n\n### Phase 1\nIn a first phase we recommend to upgrade the liquidation mechanism on the protocol in the following ways:\n\n- It should no longer be possible to receive aTokens for liquidations (as the goal is to remove liquidity, not transfer it from user to user).\n- It should be possible to liquidate healthy (collateralised) positions with a fixed liquidationBonus (e.g. 1%). This value should be small to not hurt borrowers, while still being big enough to incentivise liquidations. If this Temp Check is successful, we will confirm the number with risk providers., but 1% at the current moment would make the liquidation profitable for approximately 85% of the positions to liquidate.\n- It should be possible to liquidate a entire position at once (currently on Aave v1 only 50% of a position can be liquidated).\n- Interest rates should be lowered to the minimum, as the previously described always-enabled dynamics remove any need of utilisation dynamics.\n- Remove flash loan fee, as there should not be extra incentives for liquidity providers.\n\n### Phase 2\nIn a second phase we recommend increasing the fixed liquidationBonus to a higher percentage.\n\nThe exact number must be chosen based on current market conditions to minimise user impact, but allow economical liquidations.\n\n### Phase 3\nOnce the big majority of debt is repaid, we recommend to introduce a forced withdrawal mechanism. With forced withdrawals anybody could withdraw on behalf of any liquidity provider on Aave v1, with the funds received by the holder of the aToken.\n\nIt is important to clarify that further technical aspects on this should be analysed before executing this step, for example smart contracts receiving funds without triggering a withdrawal.\n\n---\n\nAfter all the Phases are finished, additional ad-hoc steps can be executed, like Rescue Mission for locked funds.\n\n\n## Next Steps\n\nIf this TEMP CHECK is approved, we will proceed with an ARFC, with the final steps including feedback from risk service providers, and precise technical decisions.\n\nFinally, AIPs will be created for the different phases.\n\n\n## Copyright\nCopyright and related rights waived via CC0 .",
+        "end_utc": "2024-01-13T12:52:54Z",
+        "similarity_score": 0.1559,
+        "vote_result": {
+          "choices": [
+            "For",
+            "Against",
+            "Abstain"
+          ],
+          "scores": [
+            388922.9877107966,
+            24.36215182970268,
+            2.794747009366794
+          ],
+          "scores_total": 388950.1446096355,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2024-01-13T12:52:54",
+          "pre_tvl_avg": 7680658214.5,
+          "post_tvl_avg": 7393735660.0,
+          "abnormal_change": -3.7357,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.037357,
+          "abnormal_change_pct": -3.7357
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2024-01-13T12:52:54",
+          "pre_price_avg": 106.350854795,
+          "post_price_avg": 102.6825488,
+          "abnormal_change": -3.4492,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.034492,
+          "abnormal_change_pct": -3.4492
+        }
+      }
+    },
+    {
+      "proposal_id": "0x519f6ecb17b00eb9c2c175c586173b15cfa5199247903cda9ddab48763ddb035",
+      "cleaned": {
+        "proposal_id": "0x519f6ecb17b00eb9c2c175c586173b15cfa5199247903cda9ddab48763ddb035",
+        "title": "[ARC] Ethereum v2 Reserve Factor - aFEI Holding Update ",
+        "author": "0xc290Cfb8D020c0615e9C63036f4319Cc41717E68",
+        "end_utc": "2022-08-29T09:00:00Z",
+        "similarity_score": 0.1232,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 271694.4517345961,
+        "margin_pct": 0.9991793352115206,
+        "scores_total": 271917.60493833665,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 1874,
+        "total_votes": 1874,
+        "first_vote_at": "2022-08-25T17:04:07Z",
+        "last_vote_at": "2022-08-29T08:56:51Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            10868.81393284602,
+            1.0873105810055212,
+            31.167123443799177
+          ],
+          [
+            68681.48361861247,
+            0.8835081803017234,
+            56.14507784932797
+          ],
+          [
+            192001.34271332054,
+            0.34845038568461756,
+            22.06047705335529
+          ],
+          [
+            252.19870483968452,
+            2.0594645494219326,
+            0.014556675570924483
+          ]
+        ],
+        "spike_index": 0.613188,
+        "spike_follow_support_ratio": 0.967093,
+        "stairwise_ratio": 0.000272,
+        "half_slope_diff": -12.287587
+      },
+      "raw": {
+        "id": "0x519f6ecb17b00eb9c2c175c586173b15cfa5199247903cda9ddab48763ddb035",
+        "title": "[ARC] Ethereum v2 Reserve Factor - aFEI Holding Update ",
+        "author": "0xc290Cfb8D020c0615e9C63036f4319Cc41717E68",
+        "body": "Title: [ARC] Ethereum v2 Reserve Factor - aFEI Holding Update \nAuthor: @Llamaxyz @MatthewGraham \nCreated: 21-08-2022\n\n## Simple Summary\n\nIn response to Tribe DAO’s proposal to enter a terminal state, this ARC proposes redeeming all aFEI for FEI and exchanging it for DAI. \n\n## Abstract\n\nThe Aave DAO currently holds around 619,185.82 units of aFEI in the Ethereum Reserve Factor. Due to the uncertainty around the future of Tribe DAO and FEI, this proposal presents the community the opportunity to reduce exposure to the FEI stablecoin.  \n\nIf other lenders move to redeem aFEI for FEI before Aave DAO acts, then there is a risk that Aave DAO becomes trapped as a lender of last resort. Due to this risk, this proposal strongly encourages the DAO to redeem aFEI for FEI as an immediate priority.\n\nAfter redeeming the aFEI for FEI, risk can be further reduced by redeeming or swapping the FEI holding for a stablecoin with a more certain future. In this proposal, we suggest redeeming the FEI for DAI via the Tribe DAO Peg Stability Module which will incur a 0.03% fee.\n\n## Motivation\n\nThe FEI lending market is a concentrated market with three main providers of liquidity. Tribe DAO, Aave DAO and Badger DAO make up the top three liquidity providers by providing 88.76%, 5.47% and 2.72% respectively. Fei Labs has proposed redeeming all aFEI for FEI which will remove [10,067,143.35](https://etherscan.io/address/0xaFBd7Bd91B4c1Dd289EE47a4F030FBeDfa7ABc12) units of FEI from the lending market. However, there are only ​​[9,033,330.80](https://etherscan.io/address/0x683923db55fead99a79fa01a27eec3cb19679cc3) units of FEI held within the lending market.\n\nFei Labs is unable to withdraw all of its FEI as there is insufficient liquidity, redeem amount [10,067,143.35](https://etherscan.io/address/0xaFBd7Bd91B4c1Dd289EE47a4F030FBeDfa7ABc12) > available liquidity​​ [9,033,330.80](https://etherscan.io/address/0x683923db55fead99a79fa01a27eec3cb19679cc3). This is a problem for Fei Labs and also other lenders.\n\nThe market currently supports [11,308,536.17](https://etherscan.io/token/0x683923db55fead99a79fa01a27eec3cb19679cc3) units of aFEI, with 2,275,205.37 units of debt and [9,033,330.80](https://etherscan.io/address/0x683923db55fead99a79fa01a27eec3cb19679cc3) units available for lenders to redeem their collateral from or for Users to borrow. Any User seeking to claim [9,033,330.80](https://etherscan.io/address/0x683923db55fead99a79fa01a27eec3cb19679cc3) or less is able to do so now, but this may change very quickly when Fei Labs or others starts redeeming aFEI causing liquidity to diminish.\n\nAave DAO has 619,185.82 units of aFEI at risk of being caught in an illiquid position. If the FEI held within the lending market falls below 619,185.82 units before Aave DAO redeems its position, it will become a trapped lender until such time as borrowers repay their loans. It is likely that as this market is unwound by large liquidity providers redeem aFEI, that the utilisation and interest rate will increase, which hopefully triggering borrowers to repay loans.\n\nThis proposal has been put in motion to try to prevent Aave DAO becoming a trapped lender in the FEI market by redeeming its aFEI before liquidity dries up. We encourage all Users of the market to take responsible action in light of recent events.\n\nOnce the aFEI has been redeemed for FEI, it is to be redeemed for DAI. Tribe DAO offers a DAI PSM with a 0.03% fee that facilitates redeeming FEI for DAI. This is a simple solution and one [supported by the Tribe DAO community](https://tribe.fei.money/t/tip-121-proposal-for-the-future-of-the-tribe-dao/4475) as part of the transition to a terminal state. The DAI PSM module has around $14.5M of liquidity at the time of writing and can be tracked [here](https://dune.com/queries/1187683). In the event that redeeming FEI for DAI runs into any issues, FEI will be sold on market to DAI via a bonding curve. There is a bonding curve at peer review stage for swapping USDC for BAL which can be amended to facilitate offloading FEI into the spot market. We will provide updates in the comments as the situation unfolds.\n\n## Specification\n\nThe below provides a broad, high level summary of how the aFEI position held within the Reserve Factor will be managed.\n\n* All of the aFEI held with the Ethereum Economic Reserve is to be redeemed for FEI.\n* All FEI will be redeemed for DAI via the Tribe DAO DAI PSM\n  * If any issue arises, FEI will be sold on market to DAI via a bonding curve\n* DAI will be held in the Ethereum Reserve Factor\n\n## Next Steps\n\nThe next step for this ARC is after a period of discussion of at least 5 days to publish a governance snapshot vote at the **earliest 25th August 2022**, with YAE / NAY / ABSTAIN options and in the case of YAE majority publish an AIP to proceed as outlined above at the earliest possible date **29th August 2022**.\n\nIf we can move quicker than the proposed dates above, please do let reach out.\n\n## Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+        "end_utc": "2022-08-29T09:00:00Z",
+        "similarity_score": 0.1232,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "NAE",
+            "ABSTAIN"
+          ],
+          "scores": [
+            271803.83896961814,
+            4.378733696413795,
+            109.38723502205336
+          ],
+          "scores_total": 271917.60493833665,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2022-08-29T09:00:00",
+          "pre_tvl_avg": 6217568357.5,
+          "post_tvl_avg": 6148517328.0,
+          "abnormal_change": -1.1106,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.011106,
+          "abnormal_change_pct": -1.1106
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2022-08-29T09:00:00",
+          "pre_price_avg": 80.30831972499999,
+          "post_price_avg": 85.66757928,
+          "abnormal_change": 6.6734,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.066734,
+          "abnormal_change_pct": 6.6734
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0xb58ef33b4b7f4c35b7a6834b24f11b282d713b5e9f527f29d782aef04886c189",
+    "selected_choice_label": "For",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "The proposal aims to fully deprecate the stable rate borrowing mode on Aave v2 and v3 by enabling permissionless swapping of stable debt positions to variable rate. This addresses a critical security vulnerability discovered in November 2023 and simplifies the protocol's risk model. Despite some community concerns about fairness for stable rate borrowers, the overall timeline voting was unanimously supportive and similar past proposals show successful outcomes.",
+    "key_arguments_for": [
+      "Critical security bug related to stable borrow rate requires deprecation to mitigate risk and technical overhead.",
+      "Permissionless swapBorrowRateMode allows automated migration of all stable positions to variable, ensuring final off-boarding of stable mode.",
+      "Historical similar proposals with strong support led to positive market reactions and protocol improvements.",
+      "The DAO has mechanisms to compensate the white-hat with a bounty, showing commitment to security and fair reward."
+    ],
+    "key_arguments_against": [
+      "Some users hold stable positions with rates lower than current variable rates and feel forced migration is unfair.",
+      "Concerns about asymmetry and loss of stable rate benefits for borrowers who locked in favorable rates in bear markets.",
+      "Community questions around the necessity of deprecation given halted minting and closed attack vectors."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://governance.aave.com/t/bgd-full-deprecation-of-stable-rate/16473",
+        "quote": "Proposal for the full deprecation of stable rate mode from Aave v2 and v3, with all user positions being swapped to variable."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Snapshot proposal voting timeline",
+        "quote": "Lead ratio by quartile and total votes show unanimous 100% support for 'For' throughout the voting period."
+      },
+      {
+        "source_tool": "adjacent_analytics",
+        "reference": "Similar proposals: CAPO, Retroactive bug bounties",
+        "quote": "Similar proposals had unanimous support and positive price and TVL impact post-vote."
+      }
+    ],
+    "available_choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2024-02-23T13:41:09Z",
+    "event_end_utc": "2024-02-26T13:41:09Z",
+    "event_time_utc": "2024-02-26T13:41:09Z",
+    "address_of_governance_token": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+    "token_price_impact_pct": 5.6979,
+    "tvl_impact_pct": 12.5218,
+    "actual_vote_result": {
+      "winner_label": "For",
+      "winner_index": 0,
+      "scores": [
+        546131.2394283481,
+        2586.7623049896947,
+        1702.0492721972548
+      ],
+      "scores_total": 550420.0510055352,
+      "margin_abs": 543544.4771233584,
+      "margin_pct": 0.987508
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'For' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- The timeline voting shows unanimous and stable support for the proposal to deprecate stable rate borrowing, reflecting strong community consensus in voting.\n- Despite mixed forum sentiment with some concerns from stable rate borrowers about fairness and loss of benefits, the majority of informed discussion supports the security and technical rationale for deprecation.\n- Similar historical proposals related to security fixes and protocol improvements received strong support and led to positive market and TVL outcomes, supporting the durability of this decision.\n- The recommendation to change aligns with the voting timeline and prioritizes the protocol's long-term health and security, though it acknowledges some dissenting community voices.\n- The recommendation mirrors aggregated timeline voting sentiment, though forum sentiment is somewhat mixed, indicating the vote likely reflects the broader governance perspective.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x67fa557b990018a7d438aca3991c01ff503d82f559db027c8dada969d4f149d4",
+        "title": "[ARFC]  Retroactive bug bounties proposal (pre-Immunefi)",
+        "end_utc": "2024-01-13T13:03:08Z",
+        "summary": "[ARFC]  Retroactive bug bounties proposal (pre-Immunefi) closed on 2024-01-13T13:03:08Z. Timeline analytics noted 2767 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.18)",
+        "market_response": "token -3.59%; TVL -3.74%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0x7451f00809986c7cb8cce7ef4587efdfedad06089ebf2851d64122d00b035d9c",
+        "title": "[TEMP CHECK] Further Aave v1 deprecation strategy",
+        "end_utc": "2024-01-13T12:52:54Z",
+        "summary": "[TEMP CHECK] Further Aave v1 deprecation strategy closed on 2024-01-13T12:52:54Z. Timeline analytics noted 2602 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.16)",
+        "market_response": "token -3.59%; TVL -3.74%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 5.6979,
+    "ex_post_tvl_impact_pct": 12.5218,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +5.70%; TVL +12.52%"
+  },
+  "agentic_ai_choice": "For",
+  "actual_outcome": "For",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 8,
+    "Positive": 3,
+    "Neutral": 9,
+    "total_comments": 20
+  }
+}

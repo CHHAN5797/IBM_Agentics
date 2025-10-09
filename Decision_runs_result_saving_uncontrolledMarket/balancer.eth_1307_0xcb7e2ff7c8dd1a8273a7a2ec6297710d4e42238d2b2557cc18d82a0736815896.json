@@ -1,0 +1,1148 @@
+{
+  "captured_at_utc": "2025-10-09T03:09:22.044406+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0xcb7e2ff7c8dd1a8273a7a2ec6297710d4e42238d2b2557cc18d82a0736815896",
+  "focus": null,
+  "votes_count": 12,
+  "timeline_metrics_current": {
+    "unique_voters": 12,
+    "total_votes": 12,
+    "first_vote_at": "2024-06-21T04:34:22Z",
+    "last_vote_at": "2024-06-24T08:07:07Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        0.09269707522061965,
+        0.0,
+        0.0
+      ],
+      [
+        276000.4801142069,
+        0.0,
+        0.0
+      ],
+      [
+        0.8983921253423454,
+        0.0,
+        0.0
+      ],
+      [
+        2268252.1482541724,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.89152,
+    "spike_follow_support_ratio": 0.0,
+    "stairwise_ratio": 0.10848,
+    "half_slope_diff": 8.755881
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x0d9c701622948ddaa19f1183da4491d45e3c93b47d7118660887f269a05b305c",
+      "title": "[BIP-625] Enable gauge for WETH/rETH on [Gnosis]",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2024-06-17T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 17,
+        "total_votes": 17,
+        "first_vote_at": "2024-06-14T00:35:08Z",
+        "last_vote_at": "2024-06-17T14:49:56Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            6.786320088613784,
+            0.0,
+            0.0
+          ],
+          [
+            281009.6994116045,
+            0.0,
+            0.0
+          ],
+          [
+            129183.80493904768,
+            0.0,
+            0.0
+          ],
+          [
+            2307805.612283341,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.84908,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.15092,
+        "half_slope_diff": 12.878166
+      },
+      "price_impact_pct": -6.4007,
+      "tvl_impact_pct": -5.2305,
+      "similarity": 0.0701,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2718005.9029540815,
+        "scores_total": 2718005.9029540815,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0xbd5413de453ab0869895f4d09b2b9e58b6d06dc08fb89b429de135f5c2b0a3af",
+      "title": "[BIP-624] Enable rsETH / WETH Gauge (Arbitrum)",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2024-06-17T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 15,
+        "total_votes": 15,
+        "first_vote_at": "2024-06-14T00:34:52Z",
+        "last_vote_at": "2024-06-17T14:54:00Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            6.796486622211351,
+            0.0,
+            0.0
+          ],
+          [
+            281388.832370018,
+            0.0,
+            0.0
+          ],
+          [
+            6209.654546849197,
+            0.0,
+            0.0
+          ],
+          [
+            2307629.7080509346,
+            0.0,
+            0.10129413391584421
+          ]
+        ],
+        "spike_index": 0.889179,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.110821,
+        "half_slope_diff": 15.772607
+      },
+      "price_impact_pct": -6.4007,
+      "tvl_impact_pct": -5.2305,
+      "similarity": 0.0804,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2595234.8901602905,
+        "scores_total": 2595235.092748558,
+        "margin_pct": 0.9999999219383754
+      }
+    },
+    {
+      "id": "0xe23479d7b207e5f025a40ace92c3b89c4a3292dd832f4b2d63535f39d72af515",
+      "title": "[BIP-623] Enable gauge for weETH / wstETH E-CLP (Arbitrum)",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2024-06-17T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 15,
+        "total_votes": 15,
+        "first_vote_at": "2024-06-14T00:34:33Z",
+        "last_vote_at": "2024-06-17T14:57:50Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            6.796809184248275,
+            0.0,
+            0.0
+          ],
+          [
+            281400.8614355946,
+            0.0,
+            0.0
+          ],
+          [
+            6209.853229468223,
+            0.0,
+            0.0
+          ],
+          [
+            2307632.8103543324,
+            0.0,
+            0.10129776337001205
+          ]
+        ],
+        "spike_index": 0.889175,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.110825,
+        "half_slope_diff": 15.773779
+      },
+      "price_impact_pct": -6.4007,
+      "tvl_impact_pct": -5.2305,
+      "similarity": 0.0837,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2595250.220530817,
+        "scores_total": 2595250.423126343,
+        "margin_pct": 0.9999999219360396
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x232a09bdec09db2800a5f616a21ea9cd00c1c5c8e26525f2ffaec581967c7722",
+      "cleaned": {
+        "proposal_id": "0x232a09bdec09db2800a5f616a21ea9cd00c1c5c8e26525f2ffaec581967c7722",
+        "title": "[BIP-569] Business Development Service Provider Funding Proposal for Q2 2024 and Retroactive Q1 2024 Funding",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2024-03-25T19:00:00Z",
+        "similarity_score": 0.3414,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3165594.8601294574,
+        "margin_pct": 1.0,
+        "scores_total": 3165594.8601294574,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 23,
+        "total_votes": 23,
+        "first_vote_at": "2024-03-21T21:14:37Z",
+        "last_vote_at": "2024-03-25T12:43:28Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1269.1889035903127,
+            0.0,
+            0.0
+          ],
+          [
+            161464.9176245466,
+            0.0,
+            0.0
+          ],
+          [
+            379339.2111234079,
+            0.0,
+            0.0
+          ],
+          [
+            2623521.5424779127,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.828342,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.051954,
+        "half_slope_diff": 9.478673
+      },
+      "raw": {
+        "id": "0x232a09bdec09db2800a5f616a21ea9cd00c1c5c8e26525f2ffaec581967c7722",
+        "title": "[BIP-569] Business Development Service Provider Funding Proposal for Q2 2024 and Retroactive Q1 2024 Funding",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/849\n\n## Background\n\nThe establishment of the Business Development Service Provider (BDSP) took place in Q1 2024 under [BIP-525](https://forum.balancer.fi/t/bip-525-business-development-funding-proposal-q1-2024-and-retroactive-q4-2023-funding/5481) , with the intent of forming a dedicated working group focused on business development and growth-oriented activities. Initially, BIP-525 proposed a part-time 'trial period' for lipman's involvement, but lipman quickly assimilated into the team, assuming a full-time role almost immediately and driving impact for the DAO. Additionally, BIP-525 had anticipated json's phased exit from the Balancer BDSP in Q2, yet it is evident that json contribution in Q2 will continue to add value on a part-time basis.\n\nDuring Q1, the primary goals for the BDSP included shifting BD responsibilities from json to lipman and integrating lipman into the Balancer ecosystem, encompassing the DAO team and external partner network. Simultaneously, the BDSP was tasked with assessing potential opportunities for chain expansion and pursuing applicable grants. These initial objectives were achieved, and the BDSP targeted much of its focus to protocol expansion and fostering partnerships quickly in the early stages of Q1. This proactive shift not only enhanced the BDSP's productivity in Q1 but also positioned Balancer for a highly productive quarter in Q2.\n\nA BDSP update as of mid February can be found [here](https://forum.balancer.fi/t/business-development-sp-january-2024-update/5583). Other highlights in Q1 include (in no particular order):\n\n* The [LRT tripool](https://app.balancer.fi/#/ethereum/pool/0x848a5564158d84b8a8fb68ab5d004fae11619a5400000000000000000000066a) reached $120m in TVL\n* Evaluating and negotiating deals with multiple L2s for Balancer expansion: Metis, Scroll, Monad, BNB, Linea, X1, Mode, Injective, Sei, BoB, and more.\n* Cultivating strong relationships with key LRT partners such as Renzo, Etherfi, Swell, Kelp, Vector Reserve, and others. These relationships are evident from TVL, ve8020 launches, and by partners telling us they only want to work with Balancer on new chains.\n* Developing relationships with key industry players. A few examples include the defi leadership team at Base, Aave for GHO liquidity on Balancer, Trident/Paypal/Paxos for pyUSD, Paradigm, and many others\n* Evaluating CCIP with Chainlink and the Maxis for easier partner onboarding\n* Kicking off a multi-functional project team to revamp the partner onboarding process with a new UI and self-service features\n* Securing [100% of Balancer’s vlAura](https://snapshot.org/#/balancer.eth/proposal/0x6b7042ca6b93fea257320f21fc4934ac27544dc4d07738761561c95db3bdeb8a) for the BDSP’s discretionary use.\n* Launching a [ve8020 pool](https://app.balancer.fi/#/ethereum/pool/0x0f9fdc4d883f6d85b68ce1b8b96aa706a3538e5b000200000000000000000675) with Vector Reserve\n* Launching LRTs on new chains via Balancer\n* Outreach and exploration of opportunities with projects across an array of functions. Some of the many examples include (in no particular order):\n  * BoB (bitcoin L2)\n  * Boost\n  * Conduit.xyz\n  * Ethena\n  * Eclipse\n  * Peapod Finance\n  * Prisma\n  * Inverse Finance\n  * Magpie (LRT)\n  * AlphaGrowth\n  * pyUSD\n  * EstateX\n  * Restake Finance\n  * Liquid Collective\n  * Shadow\n  * Stakestone\n  * Milkyway\n  * Puffer\n  * And more\n\n### Key Objectives for Q2-2024\n\nLead Contributor: lipman\n\nSupport Contributor: json\n\n* Initiate the launch of new chains:\n  * Finalize the selection of chains for Balancer's launch.\n  * Conclude agreements with the chosen chains, including incentive structures, seeding liquidity, co-marketing, etc.\n  * Collaborate with engineering, Maxis, and marketing teams for the deployment on these new chains.\n  * Establish a comprehensive partnership network and ecosystem on the new chains, encompassing liquidity providers, yield-bearing assets, lending protocols, etc.\n  * Complete grant applications and administrative tasks necessary to secure incentives and other advantages from the new chains.\n* Enhance presence on existing chains:\n  * Develop, coordinate, and execute growth initiatives on Layer 2 solutions for existing chains, focusing on Arbitrum, Optimism, and Base networks.\n* Expand the yield-bearing thesis initiative.\n  * Launch new pools for LSTs and LRTs on mainnet.\n  * Introduce new pools for yield-bearing stablecoins.\n  * Bring LST/LRT partners to new chains where Balancer is deployed\n* Extend the ve8020 governance initiative.\n  * Explore ve8020 collaborations with pre-token projects, such as LRT projects.\n  * Promote ve8020 to projects with existing tokens.\n* Manage the application, monitoring, and execution of the Optimism grant program.\n* Streamline partner onboarding:\n  * Find ways to reduce friction in partner onboarding processes.\n  * Iterate on the notion pack, created by Marketing, to highlight the benefits of Balancer and guide new partners through the onboarding process.\n  * Collaborate with a small project team, including design, marketing, and Maxis, to rethink the partner onboarding process, potentially introducing a self-service UI.\n  * Evaluate the CCIP with Chainlink and implement it if necessary to streamline the rate provider onboarding process.\n* Prepare for v3 launch and seek partnerships:\n  * Seek integrations and partnerships in anticipation of the v3 launch.\n  * Collaborate with the Maxis to identify innovative use cases for exploration.\n  * Reach out to projects to present the v3 opportunity and establish partnerships ahead of the launch.\n* Continue ad hoc outreach to projects, exploring new partnerships and opportunities.\n\nPledge to abide by the [DAO’s Code of Conduct](https://fifth-broom-2e6.notion.site/Code-of-Conduct-fef15e2ed1f5453f8bd56f338c70bb88): YES\n\nPledge to abide by the [Accountability Guidelines](https://fifth-broom-2e6.notion.site/Accountability-Guidelines-229d93372403415688f8d3dc4cb964b1): YES\n\nAdhere to [[BIP-372] ](https://forum.balancer.fi/t/bip-372-adopt-sp-standards/5009)and the SP standards: YES\n\nLength of Engagement & Budget: 3 months (April 2024 - June 2024)\n\nThe biggest adjustment in the BDSP funding proposal is transitioning lipman from a part-time ‘trial basis’ status due to the limited budget originally allocated for Q1 before lipman was involved [[BIP-433](https://snapshot.org/#/balancer.eth/proposal/0xbdd578a51415c10d7d9f0fd3c80758edfa4a56b6720247bc9f1d33ec2b8bc0c3)] to a regular contributor in Q2 with FTE comp. Lipman’s compensation will include a combination of liquid tokens (USDC) and locked BAL to provide upside for the impact the BDSP is making on growth of the protocol. Json will continue to contribute on a limited, part-time basis including supporting lipman as needed.\n\n* Lipman =\n  * $12,500 USDC per month ($37,500 total for the quarter)\n  * 2,114 locked BAL per month (6,342 BAL for the quarter)\n    * ~$10,000 in USD value as of the 30 day TWAP $BAL price of $4.73 as of Mar 11, 2024\n* Json = $2,000 USDC per month ($6k total for the quarter)\n\nImpact on the Treasury\n\nThe Treasury wallets currently hold ~4.2M BAL. Funding the BDSP for Q2 2024 would cost around 0.15% of the treasury’s BAL holdings, which annualizes to ~0.60% of the treasury’s BAL. The Treasury wallets currently hold ~5.78M in USDC. Funding the USDC portion would cost around 0.25% of the treasury’s USDC, which annualizes to ~1.00%.\n\n## Retro Funding of Business Development of Q1 2024\n\nAs previously mentioned, the initial Q1 budget of $20k was established before lipman's involvement, with the intention of accommodating a part-time contributor. However, lipman surpassed this expectation and also significantly contributed to the quarter as an active, full-time participant. Lipman received $15k of the $20k budget during Q1 with json receiving the remaining $5k.\n\nIn light of Lipman's increased involvement and impact during Q1, a request is being made for an additional $17.5k in USDC. This amount, in addition to the $15k provided and a $5k bonus from the Q1 Maxi discretionary budget, is equivalent to the monthly USDC amount being requested for Q2 ($12.5k/mo).\n\n### Technical Specifications\n\nThe Balancer DAO multisig 0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f will interact with USDC 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 by writing transfer passing the BDSP Safe 0xC7E84373FC63A17B5B22EBaF86219141B630cD7a as recipient and amount 61000 USDC as 61000000000.\n\nTthe Balancer DAO multisig 0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f will interact with BAL 0xba100000625a3754423978a60c9317c58a424e3D by writing transfer passing the BDSP Safe 0xC7E84373FC63A17B5B22EBaF86219141B630cD7a as recipient and amount 6342 as 6342000000000000000000.",
+        "end_utc": "2024-03-25T19:00:00Z",
+        "similarity_score": 0.3414,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3165594.8601294574,
+            0,
+            0
+          ],
+          "scores_total": 3165594.8601294574,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-03-25T19:00:00",
+          "pre_tvl_avg": 1218663368.5,
+          "post_tvl_avg": 1279867832.5,
+          "abnormal_change": 5.0223,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.050223,
+          "abnormal_change_pct": 5.0223
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-03-25T19:00:00",
+          "pre_price_avg": 4.81569115,
+          "post_price_avg": 5.133736955,
+          "abnormal_change": 6.6044,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.066044,
+          "abnormal_change_pct": 6.6044
+        }
+      }
+    },
+    {
+      "proposal_id": "0x25225f0fb81cd8799d859cdd0ea3c25a772c0b5c13d07c723c0c917d36ab237c",
+      "cleaned": {
+        "proposal_id": "0x25225f0fb81cd8799d859cdd0ea3c25a772c0b5c13d07c723c0c917d36ab237c",
+        "title": "[BIP-525] Business Development Funding Proposal Q1-2024 and Retroactive Q4-2023 Funding",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2024-01-08T19:00:00Z",
+        "similarity_score": 0.1834,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3747861.283560531,
+        "margin_pct": 0.8812385821463455,
+        "scores_total": 4252947.339677567,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 29,
+        "total_votes": 29,
+        "first_vote_at": "2024-01-04T19:32:52Z",
+        "last_vote_at": "2024-01-08T08:40:50Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            351346.8394351916,
+            0.0,
+            0.0
+          ],
+          [
+            1195.2537206652037,
+            0.0,
+            0.954409094296396
+          ],
+          [
+            111852.39293890247,
+            0.0,
+            0.0
+          ],
+          [
+            3536009.825524289,
+            0.0,
+            252542.07364942366
+          ]
+        ],
+        "spike_index": 0.883608,
+        "spike_follow_support_ratio": 0.004817,
+        "stairwise_ratio": 0.028565,
+        "half_slope_diff": 2.952702
+      },
+      "raw": {
+        "id": "0x25225f0fb81cd8799d859cdd0ea3c25a772c0b5c13d07c723c0c917d36ab237c",
+        "title": "[BIP-525] Business Development Funding Proposal Q1-2024 and Retroactive Q4-2023 Funding",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "## PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/717\n\n## Background\n\nThe intent of this proposal is to gain alignment with the Balancer DAO on the creation and funding of the Business Development Service Provider (‘BDSP’). The BDSP will track and facilitate ongoing and future growth for the Balancer ecosystem. Furthermore, the proposal presents the responsibilities for the future BD contributor who will represent Balancer in the new year, 2024. Lastly, the proposal is a request from the DAO for payment from the approved Q4 BD budget to contributors who have provided continuous efforts toward the growth of Balancer.\n\n### Creation of the BDSP\n\nHistorically, Balancer DAO’s resources have been split amongst many different work streams such as governance, gauge creation, legal, marketing, etc.. Since the beginning of 2023, other protocols have executed on the growth of the ecosystem by collaborating, developing, and launching on top of Balancer’s technology layers. Whilst the development has been quite healthy, despite an otherwise turbulent and unforgiving market, there still remains a dire need for more growth-focused work. Current DAO service providers simply do not have the capacity nor the resources needed to facilitate business development specific workstreams with adequate focus.\n\nThe following contributor description is intended to elucidate the purpose of the business development role, detail the expectations of the contributor, and outline their responsibilities. If deemed as necessary and aligned on by the community and DAO, the new contributor would help to facilitate growth for Balancer beginning in Q1 of 2024. It is desirable for the DAO to provide input to the role so as to ensure a strong first quarter of 2024.\n\n### BD Contributor Description\n\nIn this role, the contributor will collaborate closely with the Balancer DAO, Balancer Maxis, Aura contributors, and a vibrant community of skilled professionals, to execute on ecosystem-critical growth strategies. As a key player in the ecosystem, the BD contributor will play a pivotal role in fostering partnerships, driving adoption, and expanding Balancer's presence in the rapidly evolving DeFi space.\n\n**Responsibilities**\n\n1. Partnership Development:\n    - Maintain and cultivate current strategic partnerships with key players in the broader DeFi space.\n    - Collaborate on, provide input to, and execute on a network-specific growth strategy during the duration of 2024.\n    - Explore new external, high-quality partnerships within the growing DeFi ecosystems.\n    - Collaborate with Aura and in-network partner protocol’s contributors to maintain current and grow future market share of DeFi composability within key networks (e.g. Arbitrum, Base, OP, etc.)\n    - Ideation, collaboration on the creation, and monitoring of KPI-tracking Dune dashboards.\n\n2. Protocol Expansion:\n\n    - Collaborate with key network partners of the ideation and execution of growth strategies.\n    - Define framework for measuring ROI of layer 2 deployments.\n    - Collaborate with ecosystem partners on future layer 2 deployments.\n    - Collaborate with marketing contributors on launch campaigns for networks\n\n3. Ecosystem Engagement:\n\n    - Engage with the broader blockchain and DeFi communities to promote awareness of Balancer and its unique value proposition.\n    - If deemed as a beneficial opportunity, represent Balancer DAO at conferences, meetups, and industry events.\n    - Track KPIs for critical ecosystems to ensure adequate ROI of dApp deployment.\n\n4. Market Analysis:\n\n    - Stay informed about market trends, competitor activities, and regulatory developments to inform business strategies.\n    - Provide quarterly reports and insights to the DAO regarding the competitive landscape and potential opportunities.\n\nA current ecosystem contributor (json) that focuses on business development will help the new BD individual (lipman) during the first quarter, completing a handover period. The expectation is that the new individual will take over full responsibility starting the second quarter of 2024.\n\nThe new contributor (lipman) will be responsible for BD on a part-time basis during a ‘trial period’ which will give the DAO a low-cost opportunity to vet the contributor’s impact and determine how the contributor’s role, and the Service Provider at large, should be expanded in Q2 and beyond. Ultimately, the contributor will undergo an iterative process with other service providers to ensure that tangible value is provided to both the DAO and the ecosystem.\n\n## Service Provider Name: Business Development\n\n**Contributors: json, lipman**\n\nPledge to abide by the DAO’s Code of Conduct: Yes\n\nPledge to abide by the Accountability Guidelines: Yes\n\n### Key Objectives for Q1-2024\n\n* Transition Balancer related BD activity from json to lipman\n* Onboarding of lipman to broader Balancer ecosystem\n  * Develop general understanding of internal Balancer operations + processes for BD support\n  * Develop understanding of Maxi priorities, their ideas for growth, and include within a prioritized list of initiatives to pursue in Q1.\n  * Meet with existing, key Balancer partners to get introduced, offer support, uncover needs, etc.\n  * Develop grasp of V3 and its implications for growth to position BD ahead of Q2 launch\n* Apply for new grant programs and monitor current grant programs\n  * Reapply for Optimism grant\n  * Pursue grants for Gnosis, Avalanche, Polygon zkEVM (partners only), Scroll (TBD), Linea (TBD), etc.\n* Create a framework to quantify layer 2 expansion opportunities and collaborate with Balancer DAO developers on the execution of each expansion\n* Develop and maintain relationships with potential new networks (e.g. Scroll, Linea, X1) and current networks (e.g. Arbitrum, Optimism)\n* Perform a competitive landscape review to understand where Balancer sits in comparison to industry peers\n    * Understand gaps via the analysis and work with the Balancer DAO to determine how to close the aforementioned gaps\n* Frame Key Performance Indicators and success targets for 2024\n    * Retrofit or design a dashboard to monitor success of growth for 2024\n\n**Length of Engagement & Budget**\n\n3 months. January 2024 - March 2024\n\nCompensation amounts will be funded by the $20k approved for BD activity in Q1 2024 [BIP-433](https://snapshot.org/#/balancer.eth/proposal/0xbdd578a51415c10d7d9f0fd3c80758edfa4a56b6720247bc9f1d33ec2b8bc0c3).\n\n* lipman: Max budget of 5,000 USDC per month. Given this is a part-time role, lipman’s availability and need may fluctuate week-to-week. A quarterly recap of activities will be provided.\n* json: Budget of 5,000 USDC for Q1\n\nFunds to Transfer: 20,000 USDC + 0.3 ETH\n\n**ETH Address to Receive Funds:**\n\n0xC7E84373FC63A17B5B22EBaF86219141B630cD7a, the BD Service Provider multisig, which will include json, lipman, and MikeB as signers.\n\nJson wallet: 0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2\n\nLipman wallet: 0x72658e9A5c55371A5e80559B8E07AbC14F212120\n\nMikeB wallet: 0xF01Cc7154e255D20489E091a5aEA10Bc136696a8\n\n## Retro Funding of Business Development of Q4 2023\n\nBalancer’s primary aggregator, Aura Finance, has allocated continuous resources toward the growth of the Balancer ecosystem spanning everything from grants to marketing to protocol integrations. Naturally, the aggregator layer has helped to amplify the benefits of Balancer’s vote escrow tokenomics given the function of the protocol. However, Aura Finance contributors continued to provide tangible value not only to the DAO via revenue streams but also to the ecosystem as a whole. A portion of this proposal aims to help compensate for the efforts that supported Balancer’s growth throughout 2023.\n\n**Non-Exhaustive List of Contributions:**\n\n* Application, monitoring, and execution of the Optimism grant program.\n  * [Progress report](https://docs.google.com/document/d/1QvmZ0CldL1Dlpk56Tpv8dCkXOuMxFQIAbRj5pj5lQrE/edit?usp=sharing) on the Optimism grant program\n  * [Dune dashboard](https://dune.com/scoffie/aura-gauges-op-incentives) for tracking Optimism grant program\n* Development, coordination, and continued execution of Layer 2 growth initiatives.\n  * Networks: Arbitrum, Optimism, Polygon, Polygon zkEVM, Gnosis, and Base.\n  * Creation of 2024 growth strategies for each of the above-mentioned networks.\n* Outreach and execution of protocol integrations\n  * Protocols: Sentiment, VMEX, Timeswap, Gyrsocope, JonesDAO, Extra Fi, BitGet Wallet, Notional, Beefy, Radiant, etc\n* Outreach for ve8020 program\n  * Protocols: Mimo, VMEX, Radiant, Manifold etc\n* Exposure from DeFi Industry Leaders\n  * Aave DAO, Swell, DeFi Collective, Paraswap, etc\n* Growth of key ecosystem assets (i.e. LSTs)\n  * LST outreach: mevETH, ether.fi, Stakewise, Origin, etc.\n  * Future-facing high-revenue assets for Balancer (undisclosed)\n\nThe Balancer DAO [approved a budget for business development and growth](https://forum.balancer.fi/t/bip-433-maxi-funding-proposal-q4-2023/5191) for Q4 of 2023. This proposal asks for the payout of 25% (5k USD) of the total budget for the quarter. The payout will be made to an Aura Finance contributor, json.\n\nWhile this proposal provides a general overview of the work that has been done in Q4 2023 it is highly encouraged that the DAO and community provide feedback on what they would like to see as a requirement for business and development growth contributors moving forward. Transparency and accountability will help to ensure that the protocol is progressing in the right direction while maximizing the efficiency of its runway.\n\n## Technical Specifications\n\nThe Balancer DAO multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with USDC `0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48` by writing `transfer` passing json’s wallet, `0xE2A4DE267cdD4fF5ED9Ba13552F5c624b12db9b2`, as recipient and amount `5000` USDC as 5000000000.\n\nThe Balancer DAO multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will send 20,000 USDC and 0.3 ETH to the BD Service Provider multisig 0xC7E84373FC63A17B5B22EBaF86219141B630cD7a",
+        "end_utc": "2024-01-08T19:00:00Z",
+        "similarity_score": 0.1834,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            4000404.3116190494,
+            0,
+            252543.028058518
+          ],
+          "scores_total": 4252947.339677567,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-01-08T19:00:00",
+          "pre_tvl_avg": 931422730.5,
+          "post_tvl_avg": 970042554.0,
+          "abnormal_change": 4.1463,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.041463,
+          "abnormal_change_pct": 4.1463
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-01-08T19:00:00",
+          "pre_price_avg": 3.86706437,
+          "post_price_avg": 4.350216675,
+          "abnormal_change": 12.494,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.12494,
+          "abnormal_change_pct": 12.494
+        }
+      }
+    },
+    {
+      "proposal_id": "0xbdd578a51415c10d7d9f0fd3c80758edfa4a56b6720247bc9f1d33ec2b8bc0c3",
+      "cleaned": {
+        "proposal_id": "0xbdd578a51415c10d7d9f0fd3c80758edfa4a56b6720247bc9f1d33ec2b8bc0c3",
+        "title": "[BIP-433] Maxi Funding Proposal Q4-2023",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-09-25T18:00:00Z",
+        "similarity_score": 0.1627,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3906996.2650181088,
+        "margin_pct": 0.9643367418318856,
+        "scores_total": 4051485.4360897327,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 58,
+        "total_votes": 58,
+        "first_vote_at": "2023-09-21T18:26:09Z",
+        "last_vote_at": "2023-09-25T17:34:24Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            659533.9299276574,
+            0.0,
+            0.0
+          ],
+          [
+            1926.6086615873378,
+            0.3220470448592049,
+            72244.38053927239
+          ],
+          [
+            857.9013068026672,
+            0.0,
+            0.0
+          ],
+          [
+            3316922.293607368,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.795021,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.000703,
+        "half_slope_diff": 0.90179
+      },
+      "raw": {
+        "id": "0xbdd578a51415c10d7d9f0fd3c80758edfa4a56b6720247bc9f1d33ec2b8bc0c3",
+        "title": "[BIP-433] Maxi Funding Proposal Q4-2023",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/516\n\n## Background\n\nSolarcurve has decided to take a break from the Maxis to delve into the world of DeFi and rediscover his Chad spirit. As part of Solars transition, the team has dedicated substantial time to introspect on our mission, compensation structure, and previous feedback regarding compensation proposals for both the Maxis and other Service Providers (SPs). This funding proposal, unlike its recent predecessors, aims to establish a clear and unified definition of our scope, mandate, and the proposed budget to fund the Maxis until the end of 2023.\n\n## Revised Scope and Mandate:\n\nBased on our recent reflections surrounding the work we have been and are currently doing, and how it creates value and/or is important for the ecosystem, we wrote this Maxi Mandate and Scope:\n\nhttps://forum.balancer.fi/t/balancer-maxis-updated-scope-and-mandate-q4-2023/5190\n\n## Process of determining Compensation Budget\n\nFollowing the completion of the revised Mandate and Scope above, we each individually assessed our time commitments to the Maxis and engaged in candid discussions about compensation rates. Additionally, Gleb, Cosme, and Dubstar, responsible for support and community safety, were included in the compensation discussions alongside the rest of the Maxis team.  Shakotn is increasing his workload in the Maxis as we move to automate the last bits that Solar was doing by hand. \n\nFrom that we concluded, that across all proposed contributors, we will be requiring a liquid USDC pay of **$255,800 USDC** in total for the quarter, for **7.75 FTE** (full-time equivalent) of committed work (we all do more), including 0.75 FTE of budget for additional operations/engineering resources where more. redundancy is required.  The areas of operation for our contributor roster span disciplines including: \n\n- Strategy & Business Development\n- Governance and Protocol Operations\n- DevOps and Automation Engineering\n- Economics\n- Eco-system coordination\n- Community Management\n\nFrom this point, we discounted each contributors pay by 20%, to a total of **************$189,150.00 USDC************** and then offered all Maxi contributors the opportunity to swap liquid USDC pay for 1 year locked auto-compounding auraBAL at a rate of **1.6X**.\n\n41.6% of the USDC took advantage of this program.  BAL was priced on 17-09-2023  at 3.25 USD, resulting in the following requested People budget for the Maxis:\n\n|Quarter|USD in BAL|$BAL|USDC|Total Comp|% in vested BAL|\n|---|---|---|---|---|---|\n|Q4 (next)|$103,008.00|31,694.77|$148,770.00|$251,778.00|40.91%|\n|Q3 (last)|$114,510.00|25,400.00|$132,630.00|$247,140.00|46.33%|\n||USD in BAL|$BAL|USDC|Total Comp|% change|\n|Change|-$11,502.00|6,294.77|$16,140.00|$4,638.00|1.88%|\n\n\nFurther an additional **20 ETH** is requested to cover gas costs in Q4.  Gas spending last quarter was mostly used dealing with migrations.  Maxi Gas spend can be reviewed here:  \n\nhttps://dune.com/scoffie/advancedmaxigasstation?undefined=\n\n## Vesting auraBAL\n\nLocking veBAL for a year involves:\n\n- Serious tax complications\n- A year of diminishing returns fee flows and bribs.\n- The requirement to keep a high number of wallets holding veBAL with different end dates.\n\nThe Maxis are working to instead develop a locking contract with the following features:\n\n- Accepts auraBAL on Arbitrum and stakes it in the pounder there.\n- Allows the beneficiary to claim any earned $AURA and unvested auraBAL.\n- Accepts multiple deposits with different dates and lock durations.\n- Allows sweeping of the contract with the approval of both the DAO multisig and the beneficiary in case something changes.\n\nOn or around the date that Q4 funds are received the Maxis will use the full BAL allocation for the quarter to deposit directly into auraBAL.  Once the vesting contracts are finished and reviewed, auraBAL will be transferred into the contracts with a lock duration such that they will unlock on October 1st 2024.\n\nBased on feedback to this BIP, we additionally request 20,000 USDC as an available budget to focus on building a community business development and sales facility.  The Maxis role in BD is more focused on operations and advisory as subject matter experts.  We're happy to take on the challenge of finding community members who have the right skillset and passion to bring in new partners.  This budget may not be spent, but als always we will do our best to make some progress here/get something started here and be cost effective in doing so.\n\nFinally, we’ll ask for an additional 20 ETH from the treasury for gas expenses. You can check out [this dashboard 3](https://dune.com/scoffie/maxigasstation?undefined=) we commissioned to track gas spending. This may require supplemental funding during the quarter depending on ETH gas prices and if gas intensive activities increase, such as poking additional layer zero cross chain rate providers.\n\n---\n\n**Service Provider Name:** Balancer Maxis\n\n************************Contributors************************\n\n   **Core Maxis:** Mike B, Zekraken, Xeonus, Zen Dragon, Danko, and Tritium.\n\n   ********The Ballers:******** Cosme, Gleb, Dubstard, Shakotan\n\n   ******Interns:****** Gosuto(maybe)\n\n**Pledge to abide by the DAO’s [Code of Conduct](https://www.notion.so/Code-of-Conduct-fef15e2ed1f5453f8bd56f338c70bb88?pvs=21) (or link to your own):** Yes\n\n**Pledge to abide by the [Accountability Guidelines](https://www.notion.so/Accountability-Guidelines-229d93372403415688f8d3dc4cb964b1?pvs=21) :** Yes\n\n**Domains of Operation + Key Objectives & Success Metrics:**\n\n## Domains of Operation and Scope of Work:\n\n **Word doc we are working on.**\n\n## Key Objectives per operational discipline:\n\n### Strategy and Business Development\n\n- Provide consultancy services on how to best deploy liquidity and leverage Balancer tech\n- Deploy and optimize Omni-chain LSD liquidity in partnership with Chainlink.\n- Applying for co-incentive grants.\n\n### Governance and Protocol Operations\n\n- Governance\n    - Conduct weekly forum/snapshot voting process.\n    - Build, verify and coordination execution of multisig payloads to enact approved governance in a timely manner.\n    - Coordinate changes with voters, vote markets, wrappers and various other participants in the veBAL ecosystem.\n    - Help governance manage risk by:\n        - Identifying/strongly advising against dangerous governance decisions\n        - Coordinating with OpCo to identify and whitelist properly configured pools for the UI after creation.\n- Protocol Operations\n    - Development and administration of revenue collection and distribution systems:\n        - Fee Collection (in tandem with Mimic)\n        - Fee Distribution as per BIP-19 and various additional governance proposals.\n    - Administration of direct incentives from partnerships and grants.\n\n### **Maxi Ecosystem Coordination**\n\n- Facilitate legal/business contract execution for BizDev activities\n- Training and developing community contributors (Ballers) reducing downtime for users and bridging to tech teams and support\n- Discord management and Ecosystem Notion revamp (website and repository)\n- Event and travel planning\n    - Balancer Foundation Director’s workshop\n    - Ecosystem ONsite (April/24)\n    - Future hack-a-tons\n\n**Length of Engagement & Budget**\n\n3 months.\n\nBudget of 48,590 USDC per month for salaries and 10,565 BAL per month. Of this, 5950 USDC per month and 270 BAL per month are for joining members or bounty work/discretionary funding.  We also request an allocation of 20 ETH for gas expenses and 20,000 USDC for BD bounties as described above. \n\n**Total for 3 month engagement: 168,770 USDC, 31,695 BAL and 20 ETH** (ETH and BizDev Bounty is excluded in the following comparison).\n\n***Comparison against last quarter**:* Not including the BD budget, this proposal represents an increase of 6,295 $BAL and 16,140 USDC vs last quarter. The increase in BAL tokens represents a decrease of -$11,502 in USD value of BAL token compensation when using the BAL price of 4.40 USD for last quarter and 3.25 USD for Q4.  The total increase in USD value of tokens paid in is 1.88% with 40.91% of USD value locked vs 46.33% last quarter.\n\nThe 20,000 USDC BD increase brings the total USDC spend up 31,640 vs last quarter for a 10% change in total spend with 37.9% staked this quarter vs 46.33% in Q3.\n\n\n**Funds to transfer:** 168,770 USDC and 31,695 BAL and 20 ETH \n\n Note that $14.220 in USDC is still unspent/unallocated from Q3/23, but there are a few outstanding engagements still ongoing that may be paid by these funds. The Maxis will provide a complete report about the 30,000 USDC Q3 discretionary budget expenditures by Nov 1st.\n\n*Impact on the Treasury*: The [Treasury](https://docs.google.com/spreadsheets/d/1zhdIt-6-yxI_Nma7rJqvCQVSoy6Ph0btu0yV1IXe0vA/edit#gid=0) currently holds ~4.3M BAL. Funding the Balancer Maxis for Q3 would cost around 0.7% of the treasury’s BAL holdings, which annualizes to ~2.9% of the treasury’s BAL. The Treasury currently holds ~4.58M in USDC. Funding the USDC portion would cost around 3% of the treasury’s USDC, which annualizes to ~12%.\n\n**ETH Address to Receive Funds:** 0x166f54F44F271407f24AA1BE415a730035637325\n\n**Link to SLA (if going through the Foundation:** N/A\n\n## Changes to Signer Set\nAs @solarcurve is leaving, and @Shakotan is managing the automation that covers aspects of Solars work.  It is proposed to swap Solar for Shak on in the [Balancer Maxi Signer set](https://docs.balancer.fi/concepts/governance/multisig.html#operational-multisigs-signer-set-aka-balancer-maxis).  This grants signership to a number of 3/6 multisigs.  Safes, signers and permissions can understood by reviewing this [Table](https://docs.balancer.fi/concepts/governance/multisig.html#the-multisigs-and-their-addresses) in the docs.\n\nThis BIP instructions that on all Maxi Signer Sets Safes, Solarcurve `0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3` is replaced with Shakotan: `0x8053484489b110181a6dba0b59dda887e433f470`\n\n## Specifications\nThe DAO Multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f`  will interact with USDC `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48` by writing `transfer` passing the Maxis Multisig address as the recipient `0x166f54F44F271407f24AA1BE415a730035637325` and amount `168770000000`\n\nThe DAO Multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f`  will interact with BAL `0xba100000625a3754423978a60c9317c58a424e3D` by writing `transfer` passing the Maxis Multisig address as the recipient `0x166f54F44F271407f24AA1BE415a730035637325` and amount `31695000000000000000000`\n\nThe DAO Multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with WETH `0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2` by writing `deposit` with amount `20` to wrap the required ETH. Afterwards the DAO Multisig  `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with WETH `0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2` by writing `transfer` passing the Maxis Multisig address as the recipient `0x166f54F44F271407f24AA1BE415a730035637325` and amount `20000000000000000000`",
+        "end_utc": "2023-09-25T18:00:00Z",
+        "similarity_score": 0.1627,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3979240.666969453,
+            0.36716893562170216,
+            72244.40195134413
+          ],
+          "scores_total": 4051485.4360897327,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-09-25T18:00:00",
+          "pre_tvl_avg": 688114641.5,
+          "post_tvl_avg": 688340764.5,
+          "abnormal_change": 0.0329,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.000329,
+          "abnormal_change_pct": 0.0329
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-09-25T18:00:00",
+          "pre_price_avg": 3.1118371700000003,
+          "post_price_avg": 3.26425488,
+          "abnormal_change": 4.898,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.04898,
+          "abnormal_change_pct": 4.898
+        }
+      }
+    },
+    {
+      "proposal_id": "0x31a6bf7ae6ff43eeed41d32c2b75b89662903691004a807820fbe8bc731cd219",
+      "cleaned": {
+        "proposal_id": "0x31a6bf7ae6ff43eeed41d32c2b75b89662903691004a807820fbe8bc731cd219",
+        "title": "[BIP-568] Fund Balancer Maxis for Q2 2024",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2024-03-25T19:00:00Z",
+        "similarity_score": 0.1599,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3004133.655744015,
+        "margin_pct": 1.0,
+        "scores_total": 3004133.655744015,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 22,
+        "total_votes": 22,
+        "first_vote_at": "2024-03-21T21:06:32Z",
+        "last_vote_at": "2024-03-25T12:43:43Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1269.1917728690394,
+            0.0,
+            0.0
+          ],
+          [
+            2.782007192721932,
+            0.0,
+            0.0
+          ],
+          [
+            379340.1365555494,
+            0.0,
+            0.0
+          ],
+          [
+            2623521.545408403,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.872863,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.000999,
+        "half_slope_diff": 6.978704
+      },
+      "raw": {
+        "id": "0x31a6bf7ae6ff43eeed41d32c2b75b89662903691004a807820fbe8bc731cd219",
+        "title": "[BIP-568] Fund Balancer Maxis for Q2 2024",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/848\n\n## Introduction\n\n \n![bip-568-1.jpg](ipfs://bafybeieaekiotvrtfwp2bb3wb5cpzdrcsq2f64c2vbqsxnii6p2wiynkni)\n    \n`The Maxis pave a luminous path towards a radiant future for the Balancer ecosystem`\n\nThe new year started with much optimism which is reflected in the increased positive momentum in the market. Balancer has pivoted as one of the main liquidity hubs for LRTs and LSTs. The Maxis have played a crucial role in making sure our various partners have a seamless experience while onboarding to Balancer tech.\n\nThis positive momentum, however, has also resulted in an immense increase in workload for Maxis, be it on the operational side or partner management. The group performed exceptionally, although we had changes in our team structure with Shakotan leaving and moving on to work for Radiant Capital.\n\nThe combination of increased responsibility and workload are key factors for us to focus on automating as many internal and on-chain processes as possible while also making the partner experience as seamless as possible - both for Balancer v2 and v3. We took a lot of learnings from Q1 and want to transition to a more professional Dev- and GovOps organization. We will therefore focus our efforts on 2 key initiatives: automation and stellar partner experience for v2 and v3. To achieve these goals we need a balance of retaining the current talented team and having enough flexibility to attract new talent for our various development tasks.\n\nAdditionally, we will undergo some structural modifications to reflect these changes: Danko and the Ballers will transition into the Balancer OpCo (Admin & Ops) for administrative and operations, ecosystem liaison and community mod tasks. This is an ideal opportunity as we further decentralize our SP landscape and strengthen our DAO, while also focusing the teams on what they are good at. Learn more about it on the Foundation’s funding [proposal](https://forum.balancer.fi/t/bip-xxx-year-three-funding-proposal-for-the-balancer-foundation/5627).\n\nWe are incredibly excited about the road ahead. Our protocol metrics show amazing performance across the board and we are dedicated to make sure Balancer will continue to be the go-to blue chip AMM in this market cycle!\n\n## Initiatives\n\nIn Q1, we introduced initiatives which helped us focus our efforts to specific work domains. In general, we had great experience with these work packages but will make sure to not overcommit this quarter with too many tasks, as smooth DAO operations are our highest priority. Therefore, we will focus our energy on 2 initiatives resulting in the highest possible impact for the DAO.\n\n### Initiative 1: Transition to a professional DevOps organization with Automation\n\n**Co-Leads**: Xeonus & Tritium\n\n**Team**: gosuto, Zekraken, Zen Dragon (and freelancers)\n\n**Summary**\nThe Balancer Maxis have been maintaining and operating key infrastructure in the DAO. These components include the [Fee sweep automation repo](https://github.com/BalancerMaxis/protocol_fee_allocator), [Reward injectors](https://github.com/BalancerMaxis/ChildChainGaugeInjectoooor) and [grant distribution automation](https://github.com/BalancerMaxis/STIP_automation). Furthermore, we were assigned the task to maintain and take over the OZ defender infrastructure making sure BAL gets streamed to all Balancer deployments.\n\nWe made significant advancements in Q1 but need to further focus on streamlining all these repositories. A main focus will also be set on migrating the infrastructure we took over from BLabs to a new version as the old one will be deprecated June 1st 2024. We therefore have a clear set of objectives to fulfill and also plan to use freelance resources to complete them.\n\n**Objectives**\n\n1. Fee Sweep Automation:\n* Refactor and improve code base incl. integration tests\n* Provide transparent and meaningful reports so that all DAO participants (investors and partners alike) can understand the mechanisms behind our core pool framework\n* Work together with Mimic or other partners to improve fee sweep performance\n*  Evaluate and improve voting incentive placements\n* Re-evaluate Aura fee recycling\n\n2. vlAURA Voting:\n* Provision automatic voting as outlined in [BIP-508](https://forum.balancer.fi/t/bip-508-utilize-locked-aura-to-support-ecosystem-growth/5419)\n* Make the DAO owned vlAURA position easy to maintain (relocks etc).\n\n3. OZ Defender:\n* Establish a repository in the Balancer Maxis org\n* Implement deployment pipelines with the OZ API for professional CI/CD integration\n* Migrate to OZ Defender v2 and set up the enterprise tier subscription plan. The costs will be covered by Balancer OpCo.\n* Assess and negotiate the usage of a professional subscription to run our operations\n* Implement further monitoring\n* If possible, implement gas usage optimizations\n\n4. RewardsInjector v2\n* Finalize the new design\n* Write integration tests\n* Get a smart contract review\n* Make new contract ready to be used for Q3 latest\n\n5. Gauges and core pools\n* Automatic core pool detection and maintenance\n* Automatic gauge removal flagging\n\n### Initiative 2: Grow Balancer v2 and Support v3 Design\n\n**Lead**: MikeB\n\n**Team**: Maxis\n\n**Summary**\nBalancer v3 is in active development and set to go public with developer documentation and other collateral materials in April. Balancer v3 is set to compete with the established developer community of Uni v4. It’s crucial to foster the development of a robust ecosystem based on Balancer v3, ensuring it offers a compelling alternative for developers and projects.\n\nAt the same time, we strive to improve the quality of the partner experience for Balancer v2 while also supporting the launch on promising L2 chains with our technical expertise. Balancer v2 will remain a core component of the Balancer ecosystem and we strive to make it as easy to use as possible.\n\n**Objectives for v3 design**:\n\n* Onboarding of Innovative Teams: Attract and integrate teams that are developing novel automated market makers (AMMs) for Balancer v3.\n* Facilitate Hook Development: Bring innovative hooks to market through developer outreach and incentive alignment.\n* Market Fit Identification for v3 Products: Assess and establish the market relevance of v3 offerings..\n* Serving as a Liaison: Act as the primary point of contact for external teams working on Balancer v3, facilitating seamless communication and collaboration.\n* Technical Support Coordination: Collaborate with the integrations and BLabs teams to ensure that building teams receive adequate technical assistance.\n* Finalizing v3 Feature Scope: Conclude the initial feature set for Balancer v3, aligning it with market needs and developer capabilities.\n\n**Objectives for v2 growth:**\n* Improve partner experience supporting the marketing team with a consistent partner onboarding pack and process\n* Improved partner onboarding experience by streamlining internal processes\n* Streamline and simplify gauge on- and offboarding (incl. automatic flagging of deprecated gauges)\n\n**Service Provider Name & Overview**: Balancer Maxis\n\n**Leader(s)**: Xeonus, joined by the talented Mike B, Zekraken, Zen Dragon, Tritium and Gosuto\n\n**Contributors/Freelancers:** Hyferion, jalbrekt\n\n**Adhere to [[BIP-372] ](https://forum.balancer.fi/t/bip-372-adopt-sp-standards/5009)and the SP standards:** YES\n\n**Pledge to abide by the DAO's [Code of Conduct](https://www.notion.so/balancergrants/Code-of-Conduct-fef15e2ed1f5453f8bd56f338c70bb88) (or link to your own):** YES\n\n**Pledge to abide by the [Accountability Guidelines](https://www.notion.so/balancergrants/Accountability-Guidelines-229d93372403415688f8d3dc4cb964b1):** YES\n\n**Domains of Operation:**\n\n* Governance and Protocol Operations\n* Strategy and Business Development\n* On-Chain Operations (DevOps)\n* Pool Design and Ecosystem Coordination\n* Data Analytics and Reporting\n\n**Key Objectives per Operational Discipline:**\n\n#### 1. Governance and Protocol Operations\n* Leading governance procedures, ensuring their execution and integrity.\n* Facilitating technical discussions within governance scopes.\n* Setting up governance votes and reviewing payloads for DAO transactions.\n* Crafting detailed governance proposals and specifications.\n* Offering deep technological insights during governance deliberations.\n* Assisting in specifications to proposals for proper payload execution\n* Infrastructure and tool creation for enhancing governance operations.\n* Automating tasks, reducing human dependency in governance functions.\n* Creating UI tools that support operational tasks (past examples: pool creation, reward injectors, linear pool deployment [deprecated])\n\n#### Strategy and Business Development\n* Applying profound product and technical knowledge in strategic planning.\n* Engaging with new partners and broader Web3 communities.\n* Providing technical support and insights for strategic development.\n* Assisting in custom pool creations and new chain launches.\n* Managing revenue flows and direct incentives with partners.\n* Facilitating discussions on financial incentives and revenue optimization.\n* Acting as active partner support and assisting new partners navigate the ecosystem\n\n#### 3. On-Chain Operations (DevOps)\n* Overseeing DevOps and automating multisig operations.\n* Building multisig payloads and conducting multi-person peer-reviews\n* Guidance on infrastructure-related aspects.\n* Overseeing Stipend Distribution Automation\n* Coordinating protocol fee sweep automation\n* Core development, aiding in automation and data management.\n* Smart contract development(when needed)\n* Taking over on chain automation for OZ Defender and migrating to new version of it\n* Support in technical best practices.\n* Bi-weekly fees processing and reporting\n* Grant program management and operations (if applicable)\n\n#### 4. Pool Design and Ecosystem Coordination\n* Designing pools for the protocol, aligning with governance specifications.\n* Liaising with the ecosystem for synchronized functionality and growth.\n* Assistance in pool design and migration to v3\n* Token whitelisting and front-end testing.\n* Assisting in the technical aspects of pool and gauge creation.\n* Testing of v3 front-end infrastructure\n\n#### 5. Data Analytics and Reporting\n* Spearheading data analytics, offering valuable insights through reports and dashboards.\n* Maintaining high-level expertise in protocol-related data.\n* Providing quarterly financial reports\n* Assisting in data handling, contributing to informed decision-making.\n\n#### Length of Engagement & Budget\n\nThe biggest adjustment in the Maxis funding proposal is the allocation of $60k USDC for discretionary budget for the entire quarter. Main reasons are the increased demand in resources to conclude tasks as described in the automation initiative like smart contract reviews, resource allocation for the OZ defender integration and stabilization of our platform. We will make sure to use these funds as conservatively as possible and will report on the usage in the monthly reports. Overall, people costs in USDC terms will be at par or below the [previous quarters](https://forum.balancer.fi/t/bip-514-fund-balancer-maxis-q1-2024/5420) ($117,000 for Q2) as the Maxis will take part of their compensation in locked BAL vesting for 1 year. The fraction of locked BAL for compensation across contributors is 56% on average.\n\nWe have furthermore deducted following savings from this quarterly funding proposal:\n* 11,880 USDC\n* 800 BAL\n\n**Length of engagement:** 3 months\n\n**Budget:** `165,120 USDC` and `18,625 BAL`\n\n**ETH Address to Receive Funds:** `0x166f54F44F271407f24AA1BE415a730035637325`\n\n#### Impact on the Treasury\n\nThe Treasury wallets currently hold ~4.2M BAL. Funding the Balancer Maxis for Q2 2024 would cost around 0.4% of the treasury’s BAL holdings, which annualizes to ~1.74% of the treasury’s BAL. The Treasury wallets currently hold ~5.78M in USDC. Funding the USDC portion would cost around 2.86% of the treasury’s USDC, which annualizes to ~11.43%.\n\n### Technical Specification\n\nShakotan with address `0x8053484489b110181a6dba0b59dda887e433f470` will be offboarded from all relevant multi-sig safes and be replaced by gosuto.eth `0x11761c7b08287d9489CD84C04DF6852F5C07107b` (can be verified [here](http://github.com/BalancerMaxis/bal_addresses/blob/541d1f22cc498623880e219011c4cc24b5208caf/extras/signers.json#L2)). It is therefore proposed to swap Shakotan for gosuto in the [Balancer Maxi Signer](https://docs.balancer.fi/concepts/governance/multisig.html#operational-multisigs-signer-set-aka-balancer-maxis) set. This grants signership to a number of 3/6 multisigs. Safes, signers and permissions can be understood by reviewing this [Table](https://docs.balancer.fi/concepts/governance/multisig.html#the-multisigs-and-their-addresses) in the docs.\n\nThe Balancer DAO multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with USDC `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48` by writing transfer passing the Maxi Safe `0x166f54F44F271407f24AA1BE415a730035637325` as recipient and amount `165120` USDC as `165120000000`.\n\nFurthermore the Balancer DAO multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with BAL `0xba100000625a3754423978a60c9317c58a424e3D` by writing transfer passing the Maxi Safe `0x166f54F44F271407f24AA1BE415a730035637325` as recipient and amount `18625` as `18625000000000000000000`.",
+        "end_utc": "2024-03-25T19:00:00Z",
+        "similarity_score": 0.1599,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3004133.655744015,
+            0,
+            0
+          ],
+          "scores_total": 3004133.655744015,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-03-25T19:00:00",
+          "pre_tvl_avg": 1218663368.5,
+          "post_tvl_avg": 1279867832.5,
+          "abnormal_change": 5.0223,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.050223,
+          "abnormal_change_pct": 5.0223
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-03-25T19:00:00",
+          "pre_price_avg": 4.81569115,
+          "post_price_avg": 5.133736955,
+          "abnormal_change": 6.6044,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.066044,
+          "abnormal_change_pct": 6.6044
+        }
+      }
+    },
+    {
+      "proposal_id": "0x71093cb5f1ed8359856757cc04c08f6905ea2b0bf7c7d78780745d27977a1102",
+      "cleaned": {
+        "proposal_id": "0x71093cb5f1ed8359856757cc04c08f6905ea2b0bf7c7d78780745d27977a1102",
+        "title": "[BIP-514] Fund Balancer Maxis Q1-2024",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-12-25T19:00:00Z",
+        "similarity_score": 0.1449,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3673928.349047134,
+        "margin_pct": 0.8699523498195332,
+        "scores_total": 4223137.450929663,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 27,
+        "total_votes": 27,
+        "first_vote_at": "2023-12-21T21:13:40Z",
+        "last_vote_at": "2023-12-25T17:54:00Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            374004.533722373,
+            0.0,
+            0.0
+          ],
+          [
+            1.0439930465157383,
+            0.0,
+            0.0
+          ],
+          [
+            1279.6470049902352,
+            0.0,
+            0.0
+          ],
+          [
+            3573247.675267988,
+            0.0,
+            274604.5509412651
+          ]
+        ],
+        "spike_index": 0.8916,
+        "spike_follow_support_ratio": 0.161104,
+        "stairwise_ratio": 0.014871,
+        "half_slope_diff": 4.191901
+      },
+      "raw": {
+        "id": "0x71093cb5f1ed8359856757cc04c08f6905ea2b0bf7c7d78780745d27977a1102",
+        "title": "[BIP-514] Fund Balancer Maxis Q1-2024",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "## PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/697\n\n## Introduction\n\n \n![BIP-514.png](ipfs://bafkreid33cuhfiqmn7wlhpbarprz3ge736wizqnwf4lllitlrxb5zzfeii)\n    \n\n> Maxis queue up to embark on the v3 journey\n\nThe Balancer Maxis are thrilled to announce our pivotal role in the upcoming development of Balancer v3. Recognized as key contributors and the vital link between partners and the protocol, our dedication to the DAO is unwavering. As we embark on another quarter, our commitment is not just to continue, but to evolve – to redefine our engagement and amplify our positive impact on the DAO in 2024.\n\nThe third quarter marked a significant transition for the Maxis. Following the departure of our strategic visionary, Solarcurve, we embraced change and innovation. Tritium rose to the occasion, leading critical initiatives like the [core pool incentive automation](https://forum.balancer.fi/t/bip-457-core-pool-incentive-program-automation/5254), as well as securing and executing on the Arbitrum STIP, demonstrating our adaptability and resilience.\n\nOur evolution goes beyond roles and responsibilities. The Maxis are transforming from a collective of passionate enthusiasts to a team of full-time, professional experts. The new full-time addition consists of @Xeonus who will spearhead our strategic direction.\n\nOur mindful approach to funding allocation ensures an efficient use of resources – balancing USDC and BAL demands with maximum effectiveness. Our focus is not just on growth but on impact and transparency.\n\nIn 2024 we want to make the most impact by driving forward exciting initiatives while providing excellent mission-critical services to the DAO. We have identified four main (non-v3 dependent) initiatives to channel our efforts, while continuing to provide the core services that have been the backbone of the DAO for over two years.\n\n## Initiatives\n\nBeyond regular operations, the Maxi’s are focused on trying to create successful narratives in the Balancer ecosystem through various focused initiatives. In 2024, we strive to focus on a few of them, ensure that our focus areas have a clear leader/champion and some defined goals and that time and resources are available to focus on these topics. The impact of those topics is directly related to the achieved objectives.\n\n### Initiative 1: Growth beyond Mainnet\n\nLead: Tritium\n\nTeam: Shakotan (tech and operations), Xenous (data)\n\nKey ecosystem interactions: Grants Committee, Beethoven (Marketing + Beets grants)\n\nSummary\n\nThe initiative aims to further strengthen the DAO's presence beyond mainnet, focusing on Arbitrum, zkEVM, and Gnosis. The initiative emphasizes the successful execution of the Arbitrum STIP, but most of all development of strong competencies in creating data-driven narrative showcasing Balancer’s competitiveness, and collaboration with key blockchain partners such as Polygon and Aribtrum. The strategy includes adaptability to pivot based on market trends and performance metrics and an ever growing understanding of the KPIs that our grant providing partners care about.\n\nObjectives\n\n1. Timely STIP Execution: Ensure punctual and successful delivery of the current STIP, including consistent reporting and active engagement with the DAO.\n2. Data Narrative Development: Work to build a competency within Balancer to tell stories about how we are using our emissions to drive growth for our protocol and in the ecosystems we exist in.\n\n  1. We should be able to put out velodrome style reports that tell our story.\n\n3. KPI-Focused Program Management: Stay close to various grant programs and look at successful grant recipients to understand the KPIs they set and how they achieve them.\n\n  1. Propose changes at Balancer to make this possible or point out why we are not well suited to meet the kinds of KPIs that chain ecosystems see value in.\n\n4. Next Grant Cycle Preparation: Identify potential grant sources for the upcoming cycle and strategize engagement.\n5. Feedback Integration: Actively seek and incorporate feedback to enhance the effectiveness of the initiative.\n6. STIP Comparative Analysis: Collaborate with the STIP body to assess and report on Balancer's performance in comparison to peers.\n7. Impact Report Creation: Develop a comprehensive report detailing the impact of extra incentives delivered through balancer on L2 ecosystems.\n8. Strategic Partnerships: Strengthen collaborations with Gnosis Chain, Base, Arbitrum and Polygon to share successes and apply learnings, particularly in the context of zkEVM scaling.\n9. Collaborate with Beets as much as possible to create a shared competency here.\n\n### Initiative 2: Redesign of the Gauge Framework v1\n\nLead: Xeonus\n\nTeam: Shakotan (building automation), Tritium, Zekraken, Zen Dragon and Mike B (design)\n\nSummary\n\nThis initiative aims to introduce an automated, dynamic system for evaluating and adjusting gauge emissions based on performance metrics. This new framework is designed to efficiently allocate BAL rewards, optimizing support for both high-cap and emerging projects. The goal is to ensure a more responsive and adaptable system that balances revenue optimization with nurturing potential future revenue generators.\n\nObjectives\n\n1. Automated Gauge Evaluation: Develop a system for automatic assessment of gauges based on predefined metrics.\n2. Dynamic Emission Cap Adjustments: Implement a mechanism to adjust emission caps (ranging from 2% to 10%) based on gauge performance, potentially reducing underperforming gauges to a certain cap (e.g. 0.5%).\n3. Adaptive Framework: Ensure the framework is responsive to market dynamics and capital efficiency, allowing for more flexible and efficient allocation of BAL rewards.\n4. Rules around Duplication: Rules for handling the same Token in multiple pools/chains or the same DAO with multiple tokens.\n\n### Initiative 3: Support Balancer v3 Design\n\nLead: Mike B\n\nTeam: Xeonus, Zen Dragon, Tritium, Shakotan(tech and automation)\n\nKey ecosystem interactions: Balancer Labs, Beethoven (Tech)\n\nSummary: Balancer v3 is set to compete with the established developer community of Uni v4. It's crucial to foster the development of a robust ecosystem based on Balancer v3, ensuring it offers a compelling alternative for developers and projects.\n\nObjectives:\n\n1. Onboarding of Innovative Teams: Attract and integrate teams that are developing novel automated market makers (AMMs) for Balancer v3.\n2. Market Fit Identification for v3 Products: Assess and establish the market relevance of v3 offerings like TWAMMs, boosted pools, and dynamic ECLPs, and effectively pitch these to ecosystem projects.\n3. Serving as a Liaison: Act as the primary point of contact for external teams working on Balancer v3, facilitating seamless communication and collaboration.\n4. Technical Support Coordination: Collaborate with the integrations and BLabs teams to ensure that building teams receive adequate technical assistance.\n5. Finalizing v3 Feature Scope: Conclude the initial feature set for Balancer v3, aligning it with market needs and developer capabilities.\n\n### Initiative 4: Automation ownership transfer & on-chain automation improvements\n\nLead: Shakotan\n\nTeam: Tritium\n\nKey ecosystem interactions: Balancer Labs\n\nSummary:\n\nOngoing automation for both on-chain and off-chain processes. Improving existing operational contracts, such as Gauge injector and improving Defender codebase so it becomes maintainable.\n\nObjectives\n\n1. OZ Defender automation takeover from Balancer Labs and Markus\n2. Full tech and development for on-chain tasks\n3. ChildGaugeInjector version 2 release with new features + factory deployment to support better events and data used by Data Team\n4. Potential fees-handler-sc implementation to reduce rugability of the fees bags + improve data flow.\n\nService Provider Name & Overview: Balancer Maxis\n\nLeader(s): Xeonus, joined by the talented Mike B, Zekraken, Zen Dragon, Danko, Tritium, Shakotan and Gosuto\n\nContributors (a.k.a. Ballers): Gosuto, Gleb, Cosme Fulanito and Dubstard\n\nPledge to abide by the DAO’s [Code of Conduct](https://fifth-broom-2e6.notion.site/Code-of-Conduct-fef15e2ed1f5453f8bd56f338c70bb88): YES\n\nPledge to abide by the [Accountability Guidelines](https://fifth-broom-2e6.notion.site/Accountability-Guidelines-229d93372403415688f8d3dc4cb964b1): YES\n\nDomains of Operation:\n\n* Governance and Protocol Operations\n* Strategy and Business Development\n* On-Chain Operations (DevOps)\n* Community Engagement\n* Pool Design and Ecosystem Coordination\n* Finance and Risk Management\n* Data Analytics and Reporting\n* Outreach and Anti-Scam Oversight\n\nKey Objectives per Operational Discipline:\n\n#### 1. Governance and Protocol Operations\n\n* Leading governance procedures, ensuring their execution and integrity.\n* Facilitating technical discussions within governance scopes.\n* Setting up governance votes and reviewing payloads for DAO transactions.\n\n* Crafting detailed governance proposals and specifications.\n* Offering deep technological insights during governance deliberations.\n* Assisting in specifications to proposals for proper payload execution\n\n* Advise Foundation/OpCo on DAO Governance and BizDev\n* Ecosystem council liaison addressing GRC inquiries\n* Operational functionality within the DAO\n\n* Infrastructure and tool creation for enhancing governance operations.\n* Automating tasks, reducing human dependency in governance functions.\n* Creating UI tools that support operational tasks (past examples: pool creation, reward injectors, linear pool deployment [deprecated])\n\n#### 2. Strategy and Business Development\n\n* Leading strategic partnerships and business growth initiatives.\n* Applying profound product and technical knowledge in strategic planning.\n* Engaging with new partners and broader Web3 communities.\n\n* Providing technical support and insights for strategic development.\n* Assisting in custom pool creations and new chain launches.\n\n* Managing revenue flows and direct incentives with partners.\n* Facilitating discussions on financial incentives and revenue optimization.\n* Acting as active partner support and assisting new partners navigate the ecosystem\n\n#### 3. On-Chain Operations (DevOps)\n\n* Overseeing DevOps and automating multisig operations.\n* Building multisig payloads and conducting multi-person peer-reviews\n* Guidance on infrastructure-related aspects.\n* Overseeing Stipend Distribution Automation\n* Coordinating protocol fee sweep automation\n\n* Core development, aiding in automation and data management.\n* Smart contract development(when needed)\n* Taking over on chain automation for OZ Defender and migrating to new version of it\n* Support in technical best practices.\n\n* Bi-weekly fees processing and reporting\n* Arbitrum STIP grant program management and operations\n\n#### 4. Community Engagement\n\n* Managing community interactions\n* Onboarding new contributors and service providers\n* Planning ecosystem meetups and events (onsites) and handling logistical arrangements\n\n* Discord user support\n* Weekly Newsletter (Medium)\n* Governance Recap (Twitter) weekly\n\n* Discord user support\n* Weekly Newsletter (Medium)\n* Governance Recap (Twitter) weekly\n\n* Assisting in AMA sessions and coordinated marketing efforts.\n* Engaging with community members on various platforms.\n\n#### 5. Pool Design and Ecosystem Coordination\n\n* Designing pools for the protocol, aligning with governance specifications.\n* Liaising with the ecosystem for synchronized functionality and growth.\n* Assistance in pool design and migration to v3\n\n* Token whitelisting and front-end testing.\n* Assisting in the technical aspects of pool and gauge creation.\n* Testing of v3 front-end infrastructure\n\n#### 6. DAO Treasury and Risk Management\n\n* Overseeing budget, payments, and financial transactions.\n* Due diligence for new service providers.\n* Risk inventory and assessment with GRC\n\n#### 7. Data Analytics and Reporting\n\n* Spearheading data analytics, offering valuable insights through reports and dashboards.\n* Maintaining high-level expertise in protocol-related data.\n* Providing quarterly financial reports\n\n* Assisting in data handling, contributing to informed decision-making.\n\n#### 8. Outreach and Anti-Scam Oversight\n\n* Leading efforts against scam activities within the Balancer ecosystem.\n* Pen-testing of security infrastructure\n* Take down of scam sites\n\n* Services and subscriptions admin (Discord, Notion, etc.).\n\n* Networking and outreach, bringing in new ecosystem participants.\n* Facilitating communications and partnerships through various channels.\n\nLength of Engagement & Budget:\n\nLength of engagement: 3 months\n\n**Budget: 108’095 USDC, 35’718 BAL and 20 ETH**\n\nImpact on the Treasury\n\nThe Treasury currently holds ~4M BAL. Funding the Balancer Maxis for Q1 2024 would cost around 0.9% of the treasury’s BAL holdings, which annualizes to ~3.5% of the treasury’s BAL. The Treasury currently holds ~4.3M in USDC. Funding the USDC portion would cost around 2.5% of the treasury’s USDC, which annualizes to ~10%.\n\nFurthermore, this table provides an overview of the last years impact putting this proposal into perspective:\n\n|Year|Quarter|BAL|BAL Price|USDC|ETH|ETH price|Operations cost|People cost|Total|\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|2023|Q1|48000|$6|$0.00|0|1201|0|$266,400|$266,400.00|\n|2023|Q2|42150|$7|$0.00|5|1795|8975|$291,257|$300,231.50|\n|2023|Q3|26025|$5|$132,630.00|20|1853|37060|$251,825|$288,884.50|\n|2023|Q4|31695|$3|$168,770.00|20|1652|33040|$271,779|$304,819|\n|2024|Q1|35718|$4|$108,095.00|20|2170|43400|$250,969|$294,369|\n\nAlthough the Maxis will have around 1 FTE more manpower at their disposal, the impact on the treasury stays nearly the same. Maxis have undergone internal optimizations in pay to reduce the impact on the DAOs USDC as much as possible given the current market conditions. In that regard, 49.5% of requested funding will be locked in our stkauraBAL vesting contract. We will also roll over $37,720.00 in savings from our Q3 and Q4 budget (bizdev, bounties etc.) and deduct that amount from the current proposal, which further reduced our overall demand for USDC.\n\nETH Address to Receive Funds: `0x166f54F44F271407f24AA1BE415a730035637325`\n\nLink to SLA (if going through the Foundation): N/A\n\nTechnical specifications\n\nThe Balancer DAO multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with USDC `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48` by writing `transfer` passing the Maxi Safe `0x166f54F44F271407f24AA1BE415a730035637325` as recipient and amount `108095` USDC as `108095000000`.\n\nFurthermore the Balancer DAO multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with BAL `0xba100000625a3754423978a60c9317c58a424e3D` by writing `transfer` passing the Maxi Safe `0x166f54F44F271407f24AA1BE415a730035637325` as recipient and amount `35718` as `35718000000000000000000`\n\nThe DAO Multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with WETH `0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2` by writing `deposit` with amount `20` to wrap the required ETH. Afterwards the DAO Multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f `will interact with WETH `0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2` by writing `transfer` passing the Maxis Multisig address as the recipient `0x166f54F44F271407f24AA1BE415a730035637325` and `amount` `20000000000000000000`",
+        "end_utc": "2023-12-25T19:00:00Z",
+        "similarity_score": 0.1449,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3948532.8999883994,
+            0,
+            274604.5509412652
+          ],
+          "scores_total": 4223137.450929663,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-12-25T19:00:00",
+          "pre_tvl_avg": 940248910.0,
+          "post_tvl_avg": 953239957.0,
+          "abnormal_change": 1.3817,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.013817,
+          "abnormal_change_pct": 1.3817
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-12-25T19:00:00",
+          "pre_price_avg": 4.141005475,
+          "post_price_avg": 4.5243818650000005,
+          "abnormal_change": 9.2581,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.092581,
+          "abnormal_change_pct": 9.2581
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0xcb7e2ff7c8dd1a8273a7a2ec6297710d4e42238d2b2557cc18d82a0736815896",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "Proposal to fund Business Development Service Provider for Q3 2024 aiming to expand ecosystem growth and partnerships. Strong on-chain vote and positive forum sentiment with budget prudence requests.",
+    "key_arguments_for": [
+      "Consistent early and stable voting support for approval",
+      "Positive community feedback praising leadership and initiative",
+      "Proposal aligns with strategic growth initiatives including v3 launch preparation",
+      "Budget reduction to USDC $10k/month reflects responsiveness to community concerns"
+    ],
+    "key_arguments_against": [
+      "Market price and TVL showed modest decline post similar past proposals",
+      "Some community members expressed concern over high salary ask initially",
+      "Need to ensure budget discipline to extend DAO runway amidst uncertainty"
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "forum.balancer.fi/t/bip-635-business-development-sp-proposal-for-q3-2024/5798",
+        "quote": "Positive detailed proposal post by lipman; community member Fernando suggests reducing USDC ask; lipman confirms reduction to $10k/month; Karpatkey supports with budget prudence."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": null,
+        "quote": "Voting timeline shows stable and early lead for 'Yes, let's do it' with 100% lead ratios and no vote shifts."
+      },
+      {
+        "source_tool": "adjacent_analytics",
+        "reference": "Similar proposals BIP-623, BIP-624, BIP-625",
+        "quote": "All passed with 'Yes' but followed by negative price and TVL impacts, indicating market caution."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2024-06-20T18:00:00Z",
+    "event_end_utc": "2024-06-24T18:00:00Z",
+    "event_time_utc": "2024-06-24T18:00:00Z",
+    "address_of_governance_token": "0xba100000625a3754423978a60c9317c58a424e3D",
+    "token_price_impact_pct": -2.8061,
+    "tvl_impact_pct": -2.5214,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        2544253.6194575797,
+        0.0,
+        0.0
+      ],
+      "scores_total": 2544253.6194575797,
+      "margin_abs": 2544253.6194575797,
+      "margin_pct": 1.0
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- The timeline voting analysis shows unanimous and stable early support for approval.\n- Forum sentiment is largely positive, appreciating the leadership and initiative while supporting budget adjustments for prudence.\n- Similar past proposals with affirmative votes saw negative market price and TVL responses, suggesting caution; however, the proposal's strategic importance and community support justify approval.\n- The recommendation aligns with aggregated forum sentiment, reflecting community views and maximizing long-term ecosystem benefit.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0xe23479d7b207e5f025a40ace92c3b89c4a3292dd832f4b2d63535f39d72af515",
+        "title": "[BIP-623] Enable gauge for weETH / wstETH E-CLP (Arbitrum)",
+        "end_utc": "2024-06-17T18:00:00Z",
+        "summary": "[BIP-623] Enable gauge for weETH / wstETH E-CLP (Arbitrum) closed on 2024-06-17T18:00:00Z. Timeline analytics noted 15 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.08)",
+        "market_response": "token -6.40%; TVL -5.23%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0xbd5413de453ab0869895f4d09b2b9e58b6d06dc08fb89b429de135f5c2b0a3af",
+        "title": "[BIP-624] Enable rsETH / WETH Gauge (Arbitrum)",
+        "end_utc": "2024-06-17T18:00:00Z",
+        "summary": "[BIP-624] Enable rsETH / WETH Gauge (Arbitrum) closed on 2024-06-17T18:00:00Z. Timeline analytics noted 15 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.08)",
+        "market_response": "token -6.40%; TVL -5.23%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -2.8061,
+    "ex_post_tvl_impact_pct": -2.5214,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -2.81%; TVL -2.52%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 0,
+    "Positive": 2,
+    "Neutral": 3,
+    "total_comments": 5
+  }
+}

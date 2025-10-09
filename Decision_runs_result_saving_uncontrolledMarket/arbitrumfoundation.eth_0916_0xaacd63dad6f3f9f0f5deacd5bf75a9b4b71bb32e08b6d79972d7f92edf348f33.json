@@ -1,0 +1,261 @@
+{
+  "captured_at_utc": "2025-10-08T01:36:41.945027+00:00",
+  "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0xaacd63dad6f3f9f0f5deacd5bf75a9b4b71bb32e08b6d79972d7f92edf348f33",
+  "focus": null,
+  "votes_count": 5103,
+  "timeline_metrics_current": {
+    "unique_voters": 5103,
+    "total_votes": 5103,
+    "first_vote_at": "2024-04-09T00:35:50Z",
+    "last_vote_at": "2024-04-15T23:59:42Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        0.998282,
+        0.000859,
+        0.000859
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      0.9996080736821478,
+      0.0001959631589261219,
+      0.0001959631589261219
+    ],
+    "stability": [
+      0.9996080736821478,
+      0.0001959631589261219,
+      0.0001959631589261219
+    ],
+    "early_ratio": [
+      0.9982817869415808,
+      0.000859106529209622,
+      0.000859106529209622
+    ],
+    "vp_by_quartile": [
+      [
+        463356.429603509,
+        53867.3904974529,
+        80609.49869980902
+      ],
+      [
+        31869703.490695834,
+        3140.9154914476044,
+        326657.0740436671
+      ],
+      [
+        4310435.868397174,
+        8973.118606004986,
+        3883.586336269365
+      ],
+      [
+        51583029.44627863,
+        37995717.12505958,
+        12271778.372610984
+      ]
+    ],
+    "spike_index": 0.231099,
+    "spike_follow_support_ratio": 0.006923,
+    "stairwise_ratio": 0.000688,
+    "half_slope_diff": 532.069871
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x24344ab10eb905a4d7fa5885c6f681290e765a08a5f558ff6cfc5fedab42afb6",
+      "title": "[Non-constitutional] Proposal to fund Plurality Labs Milestone 1B(ridge)",
+      "author": "0xAD16ebE6FfC7d96624A380F394cD64395B0C6144",
+      "end_utc": "2024-03-07T21:24:06Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2024-02-29T21:24:53Z",
+        "last_vote_at": "2024-03-02T08:34:47Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            6719391.923696769,
+            230021.73845637773,
+            535596.9822574104
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.482203,
+        "spike_follow_support_ratio": 0.998061,
+        "stairwise_ratio": 0.010574,
+        "half_slope_diff": -78.426675
+      },
+      "price_impact_pct": 5.8306,
+      "tvl_impact_pct": 5.7363,
+      "similarity": 0.0921,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "For",
+        "margin_abs": 137535665.70519233,
+        "scores_total": 173256628.83388567,
+        "margin_pct": 0.7938262831897661
+      }
+    }
+  ],
+  "similar_proposals_data": [],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0xaacd63dad6f3f9f0f5deacd5bf75a9b4b71bb32e08b6d79972d7f92edf348f33",
+    "selected_choice_label": "For",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "This proposal seeks funding to expand APX Finance on Arbitrum by boosting liquidity and trading volume through LP incentives and a trading challenge. It aims to replicate APX's success on BNB Chain and enhance Arbitrum's derivatives ecosystem.",
+    "key_arguments_for": [
+      "Timeline voting metrics show near unanimous early and total lead for 'For' option with high stability.",
+      "Similar past proposal to fund Plurality Labs was successful with positive market response, supporting grant approval.",
+      "Market impact shows slight positive price change, indicating market confidence.",
+      "Proposal includes clear objectives, execution strategy, and KPIs to increase TVL and trading volume on Arbitrum."
+    ],
+    "key_arguments_against": [
+      "Forum sentiment is mostly neutral with some negative comments, indicating cautious community opinion.",
+      "Slight decline in TVL post-proposal suggests risk in achieving TVL growth targets."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.arbitrum.foundation/t/apx-finance-ltipp-application-draft/21744",
+        "quote": "Forum sentiment: 2 negative, 7 neutral comments; first comment details proposal application."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Snapshot proposal timeline metrics",
+        "quote": "Lead ratio near 1.0 for 'For' option; stability and early ratio very high."
+      },
+      {
+        "source_tool": "registry_lookup",
+        "reference": "arbitrumfoundation.eth governance token",
+        "quote": "Governance token address 0x912CE59144191C1204E64559FE8253a0e49E6548 (ARB)."
+      },
+      {
+        "source_tool": "adjacent_analytics",
+        "reference": "Similar proposal to fund Plurality Labs",
+        "quote": "Similar proposal had 'For' winner with positive market impact, margin 79%."
+      }
+    ],
+    "available_choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2024-04-09T00:00:00Z",
+    "event_end_utc": "2024-04-16T00:00:00Z",
+    "event_time_utc": "2024-04-16T00:00:00Z",
+    "address_of_governance_token": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+    "token_price_impact_pct": 0.7243,
+    "tvl_impact_pct": -2.131,
+    "actual_vote_result": {
+      "winner_label": "For",
+      "winner_index": 0,
+      "scores": [
+        88226525.23497523,
+        38061698.54965446,
+        12682928.531690732
+      ],
+      "scores_total": 138971152.31632018,
+      "margin_abs": 50164826.68532077,
+      "margin_pct": 0.360973
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'For' selected with stance to keep 'Change'.",
+    "ai_final_reason": "• Timeline voting metrics strongly favor the 'For' option with near unanimous support and high stability.\n• Market impact shows slight positive token price change, supporting confidence in the proposal.\n• Similar past proposal was successful with a strong positive market response, reinforcing the recommendation.\n• Forum sentiment is mostly neutral with some negativity, indicating cautious but not opposing community views. The recommendation aligns with voting and market data despite this mild divergence.\n• Overall, approving this proposal supports durable growth of Arbitrum's derivatives ecosystem through APX Finance's expansion.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x24344ab10eb905a4d7fa5885c6f681290e765a08a5f558ff6cfc5fedab42afb6",
+        "title": "[Non-constitutional] Proposal to fund Plurality Labs Milestone 1B(ridge)",
+        "end_utc": "2024-03-07T21:24:06Z",
+        "summary": "[Non-constitutional] Proposal to fund Plurality Labs Milestone 1B(ridge) closed on 2024-03-07T21:24:06Z. Timeline analytics noted 5500 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.09)",
+        "market_response": "token +5.83%; TVL +5.74%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 0.7243,
+    "ex_post_tvl_impact_pct": -2.131,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +0.72%; TVL -2.13%"
+  },
+  "agentic_ai_choice": "For",
+  "actual_outcome": "For",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 2,
+    "Positive": 0,
+    "Neutral": 7,
+    "total_comments": 9
+  }
+}

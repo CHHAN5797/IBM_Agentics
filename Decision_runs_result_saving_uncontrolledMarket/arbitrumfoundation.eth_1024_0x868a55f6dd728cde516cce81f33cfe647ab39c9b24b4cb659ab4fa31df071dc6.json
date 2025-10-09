@@ -1,0 +1,258 @@
+{
+  "captured_at_utc": "2025-10-08T07:20:18.883787+00:00",
+  "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x868a55f6dd728cde516cce81f33cfe647ab39c9b24b4cb659ab4fa31df071dc6",
+  "focus": null,
+  "votes_count": 5500,
+  "timeline_metrics_current": {
+    "unique_voters": 5500,
+    "total_votes": 5500,
+    "first_vote_at": "2023-10-06T02:08:24Z",
+    "last_vote_at": "2023-10-07T20:36:35Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        93073910.02708416,
+        1851428.9762684065,
+        40278.39789239187
+      ],
+      [
+        18913.025839569746,
+        812.0017565118851,
+        32.01548549952357
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.295996,
+    "spike_follow_support_ratio": 0.999798,
+    "stairwise_ratio": 0.00098,
+    "half_slope_diff": -7998.89808
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x66b953a7cf4de9f6de54e6eb87ae291b5cc62f12c7fed68eba91043607883221",
+      "title": "Proposal: Building the Future of NFTs: The Rarible Protocol - Arbitrum Integration Proposal [REVISED]",
+      "author": "0x1B686eE8E31c5959D9F5BBd8122a58682788eeaD",
+      "end_utc": "2023-09-01T19:16:02Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-08-25T19:16:41Z",
+        "last_vote_at": "2023-08-26T07:14:21Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            7345732.6864043195,
+            116990.02409824789,
+            226269.1116841672
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.892797,
+        "spike_follow_support_ratio": 0.529713,
+        "stairwise_ratio": 0.010323,
+        "half_slope_diff": -55.484426
+      },
+      "price_impact_pct": -5.292,
+      "tvl_impact_pct": -5.0423,
+      "similarity": 0.0239,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "For",
+        "margin_abs": 94945293.04926684,
+        "scores_total": 120779306.30293971,
+        "margin_pct": 0.786105633121656
+      }
+    }
+  ],
+  "similar_proposals_data": [],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x868a55f6dd728cde516cce81f33cfe647ab39c9b24b4cb659ab4fa31df071dc6",
+    "selected_choice_label": "For",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "The proposal seeks up to 14 million ARB tokens to incentivize GMX V2 growth and ecosystem integrations, aiming to onboard new users, promote liquidity, and foster builder engagement on Arbitrum. The timeline voting metrics show unanimous early support for 'For'. The community forum sentiment is largely positive with many acknowledging GMX's foundational role in Arbitrum's DeFi ecosystem. Historical proposals with similar intent supported ecosystem growth but led to market declines; lessons highlight the need for prudent grant sizing and effective incentive management. Market impact is slightly negative post-vote but should not drive the decision. Balancing strong community support with ecosystem health, the recommendation is to approve the proposal with a stance to change.",
+    "key_arguments_for": [
+      "GMX is a cornerstone protocol on Arbitrum with over 25% of TVL and a leading derivatives DEX.",
+      "GMX V2 introduces significant innovations, including low-latency oracles and isolated liquidity pools, enhancing capital efficiency and security.",
+      "The grant will incentivize liquidity providers and traders, enabling GMX V2 to compete effectively with centralized exchanges and grow the ecosystem.",
+      "Broad community support in the forum highlights GMX's importance and the proposal's potential to drive sustainable growth on Arbitrum."
+    ],
+    "key_arguments_against": [
+      "The grant size (14 million ARB) is perceived by some as disproportionately large, potentially crowding out smaller projects.",
+      "Concerns exist about over-concentration of ecosystem incentives risking reduced competition and innovation.",
+      "Some community members note that GMX V2's adoption and trading volumes have not yet fully matched V1 or competitors.",
+      "Calls for the grant to be reviewed by the main DAO rather than the short-term STIP to ensure fair ecosystem balance."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Forum discussion at https://forum.arbitrum.foundation/t/gmx-final-stip-round-1/17426",
+        "quote": "Community comments show substantial support citing GMX's foundational role and innovation, with some calling for moderation in grant size to preserve ecosystem diversity."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Voting timeline metrics for proposal 0x868a55f6dd728cde516cce81f33cfe647ab39c9b24b4cb659ab4fa31df071dc6",
+        "quote": "Early voting and lead ratios indicate unanimous support for 'For' option with strong stability and early voter participation."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Adjacent proposal 0x66b953a7cf4de9f6de54e6eb87ae291b5cc62f12c7fed68eba91043607883221",
+        "quote": "Similar past proposal aimed to grow ecosystem adoption and integration but was followed by negative market price and TVL impact, serving as a cautionary lesson."
+      }
+    ],
+    "available_choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2023-10-06T02:00:00Z",
+    "event_end_utc": "2023-10-13T02:00:00Z",
+    "event_time_utc": "2023-10-13T02:00:00Z",
+    "address_of_governance_token": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+    "token_price_impact_pct": -0.6138,
+    "tvl_impact_pct": -0.4497,
+    "actual_vote_result": {
+      "winner_label": "For",
+      "winner_index": 0,
+      "scores": [
+        186362851.46822032,
+        3513978.2162700044,
+        5532331.118488233
+      ],
+      "scores_total": 195409160.80297872,
+      "margin_abs": 180830520.3497321,
+      "margin_pct": 0.925394
+    },
+    "simulation_reason": "Recommendation based on timeline metrics, community sentiment, and historical lessons rather than final vote tally.",
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'For' selected with stance to keep 'Change'.",
+    "ai_final_reason": "• Voting timeline metrics show unanimous and stable early support for 'For', indicating clear community preference.\n• Forum sentiment is predominantly positive with strong recognition of GMX's critical role in Arbitrum's DeFi ecosystem, endorsing the proposal.\n• Market impact post-vote shows slight negative price and TVL changes; however, this should not override the strategic long-term benefits.\n• Similar historical proposals aimed at ecosystem growth but led to market declines, highlighting the need for measured incentive deployment.\n• The recommendation aligns with aggregated community sentiment, reflecting shared confidence in the proposal’s potential to drive sustainable ecosystem expansion while acknowledging calls for grant size prudence.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x66b953a7cf4de9f6de54e6eb87ae291b5cc62f12c7fed68eba91043607883221",
+        "title": "Proposal: Building the Future of NFTs: The Rarible Protocol - Arbitrum Integration Proposal [REVISED]",
+        "end_utc": "2023-09-01T19:16:02Z",
+        "summary": "Proposal: Building the Future of NFTs: The Rarible Protocol - Arbitrum Integration Proposal [REVISED] closed on 2023-09-01T19:16:02Z. Timeline analytics noted 5500 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.02)",
+        "market_response": "token -5.29%; TVL -5.04%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -0.6138,
+    "ex_post_tvl_impact_pct": -0.4497,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -0.61%; TVL -0.45%"
+  },
+  "agentic_ai_choice": "For",
+  "actual_outcome": "For",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 20,
+    "Positive": 40,
+    "Neutral": 40,
+    "total_comments": 100
+  }
+}

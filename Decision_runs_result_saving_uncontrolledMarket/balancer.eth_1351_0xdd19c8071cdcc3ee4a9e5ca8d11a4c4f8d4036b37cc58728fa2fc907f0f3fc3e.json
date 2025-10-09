@@ -1,0 +1,1104 @@
+{
+  "captured_at_utc": "2025-10-09T04:58:40.504251+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0xdd19c8071cdcc3ee4a9e5ca8d11a4c4f8d4036b37cc58728fa2fc907f0f3fc3e",
+  "focus": null,
+  "votes_count": 20,
+  "timeline_metrics_current": {
+    "unique_voters": 20,
+    "total_votes": 20,
+    "first_vote_at": "2024-04-18T18:54:14Z",
+    "last_vote_at": "2024-04-22T16:08:35Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        560.2177987585948,
+        0.0,
+        0.0
+      ],
+      [
+        414631.9322329239,
+        0.0,
+        0.0
+      ],
+      [
+        0.06562499969254604,
+        0.0,
+        242810.856998449
+      ],
+      [
+        66631.72912029337,
+        0.0,
+        2474682.1396251787
+      ]
+    ],
+    "spike_index": 0.910649,
+    "spike_follow_support_ratio": 0.0,
+    "stairwise_ratio": 0.089351,
+    "half_slope_diff": 0.0
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0xe04f0c88c95f24c1cac5a816f4d702fdbeb2316c1a05bddd307298008b4aceb8",
+      "title": "[BIP-584] Enable PRF/WETH (80/20) Gauges with 2% emission cap (Arbitrum)",
+      "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+      "end_utc": "2024-04-08T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 18,
+        "total_votes": 18,
+        "first_vote_at": "2024-04-04T21:25:04Z",
+        "last_vote_at": "2024-04-08T13:16:32Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1.449610061369465,
+            0.0,
+            0.0
+          ],
+          [
+            1.5600543487144312,
+            0.0,
+            0.0
+          ],
+          [
+            359363.64584479015,
+            0.0,
+            0.0
+          ],
+          [
+            2517757.937776294,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.874965,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.125035,
+        "half_slope_diff": 313.416344
+      },
+      "price_impact_pct": 4.2768,
+      "tvl_impact_pct": 3.7518,
+      "similarity": 0.1117,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2877124.5932854945,
+        "scores_total": 2877124.5932854945,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0xe3d26ad2edcb9b565ffc2f1bdcff5aa8fb3002e59c8e65e3c2e8217e61ae5986",
+      "title": "[BIP-583] Enable Gauges for sUSDe / USDC and USDe / USDC [Arbitrum]",
+      "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+      "end_utc": "2024-04-08T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 15,
+        "total_votes": 15,
+        "first_vote_at": "2024-04-04T21:31:30Z",
+        "last_vote_at": "2024-04-08T13:15:59Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1.4268000376587084,
+            0.0,
+            0.0
+          ],
+          [
+            1.3729434089500907,
+            0.0,
+            0.0
+          ],
+          [
+            359815.00449945073,
+            0.0,
+            0.0
+          ],
+          [
+            2517765.6609301534,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.874828,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.125172,
+        "half_slope_diff": 364.078711
+      },
+      "price_impact_pct": 4.2768,
+      "tvl_impact_pct": 3.7518,
+      "similarity": 0.1253,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2877583.4651730503,
+        "scores_total": 2877583.4651730503,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0x0ba45a5cdaf3875e1ebcd9f67f3a4e3ba827c110d89d726fb0c173af441d4478",
+      "title": "[BIP-582] Enable shezUSD/sDAI Gauge w 2% cap [Ethereum]",
+      "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+      "end_utc": "2024-04-08T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 15,
+        "total_votes": 15,
+        "first_vote_at": "2024-04-04T21:25:53Z",
+        "last_vote_at": "2024-04-08T13:15:25Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1.4480208304095126,
+            0.0,
+            0.0
+          ],
+          [
+            1.3729496873019686,
+            0.0,
+            0.0
+          ],
+          [
+            359816.4734588483,
+            0.0,
+            0.0
+          ],
+          [
+            2517769.1868095496,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.874828,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.125172,
+        "half_slope_diff": 370.698923
+      },
+      "price_impact_pct": 4.2768,
+      "tvl_impact_pct": 3.7518,
+      "similarity": 0.1085,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2877588.481238915,
+        "scores_total": 2877588.481238915,
+        "margin_pct": 1.0
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x73556f30ec8f66fe90491e88d691a7c1104a0ff296b02b9c2151b5a6cfcd57fd",
+      "cleaned": {
+        "proposal_id": "0x73556f30ec8f66fe90491e88d691a7c1104a0ff296b02b9c2151b5a6cfcd57fd",
+        "title": "[BIP-227] Upsize BAL allocation in Ribbon Finance Treasury Vault",
+        "author": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+        "end_utc": "2023-04-03T18:00:00Z",
+        "similarity_score": 0.1636,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 1048449.8444317206,
+        "margin_pct": 0.579888485411761,
+        "scores_total": 1808019.76726137,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 308,
+        "total_votes": 308,
+        "first_vote_at": "2023-03-30T18:13:38Z",
+        "last_vote_at": "2023-04-03T17:11:10Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.990291,
+            0.009709
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9967532467532467,
+          0.003246753246753247
+        ],
+        "stability": [
+          0.9967532467532467,
+          0.003246753246753247
+        ],
+        "early_ratio": [
+          0.9902912621359223,
+          0.009708737864077669
+        ],
+        "vp_by_quartile": [
+          [
+            346999.1583635411,
+            16.530567111144922
+          ],
+          [
+            523838.1739201364,
+            0.00359009272598277
+          ],
+          [
+            53546.038816683875,
+            0.40901731279627446
+          ],
+          [
+            503851.4347461858,
+            379768.01824030816
+          ]
+        ],
+        "spike_index": 0.361782,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 3.9e-05,
+        "half_slope_diff": -16.76656
+      },
+      "raw": {
+        "id": "0x73556f30ec8f66fe90491e88d691a7c1104a0ff296b02b9c2151b5a6cfcd57fd",
+        "title": "[BIP-227] Upsize BAL allocation in Ribbon Finance Treasury Vault",
+        "author": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+        "body": "[PR with payload](https://github.com/BalancerMaxis/multisig-ops/pull/122)\n\n*If approved, this vote would send 200k BAL to a new Ribbon Vault - effectively doubling our allocation towards call writing strategies.*\n\n## Summary\nIn July 2022 Balancer passed [BIP-24](https://forum.balancer.fi/t/bip-24-allocate-bal-to-a-ribbon-finance-vault/3209/7) which allocates 200K BAL (~$1.3M) to a Ribbon BAL Covered Call treasury vault. The call-writing strategy has significantly outperformed buy-and-hold since inception, earning **221,885.41 USDC** for the Balancer subDAO [treasury](https://etherscan.io/address/0x10a19e7ee7d7f8a52822f6817de8ea18204f2e4f).\n\nCurrently, **4.16%** (200K / 4.8M BAL) of the treasury BAL is allocated to the Ribbon vault. We propose to **increase** the allocation of BAL to the vault.\n## Motivation\nThe original rationale for BIP-24 still stands today:\n1.  We are still in the midst of a significant bear market both for the price of BAL and for DeFi assets overall. This thesis was validated since BIP-24 8 months ago: BAL has remained range-bound between ~$4.5 - ~$7.8 from July to March (fig. 1).\n2.  The DAO wanted to explore ways to bolster stablecoin reserves – indeed the strategy has shown results, earning 221K USDC on $1.3M worth of BAL.\n\n**![](upload://v1E89zbqchEGyfyAfkdFP8Nm5eF.png)**\n*Figure 1*\n\n\nWe think it is prudent to increase the allocation **at this time** for the following reasons:\n1.  Implied volatility has been picking up recently, thus, selling calls is more attractive and is rewarding sellers more appropriately for the risk they are taking. One can observe below the 2-weeks implied volatility of ETH, which is a good proxy to see how implied volatility is moving for altcoins too (fig. 2).\n2.  Since BIP-24, more market makers and institutional players have been participating in Ribbon Auctions for altcoins, making the bidding process more competitive. As a result, over the 8 months these options trade at increasingly tighter spreads and higher premiums, effectively generating more revenue for the DAO.\n3.  While the strategy has been performing well so far, the current performance is quite path-dependent and we could structure this second vault to reduce the path-dependency of the initial covered call strategy (see implementation).\n\n![](upload://q5CmqHotQjiD0oMLUkMNhub8ZKi.png)\n*Figure 2*\n\n### Current Strategy\nSince inception, the current strategy generated **221,885.41 USDC**. This converts to **22.58%** realised yield using the initial BAL deposit of 200k BAL, which was worth roughly $982,681.77. Using the current BAL price of $6.58, this converts to **16.86%**.\n\nIt is possible that some of the following options end up in-the-money in which case the strategy may have a lower return and possibly underperform buy-and-hold. I want to refrain from using “APR” for this very reason, since it is a trade and not a loan, but annualizing both figures, this would convert to **33.23%** and **24.13%** APR respectively.\n\nOut of the 8 trades expired, only one expired in-the-money, resulting in a loss of 3,474.75 BAL.\nOne can compare the current strategy to a simple buy-and-hold strategy by looking at the graph below.\n\n**![](upload://1d2VutkKAaz169lwHOfdDmQ501Z.png)**\nOne can find the raw data below.\n**![](upload://95wX7zTEjvn7fvmlP9d64JmEa0Z.png)**\nThe current covered call strategy is outperforming the buy-and-hold strategy significantly so far.\n## Implementation\nWhile the current strategy is selling monthly 25% OTM options, we propose to also sell biweekly 20% OTM options. As this strategy will be rebalanced on different schedules and different strikes will be chosen compared to the monthly strategy, it will effectively reduce the path-dependency of the overall portfolio, leading to lower drawdowns overall. The amount of BAL we allocate needs to match the BAL in the current strategy for it to be effective.\n\nIn the current market conditions, the additional biweekly layer is expected to yield **1.22%** every two weeks (paid out in USDC). Obviously, this premium will change on a trade per trade basis but if you want to have an idea of what it would mean in APR terms, this converts to an APR of **31.69%**.\n\nThis proposal will be a vote on how much to increase the current strategy by, and by extension the allocation for the biweekly 20% OTM options strategy.\n## Conclusion\nSince July 2022, this strategy has earned 221,000 USDC on $1.3M BAL for the subDAO due to a bearish / sideways / low realized volatility thesis. We believe these conditions will continue for a while given the macroeconomic. If the community agrees with this thesis, then it may be prudent to double-down (7%-15% treasury allocation) to increase profits and minimize path dependency.\n## Risks\n**Market Risk:** The primary risk for running this covered call strategy is that the vault may incur a biweekly loss in the case where the call options sold by the vault expire in-the-money (meaning the price of BAL is above the strike price of the call options minted by the vault).\n\n**Smart Contract Risk:** The Theta Vault smart contracts have been [audited by OpenZeppelin](https://blog.openzeppelin.com/ribbon-finance-audit/) and [ChainSafe](https://github.com/ribbon-finance/audit/blob/master/reports/RibbonThetaVault%20V2%20Smart%20Contract%20Review%20And%20Verification.pdf). Balancer has been in this strategy for 8 months without smart contract exploits– despite that, we always advise to exercise caution and only risk funds they can afford to lose.\n\n## Voting\nThis vote is to determine whether to allocate 200k BAL to this new Ribbon Vault. Note that the depositor (the Balancer subDAO) has the flexibility to downsize the position, add to the position, or exit the strategy entirely.\n\n### Specification\n\nIf approved, the DAO Multisig `eth:0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will call approve on the BAL token contract `0xba100000625a3754423978a60c9317c58a424e3D` with spender `0xA06a03d72F1b6350b3aA75524863823eB14dC864` and amount `200000000000000000000000`.\n\nThis will allow the new Ribbon vault contract to spend 200k BAL.\n\nThen the DAO Multisig `eth:0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will call deposit on the Ribbon vault contract `0xA06a03d72F1b6350b3aA75524863823eB14dC864` with amount `200000000000000000000000`\n\nThis will deposit 200k BAL in the Ribbon vault.",
+        "end_utc": "2023-04-03T18:00:00Z",
+        "similarity_score": 0.1636,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way"
+          ],
+          "scores": [
+            1428234.8058465454,
+            379784.9614148248
+          ],
+          "scores_total": 1808019.76726137,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-04-03T18:00:00",
+          "pre_tvl_avg": 1373678092.0,
+          "post_tvl_avg": 1400765331.0,
+          "abnormal_change": 1.9719,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.019719,
+          "abnormal_change_pct": 1.9719
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-04-03T18:00:00",
+          "pre_price_avg": 6.897627105,
+          "post_price_avg": 7.18590725,
+          "abnormal_change": 4.1794,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.041794,
+          "abnormal_change_pct": 4.1794
+        }
+      }
+    },
+    {
+      "proposal_id": "0x53b4dbb97d5f73cc48191f46c63bc54fbfb3d9af98f8a3e0c4a9647fd16b71f3",
+      "cleaned": {
+        "proposal_id": "0x53b4dbb97d5f73cc48191f46c63bc54fbfb3d9af98f8a3e0c4a9647fd16b71f3",
+        "title": "[BIP-103] Karpatkey Balancer Treasury CU Proposal Update",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2022-10-30T17:30:00Z",
+        "similarity_score": 0.1631,
+        "winning_option": "No, this is not the way",
+        "winning_option_index": 1,
+        "margin_abs": 687799.385680363,
+        "margin_pct": 0.13851911149556972,
+        "scores_total": 4965375.378561831,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 141,
+        "total_votes": 141,
+        "first_vote_at": "2022-10-27T19:02:31Z",
+        "last_vote_at": "2022-10-30T17:29:42Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            559770.6638575655,
+            0.0
+          ],
+          [
+            1214863.9382381605,
+            23.686161409230955
+          ],
+          [
+            301281.19972070854,
+            0.0
+          ],
+          [
+            62872.19462429854,
+            2826563.6959596872
+          ]
+        ],
+        "spike_index": 0.380662,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.619338,
+        "half_slope_diff": -9185.225722
+      },
+      "raw": {
+        "id": "0x53b4dbb97d5f73cc48191f46c63bc54fbfb3d9af98f8a3e0c4a9647fd16b71f3",
+        "title": "[BIP-103] Karpatkey Balancer Treasury CU Proposal Update",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "## Karpatkey Balancer Treasury CU Proposal\n\n## Background\n\nThis is a proposal to provide limited delegation of the Balancer treasury to [Karpatkey DAO](http://www.karpatkey.com) in a non-custodial, trust-minimised way.\n\nKarpatkey is a DeFi native DAO that has been constantly evolving to maximise capital efficiency, manage risk, increase security and optimise yield by combining industry-leading research with best-in-class tooling to prevent collateral liquidation. \n\nOur operation would be completely transparent at all times, and any member of Balancer DAO would be able to monitor it on-chain and through the weekly reports posted on the Balancer Forum. \\\nAlso, Karpatkey would suggest the creation of a Treasury Core Unit (CU) within Balancer DAO. If Balancer DAO approves this initiative, we would hire full time contributors to work exclusively with Balancer under our guidance and training. The scope of the CU would be determined after the assessment meetings where Karpatkey would find out Balancer’s needs. \\\nKarpatkey has been supporting Balancer since 2020, by being a top liquidity provider of ETH and stablecoins, and participating in governance, successfuly proposing a [GNO-BAL treasury swap](https://forum.balancer.fi/t/rfc-treasury-swaps-program-gno-x-bal/2110).\n\nAs a token of our long term commitment and financial alignment with Balancer, the performance fee (detailed below) would be charged in BAL and vested for 1 year. We intend to _hodl_ the collected BAL, and we would transparently report on our BAL holdings.\n\n### Motivation\n\nIn order to focus on its core business, Balancer DAO must secure enough runway to keep developing its market-leading products, regardless of economic junctures. \\\nAn idle fund has a significant opportunity cost (e.g.: circa USD 120,000 a month for a $20M treasury at current market values). Therefore, delegating limited access of the treasury to a specialised DAO such as Karpatkey would optimise its growth through carefully curated and tailored strategies within a risk-controlled framework.\n\nThe chart below shows our past performance managing the treasury of our main user, GnosisDAO, when the main goal was to obtain a sustainable growth of funds with a low exposure to risk, before the focus was shifted to maximising the growth of the Gnosis Chain. As the chart illustrates, the yield obtained by Karpatkey’s strategies was greater than the yield of all the other DAOs in the ecosystem put together.\n\n![Karpatkey Participation Chart.jpg](ipfs://QmYtznUJRj7REvMnV2KgodwEiRTBDNB2b5mwLbgvBVRPgM)\nSource: [Autonolas](https://twitter.com/autonolas/status/1521853164638523397) independent research (link to original report [here](https://drive.google.com/file/d/1S-3jTC3ycJYr2NzRFWeoQf4kb0EO2uMq/view))\n\n## Core Proposal\n### Trust-Minimised Fund Allocation Strategy\n\nThe process of fund allocation starts by Karpatkey DAO proposing a list of allowed protocols on Balancer DAO Snapshot, which must be approved by the majority of token holders. Once this happens, the target addresses and transactions’ call data associated with such protocols will be allowlisted in a smart contract, so that funds are always under Balancer DAO’s custody. As a result, Balancer DAO will have the power to withdraw or transfer funds without Karpatkey’s intervention.\n\nIf Balancer DAO has a specific need which wasn’t included in the approved strategy, such as incentives/rewards, payments, etc., Karpatkey would post another ad-hoc strategy including the additional services for Balancer DAO to approve. \\\nAn alternative would be to operate with trusted signers from Balancer, using the Safe multisignature wallet. Karpatkey would not hold enough signatures to be able to execute transactions on its own. Therefore, approval from Balancer signers would always be necessary.\n\nWe would put together a periodically reviewed emergency withdrawal protocol to be able to quickly derisk/liquidate/swap all positions in the event of a market crash, hack or any fortuitous event that requires to stop loss.\n\nKarpatkey DAO’s professional treasury development consists of carrying out tailored strategies that vary twice a week, adjusting to the constantly changing DeFi market.\n\n#### Daily Strategy Reevaluation \n\nEach step of the strategies would be designed and monitored daily by our research team, keeping in mind different risks and opportunities. \n\n#### Impermanent/Divergence Loss\n\nTo minimise the risk of Impermanent or Divergence Loss, we carry out the following tasks:\n\n* Identification of profitable and low IL pools (assessment of assets’ correlation evolution)\n* Definition of thresholds for exit strategies\n* Accurate IL tracking*, also considering different variations of deposited volumes  over time.\n\n*The way in which we calculate IL differs across protocols and specific cases within protocols, but it’s primordially based on the formula detailed below, which calculates the IL per LP token for any AMM with constant swap fees. Our Financial Engineering team is currently preparing a paper on  the equations that we use for IL calculation in different cases, encompassing single isolated financial positions and more complex positions including composability.\n\n### \n\n![IL Calculation.jpg](ipfs://bafkreifdeefejl4myrzqld2nzykkhg3yk6q2xrfwprumipk73hnz2r3ztq)\n\nImpermanent loss evolution tracking example:\n \n![IL Evolution.jpg](ipfs://bafkreihklmyqpr7qb72cct2it4jdvb442kvfjrcwd3o36gke33xhewzq5u)\n\n### Treasury Core Unit\n\nAfter reviewing Balancer DAO’s structure, we came to the conclusion that creating a Treasury Core Unit (CU) would increase the efficiency of the overall management of the tokens held in the treasury. If Balancer DAO agrees, this CU would be composed by full time contributors that would be sourced and recruited with Karpatkey DAO’s support. \\\nThe CU members would be trained and assisted by Karpatkey DAO, observing strict security standards. They could be on Karpatkey DAO’s payroll and would be in charge of the following tasks (among others):\n\n\n\n* **Balancer Value Proposition:** Improve the value proposition of Balancer and the Balancer DAO treasury\n* **Availability:** Increase Balancer availability on other networks and markets\n* **Liquidity:** Increasing Balancer liquidity so more traders and investors can acquire it with a lower price impact\n* **Balancer Health Monitoring:** Propose buybacks if we consider Balancer is undervalued\n* **Fund Proposals:** Any proposal involving funding will be comprehensively analysed by the CU to plan how token transfers should take place in a timeline, and ensure that liquidity requirements are met and executed properly\n* **Fund OPEX:** All of Balancer DAO’s operating expenses will be analysed and projected to meet liquidity requirements and make timely transfers if needed\n* **Drafting and Maintenance of an Emergency Token Withdrawal Protocol:** In case of a sudden black swan market event, the team will execute a carefully structured protocol to de-risk all positions and avoid losing funds. This protocol will be periodically updated to ensure it’s ready to be executed at all times\n* **Capital Optimisation:** CDPs will be continuously monitored and managed to prevent liquidation (more details in the Risk Management section below)\n* **Reporting:** Dashboard creation and maintenance to monitor the yield of investments, rewards distribution and overall treasury growth trend, health and diversification\n* **Bridge Monitoring:** analysis of funds allocation to allow the Balancer token to be transferred across networks without friction.\n\n### Yield Strategy\n\nThe yield strategy would vary weekly to keep it within target. It would resort to different combinations of staking derivatives solutions, AMM, same asset leveraged in money markets, carry trade, arbitrages, etc. Given the risk that it entails, we don’t do trading.\n\nIn alignment with Balancer’s treasury allocation policy, the strategy would not extract  value from directly competing protocols. The following protocols would be considered to obtain an adequately diversified yield strategy with low risk and reduced ETH price exposure. This is just a sample list, the final one would follow Balancer DAO’s preferences and risk profile:\n\nAave, Agave, Ankr, Aura, Balancer, Bancor, Compound, Element, Honeyswap, Idle, Lido, Liquity, Maker, Nexus Mutual, QiDAO, Reflexer, Rocket pool, Stakewise, Sushiswap, Swapr, Symmetric, Synthetix, Uniswap, Unit.\n\n### Reporting\n\nKarpatkey DAO will post a weekly treasury development report on the Balancer forum, and support in identifying data elements upon request from the Balancer community. Also, Karpatkey DAO would review data reported and assist in performing analytics and quality reviews to confirm the accuracy of the information.\n\nThe following metrics would be included:\n\n* **Portfolio Summary:** shows the current holdings in USD and ETH equivalent, considering the allocation by blockchain, as well as the allocation of the most relevant assets\n* **Revenues:** shows the performance of the portfolio strategy, displaying the current APR, annual revenues, capital utilisation and past performance\n* **Positions:** shows the complete strategy implemented for the considered time period, explaining the type of investments, protocols, underlying assets, expected APR and expected revenues\n* **Loans Management:** shows the loan strategy to quickly assess the health status of the active loans, considering the borrowed assets and funds, the lent assets and funds, the collateral ratio and the minimum (liquidation) collateral ratio\n* **Portfolio details:** shows the complete composition of the portfolio by type of asset\n* **Improvement Proposals:** shows the list of executed proposals, as well as a summary of the weight of each proposal\n* **Incentives program:** shows the incentives strategy, displaying the amount of assets used on each protocol.\n\n### Fees\n\nKarpatkey DAO will charge the following fees, which have been adjusted to make this proposal self-financing, without burdening Balancer DAO’s growth:\n\n#### Management fee\n\nA yearly management fee (in monthly instalments) of 0.5% of the AUM would be charged to finance fixed costs like hiring full time contributors to Balancer DAO.\n\n#### Performance fee\n\nWe’d charge a monthly performance fee of 20% of the yield obtained during the last month in BAL tokens, and every payment will have a vesting period of 1 year. We intend to hold it long term, as a token of our commitment to Balancer.\n\n### Termination\n\nBalancer may terminate Karpatkey DAO’s engagement under this agreement for any reason by way of Governance Mechanism. Kapatkey DAO may terminate this agreement upon four week’s notice posted as a new discussion thread in the Balancer forum. In case the termination is requested by Balancer without at least a 4 week notice, Karpatkey DAO will be granted an exit fee equal to the fees collected during the last 2 months, which will be paid in ETH. Regular fees will be collected until the day of termination.\n\n\n### Custody of Funds\n\nKarpatkey DAO is not a custodian of funds. The funds will be in possession of authorised signers of Balancer at all times. Karpatkey DAO will sign transactions using two addresses, which won’t suffice to execute transactions.\n\nKarpatkey DAO is not responsible for the loss of funds caused by the existence, identification and/or exploitation of vulnerabilities through hacks, mining attacks (including double-spend attacks, majority mining power attacks and “selfish-mining” attacks), sophisticated cyber-attacks, distributed denials of service or other security breaches, attacks or deficiencies with smart contracts or protocols which are not owned by Balancer or Karpatkey DAO.\n\nThe plans outlined in this proposal are subject to discussion by Balancer and may need to be (re)structured to take account of legal, regulatory, or technical developments as well as governance considerations. This document should not be taken as the basis for making investment decisions, nor be construed as a recommendation to engage in any transactions.\n\n\n## Dependencies\n\nUpon approval of this proposal, Karpatkey DAO would post a yield strategy in Balancer’s Snapshot, holding a broad list of protocol options without granular specification of parameters nor exact moment when transactions would be executed. We would then operate within those boundaries, without having to go through a DAO-wide vote on every trade, while ensuring that only transactions approved by Balancer DAO could be carried out by Karpatkey DAO. \\\nAlternatively, at least one trusted signer should be appointed by Balancer to approve each transaction. This could be a member of the Treasury Core Unit.\n\n## Risk Assessment\n\n### Risk Management\n\nEvery decision made and action taken weighs in risk exposure. Most large treasury holders have one thing in common: risk aversion. At Karpatkey DAO, we go above and beyond standard risk assessment protocols, and we have developed a multilevel approach to curate yield strategies, assess protocols and carry out transactions safely.\n\n(see the full list of risk factors in the forum post due to max char. limit for Snapshot)",
+        "end_utc": "2022-10-30T17:30:00Z",
+        "similarity_score": 0.1631,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way"
+          ],
+          "scores": [
+            2138787.9964407333,
+            2826587.3821210964
+          ],
+          "scores_total": 4965375.378561831,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2022-10-30T17:30:00",
+          "pre_tvl_avg": 1098661923.0,
+          "post_tvl_avg": 1076529390.5,
+          "abnormal_change": -2.0145,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.020145,
+          "abnormal_change_pct": -2.0145
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2022-10-30T17:30:00",
+          "pre_price_avg": 6.816738470000001,
+          "post_price_avg": 6.63897375,
+          "abnormal_change": -2.6078,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.026078,
+          "abnormal_change_pct": -2.6078
+        }
+      }
+    },
+    {
+      "proposal_id": "0xd456184617b3e174a4b50a1089b73773eea91a2daf57b3cb181e968ff984eccc",
+      "cleaned": {
+        "proposal_id": "0xd456184617b3e174a4b50a1089b73773eea91a2daf57b3cb181e968ff984eccc",
+        "title": "[BIP-472] Enable RDNT/WETH 80/20 Gauge [Ethereum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-11-06T19:00:00Z",
+        "similarity_score": 0.1589,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3693258.7475216994,
+        "margin_pct": 0.9999998250820622,
+        "scores_total": 3693259.393539016,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 57,
+        "total_votes": 57,
+        "first_vote_at": "2023-11-02T23:10:08Z",
+        "last_vote_at": "2023-11-06T18:40:56Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            104102.56729731706,
+            0.09580408438108104,
+            0.0
+          ],
+          [
+            1127.502136952073,
+            0.0,
+            0.0
+          ],
+          [
+            1.6252852830638895,
+            0.0,
+            0.0
+          ],
+          [
+            3588027.6003025617,
+            0.0,
+            0.00271281669171337
+          ]
+        ],
+        "spike_index": 0.870965,
+        "spike_follow_support_ratio": 0.997258,
+        "stairwise_ratio": 0.000537,
+        "half_slope_diff": 30.371558
+      },
+      "raw": {
+        "id": "0xd456184617b3e174a4b50a1089b73773eea91a2daf57b3cb181e968ff984eccc",
+        "title": "[BIP-472] Enable RDNT/WETH 80/20 Gauge [Ethereum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/603\n\n# **Enable RDNT/WETH 80/20 Gauge [Ethereum]**\n\n\n# Summary\n\nProposal to add gauge support for the newly created Radiant 80/20 RDNT/WETH on Ethereum Mainnet.\n\nAfter successful launches on Arbitrum and BNB Chain, Radiant has expanded to Ethereum Mainnet.  In April 2023, the Balancer DAO granted a gauge to Radiant’s RDNT/WETH 80/20 pool on Arbitrum, which was instrumental in the pool’s exemplary performance and being the top Balancer pool on Arbitrum.  The results of this pool on Arbitrum have exceeded all expectations and can serve as a data point to project similar success on mainnet.\n\n\n# References/Useful links\n\n\n\n* Website: [https://radiant.capital](https://radiant.capital/)\n* Documentation: [https://docs.radiant.capital](https://docs.radiant.capital/)\n* Twitter: [https://twitter.com/RDNTCapital](https://twitter.com/RDNTCapital)\n* Github: [GitHub - radiant-capital/v2](https://github.com/radiant-capital/v2)\n* Community Forum: [https://community.radiant.capital](https://community.radiant.capital/)\n* Dune Dashboard: [https://dune.com/defimochi/radiant-capital](https://dune.com/defimochi/radiant-capital)\n* Risk Dashboard: [https://community.chaoslabs.xyz/radiant/risk/overview](https://community.chaoslabs.xyz/radiant/risk/overview)\n* Other useful links?\n    * [Radiant Capital – Medium](https://medium.com/@RadiantCapital)\n    * [Radiant Capital - YouTube](https://www.youtube.com/c/RadiantCapital/)\n\n\n# Protocol Description\n\nRadiant aims to be the first omnichain money market where users can deposit any major asset on any major chain and borrow various supported assets across multiple chains.\n\nThe Radiant DAO’s primary goal is to consolidate the ~$20 billion of fragmented liquidity (lending TVL) dispersed across the top ten alternative layers (source:[ DefiLlama](https://defillama.com/protocols/lending)).\n\nLenders who provide liquidity to Radiant are interacting and providing utility to the platform. In addition, lenders can capture the added value from the communities’ engagement through the native token $RDNT.\n\nBorrowers can withdraw against collateralized assets to obtain liquidity (working capital) without selling their assets and closing their positions.\n\n\n# Motivation\n\nThe Radiant DAO aims to be the most fee-earning & omnichain protocol in crypto whilst ushering in the next 100m of new DeFi users. Adding this gauge to the robust[ Dynamic liquidity](https://dao.radiant.capital/#/proposal/0x058ea8db46ec92bfec2a36691aba75f671f04e99c6ffa7141768e3760d8bf584) vault represents another step in strengthening the relationship between the two protocols. In addition, this pool is intended to be the primary source of liquidity on Ethereum.\n\n\n# Details\n\n\n\n1. **Governance**: The Radiant DAO governance model can be found here: [Proposal Process](https://docs.radiant.capital/radiant/governance/proposal-process).\n\n2. **Oracles**: Radiant price feeds are secured by[ Chainlink oracles](https://docs.radiant.capital/radiant/contracts-and-security/contracts).\n3. **Omnichain**: RDNT, an OFT-20, is Radiant's native utility token. Layer Zero Labs’ omnichain fungible token (OFT) interoperability solution enables native, cross-chain token transfers. Radiant’s dAPP provides users with a borrow & bridge function via Stargate’s stargate stable router interface.\n4. **Audits**:  Radiant conducted multiple top-to-bottom v2 audits with[ Peckshield](https://github.com/peckshield/publications/tree/master/audit_reports/PeckShield-Audit-Report-RadiantV2-v1.0.pdf), [Zokyo](https://github.com/zokyo-sec/audit-reports/blob/main/Radiant/Radiant%20Capital%20audit%20report_06_March.pdf), [BlockSec](https://github.com/blocksecteam/audit-reports/blob/main/solidity/blocksec_radiant_v2.0.pdf), and [OpenZepplin](https://blog.openzeppelin.com/radiant) with zero unresolved critical or high issues. Members of the white-hacking community and participants of the ongoing [ImmuneFi bounty](https://immunefi.com/bounty/radiant/) program are also leveraged to buttress potential vulnerabilities.\n1. **Centralization vectors**:\n    1. The Radiant DAO asserts that the network’s governance, development, or usage is not centralized and progressively gets more decentralized as the number of RDNT token holders grows. Together with Fenwick, Radiant set up the Radiant DAO governance portal (dao.radiant.capital) and ratified the first two governance proposals, RFP-1, and RFP-2, on which RDNT token holders voted.\n\n    2. The Radiant DAO Constitution includes a very clear process for the community to discuss, propose, and vote on new measures, regardless of whether the team ceases to exist. This includes technical changes, improvements, bug fixes, protocol changes (emissions, allocation points), or other protocol improvements. The establishment of the DAO formalizes this, as well as voting power through RDNT liquidity tokens.\n    3. The smart contracts are verified, and any community member may propose changes or improvements. Several community members who are not affiliated with the project at launch have been brought on as “core contributors” in developing smart contract improvements and helping manage portions of the Radiant community.\n    4. Because Radiant was built on a similar framework to Aave and Geist, many of the core contracts are upgradable by the owner. To mitigate security concerns and foster transparency, all Radiant smart contracts are placed behind a [timelock](https://docs.radiant.capital/radiant/contracts-and-security/security-timelock), with a two-day delay for any action. The Radiant team has no intentions to ever push upgrades to these contracts except to address a critical vulnerability. We will prominently inform the community before any admin-related actions involving the timelock and encourage community members to monitor inbound transactions to the timelock address. The Radiant team will always announce all admin-related actions before queuing them in the timelock\n    5. Over 215k unique wallets have interacted with the protocol. Administrative functions within the smart contracts are under timelock and Gnosis multisig. The committee that manages that multisig was ratified as part of Radiant DAO’s first proposal, [RFP-1](https://dao.radiant.capital/#/radiantcapital.eth/proposal/0xffe6588f96159f052ea6ccb9c683a971b6a4fa8b2532f0d0755504be72fdeb6f).\n2. **Market History**: Radiant fair launched on 7/24/2022 and was self-funded with no VCs. Radiant v1 became the top lending protocol on Arbitrum with 148.45m TVL before the transitioning to v2 in March 2023.\n\n**Achievements by the 1st Year Anniversary 7/24/23**.\n\n\n\n* Arbitrum’s **top lending protocol by TVL ($204M) **and **daily active users (DAUs)**.\n\n* BNB Chain’s #2 in lending TVL ($93M) and leader in DAUs.\n* Generated $16M in protocol fees, fully distributed as real yield.\n* Ranked #2 in lending protocol revenue across ALL DeFi, with only two chain deployments (Arbitrum & BNB chain)\n* 154K token holders and 217K protocol users.\n* Locked $76M in dLP—$55M on Arbitrum and the rest on BNB Chain—with a total market size exceeding $500M.\n* In a **180-day earnings** comparison, $RDNT **led with $3.8M**, edging out $AAVE ($3.6M) and $XVS ($1.6M).\n \n![rdnt.png](ipfs://bafkreiafmokmtgflmu2xxj3p4j3oz5yktaxqho4bsj7g7vmnrv7kgg3jdm)\n    \nWhile working towards its goal of seamless omnichain lending and delivering the achievements listed above, Radiant has delivered on its aim for cost efficiency with a competitive price-to-fee **(P/F) ratio of 23.7x**—far outpacing **Aave’s 69.9x** and _Venus’ 38.1x_.\n\n3. **Value**: This pool is intended to be the primary source of liquidity for Radiant on Ethereum. In addition, the Radiant DAO sees the value of this gauge in alignment with other protocols in the ecosystem and sees potential and value in doing so with Balancer.\n\n\n# Specifications\n\n\n## Gauge Weight Cap\n\nBased on Radiant’s market cap, weighting and fee contributions, it sits just on the border of the [Capped Gauge Framework 3](https://forum.balancer.fi/t/bip-57-introduce-gauge-framework-v1/3604), sitting currently slightly over the limit allowing for an uncapped gauge based on high trading fees. The current intention of this pool is to allow collected fees to be paid back into the gauge via Core Pool Bribes.\n\nA Gauge capped at 10% provides more than enough room for these activities for the foreseeable future. In order to alleviate any concerns around RDNT being used in an “capture most of the pool and over-vote for it” scheme, a voluntary 10% cap has been placed on the gauge. Radiant may return to governance at a later date to request an increase as the need arises and the pool has more history to be used to evaluate it against BIP-57.\n\n\n## Gauge Type\n\nNote that this gauge is a traditional gauge, not a single recipient gauge used as part of the ve80/20 program. As a result BAL incentives will be paid out to addresses depositing tokens in the Balancer Gauge. Not to a single smart contract that redirects these tokens to lockers.\n\nCore Pools Designation:\n\nWhile this pool contains no boosted tokens, a 0.5% fee has been set on the pool with an intention to participate in the [BIP-19 4](https://forum.balancer.fi/t/bip-19-incentivize-core-pools-l2-usage/3329) boosted pool program. As with RBN/USDC gauge, It is therefore requested that 100% of the fees earned by this pool and not paid to the DAO are used to pay bribes on the pool. It is further requested that these fees are used bribe the RDNT/WETH pool directly, instead of participating in the distribution of bribes by TVL as following the protocol for mainnet instead of for side-chains specified in BIP-19. Handling of this pool should change in line with changes to BIP-19.\n\n\n## Details of Gauge to be whitelisted\n\n1. **Gauge address**: 0xF22BbdAd6B3Dd9314BdF97724DF32b09Ff95C216\n2. **Pool address**: 0xcf7b51ce5755513d4be016b0e28d6edeffa1d52a000200000000000000000617\n\nThe specific actions of authorizing the DAO multisig, adding the gauge, and removing the authorization using the gauge address above are included in the linked payload.\n\nSpecification:\n\nThe Balancer Maxi LM Multisig eth:`0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function with the following arguments:\ngauge(address):`0xF22BbdAd6B3Dd9314BdF97724DF32b09Ff95C216`\ngaugeType(string): `Ethereum`\n\nAdditionally, this pool is requesting `core pool` status as per BIP-457",
+        "end_utc": "2023-11-06T19:00:00Z",
+        "similarity_score": 0.1589,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3693259.069852154,
+            0.3223304545723225,
+            0.0013564083458566854
+          ],
+          "scores_total": 3693259.393539016,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-11-06T19:00:00",
+          "pre_tvl_avg": 799151789.5,
+          "post_tvl_avg": 489131984.5,
+          "abnormal_change": -38.7936,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.387936,
+          "abnormal_change_pct": -38.7936
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-11-06T19:00:00",
+          "pre_price_avg": 3.59469704,
+          "post_price_avg": 3.864296545,
+          "abnormal_change": 7.4999,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.074999,
+          "abnormal_change_pct": 7.4999
+        }
+      }
+    },
+    {
+      "proposal_id": "0x0f431ff3cf1319c5b87fe09c6f9a08aa323dbd043d23841019c77a9818a10644",
+      "cleaned": {
+        "proposal_id": "0x0f431ff3cf1319c5b87fe09c6f9a08aa323dbd043d23841019c77a9818a10644",
+        "title": "[BIP-226] Enable SILO/ETH 80/20 Gauge w/ 2% emissions cap [Ethereum]",
+        "author": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+        "end_utc": "2023-04-03T18:00:00Z",
+        "similarity_score": 0.153,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 4235848.126372321,
+        "margin_pct": 0.9999995470380647,
+        "scores_total": 4235850.045051155,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 295,
+        "total_votes": 295,
+        "first_vote_at": "2023-03-30T18:13:56Z",
+        "last_vote_at": "2023-04-03T17:51:00Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            346469.1732160699,
+            0.21023886710691086
+          ],
+          [
+            7128.245557308562,
+            0.00359011780825089
+          ],
+          [
+            137622.20898686122,
+            0.29295953303335076
+          ],
+          [
+            3744629.4579514964,
+            0.4525508994190518
+          ]
+        ],
+        "spike_index": 0.678993,
+        "spike_follow_support_ratio": 0.999999,
+        "stairwise_ratio": 1.3e-05,
+        "half_slope_diff": 5147.427969
+      },
+      "raw": {
+        "id": "0x0f431ff3cf1319c5b87fe09c6f9a08aa323dbd043d23841019c77a9818a10644",
+        "title": "[BIP-226] Enable SILO/ETH 80/20 Gauge w/ 2% emissions cap [Ethereum]",
+        "author": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+        "body": "[Combined  2023 Week 14 Payload PR](https://github.com/BalancerMaxis/multisig-ops/pull/122)\n\n**Summary**\n\nThis is a proposal to add a gauge for SILO/ETH 80:20 Pool that will serve as the base layer for Silo Finance’s veSILO governance module.\n\n* Silo Finance has a large amount of POL in Balancer, earning incentives that are recycled through voting incentives for AURA and BAL holders to further bolster the pool liquidity. Silo Finance continues to increase its voting incentives over time as protocol revenue increases and is committed to support the Balancer ecosystem long-term.\n\n* Silo Finance is a longtime partner of the Balancer DAO.\n\n* Silo Finance core contributors have allocated roughly $1.4M~ of personal liquidity to the SILO/ETH 80:20 pool to help expand the governance base of SiloDAO.\n\n**References/Useful Links:**\n\n* Silo Website: https://www.silo.finance/\n* Dev Docs: https://devdocs.silo.finance/protocol-architecture/protocol-overview\n* Silopedia: https://silopedia.silo.finance/\n* Twitter: https://twitter.com/SiloFinance\n* Forum: https://gov.silo.finance/\n* Snapshot: https://snapshot.org/#/silofinance.eth\n* Tally: https://www.tally.xyz/gov/silo/proposals\n* 80/20 SILO ETH Pool: https://app.balancer.fi/#/ethereum/pool/0x9cc64ee4cb672bc04c54b00a37e1ed75b2cc19dd0002000000000000000004c1\n* 50/50 SILO ETH Pool: https://app.balancer.fi/#/ethereum/pool/0x48607651416a943bf5ac71c41be1420538e78f87000200000000000000000327\n\n* Silo Token Address: https://etherscan.io/token/0x6f80310ca7f2c654691d1383149fa1a57d8ab1f8\n* Defillama: https://defillama.com/protocol/silo-finance\n\n**Protocol Description**\n\nHow does Silo Finance work?\n\nSilo Finance is a lending market that allows users to lend and borrow any asset in a risk-isolated way through the use of bridge assets. Essentially, the protocol creates an individual lending market (or ‘silo’) for each token asset and connects all markets via bridge assets that serve as a protocol-wide accepted collateral. This design creates a security benefit where an exploit taking place in one market doesn’t spread to other markets like it is the case in traditional DeFi lending markets.\n\nSilo Finance Facts\n\n- Protocol is not upgradable (contracts are battle-tested since Aug. 2022)\n\n- Non-custodial: Neither DAO or core team can ever take custody of user funds\n\n- No multi-sigs: DAO controls limited admin functions\n\nhttps://devdocs.silo.finance/protocol-architecture/system-roles\n\n**State of $SILO liquidity**\n\nOur two largest liquidity pools are Balancer 80:20 SILO-ETH and 50:50 SILO-ETH pools with total TVL ~ $2.2M. We conduct regular buybacks of $SILO using SiloDAO’s revenue directly from our balancer pools, increasing Balancer’s fee revenue. Additionally, we use part of revenues to increase our voting incentives to BAL and AURA holders\n\n**Motivation**\n\nAn 80:20 pool confers lower IL exposure to LPs, allowing users to maintain greater upside exposure to the base asset. The upcoming veSILO tokenomics upgrade is designed around a locked version of 80:20 SILO-ETH BPT, similar to veBAL. Having a whitelisted gauge will provide greater incentives for $SILO holders to lock tokens which will allow additional locked TVL to flow to Balancer.\n\n**Specifications**\n\nGovernance: Silo Finance is operated as a DAO and governance decisions are completely decentralized. SiloDAO is a Cayman Foundation operating under the name of Silo Labs. Token holders create proposals, on-chain and on Snapshot, to manage funds and affect changes to markets such as replacing oracles, updating interest model settings, etc.\n\nOracles: Silo’s lending markets currently use Uniswap v3, Balancer v2 and Chainlink oracles in order to read asset prices. This is required to gauge lending parameters such as LTV and Health Factors to allow liquidation of undercollateralized positions. We also have some custom Chainlink oracle implementations for assets with things like a rebasing index such as gOHM and wstETH. Users however are only exposed to the oracles that their particular market uses.\n\nAudits & Formal Verification: Our audit reports from ABDK and Quantstamp as well as a Certora Formal Verification Report can be found here https://silopedia.silo.finance/security/audits-and-formal-verification\n\nCentralization vectors: No, token holders are the only ones with any sort of control over the protocol but even then they are limited to only being able to update certain things like oracles, bridge assets, interest rates, LTV/LT settings, and protocol fees. Any changes made are also locked behind a TimeLock Controller, allowing users ample time to withdraw should they not agree with the aforementioned changes.\n\nMarket History: $SILO price had been seeing a lot of fluctuations given its limited DEX liquidity. We have been seeing positive price action and volume as of late as liquidity increased. Historically, the one sharp drop in token price happened as a result of the largest token holder then - large fund- going underwater in the aftermath of Terra collapse.\n\nValue: Balancer has long been SILO’s liquidity hub and our 80:20 SILO:ETH Balancer pool will continue to be our primary source of liquidity for $SILO on Ethereum.\n\n**Specification:**\nGauge Address:  [0x6661136537dfDCA26EEA05c8500502d7D5796E5E] (https://etherscan.io/address/0x6661136537dfDCA26EEA05c8500502d7D5796E5E#code)\nFor Pool with address: `0x9CC64EE4CB672Bc04C54B00a37E1Ed75b2Cc19Dd`\nCapped at 2%\n\nShould be added by the DAO Multisig on mainnet.  It can be added using the following call data for the addGauge function on the gauge controller(`0xC128468b7Ce63eA702C1f104D55A2566b13D3ABD`).\n\nThis can be done via the authorizerAdapter after granting the proper roles as defined in the payload.  The calldata for performAction is calculated as follows using eth-brownie:\n\n```python\ncontroller=Contract(\"0xC128468b7Ce63eA702C1f104D55A2566b13D3ABD\")\ncontroller.add_gauge.encode_input(\"0x6661136537dfDCA26EEA05c8500502d7D5796E5E\", 2)\n```\nThe resulting call data is `0x3a04f9000000000000000000000000006661136537dfdca26eea05c8500502d7d5796e5e0000000000000000000000000000000000000000000000000000000000000002`",
+        "end_utc": "2023-04-03T18:00:00Z",
+        "similarity_score": 0.153,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way"
+          ],
+          "scores": [
+            4235849.085711738,
+            0.9593394173675642
+          ],
+          "scores_total": 4235850.045051155,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-04-03T18:00:00",
+          "pre_tvl_avg": 1373678092.0,
+          "post_tvl_avg": 1400765331.0,
+          "abnormal_change": 1.9719,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.019719,
+          "abnormal_change_pct": 1.9719
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-04-03T18:00:00",
+          "pre_price_avg": 6.897627105,
+          "post_price_avg": 7.18590725,
+          "abnormal_change": 4.1794,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.041794,
+          "abnormal_change_pct": 4.1794
+        }
+      }
+    },
+    {
+      "proposal_id": "0xb7cd04a67e59ba75c1062a1abcc4cae432ecdd6297fdd7ce6abf33e38ec46034",
+      "cleaned": {
+        "proposal_id": "0xb7cd04a67e59ba75c1062a1abcc4cae432ecdd6297fdd7ce6abf33e38ec46034",
+        "title": "[BIP-290] Designate ALCX/ETH 80/20 as a Core Pool (with 10% emissions cap)",
+        "author": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+        "end_utc": "2023-05-15T18:00:00Z",
+        "similarity_score": 0.1527,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3638550.181170492,
+        "margin_pct": 0.9997323566073759,
+        "scores_total": 3639524.2757952036,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 142,
+        "total_votes": 142,
+        "first_vote_at": "2023-05-11T18:02:12Z",
+        "last_vote_at": "2023-05-15T16:20:41Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            878.3355054442175,
+            0.0,
+            0.8857357383243464
+          ],
+          [
+            179918.2976289988,
+            0.0,
+            0.44235070451738756
+          ],
+          [
+            4684.938701342914,
+            0.0,
+            0.0
+          ],
+          [
+            3453555.6566470633,
+            0.0,
+            485.7192259130059
+          ]
+        ],
+        "spike_index": 0.820798,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 1e-05,
+        "half_slope_diff": 10.448088
+      },
+      "raw": {
+        "id": "0xb7cd04a67e59ba75c1062a1abcc4cae432ecdd6297fdd7ce6abf33e38ec46034",
+        "title": "[BIP-290] Designate ALCX/ETH 80/20 as a Core Pool (with 10% emissions cap)",
+        "author": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+        "body": "[Payload with PR](https://github.com/BalancerMaxis/multisig-ops/pull/179)\nhttps://github.com/BalancerMaxis/multisig-ops/pull/179\n\n**Summary:**\n> Following the feedback received on the [pre-proposal for a ve8020 grant](https://forum.balancer.fi/t/pre-proposal-vealcx-application-for-ve8020-and-community-grant/4596) for veALCX, including the suggestion that Alchemix consider pursuing designating the 80/20 ALCX/ETH pool as a core Balancer pool, Alchemix has decided that it would like to proceed with pursuing a core Balancer pool designation. Instead of applying for a ve8020 grant and using that voting power for the pool, the core pool designation would mean that the fees earned by the Balancer protocol (excluding the Balancer DAO cut) are used to directly bribe the pool.\n\n>At the same time, this BIP increases the emissions cap of the pool from the current 2% to 10%. The migration of liquidity and incentives from Sushiswap to Balancer is still ongoing but already the pool is almost at the existing emissions cap.\n\n**References/Useful links:**\n\n> Link to:\n•[ Website](https://alchemix.fi/)\n•[ Documentation](https://alchemix-finance.gitbook.io/user-docs/)\n•[ Github](https://github.com/alchemix-finance)\n•[ Discord](https://discord.com/invite/alchemix)\n•[ Twitter](https://twitter.com/AlchemixFi)\n• Other useful links:[ https://alchemix-stats.com](https://alchemix-stats.com)\n\n**Protocol Description:**\n\n> Alchemix is a future-yield-backed synthetic asset protocol that gives users advances on various yield strategies via a synthetic token. Alchemix loans are self-repaying, interest-free and non-liquidating. Today, Alchemix offers various strategies to borrow against select USD-pegged stablecoins (alUSD) and ETH (alETH), with the intention of launching other synthetic tokens in the future.\n\n>ALCX is the governance token for the community DAO.\n\n\n**Motivation:**\n\n> As outlined in [BIP-209](https://forum.balancer.fi/t/bip-209-enable-alcx-eth-80-20-gauge-on-ethereum/4456), the recently-created ALCX/ETH 80/20 BPT will form the basis of the forthcoming veALCX system. Furthermore, it will be the primary on-chain pool for the ALCX token. As part of the veALCX roll out, Alchemix applied to the Balancer ve8020 grants programme (see [BIP-146](https://forum.balancer.fi/t/bip-146-incentivize-8020-bpt-staking-ve8020/4210) and [BIP-225](https://forum.balancer.fi/t/bip-225-amendment-to-bip-146-incentivize-8020-bpt-staking-ve8020/4543)), which was originally created to encourage and expand the use of 80/20 BPTs in ve-models.\n\n> In the discussion of the [pre-proposal](https://forum.balancer.fi/t/pre-proposal-vealcx-application-for-ve8020-and-community-grant/4596) for that grant, some good suggestions were raised, specifically to consider pursuing a core pool designation instead of applying for a grant. In the past, core pool designations were exclusively used pools with yield bearing tokens, but following the [Radiant 80/20 core pool designation](https://forum.balancer.fi/t/bip-217-enable-rdnt-weth-80-20-gauge-arbitrum/4538), it now has more novel applications as well.\n\n> For both Balancer and Alchemix, a core pool designation would offer a few benefits over the grant model. For one, a core pool designation does not require an upfront payment of BAL from the Balancer DAO, which would also need a special escrow contract and the concomitant complexity surrounding such a set-up. Furthermore, this also means that Alchemix would not have to put up ETH to match the BAL gained from the grant in order to lock it as veBAL, avoiding incurring these up-front costs to make this model work.\n\n> In the end, the biggest benefit is that a core pool designation is a much simpler solution for both parties while still offering the same value add for veALCX and the encouragement of 80/20 BPTs in ve-models.\n\n> As such, with the passing of this BIP, the 80/20 ALCX/ETH Balancer pool will be designated as a core pool, and 100% of the fees earned by this pool (excluding the fees paid to LPers and the DAO cut) are to be used to bribe the pool. Since this is a Mainnet pool, these fees would be used to bribe the pool directly.\n\n>At the same time, this proposal also increases the emissions cap for the 80/20 ALCX/ETH pool from the current 2% to 10%. The migration of liquidity from Sushiswap to Balancer is still ongoing - and not all incentives have migrated just yet - but already the pool is almost at the emissions cap. Alchemix would like to fully migrate all incentives over to Balancer but with the current cap this is not possible.\n\n**Specifications:**\n \n1. **Governance:** \n• Governance is conducted via forum posts and[ Snapshot voting\n](https://snapshot.org/#/alchemixstakers.eth) • There are two multisigs on Ethereum Mainnet: The protocol treasury[ 24-hour timelock multisig](https://etherscan.io/address/0x8392f6669292fa56123f71949b52d883ae57e225), and an operational (developer)[ multisig](https://etherscan.io/address/0x9e2b6378ee8ad2a4a95fe481d63caba8fb0ebbf9) that is used to pay for expenses and execute transactions, and that holds LP positions and strategic assets.    \n\n2. **Oracles:** \n• The core protocol does not rely on oracles.\n\n3. **Audits:** \n• Alchemix v2 has been audited by Runtime Verification as well as a public audit via code4rena. The protocol also offers a bug bounty programme via Immunifi.\n• More details can be found[ here](https://alchemix-finance.gitbook.io/user-docs/audits).\n• ChainSecurity is currently engaged to audit the veALCX contracts.\n\n4. **Centralization vectors:** \n• No centralization vectors exist in the core protocol beyond the multisigs described above.or.\n\n5. **Market History:**  \n• As a governance token and an unpegged asset, ALCX has experienced volatility since its launch.\n • The current main sources of liquidity are Balancer and Sushiswap (the latter will be migrated over to Balancer in anticipation of the veALCX deployment), but ALCX is also listed on major centralized exchanges, such as Coinbase and Binance.\n \n6. **Value:**  \n• The newly created 80/20 pool will become the primary source of on-chain liquidity for ALCX. We expect that it will drive significant added value to Balancer, as the 80/20 ALCX/ETH BPT tokens will be needed to receive veALCX and in order for users to participate in Alchemix governance, gauge voting, and boosted yield.\n• The core pool designation is a mutually beneficial set-up for both Alchemix (in terms of incentivization costs) as well as for veBAL holders (who will receive direct bribes to vote for the pool).\n\nContracts:\n[ Link to existing pool\n](https://etherscan.io/address/0xf16aEe6a71aF1A9Bc8F56975A4c2705ca7A782Bc)[ Link to existing gauge (2% cap)](https://etherscan.io/address/0x183D73dA7adC5011EC3C46e33BB50271e59EC976)\n\n**Specification:**\n\nThis proposal will require three transactions. The first will require\nthe DAO multisig on Ethereum `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` would submit a transaction to the Authorizer `0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6` and call `grantRole` with the following argument:\n\nrole: `0xae60dce27f51ce5815357b9f6b40f200557867f8222262a1646c005d09b7dfba` \nThis role corresponds to `setRelativeWeightCap(uint256)` on mainnet gauges and can be confirmed [here](https://github.com/balancer/balancer-v2-monorepo/blob/master/pkg/deployments/action-ids/mainnet/action-ids.json#L726). \n\nThen the DAO Multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with the new AuthorizerAdaptor at `0xf5dECDB1f3d1ee384908Fbe16D2F0348AE43a9eA` and call performAction with the target(address) `0x183D73dA7adC5011EC3C46e33BB50271e59EC976` with the write setRelativeWeightCap `0x10d3eb04` with the value of `100000000000000000` the data(bytes) argument passed will be: `0x10d3eb04000000000000000000000000000000000000000000000000016345785d8a0000`\n\nLastly the DAO multisig  `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will submit a transaction to the Authorizer `0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6` and call `revokeRole` with the following argument: `0xae60dce27f51ce5815357b9f6b40f200557867f8222262a1646c005d09b7dfba` \n\nSimulation on Tenderly:\nhttps://dashboard.tenderly.co/public/safe/safe-apps/simulator/78916d38-67bb-4c9d-b83d-7e9d9a038573",
+        "end_utc": "2023-05-15T18:00:00Z",
+        "similarity_score": 0.1527,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3639037.228482848,
+            0,
+            487.0473123558476
+          ],
+          "scores_total": 3639524.2757952036,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-05-15T18:00:00",
+          "pre_tvl_avg": 1107959574.0,
+          "post_tvl_avg": 1104989448.5,
+          "abnormal_change": -0.2681,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.002681,
+          "abnormal_change_pct": -0.2681
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-05-15T18:00:00",
+          "pre_price_avg": 5.5291013499999995,
+          "post_price_avg": 5.53430832,
+          "abnormal_change": 0.0942,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.000942,
+          "abnormal_change_pct": 0.0942
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0xdd19c8071cdcc3ee4a9e5ca8d11a4c4f8d4036b37cc58728fa2fc907f0f3fc3e",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.9,
+    "summary": "This proposal aims to generate USDC revenue for the Balancer treasury by utilizing idle BAL tokens in covered call lending on MYSO Finance, enabling upfront stablecoin income with no immediate market impact and customizable loan terms.",
+    "key_arguments_for": [
+      "Generates immediate USDC revenue for operational and developmental activities.",
+      "Diversifies treasury holdings into stable assets without market impact.",
+      "Covered call lending is trustless and fully transparent with audited smart contracts.",
+      "Minimizes downside risk compared to simply holding BAL tokens."
+    ],
+    "key_arguments_against": [
+      "Market volatility could affect the premium and exposure risk.",
+      "DAO multisig execution speed may impact timely parameter adjustments.",
+      "The strategy requires careful monitoring and management of loan terms."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Balancer forum discussion BIP-591",
+        "quote": "The proposal outlines using covered call lending on MYSO Finance to generate stablecoin revenue from idle BAL, emphasizing no counterparty risk and customizable loan parameters."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Timeline metrics for BIP-591",
+        "quote": "Voting timeline shows strong early support with stability metrics indicating consistent preference for 'Yes, let's do it'."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2024-04-18T18:00:00Z",
+    "event_end_utc": "2024-04-22T18:00:00Z",
+    "event_time_utc": "2024-04-22T18:00:00Z",
+    "address_of_governance_token": "0xba100000625a3754423978a60c9317c58a424e3D",
+    "token_price_impact_pct": 0.6756,
+    "tvl_impact_pct": 2.3277,
+    "actual_vote_result": {
+      "winner_label": "Abstain",
+      "winner_index": 2,
+      "scores": [
+        878762.9599728542,
+        262316.30680026894,
+        2058237.6746274803
+      ],
+      "scores_total": 3199316.9414006034,
+      "margin_abs": 1179474.714654626,
+      "margin_pct": 0.368665
+    },
+    "simulation_reason": "Independent recommendation based on timeline analytics, forum sentiment, and historical lessons.",
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- The timeline voting metrics show unanimous and stable early support for the 'Yes' option, indicating clear voter conviction.\n- Forum sentiment analysis reveals a positive majority with supportive comments emphasizing trustless, transparent, and revenue-generating aspects.\n- Historical adjacent proposals with similar treasury diversification strategies were successful and resulted in positive market and TVL reactions, reinforcing confidence.\n- The proposal’s risk mitigation via overcollateralization and customizable loan terms aligns with the organization’s durable benefit.\n- Forum sentiment and voting dynamics are aligned, indicating community views are well reflected in the recommended option.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0xe3d26ad2edcb9b565ffc2f1bdcff5aa8fb3002e59c8e65e3c2e8217e61ae5986",
+        "title": "[BIP-583] Enable Gauges for sUSDe / USDC and USDe / USDC [Arbitrum]",
+        "end_utc": "2024-04-08T18:00:00Z",
+        "summary": "[BIP-583] Enable Gauges for sUSDe / USDC and USDe / USDC [Arbitrum] closed on 2024-04-08T18:00:00Z. Timeline analytics noted 15 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.13)",
+        "market_response": "token +4.28%; TVL +3.75%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0xe04f0c88c95f24c1cac5a816f4d702fdbeb2316c1a05bddd307298008b4aceb8",
+        "title": "[BIP-584] Enable PRF/WETH (80/20) Gauges with 2% emission cap (Arbitrum)",
+        "end_utc": "2024-04-08T18:00:00Z",
+        "summary": "[BIP-584] Enable PRF/WETH (80/20) Gauges with 2% emission cap (Arbitrum) closed on 2024-04-08T18:00:00Z. Timeline analytics noted 18 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.11)",
+        "market_response": "token +4.28%; TVL +3.75%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 0.6756,
+    "ex_post_tvl_impact_pct": 2.3277,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +0.68%; TVL +2.33%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Abstain",
+  "match_result": "different",
+  "forum_sentiment_summary": {
+    "Negative": 2,
+    "Positive": 4,
+    "Neutral": 6,
+    "total_comments": 12
+  }
+}

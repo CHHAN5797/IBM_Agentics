@@ -1,0 +1,256 @@
+{
+  "captured_at_utc": "2025-10-07T05:25:32.639590+00:00",
+  "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0x1c3363b370ce0756f5a63969a7652571756b7edecb3885224c2d3cae87259b9e",
+  "focus": null,
+  "votes_count": 1268,
+  "timeline_metrics_current": {
+    "unique_voters": 1268,
+    "total_votes": 1268,
+    "first_vote_at": "2022-04-14T15:16:57Z",
+    "last_vote_at": "2022-04-17T12:27:32Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        60684.63155363325,
+        0.0,
+        0.04702353888026824
+      ],
+      [
+        1662.3335708657112,
+        0.0,
+        39.43624103308069
+      ],
+      [
+        76.97346222941195,
+        7.087975393152e-06,
+        5.51606312073e-06
+      ],
+      [
+        174.4426168805134,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.965072,
+    "spike_follow_support_ratio": 1.0,
+    "stairwise_ratio": 0.000197,
+    "half_slope_diff": -7.395802
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x3cf0fc752059a0017076528aef853502c83877ecf6f053ee029062e53bf2d6e3",
+      "title": "Approve V3 Deployement Governance Framework",
+      "author": "0x329c54289Ff5D6B7b7daE13592C6B1EDA1543eD4",
+      "end_utc": "2022-02-18T09:56:05Z",
+      "timeline_metrics": {
+        "unique_voters": 836,
+        "total_votes": 836,
+        "first_vote_at": "2022-02-15T10:19:15Z",
+        "last_vote_at": "2022-02-18T09:34:27Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            6201.596088337256,
+            0.00098318,
+            0.0
+          ],
+          [
+            7716.502003252947,
+            0.02002851870482817,
+            7.058297589715779
+          ],
+          [
+            305.0110897627087,
+            0.0,
+            0.0
+          ],
+          [
+            328.26840525947,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.383759,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.000267,
+        "half_slope_diff": -0.081114
+      },
+      "price_impact_pct": -15.3962,
+      "tvl_impact_pct": -10.5637,
+      "similarity": 0.1019,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Adopt Framework",
+        "margin_abs": 14544.319289022644,
+        "scores_total": 14558.45689590078,
+        "margin_pct": 0.9990289075978844
+      }
+    }
+  ],
+  "similar_proposals_data": [],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0x1c3363b370ce0756f5a63969a7652571756b7edecb3885224c2d3cae87259b9e",
+    "selected_choice_label": "YAE",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "Proposal to adopt a governance framework for Aave V3 portals credit lines is recommended for approval based on unanimous vote timeline leadership, positive market impact, and informed by cautious forum sentiment and historical lessons.",
+    "key_arguments_for": [
+      "Unanimous lead for 'YAE' in voting timeline with strong stability and early voting support.",
+      "Positive price and TVL impact following proposal indicates market confidence.",
+      "Framework standardizes credit line requests improving governance efficiency."
+    ],
+    "key_arguments_against": [
+      "Forum sentiment includes caution and concerns about risks and security of portals.",
+      "Historical similar proposal showed negative market response despite positive vote outcome, advising conservative approach.",
+      "Portals V0 is considered immature with trust assumptions, requiring careful credit line attributions."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://governance.aave.com/t/arc-portals-governance-framework/7681",
+        "quote": "Forum comments show mixed sentiment with caution on risks and positive views on governance efficiency."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Snapshot proposal timeline",
+        "quote": "Voting timeline metrics show unanimous early and sustained support for 'YAE' option."
+      },
+      {
+        "source_tool": "govnews_proposal_news_window",
+        "reference": "Similar proposal 0x3cf0fc752059a0017076528aef853502c83877ecf6f053ee029062e53bf2d6e3",
+        "quote": "Previous similar proposal approved governance framework but experienced negative price and TVL impact."
+      }
+    ],
+    "available_choices": [
+      "YAE",
+      "NAE",
+      "ABSTAIN"
+    ],
+    "event_start_utc": "2022-04-14T15:10:00Z",
+    "event_end_utc": "2022-04-17T15:10:00Z",
+    "event_time_utc": "2022-04-17T15:10:00Z",
+    "address_of_governance_token": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+    "token_price_impact_pct": 1.5831,
+    "tvl_impact_pct": 2.2709,
+    "actual_vote_result": {
+      "winner_label": "YAE",
+      "winner_index": 0,
+      "scores": [
+        62598.38120360877,
+        7.087975393152e-06,
+        39.48327008802408
+      ],
+      "scores_total": 62637.86448078477,
+      "margin_abs": 62558.89793352075,
+      "margin_pct": 0.998739
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'YAE' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Voting timeline shows strong, stable, and unanimous support for 'YAE'.\n- Market impact post-event is positive for both token price and TVL, indicating confidence.\n- Forum sentiment reflects cautious optimism; concerns about security and trust assumptions are noted but do not outweigh benefits.\n- Historical lessons from a similar governance framework proposal advise conservative credit line attribution but do not contradict approval.\n- Recommendation aligns with vote and market data, while respecting forum caution, supporting a durable organizational benefit.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x3cf0fc752059a0017076528aef853502c83877ecf6f053ee029062e53bf2d6e3",
+        "title": "Approve V3 Deployement Governance Framework",
+        "end_utc": "2022-02-18T09:56:05Z",
+        "summary": "Approve V3 Deployement Governance Framework closed on 2022-02-18T09:56:05Z. Timeline analytics noted 836 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.10)",
+        "market_response": "token -15.40%; TVL -10.56%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 1.5831,
+    "ex_post_tvl_impact_pct": 2.2709,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +1.58%; TVL +2.27%"
+  },
+  "agentic_ai_choice": "YAE",
+  "actual_outcome": "YAE",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 4,
+    "Positive": 1,
+    "Neutral": 6,
+    "total_comments": 11
+  }
+}

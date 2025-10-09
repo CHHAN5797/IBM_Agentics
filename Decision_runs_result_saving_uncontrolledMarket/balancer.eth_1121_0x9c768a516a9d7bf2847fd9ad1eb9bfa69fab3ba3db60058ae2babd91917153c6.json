@@ -1,0 +1,724 @@
+{
+  "captured_at_utc": "2025-10-08T18:51:39.776172+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x9c768a516a9d7bf2847fd9ad1eb9bfa69fab3ba3db60058ae2babd91917153c6",
+  "focus": null,
+  "votes_count": 3,
+  "timeline_metrics_current": {
+    "unique_voters": 3,
+    "total_votes": 3,
+    "first_vote_at": "2025-05-16T00:52:38Z",
+    "last_vote_at": "2025-05-19T08:00:03Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        317432.7113424241,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        2427641.7270330503,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.884363,
+    "spike_follow_support_ratio": 0.0,
+    "stairwise_ratio": 0.115637,
+    "half_slope_diff": 9.341251
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x93aaad0c7e6b6bd69ea9ef9406ee0590361083e14f22ba2b90b198148d04b7c3",
+      "title": "[BIP-825] Enable YieldFi yUSD/USDC gauges on Balancer v3 Arbitrum new pool deployment",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-05-12T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 6,
+        "total_votes": 6,
+        "first_vote_at": "2025-05-08T23:46:44Z",
+        "last_vote_at": "2025-05-12T08:00:01Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            274250.9435164922,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            318693.87213499245,
+            0.0,
+            699.4582015323859
+          ],
+          [
+            2616763.344265478,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.752931,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.247069,
+        "half_slope_diff": 380.563614
+      },
+      "price_impact_pct": -1.9948,
+      "tvl_impact_pct": 0.8717,
+      "similarity": 0.0787,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 3209008.701715431,
+        "scores_total": 3210407.618118495,
+        "margin_pct": 0.9995642558299548
+      }
+    },
+    {
+      "id": "0x04f8cf4b93cca840d55377bb1c7b321cbdbaea5128d3b1a67e7ab2cab2c9e993",
+      "title": "[BIP-824] Enable YieldFi yUSD/USDC gauges on Balancer v3 Base new pool deployment",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-05-12T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 6,
+        "total_votes": 6,
+        "first_vote_at": "2025-05-08T23:46:23Z",
+        "last_vote_at": "2025-05-12T08:00:01Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            274252.24787240813,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            318694.9890544721,
+            0.0,
+            699.4607019826589
+          ],
+          [
+            2616764.0383250793,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.752931,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.247069,
+        "half_slope_diff": 375.058703
+      },
+      "price_impact_pct": -1.9948,
+      "tvl_impact_pct": 0.8717,
+      "similarity": 0.0774,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 3209011.814549977,
+        "scores_total": 3210410.735953942,
+        "margin_pct": 0.9995642546954201
+      }
+    },
+    {
+      "id": "0x112f0b1077a87933d54d5e22715cb035f64fa5905bea6093f7d5c68beac1ab74",
+      "title": "[BIP-823] Enable Gauge for Safe Haven QuantAMM BTF",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-05-12T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 6,
+        "total_votes": 6,
+        "first_vote_at": "2025-05-08T23:46:08Z",
+        "last_vote_at": "2025-05-12T08:00:01Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            274258.9145804228,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            318700.69775403495,
+            0.0,
+            699.4734820618319
+          ],
+          [
+            2616768.584780699,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.752927,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.247073,
+        "half_slope_diff": 372.533689
+      },
+      "price_impact_pct": -1.9948,
+      "tvl_impact_pct": 0.8717,
+      "similarity": 0.0973,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 3209028.7236330956,
+        "scores_total": 3210427.6705972184,
+        "margin_pct": 0.999564249032322
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0xe24b86882703abcc6d97e5b8e472ce57c79ecbb9d26ef5e048753bb6593ef252",
+      "cleaned": {
+        "proposal_id": "0xe24b86882703abcc6d97e5b8e472ce57c79ecbb9d26ef5e048753bb6593ef252",
+        "title": "[BIP-765] Boosted Pool Lending Market Incentive Handling",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "end_utc": "2025-01-27T19:00:00Z",
+        "similarity_score": 0.1403,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2914793.775407889,
+        "margin_pct": 1.0,
+        "scores_total": 2914793.775407889,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 3,
+        "total_votes": 3,
+        "first_vote_at": "2025-01-24T21:47:43Z",
+        "last_vote_at": "2025-01-27T12:34:35Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            353202.6889183801,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2561591.086489509,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.813961,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.186039,
+        "half_slope_diff": 42.562416
+      },
+      "raw": {
+        "id": "0xe24b86882703abcc6d97e5b8e472ce57c79ecbb9d26ef5e048753bb6593ef252",
+        "title": "[BIP-765] Boosted Pool Lending Market Incentive Handling",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "body": "### Summary and Motivation\n\nBalancer v3 has brought forward multiple opportunities for the underlying assets in Balancer pools to be rehypothecated into lending markets for increased LP yields. For example the [Aave-Lido wstETH - wETH pool](https://balancer.fi/pools/ethereum/v3/0xc4ce391d82d164c166df9c8336ddf84206b2f812), which receives external incentives on the [wETH lending market](https://app.aave.com/?marketName=proto_lido_v3). Due to these external rewards not accruing directly to LPs, but to the Balancer v3 vault; I, along with the Balancer Maxis, are proposing to manage these rewards by claiming them and distributing them via bi-weekly merkl campaigns to LPs. In this sense LP rewards accrue for the exact time they are deposited in the pool and are distributed to be claimed 2 weeks later. As opposed to streaming rewards to the pool with a time delay. The issue with repurposing these rewards as direct or vote incentives is the time delay would mean newer LPs can join and dilute the rewards of those which have been in the pool prior.\n\nThis proposal will act as a standard for all external lending market incentives to be passed through the Balancer vault. The flow will be claimed by the omni-chain multisig using the same tracking, merkl schedule, and execution process to get rewards to respective LPs unless a change is proposed to Balancer governance at a later date.\n\nTokenlogic, from Aave will put forward a proposal for the Balancer Maxis Omni-chain multisig to have ability to claim any incentives accrued on StataV2 Aave wrappers to the Balancer vault.\n\n### Technical Specification\n\nSample code/logic for the automation and cadence of claiming and redistribution of the incentives can be seen in the Maxi-Ops repo [here](https://github.com/BalancerMaxis/multisig-ops/pull/1575). A sample technical specification will not be provided as it varies due to multiple factors such as lending market, underlying token, reward token, and network.",
+        "end_utc": "2025-01-27T19:00:00Z",
+        "similarity_score": 0.1403,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2914793.775407889,
+            0,
+            0
+          ],
+          "scores_total": 2914793.775407889,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2025-01-27T19:00:00",
+          "pre_tvl_avg": 1061605232.0,
+          "post_tvl_avg": 976170870.0,
+          "abnormal_change": -8.0477,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.080477,
+          "abnormal_change_pct": -8.0477
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2025-01-27T19:00:00",
+          "pre_price_avg": 2.522562465,
+          "post_price_avg": 2.41036078,
+          "abnormal_change": -4.4479,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.044479,
+          "abnormal_change_pct": -4.4479
+        }
+      }
+    },
+    {
+      "proposal_id": "0xe562d95ca7c9e4c4ea9f433eff4ae4c0ea0840f0036198edb98249c3bf9bd054",
+      "cleaned": {
+        "proposal_id": "0xe562d95ca7c9e4c4ea9f433eff4ae4c0ea0840f0036198edb98249c3bf9bd054",
+        "title": "[BIP-522] Arbitrum LGP and STIP Adjustments ",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-12-25T19:00:00Z",
+        "similarity_score": 0.1292,
+        "winning_option": "Yes, let's do it ",
+        "winning_option_index": 0,
+        "margin_abs": 4650487.781426344,
+        "margin_pct": 0.9997492547262029,
+        "scores_total": 4651654.161722735,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 40,
+        "total_votes": 40,
+        "first_vote_at": "2023-12-21T21:23:17Z",
+        "last_vote_at": "2023-12-25T17:51:03Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            373408.50839509454,
+            0.0,
+            583.1901481955077
+          ],
+          [
+            316956.96518151823,
+            0.0,
+            0.0
+          ],
+          [
+            112964.97506265934,
+            0.0,
+            0.0
+          ],
+          [
+            3847740.522935268,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.756905,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.096767,
+        "half_slope_diff": 88.76072
+      },
+      "raw": {
+        "id": "0xe562d95ca7c9e4c4ea9f433eff4ae4c0ea0840f0036198edb98249c3bf9bd054",
+        "title": "[BIP-522] Arbitrum LGP and STIP Adjustments ",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "Code being implemented: \nhttps://github.com/BalancerMaxis/STIP_automation\n\n## Background\n\nBalancer was awarded 1.2 million Arbitrum as part of the Arbitrum Short Term Incentives Program (STIP) to be paid out between November 11th and January 16th. The [program](https://forum.arbitrum.foundation/t/balancer-final-stip-round-1/16689?u=tritium) is being paid out in [biweekly chunks of 205,814.8 $ARB](https://forum.arbitrum.foundation/t/balancer-stip-program-updates-2/20078) based on [boost modified veBAL voting.](https://github.com/BalancerMaxis/data_automation/blob/main/data/arbitrumBoostRules.md)\n\nAfter a number of weeks of the program in operation, this BIP seeks to make a few modifications to the program in order to increase it’s effectiveness, and enable our current major strategic focus of supporting interest bearing liquidity.\n\n## Proposed Changes\n\n### Dynamic Boost\n\nWhen looking at the pools receiving veBAL there is a clear differentiation. Some pools are growing based on $ARB yields, generating decent volume and or fees and are examples of what we hope to see with STIP. Others seem to be more yield farming plays, with basic ERC-20 tokens that don’t generate much volume, engage with advanced balancer tech, or generate fees through our core pools program.\n\nThe STIP was designed to allow everyone an opportunity, but we want to leave space for real innovation and not have access to STIP rewards be made over-competitive by yield farming profit maxis.\n\nThe Dynamic Boost is the facility in place to manage this. The original STIP proposal mentioned capping the dynamic boost at 3. This was never implemented due to an oversight when translating the grant proposal to a code spec. We propose continuing to operate with no cap on dynamic boost.\n\nFurther, we propose multiplying the dynamic boost by 3, in order to allocate more $ARB towards pools that have a better ratio of fees generated to emissions paid. Here is a [sheet](https://docs.google.com/spreadsheets/d/1C0yvYtNlixUx4LGFtcu7OcS2_upa7Q0XLpaiJGmKczI/edit#gid=74461893) with [comparison data](https://github.com/BalancerMaxis/STIP_automation/tree/fix-filename/output/example_for_BIP) from the last round between the old and new methods.\n\n \n![BIP-522.jpg](ipfs://bafybeid3vawcm7ecpvccrrbdrndsguj2wonner5gpabsiy3ly4juhle3du)\n    \n\n## STIP Fixed incentives changes\n\nCurrently the wstETH/4pool and the USD 4pool are receiving equal shares of 22,500 $ARB per week in fixed boost. The wstETH/4pool is not quickly gaining deposits or generating impressive volume, some of this may be time, but it is clear that CL based USD/ETH positions will capture most volume.\n\nsFRAX/4pool is an important part of Balancers interest bearing liquidity strategy, and it should command much lower yields than wstETH/4pool generating an increase in 4pool liquidity. 4pool is currently Balancer’s top volume producing pool on Arbitrum and is a market where more TVL will clearly capture more volume.\n\nWe therefore propose that the 50% of direct incentives currently allocated to wstETH-4pool is going into sFRAX/4pool. sFRAX liquidity is an important part of Balancer’s interest bearing liquidity strategy on Arbitrum, and we expect the pair to command much higher TVL per incentive dollar.\n\n## Specification\n\nSTIP automation, as well as it’s results (past and future) have been broken out of the data_automation repo and moved to their own repository for clarity and simplicity: https://github.com/BalancerMaxis/STIP_automation\n\nThis repository is to serve as the new source of truth for STIP.\n\nThis BIP specifies that the new script shall be run each round providing start and end dates for the epoch in question.\n\n```python main.py --ts_bound <epoch end timestamp>```\n\nEpoch is a 2 week period of time. The next run epoch will end on Thursday, December 28, 2023 12:00:00 AM UTC time and then script should be run with:\n\n```python main.py --ts_bound 1703721600```\n\nThis script functions differently from the currently running code in the following manners:\n\nA 3x has been added to the dynamic boost:\n\nHere is the change in [Logic](https://github.com/BalancerMaxis/STIP_automation/blob/main/automation/dao_grant.py#L279). Here is the configured [Boost Multiplier](https://github.com/BalancerMaxis/STIP_automation/blob/83c6af22b939cfe1c4930d0536d8e83fc1f93acb/automation/constants.py#L60), currently set to 3.\n\nFixed rewards are now handled based on a configuration value in constants. The reward configuration can be found [Here](https://github.com/BalancerMaxis/STIP_automation/blob/83c6af22b939cfe1c4930d0536d8e83fc1f93acb/automation/constants.py#L71).  This configuration currently emits 11,250 $ARB to 4pool, and 5,265 $ARB each to sFRAX/4pool and wstETH/4pool.",
+        "end_utc": "2023-12-25T19:00:00Z",
+        "similarity_score": 0.1292,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it ",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            4651070.971574539,
+            0,
+            583.1901481955077
+          ],
+          "scores_total": 4651654.161722735,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-12-25T19:00:00",
+          "pre_tvl_avg": 940248910.0,
+          "post_tvl_avg": 953239957.0,
+          "abnormal_change": 1.3817,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.013817,
+          "abnormal_change_pct": 1.3817
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-12-25T19:00:00",
+          "pre_price_avg": 4.141005475,
+          "post_price_avg": 4.5243818650000005,
+          "abnormal_change": 9.2581,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.092581,
+          "abnormal_change_pct": 9.2581
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x9c768a516a9d7bf2847fd9ad1eb9bfa69fab3ba3db60058ae2babd91917153c6",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "Proposal to implement a threshold-based automation for rerouting external incentives to boosted pools, building on prior incentive handling frameworks. Strong early voter support and positive forum sentiment align with similar past proposals that successfully enabled YieldFi and Safe Haven gauges with positive TVL impact despite minor token price dips.",
+    "key_arguments_for": [
+      "Strong early and stable voter support for 'Yes, let's do it' option.",
+      "Forum sentiment includes positive feedback supporting operational threshold proposal.",
+      "Builds on established incentive handling precedent (BIP-765) and automation by trusted operators.",
+      "Similar past proposals accepted and followed by TVL growth, indicating community and protocol benefit."
+    ],
+    "key_arguments_against": [
+      "No explicit negative forum comments or voter opposition observed.",
+      "Slight negative token price impact could raise concerns but is not reflected in voter or forum sentiment."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.balancer.fi/t/bip-826-balancer-boosted-pool-rewards-rerouting-framework/6510",
+        "quote": "Thanks a lot @ZenDragon for writing this up. This proposal provides a clear path moving forward for how to redistribute incentives. The proposed threshold makes sense for us operationally. In full support!"
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Balancer proposal timeline metrics",
+        "quote": "Unique voters: 3, all voted 'Yes, let's do it' early and steadily."
+      },
+      {
+        "source_tool": "govnews_search_governance_news",
+        "reference": "Similar proposals BIP-825, BIP-824, BIP-823",
+        "quote": "All recommended and passed with 'Yes, let's do it', leading to positive TVL impact despite minor price dips."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-05-15T18:00:00Z",
+    "event_end_utc": "2025-05-19T18:00:00Z",
+    "event_time_utc": "2025-05-19T18:00:00Z",
+    "address_of_governance_token": "0xba100000625a3754423978a60c9317c58a424e3d",
+    "token_price_impact_pct": -0.4717,
+    "tvl_impact_pct": 2.8168,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        2745074.4383754744,
+        0.0,
+        0.0
+      ],
+      "scores_total": 2745074.4383754744,
+      "margin_abs": 2745074.4383754744,
+      "margin_pct": 1.0
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Unanimous and early voter support for the 'Yes, let's do it' option with stable voting power.\n- Positive forum sentiment including explicit operational support aligns with the chosen option.\n- Similar past proposals with analogous incentive enabling changes led to positive TVL growth despite minor price dips, demonstrating beneficial protocol impact.\n- Market data showing slight negative price impact but strong TVL growth is consistent with historical lessons and supports the decision.\n- The recommendation reflects community sentiment and aims for durable organizational benefit by continuing incentive rerouting automation.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x112f0b1077a87933d54d5e22715cb035f64fa5905bea6093f7d5c68beac1ab74",
+        "title": "[BIP-823] Enable Gauge for Safe Haven QuantAMM BTF",
+        "end_utc": "2025-05-12T18:00:00Z",
+        "summary": "[BIP-823] Enable Gauge for Safe Haven QuantAMM BTF closed on 2025-05-12T18:00:00Z. Timeline analytics noted 6 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.10)",
+        "market_response": "token -1.99%; TVL +0.87%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0x93aaad0c7e6b6bd69ea9ef9406ee0590361083e14f22ba2b90b198148d04b7c3",
+        "title": "[BIP-825] Enable YieldFi yUSD/USDC gauges on Balancer v3 Arbitrum new pool deployment",
+        "end_utc": "2025-05-12T18:00:00Z",
+        "summary": "[BIP-825] Enable YieldFi yUSD/USDC gauges on Balancer v3 Arbitrum new pool deployment closed on 2025-05-12T18:00:00Z. Timeline analytics noted 6 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.08)",
+        "market_response": "token -1.99%; TVL +0.87%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -0.4717,
+    "ex_post_tvl_impact_pct": 2.8168,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -0.47%; TVL +2.82%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 0,
+    "Positive": 1,
+    "Neutral": 2,
+    "total_comments": 3
+  }
+}

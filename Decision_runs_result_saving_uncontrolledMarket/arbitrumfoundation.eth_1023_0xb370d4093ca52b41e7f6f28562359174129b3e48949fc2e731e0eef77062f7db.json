@@ -1,0 +1,258 @@
+{
+  "captured_at_utc": "2025-10-08T07:17:55.846318+00:00",
+  "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0xb370d4093ca52b41e7f6f28562359174129b3e48949fc2e731e0eef77062f7db",
+  "focus": null,
+  "votes_count": 5500,
+  "timeline_metrics_current": {
+    "unique_voters": 5500,
+    "total_votes": 5500,
+    "first_vote_at": "2023-10-06T02:07:56Z",
+    "last_vote_at": "2023-10-08T00:37:47Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        63332362.48262491,
+        1301601.9565120544,
+        22326.464031525084
+      ],
+      [
+        50102.97755719406,
+        2682.4957456199018,
+        8561.513982545128
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.202931,
+    "spike_follow_support_ratio": 0.851828,
+    "stairwise_ratio": 0.001216,
+    "half_slope_diff": -509.280129
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x66b953a7cf4de9f6de54e6eb87ae291b5cc62f12c7fed68eba91043607883221",
+      "title": "Proposal: Building the Future of NFTs: The Rarible Protocol - Arbitrum Integration Proposal [REVISED]",
+      "author": "0x1B686eE8E31c5959D9F5BBd8122a58682788eeaD",
+      "end_utc": "2023-09-01T19:16:02Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-08-25T19:16:41Z",
+        "last_vote_at": "2023-08-26T07:14:21Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            7345732.6864043195,
+            116990.02409824789,
+            226269.1116841672
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.892797,
+        "spike_follow_support_ratio": 0.529713,
+        "stairwise_ratio": 0.010323,
+        "half_slope_diff": -55.484426
+      },
+      "price_impact_pct": -5.292,
+      "tvl_impact_pct": -5.0423,
+      "similarity": 0.0239,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "For",
+        "margin_abs": 94945293.04926684,
+        "scores_total": 120779306.30293971,
+        "margin_pct": 0.786105633121656
+      }
+    }
+  ],
+  "similar_proposals_data": [],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0xb370d4093ca52b41e7f6f28562359174129b3e48949fc2e731e0eef77062f7db",
+    "selected_choice_label": "For",
+    "selected_choice_index": 0,
+    "confidence": 0.9,
+    "summary": "The proposal seeks 1.5M ARB to incentivize Dopex's options trading ecosystem growth on Arbitrum. Strong early voting dominance and mostly positive forum sentiment after proposal adjustments support the 'For' option. Historical similar proposals show positive precedent.",
+    "key_arguments_for": [
+      "Dopex is a native Arbitrum protocol with significant transaction volume and TVL.",
+      "Funding will boost new Dopex V2 product activity and on-chain fees.",
+      "Community supports the proposal post-adjustments, focusing the funding on incentives.",
+      "Past similar proposals for DeFi innovations passed with strong support."
+    ],
+    "key_arguments_against": [
+      "Concerns about grant size relative to budget constraints.",
+      "Removed audit funding to address community feedback.",
+      "Dopex's recent inactivity raises some concerns.",
+      "Slight negative market impacts post-vote suggest caution."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Forum discussion on Arbitrum Foundation forum",
+        "quote": "Community largely supportive after removing audit funding and aligning with incentive program timeline."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Timeline vote analysis",
+        "quote": "Strong early and stable lead for 'For' option with 100% lead ratio in first quartile."
+      },
+      {
+        "source_tool": "govnews_search_governance_news",
+        "reference": "Adjacent proposal on NFT integration",
+        "quote": "Similar proposals supporting DeFi protocol integrations have passed with strong majorities."
+      }
+    ],
+    "available_choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2023-10-06T02:00:00Z",
+    "event_end_utc": "2023-10-13T02:00:00Z",
+    "event_time_utc": "2023-10-13T02:00:00Z",
+    "address_of_governance_token": "0x880C3cdCA73254D466f9c716248339dE88e4a97D",
+    "token_price_impact_pct": -0.6138,
+    "tvl_impact_pct": -0.4497,
+    "actual_vote_result": {
+      "winner_label": "For",
+      "winner_index": 0,
+      "scores": [
+        196912101.56600493,
+        2671271.743270401,
+        501084.7361465556
+      ],
+      "scores_total": 200084458.04542208,
+      "margin_abs": 194240829.82273453,
+      "margin_pct": 0.970794
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'For' selected with stance to keep 'Change'.",
+    "ai_final_reason": "The proposal has strong timeline vote metrics and forum support post-adjustments. Similar historical proposals also passed, indicating community favor towards incentivizing ecosystem growth. Slight negative market impacts exist but do not outweigh the benefits. The recommendation aligns with community sentiment and maximizes ecosystem benefit.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x66b953a7cf4de9f6de54e6eb87ae291b5cc62f12c7fed68eba91043607883221",
+        "title": "Proposal: Building the Future of NFTs: The Rarible Protocol - Arbitrum Integration Proposal [REVISED]",
+        "end_utc": "2023-09-01T19:16:02Z",
+        "summary": "Proposal: Building the Future of NFTs: The Rarible Protocol - Arbitrum Integration Proposal [REVISED] closed on 2023-09-01T19:16:02Z. Timeline analytics noted 5500 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.02)",
+        "market_response": "token -5.29%; TVL -5.04%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -0.6138,
+    "ex_post_tvl_impact_pct": -0.4497,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -0.61%; TVL -0.45%"
+  },
+  "agentic_ai_choice": "For",
+  "actual_outcome": "For",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 9,
+    "Positive": 16,
+    "Neutral": 20,
+    "total_comments": 45
+  }
+}

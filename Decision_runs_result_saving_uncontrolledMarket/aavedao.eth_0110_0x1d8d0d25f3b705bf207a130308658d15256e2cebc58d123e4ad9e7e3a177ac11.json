@@ -1,0 +1,932 @@
+{
+  "captured_at_utc": "2025-10-03T04:29:52.958035+00:00",
+  "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0x1d8d0d25f3b705bf207a130308658d15256e2cebc58d123e4ad9e7e3a177ac11",
+  "focus": null,
+  "votes_count": 220,
+  "timeline_metrics_current": {
+    "unique_voters": 220,
+    "total_votes": 220,
+    "first_vote_at": "2025-02-03T23:23:36Z",
+    "last_vote_at": "2025-02-06T22:36:24Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        452267.7631724361,
+        2.2502550653181053,
+        2.317994746302291
+      ],
+      [
+        67288.73459533331,
+        0.04805701566061185,
+        0.010269767031977118
+      ],
+      [
+        30110.331334261573,
+        0.0,
+        0.0
+      ],
+      [
+        209761.42554245406,
+        0.012206736004096138,
+        0.0
+      ]
+    ],
+    "spike_index": 0.377903,
+    "spike_follow_support_ratio": 0.999972,
+    "stairwise_ratio": 2e-05,
+    "half_slope_diff": -12.397723
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x5c744451272991c7fdf8b3830fa2a51fc18dd0e417d95d9c16da765b27f602ff",
+      "title": "[ARFC] sUSD Risk Parameter Adjustment",
+      "author": "0x5d49dBcdd300aECc2C311cFB56593E71c445d60d",
+      "end_utc": "2025-02-03T13:20:00Z",
+      "timeline_metrics": {
+        "unique_voters": 192,
+        "total_votes": 192,
+        "first_vote_at": "2025-01-31T13:26:49Z",
+        "last_vote_at": "2025-02-03T13:13:33Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            141138.17535360888,
+            0.34702285841930125,
+            0.13798107191315145
+          ],
+          [
+            30056.98109514614,
+            2.2502550653181053,
+            0.0
+          ],
+          [
+            26317.3817354584,
+            0.0,
+            0.0
+          ],
+          [
+            127862.39865095724,
+            0.000107592861722465,
+            0.0
+          ]
+        ],
+        "spike_index": 0.383676,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.000119,
+        "half_slope_diff": -2.317655
+      },
+      "price_impact_pct": -11.2509,
+      "tvl_impact_pct": -8.9204,
+      "similarity": 0.1518,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "For",
+        "margin_abs": 325372.33944965387,
+        "scores_total": 325377.672201759,
+        "margin_pct": 0.9999836105776126
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x4809f179e517e5745ec13eba8f40d98dab73ca65f8a141bd2f18cc16dcd0cc16",
+      "cleaned": {
+        "proposal_id": "0x4809f179e517e5745ec13eba8f40d98dab73ca65f8a141bd2f18cc16dcd0cc16",
+        "title": "[ARFC]. Aave Generalized Risk Stewards (AGRS) activation",
+        "author": "0xf71fc92e2949ccF6A5Fd369a0b402ba80Bc61E02",
+        "end_utc": "2024-11-01T11:09:35Z",
+        "similarity_score": 0.18,
+        "winning_option": "For",
+        "winning_option_index": 0,
+        "margin_abs": 823454.6284670696,
+        "margin_pct": 0.9999995307210761,
+        "scores_total": 823455.0148971529,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 204,
+        "total_votes": 204,
+        "first_vote_at": "2024-10-29T11:13:55Z",
+        "last_vote_at": "2024-11-01T09:40:42Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            208212.8025155046,
+            8.594540503383e-06,
+            0.06630016657230506
+          ],
+          [
+            198867.343856087,
+            0.013643902290076983,
+            0.09919029223544344
+          ],
+          [
+            416340.72510650987,
+            0.0,
+            0.020898334457371985
+          ],
+          [
+            33.943377761831606,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.451321,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 2.6e-05,
+        "half_slope_diff": 4.39947
+      },
+      "raw": {
+        "id": "0x4809f179e517e5745ec13eba8f40d98dab73ca65f8a141bd2f18cc16dcd0cc16",
+        "title": "[ARFC]. Aave Generalized Risk Stewards (AGRS) activation",
+        "author": "0xf71fc92e2949ccF6A5Fd369a0b402ba80Bc61E02",
+        "body": "# Simple summary\n\nAfter different changes since the initial Risk Stewards [HERE](https://governance.aave.com/t/arfc-bgd-risk-steward-phase-2-risksteward/16204), we present to the community the final proposal for activating this system across all Aave v3 pools.\n\nThis version of Aave Generalized Risk Stewards (AGRS) include two instances:\n\n- The first is a continuation of the previous design, with the parameters recommendation risk provider (Chaos Labs), with constrained capacity to modify all type of risk parameters on Aave. As extra protection, during the initial period of updates (estimated 1-2 months), BGD Labs will join the Risk Council multi-sig in order to add an additional layer of security review. *Chaos Labs will still be the only decision maker for recommendations as defined on their professional scope with the DAO, with us BGD just being a security contributor*.\n- The second is a pilot version to automate interest rate updates of assets (starting with WETH on Aave v3 Lido Ethereum), based on the newly released risk infrastructure technology Edge, by Chaos Labs.\n\nThe repository can be found on [https://github.com/aave-dao/aave-v3-risk-stewards](https://github.com/aave-dao/aave-v3-risk-stewards).\n\n---\n\n# Motivation\n\nThe base motivation of Aave Generalized Risk Stewards (AGRS) is still the same as the previously proposed version [HERE](https://governance.aave.com/t/arfc-bgd-risk-steward-phase-2-risksteward/16204). After a successful initial iteration for cap updates and different GHO parameters using the Stewards pattern, Aave is prepared to generalize the solution and improve its operational efficiency and reactivity to the market.\n\nRegarding the pilot integration of AGRS with Chaos Labs new Edge infrastructure, it has the following rationale:\n\n1. Whenever aligned with other strategic and technical aspects, Aave should benefit from infrastructure built by service providers, in this case, Chaos Labs.\n2. This pilot will be very non-invasive and with only positive outcomes, as the AGRS layer will guarantee that only acceptable interest rate recommendations will reach the Aave protocol, while ideally having a way more dynamic rate.\n\n---\n\n# Specification\n\n\n## 1. AGRS + Risk provider\n\nThe main version of AGRS will follow the specifications described in the previous Risk Stewards post [HERE](https://governance.aave.com/t/arfc-bgd-risk-steward-phase-2-risksteward/16204#specification-3), which can be summarised in the following:\n\n- The following risk params could be changed by the RiskStewards:\n    - Supply Caps\n    - Borrow Caps\n    - LTV\n    - Liquidation Threshold\n    - Liquidation Bonus\n    - Debt Ceiling\n    - Base variable borrow rate\n    - Slope 1\n    - Slope 2\n    - Optimal point\n    - CAPO configurations\n- For each configuration type, there will be a minimum delay associated with how frequently the AGRS can be used, named `minDelay`. Ex. after increasing LTV by 5%, the operator of the AGRS (risk provider) must wait a minimum of minDelay before either doing any additional change.\n- Each configuration type will have an associated percentage-based constraint (in basis points), indicating how much the parameter can be changed via AGRS compared to the live value on Aave v3. These constraints (`maxPercentChange`) can be of 2 types:\n    - *Absolute*. E.g. for LTV a 5_00 `maxPercentChange` means that is possible to change the LTV value by +/- 5_00 basis points, or 5%, compared to the current live value. So if the current LTV is 65%, it is possible to change up to 70% or down to 60%.\n    - *Relative*. E.g. for Supply Cap a 50_00 `maxPercentChange` means that is possible to change the Supply Cap value by +/- 50_00 basis points, or 50%, proportional to the current live param. So if the current Supply Cap is 1’000’000 WETH, it is possible to change it up to 1’500’000 WETH, or down to 500’000 WETH.\n- The system allows to restrict assets for AGRS to not apply changes, to be used for example with GHO.\n- The only entity enabled to use the AGRS will be the assigned risk service provider, currently Chaos Labs. As a temporary security precaution, and to avoid introducing a timelock (given that the system should be resilient enough without it), BGD will review the params updates proposed for correctness, but without any influence on the recommendation itself.\n\n\n---\n\n\nTo start with, this component of AGRS will have the following configurations (from recommendations of the risk provider of the community):\n\n| Parameter | Percent change allowed | minimumDelay |\n| --- | --- | --- |\n| Supply and Borrow Caps | 100% (relative change) | 3 days |\n| Debt Ceiling | 20% (relative change) | 3 days |\n| CAPO dynamic cap | 5% (relative change) | 3 days |\n| CAPO stable cap | 0.5% (relative change) | 3 days |\n| Base Variable Borrow Rate | 0.5% (absolute change) | 3 days |\n| Slope 1 | 0.5% (absolute change) | 3 days |\n| Slope 2 | 5% (absolute change) | 3 days |\n| Optimal Point (Kink) | 3% (absolute change) | 3 days |\n| Loan to Value (LTV) | 0.25% (absolute change) | 3 days |\n| Liquidation Threshold | 0.25% (absolute change) | 3 days |\n| Liquidation Bonus | 0.5% (absolute change) | 3 days |\n\n\nThe principles for them in the initial phase are:\n- Still highly constraint in percentages and time, in order to not deposit too much trust to start with.\n- Similar as with caps updates, all usage of stewards will be previously disclosed on the Aave governance forum, by a framework to be defined by Chaos Labs, the risk provider in charge.\n\n\nAdditionally, the only blacklisted asset will be GHO on Ethereum, given that changes on it are usually done by the ALC (Aave Liquidity Committee) via the GHOSteward, or directly with governance proposals.\n\n---\n\n## 2. AGRS + Edge Infrastructure by Chaos Labs\n\nDays ago, the Aave risk service provider Chaos Labs [announced Edge](https://chaoslabs.xyz/posts/introducing-edge-the-next-generation-oracle),  a new product innovating on the risk infrastructure ecosystem.\n\nThis new system directly addresses a challenge for risk recommendations on Aave: how to connect as seamlessly as possible the platform of parameters recommendation run by Chaos during the last years for Aave, with the Aave protocol.\n\nWith this activation of AGRS pending, after evaluating the solution, and due to the already long contribution history of Chaos Labs, we decided that is a good opportunity to test out the usage of Edge for a specific parameter: Aave rates configurations for WETH on v3 Lido Ethereum.\n\nThis model will use another instance of AGRS (exactly the same codebase as the other model), but with the following constraints:\n\n- The AGRS + Edge instance will only have configurable rate-related parameters: base variable borrow rate, Slope 1, and Slope 2.\n- Recommendations of these parameters will be submitted to a risk oracle smart contract, from the Edge off-chain infrastructure.\n- Between the risk oracle smart contract and the AGRS contract, there will be a very thin middleware `AaveStewardsInjector` , which will have the following logic:\n    - Will take recommendations from the Edge Risk Oracle side and propagate them to the AGRS contract.\n    - Enforce that only the WETH asset can be acted upon.\n    - Given the protections (percentage constraints and time delay) on the AGRS side and that it is an assumption that risk recommendation will be the time correct on the Edge Risk Oracle, the propagation will be permissionless.\n\n\nRegarding the configurations of the AGRS + Edge instance, will be the following (for only WETH on v3 Lido Ethereum to start with):\n\n| Parameter | Percent change allowed | minimumDelay |\n| --- | --- | --- |\n| Base Variable Borrow Rate | 0.5% (absolute change) | 1 days |\n| Slope 1 | 0.5% (absolute change) | 1 days |\n| Slope 2 | 5% (absolute change) | 1 days |\n| Optimal Point (Kink) | 3% (absolute change) | 1 days |\n\n\n## Security\n\nIn addition to our internal review and testing procedures, the AGRS have been reviewed by Certora, and the report can be found [HERE](https://github.com/aave-dao/aave-v3-risk-stewards?tab=readme-ov-file#security)",
+        "end_utc": "2024-11-01T11:09:35Z",
+        "similarity_score": 0.18,
+        "vote_result": {
+          "choices": [
+            "For",
+            "Against",
+            "Abstain"
+          ],
+          "scores": [
+            823454.8148558629,
+            0.013652496830580363,
+            0.18638879326512048
+          ],
+          "scores_total": 823455.0148971529,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2024-11-01T11:09:35",
+          "pre_tvl_avg": 13831133249.5,
+          "post_tvl_avg": 13340140385.5,
+          "abnormal_change": -3.5499,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.035499,
+          "abnormal_change_pct": -3.5499
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2024-11-01T11:09:35",
+          "pre_price_avg": 149.8596638,
+          "post_price_avg": 130.55960232500001,
+          "abnormal_change": -12.8788,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.128788,
+          "abnormal_change_pct": -12.8788
+        }
+      }
+    },
+    {
+      "proposal_id": "0x47f7044b9445c00ad1f9679e9d6e054b803a4ea995189ebb7b8343a1f3ee74fc",
+      "cleaned": {
+        "proposal_id": "0x47f7044b9445c00ad1f9679e9d6e054b803a4ea995189ebb7b8343a1f3ee74fc",
+        "title": "[ARFC] GHO Steward: Agile Parameter Changes",
+        "author": "0x935aE149899856F9370be6f4a8E40eb622270eA0",
+        "end_utc": "2023-07-16T14:00:53Z",
+        "similarity_score": 0.1655,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 44276.68228775327,
+        "margin_pct": 0.07046924803188144,
+        "scores_total": 628312.1152040926,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-07-13T14:02:20Z",
+        "last_vote_at": "2023-07-14T00:29:15Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            94549.40954450918,
+            0.6221464329564407,
+            3.163818004381618
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.549025,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 6e-06,
+        "half_slope_diff": -0.292521
+      },
+      "raw": {
+        "id": "0x47f7044b9445c00ad1f9679e9d6e054b803a4ea995189ebb7b8343a1f3ee74fc",
+        "title": "[ARFC] GHO Steward: Agile Parameter Changes",
+        "author": "0x935aE149899856F9370be6f4a8E40eb622270eA0",
+        "body": "**Title: [ARFC] GHO Steward: Agile Parameter Changes**\n\n**Author: [@AaveCompanies](https://governance.aave.com/u/aavecompanies)**\n\n**Date: 12th July 2023**\n\n## **Summary**\n\nThis ARFC proposes implementing the dedicated GHO Steward as a dynamic parameter change mechanism to ensure efficient risk management and support the peg of Aave Protocol’s native multi-collateral stablecoin GHO during the initial stages.\n\n## **Motivation**\n\n### **Introduction**\n\nAs the Aave DAO prepares for the introduction of GHO, it is crucial for the community to consider implementing a mechanism that offers greater agility to adjust risk parameters in the initial stages of launch.\n\nTo support the maintenance of the peg, the proposed GHO Steward multisig acts as a dynamic parameter change mechanism. It enables swift adjustments to risk parameters in the form of scoped governance delegation where the full governance process could potentially be time-consuming and hinder timely response to evolving circumstances.\n\nBy employing this mechanism, the Aave Protocol ensures transparency and enables flexible parameter changes through decentralized governance. This approach reinforces commitment to preserving the peg and effectively addressing market challenges that may arise upon the launch of GHO.\n\n### **Key Terms**\n\nThe “bucket capacity” refers to the maximum amount of GHO that can be minted by a Facilitator. The ability to adapt the bucket capacity by adjusting supply supports stability by ensuring that available supply meets demand.\n\nThe “borrow rate” refers to the interest rate paid when borrowing GHO. The borrowing rate may also be used to support stability because of its impact on demand.\n\nYou can learn more about GHO in the docs [here](https://docs.gho.xyz/).\n\n### **GHO Steward Permissions**\n\nAave V3 provides a high level of granularity around permissions. Building on the concept of [Risk Stewards](https://governance.aave.com/t/arfc-aave-v3-caps-update-framework/11937/4), it is proposed that a dedicated GHO Steward multisig be introduced to support the initial GHO governance risk mechanism to enable the implementation of agile parameter changes in the form of scoped governance delegation.\n\nThe GHO Steward multisig would be 2/2 and would include the DAO’s risk providers Chaos Labs and Gauntlet.\n\nThe GHO Steward would be capable of adjusting predefined parameters including: increasing the bucket capacity (by up to 100%) and changing the borrow rate (by up to 100 basis points in either direction) in a single change. Parameter updates could only occur once every 5 days per the parameter.\n\nIt is proposed that the GHO Steward would be deactivated 90 days after the passing of this proposal. However, the DAO can vote to renew the GHO Steward for another 90 days if deemed necessary. The DAO can also vote to remove the GHO Steward at any time.\n\n### **Governance Process**\n\nThis proposal emphasizes the importance of decentralization and community involvement in the decision-making process, fostering a robust and inclusive ecosystem. The GHO Risk Steward would enable agile parameter changes for GHO; however, decisions shouldn’t be made in isolation and should go through a lean governance process.\n\nThe proposed lean process is as follows:\n\n1. Proposal on the Governance Forum explaining the rationale of the proposed action.\n2. Snapshot requirements:\n    \n    a. 24-hour duration starting from the posting of the proposal\n    \n    b. Quorum 250,000 AAVE\n    \n    c. A minimum of 70% of votes FOR the change\n    \n3. Change can be enacted as soon as the proposal passes Snapshot.\n\n### **Conclusion**\n\nIn conclusion, the GHO Steward serves as an initial agile parameter change mechanism driven by decentralized governance. It highlights the Aave Protocol’s commitment to maintaining GHO stability and addressing market challenges during the launch period.\n\nWhile the proposal acknowledges the potential for a more dynamic rate-changing governance model in the future, the current framework allows the DAO to effectively manage GHO’s parameters in the short term.\n\n## **Specification**\n\n### **Capabilities:**\n\n1. **Capacity Increase:** It can increase the bucket capacity by up to 100%. This is strictly an upward adjustment; the capacity cannot be decreased by the GHO Steward.\n2. **Borrow Rate Adjustment:** It can adjust the borrow rate by up to 1%, either upwards or downwards.\n\n### **Configuration:**\n\n1. **Permissions:** The GHO Steward is granted PoolAdmin in the Aave Protocol and BucketManager for the GHO token.\n2. **Risk Council:** This Multisig is solely responsible for triggering actions through the GHO Steward contract. The address of this entity cannot be changed.\n3. **Execution Time Delay:** Any parameter change made by the GHO Steward contract, such as increasing bucket capacity or adjusting the borrow rate, is limited to once within the time delay period. e.g.,GHO Steward can only change a parameter once 5 days have passed since the last parameter change for that specific parameter.\n4. **Lifespan:** The GHO Steward contract will initially only have a lifespan of 90 days. The lifespan is designed to ensure regular review of the necessity of this approach.\n5. **Steward Lifespan Extension:** The DAO can extend the lifespan of the GHO Steward for additional 90-day periods as many times as it wants.\n\n### **Disclaimer**\n\nN/A\n\n### **Links**\n\n- Codebase: [GitHub](https://github.com/aave/gho-core/blob/main/src/contracts/misc/GhoSteward.sol)\n- Audit Report: [GitHub](https://github.com/aave/gho-core/blob/main/audits/13-06-2023_SigmaPrime_GhoSteward.pdf)\n\n## **Next Steps**\n\nIf the Snapshot outcome is YAE, this proposal will be escalated to AIP stage.\n\n## **Copyright**\n\nCopyright and related rights waived via CC0.",
+        "end_utc": "2023-07-16T14:00:53Z",
+        "similarity_score": 0.1655,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "NAY",
+            "ABSTAIN"
+          ],
+          "scores": [
+            287468.9040053559,
+            243192.22171760263,
+            97650.98948117092
+          ],
+          "scores_total": 628312.1152040926,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2023-07-16T14:00:53",
+          "pre_tvl_avg": 6161951304.5,
+          "post_tvl_avg": 5933293427.0,
+          "abnormal_change": -3.7108,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.037108,
+          "abnormal_change_pct": -3.7108
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2023-07-16T14:00:53",
+          "pre_price_avg": 80.12421553,
+          "post_price_avg": 71.90922035,
+          "abnormal_change": -10.2528,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.102528,
+          "abnormal_change_pct": -10.2528
+        }
+      }
+    },
+    {
+      "proposal_id": "0xa8ec5cf2568691144861b38af1b2cef4f95d33d0912fea28438132cabf4b6c28",
+      "cleaned": {
+        "proposal_id": "0xa8ec5cf2568691144861b38af1b2cef4f95d33d0912fea28438132cabf4b6c28",
+        "title": "[ARFC] Chaos Labs <> Aave Risk Management Service Renewal ",
+        "author": "0xF1dF824419879Bb8a7E758173523F88EfB7Af193",
+        "end_utc": "2024-10-18T05:57:05Z",
+        "similarity_score": 0.1592,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 414321.1503385534,
+        "margin_pct": 0.9975581564581546,
+        "scores_total": 415335.3342421729,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 208,
+        "total_votes": 208,
+        "first_vote_at": "2024-10-15T05:58:08Z",
+        "last_vote_at": "2024-10-18T00:33:25Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            238663.8284139314,
+            0.011263682476220156,
+            2.028345337615487
+          ],
+          [
+            120842.35017121512,
+            0.0,
+            0.021498334457371985
+          ],
+          [
+            54888.65344145637,
+            0.0,
+            505.0364762964478
+          ],
+          [
+            433.40463191909186,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.417638,
+        "spike_follow_support_ratio": 0.999999,
+        "stairwise_ratio": 5.5e-05,
+        "half_slope_diff": -0.98081
+      },
+      "raw": {
+        "id": "0xa8ec5cf2568691144861b38af1b2cef4f95d33d0912fea28438132cabf4b6c28",
+        "title": "[ARFC] Chaos Labs <> Aave Risk Management Service Renewal ",
+        "author": "0xF1dF824419879Bb8a7E758173523F88EfB7Af193",
+        "body": "## Author: Chaos Labs\n\n## Date: 2024-10-04\n\n----------\n# Summary\n\nChaos Labs proposes to renew our engagement with the Aave DAO. We will provide our full suite of risk management products and services, covering all of Aave, including V2, V3, and GHO, across all current and future deployments.\n\nOur current annual engagement is set to end on November 13th, 2024.\n\n# **Background**\n\nIn November 2022, Chaos Labs formally joined the Aave DAO as a service provider specializing in risk management and parameter optimization. \n\nDuring this time, we have consistently demonstrated our unwavering dedication to the DAO, covering all aspects of the protocol across all deployments and providing the community with proactive risk parameter recommendations alongside reactive analyses and risk-mitigating strategies in light of significant market events. Chaos Labs has initiated over 230 ARFCs and posts, and actively engaged with more than 770 posts, including parameter optimization, onboarding of new assets and new deployments, deprecation of V2 and migration to V3, GHO growth, and community support during major market events.\n\nThroughout our engagement, the protocol incurred minimal bad debt, even during significant market events, including those on August 6, 2024, which resulted in zero bad debt.\n\n💡 A comprehensive summary of Chaos Labs’ activities over the past contract year is available in our monthly community updates here. [Chaos Labs - Monthly Community Update](https://governance.aave.com/t/chaos-labs-monthly-community-update/11174/12)\n\n## Highlighted products and ongoing work\n\n### Products:\n\n- [Aave Risk Monitoring and Alerting Platform](https://community.chaoslabs.xyz/aave/risk/overview)\n- [Chaos Labs Asset Protection Tool](https://chaoslabs.xyz/posts/chaos-labs-asset-protection-tool)\n- [Risk Oracles for Parameter Recommendations](https://chaoslabs.xyz/solutions/risk)\n- [GHO Risk Monitoring Dashboard](https://community.chaoslabs.xyz/aave/risk/GHO)\n\n### **Analyses and Proposals:**\n\n- **CAPO Framework**\n    - https://governance.aave.com/t/chaos-labs-correlated-asset-price-oracle-framework/16605\n- **New Deployments**\n    - https://governance.aave.com/t/arfc-aave-v3-deployment-on-bnb-chain/12609/5?u=chaoslabs\n    - https://governance.aave.com/t/arfc-deployment-of-aave-on-zksync/17937/7?u=chaoslabs\n    - https://governance.aave.com/t/arfc-deploy-a-lido-aave-v3-instance/18047/7?u=chaoslabs\n    - https://governance.aave.com/t/arfc-deploy-an-etherfi-stablecoin-aave-v3-instance/18440/2?u=chaoslabs\n- **Market Events**\n    - https://governance.aave.com/t/chaos-labs-market-alert-high-price-volatility-and-liquidations-04-13-2024/17360\n    - https://governance.aave.com/t/usdp-price-spike-impact-04-16-2024/17391\n    - https://governance.aave.com/t/chaos-labs-risk-report-insights-from-recent-market-events-06-08-24/18554\n    - https://governance.aave.com/t/chaos-labs-ethenas-usde-and-susde-funding-rates-08-06-24/18565\n- **GHO**\n    - https://governance.aave.com/t/arfc-gho-cross-chain-launch/17616/4?u=chaoslabs\n- **V2 → V3 Migration and V2 Deprecation**\n    - https://governance.aave.com/t/arfc-deprecation-of-small-cap-stablecoins-on-v2-ethereum/17484\n    - https://governance.aave.com/t/arfc-temporary-freeze-of-long-tail-v2-assets/17403\n- **Risk Stewards**\n    - [Risk Stewards posts](https://governance.aave.com/search?q=chaos%20labs%20Risk%20Stewards%20after%3A2024-01-01)\n\n# Proposal\n\nChaos Labs offers a comprehensive risk management and optimization platform for Aave, covering the entire spectrum of Aave, including V2, V3, and GHO, across all current and future deployments.\n\nOur strategies aim to secure protocol assets against market volatility, black swan events, liquidity attacks, and market manipulation. Our methodologies are rooted in an integrative approach, offering protocol robustness and protecting funds from market risks through dynamic risk parameter recommendations. We provide a holistic approach encompassing software and services to mitigate risks in volatile markets, countering economic attacks on the protocol and ensuring the secure preservation of user funds.\n\n## Scope\n\n### **Risk Parameter Optimization**\n\nUsing our state-of-the-art risk simulation platform, proprietary methodologies, and a highly skilled team of data scientists and researchers, we deliver in-depth analyses and strategic recommendations for optimizing risk parameters. Our cutting-edge simulations utilize real-time protocol dynamics and on-chain behaviors to rigorously stress-test the protocol, uncovering potential vulnerabilities and opportunities for enhancement. This advanced approach provides a detailed understanding of the factors influencing protocol health and stability, enabling us to offer data-driven recommendations that maximize protocol revenue while safeguarding user funds and mitigating risks.\n\nOur coverage includes support for all Aave risk parameters, including Liquidation Thresholds, LTV, Liquidation Bonus, Supply and Borrow Caps, Debt Ceilings, and Interest Rate Curves.\n\n### **Risk Oracles**\n\nEnhance the capabilities of Edge Risk Oracles, developed by Chaos Labs, to better meet Aave's specific requirements, enabling more efficient and dynamic adjustments to risk parameters. This will streamline the risk management process, minimize the need for manual interventions, and significantly improve the protocol's operational efficiency and security.\n\nCurrently, this initiative is under [governance review](https://governance.aave.com/t/arfc-aave-generalized-risk-stewards-agrs-activation/19178) for the Lido Instance, with plans to expand coverage to additional parameters and deployments in the future.\n\nAs part of this initiative, we will enhance our product by introducing a dashboard that monitors Risk Oracle updates, enabling the community to track historical changes and assess the impact of parameter optimizations over time.\n\n### **Risk Monitoring and Alerting**\n\nWe offer real-time monitoring and alerting services through the [Chaos Labs Risk Monitoring Platform](https://community.chaoslabs.xyz/aave/risk/overview). These services allow users to assess ecosystem risk and protocol health at granular levels using dashboards and data visualizations. Users can drill into specific scenarios in which the protocol could be negatively impacted and receive alerts concerning significant changes to on-chain activities that could pose a risk or detriment to the protocol’s health.\n\nAs part of our commitment to delivering a world-class risk management solution for the DeFi ecosystem, we constantly iterate and improve the platform with additional features and enhancements. The Aave community will continue to gain access to the newest feature additions and enhancements continuously, allowing users to stay ahead of the curve and make informed decisions while optimizing their overall portfolio performance.\n \n![ff4cb055395f8634be7c381a29e3f8016a5c65cc.png](ipfs://bafybeig7ommgsbubnp7vwr6qvruoxey7252powzpruxmkmbrzxxfkuzray)\n    \n### Risk Stewards and Guardians\n\nWe act as Risk Stewards, carefully managing risk while adjusting supply and borrow caps according to predefined rules. This enables us to continually raise caps, fostering protocol growth without compromising safety. A current [governance proposal](https://governance.aave.com/t/arfc-aave-generalized-risk-stewards-agrs-activation/19178) aims to expand the Risk Stewards' authority to encompass a broader range of risk parameters, allowing for more agile and timely adjustments based on market conditions. Additionally, we serve as signers on the Aave Protocol Guardians, ensuring protocol security in critical situations, and as GHO Stewards.\n\n### Deprecation of V2 and Migration to V3\n\nChaos Labs has spearheaded several community initiatives to deprecate the V2 markets and facilitate the transition to V3, as outlined in the ‘Background’ section.\n\nAs we progress with the deprecation plan and migration efforts, we are committed to continue allocating resources and offering the community recommendations for proactively adjusting V2 parameters. This includes updates to Liquidation Thresholds, Reserve Factors and enhancing the capital efficiency of V3 markets to ensure a seamless migration of positions from V2.\n\nGiven the extended nature of the transition to V3, it remains imperative to uphold proactive risk management for V2 during this transitional phase.\n\n### **Protocol Growth**\n\nChaos Labs will provide integral support to the protocol growth initiatives through detailed market risk assessments and parameter recommendations for new asset listings and deployments.\n\nAs we onboard new assets and deployments, the Chaos team will seamlessly integrate them into our systems to facilitate continuous monitoring and parameter optimization. We uphold the same high standard for all assets and deployments, ensuring consistency and excellence across the board. Our goal is to provide unwavering support for the protocol’s expansion and sustainability.\n\n### GHO\n\nChaos Labs is committed to the continued growth and safety of the stablecoin and will provide ongoing support, including:\n\n- **Parameter Optimization** - We will conduct data-driven research and simulations to recommend optimizations for GHO-specific parameters, including Borrow rate, stkAAVE discount rate, bucket capacities, GSM, and DEX liquidity goals.\n- **Ongoing Risk Management, Monitoring, and Analytics** - We will continue iterations on our unified risk monitoring and alerting platform for GHO across primary markets (Aave), including all facilitators and secondary markets (centralized and decentralized exchanges). Our risk management services include economic reviews of GHO and ecosystem adoption across primary and secondary markets, peg stability, GHO backing composition, and more.\n- **Facilitator’s Risk Framework, Recommendations, and Monitoring** - We will continue to enhance our risk framework to consider potential facilitators and their corresponding GHO credit lines and provide ongoing risk analysis for potential and existing facilitators based on this framework.\n\n# Chaos Team Support\n\nAs part of our services, we assign a dedicated protocol manager supported by our world-class team of researchers and data scientists to lead all risk-related communications and inquiries with the Aave community.\n\nOur team support typically covers two main areas: ongoing management and incident response. In the event of any incidents or issues, our team will be on hand to provide timely and effective incident response, minimizing the potential impact on the protocol and its users.\n\n**Ongoing and Proactive Risk Management**\n\nThis includes detailed analyses of new asset onboarding, assessing the potential risks and benefits of launching in new markets, and providing a thorough understanding of parameter recommendations, including qualitative data and position analysis.\n\n**Incident Response**\n\nThis includes supporting various events, including liquidity changes, asset depegs, price volatilities, etc. Our team provides ongoing support in these events, including market monitoring and alerting, ad-hoc risk analysis, and recommendations on risk-mitigating actions.\n\nOur team of experts brings a wealth of experience in risk management and data analysis, enabling us to provide the insights and recommendations necessary to navigate even the most challenging market conditions. By working closely with the community, we can provide the support and guidance necessary to promote Aave’s long-term success and sustainability.\n\n# Communications:\n\n- Our team will share our recommendations and analyses through dedicated governance forum discussions, maintaining transparency and facilitating effective communication with the community.\n- We commit to providing a monthly update post, highlighting completed work and outlining our future focus areas.\n- We are consistently available for community calls and regularly schedule check-up calls with Aave delegates. These calls primarily focus on addressing risk-related inquiries, offering insights into existing proposals, and gathering general feedback.\n\n# Terms\n\n- 12-month engagement, November 13th 2024-November 13th, 2025\n- $2M, streamed linearly throughout the engagement.\n    - $1,000,000 in GHO\n    - $1,000,000 in aUSDT\n\n# Specification:\n\nIf this proposal is approved, a stream of the allocated budget will be activated, with a Chaos Labs-controlled account (`0xbC540e0729B732fb14afA240aA5A047aE9ba7dF0`) as the recipient.\n\nRegarding technical implementation, the AIP will call the `createStream()` method of the `IAaveEcosystemReserveController` interface to create a stream of 1,000,000 aUSDT and 1,000,000 GHO for a 12-month duration.\n\n# Disclaimer:\n\nChaos Labs provides ongoing risk management services to several other borrowing/lending protocols, such as Benqi, Venus, Gearbox, and more. These commitments do not interfere with our responsibilities concerning our association with Aave. We conscientiously provide explicit disclaimers and relevant context in any proposals that may influence clientele across the DeFi ecosystem.\n\nThis proposal was not commissioned or paid for by any third party.\n\n# Next steps\n\n1. Following community feedback, we are targeting a Snapshot vote.\n2. If consensus is reached, submit an Aave Improvement Proposal (AIP).\n\n# Copyright:\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain)",
+        "end_utc": "2024-10-18T05:57:05Z",
+        "similarity_score": 0.1592,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "NAY",
+            "Abstain"
+          ],
+          "scores": [
+            414828.2366585219,
+            0.011263682476220156,
+            507.08631996852057
+          ],
+          "scores_total": 415335.3342421729,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2024-10-18T05:57:05",
+          "pre_tvl_avg": 12903715505.0,
+          "post_tvl_avg": 13377028611.0,
+          "abnormal_change": 3.668,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.03668,
+          "abnormal_change_pct": 3.668
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2024-10-18T05:57:05",
+          "pre_price_avg": 154.43965101499998,
+          "post_price_avg": 156.01978284,
+          "abnormal_change": 1.0231,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.010231,
+          "abnormal_change_pct": 1.0231
+        }
+      }
+    },
+    {
+      "proposal_id": "0xc44ec840f8f7f6ca3ef2f2a4289882c4cdc1a8b3e6e9ad6b811a640097a8016a",
+      "cleaned": {
+        "proposal_id": "0xc44ec840f8f7f6ca3ef2f2a4289882c4cdc1a8b3e6e9ad6b811a640097a8016a",
+        "title": "[ARFC] TokenLogic + karpatkey Financial Service Providers - Phase II",
+        "author": "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1",
+        "end_utc": "2024-07-25T19:18:54Z",
+        "similarity_score": 0.1506,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 445988.5978044575,
+        "margin_pct": 0.6401153563874417,
+        "scores_total": 696731.6021309675,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 298,
+        "total_votes": 298,
+        "first_vote_at": "2024-07-22T19:29:12Z",
+        "last_vote_at": "2024-07-25T19:06:09Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            382825.6711204475,
+            0.0,
+            0.0
+          ],
+          [
+            143921.14977326078,
+            0.07969820133839219,
+            1.8186261444902478
+          ],
+          [
+            44526.988970830054,
+            1.5000982357050723,
+            22093.64074389222
+          ],
+          [
+            85.45847782019545,
+            0.08345427077912287,
+            103275.21116786472
+          ]
+        ],
+        "spike_index": 0.323643,
+        "spike_follow_support_ratio": 0.999995,
+        "stairwise_ratio": 4.3e-05,
+        "half_slope_diff": -3.268339
+      },
+      "raw": {
+        "id": "0xc44ec840f8f7f6ca3ef2f2a4289882c4cdc1a8b3e6e9ad6b811a640097a8016a",
+        "title": "[ARFC] TokenLogic + karpatkey Financial Service Providers - Phase II",
+        "author": "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1",
+        "body": "# [ARFC] TokenLogic + karpatkey Financial Service Providers - Phase II\n\n---\n\nTitle: [ARFC] TokenLogic + karpatkey - Phase II\nAuthor: TokenLogic karpatkey\nCreated: 2024-07-16\n\n---\n\n![TL + kpk 2](https://hackmd.io/_uploads/Bkwva6C80.jpg)\n\n# Summary\n\nThis publication proposes the continuation of the collaboration with karpatkey and TokenLogic for an additional 6 months, with a proposed budget of 500k GHO. The proposed contributions extend over the three themes detailed below: Treasury Management, GHO adoption and the Aave Stack.\n\n# Motivation\n\nThe TokenLogic and karpatkey partnership has created significant value for the Aave DAO across all three focus areas detailed [here](https://governance.aave.com/t/phase-i-summary-karpatkey-tokenlogic/17962). GHO's peg, liquidity, and growth prospects have each improved dramatically over the last 6 months. The DAO's finances are more transparent than ever before and the DAO is firmly positioned for growth.\n\nBuilding on the success of Phase I, we seek to extend our collaboration with the Aave Community for another 6 months. Phase II of our engagement is to focus on enabling GHO and Aave to grow market share through prudent financial management and contributing to numerous growth initiatives. Our three primary focus areas are summarized below:\n\n* Treasury Management\n* GHO Adoption\n* Aave Stack\n\n\n## What to Expect\n\n### Treasury Management\n\n**Asset Management** \n\nThe Aave DAO receives revenue in the form of revenue-generating aTokens for each deployed lending market. Whilst that reduces the need to deploy assets beyond the protocol itself, this creates a need for continual rebalancing of asset holdings.\n\nTo facilitate streamlining routine operational tasks, the [Finance Steward](https://governance.aave.com/t/arfc-aave-finance-steward/17570) role, which has been already introduced to the Aave community, will be developed. Given the ability to create allowances, streams, perform transfers, assets bridging, and swaps within pre-approved guidelines and without AIPs, we expect the governance overhead around treasury management to decrease significantly.\n\nThe GHO Finance Steward's capacity to perform swaps will also be improved by the implementation of the [Aave Swap](https://governance.aave.com/t/arfc-aave-swap-upgrade/15311) contract. With this tool, the DAO will be able to acquire assets in a timely and targeted manner, and to support GHO's peg during turbulent market conditions with the ability to create limit orders. \n\n**Financial Security**\n\nA key objective is to define the DAO's annual budget and secure sufficient funds to ensure DAO operations under stressfull market conditions. As the DAO's revenues have exceeded the burn-rate and currently holds more assets (about $145M at [end of June](https://reports.karpatkey.com/?dao=9&month=6&year=2024&currency=USD)) than planned expenses, this proposal will target to cover a [six months' runway](https://aave.tokenlogic.xyz/runway) matching holdings with expense tokens or token class as deemed appropriate for capital efficiency. This approach guarantees financial stability and operational continuity for Aave DAO.\n\nKey components of this objective will include:\n\n* Deploying bridging contracts (as required);\n* Bridging Aave funds between networks;\n* Alocating assets for capital efficiency. In particular, migrating funds from Aave v2 to Aave v3; and\n* Swapping assets to align expenses and holdings.\n\n\n**Aave Analytics**\n\nReporting and analytics functions will be expanded to provide the utmost transparency into the DAO's financial status and overall performance of the protocol, and to support informed decision-making and analysis of the Aave ecosystem. This includes the [Aave Portal](https://aave.tokenlogic.xyz/) and the [Aave Treasury Report](https://reports.karpatkey.com/), which shows detailed information on DAO holdings and treasury performance.\n\nThe Aave Portal will continue to evolve to showcase the performance of the Aave Protocol and GHO's adoption. Over the next 6 months, the portal will expand to include all revenue sources (incl. Accrued), assets holdings and expenses (incl. budgets) in granular detail, whilst also beginning to include high-level performance tracking across existing covered deployments.\nSeveral legacy community Dune Dashboards will be integrated into the Aave Portal, where they will be maintained and expanded upon over time.\n\n\n### GHO Adoption\n\n**Oversight**\n\nDuring Phase II, GHO's growth is expected to accelerate and expand to several networks. To nurture and maximize the growth potential of GHO, its success hinges on the ability to hold its peg and scale simultaneously.\n\nAs a GHO Steward, we will continue to manage key GHO and GSM configurations, including Borrow Rate, GSM Caps, and GSM fees. As the Treasury Managers, we will ensure the GSM is adequately funded, targetting a collateralization in the range of 5% to 10% of total supply, and that GHO swaps are performed in a manner supportive of retaining a tight peg.\n\n**Liquidity**\n\nWe will continue to lead the operations of the Aave Liquidity Committee (ALC), overseeing the liquidity growth across different protocols. This includes\n\n* Adjusting liquidity incentives to maintain sufficient market depth;\n* Defining and executing direct liquidity incentives;\n* Leading initiatives that create utility for GHO;\n* Optimizing the utilization of the DAO's strategic voting assets;\n* Supporting GSM Integrations with aggregators;\n* Ensuring GSM are adequately funded;\n* Supporting future D3M, Facilitator, and Protocol Owned Liquidity (POL) initiatives; and\n* Support efforts to integrate GHO to Centralized Exchanges, and fund managers.\n\n**Growth**\n\nAs GHO continues to grow beyond Ethereum, our efforts will expand to support those new deployments to ensure adequate liquidity and peg stability is maintained. We will continue to work with teams that build with GHO and advocate for the adoption of GHO wherever practical.\n\nWhen GHO is mature enough to support deploying Protocol Owned Liquidity, we will actively contribute to the creation of sGHO and balancing the needs for sGHO and stkGHO within the Aave ecosystem. \n\n### Aave Stack\n\n**Safety Module Management and Optimisation**\n\nThe Safety Module (SM) currently presents exposure risks due to its reliance on the DAO's native token and its deployment solely on the Ethereum blockchain.\n\nWith multiple instances of the SM being deployed, we will continue to perform the following:\n\n* Transition from AAVE emissions;\n* Introduce new categories;\n* Amend emission schedules; and,\n* Progressively align protocol exposure with SM holdings; \n\n**Aave Liquidity Network**\n\nWith upcoming changes in the Aave product stack, including the Liquidity Network and the stablecoin's multichain deployment, new challenges will arise in integrating these aspects with other products. We will actively participate in coordination and consulting to support the streamlined and successful deployment of these features.\n\nWhere practical, sunsetting of legacy v2 markets will be supported through continual parameter adjustments to encourage users to migrate to the latest instance of Aave Protocol.\n\n\nBy addressing these challenges, our team aims to support the DAO in achieving sustainable growth and resilience in a rapidly changing environment.\n\n# Specification\n\nThe createStream() method of the IAaveEcosystemReserveController will be called to create two streams with a start time block 1718673864:\n\n**karpatkey**\nStream: 250k GHO over 180 days\nAddress: `0x58e6c7ab55aa9012eacca16d1ed4c15795669e1c`\n\n**TokenLogic**\nStream: 250k GHO over 180 days\nAddress: `0x3e4A9f478C0c13A15137Fc81e9d8269F127b4B40`\n\nTokenLogic and karpatkey are to be included in the Gas Rebate program that reimburses deployment and testings costs.\n\n# Disclaimer\n\nTokenLogic and karpatkey receive no compensation beyond the Aave protocol for the creation of this proposal. TokenLogic and karpatkey are both delegates within the Aave ecosystem. \n\n# Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+        "end_utc": "2024-07-25T19:18:54Z",
+        "similarity_score": 0.1506,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "NAY",
+            "ABSTAIN"
+          ],
+          "scores": [
+            571359.2683423589,
+            1.663250707822587,
+            125370.67053790142
+          ],
+          "scores_total": 696731.6021309675,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2024-07-25T19:18:54",
+          "pre_tvl_avg": 13428899703.5,
+          "post_tvl_avg": 12990183236.5,
+          "abnormal_change": -3.267,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.03267,
+          "abnormal_change_pct": -3.267
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2024-07-25T19:18:54",
+          "pre_price_avg": 92.16916005,
+          "post_price_avg": 100.11357362,
+          "abnormal_change": 8.6194,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.086194,
+          "abnormal_change_pct": 8.6194
+        }
+      }
+    },
+    {
+      "proposal_id": "0x6e57ed54cf803652ab4839ff7b7f7de08ba086fbe99163547c6188a3ee55e209",
+      "cleaned": {
+        "proposal_id": "0x6e57ed54cf803652ab4839ff7b7f7de08ba086fbe99163547c6188a3ee55e209",
+        "title": "[ARFC] TokenLogic & karpatkey Service Provider Partnership",
+        "author": "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1",
+        "end_utc": "2023-12-14T15:19:02Z",
+        "similarity_score": 0.149,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 406742.4991961513,
+        "margin_pct": 0.7535654557047391,
+        "scores_total": 539757.3576614697,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 1508,
+        "total_votes": 1508,
+        "first_vote_at": "2023-12-11T15:21:18Z",
+        "last_vote_at": "2023-12-14T15:11:50Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            365919.4957641165,
+            0.6440173080647068,
+            20.087155337425596
+          ],
+          [
+            46250.27589702302,
+            0.4827122517349082,
+            64976.4852419247
+          ],
+          [
+            60153.217711795005,
+            2.232506130098398,
+            1.4839093224496198
+          ],
+          [
+            925.1787022336633,
+            0.16147159224490584,
+            1507.61257243331
+          ]
+        ],
+        "spike_index": 0.30497,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 9.4e-05,
+        "half_slope_diff": -18.880832
+      },
+      "raw": {
+        "id": "0x6e57ed54cf803652ab4839ff7b7f7de08ba086fbe99163547c6188a3ee55e209",
+        "title": "[ARFC] TokenLogic & karpatkey Service Provider Partnership",
+        "author": "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1",
+        "body": "![Screenshot 2023-12-10 at 15.18.05.png](ipfs://bafybeibxdcjv3b4p4w5wyjkby74ynhsyobto67smsj2krhnfnaiuexya7e)\n\n---\n\nTitle: [ARFC] TokenLogic & karpatkey Service Provider Partnership\nDiscussions: https://governance.aave.com/t/temp-check-financial-services-proposal-karpatkey-tokenlogic/15633\nAuthor: @TokenLogic @karpatkey\nCreated: 2023-12-05\n\n---\n\n# Summary\n\nThis ARFC is to onboard TokenLogic & karpatkey to provide financial services to the Aave DAO for an initial period of 180 days, with a combined budget of 400k GHO.\n\n# Motivation\n\n## Overview\n\nTokenLogic & karpatkey are responsible for delivering the following services to the Aave DAO: \n\n* Treasury Management;\n* Strategic Assets' Liquidity; and\n* Safety Module.\n\nThis funding will be used to support the TokenLogic and karpatkey teams to deliver the scope as outlined in the [TEMP CHECK](https://governance.aave.com/t/temp-check-financial-services-proposal-karpatkey-tokenlogic/15633).\n\n## What to Expect\n\nThis proposal outlines a collaborative framework between TokenLogic and karpatkey to manage the Aave DAO’s treasury. Both parties will work in unison to ensure any future proposals within the agreed scope are jointly developed and endorsed.\n\n### Treasury Management\n\n#### Develop the Architecture for Managing Aave's Assets\n\nWe aim to define a robust architecture for asset management. This architecture will enable non-custodial asset management, incorporating role-based access controls preapproved by the community that will enable treasury diversification and yield optimization. This system will ensure the Aave DAO retains full control over fund retrieval and permission management, facilitated through Aave’s “shortExecutor”. Over time this will lead to fund management delegation and reduced governance overhead.\n\nAs the architecture for treasury management is being developed, the TokenLogic and karpatkey partnership will diligently progress with the necessary treasury operations, aligning them with the needs of the DAO and the stipulations of this proposal. All activities will be conducted in accordance with the established AIP model to avoid any disruptions.\n\n#### Financial Security\n\nA key objective is to secure sufficient funds to ensure a one-year runway, aligning with the DAO’s known budget and anticipated expenses. \n\nThis approach guarantees financial stability and operational continuity for Aave DAO. Key components of this objective will include:\n\n* Bridging Aave funds between networks;\n* Migrating funds from Aave v2 to Aave v3; and\n* Swap assets to align expenses and holdings.\n\nDo note, that financial statements have been omitted in order to present a cost-conscious, high-impact solution within the current budget. If the Aave DAO wishes to explore having financial statements as part of a broader proposal, we can later expand the funding to include the additional scope.\n\n### Strategic Assets' Liquidity\n\nTokenLogic and karpatkey will lead the Aave Liquidity Committee (ALC) and oversee the management of liquidity incentives and Aave-owned liquidity in alignment with Aave’s strategic asset goals. One of the main focus areas will be supporting GHO’s token price recovery. Key initiatives include:\n\n* Foster concentrated liquidity profiles that support GHO’s price movement towards re-pegging while maintaining its utility across a full range of AMMs.\n    * Utilize Maverick’s design to automate liquidity concentration as prices evolve, while reducing the friction caused by liquidity fragmentation in concentrated boosted pools.\n    * Optimize incentives on Uniswap v3 for concentrated liquidity, tailored across three categories: fees, GHO, and other USD token liquidity. Prioritize USD liquidity, particularly when GHO is off-peg.\n    * Continuously review and adjust incentives on platforms that yield the best results.\n    * Initial focus is on skewed liquidity distribution to support regaining the peg. However, it is paramount to ensure existing liquidity providers find sufficient utility in their GHO funds (through sustainable strategies that make use of Aave’s AURA holding) to mitigate selling pressure.\n* Post-Repeg Strategy for GHO, explore sustainable approaches that preserve the token’s value and expand its functional role within the ecosystem:\n    * Implement optimized liquidity strategies through Maverick and Merkl to achieve balanced liquidity and deeper market depth.\n    * Enhance GHO’s extrinsic demand by incentivizing stable swap pools, such as Balancer’s GHO pools, leveraging Aave’s capacity for a significant TVL increase.\n     * Work with Gyroscope to deploy liquidity pools that align with Balancer’s architecture, using their advanced bonding curve model for concentrated liquidity AMMs. This strategic integration will use Aave-owned AURA to enhance GHO’s price stability.\n     * Deploy and incentivize markets beyond USD-pegged assets, including ETH, ETH LSTs, EUR, and Real World Assets (RWAs). This diversification will open up new investment avenues and attract liquidity providers with varying risk appetites.\n    * Collaborate closely with Aave and specialized risk service providers to support the deployment and configuration of the GHO Stability Module (GSM). This coordination will focus on fine-tuning critical parameters, taking into account prevailing market conditions. Our objective is to integrate the GSM with managed capacity, potentially even before GHO achieves full re-pegging, as a strategic mechanism to foster price stability.\n* To optimize the utilization of surplus votes resulting from incentivized liquidity, we propose to leverage excess voting power effectively, transforming it into tangible rewards through participation in voting markets such as Curve, Convex, Balancer, and Aura.\n\nFor operational simplicity and alignment with the DAO’s strategic objectives, evolving the GHO Liquidity Committee into the Aave Liquidity Committee is a logical step. \n\n### Safety Module\n\nAs part of the scope, karpatkey and TokenLogic will focus on modelling the SM performance during shortfall events and present proposals to diversify asset categories. This proposal will feature how the DAO can utilize the vlAURA position, realize synergies between GHO Liquidity and overall attempt to reduce the DAOs insurance fund spend.\n\nThe below outlines at a high level what we intend to deliver:\n\n* Introduce additional asset categories to promote diversification and reduce the dependence on AAVE as a backstop for the protocol. \n    * Initial parameter configuration will incorporate feedback from @ChaosLabs & @Gauntlet. \n    * We will explore the feasibility of including GHO LP assets and harness rewards from other protocols.\n    * Technical lift associated with creating new categories will be performed by @bgdlabs, with a security audit, if required.\n* A 90-day emission forecast will be provided ahead of each emission cycle for community feedback. TokenLogic and karpatkey will prepare the payload to extend the SM emissions for @bgdlabs for review. \n    * Iterative emission cycles enable the DAO to target specific asset categories and improve the correlations between bad debt potential whilst maintaining a base level of insurance. The proposal will feature the ability to reward some categories with non AAVE rewards, like GHO, to support adoption and velocity.\n* Capital efficiency, optimize emission schedules to balance attracting and retaining new deposits for each respective category. For example, the APR on stkAAVE is expected to continue being reduced given the recent GHO Mint Discount utility being added and the introduction of new categories.\n* Analytics, a dashboard will be created/maintained that tracks the effective coverage of the insurance fund under various market conditions. The deposit value, composition of assets, APR over time and impact on the DAOs runway will all be readily available for the community to view. This is expected to create transparency and provide insight into the performance of the SM as an effective insurance fund for the DAO.\n\n# Specification\n\nThe AIP will call the createStream() method of the IAaveEcosystemReserveController interface to create two 180-day streams for 220k and 180k of GHO.\n\nThe following address will be the recipient of the 220k GHO stream:\nAddress: `0x58e6c7ab55aa9012eacca16d1ed4c15795669e1c`\n\nThe following address will be the recipient of the 180k GHO stream:\nAddress: `0x3e4A9f478C0c13A15137Fc81e9d8269F127b4B40`\n\nTokenLogic and karpatkey will periodically claim a fraction of the budget for the duration of the stream.\n\nTokenLogic and karpatkey are to be included in the Gas Rebate program that reimburses on-chain voting, calling revenue contracts, deployment and testing costs.\n\nUpon the ARFC Snapshot passing, the GLC SAFE Signers will be updated. The following signer `0xAFe4043c9FFd31753c5bE2B76dfc45AaA70ebD6f` is to be replaced with `0x818c277dbe886b934e60aa047250a73529e26a99`.\n\nWhen the AIP onboarding TokenLogic and karpatkey as service providers pass, TokenLogic and karpatkey will jointly lead the GLC for the duration of the service provider contract with the Aave DAO.\n\n# Disclaimer\n\nTokenLogic and karpatkey receive no compensation beyond Aave protocol for the creation of this proposal. TokenLogic and karpatkey are both delegates within the Aave ecosystem.\n\n# Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+        "end_utc": "2023-12-14T15:19:02Z",
+        "similarity_score": 0.149,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "NAY",
+            "ABSTAIN"
+          ],
+          "scores": [
+            473248.16807516915,
+            3.520707282142919,
+            66505.66887901787
+          ],
+          "scores_total": 539757.3576614697,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2023-12-14T15:19:02",
+          "pre_tvl_avg": 6169134081.0,
+          "post_tvl_avg": 6303776805.5,
+          "abnormal_change": 2.1825,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.021825,
+          "abnormal_change_pct": 2.1825
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2023-12-14T15:19:02",
+          "pre_price_avg": 93.69176594000001,
+          "post_price_avg": 102.545518235,
+          "abnormal_change": 9.4499,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.094499,
+          "abnormal_change_pct": 9.4499
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0x1d8d0d25f3b705bf207a130308658d15256e2cebc58d123e4ad9e7e3a177ac11",
+    "selected_choice_label": "For",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "This proposal aims to automate supply and borrow cap updates on Aave using the Risk Oracle framework, improving efficiency and responsiveness while reducing manual overhead. The community discussion shows overall support with recognition of potential centralization risks. Similar past proposals with risk parameter adjustments were successful. Timeline analytics strongly favor the 'For' option.",
+    "key_arguments_for": [
+      "Automation reduces operational overhead and delays in cap updates.",
+      "Risk Oracle leverages proven simulation engine previously used for manual cap adjustments.",
+      "Improves responsiveness and observability of risk management.",
+      "Similar past proposal on risk parameter adjustment was successful with strong support."
+    ],
+    "key_arguments_against": [
+      "Increased reliance on centralized components like Edge Infrastructure introduces centralization risk.",
+      "Some concerns about balancing risk and growth competitiveness in cap updates."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://governance.aave.com/t/arfc-supply-and-borrow-cap-risk-oracle-activation/20834",
+        "quote": "Forum comments reflect positive support for automation and efficiency, with some concerns about centralization risk."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": null,
+        "quote": "Timeline metrics show consistent early and stable support for 'For' option with lead ratios at 1.0."
+      },
+      {
+        "source_tool": "govnews_search_governance_news",
+        "reference": null,
+        "quote": "No conflicting governance news detected in the proposal timeframe."
+      }
+    ],
+    "available_choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-02-03T23:10:25Z",
+    "event_end_utc": "2025-02-06T23:10:25Z",
+    "event_time_utc": "2025-02-06T23:10:25Z",
+    "address_of_governance_token": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+    "token_price_impact_pct": -10.9542,
+    "tvl_impact_pct": -3.1954,
+    "actual_vote_result": {
+      "winner_label": "For",
+      "winner_index": 0,
+      "scores": [
+        759428.2546444845,
+        2.310518816982813,
+        2.3282645133342683
+      ],
+      "scores_total": 759432.8934278148,
+      "margin_abs": 759425.9263799712,
+      "margin_pct": 0.999991
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'For' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Strong timeline metrics with stable early and consistent support for the 'For' option indicate clear voter preference.\n- Forum sentiment analysis shows a majority of positive and neutral comments supporting automation, with concerns about centralization acknowledged but outweighed by benefits.\n- Similar past proposals on risk parameter adjustments successfully passed and improved protocol risk management.\n- Market impacts show minor declines but are not factored into the recommendation; the focus is on long-term protocol health.\n- The recommendation aligns well with aggregated community sentiment, reflecting the voters' and forum participants' views.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x5c744451272991c7fdf8b3830fa2a51fc18dd0e417d95d9c16da765b27f602ff",
+        "title": "[ARFC] sUSD Risk Parameter Adjustment",
+        "end_utc": "2025-02-03T13:20:00Z",
+        "summary": "[ARFC] sUSD Risk Parameter Adjustment closed on 2025-02-03T13:20:00Z. Timeline analytics noted 192 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.15)",
+        "market_response": "token -11.25%; TVL -8.92%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -10.9542,
+    "ex_post_tvl_impact_pct": -3.1954,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -10.95%; TVL -3.20%"
+  },
+  "agentic_ai_choice": "For",
+  "actual_outcome": "For",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 4,
+    "Positive": 2,
+    "Neutral": 2,
+    "total_comments": 8
+  }
+}

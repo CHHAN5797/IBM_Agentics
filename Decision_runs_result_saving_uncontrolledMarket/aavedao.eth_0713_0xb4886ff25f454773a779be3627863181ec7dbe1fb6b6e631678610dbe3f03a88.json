@@ -1,0 +1,417 @@
+{
+  "captured_at_utc": "2025-10-07T04:59:43.068367+00:00",
+  "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0xb4886ff25f454773a779be3627863181ec7dbe1fb6b6e631678610dbe3f03a88",
+  "focus": null,
+  "votes_count": 1559,
+  "timeline_metrics_current": {
+    "unique_voters": 1559,
+    "total_votes": 1559,
+    "first_vote_at": "2022-06-14T13:54:39Z",
+    "last_vote_at": "2022-06-19T09:41:00Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        1448.818899625845,
+        1.535441236264835
+      ],
+      [
+        571.3305896028376,
+        0.0
+      ],
+      [
+        249.38834213675042,
+        0.14504529760302054
+      ],
+      [
+        10053.185149337682,
+        33.26128938430085
+      ]
+    ],
+    "spike_index": 0.811509,
+    "spike_follow_support_ratio": 1.0,
+    "stairwise_ratio": 0.004793,
+    "half_slope_diff": -0.067891
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x61ad521a6490c94a06237bcb650ae5011cddf08bc061e445a1053cb3d14b41e5",
+      "title": "Integrate Pocket RPC in Aave",
+      "author": "0xa48168C3D73De7B4Fed96383E2BeF8e53443A263",
+      "end_utc": "2022-06-11T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 1995,
+        "total_votes": 1995,
+        "first_vote_at": "2022-06-06T18:57:31Z",
+        "last_vote_at": "2022-06-11T18:41:22Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            8045.939392279536,
+            0.15182948740654725
+          ],
+          [
+            11368.384529849422,
+            1.9119788656854892
+          ],
+          [
+            97564.40268901193,
+            0.18638984513705187
+          ],
+          [
+            226.19779295536827,
+            6.582280138487603
+          ]
+        ],
+        "spike_index": 0.797253,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.000829,
+        "half_slope_diff": 0.076516
+      },
+      "price_impact_pct": -27.9341,
+      "tvl_impact_pct": -23.0128,
+      "similarity": 0.0259,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes",
+        "margin_abs": 117196.0919257594,
+        "scores_total": 117213.75688243286,
+        "margin_pct": 0.9998492928036495
+      }
+    },
+    {
+      "id": "0xcce9760adea906176940ae5fd05bc007cc9252b524832065800635484cb5cb57",
+      "title": "ARC: Add GNO to Aave V2",
+      "author": "0xe965484BA4250c446779D4703f1598DC2EA00d12",
+      "end_utc": "2022-06-10T11:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 1644,
+        "total_votes": 1644,
+        "first_vote_at": "2022-06-06T11:00:50Z",
+        "last_vote_at": "2022-06-10T10:59:51Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            26968.863412371844,
+            1.2054406154932358,
+            12.1099
+          ],
+          [
+            329.8752257339416,
+            10010.608842817883,
+            3.3050194660027863
+          ],
+          [
+            42.252639412742745,
+            34.52936458595036,
+            3.252072345432769
+          ],
+          [
+            154855.89557169026,
+            4031.9220509634606,
+            5.4584863939976005
+          ]
+        ],
+        "spike_index": 0.512863,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.000374,
+        "half_slope_diff": 0.319586
+      },
+      "price_impact_pct": -24.3135,
+      "tvl_impact_pct": -11.5179,
+      "similarity": 0.0349,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes",
+        "margin_abs": 168118.62115022657,
+        "scores_total": 196299.27802639772,
+        "margin_pct": 0.8564403437470539
+      }
+    },
+    {
+      "id": "0xf593f2df83cc0b5bdc3920ef2c782f6b2a6f87a6603c26a5d778e3ede4d40021",
+      "title": "Add Rocket Pool's rETH on Aave v2 Mainnet Market ",
+      "author": "0x89261103FA88a913c8D0dEbD00574FD16895407D",
+      "end_utc": "2022-06-08T00:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 2159,
+        "total_votes": 2159,
+        "first_vote_at": "2022-06-01T00:15:07Z",
+        "last_vote_at": "2022-06-07T23:23:05Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            14211.419933709903,
+            17.382386791422995,
+            7.195331492784014
+          ],
+          [
+            956.3553673948962,
+            0.6803792745513586,
+            32.83649330225959
+          ],
+          [
+            29471.656550833697,
+            0.000178909350817419,
+            110.66880867436457
+          ],
+          [
+            1514.7785171415355,
+            0.011952498513440681,
+            55.56468202067033
+          ]
+        ],
+        "spike_index": 0.536916,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.001287,
+        "half_slope_diff": -0.228075
+      },
+      "price_impact_pct": -13.3901,
+      "tvl_impact_pct": -2.7396,
+      "similarity": 0.0376,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "For",
+        "margin_abs": 45947.94505358977,
+        "scores_total": 46378.550582043754,
+        "margin_pct": 0.9907154164360475
+      }
+    }
+  ],
+  "similar_proposals_data": [],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0xb4886ff25f454773a779be3627863181ec7dbe1fb6b6e631678610dbe3f03a88",
+    "selected_choice_label": "Yes",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "The proposal to award a $50,000 bounty for a security disclosure on a fallback oracle misconfiguration in Aave v3 received unanimous and stable early voting support, aligned with positive forum sentiment advocating security and responsible disclosure rewards. Similar past proposals also passed with strong majorities despite some negative market impacts, reinforcing the community's prioritization of protocol safety. Market impact indicators are positive, and the recommendation is to support the change.",
+    "key_arguments_for": [
+      "Unanimous and stable support in voting timeline for 'Yes' option.",
+      "Forum sentiment predominantly positive supporting rewarding security disclosures.",
+      "The vulnerability was severe but unlikely, and immediate remediation was applied.",
+      "Supporting security disclosures incentivizes responsible reporting and protocol safety."
+    ],
+    "key_arguments_against": [
+      "Some forum comments caution about the size and frequency of bounties.",
+      "A few negative sentiments expressed concerns about bounty valuation and process."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://governance.aave.com/t/bgd-proposal-for-bounty-fallback-oracle-misconfiguration/8421",
+        "quote": "Forum discussion shows 2 positive, 3 negative, and 4 neutral comments with early posts supporting the bounty to reward security researchers."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Snapshot proposal timeline",
+        "quote": "Lead ratio by quartile is 1.0 for Yes, indicating unanimous stable early support for the proposal."
+      },
+      {
+        "source_tool": "govnews_search_governance_news",
+        "reference": "Adjacent similar proposals",
+        "quote": "Similar past proposals also won with strong majority but showed negative price and TVL impacts, emphasizing cautious community optimism."
+      }
+    ],
+    "available_choices": [
+      "Yes",
+      "No"
+    ],
+    "event_start_utc": "2022-06-14T13:51:10Z",
+    "event_end_utc": "2022-06-19T10:00:00Z",
+    "event_time_utc": "2022-06-19T10:00:00Z",
+    "address_of_governance_token": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+    "token_price_impact_pct": 11.9459,
+    "tvl_impact_pct": 2.6248,
+    "actual_vote_result": {
+      "winner_label": "Yes",
+      "winner_index": 0,
+      "scores": [
+        12322.72298070304,
+        34.94177591816871
+      ],
+      "scores_total": 12357.66475662121,
+      "margin_abs": 12287.781204784871,
+      "margin_pct": 0.994345
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Timeline analytics show unanimous and stable early support for 'Yes', indicating strong community consensus.\n- Forum sentiment is mostly positive, advocating for rewarding security researchers to promote protocol safety.\n- Similar historical proposals passed with strong majorities, although some had negative market impacts, highlighting the community's priority on protocol security.\n- Market impact metrics are positive for this proposal, reinforcing the recommendation to change.\n- The recommendation aligns with aggregated forum sentiment, reflecting community views and supporting protocol long-term health.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0xf593f2df83cc0b5bdc3920ef2c782f6b2a6f87a6603c26a5d778e3ede4d40021",
+        "title": "Add Rocket Pool's rETH on Aave v2 Mainnet Market ",
+        "end_utc": "2022-06-08T00:00:00Z",
+        "summary": "Add Rocket Pool's rETH on Aave v2 Mainnet Market  closed on 2022-06-08T00:00:00Z. Timeline analytics noted 2159 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.04)",
+        "market_response": "token -13.39%; TVL -2.74%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0xcce9760adea906176940ae5fd05bc007cc9252b524832065800635484cb5cb57",
+        "title": "ARC: Add GNO to Aave V2",
+        "end_utc": "2022-06-10T11:00:00Z",
+        "summary": "ARC: Add GNO to Aave V2 closed on 2022-06-10T11:00:00Z. Timeline analytics noted 1644 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.03)",
+        "market_response": "token -24.31%; TVL -11.52%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 11.9459,
+    "ex_post_tvl_impact_pct": 2.6248,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +11.95%; TVL +2.62%"
+  },
+  "agentic_ai_choice": "Yes",
+  "actual_outcome": "Yes",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 3,
+    "Positive": 2,
+    "Neutral": 4,
+    "total_comments": 9
+  }
+}

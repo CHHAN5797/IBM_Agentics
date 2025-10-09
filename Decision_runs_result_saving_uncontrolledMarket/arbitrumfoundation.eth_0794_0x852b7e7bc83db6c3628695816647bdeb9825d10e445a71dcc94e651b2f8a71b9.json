@@ -1,0 +1,996 @@
+{
+  "captured_at_utc": "2025-10-07T16:35:52.643938+00:00",
+  "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x852b7e7bc83db6c3628695816647bdeb9825d10e445a71dcc94e651b2f8a71b9",
+  "focus": null,
+  "votes_count": 3946,
+  "timeline_metrics_current": {
+    "unique_voters": 3946,
+    "total_votes": 3946,
+    "first_vote_at": "2024-09-19T12:30:45Z",
+    "last_vote_at": "2024-09-26T12:27:53Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        0.486409,
+        0.513591,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      0.8180435884439939,
+      0.1819564115560061,
+      0.0
+    ],
+    "stability": [
+      0.8180435884439939,
+      0.1819564115560061,
+      0.0
+    ],
+    "early_ratio": [
+      0.4864091559370529,
+      0.5135908440629471,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        26756889.473374087,
+        196375.3476724022,
+        71172.19885244624
+      ],
+      [
+        488858.747174825,
+        37312.372543277525,
+        61543.13226612429
+      ],
+      [
+        27393762.30240459,
+        118190.55344799538,
+        5310.057956388801
+      ],
+      [
+        86744600.492372,
+        3572709.9239820386,
+        17690850.908614177
+      ]
+    ],
+    "spike_index": 0.125337,
+    "spike_follow_support_ratio": 0.999501,
+    "stairwise_ratio": 0.000817,
+    "half_slope_diff": 573.486151
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x785e8ed145d34ab4c9fea725cf0ce31267f90bc2ed4423e6e718c5e736e84c06",
+      "title": "[Aave DAO] LTIPP Grant Extension Request",
+      "author": "0xB933AEe47C438f22DE0747D57fc239FE37878Dd1",
+      "end_utc": "2024-09-19T11:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 3541,
+        "total_votes": 3541,
+        "first_vote_at": "2024-09-12T11:01:55Z",
+        "last_vote_at": "2024-09-19T10:56:36Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 1,
+        "lead_ratio_by_quartile": [
+          [
+            0.129423,
+            0.870112,
+            0.000466
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.0785088957921491,
+          0.9212086981078791,
+          0.0002824060999717594
+        ],
+        "stability": [
+          0.0785088957921491,
+          0.9212086981078791,
+          0.0002824060999717594
+        ],
+        "early_ratio": [
+          0.12942271880819367,
+          0.8701117318435754,
+          0.0004655493482309125
+        ],
+        "vp_by_quartile": [
+          [
+            8215776.741842682,
+            27268151.023419373,
+            726011.1791088472
+          ],
+          [
+            90444.51339799746,
+            1867852.8069651977,
+            26395.617348926622
+          ],
+          [
+            202258.61820397005,
+            18403444.681317784,
+            14244523.272064395
+          ],
+          [
+            127043.67967152277,
+            70188705.08779562,
+            12236523.985423932
+          ]
+        ],
+        "spike_index": 0.154549,
+        "spike_follow_support_ratio": 0.999988,
+        "stairwise_ratio": 0.000658,
+        "half_slope_diff": 8173.187378
+      },
+      "price_impact_pct": 12.9982,
+      "tvl_impact_pct": 4.0544,
+      "similarity": 0.0969,
+      "actual_vote_result": {
+        "winner_index": 1,
+        "winner_label": "Against",
+        "margin_abs": 90494699.54555175,
+        "scores_total": 153597131.2065605,
+        "margin_pct": 0.5891692041035107
+      }
+    },
+    {
+      "id": "0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94",
+      "title": "[Pyth Network] Arbitrum LTIPP Extension Request",
+      "author": "0xB933AEe47C438f22DE0747D57fc239FE37878Dd1",
+      "end_utc": "2024-09-12T11:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 3355,
+        "total_votes": 3355,
+        "first_vote_at": "2024-09-05T11:00:40Z",
+        "last_vote_at": "2024-09-12T10:58:17Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1136532.7303904737,
+            314307.79217331175,
+            7334.156499293072
+          ],
+          [
+            429034.8015883577,
+            74206.72917754068,
+            8337.046340568488
+          ],
+          [
+            612751.0208839014,
+            3043362.149342355,
+            631280.2665142403
+          ],
+          [
+            9563130.559012162,
+            92683044.81408454,
+            27046914.423045762
+          ]
+        ],
+        "spike_index": 0.193423,
+        "spike_follow_support_ratio": 0.999588,
+        "stairwise_ratio": 0.00054,
+        "half_slope_diff": 8433.260552
+      },
+      "price_impact_pct": 0.0969,
+      "tvl_impact_pct": 0.5165,
+      "similarity": 0.178,
+      "actual_vote_result": {
+        "winner_index": 1,
+        "winner_label": "Against",
+        "margin_abs": 68421055.59237781,
+        "scores_total": 135550236.48905247,
+        "margin_pct": 0.5047652985681345
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x7203289844e807781e8d2ec110d4b97a79a29944cae06a52dbe315a16381a2ae",
+      "cleaned": {
+        "proposal_id": "0x7203289844e807781e8d2ec110d4b97a79a29944cae06a52dbe315a16381a2ae",
+        "title": "AIP-1.1 - Lockup, Budget, Transparency",
+        "author": "0xA5dF0cf3F95C6cd97d998b9D990a86864095d9b0",
+        "end_utc": "2023-04-17T18:00:00Z",
+        "similarity_score": 0.216,
+        "winning_option": "For",
+        "winning_option_index": 0,
+        "margin_abs": 135621185.31524935,
+        "margin_pct": 0.9713088593042866,
+        "scores_total": 139627250.40147364,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-04-10T18:00:13Z",
+        "last_vote_at": "2023-04-11T01:30:38Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            56808241.90679092,
+            458279.8551026681,
+            623297.3656189275
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.356848,
+        "spike_follow_support_ratio": 0.71753,
+        "stairwise_ratio": 0.018778,
+        "half_slope_diff": -8127.711446
+      },
+      "raw": {
+        "id": "0x7203289844e807781e8d2ec110d4b97a79a29944cae06a52dbe315a16381a2ae",
+        "title": "AIP-1.1 - Lockup, Budget, Transparency",
+        "author": "0xA5dF0cf3F95C6cd97d998b9D990a86864095d9b0",
+        "body": "Abstract\ntl;dr: AIP-1.1 proposes (1) a lockup, (2) a budget and (3) transparency reporting regarding the 7.5% of the $ARB tokens distributed to the Foundation’s “Administrative Budget Wallet”.\n\nThe Administrative Budget Wallet will be used for covering ongoing administrative and operational costs of The Arbitrum Foundation, payment of service providers, and for the purpose of fostering the growth and development of the Arbitrum ecosystem. In respect to the 7.5% that has been distributed to the Administrative Budget Wallet, a transparency report regarding the 0.5% that has already been transferred is available here 163.\n\nThe remaining 7% of tokens will not be used until the approval of a budget, such as the one proposed in this AIP. The proposed budget is in-line with the Foundation’s strategic needs to represent and service the DAO and the allocation is smaller than initial allocations to peer foundations. This AIP proposes placing the 7% outstanding distribution in a smart contract-controlled lockup – linearly unlocking over 4 years – alongside transparency report structures to allow the DAO to periodically monitor expenditures and other activities of the Foundation.\n\nThe Administrative Budget Wallet will be used in pursuit of the Foundation’s mission statement as set out in the bylaws 24, which includes financing technical improvements and operations of the Arbitrum network, fostering ecosystem growth through grants to align with partner projects and educational initiatives with in-person and online events.\n\nMotivation\nOn March 16, 2023, the Arbitrum networks (Arbitrum One and Arbitrum Nova) were decentralized and given to the newly formed Arbitrum DAO. Included in this transition were:\n\n-Control of the upgradeability and technical future of the chains\n-Control over the DAO treasury\n-Control over net fee revenue - i.e. the net difference between fees collected by on-chain operations and L1 fees paid by the Sequencer\n-All Arbitrum social media platforms and accounts\n-Ability to elect and, if deemed appropriate, remove the Security Council and Directors\n\nFull responsibility of the chain’s technology, future, and fee revenue were given to the DAO directly. With the DAO assuming those rights and controls, the DAO also assumed the responsibility to fund the ongoing operations of the chains and the costs of running critical chain infrastructure, including RPCs, the Sequencer, and third-party vendors and service contracts.\n\nWhile there are many activities that the DAO can do directly on-chain, several of its responsibilities require a representative that can engage, maintain and enter new agreements with service providers to run infrastructure that’s critical for the ecosystem (e.g. servers, RPCs, block explorers, data feeds and analytics platforms, and tooling), and ensure that both the chain and the ecosystem have the support they need to continue to thrive. In order to ensure a smooth transition to the DAO without any interruption of services, it was necessary to create an organization that would be ready to service the DAO immediately from launch.\n\nThe Arbitrum Foundation was created to fill this need, with its mission and scope outlined across the Foundation Bylaws 24. Prior to the launching of the DAO, The Arbitrum Foundation assumed responsibilities for funding and running chain infrastructure. However, in an arrangement that appears to be unique amongst Arbitrum’s peers, the Foundation does not receive or control the net revenue from transaction fees as this is given directly to the DAO treasury.\n\nThe DAO is also tasked with fostering and developing the Arbitrum ecosystem, where the DAO may seek to partner with companies or organizations that either cannot or will not publicly negotiate collaborations or partnerships due to confidentiality and other operational requirements. Often, large enterprises negotiate partnership opportunities in private without public processes, where these relationships can only be disclosed after they are agreed upon. Having a well-funded Foundation empowered to represent the DAO in this arena, alongside peer foundations, is in the best interests of the DAO to further develop the growth of the Arbitrum ecosystem.\n\nRationale\nWhile the need for the Foundation to exist and represent the DAO is well-motivated, it became clear through community discourse around AIP-1 that it was important to have additional insight and restrictions on the Foundation’s initial funding. This AIP-1.1 proposes a detailed set of controls and initiatives to achieve that goal.\n\n1. Smart Contract Lockup:\n\nThe remaining 7% of ARB tokens in the “Administrative Budget Wallet” will be subject to a four year lockup schedule, unlocking on a continuous linear time basis commencing from the date of the Snapshot approval of AIP-1.1 by the DAO (i.e., a total of 175m $ARB released over each year for 4 years). The lockup will be enforced on-chain through a smart contract which will designate a multisig wallet controlled by The Arbitrum Foundation as the beneficiary. The lockup contract will be configured in a manner that allows the DAO to adjust future funding and/or modify the unlock schedule.\n\n2. Operating Budget:\n\nBelow is a proposed annual operational budget for the first year of the Foundation. While the operational costs are denominated in USD, the expectation is that approximately half will be paid in USD and half will be paid in locked $ARB tokens.\n\nAs this will be the first year of the Foundation’s operation and as the Foundation is still young at the time of this AIP, it goes without saying that these are estimates with the expectation that this will be an upper bound on the operational costs for the first 12 months. The transparency reports described in the next section will be an opportunity to track the actual expenses against the budgeted categories and keep the community informed.\n\nOperating Budget: Cost ($USD)\nGeneral and Administrative:\t$16,000,000\nR&D:\t$9,000,000\nTechnical Infrastructure:\t$5,000,000\nEvents, Marketing & Communications:\t$6,000,000\nTotal - Next Twelve Months:\t$36,000,000\n(50% $USD/50% $ARB)\n\n*The General and Administrative line-item includes personnel, contractors, legal, insurance and other operational costs. As of the date of this AIP, the Foundation currently has five full-time contributors, 8 contractors, and the Security Council engaged to support the Arbitrum ecosystem. The Foundation’s budget anticipates the need to hire an additional 15 full-time contributors across technical, growth and community functions over the course of this year.\n\nThis operating budget presents best-faith estimates of the Foundation’s anticipated budgetary needs which may be subject to change.\n\n3. Ecosystem Growth Initiatives\n\nAny additional funds released in compliance with the lock-up schedule above will be made available, but not necessarily deployed, to opportunistically pursue ecosystem growth opportunities and strategic partnerships on behalf of the DAO. The expectation is that the vast majority of ecosystem growth funds will be paid in tokens, and thus will not require the Foundation to sell any tokens. Wherever reasonable, the Foundation will include additional lockups and/or vesting when making distributions in tokens.\n\nThe Mission Statement in the Foundation’s bylaws 24 highlights the varied nature of the opportunities the Foundation intends to pursue, and a set of KPIs that can track all of these opportunities being developed. The basis of those KPIs will stem from a focus on onboarding and growing both the developer and user base of the Arbitrum ecosystem, attracting best-in-class infrastructure providers to the network, expanding across various industries, use-cases and scope of projects that engage with Arbitrum technology. The ultimate goal of the Foundation is to continue to foster the development of the technology and expand the Arbitrum ecosystem globally.\n\nIn addition to the Foundation’s processes for selecting grants, it is important to note that the DAO maintains control over the 3.527 billion $ARB and has the ability to distribute any additional grants as it sees fit. Additionally, should the DAO choose, it has the ability to trigger the inflation of the total supply of $ARB which will supplement the on-chain DAO treasury with 2% growth of the total supply of $ARB each year.\n\n4. Transparency Reports\n\nThe Foundation understands and agrees that the community should have oversight across how these funds are being utilized to gain comfort that spending is in the interest of the community. In furtherance of this goal, the Foundation is committed to providing a comprehensive annual report and a semi-annual progress update. This will provide the community with a better understanding of the Foundation’s expenditures, balance sheet and its pursuit of ecosystem growth opportunities alongside partnership developments, as well as the various internal and external committees and stakeholders that are involved in the decision making process.\n\nThe Foundation is continuing to build out its internal personnel to service grant requests and has already engaged a DAO service provider to assist with the administrative components of servicing grants. The Foundation is also talking with a number of different external service providers to assist in both the review and diligence processes.\n\nThe financial element of these transparency reports will include a breakdown of operational costs incurred while running the Foundation, including infrastructure spending for the Arbitrum chains, events, community building efforts, grants, etc.\n\nIn addition to the aforementioned reports, the Foundation is providing an initial transparency report alongside this AIP covering all major actions and decisions the Foundation made during set-up, including the costs incurred up until now, which can be found here 163.\n\nSteps to Implement\n\n1. Foundation to deploy smart contract vesting wallet in the specified configuration and transfer 700 million $ARB to it.\n2. Foundation to implement all processes described in this AIP.\nTimeline\n\nThis AIP-1.1 shall be posted on the DAO forum and will have at least a 72-hour period for DAO comments and input. After the end of the 72-hour period and appropriate updates incorporating DAO feedback, this AIP-1.1 will be posted for vote on Snapshot for an additional 7 days.\n\n",
+        "end_utc": "2023-04-17T18:00:00Z",
+        "similarity_score": 0.216,
+        "vote_result": {
+          "choices": [
+            "For",
+            "Against",
+            "Abstain"
+          ],
+          "scores": [
+            137012024.61667585,
+            1224386.4833715,
+            1390839.3014264964
+          ],
+          "scores_total": 139627250.40147364,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "arbitrum",
+          "status": "tvl_data_unavailable",
+          "error": "Could not fetch TVL data: TVL cache not found for slug='arbitrum'"
+        },
+        "price_impact": {
+          "token_id": "11841",
+          "ticker": "ARB",
+          "status": "success",
+          "event_time_utc": "2023-04-17T18:00:00",
+          "pre_price_avg": 1.6737186,
+          "post_price_avg": 1.4655519049999999,
+          "abnormal_change": -12.4374,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.124374,
+          "abnormal_change_pct": -12.4374
+        }
+      }
+    },
+    {
+      "proposal_id": "0x6b001068a3aa7f58e0e334a1f717be2145eb4c7b3f3af479cd827020aa2993a6",
+      "cleaned": {
+        "proposal_id": "0x6b001068a3aa7f58e0e334a1f717be2145eb4c7b3f3af479cd827020aa2993a6",
+        "title": "Accelerating Arbitrum - leveraging Camelot as an ecosystem hub to support native builders",
+        "author": "0x2e3BEf6830Ae84bb4225D318F9f61B6b88C147bF",
+        "end_utc": "2023-07-21T20:00:00Z",
+        "similarity_score": 0.1865,
+        "winning_option": "Against",
+        "winning_option_index": 1,
+        "margin_abs": 10634844.165624239,
+        "margin_pct": 0.06480139980178438,
+        "scores_total": 164114420.33897847,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-07-14T20:01:16Z",
+        "last_vote_at": "2023-07-15T07:48:06Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            12896878.29652615,
+            1098668.8759462407,
+            4940.209472763538
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.696581,
+        "spike_follow_support_ratio": 0.99996,
+        "stairwise_ratio": 0.021368,
+        "half_slope_diff": -71.236477
+      },
+      "raw": {
+        "id": "0x6b001068a3aa7f58e0e334a1f717be2145eb4c7b3f3af479cd827020aa2993a6",
+        "title": "Accelerating Arbitrum - leveraging Camelot as an ecosystem hub to support native builders",
+        "author": "0x2e3BEf6830Ae84bb4225D318F9f61B6b88C147bF",
+        "body": "**Non-Constitutional Proposal**\n\n**AUTHORS**\n[Iron Boots](https://twitter.com/SirBootsOfIron) (BD Lead), [Myrddin](https://twitter.com/0xmyrddin) (Dev Lead)\n\n...\n\n## Abstract\n\nThis post proposes granting 1.5M ARB per month to Camelot DAO for the next 6 months to fund liquidity incentives for Arbitrum-focused projects on Camelot, including the onboarding of new and multi-chain protocols entering the ecosystem. Camelot strives to support the native ecosystem through collaborative relationships and has a proven track record of allocating incentives to enable sustainable growth and long-term liquidity for ecosystem protocols. This proposal will therefore support deeper spot liquidity for Arbitrum native builders, as well as supporting integration partners and the launch of new protocols, thereby enabling significant growth through an approach that prioritizes Arbitrum’s core values. Most importantly, this will further the adoption of ARB as a base asset within liquidity pools and partner integrations.\n\n...\n\n## Motivation\n\nCamelot is not just a DEX - it’s the infrastructure that enables native protocols to build sustainable and efficient liquidity. As Arbitrum’s first major native DEX, Camelot strives to support the ecosystem with a long-term and collaborative approach that moves beyond the traditional role of DEXs as simple ‘yield farms’.\n\nIn just over 6 months of being live, Camelot has achieved over $2,500,000,000 total volume traded, highs of $100m TVL, and the successful onboarding of countless protocols to the Arbitrum ecosystem. The Round Table is the hub for Camelot’s official long-term partners, and the initial members consisted of the core Arbitrum protocols such as Vela, Jones, Pendle, Plutus, GMX, Sperax, and more. On average, Round Table partners have over 90% of their total DEX liquidity and volume on Camelot.\n\nSince then, the Round Table now consists of over 25 official partner protocols, and through its launchpad Camelot has supported over 9 protocols to raise funds in a community-focused and decentralized way. Most importantly, Camelot is home to numerous community builders that leverage the custom-built features to manage their liquidity, with a combined reach of over 40 native protocols present on Camelot and over 15 integrations being built on top of its infrastructure. Camelot is one of the most used dapps in the ecosystem, with over 300,000 unique users since launch. Camelot is not a fork, and is custom-built code that has been thoroughly tested and audited by Paladin. In addition, Camelot has no private investors and was launched in a truly community-focused and decentralized way. The ownership of Camelot has been spread through the key Arbitrum players, thereby making the protocol truly part of the ecosystem and community.\n\nThis grant would have a significant impact on the growth of the Arbitrum ecosystem in several ways:\n\n* Deep spot liquidity is the foundation for DeFi protocols to thrive, enabling further innovation and use cases for Arbitrum native protocols. For example, deeper spot liquidity unlocks the potential for tokens to be used in lending markets, options and perps protocols, structured products, and much more. Whilst other DEXs also tackle this for blue chip tokens, Camelot is uniquely positioned to most effectively support the native ecosystem builders. This proposal will specifically focus on Arbitrum protocols throughout their lifecycle, whilst leveraging the network and community of Camelot to generate sustainable growth with real users. Deepening pools that already have significant liquidity is not our only focus, as Camelot is positioned to ensure the distribution of ARB tokens materializes into a stronger ecosystem. Most importantly, Camelot can work with partners to pair their tokens with ARB as a base asset. This will advance ARB as a foundational asset of the ecosystem, providing it with direct value and utility.\n\n* Camelot has a proven track record of effectively allocating rewards in a sustainable and economical way. Therefore, not only will this grant proposal deepen liquidity, it will also ensure that the most active and aligned builders on Arbitrum directly benefit from it too. As an ecosystem hub for native builders, Camelot will leverage this grant to support and incentivise new protocols launching in the ecosystem, further cementing Arbitrum’s position as the go-to layer 2 for innovation and DeFi. Through its launchpad and network of Round Table partners, Camelot additionally offers protocols marketing, BD, and general support.\n\n* In addition to liquidity, Camelot is one of the largest Arbitrum governance delegates and has continued to foster collaboration in the ecosystem. Therefore, this proposal would also focus on integration partners that enable more efficient liquidity management and further use cases. These protocols also build on top of our partner liquidity pools, therefore multiplying the network effects of the allocated Arb incentives. Camelot currently has over 15 integration partners, ranging from advanced liquidity management apps, leveraged yield farming, derivatives, structured products, and more.\n\n...\n\n## Rationale\n\nCamelot was conceived to help deliver Arbitrum’s goal of scaling and revolutionizing the future of Ethereum. Through its commitment to supporting native builders, Camelot strives to build the foundation of sustainable liquidity and collaboration that will allow Arbitrum and its diverse ecosystem to thrive.\n\nSince its inception in December 2022, Camelot has maintained a robust upward trajectory, steered by a long-term, sustainable incentives approach. We've avoided the common pitfalls of being a ‘yield-farm for mercenary capital,’ and our proven track record of allocating incentives effectively to yield maximum returns for our community, protocol, and ecosystem stands testament to our potential. We plan to harness the power of Arbitrum grant incentives to maintain this growth trajectory.\n\nThough past performance doesn't necessarily predict future success, it does offer valuable insights into the potential of this proposal. Over the period from December 2022 to May 2023, Camelot experienced an impressive average monthly increase in volume and Total Value Locked (TVL) of 275% and 79% respectively. Even more noteworthy is that during this period, Camelot generated over $10m in protocol fees, with a significant proportion of these channelled back to our token holders. This strongly suggests that, with the additional Arbitrum incentives, we can stimulate significant growth and capture substantial long-term value across a large number of native protocols. Moreover, we can achieve this while ensuring a decentralized and sustainable token ownership distribution. Camelot also received an airdrop of over 2,000,000 ARB, which has so far been fully dedicated to being an active governance participant.\n\nTo allocate the Arbitrum incentives even more effectively we will distribute it across 4 different categories: Ecosystem Builders, Integration Partners, Core Pairs, and Liquid Staking Derivatives.\n\n![image](ipfs://bafkreicjatrrpsk2u22lkmiqwklpmnk5jqkacc45odyf7npqib3hrgydse)    \n\n### Ecosystem Builders\n\nCamelot is home to many of Arbitrum’s favourite protocols, and this category will distribute incentives to builders that are fully aligned with Camelot’s approach to sustainable liquidity and long-term collaboration. As detailed in the ‘Specifications’ section below, Camelot is one of the most effective hubs to distribute incentives, due to the large and expansive network of long-term partners.\n\n### Integration Partners\n\nBy providing incentives to partners that are building on top of Camelot’s infrastructure, we are diversifying the use of incentives to fuel even further innovation and growth that benefits all partners and the broader ecosystem, whilst also deepening the underlying liquidity at the same time. These partners would include concentrated liquidity managers, leveraged yield protocols, lending markets, liquidity management dapps and more.\n\n### Core pairs\n\nWhilst Camelot’s primary focus is on the native Arbitrum builders, ensuring Camelot can offer deep liquidity for the most actively traded tokens like ETH and USDC is also important as the native DEX. With the number of protocols actively building on Camelot, deep liquidity for core pairs will be an important piece to ensure we have a strong foundation that can expand to longer-tail tokens too.\n\n### Liquid staked derivatives\n\nLiquid staked derivatives are seeing rapid growth as they unlock significant liquidity on Ethereum whilst securing the network at the same time. The majority of LSD liquidity is currently on Ethereum, and we think it’s an important catalyst for the broader Arbitrum ecosystem to support LSD adoption natively too. Deeper LSD liquidity will allow Arbitrum native builders to tap into a highly productive asset to build on top of, leading to further growth, utility, and products for the ecosystem.\n\n### Velodrome on Optimism as Precedent\n\nWhile Arbitrum is a unique ecosystem which is difficult to compare to other networks, the effect of Optimism’s grant to Velodrome in July of 2022 supports that a similar grant to Camelot could have a positive effect on the Arbitrum ecosystem. Velodrome received a 3M OP grant from the Optimism Foundation in July of 2022 that was meant to last 4-5 months. As seen in the visual below, Velodrome had around $14M in TVL, generated around $3.3k in weekly fees, and had $2M in daily volume before the grant. In the last 3 months, Camelot has averaged over $80M in TVL, $450,000 in weekly fees, and $18M in daily volume. While TVL and volume numbers can be skewed by low fee-generating mercenary TVL, fees paid are less biased, and Camelot has been earning over 100x more fees than Velodrome before incentives.\n\n![image](ipfs://bafkreidwm2wtosajdmpiqyryhwv3wvbrr634fp2zavgebk5z7jjl6igwdu)    \n\nCamelot has surpassed Velodrome by nearly every metric by using novel, long-term emission incentives. Thus, we’re asking for 1.5M ARB per month vs Velodrome’s 3M OP over 4-5 months. Because Camelot is currently in a much better position than pre-grant Velodrome, we expect that the ARB grant will increase liquidity depth on Camelot and the general ecosystem expansion even more, supercharging the network to a new level.\n\nTo provide additional perspective, the Arbitrum DAO treasury currently holds 3,527,046,084 ARB tokens. Assuming a hypothetical 10-year runway of treasury spending, this would be equivalent to 352m ARB tokens a year. Camelot’s grant proposal for a total of 9m ARB tokens would therefore represent 2.56% of the annual budget, with the expectation of significant ecosystem growth and expansion.\n\n***Camelot TVL, Volume and Fees before ARB Grant***\n![image](ipfs://bafkreiflwh7et2aybm4bhk2aunxtlloz6h3yxtxdd4gffgawyhajcno4l4)\n\n...\n\n## Specifications\n\nCamelot will distribute 1,500,000 ARB tokens per month as incentives across a broad range of Arbitrum liquidity pools and integrations. The distribution of these incentives will adhere to the Proposal Objectives, the proposal parameters, and the Transparency Report. \n\nThe transparency report will ensure that Camelot has clearly documented where every $ARB token has been allocated, the relevant growth metrics achieved, and most importantly the progress for its broader Arbitrum objectives. You can see the objectives and parameters below and a template of the transparency report attached. This report will be provided at the latest 72 hrs before the following month’s incentives are to be distributed.\n\n### Proposal Objectives\n*(As measured and tracked within the transparency report, attached below)*\n\n* To grow the liquidity of Arbitrum builders, bringing new users into the ecosystem and directly supporting the growth of ecosystem protocols\n* To use the incentives to bring new protocols into the Arbitrum ecosystem\n* To support the launch of native builders and their liquidity requirements\n* To advance the adoption of ARB as a base asset in liquidity pools\n* To advance the adoption of ARB within integration partner strategies\n* To provide marketing and community support to the ecosystem builders included in the incentive programme\n\n### Proposal Parameters\n*(As measured and tracked within the transparency report, attached below)*\n\n* Incentives will be distributed to a minimum of 30 partner pools, as documented in the transparency report. Any new pool or integration needs to be clearly documented beforehand in the transparency report.\n* No single pool or partner (excluding core $ARB pools) can receive more than 5% of the total incentives (as measured over a 30-day period)\n* No single pool or integration partner can receive more than 5% of its TVL in monthly incentives (as measured over a 30-day period)\n* A pool must maintain a minimum trading volume of $1,000,000 annualized to be valid to receive rewards (as measured over a 30-day period).\n* A minimum of 33% of the total incentives will be used on liquidity pools with $ARB as the base asset. On top of this minimum, Camelot will provide bonus incentives to teams that actively transition their liquidity to ARB as a base asset too. This will be included and measured within the aforementioned transparency report.\n* The partner integration section has now been merged into the “Ecosystem Builders” section, with the relevant parameters above being applicable.\n* If at any point the Arbitrum community or DAO is not satisfied with the performance or delivery, they can move forward with a governance vote to end the grant early.\n\nCamelot will distribute the incentives across the following categories and pools detailed below. The distribution across these various pools will adhere to the Proposal Objectives and parameters, please reference the transparency report for a more in-depth breakdown:\n\n[TRANSPARENCY REPORT](https://docs.google.com/document/d/1_os6yN7G2kdoeoXNotX0nqsYXQyJ0bakGXavmLNIXdc/edit?usp=sharing)\n \n![image](ipfs://bafkreifbxdwctnf335rkwqpw7k5dejulbgc3wbcmjxew45pkxxttyamhrq)\n\n* Ecosystem Builders 75%\n  * Liquidity incentives for partner pools such as Vela, Pendle, Plutus, Jones and a diverse range of Arbitrum protocols. This will include integration partners that build on top of Camelot liquidity pools, such as Gamma and DeFi Edge, following the same parameters and guidelines shared above.\n  * The transparency report contains a broader breakdown of the ecosystem pools that this will be focused on. In addition, these incentives will be used to encourage the adoption of ARB as a base asset for ecosystem protocol liquidity pools.\n\n* Core Pairs 15%\n  * These represent the core liquidity pools such as ARB/ETH, ETH/USDC, and USDC/USDC. Further examples are included in the transparency report.\n\n* Liquid Staking Derivatives 10%\n  * Focusing on a diverse range of LSDs, most of which have little liquidity on Arbitrum. This will therefore target protocols such as unshETH, Lido, Rocket Pool, Swell, Stafi and more.\n\nCamelot will utilize its Nitro Pools technology to release the granted ARB in combination with $GRAIL and $xGRAIL emissions to liquidity providers. Nitro Pools are custom-built permissionless solutions to distribute incentives to any liquidity pool, with the ability to add custom requirements also. Along with the rest of the protocol, Nitro Pools have been audited by Paladin, and used by Camelot and numerous partners over the previous 8 months.\n\n\n...\n\n## Steps to implement\n\nCamelot will receive 1,5000,000 monthly over a period of 6 months, for a total of 9m ARB. In order to most transparently receive the tokens requested, Camelot will use a new multisig that will have several ecosystem players from other Arbitrum protocols. The makeup of this multisig, including the protocol affiliation(s) of each signer will be made public upon the creation of the multisig (before the proposal is moved to snapshot), and all changes to the makeup of the multisig will be announced in advance. This multisig will be governed by a multisig participation agreement wherein each signer will agree to use their signing authority only to further the interest of the wallet itself, using the ARB tokens to incentivise liquidity in approved nitro pools. By structuring the multi-sig with signers representative of the broader Arbitrum ecosystem, Camelot will ensure that the ARB tokens granted by the Arbitrum DAO will be leveraged to support new protocols, DAOs, and projects that are broadly value additive for Arbitrum.\n\nCamelot currently has [2,189,094 ARB tokens](https://debank.com/profile/0x03ff2d78afb69e0859ec6beb4cf107d3741e97ab) in its treasury, which it has used entirely for governance purposes. As an additional safeguard and sign of assurance, Camelot commits to placing its own ARB into the grant multisig for the duration of the 6 month proposal, therefore at any given time, Camelot will have “guaranteed” more ARB than it would receive from the Arbitrum DAO. Once the grant is over, Camelot will receive its own 2,189,094 ARB tokens back.\n\nOnce the ARB tokens have been distributed to the intended multisig wallet, Camelot will bear the full responsibility and workload to ensure the effective allocation of these tokens. Camelot will actively manage and continuously analyze the effectiveness of the incentives being used, following the aforementioned proposal objectives and parameters, and clearly documenting any changes or adjustments in the transparency report.\n\nMore information on the mechanics of Camelot’s nitro pools is available [here](https://docs.camelot.exchange/protocol/nitro-pools). Once the ARB tokens have been distributed to the grant multisig, Camelot will then further distribute them to internal wallets where the tokens will be used as incentives for the pools and partner integrations mentioned above under ‘Specifications’.\n\n* Camelot will receive 1,500,000 ARB tokens per month for 6 months, which it will distribute in accordance to the proposal objectives and parameters.\n* Camelot will detail how every ARB token is allocated and the progress towards the proposal objectives within the [transparency report](https://docs.google.com/document/d/1_os6yN7G2kdoeoXNotX0nqsYXQyJ0bakGXavmLNIXdc/edit?usp=sharing).\n* The transparency report will be shared no later than 72 hours before the next month's incentives are distributed.\n* Camelot will hold a bi-weekly public community call to discuss the performance and progress of the grant and the transparency report in further detail.\n\n...\n\n## Timeline\n\nCamelot will begin the grant distribution from the date this proposal is passed and the ARB is delivered until 6 months after. The 1.5M ARB will be distributed monthly to the relevant ecosystem multisig mentioned above, for a total of 6 months.\n\nOnce the grant is active, Camelot will provide the subsequent transparency reports no later than 72 hours before the next month's incentives are to be distributed. The transparency report will follow the template that is attached and will include all relevant information. Following the conclusion of the grant, Camelot will provide a comprehensive analysis of the performance of the grant and its impact.\n\n...\n\n## Overall cost\n\n1,500,000 ARB distributed monthly over 6 months, for a total of 9M ARB tokens.",
+        "end_utc": "2023-07-21T20:00:00Z",
+        "similarity_score": 0.1865,
+        "vote_result": {
+          "choices": [
+            "For",
+            "Against",
+            "Abstain"
+          ],
+          "scores": [
+            49223240.008841634,
+            62763012.2478821,
+            52128168.08225786
+          ],
+          "scores_total": 164114420.33897847,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "arbitrum",
+          "status": "tvl_data_unavailable",
+          "error": "Could not fetch TVL data: TVL cache not found for slug='arbitrum'"
+        },
+        "price_impact": {
+          "token_id": "11841",
+          "ticker": "ARB",
+          "status": "success",
+          "event_time_utc": "2023-07-21T20:00:00",
+          "pre_price_avg": 1.264355245,
+          "post_price_avg": 1.2190240499999998,
+          "abnormal_change": -3.5853,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.035853,
+          "abnormal_change_pct": -3.5853
+        }
+      }
+    },
+    {
+      "proposal_id": "0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94",
+      "cleaned": {
+        "proposal_id": "0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94",
+        "title": "[Pyth Network] Arbitrum LTIPP Extension Request",
+        "author": "0xB933AEe47C438f22DE0747D57fc239FE37878Dd1",
+        "end_utc": "2024-09-12T11:00:00Z",
+        "similarity_score": 0.186,
+        "winning_option": "Against",
+        "winning_option_index": 1,
+        "margin_abs": 68421055.59237781,
+        "margin_pct": 0.5047652985681345,
+        "scores_total": 135550236.48905247,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 3355,
+        "total_votes": 3355,
+        "first_vote_at": "2024-09-05T11:00:40Z",
+        "last_vote_at": "2024-09-12T10:58:17Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1136532.7303904737,
+            314307.79217331175,
+            7334.156499293072
+          ],
+          [
+            429034.8015883577,
+            74206.72917754068,
+            8337.046340568488
+          ],
+          [
+            612751.0208839014,
+            3043362.149342355,
+            631280.2665142403
+          ],
+          [
+            9563130.559012162,
+            92683044.81408454,
+            27046914.423045762
+          ]
+        ],
+        "spike_index": 0.193423,
+        "spike_follow_support_ratio": 0.999588,
+        "stairwise_ratio": 0.00054,
+        "half_slope_diff": 8433.260552
+      },
+      "raw": {
+        "id": "0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94",
+        "title": "[Pyth Network] Arbitrum LTIPP Extension Request",
+        "author": "0xB933AEe47C438f22DE0747D57fc239FE37878Dd1",
+        "body": "# Abstract\n\nThis proposal seeks a 12 weeks extension (until November 30\\) of the Pyth Network’s [previously approved LTIPP grant](https://forum.arbitrum.foundation/t/pyth-network-ltipp-application-draft/22003).\n\nInitially, the Pyth Network was allocated 1,000,000 ARB through the LTIPP process. To date, we have utilized approximately 75,042 ARB over the 12-week duration of the program.\n\nWe are requesting to retain 174,958 ARB, bringing our total expenditure to 250,000 ARB out of the original 1,000,000, until the new grant programs are established.\n\n# Motivation\n\nWe want to highlight that incentives for infrastructure protocols and public goods, such as the Pyth oracle, typically do not yield immediate results. The impact from making such incentives available to DeFi often unfolds over weeks or even months.\n\nFor existing DeFi applications, switching to a new oracle involves significant effort and may require a new audit. Similarly, expanding from other chains to Arbitrum can be more time-consuming than anticipated, as illustrated by the Synthetix case [here](https://forum.arbitrum.foundation/t/synthetix-ltipp-application-final/22023/20).\n\nThanks to the initial LTIPP program, Arbitrum dApps had the ability to build robust oracle systems covering over 500 assets, including cryptocurrencies, FX, stocks, ETFs, and commodities. This advancement has eliminated outdated on-chain price updates and high costs, reinforcing Arbitrum’s position as a premier layer for DeFi. This progress empowers developers to create cutting-edge applications without constraints. This extension aims to keep the momentum and further empower potential new entrants like Synthetix to deliver a best-in-class protocol.\n\n# Rationale\n\nThe proposed extension of the Pyth Network’s LTIPP grant is designed to further cultivate a thriving and innovative DeFi ecosystem on Arbitrum. The LTIPP program has already proven its effectiveness, with Pyth price updates on-chain increasing by 2-3 times and peaking at nearly 10 times the previous levels, reaching over 70,000 updates on July 14\\.\n\nBefore the program began, the total value secured by the Pyth oracle on Arbitrum was just over 43,000 ETH. This figure has since risen to 52,500 ETH, reflecting an increase of more than 20%.\n\nPyth has also enabled over $16.1 billion in trading volume on various Arbitrum decentralized perpetual exchanges during June and July (with August data pending). This underscores the benefits for applications powered by Pyth Network: protocols using Pyth have experienced, including increased total value locked (TVL), higher trading volumes, and more frequent price updates driven by a growing number of applications utilizing Pyth.\n\nThe request for a 12-week extension, with a reduced ARB allocation, is part of our commitment towards responsible resource management commitment to responsible resource management while continuing to support the long-term success of applications built on Arbitrum that leverage Pyth. By covering the gas costs for using the Pyth oracle, the network has enabled more developers to create robust DeFi applications without the burden of high operational expenses.\n\nThis strategy strengthens Arbitrum’s position as a premier platform for DeFi innovation, where developers can access over 500 price feeds without financial or technical constraints.\n\nIt’s important to understand that the impact of incentives for infastructure protocols and public goods like the Pyth price oracle are not immediate: it often takes weeks or even months to materialize.\n\nFurthermore, it’s important to recognize that the impact of incentives for infrastructure protocols and public goods like the Pyth oracle is not immediate; it often takes weeks or even months to materialize.\n\nThis proposal, aims to build on the momentum generated by the initial LTIPP program, ensuring the continued growth and expansion of the Arbitrum ecosystem as new grant strategies are developed and implemented.\n\n# Key Terms\n\n* On-demand or pull oracle: An oracle network where anyone can permissionlessly trigger price updates on-chain by doing an Arbitrum tx\n\n# Specifications\n\n* 13 weeks duration  \n* 175,000 ARB\n\nThe proposed extension duration is similar to that of the previous LTIPP program—12 weeks versus 13 weeks (including retroactive rebates for the end of August). However, the amount of ARB tokens requested for gas rebates has increased from 75,000 ARB to 175,000 ARB.\n\nThis increase reflects an anticipated rise in activity and associated costs, estimated at approximately 133%. The launch of Synthetix’s Multi-Collateral Perps on Arbitrum is expected to drive a substantial increase in the number of price updates triggered on-chain. For context, Synthetix currently triggers around 1,000 daily updates on Optimism and between 3,000 and 5,000 daily updates on Base—both without additional incentives in place.\n\n# Steps to Implement\n\nIf the Arbitrum DAO approves this extension, no additional work or involvement will be required from the DAO itself. The responsibility for managing the funds and continuing the program would remain entirely with the Pyth Data Association.\n\nAs during the initial 12 weeks of the LTIPP, the Pyth Data Association would continue reimbursing dApps for gas costs every two weeks. Additionally, we would maintain our practice of providing bi-weekly updates on the Arbitrum forum to ensure transparency and accountability. Our latest report is available [here](https://forum.arbitrum.foundation/t/pyth-network-bi-weekly-update-26-august-2024/26525), and we are open to including even more detailed data and information in these reports if needed.\n\nSince this is an extension of an already approved grant, no additional legal work is necessary. The Pyth Data Association has already completed KYC and signed the grant agreement with the Arbitrum Foundation.\n\n# Timeline\n\nThe LTIPP program officially ended on August 26, and until this extension proposal is approved, the Pyth Data Association has paused reimbursing the gas costs incurred by dApps during this period.\n\nIf approved, the extension would be applied retroactively, starting from the end of the LTIPP program on August 26. This means that, depending on the timing of the Snapshot vote, there could be up to 2-3 weeks of retroactive gas rebates.\n\nThe proposed extension would conclude on November 30, 2024.\n\n# Overall Cost\n\nThe cost to the Arbitrum DAO can be seen as an opportunity cost of 174,958 ARB, or potentially even less. Originally, the DAO approved a grant of 1,000,000 ARB—funds that were effectively budgeted and allocated—of which only 75,042 ARB was utilized during the 12-week LTIPP period.\n\nWe are now requesting to retain 174,958 ARB from the initial allocation to continue offsetting costs for DeFi applications that use Pyth’s on-demand price feeds. The remaining 750,000 ARB will be returned to the Arbitrum DAO as previously agreed under the LTIPP program. Furthermore, if any funds remain unspent before the outlined timeline concludes, Pyth Data Association will promptly return those ARB tokens to the DAO.\n\n# Additional Context\n\nWe have been actively seeking feedback and advice from [@Matt_StableLab](https://forum.arbitrum.foundation/u/matt_stablelab) to determine the best approach for moving forward with this extension request.\n\nOur interest in extending the LTIPP grant was initiated in the original LTIPP discussion [here](https://forum.arbitrum.foundation/t/pyth-network-ltipp-application-draft/22003/10).\n\nCurrently, we plan to submit this extension request on Snapshot by Thursday, September 5, with support from Wintermute. This timeline allows ample opportunity to gather feedback on the proposal and make any necessary adjustments based on input from the DAO.\n\nPlease note that Wintermute will merely be sponsoring the proposal as a delegate which is separate from their role as an LTIPP Council member.",
+        "end_utc": "2024-09-12T11:00:00Z",
+        "similarity_score": 0.186,
+        "vote_result": {
+          "choices": [
+            "For",
+            "Against",
+            "Abstain"
+          ],
+          "scores": [
+            11741449.111874891,
+            96114921.48477767,
+            27693865.892399862
+          ],
+          "scores_total": 135550236.48905247,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "arbitrum",
+          "status": "tvl_data_unavailable",
+          "error": "Could not fetch TVL data: TVL cache not found for slug='arbitrum'"
+        },
+        "price_impact": {
+          "token_id": "11841",
+          "ticker": "ARB",
+          "status": "success",
+          "event_time_utc": "2024-09-12T11:00:00",
+          "pre_price_avg": 0.524448365,
+          "post_price_avg": 0.51195687,
+          "abnormal_change": -2.3818,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.023818,
+          "abnormal_change_pct": -2.3818
+        }
+      }
+    },
+    {
+      "proposal_id": "0xbe03044e4eeddfe838b719cffe234aced53238da1cef7f3e5e8c2a86aadcccb6",
+      "cleaned": {
+        "proposal_id": "0xbe03044e4eeddfe838b719cffe234aced53238da1cef7f3e5e8c2a86aadcccb6",
+        "title": "Fund the Stylus Sprint",
+        "author": "0xb4c064f466931B8d0F637654c916E3F203c46f13",
+        "end_utc": "2024-09-13T03:11:23Z",
+        "similarity_score": 0.178,
+        "winning_option": "For",
+        "winning_option_index": 0,
+        "margin_abs": 148560233.88671803,
+        "margin_pct": 0.9493763365511151,
+        "scores_total": 156481922.0441139,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 3463,
+        "total_votes": 3463,
+        "first_vote_at": "2024-09-06T03:16:34Z",
+        "last_vote_at": "2024-09-13T03:00:54Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.998441,
+            0.0,
+            0.001559
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9994224660698816,
+          0.0,
+          0.0005775339301183945
+        ],
+        "stability": [
+          0.9994224660698816,
+          0.0,
+          0.0005775339301183945
+        ],
+        "early_ratio": [
+          0.9984411535463756,
+          0.0,
+          0.001558846453624318
+        ],
+        "vp_by_quartile": [
+          [
+            764937.8122149415,
+            38616.75896645705,
+            33833.808862639686
+          ],
+          [
+            498938.8591002526,
+            35412.430919366,
+            23925.587627857985
+          ],
+          [
+            41255535.575574026,
+            2968945.75133008,
+            126442.28494389844
+          ],
+          [
+            109907626.15166709,
+            823829.5706222042,
+            3877.4522851876395
+          ]
+        ],
+        "spike_index": 0.121982,
+        "spike_follow_support_ratio": 0.999759,
+        "stairwise_ratio": 0.000576,
+        "half_slope_diff": 487.953554
+      },
+      "raw": {
+        "id": "0xbe03044e4eeddfe838b719cffe234aced53238da1cef7f3e5e8c2a86aadcccb6",
+        "title": "Fund the Stylus Sprint",
+        "author": "0xb4c064f466931B8d0F637654c916E3F203c46f13",
+        "body": "Please find the full proposal on the forums, several sections have been removed to adhere to character limits: https://forum.arbitrum.foundation/t/rfc-fund-the-stylus-sprint/26437?u=entropy\n\n## Abstract\n\nThe [ArbOS 31 “Bianca”](https://www.tally.xyz/gov/arbitrum/proposal/108288822474129076868455956066667369439381709547570289793612729242368710728616) onchain vote on Tally has passed quorum, signaling the DAO’s approval to activate Arbitrum Stylus on Arbitrum One and Nova. To bolster the impact of this upgrade, this proposal presents the one-time \"Stylus Sprint\" program, aimed at encouraging the early development of Stylus smart contracts and tooling by awarding up to 5,000,000 ARB to teams who build with Stylus. Applications will be open for 8 weeks and the program will run for 1 year. The Sprint will include a mix of open applications where teams are encouraged to be creative in their ideas as well as invitational/RFQs with strategically targeted objectives. The requested funding is intended to cover development costs, including hiring talent, training teams, adopting new tools, infrastructure expenses, and audits at the discretion of the recipient. This campaign's primary objectives are to engage new and existing Arbitrum protocol teams with this novel technology, showcase use cases only feasible with Stylus, and create foundational Stylus building blocks for widespread use.\n\nInterested teams must apply through a designated application process and grant recipients will be selected by an Evaluation Committee based on specific criteria detailed in this proposal. As the program progresses, participating teams will receive staged funding as they reach predefined and agreed-upon milestones, culminating in the deployment and long-term upkeep of their projects.\n\n## Specifications\n\n### Application Process & RFP Details:\n\nAs mentioned, the Stylus Sprint program invites teams to submit applications either in the open-applications track or in response to lightweight Request for Proposals (RFPs, listed below) that target specific verticals, published by the Evaluation Committee. The below lists are non-exhaustive and serve as inspiration. Participants in the open track will have ample opportunity for innovation and creativity. All requests for both the open-application track and RFPs must be denominated in ARB.\n\nThe application approach described above for both open applications and RFPs ensures a structured yet flexible framework for harnessing the potential of Stylus technology. Not all funds will necessarily be deployed, and even if an RFP has quotes, there is no guarantee that any will be deemed satisfactory and chosen. The above categories are non-exhaustive and meant to be viewed as examples. If this proposal passes, the Evaluation Committee will cement an official list before applications open.\n\nTeams are required to submit a detailed application outlining their plans for utilizing the funding. These applications will be thoroughly reviewed by the Evaluation Committee, which will also approve them. Upon approval, milestone payments will be systematically allocated to the teams based on their progress. If no satisfactory applications are received, as decided at the discretion of the Evaluation Committee, 0 ARB will be spent, and all unspent funds will be returned to DAO.\n\n### Evaluation Committee and Committee Advisors\n\nTo effectively administer the program, it is essential to establish an Evaluation Committee composed of Stylus experts. Additionally, a group of advisors will provide consultative support to the committee. Given the innovative nature and specific technical nuances of Stylus, we propose that the committee be primarily made up of members from Offchain Labs and OpenZeppelin, the two entities responsible for developing Stylus thus far. Currently, there are limited experts qualified to assess Stylus applications effectively. However, should the DAO prefer to engage in a broader selection process that we believe would be inefficient and lead to a less successful program, Entropy Advisors is more than happy to facilitate an RFP process instead, contingent upon a DAO vote to define and appoint these roles.\n\nEvaluation Committee\n\n1. Stylus Team Members - Offchain Labs (Waiving Payment)\n2. Dev Team - Arbitrum Foundation (Waiving Payment)\n3. Entropy Advisors (Waiving Payment)\n4. Michael Lewellen - OpenZeppelin (5000 ARB per month)\n5. Gustavo Gonzalez - OpenZeppelin (5000 ARB per month)\n\nCommittee Advisors\n\n1. Entropy Advisors (Waiving Payment)\n\nThe Committee Advisors’ main role will be facilitating discourse with the DAO, applicants, and general project management in order to reduce the burden on the Evaluation Committee where possible. **Members of the Evaluation Committee and Committee Advisors will not be eligible to apply to the program in any capacity due to conflicts of interest.**\n\nJudges and Advisors will serve for approximately 14.5 months. In the first 2 weeks, they will work together to refine the application and evaluation criteria as well as specifics around the RFPs to kickstart the process. The following 2 months will be used to review proposals as they come in. Subsequent 2 weeks will be taken to officially accept and reject projects. **Both accepted and rejected applications will receive public rationale from the Evaluation Committee as to why the choice was made so that the DAO may have a view into the decisions and the teams can adjust accordingly in the future.** In the next 12 months, contributors will greenlight milestone payments as projects achieve their goals and periodically give guidance to participants. Advisors will report back to the DAO through monthly updates over the lifespan of the program.\n\n### Multisig Setup\n\nThe Stylus Sprint multi-sig will be created and allocated 5M ARB for the Stylus Sprint Program and 150K ARB for payments to judges. Funds will be sent to an MSS-secured multisig. The funds in the multisig belong to the DAO and the signers act as grant managers on behalf of the DAO in coordination with the Arbitrum Foundation. Funds held in the multisig are explicitly banned from usage in DAO governance, including delegation.\n\n### Funding Levels and Disbursement\n\nTeams will apply for their appropriate levels of funding. Suggested levels in ARB are 1M, 750K, 500K, 250K, 100K, or 50K. If teams want a different amount of funding, they must specify why in their application. These funding levels have been set to streamline the review process. However, teams are encouraged to request specific amounts of funding best suited to their needs. Teams will have 1 year to deploy their project and meet their 2 post-deployment milestones.\n\nUnallocated funds will be returned to the DAO treasury after all applications have been reviewed and grant sizes have been determined. An additional dispersal to the DAO could occur if projects don’t manage to hit their goals within the 1-year timeline and if the budget has remaining ARB. There is absolutely no need to allocate all funds, and it will only be done if more than 5M in exemplary proposals are received during the 8-week application cycle.\n\nFunding will be distributed based on achieving certain development milestones. 50% of funds will be distributed after deployment to encourage teams to think about growth and sustainability post-launch. The criteria for these 2 checkpoints will be proposed by teams in their applications.\n\nAll projects will be required to use milestones in order to ensure progress is being made before funds are fully allocated. The above milestone structure, however, is not required. For RFPs, custom milestone payments can be included in the quotes provided by service providers. Approved projects will submit requests as they reach milestones. The judges, with help from their advisors, will be responsible for ensuring validity and greenlighting payment to be sent as milestones are hit, in accordance with the Evaluation Criteria mentioned above. The evaluation committee will have the autonomy and authority to expel projects from the program at any point in their life cycle and stop all future milestone payments.\n\n## Timeline\n\n1. Stylus Sprint Forum Post - August 20, 2024\n2. Snapshot Vote Begins - August 29, 2024\n3. On-Chain Vote - Sept 12, 2024\n6. Stylus Sprint Begins - Oct 4, 2024\n\nThe program will begin on the Monday following the onchain proposal’s passing. The first 2 weeks will be used to refine and post the RFPs, followed by open applications for 8 weeks, then a 2-week application review process. Feedback between the Evaluation Committee and applicants will be conducted on an ongoing/continuous basis over the next 10 weeks. KYC with the foundation will then begin and first milestone payments may be allocated upon completion. The MSS chairs, Arbitrum Foundation, and Entropy Advisors will need to work closely to ensure a strict payment process.\n\n## Overall Cost\n\n**5,180,000 ARB**\n\nUp to 5M to be awarded to projects building on Stylus\n\n75,000 ARB payment in total over 14.5 months per committee member for 2 committee members = 150,000 ARB\n\n30,000 ARB paid up front to Questbook.",
+        "end_utc": "2024-09-13T03:11:23Z",
+        "similarity_score": 0.178,
+        "vote_result": {
+          "choices": [
+            "For",
+            "Against",
+            "Abstain"
+          ],
+          "scores": [
+            152427038.39855614,
+            3866804.511838108,
+            188079.1337195837
+          ],
+          "scores_total": 156481922.0441139,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "arbitrum",
+          "status": "tvl_data_unavailable",
+          "error": "Could not fetch TVL data: TVL cache not found for slug='arbitrum'"
+        },
+        "price_impact": {
+          "token_id": "11841",
+          "ticker": "ARB",
+          "status": "success",
+          "event_time_utc": "2024-09-13T03:11:23",
+          "pre_price_avg": 0.51987549,
+          "post_price_avg": 0.51131814,
+          "abnormal_change": -1.646,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.01646,
+          "abnormal_change_pct": -1.646
+        }
+      }
+    },
+    {
+      "proposal_id": "0x3161a3d9486ab7b6099be9fda16d6498f329249c0ad33b0f75090f2ceb557789",
+      "cleaned": {
+        "proposal_id": "0x3161a3d9486ab7b6099be9fda16d6498f329249c0ad33b0f75090f2ceb557789",
+        "title": "Entropy Advisors: Exclusively Working With Arbitrum DAO",
+        "author": "0xA7860E99e3ce0752D1ac53b974E309fFf80277C6",
+        "end_utc": "2024-08-01T18:48:03Z",
+        "similarity_score": 0.1721,
+        "winning_option": "Fund Entropy",
+        "winning_option_index": 0,
+        "margin_abs": 148971379.9280609,
+        "margin_pct": 0.8774916527546466,
+        "scores_total": 169769569.27214718,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 4782,
+        "total_votes": 4782,
+        "first_vote_at": "2024-07-18T18:49:08Z",
+        "last_vote_at": "2024-08-01T18:26:19Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            15200421.023190062,
+            332542.01233014883,
+            24155.44884997908
+          ],
+          [
+            47440401.149173036,
+            5921276.246043851,
+            2839.5064110726153
+          ],
+          [
+            17940652.267868258,
+            3888.825704026756,
+            2534.0686548233016
+          ],
+          [
+            75451814.13324797,
+            416664.96917077544,
+            7032379.621502945
+          ]
+        ],
+        "spike_index": 0.11502,
+        "spike_follow_support_ratio": 0.999946,
+        "stairwise_ratio": 0.000858,
+        "half_slope_diff": 334.322421
+      },
+      "raw": {
+        "id": "0x3161a3d9486ab7b6099be9fda16d6498f329249c0ad33b0f75090f2ceb557789",
+        "title": "Entropy Advisors: Exclusively Working With Arbitrum DAO",
+        "author": "0xA7860E99e3ce0752D1ac53b974E309fFf80277C6",
+        "body": "## Abstract\nThis proposal aims to secure funding for Entropy Advisors to continue its work exclusively with the Arbitrum DAO for one year. During this period, we will deliver strategic proposals, guide key partners through the DAO processes, and align the priorities of essential stakeholders for the betterment of Arbitrum. We will also expand our efforts to include a small set of additional verticals by hiring skilled contributors in areas where the DAO needs support, such as data analytics, technical proposal creation, marketing, or any other needs that may arise.\n\nWith a budget of $2.47M for the year paid in monthly installments and stored with the Foundation for DAO-clawback capabilities, along with an optional up to 1.5 million ARB for performance-based bonuses voted on by the DAO near the end of the term and put in a 3-year vesting contact to ensure long-term alignment, we will continue to build a dedicated team focused solely on enhancing the Arbitrum DAO’s success. The primary goal of our work is to help Arbitrum DAO continue its path toward efficient and effective operations and execute its long-term vision of becoming a sustainable entity with diversified revenue streams. We believe that over the coming years, Arbitrum DAO has the potential to generate hundreds of millions of dollars per year while maintaining its status as the leading Ethereum scaling solution with an ever-growing base of users and developers. All of Entropy Advisors’ employees will work full-time towards achieving this goal.\n\n## Motivation and Rationale\nArbitrum DAO is set up to prosper with its cutting-edge technology stack that will soon support numerous coding languages, a vibrant community of users and developers, abundant resources in the DAO treasury, and the ecosystem’s commitment to scaling the most decentralized and secure L2 on Ethereum. Despite our belief that Arbitrum holds a strong position in the market today, there is a lot of work to be done over the next 3-5 years to ensure Arbitrum maintains and advances its position. We have diagnosed some key areas in need of improvement that we feel well suited to take on:\n\n1. Designing, drafting and executing proposals that benefit Arbitrum.\n2. Strengthening overall governance processes and providing feedback to other DAO contributors, unlocking efficiencies and ensuring redundant work is avoided.\n3. Acting as a mesh layer between key stakeholders, e.g., active delegates, development teams such as Offchain Labs, and the Arbitrum Foundation.\n4. Helping potential 3rd party strategic partners navigate the DAO to attract high-quality companies and individuals within the ecosystem and RFP applicant pools.\n5. Attracting/retaining top talent working full-time, professionally on behalf of Arbitrum DAO.\n6. Improving the ability of the DAO to spend money effectively and support a long term sustainable future for Arbitrum.\n\nToday the Arbitrum DAO faces friction executing across all of the aforementioned tasks. Many times those creating proposals have known or unknown ulterior motives and incentives at play. It is difficult for aspiring contributors and partners to navigate the DAO. No one is incentivized to bolster RFP applicant pools. Communication is fragmented with no entity in place to tie perspectives together, and operations/goals often overlap across initiatives. There are numerous proposals that are consensus to move forward but do not progress because there is no financial incentive to do so. There is inadequate accountability over and transparency into DAO funded programs. The problems are ever-evolving and growing, and the Arbitrum DAO needs an entity that only has the DAO’s best interests in mind to fill the gaps.\n\nOur team (@swmartin19, @mattonchain, and @pruitt) brings an extensive network as well as experience in research, governance, brand building, and project management to the Arbitrum DAO, having led well-known brands in the space such as Blockworks Research and 404 DAO. We have all been involved in the DAO since the beginning, starting with Blockworks Research’s entry into the DAO by highlighting flaws in the DAO’s very first proposal, AIP-1. We are not afraid to push against the status quo if we believe it helps Arbitrum achieve its goals.\n\nEntropy Advisors was extremely fortunate to receive a grant from the Arbitrum Foundation. As such, we have been able to use the past few months contributing full-time to Arbitrum DAO to further showcase our value in the community. We have hosted bi-weekly 1-on-1 calls with a cohort of large delegates, with the foundation, and with OCL, and feel that we have a strong hold on various stakeholder’s interests, strategic goals for Arbitrum, working initiatives, etc. When paired with our experience and networks within the industry, we believe that we are uniquely positioned to help Arbitrum achieve its long-term goals with all stakeholder perspectives in mind. With exclusivity meaning no official or unofficial engagements with any other client, Entropy Advisors can serve Arbitrum DAO with no ulterior motives or conflicts of interest.\n\nToday, virtually no money is spent on operations, while the DAO has spent almost 435M ARB in total with ~95% going towards investments, incentives, and grants (Source: Delphi & R3gen). We believe it is absolutely imperative for the DAO to make an investment in operations, simultaneously ensuring different initiatives across the ecosystem can be set in motion swiftly, fit together seamlessly, and can reach the best talent, while the DAO’s expenditures can be managed in a way that enables long-term sustainability. It is evident that this is becoming a wider-reaching theme within the DAO, but requires a heavy lift (see OpCo proposal from @dkpremia that asks for 25M ARB). We are NOT looking to replace OpCo, but rather drastically reduce the scope and funding request by helping formulate operational procedures until the OpCo is formally stood up. At that point, the DAO can decide what role Entropy Advisors plays as a service provider to the OpCo.\n\nWith the budget as outlined, Entropy will be able to hire up to 10 employees with a diverse range of skill sets including governance, data analytics, marketing, and development/engineering. We will be able to hire top talent in our industry who will dedicate their full-time bandwidth to Arbitrum DAO. Regardless of Arbitrum’s current strategic priorities, whether cutting costs or scaling strategies, our team will work to execute the goals of the DAO. Given Arbitrum’s dominance, size, and number of initiatives it is important that we build a well-rounded team at Entropy that can operate as the tip of the spear as a catalyst for change across the many sectors that the DAO operates.\n\n## Entropy’s Portfolio\nAt the beginning of May, we introduced Entropy Advisors to the Arbitrum DAO. We are a governance operations-focused business, working exclusively with Arbitrum. Our initial efforts have already driven several notable initiatives, demonstrating our capability and commitment to enhancing the Arbitrum DAO:\n\n![entropy.jpeg](ipfs://bafkreiea7v6o66utcod7ynuqcwuoh7ybc53fkmq57tpubeqklzug7q32au)\n    \n* Worked with @r3gen_Finance to create a proposal that reduces DAO OpEx on multi-sig signers, by establishing the Multisig Support Service.\n\n   * We leveraged our network to ensure a competitive applicant pool, which ultimately resulted in one of the most competent applicant rosters (40 in total) in the DAO’s history despite just a $1,500-$2,500 monthly wage per signer.\n\n   * The proposal is expected to save the DAO almost $400,000 per year.\n\n   * Entropy managed the application process, and will soon host a call with the winning applicants to go over multi-sig best practices.\n\n* Conducted research into Arbitrum DAO’s sequencer margin / transaction fee mechanism, kicking off a conversation that aims to increase the DAO’s treasury value rather than deplete it of resources.\n\n   * Attended/helped drive forward discussions related to DAO budgeting and sequencer revenue through working group calls.\n\n   * Followed up with a formal proposal to increase the L2 minimum base fee on Arbitrum One, with plans to establish a more long-term solution that includes service providers.\n\n   * This proposal, if passed, could bring the DAO an extra $5-15M per year of profit.\n\n   * We also tapped on the ARDC to conduct research into these areas, thereby utilizing existing resources at the DAO’s disposal rather than wasting additional resources.\n\n* Moved quickly to get Hack Humanity, the entity behind GovHack, ample funding to throw an event in Brussels at ETH CC for the Arbitrum community. These events require a substantial amount of lead time to plan, and the event would not have been possible if a few extra weeks had passed prior to getting the event funded.\n\n    * This is a great example of Entropy Advisors helping 3rd party service providers navigate the DAO while also combatting the collective inactive problem mentioned above. Everyone wanted Arbitrum DAO representation in Brussels and Entropy stepped in to get it done.\n\n* Introduced a governance calendar that encourages proposals to start and finish Snapshot and Tally voting on the same day each week, requires some support from delegates before proposals move to Snapshot from the Forum, and a holiday break at the turn of the new year.\n\n   *  The goal of this proposal was to reduce delegate fatigue by incorporating a more predictable structure, and ensuring things only go to Snapshot once they have been thoroughly reviewed by the broader community.\n\n***PLEASE NOTE THE REMAINDER OF THIS PROPOSAL HAS BEEN CUT OF DUE TO CHAR COUNT BUT CAN BE FOUND IN FORUM***",
+        "end_utc": "2024-08-01T18:48:03Z",
+        "similarity_score": 0.1721,
+        "vote_result": {
+          "choices": [
+            "Fund Entropy",
+            "Do not fund",
+            "Abstain"
+          ],
+          "scores": [
+            156033288.5734797,
+            6674372.053248803,
+            7061908.64541882
+          ],
+          "scores_total": 169769569.27214718,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "arbitrum",
+          "status": "tvl_data_unavailable",
+          "error": "Could not fetch TVL data: TVL cache not found for slug='arbitrum'"
+        },
+        "price_impact": {
+          "token_id": "11841",
+          "ticker": "ARB",
+          "status": "success",
+          "event_time_utc": "2024-08-01T18:48:03",
+          "pre_price_avg": 0.667679465,
+          "post_price_avg": 0.58637459,
+          "abnormal_change": -12.1772,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.121772,
+          "abnormal_change_pct": -12.1772
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x852b7e7bc83db6c3628695816647bdeb9825d10e445a71dcc94e651b2f8a71b9",
+    "selected_choice_label": "For",
+    "selected_choice_index": 0,
+    "confidence": 0.85,
+    "summary": "The proposal requests an additional 250 million ARB to bolster the Arbitrum Foundation's strategic partnerships budget. The foundation aims to address challenges related to a tight budget, vesting constraints, and capital lockup that limit its ability to pursue competitive partnership deals. The funding will focus on large new agreements exceeding 2 million ARB with at least one-year contractual commitments. The forum discussion reveals majority support for the proposal, emphasizing the necessity for the foundation to remain competitive amid growing competition from other L2 ecosystems. Concerns about transparency and oversight were raised, with suggestions for a DAO oversight council under NDA. The foundation commits to enhanced transparency in future reports and underscores the confidentiality needed for strategic partnerships. Historical similar proposals show mixed outcomes but highlight the importance of strategic funding to maintain ecosystem growth. Market metrics indicate positive price impact with a slight TVL decline, reflecting typical market response to such funding proposals.",
+    "key_arguments_for": [
+      "The foundation needs increased budget to remain competitive against other L2 ecosystems with larger allocations.",
+      "Strategic partnerships are essential for ecosystem growth, including expansion of Orbit chains and onboarding traditional financial institutions.",
+      "The foundation has a track record of effective fund management and transparent reporting.",
+      "Additional funds will enable swift action on high-impact opportunities without repeatedly returning to the DAO."
+    ],
+    "key_arguments_against": [
+      "Concerns about insufficient transparency and detailed reporting on fund allocation and use.",
+      "Questions about the necessity of such a large increase given existing budgets and vesting schedules.",
+      "Calls for stronger oversight mechanisms to ensure accountability for the large allocation.",
+      "Worries about lack of long-term plans and sustainability after funds are exhausted."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Arbitrum Foundation forum thread",
+        "quote": "Majority of forum comments support the proposal citing competitive necessity and foundation's track record; opposition mainly focuses on transparency and oversight concerns."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Voting timeline analysis",
+        "quote": "Voting timeline shows strong and stable early support for 'For' option with high VP ratios and stability metrics."
+      },
+      {
+        "source_tool": "govnews_proposal_news_window",
+        "reference": null,
+        "quote": "No specific news found in the given window related to this proposal."
+      }
+    ],
+    "available_choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2024-09-19T12:29:39Z",
+    "event_end_utc": "2024-09-26T12:29:39Z",
+    "event_time_utc": "2024-09-26T12:29:39Z",
+    "address_of_governance_token": "0x0000000000000000000000000000000000000000",
+    "token_price_impact_pct": 6.848,
+    "tvl_impact_pct": -0.2012,
+    "actual_vote_result": {
+      "winner_label": "For",
+      "winner_index": 0,
+      "scores": [
+        141384111.01532558,
+        3924588.197645714,
+        17828876.297689136
+      ],
+      "scores_total": 163137575.51066047,
+      "margin_abs": 123555234.71763644,
+      "margin_pct": 0.757368
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'For' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- The voting timeline metrics indicate a strong, stable, and early lead for the 'For' option, showing confident community support.\n- Forum sentiment analysis reveals majority positive support highlighting the foundation's critical role and competitive necessity, although transparency concerns are noted.\n- Similar past proposals emphasize the importance of strategic funding to maintain ecosystem growth; while some had mixed market results, they provide lessons on oversight and transparency.\n- Market impacts show a positive price effect, supporting the view that the proposal aligns with ecosystem growth potential.\n- The recommendation aligns with the aggregated forum sentiment, indicating community views and vote progress are consistent.\n- Overall, approving the proposal supports the durable benefit of the Arbitrum ecosystem by enabling the foundation to secure key partnerships effectively.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0xb761aeef86e9c7a12a7c7326f28cb10bd0d9d94a83041624dc5d03628c3f5c94",
+        "title": "[Pyth Network] Arbitrum LTIPP Extension Request",
+        "end_utc": "2024-09-12T11:00:00Z",
+        "summary": "[Pyth Network] Arbitrum LTIPP Extension Request closed on 2024-09-12T11:00:00Z. Timeline analytics noted 3355 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.18)",
+        "market_response": "token +0.10%; TVL +0.52%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0x785e8ed145d34ab4c9fea725cf0ce31267f90bc2ed4423e6e718c5e736e84c06",
+        "title": "[Aave DAO] LTIPP Grant Extension Request",
+        "end_utc": "2024-09-19T11:00:00Z",
+        "summary": "[Aave DAO] LTIPP Grant Extension Request closed on 2024-09-19T11:00:00Z. Timeline analytics noted 3541 unique voters, timeline-only analysis (no final tally), recommended option index 1.",
+        "similarity_reason": "Related text overlap (score 0.10)",
+        "market_response": "token +13.00%; TVL +4.05%",
+        "change_stance": "Not change, Status quo"
+      }
+    ],
+    "ex_post_price_impact_pct": 6.848,
+    "ex_post_tvl_impact_pct": -0.2012,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +6.85%; TVL -0.20%"
+  },
+  "agentic_ai_choice": "For",
+  "actual_outcome": "For",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 28,
+    "Positive": 40,
+    "Neutral": 32,
+    "total_comments": 100
+  }
+}

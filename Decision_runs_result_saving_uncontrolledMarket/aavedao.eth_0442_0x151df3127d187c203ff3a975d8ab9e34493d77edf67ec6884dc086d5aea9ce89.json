@@ -1,0 +1,1135 @@
+{
+  "captured_at_utc": "2025-10-06T04:17:08.765924+00:00",
+  "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0x151df3127d187c203ff3a975d8ab9e34493d77edf67ec6884dc086d5aea9ce89",
+  "focus": null,
+  "votes_count": 2684,
+  "timeline_metrics_current": {
+    "unique_voters": 2684,
+    "total_votes": 2684,
+    "first_vote_at": "2023-09-26T16:52:15Z",
+    "last_vote_at": "2023-09-29T16:48:12Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 1,
+    "lead_ratio_by_quartile": [
+      [
+        0.578501,
+        0.421499,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      0.15238450074515647,
+      0.8476154992548435,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      0.15238450074515647,
+      0.8476154992548435,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      0.5785007072135785,
+      0.4214992927864215,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        5093.134550983646,
+        107386.07400608975,
+        24.26371229924657,
+        115.4514313524193
+      ],
+      [
+        123573.51960481671,
+        95728.97719235675,
+        4.356275903764551,
+        1.6242710516059369
+      ],
+      [
+        691.3470760195011,
+        20854.104038830897,
+        40.013598461586035,
+        134956.41076516957
+      ],
+      [
+        118276.28103766972,
+        587.7203611190467,
+        5.5061917284756845,
+        10.197398614992693
+      ]
+    ],
+    "spike_index": 0.329049,
+    "spike_follow_support_ratio": 0.938079,
+    "stairwise_ratio": 0.000197,
+    "half_slope_diff": 16.233659
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x112aaa499108a4f0eca0caebf90060d32d97cba877cf095473da8ff0822f30fb",
+      "title": "[ARFC] Gauntlet recommendation for WETH Uopt on Ethereum v3",
+      "author": "0x683a4F9915D6216f73d6Df50151725036bD26C02",
+      "end_utc": "2023-09-16T13:50:44Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-09-13T13:51:26Z",
+        "last_vote_at": "2023-09-13T18:21:08Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            58.53893185548874,
+            13.676835936678987,
+            2.413617092603796,
+            0.01510382374378083
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.334005,
+        "spike_follow_support_ratio": 0.958793,
+        "stairwise_ratio": 0.008842,
+        "half_slope_diff": 0.002611
+      },
+      "price_impact_pct": 10.3389,
+      "tvl_impact_pct": 0.8858,
+      "similarity": 0.4298,
+      "actual_vote_result": {
+        "winner_index": 2,
+        "winner_label": "Option 3: 0.9 (no change)",
+        "margin_abs": 178078.97990949592,
+        "scores_total": 715221.2747922441,
+        "margin_pct": 0.2489844558402208
+      }
+    },
+    {
+      "id": "0x0ea35c1174a04a614553b52b6de16fdd74552332a99001cc1d8eddd1d78038c1",
+      "title": "[ARFC] Gauntlet Interest Rate Recommendation for WETH",
+      "author": "0x683a4F9915D6216f73d6Df50151725036bD26C02",
+      "end_utc": "2023-09-16T13:40:23Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-09-13T13:40:44Z",
+        "last_vote_at": "2023-09-13T15:03:02Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            14.632505270326035,
+            0.5791842721906041,
+            0.9418397920852929,
+            0.5610979589138226
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.518701,
+        "spike_follow_support_ratio": 0.891104,
+        "stairwise_ratio": 0.032078,
+        "half_slope_diff": -0.003393
+      },
+      "price_impact_pct": 10.3389,
+      "tvl_impact_pct": 0.8858,
+      "similarity": 0.4462,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Option 1",
+        "margin_abs": 318112.597190878,
+        "scores_total": 715957.9284862371,
+        "margin_pct": 0.44431744455078426
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x0ea35c1174a04a614553b52b6de16fdd74552332a99001cc1d8eddd1d78038c1",
+      "cleaned": {
+        "proposal_id": "0x0ea35c1174a04a614553b52b6de16fdd74552332a99001cc1d8eddd1d78038c1",
+        "title": "[ARFC] Gauntlet Interest Rate Recommendation for WETH",
+        "author": "0x683a4F9915D6216f73d6Df50151725036bD26C02",
+        "end_utc": "2023-09-16T13:40:23Z",
+        "similarity_score": 0.4298,
+        "winning_option": "Option 1",
+        "winning_option_index": 0,
+        "margin_abs": 318112.597190878,
+        "margin_pct": 0.44431744455078426,
+        "scores_total": 715957.9284862371,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-09-13T13:40:44Z",
+        "last_vote_at": "2023-09-13T15:03:02Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            14.632505270326035,
+            0.5791842721906041,
+            0.9418397920852929,
+            0.5610979589138226
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.518701,
+        "spike_follow_support_ratio": 0.891104,
+        "stairwise_ratio": 0.032078,
+        "half_slope_diff": -0.003393
+      },
+      "raw": {
+        "id": "0x0ea35c1174a04a614553b52b6de16fdd74552332a99001cc1d8eddd1d78038c1",
+        "title": "[ARFC] Gauntlet Interest Rate Recommendation for WETH",
+        "author": "0x683a4F9915D6216f73d6Df50151725036bD26C02",
+        "body": "## Summary\n\nA proposal to make parameter changes on Ethereum v3 and v2, Optimism v3, Arbitrum v3, Polygon v3. For more details, see the full forum post [here](https://governance.aave.com/t/gauntlet-interest-rate-recommendations-for-weth-and-wmatic-on-v2-and-v3/14588/7).\n\n## Motivation\nGauntlet’s analysis has identified opportunities to adjust interest rate parameters for WETH on Ethereum v3, Optimism v3, Arbitrum v3, Polygon v3. This will help to facilitate more Emode borrowing against LST collateral, which may\n- drive additional revenue to Aave. \n- adjust current risk profile for LST to depend less on onchain liquidity, which has been steadily declining over the past few months. This may be adding risk to the current borrow composition against LST collateral.\n\n\n## Specification\n\n| Option | Description | Recommendation\n| --- | ---|  ---| \n| 1 | Lower slope 1 below staking yield | Lower slope 1 on all v3 to 3.3%  | \n| 2 | Match v3 Ethereum | Remove base rate of 1% on all v3, excl Ethereum v3 | \n| 3 | Not recommended | No change| \n\n**Disclaimer: Gauntlet reserves the right to not move forward with any parameter changes recommended in Snapshot polls, if market conditions change meaningfully.**\n\n*By approving this proposal, you agree that any services provided by Gauntlet shall be governed by the terms of service available at gauntlet.network/tos.*",
+        "end_utc": "2023-09-16T13:40:23Z",
+        "similarity_score": 0.4298,
+        "vote_result": {
+          "choices": [
+            "Option 1",
+            "Option 2",
+            "No change",
+            "Abstain"
+          ],
+          "scores": [
+            476793.45784051606,
+            80429.96791921748,
+            158680.86064963805,
+            53.64207691519128
+          ],
+          "scores_total": 715957.9284862371,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2023-09-16T13:40:23",
+          "pre_tvl_avg": 4566564487.5,
+          "post_tvl_avg": 4607014851.0,
+          "abnormal_change": 0.8858,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.008858,
+          "abnormal_change_pct": 0.8858
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2023-09-16T13:40:23",
+          "pre_price_avg": 55.080917565,
+          "post_price_avg": 61.221029064999996,
+          "abnormal_change": 11.1474,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.111474,
+          "abnormal_change_pct": 11.1474
+        }
+      }
+    },
+    {
+      "proposal_id": "0x112aaa499108a4f0eca0caebf90060d32d97cba877cf095473da8ff0822f30fb",
+      "cleaned": {
+        "proposal_id": "0x112aaa499108a4f0eca0caebf90060d32d97cba877cf095473da8ff0822f30fb",
+        "title": "[ARFC] Gauntlet recommendation for WETH Uopt on Ethereum v3",
+        "author": "0x683a4F9915D6216f73d6Df50151725036bD26C02",
+        "end_utc": "2023-09-16T13:50:44Z",
+        "similarity_score": 0.3868,
+        "winning_option": "Option 3: 0.9 (no change)",
+        "winning_option_index": 2,
+        "margin_abs": 178078.97990949592,
+        "margin_pct": 0.2489844558402208,
+        "scores_total": 715221.2747922441,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-09-13T13:51:26Z",
+        "last_vote_at": "2023-09-13T18:21:08Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            58.53893185548874,
+            13.676835936678987,
+            2.413617092603796,
+            0.01510382374378083
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.334005,
+        "spike_follow_support_ratio": 0.958793,
+        "stairwise_ratio": 0.008842,
+        "half_slope_diff": 0.002611
+      },
+      "raw": {
+        "id": "0x112aaa499108a4f0eca0caebf90060d32d97cba877cf095473da8ff0822f30fb",
+        "title": "[ARFC] Gauntlet recommendation for WETH Uopt on Ethereum v3",
+        "author": "0x683a4F9915D6216f73d6Df50151725036bD26C02",
+        "body": "## Summary\n\nA proposal to make parameter changes on Ethereum v3. For more details, see the full forum post [here](https://governance.aave.com/t/gauntlet-recommendation-for-weth-uopt-on-ethereum-v3/14802).\n\n\n## Motivation\n\n[AIP-306](https://app.aave.com/governance/proposal/306/) to onboard sDAI also increased WETH Uopt from 80% to 90%. After analysis, Gauntlet recommends returning WETH Uopt to 80%. Currently, there may be insufficient WETH to facilitate liquidations during increased volatility - this proposal aims to increase the available WETH for liquidations should utilization for WETH be at Uopt = kink.\n\n\n## Specification\n\n\n| Option | New WETH Uopt for Ethereum v3 |\n| --- | ---| \n| 1 | 0.8 | \n| 2 | 0.85 | \n| 3 | 0.9 (no change) |\n\n\n\n\n**Disclaimer: Gauntlet reserves the right to not move forward with any parameter changes recommended in Snapshot polls, if market conditions change meaningfully.**\n\n*By approving this proposal, you agree that any services provided by Gauntlet shall be governed by the terms of service available at gauntlet.network/tos.*",
+        "end_utc": "2023-09-16T13:50:44Z",
+        "similarity_score": 0.3868,
+        "vote_result": {
+          "choices": [
+            "Option 1: 0.8",
+            "Option 2: 0.85",
+            "Option 3: 0.9 (no change)",
+            "Abstain"
+          ],
+          "scores": [
+            195098.2463841061,
+            146876.18050926249,
+            373177.226293602,
+            69.62160530641651
+          ],
+          "scores_total": 715221.2747922441,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2023-09-16T13:50:44",
+          "pre_tvl_avg": 4566564487.5,
+          "post_tvl_avg": 4607014851.0,
+          "abnormal_change": 0.8858,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.008858,
+          "abnormal_change_pct": 0.8858
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2023-09-16T13:50:44",
+          "pre_price_avg": 55.080917565,
+          "post_price_avg": 61.221029064999996,
+          "abnormal_change": 11.1474,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.111474,
+          "abnormal_change_pct": 11.1474
+        }
+      }
+    },
+    {
+      "proposal_id": "0xd3a059a055c6f310993bfa8acf2721fd93a0f7d0439902dce9a9c21c8897dff4",
+      "cleaned": {
+        "proposal_id": "0xd3a059a055c6f310993bfa8acf2721fd93a0f7d0439902dce9a9c21c8897dff4",
+        "title": "[ARFC] Gauntlet Recommendation on TUSD for Aave v2 Ethereum",
+        "author": "0x683a4F9915D6216f73d6Df50151725036bD26C02",
+        "end_utc": "2023-06-25T18:48:21Z",
+        "similarity_score": 0.3839,
+        "winning_option": "Option 1: Lower LT",
+        "winning_option_index": 0,
+        "margin_abs": 270813.0226098024,
+        "margin_pct": 0.8455261874591004,
+        "scores_total": 320289.33772427024,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 1994,
+        "total_votes": 1994,
+        "first_vote_at": "2023-06-22T18:49:10Z",
+        "last_vote_at": "2023-06-25T18:28:59Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.998741,
+            0.001259,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9994984954864594,
+          0.0005015045135406219,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          0.9994984954864594,
+          0.0005015045135406219,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.9987405541561712,
+          0.0012594458438287153,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            83607.33837010367,
+            41948.93761768376,
+            248.05755385305835,
+            16.49928143655177
+          ],
+          [
+            81527.53392593657,
+            26.619890879252143,
+            23.994810940895537,
+            15.962025476114874
+          ],
+          [
+            109031.81764229735,
+            368.69562948258755,
+            10.98572970483346,
+            1.6039844611591678
+          ],
+          [
+            344.7927029461416,
+            3032.828501098499,
+            62.63478012066756,
+            18.447431422850844
+          ]
+        ],
+        "spike_index": 0.396879,
+        "spike_follow_support_ratio": 0.575162,
+        "stairwise_ratio": 0.000237,
+        "half_slope_diff": 0.191336
+      },
+      "raw": {
+        "id": "0xd3a059a055c6f310993bfa8acf2721fd93a0f7d0439902dce9a9c21c8897dff4",
+        "title": "[ARFC] Gauntlet Recommendation on TUSD for Aave v2 Ethereum",
+        "author": "0x683a4F9915D6216f73d6Df50151725036bD26C02",
+        "body": "## Summary\n\nA proposal to make parameter changes on TUSD for Aave v2 Ethereum. For more details, see the full forum post [here]( https://governance.aave.com/t/temp-check-gauntlet-recommendation-on-tusd-for-aave-v2-ethereum/13727).\n\n\n## Motivation\n\nIf the community views TUSD as having excess counterparty risk, we recommend iteratively lowering LT, LTV and/or freezing TUSD supply to begin off-boarding TUSD.\n\n\n## Specification\n\nThis is a poll to gauge the community's preference:\n- Option 1: iteratively lowering the LT of TUSD to 77.5%, LTV to 75%.\n- Option 2: Freeze TUSD supply.\n- Abstain\n- Nay\n\nBecause these two options are not mutually exclusive, this is a multi-select poll so that community members can select multiple options. \n\n\n**Disclaimer: Gauntlet reserves the right to not move forward with any parameter changes recommended in Snapshot polls, if market conditions change meaningfully.**\n\n*By approving this proposal, you agree that any services provided by Gauntlet shall be governed by the terms of service available at gauntlet.network/tos.*",
+        "end_utc": "2023-06-25T18:48:21Z",
+        "similarity_score": 0.3839,
+        "vote_result": {
+          "choices": [
+            "Option 1: Lower LT",
+            "Option 2: Freeze supply",
+            "Abstain",
+            "Nay"
+          ],
+          "scores": [
+            316213.0595246035,
+            45400.03691480106,
+            357.9561094341213,
+            62.513475400708515
+          ],
+          "scores_total": 320289.33772427024,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2023-06-25T18:48:21",
+          "pre_tvl_avg": 5557748182.0,
+          "post_tvl_avg": 5624286518.0,
+          "abnormal_change": 1.1972,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.011972,
+          "abnormal_change_pct": 1.1972
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2023-06-25T18:48:21",
+          "pre_price_avg": 57.08640857,
+          "post_price_avg": 62.197294355,
+          "abnormal_change": 8.9529,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.089529,
+          "abnormal_change_pct": 8.9529
+        }
+      }
+    },
+    {
+      "proposal_id": "0x34a735f4cbb0c91febe9e26a974811737b656fde16c82310073a821d3a654304",
+      "cleaned": {
+        "proposal_id": "0x34a735f4cbb0c91febe9e26a974811737b656fde16c82310073a821d3a654304",
+        "title": "[ARFC] Gauntlet - Synchronicity Price Adapter “Killswitch” Functionality for LST Emode",
+        "author": "0x683a4F9915D6216f73d6Df50151725036bD26C02",
+        "end_utc": "2023-07-28T16:44:18Z",
+        "similarity_score": 0.3268,
+        "winning_option": "Option 3: Lever B",
+        "winning_option_index": 2,
+        "margin_abs": 570991.9916939151,
+        "margin_pct": 0.727425825737311,
+        "scores_total": 784948.7487128517,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-07-25T16:50:38Z",
+        "last_vote_at": "2023-07-25T17:20:45Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            4.088578331602324,
+            0.05010000000000041,
+            0.050000000000000405,
+            0.03797194090490067,
+            0.001145438103562724
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.253389,
+        "spike_follow_support_ratio": 0.99604,
+        "stairwise_ratio": 0.116058,
+        "half_slope_diff": -0.000175
+      },
+      "raw": {
+        "id": "0x34a735f4cbb0c91febe9e26a974811737b656fde16c82310073a821d3a654304",
+        "title": "[ARFC] Gauntlet - Synchronicity Price Adapter “Killswitch” Functionality for LST Emode",
+        "author": "0x683a4F9915D6216f73d6Df50151725036bD26C02",
+        "body": "## Summary\n\nGiven limitations in the current CSPA 2.0, Aave v3 faces insolvency risks in the scenario of severe price dislocations between LST market price and LST smart contract price. Gauntlet proposes a “killswitch” functionality for LST Emode in the face of an LST depeg. See the full forum post [here](https://governance.aave.com/t/gauntlet-synchronicity-price-adapter-killswitch-functionality-for-lst-emode/13224).\n\n\n## Motivation\n\nTo further improve on CSPA 2.0, Gauntlet recommends that the Aave protocol limit LST borrowing power when abnormal dislocations occur. This can prevent bad agents from taking advantage of extreme market conditions to create insolvencies on Aave. We provide the options below as a \"killswitch\" functionality for LST Emode in the face of an LST depeg. \n\n## Specification\nWe provide 4 levers (A, B, C, D) that can be pulled in the event of a depeg. Please find more details on each lever in the [forum post](https://governance.aave.com/t/gauntlet-synchronicity-price-adapter-killswitch-functionality-for-lst-emode/13224/8?u=gauntlet). \n\nWe provide the following set of options to the community.\n\n|  | Market / Smart Contract depeg protection | Market / Smart Contract depeg protection | Liquidity decrease triggered protection | Liquidity decrease triggered protection |\n|--------|-----------------------------------------|-----------------------------------------|----------------------------------------|----------------------------------------|\n| Option | Lever A - dynamic, automated LT reduction | Lever B - freeze LST + LTV -> 0 | Lever C - double slope 1 of BASE | Lever D - lower LTV to non emode LST params |\n| 1 (Gauntlet choice) | x | x | x | x |\n| 2 | x | x | | |\n| 3 | | x | |  |\n| 4 (NAY - no killswitch) | | | | |\n\n\nThis is a poll to gauge the community's preference:\n- Option 1: Lever A, B, C, D\n- Option 2: Lever A, B\n- Option 3: Lever B\n- Option 4: Nay - no killswitch\n- Abstain\n\nFollowing community preference, we will work on the next steps in the implementation phase and will keep the community closely informed.\n\n**Disclaimer: Gauntlet reserves the right to not move forward with any parameter changes recommended in Snapshot polls, if market conditions change meaningfully.**\n\n*By approving this proposal, you agree that any services provided by Gauntlet shall be governed by the terms of service available at gauntlet.network/tos.*",
+        "end_utc": "2023-07-28T16:44:18Z",
+        "similarity_score": 0.3268,
+        "vote_result": {
+          "choices": [
+            "Option 1: Lever A, B, C, D",
+            "Option 2: Lever A, B",
+            "Option 3: Lever B",
+            "Option 4: Nay - no killswitch",
+            "Abstain"
+          ],
+          "scores": [
+            106893.62814909796,
+            75.74770635256134,
+            677885.619843013,
+            30.96464882915032,
+            62.78836557298379
+          ],
+          "scores_total": 784948.7487128517,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2023-07-28T16:44:18",
+          "pre_tvl_avg": 5795027753.0,
+          "post_tvl_avg": 5644029290.0,
+          "abnormal_change": -2.6057,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.026057,
+          "abnormal_change_pct": -2.6057
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2023-07-28T16:44:18",
+          "pre_price_avg": 72.18766366,
+          "post_price_avg": 68.116497595,
+          "abnormal_change": -5.6397,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.056397,
+          "abnormal_change_pct": -5.6397
+        }
+      }
+    },
+    {
+      "proposal_id": "0x4fd764412e30cb038c7758ef739af089f1a59edfbbda7404751350833e3ad91e",
+      "cleaned": {
+        "proposal_id": "0x4fd764412e30cb038c7758ef739af089f1a59edfbbda7404751350833e3ad91e",
+        "title": "[ARFC] Aave V2 Markets Deprecation Plan ",
+        "author": "0x683a4F9915D6216f73d6Df50151725036bD26C02",
+        "end_utc": "2023-09-29T16:45:41Z",
+        "similarity_score": 0.2251,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 635193.9374328244,
+        "margin_pct": 0.9998391566113035,
+        "scores_total": 635296.1206136897,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 2614,
+        "total_votes": 2614,
+        "first_vote_at": "2023-09-26T16:46:01Z",
+        "last_vote_at": "2023-09-29T16:45:01Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            112551.23921594371,
+            13.207083501669528,
+            2.9784182007613045
+          ],
+          [
+            257062.17282666522,
+            22.1201971442657,
+            0.48627353494003056
+          ],
+          [
+            184456.29781323022,
+            1.796900344848802,
+            17.863057282039666
+          ],
+          [
+            81164.1750805507,
+            2.8233225743443966,
+            0.960424717243569
+          ]
+        ],
+        "spike_index": 0.170452,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.000168,
+        "half_slope_diff": 7.457193
+      },
+      "raw": {
+        "id": "0x4fd764412e30cb038c7758ef739af089f1a59edfbbda7404751350833e3ad91e",
+        "title": "[ARFC] Aave V2 Markets Deprecation Plan ",
+        "author": "0x683a4F9915D6216f73d6Df50151725036bD26C02",
+        "body": "## Summary\n\nA proposal to gradually wind down the frozen markets on Aave V2 Ethereum via a series of LT reductions. This is a snapshot for a direct-to-AIP framework for V2 deprecation recommendations. For more details, see the full forum post [here]( https://governance.aave.com/t/arfc-aave-v2-markets-deprecation-plan/14870).\n\n\n## Motivation\n\nAs part of Gauntlet’s and Chaos’ ongoing commitment to maintaining the highest standards of operation on Aave, we propose to gradually wind down the frozen Aave V2 Ethereum markets via a scheduled series of LT reductions.\n\nThis proposal represents the next step in continuous efforts to reduce risk in the V2 markets and encourage the transition to V3. It follows a series of previous proposals, including:\n\n- [[ARFC] Chaos Labs - Incremental Reserve Factor Updates - Aave V2 Ethereum](https://governance.aave.com/t/arfc-chaos-labs-incremental-reserve-factor-updates-aave-v2-ethereum/13766)\n- [[ARFC] Freeze CRV on V2](https://governance.aave.com/t/arfc-gauntlet-recommendation-on-freezing-crv-for-aave-v2-ethereum/14428)\n- [[ARFC] Chaos Labs Risk Parameter Updates - Aave V2 Ethereum - 2023.6.23](https://governance.aave.com/t/arfc-chaos-labs-risk-parameter-updates-aave-v2-ethereum-2023-6-23/13789)\n- [[ARFC] TUSD Offboarding Plan ](https://governance.aave.com/t/arfc-tusd-offboarding-plan/14008)\n- [[ARFC] Set CRV LTV to Zero on V2](https://governance.aave.com/t/post-vyper-exploit-crv-market-update-and-recommendations/14214/4)\n- [[ARFC] Chaos Labs Risk Parameter Updates - Aave V2 Ethereum - 2023.08.09 ](https://governance.aave.com/t/arfc-chaos-labs-risk-parameter-updates-aave-v2-ethereum-2023-08-09/14404)\n- [[ARFC] TUSD Offboarding Plan Part II](https://governance.aave.com/t/arfc-tusd-offboarding-plan-part-ii/14863)\n\nWhile we advocate for proactive offboarding of the market, our recommendation is that Chaos and Gauntlet deliver a bi-weekly analysis and recommendation for each individual LT reduction. This would be similar to the process of increasing supply caps. If the risk managers agree on a single recommendation, the proposal would move directly to an AIP, but in case of disagreement, the more conservative approach would be adopted, with the alternative proposal put to a Snapshot vote for the community to decide.\n\n\n\n\n## Specification\n\nFollowing is our recommended bi-weekly plan for communications and community transparency of the process:\n\n- Monday - Risk teams conduct independent analyses and recommendations, considering (but not limited to) the following:\n    - Impact of the LT reduction on user positions - number of accounts and total amounts eligible for liquidation post-LT update\n    - Impact of the LT reduction on the health factor of the top accounts\n    - On-chain liquidity\n- Tuesday - Gauntlet and Chaos Labs post a joint recommendation post after syncing on their analyses above\n- Wednesday - Post AIP\n    - If risk teams are not aligned on a single recommendation, a Snapshot vote could be posted to gauge community preference.\n\n \n![HJltxgrkT.png](ipfs://bafkreifdednyjelvapfq5dzn6cfmz3j6sxycr5ixaxm4dvzipyt4zidd7q)\n    \n\n\n**Disclaimer: Gauntlet reserves the right to not move forward with any parameter changes recommended in Snapshot polls, if market conditions change meaningfully.**\n\n*By approving this proposal, you agree that any services provided by Gauntlet shall be governed by the terms of service available at gauntlet.network/tos.*\n\n",
+        "end_utc": "2023-09-29T16:45:41Z",
+        "similarity_score": 0.2251,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "NAE",
+            "Abstain"
+          ],
+          "scores": [
+            635233.8849363895,
+            39.94750356512842,
+            22.288173734984568
+          ],
+          "scores_total": 635296.1206136897,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2023-09-29T16:45:41",
+          "pre_tvl_avg": 4649364307.5,
+          "post_tvl_avg": 4891559531.0,
+          "abnormal_change": 5.2092,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.052092,
+          "abnormal_change_pct": 5.2092
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2023-09-29T16:45:41",
+          "pre_price_avg": 63.18161117,
+          "post_price_avg": 70.67104147,
+          "abnormal_change": 11.8538,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.118538,
+          "abnormal_change_pct": 11.8538
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0x151df3127d187c203ff3a975d8ab9e34493d77edf67ec6884dc086d5aea9ce89",
+    "selected_choice_label": "Option 1",
+    "selected_choice_index": 0,
+    "confidence": 0.85,
+    "summary": "Recommendation to lower stMATIC and MaticX non-emode LT/LTV ratios to improve risk profile, preferring Option 1 as a cautious first step to limit liquidations.",
+    "key_arguments_for": [
+      "Option 1 reduces borrowing power moderately, limiting liquidations to a minimal number of accounts.",
+      "Gauntlet analysis highlights risks from high non-emode borrowing power and decreasing WMATIC supply.",
+      "Timeline vote momentum shows strong support for Option 2 but combined Option 1+2 surpass quorum.",
+      "Community feedback in forum supports Option 1 to avoid excessive liquidations."
+    ],
+    "key_arguments_against": [
+      "Option 2 is more aggressive and would liquidate significantly more accounts, increasing user risk.",
+      "Forum sentiment shows negative reactions around liquidation concerns and risk exposure.",
+      "Historical similar proposals show cautious incremental changes are better to maintain stability."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://governance.aave.com/t/arfc-gauntlet-recommendation-to-lower-stmatic-maticx-non-emode-lt/14859",
+        "quote": "Gauntlet recommends lowering stMATIC, MaticX non-emode LT with two options; Option 1 is less aggressive with fewer liquidations, supported by community members."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Snapshot proposal timeline metrics",
+        "quote": "Strong vote lead and stability metrics favor Option 2, but combined Option 1 and 2 votes surpass quorum."
+      },
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Forum sentiment summary",
+        "quote": "5 negative and 4 neutral sentiments; first comment negative expressing risk concerns, second comment neutral supporting Option 1 cautiously."
+      },
+      {
+        "source_tool": "govnews_proposal_news_window",
+        "reference": "Adjacent proposals",
+        "quote": "Similar Gauntlet proposals had mixed success; lessons favor incremental changes to limit risk."
+      }
+    ],
+    "available_choices": [
+      "Option 1",
+      "Option 2",
+      "Option 3 (no change)",
+      "Abstain"
+    ],
+    "event_start_utc": "2023-09-26T16:49:01Z",
+    "event_end_utc": "2023-09-29T16:49:01Z",
+    "event_time_utc": "2023-09-29T16:49:01Z",
+    "address_of_governance_token": "0xC0259c59D9f980E3b5e2574cD78C9A9Bc6A8E3fc",
+    "token_price_impact_pct": 10.0307,
+    "tvl_impact_pct": 5.2092,
+    "actual_vote_result": {
+      "winner_label": "Option 1",
+      "winner_index": 0,
+      "scores": [
+        247634.2822694897,
+        224556.8755983969,
+        74.13977839307287,
+        135083.6838661887
+      ],
+      "scores_total": 607348.9815124677,
+      "margin_abs": 23077.406671092787,
+      "margin_pct": 0.037997
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Option 1' selected with stance to keep 'Change'.",
+    "ai_final_reason": "• The timeline vote momentum strongly supports Option 2, but combined votes for Options 1 and 2 exceed quorum, indicating community preference for change.\n• Forum discussion sentiment is predominantly negative or neutral, with community members favoring Option 1 to avoid excessive liquidations.\n• Gauntlet's analysis identifies significant risks from high non-emode borrowing power and decreasing WMATIC supply, supporting lowering LT/LTV ratios.\n• Historical adjacent proposals show incremental changes better balance risk and stability; Option 1 aligns with this lesson.\n• Market impact shows positive price and TVL changes but is excluded from pro arguments.\n• Overall, Option 1 is recommended to prudently reduce risk while respecting community sentiment and ensuring durable protocol health.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x0ea35c1174a04a614553b52b6de16fdd74552332a99001cc1d8eddd1d78038c1",
+        "title": "[ARFC] Gauntlet Interest Rate Recommendation for WETH",
+        "end_utc": "2023-09-16T13:40:23Z",
+        "summary": "[ARFC] Gauntlet Interest Rate Recommendation for WETH closed on 2023-09-16T13:40:23Z. Timeline analytics noted 5500 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Moderate text overlap (score 0.45)",
+        "market_response": "token +10.34%; TVL +0.89%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0x112aaa499108a4f0eca0caebf90060d32d97cba877cf095473da8ff0822f30fb",
+        "title": "[ARFC] Gauntlet recommendation for WETH Uopt on Ethereum v3",
+        "end_utc": "2023-09-16T13:50:44Z",
+        "summary": "[ARFC] Gauntlet recommendation for WETH Uopt on Ethereum v3 closed on 2023-09-16T13:50:44Z. Timeline analytics noted 5500 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Moderate text overlap (score 0.43)",
+        "market_response": "token +10.34%; TVL +0.89%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 10.0307,
+    "ex_post_tvl_impact_pct": 5.2092,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +10.03%; TVL +5.21%"
+  },
+  "agentic_ai_choice": "Option 1",
+  "actual_outcome": "Option 1",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 5,
+    "Positive": 0,
+    "Neutral": 4,
+    "total_comments": 9
+  }
+}

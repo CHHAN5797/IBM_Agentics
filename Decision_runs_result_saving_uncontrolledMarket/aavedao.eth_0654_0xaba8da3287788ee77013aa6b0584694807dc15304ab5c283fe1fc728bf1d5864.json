@@ -1,0 +1,994 @@
+{
+  "captured_at_utc": "2025-10-07T02:56:27.242302+00:00",
+  "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0xaba8da3287788ee77013aa6b0584694807dc15304ab5c283fe1fc728bf1d5864",
+  "focus": null,
+  "votes_count": 5500,
+  "timeline_metrics_current": {
+    "unique_voters": 5500,
+    "total_votes": 5500,
+    "first_vote_at": "2022-12-13T16:00:29Z",
+    "last_vote_at": "2022-12-16T10:08:19Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        157140.39194831206,
+        81479.49902584344,
+        36102.336144858964
+      ],
+      [
+        30793.965107101998,
+        83061.94055981579,
+        22.645685693404637
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.479237,
+    "spike_follow_support_ratio": 0.96013,
+    "stairwise_ratio": 0.000945,
+    "half_slope_diff": -0.726658
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0xedb87c640a24dadde80f39db547d8ea913483b638efb045fc9ac1a4132d7b78f",
+      "title": "[ARC] - ERC4626 Strategies as Productive Collateral",
+      "author": "0xc290Cfb8D020c0615e9C63036f4319Cc41717E68",
+      "end_utc": "2022-11-10T15:59:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2022-11-03T04:00:17Z",
+        "last_vote_at": "2022-11-08T09:50:43Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            88227.44667832767,
+            897.1819676926972
+          ],
+          [
+            1201.0190767913907,
+            6.614839594856775
+          ],
+          [
+            92979.5862006294,
+            4.099508362280412
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.493688,
+        "spike_follow_support_ratio": 0.61669,
+        "stairwise_ratio": 0.001088,
+        "half_slope_diff": -5.074033
+      },
+      "price_impact_pct": -15.1693,
+      "tvl_impact_pct": -8.2499,
+      "similarity": 0.1221,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "YAE",
+        "margin_abs": 180696.8937141199,
+        "scores_total": 344559.398299372,
+        "margin_pct": 0.5244288636617614
+      }
+    },
+    {
+      "id": "0x8257d8c7681a3587a61f0d97997045c4d35815031d56386c854afa66f0d04351",
+      "title": "Deploy Aave V3 to zkSync 2.0 Testnet",
+      "author": "0x070341aA5Ed571f0FB2c4a5641409B1A46b4961b",
+      "end_utc": "2022-11-02T15:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2022-10-30T15:00:19Z",
+        "last_vote_at": "2022-10-31T06:03:43Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            29571.808232155767,
+            8.967189794442163,
+            0.5726414901422957
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.856499,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.030063,
+        "half_slope_diff": -0.426537
+      },
+      "price_impact_pct": 5.5267,
+      "tvl_impact_pct": -1.3081,
+      "similarity": 0.1275,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "YAY",
+        "margin_abs": 561037.8027442434,
+        "scores_total": 561269.9006435904,
+        "margin_pct": 0.9995864772027133
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x592bcd98354be35685fd952781a5022d10aaac3bb903128e38007562773952cf",
+      "cleaned": {
+        "proposal_id": "0x592bcd98354be35685fd952781a5022d10aaac3bb903128e38007562773952cf",
+        "title": "Launch Aave V3 on Metis Andromeda",
+        "author": "0x65e4926E02dccD3C58bE135Ea2278518AaAed051",
+        "end_utc": "2022-02-04T04:59:00Z",
+        "similarity_score": 0.3039,
+        "winning_option": "Yes",
+        "winning_option_index": 0,
+        "margin_abs": 30320.585801350273,
+        "margin_pct": 0.7825295502696438,
+        "scores_total": 38746.889227253356,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 541,
+        "total_votes": 541,
+        "first_vote_at": "2022-01-27T03:05:23Z",
+        "last_vote_at": "2022-02-03T18:11:58Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            19518.087545401257,
+            0.053120949264342424
+          ],
+          [
+            124.34171282390128,
+            241.79141191524187
+          ],
+          [
+            4619.886352380498,
+            1.0000301177224893
+          ],
+          [
+            10271.4219036962,
+            3970.3071499693197
+          ]
+        ],
+        "spike_index": 0.496458,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.000765,
+        "half_slope_diff": -0.076992
+      },
+      "raw": {
+        "id": "0x592bcd98354be35685fd952781a5022d10aaac3bb903128e38007562773952cf",
+        "title": "Launch Aave V3 on Metis Andromeda",
+        "author": "0x65e4926E02dccD3C58bE135Ea2278518AaAed051",
+        "body": "Summary\n\nProposal for the deployment of Aave V3 on Metis Andromeda Mainnet.\nProposal\nFounded in 2019, Metis launched its Layer 2 mainnet on November 19, 2021. We are building a hub for the entire Web3 economy in 3 stages: Layer 2 Ethereum scaling solution with fast and cheap transactions; no-code integration via a middleware layer powered by smart contract templates; and a Decentralized Autonomous Company (DAC) infrastructure enabling both blockchain and Web2 companies to build decentralized businesses on-chain, with all the functionalities of real-world enterprises and all the security and decentralization of Ethereum.\nA mere eight weeks after launching Andromeda mainnet, Metis TVL surpassed the majority of its competitors, surging to the #3 spot as measured by L2Beat and reaching $500M+ TVL. As the fastest growing L2, Metis has taken the blockchain world by storm with its Optimistic Rollup technology, EVM-Equivalence, and incredible mutually-incentivized ecosystem. With a robust and secure infrastructure, a self-deployed Graph node, multiple oracle providers, on-chain explorers, and a dedicated integrations team ready to assist throughout every step of the porting process, Metis is ready for Aave integration.\nMetis envisions and supports a multichain future and seeks to invite Aave to expand its own mission of creating a multichain future, by having Aave enable the Aave V3 front-end for Metis markets. Our robust and enterprise-grade network has a burgeoning DeFi ecosystem, and while there are borrowing/lending capabilities currently available, having a Flagship protocol like Aave would be incredibly valuable to our ecosystem, while fulfilling Aave’s multichain expansion. As well, there are many benefits Aave users and the DAO at large would benefit from.\nMetis’ commitment to a decentralized future is built into its very structure, including the ethos of creating a sustainable and mutually beneficial ecosystem where its partners are set up to thrive. This is best exemplified by Metis’ Builder Mining Program. This program allows all DApps deployed on Andromeda to directly participate in the revenue Metis generates. For example: if Aave deployed on Andromeda, 30% of the fees accrued from every single transaction occurring through Aave would be kicked back directly back to Aave, in perpetuity.\nThe mission at Metis is to provide the infrastructure and incentive system to make deployment on our network a no-brainer. This additional revenue will be going to the Aave DAO’s treasury and as such, will be able to be utilized as seen fit by the Aave community at large.\nMetis also has some of the fastest transactions in blockchain, often executing faster than your web browser can process them, and always executing faster than MetaMask can record them. Transactions on our Layer 2 network currently cost about $2-$3, considerably less than the gas fees on Layer 1 Ethereum. Metis will launch its own storage layer by the end of Q1 2022, which will enable cheap, secure storage of NFTs and other large blocks of data, while doubling as an additional scalability layer; as a result, transaction fees will drop to just cents by the end of Q1 2022.\nThe traction earned by our popular DeFi protocols are great case studies to the adoption and eagerness of the Metis community to engage with our DeFi ecosystem. Netswap, the first ever native Layer 2 DEX, surpassed $1B in trading volume in its first month of operation. Likewise, popular yield optimization protocols Beefy Finance and Pickle Finance have achieved great success since integrating and launching their protocols on Andromeda.\nMetis is open and willing to work with Aave to determine the optimal strategy for liquidity incentivization, marketing and awareness campaigns, and additional benefits to bring to its users. We are considering the options of qualifying airdrops for interaction with the protocol on Andromeda and building Reputation Power (allowing for future whitelisting opportunities) for Aave holders voting on this proposal. We will also offer Aave the opportunity to set up a Verifier node for the Metis Layer 2 network, providing a steady stream of income to the Aave DAO in perpetuity and aligning incentives for the future decentralization and wellbeing of the Metis network.\nMetis is ready to onboard Aave to its ecosystem and looks forward to the opportunity to build a long-term, sustainable, and mutually-beneficial relationship.\n\nLinks:\nWebsite: https://metis.io \nMedium: https://metisdao.medium.com\nTwitter: https://twitter.com/MetisDAO\nTelegram: https://t.me/MetisDAO\nDiscord: https://discord.com/invite/RqfEJZXnxd\nGithub: https://github.com/MetisProtocol\nDocumentation: https://docs.metis.io\nGovernance Post: https://governance.aave.com/t/launch-aave-v3-on-metis/7056\n\n",
+        "end_utc": "2022-02-04T04:59:00Z",
+        "similarity_score": 0.3039,
+        "vote_result": {
+          "choices": [
+            "Yes",
+            "No"
+          ],
+          "scores": [
+            34533.73751430182,
+            4213.151712951549
+          ],
+          "scores_total": 38746.889227253356,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2022-02-04T04:59:00",
+          "pre_tvl_avg": 11905005746.5,
+          "post_tvl_avg": 12918167151.0,
+          "abnormal_change": 8.5104,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.085104,
+          "abnormal_change_pct": 8.5104
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2022-02-04T04:59:00",
+          "pre_price_avg": 151.913692195,
+          "post_price_avg": 177.524535925,
+          "abnormal_change": 16.8588,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.168588,
+          "abnormal_change_pct": 16.8588
+        }
+      }
+    },
+    {
+      "proposal_id": "0x5c732eb07a34717a926edde9c70131b307bfeb61be548ddae102ee7c92de5c95",
+      "cleaned": {
+        "proposal_id": "0x5c732eb07a34717a926edde9c70131b307bfeb61be548ddae102ee7c92de5c95",
+        "title": "Deploy Aave on Cronos chain",
+        "author": "0xECc9B602EC91587eA4E5D24DA01FE26b553061Da",
+        "end_utc": "2022-02-24T15:30:00Z",
+        "similarity_score": 0.1389,
+        "winning_option": "Yes",
+        "winning_option_index": 0,
+        "margin_abs": 78489.66717356602,
+        "margin_pct": 0.8971686943292405,
+        "scores_total": 87485.96297405145,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 445,
+        "total_votes": 445,
+        "first_vote_at": "2022-02-17T01:31:17Z",
+        "last_vote_at": "2022-02-24T15:29:13Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            9109.766953143115,
+            92.1204499928038,
+            0.0
+          ],
+          [
+            71189.8164004976,
+            4121.57484968635,
+            0.0
+          ],
+          [
+            2248.2150573742633,
+            5.353118576002667,
+            1.5193393201808567
+          ],
+          [
+            409.78179889007026,
+            248.86461808387233,
+            58.9503884871277
+          ]
+        ],
+        "spike_index": 0.705528,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.000875,
+        "half_slope_diff": 137.765644
+      },
+      "raw": {
+        "id": "0x5c732eb07a34717a926edde9c70131b307bfeb61be548ddae102ee7c92de5c95",
+        "title": "Deploy Aave on Cronos chain",
+        "author": "0xECc9B602EC91587eA4E5D24DA01FE26b553061Da",
+        "body": "Deploy Aave on Cronos chain\n\nThe following proposal follows the ARC draft proposal posted for comments [here](https://governance.aave.com/t/arc-deploy-aave-v3-on-cronos-chain/7287), more than 5 days ago, that follows the standard governance process framework.\n\n**Proposal**\n\nLaunched in 2021 after years of open-source R&D, Cronos is #9 public blockchain by DeFi value locked according to  [Defillama](https://defillama.com/chains)  (around 2.5 B$ TVL to date). Cronos proposes to deploy Aave V3 to the Cronos chain and to incentivize liquidity in order to help fulfill the promise of a multi-chain future.\n\nCronos is the first Ethereum-compatible blockchain network built on Cosmos SDK technology. An open-source Layer 1 chain launched under the  [Crypto.org](http://crypto.org/)  umbrella, Cronos aims to massively scale the DeFi and dApp (Web3) user community by providing builders with the ability to instantly port apps and crypto assets from other chains while benefiting from low transaction fees, high throughput, and fast finality.\n\nIn 2020 and 2021, hundreds of millions of consumers have purchased their first cryptos, the majority via a centralized exchange. Tens of millions of them already have a connection with the strategic partners of the Cronos project: as [Crypto.com](http://crypto.com/)  customers, as holders of CRO or other tokens of the Cosmos ecosystem, and/or as [Crypto.org](http://crypto.org/)  project supporters. These crypto users are now eager to take the next step in Web3. For them, Cronos is a natural gateway into the broader world of self-custody, Ethereum and DeFi.\n\nThe cross-chain future that is such an integral part of Aave V3, resonates well with the motivations of Cronos users. Therefore, Cronos represents an ideal ground to demonstrate the promise of Aave V3.\n\n**Technical specifications of the network**\n\n*Network specifications*\n\n[Cronos](https://cronos.crypto.org/)  is an open-source project launched by  [Crypto.org](http://crypto.org/)  that brings together many  [open-source initiatives](https://github.com/crypto-org-chain/cronos/blob/main/go.mod#L22)  of the Ethereum, Cosmos and IBC (Inter Blockchain Communication) ecosystems. At its core, it is a fully EVM-compatible alternative Layer 1 blockchain built using the Cosmos SDK (Ethermint implementation).\n\nCronos mainnet has been live since November 2021 and is already home to more than 120 partners and more than 340,000 DeFi and NFT users. Cronos is powered by the CRO cryptocurrency, which counts tens of millions of holders and users worldwide thanks to its support by  [Crypto.com](http://crypto.com/) . All key network statistics can be viewed on the Etherscan deployment, called  [Cronoscan](https://cronoscan.com/charts)  , as well as on  [Defillama for TVL data](https://defillama.com/chain/Cronos)  .\n\nAt the protocol level, Cronos relies on a Proof of Authority consensus where each validator’s voting power is proportional to their stake in the protocol’s staking token. There are currently 26 live validators, with room for more. The consensus delivers fast finality with block times between 5 and 6 seconds, low transaction fees (usually below 1 USD) paid in CRO token, and small environmental footprint.\n\nUsers and Dapp developers interact with Cronos primarily through the usual EVM Web3 JSON-RPC  [endpoints](https://cronos.crypto.org/docs/resources/chain-integration.html#json-rpc-namespaces)  . They can deploy any EVM-compatible smart contract written in Solidity, and can use all the usual end-user and developer tooling: MetaMask, Etherscan block explorer ([Cronoscan](https://cronoscan.com/) ), Gnosis Safe, Truffle, Hardhat, Web3.js, Ethers.js, Web3.py, etc.\n\nThe Cronos team is actively in contact with the relevant teams to implement all the components needed for robust Aave V3 deployment and operations, specifically the Chainlink oracle, The Graph indexer, and commercial and JSON-RPC endpoints for Dapps (in addition to the existing  [free ones](https://cronos.crypto.org/docs/resources/chain-integration.html#json-rpc-namespaces)  ). These teams are in process of assigning engineering resources to work on these project. A likely target launch date for these additional components is early Q2 2022. Cronos protocol engineering resources stand ready to support these projects.\n\nThere are several bridges between Cronos and other networks :\n\n* [Live] Fast withdrawals from and to the  [Crypto.com](http://crypto.com/)  app and exchange.\n* [Upcoming] Native bridge from and to the Ethereum mainnet via Gravity Bridge technology, currently in testing and planned for imminent launch.\n* [Live] IBC transfers from and to the  [Crypto.org](http://crypto.org/)  chain, Cosmos Hub, and Terra, with more IBC-compatible chains on the roadmap.\n* [Live] EVM smart contract-based transfers from and to BSC, Polygon, and other EVM chains via 3 independent bridges, with more to come.\n* Security review of additional bridges is under way.\n\nCronos is an open ecosystem supported by a wide range of more than 120  [contributors](https://github.com/crypto-org-chain/cronos)  ,  [validators](https://cronos.crypto.org/partners)  , and  [Dapp developers](https://cronos.crypto.org/ecosystem)  . This includes 2 large AMM/DEXes, VVS Finance (1.4 B$ TVL) and MM Finance (320 M$ TVL).\n\nThe  [roadmap](https://medium.com/cronos-chain/cronos-chain-journey-so-far-and-2022-roadmap-3475abbe6254)  is ambitious and includes protocol and database optimizations, further connectivity and interoperability, best-in-class tooling and infrastructure, further protocol governance decentralization, dozens of DeFi and GameFi Dapps, and longer term plans to increase scalability.\n\n*Aave V3 implementation*\n\nAs part of this proposal, Aave V3 will be deployed to Cronos like any Web3 protocol, given that Cronos is fully EVM-compatible. Aave operations will rely on the Chainlink oracle and The Graph indexer (implementation under way).\n\nThe Aave V3 Portal will be able to leverage robust EVM-based cross-chain bridges (such as Connext and others, subject to further testing and security review) for the transfer of underlying assets backing aTokens.\n\n*Metrics and references*\n\nChain data as of Feb 15, 2022:\n* 26 live validators.\n* 15+ M transactions to date (no transaction pumping!)\n* 150,000 to 200,000 transactions per day, with potential to increase by 5x to 20x in the short term.\n* 350,000 unique wallets.\n* More than 120 Dapps deployed in the last 3 months, including VVS (DEX, 1.4 B$ TVL), MM Finance (DEX, 320 M$ TVL), Tectonic (decentralized lending, 275 M$ TVL), and others.\n\nAudience data\n*  [Twitter](https://twitter.com/cronos_chain)  : 130k followers.\n*  [Telegram](https://t.me/Cryptoorg_Chain_Announcements)  : 7k subscribers.\n*  [Discord](https://discord.com/invite/pahqHz26q4)  : 19,000 members.\n\nLinks\n*  [Cronos website](https://cronos.crypto.org/) \n*  [Particle B ecosystem development program](https://medium.com/cronos-chain/cronos-ecosystem-grants-7a4a2de3b721) \n*  [Blockchain explorer](https://cronoscan.com/) \n*  [Particle B accelerator](https://www.particleb.com/) \n*  [Cronos integration documentation](https://cronos.crypto.org/docs/resources/chain-integration.html) \n*  [Github](https://github.com/crypto-org-chain/cronos)  repository\n*  [Overview of Cosmos SDK and Tendermint](https://docs.tendermint.com/v0.35/nodes/)  node architecture\n\n**Proposed list of initial collaterals**\n\nThe proposed list of initial collaterals is: CRO, WETH, WBTC, USDC, USDT, DAI, ATOM, LUNA, DOT.\n\nAs indicated above, Chainlink price feeds are being scheduled for deployment.\n\nCronos already supports the  [following cross-chain assets](https://cronos.crypto.org/docs/resources/chain-integration.html#integration-guide-for-cronos-mainnet-beta)  : CRO, WETH, WBTC, USDC, USDT, DAI, SHIB, DOGE, ATOM, LINK, ENJ, ELON, TUSD, LUNA, DOT, BIFI, with more to come. Additional native tokens include VVS, TONIC. These tokens have between 10 M$ and 700 M$ of liquidity on Cronos. Daily volume for the corresponding pairs is between 20 and 30 M$.\n\nThe proposed tokens have more than, or close to, 2 M$ daily volume each. With respect to DEX statistics, see  [VVS analytics](https://vvs.finance/info)  for history and liquidity per token.\n\n**Incentives**\n\nParticle B, the Web3 accelerator of the Cronos chain, has an initial allocation of USD 100 million in CRO tokens for ecosystem development. A portion of these funds will be allocated to end-user incentives, commensurate with the large user and TVL growth potential of Aave V3 on Cronos.\n\nIn our experience, the effectiveness of liquidity mining incentives varies depending on market conditions, hence the exact programs and amounts (expected to be worth several M$) will need to be refined over time.\n\n**Audits and security**\n\nCronos mainnet was launched in November 2021 and has not experienced outages so far.\n\nAn audit of relevant components of the underlying Ethermint codebase (  [crypto](https://github.com/tharsis/ethermint/tree/main/crypto)  ,  [JSON RPC](https://github.com/tharsis/ethermint/tree/main/ethereum/rpc)  ,  [Ante handler](https://github.com/tharsis/ethermint/tree/main/app)  ,  [EVM state transition](https://github.com/tharsis/ethermint/blob/main/x/evm/keeper/state_transition.go)  ) was commissioned by Foris Ltd and completed by Kudelski Security. It is published in the Cronos Github repository ([link](https://github.com/crypto-org-chain/cronos/tree/main/docs/audit)).\n\nA bug bounty program is  [published](https://immunefi.com/bounty/cronos/)  , with a bounty of up to 1.3 M$.\n\nThank you for your support !",
+        "end_utc": "2022-02-24T15:30:00Z",
+        "similarity_score": 0.1389,
+        "vote_result": {
+          "choices": [
+            "Yes",
+            "No",
+            "Abstain"
+          ],
+          "scores": [
+            82957.58020990505,
+            4467.91303633903,
+            60.46972780730855
+          ],
+          "scores_total": 87485.96297405145,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2022-02-24T15:30:00",
+          "pre_tvl_avg": 11665665416.5,
+          "post_tvl_avg": 12001872186.5,
+          "abnormal_change": 2.882,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.02882,
+          "abnormal_change_pct": 2.882
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2022-02-24T15:30:00",
+          "pre_price_avg": 133.03814439,
+          "post_price_avg": 134.02115599,
+          "abnormal_change": 0.7389,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.007389,
+          "abnormal_change_pct": 0.7389
+        }
+      }
+    },
+    {
+      "proposal_id": "0x16d55ed730076b4f6ea09b9fcc62ea846b248a96f40fb3dbc6c1f193df013d6d",
+      "cleaned": {
+        "proposal_id": "0x16d55ed730076b4f6ea09b9fcc62ea846b248a96f40fb3dbc6c1f193df013d6d",
+        "title": " ARC: Add OP as Collateral to AAVE v3",
+        "author": "0x730C22Cd09aE53Dfe09DB4bEB2bFca433DEf9919",
+        "end_utc": "2022-08-14T16:00:00Z",
+        "similarity_score": 0.1367,
+        "winning_option": "Yae",
+        "winning_option_index": 0,
+        "margin_abs": 227820.3204111785,
+        "margin_pct": 0.9993783400299234,
+        "scores_total": 227962.03528321124,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 2093,
+        "total_votes": 2093,
+        "first_vote_at": "2022-08-10T15:19:38Z",
+        "last_vote_at": "2022-08-14T15:59:43Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            104182.47445440215,
+            31.560259942090568,
+            17.826827002029606
+          ],
+          [
+            668.203919976903,
+            3.416086045542285,
+            1.7716236234793568
+          ],
+          [
+            122880.99987922407,
+            1.1958589541812648,
+            8.77133749355373
+          ],
+          [
+            137.1228235683335,
+            8.58133510747298,
+            20.11087787261591
+          ]
+        ],
+        "spike_index": 0.294518,
+        "spike_follow_support_ratio": 0.662795,
+        "stairwise_ratio": 0.000337,
+        "half_slope_diff": -11.629198
+      },
+      "raw": {
+        "id": "0x16d55ed730076b4f6ea09b9fcc62ea846b248a96f40fb3dbc6c1f193df013d6d",
+        "title": " ARC: Add OP as Collateral to AAVE v3",
+        "author": "0x730C22Cd09aE53Dfe09DB4bEB2bFca433DEf9919",
+        "body": "## Summary\n\nThe proposal seeks to onboard the OP token as a collateral asset in Aave V3 on Optimism. The Optimism Foundation could also seed incentives while the initial liquidity of the pool is bootstrapped.\n\n## References\n\n1. **Project** - https://www.optimism.io/\n2. **Documentation Portal** - https://community.optimism.io/\n3. **Optimism Codebase** - [https://github.com/ethereum-optimism/optimism](https://github.com/ethereum-optimism/optimism)\n4. **Address** - https://optimistic.etherscan.io/address/0x4200000000000000000000000000000000000042\n5. **Chainlink Oracle** - https://optimistic.etherscan.io/address/0x0D276FC14719f9292D5C1eA2198673d1f4269246\n6. **Communities**\n   1. Discord | 45.2k Members -[ https://discord-gateway.optimism.io/](https://discord-gateway.optimism.io/)\n   2. Twitter | 222.8K Followers - https://twitter.com/OptimismFND\n   3. Mirror - https://optimism.mirror.xyz/\n   4. Twitch - [ https://www.twitch.tv/optimismpbc](https://www.twitch.tv/optimismpbc)\n\n### Summary\n\nInitially launched at the end of 2021, Optimism is an EVM equivalent L2 scaling solution. Optimism currently supports 100+ dapps and over $500m in on-chain value. Optimism drastically improves Ethereum’s scalability while retaining its security through rollup technology - having already saved its users over $1B in gas fees.\n\nThe OP token is a governance token for the Optimism Collective. OP holders are currently able to vote on various decisions impacting the Collective, including the grants, protocol upgrades, inflation adjustments, and other fundamental changes. The Collective is committed to an [iterative governance system](https://optimism.mirror.xyz/r888e4B5iiNQi-3_mO26ixgv-plQ099XWgqEOv9iWKA) that will evolve dynamically over time.\n\nOptimism hopes to use the launch of this token to establish a deeper partnership between the Optimism and Aave communities. This proposal would enable OP as collateral on AAVE V3 on Optimism.\n\n### Motivation\n\nWith the recent release of the OP token, we want to bolster initial growth for Aave V3 on Optimism. This will benefit the Aave community by creating a vibrant ecosystem around Aave V3, while being a strong first use case for OP.\n\n**Aave would be one of the first platforms to support OP as collateral.** The OP token is one of the first and leading rollup technology ecosystem tokens, so the Aave community would be supporting the scaling of Ethereum and onboard the cohort of users coming with it. L2s being the home for AAVE v3 could also gain a lot from this synergy.\n\nOverall, the use cases will create the opportunity to continue growing liquidity and usage of the Aave v3 pools on Optimism.\n\n### Specifications\n\nThe Optimism Foundation is submitting this ARC. The Foundation is a Cayman Islands foundation company. It serves as a steward for the healthy, sustainable development of the Optimism ecosystem.\n\nAs noted above, the OP token is a governance token for the Optimism Collective. At genesis there was an initial total supply of 4,294,967,296 OP tokens. The total token supply is set to inflate at a rate of 2% per year, unless changed through governance. ![|624x311](https://lh4.googleusercontent.com/eUzmlwxkHKo2tjFytMNLOfB5PGOB4dGk09Os1EqJdQmTcCB6vpFQjF0JwZAmQNqgStz52VnNh7oD73rDSCkevjOUtivLDe7Kfp4YbjvkqtFtL68GoqGgrxdzbm9NAtUPwTQC96d76kM7U0y87Zi9_Q)\n\nSince Aave v3 pools were recently deployed on Optimism, the use of OP as a collateral asset is the next logical step. We expect it would be the ideal home for OP pools on Aave, and for it to drive large amounts of volume to these pools. A strong bond between Optimism and Aave is a benefit to both communities. To fully realize this integration, OP would need to be added as collateral.\n\n### Risk Analysis\n\n#### **Proposed Risk Parameters**\nLTV: 30%\nLiquidation Threshold: 50%\nLiquidation Bonus: 12%\nReserve Factor: 30%\nAdd Supply Cap: 1M\n\n![risk_table](https://aws1.discourse-cdn.com/standard21/uploads/aave/optimized/2X/6/67e3d337c9d0bf234de1f6b93f54a3c484121600_2_1380x188.png)\n    \n*A non-image version of this table can be found [here](https://docs.google.com/spreadsheets/d/11afkiF0QeVKQ5aFgBmu6uImQY_MQFHEP8m5s_op_C_E/edit#gid=0)*.\n\n**The above scores are based on our understanding of the Aave risk rubric today (and are subject to change as the Optimism network evolves).*\n\n#### **Smart Contract Risk**\n\nThe token is a standard ERC20 + ERC20Votes implementation from OpenZeppelin with no custom code. The OP token has had an average of 53,337 daily transactions and a total of ~2.24M transactions to date. There is a large distribution of the token with ~88k holders.\n\n#### **Counterparty Risk**\n\nFor the initial airdrop, 5% of the initial OP supply was widely distributed to over 250,000 eligible addresses. 14% of the supply is reserved for future airdrops and 20% is reserved for RGPG where public goods will be retroactively receiving tokens. The OP token and bicameral governance system seeks to facilitate security and decentralization.\n\n#### **Market Risk**\n\nOP is one of the leading L2’s and ecosystem projects. Token is traded across top-exchanges with large market caps and 24Hr volumes.",
+        "end_utc": "2022-08-14T16:00:00Z",
+        "similarity_score": 0.1367,
+        "vote_result": {
+          "choices": [
+            "Yae",
+            "Abstain",
+            "Nae"
+          ],
+          "scores": [
+            227868.80107717015,
+            44.75354004928711,
+            48.4806659916786
+          ],
+          "scores_total": 227962.03528321124,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2022-08-14T16:00:00",
+          "pre_tvl_avg": 7503216233.5,
+          "post_tvl_avg": 7451632143.0,
+          "abnormal_change": -0.6875,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.006875,
+          "abnormal_change_pct": -0.6875
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2022-08-14T16:00:00",
+          "pre_price_avg": 112.69766103500001,
+          "post_price_avg": 105.05255503000001,
+          "abnormal_change": -6.7837,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.067837,
+          "abnormal_change_pct": -6.7837
+        }
+      }
+    },
+    {
+      "proposal_id": "0x618c740ae12a64b570cbfac9688864ad427da49556b48f8eac04d796e1e67c7b",
+      "cleaned": {
+        "proposal_id": "0x618c740ae12a64b570cbfac9688864ad427da49556b48f8eac04d796e1e67c7b",
+        "title": "[ARC] Add new KNC to Aave v2 and v3",
+        "author": "0x23315e8219CECf750CD685b3a69a87e4a456DC43",
+        "end_utc": "2022-09-16T04:00:00Z",
+        "similarity_score": 0.1322,
+        "winning_option": "YES",
+        "winning_option_index": 0,
+        "margin_abs": 116331.56798755885,
+        "margin_pct": 0.9993607849500235,
+        "scores_total": 116405.97643960627,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 2240,
+        "total_votes": 2240,
+        "first_vote_at": "2022-09-12T02:56:39Z",
+        "last_vote_at": "2022-09-16T03:56:18Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            104347.06752104721,
+            7.946425285266222,
+            1.26790968263991
+          ],
+          [
+            308.1506176620108,
+            11.025211359852152,
+            2.6741940549154894
+          ],
+          [
+            1454.4007643460002,
+            13.306048050577227,
+            0.9584863436661164
+          ],
+          [
+            10256.198650030894,
+            1.9718808313699994,
+            1.0087309120375076
+          ]
+        ],
+        "spike_index": 0.576174,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.000848,
+        "half_slope_diff": -1.525007
+      },
+      "raw": {
+        "id": "0x618c740ae12a64b570cbfac9688864ad427da49556b48f8eac04d796e1e67c7b",
+        "title": "[ARC] Add new KNC to Aave v2 and v3",
+        "author": "0x23315e8219CECf750CD685b3a69a87e4a456DC43",
+        "body": "## Summary\nFull details at: https://governance.aave.com/t/arc-add-new-knc-to-aave-v2-and-v3/8236\n\nKyber Network is a multi-chain crypto trading and liquidity hub that connects liquidity from different sources to enable token trading at the best rates through its main user interface [KyberSwap.com](http://kyberswap.com). As a hybrid DEX aggregator + liquidity platform, it aims to offer the best rates for traders and the best returns for liquidity providers with concentrated liquidity.\n\nKyber Network launched on Ethereum in February 2018 and is a pioneer in the DeFi space, developing one of the earliest decentralized exchanges (DEX) with Vitalik Buterin as an advisor. The team has continued to innovate; spearheading the launch of WBTC (Wrapped Bitcoin) - the most popular ERC20 version of Bitcoin today, as well as developing amplified liquidity pools on KyberSwap that offers capital efficiency for any token pair. Kyber Network is also part of the pioneer batch of Alliance DAO/DeFi Alliance mentors.\n\nThis proposal aims to list the new version of the [Kyber Network Crystal (KNC) token](https://etherscan.io/token/0xdeFA4e8a7bcBA345F687a2f1456F5Edd9CE97202) for borrowing and lending and as a collateral asset on both Aave v2 and v3, after [delisting](https://governance.aave.com/t/arc-risk-parameter-updates-2022-03-31/7742) the old KNCL token (previously on Aave).\n\n## Motivations\n\nKyberSwap (Kyber Network’s main swap interface) is one of the oldest and most popular DEX aggregators with close to [1M web visitors per month](https://www.similarweb.com/website/kyberswap.com/#overview) (June 2022). KyberSwap has already been deployed on 12 chains. Total trading volume has crossed $10B+ (combined legacy and new KyberSwap protocol) and current total value locked (TVL) is $63M+.\n\nKNC is Kyber’s utility and governance token, and is an important part of KyberSwap operations. KNC holders can stake KNC to vote on proposals to improve KyberSwap. In return, KNC voters receive rewards from fees collected through trading on KyberSwap.com and other benefits from ecosystem collaborations. As more trades are executed and new protocols added, more rewards are generated.\n\nKNC is a liquid asset with many token holders. KNC holders may want to obtain additional liquidity without selling KNC so that they can still capture potential upside in value. With KNC supported on Aave, KNC holders can borrow funds for a wide variety of DeFi use cases, such as margin trading or for new investment opportunities, all without selling their current holdings.\n\n## Specifications\n\n#### 1. What is the link between the author of the AIP and the Asset?\n[shaneMkt](https://twitter.com/shaneMkt) is Head of Strategy for DAO & Tokenomics at Kyber Network.\n\n#### 2. Provide a brief high-level overview of the project and the token\n\n**About Kyber Network**\n\nKyber Network is a multi-chain crypto trading and liquidity hub that connects liquidity from different sources to enable token trading at the best rates through its main user interface KyberSwap.com. As a hybrid DEX aggregator + liquidity platform, it aims to offer the best rates for traders and the best returns for liquidity providers. Kyber’s vision is to be the multi-chain liquidity hub for the decentralized economy, where any user or application can easily access the required tokens for their liquidity needs.\n\n**About KNC**\n\nKNC is Kyber’s utility and governance token, and is an important part of KyberSwap operations. KNC holders can stake KNC to vote on [KyberDAO](http://kyber.org) proposals. Important proposals include improvements to KyberSwap, determining the various incentive mechanisms for liquidity providers, and capturing value created by new innovations. In return, KNC voters receive rewards from fees collected through trading on KyberSwap.com and other benefits from ecosystem collaborations. As more trades are executed and new protocols added, more rewards are generated.\n\nKNC investors include: Hashed, Signum, ParaFi, HyperChain, and Stake Capital.\n\n**KNC Migration in 2021**\n\nThe old KNCL token was previously approved and added to Aave. In 2021, KNC was upgraded to add additional utility and upgradeability. The old KNC was renamed KNCL (Kyber Network Crystal Legacy) to differentiate it from the new KNC. Since 20 April, 2021, users can migrate their KNCL (ie. convert it) to new KNC through a simple procedure on [Kyber.org](https://kyber.org/migrate).\n\nTop exchanges are already supporting the latest version of KNC. KNC can be obtained on decentralized platforms such as KyberSwap.com as well as centralized exchanges such as Coinbase, Binance, FTX, Crypto.com, OKX, KuCoin, Kraken, Huobi, Gate.io, Bitfinex, Bittrex, Bithumb, Upbit, WazirX, and eToro.\n\n* New KNC Announcement: [https://twitter.com/kybernetwork/status/1384504675701952517 1](https://twitter.com/kybernetwork/status/1384504675701952517)\n* Migration Guide: [KNC Token Migration Guide](https://blog.kyber.network/knc-token-migration-guide-fda08bfe62c2)\n\nThere was also recent [ARC proposal by Gauntlet](https://governance.aave.com/t/arc-risk-parameter-updates-2022-03-31/7742) to freeze KNCL (the old legacy token) to make way for the new KNC token on Aave.\n\n#### 3. Explain the positioning of the token in the AAVE ecosystem. Why would it be a good borrow or collateral asset?\n\nKyber Network is a well-known DeFi project and KNC one of the top tokens selected to be part of the [DeFi Pulse Index](https://www.defipulse.com/blog/defi-pulse-index). According to DeFi Pulse, for the top DeFi tokens that were selected, the “associated dApp and founding team must be widely considered legitimate.”\n\n* KNC governs one of the most popular DEX aggregators and liquidity protocols in DeFi which is deployed on 12 chains\n* KNC is a highly liquid token but is still not on many decentralized lending platforms\n* [KNC price feeds](https://data.chain.link/) are supported by Chainlink on Ethereum, Polygon, Avalanche, BNB Chain, Optimism and Arbitrum\n![image](ipfs://bafkreif3fvcatkvdhxnbipynnrai4cly6po74s2powyjuw7ezd4nhpvfma)\n* KNC is already a supported asset on the bridges for BNB Chain, Avalanche, Polygon, Arbitrum, and Optimism\n* KNC has over 10,000 token holders, including crypto VCs and other DeFi projects\n* If it is added to Aave, KNC holders would be able to lend KNC to earn interest instead of selling their tokens\n* By supporting deposits of KNC as collateral, users can borrow stablecoins for other activities\n* KNC holders can borrow KNC for staking and earning rewards, and support governance proposals\n* Kyber team and KyberDAO treasury are considering depositing KNC to borrow stablecoins\n* The old KNCL token had earlier passed Aave’s due diligence and was supported as collateral on Aave\n\n**Risk Matrix** \n*6 Sep 2022*\n \n![image](ipfs://bafkreiatzeeerh5eysfo7tr5pdrjdlemqbhuv763obdr2cb7cvhfe7hg64)\n* [KyberDAO and KNC audit by Hacken](https://hacken.io/wp-content/uploads/2021/04/04042021_Kyber_SC_Audit_Report.pdf)\n* [KyberSwap audit by ChainSecurity](https://chainsecurity.com/security-audit/kyber-network-dynamic-market-maker-dmm/)\n    \n**Benefits to the Aave Community**\n\n* New KNC is highly liquid but it is not on any major decentralized lending platform. Aave can be the first to support it.\n* Kyber has a large community on our social media channels and can provide marketing support and resources to promote the launch of new KNC on Aave, thereby spreading more awareness about Aave.\n* KNC has over 10,000 token holders, including VCs and other DeFi projects, and they would be able to have a direct use case for their tokens on Aave.\n* Kyber is expanding to a wide variety of chains (already on 12 chains), which is aligned with and can support Aave's expansion efforts to other chains\n* Kyber and Aave have a long history of collaboration and listing new KNC would be another positive step forward in our relationship.    \n\n#### 4. Provide a brief history of the project and the different components: DAO (is it live?), products (are they live?). How did it overcome some of the challenges it faced?\n\nKyber Network was founded by Victor Tran, Loi Luu, and Yaron Velner in 2017; all 3 founders are well-known researchers in the Ethereum and DeFi community, and Victor and Loi were both Forbes 30 under 30 recipients. Yaron is also the founder of [B.Protocol](https://www.bprotocol.org/) and [Risk DAO](https://riskdao.org/). Since inception, Kyber Network has powered 100+ integrated projects and successfully facilitated over $10 billion in transactions and over a million trades for thousands of users. For example, our main product KyberSwap integrated with leading trading analytics platform [DEXTools](https://www.dextools.io/), enabling millions of users to access KyberSwap’s token pairs at the best rates.\n\nKyberSwap.com currently supports 12 chains including Ethereum, BNB Chain, Polygon, Avalanche, Fantom, Cronos, Arbitrum, Optimism, Velas, Aurora, Oasis and BitTorrent. Aggregated TVL from 67+ DEXes is over $40B, with 30,000+ pools and 26,000+ tokens.\n\n**Historical milestones**\n\n1. One of the earliest DEXes and it was developed with advice from Vitalik Buterin\n\n2. Built [Oyente](https://github.com/melonproject/oyente), which was the first automated smart contract verification framework and one of the most used open-source auditing tools by security experts (e.g. Enzyme, Quantstamp)\n\n3. One of the first to use DEX/liquidity pool aggregation on Ethereum by integrating different DEXes\n\n4. Initiated and launched [WBTC (Wrapped Bitcoin)](https://wbtc.network/) - the most popular ERC20 version of Bitcoin\n\n5. Developed practical decentralized cross-chain bridges between Ethereum and a non-EVM chain (Peace Relay for Bitcoin and Waterloo Bridge for EOS, which inspired the Rainbow bridge for NEAR)\n\n6. First to work with professional market makers for on-chain market making on Ethereum\n\n7. Helped advise and was part of the launch of DeFi Alliance and Asia DeFi Network\n\n8. First to develop amplified pools with high capital efficiency for any token pair, not just stablecoins\n\n11. One of the few hybrid DEX aggregators that not only have our own permissionless liquidity pools, but also sources liquidity from external sources to give the best rates to traders\n\n**Recent KyberSwap Features**\n\n1. DEX Aggregation Algorithm\n\nKyberSwap’s aggregation algorithm aggregates liquidity, automatically searching multiple DEXes to identify and select the optimal trade routes and best prices for users. KyberSwap makes trading more efficient and saves time and money for thousands of users. KyberSwap sources liquidity from over 60 different DEXs such as Uniswap, Sushi, Curve, QuickSwap, Pancakeswap, Traderjoe, Pangolin, SpookySwap, SpiritSwap, VVS Finance and many others to achieve the best rates for traders on supported chains.\n\n2. Concentrated/Amplified Liquidity Pools\n\nElastic Pools: Liquidity providers (LPs) can deposit tokens into Elastic pools and earn compounding fees. Pools have customizable price ranges and features such as anti-sniping and **concentrated liquidity** , mimicking higher levels of liquidity and achieving much better capital efficiency, volume, and returns. For example, with the same pool and trade size, stable token pairs with low variability in the price range (e.g. USDC/USDT) can be up to 1000x better compared to other platforms.\n\nAs such, liquidity providers can achieve greater capital efficiency, rates, volume, and returns compared to other platforms. LPs earn more in an efficient manner.\n\nMoreover, LPs earn trading fees that are automatically claimed when you withdraw your liquidity.\n\n3. Trending Soon Analytics\n\nKyberSwap users can view which tokens are [‘Trending’ and ‘Trending Soon’](https://kyberswap.com/#/discover?tab=trending_soon). Tokens displayed under the Trending tab are based on current trending data gleaned from top data aggregators CoinGecko and Coinmarket.\n\nTokens displayed under Trending Soon are detected based on Kyber’s special trend detection algorithm, using trading volume, price, market cap, and other on-chain data.\n\n#### 5. How is the asset currently used?\n\nKNC is Kyber’s utility and governance token, and is an important part of KyberSwap operations. KNC holders can stake KNC to vote on [KyberDAO](http://kyber.org) proposals. Important proposals include improvements to KyberSwap, determining the various incentive mechanisms for liquidity providers, and capturing value created by new innovations.\n\nIn return, KNC voters receive rewards from fees collected through trading on KyberSwap.com and other benefits from ecosystem collaborations. As more trades are executed and new protocols added, more rewards are generated. Over $10M worth of rewards have been distributed to KyberDAO voters over the years.\n\nMore information about KNC can be found here: https://kyber.network/about/knc\n\n#### 6. Emission schedule\n\nThere is currently no automatic emission. All tokens for founders and advisors from the token sale have been distributed since September 2019.\n\n~23M KNC is managed by KyberDAO as part of an ecosystem growth fund to facilitate trade and liquidity mining, and other growth activities.\n\nNew KNC can be minted or burned by KyberDAO, subject to a DAO vote by KNC holders.\n\n#### 7. Token & protocol permissions and upgradability\n\nKNC is an upgradeable token. The overall architecture for KyberDAO is largely based on Aave’s governance model with some differences/modifications such as the ability to enable the creation and voting of multi-option (generic, non-binary) proposals, and enabling the calculation of KyberDAO voting power based on a system that uses the current KNC staking model.\n\nKNC is dynamic and can be upgraded, minted, or burned by KyberDAO to better support liquidity and growth.\n\nThe DAO has in-built governance safeguards to ensure that any decision or contract alteration will always be preceded by a suitable time period of preparation and reflection, as well as a minimum voter participation threshold. In addition, we have a 5/9 multisig with the role of a DAO operator that assists with operational tasks and ensuring the integrity of the DAO. The multisig comprises a mix of Kyber team members and founders of external DeFi projects with no direct affiliation to Kyber.\n\nReached text limit. Further details at: https://governance.aave.com/t/arc-add-new-knc-to-aave-v2-and-v3/8236\n",
+        "end_utc": "2022-09-16T04:00:00Z",
+        "similarity_score": 0.1322,
+        "vote_result": {
+          "choices": [
+            "YES",
+            "NAY",
+            "Abstain"
+          ],
+          "scores": [
+            116365.81755308592,
+            34.2495655270656,
+            5.909320993259024
+          ],
+          "scores_total": 116405.97643960627,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2022-09-16T04:00:00",
+          "pre_tvl_avg": 6159549025.0,
+          "post_tvl_avg": 5647617826.5,
+          "abnormal_change": -8.3112,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.083112,
+          "abnormal_change_pct": -8.3112
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2022-09-16T04:00:00",
+          "pre_price_avg": 81.031272875,
+          "post_price_avg": 74.726700195,
+          "abnormal_change": -7.7804,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.077804,
+          "abnormal_change_pct": -7.7804
+        }
+      }
+    },
+    {
+      "proposal_id": "0x503696efacbacdede008fae3c562f7e47c8325a7a5ef63a24609809180bf729f",
+      "cleaned": {
+        "proposal_id": "0x503696efacbacdede008fae3c562f7e47c8325a7a5ef63a24609809180bf729f",
+        "title": "Aave Deployment to BitTorrent Chain (BTTC)",
+        "author": "0x13873fa4B7771F3492825B00D1c37301fF41C348",
+        "end_utc": "2022-01-31T17:00:00Z",
+        "similarity_score": 0.1305,
+        "winning_option": "Yes",
+        "winning_option_index": 0,
+        "margin_abs": 109110.70552129799,
+        "margin_pct": 0.986776386308705,
+        "scores_total": 110572.87855200417,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 301,
+        "total_votes": 301,
+        "first_vote_at": "2022-01-28T17:20:19Z",
+        "last_vote_at": "2022-01-31T14:50:18Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.945205,
+            0.054795
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.973421926910299,
+          0.026578073089700997
+        ],
+        "stability": [
+          0.973421926910299,
+          0.026578073089700997
+        ],
+        "early_ratio": [
+          0.9452054794520548,
+          0.0547945205479452
+        ],
+        "vp_by_quartile": [
+          [
+            108527.92707245806,
+            113.66320529832767
+          ],
+          [
+            35.2556836385629,
+            65.64125144335657
+          ],
+          [
+            0.23408538283047575,
+            261.94785056205666
+          ],
+          [
+            1278.3751951716708,
+            289.83420804934866
+          ]
+        ],
+        "spike_index": 0.98787,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 4e-06,
+        "half_slope_diff": -0.119016
+      },
+      "raw": {
+        "id": "0x503696efacbacdede008fae3c562f7e47c8325a7a5ef63a24609809180bf729f",
+        "title": "Aave Deployment to BitTorrent Chain (BTTC)",
+        "author": "0x13873fa4B7771F3492825B00D1c37301fF41C348",
+        "body": "Discussion: \n\nhttps://governance.aave.com/t/arc-aave-deployment-to-bittorrent-chain-bttc/6813 \n\nSummary\n\nThe BitTorrent DAO Community asks for signaling from the Aave community to accept a deployment of the Aave Protocol into BitTorrent Chain (known as BTTC), which can expand lending to the BitTorrent community and, with the provision of incentives, bootstrap the launch of Aave on a new ecosystem.\n\nProposer\n\nBitTorrent Chain is an open-source, EVM-compatible blockchain that offers high concurrency, higher submission speed, lower transaction fees, and smoother operations. Since BTTC is fully-compatible with TRON, Ethereum, and Binance Smart Chain, users are able to transfer mainstream assets among TRON, Ethereum, and BSC in a decentralized manner. Openness and accessibility are core values that we practice through our cross-chain strategy, and we find that aligns well with Aave goals.\n\nWe seek to support Aave in its multichain expansion and invite Aave to enable the Aave v2 front-end for BTTC. We believe that BTTC is ready-made to support Aave: BTTC offers a secure infrastructure (multi-node validation), heterogeneous cross-chain solution, faster transaction confirmation (PoS consensus mechanism with an average block time between 2-3 seconds) , and lower transaction fees (<$0.01 on average).\n\nAs the Layer 2 of TRON, BTTC inherits the advanced technology and resources from TRON, as well as $1.1bn TRON Ecosystem Fund. Since TRON’s MainNet release on May 31, 2018, TRON has risen to become the world’s fastest-growing public chain and the world’s largest network in terms of stablecoin settlement. Currently TRON boasts a staggering $70 billion worth of assets, over 66 million TRON accounts, and more than 39.9 billion TRC20-USDT in circulation on its network.\n\nMoreover, BTTC integrates with Binance Smart Chain, which has one of the strongest deflationary mechanisms and currently has more daily active addresses than the rest of all layer 1s combined. That compatibility makes BTTC a better fit for DeFi applications like Aave.\n\nWe are convinced that BTTC is key to ushering in an era of connecting all chains, helping achieve rapid growth across the DeFi space, especially the Aave community.\n\nRationale\n\nCurrent status of the BitTorrent Chain\n\nBitTorrent Chain’s vision is to provide a high-performance, highly scalable, low-cost solution for blockchain platforms that delivers a superior user experience for decentralized applications without sacrificing decentralization while leveraging the existing developer ecosystem.\n\nBTTC is scalable to tens or hundreds of thousands of participants due to the performance of consensus. As the first heterogeneous cross-chain interoperability protocol in the industry, users can transfer assets within TRON, Ethereum, BSC without any limits. The PoS consensus network can deal with high throughput and provides instant finality in 2-3 seconds, making the network an incredible homecourt for DeFi and other EVM applications.\n\nWhy is it good for the Aave ecosystem?\n\nBTTC is well-suited for building DeFi applications due to scalability, high throughput, economic, and instant finality. The BitTorrent DAO Community has allocated up to $1bn for users of the Aave protocol. This program will bring new users to the platform, and reach more users from the established TRON community. Having the Aave community embrace deployment on BTTC will allow more users to access Aave’s offerings across the DeFi ecosystem.\n\nThere is great potential for synergy between BTTC and Aave. As a close partner of TRON, BTTC will be able to contribute more than $1bn on Aave, and there are already more than $800mn assets of BTTC community on the Aave. The TRON DeFi ecosystem is thriving: Total Value Locked across TRON DeFi protocols is $5.39bn and growing. Many well-known protocols such as JustLend, Sunswap, amongst others, have deployed on TRON. On BTTC, Aave would find many users eager to participate in lending markets and add value to the Aave network.\n\nBesides, as BTTC integrates more mainstream public chains like BSC, it will ease down the process of interacting between users and Aave, and that will definitely catapult the Aave ecosystem to the next level.\n\nWhy is signaling necessary?\n\nConsistent with the ethos of the Aave ecosystem, we believe that all deployments of the Aave protocol should be voted on–and accepted by – Aave governance prior to deployment. Deploying the Aave protocol on BTTC will support growth and synergies between the communities, ultimately leading to a stronger DeFi ecosystem.\n\nReference: \nHomepage: https://bt.io/\nGithub: https://github.com/bttcprotocol\nTwitter: https://twitter.com/BitTorrent\nMedium: https://medium.com/@BitTorrent\nTelegram: https://t.me/BitTorrentChain\n\n\n",
+        "end_utc": "2022-01-31T17:00:00Z",
+        "similarity_score": 0.1305,
+        "vote_result": {
+          "choices": [
+            "Yes",
+            "No"
+          ],
+          "scores": [
+            109841.79203665108,
+            731.0865153530897
+          ],
+          "scores_total": 110572.87855200417,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2022-01-31T17:00:00",
+          "pre_tvl_avg": 11613152105.0,
+          "post_tvl_avg": 11905005746.5,
+          "abnormal_change": 2.5131,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.025131,
+          "abnormal_change_pct": 2.5131
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2022-01-31T17:00:00",
+          "pre_price_avg": 151.33759485000002,
+          "post_price_avg": 151.913692195,
+          "abnormal_change": 0.3807,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.003807,
+          "abnormal_change_pct": 0.3807
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0xaba8da3287788ee77013aa6b0584694807dc15304ab5c283fe1fc728bf1d5864",
+    "selected_choice_label": "NAE",
+    "selected_choice_index": 1,
+    "confidence": 0.85,
+    "summary": "The proposal to launch Aave V3 on Metis has mixed community sentiment with notable concerns over infrastructure security, low liquidity, and lack of decentralization in Metis. Historical similar proposals favored launching but experienced significant post-vote declines in token price and TVL. Market and timeline analytics show stable early voting for 'YAE' but market impact is negligible with slight TVL growth and price decline. Forum discussion reveals both support for Metis' potential and strong skepticism due to technical and ethical concerns.",
+    "key_arguments_for": [
+      "Metis is a legitimate Layer 2 project with a dedicated team and a thriving ecosystem of native dapps.",
+      "Metis offers low transaction costs, fee stability, and a vision to onboard enterprises into Web3.",
+      "The integration could expand Aave's multichain presence and generate new revenue streams from Metis' builder mining program.",
+      "Technical risk evaluations by BGD Labs and others show strong security ratings and readiness for integration."
+    ],
+    "key_arguments_against": [
+      "Low TVL and liquidity on Metis limit the market potential and increase risk for Aave deployment.",
+      "Concerns about Metis' infrastructure security due to disabled fraud proofs and centralized sequencer.",
+      "Community criticism of poor communication and unresolved ethical issues related to Metis' associations.",
+      "Historical similar proposals led to significant declines in token price and TVL post-launch, suggesting caution."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Aave Governance Forum thread 'Launch Aave V3 on Metis'",
+        "quote": "Sentiment analysis of 80 posts: Positive 9, Negative 26, Neutral 45. Early comments highlight concerns about decentralization and security, with later comments from Metis team clarifying technical roadmap and addressing concerns. Several community members express caution due to low liquidity and ethical concerns."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Snapshot voting timeline metrics",
+        "quote": "Lead ratio strongly favors 'YAE' in early quartiles but no votes in final quartiles, stability is high, early voting dominates, spike index 0.479 indicating some voting activity spikes."
+      },
+      {
+        "source_tool": "govnews_search_governance_news",
+        "reference": "Adjacent proposals analysis",
+        "quote": "Similar proposals on ERC4626 strategies and zkSync deployments showed positive vote results but suffered major negative price and TVL impacts post-vote, indicating market skepticism."
+      }
+    ],
+    "available_choices": [
+      "YAE",
+      "NAE",
+      "ABSTAIN"
+    ],
+    "event_start_utc": "2022-12-13T16:00:00Z",
+    "event_end_utc": "2022-12-19T18:00:00Z",
+    "event_time_utc": "2022-12-19T18:00:00Z",
+    "address_of_governance_token": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+    "token_price_impact_pct": -0.2482,
+    "tvl_impact_pct": 2.1233,
+    "actual_vote_result": {
+      "winner_label": "YAE",
+      "winner_index": 0,
+      "scores": [
+        358326.5880399649,
+        181715.5624398356,
+        36461.867919290955
+      ],
+      "scores_total": 576504.0183990953,
+      "margin_abs": 176611.0256001293,
+      "margin_pct": 0.306348
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Not change, Status quo",
+    "ai_final_conclusion": "Option 'NAE' selected with stance to keep 'Not change, Status quo'.",
+    "ai_final_reason": "- The voting timeline shows strong early support for launching on Metis but no late voting activity, suggesting limited enthusiasm.\n- Forum sentiment analysis reveals more negative and neutral posts than positive, with key concerns about Metis' infrastructure security, decentralization, and low liquidity.\n- Similar past proposals that proceeded experienced notable post-vote declines in token price and TVL, indicating market risks.\n- Market impact during the vote window was minor and mixed, with a slight TVL increase but price decline.\n- The community's caution and historical lessons outweigh the potential benefits, recommending to maintain the status quo and not proceed with deployment at this time.\n- This recommendation aligns with the aggregated forum sentiment, which generally opposes the proposal, reflecting community views.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x8257d8c7681a3587a61f0d97997045c4d35815031d56386c854afa66f0d04351",
+        "title": "Deploy Aave V3 to zkSync 2.0 Testnet",
+        "end_utc": "2022-11-02T15:00:00Z",
+        "summary": "Deploy Aave V3 to zkSync 2.0 Testnet closed on 2022-11-02T15:00:00Z. Timeline analytics noted 5500 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.13)",
+        "market_response": "token +5.53%; TVL -1.31%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0xedb87c640a24dadde80f39db547d8ea913483b638efb045fc9ac1a4132d7b78f",
+        "title": "[ARC] - ERC4626 Strategies as Productive Collateral",
+        "end_utc": "2022-11-10T15:59:00Z",
+        "summary": "[ARC] - ERC4626 Strategies as Productive Collateral closed on 2022-11-10T15:59:00Z. Timeline analytics noted 5500 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.12)",
+        "market_response": "token -15.17%; TVL -8.25%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -0.2482,
+    "ex_post_tvl_impact_pct": 2.1233,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -0.25%; TVL +2.12%"
+  },
+  "agentic_ai_choice": "NAE",
+  "actual_outcome": "YAE",
+  "match_result": "different",
+  "forum_sentiment_summary": {
+    "Negative": 26,
+    "Positive": 9,
+    "Neutral": 45,
+    "total_comments": 80
+  }
+}

@@ -1,0 +1,867 @@
+{
+  "captured_at_utc": "2025-10-08T23:18:01.874263+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x09904b2d9fb4c980120f393060d8062764e0000bec849c3a23855faca34080a2",
+  "focus": null,
+  "votes_count": 6,
+  "timeline_metrics_current": {
+    "unique_voters": 6,
+    "total_votes": 6,
+    "first_vote_at": "2024-10-11T08:12:19Z",
+    "last_vote_at": "2024-10-14T07:39:17Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        0.03295025952002947,
+        0.0,
+        0.0
+      ],
+      [
+        347040.11055444623,
+        0.0,
+        0.0
+      ],
+      [
+        599.2978590091849,
+        0.0,
+        0.0
+      ],
+      [
+        2603693.7007127125,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.802791,
+    "spike_follow_support_ratio": 1.0,
+    "stairwise_ratio": 0.197209,
+    "half_slope_diff": 17.650449
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0xb3454283d44bb2eff7b0adcaecef7f45d7812655560784f64e7c51df45d3fd59",
+      "title": "[BIP-713] Spearbit Cantina Audit Competition Funding",
+      "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+      "end_utc": "2024-10-07T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5,
+        "total_votes": 5,
+        "first_vote_at": "2024-10-04T08:37:53Z",
+        "last_vote_at": "2024-10-07T02:50:23Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            116572.8476867144,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            594923.5191614461,
+            0.0,
+            0.0
+          ],
+          [
+            2408452.273682235,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.771953,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.228047,
+        "half_slope_diff": 29.155604
+      },
+      "price_impact_pct": -3.3785,
+      "tvl_impact_pct": -2.5803,
+      "similarity": 0.0903,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 3119948.6405303953,
+        "scores_total": 3119948.6405303953,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0x1281972af70ebd7b4f8e403374227b91c33d0d4e7ff75b917e7155628ca2c934",
+      "title": "[BIP-712] Enable UltraEths/wETH gauge [Ethereum]",
+      "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+      "end_utc": "2024-10-07T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5,
+        "total_votes": 5,
+        "first_vote_at": "2024-10-04T08:39:17Z",
+        "last_vote_at": "2024-10-07T02:50:23Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            116576.32319081119,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            594943.6882256151,
+            0.0,
+            0.0
+          ],
+          [
+            2408452.273682235,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.771947,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.228053,
+        "half_slope_diff": 29.087768
+      },
+      "price_impact_pct": -3.3785,
+      "tvl_impact_pct": -2.5803,
+      "similarity": 0.0786,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 3119972.2850986607,
+        "scores_total": 3119972.2850986607,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0x3d8aff67780637416728bc6428ce2d5e2340d4dc474aa816941e98afd06ef271",
+      "title": "[BIP-711] Expand Hidden Hand Refund Flexibility",
+      "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+      "end_utc": "2024-10-07T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 6,
+        "total_votes": 6,
+        "first_vote_at": "2024-10-04T02:12:59Z",
+        "last_vote_at": "2024-10-07T02:50:23Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            117328.875334774,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            596624.712493886,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            2408452.273682235
+          ]
+        ],
+        "spike_index": 1.0,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.0,
+        "half_slope_diff": 0.0
+      },
+      "price_impact_pct": -3.3785,
+      "tvl_impact_pct": -2.5803,
+      "similarity": 0.0769,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 650370.4478034489,
+        "scores_total": 3122405.861510895,
+        "margin_pct": 0.20829145109557998
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0xed552a24004b585b137c611bf9a1b5196120b2050c88ead0ce23cdcd091f982e",
+      "cleaned": {
+        "proposal_id": "0xed552a24004b585b137c611bf9a1b5196120b2050c88ead0ce23cdcd091f982e",
+        "title": "[BIP-551] Claim and Relock Balancer DAO’s AURA / vlAURA",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2024-03-04T19:00:00Z",
+        "similarity_score": 0.1474,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3527430.6818235656,
+        "margin_pct": 0.9999999999999999,
+        "scores_total": 3527430.681823566,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 24,
+        "total_votes": 24,
+        "first_vote_at": "2024-02-29T19:10:23Z",
+        "last_vote_at": "2024-03-04T17:00:41Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            448.31592389044215,
+            0.0,
+            0.0
+          ],
+          [
+            0.5746737983429943,
+            0.0,
+            0.0
+          ],
+          [
+            408449.052498669,
+            0.0,
+            0.0
+          ],
+          [
+            3118532.7387272087,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.79499,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.089829,
+        "half_slope_diff": 69.083873
+      },
+      "raw": {
+        "id": "0xed552a24004b585b137c611bf9a1b5196120b2050c88ead0ce23cdcd091f982e",
+        "title": "[BIP-551] Claim and Relock Balancer DAO’s AURA / vlAURA",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/819\n\n## Summary\n\nThe Balancer DAO has locked its vested AURA into vlAURA with [[BIP-481]](https://forum.balancer.fi/t/bip-481-claim-and-lock-balancer-dao-aura-allocation-into-vlaura/5319). The first lock of 1.42m AURA will expire and can be relocked after March 7th and before the unlolck date of March 14th, 2024:\n\n \n![bip-551.png](ipfs://bafkreigqscbntq3fhxjxnaicwwfro3tn7zzntkhpp4ecec25bd7c5z3bfi)\n    \n\nThe DAO wishes to relock its current position and bundle it with an additional vest so the next unlock is bundled into one in 16 weeks from the relock date.\n\n## Motivation\n\nThe Balancer DAO wishes to relock its vlAURA position to continue to vote for Balancer gauges with its position. To do so the DAO needs to relock its expired position timely after March 7th and before March 14th 2024\n\nAt the time of writing, the DAO is entitled again to roughly ~280k AURA tokens (can be verified by calling `available` with `_recipient` as `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` https://etherscan.io/address/0xfd72170339ac6d7bdda09d1eaca346b21a30d422 ). Another ~297k AURA remains unvested and will be claimed at a later date.\n\nWe are proposing to initiate another lock with the available ~280k AURA to be used to vote on AURA governance. The specifics of the Balancer DAOs voting allocations can be found [here](https://forum.balancer.fi/t/bip-508-utilize-locked-aura-to-support-ecosystem-growth/5419).\n\nBy re-locking the initial position and vesting additional AURA between March 7th and March 14th which would fall into the same locking epoch, it is guaranteed that the entirety of the locks will be up for re-lock in 16 weeks, reducing load on the multi-sig, streamlining the management of this position.\n\n## Specification\n\nThe Balancer DAO Multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with the vlAURA contract at `0x3fa73f1e5d8a792c80f426fc8f84fbf7ce9bbcac` and call `processExpiredLocks` with argument `true` - The execution needs to be timed AFTER March 7th and BEFORE March 14th\n\nAdditionally, the DAO multisig on mainnet `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will call the `claim` function on the AuraVestedEscrow at `0xfd72170339ac6d7bdda09d1eaca346b21a30d422` with the parameter `_lock` set to `true`. This execution, as well as the above, needs to be timed AFTER March 7th and BEFORE March 14th",
+        "end_utc": "2024-03-04T19:00:00Z",
+        "similarity_score": 0.1474,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3527430.6818235656,
+            0,
+            0
+          ],
+          "scores_total": 3527430.681823566,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-03-04T19:00:00",
+          "pre_tvl_avg": 1338707812.5,
+          "post_tvl_avg": 1384228231.5,
+          "abnormal_change": 3.4003,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.034003,
+          "abnormal_change_pct": 3.4003
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-03-04T19:00:00",
+          "pre_price_avg": 5.21338803,
+          "post_price_avg": 5.73393735,
+          "abnormal_change": 9.9849,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.099849,
+          "abnormal_change_pct": 9.9849
+        }
+      }
+    },
+    {
+      "proposal_id": "0x52ff9a6e9dae7a8331c4c7f97af4d7e0292f6d838e49d088112b2ba6364b1d03",
+      "cleaned": {
+        "proposal_id": "0x52ff9a6e9dae7a8331c4c7f97af4d7e0292f6d838e49d088112b2ba6364b1d03",
+        "title": "[BIP-638] Claim and Relock Balancer DAO’s Additional AURA/vlAURA",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2024-07-01T18:00:00Z",
+        "similarity_score": 0.1399,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2786592.7352686366,
+        "margin_pct": 1.0,
+        "scores_total": 2786592.7352686366,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 9,
+        "total_votes": 9,
+        "first_vote_at": "2024-06-28T06:27:29Z",
+        "last_vote_at": "2024-07-01T15:37:09Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1.4336229161144403,
+            0.0,
+            0.0
+          ],
+          [
+            1421.4652999174336,
+            0.0,
+            0.0
+          ],
+          [
+            266781.4413530272,
+            0.0,
+            0.0
+          ],
+          [
+            2518388.394992776,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.838863,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.161137,
+        "half_slope_diff": 7.752376
+      },
+      "raw": {
+        "id": "0x52ff9a6e9dae7a8331c4c7f97af4d7e0292f6d838e49d088112b2ba6364b1d03",
+        "title": "[BIP-638] Claim and Relock Balancer DAO’s Additional AURA/vlAURA",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1099\n\n## Summary\n\nThe Balancer DAO has locked its vested AURA into vlAURA with [[BIP-481]](https://forum.balancer.fi/t/bip-481-claim-and-lock-balancer-dao-aura-allocation-into-vlaura/5319). The second lock of 1.74m AURA will expire and can be relocked after June 27th and before the unlock date of July 4th, 2024:\n\n \n![vlAura.png](ipfs://bafkreihdvdnzfszhe7tmwnhhha7qmgnerpfmh52h7fxdeyihj3n5ox2hjm)\n    \n\nThe DAO wishes to relock its current position and bundle it with an additional vest so the next unlock is bundled into one in 16 weeks from the relock date as done previously in [[BIP-551]](https://forum.balancer.fi/t/bip-551-claim-and-relock-balancer-daos-aura-vlaura/5588).\n\n## Motivation\n\nThe Balancer DAO wishes to relock its vlAURA position to continue to vote for Balancer gauges with its position. To do so the DAO needs to relock its expired position timely after June 27th and before July 4th 2024\n\nAt the time of writing, the DAO is entitled again to roughly ~255k AURA tokens (can be verified by calling `available` with `_recipient` as `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` https://etherscan.io/address/0xfd72170339ac6d7bdda09d1eaca346b21a30d422 ). Another ~5-10k AURA remains unvested and will be claimed at a later date.\n\nWe are proposing to initiate another lock with the available ~255k AURA to be used to vote on AURA governance. The specifics of the Balancer DAOs voting allocations can be found [here](https://forum.balancer.fi/t/bip-508-utilize-locked-aura-to-support-ecosystem-growth/5419).\n\nBy re-locking the initial position and vesting additional AURA between June 27th and July 4th which would fall into the same locking epoch, it is guaranteed that the entirety of the locks will be up for re-lock in 16 weeks, reducing load on the multi-sig, streamlining the management of this position.\n\n## Specification\n\nThe Balancer DAO Multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with the vlAURA contract at `0x3fa73f1e5d8a792c80f426fc8f84fbf7ce9bbcac` and call `processExpiredLocks` with argument `true` - The execution needs to be timed AFTER June 27th and BEFORE July 4th\n\nAdditionally, the DAO multisig on mainnet `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will call the `claim` function on the AuraVestedEscrow at `0xfd72170339ac6d7bdda09d1eaca346b21a30d422` with the parameter `_lock` set to `true`. This execution, as well as the above, needs to be timed AFTER June 27th and BEFORE July 4th",
+        "end_utc": "2024-07-01T18:00:00Z",
+        "similarity_score": 0.1399,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2786592.7352686366,
+            0,
+            0
+          ],
+          "scores_total": 2786592.7352686366,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-07-01T18:00:00",
+          "pre_tvl_avg": 913278234.0,
+          "post_tvl_avg": 879765718.0,
+          "abnormal_change": -3.6695,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.036695,
+          "abnormal_change_pct": -3.6695
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-07-01T18:00:00",
+          "pre_price_avg": 2.9803697,
+          "post_price_avg": 2.53644062,
+          "abnormal_change": -14.8951,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.148951,
+          "abnormal_change_pct": -14.8951
+        }
+      }
+    },
+    {
+      "proposal_id": "0xfc9caac6422b4bf9d3534a16a9cd48e2f9e9a078323b2923707261d93f6048a3",
+      "cleaned": {
+        "proposal_id": "0xfc9caac6422b4bf9d3534a16a9cd48e2f9e9a078323b2923707261d93f6048a3",
+        "title": "[BIP-364] Enable TruMATIC / bb-a-wMATIC Gauge [Polygon]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-07-17T18:00:00Z",
+        "similarity_score": 0.1204,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3704240.3666730323,
+        "margin_pct": 0.9999998944076387,
+        "scores_total": 3704240.7578125605,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 83,
+        "total_votes": 83,
+        "first_vote_at": "2023-07-13T18:38:35Z",
+        "last_vote_at": "2023-07-17T17:55:48Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            5.679631541967312,
+            0.0,
+            0.0
+          ],
+          [
+            108.31320623900504,
+            0.0,
+            0.143553026450997
+          ],
+          [
+            389419.2213291569,
+            0.0,
+            0.0
+          ],
+          [
+            3314707.2862085165,
+            0.11388407975911193,
+            0.0
+          ]
+        ],
+        "spike_index": 0.834298,
+        "spike_follow_support_ratio": 0.999999,
+        "stairwise_ratio": 3.3e-05,
+        "half_slope_diff": 10.381715
+      },
+      "raw": {
+        "id": "0xfc9caac6422b4bf9d3534a16a9cd48e2f9e9a078323b2923707261d93f6048a3",
+        "title": "[BIP-364] Enable TruMATIC / bb-a-wMATIC Gauge [Polygon]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "**PR with Payload:**\nhttps://github.com/BalancerMaxis/multisig-ops/pull/373\n\n**Summary:**\n\n>This proposal is to create a gauge for truMATIC/bb-a-wMATIC on Polygon.\n>\n>The pool shall use the ComposableStablePoolFactory-v4 which addresses the [reentrancy vulnerability](https://forum.balancer.fi/t/reentrancy-vulnerability-scope-expanded/4345) disclosed during February 2023. \n>\n>This gauge is uncapped, and would enter as a “core pool” under [BIP-19](https://forum.balancer.fi/t/bip-19-incentivize-core-pools-l2-usage/3329). This means 65% of 50% of yield generated by this pool is to be used for bribing for votes on it via [Hidden Hand](https://hiddenhand.finance/balancer). The remaining 35% goes to Balancer DAO as revenue. \n\n**References/Useful links:**\n\n>* [Website](https://www.trufin.io/)\n>* [Documentation](https://trufin.gitbook.io/docs/)\n>* [truMATIC Contract](https://etherscan.io/address/0xa43a7c62d56df036c187e1966c03e2799d8987ed#code  )\n>* [Communities](https://twitter.com/TruFinProtocol)\n>* [Discord](https://discord.com/invite/5V4GwcGyWb)\n\n**Protocol Description:**\n\n>TruFin builds institutional-grade DeFi primitives, that can be used as the foundational building blocks for complex digital asset strategies to reduce risk, generate rewards, securely on-chain. TruStake is a MATIC staking vault which provides access to MATIC staking on the Ethereum network. \n>\n>TruMATIC is the liquid staking token users receive when they deposit MATIC into the TruStake vault. It is an ERC-20 token like MATIC and has all the same basic functionality. As soon as you deposit MATIC on the TruStake smart contract, you receive newly minted TruMATIC, based on the exchange rate at the time of staking. As MATIC staking rewards accrue, the value of TruMATIC increases (with reference to MATIC). \n\n**Motivation:**\n\n> This proposal aims to add a veBAL gauge for truMATIC/bb-a-wMATIC on Polygon.\n>\n>One of Balancer’s strategic objectives is to attract more yield bearing liquidity. Incentivizing the yield bearing token TruMATIC through a gauge proposal presents an opportunity to deepen Balancer liquidity. Balance is to become the main liquidity destination for TruMATIC. Launching a bb-a-wMATIC pool will provide additional yield for Liquidity Providers (LPs) after fees and bribes, relative to other pool types. This is due to the Aave v3 wMATIC reserve generation 218 bps of deposit yield. \n\n**Specifications:**\n\n1. **Governance:** \n\n> See white paper [here](https://trufin.gitbook.io/docs/).\n\n2. **Oracles:**\n\n>* rateProvider0 (for truMATIC):[`0x4b697C8c3220FcBdd02DFFa46db5a896ae7a0843`](https://polygonscan.com/address/0x4b697c8c3220fcbdd02dffa46db5a896ae7a0843#readProxyContract)`\n>* rateProvider1 (for bb-a-wMATIC): [`0xE4885Ed2818Cc9E840A25f94F9b2A28169D1AEA7`](https://polygonscan.com/address/0xe4885ed2818cc9e840a25f94f9b2a28169d1aea7#readContract)\n\n3. **Audits:**\n\n>* [Nethermind](https://trufin-public-assets.s3.eu-west-2.amazonaws.com/TruMATIC+-+Nethermind+-+Jun23.pdf)\n>* [Zokyo](https://trufin-public-assets.s3.eu-west-2.amazonaws.com/TruMATIC+-+Zokyo+Audit+-+May23.pdf)\n\n4. **Centralization vectors:** \n \n>* TruFin Governance, see [here](https://www.trufin.io/policies/)\n\n5. **Market History:** \n>* truMATIC is new and not yet integrated into Coingecko.\n>* bb-a-wMATIC has a long successful history within Balancers protocol.\n\n6. **Value:**\n>* This pool is a Core Pool and therefore will generate revenue for the DAO via truMATIC and bb-a-wMATIC derived yield plus swap fees.\n\n**Pool Details**\n>Link to Pool: [0xb266ac3b7c98d7bcb28731dac0ef42dba1b276be](https://app.balancer.fi/#/polygon/pool/0xb266ac3b7c98d7bcb28731dac0ef42dba1b276be000000000000000000000be4)\n>Link to Gauges: [0x6f06b425e1bc11FC486C308c22e503d188525F06](https://etherscan.io/address/0x6f06b425e1bc11FC486C308c22e503d188525F06#code) \n>\n>The Balancer Maxi LM Multisig `eth:0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function with the following arguments:\n>\n>gauge(address): `0x6f06b425e1bc11FC486C308c22e503d188525F06`\ngaugeType(string): `Polygon`\n\n**Disclosure:**\n\n>This proposal is the work of @Llama contributor, @Matthew_Graham, via the legal entity TokenLogic and @MattTF of Trufin.",
+        "end_utc": "2023-07-17T18:00:00Z",
+        "similarity_score": 0.1204,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3704240.51271553,
+            0.09905453242151184,
+            0.14604249768363947
+          ],
+          "scores_total": 3704240.7578125605,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-07-17T18:00:00",
+          "pre_tvl_avg": 1068999823.0,
+          "post_tvl_avg": 1031841970.5,
+          "abnormal_change": -3.4759,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.034759,
+          "abnormal_change_pct": -3.4759
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-07-17T18:00:00",
+          "pre_price_avg": 4.761206455,
+          "post_price_avg": 4.624854695,
+          "abnormal_change": -2.8638,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.028638,
+          "abnormal_change_pct": -2.8638
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x09904b2d9fb4c980120f393060d8062764e0000bec849c3a23855faca34080a2",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "Proposal to enable an automatic relocking module for the DAO's AURA allocation to maintain strategic voting power without manual intervention.",
+    "key_arguments_for": [
+      "Automates relocking of vlAURA to maintain continuous voting power, reducing manual risk and effort.",
+      "Module has been audited and successfully runs in production for another DAO.",
+      "The DAO multisig retains the ability to manually relock or disable the module anytime.",
+      "Timeline metrics show unanimous support and early decisive voting for the proposal."
+    ],
+    "key_arguments_against": [
+      "Concerns about enabling modules on the governance multisig that could pose security risks if compromised.",
+      "Risk of governance takeover if the module or multisig is exploited.",
+      "Alternative safer approach suggested: deploy module on a cloned multisig with identical signers for isolation.",
+      "Forum sentiment is mixed with negative views on security risks despite technical endorsements."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.balancer.fi/t/bip-715-enable-automatic-aura-relocking/6077",
+        "quote": "Proposal details, audit links, risk discussions, and community concerns including multisig security and alternative solutions."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": null,
+        "quote": "Voting timeline shows a strong, stable lead for 'Yes, let's do it' with unanimous voter support and early decisive votes."
+      },
+      {
+        "source_tool": "govnews_search_governance_news",
+        "reference": null,
+        "quote": "No specific news detected that would materially affect the proposal or introduce new risks."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2024-10-10T18:00:00Z",
+    "event_end_utc": "2024-10-14T18:00:00Z",
+    "event_time_utc": "2024-10-14T18:00:00Z",
+    "address_of_governance_token": "0xBA100000625a3754423978a60c9317c58a424e3D",
+    "token_price_impact_pct": 4.5852,
+    "tvl_impact_pct": 3.5084,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        2951333.1420764276,
+        0.0,
+        0.0
+      ],
+      "scores_total": 2951333.1420764276,
+      "margin_abs": 2951333.1420764276,
+      "margin_pct": 1.0
+    },
+    "simulation_reason": "Recommendation based on timeline unanimity, audit confidence, and strategic benefit outweighing security concerns.",
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- The unanimous and early voting timeline strongly supports adoption.\n- The module is audited, proven in production, and provides a strategic advantage by automating relocks, reducing operational risk.\n- Forum sentiment is mixed with significant security concerns, but these do not outweigh the robust safeguards and manual override capability.\n- Historical similar proposals with unanimous support and audit backing led to positive outcomes without adverse impacts.\n- Market metrics show positive price and TVL impact, reinforcing confidence.\n- The recommendation aligns with the aggregated vote sentiment but acknowledges the forum's caution as a point for governance vigilance.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0xb3454283d44bb2eff7b0adcaecef7f45d7812655560784f64e7c51df45d3fd59",
+        "title": "[BIP-713] Spearbit Cantina Audit Competition Funding",
+        "end_utc": "2024-10-07T18:00:00Z",
+        "summary": "[BIP-713] Spearbit Cantina Audit Competition Funding closed on 2024-10-07T18:00:00Z. Timeline analytics noted 5 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.09)",
+        "market_response": "token -3.38%; TVL -2.58%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0x1281972af70ebd7b4f8e403374227b91c33d0d4e7ff75b917e7155628ca2c934",
+        "title": "[BIP-712] Enable UltraEths/wETH gauge [Ethereum]",
+        "end_utc": "2024-10-07T18:00:00Z",
+        "summary": "[BIP-712] Enable UltraEths/wETH gauge [Ethereum] closed on 2024-10-07T18:00:00Z. Timeline analytics noted 5 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.08)",
+        "market_response": "token -3.38%; TVL -2.58%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 4.5852,
+    "ex_post_tvl_impact_pct": 3.5084,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +4.59%; TVL +3.51%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 3,
+    "Positive": 0,
+    "Neutral": 3,
+    "total_comments": 6
+  }
+}

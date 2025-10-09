@@ -1,0 +1,865 @@
+{
+  "captured_at_utc": "2025-10-09T01:53:21.074652+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0xa882d90d05ced2f57fb2d6b2d7eeaf5d479f8e502dbc1ca55718bc7e7bb9a82a",
+  "focus": null,
+  "votes_count": 9,
+  "timeline_metrics_current": {
+    "unique_voters": 9,
+    "total_votes": 9,
+    "first_vote_at": "2024-08-09T12:14:44Z",
+    "last_vote_at": "2024-08-12T08:38:49Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        223661.84459427258,
+        0.0,
+        0.0
+      ],
+      [
+        1245.6986403850258,
+        0.0,
+        0.0
+      ],
+      [
+        613.5665687432972,
+        0.0,
+        0.0
+      ],
+      [
+        2319366.5486722025,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.911382,
+    "spike_follow_support_ratio": 0.0,
+    "stairwise_ratio": 0.088618,
+    "half_slope_diff": -29.776939
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0xf9bc2c094bf303a185e730360f2464bfe9d4a2b31ef823bd162b57e247f134d2",
+      "title": "[BIP-666] Provide Balancer DAO POL to CoWAMM Pools",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2024-08-05T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 9,
+        "total_votes": 9,
+        "first_vote_at": "2024-08-02T08:58:52Z",
+        "last_vote_at": "2024-08-05T15:08:14Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.2100796687150606,
+            0.0,
+            0.0
+          ],
+          [
+            230155.5152778791,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2300930.9535105433,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.905298,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.094702,
+        "half_slope_diff": 13.087921
+      },
+      "price_impact_pct": -10.2675,
+      "tvl_impact_pct": -13.6542,
+      "similarity": 0.1657,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2530628.4013576256,
+        "scores_total": 2531086.678868091,
+        "margin_pct": 0.9998189404123171
+      }
+    },
+    {
+      "id": "0xc83ca2e347ee9c5e0f4002b4a40a0c34011083e635c2b6c2bf66538b10cc8969",
+      "title": "[BIP-665] Enable COPM:WETH and COPM:USDC “FXPool” Gauges on Polygon",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2024-08-05T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 10,
+        "total_votes": 10,
+        "first_vote_at": "2024-08-02T08:58:23Z",
+        "last_vote_at": "2024-08-05T15:07:43Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.2100828771728129,
+            0.0,
+            0.0
+          ],
+          [
+            230156.81963111402,
+            0.0,
+            0.0
+          ],
+          [
+            127642.44967164421,
+            0.0,
+            0.0
+          ],
+          [
+            9543.435956740836,
+            2291390.559022095,
+            0.0
+          ]
+        ],
+        "spike_index": 1.0,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.0,
+        "half_slope_diff": 0.0
+      },
+      "price_impact_pct": -10.2675,
+      "tvl_impact_pct": -13.6542,
+      "similarity": 0.0799,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 103145.58388712863,
+        "scores_total": 2658733.474364471,
+        "margin_pct": 0.03879500705191368
+      }
+    },
+    {
+      "id": "0x0ea2055f9ae746dcf14c1107dbd1355add527d83cfe7b58093dfce3a003127c4",
+      "title": "[BIP-664] Engage with market makers to enhance BAL liquidity on central exchanges",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2024-07-29T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 13,
+        "total_votes": 13,
+        "first_vote_at": "2024-07-25T22:13:27Z",
+        "last_vote_at": "2024-07-29T09:04:18Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.625,
+            0.0,
+            0.375
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.7692307692307693,
+          0.0,
+          0.23076923076923078
+        ],
+        "stability": [
+          0.7692307692307693,
+          0.0,
+          0.23076923076923078
+        ],
+        "early_ratio": [
+          0.625,
+          0.0,
+          0.375
+        ],
+        "vp_by_quartile": [
+          [
+            149755.68210555843,
+            0.0,
+            637.586536181012
+          ],
+          [
+            238864.58167431937,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2303421.1267711394,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.855641,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.144359,
+        "half_slope_diff": 42.855772
+      },
+      "price_impact_pct": -5.1412,
+      "tvl_impact_pct": -1.0015,
+      "similarity": 0.0863,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2687895.2342743007,
+        "scores_total": 2692678.9770871988,
+        "margin_pct": 0.9982234262407051
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0xf9bc2c094bf303a185e730360f2464bfe9d4a2b31ef823bd162b57e247f134d2",
+      "cleaned": {
+        "proposal_id": "0xf9bc2c094bf303a185e730360f2464bfe9d4a2b31ef823bd162b57e247f134d2",
+        "title": "[BIP-666] Provide Balancer DAO POL to CoWAMM Pools",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2024-08-05T18:00:00Z",
+        "similarity_score": 0.1293,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2530628.4013576256,
+        "margin_pct": 0.9998189404123171,
+        "scores_total": 2531086.678868091,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 9,
+        "total_votes": 9,
+        "first_vote_at": "2024-08-02T08:58:52Z",
+        "last_vote_at": "2024-08-05T15:08:14Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.2100796687150606,
+            0.0,
+            0.0
+          ],
+          [
+            230155.5152778791,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2300930.9535105433,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.905298,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.094702,
+        "half_slope_diff": 13.087921
+      },
+      "raw": {
+        "id": "0xf9bc2c094bf303a185e730360f2464bfe9d4a2b31ef823bd162b57e247f134d2",
+        "title": "[BIP-666] Provide Balancer DAO POL to CoWAMM Pools",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1196\n\n## Summary\nAuthors: @Mike_B, @Xeonus \n\nIn this proposal, we aim to formalize the launch requirements for CoWAMM’s for Balancer. This includes the following:\n\n* Transfer $250k in BAL for discretionary incentives\n* Transfer $250k in BAL + $250k in WETH to seed the BAL/WETH CoWAMM pool for a total of $500k\n* Transfer $125k in USDC and $125k in WETH to seed Balancer DAO’s portion of the USDC/WETH pool for a total of $250k\n\nFor a total of \n\n**$500k in BAL**, **$125k USDC**, and **$375k in WETH**\n\n## Motivation\n\nThis proposal serves to formalise the execution of the approved obligations outlined in [BIP-628](https://forum.balancer.fi/t/bip-628-balancer-cow-protocol-strategic-partnership-launching-cowamm-pools/5813) as at the time of BIP-628’s writing, the smart contracts had yet to be finalized. The execution only includes the provisioning of POL and not any token swap agreements so far.\n\n## Execution Specification\n\nFor the sake of simplicity and not having to specify join parameters (which can vary depending on asset pricing), the entirety of these funds will be sent to the LM multisig at 0xc38c5f97B34E175FFd35407fc91a937300E33860\n\nPrice of BAL: $2.34\nPrice of WETH: $3171\n\n||Amount ($)|BAL|USDC|WETH|\n|---|---|---|---|---|\n|BAL Incentives|$250,000.00|106837.61|0.00|0.00|\n|USDC/WETH Pool|$250,000.00|0.00|125000.00|39.42|\n|BAL/WETH Pool|$500,000.00|106837.61|0.00|78.84|\n\nThis comes to a total of\n\n**125,000 USDC**\n**213675.21 BAL**\n**118.26 WETH**\n\nAfter which, the appropriate funds will be added to the corresponding CoWAMM pool after which the LP tokens will be transferred back to the DAO multisig.\n\nThis proposal will fulfill all our obligations outlined by BIP-628.\n\n## Technical Specification\nThe DAO multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with USDC at `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48` by writing transfer, passing `0xc38c5f97B34E175FFd35407fc91a937300E33860` as recipient and the amount 125000 as `125000000000`. \nThe DAO multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with BAL at `0xba100000625a3754423978a60c9317c58a424e3D` by writing transfer, passing `0xc38c5f97B34E175FFd35407fc91a937300E33860` as recipient and the amount 213675.21 as 213675210000000000000000.\nFinally, the DAO multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with WETH at `0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2` by writing transfer, passing `0xc38c5f97B34E175FFd35407fc91a937300E33860` as dst and the amount 118.26 as 181260000000000000000 at wad.",
+        "end_utc": "2024-08-05T18:00:00Z",
+        "similarity_score": 0.1293,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2530857.540112858,
+            0,
+            229.13875523252756
+          ],
+          "scores_total": 2531086.678868091,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-08-05T18:00:00",
+          "pre_tvl_avg": 761921168.5,
+          "post_tvl_avg": 657886621.5,
+          "abnormal_change": -13.6542,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.136542,
+          "abnormal_change_pct": -13.6542
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-08-05T18:00:00",
+          "pre_price_avg": 2.01110141,
+          "post_price_avg": 1.89067861,
+          "abnormal_change": -5.9879,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.059879,
+          "abnormal_change_pct": -5.9879
+        }
+      }
+    },
+    {
+      "proposal_id": "0x52ff9a6e9dae7a8331c4c7f97af4d7e0292f6d838e49d088112b2ba6364b1d03",
+      "cleaned": {
+        "proposal_id": "0x52ff9a6e9dae7a8331c4c7f97af4d7e0292f6d838e49d088112b2ba6364b1d03",
+        "title": "[BIP-638] Claim and Relock Balancer DAO’s Additional AURA/vlAURA",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2024-07-01T18:00:00Z",
+        "similarity_score": 0.125,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2786592.7352686366,
+        "margin_pct": 1.0,
+        "scores_total": 2786592.7352686366,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 9,
+        "total_votes": 9,
+        "first_vote_at": "2024-06-28T06:27:29Z",
+        "last_vote_at": "2024-07-01T15:37:09Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1.4336229161144403,
+            0.0,
+            0.0
+          ],
+          [
+            1421.4652999174336,
+            0.0,
+            0.0
+          ],
+          [
+            266781.4413530272,
+            0.0,
+            0.0
+          ],
+          [
+            2518388.394992776,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.838863,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.161137,
+        "half_slope_diff": 7.752376
+      },
+      "raw": {
+        "id": "0x52ff9a6e9dae7a8331c4c7f97af4d7e0292f6d838e49d088112b2ba6364b1d03",
+        "title": "[BIP-638] Claim and Relock Balancer DAO’s Additional AURA/vlAURA",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1099\n\n## Summary\n\nThe Balancer DAO has locked its vested AURA into vlAURA with [[BIP-481]](https://forum.balancer.fi/t/bip-481-claim-and-lock-balancer-dao-aura-allocation-into-vlaura/5319). The second lock of 1.74m AURA will expire and can be relocked after June 27th and before the unlock date of July 4th, 2024:\n\n \n![vlAura.png](ipfs://bafkreihdvdnzfszhe7tmwnhhha7qmgnerpfmh52h7fxdeyihj3n5ox2hjm)\n    \n\nThe DAO wishes to relock its current position and bundle it with an additional vest so the next unlock is bundled into one in 16 weeks from the relock date as done previously in [[BIP-551]](https://forum.balancer.fi/t/bip-551-claim-and-relock-balancer-daos-aura-vlaura/5588).\n\n## Motivation\n\nThe Balancer DAO wishes to relock its vlAURA position to continue to vote for Balancer gauges with its position. To do so the DAO needs to relock its expired position timely after June 27th and before July 4th 2024\n\nAt the time of writing, the DAO is entitled again to roughly ~255k AURA tokens (can be verified by calling `available` with `_recipient` as `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` https://etherscan.io/address/0xfd72170339ac6d7bdda09d1eaca346b21a30d422 ). Another ~5-10k AURA remains unvested and will be claimed at a later date.\n\nWe are proposing to initiate another lock with the available ~255k AURA to be used to vote on AURA governance. The specifics of the Balancer DAOs voting allocations can be found [here](https://forum.balancer.fi/t/bip-508-utilize-locked-aura-to-support-ecosystem-growth/5419).\n\nBy re-locking the initial position and vesting additional AURA between June 27th and July 4th which would fall into the same locking epoch, it is guaranteed that the entirety of the locks will be up for re-lock in 16 weeks, reducing load on the multi-sig, streamlining the management of this position.\n\n## Specification\n\nThe Balancer DAO Multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with the vlAURA contract at `0x3fa73f1e5d8a792c80f426fc8f84fbf7ce9bbcac` and call `processExpiredLocks` with argument `true` - The execution needs to be timed AFTER June 27th and BEFORE July 4th\n\nAdditionally, the DAO multisig on mainnet `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will call the `claim` function on the AuraVestedEscrow at `0xfd72170339ac6d7bdda09d1eaca346b21a30d422` with the parameter `_lock` set to `true`. This execution, as well as the above, needs to be timed AFTER June 27th and BEFORE July 4th",
+        "end_utc": "2024-07-01T18:00:00Z",
+        "similarity_score": 0.125,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2786592.7352686366,
+            0,
+            0
+          ],
+          "scores_total": 2786592.7352686366,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-07-01T18:00:00",
+          "pre_tvl_avg": 913278234.0,
+          "post_tvl_avg": 879765718.0,
+          "abnormal_change": -3.6695,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.036695,
+          "abnormal_change_pct": -3.6695
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-07-01T18:00:00",
+          "pre_price_avg": 2.9803697,
+          "post_price_avg": 2.53644062,
+          "abnormal_change": -14.8951,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.148951,
+          "abnormal_change_pct": -14.8951
+        }
+      }
+    },
+    {
+      "proposal_id": "0xe9d33adfcb7f160233b8c4039bbeef330e469bca0be2419ab3f4abc4cacde588",
+      "cleaned": {
+        "proposal_id": "0xe9d33adfcb7f160233b8c4039bbeef330e469bca0be2419ab3f4abc4cacde588",
+        "title": "[BIP-431] USD+ Linear Pool Refund",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-09-25T18:00:00Z",
+        "similarity_score": 0.1231,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3790199.4870068314,
+        "margin_pct": 0.9999998131118292,
+        "scores_total": 3790200.195350413,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 49,
+        "total_votes": 49,
+        "first_vote_at": "2023-09-21T18:25:10Z",
+        "last_vote_at": "2023-09-25T17:36:34Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            6035.426893450102,
+            0.0,
+            0.0
+          ],
+          [
+            74173.28770223992,
+            0.0,
+            0.32205004258666436
+          ],
+          [
+            856.7465219335605,
+            0.0,
+            0.0
+          ],
+          [
+            3709134.4121827474,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.834681,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.002332,
+        "half_slope_diff": 21.137791
+      },
+      "raw": {
+        "id": "0xe9d33adfcb7f160233b8c4039bbeef330e469bca0be2419ab3f4abc4cacde588",
+        "title": "[BIP-431] USD+ Linear Pool Refund",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/514\n\n**Motivation**:\n\nDue to a recent issue with the USD+ and DAI+ linear pool’s deployed by Overnight Finance on Arbitrum, the Maxis are proposing to refund affected user’s 15,158 USDC. The root cause of the issue is both linear pools being deployed with the swap fee of 6% as opposed to 0.06%. Overnight has returned 7527 USDC equivalent to the DAO, from this [txn](https://arbiscan.io/tx/0x99361a3a5568114ed2c72d82bba12cd7e45a0bd58bdb1ec8b4372ab0958efa5f) on Arbitrum, and the [BIP-420](https://forum.balancer.fi/t/bip-420-refund-voting-incentives-for-pools-shut-down-due-to-bug-report/5159). The remaining 7631 USDC will come from the DAO Treasury.\n\n**Summary**: \n\nThe way the fee works on linear pools, means every time the balances were out of the set targets, a fee would be awarded to arbitrageurs for pushing the balances back between the bounds. Rebalancing the pool per normal operations would usually be handled by the Maxis in order to wrap assets, but was not possible due to Overnight’s fee on wrapping. This is the only instance of a linear pool like this and was out of the norm. In the Optimism deployments, Overnight has a rebalancing bot set to maintain the custom circumstances and keep the pool within desired targets for users, but in this case it was not deployed until after the fact.\n\nThe Balancer Labs Data team was able to put together this [dune dashboard](https://dune.com/queries/2990731) to quantify the individual losses by wallet. Ultimately the Maxis feel the users should be fully compensated for the fees suffered due to the error. This is why I am proposing that the DAO covers the remaining amount. All funds will be airdropped to users who are listed on the dashboard if their owed amount is over 1 USDC.\n\nSpecification:\n\nThe Balancer DAO multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with USDC `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48` by writing `transfer` passing the LM Multisig `0xc38c5f97B34E175FFd35407fc91a937300E33860` as recipient and amount as 7631 USDC `7631000000`.\n\nThe Maxi LM Multisig will bridge the 2500 USDC it already received, and 7631 USDC from above for a total of 10131 USDC to Arbitrum. The LM Multisig will execute this using WalletConnect via Gnosis Safe.\n\nOnce the bridge transaction is claimed by the LM Multisig on Arbitrum, the Multisig will deploy an airdrop to the addresses listed on the dune dashboard above, and their corresponding amounts.",
+        "end_utc": "2023-09-25T18:00:00Z",
+        "similarity_score": 0.1231,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3790199.830471373,
+            0.02141449894848835,
+            0.3434645415351527
+          ],
+          "scores_total": 3790200.195350413,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-09-25T18:00:00",
+          "pre_tvl_avg": 688114641.5,
+          "post_tvl_avg": 688340764.5,
+          "abnormal_change": 0.0329,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.000329,
+          "abnormal_change_pct": 0.0329
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-09-25T18:00:00",
+          "pre_price_avg": 3.1118371700000003,
+          "post_price_avg": 3.26425488,
+          "abnormal_change": 4.898,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.04898,
+          "abnormal_change_pct": 4.898
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0xa882d90d05ced2f57fb2d6b2d7eeaf5d479f8e502dbc1ca55718bc7e7bb9a82a",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "Proposal to revoke Wonderland's BAL vesting contract and USDC payments to return unvested tokens to the treasury following mutual termination agreement, supported by unanimous voting and stable timeline metrics.",
+    "key_arguments_for": [
+      "Unanimous voting support with stable lead and early voting ratio indicating strong consensus.",
+      "Mutual termination agreement with Wonderland to revoke unvested BAL and stop USDC payments.",
+      "Proposal protects DAO treasury by reclaiming unvested tokens and stopping pending payments.",
+      "Historical similar proposals passed with similar 'Yes' votes, though market impacts were negative, this proposal is necessary for treasury integrity."
+    ],
+    "key_arguments_against": [
+      "Some negative sentiment in forum due to revoking agreement and clawback actions.",
+      "Historical proposals show negative price and TVL impacts post-vote, suggesting caution in implementation."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.balancer.fi/t/bip-668-revoke-wonderlands-bal-vest-and-usdc-payments/5904",
+        "quote": "Proposal to revoke BAL vest and USDC payments following mutual termination, with request for payback of accrued BAL difference."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Balancer Snapshot Votes",
+        "quote": "Unanimous votes for 'Yes, let's do it' with stable timeline metrics and early strong lead."
+      },
+      {
+        "source_tool": "adjacent_analytics",
+        "reference": "[BIP-666], [BIP-665]",
+        "quote": "Similar past proposals passed with 'Yes', but had negative post-vote price and TVL impacts."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2024-08-08T18:00:00Z",
+    "event_end_utc": "2024-08-12T18:00:00Z",
+    "event_time_utc": "2024-08-12T18:00:00Z",
+    "address_of_governance_token": "0xba100000625a3754423978a60c9317c58a424e3d",
+    "token_price_impact_pct": 1.4544,
+    "tvl_impact_pct": 3.3207,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        2544887.658475603,
+        0.0,
+        0.0
+      ],
+      "scores_total": 2544887.658475603,
+      "margin_abs": 2544887.658475603,
+      "margin_pct": 1.0
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- The proposal has unanimous vote support and a stable early lead, indicating strong community backing despite some negative forum sentiment due to the nature of the revoke.\n- Forum sentiment is mostly neutral to negative but does not oppose the vote outcome; the recommendation aligns with the aggregated community decision.\n- Historical similar proposals passed but had negative market impacts; this informs caution but does not outweigh the treasury benefit of reclaiming unvested tokens.\n- The proposal is necessary to uphold the mutual termination agreement and protect DAO assets by revoking unvested BAL and stopping USDC payments.\n- Overall, the recommendation is to change, reflecting the vote and maximizing long-term DAO treasury health.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0xf9bc2c094bf303a185e730360f2464bfe9d4a2b31ef823bd162b57e247f134d2",
+        "title": "[BIP-666] Provide Balancer DAO POL to CoWAMM Pools",
+        "end_utc": "2024-08-05T18:00:00Z",
+        "summary": "[BIP-666] Provide Balancer DAO POL to CoWAMM Pools closed on 2024-08-05T18:00:00Z. Timeline analytics noted 9 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.17)",
+        "market_response": "token -10.27%; TVL -13.65%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0x0ea2055f9ae746dcf14c1107dbd1355add527d83cfe7b58093dfce3a003127c4",
+        "title": "[BIP-664] Engage with market makers to enhance BAL liquidity on central exchanges",
+        "end_utc": "2024-07-29T18:00:00Z",
+        "summary": "[BIP-664] Engage with market makers to enhance BAL liquidity on central exchanges closed on 2024-07-29T18:00:00Z. Timeline analytics noted 13 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.09)",
+        "market_response": "token -5.14%; TVL -1.00%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 1.4544,
+    "ex_post_tvl_impact_pct": 3.3207,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +1.45%; TVL +3.32%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 1,
+    "Positive": 0,
+    "Neutral": 2,
+    "total_comments": 3
+  }
+}

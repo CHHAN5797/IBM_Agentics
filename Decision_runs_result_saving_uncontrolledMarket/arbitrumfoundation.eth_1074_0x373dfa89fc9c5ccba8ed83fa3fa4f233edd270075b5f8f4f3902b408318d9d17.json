@@ -1,0 +1,257 @@
+{
+  "captured_at_utc": "2025-10-08T09:25:59.135924+00:00",
+  "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x373dfa89fc9c5ccba8ed83fa3fa4f233edd270075b5f8f4f3902b408318d9d17",
+  "focus": null,
+  "votes_count": 5500,
+  "timeline_metrics_current": {
+    "unique_voters": 5500,
+    "total_votes": 5500,
+    "first_vote_at": "2023-04-10T18:00:21Z",
+    "last_vote_at": "2023-04-11T01:25:15Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        57093706.12275056,
+        29997.51263777524,
+        616627.500673269
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.355091,
+    "spike_follow_support_ratio": 0.994124,
+    "stairwise_ratio": 0.018536,
+    "half_slope_diff": -2012.490634
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x3be7368a662d1cf12fa4da768d626edbc013be0dc7b994fef2e24d9a54e4033a",
+      "title": "AIP-1: Arbitrum Improvement Proposal Framework",
+      "author": "0x74369AdDA9E1c8482599B4614f2f31af0d9084e8",
+      "end_utc": "2023-04-03T22:13:24Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-03-29T18:11:47Z",
+        "last_vote_at": "2023-03-30T07:16:26Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            3785131.3317711167,
+            47785.332694127945,
+            13278.930702268393
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.01681,
+        "spike_follow_support_ratio": 0.947666,
+        "stairwise_ratio": 0.393449,
+        "half_slope_diff": -14.803705
+      },
+      "price_impact_pct": -6.4929,
+      "tvl_impact_pct": 0.1286,
+      "similarity": 0.1334,
+      "actual_vote_result": {
+        "winner_index": 1,
+        "winner_label": "Against",
+        "margin_abs": 83925197.09391631,
+        "scores_total": 130882213.47248442,
+        "margin_pct": 0.6412269082808569
+      }
+    }
+  ],
+  "similar_proposals_data": [],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x373dfa89fc9c5ccba8ed83fa3fa4f233edd270075b5f8f4f3902b408318d9d17",
+    "selected_choice_label": "For",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "AIP-1.2 proposes important governance amendments to remove references to the rejected AIP-1 and clarify DAO powers over the Foundation, including lowering the proposal threshold from 5M to 1M ARB. The proposal enjoys strong early voting support and majority positive forum sentiment, aligning with lessons learned from the prior rejected proposal.",
+    "key_arguments_for": [
+      "Clarifies and strengthens DAO governance over the Foundation.",
+      "Lowers the votable token threshold for proposing AIPs, enabling greater decentralization.",
+      "Removes outdated references to the rejected AIP-1.",
+      "Adds transparency around the Data Availability Committee and budget controls."
+    ],
+    "key_arguments_against": [
+      "Some community members raise concerns about legal structuring and potential risks in the Foundation's subordination to the DAO.",
+      "Certain governance details and definitions remain unclear or unaddressed, suggesting need for future amendments.",
+      "Forum feedback includes calls for more discussion and transparency on unresolved issues."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.arbitrum.foundation/t/proposal-aip-1-2-foundation-and-dao-governance/13362",
+        "quote": "Blockworks Research will vote in favor of AIP-1.2, approving changes that clarify DAO power over the Foundation and lower proposal thresholds."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Snapshot voting timeline for AIP-1.2",
+        "quote": "Strong early voting support for 'For' option with 100% lead ratio and stability in early quartile."
+      },
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Sergey_daobox's comment on governance risks",
+        "quote": "Concerns about Foundation not being adequately subordinated to the DAO and unclear protections against management actions."
+      }
+    ],
+    "available_choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2023-04-10T18:00:00Z",
+    "event_end_utc": "2023-04-17T18:00:00Z",
+    "event_time_utc": "2023-04-17T18:00:00Z",
+    "address_of_governance_token": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+    "token_price_impact_pct": -7.4006,
+    "tvl_impact_pct": -3.6405,
+    "actual_vote_result": {
+      "winner_label": "For",
+      "winner_index": 0,
+      "scores": [
+        137606930.3529121,
+        280121.7956632606,
+        895054.3385153797
+      ],
+      "scores_total": 138782106.48709065,
+      "margin_abs": 136711876.01439673,
+      "margin_pct": 0.985083
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'For' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Timeline analytics show early, stable, and strong support for the 'For' option.\n- Forum sentiment analysis reveals a majority positive and supportive community discussion, acknowledging the proposal's governance improvements.\n- Historical lessons from a similar prior proposal (AIP-1) that was rejected highlight the importance of clarifying governance structures and lowering proposal thresholds to enable decentralization.\n- Some forum concerns about legal structuring and DAO subordination risks are noted but do not outweigh the clear benefits and majority support; these can be addressed in future amendments.\n- The recommendation aligns with forum sentiment and maximizes the organization's durable governance health.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x3be7368a662d1cf12fa4da768d626edbc013be0dc7b994fef2e24d9a54e4033a",
+        "title": "AIP-1: Arbitrum Improvement Proposal Framework",
+        "end_utc": "2023-04-03T22:13:24Z",
+        "summary": "AIP-1: Arbitrum Improvement Proposal Framework closed on 2023-04-03T22:13:24Z. Timeline analytics noted 5500 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.13)",
+        "market_response": "token -6.49%; TVL +0.13%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -7.4006,
+    "ex_post_tvl_impact_pct": -3.6405,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -7.40%; TVL -3.64%"
+  },
+  "agentic_ai_choice": "For",
+  "actual_outcome": "For",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 18,
+    "Positive": 15,
+    "Neutral": 35,
+    "total_comments": 68
+  }
+}

@@ -1,0 +1,1134 @@
+{
+  "captured_at_utc": "2025-10-08T20:28:22.451757+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x273c976bf56e8e83963c023bc501f3f99e3298831a88f7f6c90d7baf5cdb56d2",
+  "focus": null,
+  "votes_count": 4,
+  "timeline_metrics_current": {
+    "unique_voters": 4,
+    "total_votes": 4,
+    "first_vote_at": "2025-02-27T22:03:53Z",
+    "last_vote_at": "2025-03-03T08:46:33Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        348750.29417570453,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        2545493.313215864,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.812612,
+    "spike_follow_support_ratio": 1.0,
+    "stairwise_ratio": 0.187388,
+    "half_slope_diff": 61.299443
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x762f8789a28394088d7ce1a035d420b274eb72f7221739fd5b929207f9500055",
+      "title": "[BIP-785] Enable Boosted GHO pools on Balancer v3 on Base and Arbitrum",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-02-17T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 6,
+        "total_votes": 6,
+        "first_vote_at": "2025-02-14T12:08:11Z",
+        "last_vote_at": "2025-02-17T08:37:40Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            362574.50655900396,
+            0.0,
+            0.0
+          ],
+          [
+            613.4511075284179,
+            0.0,
+            0.0
+          ],
+          [
+            197364.32518323357,
+            0.0,
+            0.0
+          ],
+          [
+            2539823.820117569,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.762554,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.237446,
+        "half_slope_diff": 186.895335
+      },
+      "price_impact_pct": -1.9131,
+      "tvl_impact_pct": -1.1317,
+      "similarity": 0.1316,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 3100376.1029673354,
+        "scores_total": 3100376.1029673354,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0xe188b63c7a6278e0538cbd4a2a6135580fb55ded09445dbb11fc315726b0bd54",
+      "title": "[BIP-784] Enable Gauges for tETH V3 Pools",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-02-17T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5,
+        "total_votes": 5,
+        "first_vote_at": "2025-02-14T12:08:33Z",
+        "last_vote_at": "2025-02-17T08:37:40Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            362575.521054904,
+            0.0,
+            0.0
+          ],
+          [
+            0.06142238628186103,
+            0.0,
+            613.3914232690331
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2539825.3191147856,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.814569,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.185431,
+        "half_slope_diff": 373.787447
+      },
+      "price_impact_pct": -1.9131,
+      "tvl_impact_pct": -1.1317,
+      "similarity": 0.108,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2901787.5101688066,
+        "scores_total": 2903014.293015345,
+        "margin_pct": 0.9995774106763822
+      }
+    },
+    {
+      "id": "0x0e51ddc0127df5168db9b359dcef55e4c795a3270a13c796037f97a32a15c47a",
+      "title": "[BIP-783] Enable Gauge for USDC/sUSDS Boosted Pool (Base)",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-02-17T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5,
+        "total_votes": 5,
+        "first_vote_at": "2025-02-14T12:08:56Z",
+        "last_vote_at": "2025-02-17T08:37:40Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            362576.2456948325,
+            0.0,
+            0.0
+          ],
+          [
+            613.4540871745272,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2539825.704703453,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.814397,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.185603,
+        "half_slope_diff": 188.000503
+      },
+      "price_impact_pct": -1.9131,
+      "tvl_impact_pct": -1.1317,
+      "similarity": 0.0785,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2903015.40448546,
+        "scores_total": 2903015.40448546,
+        "margin_pct": 1.0
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x34f51ca0effb420ce01ee2cbfa10e4a930b4e6e8fd3b99b096ee21e0389f7fb9",
+      "cleaned": {
+        "proposal_id": "0x34f51ca0effb420ce01ee2cbfa10e4a930b4e6e8fd3b99b096ee21e0389f7fb9",
+        "title": "[BIP-749] Grant `add_reward` Permissions to Maxis’ Omnichain Multisig",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2024-12-23T19:00:00Z",
+        "similarity_score": 0.4019,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2883210.9140324173,
+        "margin_pct": 1.0,
+        "scores_total": 2883210.9140324173,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 3,
+        "total_votes": 3,
+        "first_vote_at": "2024-12-20T22:24:29Z",
+        "last_vote_at": "2024-12-23T09:48:44Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            521174.4022418803,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2362036.511790537,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.819238,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.180762,
+        "half_slope_diff": 13.591326
+      },
+      "raw": {
+        "id": "0x34f51ca0effb420ce01ee2cbfa10e4a930b4e6e8fd3b99b096ee21e0389f7fb9",
+        "title": "[BIP-749] Grant `add_reward` Permissions to Maxis’ Omnichain Multisig",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "# PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1612\n\n# Motivation\n\nThe action of whitelisting a custom reward token on a gauge is permissioned. Doing it through the DAO multisig for every partner/gauge/token is not feasible, hence [BIP-387](https://forum.balancer.fi/t/bip-387-give-balancer-maxis-ability-to-add-3rd-party-rewards-to-mainnet-gauges/5018) requested permission for calling `add_reward` through the authorizer from the Maxis’ multisig.\n\nThe Maxis are however in the process of migrating their multisig to the so-called omnichain multisig, a multisig that has the same address on all chains. Over time it will replace the old one. In a lot of cases it already has replaced it; this permission is one of the last things that keeps the Maxis from moving over fully.\n\n# Specification\n\nOn Ethereum, the DAO multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will call `grantRole(bytes32,address)` on the authorizer `0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6` with the following arguments:\n\n* role: `0x3bf29175652a3f0fac5abb715d0b7fe2e7b597e2e2eff555dac6b21a20a7c83e` ([ref](https://github.com/balancer/balancer-deployments/blob/master/action-ids/mainnet/action-ids.json#L714C41-L714C107))\n* account: `0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e` ([ref](https://github.com/BalancerMaxis/bal_addresses/blob/78e701eeca6d376b43a80684b5cfec50df0a971a/extras/multisigs.json#L11C19-L11C61))\n\nIt will perform the same action on all other chains where the omnichain multisig is deployed and does not have these permissions yet: Arbitrum, Avalanche, Base, Gnosis, Optimism and Polygon.",
+        "end_utc": "2024-12-23T19:00:00Z",
+        "similarity_score": 0.4019,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2883210.9140324173,
+            0,
+            0
+          ],
+          "scores_total": 2883210.9140324173,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-12-23T19:00:00",
+          "pre_tvl_avg": 1038494990.0,
+          "post_tvl_avg": 1110455054.5,
+          "abnormal_change": 6.9293,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.069293,
+          "abnormal_change_pct": 6.9293
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-12-23T19:00:00",
+          "pre_price_avg": 2.47776569,
+          "post_price_avg": 2.6045202549999997,
+          "abnormal_change": 5.1157,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.051157,
+          "abnormal_change_pct": 5.1157
+        }
+      }
+    },
+    {
+      "proposal_id": "0xe1e42fd73a2d734d78a65e514a6996c785e90bc82a2e896825dd4af003aeec15",
+      "cleaned": {
+        "proposal_id": "0xe1e42fd73a2d734d78a65e514a6996c785e90bc82a2e896825dd4af003aeec15",
+        "title": "[BIP-29] Introduce GaugeAdder v2",
+        "author": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+        "end_utc": "2022-07-24T17:15:00Z",
+        "similarity_score": 0.1806,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 1352403.2625107144,
+        "margin_pct": 1.0,
+        "scores_total": 1352403.2625107144,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 129,
+        "total_votes": 129,
+        "first_vote_at": "2022-07-21T17:28:24Z",
+        "last_vote_at": "2022-07-24T13:14:47Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            268346.395628494,
+            0.0
+          ],
+          [
+            793428.482775206,
+            0.0
+          ],
+          [
+            166913.02464082447,
+            0.0
+          ],
+          [
+            123715.35946618936,
+            0.0
+          ]
+        ],
+        "spike_index": 0.379245,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.082225,
+        "half_slope_diff": 11.593806
+      },
+      "raw": {
+        "id": "0xe1e42fd73a2d734d78a65e514a6996c785e90bc82a2e896825dd4af003aeec15",
+        "title": "[BIP-29] Introduce GaugeAdder v2",
+        "author": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+        "body": "## Motivation\n\nThe [GaugeAdder](https://etherscan.io/address/0xEd5ba579bB5D516263ff6E1C10fcAc1040075Fe2) is a piece of veBAL infrastructure that securely streamlines the process of adding new gauges to the system. It includes checks that ensure only gauges deployed from the official gauge factories can be added to the veBAL system and become eligible for BAL emissions. As we prepare to add gauges from new networks the `GaugeAdder` must be upgraded to support this expansion. To facilitate this upgrade a coordinator contract has been deployed by the smart contracts team at Balancer Labs. The coordinator does the following:\n\n* Grant permission to the Balancer Labs Ops Multisig (the one that triggers the weekly BAL minting and bridging every Thursday) to control the parameters of the Arbitrum and Optimism bridge, which are required to operate them (e.g. their gas limit)\n* It creates a new gauge type called ‘Optimism’ on the `GaugeController`\n* It revokes permission to add gauges from the old `GaugeAdder`\n* It grants permission to add gauges to the `GaugeAdder v2` and grants permission to the LM Multisig `0xc38c5f97B34E175FFd35407fc91a937300E33860` (controlled by Balancer Maxis) to add governance approved Ethereum, Polygon, Arbitrum, and Optimism gauges.\n* It ports the old Ethereum, Polygon, and Arbitrum gauge factories from the old `GaugeAdder` to the new one and adds the new Optimism gauge factory\n\nThe `GaugeAdder v2` also has support for zksync and gnosis gauges but those types are not yet created nor do gauge factories exist.\n\n## Specification\n\nIf approved, the DAO Multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will initiate a transaction to interact with the Authorizer `0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6` calling `grantRole` with the following arguments:\n\nrole: `0x0000000000000000000000000000000000000000000000000000000000000000`\n\naddress: `0x1B57f637Ce3408f1f834b0b70f9A595b062DAea7`\n\nThis can be verified [here](https://github.com/balancer-labs/balancer-v2-monorepo/blob/b61121f4d8188a783153ec9d94554e2fb5708d56/pkg/deployments/tasks/scripts/20220721-gauge-adder-migration-coordinator/output/mainnet.json#L2).",
+        "end_utc": "2022-07-24T17:15:00Z",
+        "similarity_score": 0.1806,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way"
+          ],
+          "scores": [
+            1352403.2625107144,
+            0
+          ],
+          "scores_total": 1352403.2625107144,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2022-07-24T17:15:00",
+          "pre_tvl_avg": 755062943.5,
+          "post_tvl_avg": 699371458.0,
+          "abnormal_change": -7.3757,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.073757,
+          "abnormal_change_pct": -7.3757
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2022-07-24T17:15:00",
+          "pre_price_avg": 5.4687402249999995,
+          "post_price_avg": 5.526165345000001,
+          "abnormal_change": 1.0501,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.010501,
+          "abnormal_change_pct": 1.0501
+        }
+      }
+    },
+    {
+      "proposal_id": "0xf41eb9ef46d110eaee8ce65e895fd16ac9c72153fb42c841a1210fec95444511",
+      "cleaned": {
+        "proposal_id": "0xf41eb9ef46d110eaee8ce65e895fd16ac9c72153fb42c841a1210fec95444511",
+        "title": "[BIP-276] Enable new L2 gauges",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-05-08T18:00:00Z",
+        "similarity_score": 0.176,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3360214.3537033587,
+        "margin_pct": 0.9999993804790566,
+        "scores_total": 3360216.4354278147,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 156,
+        "total_votes": 156,
+        "first_vote_at": "2023-05-04T18:09:35Z",
+        "last_vote_at": "2023-05-08T17:37:08Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.981132,
+            0.018868,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9935897435897436,
+          0.00641025641025641,
+          0.0
+        ],
+        "stability": [
+          0.9935897435897436,
+          0.00641025641025641,
+          0.0
+        ],
+        "early_ratio": [
+          0.9811320754716981,
+          0.018867924528301886,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            6893.72628201393,
+            0.16967942902709807,
+            0.9050014689780577
+          ],
+          [
+            113.94760053338769,
+            0.0,
+            0.0
+          ],
+          [
+            236671.73532995398,
+            0.10204208884147208,
+            0.0
+          ],
+          [
+            3116535.8494923264,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.889019,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 1.3e-05,
+        "half_slope_diff": 41.247453
+      },
+      "raw": {
+        "id": "0xf41eb9ef46d110eaee8ce65e895fd16ac9c72153fb42c841a1210fec95444511",
+        "title": "[BIP-276] Enable new L2 gauges",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### [PR with Payload](https://github.com/BalancerMaxis/multisig-ops/pull/162)\n\n### Motivation\n\nBalancer contributors recently completed development on new non-ethereum (\"L2\") gauges which feature the ability to have cross chain reward boosts via Layer Zero. In order for these new gauges to function properly each child chain factory on L2 must be added to the pseudo minter on that network. If this is not done then BAL emissions cannot flow through the new gauges.\n\n\n### Specification\n\n\n### Arbitrum\n#1\nThe DAO Multisig on Arbitrum `arb1:0xaF23DC5983230E9eEAf93280e312e57539D098D0` will interact with the Authorizer `0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6` calling `grantRole` with the following arguments:\n\nrole: `0x57f5e3be3930b0a9235265a5237eb44d5ec61fe36999757360b72280c4dcd991`\n\ncan be confirmed [here ](https://github.com/balancer/balancer-v2-monorepo/blob/98e3d8c9be5a175f599c4e95d3ed3757bbc4e307/pkg/deployments/action-ids/arbitrum/action-ids.json#L593).\n\naccount: `0xaF23DC5983230E9eEAf93280e312e57539D098D0`\n\nwhich corresponds to the address for the DAO Multisig. This allows the DAO Multisig to call `addGaugeFactory` on the pseudo minter.\n\n#2\nThe DAO Multisig on Arbitrum `arb1:0xaF23DC5983230E9eEAf93280e312e57539D098D0` will interact with the pseudo minter `0xc3ccacE87f6d3A81724075ADcb5ddd85a8A1bB68` calling `addGaugeFactory` with the following argument:\n\nfactory: `0x6817149cb753BF529565B4D023d7507eD2ff4Bc0`\n\ncan be confirmed [here ](https://github.com/balancer/balancer-v2-monorepo/blob/98e3d8c9be5a175f599c4e95d3ed3757bbc4e307/pkg/deployments/tasks/20230316-child-chain-gauge-factory-v2/output/arbitrum.json).\n\nThis adds the child chain factory to the pseudo minter.\n\n#3\nThe DAO Multisig on Arbitrum `arb1:0xaF23DC5983230E9eEAf93280e312e57539D098D0` will interact with the Authorizer `0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6` calling `renounceRole` with the following arguments:\n\nrole: `0x57f5e3be3930b0a9235265a5237eb44d5ec61fe36999757360b72280c4dcd991`\n\ncan be confirmed [here ](https://github.com/balancer/balancer-v2-monorepo/blob/98e3d8c9be5a175f599c4e95d3ed3757bbc4e307/pkg/deployments/action-ids/arbitrum/action-ids.json#L593).\n\naccount: `0xaF23DC5983230E9eEAf93280e312e57539D098D0`\n\nwhich corresponds to the address for the DAO Multisig. This removes the role added above.\n\n\n### Polygon\n#1\nThe DAO Multisig on Polygon `matic:0xeE071f4B516F69a1603dA393CdE8e76C40E5Be85` will interact with the Authorizer `0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6` calling `grantRole` with the following arguments:\n\nrole: `0x71b144ace6b2cd2762fedff00a9e45c9b7b742ee590f9d593c61e48b6c9ad790`\n\ncan be confirmed [here ](https://github.com/balancer/balancer-v2-monorepo/blob/98e3d8c9be5a175f599c4e95d3ed3757bbc4e307/pkg/deployments/action-ids/polygon/action-ids.json#L646).\n\naccount: `0xeE071f4B516F69a1603dA393CdE8e76C40E5Be85`\n\nwhich corresponds to the address for the DAO Multisig. This allows the DAO Multisig to call `addGaugeFactory` on the pseudo minter.\n\n#2\nThe DAO Multisig on Polygon `matic:0xeE071f4B516F69a1603dA393CdE8e76C40E5Be85` will interact with the pseudo minter `0x47B489bf5836f83ABD928C316F8e39bC0587B020` calling `addGaugeFactory` with the following argument:\n\nfactory: `0x22625eEDd92c81a219A83e1dc48f88d54786B017`\n\ncan be confirmed [here ](https://github.com/balancer/balancer-v2-monorepo/blob/98e3d8c9be5a175f599c4e95d3ed3757bbc4e307/pkg/deployments/tasks/20230316-child-chain-gauge-factory-v2/output/polygon.json).\n\nThis adds the child chain factory to the pseudo minter.\n\n#3\nThe DAO Multisig on Polygon `matic:0xeE071f4B516F69a1603dA393CdE8e76C40E5Be85` will interact with the Authorizer `0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6` calling `renounceRole` with the following arguments:\n\nrole: `0x71b144ace6b2cd2762fedff00a9e45c9b7b742ee590f9d593c61e48b6c9ad790`\n\ncan be confirmed [here ](https://github.com/balancer/balancer-v2-monorepo/blob/98e3d8c9be5a175f599c4e95d3ed3757bbc4e307/pkg/deployments/action-ids/polygon/action-ids.json#L646).\n\naccount: `0xeE071f4B516F69a1603dA393CdE8e76C40E5Be85`\n\nwhich corresponds to the address for the DAO Multisig. This removes the role added above.\n\n\n### Gnosis\n#1\nThe DAO Multisig on Gnosis `gno:0x2a5AEcE0bb9EfFD7608213AE1745873385515c18` will interact with the Authorizer `0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6` calling `grantRole` with the following arguments:\n\nrole: `0xff178bcb549aae01d4613b3ca6c16f1fa42e808cd1bddd210756b3878cfa9268`\n\ncan be confirmed [here ](https://github.com/balancer/balancer-v2-monorepo/blob/98e3d8c9be5a175f599c4e95d3ed3757bbc4e307/pkg/deployments/action-ids/gnosis/action-ids.json#L646).\n\naccount: `0x2a5AEcE0bb9EfFD7608213AE1745873385515c18`\n\nwhich corresponds to the address for the DAO Multisig. This allows the DAO Multisig to call `addGaugeFactory` on the pseudo minter.\n\n#2\nThe DAO Multisig on Gnosis `gno:0x2a5AEcE0bb9EfFD7608213AE1745873385515c18` will interact with the pseudo minter `0xA8920455934Da4D853faac1f94Fe7bEf72943eF1` calling `addGaugeFactory` with the following argument:\n\nfactory: `0x83E443EF4f9963C77bd860f94500075556668cb8`\n\ncan be confirmed [here ](https://github.com/balancer/balancer-v2-monorepo/blob/98e3d8c9be5a175f599c4e95d3ed3757bbc4e307/pkg/deployments/tasks/20230316-child-chain-gauge-factory-v2/output/gnosis.json).\n\nThis adds the child chain factory to the pseudo minter.\n\n#3\nThe DAO Multisig on Gnosis `gno:0x2a5AEcE0bb9EfFD7608213AE1745873385515c18` will interact with the Authorizer `0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6` calling `renounceRole` with the following arguments:\n\nrole: `0xff178bcb549aae01d4613b3ca6c16f1fa42e808cd1bddd210756b3878cfa9268`\n\ncan be confirmed [here ](https://github.com/balancer/balancer-v2-monorepo/blob/98e3d8c9be5a175f599c4e95d3ed3757bbc4e307/pkg/deployments/action-ids/gnosis/action-ids.json#L646).\n\naccount: `0x2a5AEcE0bb9EfFD7608213AE1745873385515c18`\n\nwhich corresponds to the address for the DAO Multisig. This removes the role added above.\n\n\n### Optimism\n#1\nThe DAO Multisig on Optimism `oeth:0x043f9687842771b3dF8852c1E9801DCAeED3f6bc` will interact with the Authorizer `0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6` calling `grantRole` with the following arguments:\n\nrole: `0x212ccfca4a02e0eff2a0a5029495a2697d4efa7a8e95cdbf30e2f38c40ca648f`\n\ncan be confirmed [here ](https://github.com/balancer/balancer-v2-monorepo/blob/98e3d8c9be5a175f599c4e95d3ed3757bbc4e307/pkg/deployments/action-ids/optimism/action-ids.json#L646).\n\naccount: `0x043f9687842771b3dF8852c1E9801DCAeED3f6bc`\n\nwhich corresponds to the address for the DAO Multisig. This allows the DAO Multisig to call `addGaugeFactory` on the pseudo minter.\n\n#2\nThe DAO Multisig on Optimism `oeth:0x043f9687842771b3dF8852c1E9801DCAeED3f6bc` will interact with the pseudo minter `0x4fb47126Fa83A8734991E41B942Ac29A3266C968` calling `addGaugeFactory` with the following argument:\n\nfactory: `0xa523f47A933D5020b23629dDf689695AA94612Dc`\n\ncan be confirmed [here ](https://github.com/balancer/balancer-v2-monorepo/blob/98e3d8c9be5a175f599c4e95d3ed3757bbc4e307/pkg/deployments/tasks/20230316-child-chain-gauge-factory-v2/output/optimism.json).\n\nThis adds the child chain factory to the pseudo minter.\n\n#3\nThe DAO Multisig on Optimism `oeth:0x043f9687842771b3dF8852c1E9801DCAeED3f6bc` will interact with the Authorizer `0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6` calling `renounceRole` with the following arguments:\n\nrole: `0x212ccfca4a02e0eff2a0a5029495a2697d4efa7a8e95cdbf30e2f38c40ca648f`\n\ncan be confirmed [here ](https://github.com/balancer/balancer-v2-monorepo/blob/98e3d8c9be5a175f599c4e95d3ed3757bbc4e307/pkg/deployments/action-ids/optimism/action-ids.json#L646).\n\naccount: `0x043f9687842771b3dF8852c1E9801DCAeED3f6bc`\n\nwhich corresponds to the address for the DAO Multisig. This removes the role added above.",
+        "end_utc": "2023-05-08T18:00:00Z",
+        "similarity_score": 0.176,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3360215.2587048276,
+            0.27172151786857013,
+            0.9050014689780576
+          ],
+          "scores_total": 3360216.4354278147,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-05-08T18:00:00",
+          "pre_tvl_avg": 1251654266.0,
+          "post_tvl_avg": 1152722354.5,
+          "abnormal_change": -7.9041,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.079041,
+          "abnormal_change_pct": -7.9041
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-05-08T18:00:00",
+          "pre_price_avg": 6.02602471,
+          "post_price_avg": 5.562806095,
+          "abnormal_change": -7.687,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.07687,
+          "abnormal_change_pct": -7.687
+        }
+      }
+    },
+    {
+      "proposal_id": "0x056448eeac1345d8b7aaca10f01c4325c5254bb1652bc256fceac9a0859dd178",
+      "cleaned": {
+        "proposal_id": "0x056448eeac1345d8b7aaca10f01c4325c5254bb1652bc256fceac9a0859dd178",
+        "title": "[BIP-277] Enable Authorizer Wrapper",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-05-08T18:00:00Z",
+        "similarity_score": 0.1679,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3160902.0025654417,
+        "margin_pct": 0.953782861797836,
+        "scores_total": 3314068.777255328,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 145,
+        "total_votes": 145,
+        "first_vote_at": "2023-05-04T18:08:54Z",
+        "last_vote_at": "2023-05-08T17:10:29Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.980392,
+            0.019608,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.993103448275862,
+          0.006896551724137931,
+          0.0
+        ],
+        "stability": [
+          0.993103448275862,
+          0.006896551724137931,
+          0.0
+        ],
+        "early_ratio": [
+          0.9803921568627451,
+          0.0196078431372549,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            6890.407363552986,
+            0.1696784296933464,
+            0.9747803195098206
+          ],
+          [
+            109.7727957842909,
+            0.0,
+            0.0
+          ],
+          [
+            236671.05167998443,
+            0.3469789779196732,
+            0.0
+          ],
+          [
+            2993813.6706809024,
+            76582.38329737553,
+            0.0
+          ]
+        ],
+        "spike_index": 0.922717,
+        "spike_follow_support_ratio": 0.078512,
+        "stairwise_ratio": 1.1e-05,
+        "half_slope_diff": 32.545188
+      },
+      "raw": {
+        "id": "0x056448eeac1345d8b7aaca10f01c4325c5254bb1652bc256fceac9a0859dd178",
+        "title": "[BIP-277] Enable Authorizer Wrapper",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### [PR with Payload](https://github.com/BalancerMaxis/multisig-ops/pull/163)\n\n### Motivation\n\nAs part of the [timelock authorizer rollout](https://forum.balancer.fi/t/bip-140-introduce-timelockauthorizer/4159) which has been temporarily put on hold we executed [BIP-169](https://forum.balancer.fi/t/bip-169-execute-the-transition-migrator/4323) which was a pre-requisite requirement. BIP-169 disabled the use of `GaugeAdderV2` in favor of preparing `GaugeAdderV3` to be used with the timelock authorizer. Since the timelock authorizer is on an uncertain timeline a new \"Authorizer Wrapper\" has been deployed which brings the `GaugeAdderV3` online without requiring the timelock authorizer to be in use. \n\nThis will allow the Balancer Maxis to go back to adding gauges from the LM Multisig and no longer need the DAO Multisig to add gauges directly to the controller which is an inherently risky and dangerous practice.\n\n### Specification\n\n### Ethereum\n#1\nThe DAO Multisig `eth:0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with the Authorizer `0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6` calling `grantRole` with the following arguments:\n\nrole: `0x1cbb503dcc0f4acaedf71a098211ff8b15a220fc26a6974a8d9deaab040fa6e0`\n\ncan be confirmed [here ](https://github.com/balancer/balancer-v2-monorepo/blob/master/pkg/deployments/action-ids/mainnet/action-ids.json#L30).\n\naccount: `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f`\n\nwhich corresponds to the address for the DAO Multisig. This allows the DAO Multisig to call `setAuthorizer` on the Vault.\n\n#2\nThe DAO Multisig `eth:0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with the Vault `0xBA12222222228d8Ba445958a75a0704d566BF2C8` calling `setAuthorizer` with the following argument:\n\nnewAuthorizer: `0x6048A8c631Fb7e77EcA533Cf9C29784e482391e7`\n\nwhich can be confirmed [here](https://github.com/balancer/balancer-v2-monorepo/blob/master/pkg/deployments/tasks/20230414-authorizer-wrapper/output/mainnet.json). \n\n#3\nThe DAO Multisig `eth:0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with the Authorizer `0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6` calling `renounceRole` with the following arguments:\n\nrole: `0x1cbb503dcc0f4acaedf71a098211ff8b15a220fc26a6974a8d9deaab040fa6e0`\n\ncan be confirmed [here ](https://github.com/balancer/balancer-v2-monorepo/blob/master/pkg/deployments/action-ids/mainnet/action-ids.json#L30).\n\naccount: `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f`\n\nwhich corresponds to the address for the DAO Multisig. This removes the ability for the DAO Multisig to call `setAuthorizer` on the Vault.\n\n\n### Arbitrum\n#1\nThe DAO Multisig on Arbitrum `arb1:0xaF23DC5983230E9eEAf93280e312e57539D098D0` will interact with the Authorizer `0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6` calling `grantRole` with the following arguments:\n\nrole: `0x1cbb503dcc0f4acaedf71a098211ff8b15a220fc26a6974a8d9deaab040fa6e0`\n\ncan be confirmed [here ](https://github.com/balancer/balancer-v2-monorepo/blob/master/pkg/deployments/action-ids/arbitrum/action-ids.json#L30).\n\naccount: `0xaF23DC5983230E9eEAf93280e312e57539D098D0`\n\nwhich corresponds to the address for the DAO Multisig. This allows the DAO Multisig to call `setAuthorizer` on the Vault.\n\n#2\nThe DAO Multisig `eth:0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with the Vault `0xBA12222222228d8Ba445958a75a0704d566BF2C8` calling `setAuthorizer` with the following argument:\n\nnewAuthorizer: `0x6B1Da720Be2D11d95177ccFc40A917c2688f396c`\n\nwhich can be confirmed [here](https://github.com/balancer/balancer-v2-monorepo/blob/master/pkg/deployments/tasks/20230414-authorizer-wrapper/output/arbitrum.json). \n\n#3\nThe DAO Multisig on Arbitrum `arb1:0xaF23DC5983230E9eEAf93280e312e57539D098D0` will interact with the Authorizer `0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6` calling `renounceRole` with the following arguments:\n\nrole: `0x1cbb503dcc0f4acaedf71a098211ff8b15a220fc26a6974a8d9deaab040fa6e0`\n\ncan be confirmed [here ](https://github.com/balancer/balancer-v2-monorepo/blob/master/pkg/deployments/action-ids/arbitrum/action-ids.json#L30).\n\naccount: `arb1:0xaF23DC5983230E9eEAf93280e312e57539D098D0`\n\nwhich corresponds to the address for the DAO Multisig. This removes the ability for the DAO Multisig to call `setAuthorizer` on the Vault.\n\n\n### Polygon\n#1\nThe DAO Multisig on Polygon `matic:0xeE071f4B516F69a1603dA393CdE8e76C40E5Be85` will interact with the Authorizer `0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6` calling `grantRole` with the following arguments:\n\nrole: `0x1cbb503dcc0f4acaedf71a098211ff8b15a220fc26a6974a8d9deaab040fa6e0`\n\ncan be confirmed [here ](https://github.com/balancer/balancer-v2-monorepo/blob/master/pkg/deployments/action-ids/polygon/action-ids.json#L30).\n\naccount: `0xeE071f4B516F69a1603dA393CdE8e76C40E5Be85`\n\nwhich corresponds to the address for the DAO Multisig. This allows the DAO Multisig to call `setAuthorizer` on the Vault.\n\n#2\nThe DAO Multisig on Polygon `matic:0xeE071f4B516F69a1603dA393CdE8e76C40E5Be85` will interact with the Vault `0xBA12222222228d8Ba445958a75a0704d566BF2C8` calling `setAuthorizer` with the following argument:\n\nnewAuthorizer: `0x020301b0a99EFB6816B41007765Fb577259eC418`\n\nwhich can be confirmed [here](https://github.com/balancer/balancer-v2-monorepo/blob/master/pkg/deployments/tasks/20230414-authorizer-wrapper/output/polygon.json). \n\n#3\nThe DAO Multisig on Polygon `matic:0xeE071f4B516F69a1603dA393CdE8e76C40E5Be85` will interact with the Authorizer `0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6` calling `renounceRole` with the following arguments:\n\nrole: `0x1cbb503dcc0f4acaedf71a098211ff8b15a220fc26a6974a8d9deaab040fa6e0`\n\ncan be confirmed [here ](https://github.com/balancer/balancer-v2-monorepo/blob/master/pkg/deployments/action-ids/polygon/action-ids.json#L30).\n\naccount: `0xeE071f4B516F69a1603dA393CdE8e76C40E5Be85`\n\nwhich corresponds to the address for the DAO Multisig. This removes the ability for the DAO Multisig to call `setAuthorizer` on the Vault.\n\n\n### Gnosis\n#1\nThe DAO Multisig on Gnosis `gno:0x2a5AEcE0bb9EfFD7608213AE1745873385515c18` will interact with the Authorizer `0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6` calling `grantRole` with the following arguments:\n\nrole: `0x1cbb503dcc0f4acaedf71a098211ff8b15a220fc26a6974a8d9deaab040fa6e0`\n\ncan be confirmed [here ](https://github.com/balancer/balancer-v2-monorepo/blob/master/pkg/deployments/action-ids/gnosis/action-ids.json#L30).\n\naccount: `0x2a5AEcE0bb9EfFD7608213AE1745873385515c18`\n\nwhich corresponds to the address for the DAO Multisig. This allows the DAO Multisig to call `setAuthorizer` on the Vault.\n\n#2\nThe DAO Multisig on Gnosis `gno:0x2a5AEcE0bb9EfFD7608213AE1745873385515c18` will interact with the Vault `0xBA12222222228d8Ba445958a75a0704d566BF2C8` calling `setAuthorizer` with the following argument:\n\nnewAuthorizer: `0x03F3Fb107e74F2EAC9358862E91ad3c692712054`\n\nwhich can be confirmed [here](https://github.com/balancer/balancer-v2-monorepo/blob/master/pkg/deployments/tasks/20230414-authorizer-wrapper/output/gnosis.json). \n\n#3\nThe DAO Multisig on Gnosis `gno:0x2a5AEcE0bb9EfFD7608213AE1745873385515c18` will interact with the Authorizer `0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6` calling `renounceRole` with the following arguments:\n\nrole: `0x1cbb503dcc0f4acaedf71a098211ff8b15a220fc26a6974a8d9deaab040fa6e0`\n\ncan be confirmed [here ](https://github.com/balancer/balancer-v2-monorepo/blob/master/pkg/deployments/action-ids/gnosis/action-ids.json#L30).\n\naccount: `0x2a5AEcE0bb9EfFD7608213AE1745873385515c18`\n\nwhich corresponds to the address for the DAO Multisig. This removes the ability for the DAO Multisig to call `setAuthorizer` on the Vault.\n\n\n### Optimism\n#1\nThe DAO Multisig on Optimism `oeth:0x043f9687842771b3dF8852c1E9801DCAeED3f6bc` will interact with the Authorizer `0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6` calling `grantRole` with the following arguments:\n\nrole: `0x1cbb503dcc0f4acaedf71a098211ff8b15a220fc26a6974a8d9deaab040fa6e0`\n\ncan be confirmed [here ](https://github.com/balancer/balancer-v2-monorepo/blob/master/pkg/deployments/action-ids/optimism/action-ids.json#L30).\n\naccount: `0x043f9687842771b3dF8852c1E9801DCAeED3f6bc`\n\nwhich corresponds to the address for the DAO Multisig. This allows the DAO Multisig to call `setAuthorizer` on the Vault.\n\n#2\nThe DAO Multisig on Optimism `oeth:0x043f9687842771b3dF8852c1E9801DCAeED3f6bc` will interact with the Vault `0xBA12222222228d8Ba445958a75a0704d566BF2C8` calling `setAuthorizer` with the following argument:\n\nnewAuthorizer: `0xAcf05BE5134d64d150d153818F8C67EE36996650`\n\nwhich can be confirmed [here](https://github.com/balancer/balancer-v2-monorepo/blob/master/pkg/deployments/tasks/20230414-authorizer-wrapper/output/optimism.json). \n\n#3\nThe DAO Multisig on Optimism `oeth:0x043f9687842771b3dF8852c1E9801DCAeED3f6bc` will interact with the Authorizer `0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6` calling `grantRole` with the following arguments:\n\nrole: `0x1cbb503dcc0f4acaedf71a098211ff8b15a220fc26a6974a8d9deaab040fa6e0`\n\ncan be confirmed [here ](https://github.com/balancer/balancer-v2-monorepo/blob/master/pkg/deployments/action-ids/optimism/action-ids.json#L30).\n\naccount: `0x043f9687842771b3dF8852c1E9801DCAeED3f6bc`\n\nwhich corresponds to the address for the DAO Multisig. This removes the ability for the DAO Multisig to call `setAuthorizer` on the Vault.\n",
+        "end_utc": "2023-05-08T18:00:00Z",
+        "similarity_score": 0.1679,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3237484.902520225,
+            76582.89995478315,
+            0.9747803195098206
+          ],
+          "scores_total": 3314068.777255328,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-05-08T18:00:00",
+          "pre_tvl_avg": 1251654266.0,
+          "post_tvl_avg": 1152722354.5,
+          "abnormal_change": -7.9041,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.079041,
+          "abnormal_change_pct": -7.9041
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-05-08T18:00:00",
+          "pre_price_avg": 6.02602471,
+          "post_price_avg": 5.562806095,
+          "abnormal_change": -7.687,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.07687,
+          "abnormal_change_pct": -7.687
+        }
+      }
+    },
+    {
+      "proposal_id": "0xabf31cc484359de2273689566d9d85e47f496b7d80e458386f93668cfc2c589e",
+      "cleaned": {
+        "proposal_id": "0xabf31cc484359de2273689566d9d85e47f496b7d80e458386f93668cfc2c589e",
+        "title": "[BIP-778] Grant Maxis StableSurge Parameter Change Permissions",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2025-02-17T19:00:00Z",
+        "similarity_score": 0.1667,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2902429.164346801,
+        "margin_pct": 1.0,
+        "scores_total": 2902429.164346801,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5,
+        "total_votes": 5,
+        "first_vote_at": "2025-02-14T12:13:18Z",
+        "last_vote_at": "2025-02-17T08:40:58Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            362581.7529582896,
+            0.0,
+            0.0
+          ],
+          [
+            613.4635227205403,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2539233.9478657907,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.814356,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.185644,
+        "half_slope_diff": 190.971899
+      },
+      "raw": {
+        "id": "0xabf31cc484359de2273689566d9d85e47f496b7d80e458386f93668cfc2c589e",
+        "title": "[BIP-778] Grant Maxis StableSurge Parameter Change Permissions",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "PR with payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1755\n\n### Summary & Motivation\n\nThe [StableSurge](https://medium.com/balancer-protocol/balancers-stablesurge-hook-09d2eb20f219) hook has been deployed by the Balancer Labs team marking an exciting milestone for Balancer V3 as the first wave of hooks are hitting production. With these innovations come additional permissions related to the management of each hooks unique parameters. In the case of StableSurge the maxSurgeFeePercentage and surgeThresholdPercentage are key factors in determining how the hook will affect the pool performance and the liquidity providers. This proposal will act to grant the permissions to change both of these parameters to the Balancer Maxis on all currently deployed networks, Ethereum Mainnet, Gnosis, Arbitrum, and Base.\n\n**Technical Specification:**\n\nAll deployments and action-ids can be verified in this StableSurgePoolFactory [pull request](https://github.com/balancer/balancer-deployments/pull/163/files#diff-17e7d1b01753c19be2eee514c14e09736db3af94d24025c7fd9876c73b6e7950).\n\n**Ethereum**\n\nOn Mainnet the Balancer DAO Multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with the Authorizer `0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6` calling `grantRoles` passing: [`0x2f27aa67b6bf44b4441ea2656c22e09252261845a98dc577a6fc06b6526f8bcc`, `0x66c657ea0d5ce1dc0286795937131c61620bb6ccd0f126fbfe3799d8b89a9753`] for roles, and account Maxi omni-chain multisig: `0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e`\n\n**Arbitrum**\n\nOn Arbitrum the Balancer DAO Multisig `0xaF23DC5983230E9eEAf93280e312e57539D098D0` will interact with the Authorizer `0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6` calling `grantRoles` passing: [`0x261258d23af1013ceb3a0574a5f194e3d4d09a07c0b9014665519c3f1b37f792`, `0x5968f4b1f98171ccadc78df4f25cf8262b250f2f12a83c45b7311b4674d23e0a`] for roles, and account Maxi omni-chain multisig: `0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e`\n\n**Base**\n\nOn Base the Balancer DAO Multisig `0xC40DCFB13651e64C8551007aa57F9260827B6462` will interact with the Authorizer `0x809B79b53F18E9bc08A961ED4678B901aC93213a` calling `grantRoles` passing: [`0xe81edd4ccc5901443972e580b5d997ced38f33bd4f7e9bca8829dc5efcca6fed`, `0x4a7d099f7d634af69cf552b5b1c76ed8d44074051cbca5a59b842154288b96f1`] for roles, and account Maxi omni-chain multisig: `0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e`\n\n**Gnosis**\n\nOn Gnosis the Balancer DAO Multisig `0x2a5AEcE0bb9EfFD7608213AE1745873385515c18` will interact with the Authorizer `0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6` calling `grantRoles` passing: [`0x2f27aa67b6bf44b4441ea2656c22e09252261845a98dc577a6fc06b6526f8bcc`, `0x66c657ea0d5ce1dc0286795937131c61620bb6ccd0f126fbfe3799d8b89a9753`] for roles, and account Maxi omni-chain multisig: `0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e`",
+        "end_utc": "2025-02-17T19:00:00Z",
+        "similarity_score": 0.1667,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2902429.164346801,
+            0,
+            0
+          ],
+          "scores_total": 2902429.164346801,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2025-02-17T19:00:00",
+          "pre_tvl_avg": 854096726.0,
+          "post_tvl_avg": 844430891.5,
+          "abnormal_change": -1.1317,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.011317,
+          "abnormal_change_pct": -1.1317
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2025-02-17T19:00:00",
+          "pre_price_avg": 1.9757971300000001,
+          "post_price_avg": 1.9641881149999998,
+          "abnormal_change": -0.5876,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.005876,
+          "abnormal_change_pct": -0.5876
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x273c976bf56e8e83963c023bc501f3f99e3298831a88f7f6c90d7baf5cdb56d2",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.9,
+    "summary": "The proposal aims to grant the Maxi multisig permission to call set_reward_distributor to streamline gauge reward configurations across chains. Voting and timeline metrics show unanimous early support. Forum discussion is neutral with limited comments. Similar past proposals with similar operational changes passed with positive timeline signals. Market impact shows a slight negative price impact but positive TVL change.",
+    "key_arguments_for": [
+      "Unanimous early vote support with stable timeline metrics.",
+      "Streamlines Maxi multisig operations and reduces fragmentation in reward configuration.",
+      "Similar past proposals with operational improvements were approved and stable.",
+      "Positive TVL impact suggests operational efficiency may benefit the protocol."
+    ],
+    "key_arguments_against": [
+      "Slight negative price impact observed post-vote in similar proposals.",
+      "Forum discussion shows neutral sentiment, indicating limited community engagement or concern."
+    ],
+    "evidence": [
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": null,
+        "quote": "Lead ratio total is 1.0 for 'Yes, let's do it', stability and early ratio are 1.0, indicating unanimous and early support."
+      },
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.balancer.fi/t/bip-788-grant-maxi-multisig-set-reward-distributor-permissions/6369",
+        "quote": "Two forum comments with neutral sentiment, no explicit support or opposition expressed."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Adjacent proposal BIP-785",
+        "quote": "Similar proposal to enable Boosted GHO pools had unanimous yes vote and passed with slight negative price impact and negative TVL impact."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-02-27T19:00:00Z",
+    "event_end_utc": "2025-03-03T19:00:00Z",
+    "event_time_utc": "2025-03-03T19:00:00Z",
+    "address_of_governance_token": "0xba100000625a3754423978a60c9317c58a424e3d",
+    "token_price_impact_pct": -7.071,
+    "tvl_impact_pct": 1.1514,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        2894243.6073915684,
+        0.0,
+        0.0
+      ],
+      "scores_total": 2894243.6073915684,
+      "margin_abs": 2894243.6073915684,
+      "margin_pct": 1.0
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- The timeline analytics show unanimous early and stable support for the 'Yes, let's do it' option, indicating strong voter confidence.\n- Forum discussion is neutral, suggesting no significant opposition or strong community sentiment, which aligns acceptably with the vote outcome.\n- Similar past proposals with related operational changes were approved and helped improve protocol functions, though some showed slight negative price impact post-vote; this suggests the importance of operational improvements.\n- Market data shows a slight negative price impact but a positive TVL impact, reinforcing that the protocol's value proposition is stable and potentially improving.\n- Overall, the recommendation to approve supports the organization’s long-term operational efficiency and aligns well with voter sentiment, while forum sentiment neutrality does not conflict with this.\n- Therefore, the recommended decision mirrors the aggregated voting sentiment and reasonable community acceptance.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x762f8789a28394088d7ce1a035d420b274eb72f7221739fd5b929207f9500055",
+        "title": "[BIP-785] Enable Boosted GHO pools on Balancer v3 on Base and Arbitrum",
+        "end_utc": "2025-02-17T19:00:00Z",
+        "summary": "[BIP-785] Enable Boosted GHO pools on Balancer v3 on Base and Arbitrum closed on 2025-02-17T19:00:00Z. Timeline analytics noted 6 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.13)",
+        "market_response": "token -1.91%; TVL -1.13%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0xe188b63c7a6278e0538cbd4a2a6135580fb55ded09445dbb11fc315726b0bd54",
+        "title": "[BIP-784] Enable Gauges for tETH V3 Pools",
+        "end_utc": "2025-02-17T19:00:00Z",
+        "summary": "[BIP-784] Enable Gauges for tETH V3 Pools closed on 2025-02-17T19:00:00Z. Timeline analytics noted 5 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.11)",
+        "market_response": "token -1.91%; TVL -1.13%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -7.071,
+    "ex_post_tvl_impact_pct": 1.1514,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -7.07%; TVL +1.15%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 0,
+    "Positive": 0,
+    "Neutral": 2,
+    "total_comments": 2
+  }
+}

@@ -1,0 +1,541 @@
+{
+  "captured_at_utc": "2025-10-07T06:32:53.573867+00:00",
+  "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0xd67d17db3bd230b163ce1f791d8712812446bced14ef2de875fd01ab3e2be3d6",
+  "focus": null,
+  "votes_count": 3649,
+  "timeline_metrics_current": {
+    "unique_voters": 3649,
+    "total_votes": 3649,
+    "first_vote_at": "2025-05-01T13:01:17Z",
+    "last_vote_at": "2025-05-08T12:59:43Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        7674593.721564094,
+        6179.919086626471,
+        6181.396692224143
+      ],
+      [
+        2104364.708299738,
+        2502.9365628957617,
+        27045.252503474534
+      ],
+      [
+        49874058.68345592,
+        2043.3696017806062,
+        260.6440434947415
+      ],
+      [
+        104366838.78579308,
+        503.5363889009145,
+        20556424.160664238
+      ]
+    ],
+    "spike_index": 0.156855,
+    "spike_follow_support_ratio": 1.0,
+    "stairwise_ratio": 0.000638,
+    "half_slope_diff": 19.659558
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x9d13c56f911796a578812959f775092b3644901be17738a2d41c516d8a8f2e9b",
+      "title": "TMC ARB Recommendation",
+      "author": "0xb4c064f466931B8d0F637654c916E3F203c46f13",
+      "end_utc": "2025-04-03T21:21:19Z",
+      "timeline_metrics": {
+        "unique_voters": 3125,
+        "total_votes": 3125,
+        "first_vote_at": "2025-03-27T21:24:39Z",
+        "last_vote_at": "2025-04-03T21:06:31Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            648082.5602159722,
+            9201308.660606895,
+            8106.704078927541
+          ],
+          [
+            109618.72255625032,
+            376238.56318909075,
+            52534.089375500975
+          ],
+          [
+            3121949.809712009,
+            34653933.00807,
+            8522356.086217549
+          ],
+          [
+            10951671.950826814,
+            47989162.92946845,
+            43163696.58524279
+          ]
+        ],
+        "spike_index": 0.172322,
+        "spike_follow_support_ratio": 0.999558,
+        "stairwise_ratio": 0.000519,
+        "half_slope_diff": 298.734504
+      },
+      "price_impact_pct": -7.1596,
+      "tvl_impact_pct": -8.2787,
+      "similarity": 0.0854,
+      "actual_vote_result": {
+        "winner_index": 1,
+        "winner_label": "NO, Deploy Nothing",
+        "margin_abs": 40473949.696419604,
+        "scores_total": 158798659.66955996,
+        "margin_pct": 0.2548758898887485
+      }
+    },
+    {
+      "id": "0xdd38e103e337b9e02a9d9ac73c2587db5be6cfb46506e13c0e897f7331895cf4",
+      "title": "TMC Stablecoin Recommendation",
+      "author": "0xb4c064f466931B8d0F637654c916E3F203c46f13",
+      "end_utc": "2025-04-03T21:11:34Z",
+      "timeline_metrics": {
+        "unique_voters": 3132,
+        "total_votes": 3132,
+        "first_vote_at": "2025-03-27T21:19:14Z",
+        "last_vote_at": "2025-04-03T21:05:22Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            9845806.143829318,
+            57457.29873853266,
+            4259.897836293367
+          ],
+          [
+            6646073.216894014,
+            126806.7411075322,
+            62278.0674102522
+          ],
+          [
+            37867444.73757409,
+            1018.3492802439894,
+            2129323.022850455
+          ],
+          [
+            60476147.126243114,
+            3430196.535004786,
+            38147014.74244351
+          ]
+        ],
+        "spike_index": 0.138386,
+        "spike_follow_support_ratio": 0.999933,
+        "stairwise_ratio": 0.00066,
+        "half_slope_diff": -4557.458366
+      },
+      "price_impact_pct": -7.1596,
+      "tvl_impact_pct": -8.2787,
+      "similarity": 0.1028,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "YES, Deploy Stablecoin Strategy",
+        "margin_abs": 74492595.49400006,
+        "scores_total": 158793825.8792119,
+        "margin_pct": 0.4691151880846022
+      }
+    },
+    {
+      "id": "0xb422848b0f53f9077444b922d553618e331f9abe7539ae4566ff84364d0fbd3c",
+      "title": "OpCo – Oversight and Transparency Committee (OAT) Elections",
+      "author": "0xb4c064f466931B8d0F637654c916E3F203c46f13",
+      "end_utc": "2025-04-03T20:26:31Z",
+      "timeline_metrics": {
+        "unique_voters": 2877,
+        "total_votes": 2877,
+        "first_vote_at": "2025-03-27T20:31:48Z",
+        "last_vote_at": "2025-04-03T20:25:45Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.999413,
+            0.0,
+            0.0,
+            0.000587,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9996524157108099,
+          0.0,
+          0.0,
+          0.0003475842891901286,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          0.9996524157108099,
+          0.0,
+          0.0,
+          0.0003475842891901286,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.9994131455399061,
+          0.0,
+          0.0,
+          0.0005868544600938967,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            766553.5398993777,
+            13075.3278527732,
+            321192.16100642295,
+            62225.38734257554,
+            10600.032069592877,
+            59408.510261454154,
+            163931.21312234126,
+            5234.019116098822,
+            79407.58679675835,
+            3761.749958369027,
+            1536.4270374273624,
+            160327.5781105349
+          ],
+          [
+            297943.86857532675,
+            24318.259817880196,
+            6439.753562384153,
+            154006.7099147716,
+            77328.7232527262,
+            124124.69618506823,
+            525.5367701306425,
+            3883272.375881791,
+            881.6372197871402,
+            161.99965540992983,
+            560.8418133222773,
+            61305.26247218389
+          ],
+          [
+            50899849.584407344,
+            68064.00970231228,
+            128691.856438813,
+            4945434.094220205,
+            1796.2891740795744,
+            56866.57734988482,
+            635.4868322939394,
+            318979.5426074504,
+            1959.2126720514789,
+            595.0881740958338,
+            4.363044965815608,
+            3880981.0146235903
+          ],
+          [
+            53427934.776166834,
+            51658.08460837421,
+            15968206.924363619,
+            174640.41785973407,
+            615.0255522189354,
+            30121870.580687724,
+            159178.0710545582,
+            22888152.990306586,
+            119.71439969869895,
+            15412736.181500154,
+            8.32793271690734,
+            751805.8615930285
+          ]
+        ],
+        "spike_index": 0.150786,
+        "spike_follow_support_ratio": 0.999784,
+        "stairwise_ratio": 0.000464,
+        "half_slope_diff": 2117.713242
+      },
+      "price_impact_pct": -7.1596,
+      "tvl_impact_pct": -8.2787,
+      "similarity": 0.0949,
+      "actual_vote_result": {
+        "winner_index": 9,
+        "winner_label": "Patrick McCorry (stonecoldpat)",
+        "margin_abs": 4377980.167209879,
+        "scores_total": 205732078.66927853,
+        "margin_pct": 0.02128000745205921
+      }
+    }
+  ],
+  "similar_proposals_data": [],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0xd67d17db3bd230b163ce1f791d8712812446bced14ef2de875fd01ab3e2be3d6",
+    "selected_choice_label": "For",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "The proposal recommends ratifying the STEP 2 committee's preferred allocations of 35 million ARB across three RWA providers: WisdomTree WTGXX (30%), Spiko USTBL (35%), and Franklin Templeton FOBXX (BENJI) (35%). The committee's approach balances diversification, fees, TVL, risk, and community input. Forum sentiment strongly supports the proposal, highlighting trust in the committee, strategic diversification, and expectations of stable, yield-bearing assets to strengthen the treasury.",
+    "key_arguments_for": [
+      "The committee conducted thorough due diligence evaluating over 50 applications, selecting three with strong track records and a balanced allocation.",
+      "Concentrating allocations avoids spreading capital too thin, ensuring meaningful impact and risk-adjusted returns.",
+      "The proposal aligns with Arbitrum's goals of treasury diversification and long-term financial sustainability.",
+      "Strong community trust and endorsement of the committee's expertise and past successes (STEP 1)."
+    ],
+    "key_arguments_against": [
+      "Minor concerns on transparency regarding evaluation criteria and need for clearer KPIs to track performance.",
+      "Some call for future allocations to consider emerging or higher-risk RWA projects to foster innovation.",
+      "A few skeptical or sarcastic comments questioning rubber-stamping or quorum achievement, but not substantive opposition."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.arbitrum.foundation/t/step-2-committee-preferred-allocations/29086",
+        "quote": "The committee appointed to examine applications has come out with its preference for allocation... The total value allocated is $10.66M as of April 20, 2025."
+      },
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Post #8 by 0xAlex",
+        "quote": "I voted 'FOR' this allocation and thanks the committee for their thorough due diligence. The selected issuers have a robust track record."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": null,
+        "quote": "Timeline metrics show a consistent, stable lead for 'For' option across all quartiles with strong early voting and no volatility."
+      }
+    ],
+    "available_choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-05-01T13:00:00Z",
+    "event_end_utc": "2025-05-08T13:00:00Z",
+    "event_time_utc": "2025-05-08T13:00:00Z",
+    "address_of_governance_token": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+    "token_price_impact_pct": 34.926,
+    "tvl_impact_pct": 12.62,
+    "actual_vote_result": {
+      "winner_label": "For",
+      "winner_index": 0,
+      "scores": [
+        164019855.89911282,
+        11229.761640203753,
+        20589911.453903425
+      ],
+      "scores_total": 184620997.11465624,
+      "margin_abs": 143429944.44520938,
+      "margin_pct": 0.776889
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'For' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Timeline voting metrics show unanimous and stable support for 'For' option with full quartile lead and no opposition, indicating strong early and sustained consensus.\n- Forum discussion is largely positive or neutral with strong endorsements of the committee's diligence and the proposed diversified allocation strategy; a few minor concerns do not outweigh overall support.\n- Market impacts indicate positive token price and TVL increases associated with the proposal's timeline, supporting the expected benefits of the allocation.\n- Historical adjacent proposals reveal lessons on cautious allocation and risk management; this proposal reflects learned balance by concentrating capital in a few vetted providers.\n- The recommendation aligns with aggregated forum sentiment, indicating community views are well represented by the proposed 'For' outcome.\n- Overall, the proposal promotes durable treasury health and strategic diversification, warranting a 'Change' stance.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0xdd38e103e337b9e02a9d9ac73c2587db5be6cfb46506e13c0e897f7331895cf4",
+        "title": "TMC Stablecoin Recommendation",
+        "end_utc": "2025-04-03T21:11:34Z",
+        "summary": "TMC Stablecoin Recommendation closed on 2025-04-03T21:11:34Z. Timeline analytics noted 3132 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.10)",
+        "market_response": "token -7.16%; TVL -8.28%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0xb422848b0f53f9077444b922d553618e331f9abe7539ae4566ff84364d0fbd3c",
+        "title": "OpCo – Oversight and Transparency Committee (OAT) Elections",
+        "end_utc": "2025-04-03T20:26:31Z",
+        "summary": "OpCo – Oversight and Transparency Committee (OAT) Elections closed on 2025-04-03T20:26:31Z. Timeline analytics noted 2877 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.09)",
+        "market_response": "token -7.16%; TVL -8.28%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 34.926,
+    "ex_post_tvl_impact_pct": 12.62,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +34.93%; TVL +12.62%"
+  },
+  "agentic_ai_choice": "For",
+  "actual_outcome": "For",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 2,
+    "Positive": 13,
+    "Neutral": 22,
+    "total_comments": 37
+  }
+}

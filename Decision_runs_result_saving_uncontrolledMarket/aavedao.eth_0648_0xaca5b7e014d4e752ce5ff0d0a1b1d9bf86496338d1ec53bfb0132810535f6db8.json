@@ -1,0 +1,935 @@
+{
+  "captured_at_utc": "2025-10-07T02:38:12.818856+00:00",
+  "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0xaca5b7e014d4e752ce5ff0d0a1b1d9bf86496338d1ec53bfb0132810535f6db8",
+  "focus": null,
+  "votes_count": 5500,
+  "timeline_metrics_current": {
+    "unique_voters": 5500,
+    "total_votes": 5500,
+    "first_vote_at": "2022-12-29T22:05:27Z",
+    "last_vote_at": "2023-01-02T10:37:53Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        0.999572,
+        0.000428,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      0.9998181818181818,
+      0.0001818181818181818,
+      0.0
+    ],
+    "stability": [
+      0.9998181818181818,
+      0.0001818181818181818,
+      0.0
+    ],
+    "early_ratio": [
+      0.9995721009841677,
+      0.0004278990158322636,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        81590.44213235597,
+        3.7405141280280527,
+        1.4013812276239872
+      ],
+      [
+        2120.448478931517,
+        2.7392403855983583,
+        1.329588622828476
+      ],
+      [
+        91375.23325654573,
+        1.9035464016016936,
+        1.8178236234793568
+      ],
+      [
+        103.61873612203759,
+        3.2944143248105013,
+        0.5790000000000001
+      ]
+    ],
+    "spike_index": 0.514123,
+    "spike_follow_support_ratio": 0.849362,
+    "stairwise_ratio": 0.000768,
+    "half_slope_diff": 0.132012
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x6def87c35510ef55466c104e4e28fb3ed4da5d42ae78334d0855f5ca070af428",
+      "title": " [ARC] Risk Parameter Updates for Aave V2 ETH 2022-11-17",
+      "author": "0xDD659911EcBD4458db07Ee7cDdeC79bf8F859AbC",
+      "end_utc": "2022-11-21T14:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 4502,
+        "total_votes": 4502,
+        "first_vote_at": "2022-11-18T02:07:45Z",
+        "last_vote_at": "2022-11-21T13:58:53Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            90811.03451907462,
+            280.0052306855291,
+            548.4483920427438
+          ],
+          [
+            13741.318674658183,
+            5.793026057431011,
+            0.44176901260045837
+          ],
+          [
+            1173.3069019946342,
+            0.49145986018530075,
+            0.5351418754947729
+          ],
+          [
+            257.926932768014,
+            0.6400516547214721,
+            0.3429304746305456
+          ]
+        ],
+        "spike_index": 0.849687,
+        "spike_follow_support_ratio": 0.022952,
+        "stairwise_ratio": 0.001277,
+        "half_slope_diff": -0.839755
+      },
+      "price_impact_pct": -0.5069,
+      "tvl_impact_pct": -10.8362,
+      "similarity": 0.2711,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "YAE",
+        "margin_abs": 105433.81879509057,
+        "scores_total": 106820.28503015953,
+        "margin_pct": 0.9870205716575507
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x1d85c2688b000a9249668c7eb16d59095bb74cb9f0c244140ceb94c95a7ab877",
+      "cleaned": {
+        "proposal_id": "0x1d85c2688b000a9249668c7eb16d59095bb74cb9f0c244140ceb94c95a7ab877",
+        "title": "[ARC] Risk Parameter Updates for Aave V2: 2022-10-06",
+        "author": "0xDD659911EcBD4458db07Ee7cDdeC79bf8F859AbC",
+        "end_utc": "2022-10-11T21:00:00Z",
+        "similarity_score": 0.4448,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 337071.66629808425,
+        "margin_pct": 0.9969782226894616,
+        "scores_total": 338093.30898802914,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 2509,
+        "total_votes": 2509,
+        "first_vote_at": "2022-10-07T03:00:57Z",
+        "last_vote_at": "2022-10-11T20:47:14Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            18165.66030616941,
+            7.628433608299754,
+            0.4767626582521464
+          ],
+          [
+            1490.719147877486,
+            7.282891627280758,
+            27.291560104814923
+          ],
+          [
+            127062.70368470011,
+            1.1063431234261485,
+            0.7204202045343371
+          ],
+          [
+            190854.76843133126,
+            1.2544775961835488,
+            473.6965290270835
+          ]
+        ],
+        "spike_index": 0.281559,
+        "spike_follow_support_ratio": 0.999967,
+        "stairwise_ratio": 0.000308,
+        "half_slope_diff": 0.405655
+      },
+      "raw": {
+        "id": "0x1d85c2688b000a9249668c7eb16d59095bb74cb9f0c244140ceb94c95a7ab877",
+        "title": "[ARC] Risk Parameter Updates for Aave V2: 2022-10-06",
+        "author": "0xDD659911EcBD4458db07Ee7cDdeC79bf8F859AbC",
+        "body": "## Simple Summary\n\nA proposal to adjust five (5) total risk parameters, including Liquidation Threshold, Loan To Value, and Liquidation Bonus, across two (2) Aave V2 assets. \n\n\n\n## Abstract\n\nThis proposal is a batch update of risk parameters to align with the [Moderate risk level](https://snapshot.org/#/aave.eth/proposal/QmT9T4Rfnh1Z2HYmMPXvtFotMK2vSxiXK8dKStg2b6n4gi) chosen by the Aave community. These parameter updates are a continuation of Gauntlet’s regular parameter recommendations. Our simulation engine has ingested the latest market data (outlined below) to recalibrate parameters for the Aave protocol. The community has aligned on a [Risk Off Framework](https://snapshot.org/#/aave.eth/proposal/bafkreigdmcfmwvnxfolpds4xkdicgrszgmknig7pz2r2t37tltupdpyfu4) regarding lowering liquidation thresholds. \n\n\n\n\n## Motivation\n\n\nThis set of parameter updates seeks to maintain the overall risk tolerance of the protocol while making risk trade-offs between specific assets.\n\nGauntlet's parameter recommendations are driven by an optimization function that balances 3 core metrics: insolvencies, liquidations, and borrow usage. Parameter recommendations seek to optimize for this objective function. Our agent-based simulations use a wide array of varied input data that changes on a daily basis (including but not limited to asset volatility, asset correlation, asset collateral usage, DEX / CEX liquidity, trading volume, expected market impact of trades, and liquidator behavior). Gauntlet's simulations tease out complex relationships between these inputs that cannot be simply expressed as heuristics. As such, the input metrics we show below can help understand why some of the param recs have been made but should not be taken as the only reason for recommendation. The individual collateral pages on the [Gauntlet Risk Dashboard](https://gov.gauntlet.network/aave) cover other key statistics and outputs from our simulations that can help with understanding interesting inputs and results related to our simulations. \n\nFor more details, please see [Gauntlet's Parameter Recommendation Methodology](https://medium.com/gauntlet-networks/gauntlets-parameter-recommendation-methodology-8591478a0c1c) and [Gauntlet's Model Methodology](https://medium.com/gauntlet-networks/gauntlets-model-methodology-ea150ff0bafd). \n\n### Supporting Data on Aave V2\n\n**Top 30 borrowers’ aggregate positions & borrow usages**\n\n![](https://i.imgur.com/Shar1i3.png)\n\n**Top 30 borrowers’ entire supply**\n\n![](https://i.imgur.com/DcrG6hE.png)\n\n**Top 30 borrowers’ entire borrows**\n\n![](https://i.imgur.com/60LomXa.png)\n\n\n\n**Top STETH non-recursive supplies and collateralization ratios:**\n\n![](https://i.imgur.com/o2zzUVf.png)\n\n**Top WBTC non-recursive supplies and collateralization ratios:**\n\n![](https://i.imgur.com/JL3W7IP.png)\n\n\n\n## Aave V2 Parameter Changes Specification\n\nGauntlet's simulation engine will continue to adjust risk parameters to maintain protocol market risk at safe levels while optimizing for capital efficiency.\n\n| Parameter | Current Value | Recommended Value |\n| -------- | -------- | -------- |\n| STETH Liquidation Threshold     | 81%     | 83%     |\n| STETH Loan To Value     | 69%     | 72%     |\n| STETH Liquidation Bonus     | 7.5%     | 7%     |\n| WBTC Liquidation Threshold    | 80%     | 82%     |\n| WBTC Loan To Value     | 70%     | 72%     |\n\nWe have ingested the most recent Aave and market data, including user positions, prices, volatility, and liquidity for all assets, including stETH, WETH, and WBTC. We then ran simulations to stress test the protocol in times of high volatility.\n\nAs shown in the dashboard screenshot below, our simulations show that Aave can increase capital efficiency while decreasing the risk of bad debt using these parameterization recommendations.\n\n\n\n## Risk Dashboard\n\nThe community should use Gauntlet's [Aave V2 Risk Dashboard](https://gov.gauntlet.network/aave) to understand better the updated parameter suggestions and general market risk in Aave V2. Gauntlet has also launched the [Aave Arc Risk Dashboard](https://gov.gauntlet.network/aave_arc).\n\nValue at Risk represents the 95th percentile **insolvency value** that occurs from simulations we run over a range of volatilities to approximate a tail event. \n\nLiquidations at Risk represents the 95th percentile **liquidation volume** that occurs from simulations we run over a range of volatilities to approximate a tail event.\n\n### Aave V2 Dashboard\n\n![](https://i.imgur.com/CGcOHWG.png)\n\n\n\n\n\n\n\n\n## Next Steps\n* Targeting an AIP on 2022-10-11\n\n## Quick Links\n[Analytics Dashboard](https://metabase.gauntlet.network/public/dashboard/f4930651-29be-4ff3-b664-a34462e286c5)\n[Risk Dashboard](https://gov.gauntlet.network/aave)\n[Aave Arc Risk Dashboard](https://gov.gauntlet.network/aave_arc)\n[Gauntlet Parameter Recommendation Methodology](https://medium.com/gauntlet-networks/gauntlets-parameter-recommendation-methodology-8591478a0c1c)\n[Gauntlet Model Methodology](https://medium.com/gauntlet-networks/gauntlets-model-methodology-ea150ff0bafd) \n\n\n*By approving this proposal, you agree that any services provided by Gauntlet shall be governed by the terms of service available at gauntlet.network/tos.*\n\n\n\n",
+        "end_utc": "2022-10-11T21:00:00Z",
+        "similarity_score": 0.4448,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "ABSTAIN",
+            "NAY"
+          ],
+          "scores": [
+            337573.8515700789,
+            17.272145955190197,
+            502.18527199468446
+          ],
+          "scores_total": 338093.30898802914,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2022-10-11T21:00:00",
+          "pre_tvl_avg": 5471143945.5,
+          "post_tvl_avg": 5188267919.0,
+          "abnormal_change": -5.1703,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.051703,
+          "abnormal_change_pct": -5.1703
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2022-10-11T21:00:00",
+          "pre_price_avg": 74.61745655,
+          "post_price_avg": 72.007725,
+          "abnormal_change": -3.4975,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.034975,
+          "abnormal_change_pct": -3.4975
+        }
+      }
+    },
+    {
+      "proposal_id": "0x2940cd025de1f55d9156019f038d5eb850fd77c8cfc4feca206f838c94aaa1f1",
+      "cleaned": {
+        "proposal_id": "0x2940cd025de1f55d9156019f038d5eb850fd77c8cfc4feca206f838c94aaa1f1",
+        "title": "Risk Parameter Updates for Aave V2: 2022-08-18",
+        "author": "0xDD659911EcBD4458db07Ee7cDdeC79bf8F859AbC",
+        "end_utc": "2022-08-23T19:00:00Z",
+        "similarity_score": 0.4353,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 132867.32820350234,
+        "margin_pct": 0.9984295821967163,
+        "scores_total": 133076.31361559965,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 1308,
+        "total_votes": 1308,
+        "first_vote_at": "2022-08-18T23:02:21Z",
+        "last_vote_at": "2022-08-23T17:56:47Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            128923.91739028972,
+            65.12056936102145,
+            0.1687406964927883
+          ],
+          [
+            282.9110076037463,
+            31.371960304175197,
+            6.685432590449401
+          ],
+          [
+            3370.998566413027,
+            3.14369351694353,
+            0.13598955510331145
+          ],
+          [
+            389.90949961489616,
+            0.7720372367816222,
+            1.1787284174705381
+          ]
+        ],
+        "spike_index": 0.777135,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.00064,
+        "half_slope_diff": -1.026674
+      },
+      "raw": {
+        "id": "0x2940cd025de1f55d9156019f038d5eb850fd77c8cfc4feca206f838c94aaa1f1",
+        "title": "Risk Parameter Updates for Aave V2: 2022-08-18",
+        "author": "0xDD659911EcBD4458db07Ee7cDdeC79bf8F859AbC",
+        "body": "\n\n## Simple Summary\n\nA proposal to adjust five (5) total risk parameters, including Liquidation Threshold and Liquidation Bonus across three (3) Aave V2 assets. \n\n\n\n## Abstract\nThis proposal is a batch update of risk parameters to align with the [Moderate risk level](https://snapshot.org/#/aave.eth/proposal/QmT9T4Rfnh1Z2HYmMPXvtFotMK2vSxiXK8dKStg2b6n4gi) chosen by the Aave community. These parameter updates are a continuation of Gauntlet’s regular parameter recommendations. Our simulation engine has ingested the latest market data (outlined below) to recalibrate parameters for the Aave protocol. **Please note that this set of parameter changes will be lowering liquidation threshold for CRV.** The community has aligned on a [Risk Off Framework](https://snapshot.org/#/aave.eth/proposal/bafkreigdmcfmwvnxfolpds4xkdicgrszgmknig7pz2r2t37tltupdpyfu4) regarding lowering liquidation thresholds. \n\n\n## Motivation\n\n\nThis set of parameter updates seeks to maintain the overall risk tolerance of the protocol while making risk trade-offs between specific assets.\n\nGauntlet's parameter recommendations are driven by an optimization function that balances 3 core metrics: insolvencies, liquidations, and borrow usage. Parameter recommendations seek to optimize for this objective function. Our agent-based simulations use a wide array of varied input data that changes on a daily basis (including but not limited to asset volatility, asset correlation, asset collateral usage, DEX / CEX liquidity, trading volume, expected market impact of trades, and liquidator behavior). Gauntlet's simulations tease out complex relationships between these inputs that cannot be simply expressed as heuristics. As such, the input metrics we show below can help understand why some of the param recs have been made but should not be taken as the only reason for recommendation. The individual collateral pages on the [Gauntlet Risk Dashboard](https://gov.gauntlet.network/aave) cover other key statistics and outputs from our simulations that can help with understanding interesting inputs and results related to our simulations. \n\nFor more details, please see [Gauntlet's Parameter Recommendation Methodology](https://medium.com/gauntlet-networks/gauntlets-parameter-recommendation-methodology-8591478a0c1c) and [Gauntlet's Model Methodology](https://medium.com/gauntlet-networks/gauntlets-model-methodology-ea150ff0bafd). \n\n### Supporting Data on Aave V2\n\n**Top 30 non-recursive and partially-recursive aggregate positions**\n\n![](https://i.imgur.com/wNwliie.png)\n\n**Top 30 non-recursive and partially-recursive borrowers' entire supply**\n\n![](https://i.imgur.com/1t6xx1J.png)\n\n**Top 30 non-recursive and partially-recursive borrowers' entire borrows**\n\n![](https://i.imgur.com/AZIyE4A.png)\n\n\n\n\n\n**Top CRV non-recursive supplies and collateralization ratios:**\n\n![](https://i.imgur.com/pggzt0r.png)\n\n**Top DAI non-recursive supplies and collateralization ratios:**\n\n![](https://i.imgur.com/HBehpt2.png)\n\n**Top WBTC non-recursive supplies and collateralization ratios:**\n\n![](https://i.imgur.com/QHwW1K2.png)\n\n## Aave V2 Parameter Changes Specification\n\nGauntlet's simulation engine will continue to adjust risk parameters to maintain protocol market risk at safe levels while optimizing for capital efficiency.\n\n| Parameter | Current Value | Recommended Value |\n| -------- | -------- | -------- |\n| **CRV Liquidation Threshold**    | 64%     | ***61%***     |\n| CRV Liquidation Bonus    | 8.5%     | 8.0%     |\n| DAI Liquidation Threshold     | 85%     | 90%     |\n| WBTC Liquidation Threshold     | 75%     | 80%     |\n| WBTC Liquidation Bonus    | 6.5%     | 5.0%     |\n\n\n\n## Notable Accounts to Flag\n\nAs of 8/18/2022, the data shows that no accounts would be liquidated as a result of these parameter updates. This could change if prices move significantly. On a daily basis, up until this proposal is executed, we will check whether these parameter updates will cause any liquidations and update the community on this forum post.\n\n\n## Risk Dashboard\n\n\n\nThe community should use Gauntlet's [Aave V2 Risk Dashboard](https://gov.gauntlet.network/aave) to understand better the updated parameter suggestions and general market risk in Aave V2. Gauntlet has also launched the [Aave Arc Risk Dashboard](https://gov.gauntlet.network/aave_arc).\n\nValue at Risk represents the 95th percentile **insolvency value** that occurs from simulations we run over a range of volatilities to approximate a tail event. \n\nLiquidations at Risk represents the 95th percentile **liquidation volume** that occurs from simulations we run over a range of volatilities to approximate a tail event.\n\n### Aave V2 Dashboard\n\n![](https://i.imgur.com/pD6AJx9.png)\n\n\n\n\n\n\n\n\n\n## Next Steps\n* Targeting an AIP on 2022-08-23\n\n*By approving this proposal, you agree that any services provided by Gauntlet shall be governed by the terms of service available at gauntlet.network/tos.*\n",
+        "end_utc": "2022-08-23T19:00:00Z",
+        "similarity_score": 0.4353,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "ABSTAIN",
+            "NAY"
+          ],
+          "scores": [
+            132967.73646392126,
+            100.40826041892184,
+            8.168891259516037
+          ],
+          "scores_total": 133076.31361559965,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2022-08-23T19:00:00",
+          "pre_tvl_avg": 6591576434.0,
+          "post_tvl_avg": 6581793190.5,
+          "abnormal_change": -0.1484,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.001484,
+          "abnormal_change_pct": -0.1484
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2022-08-23T19:00:00",
+          "pre_price_avg": 87.17163704500001,
+          "post_price_avg": 88.09535181000001,
+          "abnormal_change": 1.0597,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.010597,
+          "abnormal_change_pct": 1.0597
+        }
+      }
+    },
+    {
+      "proposal_id": "0x765d1e018f32d7deb8d7b06dc55ac054f75891805a8f6befc2a8d7f497851540",
+      "cleaned": {
+        "proposal_id": "0x765d1e018f32d7deb8d7b06dc55ac054f75891805a8f6befc2a8d7f497851540",
+        "title": "Risk Parameter Updates for Aave V2: 2022-09-22",
+        "author": "0xDD659911EcBD4458db07Ee7cDdeC79bf8F859AbC",
+        "end_utc": "2022-09-27T21:00:00Z",
+        "similarity_score": 0.4272,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 272446.4845654757,
+        "margin_pct": 0.9994292917354906,
+        "scores_total": 272602.06081450486,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 2492,
+        "total_votes": 2492,
+        "first_vote_at": "2022-09-23T06:23:58Z",
+        "last_vote_at": "2022-09-27T20:58:02Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            10481.722288099012,
+            39.40107395382935,
+            2.0564128760084164
+          ],
+          [
+            393.23846711430406,
+            8.521000758543034,
+            11.315080033127913
+          ],
+          [
+            192116.68763214746,
+            14.826202131294902,
+            0.185716921743576
+          ],
+          [
+            69523.96399409526,
+            6.379539136493584,
+            3.7634072379574195
+          ]
+        ],
+        "spike_index": 0.611586,
+        "spike_follow_support_ratio": 0.999998,
+        "stairwise_ratio": 0.000269,
+        "half_slope_diff": 6.581331
+      },
+      "raw": {
+        "id": "0x765d1e018f32d7deb8d7b06dc55ac054f75891805a8f6befc2a8d7f497851540",
+        "title": "Risk Parameter Updates for Aave V2: 2022-09-22",
+        "author": "0xDD659911EcBD4458db07Ee7cDdeC79bf8F859AbC",
+        "body": "\n## Simple Summary\n\nA proposal to adjust seven (7) total risk parameters, including Liquidation Threshold and Loan To Value, across four (4) Aave V2 assets. \n\n\n\n## Abstract\n\nThis proposal is a batch update of risk parameters to align with the [Moderate risk level](https://snapshot.org/#/aave.eth/proposal/QmT9T4Rfnh1Z2HYmMPXvtFotMK2vSxiXK8dKStg2b6n4gi) chosen by the Aave community. These parameter updates are a continuation of Gauntlet’s regular parameter recommendations. Our simulation engine has ingested the latest market data (outlined below) to recalibrate parameters for the Aave protocol. The community has aligned on a [Risk Off Framework](https://snapshot.org/#/aave.eth/proposal/bafkreigdmcfmwvnxfolpds4xkdicgrszgmknig7pz2r2t37tltupdpyfu4) regarding lowering liquidation thresholds. \n\n## Motivation\n\n\nThis set of parameter updates seeks to maintain the overall risk tolerance of the protocol while making risk trade-offs between specific assets.\n\nGauntlet's parameter recommendations are driven by an optimization function that balances 3 core metrics: insolvencies, liquidations, and borrow usage. Parameter recommendations seek to optimize for this objective function. Our agent-based simulations use a wide array of varied input data that changes on a daily basis (including but not limited to asset volatility, asset correlation, asset collateral usage, DEX / CEX liquidity, trading volume, expected market impact of trades, and liquidator behavior). Gauntlet's simulations tease out complex relationships between these inputs that cannot be simply expressed as heuristics. As such, the input metrics we show below can help understand why some of the param recs have been made but should not be taken as the only reason for recommendation. The individual collateral pages on the [Gauntlet Risk Dashboard](https://gov.gauntlet.network/aave) cover other key statistics and outputs from our simulations that can help with understanding interesting inputs and results related to our simulations. \n\nFor more details, please see [Gauntlet's Parameter Recommendation Methodology](https://medium.com/gauntlet-networks/gauntlets-parameter-recommendation-methodology-8591478a0c1c) and [Gauntlet's Model Methodology](https://medium.com/gauntlet-networks/gauntlets-model-methodology-ea150ff0bafd). \n\n### Supporting Data on Aave V2\n\n**Top 30 borrowers' aggregate positions & borrow usages**\n\n![](https://i.imgur.com/M7RmBhu.png)\n\n**Top 30 borrowers' entire supply**\n\n![](https://i.imgur.com/sSePhV4.png)\n\n**Top 30 borrowers' entire borrows**\n\n![](https://i.imgur.com/VvMhK26.png)\n\n\n**Top USDC non-recursive supplies and collateralization ratios:**\n\n![](https://i.imgur.com/qYutxwQ.png)\n\n**Top WETH non-recursive supplies and collateralization ratios:**\n\n![](https://i.imgur.com/qbdHyQv.png)\n\n**Top AAVE non-recursive supplies and collateralization ratios:**\n\n![](https://i.imgur.com/tu0XhpN.png)\n\n**Top UNI non-recursive supplies and collateralization ratios:**\n\n![](https://i.imgur.com/nHis6TW.png)\n\n\n## Aave V2 Parameter Changes Specification\n\nGauntlet's simulation engine will continue to adjust risk parameters to maintain protocol market risk at safe levels while optimizing for capital efficiency.\n\n| Parameter | Current Value | Recommended Value |\n| -------- | -------- | -------- |\n| USDC Liquidation Threshold     | 88%     | 89%     |\n| USDC Loan To Value     | 85.5%     | 87%     |\n| WETH Liquidation Threshold     | 85%     | 86%     |\n| AAVE Liquidation Threshold     | 70%     | 73%     |\n| AAVE Loan To Value     | 62.5%     | 66%     |\n| UNI Liquidation Treshold       | 75%     | 77%     |\n| UNI Loan To Value       | 60%     | 65%     |\n\nAs shown in the below chart and dashboard screenshot, our simulations show that Aave can increase capital efficiency while also decreasing the risk of bad debt.\n\nThese liquidation threshold increases, assuming unit elasticity, result in a projected increase of $8.22M in total borrows across assets. The following chart breaks down the top projected borrow increases by symbol:\n\n![](https://i.imgur.com/jVqTfXL.png)\n\n\n\n\n\n## Risk Dashboard\n\nThe community should use Gauntlet's [Aave V2 Risk Dashboard](https://gov.gauntlet.network/aave) to understand better the updated parameter suggestions and general market risk in Aave V2. Gauntlet has also launched the [Aave Arc Risk Dashboard](https://gov.gauntlet.network/aave_arc).\n\nValue at Risk represents the 95th percentile **insolvency value** that occurs from simulations we run over a range of volatilities to approximate a tail event. \n\nLiquidations at Risk represents the 95th percentile **liquidation volume** that occurs from simulations we run over a range of volatilities to approximate a tail event.\n\nThese parameter changes increase borrow usage by 18 basis points, decrease VaR by $1.71M and increase LaR by $2.39M.\n\n### Aave V2 Dashboard\n\n![](https://i.imgur.com/YFSkvU3.png)\n\n\n\n\n\n\n\n\n\n## Next Steps\n* Targeting an AIP on 2022-09-27.\n\n## Quick Links\n[Analytics Dashboard](https://metabase.gauntlet.network/public/dashboard/f4930651-29be-4ff3-b664-a34462e286c5)\n[Risk Dashboard](https://gov.gauntlet.network/aave)\n[Gauntlet Parameter Recommendation Methodology](https://medium.com/gauntlet-networks/gauntlets-parameter-recommendation-methodology-8591478a0c1c)\n[Gauntlet Model Methodology](https://medium.com/gauntlet-networks/gauntlets-model-methodology-ea150ff0bafd) \n\n\n*By approving this proposal, you agree that any services provided by Gauntlet shall be governed by the terms of service available at gauntlet.network/tos.*\n\n",
+        "end_utc": "2022-09-27T21:00:00Z",
+        "similarity_score": 0.4272,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "ABSTAIN",
+            "NAY"
+          ],
+          "scores": [
+            272515.6123814559,
+            69.12781598016083,
+            17.32061706883733
+          ],
+          "scores_total": 272602.06081450486,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2022-09-27T21:00:00",
+          "pre_tvl_avg": 5573383407.0,
+          "post_tvl_avg": 5593167990.0,
+          "abnormal_change": 0.355,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.00355,
+          "abnormal_change_pct": 0.355
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2022-09-27T21:00:00",
+          "pre_price_avg": 74.99414313,
+          "post_price_avg": 75.72961002,
+          "abnormal_change": 0.9807,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.009807,
+          "abnormal_change_pct": 0.9807
+        }
+      }
+    },
+    {
+      "proposal_id": "bafkreiadrflzmxc5gipwlbyrvejvuiggsexcl7f2ha4pd3ccvgf4l4s3vm",
+      "cleaned": {
+        "proposal_id": "bafkreiadrflzmxc5gipwlbyrvejvuiggsexcl7f2ha4pd3ccvgf4l4s3vm",
+        "title": "Risk Parameter Updates for Aave V2: 2022-08-04",
+        "author": "0xDD659911EcBD4458db07Ee7cDdeC79bf8F859AbC",
+        "end_utc": "2022-08-09T16:00:00Z",
+        "similarity_score": 0.408,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 144761.6599100875,
+        "margin_pct": 0.9992778420573877,
+        "scores_total": 144866.2762420924,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 2092,
+        "total_votes": 2092,
+        "first_vote_at": "2022-08-04T23:35:27Z",
+        "last_vote_at": "2022-08-09T15:35:52Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            118132.77334302002,
+            7.660710054438908,
+            36.451275931805625
+          ],
+          [
+            26497.145220985985,
+            0.37627882611240915,
+            1.2008095241690413
+          ],
+          [
+            127.2869119831399,
+            0.3925394205440238,
+            3.6571627737495755
+          ],
+          [
+            49.875611977921196,
+            5.3444479453907325,
+            4.111929649464319
+          ]
+        ],
+        "spike_index": 0.713597,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.000764,
+        "half_slope_diff": -7.969597
+      },
+      "raw": {
+        "id": "bafkreiadrflzmxc5gipwlbyrvejvuiggsexcl7f2ha4pd3ccvgf4l4s3vm",
+        "title": "Risk Parameter Updates for Aave V2: 2022-08-04",
+        "author": "0xDD659911EcBD4458db07Ee7cDdeC79bf8F859AbC",
+        "body": "\n## Simple Summary\n\nA proposal to adjust seven (7) total risk parameters, including Liquidation Threshold and Liquidation Bonus across four (4) Aave V2 assets. \n\n\n\n## Abstract\nThis proposal is a batch update of risk parameters to align with the [Moderate risk level](https://snapshot.org/#/aave.eth/proposal/QmT9T4Rfnh1Z2HYmMPXvtFotMK2vSxiXK8dKStg2b6n4gi) chosen by the Aave community. These parameter updates are a continuation of Gauntlet’s regular parameter recommendations. Our simulation engine has ingested the latest market data (outlined below) to recalibrate parameters for the Aave protocol. **Please note that this set of parameter changes will be lowering liquidation threshold for CRV and ENJ.** The community has aligned on a [Risk Off Framework](https://snapshot.org/#/aave.eth/proposal/bafkreigdmcfmwvnxfolpds4xkdicgrszgmknig7pz2r2t37tltupdpyfu4) regarding lowering liquidation thresholds. \n\n\n\n## Motivation\n\n\nThis set of parameter updates seeks to maintain the overall risk tolerance of the protocol while making risk trade-offs between specific assets.\n\nGauntlet's parameter recommendations are driven by an optimization function that balances 3 core metrics: insolvencies, liquidations, and borrow usage. Parameter recommendations seek to optimize for this objective function. Our agent-based simulations use a wide array of varied input data that changes on a daily basis (including but not limited to asset volatility, asset correlation, asset collateral usage, DEX / CEX liquidity, trading volume, expected market impact of trades, and liquidator behavior). Gauntlet's simulations tease out complex relationships between these inputs that cannot be simply expressed as heuristics. As such, the input metrics we show below can help understand why some of the param recs have been made but should not be taken as the only reason for recommendation. The individual collateral pages on the [Gauntlet Risk Dashboard](https://gov.gauntlet.network/aave) cover other key statistics and outputs from our simulations that can help with understanding interesting inputs and results related to our simulations. \n\nFor more details, please see [Gauntlet's Parameter Recommendation Methodology](https://medium.com/gauntlet-networks/gauntlets-parameter-recommendation-methodology-8591478a0c1c) and [Gauntlet's Model Methodology](https://medium.com/gauntlet-networks/gauntlets-model-methodology-ea150ff0bafd). \n\n### Supporting Data on Aave V2\n\n\n![](https://i.imgur.com/zW3mXLO.png)\n![](https://i.imgur.com/6AnD7kE.png)\n![](https://i.imgur.com/L5VsbrR.png)\n\n\n\n\n\n\n\n\n**Top CRV non-recursive supplies and collateralization ratios:**\n\n![](https://i.imgur.com/8RwGtti.png)\n\n**Top DAI non-recursive supplies and collateralization ratios:**\n\n![](https://i.imgur.com/Xo6pCby.png)\n\n**Top ENJ non-recursive supplies and collateralization ratios:**\n\n![](https://i.imgur.com/3SOtHAm.png)\n\n**Top LINK non-recursive supplies and collateralization ratios:**\n\n![](https://i.imgur.com/5wxtQRV.png)\n\n## Aave V2 Parameter Changes Specification\n\nGauntlet's simulation engine will continue to adjust risk parameters to maintain protocol market risk at safe levels while optimizing for capital efficiency.\n\n\n| Parameter | Current Value | Recommended Value |\n| -------- | -------- | -------- |\n| **CRV Liquidation Threshold**    | 65%     | ***64%***     |\n| DAI Liquidation Threshold     | 80%     | 85%     |\n| DAI Liquidation Bonus    | 5.0%     | 4.0%     |\n| **ENJ Liquidation Threshold**     | 70%     | ***67%***     |\n| ENJ Liquidation Bonus    | 6.5%     | 6.0%     |\n| LINK Liquidation Threshold     | 78%     | 83%     |\n| LINK Liquidation Bonus    | 6.3%     | 7.0%     |\n\n\nSee below volatility and exchange volume data from 07/01 to 08/03. These are valuable metrics to build intuition but are not the only inputs our simulations take into account to make parameter recommendations. \n\n|Symbol| 08-03 Volatility| 07-01 Volatility| Volatility Change| Weekly Average Daily Volume Change (%)  |\n| ------ | ---------------- | --------------- | ----------------- | ----------- |\n| CRV   | \t  1.47619713      |  1.778618025  | \t\t-0.302420895   |  77.315888   |\n| DAI    |  \t0.039068386     |   0.259962179   | \t-0.220893793    |  -50.4644256 |\n| ENJ    |   1.148617699     |  1.452206402      | -0.303588703|  \t25.9940047  |\n| LINK    |   0.910394357     |  1.650882468      | -0.740488111  |  \t23.1053197  |\n\n\n## Notable Accounts to Flag\n\nAs of 8/3/2022, the data shows that no accounts would be liquidated as a result of these parameter updates. This could change if prices move significantly. On a daily basis, up until this proposal is executed, we will check whether these parameter updates will cause any liquidations and update the community on the forum post.\n\n\n\n\n## Risk Dashboard\n\n\n\nThe community should use Gauntlet's [Aave V2 Risk Dashboard](https://gov.gauntlet.network/aave) to understand better the updated parameter suggestions and general market risk in Aave V2. Gauntlet has also launched the [Aave Arc Risk Dashboard](https://gov.gauntlet.network/aave_arc).\n\nValue at Risk represents the 95th percentile **insolvency value** that occurs from simulations we run over a range of volatilities to approximate a tail event. \n\nLiquidations at Risk represents the 95th percentile **liquidation volume** that occurs from simulations we run over a range of volatilities to approximate a tail event.\n\n### Aave V2 Dashboard\n\n\n\n![](https://i.imgur.com/KkfStOO.png)\n\n\n\n\n\n\n\n\n\n## Next Steps\n* Targeting an AIP on 2022-08-09\n\n*By approving this proposal, you agree that any services provided by Gauntlet shall be governed by the terms of service available at gauntlet.network/tos.*\n\n",
+        "end_utc": "2022-08-09T16:00:00Z",
+        "similarity_score": 0.408,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "NAY",
+            "ABSTAIN"
+          ],
+          "scores": [
+            144807.08108796668,
+            13.77397624648608,
+            45.421177879188555
+          ],
+          "scores_total": 144866.2762420924,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2022-08-09T16:00:00",
+          "pre_tvl_avg": 6901625210.0,
+          "post_tvl_avg": 7392407331.0,
+          "abnormal_change": 7.1111,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.071111,
+          "abnormal_change_pct": 7.1111
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2022-08-09T16:00:00",
+          "pre_price_avg": 101.92848065000001,
+          "post_price_avg": 111.28995551,
+          "abnormal_change": 9.1844,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.091844,
+          "abnormal_change_pct": 9.1844
+        }
+      }
+    },
+    {
+      "proposal_id": "QmZvNZLEvpEvrmaKkzKUxUvpadT9rZHN4uSkKxzEuUnFSb",
+      "cleaned": {
+        "proposal_id": "QmZvNZLEvpEvrmaKkzKUxUvpadT9rZHN4uSkKxzEuUnFSb",
+        "title": "ARC: Risk Parameter Updates for Aave V2 and Aave Arc (Fireblocks) 2022-05-26",
+        "author": "0xDD659911EcBD4458db07Ee7cDdeC79bf8F859AbC",
+        "end_utc": "2022-06-01T03:00:00Z",
+        "similarity_score": 0.3771,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 101439.85491364839,
+        "margin_pct": 0.999830422905383,
+        "scores_total": 101457.0597070619,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 1522,
+        "total_votes": 1522,
+        "first_vote_at": "2022-05-26T22:16:36Z",
+        "last_vote_at": "2022-06-01T02:32:28Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            11363.314074022355,
+            0.5501919001507681,
+            0.002
+          ],
+          [
+            178.45452043865274,
+            0.2731794509161278,
+            0.0
+          ],
+          [
+            638.4237333630733,
+            7.700537770864572,
+            0.0
+          ],
+          [
+            89268.23149494614,
+            0.045,
+            0.06497516963649817
+          ]
+        ],
+        "spike_index": 0.862983,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.00046,
+        "half_slope_diff": -0.345808
+      },
+      "raw": {
+        "id": "QmZvNZLEvpEvrmaKkzKUxUvpadT9rZHN4uSkKxzEuUnFSb",
+        "title": "ARC: Risk Parameter Updates for Aave V2 and Aave Arc (Fireblocks) 2022-05-26",
+        "author": "0xDD659911EcBD4458db07Ee7cDdeC79bf8F859AbC",
+        "body": "## Simple Summary\n\nA proposal to adjust nine (9) total risk parameters, including LTV, Liquidation Threshold, and Liquidation Bonus across three (3) Aave V2 assets. \n\nIn addition, this ARC proposes adjusting two (2) total risk parameters, including LTV and Liquidation Threshold, across one (1) Aave Arc (Fireblocks) asset.\n\n## Abstract\nThis proposal is a batch update of risk parameters to align with the [Moderate risk level](https://snapshot.org/#/aave.eth/proposal/QmT9T4Rfnh1Z2HYmMPXvtFotMK2vSxiXK8dKStg2b6n4gi) chosen by the Aave community. These parameter updates are a continuation of Gauntlet’s regular parameter recommendations. Following the recent market crash, our simulation engine has ingested the latest market data (outlined below) to recalibrate parameters for the Aave protocol. **Please note that this set of parameter changes will be lowering liquidation threshold for LINK and WETH.** \n\nThese parameter updates also represent Gauntlet's first set of parameter updates for the Aave Arc market.\n\n\n## Motivation\n\n\nThis set of parameter updates seeks to maintain the overall risk tolerance of the protocol while making risk trade-offs between specific assets.\n\nGauntlet's parameter recommendations are driven by an optimization function that balances 3 core metrics: insolvencies, liquidations, and borrow usage. Parameter recommendations seek to optimize for this objective function. Our agent-based simulations use a wide array of varied input data that changes on a daily basis (including but not limited to asset volatility, asset correlation, asset collateral usage, DEX / CEX liquidity, trading volume, expected market impact of trades, and liquidator behavior). Gauntlet's simulations tease out complex relationships between these inputs that cannot be simply expressed as heuristics. As such, the input metrics we show below can help understand why some of the param recs have been made but should not be taken as the only reason for recommendation. The individual collateral pages on the [Gauntlet Risk Dashboard](https://gov.gauntlet.network/aave) cover other key statistics and outputs from our simulations that can help with understanding interesting inputs and results related to our simulations. \n\nFor more details, please see [Gauntlet's Parameter Recommendation Methodology](https://medium.com/gauntlet-networks/gauntlets-parameter-recommendation-methodology-8591478a0c1c) and [Gauntlet's Model Methodology](https://medium.com/gauntlet-networks/gauntlets-model-methodology-ea150ff0bafd). \n\n### Supporting Data on Aave V2\n\n![](https://i.imgur.com/HQ5c5T0.png)\n![](https://i.imgur.com/Sr4q4Mh.png)\n![](https://i.imgur.com/I90tK6y.png)\n\n\n\n\n\n\n**Top LINK non-recursive supplies and collateralization ratios:**\n\n![](https://i.imgur.com/Zx0G68o.png)\n\n**Top WBTC non-recursive supplies and collateralization ratios:**\n\n![](https://i.imgur.com/yAclipo.png)\n\n**Top WETH non-recursive supplies and collateralization ratios:**\n\n![](https://i.imgur.com/r7KX1HS.png)\n\n## Aave V2 Parameter Changes Specification\n\nOur recent [market downturn report](https://governance.aave.com/t/market-risk-monthly-february-2022-updates-and-review/7476) showed that many collaterals are resilient to insolvencies, as our simulation models have predicted. Gauntlet's simulation engine will continue to adjust risk parameters to drive increases in capital efficiency while maintaining protocol risk at safe levels. \n\n\n| Parameter | Current Value | Recommended Value |\n| -------- | -------- | -------- |\n| LINK Loan To Value     | 70%     | 67%     |\n| LINK Liquidation Bonus    | 6.3%     | 5.0%     |\n| **LINK Liquidation Threshold**     | 78%     | ***75%***     |\n| WBTC Loan To Value     | 70%     | 69%     |\n| WBTC Liquidation Bonus    | 6.5%     | 5.0%     |\n| WBTC Liquidation Threshold     | 75%     | 76%     |\n| WETH Loan To Value     | 82.5%     | 81%     |\n| WETH Liquidation Bonus    | 5.0%     | 4.0%     |\n| **WETH Liquidation Threshold**     | 85%     | ***83%***     |\n\n\n\nSee below volatility and exchange volume data from 05/13 to 05/26. These are valuable metrics to build intuition but are not the only inputs our simulations take into account to make parameter recommendations. \n\n|Symbol| 05-26 Volatility| 05-13 Volatility| Volatility Change| Weekly Average Daily Volume Change (%)  |\n| ------ | ---------------- | --------------- | ----------------- | ----------- |\n| LINK   | \t  1.560317105       |  1.407103695  | \t0.15321341   |  -67.2106437    |\n| WBTC    |  \t0.855923268     |   0.823403106    | \t0.032520162    |  -64.0842057 |\n| WETH    |   0.90963415     |  0.832421096      | 0.077213054  |  \t-69.59337  |\n\n## Aave Arc (Fireblocks) Parameter Changes Specification\n\nOur simulation platform indicates that increasing the capital efficiency of USDC collateral does not meaningfully increase the risk of insolvencies. Note that, on our dashboard, the Value at Risk (VaR) metric for Aave Arc is currently $0. This low risk of insolvencies is reflective of the fact that the majority of borrowing on the platform is collateralized by the same asset as the assets being borrowed. As lending market usage grows, our platform will continue to ingest up-to-date data, re-run risk simulations, and make future parameter change recommendations.\n\n| Parameter | Current Value | Recommended Value |\n| -------- | -------- | -------- |\n| USDC Loan To Value     | 85.5%     | 87.5%     |\n| USDC Liquidation Threshold     | 88%     | 90%     |\n\n\n\n\n## Risk Dashboard\n\n\n\nThe community should use Gauntlet's [Aave V2 Risk Dashboard](https://gov.gauntlet.network/aave) to understand better the updated parameter suggestions and general market risk in Aave V2. Gauntlet has also launched the [Aave Arc Risk Dashboard](https://gov.gauntlet.network/aave_arc).\n\nValue at Risk represents the 95th percentile **insolvency value** that occurs from simulations we run over a range of volatilities to approximate a tail event. \n\nLiquidations at Risk represents the 95th percentile **liquidation volume** that occurs from simulations we run over a range of volatilities to approximate a tail event.\n\n### Aave V2 Dashboard\n\n![](https://i.imgur.com/Vdil33O.png)\n\n\n\n\n\n\n\n\n## Next Steps\n* Targeting an AIP on 2022-05-31\n\n*By approving this proposal, you agree that any services provided by Gauntlet shall be governed by the terms of service available at gauntlet.network/tos.*\n\n",
+        "end_utc": "2022-06-01T03:00:00Z",
+        "similarity_score": 0.3771,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "ABSTAIN",
+            "NAY"
+          ],
+          "scores": [
+            101448.42382277032,
+            8.568909121931467,
+            0.06697516963649817
+          ],
+          "scores_total": 101457.0597070619,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2022-06-01T03:00:00",
+          "pre_tvl_avg": 9736732320.5,
+          "post_tvl_avg": 9578559064.0,
+          "abnormal_change": -1.6245,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.016245,
+          "abnormal_change_pct": -1.6245
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2022-06-01T03:00:00",
+          "pre_price_avg": 115.2358341,
+          "post_price_avg": 106.93852347500001,
+          "abnormal_change": -7.2003,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.072003,
+          "abnormal_change_pct": -7.2003
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0xaca5b7e014d4e752ce5ff0d0a1b1d9bf86496338d1ec53bfb0132810535f6db8",
+    "selected_choice_label": "YAE",
+    "selected_choice_index": 0,
+    "confidence": 0.99,
+    "summary": "Proposal to set a supply cap of 100,000 AAVE tokens on Aave V3 Optimism to reduce tail risk and prevent excessive concentration risk, with strong vote and timeline support favoring approval.",
+    "key_arguments_for": [
+      "Setting the supply cap reduces risk from large positions that could spike Value at Risk (VaR).",
+      "A supply cap helps mitigate risk from market downturns and price manipulation attacks involving AAVE tokens.",
+      "The current absence of a cap poses outsized risk; a cap is necessary for prudent risk management.",
+      "Gauntlet's analysis supports a 100,000 cap assuming cross-chain liquidity bridging, which enables market growth.",
+      "Forum sentiment includes support from community members highlighting the necessity of some cap vs none."
+    ],
+    "key_arguments_against": [
+      "Chaos Labs recommends a more conservative cap of 14,000 AAVE based on current Optimism liquidity and risk from a single large position.",
+      "The 100,000 cap may overestimate available liquidity and risk appetite, potentially allowing excessive risk exposure.",
+      "The proposed cap could freeze market growth if liquidity assumptions prove optimistic.",
+      "Some forum participants urge more transparent data sharing and risk manager collaboration before deciding."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://governance.aave.com/t/arc-risk-parameter-updates-for-aave-v3-optimism-2022-12-29/11213/1",
+        "quote": "Proposal aims to set supply cap at 100,000 AAVE on Optimism to reduce risk. Chaos Labs proposes 14,000 cap due to liquidity concerns. Community discussion weighs pros and cons."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": null,
+        "quote": "Timeline metrics show near unanimous early and sustained support for YAE option with high stability and lead ratios across voting quartiles."
+      },
+      {
+        "source_tool": "govnews_search_governance_news",
+        "reference": null,
+        "quote": "Price impact +4.59% and TVL impact +1.77% post-proposal indicate market positive reception to the parameter update."
+      }
+    ],
+    "available_choices": [
+      "YAE",
+      "ABSTAIN",
+      "NAE"
+    ],
+    "event_start_utc": "2022-12-29T22:03:36Z",
+    "event_end_utc": "2023-01-02T17:00:00Z",
+    "event_time_utc": "2023-01-02T17:00:00Z",
+    "address_of_governance_token": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+    "token_price_impact_pct": 4.5881,
+    "tvl_impact_pct": 1.7691,
+    "actual_vote_result": {
+      "winner_label": "YAE",
+      "winner_index": 0,
+      "scores": [
+        379216.51465081936,
+        11.705290350723056,
+        80005.14546045699
+      ],
+      "scores_total": 459233.3654016271,
+      "margin_abs": 299211.3691903624,
+      "margin_pct": 0.651545
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'YAE' selected with stance to keep 'Change'.",
+    "ai_final_reason": "• Timeline analysis shows overwhelming early and stable support for the 'YAE' (Yes) option with a near 100% lead ratio and strong vote participation.\n• Forum discussion presents mixed sentiment, with 3 positive, 4 negative, and 1 neutral comments; initial comments highlight key rationales for and against the proposal, reflecting community division but leaning towards cautious approval.\n• Market impacts post-proposal indicate positive token price and TVL responses, suggesting confidence in the change.\n• Historical adjacent proposal on risk parameter updates had similarly strong consensus and yielded a stable outcome, supporting cautious parameter updates.\n• The recommendation aligns with forum sentiment favoring risk reduction through supply caps, though it acknowledges concerns about liquidity assumptions; the decision prioritizes protocol safety and risk mitigation, overriding lower liquidity conservative proposals.\n• Overall, the recommendation to 'Change' by approving the 100,000 supply cap best balances risk management and market growth potential, mirroring majority sentiment while considering minority caution.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x6def87c35510ef55466c104e4e28fb3ed4da5d42ae78334d0855f5ca070af428",
+        "title": " [ARC] Risk Parameter Updates for Aave V2 ETH 2022-11-17",
+        "end_utc": "2022-11-21T14:00:00Z",
+        "summary": " [ARC] Risk Parameter Updates for Aave V2 ETH 2022-11-17 closed on 2022-11-21T14:00:00Z. Timeline analytics noted 4502 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Moderate text overlap (score 0.27)",
+        "market_response": "token -0.51%; TVL -10.84%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 4.5881,
+    "ex_post_tvl_impact_pct": 1.7691,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +4.59%; TVL +1.77%"
+  },
+  "agentic_ai_choice": "YAE",
+  "actual_outcome": "YAE",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 4,
+    "Positive": 3,
+    "Neutral": 1,
+    "total_comments": 8
+  }
+}

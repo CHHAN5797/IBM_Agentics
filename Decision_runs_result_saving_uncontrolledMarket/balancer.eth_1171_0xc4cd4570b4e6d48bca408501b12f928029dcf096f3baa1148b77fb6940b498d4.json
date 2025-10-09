@@ -1,0 +1,1147 @@
+{
+  "captured_at_utc": "2025-10-08T21:00:05.216120+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0xc4cd4570b4e6d48bca408501b12f928029dcf096f3baa1148b77fb6940b498d4",
+  "focus": null,
+  "votes_count": 4,
+  "timeline_metrics_current": {
+    "unique_voters": 4,
+    "total_votes": 4,
+    "first_vote_at": "2025-02-14T12:17:26Z",
+    "last_vote_at": "2025-02-17T08:37:40Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        362585.086301961,
+        0.0,
+        0.0
+      ],
+      [
+        0.06143238513903967,
+        0.0,
+        613.4078013237774
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        2363610.916453463,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.867,
+    "spike_follow_support_ratio": 0.0,
+    "stairwise_ratio": 0.133,
+    "half_slope_diff": 15.313518
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x3d39e0c869368fc202c1be5a289432d6d4b666050028f0773b946a0162953959",
+      "title": "[BIP-774] Initial Gauges on Arbitrum and Base",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-02-10T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 4,
+        "total_votes": 4,
+        "first_vote_at": "2025-02-07T18:50:33Z",
+        "last_vote_at": "2025-02-10T17:43:38Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.06810283485988088,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2554638.0944370986,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.929679,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.070321,
+        "half_slope_diff": -10.224491
+      },
+      "price_impact_pct": 4.8904,
+      "tvl_impact_pct": -2.2386,
+      "similarity": 0.0564,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2554638.1625399333,
+        "scores_total": 2554638.1625399333,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0x101ed27e3f033b5704971cf17ef0c4370099cee9316967e88d7e0c9632f6abb1",
+      "title": "[BIP-773] Enable Gauge for dvstETH wstETH [Ethereum]",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-02-10T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 4,
+        "total_votes": 4,
+        "first_vote_at": "2025-02-07T18:50:16Z",
+        "last_vote_at": "2025-02-10T17:44:28Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.06810374384689712,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2554010.3729974907,
+            0.0,
+            624.3354379710761
+          ]
+        ],
+        "spike_index": 0.929906,
+        "spike_follow_support_ratio": 0.996525,
+        "stairwise_ratio": 0.070094,
+        "half_slope_diff": 10.142245
+      },
+      "price_impact_pct": 4.8904,
+      "tvl_impact_pct": -2.2386,
+      "similarity": 0.0846,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2553386.1056632632,
+        "scores_total": 2554634.7765392056,
+        "margin_pct": 0.9995112135451182
+      }
+    },
+    {
+      "id": "0x065351bbfa19f5b4b3b8cb2d732a9809adeee6e424c9ede6815854a0dab9caeb",
+      "title": "[BIP-772] Enable Boosted GHO/PYUSD on Balancer v3",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-02-03T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 6,
+        "total_votes": 6,
+        "first_vote_at": "2025-01-30T22:46:44Z",
+        "last_vote_at": "2025-02-03T18:43:07Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            346173.323556492,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            183017.51428206303,
+            0.0,
+            0.0
+          ],
+          [
+            2476495.06992025,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.787166,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.212834,
+        "half_slope_diff": -2.221182
+      },
+      "price_impact_pct": -13.2932,
+      "tvl_impact_pct": -13.9951,
+      "similarity": 0.0603,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 3005685.907758805,
+        "scores_total": 3005685.907758805,
+        "margin_pct": 1.0
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x58e317ba908ee8e75bf0c32c7b45eccdefa948ba46d00b112508fc9783a40cdc",
+      "cleaned": {
+        "proposal_id": "0x58e317ba908ee8e75bf0c32c7b45eccdefa948ba46d00b112508fc9783a40cdc",
+        "title": "[BIP-545] Funding Hypernative Security Program for Balancer",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2024-02-19T19:00:00Z",
+        "similarity_score": 0.5419,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3557397.993114499,
+        "margin_pct": 0.9999999976758415,
+        "scores_total": 3557398.0013824557,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 34,
+        "total_votes": 34,
+        "first_vote_at": "2024-02-15T22:09:09Z",
+        "last_vote_at": "2024-02-19T17:58:40Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1393.9345749099805,
+            0.0,
+            0.0
+          ],
+          [
+            645825.4302551453,
+            0.0,
+            0.0
+          ],
+          [
+            473.671474550354,
+            0.0,
+            0.0
+          ],
+          [
+            2909704.9650778496,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.815538,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.003096,
+        "half_slope_diff": 775.077349
+      },
+      "raw": {
+        "id": "0x58e317ba908ee8e75bf0c32c7b45eccdefa948ba46d00b112508fc9783a40cdc",
+        "title": "[BIP-545] Funding Hypernative Security Program for Balancer",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/794\n\n**Service Provider Name:** Hypernative\n\n **Leader(s):** Gal Sagie, Dan Caspi, Andrey Dulkin, Vazi\n\n**Pledge to abide by the DAO's [Code of Conduct](https://www.notion.so/balancergrants/Code-of-Conduct-fef15e2ed1f5453f8bd56f338c70bb88) (or link to your own):**  Yes\n\n**Pledge to abide by the [Accountability Guidelines](https://www.notion.so/balancergrants/Accountability-Guidelines-229d93372403415688f8d3dc4cb964b1):** Yes\n\n**Domains of Operation:** Web3 Security, InfoSec/OpSec and on/off chain security\n\n**Key Objectives & Success Metrics:** \n\n### Summary\n\nThe proposal aims to extend Hypernative's security advisory services to Balancer DAO and provide additional Hypernative platform monitoring features, with a focus on enhancing protocol resiliency, strengthening security operations, and reducing the risk of hacks, exploits, fund losses, and catastrophic events, all while fostering long-term sustainable growth.\n\nBuilding on the work accomplished over the past three months, this proposal will prioritize the following components:\n\n1. Improve and enhance the findings based on Hypernative security assessment and report to create more guardrails and monitoring of risks\n      a. Continuous re-asses and help consult on any operational security aspects\n2. Build and deploy an incident response plan and operate as needed\n3. Deploy frontend monitoring\n4. Deploy on-chain monitoring\n\nThe component full description, deliverables, and planned timeline are specified within each component below.\n\nA quarterly report will be submitted to the DAO to outline the outcomes of each quarter and to present plans for the next quarter\n\nThe request is to approve a $60,000 USDC yearly budget paid quarterly. for the following sections as a unified package \n\n### Results\n\nOver the past 3 months Hypernative acted as a security advisor to Balancer DAO, and provided a threat assessment report across the below verticals:\n\n1. DeFi Safety Report:\n\n  1. The team assessed the main weaknesses identified in the latest DeFiSafety report. Reviewed and provided recommendations where needed in the following categories:\n     1.Team responsiveness\n     2. Audit matrix applicability\n     3. Protocol Architecture Documentation\n     4. Signing Policy\n    Monitoring\n\n2. Monitoring & Prevention - mapped the current monitoring and prevention solutions used for on-chain monitoring, infrastructure, multisig monitoring, and frontend monitoring.\n3. Emergency Procedures - reviewed and provided recommendations for emergency procedures, including permissions and response guidelines.\n4. Access Controls- mapped each permission and its owner, including multisig/permissioned calls, DNS, and frontend.\n5. GitHub - mapped architecture, contracts, deployment flow, organization review (using admin permissions) and roles.\n6. AWS - mapped organization review using admin permissions\n7. Socials- reviewed Balancer Discord and Twitter configurations, member permissions, and security setup and provided recommendations and best practices to enhance security and achieve a higher level of security\n8. Signing Policy - reviewed multisig management, multisig roles, the structure for executing proposals, and provided best practices recommendations.\n9. Incident Response- suggested various incident response plans and workflows, including:\n\n  1. Assigning relevant stakeholders for internal incident handling plans.\n  2. Developing incident response plan playbooks for different types of incidents.\n\n### Proposal\n\nThe Proposal Motivation\n\nThere are many security tasks, processes and incident handling that need to be augmented in a protocol like Balancer.\n\nThe idea of this proposal is to provide a virtual CISO (Chief Information security officer) services to augment Balancer infosec and on-chain/off-chain security postures by leveraging Hypernative in-house expertise and network of connections.\n\nThe proposal will outline the responsibilities addressed and handled which will be organized and advised by Hypernative but carried and implemented fully by a combination of Hypernative and the DAO.\n\n### Balancer + Hypernative\n\nHypernative team has been an instrumental helper in the last security incidents that Balancer has undergone, both from helping with automated tracking of the hacks and stolen funds movement, communication with external entities like exchanges/Chainalysis and helping with the war room and bringing the relevant help to the table.\n\nWe believe that Balancer and Hypernative can together create a new standard of security program that will emphasize the DAO commitment for its users and the security of their funds.\n\nThe Proposal Details\n\n1. #### Continue Hypernative operational security advisory plan\n\n*  Fix and enhance the findings based on Hypernative security assessment and report per need\n*  Continuously re-asses and help to analyze operational security posture and provide real time help with any needed task to create more guardrails and monitoring for operational risks\n*  Hypernative will manage the backlog of open risks findings in secured shared space with the relevant BLabs teams and will track the resolution of the risk or the roadmap/planning\n\n    1. Including providing suggestions of possible fixes\n\n**Deliverable**: Harden infrastructure based on risk findings and provide continuous support for new security operations, suggestions and vendor assessments\n**Dependencies**: BLabs\n**Timeline**: Starts after approval\n**Standalone Price** : $15,000 USDC yearly\n\n2. #### Build and deploy incident response plan and operate it on a per need basis\n\nOffer:\n\n* Identify root cause(s) and suggest remedies / repairs and communication\n* War room management and connection with community volunteering help and Balancer team members\n* Connection to and management of vendors and network of contacts (Circle, Bridges, Chainalysis, Chain security teams, etc) to help with recovery of stolen funds and post incident help to the DAO\n* Community communications and post mortem\n* Creating best practices based on historical incidents and create playbooks with the learning\n\n\n**Deliverable**: Build an internal incident handling plan and assign relevant stakeholders. Provide real-time support to the Balancer team during any incident. Balancer team members will be needed to allocate time and focus to ensure the successful implementation of the incident response plan.\n**Dependencies**: BLabs and Eco-Council\n**Time**: The proposal includes a time bank of 160 hours across the year as needed + $200 hourly rate for any additional hours per need\n**Timeline**: Starts after approval\n**Standalone Price**: $10,000 USDC yearly\n\n3. #### Frontend monitoring:\n\nOffer:\n\n* Detect Web application security incidents like DNS hijacks, DNS provider compromises, compromised plugins and backends\n* Provide real time alerts on any suspicious change to the web application\n* Related examples that could have been early detected using the suggested frontend monitoring:\n  * Balancer DNS attack, September, 2023\n  * Ledger Connect compromised javascript library, December 2023\n  * Velodrome DNS attacks, November and December 2023\n  * Trader Joe’s compromised plugins attack, November 2023\n  * BadgerDAO\n  * Convex Finance\n\n**Deliverable** : Deploy frontend monitoring to prevent the Balancer web app from frontend attacks and create specific tests for Balancer front end application\n**Dependencies**: Hypernative will own development process completely and will agree with BLabs frontend team on mitigation processes\n**Timeline**: Service year start upon request from BLabs when V3 frontend is ready\n**Standalone Price** : $15,000 USDC\n\n---\n\n\n4. #### On-Chain monitoring and prevention automation\n\nOffer:\n\n* Reviewing security framework and response procedure, assigning a\n\ncontact person for various events\n\n* Set standard operational procedure (response & contact points) on category of events and time-sensitivity for any security or operational case\n* Balancer V3 - understand and create pre-incident measures to mitigate risk and react in time (pause contracts, limit/cap protocol, blacklist addresses, move funds to a safe/vault for emergency etc.)\n\n* Protocol Security Alerts\n  * Leverage Hypernative zero-day detection modules to detect threat and alert in real time on security incidents related to or directed at Balancer contracts\n* Multisig monitoring\n\n* Monitor ownership changes for the multisig\n* Monitor multisig configuration changes\n* Monitor for transactions initiated in the Safe - upon initiation, prior to execution\n* monitoring for every transaction executed using the DAO Multisig\n\n* Monitor protocol treasury and wallets\n\n* Monitor large transfers or movements of funds from protocol treasury\n\n* Governance monitoring\n  * Monitor Governance token holders\n\n* Monitor government token transfers\n* Alert on governance token concentration\n\n* Governance proposal review\n  * Review proposals from security point of view and add relevant alerts\n\n* Phishing and Scamming Detection\n  * On-chain detection\n\n* Detect phishing campaigns targeted at Balancer token holders and provide alerts to warn the community\n\n* Monitor Balancer Ecosystem Projects\n\n* Use Hypernative system to model specific monitoring for Balancer based projects\n* Provide ecosystem-wide threat intelligence to detect and respond to any malicious activity on ecosystem projects, including hacks, exploits, phishing, scams, and rug pulls.\n\n\n**Deliverable**: Deploy Hypernative on-chain monitoring and prevention platform, all the above features are supported as part of the platform already.\nHypernative team will create security playbook plans with the BLabs team to define the reaction’s (automated or manual) for any of the above mentioned risks\n**Dependencies**: BLabs and Eco-Council\n**Timeline**: Service year start upon V3 ready and BLabs notification\n**Standalone Price**: $45,000 USDC yearly\n\n---\n\nAbout Hypernative\n\nHypernative actively detects and responds to zero-day cyber attacks, financial risks, on-chain anomalies, and safeguards digital assets, protocols, and Web3 applications from significant threats and losses.\n\nHypernative today works with some of the leading crypto organizations (Polygon, Starknet, Zetachain, Linea, Circle, Galaxy, OlympusDAO, Karpatkey DAO, Chainalysis to name a few and many others)\n\nHypernative is an active participant in many crypto security organizations and committees geared towards helping projects and the industry as a whole to create new security solutions and standards.\n\nHypernative team is well experienced in crypto and cyber security with 10’s of years of combined experience from companies like: Microsoft, IBM, Google, VMware, CyberArk, ChainReaction, Orbs, Intel and others.\n\nhttps://twitter.com/RDNTCapital/status/1743061594698104982\nhttps://twitter.com/mwilliammyers/status/1745356262567739485\nhttps://twitter.com/DeusDao/status/1661751727228596226\nhttps://blog.hundred.finance/15-04-23-hundred-finance-hack-post-mortem-d895b618cf33\nhttps://mirror.xyz/bonqdaoblog.eth/Mq4qgNieUi-ytphYzPU-lWY_E1J2F7STq_xlCR3qGsE\nhttps://twitter.com/senamakel/status/1610953131252416513\nhttps://twitter.com/Palmswaporg/status/1684902587303104512\nhttps://twitter.com/jaypeggerz/status/1608395021031723010\nhttps://twitter.com/0xGreg_/status/1608418111887396864\nhttps://twitter.com/SocketDotTech/status/1749734794320363802\nhttps://twitter.com/XaveFinance/status/1579735814824931329\nhttps://www.coinage.media/s2/he-stole-200-million-he-gave-it-back-now-hes-ready-to-explain-why\n\n\n**Length of Engagement & Budget:** \nTotal of $60,000 USDC for a year on all sections combined\nSections 1 and 2 start immediatley after approval for a year\nSections 3 and 4 start after an agreed notice from BLabs team close to V3 alpha\n\n**ETH Address to Receive Funds:** 0x5CA24e2A586834A7B96216D68b26A82405e3DC15\n\n**Link to SLA (if going through the Foundation:** Will be shared after approval of this proposal\n\n\nIf accepted, the Balancer DAO multisig 0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f will interact with USDC 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 by writing transfer passing the address 0x5CA24e2A586834A7B96216D68b26A82405e3DC15 as recipient and amount 60000000000 to transfer 60000 USDC to the Hypernative ETH mainnet wallet address",
+        "end_utc": "2024-02-19T19:00:00Z",
+        "similarity_score": 0.5419,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3557397.9972484773,
+            0.004133978351220774,
+            0
+          ],
+          "scores_total": 3557398.0013824557,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-02-19T19:00:00",
+          "pre_tvl_avg": 1062960440.0,
+          "post_tvl_avg": 1132159858.5,
+          "abnormal_change": 6.5101,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.065101,
+          "abnormal_change_pct": 6.5101
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-02-19T19:00:00",
+          "pre_price_avg": 4.113616855,
+          "post_price_avg": 4.219916445,
+          "abnormal_change": 2.5841,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.025841,
+          "abnormal_change_pct": 2.5841
+        }
+      }
+    },
+    {
+      "proposal_id": "0xd28b9b597ee87c9842153d9dc0961325798f48369f3d6029f7ae588f45a06d95",
+      "cleaned": {
+        "proposal_id": "0xd28b9b597ee87c9842153d9dc0961325798f48369f3d6029f7ae588f45a06d95",
+        "title": "[BIP-456] - Funding Hypernative as Balancer Security Advisor",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-10-23T18:00:00Z",
+        "similarity_score": 0.2997,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2925022.09518171,
+        "margin_pct": 0.7842566382398786,
+        "scores_total": 3729674.640365672,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 60,
+        "total_votes": 60,
+        "first_vote_at": "2023-10-19T18:41:33Z",
+        "last_vote_at": "2023-10-23T14:08:09Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.962963,
+            0.037037,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9833333333333333,
+          0.016666666666666666,
+          0.0
+        ],
+        "stability": [
+          0.9833333333333333,
+          0.016666666666666666,
+          0.0
+        ],
+        "early_ratio": [
+          0.9629629629629629,
+          0.037037037037037035,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            61470.50901061694,
+            0.002766283750473523,
+            0.0
+          ],
+          [
+            6.649105853485887,
+            0.0,
+            0.0
+          ],
+          [
+            5349.58492573681,
+            0.0,
+            0.0
+          ],
+          [
+            3260521.683358728,
+            0.0,
+            402326.21119845274
+          ]
+        ],
+        "spike_index": 0.963724,
+        "spike_follow_support_ratio": 0.118095,
+        "stairwise_ratio": 4e-06,
+        "half_slope_diff": 39.532592
+      },
+      "raw": {
+        "id": "0xd28b9b597ee87c9842153d9dc0961325798f48369f3d6029f7ae588f45a06d95",
+        "title": "[BIP-456] - Funding Hypernative as Balancer Security Advisor",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/573\n\n**Service Provider Name:** Hypernative\n\n **Leader(s):** Gal Sagie, Dan Caspi, Andrey Dulkin\n\n**Pledge to abide by the DAO's [Code of Conduct](https://www.notion.so/balancergrants/Code-of-Conduct-fef15e2ed1f5453f8bd56f338c70bb88) (or link to your own):**  Yes\n\n**Pledge to abide by the [Accountability Guidelines](https://www.notion.so/balancergrants/Accountability-Guidelines-229d93372403415688f8d3dc4cb964b1):** Yes\n\n**Domains of Operation:**\nWeb3 Security, InfoSec/OpSec and on/off chain security\n \n**Key Objectives & Success Metrics:** \n\n***Summary***\n\nWe propose the introduction of Hypernative as a security advisor to Balancer DAO, Hypernative will leverage its in-house expertise to provide a full security risk and threat assessment to Balancer infrastructure, processes, on and off chain postures, devices, supply chain, 3rd-parties and more.\n\nThe initial assessment will follow a continuous support for all things Security as advised below including incident response, vendor assessment / interaction and others on an hourly rate as deemed and needed by the DAO and its teams.\n\n***The Proposal Motivation***\n\nThere are many security tasks, processes and incident handling that need to be augmented in a protocol like Balancer.\n\nThe idea of this proposal is to provide a virtual CISO (Chief Information security officer) services to augment Balancer infosec and on-chain/off-chain security postures by leveraging Hypernative in-house expertise and network of connections.\n\nThe proposal will outline the responsibilities addressed and handled which will be organized and advised by Hypernative but carried and implemented fully by a combination of Hypernative and the DAO.\n\n***Balancer + Hypernative***\n\nHypernative team has been an instrumental helper in the last security incidents that Balancer has undergone, both from helping with automated tracking of the hacks and stolen funds movement, communication with external entities like exchanges/Chainalysis and helping with the war room and bringing the relevant help to the table.\n\nWe believe that Balancer and Hypernative can together create a new standard of security program that will emphasize the DAO commitment for its users and the security of their funds.\n\n***The Proposal Details***\n\nThe following are describing the various areas Hypernative can provide guidance and help in terms of the security advisory, the initial stage of the proposal will be mostly from risk and threat assessment point of view tackling all the various areas described below\n\n1. Review development processes and code deployment, supply chain strategies to add secure by design processes to code development\n\n*   Explore and research tools (open source and commercial) to be used in the process and suggest to the DAO\n*   Create educational material and sessions with the community and developers teams\n\n2. Provide security comments for code reviews and best practices by Hypernative security researchers team\n\n3. Help with security vendors assessment and conduct security/risk due diligence for any vendor or 3rd-party\n\n*   Presenting the research and market assessments on demand from security standpoint to the DAO and community\n*   Help with total security budget planning, negotiations and proposing the budget to the DAO for decision making\n\n4. Help interact and manage engagement with security and other related vendors and offload the DAO from interacting them directly\n\n5. Audit and formal verification processes management\n\n6. Bug bounty program help and disclosures handling and processing\n\n7. Infosec processes for Governance participants and Wallet security\n\n*   Anti phishing/scamming monitoring for DAO members\n*   Personal computers security suggestions\n*   Multisig and wallet security hygiene and review\n*   Explore multisig protection services and suggest to the DAO\n*   Create Monitoring for DAO governance tokens and wallets\n\n8. Governance proposal review\n\n*   Review proposals from security point of view and add relevant remarks\n*   Review the framework for automated testing of governance proposals - including code deployment and transactions (to address supply chain security risks) and suggest changes and new additions\n\n9. Infrastructure Security review\n\n*   Frontend review and vendor handling\n*   Explore security measures for DDoS, frontend attacks, key management and integration security (3rd-party security)\n*   Review all SaaS and other 3rd-party vendors for security assessment and risk exposure\n*   Help with creating a monitoring plan (either internally or with a vendor) for Balancer infrastructure\n\n10. Incident response management\n\n*   War room management and connection with community volunteering help and Balancer team members\n*   Connection to and management of vendors and network of contacts (Circle, Bridges, Chainalysis, Chain security teams, etc) to help with recovery of stolen funds and post incident help to the DAO\n*   Community communications and post mortem\n*   Creating best practices based on historical incidents and create playbooks with the learning\n\n11. Community security representation\n\n*   Create a group of security committee members combined of Balancer team members and external security experts that participate in events/conferences and security related groups to represent Balancer security efforts\n*   Create and prosper connections with other protocol security groups, chain and bridge security teams, wallet companies and other external members to create a wide network of security collaboration and help for Balancer\n\n12. Social media channels security\n\n* Discord, Twitter, Slack, Telegram security handling and best practices\n\n13. Phishing/Scamming and brand reputation\n\n*   Help detect phishing and scamming campaigns targeted at Balancer (with or without external vendors)\n\n\n\n    *   Address community reports\n    *   Report addresses and help take them down\n    *   Manage reporting to block explorers and phishing sites\n    *   Create warning channels for the community\n\n*   Engage and suggest relevant vendors for the DAO\n*   Help protect private DAO/Governance members personal wallets and computers from phishing and scamming campaigns\n\n     * Monitor for any suspicious on-chain activity related to that\n\n14. Monitor protocol contracts, multi sigs and detect chain-wide phishing and scamming campaigns targeted at Balancer\n\n* Suggest criteria and requirements for a real time security monitoring and incident response packages from external vendors\n\n15. Publish and share with the community about Balancer commitment and actions for security first and the investment done in this OpSec, InfoSec and chain security programs (With the needed sensitivity)\n\n***About Hypernative***\n\nHypernative actively detects and responds to zero-day cyber attacks, financial risks, on-chain anomalies, and safeguards digital assets, protocols, and Web3 applications from significant threats and losses.\n\nHypernative today works with some of the leading crypto organizations (Polygon, Starknet, Zetachain, Circle, Galaxy, OlympusDAO, Karpatkey DAO, Chainalysis to name a few and many others)\n\nHypernative is an active participant in many crypto security organizations and committees geared towards helping projects and the industry as a whole to create new security solutions and standards.\n\nHypernative team is well experienced in crypto and cyber security with 10’s of years of combined experience from companies like: Microsoft, IBM, Google, VMware, CyberArk, ChainReaction, Orbs, Intel and others.\n\nThe following are a list of various protocols Hypernative was able to assist:\n\nhttps://twitter.com/DeusDao/status/1661751727228596226\n\nhttps://blog.hundred.finance/15-04-23-hundred-finance-hack-post-mortem-d895b618cf33\n\nhttps://mirror.xyz/bonqdaoblog.eth/Mq4qgNieUi-ytphYzPU-lWY_E1J2F7STq_xlCR3qGsE\n\nhttps://twitter.com/senamakel/status/1610953131252416513\n\nhttps://twitter.com/Palmswaporg/status/1684902587303104512\n\nhttps://twitter.com/jaypeggerz/status/1608395021031723010\n\nhttps://twitter.com/0xGreg_/status/1608418111887396864\n\nhttps://twitter.com/XaveFinance/status/1579735814824931329\n\nhttps://www.coinage.media/s2/he-stole-200-million-he-gave-it-back-now-hes-ready-to-explain-why\n\n\n**Length of Engagement & Budget:**\n Initial stage of risk assesment - 3 months - $15,000 USDC\n\nAfter the initial period, $30,000 USDC will be allocated to be paid by the DAO multisig for onward work in an hourly matter based on need.\nPayments will be done for the same address below.\n\n**ETH Address to Receive Funds:**\n0x5CA24e2A586834A7B96216D68b26A82405e3DC15\n\n**Link to SLA (if going through the Foundation:**\nHypernative will enter into an agreement with the OpCo in the event that this proposal is accepted. At that time, we will edit this post with a link to the agreement.",
+        "end_utc": "2023-10-23T18:00:00Z",
+        "similarity_score": 0.2997,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3327348.3629707266,
+            0.009605928325789725,
+            402326.2677890164
+          ],
+          "scores_total": 3729674.640365672,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-10-23T18:00:00",
+          "pre_tvl_avg": 709613461.5,
+          "post_tvl_avg": 792210255.0,
+          "abnormal_change": 11.6397,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.116397,
+          "abnormal_change_pct": 11.6397
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-10-23T18:00:00",
+          "pre_price_avg": 3.106333075,
+          "post_price_avg": 3.38999993,
+          "abnormal_change": 9.1319,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.091319,
+          "abnormal_change_pct": 9.1319
+        }
+      }
+    },
+    {
+      "proposal_id": "0x6e655d8f44bf5d8ef9099e981e071d396b21bc3f5b023c1cf416d37b3086c766",
+      "cleaned": {
+        "proposal_id": "0x6e655d8f44bf5d8ef9099e981e071d396b21bc3f5b023c1cf416d37b3086c766",
+        "title": "[BIP-695] Fund OpCo Product team - Oct - Mar",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "end_utc": "2024-09-23T18:00:00Z",
+        "similarity_score": 0.1576,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2662476.8783260062,
+        "margin_pct": 1.0,
+        "scores_total": 2662476.8783260062,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 4,
+        "total_votes": 4,
+        "first_vote_at": "2024-09-20T04:02:58Z",
+        "last_vote_at": "2024-09-23T03:38:08Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.006675900971565011,
+            0.0,
+            0.0
+          ],
+          [
+            237866.7762712454,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2424610.09537886,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.91066,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.08934,
+        "half_slope_diff": 17.983194
+      },
+      "raw": {
+        "id": "0x6e655d8f44bf5d8ef9099e981e071d396b21bc3f5b023c1cf416d37b3086c766",
+        "title": "[BIP-695] Fund OpCo Product team - Oct - Mar",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "body": "Payload with PR\n\ngithub.com/BalancerMaxis/multisig-ops\n[BIP-695] OpCo-Funding-Proposal-Q4-2024-Q1-2025\nBalancerMaxis:main ← BalancerMaxis:BIP-695-OpCo-Funding-Proposal-Q4-2024-Q1-2025\nopened  Yesterday 8:26 PM\nZen-Maxi Zen-Maxi\n+32 -0\nProposal: https://forum.balancer.fi/t/bip-xxx-fund-opco-product-team-oct-mar/599…\nService Provider Name: Balancer OpCo (Product Team)\n\nCore Contributor(s): Gareth, Alberto, Anastas & Pon\n\nPledge to abide by [BIP-629] Balancer DAO Service Provider & Grantee Standards: Yes\n\nIntroduction\nBalancer OpCo Limited (or the “Balancer OpCo”) is a wholly-owned operating subsidiary of the Balancer Foundation. It is an integral element of the Balancer Foundation corporate structure supporting the Balancer DAO. It serves two primary functions (1) Administrative and Operational; and (2) Product Development.\n\nSince the passing of BIP-55 and its subsequent extension (BIP-351, BIP-565), the Balancer OpCo product development team has been a core team in the DAO since July 2022. This proposal aims to extend the product development services for an additional 6 months (October 1, 2024 - March 31, 2025). As in the previous proposal, the administrative and operational elements provided by Balancer OpCo are submitted as a separate proposal.\n\nOur primary roles include Frontend Team Lead (Gareth), Frontend Core Engineers (Anastas and Alberto), and Product Designer (Pon).\n\nBalancer OpCo is requesting $333,325 and 1,875 BAL for 6 months of funding.\n\nRetrospective\nBalancer OpCo product team was previously funded (BIP-565) for 6 months from April 1st, 2024 through September 30th, 2024.\n\nOur high-level goals stated in the previous proposal are as follows:\n\nIncrease LP engagement and satisfaction.\nIncrease veBAL adoption and holder engagement.\nIncrease awareness and adoption of the Balancer protocol.\nThese goals have not changed and will continue to guide our focus as we build out v3 of the Balancer canonical app.\n\nOur primary focus in the previous funding cycle was to build and launch the v3 app which we called Project Zen (or the Zen UI). The Zen UI was launched on the 18th of July (4 months into our funding cycle) and was generally considered a great success for the ecosystem.\n\nIn the build-out of the Zen UI we engaged the community through the Zentestooor initiative in Discord. A big shout-out is due to Tritium for the work he did to help us get this initiative off the ground and operational. Zentestooors found many bugs and suggested great improvements that were implemented before the launch. It undoubtedly contributed to the successful launch of the new app.\n\nThree weeks after launching the new UI we also launched support for CoW AMM, another resounding success for the ecosystem. The quick turnaround from launching the UI to adding support for an entirely different underlying AMM is a testament to the architectural decisions we have made building the new app. It puts us in a great position to support v3 and any other AMM variant opportunities that develop within the ecosystem.\n\nObjectives\nObjective 1: Support the launch of the Balancer v3 protocol\nTeam: Alberto, Pon, Gareth\n\nSummary:\nThe next big launch date for the Balancer ecosystem will be the v3 protocol launch. For this, the UI will need to seamlessly support v3 pools and promote them in an effective way. That is, the UI will need to support adding liquidity to v3 pools, which requires Permit2 approvals integration. It will also require work to ensure removing liquidity, staking and unstaking work seamlessly with v3 pools. Finally, we will ensure that v3 pools are findable, distinguishable from v2 pools and promoted effectively to support the ecosystem with the growth of the v3 protocol.\n\nKey results:\n\nThe UI accurately displays pool information for v3 pools.\nThe UI supports Permit2 approvals for adding liquidity to v3 pools.\nThe UI supports adding, removing, staking and unstaking of v3 liquidity.\nThe UI makes it easy to find and distinguish v3 pools.\nTimeline:\nThe launch of the v3 protocol is currently unknown so it is impossible for us to accurately say when the key results will be achieved. However, we have already started work on Permit2 support and our goal is to be ready to go live as soon as the protocol is ready.\n\nObjective 2: New veBAL experience\nTeam: Pon, Gareth, Anastas & Alberto\n\nSummary:\nveBAL features were deliberately left out of the launch of the new UI (we currently link back to the v2 UI if a user needs to manage their veBAL or vote on gauges etc). This is because veBAL is a huge feature, almost an app in itself. We also recognised that there is a lot we can do better with the veBAL experience to better promote ownership and engagement. So instead of delaying the launch of the new app, it made sense to leave implementation for post-launch.\n\nThe new veBAL experience is currently being designed and the majority of implementation will happen in this next funding cycle. The objective for this new experience is to more effectively promote and support the benefits of owning veBAL, including the acknowledgement and integration of incentive markets such as HiddenHand.\n\nEssentially, we want to take learnings from the existing veBAL experience in v2 and community tools for leveraging incentive markets and build a new and improved experience that maximises veBAL utility for holders.\n\nKey results:\n\nA veBAL management UI where users can lock, extend and unlock/withdraw their veBAL.\nA veBAL syncing UI where users can sync their veBAL balances to secondary networks.\nA veBAL voting UI where users can see all the available gauges that can be voted on, their current votes, their estimated weekly incentives for their votes, and a vote optimizer. The vote optimizer should use incentive market data to find the maximum return for a user’s voting power.\nTimeline:\nAs with all large scopes of work, it’s difficult to estimate precise delivery timelines. The design work for each key result is already underway. Some initial development work has been started for (1) and (2). At the time of writing, we estimate that a complete veBAL experience might be live by the end of the year or early next year.\n\nObjective 3: Deprecate v2 UI & supporting infrastructure\nTeam: Gareth\n\nSummary:\nNow that the new UI is live and supporting core pool actions, swapping and reward claiming, we must continue to migrate and shut down the remaining logic in the v2 UI. Deprecating the remainder of the v2 app will allow us to shut down the v2 API, which will reduce the ecosystem’s infrastructure costs.\n\nKey results:\n\nShut down the veBAL experience in v2 UI, possible when Objective 2 is complete.\nShut down claiming, portfolio and swap pages in the v2 UI.\nTurn off the v2 API.\nTimeline:\nThe target is to shut down the v2 API (and therefore the UI) by the end of the year.\n\nObjective 4: Frontend monorepo\nTeam: Gareth, Alberto & Anastas\n\nSummary:\nThe frontend team would like to start to restructure our work such that we can share and build tooling more easily with the wider community, within Balancer and DeFi more generally. In practice, this means converting our core repository to a monorepo and extracting useful logic into packages.\n\nKey results:\n\nA functional monorepo that contains the v3 frontend app.\nA package that exposes some useful functionality currently contained within the v3 app.\nTimeline:\nThis is a secondary objective so we will not set hard deadlines. Rather, we aim to do this at some point within the next funding cycle.\n\nOngoing commitments\nThe Product Development team ensures Balancer has a high-quality UI/UX available everywhere that allows users to interact easily with the Balancer protocol. In addition, the UI serves as a branding tool where people can better understand what the Balancer Protocol allows. The team will:\n\nBuild, Improve and Optimize the canonical UI for interacting with Balancer\nWe aim to provide the best possible experience for users to provide liquidity, swap, lock veBAL, vote on gauges, and claim earnings using Balancer.\nWe will design, build and maintain the marketing pages for the Balancer protocol. The primary aim of these pages will be to inspire and help onboard potential partners into the ecosystem.\nWe ensure this UI works across all modern devices including desktop and mobile browsers.\nWe will continually optimize and improve this app so users have a great experience no matter how many features or how much data Balancer introduces in the future.\nWe will continually work on the stability and reliability of the UI by covering its critical functionality with unit and integration tests.\nWhenever new features or improvements are made to the Balancer smart contracts we will implement the primary UI for users to interact with them on launch.\nThis also includes responsibility for all copywriting across the app.\nEcosystem design support\nWe will support broader ecosystem design initiatives. For example, we’ll collaborate with marketing on creative direction and occasional asset production.\nSupport the development and maintenance of the shared Beets/Balancer API\nThe Product Development team currently maintains the Balancer API at https://api.balancer.fi, which provides quick access to Balancer pool and token information.\nThe existing API mentioned above will be deprecated in favour of the shared Beets/Balancer API at https://api-v3.balancer.fi.\nUser support\nWe will monitor relevant channels in Discord, Slack and Github issues for any reported problems and aim to respond within 24 hours and fix the problem as soon as possible.\nOpCo operations\nManage DNS for all Balancer DAO domains.\nManage 3rd party accounts, upgrades, renegotiations, etc. For example, RPC providers, AWS, and wallet check providers.\nGithub repositories that we are directly responsible for:\n\nGitHub - balancer/frontend-v3: Official UI application for the Balancer protocol.\nGitHub - balancer/frontend-v2: Frontend app for the Balancer protocol (to be deprecated)\nGitHub - balancer/balancer-api: Deprecated (v2 API, to be deprecated)\nGitHub - balancer/tokenlists 1\nGitHub - balancer/metadata\nGithub repositories we are not directly responsible for but occasionally contribute to:\n\nGitHub - balancer/b-sdk\nGitHub - balancer/docs: Documentation for Balancer\nGitHub - balancer/backend\nIn summary, Balancer OpCo’s product team is committed to building a market-leading DApp for the Balancer protocol and supporting growth opportunities through UI development as they arise. The product team are passionate about Balancer and committed to its long-term success.\n\nReporting\nThe Product Development team is committed to transparency and openness in all our work. The majority of our day-to-day activities can be followed via the previously mentioned repositories. We are also committed to providing higher-level reporting on our work in the relevant calls and on the forum. Our reporting commitments will be as follows:\n\nWeekly v3 roadmap call\nAudience: Internal, engineering and ecosystem leadership.\nHere we share status updates on our latest work and take note of any urgent requirements or future work for our team.\nMonthly forum update\nAudience: Public\nA high-level written report of work done over the past 30 days, including how that work relates to our stated goals. We will also include reflections on challenges that may be standing in the way of progress on those goals.\nRelevant metrics that the Product Development team’s work has a direct impact on.\nQuarterly community call update (if applicable)\nAudience: Public\nA higher-level update on the work done over the last quarter and work planned for the next quarter, including KPIs and visual content if relevant. This update will also include reflections on the team and its performance and any changes to the overall direction described in this funding proposal or previous quarterly reports.\nLength of Engagement & Budget\nBalancer OpCo is requesting $333,325 for 6 months of funding, starting October 1, 2024 and ending March 31, 2025.\n\nThe table below shows the applicable expense categories by quarter.\n\n\n1032×545 41.3 KB\nA further breakdown of the Balancer OpCo Product Team costs is shown below:\n\n\n1227×478 46.7 KB\nIn addition, the Balancer OpCo is requesting an allocation of 1,875 BAL for the 6 month period of the proposal that aligns with the grants included in staff employment packages. This ongoing BAL grant is being awarded to current team members on a 4-year vesting basis, with a 1-year cliff, starting from each employee’s initial employment date in the ecosystem.\n\nShould any of these employees leave before the completion of the 2-quarter proposal period, any unvested BAL would not go to the departing employee and would be available to the OpCo for allocation as incentives to potential replacement staff.\n\nLink to Service Provider Agreement (if going through the Balancer OpCo):\n\nNot applicable given this entity is internal. The Product team will be directly accountable to the Balancer OpCo and the Balancer DAO community through the reporting process applicable to all Balancer SPs, primarily with reference to the objectives and KPIs noted above.\n\nTechnical Specification\nThe Balancer DAO multisig 0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f will interact with USDC 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 by writing transfer passing the Foundation/OpCo wallet 0x3B8910F378034FD6E103Df958863e5c684072693 as recipient and amount 333,325 USDC as 333325000000.\n\nNo BAL transfers are required at this time.",
+        "end_utc": "2024-09-23T18:00:00Z",
+        "similarity_score": 0.1576,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2662476.8783260062,
+            0,
+            0
+          ],
+          "scores_total": 2662476.8783260062,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-09-23T18:00:00",
+          "pre_tvl_avg": 728471395.5,
+          "post_tvl_avg": 760272261.0,
+          "abnormal_change": 4.3654,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.043654,
+          "abnormal_change_pct": 4.3654
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-09-23T18:00:00",
+          "pre_price_avg": 2.00455717,
+          "post_price_avg": 2.070966935,
+          "abnormal_change": 3.3129,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.033129,
+          "abnormal_change_pct": 3.3129
+        }
+      }
+    },
+    {
+      "proposal_id": "0x866d1a8a02edd75b7c0cf882bdae6ad072c2a70d837df46471d52c5840c893ac",
+      "cleaned": {
+        "proposal_id": "0x866d1a8a02edd75b7c0cf882bdae6ad072c2a70d837df46471d52c5840c893ac",
+        "title": "[BIP-694] Fund Balancer Maxis for Q4 2024 to Q1 2025",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "end_utc": "2024-09-23T18:00:00Z",
+        "similarity_score": 0.1552,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2662477.3259601467,
+        "margin_pct": 1.0,
+        "scores_total": 2662477.3259601467,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 4,
+        "total_votes": 4,
+        "first_vote_at": "2024-09-20T04:00:43Z",
+        "last_vote_at": "2024-09-23T03:38:08Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.006676552005330971,
+            0.0,
+            0.0
+          ],
+          [
+            237868.22555261748,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2424609.0937309773,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.910659,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.089341,
+        "half_slope_diff": 17.990099
+      },
+      "raw": {
+        "id": "0x866d1a8a02edd75b7c0cf882bdae6ad072c2a70d837df46471d52c5840c893ac",
+        "title": "[BIP-694] Fund Balancer Maxis for Q4 2024 to Q1 2025",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "body": "Payload with PR\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1354\n\n# Introduction\n\nOver the last 6 months, the Maxis have transformed into a professional on-chain DevOps team, ensuring smooth operations of Balancer technology across chains as well as providing white-glove service to partners in the ecosystem. Our key success metrics are showcased by fast response times to partner requests and successful execution of many initiatives like supporting the launch of CoWAMM, the related incentive program, or the design and execution of token grants. Furthermore, we are constantly improving our technology stack with the ultimate goal of achieving self-service autonomy for most operations.\n\nGiven the Maxis are an integral part of Balancer technology and partner management, we aim to switch to bi-annual funding starting in Q4 2024. This provides us with more funding stability and also guarantees that resources for the upcoming Balancer v3 launch will be adequately allocated.\n\n# Initiatives\n\nAs with previous funding proposals, we want to make the most impact to Balancer DAO by working on key initiatives with clearly measurable objectives.\n\nAs context, you can refer to our last quarters performance reports to evaluate our progress in relation to initiatives executed in Q3 2024 ([July](https://forum.balancer.fi/t/balancer-maxis-monthly-update-for-july-2024/5907), [August](https://forum.balancer.fi/t/balancer-maxis-monthly-update-for-august-2024/5979), reports)\n\n## Initiative 1: Scale Balancer’s On-Chain DevOps Hub\n\n**Co-Leads**: Xeonus & Tritium\n\n**Team**: gosuto, Zekraken, Zen Dragon (and freelancers)\n\n**Summary**\n\nOver the last 6 months, we have taken over responsibility over most of the on-chain operations tech stack, including multi-sig management, OpenZepellin infrastructure to distribute BAL rewards, secondary incentive management as well as new chain deployments and access management.\n\nOur main focus for the next half year is to simplify and further automate any on-chain operations that the DAO has to manage. These include but are not limited to new AMM management (e.g. CoWAMMs), Balancer v3 and its corresponding new fee sweeping mechanism as well as governance operations. Two components will be crucial to drive this initiative forward: our [automation code base](https://github.com/BalancerMaxis) and our [operations UI](https://balancer.defilytica.tools/).\n\n**Objectives**\n\n1. Operate and maintain new chain deployments for Balancer v2\n\n* Support custom infrastructure for the Balancer v2 MODE deployment incl. a dedicated MODE ve8020 gauge system on MODE network.\n* Support and integrate potential new chain deployments into our operations infrastructure such as BAL token emission scheduling through OpenZeppelin\n* Deploy and maintain any needed infrastructure to operate those chains\n\n2. Fee processing for Balancer v2\n\n* Coordinate and run fee processing of Balancer v2’s core pool framework as long as it is operational in light of the v3 launch\n* Coordinate with Mimic fee processing\n\n3. Secondary Token reward management\n\n* Build a rewards management system on Mode as part of a veMODE initiative\n* Launch a injector configuration tool on the operations UI to further improve partner management and self-service capabilities\n\n4. AURA position management\n\n* Launch a safe module to automatically relock AURA\n* Maintain the self-service module for vote placement for the BD team and design potential automation work to assign incentives without human intervention.\n\n5. Gauges and Core Pool Framework (Balancer v2)\n\n* Continued management of core pool detection and pool list curation\n* Optimization of fee structure after transitioning our focus from Balancer v2 to Balancer v3\n\n6. Management and Execution of Token Grants\n\n* Maintaining and provisioning of upcoming token distribution grants\n* Advising on how to design and execute token grant programs\n\n7. Omni-chain operations: Chainlink Automation & Gas Stations\n\n* Further optimize Chainlink upkeep monitoring and automate LINK top-ups as well as the design and development of backup systems\n* Incorporate more monitoring solutions into the [operations UI](https://balancer.defilytica.tools/chainlink-automation)\n* Establish omni-chain gas station contracts to feed all relevant dependencies with ETH (or chain gas tokens) and LINK (gas for automation jobs)\n* Collaborate with Chainlink to define and ship client-side cross-chain rate providers as well as advising on oracles for omni-chain operations.\n\n8. Analytics (v2)\n\n* Transition to maintenance mode for DeFilytica deployments\n\n9. Financial reporting (v2 & v3)\n\n* Advise on financial reporting metrics with karpatkey\n* Build and ship artifacts to monitor revenue generation on Balancer v3\n\n10. Operations UI\n\n* Full GitHub integration to propose changes from the UI\n* Completion of security review with Hypernative\n* Exploration of token whitelisting module\n* Building of tooling surrounding Balancer v2 and v3 management such as monitoring dashboards for Chainlink, Injector v2 configurator or the migration of legacy pool creators for Balancer v2\n\n## Initiative 2: Support and execute on the launch of Balancer v3 and new Products\n\n**Co-Leads**: Xeonus, Tritium\n\n**Team**: Zen Dragon, gosuto, MikeB\n\n**Summary**\n\nBalancer v3 is planned to release between Q4 2024 and Q1 2025. The Maxis will play a crucial role in setting up key infrastructure that guarantees correct operations of the new protocol version across chains. We will collaborate with BLabs and other ecosystem partners to plan and execute a smooth launch which will include a rollout to a defined set of target chains and the subsequent management thereafter. Additionally, we will explore new revenue models and tokenomics adjustments that will have the most beneficial impact on both partners and the DAO.\n\n**Objectives**\n\n1. Plan and execute on v3 launch\n2. Design, deploy and maintain all key infrastructure necessary to manage Balancer v3 on-chain\n* Integration tests before launch\n* Support and build a potential testnet deployment together with Balancer labs\n* Automation\n* Permission sets and monitoring\n* Fee collection mechanisms\n\n3. Fee processing for Balancer v3\n* Design and implement a new fee collection mechanism for Balancer v3, either on-chain or off-chain. Balancer v3’s new design will allow to more easily collect fees per pool and therefore has the potential to be built completely in-house and onchain\n\n4. Support and manage deployments on strategic chains\n* Work together with the BD Unit to utilize synergies in chain deployments\n* Coordinate expansion plans with ecosystem partners\n\n5. Design and execute a liquidity seeding plan with potential bootstrapping reward programs.\n* Management and execution of secondary token reward programs to bootstrap liquidity on products build on top of Balancer v3\n\n6. Support partners and builders in execution of product launches\n* Management and monitoring of creator fees in Balancer v3\n* Work to align new pool logic with users (DAOs seeking liquidity solutions)\n* Be leaders and/or available resources in the Balancer Community and Developer Ecosystem\n\n7. Design and build new analytics artifacts together with the product and data teams\n* Explore potential deployment of a native analytics platform on the native app\n* Advise service providers on how to incorporate key metric data based on partner feedback\n\n8. Advance Tokenomics and the DAOs Revenue Strategy\n* Balancer v3 offers the opportunity to rethink the current setup of Balancer’s tokenomics. The Maxis will lead any strategic workshops or workstreams together with key stakeholders in the DAO\n* Optimize the core pool framework based on the reduced BAL emission schedule that will go into effect in Q1 2025 (according to the BAL [emission schedule](https://dune.com/balancer/bal-supply))\n\n## Initiative 3: Partner Management\n\n**Co-Leads**: MikeB, Zen Dragon\n\n**Team**: Tritium, Zekraken\n\n**Summary**\n\nBalancer’s partner pipeline has experienced substantial growth across the 10 networks we support, and this momentum is expected to continue as V3 and aligned stakeholders drive new opportunities. Our partner management team's core objective is to not only sustain but also maximize the value of relationships with both current and new partners for the benefit of the DAO and veBAL holders. To achieve this, we will collaborate closely with the business development and DevOps teams to strategically enhance the partner experience and streamline the onboarding process for new partners. By leveraging our technical expertise and commercial focus, the partner management group is dedicated to providing the best possible experience for all stakeholders on the Balancer platform.\n\nObjectives\n\n1. Assisting partners in pool choice, strategy, design, and launch assistance\n* Utilizing internal partners such as Cowswap and Gyroscope\n\n2. Building strong working relationships with internal partners to provide the best possible service and options to our partners.\n* Employing the advanced tech built on Balancer to provide optimal outcomes\n* ncluding Cowswap, Gyroscope, Xave, QuantAMM, hooks, boosted pools, and others as they present themselves.\n\n3. Overseeing ongoing revenue improvements to suggest to partners. I.e. swap fees, pool migrations, amplification parameters etc.\n4. Providing proactive partner support and guiding new partners through the ecosystem.\n* Governance, incentive markets, new launches and pooling opportunities.\n\n5. Rate Provider review facilitation and continuous process improvement\n6. Spearheading with the DevOps team to execute BD and partner requests not limited to, primarily related to smart contract interactions in a safe and efficient manner.\n7. Coordinating with compounders and wrappers to ensure our partners receive seamless integration to all relevant platforms. I.e. Beefy, Aura, StakeDAO.\n8. Working with various vote markets to improve partner incentive efficiencies and an agnostic approach to revenue flows through veBAL incentive platforms.\n\n### Service Provider Name & Overview: Balancer Maxis\n\n**Leader(s):** Xeonus, joined by the talented Mike B, Zekraken, Zen Dragon, Tritium and Gosuto\n\n**Contributors/Freelancers**: Hyferion, jalbrekt\n\nPledge to abide by [[BIP-629]](https://forum.balancer.fi/t/bip-629-balancer-dao-service-provider-grantee-standards/5808) Balancer DAO Service Provider & Grantee Standards: Yes\n\n**Domains of Operation:**\n\n* Governance and Protocol Operations\n* Strategy and Business Development\n* On-Chain Operations (DevOps)\n* Pool Design and Ecosystem Coordination\n* Data Analytics and Reporting\n\n**Key Objectives per Operational Discipline:**\n\n1. Governance and Protocol Operations\n* Leading governance procedures, ensuring their execution and integrity.\n* Facilitating technical discussions within governance scopes.\n* Setting up governance votes and reviewing payloads for DAO transactions.\n* Crafting detailed governance proposals and specifications.\n* Offering deep technological insights during governance deliberations.\n* Assisting in specifications to proposals for proper payload execution\n* Infrastructure and tool creation for enhancing governance operations.\n* Automating tasks, reducing human dependency in governance functions.\n* Creating UI tools that support operational tasks (past examples: pool creation, reward injectors, linear pool deployment [deprecated])\n\n2. Strategy and Business Development\n\n* Applying profound product and technical knowledge in strategic planning.\n* Engaging with new partners and broader Web3 communities.\n* Providing technical support and insights for strategic development.\n* Assisting in custom pool creations and new chain launches.\n* Managing revenue flows and direct incentives with partners.\n* Facilitating discussions on financial incentives and revenue optimization.\n* Acting as active partner support and assisting new partners navigate the ecosystem\n\n3. On-Chain Operations (DevOps)\n\n* Buid, administer and operate governance associated change control processes surrounding on-chain treasury and protocol operations (if applicable)\n  * Overseeing DevOps and automating multisig operations.\n  * Building multisig payloads and conducting multi-person peer-reviews\n  * Guidance on infrastructure-related and operational aspects of the protocol and the DAO.\n* Maintaining and developing Taking over automation of regular on-chain tasks through on- chain automation for OZ Defender and Chainlink Automation.migrating to new version of it\n* Core development, aiding in automation and data management.\n* Smart contract development(when needed) of helpers and tooling for partners.\n* Support in technical best practices.\n* Bi-weekly fees processing and reporting\n* Grant program management and incentive distribution automation and handling.\n* Overseeing Stipend Distribution Automation\n\n4. Pool Design and Ecosystem Coordination\n\n* Designing pools for the protocol, aligning with governance specifications.\n* Liaising with the ecosystem for synchronized functionality and growth.\n* Assistance in pool design and migration to v3\n* Token whitelisting and front-end testing.\n* Assisting in the technical aspects of pool and gauge creation.\n* Testing of v3 front-end infrastructure\n\n5. Data Analytics and Reporting\n\n* Spearheading data analytics, offering valuable insights through reports and dashboards.\n* Maintaining high-level expertise in protocol-related data.\n* Providing quarterly financial reports\n* Assisting in data handling, contributing to informed decision-making.\n\n**Reporting**\n\nWe have been providing extensive reports on our work throughout the year. To ensure full transparency on our working objectives, achievements and cost basis, we will update the ecosystem and community participants regularly through weekly meetings and monthly community reports:\n\n**Weekly Ecosystem Meeting**\n\n* Inform ecosystem participants of our weekly progress and planned activities\n* Coordinate collaborations and issues with other ecosystem stakeholders\n\n**Monthly reports**\n\n* Write up detailed monthly reports on key objectives\n* Provide a financial statement of the usage of discretionary funds as in previous funding rounds\n\n**Length of Engagement & Budget:**\n\nThe Maxis have established a conservative and effective budgeting framework with a mix of fixed contributor salaries and flexible discretionary budgeting. Over the last 6 months we have always been handling the discretionary portion very conservatively. In the last quarter, we only utilized approximately half of the $60k in allocated funds for Q3 2024. We will roll over ***savings from this cost point of more than $25k USDC*** and deduct them from this proposal.\n\nFurthermore, we improved our cost basis per FTE, all while we increased our headcount and capacity for the anticipated higher demand for Balancers v3 launch. Our average costs came down from an average of $13,484 $ / FTE to $13,212.50 $ / FTE (incl. BAL vests) compared to Q3 2024.\n\nA detailed breakdown of our proposed costs is visualized below:\n\n![|624x320](upload://m8DK7A5w9Ai4IkfttRSTMtu56Bs.png)\n\nWe are additionally asking for a BAL token grant of 32,738 BAL for the next half-year (at BAL price of $1.89). BAL will be locked for 1 year either as veBAL or in a veBAL wrapper such as auraBAL.\n\nQuarterly BAL allocation: $30,937.50 ( = 16,369 BAL)\n\nIn total our USDC and BAL cost basis breakdown looks as follows for 5 FTE:\n\n|Position|Cost Basis|\n| --- | --- |\n|$ / FTE / month (USDC + BAL vest)|$13,212.50|\n|$ / FTE / month (USDC)|$11,150|\n|$ / Freelance FTE / month (USDC)|$9,600|\n\n**Length of engagement: 6 months**\n\n**Budget: 398,135 USDC and 32,738 BAL**\n\nETH Address to Receive Funds: `0x166f54F44F271407f24AA1BE415a730035637325`\n\n**Impact on the Treasury**\n\nThe Treasury wallets currently hold 3,507,473 BAL. Funding the Balancer Maxis for the next half year would impact 0.93% of the treasury’s BAL holdings, which annualizes to 1.87% of the treasury’s BAL. The Treasury wallets currently hold 5.727mln in stables. Funding the USDC portion would cost around 6.95% of the treasury’s stable reserve, which annualizes to 13.9%.\n\n### Technical Specification\n\nThe Balancer DAO multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with USDC `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48` by writing transfer passing the Maxi Safe `0x166f54F44F271407f24AA1BE415a730035637325` as recipient and amount `398135` USDC as `398135000000`.\n\nFurthermore the Balancer DAO multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with BAL `0xba100000625a3754423978a60c9317c58a424e3D` by writing transfer passing the Maxi Safe `0x166f54F44F271407f24AA1BE415a730035637325` as recipient and amount `32738` as `32738000000000000000000`.",
+        "end_utc": "2024-09-23T18:00:00Z",
+        "similarity_score": 0.1552,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2662477.3259601467,
+            0,
+            0
+          ],
+          "scores_total": 2662477.3259601467,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-09-23T18:00:00",
+          "pre_tvl_avg": 728471395.5,
+          "post_tvl_avg": 760272261.0,
+          "abnormal_change": 4.3654,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.043654,
+          "abnormal_change_pct": 4.3654
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-09-23T18:00:00",
+          "pre_price_avg": 2.00455717,
+          "post_price_avg": 2.070966935,
+          "abnormal_change": 3.3129,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.033129,
+          "abnormal_change_pct": 3.3129
+        }
+      }
+    },
+    {
+      "proposal_id": "0x79e91e0ea5912af30a2e29c513fffad642bce554cf5c5c09d18f4b0ed3b65ea4",
+      "cleaned": {
+        "proposal_id": "0x79e91e0ea5912af30a2e29c513fffad642bce554cf5c5c09d18f4b0ed3b65ea4",
+        "title": "[BIP-565] Fund OpCo Product team - April - Sept",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2024-03-25T19:00:00Z",
+        "similarity_score": 0.1509,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3165614.8014855897,
+        "margin_pct": 1.0,
+        "scores_total": 3165614.8014855897,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 22,
+        "total_votes": 22,
+        "first_vote_at": "2024-03-21T21:08:40Z",
+        "last_vote_at": "2024-03-25T12:46:02Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1269.2164486660868,
+            0.0,
+            0.0
+          ],
+          [
+            161475.9419815829,
+            0.0,
+            0.0
+          ],
+          [
+            379348.09527196706,
+            0.0,
+            0.0
+          ],
+          [
+            2623521.5477833743,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.828337,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.051957,
+        "half_slope_diff": 10.553712
+      },
+      "raw": {
+        "id": "0x79e91e0ea5912af30a2e29c513fffad642bce554cf5c5c09d18f4b0ed3b65ea4",
+        "title": "[BIP-565] Fund OpCo Product team - April - Sept",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "**Service Provider Name:** Balancer OpCo (Product Team)\n\n**Core Contributor(s):** Gareth, Alberto, Anastas & Pon\n\n**Adhere to [[BIP-372] ](https://forum.balancer.fi/t/bip-372-adopt-sp-standards/5009)and the SP standards:** YES\n\n**Introduction**\nBalancer OpCo Limited (or the “Balancer OpCo”) is a wholly-owned operating subsidiary of the Balancer Foundation. It is an integral element of the Balancer Foundation corporate structure supporting the Balancer DAO. It serves two primary functions (1) Administrative and Operational; and (2) Product Development.\n\nSince the passing of [BIP-55](https://forum.balancer.fi/t/bip-55-funding-proposal-for-the-balancer-opco/3609) and its subsequent extension ([BIP-351](https://forum.balancer.fi/t/bip351-funding-proposal-for-the-balancer-opco-product-team-fy23-q3-through-fy24-q1/4927)), Balancer OpCo has been an integral element of the DAO since July 2022. This proposal aims to extend the product development services for an additional 6 months (April 1, 2024 - September 30, 2024). As in the previous proposal, the administrative and operational elements provided by Balancer OpCo are submitted as a separate proposal.\n\nOur primary roles include Frontend Team Lead (Gareth), Frontend Core Engineers (Anastas and Alberto), and Product Designer (Pon). We also contract Ansaf, a long-time community member and experienced frontend developer, on a part-time basis.\n\nThe proposal period has been reduced from 9 months to 6 months to align with other service providers. Balancer OpCo is requesting $373,290 and 15,711.56 BAL for 6 months of funding starting April 1, 2024 and ending September 30, 2024.\n\n**Retrospective**\nBalancer OpCo product team was previously funded ([BIP-351](https://forum.balancer.fi/t/bip351-funding-proposal-for-the-balancer-opco-product-team-fy23-q3-through-fy24-q1/4927)) for 9 months from July 1, 2023, through to March 31, 2024.\n\nOur high-level goals stated in the previous proposal are as follows:\n\n* Increase LP engagement and satisfaction.\n* Increase veBAL adoption and holder engagement.\n* Increase awareness and adoption of the Balancer protocol.\n\nThese goals have not changed and will continue to guide our focus as we build out v3 of the Balancer canonical app.\n\nBefore shifting focus to v3, our primary focus was to track and improve the general user/LP experience in the v2 app. The KPI we used to do that was the Transaction Flow Error Free Rate, which is fatal errors in transaction flows divided by the total number of successful transactions submitted through the UI. When we started tracking this in July 2023 we were at ~84%. A concentrated effort was made to fix all fixable bugs in those flows and by February 2024 we were able to improve that rate to ~95%. It’s possible with further concentrated effort we could improve that KPI by 1-2%, however, some portion of the remaining 5% are bugs and issues that can be very challenging to resolve, such as wallet errors and specific user network/device issues.\n\nAlthough our focus was generally on improving UX and supporting growth opportunities in the v2 app, very early on in our previous funding period it became clear that we would need to shift focus to a new canonical web application that would support both Balancer v2 and v3 vaults. The reasons behind this are outlined in our [November monthly update](https://forum.balancer.fi/t/opco-product-team-november-2023-update/5417). In November 2023 we publicly put the v2 app into maintenance mode and shifted our focus to the v3 app.\n\nDespite most of our focus being directed towards the v3 application, we have done our best to support growth opportunities in v2 as they arose. An example of this is quickly supporting LRT pools and making them easily findable. We recognise that opportunities for the Balancer ecosystem, like LRTs, are extremely important for the growth of the protocol and we will always do what we can to support marketing and partnership operations through improvements in the UI.\n\nIn September 2023, Tim who was responsible for our backend infrastructure moved on to a new opportunity. Tim had built our v2 API that still serves the v2 frontend application. For v3, we will be using the shared Beets/Balancer API which is managed by Franz at Beets. So we are not looking to hire a replacement and therefore our people costs for this funding cycle are lower.\n\n**Key Objectives and Success Metrics**\nOur key objective for this funding proposal is to launch the v3 web application. The primary motivation for building a v3 app is to build support from the ground up for both v2 and v3 vaults and make the app multi-network native, that is, users will be able to explore and interact with pools across all networks and vaults within the same app. This would have been extremely difficult to do well within the context of the v2 app. This objective also includes a complete rebranding of the Balancer UI/UX.\n\nWe have already made significant progress towards this objective and aim to launch a beta UI by mid-April 2024. Following the beta launch, we will complete support for the v3 vault and launch the UI to the general public alongside the launch of the v3 protocol. The current target for the v3 launch is the end of Q2, 2024.\n\nOur secondary objective is to begin to deprecate the v2 application and its supporting infrastructure. The supporting infrastructure such as the v2 API contributes to our costs and the quicker we can deprecate it the quicker we can lower Balancer OpCo’s 3rd party software costs.\n\nThe success metrics for these objectives are clear, the protocol needs a UI that can support the v2 and v3 vaults, and the UI development should not delay the launch of the v3 protocol. However, our success metrics, besides launching the new app and v3 support, remain essentially the same as with v2. Our focus is on improving the experience and engagement for LPs and veBAL holders. We are already tracking some relevant KPIs (Transaction Flow Error Free Rate & NPS). We will continue to track and report these KPIs as we launch the v3 app.\n\nIn summary, Balancer OpCo’s product team is committed to building a market-leading DApp for the Balancer protocol and supporting growth opportunities through UI development as they arise. The product team are passionate about Balancer and committed to its long-term success.\n\n**Ongoing commitments**\nThe Product Development team ensures Balancer has a high-quality UI/UX available everywhere that allows users to interact easily with the Balancer protocol. In addition, the UI serves as a branding tool where people can better understand what the Balancer Protocol allows. The team will:\n\n* Build, Improve and Optimize the canonical UI for interacting with Balancer\n  * We aim to provide the best possible experience for users to provide liquidity, swap, lock veBAL, vote on gauges, and claim earnings using Balancer.\n  * We will design, build and maintain the marketing pages for the Balancer protocol. The primary aim of these pages will be to inspire and help onboard potential partners into the ecosystem.\n  * We ensure this UI works across all modern devices including desktop and mobile browsers.\n  * We will continually optimize and improve this app so users have a great experience no matter how many features or how much data Balancer introduces in the future.\n  * We will continually work on the stability and reliability of the UI by covering its critical functionality with unit, integration and eventually E2E (End to End) tests.\n  * Whenever new features or improvements are made to the Balancer smart contracts we will implement the primary UI for users to interact with them on launch.\n  * This also includes responsibility for all copywriting across the app.\n* Ecosystem design support\n  * We will support broader ecosystem design initiatives. For example, we’ll collaborate with marketing on creative direction and occasional asset production.\n* Support the development and maintenance of the shared Beets/Balancer API\n  * The Product Development team currently maintains the Balancer API at https://api.balancer.fi, which provides quick access to Balancer pool and token information, as well as a SOR interface that services such as CowSwap use to calculate the best trade routes through Balancer pools.\n  * The existing API mentioned above will be deprecated in favour of the shared Beets/Balancer API at https://api-v3.balancer.fi.\n  * Additional functionality will be added to the shared Beets/Balancer API to support a simpler UI layer for v3.\n* User support\n  * We will monitor relevant channels in Discord, Slack and Github issues for any reported problems and aim to respond within 24 hours and fix the problem as soon as possible.\n* OpCo operations\n  * Manage DNS for all Balancer DAO domains.\n  * Manage user accounts/email addresses under those domains.\n  * Manage 3rd party accounts, upgrades, renegotiations, etc. For example, RPC providers, AWS, and wallet check providers.\n\nGithub repositories that we are directly responsible for:\n\n* https://github.com/balancer/frontend-v3\n* https://github.com/balancer/frontend-v2 (to be deprecated)\n* https://github.com/balancer/balancer-api (v2 API, to be deprecated)\n* https://github.com/balancer/tokenlists\n* https://github.com/balancer/marketing-site (to be deprecated)\n* https://github.com/balancer/metadata\n\nGithub repositories we are not directly responsible for but contribute to:\n\n* https://github.com/balancer/balancer-sdk\n* https://github.com/balancer/b-sdk\n* https://github.com/balancer/docs\n* https://github.com/balancer/backend\n\n**Reporting**\nThe Product Development team is committed to transparency and openness in all our work. The majority of our day-to-day activities can be followed via the previously mentioned repositories. We are also committed to providing higher-level reporting on our work in the relevant calls and on the forum. Our reporting commitments will be as follows:\n\n* Weekly v3 roadmap call\n  * Audience: Internal, engineering and ecosystem leadership.\n  * Here we share status updates on our latest work and take note of any urgent requirements or future work for our team.\n* Monthly forum update\n  * Audience: Public\n  * A high-level written report of work done over the past 30 days, including how that work relates to our stated goals. We will also include reflections on challenges that may be standing in the way of progress on those goals.\n  * Relevant metrics that the Product Development team’s work has a direct impact on.\n* Quarterly community call update (if applicable)\n  * Audience: Public\n  * A higher-level update on the work done over the last quarter and work planned for the next quarter, including KPIs and visual content if relevant. This update will also include reflections on the team and its performance and any changes to the overall direction described in this funding proposal or previous quarterly reports.\n\n**Length of Engagement & Budget**\nBalancer OpCo product team is requesting 6 months of funding starting April 1, 2024 and ending September 30, 2024.\n\nWe request a total budget of $373,290 for the full period. Note that Balancer OpCo holds enough funds to cover the requested funding. This was saved due to the reduction in spend achieved by OpCo and other Service Providers vs their original budgets in years 1 and 2. For that reason, no new funding is required from the DAO for this proposal. The table below shows the applicable expense categories by quarter.\n![bip-565-2.png](ipfs://bafkreibzvgelwxzehhvztwqftrggjbhvbum4k6rhjj6i5abtoryqhpgoom) \n\nNote that Non-People Costs are reduced in Q2 as we transfer some of those costs into the Balancer OpCo Admin & Ops [supplementary proposal](https://forum.balancer.fi/t/bip-xxx-opco-admin-ops-supplementary-budget-for-q2-2024/5628). These costs are for 3rd party services that are used throughout the ecosystem and are critical to the ongoing operation of the DAOs infrastructure. We are referring to these as “Protocol Infrastructure”.\n\nA further breakdown of the Balancer OpCo Product Team costs is shown below:\n![bip-565-1.png](ipfs://bafkreigag7amrn6sougc46ncjc57gyaoioz3o4qgsbyhwsntolcqzsdjei)\n    \n\nIn addition, the Balancer OpCo is requesting an allocation of 15,711.56 BAL for the 6 month period of the proposal that aligns with the grants included in staff employment packages. This BAL would be awarded as compensation to current team members on a 4-year vesting basis, with a 1-year cliff, starting from each employee’s initial employment date in the ecosystem.\n\nShould any of these employees leave before the completion of the 2 quarter proposal period, any unvested BAL would not go to the departing employee and would be available to the OpCo for allocation as incentives to potential replacement staff.\n\n**Link to Service Provider Agreement (if going through the Balancer OpCo)**\nNot applicable given this entity is internal. The Product team will be directly accountable to the Balancer OpCo and the Balancer DAO community through the reporting process applicable to all Balancer SPs, primarily with reference to the objectives and KPIs noted above.",
+        "end_utc": "2024-03-25T19:00:00Z",
+        "similarity_score": 0.1509,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3165614.8014855897,
+            0,
+            0
+          ],
+          "scores_total": 3165614.8014855897,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-03-25T19:00:00",
+          "pre_tvl_avg": 1218663368.5,
+          "post_tvl_avg": 1279867832.5,
+          "abnormal_change": 5.0223,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.050223,
+          "abnormal_change_pct": 5.0223
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-03-25T19:00:00",
+          "pre_price_avg": 4.81569115,
+          "post_price_avg": 5.133736955,
+          "abnormal_change": 6.6044,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.066044,
+          "abnormal_change_pct": 6.6044
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0xc4cd4570b4e6d48bca408501b12f928029dcf096f3baa1148b77fb6940b498d4",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "Proposal to renew funding for Hypernative security services, crucial for Balancer's security and compliance, is strongly supported by forum sentiment, timeline vote patterns, and positive precedents from similar past proposals.",
+    "key_arguments_for": [
+      "Renewal of vital security services that enhance protocol resiliency and reduce risks of hacks and exploits.",
+      "Strong positive forum sentiment endorsing Hypernative's expertise and contributions to Balancer's security.",
+      "Historical similar proposals with 'Yes' votes led to positive price and TVL impact, showing beneficial outcomes.",
+      "Timeline analysis indicates stable and early voting support for the 'Yes' option."
+    ],
+    "key_arguments_against": [
+      "Slight negative market price and TVL impact post-proposal, although not decisive.",
+      "Small number of total votes (4), so broader community participation could be improved."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.balancer.fi/t/bip-775-fund-hypernative-security-services-renewal/6329",
+        "quote": "Three of four forum comments express positive support emphasizing Hypernative's security improvements and regulatory compliance benefits."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Balancer.eth proposal 0xc4cd4570b4e6d48bca408501b12f928029dcf096f3baa1148b77fb6940b498d4",
+        "quote": "Timeline metrics show unanimous early and stable support for 'Yes, let's do it' option with high VP."
+      },
+      {
+        "source_tool": "registry_lookup",
+        "reference": "balancer.eth",
+        "quote": "Governance token address 0xba100000625a3754423978a60c9317c58a424e3D confirmed."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-02-13T19:00:00Z",
+    "event_end_utc": "2025-02-17T19:00:00Z",
+    "event_time_utc": "2025-02-17T19:00:00Z",
+    "address_of_governance_token": "0xba100000625a3754423978a60c9317c58a424e3D",
+    "token_price_impact_pct": -1.9131,
+    "tvl_impact_pct": -1.1317,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        2726196.06418781,
+        0.0,
+        613.4078013237774
+      ],
+      "scores_total": 2726809.471989133,
+      "margin_abs": 2725582.6563864863,
+      "margin_pct": 0.99955
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Forum discussion shows strong positive sentiment supporting renewal of critical security services.\n- Timeline voting metrics indicate stable and early dominant support for the 'Yes' option.\n- Similar past proposals (BIP-774 and BIP-773) with similar security and compliance themes passed with positive market reactions, suggesting beneficial impact.\n- Slight negative price and TVL impact post-event exist but are not considered decisive; overall, the proposal benefits Balancer's long-term security and compliance posture.\n- Recommendation aligns well with aggregated forum sentiment and timeline analytics, reflecting community views.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x101ed27e3f033b5704971cf17ef0c4370099cee9316967e88d7e0c9632f6abb1",
+        "title": "[BIP-773] Enable Gauge for dvstETH wstETH [Ethereum]",
+        "end_utc": "2025-02-10T19:00:00Z",
+        "summary": "[BIP-773] Enable Gauge for dvstETH wstETH [Ethereum] closed on 2025-02-10T19:00:00Z. Timeline analytics noted 4 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.08)",
+        "market_response": "token +4.89%; TVL -2.24%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0x065351bbfa19f5b4b3b8cb2d732a9809adeee6e424c9ede6815854a0dab9caeb",
+        "title": "[BIP-772] Enable Boosted GHO/PYUSD on Balancer v3",
+        "end_utc": "2025-02-03T19:00:00Z",
+        "summary": "[BIP-772] Enable Boosted GHO/PYUSD on Balancer v3 closed on 2025-02-03T19:00:00Z. Timeline analytics noted 6 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.06)",
+        "market_response": "token -13.29%; TVL -14.00%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -1.9131,
+    "ex_post_tvl_impact_pct": -1.1317,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -1.91%; TVL -1.13%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 0,
+    "Positive": 3,
+    "Neutral": 1,
+    "total_comments": 4
+  }
+}

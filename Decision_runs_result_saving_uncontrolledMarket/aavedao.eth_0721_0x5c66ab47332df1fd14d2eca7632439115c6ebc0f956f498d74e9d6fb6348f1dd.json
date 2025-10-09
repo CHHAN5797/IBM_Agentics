@@ -1,0 +1,261 @@
+{
+  "captured_at_utc": "2025-10-07T05:16:02.275657+00:00",
+  "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0x5c66ab47332df1fd14d2eca7632439115c6ebc0f956f498d74e9d6fb6348f1dd",
+  "focus": null,
+  "votes_count": 5500,
+  "timeline_metrics_current": {
+    "unique_voters": 5500,
+    "total_votes": 5500,
+    "first_vote_at": "2022-05-05T15:16:07Z",
+    "last_vote_at": "2022-05-07T06:27:13Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        25502.386075190145,
+        0.00026,
+        0.0
+      ],
+      [
+        268.6973121278462,
+        1.0149726929173035,
+        0.0
+      ],
+      [
+        94908.64025728931,
+        0.0,
+        0.0
+      ],
+      [
+        10.522769917670733,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.77423,
+    "spike_follow_support_ratio": 1.0,
+    "stairwise_ratio": 7e-06,
+    "half_slope_diff": -0.07494
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x1c3363b370ce0756f5a63969a7652571756b7edecb3885224c2d3cae87259b9e",
+      "title": "Governance Frtamework for Portals",
+      "author": "0x329c54289Ff5D6B7b7daE13592C6B1EDA1543eD4",
+      "end_utc": "2022-04-17T15:10:00Z",
+      "timeline_metrics": {
+        "unique_voters": 1268,
+        "total_votes": 1268,
+        "first_vote_at": "2022-04-14T15:16:57Z",
+        "last_vote_at": "2022-04-17T12:27:32Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            60684.63155363325,
+            0.0,
+            0.04702353888026824
+          ],
+          [
+            1662.3335708657112,
+            0.0,
+            39.43624103308069
+          ],
+          [
+            76.97346222941195,
+            7.087975393152e-06,
+            5.51606312073e-06
+          ],
+          [
+            174.4426168805134,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.965072,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.000197,
+        "half_slope_diff": -7.395802
+      },
+      "price_impact_pct": 1.5831,
+      "tvl_impact_pct": 2.2709,
+      "similarity": 0.0924,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "YAE",
+        "margin_abs": 62558.89793352075,
+        "scores_total": 62637.86448078477,
+        "margin_pct": 0.998739316100276
+      }
+    }
+  ],
+  "similar_proposals_data": [],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0x5c66ab47332df1fd14d2eca7632439115c6ebc0f956f498d74e9d6fb6348f1dd",
+    "selected_choice_label": "YAE",
+    "selected_choice_index": 0,
+    "confidence": 0.9,
+    "summary": "Proposal to adopt a fast-track process for managing supply and borrow caps on V3 markets, aiming to reduce governance inertia and support rapid market growth.",
+    "key_arguments_for": [
+      "The current governance process for increasing caps is slow, taking weeks to months, which hinders protocol growth and market responsiveness.",
+      "The fast-track process is limited to supply and borrow caps with defined scope and quorum, ensuring safety while improving efficiency.",
+      "Forum sentiment is predominantly positive in support of this proposal, highlighting the need for more agile governance.",
+      "Timeline analytics show unanimous early and stable support for the 'YAE' option, indicating strong community backing."
+    ],
+    "key_arguments_against": [
+      "Some community members express concerns about loosening governance controls too quickly, recommending cautious caps increases and minimum asset listing durations.",
+      "Potential risk that faster processes might reduce oversight or lead to unintended rapid changes."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://governance.aave.com/t/arc-v3-supply-borrow-cap-management-fast-track-process/8045",
+        "quote": "The Avalanche V3 market success showed governance inertia inefficiency; a fast-track process is proposed to improve responsiveness."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": null,
+        "quote": "Timeline metrics show stable, early, and unanimous lead for the 'YAE' choice throughout the voting period."
+      },
+      {
+        "source_tool": "registry_lookup",
+        "reference": null,
+        "quote": "Governance token address is 0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9 for AAVE on Ethereum mainnet."
+      },
+      {
+        "source_tool": "adjacent_analytics",
+        "reference": null,
+        "quote": "Similar prior proposal 'Governance Framework for Portals' also passed with unanimous support and showed positive price and TVL impact post-vote."
+      }
+    ],
+    "available_choices": [
+      "YAE",
+      "NAE",
+      "ABSTAIN"
+    ],
+    "event_start_utc": "2022-05-05T15:15:15Z",
+    "event_end_utc": "2022-05-07T10:00:00Z",
+    "event_time_utc": "2022-05-07T10:00:00Z",
+    "address_of_governance_token": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+    "token_price_impact_pct": -20.6726,
+    "tvl_impact_pct": -11.4013,
+    "actual_vote_result": {
+      "winner_label": "YAE",
+      "winner_index": 0,
+      "scores": [
+        120693.9612186708,
+        1.1152326929173035,
+        0.0
+      ],
+      "scores_total": 120695.07645136371,
+      "margin_abs": 120692.84598597788,
+      "margin_pct": 0.999982
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'YAE' selected with stance to keep 'Change'.",
+    "ai_final_reason": "• The timeline voting pattern shows unanimous early and stable support for 'YAE', indicating strong and consistent community backing.\n• Forum sentiment analysis reveals a majority positive stance, with key community members highlighting the necessity to reduce governance delays to sustain growth.\n• Historical lessons from a similar proposal ('Governance Framework for Portals') indicate positive outcomes when adopting streamlined governance processes.\n• Despite negative market price and TVL impacts post-vote, these metrics do not affect the current decision which focuses on long-term governance efficiency and protocol health.\n• The recommendation aligns well with aggregated forum sentiment, reinforcing that the vote reflects community views for change.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x1c3363b370ce0756f5a63969a7652571756b7edecb3885224c2d3cae87259b9e",
+        "title": "Governance Frtamework for Portals",
+        "end_utc": "2022-04-17T15:10:00Z",
+        "summary": "Governance Frtamework for Portals closed on 2022-04-17T15:10:00Z. Timeline analytics noted 1268 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.09)",
+        "market_response": "token +1.58%; TVL +2.27%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -20.6726,
+    "ex_post_tvl_impact_pct": -11.4013,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -20.67%; TVL -11.40%"
+  },
+  "agentic_ai_choice": "YAE",
+  "actual_outcome": "YAE",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 1,
+    "Positive": 2,
+    "Neutral": 1,
+    "total_comments": 4
+  }
+}

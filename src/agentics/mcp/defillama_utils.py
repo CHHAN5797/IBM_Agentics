@@ -27,6 +27,13 @@ DB_PATH = DATA_DIR / "defillama_cache.sqlite"
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 TVL_DIR.mkdir(parents=True, exist_ok=True)
 
+# Snapshot spaces that require aggregating multiple protocol slugs (sum of TVL).
+_AGGREGATE_SPACE_SLUGS: Dict[str, List[str]] = {
+    # Balancer operates multiple protocol entries on DeFiLlama; aggregate v1/v2/v3.
+    "balancer.eth": ["balancer-v1", "balancer-v2", "balancer-v3"],
+    "balancer": ["balancer-v1", "balancer-v2", "balancer-v3"],
+}
+
 HTTP_TIMEOUT = int(os.getenv("LLAMA_HTTP_TIMEOUT", "45"))
 RETRY_TOTAL = int(os.getenv("LLAMA_HTTP_RETRIES", "5"))
 BASE_SLEEP = float(os.getenv("LLAMA_BASE_SLEEP", "0.35"))
@@ -205,8 +212,8 @@ def _snapshot_base(hint: str) -> Optional[str]:
     return None
 
 
-def resolve_protocol_from_snapshot_space(space: str) -> Optional[str]:
-    """Resolve DeFi protocol slug from Snapshot space name."""
+def resolve_protocol_from_snapshot_space(space: str) -> Optional[List[str]]:
+    """Resolve one or more DeFiLlama protocol slugs for a Snapshot space."""
     if not space:
         return None
 
@@ -215,6 +222,11 @@ def resolve_protocol_from_snapshot_space(space: str) -> Optional[str]:
     hints = [space.lower()]
     if base:
         hints.append(base)
+
+    # Explicit aggregate mappings take precedence.
+    for hint in hints:
+        if hint in _AGGREGATE_SPACE_SLUGS:
+            return _AGGREGATE_SPACE_SLUGS[hint]
 
     # Common mappings
     space_lower = space.lower()
@@ -234,7 +246,8 @@ def resolve_protocol_from_snapshot_space(space: str) -> Optional[str]:
 
     candidates = rank_protocol_candidates(DB_PATH, hints, limit=1)
     if candidates and len(candidates) > 0:
-        return candidates[0].get("slug") if isinstance(candidates[0], dict) else candidates[0]
+        slug = candidates[0].get("slug") if isinstance(candidates[0], dict) else candidates[0]
+        return [slug] if slug else None
     return None
 
 
@@ -298,46 +311,74 @@ def get_tvl_impact_for_proposal(
 ) -> Dict[str, Any]:
     """Get TVL impact analysis for a proposal."""
     try:
-        # Resolve protocol slug from space
-        protocol_slug = resolve_protocol_from_snapshot_space(space)
-        if not protocol_slug:
+        # Resolve protocol slugs from space (may include multiple entries to aggregate).
+        protocol_slugs = resolve_protocol_from_snapshot_space(space) or []
+        protocol_slugs = [slug.strip().lower() for slug in protocol_slugs if slug]
+        seen: set[str] = set()
+        protocol_slugs = [slug for slug in protocol_slugs if not (slug in seen or seen.add(slug))]
+
+        if not protocol_slugs:
             return {
                 "protocol_slug": None,
+                "protocol_slugs": [],
                 "status": "no_protocol_mapping",
                 "error": f"Could not map space '{space}' to DeFi protocol"
             }
 
-        # Check if protocol exists in cache
-        if not slug_exists(DB_PATH, protocol_slug):
+        # Make sure each slug is present in the local protocol cache.
+        missing = [slug for slug in protocol_slugs if not slug_exists(DB_PATH, slug)]
+        if missing:
             _refresh_meta(ttl_hours=0)
-            if not slug_exists(DB_PATH, protocol_slug):
+            missing = [slug for slug in protocol_slugs if not slug_exists(DB_PATH, slug)]
+            if missing:
                 return {
-                    "protocol_slug": protocol_slug,
+                    "protocol_slug": "+".join(protocol_slugs),
+                    "protocol_slugs": protocol_slugs,
                     "status": "protocol_not_found",
-                    "error": f"Protocol '{protocol_slug}' not found in DeFiLlama"
+                    "error": f"Protocol(s) not found in DeFiLlama: {', '.join(missing)}"
                 }
 
-        # Try to load TVL data
-        try:
-            df = load_tvl(protocol_slug)
-        except FileNotFoundError:
-            # Try to refresh TVL cache
+        dfs: List[pd.DataFrame] = []
+        for slug in protocol_slugs:
             try:
-                refresh_tvl_cache(protocol_slug)
-                df = load_tvl(protocol_slug)
-            except Exception as e:
-                return {
-                    "protocol_slug": protocol_slug,
-                    "status": "tvl_data_unavailable",
-                    "error": f"Could not fetch TVL data: {str(e)}"
-                }
+                df = load_tvl(slug)
+            except FileNotFoundError:
+                try:
+                    refresh_tvl_cache(slug)
+                    df = load_tvl(slug)
+                except Exception as e:  # pragma: no cover - defensive
+                    return {
+                        "protocol_slug": "+".join(protocol_slugs),
+                        "protocol_slugs": protocol_slugs,
+                        "status": "tvl_data_unavailable",
+                        "error": f"Could not fetch TVL data for '{slug}': {str(e)}"
+                    }
+            dfs.append(df[["date", "tvl"]].copy())
 
-        # Compute TVL impact
-        stats = event_stats_tvl(df, proposal_end_utc, pre_days, post_days)
+        if not dfs:
+            return {
+                "protocol_slug": None,
+                "protocol_slugs": [],
+                "status": "tvl_data_unavailable",
+                "error": "No TVL data available after refresh attempts"
+            }
+
+        if len(dfs) == 1:
+            combined_df = dfs[0]
+        else:
+            combined_df = (
+                pd.concat(dfs, ignore_index=True)
+                .groupby("date", as_index=False)["tvl"].sum()
+                .sort_values("date")
+            )
+
+        stats = event_stats_tvl(combined_df, proposal_end_utc, pre_days, post_days)
 
         return {
-            "protocol_slug": protocol_slug,
+            "protocol_slug": "+".join(protocol_slugs),
+            "protocol_slugs": protocol_slugs,
             "status": "success",
+            "aggregation": "sum" if len(protocol_slugs) > 1 else "single",
             "event_time_utc": stats["event_time_utc"],
             "pre_tvl_avg": stats["pre"]["tvl_avg"],
             "post_tvl_avg": stats["post"]["tvl_avg"],

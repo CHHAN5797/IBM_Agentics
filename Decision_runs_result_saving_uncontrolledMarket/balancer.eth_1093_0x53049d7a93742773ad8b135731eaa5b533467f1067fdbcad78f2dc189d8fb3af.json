@@ -1,0 +1,1147 @@
+{
+  "captured_at_utc": "2025-10-08T17:41:13.656626+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x53049d7a93742773ad8b135731eaa5b533467f1067fdbcad78f2dc189d8fb3af",
+  "focus": null,
+  "votes_count": 9,
+  "timeline_metrics_current": {
+    "unique_voters": 9,
+    "total_votes": 9,
+    "first_vote_at": "2025-07-04T20:24:24Z",
+    "last_vote_at": "2025-07-08T08:00:01Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 2,
+    "lead_ratio_by_quartile": [
+      [
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        0.0,
+        0.0,
+        1.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333
+    ],
+    "stability": [
+      0.6666666666666666,
+      0.0,
+      0.3333333333333333
+    ],
+    "early_ratio": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "vp_by_quartile": [
+      [
+        0.0,
+        0.0,
+        851.8323532515845
+      ],
+      [
+        185095.65584092186,
+        0.0,
+        0.0
+      ],
+      [
+        661791.6243791298,
+        0.0,
+        0.0
+      ],
+      [
+        2427242.5799436783,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.74134,
+    "spike_follow_support_ratio": 0.0,
+    "stairwise_ratio": 0.25866,
+    "half_slope_diff": 222.177548
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x04e48c9f065d88b1737a2a892621f768254391a0b28a67d132ff41b3b976acbc",
+      "title": "[BIP-853] Gauge proposal for the siUSD-sUSDe pool",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-07-01T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 4,
+        "total_votes": 4,
+        "first_vote_at": "2025-06-27T23:49:20Z",
+        "last_vote_at": "2025-07-01T08:00:02Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            4.521724118794666,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            631056.6035859786,
+            0.0,
+            0.0
+          ],
+          [
+            2436233.001776067,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.794261,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.205739,
+        "half_slope_diff": 28.19579
+      },
+      "price_impact_pct": -0.5456,
+      "tvl_impact_pct": 1.9864,
+      "similarity": 0.2581,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 3067294.1270861644,
+        "scores_total": 3067294.1270861644,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0x9ee70ede3afa1ff578d7bd63eae2537c0fed81d6307ff1eb0807ebff20d3cf17",
+      "title": "[BIP-852] Enable Aave Boosted GHO/USDC/USDT Gauge on Balancer v3 Avalanche",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-07-01T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 4,
+        "total_votes": 4,
+        "first_vote_at": "2025-06-27T23:55:43Z",
+        "last_vote_at": "2025-07-01T08:00:02Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            4.521821557063181,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            631071.3866612689,
+            0.0,
+            0.0
+          ],
+          [
+            2436233.001776067,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.794257,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.205743,
+        "half_slope_diff": 28.178712
+      },
+      "price_impact_pct": -0.5456,
+      "tvl_impact_pct": 1.9864,
+      "similarity": 0.1713,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 3066821.663658538,
+        "scores_total": 3067308.910258893,
+        "margin_pct": 0.9998411485068474
+      }
+    },
+    {
+      "id": "0x67befecfd05e5e3ed585410f2d00af032279753dfe14ca6db9728e8b6983be7f",
+      "title": "[BIP-851] Staking POL Tokens and Delegating to Balancer’s Governance Profile",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-07-01T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 4,
+        "total_votes": 4,
+        "first_vote_at": "2025-06-27T23:53:33Z",
+        "last_vote_at": "2025-07-01T08:00:02Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            4.5361578517400565,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            633246.4512105854,
+            0.0,
+            0.0
+          ],
+          [
+            2436232.0132859633,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.793695,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.206305,
+        "half_slope_diff": 28.161669
+      },
+      "price_impact_pct": -0.5456,
+      "tvl_impact_pct": 1.9864,
+      "similarity": 0.0909,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 3069483.0006544003,
+        "scores_total": 3069483.0006544003,
+        "margin_pct": 1.0
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0xf4fc7f618d08635acfad582ae4286e9efd8a061f0542f1c9960eb72cb159b7c6",
+      "cleaned": {
+        "proposal_id": "0xf4fc7f618d08635acfad582ae4286e9efd8a061f0542f1c9960eb72cb159b7c6",
+        "title": "[BIP-834] Enable Aave Boosted USDf/aGHO Gauge on Balancer v3 Ethereum",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2025-05-26T18:00:00Z",
+        "similarity_score": 0.418,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2715697.0015484276,
+        "margin_pct": 1.0,
+        "scores_total": 2715697.0015484276,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 3,
+        "total_votes": 3,
+        "first_vote_at": "2025-05-23T00:32:08Z",
+        "last_vote_at": "2025-05-26T08:00:01Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            319003.2653914279,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2396693.7361569996,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.882534,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.117466,
+        "half_slope_diff": 9.408724
+      },
+      "raw": {
+        "id": "0xf4fc7f618d08635acfad582ae4286e9efd8a061f0542f1c9960eb72cb159b7c6",
+        "title": "[BIP-834] Enable Aave Boosted USDf/aGHO Gauge on Balancer v3 Ethereum",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/2054\n\n## Summary\n\nProposal to add gauge support for the new **USDf/aGHO** Composable Stable pool on Balancer v3 for Ethereum.\n\n## References/Useful Links\n\n- [Falcon Finance Website](https://falcon.finance/)\n- [Falcon Finance Documentation](https://docs.falcon.finance/)\n- [Falcon Finance GitHub](https://github.com/falconfinance)\n- [Falcon Finance Twitter](https://twitter.com/falconstable)\n\n## Protocol Description\n\nFalcon Finance is a next-generation synthetic dollar protocol that enables users to mint USDf, an overcollateralized synthetic dollar, by depositing a diverse set of collateral assets, including stablecoins like USDC, USDT, DAI, and volatile assets such as ETH, BTC and some more exotic ones. The protocol employs a dual-token system comprising USDf and sUSDf, where USDf serves as the foundational unit of account, and sUSDf is a yield-bearing token obtained by staking USDf.\n\nUSDf maintains its peg through a combination of delta-neutral trading strategies and cross-market arbitrage opportunities, ensuring stability even during market turbulence. The protocol supports multiple minting mechanisms, including Classic Mint and Innovative Mint, catering to various user risk profiles and strategies.\n\nFalcon Finance operates with a focus on sustainable yield generation, making it a robust solution for users seeking stable, on-chain liquidity without relinquishing exposure to their underlying assets.\n\nFor more details, see the [Falcon Finance Documentation](https://docs.falcon.finance/).\n\n## Motivation\n\nTransitioning to a Balancer v3 Aave Boosted pool for USDf/aGHO will significantly enhance capital efficiency and yield opportunities for liquidity providers. The integration of aGHO, which earns native yield from Aave, reduces the overall incentive cost and provides additional yield streams.\n\nThe new **USDf/aGHO** pool will serve as the primary liquidity venue for USDf on Balancer, facilitating seamless integrations with DeFi protocols that utilize aGHO. The higher amplification factor in the Composable Stable pool is expected to improve liquidity depth and trading efficiency, benefiting users interacting with Aave-based strategies.\n\nA gauge is essential to bootstrap TVL, encourage liquidity depth, and support broader DeFi integrations for USDf, solidifying its role within the synthetic dollar ecosystem.\n\n## Specifications\n\n### 1. Governance\n\nFalcon Finance's governance framework is designed to ensure transparency and community involvement. While TGE has not happened yet, the core team is shipping fast and efficiently at the moment and will update the governance framework when the token is live.\n\n### 2. Oracles\n\nUSDf has its own [Chainlink data feed](https://data.chain.link/feeds/ethereum/mainnet/usdf-usd) and has permissioned mint and redemption processes to protect the peg.\n\n### 3. Audits\n\nFalcon Finance's smart contracts have undergone multiple audits to ensure security and reliability. Audit reports are available in the [Falcon Finance Documentation](https://docs.falcon.finance/).\n\n### 4. Centralization Vectors\n\nFalcon Finance is designed to minimize centralization risks. \n\n### 5. Market History\n\nAs a new Balancer v3 pool, the USDf/aGHO pair aims to establish itself as a significant liquidity venue for USDf. The integration with Aave's aGHO token is expected to enhance liquidity and efficiency.\n\n### 6. Value\n\nThe **USDf/aGHO** pool will become the primary liquidity hub for USDf, facilitating seamless integrations with lending protocols. Establishing deep liquidity in this pool is critical for efficient swaps and expanding USDf's utility across the Ethereum ecosystem.\n\n## Specification\n\n### Enable Gauges\n\nThe Balancer Maxi LM Multisig `0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the `addGauge` function with the following arguments:\n\n- Pool address: `0x6c5972311191097D002E804A9Bf97C96C54059ed` \n- Gauge(address): `0x52d28dff7759ca78978954ebabf87481bd5cf8f0` \n- GaugeType(string): `Ethereum`",
+        "end_utc": "2025-05-26T18:00:00Z",
+        "similarity_score": 0.418,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2715697.0015484276,
+            0,
+            0
+          ],
+          "scores_total": 2715697.0015484276,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2025-05-26T18:00:00",
+          "pre_tvl_avg": 778351246.5,
+          "post_tvl_avg": 806711964.0,
+          "abnormal_change": 3.6437,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.036437,
+          "abnormal_change_pct": 3.6437
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2025-05-26T18:00:00",
+          "pre_price_avg": 1.1637989000000002,
+          "post_price_avg": 1.13729404,
+          "abnormal_change": -2.2774,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.022774,
+          "abnormal_change_pct": -2.2774
+        }
+      }
+    },
+    {
+      "proposal_id": "0x51fb3038446d691aee6b8330290418f3da452f7188bef83ffc9f94067460aa57",
+      "cleaned": {
+        "proposal_id": "0x51fb3038446d691aee6b8330290418f3da452f7188bef83ffc9f94067460aa57",
+        "title": "[BIP-830] Enable Aave Boosted USDN/aGHO Gauge on Balancer v3 Ethereum",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2025-05-26T18:00:00Z",
+        "similarity_score": 0.3423,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2715715.4385959166,
+        "margin_pct": 1.0,
+        "scores_total": 2715715.4385959166,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 3,
+        "total_votes": 3,
+        "first_vote_at": "2025-05-23T00:31:29Z",
+        "last_vote_at": "2025-05-26T08:00:01Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            319022.713896257,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2396692.7246996597,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.882527,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.117473,
+        "half_slope_diff": 9.402335
+      },
+      "raw": {
+        "id": "0x51fb3038446d691aee6b8330290418f3da452f7188bef83ffc9f94067460aa57",
+        "title": "[BIP-830] Enable Aave Boosted USDN/aGHO Gauge on Balancer v3 Ethereum",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/2049\n\n## Summary\n\nProposal to add gauge support for the new **USDN/aGHO** Composable Stable pool on Balancer v3 for Ethereum.\n\n## References/Useful Links\n\n- [SmarDex Website](https://smardex.io/)\n- [SmarDex Documentation](https://docs.smardex.io/ultimate-synthetic-delta-neutral)\n- [SmarDex GitHub](https://github.com/SmarDex-Ecosystem)\n- [SmarDex Twitter](https://twitter.com/SmarDex)\n\n## Protocol Description\n\nSmarDex introduces **USDN**, a fully decentralized synthetic dollar designed to maintain a stable value around $1 while providing yield to its holders. Unlike traditional stablecoins backed by centralized reserves, USDN employs a delta-neutral strategy through a structured product mechanism. This approach balances long and short positions within the protocol to stabilize USDN's value and generate returns for participants.\n\nKey features of USDN include:\n\n- **Decentralization**: Operates entirely on-chain without reliance on centralized entities.\n- **Yield Generation**: Utilizes a rebase mechanism to distribute yields directly to holders' wallets.\n- **Delta-Neutral Strategy**: Maintains stability by balancing leveraged long positions against the vault's holdings.\n- **No Custodial Risk**: Users interact directly with smart contracts, eliminating the need for intermediaries.\n\nFor more details, refer to the [SmarDex Documentation](https://docs.smardex.io/ultimate-synthetic-delta-neutral).\n\n## Motivation\n\nIntegrating USDN with aGHO in a Balancer v3 Composable Stable pool offers several advantages:\n\n- **Enhanced Capital Efficiency**: aGHO, being GHO deposited into Aave's Prime instance, accrues native yield, reducing the need for additional incentives.\n- **Strengthened Liquidity**: Establishes a primary liquidity venue for USDN, promoting seamless integrations with DeFi protocols utilizing aGHO.\n\nA gauge is essential to bootstrap TVL, encourage liquidity depth, and support broader integrations across DeFi for USDN.\n\n## Specifications\n\n### 1. Governance\n\nSmarDex uses \"Privileged functions\" which allow Multisigs to have an overview about all important functions of the protocol. \n\n### 2. Oracles\n\nThe USDN protocol relies on a dual-oracle system, utilizing both Pyth and Chainlink, to obtain accurate price feeds. This redundancy ensures resilience against potential oracle failures and maintains the integrity of the protocol's operations.\n\n### 3. Audits\n\nSmarDex's smart contracts have undergone multiple audits to ensure security and reliability. Audit reports are available in the [SmarDex Documentation](https://docs.smardex.io/ultimate-synthetic-delta-neutral/risks).\n\n### 4. Centralization Vectors\n\nThere is no governance; the team manages all operations. Some contracts are renounced, while others are controlled by a 3/5 multisig\n\n### 5. Market History\n\nAs a new Balancer v3 pool, the USDN/aGHO pair aims to establish itself as a significant liquidity venue for USDN. The integration with Aave's aGHO token is expected to enhance liquidity and efficiency.\n\n\n### 6. Value\n\nThe **USDN/aGHO** pool will become the primary liquidity hub for USDN, facilitating seamless integrations with DeFi protocols that utilize GHO. Establishing deep liquidity in this pool is critical for efficient swaps and expanding USDN's utility across the Ethereum ecosystem. With GHO being the cornerstone asset for swap in Balancer v3 it will ensure efficient swap throughout the DEX.\n\n## Specification\n\n### Enable Gauges\n\nThe Balancer Maxi LM Multisig `0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the `addGauge` function with the following arguments:\n\n- Pool address: 0x950682e741abd1498347a93b942463af4ec7132b\n- Gauge: 0x9798995a042973d9705a4f0fea691a4541d13b43\n- GaugeType(string): `Ethereum`",
+        "end_utc": "2025-05-26T18:00:00Z",
+        "similarity_score": 0.3423,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2715715.4385959166,
+            0,
+            0
+          ],
+          "scores_total": 2715715.4385959166,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2025-05-26T18:00:00",
+          "pre_tvl_avg": 778351246.5,
+          "post_tvl_avg": 806711964.0,
+          "abnormal_change": 3.6437,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.036437,
+          "abnormal_change_pct": 3.6437
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2025-05-26T18:00:00",
+          "pre_price_avg": 1.1637989000000002,
+          "post_price_avg": 1.13729404,
+          "abnormal_change": -2.2774,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.022774,
+          "abnormal_change_pct": -2.2774
+        }
+      }
+    },
+    {
+      "proposal_id": "0x8b2dc6ca0f4276bce199ce97fc8d13cbc510170d4206b6a53f9a26250c0724ae",
+      "cleaned": {
+        "proposal_id": "0x8b2dc6ca0f4276bce199ce97fc8d13cbc510170d4206b6a53f9a26250c0724ae",
+        "title": "[BIP-827] Enable Aave Boosted rETH/aWETH Gauge on Balancer v3 L2s",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2025-05-19T18:00:00Z",
+        "similarity_score": 0.3284,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2745073.568804864,
+        "margin_pct": 1.0,
+        "scores_total": 2745073.568804864,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 3,
+        "total_votes": 3,
+        "first_vote_at": "2025-05-16T00:52:24Z",
+        "last_vote_at": "2025-05-19T08:00:03Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            317431.8417718135,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2427641.7270330503,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.884363,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.115637,
+        "half_slope_diff": 9.344415
+      },
+      "raw": {
+        "id": "0x8b2dc6ca0f4276bce199ce97fc8d13cbc510170d4206b6a53f9a26250c0724ae",
+        "title": "[BIP-827] Enable Aave Boosted rETH/aWETH Gauge on Balancer v3 L2s",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/2032\n\n## Summary\n\nThis publication proposed enabling new **rETH/aWETH** gauges for Composable Stable pool on Balancer v3 for Arbitrum, Base and Optimism.\n\n## References/Useful Links\n\n- [Rocket Pool Website](https://rocketpool.net/)\n- [Rocket Pool Documentation](https://docs.rocketpool.net/)\n- [Rocket Pool GitHub](https://github.com/rocket-pool/rocketpool)\n- [Rocket Pool Twitter](https://twitter.com/rocket_pool)\n\n## Protocol Description\n\nRocket Pool is a decentralized Ethereum staking protocol that allows users to stake ETH and receive rETH, a liquid staking token representing their staked ETH plus accrued rewards. The protocol is designed to be community-owned, decentralized, and trustless, aligning with Ethereum's core principles.\n\nrETH accrues staking rewards over time, reflecting the performance of the underlying validators operated by a decentralized network of node operators. Users can stake as little as 0.01 ETH, making staking accessible to a broader audience.\n\nRocket Pool's governance is managed by the Protocol DAO (pDAO), which oversees protocol parameters and upgrades, ensuring that the protocol remains community-driven and secure.\n\nFor more details, see the [Rocket Pool Documentation](https://docs.rocketpool.net/).\n\n## Motivation\n\nTransitioning from Balancer v2 to Balancer v3 with an Aave Boosted pool will enhance the capital efficiency of the rETH liquidity pools. The integration of aWETH (aArbWETH; aBasWETH, aOptWETH), which earns native yield from Aave, reduces the overall incentive cost and provides liquidity providers with additional yield opportunities.\n\nThe new **rETH/aWETH** pools will serve as the primary liquidity venue for rETH on L2s, replacing the existing v2 pool. The higher amplification factor in the Composable Stable pool is expected to improve liquidity depth and trading efficiency, benefiting users interacting with Aave-based strategies.\n\nA gauge is essential to bootstrap TVL, encourage liquidity depth, and support broader DeFi integrations for rETH.\n\n## Specifications\n\n### 1. Governance\n\nRocket Pool's governance is managed by the Protocol DAO (pDAO), comprising RPL token holders who vote on protocol upgrades and parameter changes. This decentralized governance model ensures that the protocol remains aligned with the interests of its community.\n\n### 2. Oracles\n\nRocket Pool utilizes a decentralized oracle network operated by the Oracle DAO (oDAO), which consists of independent node operators. These oracles are responsible for reporting validator balances and other critical data to the protocol's smart contracts, ensuring accurate and reliable operations.\n\n### 3. Audits\n\nRocket Pool's smart contracts have undergone multiple audits to ensure security and reliability. Audit reports are available in the [Rocket Pool GitHub repository](https://github.com/rocket-pool/rocketpool).\n\n### 4. Centralization Vectors\n\nRocket Pool is designed to minimize centralization risks. Governance decisions are executed by the pDAO, and the oracle network is decentralized across multiple independent operators, ensuring robust security and trustlessness throughout the protocol.\n\n### 5. Market History\n\nThe existing Balancer v2 rETH/WETH pools have demonstrated strong performance, serving as a significant liquidity venue for rETH. Transitioning to a Balancer v3 Aave Boosted pool is expected to further enhance liquidity and efficiency.\n\n- [Balancer V2 Pool on Base](https://balancer.fi/pools/base/v2/0xc771c1a5905420daec317b154eb13e4198ba97d0000000000000000000000023)\n- [Balancer V2 Pool on Arbitrum](https://balancer.fi/pools/arbitrum/v2/0xade4a71bb62bec25154cfc7e6ff49a513b491e81000000000000000000000497)\n- [Balancer V2 Pool on Optimism](https://balancer.fi/pools/optimism/v2/0x4fd63966879300cafafbb35d157dc5229278ed2300020000000000000000002b)\n\n### 6. Value\n\nThe **rETH/aWETH** pool will become the primary liquidity hub for rETH on L2s, facilitating seamless integrations with DeFi protocols that utilize aWETH. Establishing deep liquidity in this pool is critical for efficient swaps and the ease of leveraging or unwinding on lending protocols.\n\n## Specification\n\nFollowing root gauges need to be added to the gauge controller\n\n|Chain|Pool|Pool Address|Root Gauge|\n| --- | --- | --- | --- |\n|Arbitrum|v3 rETH/aave-WETH|0x5418a64e0cdb20548ACB394f5D00a089BAf02161|0xac3b3fff577561c58f126e4f6375f56476dd9fdb|\n|Base|v3 rETH/aave-WETH|0xB7B8B3AfC010169779C5C2385ec0eB0477FE3347|0x31ccb4e5005fd37005523e6e3f1d084f9abe25b6|\n|Optimism|v3 rETH/aave-WETH|0x870c0Af8A1af0B58b4b0bD31CE4fe72864ae45BE|0xd606ea6f6d93d90efafc7d21972353fb98205eb8|\n\n### Enable Gauges\n\nThe Balancer Maxi LM Multisig `0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function with the following arguments: \n\ngauge(address):`0xac3b3fff577561c58f126e4f6375f56476dd9fdb` \ngaugeType(string): `Arbitrum` \n\ngauge(address):`0x31ccb4e5005fd37005523e6e3f1d084f9abe25b6` \ngaugeType(string): `Base` \n\ngauge(address):`0xd606ea6f6d93d90efafc7d21972353fb98205eb8` \ngaugeType(string): `Optimism`",
+        "end_utc": "2025-05-19T18:00:00Z",
+        "similarity_score": 0.3284,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2745073.568804864,
+            0,
+            0
+          ],
+          "scores_total": 2745073.568804864,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2025-05-19T18:00:00",
+          "pre_tvl_avg": 761488999.0,
+          "post_tvl_avg": 782938329.0,
+          "abnormal_change": 2.8168,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.028168,
+          "abnormal_change_pct": 2.8168
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2025-05-19T18:00:00",
+          "pre_price_avg": 1.213267595,
+          "post_price_avg": 1.18158491,
+          "abnormal_change": -2.6114,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.026114,
+          "abnormal_change_pct": -2.6114
+        }
+      }
+    },
+    {
+      "proposal_id": "0x83ae119893b1c1cd3911ed3c5851189f2e3ac840b8c3169910e3e82244c4180f",
+      "cleaned": {
+        "proposal_id": "0x83ae119893b1c1cd3911ed3c5851189f2e3ac840b8c3169910e3e82244c4180f",
+        "title": "[BIP-841] Enable iUSD/aGHO Gauge on Balancer v3 Ethereum",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2025-06-17T18:00:00Z",
+        "similarity_score": 0.2685,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3148344.5049717603,
+        "margin_pct": 1.0,
+        "scores_total": 3148344.5049717603,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 4,
+        "total_votes": 4,
+        "first_vote_at": "2025-06-15T18:04:48Z",
+        "last_vote_at": "2025-06-17T08:00:01Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            809911.6358465044,
+            0.0,
+            0.0
+          ],
+          [
+            2338432.8691252563,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.74275,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.25725,
+        "half_slope_diff": 10.33501
+      },
+      "raw": {
+        "id": "0x83ae119893b1c1cd3911ed3c5851189f2e3ac840b8c3169910e3e82244c4180f",
+        "title": "[BIP-841] Enable iUSD/aGHO Gauge on Balancer v3 Ethereum",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/2122\n\n## Summary\n\nProposal to add gauge support for the new **iUSD/aGHO** Composable Stable pool on Balancer v3 for Ethereum.\n\n## References/Useful Links\n\n- [infiniFi Documentation](https://docs.infinifi.xyz/)\n- [infiniFi Website](https://www.infinifi.xyz/)\n- [GHO by Aave](https://gho.aave.com/)\n- [Aave Documentation](https://docs.aave.com/gho/)\n\n## Protocol Description\n\n**infiniFi** is a decentralized fractional reserve staking system designed to improve financial stability and capital efficiency while aligning depositor incentives. It allows users to mint **iUSD**, a high-yield stablecoin backed by liquid and locked collateral. Depositors can choose lock durations to earn higher returns, enabling automated maturity laddering of reserves and reducing duration mismatch risks—challenges inherent in traditional banking.\n\nKey features of iUSD include:\n\n- **Fractional Reserve Design**: Achieves higher yield across depositor segments by combining liquid and locked capital into duration-matched strategies.\n- **Depositor-Driven Allocation**: Users determine how their funds are deployed, based on preferred liquidity timelines.\n- **Yield Optimization**: Liquid deposits earn top DeFi rates, while locked positions gain amplified returns.\n- **Blockchain Transparency**: Fully on-chain and governed by smart contracts, ensuring transparency and trustlessness.\n\naGHO, on the other side of the pair, represents GHO deposited into Aave’s yield-bearing Prime instance. It combines the stability and overcollateralization of GHO with passive native yield from Aave.\n\n## Motivation\n\nIntroducing a gauge for the iUSD/aGHO Composable Stable pool enhances liquidity and accessibility between two distinct yet complementary stablecoins:\n\n- **Yield Synergy**:  aGHO is yield-bearing by design while iUSD is the vanilla stablecoin of infinifi ecosystem, it earns points rather than being yield bearing. This pool offers users a yield-maximized stable pair, ideal for liquidity providers and DAOs seeking low-risk yield.\n- **Deepens iUSD Utility**: Adding GHO as a trading pair on Balancer offers DeFi-native arbitrage and integration potential.\n- **Supports iUSD Distribution**: Balancer’s infrastructure offers a trusted, programmable venue to introduce iUSD to more DeFi participants.\n- **Composable Collateral**: A deep and efficient pool can support integrations with leverage protocols, yield vaults, and synthetic markets.\n\nA gauge will accelerate TVL growth and market usage, establishing this pool as the primary DeFi liquidity venue for iUSD.\n\n## Specifications\n\n### 1. Governance\n\ninfiniFi is governed by smart contracts with a future pathway toward DAO-managed control over key parameters and reserve deployment logic. Depositors drive asset allocation through bonding preferences, creating transparent and market-driven governance outcomes.\n\n### 2. Oracles\n\niUSD leverages on-chain DeFi markets such as Aave and Compound for asset yields. Pricing for redemptions and collateral values is computed via verifiable on-chain mechanisms. The system currently does not rely on off-chain oracles but may integrate oracle feeds (e.g., Chainlink) for advanced features.\n\n### 3. Audits\n\nLink to the audits [here](https://docs.infinifi.xyz/Security-1fb44c414f3680d6b5ccfccefdf2c5cb)\n\n### 4. Centralization Vectors\n\ninfiniFi is non-custodial and fully on-chain. All deposits, locks, and allocations are governed by smart contracts. There is no reliance on centralized intermediaries or off-chain execution, minimizing centralization risks.\n\n### 5. Market History\n\nThis is a new Balancer v3 pool launching to support the growth of iUSD and aGHO liquidity. iUSD is actively used within the infiniFi protocol, and this Balancer integration represents the first major external liquidity venue for the asset. aGHO is already in use within Aave and Balancer GHO initiatives.\n\n- [Balancer Pool Link](https://app.balancer.fi/#/) (To be added upon deployment)\n\n### 6. Value\n\nThis pool will serve as the primary DeFi liquidity hub for iUSD while enhancing GHO ecosystem stability and utility. The pairing supports passive yield strategies, arbitrage, and future integrations across lending protocols and structured product layers.\n\n## Specification\n\n### Enable Gauges\n\nThe Balancer Maxi LM Multisig `0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the `addGauge` function with the following arguments:\n\n- Pool address: `0x733F2D3f66d3F41bde65d95321A19a1e55BB5470` \n- Gauge(address): `0xac681deb529b49b5a563fbf0dcccb95d5bb7cdb0` \n- GaugeType(string): `Ethereum`",
+        "end_utc": "2025-06-17T18:00:00Z",
+        "similarity_score": 0.2685,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3148344.5049717603,
+            0,
+            0
+          ],
+          "scores_total": 3148344.5049717603,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2025-06-17T18:00:00",
+          "pre_tvl_avg": 771175409.0,
+          "post_tvl_avg": 752604503.5,
+          "abnormal_change": -2.4081,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.024081,
+          "abnormal_change_pct": -2.4081
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2025-06-17T18:00:00",
+          "pre_price_avg": 1.078250425,
+          "post_price_avg": 1.03013459,
+          "abnormal_change": -4.4624,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.044624,
+          "abnormal_change_pct": -4.4624
+        }
+      }
+    },
+    {
+      "proposal_id": "0x09d30b0ad9969d5e296a3833fe92d22b1e7d8f6745fa7d9347ffc197671514f4",
+      "cleaned": {
+        "proposal_id": "0x09d30b0ad9969d5e296a3833fe92d22b1e7d8f6745fa7d9347ffc197671514f4",
+        "title": "[BIP-837] Enable wUSDN/BOLD Stable pool Gauge on Balancer v3 Ethereum",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2025-06-10T18:00:00Z",
+        "similarity_score": 0.2587,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2695489.9555011825,
+        "margin_pct": 1.0,
+        "scores_total": 2695489.9555011825,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 4,
+        "total_votes": 4,
+        "first_vote_at": "2025-06-09T09:34:05Z",
+        "last_vote_at": "2025-06-10T08:00:01Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            311235.3653989644,
+            0.0,
+            0.0
+          ],
+          [
+            2384254.590102218,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.883872,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.116128,
+        "half_slope_diff": 131.225798
+      },
+      "raw": {
+        "id": "0x09d30b0ad9969d5e296a3833fe92d22b1e7d8f6745fa7d9347ffc197671514f4",
+        "title": "[BIP-837] Enable wUSDN/BOLD Stable pool Gauge on Balancer v3 Ethereum",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/2091\n\n**Note:** ([This](https://forum.balancer.fi/t/bip-837-enable-wusdn-bold-stable-pool-gauge-on-balancer-v3-ethereum/6545) proposal has been reposted, as the previous one contained the old BOLD token)\n\n## Summary\n\nThis proposal seeks to activate a gauge for the wUSDN/BOLD Stable Pool on Balancer v3 Mainnet, enabling liquidity mining incentives liquidity providers.\n\nReferences/Useful Links\n\nSmardex\n\n* [Smardex Website]()\n* [Smardex Documentation](https://docs.smardex.io/)\n* [Smardex GitHub](https://github.com/smardex-ecosystem)\n* [Smardex Twitter]()\n\nLiquity\n\n* [Liquity Website](https://www.liquity.org/)\n* [Liquity Documentation](https://docs.liquity.org/)\n* [Liquity GitHub](https://github.com/liquity/bold/)\n* [Liquity Twitter](https://x.com/LiquityProtocol)\n\n## Protocol Description\n\nSmarDex introduces USDN, a fully decentralized synthetic dollar designed to maintain a stable value around $1 while providing yield to its holders. Unlike traditional stablecoins backed by centralized reserves, USDN employs a delta-neutral strategy through a structured product mechanism. This approach balances long and short positions within the protocol to stabilize USDN’s value and generate returns for participants.\n\n## Key features of USDN include:\n\n* Decentralization: Operates entirely on-chain without reliance on centralized entities.\n\n* Yield Generation: Utilizes a rebase mechanism to distribute yields directly to holders’ wallets.\n\n* Delta-Neutral Strategy: Maintains stability by balancing leveraged long positions against the vault’s holdings.\n\n* No Custodial Risk: Users interact directly with smart contracts, eliminating the need for intermediaries.\n\n**For more details, refer to the [SmarDex Documentation](https://docs.smardex.io/ultimate-synthetic-delta-neutral).**\n\n## Motivation\n\nThe creation of a Balancer v3 gauge for the wUSDN/BOLD pool will significantly deepen BOLD liquidity and introduce a dual-yield opportunity for LPs—combining wUSDN’s high native yield with BAL emissions. This pool will serve as the primary venue for BOLD <> wUSDN swaps, supporting broader DeFi integrations and composability for both tokens.\n\nBy referencing the detailed [SMARDEX BOLD Liquidity Initiative](https://your-link-here/), this proposal aims to align incentives between protocols, bootstrap TVL, and showcase innovative cross-protocol treasury management using LQTY governance and Smardex’s native incentives.\n\nA gauge is essential to attract deep, sustainable liquidity and accelerate adoption for BOLD and wUSDN across the DeFi ecosystem.\n\n## Specifications\n\n1. Governance\n\n* Smardex\n  * There is no governance for now.\n  * For USDN, some contracts are renounced.\n  * The remaining contracts are managed by a 3/5 multisig controlled internally by the team\n* Liquity\n  * There is no on-chain governance for Liquity v2.\n  * Master contracts are deployed without the possibility of modification (immutable/renounced).\n  * Upgrades or parameter changes are not possible, which limits the risk of centralization and human intervention.\n\n2. Audits\n\n* Smardex\n  * [Paladin Blockchain Security](https://smardex.io/audits/paladin.pdf)\n  * [Trails of Bits](https://smardex.io/audits/trail-of-bits.pdf)\n  * [Hacken Proof](https://hackenproof.com/companies/smardex) and [Immunefi](https://immunefi.com/bug-bounty/smardex/information/) for bug bounties, up to $5,500,000\n* Liquidity\n  * Most recent audit (May 13 2025) by [Cantina](https://dedaub.com/audits/liquity/liquity-v2-cantina-fixes-review-may-13-2025/)\n  * Multiple [Audits reports](https://docs.liquity.org/v2-documentation/technical-docs-and-audits)\n\n3. Centralization Vectors\n\n* Smardex\n  * There is no governance; the team manages all operations. Some contracts are renounced, while others are controlled by a 3/5 multisig\n* Liquidity\n  * Contracts are immutable after deployment: no admin keys, no upgrades possible.\n  * No multisig or team control over funds or protocol logic.\n  * The protocol operates in a totally decentralized way\n\n4. Market History\n\n  * As a new Balancer v3 pool, the wUSDN/BOLD pair aims to establish itself as a significant liquidity venue for wUSDN and BOLD.\n\n5. Value\n\n  * Offering greater liquidity for the BOLD and wUSDN\n  * SDEX vote incentives (aka ‘bribes’) for veBAL holders\n\n**Specification**\n\nEnable Gauges:\nThe Balancer Maxi LM Multisig 0xc38c5f97B34E175FFd35407fc91a937300E33860 will interact with the GaugeAdder contract to activate:\n\n* tokenized vault:\n* Gauge Type: Ethereum\n* Gauge Address: 0x5a099E2C2a41A5A0aD99e4971c711400Eeef34db\n* Pool Address: 0x3e6c8f40d38d0b41c94862e6d4083c65ce0ce566\n* Rate Provider: [0x829de46686cd24edfcd28763a70034b3b9b4d7cd](https://etherscan.io/address/0x829de46686cd24edfcd28763a70034b3b9b4d7cd)",
+        "end_utc": "2025-06-10T18:00:00Z",
+        "similarity_score": 0.2587,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2695489.9555011825,
+            0,
+            0
+          ],
+          "scores_total": 2695489.9555011825,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2025-06-10T18:00:00",
+          "pre_tvl_avg": 758450043.0,
+          "post_tvl_avg": 813173700.0,
+          "abnormal_change": 7.2152,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.072152,
+          "abnormal_change_pct": 7.2152
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2025-06-10T18:00:00",
+          "pre_price_avg": 1.08912705,
+          "post_price_avg": 1.067112925,
+          "abnormal_change": -2.0213,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.020213,
+          "abnormal_change_pct": -2.0213
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x53049d7a93742773ad8b135731eaa5b533467f1067fdbcad78f2dc189d8fb3af",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.85,
+    "summary": "This proposal aims to enable a gauge for the USD.AI/aGHO Composable Stable pool on Balancer v3 Arbitrum to enhance capital efficiency, yield opportunities, and liquidity depth. The vote timeline and voter power strongly support the proposal, though forum sentiment is mixed. Historical similar proposals to enable gauges have passed with positive community impact and only minor negative market reactions.",
+    "key_arguments_for": [
+      "Enables a gauge for the new USD.AI/aGHO pool, boosting TVL and liquidity depth.",
+      "Supports capital efficiency and yield stacking by integrating Aave boosted tokens.",
+      "Aligns with Balancer's strategy to support RWA-backed stablecoins and composable stable pools."
+    ],
+    "key_arguments_against": [
+      "Forum sentiment includes some concerns or unclear views on the proposal, with one negative comment.",
+      "USD.AI is a newer protocol with limited governance and centralization risks due to core team control.",
+      "Potential risks from new integrations and gauge enablement require cautious monitoring."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.balancer.fi/t/bip-855-enable-aave-boosted-usd-ai-agho-gauge-on-balancer-v3-arbitrum/6615",
+        "quote": "Forum contains 2 comments with sentiment: 1 Negative, 1 Neutral. First comment details the proposal payload and protocol description."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Snapshot Proposal Timeline Analysis",
+        "quote": "Timeline metrics show 66.7% early voter power supports 'Yes, let's do it' with stability of 66.7%, indicating strong early and consistent support."
+      },
+      {
+        "source_tool": "govnews_search_governance_news",
+        "reference": "Adjacent proposals BIP-851, BIP-852, BIP-853",
+        "quote": "Similar past proposals enabled gauges for pools, all passed with positive vote margins and minor negative price impacts; these proposals advanced Balancer's liquidity offerings."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-07-04T18:00:00Z",
+    "event_end_utc": "2025-07-08T18:00:00Z",
+    "event_time_utc": "2025-07-08T18:00:00Z",
+    "address_of_governance_token": "0xBA100000625a3754423978a60c9317c58a424e3D",
+    "token_price_impact_pct": 8.8704,
+    "tvl_impact_pct": 8.0435,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        3274129.86016373,
+        0.0,
+        851.8323532515844
+      ],
+      "scores_total": 3274981.6925169816,
+      "margin_abs": 3273278.0278104786,
+      "margin_pct": 0.99948
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Timeline analysis shows strong early and sustained voter power support for enabling the gauge.\n- Similar past proposals enabling gauges were successful and aligned with protocol growth despite minor negative price impacts.\n- Forum sentiment is mixed but does not reflect the majority vote, so the recommendation diverges slightly from community sentiment for long-term benefit.\n- The proposal supports enhancing liquidity, capital efficiency, and yield opportunities on Balancer, advancing the protocol's strategic goals.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x04e48c9f065d88b1737a2a892621f768254391a0b28a67d132ff41b3b976acbc",
+        "title": "[BIP-853] Gauge proposal for the siUSD-sUSDe pool",
+        "end_utc": "2025-07-01T18:00:00Z",
+        "summary": "[BIP-853] Gauge proposal for the siUSD-sUSDe pool closed on 2025-07-01T18:00:00Z. Timeline analytics noted 4 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Moderate text overlap (score 0.26)",
+        "market_response": "token -0.55%; TVL +1.99%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0x9ee70ede3afa1ff578d7bd63eae2537c0fed81d6307ff1eb0807ebff20d3cf17",
+        "title": "[BIP-852] Enable Aave Boosted GHO/USDC/USDT Gauge on Balancer v3 Avalanche",
+        "end_utc": "2025-07-01T18:00:00Z",
+        "summary": "[BIP-852] Enable Aave Boosted GHO/USDC/USDT Gauge on Balancer v3 Avalanche closed on 2025-07-01T18:00:00Z. Timeline analytics noted 4 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.17)",
+        "market_response": "token -0.55%; TVL +1.99%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 8.8704,
+    "ex_post_tvl_impact_pct": 8.0435,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +8.87%; TVL +8.04%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 1,
+    "Positive": 0,
+    "Neutral": 1,
+    "total_comments": 2
+  }
+}

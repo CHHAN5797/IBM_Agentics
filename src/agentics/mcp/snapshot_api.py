@@ -245,9 +245,9 @@ class ProposalsIn(BaseModel):
 class VotesPageIn(BaseModel):
     proposal_id: str = Field(
         ...,
-        description="Snapshot proposal ID (hexadecimal string)",
+        description="Snapshot proposal ID (e.g., classic 0x hash or newer CID)",
         min_length=1,
-        max_length=100
+        max_length=200
     )
     first: int = Field(
         500,
@@ -264,9 +264,9 @@ class VotesPageIn(BaseModel):
 class SimilarProposalsIn(BaseModel):
     proposal_id: str = Field(
         ...,
-        description="Reference proposal ID to find similar proposals for",
+        description="Reference proposal ID (0x hash or CID) to find similar proposals for",
         min_length=1,
-        max_length=100
+        max_length=200
     )
     space: str = Field(
         ...,
@@ -532,9 +532,9 @@ def list_finished_proposals(
 )
 def get_proposal_by_id(
     proposal_id: Annotated[str, Field(
-        description="Snapshot proposal ID (hexadecimal string starting with 0x)",
+        description="Snapshot proposal ID (0x hash or CID string)",
         min_length=1,
-        max_length=100
+        max_length=200
     )]
 ) -> dict:
     """Get a single proposal metadata record by id."""
@@ -552,9 +552,9 @@ def get_proposal_by_id(
 )
 def get_proposal_result_by_id(
     proposal_id: Annotated[str, Field(
-        description="Snapshot proposal ID (hexadecimal string starting with 0x)",
+        description="Snapshot proposal ID (0x hash or CID string)",
         min_length=1,
-        max_length=100
+        max_length=200
     )]
 ) -> dict:
     """Get result (choices/scores/scores_total/state) for a proposal id."""
@@ -572,9 +572,9 @@ def get_proposal_result_by_id(
 )
 def get_votes_page(
     proposal_id: Annotated[str, Field(
-        description="Snapshot proposal ID (hexadecimal string starting with 0x)",
+        description="Snapshot proposal ID (0x hash or CID string)",
         min_length=1,
-        max_length=100
+        max_length=200
     )],
     first: Annotated[int, Field(
         description="Number of votes per page for pagination",
@@ -604,9 +604,9 @@ def get_votes_page(
 )
 def get_votes_all(
     proposal_id: Annotated[str, Field(
-        description="Snapshot proposal ID (hexadecimal string starting with 0x)",
+        description="Snapshot proposal ID (0x hash or CID string)",
         min_length=1,
-        max_length=100
+        max_length=200
     )],
     batch: Annotated[int, Field(
         description="Batch size for pagination (internal use)",
@@ -630,15 +630,17 @@ def get_votes_all(
 )
 def resolve_proposal_id_from_url(
     snapshot_url: Annotated[str, Field(
-        description="Full Snapshot URL (e.g., 'https://snapshot.org/#/aavedao.eth/proposal/0x123...')",
+        description="Full Snapshot URL (e.g., 'https://snapshot.org/#/aavedao.eth/proposal/0x123...' or CID variants)",
         min_length=1
     )]
 ) -> Optional[str]:
     """
     Resolve proposal id from a full Snapshot URL.
-    Example: https://snapshot.org/#/aavedao.eth/proposal/0xABC... -> 0xABC...
+    Examples:
+    - https://snapshot.org/#/aavedao.eth/proposal/0xABC... -> 0xABC...
+    - https://snapshot.org/#/aavedao.eth/proposal/bafkre123... -> bafkre123...
     """
-    m = re.search(r"/proposal/([0-9a-zA-Z]+)", snapshot_url)
+    m = re.search(r"/proposal/([A-Za-z0-9_-]+)", snapshot_url)
     return m.group(1) if m else None
 
 @mcp.tool(
@@ -653,9 +655,9 @@ def resolve_proposal_id_from_url(
 )
 def find_similar_proposals(
     proposal_id: Annotated[str, Field(
-        description="Reference proposal ID to find similar proposals for",
+        description="Reference proposal ID (0x hash or CID) to find similar proposals for",
         min_length=1,
-        max_length=100
+        max_length=200
     )],
     space: Annotated[str, Field(
         description="Snapshot space to search within (e.g., 'aavedao.eth')",

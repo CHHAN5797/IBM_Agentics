@@ -1,0 +1,1147 @@
+{
+  "captured_at_utc": "2025-10-09T03:18:36.901860+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x5c5c4a5b10d2395d80abc07de7b83fd38434c4d1745adb473c4c61fe5304efc5",
+  "focus": null,
+  "votes_count": 11,
+  "timeline_metrics_current": {
+    "unique_voters": 11,
+    "total_votes": 11,
+    "first_vote_at": "2024-06-21T05:16:47Z",
+    "last_vote_at": "2024-06-24T08:07:07Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        0.3822481137909499,
+        0.0,
+        0.0
+      ],
+      [
+        276007.3035748897,
+        0.0,
+        0.0
+      ],
+      [
+        4645.622218794191,
+        0.0,
+        0.0
+      ],
+      [
+        2268253.1830128822,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.889893,
+    "spike_follow_support_ratio": 0.0,
+    "stairwise_ratio": 0.110107,
+    "half_slope_diff": 8.793816
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x0d9c701622948ddaa19f1183da4491d45e3c93b47d7118660887f269a05b305c",
+      "title": "[BIP-625] Enable gauge for WETH/rETH on [Gnosis]",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2024-06-17T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 17,
+        "total_votes": 17,
+        "first_vote_at": "2024-06-14T00:35:08Z",
+        "last_vote_at": "2024-06-17T14:49:56Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            6.786320088613784,
+            0.0,
+            0.0
+          ],
+          [
+            281009.6994116045,
+            0.0,
+            0.0
+          ],
+          [
+            129183.80493904768,
+            0.0,
+            0.0
+          ],
+          [
+            2307805.612283341,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.84908,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.15092,
+        "half_slope_diff": 12.878166
+      },
+      "price_impact_pct": -6.4007,
+      "tvl_impact_pct": -5.2305,
+      "similarity": 0.0779,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2718005.9029540815,
+        "scores_total": 2718005.9029540815,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0xbd5413de453ab0869895f4d09b2b9e58b6d06dc08fb89b429de135f5c2b0a3af",
+      "title": "[BIP-624] Enable rsETH / WETH Gauge (Arbitrum)",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2024-06-17T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 15,
+        "total_votes": 15,
+        "first_vote_at": "2024-06-14T00:34:52Z",
+        "last_vote_at": "2024-06-17T14:54:00Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            6.796486622211351,
+            0.0,
+            0.0
+          ],
+          [
+            281388.832370018,
+            0.0,
+            0.0
+          ],
+          [
+            6209.654546849197,
+            0.0,
+            0.0
+          ],
+          [
+            2307629.7080509346,
+            0.0,
+            0.10129413391584421
+          ]
+        ],
+        "spike_index": 0.889179,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.110821,
+        "half_slope_diff": 15.772607
+      },
+      "price_impact_pct": -6.4007,
+      "tvl_impact_pct": -5.2305,
+      "similarity": 0.0766,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2595234.8901602905,
+        "scores_total": 2595235.092748558,
+        "margin_pct": 0.9999999219383754
+      }
+    },
+    {
+      "id": "0xe23479d7b207e5f025a40ace92c3b89c4a3292dd832f4b2d63535f39d72af515",
+      "title": "[BIP-623] Enable gauge for weETH / wstETH E-CLP (Arbitrum)",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2024-06-17T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 15,
+        "total_votes": 15,
+        "first_vote_at": "2024-06-14T00:34:33Z",
+        "last_vote_at": "2024-06-17T14:57:50Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            6.796809184248275,
+            0.0,
+            0.0
+          ],
+          [
+            281400.8614355946,
+            0.0,
+            0.0
+          ],
+          [
+            6209.853229468223,
+            0.0,
+            0.0
+          ],
+          [
+            2307632.8103543324,
+            0.0,
+            0.10129776337001205
+          ]
+        ],
+        "spike_index": 0.889175,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.110825,
+        "half_slope_diff": 15.773779
+      },
+      "price_impact_pct": -6.4007,
+      "tvl_impact_pct": -5.2305,
+      "similarity": 0.0785,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2595250.220530817,
+        "scores_total": 2595250.423126343,
+        "margin_pct": 0.9999999219360396
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0xe5d44fde813153791cc0f635326fe8dfb6db43ee966f1f3366762c2c1b03904f",
+      "cleaned": {
+        "proposal_id": "0xe5d44fde813153791cc0f635326fe8dfb6db43ee966f1f3366762c2c1b03904f",
+        "title": "[BIP-518] Fund Beethoven X DAO - Technical for Jan - June",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-12-25T19:00:00Z",
+        "similarity_score": 0.4203,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3981074.5214504693,
+        "margin_pct": 0.8787719178606576,
+        "scores_total": 4530270.529288498,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 32,
+        "total_votes": 32,
+        "first_vote_at": "2023-12-21T21:15:56Z",
+        "last_vote_at": "2023-12-25T17:52:20Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            369883.00407041423,
+            0.0,
+            0.0
+          ],
+          [
+            315941.4937525622,
+            0.07555034127937597,
+            0.0
+          ],
+          [
+            1279.6676942827626,
+            0.0,
+            0.0
+          ],
+          [
+            3568568.3220770555,
+            0.0,
+            274597.96614384354
+          ]
+        ],
+        "spike_index": 0.827242,
+        "spike_follow_support_ratio": 0.149046,
+        "stairwise_ratio": 0.01283,
+        "half_slope_diff": 91.07977
+      },
+      "raw": {
+        "id": "0xe5d44fde813153791cc0f635326fe8dfb6db43ee966f1f3366762c2c1b03904f",
+        "title": "[BIP-518] Fund Beethoven X DAO - Technical for Jan - June",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "https://github.com/BalancerMaxis/multisig-ops/pull/701\n\n**Service Provider Name:** Beethoven X DAO\n\n**Core Contributor(s):** franz, groninge, daniel\n\n**Pledge to abide by the DAO’s [Code of Conduct](https://www.notion.so/fef15e2ed1f5453f8bd56f338c70bb88?pvs=21) (or link to your own):** Yes\n\n**Pledge to abide by the [Accountability Guidelines](https://www.notion.so/229d93372403415688f8d3dc4cb964b1?pvs=21):** Yes\n\n**Introduction & Domains of Operation:**\n\nSince the passing of [BIP-254](https://forum.balancer.fi/t/bip-254-funding-proposal-for-beethoven-x-dao/4652) and it’s subsequent extension ([BIP-393](https://forum.balancer.fi/t/bip-393-fund-beethoven-x-dao-technical-for-aug-dec/4958) and [BIP-394](https://forum.balancer.fi/t/bip-394-fund-beethoven-x-dao-marketing-for-aug-dec/4973)), the Beethoven X DAO has functioned as a Balancer Service Provider since May 1, 2023. This proposal aims to extend the technical services and advisory component for an additional 6 months (January 1, 2024 - June 30, 2024). As in the previous proposals, marketing services provided by the Beethoven X DAO are submitted as a [separate proposal](https://forum.balancer.fi/t/bip-xx-funding-proposal-for-the-beethoven-x-dao-marketing-sp-jan-jun-24/5406).\n\nOur primary roles include API team lead (franz), frontend contributor (groninge) and ecosystem technical lead (daniel). While the past nine months have been turbulent at times, we strongly believe it has once again demonstrated the resilience of the Balancer DAO and the entire ecosystem. Despite a [key service provider winding down](https://forum.balancer.fi/t/rfc-orb-collective-s-path-forward/4778), several core contributors stepping down, and a [critical vulnerability](https://forum.balancer.fi/t/vulnerability-found-in-some-pools/5102), we are collectively still here, building.\n\nThe upcoming release of Balancer V3 presents an opportunity for Balancer to regain narrative and establish ourselves as the platform to empower current and future AMM innovation. We are hugely optimistic in the future of Balancer Protocol and steadfast in our dedication to support the ecosystem to the best of our abilities. As we work towards Balancer V3, it has been inspiring to participate in the development of a more cohesive technology stack to empower the future of the protocol. A technology stack that leverages the collective experiences and expertise of contributors across the ecosystem, avoiding siloed development strategies that lead to unnecessary system complexity in Balancer V2.\n\nAs we operate as a small part of a much larger system, our successes are enabled by many across the ecosystem. As such, we present a broader ecosystem update below that touches on our specific contributions when relevant. As we continue to find the best way to bring value to the Balancer ecosystem, we welcome community feedback.\n\n**Integrations**\n\nThree Rocks recently [announced](https://forum.balancer.fi/t/integrations-team-three-rocks-november-2023-update/5408) their decision to wind down effective December 2023. Both @rabmarut and @gerg have been long time contributors to the Balancer ecosystem. We’d like to extend a thank you to the entire Three Rocks organization, they are a team of talented engineers who made countless contributions to the protocol as well as serving as the technical interface to external partners, they will be missed. \n\nOver the last few months, there has been ecosystem wide discussions around the future of integrations at Balancer, resulting in with what we see as a very positive outcome to a challenging situation. Effective January 2024, the responsibilities of the integrations team will transition to Balancer Labs under the leadership of John Grant. With John Grant’s extensive knowledge of the entire Balancer ecosystem and the support of existing Three Rocks team member @Mkflow27, integrations will become a part of what is currently the Balancer Labs SDK team. With expertise in both on- and off-chain integrations into Balancer Protocol, we see this team as being well suited to fill the gap left by Three Rocks. While John is on a well deserved parental leave, I have been working directly with mkflow to help facilitate a smooth transition.\n\nWe’d additionally like to extend a huge thanks to Fernando and the entire Balancer Labs team for their willingness to take on the responsibilities and costs for integrations moving forward. This significantly reduces the operational costs incurred by the DAO, and is yet another example of Balancer Labs' ongoing commitment to the long-term success of the Balancer protocol.\n\n**Smart Contracts**\n\nBalancer V3 has been the core focus of the Smart Contracts team for the majority of the last two quarters. While the feature set has not yet been publicly disclosed, we are extremely excited about the technical direction of Balancer V3. Architecturally speaking, there has been a focus on:\n\n- Interface design - with the overarching goal of making it significantly easier to integrate with Balancer protocol.\n- Reducing overall system complexity\n- Improved code readability by reducing inheritance depth and leveraging libraries for composition.\n\nInternally, the smart contracts team is on track to complete its second major milestone at the end of this year, a first MVP of the core contracts of Balancer V3. It has been an absolute pleasure collaborating closely with @juani, @endymionjkb and @ylv. I think I can speak for the entire team when I say that we’re very much looking forward to sharing more details on Balancer V3 publicly.\n\n**SDK**\n\nProgress on the new [b-sdk](https://github.com/balancer/b-sdk) has continued over the past two quarters, and it is fast approaching feature complete for Balancer V2. In contrast to the existing [Balancer SDK](https://github.com/balancer/balancer-sdk), the new b-sdk is highly focused on facilitating on-chain interactions with the Balancer Protocol. Data intensive operations are now delegated to the Balancer API, allowing the SDK to be focused in its goals. The SDK team has additionally been a huge contributor in interface design for Balancer V3, their in-depth understandings of V2 integration pain points have been invaluable in the process.\n\nAn important initiative worth highlighting is the cross-organizational effort to implement a generalized approach for [price impact calculations](https://github.com/balancer/b-sdk/blob/d8dc287253160d20c877a57ac4c4c60190b22770/src/entities/priceImpact/index.ts) in the b-sdk. Spearheaded by @brunoguerios from the SDK team and @ZenDragon from the Maxis, their efforts have produced a first iteration of a generalized approach that will reliably calculate price impact for all pool actions, irrespective of the underlying invariant implementation. This is a massively valuable development for the entire ecosystem.\n\n**Frontend**\n\nThe upcoming release of Balancer V3 presents an opportunity for a new take on the existing frontend application. OpCo and Beethoven X contributors have spent the last several months laying the groundwork on a new version of the Balancer Frontend. With a fresh new look, the new Balancer Product will be:\n\n- Multi-chain native to allow for quick exploration of liquidity pools across all Balancer supported networks.\n- API powered to facilitate fast loading times, overcoming many of the data challenges plaguing the current V2 application.\n- Version agnostic to ensure that any liquidity that stays on V2 will benefit from the streamlined UX.\n- Designed with a flexible architecture, with the goal to easily support all current and future pool types.\n\nLed by @gareth, OpCo and Beethoven X contributors are collectively leveraging their extensive Balancer domain knowledge to build a better product.\n\n**API**\n\nAs the limitations of the subgraph have been a constant bottleneck for V2, the Balancer Labs Data team, lead by @mendesfabio, have made the decision that future versions of the Balancer subgraph will be focused primarily on data extraction (E). This is in recognition that the API is better suited for the role of data transformation (T) and loading (L). As the API will play an important role in the Balancer tech stack, former SDK team member Jarek has transitioned to the API team and we expect that there will be a close collaboration between the API and Data teams as we move towards Balancer V3.\n\nBelow, we present general API updates, written by Beethoven X DAO contributor franz, API team lead:\n\nOver the last months, our main effort went into getting the API ready for the new frontend-v3 and the b-sdk. As the frontend aims to serve a multi-chain user experience, the API must also support these requirements. Working closely together with OpCo, requirements for queries have been defined and implemented one-by-one as they are needed in the development process. \n\nMany other, smaller changes have also been integrated into the API to support data needs for the new frontend such as specific filters, rate provider data, FX pools support or yield fee specifics.\n\nAdditionally, the API is also used in the new b-sdk to “enrich” pool data that is being used for various pool operations. Together with Balancer Labs we defined the requirements for the API and integrated the changes. These requirements mainly comprise specific needs on nested pools, token indexes or other token data.\n\nAdditional points of interest:\n\n- In August, BASE chain was integrated into the API which is responsible for serving pricing data to the UI.\n- Optimizations have been made to the infrastructure deployment that resulted in a more cost effective solution. In addition, more changes are planned that should further reduce the cost of operating the infrastructure.\n- On November 27th, we successfully deprecated the veBal voting-gauges.json file in GitHub in favor of the API. All known partners have migrated and will query the API in the future. With this change we automate a manual operations task, reducing manual work.\n- We have helped the community in Discord with questions regarding development, inner workings of the UI and API, to help them understand the liquidity mining or voting processes from Balancer and with general questions.\n- We’ve supported the Balancer Maxis with their data needs for the gauge rewards automation program. Also, showcasing the rich data set that the API has on Balancer pools and how to make use of it.\n\n**Key Objectives & Success Metrics:**\n\n- **Make it easier to build on Balancer** - Having become domain experts on Balancer tech, Beethoven X collaborators are uniquely positioned to identify and help build solutions for many of the pain points that exist in the current Balancer tech stack.\n- **Reduce duplicate effort across the ecosystem** - A joint API deployment is the first of several projects we see where Beethoven X contributors can leverage their domain expertise to reduce duplicate effort. How do we as an ecosystem invest significantly more energy into the future success of Balancer protocol and spend less time on the problems of today?\n- **Help drive the direction of the Balancer protocol** - We believe Balancer protocol should be a platform that empowers current and future AMM innovation. We will continue to work to align the various parties in the balancer ecosystem around this vision. How do we put a true focus on this goal? How do we empower developers to build the next generation of AMMs on Balancer protocol?\n\n**Length of Engagement & Budget:**\n\nBeethoven X DAO is requesting 6 months of funding starting January 1, 2024 and ending June 30, 2023.\n\nWe request a budget of $29,000 USDC per month for technical development and advisory. The increase of $4,000 USDC per month reflects increased involvement from groninge on the development of the new v3 frontend.\n\n**ETH Address to Receive Funds:** 0x811912c19eEF91b9Dc3cA52fc426590cFB84FC86",
+        "end_utc": "2023-12-25T19:00:00Z",
+        "similarity_score": 0.4203,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            4255672.487594313,
+            0.07555034127937599,
+            274597.96614384354
+          ],
+          "scores_total": 4530270.529288498,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-12-25T19:00:00",
+          "pre_tvl_avg": 940248910.0,
+          "post_tvl_avg": 953239957.0,
+          "abnormal_change": 1.3817,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.013817,
+          "abnormal_change_pct": 1.3817
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-12-25T19:00:00",
+          "pre_price_avg": 4.141005475,
+          "post_price_avg": 4.5243818650000005,
+          "abnormal_change": 9.2581,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.092581,
+          "abnormal_change_pct": 9.2581
+        }
+      }
+    },
+    {
+      "proposal_id": "0x014a8fc38f551e683cd799748153692f553aa806513446c9b252ccfcd4b402e6",
+      "cleaned": {
+        "proposal_id": "0x014a8fc38f551e683cd799748153692f553aa806513446c9b252ccfcd4b402e6",
+        "title": "[BIP-393] Fund Beethoven X DAO - Technical for Aug - Dec",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-08-07T18:00:00Z",
+        "similarity_score": 0.3153,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3019709.650628401,
+        "margin_pct": 0.8500908880462692,
+        "scores_total": 3552219.7603699556,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 70,
+        "total_votes": 70,
+        "first_vote_at": "2023-08-03T18:26:49Z",
+        "last_vote_at": "2023-08-07T13:55:56Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            33345.01121586565,
+            0.0,
+            0.27745700082027086
+          ],
+          [
+            586.0577798191493,
+            0.0,
+            0.0
+          ],
+          [
+            40731.39831079906,
+            0.0,
+            0.0
+          ],
+          [
+            3211302.2352898708,
+            0.0,
+            266254.7803165994
+          ]
+        ],
+        "spike_index": 0.952034,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.000693,
+        "half_slope_diff": 220.135984
+      },
+      "raw": {
+        "id": "0x014a8fc38f551e683cd799748153692f553aa806513446c9b252ccfcd4b402e6",
+        "title": "[BIP-393] Fund Beethoven X DAO - Technical for Aug - Dec",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/430\n\n**Service Provider Name:** Beethoven X DAO\n\n **Core Contributor(s):** franz, groninge, daniel\n\n**Pledge to abide by the DAO's [Code of Conduct](https://www.notion.so/balancergrants/Code-of-Conduct-fef15e2ed1f5453f8bd56f338c70bb88) (or link to your own):**  Yes\n\n**Pledge to abide by the [Accountability Guidelines](https://www.notion.so/balancergrants/Accountability-Guidelines-229d93372403415688f8d3dc4cb964b1):** Yes\n\n**Introduction & Domains of Operation:**\n\nWith the passing of [BIP-254](https://forum.balancer.fi/t/bip-254-funding-proposal-for-beethoven-x-dao/4652), the Beethoven X DAO became a Balancer Service Provider for the period of May 1, 2023 - July 31, 2023. This proposal seeks to extend the technical services and advisory component of the original proposal for an additional 5 month period (August 1, 2023 - December 31, 2023). As outlined in [BIP-314](https://forum.balancer.fi/t/bip-314-funding-proposal-for-beethoven-x-dao-marketing/4810), the marketing component of [BIP-254](https://forum.balancer.fi/t/bip-254-funding-proposal-for-beethoven-x-dao/4652) will appear as a separate proposal moving forward. \n\nThe following sections present a summary of where we spent our time and energy over the last 10 weeks. As we continue to find the best way to bring value to the Balancer ecosystem, we welcome community feedback.\n\n**API**\n\nThe new [Balancer API](https://api-v3.balancer.fi/) is production ready, supporting all Balancer and Beethoven X chains. Built to alleviate many of the data sourcing issues plaguing the balancer frontend, this new API leverages the [beethovenx-backend](https://github.com/beethovenxfi/beethovenx-backend/) codebase and is deployed on unified infrastructure. This joint deployment cuts operational costs and allows us to tap into individual domain expertise more effectively.\n\nAs the API will become a critical piece of infrastructure for Balancer protocol, we dedicated substantial effort to enhancing monitoring and ensuring operational resilience. To improve error visibility, we implemented various alerting mechanisms and notification services, enabling us to identify and address any potential issues before they affect users. Additionally, we created a status page ([Dashboard](https://cloudwatch.amazonaws.com/dashboard.html?dashboard=status-page-main-share&context=eyJSIjoidXMtZWFzdC0xIiwiRCI6ImN3LWRiLTExODY5NzgwMTg4MSIsIlUiOiJ1cy1lYXN0LTFfNkhUUlp3VENaIiwiQyI6IjRlazJtOHJvMXRxYWI5NTdpazJwMG9odTNmIiwiSSI6InVzLWVhc3QtMTo5OThhODFjZC0xYWJhLTRkNmItYjBlNi1iYTJmMzk2YzM5YTMiLCJPIjoiYXJuOmF3czppYW06OjExODY5NzgwMTg4MTpyb2xlL3NlcnZpY2Utcm9sZS9DV0RCU2hhcmluZy1QdWJsaWNSZWFkT25seUFjY2Vzcy1UUEg1NEpVWSIsIk0iOiJQdWJsaWMifQ%3D%3D&start=PT3H&end=null)) that provides real-time infrastructure status for anyone to monitor.\n\nTo strengthen the resiliency of the API, we implemented several measures, most notably integrating caching infrastructure and adding rate limits. Furthermore, the deployment architecture is designed to scale automatically based on demand. These implementations ensure that the API can reliably and efficiently handle requests, leading to a fast and seamless user experience.\n\nBeyond infrastructure changes, we’ve collaborated closely with contributors from OpCo and Balancer Labs to further enhance the API and align it with the requirements of the Balancer Protocol.\n\n- Leveraging the token pricing mechanism of the API, OpCo successfully improved pricing reliability on the frontend. It proved particularly valuable during the ZKEVM deployment, where Coingecko lacked many token prices.\n- The API is now used to provide real-time \"marketing stats\" on the Balancer landing page, aggregating total volume, fees, and TVL across all chains efficiently.\n- In collaboration with OpCo, we’ve started integrating the veBAL voting list into the API, leading us to uncover and optimize inefficiencies in the voting gauge addition process. By streamlining and automating these processes, we can significantly enhance their efficiency by reducing manual work.\n- Working closely with the SDK team, we’ve started to integrate the new version of the [SOR](https://github.com/balancer/b-sdk) into the API. Leveraging our existing production deployment and the API's capabilities, we are able to test the new SOR algorithm using real-time swap data. This approach allows us to evaluate the efficiency and speed of the swap, helping us improve the SOR code and achieve optimal outcomes.\n\nThrough collaboration, enhanced infrastructure, and integration efforts, we have established a robust and reliable API that caters to the needs of both Balancer and Beethoven X. However, we recognize that this is just the beginning of our journey.\n\n**Technical Advisory**\n\nA key takeaway from the initial engagement period facilitated by Balancer Labs is that the role I (daniel) am best suited to fill is not only as a builder but as an advisor across the technical landscape, working to ensure that the various engineering teams in the ecosystem build cohesive technology that is aligned with the overall Balancer product vision.\n\nOutlined below is where I’ve spent the bulk of my time and energy, although I would emphasize that I am just one part of a larger conversation. I’m hugely thankful for everyone’s openness in engaging with me on these topics.\n\n**Smart Contracts**\n\nOne common criticism of Balancer protocol smart contracts is that they are difficult to interact with and even harder to understand. Although the smart contract team does an incredible job of documenting their contracts, there is a collective agreement that we can improve their ease-of-use and readability.\n\nThere is real value in “giving people what they’re used to” as a means to facilitate adoption. While the Balancer V2 interfaces make sense in the context of balancer, they introduce domain specific knowledge that create hurdles for adoption. We’ve started working on a simple set of interfaces that more closely align with the standards set by Uni V2. These interfaces will provide an alternative to the existing full-fledged options (`batchSwap, joinPool, exitPool`).\n\nWhile inheritance is the core design pattern available when organizing smart contracts, deep inheritance comes at the tradeoff of readability. The use of libraries has been presented as an alternative to inheritance (where appropriate). When a library function is called, it’s immediately obvious where that function is defined, and thus easier to understand and reason about. It more closely tracks the principle of *composition over inheritance*.\n\n**SDK**\n\nTo date, the [Balancer SDK](https://github.com/balancer/balancer-sdk) has been built primarily to facilitate the needs of the [Balancer Frontend](https://github.com/balancer/frontend-v2). The introduction of the [B-SDK](https://github.com/balancer/b-sdk) and [Balancer API](https://github.com/beethovenxfi/beethovenx-backend/) present an opportunity for us to redefine it’s role in the broader tech stack. It allows us to ask the question: “What role should the Balancer SDK play in facilitating/furthering the overall vision of Balancer Protocol?”\n\nIn answering this question, we’ve worked on identifying the various user groups of the Balancer SDK and prioritizing their needs. This has allowed us to more clearly define that the Balancer SDK should be a tool highly focused on facilitating on-chain interactions with the Balancer Protocol. The Balancer API will serve as the data hub for the protocol, allowing us to move much of the data responsibilities out of the SDK and into the API.\n\nActive initiatives:\n\n- The new SOR (implemented in the B-SDK) has been integrated into the API, allowing for side-by-side testing of the routing algorithms without adding additional computational load to the frontend.\n- Various read-only helper contracts are in development: [1](https://github.com/balancer/balancer-v2-monorepo/pull/2521), [2](https://github.com/balancer/balancer-deployments/pull/54), [3](https://github.com/balancer/helpers). These contracts will significantly reduce the complexity of off-chain data processing, providing accessible on-chain tooling for common data requirements. This aligns with an over arching goal to push more data complexity (where it makes sense) on-chain.\n- @brunoguerios from the SDK team has started porting additional pool type math to the new B-SDK SOR, leveraging the computationally superior bigint math.\n\n**Frontend (Product)**\n\nThe change from “frontend” to “product” represents a subtle but important shift in how we think about the Balancer frontend. Some general thoughts on a Balancer Product vision are presented [here](https://forum.balancer.fi/t/bip-xxx-funding-proposal-for-the-balancer-opco-year-two/4882/22). @gareth and I continue to have an ongoing conversation focused on how we can build a better Balancer Product both technically and within it’s role in facilitating the growth and adoption of the Balancer Protocol.\n\nIn an effort to ensure that we are constantly improving the existing UX, we’ve begun to set up a process that creates visibility around issues in the existing balancer frontend. Our goal is to use existing tools to measure user issues when interacting with the balancer frontend, and work towards reducing these occurrences over time.\n\n**Composable Stable Pool Vulnerability Support**\n\nThe [vulnerability disclosure on June 25th](https://twitter.com/Balancer/status/1672635756005957633) has impacted protocol fee collection on all composable stable pools, a core revenue driver for the protocol. As resolution of this issue was deemed critically important, I’ve invested a significant portion of the last two weeks supporting @juani and @Fernando in identifying the underlying issue and working towards a resolution. As someone familiar with the composable stable pool protocol fee collection mechanism, my participation here made sense from a resource allocation perspective, and has allowed the remainder of the smart contract team to continue progressing on existing projects.\n\n**Marketing Transition Support**\n\nAlthough not a typical technical service, when the Orb Collective [abruptly wound down support for marketing services](https://forum.balancer.fi/t/orb-collective-april-2023-high-level-updates/4735) and [released all marketing personnel](https://forum.balancer.fi/t/orb-collective-updated-q2-budget-forecast-5-12-23/4775), I stepped in to facilitate a smooth transition of marketing related responsibilities to [Beethoven X contributors](https://forum.balancer.fi/t/bip-314-funding-proposal-for-beethoven-x-dao-marketing/4810). \n\n**Key Objectives & Success Metrics:**\n\n- **Make it easier to build on Balancer** - Having become domain experts on Balancer tech, Beethoven X collaborators are uniquely positioned to identify and help build solutions for many of the pain points that exist in the current Balancer tech stack.\n- **Reduce duplicate effort across the ecosystem** - A joint API deployment is the first of several projects we see where Beethoven X contributors can leverage their domain expertise to reduce duplicate effort. How do we as an ecosystem invest significantly more energy into the future success of Balancer protocol and spend less time on the problems of today?\n- **Help drive the direction of the Balancer protocol** - We believe Balancer protocol should be a platform that empowers current and future AMM innovation. We will continue to work to align the various parties in the balancer ecosystem around this vision. How do we put a true focus on this goal? How do we empower developers to build the next generation of AMMs on Balancer protocol?\n\n**Length of Engagement & Budget:**\n\nBeethoven X is requesting 5 months of funding starting August 1, 2023 and ending December 31, 2023.\n\nWe request to continue the budget of $25,000 USDC per month for technical development and advisory. \n\n**ETH Address to Receive Funds:** 0x811912c19eEF91b9Dc3cA52fc426590cFB84FC86",
+        "end_utc": "2023-08-07T18:00:00Z",
+        "similarity_score": 0.3153,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3285964.7045315704,
+            0.001935215454183764,
+            266255.0539031693
+          ],
+          "scores_total": 3552219.7603699556,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-08-07T18:00:00",
+          "pre_tvl_avg": 936056801.5,
+          "post_tvl_avg": 941868616.0,
+          "abnormal_change": 0.6209,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.006209,
+          "abnormal_change_pct": 0.6209
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-08-07T18:00:00",
+          "pre_price_avg": 4.262769860000001,
+          "post_price_avg": 4.247853895,
+          "abnormal_change": -0.3499,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.003499,
+          "abnormal_change_pct": -0.3499
+        }
+      }
+    },
+    {
+      "proposal_id": "0x686cfe15ffd35178814276eaff348b791bfd8fd1684e2731f222e9881df61279",
+      "cleaned": {
+        "proposal_id": "0x686cfe15ffd35178814276eaff348b791bfd8fd1684e2731f222e9881df61279",
+        "title": "[BIP-254] Funding Proposal For Beethoven X DAO",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-04-24T18:00:00Z",
+        "similarity_score": 0.267,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3391289.017090736,
+        "margin_pct": 0.8729733244810214,
+        "scores_total": 3884756.7525695493,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 122,
+        "total_votes": 122,
+        "first_vote_at": "2023-04-20T20:15:25Z",
+        "last_vote_at": "2023-04-24T16:22:27Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            6174.139709805989,
+            0.0,
+            1.0594114038368734
+          ],
+          [
+            18.224356364831195,
+            0.0,
+            0.0311421125419809
+          ],
+          [
+            309256.7078484904,
+            0.0,
+            246731.6271190069
+          ],
+          [
+            3322573.6757690576,
+            0.27429284502905993,
+            1.0129204609795508
+          ]
+        ],
+        "spike_index": 0.796237,
+        "spike_follow_support_ratio": 0.999999,
+        "stairwise_ratio": 1.1e-05,
+        "half_slope_diff": 40.51043
+      },
+      "raw": {
+        "id": "0x686cfe15ffd35178814276eaff348b791bfd8fd1684e2731f222e9881df61279",
+        "title": "[BIP-254] Funding Proposal For Beethoven X DAO",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "## PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/143\n\n**Service Provider Name:**  Beethoven X DAO\n\n **Core Contributor(s):** franz, vee, jedi rasta, naly, josey, jeff, groninge, tom, daniel\n\n**Pledge to abide by the DAO's [Code of Conduct](https://www.notion.so/balancergrants/Code-of-Conduct-fef15e2ed1f5453f8bd56f338c70bb88) (or link to your own):** Yes\n\n**Pledge to abide by the [Accountability Guidelines](https://www.notion.so/balancergrants/Accountability-Guidelines-229d93372403415688f8d3dc4cb964b1):** Yes\n\n**Introduction & Domains of Operation:**\n\nSince becoming a [Friendly Fork](https://vote.balancer.fi/#/proposal/0x95db8e797145ad590b467f8dbecb23404c25c2a7090aa8a8d65428ad9f7373fc), Beethoven X and Balancer have developed a strong working relationship, marked by the successful launch of a [joint venture on Optimism](https://snapshot.org/#/balancer.eth/proposal/0xd281d8cad43c97814b2496270498c4396b16c0f2ce522d5bc554aae9fed4e4d7).\n\nThroughout this collaboration, it has become clear that there is a significant amount of overlap in the work being done on both sides, and there is an opportunity to streamline efforts. Recognizing this, both Balancer and Beethoven X have continually expressed a desire to work closer together.\n\nIn an effort to accelerate the collaboration, Balancer Labs engaged Beethoven X contributors in a 3-month trial contract beginning on February 1, 2023. This collaboration has allowed both teams to leverage each other's strengths and work together to drive technical innovation for the Balancer DAO.\n\nAs Balancer pursues its path towards further decentralization, we believe the inclusion of the Beethoven X DAO in its pool of service providers would represent a significant step in furthering this goal.\n\nIn this proposal, we will provide an update on the progress of the collaboration and present our plans for the future. We believe that by working collaboratively, we can achieve greater efficiency and drive innovation for the benefit of the entire Balancer ecosystem.\n\n**Balancer API**\n\nBeethoven X launched a custom UI in August 2022, with the goal of providing a fast and smooth user experience. To facilitate this goal, a significant amount of energy and resources were invested into the development of a custom backend API.\n\n[https://github.com/beethovenxfi/beethovenx-backend/](https://github.com/beethovenxfi/beethovenx-backend/)\n\nWhile OpCo has also been in the process of developing their own API, it was recognized that the Beethoven X API is in a more mature state and both sides would benefit from collectively supporting and building on a single API moving forward. Over the last two months, members from OpCo, Balancer Labs and Beethoven X have worked collaboratively to deploy a joint API infrastructure that will service both Balancer and Beethoven X moving forward:\n\n[https://api-v3.balancer.fi/](https://api-v3.balancer.fi/)\n\nOpCo has started the process of integrating the API into the Balancer UI, which should serve to provide a smoother UX in many ways. The success of this project speaks to the collaborative nature of all teams involved.\n\n**Scaffold-balancer**\n\nAs part of the roadmap planning for Q1 of 2023, Beethoven X contributors proposed the development of a suite of tools that could make it significantly easier to start developing a custom pool contract on top of the Balancer protocol.\n\n[https://github.com/balancer/scaffold-balancer](https://github.com/balancer/scaffold-balancer)\n\nScaffold-balancer is a fork of the well known scaffold-eth project geared specifically around facilitating the rapid prototyping of new Balancer pool types. We strongly believe that if we make it simple to get started and succeed early, it will provide developers the motivation and inspiration to slowly peel back the layers of complexity that is the Balancer protocol and develop something truly innovative.\n\nCurrent feature set:\n\n* Generic Pool UI - Allows you to interact with any existing or locally deployed pool contracts, making the time-to-test significantly shorter. The UI focuses on single contract actions (swap/join/exit) for both query and tx submission.\n* SOR Playground - Provides granular config on the pools, tokens, types, etc that are included into the routing. The idea being that you can provide tight constraints around the dataset to see how your custom pool performs when benchmarked against existing liquidity, although it could also quite easily be used to benchmark the performance of the SOR generally.\n* Batchswap builder - A UI for building arbitrarily complex batch swaps.\n\nBeyond the initially developed feature set, João from Orb integrations has also started to build out [managed pool controller examples inside scaffold-balancer](https://forum.balancer.fi/t/orb-collective-march-2023-integrations-update/4613).\n\nWhile still in its infancy, we believe this tool already provides significant value to developers looking to start the journey of developing their own custom pool on Balancer.\n\n**SDK / SOR**\n\nThe existing SOR was built before the widespread adoption of BigInt math and the advent of boosted pools. As the number of deployed pools has continued to grow, the existing SOR has come up against performance limitations. Mike McDonald recently initiated a project to rewrite the SOR with a focus on speed and performance. We’ve supported Mike in this process, including implementing a novel graph traversal algorithm for path finding that is boosted pool native.\n\n[https://github.com/balancer/b-sdk](https://github.com/balancer/b-sdk)\n\nThe implementation of a robust API has presented an opportunity to rethink the role that the Balancer SDK should fill. This repo will become the home of the new Balancer SDK.\n\n**Technical Advisor**\n\nWhile I (daniel) am a builder at heart, I’ve worked in senior developer and CTO roles for the better part of 10 years, and have worked professionally as a software developer for 15 years. The Balancer Labs leadership has been incredibly open and allowed me to begin to play a larger role across the entire ecosystem. Over the last several months, I’ve started attending regular ecosystem meetings, engaged in conversations on product development, participated in partnership discussions, and taken a role in helping to collaboratively define the future of the Balancer SDK.\n\n**Marketing, content and design**\n\nOver the past 18 months the Beethoven X marketing team have established a brand that has come to be recognised for not only its unique personality but its approach to community building and content creation. Our goal has been to build a competent community of engaged users that are as passionate about our ecosystem as we are.\n\nThe focus for our marketing efforts has been centered around producing high quality educational material on the underlying technology as well as cultivating an ethos of care and compassion for our community. Combining a strong visual aesthetic with an approachable brand identity has allowed our content, voice and style to flourish and has cemented our place as one of the top DeFi protocols on Fantom and Optimism.\n\nWeekly newsletters, threads, docs, NFTs, giveaways, community competitions, animations, long form articles, ambassador programs, live events, and financial reporting has enabled community members to keep up to date with the Beethoven X ecosystem.\n\nBuilding from a foundation of innovation that intertwines within current trends, social narratives and symbiosis offers the opportunity to establish a flourishing community base that is educated and empowered to engage in the ecosystem.\n\nWhile not part of the original agreement, we set forth to showcase this competency. For the past 3 months the marketing team has started to work on the following initiatives.\n\n**Landing Page**\n\nAs part of the roadmap planning for Q1 2023, Beethoven X contributors proposed the development of a landing page that clearly, concisely and with strong visuals, answers the question that is at the center of the growth of Balancer as a platform. “Why should I build on Balancer?” To date, 10 in-depth interviews have been performed with developers and key contributors across the Balancer ecosystem, and work has begun on developing a cohesive storyline. The landing page will intertwine strong visual design with technical information to create an engaging experience that highlights what sets Balancer apart.\n\n**Social Media & Design**\n\nBeethoven X contributors have started developing a framework for the evolution of the Balancer social media presence. The goal is to create a strong visual identity that not only showcases the technical capabilities of Balancer but also embodies a compelling personality that leverages current trends and social narratives, similar to what we strive for with the Beethoven X brand.\n\n**Content Creation**\n\nBeethoven X contributors have started producing in depth twitter threads on relevant topics in the Balancer ecosystem:\n\n[https://twitter.com/Balancer/status/1643985415135952896 \n](https://twitter.com/Balancer/status/1643985415135952896)https://twitter.com/Balancer/status/1633490690788462592\n\nand kickstarted a technical article series:\n\n[https://medium.com/balancer-protocol/inside-balancer-contracts-a-composable-symphony-1-229f6e90224](https://medium.com/balancer-protocol/inside-balancer-contracts-a-composable-symphony-1-229f6e90224d)\n\n**Key Objectives & Success Metrics:** \n\n* **Make it easier to build on Balancer** - Having become domain experts on Balancer tech, Beethoven X collaborators are uniquely positioned to identify and help build solutions for many of the pain points that exist in the current Balancer tech stack.\n* **Reduce duplicate effort across the ecosystem** - A joint API deployment is the first of several projects we see where Beethoven X contributors can leverage their domain expertise to reduce duplicate effort. How do we as an ecosystem invest significantly more energy into the future success of Balancer protocol and spend less time on the problems of today?\n* **Help drive the direction of the Balancer protocol** - We believe Balancer protocol should be a platform that empowers current and future AMM innovation. We will continue to work to align the various parties in the balancer ecosystem around this vision. How do we put a true focus on this goal? How do we empower developers to build the next generation of AMMs on Balancer protocol?\n\nOur strategy for Balancer marketing would be to highlight the major benefits of Balancer protocol across its user demographics in an engaging, informative manner. The focus of this strategy would be to educate users on product innovation, current trends and partnership developments. Coupled with engaging design / visuals the strategy stands to bring Balancer back into the limelight on social media and hopefully ignite a flywheel for growth based on relevancy, product and community.\n\nBalancer has never been more successful than it is today and we would strive to complement its immense success.\n\nIn this regard there are 2 key focuses:\n\n- **Brand Development** - Encapture the core brand values and inspire. Although a reputable figure, there is room to create an inspirational brand aesthetic that speaks well to current trends in a timeless, tasteful fashion.\n- **Social Presence** - Building from a foundation of insightful content and leveraging an unique aesthetic, social presence represents Balancer’s voice. As a thought leader in the industry the goal for the  Balancer voice is to showcase competency and relevancy through  social media outlets in a playful, engaging manner.\n\n**Length of Engagement & Budget:**\nBeethoven X is requesting 3 months of funding starting May 1, 2023 and ending July 31, 2023. \n\nWe request to continue the budget of $25,000 USDC (or BAL equivalent) per month for technical development and advisory. Additionally, we strongly believe that Beethoven X contributors can provide significant value in the areas of marketing, content creation and design. For this effort, we propose an additional budget of $15,000 USDC (or BAL equivalent) per month.\n\nAs these funds will be used to cover a portion of contributor salaries, we request that this amount be made available in a liquid form. If approved, $40,000 USDC or BAL equivalent would be sent to the below ETH address around the first of each month.\n\n**ETH Address to Receive Funds:** 0x811912c19eEF91b9Dc3cA52fc426590cFB84FC86",
+        "end_utc": "2023-04-24T18:00:00Z",
+        "similarity_score": 0.267,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3638022.74768372,
+            0.27429284502905993,
+            246733.73059298427
+          ],
+          "scores_total": 3884756.7525695493,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-04-24T18:00:00",
+          "pre_tvl_avg": 1254338037.0,
+          "post_tvl_avg": 1231374548.0,
+          "abnormal_change": -1.8307,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.018307,
+          "abnormal_change_pct": -1.8307
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-04-24T18:00:00",
+          "pre_price_avg": 6.17468062,
+          "post_price_avg": 6.15251094,
+          "abnormal_change": -0.359,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.00359,
+          "abnormal_change_pct": -0.359
+        }
+      }
+    },
+    {
+      "proposal_id": "0xed5c0c2e196dcdf8a814d144aff8e58f9525f52cf3570b6d1b44dfff3aa8c44c",
+      "cleaned": {
+        "proposal_id": "0xed5c0c2e196dcdf8a814d144aff8e58f9525f52cf3570b6d1b44dfff3aa8c44c",
+        "title": "[BIP-352] Funding Proposal for the Integrations Team (Three Rocks)",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-07-10T18:00:00Z",
+        "similarity_score": 0.2228,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2882645.379242395,
+        "margin_pct": 0.8548665379387933,
+        "scores_total": 3372041.4255456408,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 127,
+        "total_votes": 127,
+        "first_vote_at": "2023-07-06T19:11:08Z",
+        "last_vote_at": "2023-07-10T16:33:50Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1002.5517981318471,
+            0.015201297645233921,
+            4.485448954848347
+          ],
+          [
+            1210.3444688425207,
+            0.0,
+            0.0
+          ],
+          [
+            5891.391077521896,
+            0.007466338279054422,
+            0.3457403692271768
+          ],
+          [
+            3119239.1866542515,
+            0.0,
+            244693.09768993137
+          ]
+        ],
+        "spike_index": 0.97729,
+        "spike_follow_support_ratio": 0.203377,
+        "stairwise_ratio": 1.2e-05,
+        "half_slope_diff": 7.465203
+      },
+      "raw": {
+        "id": "0xed5c0c2e196dcdf8a814d144aff8e58f9525f52cf3570b6d1b44dfff3aa8c44c",
+        "title": "[BIP-352] Funding Proposal for the Integrations Team (Three Rocks)",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### [PR with Payload](https://github.com/BalancerMaxis/multisig-ops/pull/335)\n\n# Service Provider Name & Overview\nDespite the dissolution of Orb Collective, the engineers of the Integrations Team desire to continue contributing to the Balancer Ecosystem. We believe that our ongoing involvement within the Ecosystem is critical in driving both the growth and widespread adoption of the Balancer Protocol in alignment with its core mission to be a platform and not a product. As such, we are seeking support and funding to establish a new, independent service provider, to be known as Three Rocks. Our goal is to continue providing valuable partner engineering services as well as continue to work towards refining and enhancing the Developer Experience of building on Balancer.\n\n# Leadership and Team\nOur organization consists of four dedicated and talented engineers: Rab, Bailey, Greg, and Mkflow. We have consciously chosen a lean team structure and focused scope of work, which we believe will allow us to operate with maximum efficiency.\n\nRab previously worked as the Head of Integrations at Orb Collective and will continue to lead the engineering team of Three Rocks. He originally contributed to the Balancer DAO as a community member in May of 2020, and he began working full-time for Balancer Labs in January of 2021.\n\nBailey, while continuing to provide engineering services to the team, will broaden his scope of work by handling all business-related operations. He has been with the team since November of 2022. Prior to his time at Balancer, Bailey spent the previous two years working on both the business and engineering side of a fast growing automation startup.\n\nGreg previously worked as a Senior Integrations Engineer at Orb Collective and will continue contributing to the Three Rocks team in a similar capacity. He originally contributed to the Balancer DAO during V1 as a community member beginning in August of 2020, and he began working full-time for Balancer Labs in March of 2021.\n\nMkflow previously worked as a Solutions Engineer at Orb Collective, and will continue providing engineering services to the integrations team. He began contributing to the Balancer DAO in September of 2021 as a Baller, initially as part of the [opsSubDAO](https://vote.balancer.fi/#/proposal/0x26bba9a2dbe293c88d7e6f1de7849a5c96f8376a7a7eac713bc5da0c35276a66). He later served as a Board member of the [Balancer Foundation](https://snapshot.org/#/balancer.eth/proposal/0x357877d9d3d121e929f66cad2349987fc658be449585f8d021319b69a3a0e620) and has worked full-time with Orb Collective for the entirety of its first funding year.\n\n# Pledge to abide by the DAO’s [Code of Conduct](https://www.notion.so/balancergrants/Code-of-Conduct-fef15e2ed1f5453f8bd56f338c70bb88)\nYes\n\n# Pledge to abide by the [Accountability Guidelines](https://www.notion.so/balancergrants/Accountability-Guidelines-229d93372403415688f8d3dc4cb964b1)\nYes\n\n# Domains of Operation\nOur primary operating domain centers around external integrations. This entails writing and peer reviewing code with strategic partners as well as providing assistance and advice. We also support the ecosystem internally by providing development tooling, contributing to core Balancer work, and advising the Balancer Maxis on technical matters related to DAO operations.\n\n# Key Objectives & Success Metrics\n## The Integrations Life Cycle\nThe integration pipeline can be broken into three primary, chronological stages: **bespoke integrations**, **developer experience**, and **generalized infrastructure**. Each stage is critical in its own right, but it is important to recognize that these stages represent different points in the life cycle of a Balancer product area. As such, the ultimate goal is generalized infrastructure. Once this is established, the given product area self-sustains; integrations are both well understood and trivial to implement.\n\nThe Integrations Team recognizes that generalized infrastructure has historically been overlooked. Throughout the team’s history, we’ve mostly dealt with bespoke integrations, and more recently we’ve pushed focus towards the broader developer experience. We believe it is critical for Balancer’s long-term adoption that we take the final step to generalized infrastructure. We also acknowledge that this cannot be tackled prematurely, and so we describe our full approach below.\n\n### Bespoke Integrations\nIn the early days of a product area (e.g., Boosted Pools, Managed Pools, BPT as Collateral), no singular entity possesses full context as to both how the product works and how it will be used in the wild. Third-party developers lack knowledge of how it works, and the core protocol team lacks insight into its future usage. In this stage, bespoke integrations dominate, and a **hands-on** approach is required from the Integrations Team to bridge the gap.\n\n### Developer Experience\nAs the Integrations Team facilitates more and more bespoke integrations in a given product area, it can start to distill its findings with the goal of enhancing the developer experience. Each subsequent integration should be easier to execute than the last. This stage emphasizes documentation, example code, and possibly additional tooling such as simulations. The approach to partner support becomes progressively more **automated** as the common ground across various integrations starts to take shape.\n\n### Generalized Infrastructure\nAfter a wealth of knowledge is accumulated for a given product area, it is often beneficial to roll out generalized infrastructure to facilitate future integrations. At this stage, the product area is so well understood and its usage patterns so well documented that the generalized form looks obvious in hindsight. Finally, it is time to develop peripheral smart contracts or other tools to approach one-click integrations in the given product area. After this work is completed, the Integrations Team can switch to **hands-off** as third-party developers now have all they need to build their integrations unassisted.\n\nAn example of generalized infrastructure is canonical smart contracts to perform a common task. Consider that each of a dozen third-party teams has developed its own custom BPT oracle to solve the BPT as collateral problem, and all of these implementations display very similar patterns. The Integrations Team is responsible for peer-reviewing each implementation, and so this represents a highly inefficient use of the team’s time and the Balancer Ecosystem’s capital, not to mention the duplication of work across the entire DeFi sphere. It would be better for the Integrations Team to recognize this trend and ship a canonical oracle contract for this purpose.\n\nThe same system can be applied to factories. Consider that a canonical contract already exists, but it is repeatedly deployed with small tweaks to parameters and/or logic each time. If each customization requires a dedicated review, this is highly inefficient. It would be better to craft a factory for this contract which provides the levers necessary for specifying those parameters and/or logic in a safe and self-evident way.\n\n### Examples\nFor illustrative purposes, we present a few known examples of the Integrations Life Cycle in action, some actual and some hypothetical.\n\n| Product Area | Bespoke Integrations | Developer Experience | Generalized Infrastructure |\n| - | - | - | - |\n| Boosted Pools | Bespoke linear pools, peer-reviewed or developed in-house | Documentation and central linear pools repository for external contributions | Coalescence on the ERC-4626 standard |\n| BPT as Collateral | Bespoke oracles, peer-designed and/or peer-reviewed | Documentation and code snippets for developing oracles | BPT oracle contracts or factory, formally audited |\n| LST Stable Pools | Bespoke rate providers, peer-reviewed or developed in-house | Documentation on rate providers, some full contracts available | Rate provider factories: Chainlink, LiquidStaking (used by Coinbase, Binance), LayerZero |\n\n### Conclusions and Goals\nThis life cycle, and its culmination in generalized infrastructure, serves to reduce the error surface of external integrations. Even when thorough documentation is available, the same errors show again and again in third-party code, and the Balancer Ecosystem wastes time and capital on manual support. Generalization also reduces the time, effort, and expertise required to launch an integration, thus amplifying the rate of adoption and further saving time and capital for the Balancer Ecosystem.\n\nWe believe that the Integrations Team is uniquely suited to overseeing this pipeline from start to finish given the symbiotic relationship among all three stages and the team’s historical role in the first two. The Integrations Team has always been positioned at the start of the funnel and dealt with a plethora of bespoke integrations but previously lacked a deliberate framework for disseminating its conclusions more broadly and usefully.\n\nWith this framework now in mind, we request autonomy to manage the pipeline effectively, including to decide when a given product area is ready for generalization and how that effort should be prioritized in light of demand from partners. On the flip side, we also commit not to over-budget for any one product area or prematurely escalate to full generalization. We believe these were the key failings of the Managed Pool project last year; we prematurely generalized our solution which led to roadmap delays, and we committed too many of our limited resources towards one product area which didn’t showcase sufficient diversity of demand.\n\n## Vulnerability Response\nOne of the Integrations Team’s key responsibilities in the Ecosystem is to maintain contact with all known partners building on top of the Balancer tech stack. These lines of communication are useful for day-to-day interactions but are particularly critical for vulnerability response.\n\nWhen a core Balancer vulnerability is discovered, such as the read-only reentrancy bug from earlier this year, the Integrations Team must first work with the Balancer Labs Smart Contracts Team to understand the scope of the issue. We then must determine all vectors via which it may impact known partners and discreetly work with partner dev teams to secure their production code. To date, the Integrations Team has helped to secure over $4,000,000 of at-risk funds prior to public disclosure of core vulnerabilities.\n\nIn other cases, a partner project may be exploited and set up a war room in which the Integrations Team participates. We help the partner to determine if the exploit was related to a known or yet-unknown Balancer issue and develop a plan for patching the issue.\n\nIn either case, vulnerability response is a time-critical function that overrides existing priorities. It is expected that these events occur quite rarely but that when they do, all other work is suspended until all known issues are resolved. For safety reasons, it may not always be possible to communicate outwardly when an incident is in progress, and so some trust - that the Integrations Team will take this responsibility seriously and execute efficiently before returning to other work - is required.\n\n## Focus Areas & Goals\nIn summary, we derive the following core responsibilities of the Integrations Team from the philosophy outlined above:\n\n* Bespoke Integrations\n    * Q&A with partners in Telegram\n    * Iterative design with certain high-value partners\n    * Code implementation with highest-value partners\n    * Code review for anything to be deployed and used by the Balancer Ecosystem\n        * Partner projects\n        * Balancer Maxis projects\n        * Balancer Grants projects\n* Developer Experience\n    * Documentation\n    * Code Examples\n    * Tooling and Simulations\n* Generalized Infrastructure\n    * Medium-term smart contract development\n    * Formal audits - funds sourced from the DAO on a case-by-case basis\n* Vulnerability Response\n    * Analysis and investigation with BLabs \n    * Coordination with Partners\n### GitHub Repositories\nIn pursuit of the goals defined above, the Integrations Team is directly responsible for the following GitHub repositories:\n* [Balpy](https://github.com/balancer/balpy)\n* [Linear Pools](https://github.com/orbcollective/linear-pools)\n* [Rate Providers](https://github.com/balancer/metastable-rate-providers)\n* [MPC Examples](https://github.com/orbcollective/mpc-examples)\n\nThe team also contributes to several additional repositories:\n* [Balancer V2 Monorepo](https://github.com/balancer/balancer-v2-monorepo)\n* [Documentation](https://github.com/balancer/docs)\n* [SDK](https://github.com/balancer/balancer-sdk)\n* [Scaffold](https://github.com/balancer/scaffold-balancer)\n* Various partner code bases\n\n## Continued Commitments\nFor the past few months, we have continued to execute according to the commitment defined in [our May-July roadmap](https://forum.balancer.fi/t/rfc-orb-collectives-path-forward-extended-integrations-team-plan/4777). Our goal is to complete all of this work by July 31, and we have already provided an update on our progress for [May](https://forum.balancer.fi/t/orb-collective-may-2023-integrations-update/4852), with another update for June to follow soon after this proposal. In the event that any work is left unfinished at the end of July, we will carry that forward into our next funding period.\n\n## Metrics\nIdentifying and tracking metrics for success has been a struggle for the Integrations Team in the past. We recognize that this is an important aspect of business that helps the DAO make necessary decisions on the effectiveness of a Service Provider. In order to promote this effort, we outline several key metrics that will enable us to track and report on our organizational performance.\n\nThe core on-chain metrics needed to establish a sufficient indicator of Integrations performance are **Total Value Locked (TVL)**, **swap volume**, and **protocol revenue**. Tracking these variables for deployments that are direct results of our contributions will allow us to conduct a time tracking analysis that we expect will help us quantify the **cost/value proposition** of specific types of integrations.\n\nWe plan to utilize Dune Analytics to perform this study by tagging Factories, Pools, Rate Providers and other production contracts to which we contribute. For off-chain tools such as Balpy, we plan to monitor volume by inserting a minimal calldata identifier into each transaction. We hope this allows us to get a better understanding of the value added for partner integrations and uncovers hidden areas of improvement to make the integration process more profitable for the DAO.\n\nAdditionally we plan to produce vulnerability metrics to highlight the **value of funds secured** during exploits.\n\n## Reporting\n### Weekly roadmap sync\nWe will continue to send the team lead to a weekly roadmap sync with other engineering leads and ecosystem leaders. The purpose of this session is to provide internal progress updates, synchronize on strategy, and field incoming requests from other ecosystem participants.\n\n### Monthly forum update\nWe will also continue to provide monthly updates on the governance forum. Though we still intend to use these posts to inform the community on completed work and describe any changes to our internal strategy, we will now focus more on the hard metrics defined above. Our goal is to provide a framework for the DAO to evaluate the team’s performance.\n\n# Length of Engagement & Budget\nFive months - **August 1, 2023 through December 31, 2023** - divided into two quarters.\n\nThe table below shows the applicable expense categories in USDC by quarter, followed by descriptions of their make-up.\n\n \n![bip352-1.png](ipfs://bafkreihxbosjk4lnlljmi35t5p4iiu4a2zlf62xvzdxlcvea67ffna6fn4)\n    \n\n## Requests for USDC transfers\n* August 1, 2023: **125,961 USDC**\n* October 1, 2023: **180,211 USDC**\n\n### USDC Budget Breakdown\nPreviously within this proposal, we highlighted the lean structure of our organization and team, which is designed to alleviate any financial pressure on the DAO. This enables us to have a minimalistic financial outline, as shown above.\n\nEach Engineer on our team operates as an independent contractor, a factor that is reflected in the budget by only requiring the organization to handle a contractor’s base pay. Operational costs are kept at a bare minimum and contain insurance, software subscriptions and tax/accounting services. Because this is a new organization, we also have onboarding costs which encapsulate all startup expenses for the company. These expenses include required insurance down payments, company formation/registration and licenses, as well as branding and initial technology costs.\n\nLegal expenses are not included in our budget, as we are also proposing to be granted a seat on the Ecosystem Council as well as reasonable access to legal support and guidance from GRC resources.\n\n## Requests for BAL transfers\n* August 1, 2023: **62,230.58 BAL**\n\n### BAL Budget Breakdown\nIn addition to USDC, the Integrations Team is requesting 62,230.58 BAL to cover commitments made in previous employment packages with Balancer Labs and Orb Collective. These BAL tokens would be awarded as compensation to current team members on a 4 year vesting basis, with a 1 year cliff, starting from each employee’s initial employment date in the ecosystem.\n\nThe funds will be held in on-chain vesting contracts. These are currently under development, and the source code will be provided at a later date. We are building upon OpenZeppelin’s [VestingWallet](https://github.com/OpenZeppelin/openzeppelin-contracts/blob/874c2d3c02ec1bce6af9a30bc828d3fe2079136b/contracts/finance/VestingWallet.sol) contract and adding two features:\n* A vesting cliff to respect the existing incentive format.\n* An owner who is distinct from the recipient. The owner has the power to claw back the unvested balance.\n\nThe full amount of BAL tokens will be required up front and used to seed the vesting contracts for each individual contributor. It can be repossessed by the OpCo and returned to the Balancer Treasury upon termination of a contributor’s contract.\n\n## Impact on the Treasury\nThe Treasury currently holds ~4.5M USDC. Funding the Integrations Team for the remainder of FY2023 would cost around ~6.8% of the treasury’s USDC, which annualizes to ~16%. The 62,230.58 BAL requested in this proposal are currently in possession of Orb Collective and will soon be returned to the Treasury, so the Integrations Team does not require any net new BAL.\n\n# ETH Address to Receive Funds\nThree Rocks wishes to be funded via the OpCo, whose multisig address is:\n**0x3B8910F378034FD6E103Df958863e5c684072693**\n\n# Link to SLA\nThree Rocks will enter into an agreement with the OpCo in the event that this proposal is accepted. At that time, we will edit this post with a link to the agreement for posterity.",
+        "end_utc": "2023-07-10T18:00:00Z",
+        "similarity_score": 0.2228,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3127343.335370477,
+            0.13404708198758417,
+            244697.9561280819
+          ],
+          "scores_total": 3372041.4255456408,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-07-10T18:00:00",
+          "pre_tvl_avg": 1037394378.5,
+          "post_tvl_avg": 1034665020.0,
+          "abnormal_change": -0.2631,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.002631,
+          "abnormal_change_pct": -0.2631
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-07-10T18:00:00",
+          "pre_price_avg": 4.579412685,
+          "post_price_avg": 4.789493345,
+          "abnormal_change": 4.5875,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.045875,
+          "abnormal_change_pct": 4.5875
+        }
+      }
+    },
+    {
+      "proposal_id": "0x79e91e0ea5912af30a2e29c513fffad642bce554cf5c5c09d18f4b0ed3b65ea4",
+      "cleaned": {
+        "proposal_id": "0x79e91e0ea5912af30a2e29c513fffad642bce554cf5c5c09d18f4b0ed3b65ea4",
+        "title": "[BIP-565] Fund OpCo Product team - April - Sept",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2024-03-25T19:00:00Z",
+        "similarity_score": 0.2178,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3165614.8014855897,
+        "margin_pct": 1.0,
+        "scores_total": 3165614.8014855897,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 22,
+        "total_votes": 22,
+        "first_vote_at": "2024-03-21T21:08:40Z",
+        "last_vote_at": "2024-03-25T12:46:02Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1269.2164486660868,
+            0.0,
+            0.0
+          ],
+          [
+            161475.9419815829,
+            0.0,
+            0.0
+          ],
+          [
+            379348.09527196706,
+            0.0,
+            0.0
+          ],
+          [
+            2623521.5477833743,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.828337,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.051957,
+        "half_slope_diff": 10.553712
+      },
+      "raw": {
+        "id": "0x79e91e0ea5912af30a2e29c513fffad642bce554cf5c5c09d18f4b0ed3b65ea4",
+        "title": "[BIP-565] Fund OpCo Product team - April - Sept",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "**Service Provider Name:** Balancer OpCo (Product Team)\n\n**Core Contributor(s):** Gareth, Alberto, Anastas & Pon\n\n**Adhere to [[BIP-372] ](https://forum.balancer.fi/t/bip-372-adopt-sp-standards/5009)and the SP standards:** YES\n\n**Introduction**\nBalancer OpCo Limited (or the “Balancer OpCo”) is a wholly-owned operating subsidiary of the Balancer Foundation. It is an integral element of the Balancer Foundation corporate structure supporting the Balancer DAO. It serves two primary functions (1) Administrative and Operational; and (2) Product Development.\n\nSince the passing of [BIP-55](https://forum.balancer.fi/t/bip-55-funding-proposal-for-the-balancer-opco/3609) and its subsequent extension ([BIP-351](https://forum.balancer.fi/t/bip351-funding-proposal-for-the-balancer-opco-product-team-fy23-q3-through-fy24-q1/4927)), Balancer OpCo has been an integral element of the DAO since July 2022. This proposal aims to extend the product development services for an additional 6 months (April 1, 2024 - September 30, 2024). As in the previous proposal, the administrative and operational elements provided by Balancer OpCo are submitted as a separate proposal.\n\nOur primary roles include Frontend Team Lead (Gareth), Frontend Core Engineers (Anastas and Alberto), and Product Designer (Pon). We also contract Ansaf, a long-time community member and experienced frontend developer, on a part-time basis.\n\nThe proposal period has been reduced from 9 months to 6 months to align with other service providers. Balancer OpCo is requesting $373,290 and 15,711.56 BAL for 6 months of funding starting April 1, 2024 and ending September 30, 2024.\n\n**Retrospective**\nBalancer OpCo product team was previously funded ([BIP-351](https://forum.balancer.fi/t/bip351-funding-proposal-for-the-balancer-opco-product-team-fy23-q3-through-fy24-q1/4927)) for 9 months from July 1, 2023, through to March 31, 2024.\n\nOur high-level goals stated in the previous proposal are as follows:\n\n* Increase LP engagement and satisfaction.\n* Increase veBAL adoption and holder engagement.\n* Increase awareness and adoption of the Balancer protocol.\n\nThese goals have not changed and will continue to guide our focus as we build out v3 of the Balancer canonical app.\n\nBefore shifting focus to v3, our primary focus was to track and improve the general user/LP experience in the v2 app. The KPI we used to do that was the Transaction Flow Error Free Rate, which is fatal errors in transaction flows divided by the total number of successful transactions submitted through the UI. When we started tracking this in July 2023 we were at ~84%. A concentrated effort was made to fix all fixable bugs in those flows and by February 2024 we were able to improve that rate to ~95%. It’s possible with further concentrated effort we could improve that KPI by 1-2%, however, some portion of the remaining 5% are bugs and issues that can be very challenging to resolve, such as wallet errors and specific user network/device issues.\n\nAlthough our focus was generally on improving UX and supporting growth opportunities in the v2 app, very early on in our previous funding period it became clear that we would need to shift focus to a new canonical web application that would support both Balancer v2 and v3 vaults. The reasons behind this are outlined in our [November monthly update](https://forum.balancer.fi/t/opco-product-team-november-2023-update/5417). In November 2023 we publicly put the v2 app into maintenance mode and shifted our focus to the v3 app.\n\nDespite most of our focus being directed towards the v3 application, we have done our best to support growth opportunities in v2 as they arose. An example of this is quickly supporting LRT pools and making them easily findable. We recognise that opportunities for the Balancer ecosystem, like LRTs, are extremely important for the growth of the protocol and we will always do what we can to support marketing and partnership operations through improvements in the UI.\n\nIn September 2023, Tim who was responsible for our backend infrastructure moved on to a new opportunity. Tim had built our v2 API that still serves the v2 frontend application. For v3, we will be using the shared Beets/Balancer API which is managed by Franz at Beets. So we are not looking to hire a replacement and therefore our people costs for this funding cycle are lower.\n\n**Key Objectives and Success Metrics**\nOur key objective for this funding proposal is to launch the v3 web application. The primary motivation for building a v3 app is to build support from the ground up for both v2 and v3 vaults and make the app multi-network native, that is, users will be able to explore and interact with pools across all networks and vaults within the same app. This would have been extremely difficult to do well within the context of the v2 app. This objective also includes a complete rebranding of the Balancer UI/UX.\n\nWe have already made significant progress towards this objective and aim to launch a beta UI by mid-April 2024. Following the beta launch, we will complete support for the v3 vault and launch the UI to the general public alongside the launch of the v3 protocol. The current target for the v3 launch is the end of Q2, 2024.\n\nOur secondary objective is to begin to deprecate the v2 application and its supporting infrastructure. The supporting infrastructure such as the v2 API contributes to our costs and the quicker we can deprecate it the quicker we can lower Balancer OpCo’s 3rd party software costs.\n\nThe success metrics for these objectives are clear, the protocol needs a UI that can support the v2 and v3 vaults, and the UI development should not delay the launch of the v3 protocol. However, our success metrics, besides launching the new app and v3 support, remain essentially the same as with v2. Our focus is on improving the experience and engagement for LPs and veBAL holders. We are already tracking some relevant KPIs (Transaction Flow Error Free Rate & NPS). We will continue to track and report these KPIs as we launch the v3 app.\n\nIn summary, Balancer OpCo’s product team is committed to building a market-leading DApp for the Balancer protocol and supporting growth opportunities through UI development as they arise. The product team are passionate about Balancer and committed to its long-term success.\n\n**Ongoing commitments**\nThe Product Development team ensures Balancer has a high-quality UI/UX available everywhere that allows users to interact easily with the Balancer protocol. In addition, the UI serves as a branding tool where people can better understand what the Balancer Protocol allows. The team will:\n\n* Build, Improve and Optimize the canonical UI for interacting with Balancer\n  * We aim to provide the best possible experience for users to provide liquidity, swap, lock veBAL, vote on gauges, and claim earnings using Balancer.\n  * We will design, build and maintain the marketing pages for the Balancer protocol. The primary aim of these pages will be to inspire and help onboard potential partners into the ecosystem.\n  * We ensure this UI works across all modern devices including desktop and mobile browsers.\n  * We will continually optimize and improve this app so users have a great experience no matter how many features or how much data Balancer introduces in the future.\n  * We will continually work on the stability and reliability of the UI by covering its critical functionality with unit, integration and eventually E2E (End to End) tests.\n  * Whenever new features or improvements are made to the Balancer smart contracts we will implement the primary UI for users to interact with them on launch.\n  * This also includes responsibility for all copywriting across the app.\n* Ecosystem design support\n  * We will support broader ecosystem design initiatives. For example, we’ll collaborate with marketing on creative direction and occasional asset production.\n* Support the development and maintenance of the shared Beets/Balancer API\n  * The Product Development team currently maintains the Balancer API at https://api.balancer.fi, which provides quick access to Balancer pool and token information, as well as a SOR interface that services such as CowSwap use to calculate the best trade routes through Balancer pools.\n  * The existing API mentioned above will be deprecated in favour of the shared Beets/Balancer API at https://api-v3.balancer.fi.\n  * Additional functionality will be added to the shared Beets/Balancer API to support a simpler UI layer for v3.\n* User support\n  * We will monitor relevant channels in Discord, Slack and Github issues for any reported problems and aim to respond within 24 hours and fix the problem as soon as possible.\n* OpCo operations\n  * Manage DNS for all Balancer DAO domains.\n  * Manage user accounts/email addresses under those domains.\n  * Manage 3rd party accounts, upgrades, renegotiations, etc. For example, RPC providers, AWS, and wallet check providers.\n\nGithub repositories that we are directly responsible for:\n\n* https://github.com/balancer/frontend-v3\n* https://github.com/balancer/frontend-v2 (to be deprecated)\n* https://github.com/balancer/balancer-api (v2 API, to be deprecated)\n* https://github.com/balancer/tokenlists\n* https://github.com/balancer/marketing-site (to be deprecated)\n* https://github.com/balancer/metadata\n\nGithub repositories we are not directly responsible for but contribute to:\n\n* https://github.com/balancer/balancer-sdk\n* https://github.com/balancer/b-sdk\n* https://github.com/balancer/docs\n* https://github.com/balancer/backend\n\n**Reporting**\nThe Product Development team is committed to transparency and openness in all our work. The majority of our day-to-day activities can be followed via the previously mentioned repositories. We are also committed to providing higher-level reporting on our work in the relevant calls and on the forum. Our reporting commitments will be as follows:\n\n* Weekly v3 roadmap call\n  * Audience: Internal, engineering and ecosystem leadership.\n  * Here we share status updates on our latest work and take note of any urgent requirements or future work for our team.\n* Monthly forum update\n  * Audience: Public\n  * A high-level written report of work done over the past 30 days, including how that work relates to our stated goals. We will also include reflections on challenges that may be standing in the way of progress on those goals.\n  * Relevant metrics that the Product Development team’s work has a direct impact on.\n* Quarterly community call update (if applicable)\n  * Audience: Public\n  * A higher-level update on the work done over the last quarter and work planned for the next quarter, including KPIs and visual content if relevant. This update will also include reflections on the team and its performance and any changes to the overall direction described in this funding proposal or previous quarterly reports.\n\n**Length of Engagement & Budget**\nBalancer OpCo product team is requesting 6 months of funding starting April 1, 2024 and ending September 30, 2024.\n\nWe request a total budget of $373,290 for the full period. Note that Balancer OpCo holds enough funds to cover the requested funding. This was saved due to the reduction in spend achieved by OpCo and other Service Providers vs their original budgets in years 1 and 2. For that reason, no new funding is required from the DAO for this proposal. The table below shows the applicable expense categories by quarter.\n![bip-565-2.png](ipfs://bafkreibzvgelwxzehhvztwqftrggjbhvbum4k6rhjj6i5abtoryqhpgoom) \n\nNote that Non-People Costs are reduced in Q2 as we transfer some of those costs into the Balancer OpCo Admin & Ops [supplementary proposal](https://forum.balancer.fi/t/bip-xxx-opco-admin-ops-supplementary-budget-for-q2-2024/5628). These costs are for 3rd party services that are used throughout the ecosystem and are critical to the ongoing operation of the DAOs infrastructure. We are referring to these as “Protocol Infrastructure”.\n\nA further breakdown of the Balancer OpCo Product Team costs is shown below:\n![bip-565-1.png](ipfs://bafkreigag7amrn6sougc46ncjc57gyaoioz3o4qgsbyhwsntolcqzsdjei)\n    \n\nIn addition, the Balancer OpCo is requesting an allocation of 15,711.56 BAL for the 6 month period of the proposal that aligns with the grants included in staff employment packages. This BAL would be awarded as compensation to current team members on a 4-year vesting basis, with a 1-year cliff, starting from each employee’s initial employment date in the ecosystem.\n\nShould any of these employees leave before the completion of the 2 quarter proposal period, any unvested BAL would not go to the departing employee and would be available to the OpCo for allocation as incentives to potential replacement staff.\n\n**Link to Service Provider Agreement (if going through the Balancer OpCo)**\nNot applicable given this entity is internal. The Product team will be directly accountable to the Balancer OpCo and the Balancer DAO community through the reporting process applicable to all Balancer SPs, primarily with reference to the objectives and KPIs noted above.",
+        "end_utc": "2024-03-25T19:00:00Z",
+        "similarity_score": 0.2178,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3165614.8014855897,
+            0,
+            0
+          ],
+          "scores_total": 3165614.8014855897,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-03-25T19:00:00",
+          "pre_tvl_avg": 1218663368.5,
+          "post_tvl_avg": 1279867832.5,
+          "abnormal_change": 5.0223,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.050223,
+          "abnormal_change_pct": 5.0223
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-03-25T19:00:00",
+          "pre_price_avg": 4.81569115,
+          "post_price_avg": 5.133736955,
+          "abnormal_change": 6.6044,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.066044,
+          "abnormal_change_pct": 6.6044
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x5c5c4a5b10d2395d80abc07de7b83fd38434c4d1745adb473c4c61fe5304efc5",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "The proposal to fund Beethoven X DAO technical team for July-December 2024 is strongly supported by voters and forum participants, reflecting consensus to continue critical technical development for Balancer v3.",
+    "key_arguments_for": [
+      "Unanimous and early voting support indicating strong consensus for funding.",
+      "Forum sentiment predominantly positive, highlighting confidence in the team's contributions and dedication.",
+      "Historical similar proposals also supported enabling new gauges and technical improvements.",
+      "Proposal extends critical technical work supporting Balancer v3 launch and ecosystem integration."
+    ],
+    "key_arguments_against": [
+      "Post-vote market impacts for similar past proposals showed negative price and TVL movements, suggesting limited immediate financial upside.",
+      "No explicit negative forum sentiment but some neutral comments regarding operational details like payment cadence."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.balancer.fi/t/bip-631-fund-beethoven-x-dao-technical-for-july-december/5806",
+        "quote": "Forum comments show positive support from key contributors and community members for the proposal and team."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Proposal voting timeline",
+        "quote": "All votes uniformly in favor with high stability and early voter participation."
+      },
+      {
+        "source_tool": "adjacent_analytics",
+        "reference": "Similar past proposals BIP-623, BIP-624, BIP-625",
+        "quote": "Previous technical funding proposals supported but followed by negative price and TVL impacts post-vote."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2024-06-20T18:00:00Z",
+    "event_end_utc": "2024-06-24T18:00:00Z",
+    "event_time_utc": "2024-06-24T18:00:00Z",
+    "address_of_governance_token": "0xba100000625a3754423978a60c9317c58a424e3d",
+    "token_price_impact_pct": -2.8061,
+    "tvl_impact_pct": -2.5214,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        2541648.0818958767,
+        0.0,
+        7258.409158803394
+      ],
+      "scores_total": 2548906.49105468,
+      "margin_abs": 2534389.672737073,
+      "margin_pct": 0.994305
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "• The proposal has unanimous and early voting support indicating strong consensus.\n• Forum sentiment is largely positive with key community members endorsing the team's valuable contributions.\n• Similar past proposals funded technical improvements but experienced negative post-vote market reactions, highlighting the importance of long-term technical health over short-term price gains.\n• The recommendation aligns well with forum sentiment, reflecting community views favoring continued technical funding to support Balancer v3 development.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0xe23479d7b207e5f025a40ace92c3b89c4a3292dd832f4b2d63535f39d72af515",
+        "title": "[BIP-623] Enable gauge for weETH / wstETH E-CLP (Arbitrum)",
+        "end_utc": "2024-06-17T18:00:00Z",
+        "summary": "[BIP-623] Enable gauge for weETH / wstETH E-CLP (Arbitrum) closed on 2024-06-17T18:00:00Z. Timeline analytics noted 15 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.08)",
+        "market_response": "token -6.40%; TVL -5.23%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0x0d9c701622948ddaa19f1183da4491d45e3c93b47d7118660887f269a05b305c",
+        "title": "[BIP-625] Enable gauge for WETH/rETH on [Gnosis]",
+        "end_utc": "2024-06-17T18:00:00Z",
+        "summary": "[BIP-625] Enable gauge for WETH/rETH on [Gnosis] closed on 2024-06-17T18:00:00Z. Timeline analytics noted 17 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.08)",
+        "market_response": "token -6.40%; TVL -5.23%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -2.8061,
+    "ex_post_tvl_impact_pct": -2.5214,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -2.81%; TVL -2.52%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 0,
+    "Positive": 4,
+    "Neutral": 5,
+    "total_comments": 9
+  }
+}

@@ -1,0 +1,698 @@
+{
+  "captured_at_utc": "2025-10-08T21:42:29.850900+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x78e1e1243888b3c6f0bd6f4d4eeae66e8a753fb58db97502f3ddf6a6098bef6c",
+  "focus": null,
+  "votes_count": 5,
+  "timeline_metrics_current": {
+    "unique_voters": 5,
+    "total_votes": 5,
+    "first_vote_at": "2025-01-16T22:36:05Z",
+    "last_vote_at": "2025-01-20T08:51:07Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        292401.45258088305,
+        0.0,
+        0.0
+      ],
+      [
+        587.2103583031735,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        2545769.443539727,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.828291,
+    "spike_follow_support_ratio": 0.0,
+    "stairwise_ratio": 0.171709,
+    "half_slope_diff": 488.288009
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0xe8da337f651641f3bb7b13acf5f62334095f435a46e8421b55fe2ba15674fb6f",
+      "title": "[BIP-752] Enable E-CLP gauge for weETH/wstETH [Base]",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-01-13T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 4,
+        "total_votes": 4,
+        "first_vote_at": "2025-01-11T21:37:47Z",
+        "last_vote_at": "2025-01-13T09:14:07Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            298950.5428221082,
+            0.0,
+            0.0
+          ],
+          [
+            2529642.006619039,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.823328,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.176672,
+        "half_slope_diff": 39.609574
+      },
+      "price_impact_pct": -0.0487,
+      "tvl_impact_pct": 3.9837,
+      "similarity": 0.0684,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2828592.549441147,
+        "scores_total": 2828592.549441147,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0x9ce98920a42aea2ec2bbecaa84e1eaf2ce18e480896ba36ec505e0af2491dbc6",
+      "title": "[BIP-751] Fund the DAO Gas Station Operations for 2025",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-01-13T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 4,
+        "total_votes": 4,
+        "first_vote_at": "2025-01-11T21:38:16Z",
+        "last_vote_at": "2025-01-13T09:13:52Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            298955.32544563676,
+            0.0,
+            0.0
+          ],
+          [
+            2529646.1192927663,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.823326,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.176674,
+        "half_slope_diff": 39.727947
+      },
+      "price_impact_pct": -0.0487,
+      "tvl_impact_pct": 3.9837,
+      "similarity": 0.0738,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2828601.444738403,
+        "scores_total": 2828601.444738403,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0x86f4d00790410ea0d6d1c777258b95cd4a8b12550fc583a155af282605ec39ee",
+      "title": "[BIP-750] 2025 Gauge Management Proposal",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-01-13T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 4,
+        "total_votes": 4,
+        "first_vote_at": "2025-01-11T21:38:44Z",
+        "last_vote_at": "2025-01-13T09:13:25Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            298956.77472549386,
+            0.0,
+            0.0
+          ],
+          [
+            2529647.365557532,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.823325,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.176675,
+        "half_slope_diff": 39.941574
+      },
+      "price_impact_pct": -0.0487,
+      "tvl_impact_pct": 3.9837,
+      "similarity": 0.0766,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2828604.140283026,
+        "scores_total": 2828604.140283026,
+        "margin_pct": 1.0
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x56ce9f80d1b05ada3f59e57a69b26c88555ddc19709af47ae2f72b5f3d80c659",
+      "cleaned": {
+        "proposal_id": "0x56ce9f80d1b05ada3f59e57a69b26c88555ddc19709af47ae2f72b5f3d80c659",
+        "title": " [BIP-168] Enable DOLA/CUSD Gauge on Ethereum",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-02-06T19:00:00Z",
+        "similarity_score": 0.1214,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 4227233.929183105,
+        "margin_pct": 0.9995133003449873,
+        "scores_total": 4229292.324298289,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 343,
+        "total_votes": 343,
+        "first_vote_at": "2023-02-02T19:19:36Z",
+        "last_vote_at": "2023-02-06T18:49:37Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            697729.5148358846,
+            18.448534472573655
+          ],
+          [
+            232752.51409252296,
+            0.8177633835996432
+          ],
+          [
+            393785.86819169804,
+            1009.9312597360007
+          ],
+          [
+            2903995.22962059,
+            0.0
+          ]
+        ],
+        "spike_index": 0.630754,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 2.1e-05,
+        "half_slope_diff": 1.179138
+      },
+      "raw": {
+        "id": "0x56ce9f80d1b05ada3f59e57a69b26c88555ddc19709af47ae2f72b5f3d80c659",
+        "title": " [BIP-168] Enable DOLA/CUSD Gauge on Ethereum",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "PR with payload: https://github.com/BalancerMaxis/multisig-ops/pull/36\n\n# Summary:\n\nProposal to add [DOLA/CUSD to the Balancer](https://app.balancer.fi/#/ethereum/pool/0x384f67aa430376efc4f8987eabf7f3f84eb9ea5d00020000000000000000043d) Gauge Controller.\n\nStableswap pool deployed [here](https://etherscan.io/address/0x384f67aa430376efc4f8987eabf7f3f84eb9ea5d).\n\nUncapped gauge deployed [here](https://etherscan.io/address/0xFc4541437265945F13368F9F61c19dA427D41A02).\n\n## References/Useful Links:\n\n**About Inverse Finance**\n\n* Website: https://www.inverse.finance/\n* Documentation:https://docs.inverse.finance/inverse-finance/about-inverse\n* Transparency: https://www.inverse.finance/transparency/overview\n* Github Page: [InverseFinance](https://github.com/InverseFinance)\n* Communities: [Discord](http://discord.gg/YpYJC7R5nv)\n* Defillama: [DOLA: TVL and stats](https://defillama.com/stablecoin/dola)\n\n**About Coin98**\n\n• Website: https://coin98.com/dollar\n• Documentation: https://docs.coin98.com/products/coin98-dollar\n• Token address: [Etherscan](https://etherscan.io/token/0xC285B7E09A4584D027E5BC36571785B515898246#balances)\n• Github Page: https://github.com/coin98\n• Communities: CUSD [Twitter](https://twitter.com/Coin98Dollar) | [Discord](http://c98.link/discord) | [Telegram Chat Group](https://t.me/Coin98Community)\n\n• Coingecko: https://www.coingecko.com/en/coins/coin98-dollar\n\n## Protocol Description:\n\n**About Inverse Finance**\n\nInverse Finance is a community of crypto enthusiasts organized as a DAO and started on December 26th 2020. Inverse DAO governs and develops a suite of permissionless and decentralized financial tools using blockchain smart contract technology. The code base is open source and maintained by the community.\n\nInverse DAO’s core product is DOLA, a debt-backed USD stablecoin. DOLA is added into and removed from circulation;\n\n* On the supply side of money markets, such as DAO-owned protocol FiRM, by Inverse Finance's “Fed” contracts and is then made available to be borrowed through over-collateralized loans.\n* Via injection/contractions into pools such as the Curve DOLA/FraxBP (currently $42.5M TVL), DOLA/USDC on Velodrome ($17.2M TVL), and soon to be DOLA/USDC and Balancer (replacing the DOLA/bb-a-USD pair that was killed due to a [disclosed bug](https://twitter.com/Balancer/status/1611363559685898247?s=20&t=4e6cn2cPCda1i1jWMfuWRw)).\n* Via purchase with DAI stablecoin using[ The Stabilizer](https://www.inverse.finance/swap/DAI/DOLA).\n\nDOLA is not \"algorithmic\" and the INV governance token is not used to mint or redeem DOLA.\n\n**About Coin98**\n\nCoin98 is a DeFi product builder focusing on creating and developing an ecosystem of DeFi protocols, Web3 applications, and NFTs on multiple blockchains. Our mission is to fulfill untapped demand and enhance in-demand utilities in the DeFi space, helping people to access DeFi services effortlessly. The Coin98 universe is now consolidating Coin98 Super App, Coin98 Exchange, Coin98 SpaceGate (cross-chain bridge), Coin98 Dollar (CUSD) and many more incubating initiatives.\n\nCoin98 Dollar (CUSD) is a fully-backed stablecoin that aims to become a cross-chain unit of account that fulfills the demand for cross-chain liquidity in DeFi.\n\nIn order to convert to 1 CUSD, a total of $1 worth of the collateralized assets must be sent into the CUSD Reserve smart contract. Specifically, in the initial phase, the collateral ratio to convert to 1 CUSD will be $1 worth of fiat-backed stablecoins - BUSD (on BNB Chain) and USDC (on Solana and Ethereum).\n\n## Motivation:\n\nThis proposal aims to add the DOLA/CUSD pool to the Balancer Gauge controller.\n\nCUSD is a stablecoin recently launched by Coin98. Coin98 has a wide range of products, including Coin98 Super App (aka Coin98 Multichain Wallet) that has 6 million users worldwide, especially popular in the Asia region, and is the best multichain wallet that supports more than 70 blockchains, including EVM and non-EVM chains.\n\nAdding a gauge to this LP will onboard Coin98 and its users to the Balancer and Aura ecosystem via CUSD stablecoin, and consequently, get them to experience all other pairs available on Balancer. This also provides a platform for Coin98 to build and release further products and integration for CUSD on the Ethereum blockchain.\n\nBoth Inverse Finance DAO and Coin98 will jointly incentivize liquidity to the pool, allowing CUSD to access the already deep liquidity of DOLA.\n\nThis is a continuation of the already established partnership between Inverse Finance DAO and Coin98, with a jointly incentivised DOLA/CUSD pool already active on Thena, currently with a TVL of $2.5M and 7-day volume of $700k.\n\n## Specifications:\n\nYou can view analytics for DOLA on Defillama. To learn more about the protocol, please visit our [official docs](https://docs.inverse.finance/inverse-finance/about-inverse), [governance](https://www.inverse.finance/governance) and our [transparency](https://www.inverse.finance/transparency/overview) pages.\n\n>1. Governance: Provide current information on the protocol’s governance structure. Provide links to any admin and/or multisig addresses, and describe the powers afforded to these addresses. If there are plans to change the governance system in the future, please explain.\n\n**About Inverse Finance**\n\nInverse Finance Fed contracts mint DOLA directly to the supply side of lending markets or to pools such as the DOLA/FraxBP[ Curve](https://curve.fi/factory/27) pool as demand increases, or they retract and burn DOLA from the supply when demand decreases. The Fed contracts are governed by the Inverse Finance DAO, which is controlled by INV holders through governance. A detailed description of our governance can be found [here](https://www.inverse.finance/blog/posts/en-US/all-about-governance-at-inverse-finance). Equally, check out our transparency portal [here](https://www.inverse.finance/transparency/overview) which gives a visual representation of Inverse Finance Governance.\n\n**About Coin98**\n\nThe CUSD protocol governance structure is currently managed by:\n\n0x1db6ad727ae60d7b4dbee81f79c4bcbcff8759f8 - CUSD\n\n0x6fd5991da792f09ed0ed0e9327f4c5164c66e1f3 - CUSD Mint Burn\n\nCoin98 team has been maintaining the CUSD protocol with these addresses to ensure a smooth transition toward decentralization while having proper product development progress in the initial phase.\n\nWe have plans to decentralize the CUSD governance system via C98 token in the future.\n\n>2. Oracles: Does the protocol rely on external oracles? If so, provide details about the oracles and their implementation in the protocol.\n\n**About Inverse Finance**\n\nInverse Finance’s new fixed-rate money market, FiRM, uses Chainlink price oracle for its WETH and stETH market. Inverse Finance's old lending market relied on both Chainlink and non ChainLink oracles, however, borrows have been disabled since June 2022 with no current plans to re-enable.\n\n**About Coin98**\n\nNo.\n\n>3. Audits: Provide links to audit reports and any relevant details about security practices.\n\n**About Inverse Finance**\n\nAs part of our renewed smart-contract review process, Inverse Finance hosted [a bug bounty contest](https://code4rena.com/contests/2022-10-inverse-finance-contest/) on the Code4rena platform to conduct a comprehensive audit of our fixed rate lending protocol, FiRM. Inverse has also recently expanded its bug bounty program by [launching a vault](https://app.hats.finance/vaults) on the Hats.finance platform. FiRM contracts were also reviewed by boutique auditing firm DefiMoon, who have been our [official security partners](https://www.inverse.finance/blog/posts/en-US/new-security-layer-a-welcome-to-the-defi-moon-team) during Q4. In addition to providing security consulting and auditing services for FiRM, DefiMoon has also played a role in our recent deployments of [FraxBP Fed](https://www.inverse.finance/governance/proposals/mills/66), [Aura Fed](https://www.inverse.finance/governance/proposals/mills/71), and [Velo Fed](https://www.inverse.finance/governance/proposals/mills/68). In the immediate aftermath of our price manipulation incident, Inverse had hired leading security firm PeckShield in Q3 to perform an audit of our renewed INV oracle, as well as our [bad debt repayment product](https://www.inverse.finance/blog/posts/en-US/How%20Inverse%20Is%20Thinking%20Outside%20The%20Box%20on%20Frontier%20Debt%20Repayments). Their report can be found [here](https://drive.google.com/file/d/1LWNG08mib2GcI1WqnMt5IdFoW73QU2F8/view).\n\nThe DAO also now has dedicated members overseeing risk, what we call the Risk Working Group. An announcement of the team’s formation can be found [here](https://www.inverse.finance/blog/posts/en-US/Introducing%20the%20Inverse%20Finance%20Risk%20Working%20Group).\n\n**About Coin98**\n\nSecurity has always been our top priority since the beginning of product development There for Coin98 Dollar (CUSD) had been audited by multiple organizations such as SlowMist, PeckShield & Inspex previously before launch. All audit records can be found [here](https://docs.coin98.com/audits/coin98-dollar).\n\n>4. Centralization Vectors: Is there any component of the protocol that has centralization vectors? E.g. if only 1 dev manages the project, that is a centralized vector. If price oracles need to be updated by a bot, that is a centralized vector. If liquidations are done by the protocol, that is also a centralization vector.\n\n**About Inverse Finance**\n\nWithin the DAO working groups have been formed to deliver work in specific areas. Often, these working groups will have a Multisig wallet that the DAO governance awards certain roles and limited DOLA or INV allowances in order to carry out required work. All granted privileges and allowances can be reclaimed/disabled by INV token controlled governance. These are:\n\n* Treasury Working Group (TWG): 3 of 4 Multisig with allowances giving access to Treasury funds to optimize treasury management.\n* Risk Working Group (RWG): 1 of 3 Multisig with privileges to pause actions in our (now disabled) lending market.\n* Policy Committee (PC): 5 of 8 Multisig that can change staking reward rate to INV stakers.\n* Fed Chair: 2 of 5 Multisig that can call the expansion and contraction functions (to mint/burn DOLA) on the Fed Contracts.\n\nPlease see our Multisig Wallet section of the transparency portal [here](https://www.inverse.finance/transparency/multisigs).\n\n**About Coin98**\n\nThe CUSD protocol is currently managed by the Coin98 team. We have a plan to decentralize the protocol management in the future, starting with a multi-sign approach for the contract keys managed by multiple contributor groups.\n\n>5. Market History: Has the asset observed severe volatility? In the case of stablecoins, has it depegged? In the case of an unpegged asset, have there been extreme price change events in the past? Provide specific information about the Balancer pool: how long has it been active, TVL, historical volume\n\n**About Inverse Finance**\n\nInverse Finance DAO launched DOLA In February of 2021. Through the “Feds”, Inverse maintains the flexibility to adjust borrowing rates across one or even all partner lending markets in order to optimize supply and demand for DOLA and to maintain its USD peg. DOLA’s Fed mechanics have proven to be highly resilient at defending the peg, even during times of extreme stress. The DOLA-3Pool experienced 3Pool bank runs twice (on the days of oracle exploits) on April 2nd and June 16th; both times DOLA depegged for very short periods of time. Please see our graph below of DOLA’s peg YTD.\n \n![dola_1.png](ipfs://bafkreihdhgepssyr35efmncpgqr6xsytzbj6cyycyjyfbpkuzdsvpyh3lm)\n   \nCurrently, the deepest liquidity pool for DOLA stablecoin is DOLA/FRAXBP on Curve, with a TVL of $41.8m at the time of writing.\n\n**About Coin98**\n\nCoin98 launched CUSD in September 2022. CUSD is a fully-backed stablecoin that you can redeem at 1:1 ratio for the collateralized assets in the smart contract, which currently supports USDC & BUSD.\n\nCUSD has maintained a stable price with liquidity pools on multiple blockchain (Kyberswap Elastic for Ethereum, Baryon Network on BSC & Saros Finance on Solana) with no significant price change events. There was a price deviation display error on Coingecko, but it got fixed immediately.\n    \n \n![cusd.jpg](ipfs://bafkreif3nobzx4gucmcntywvbutvyy2m2ivrisqx6ipz7s6xagzqsabz6m)\n    \n\nThe DOLA/CUSD Balancer pool has just been recently established as a joint effort of Coin98 and Inverse Finance to onboard our users to the Balancer ecosystem.\n\n### Specification\n#1\nThe DAO Multisig 0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f will initiate a transaction to the Authorizer 0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6 calling grantRole with the following arguments:\n\nrole: 0xf49d7ffb5922642adc9f29cfb52b2214e81e0b0e54e9cd1e9f70439f0011f368\n\nThis corresponds with the role for calling add_gauge on the gaugeController as seen here .\n\naccount: 0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f\n\nThis allows the DAO Multisig to directly add gauges to the controller.\n\n#2\n\nThe DAO Multisig 0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f will interact with the AuthorizerAdaptor at 0x8F42aDBbA1B16EaAE3BB5754915E0D06059aDd75 and call performAction with the GaugeController at 0xC128468b7Ce63eA702C1f104D55A2566b13D3ABD for the target(address) argument and using 0x3a04f900 followed by the gauge address 0xFc4541437265945F13368F9F61c19dA427D41A02 and the corresponding gauge type for the data(bytes) argument.\n\ndata(bytes) : 0x3a04f900000000000000000000000000fc4541437265945f13368f9f61c19da427d41a020000000000000000000000000000000000000000000000000000000000000002\n\n#3\nThe DAO Multisig 0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f will initiate a transaction to the Authorizer 0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6 calling renounceRole with the following arguments:\n\nrole: 0xf49d7ffb5922642adc9f29cfb52b2214e81e0b0e54e9cd1e9f70439f0011f368\n\nThis corresponds with the role for calling add_gauge on the gaugeController as seen here .\n\naccount: 0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f\n\nThis removes the ability for the DAO Multisig to directly add gauges to the controller.",
+        "end_utc": "2023-02-06T19:00:00Z",
+        "similarity_score": 0.1214,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way"
+          ],
+          "scores": [
+            4228263.126740697,
+            1029.197557592174
+          ],
+          "scores_total": 4229292.324298289,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-02-06T19:00:00",
+          "pre_tvl_avg": 1184612727.5,
+          "post_tvl_avg": 1204976425.5,
+          "abnormal_change": 1.719,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.01719,
+          "abnormal_change_pct": 1.719
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-02-06T19:00:00",
+          "pre_price_avg": 6.97852088,
+          "post_price_avg": 6.666998775,
+          "abnormal_change": -4.464,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.04464,
+          "abnormal_change_pct": -4.464
+        }
+      }
+    },
+    {
+      "proposal_id": "0xfcb493e8ebdd4aaf09ffa3a14925e0e3e5de8cb0628586a16f1b63e305f2e6e1",
+      "cleaned": {
+        "proposal_id": "0xfcb493e8ebdd4aaf09ffa3a14925e0e3e5de8cb0628586a16f1b63e305f2e6e1",
+        "title": " [BIP-173] Enable TRYB / USDC Gauge with a 2% Emission Cap [Ethereum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-02-13T21:00:00Z",
+        "similarity_score": 0.1204,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 1398146.0245100725,
+        "margin_pct": 0.9999998789551072,
+        "scores_total": 1398146.1937485286,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 255,
+        "total_votes": 255,
+        "first_vote_at": "2023-02-09T21:20:23Z",
+        "last_vote_at": "2023-02-13T19:53:05Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            616355.769256584,
+            0.08419201358522448
+          ],
+          [
+            6160.594353158485,
+            0.0
+          ],
+          [
+            89494.86119407666,
+            0.000427214479398003
+          ],
+          [
+            686134.8843254814,
+            0.0
+          ]
+        ],
+        "spike_index": 0.294085,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 4.2e-05,
+        "half_slope_diff": 4.718755
+      },
+      "raw": {
+        "id": "0xfcb493e8ebdd4aaf09ffa3a14925e0e3e5de8cb0628586a16f1b63e305f2e6e1",
+        "title": " [BIP-173] Enable TRYB / USDC Gauge with a 2% Emission Cap [Ethereum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "[PR with multisig payload](https://github.com/BalancerMaxis/multisig-ops/pull/59)\n\n**Proposal to add TRYB / USDC to Gauge Controller:**\n\nThis proposal is submitted by the BiLira Team.\n\n**Summary:**\n> This is a proposal to enable a Balancer gauge for the [TRYB / USDC Pool](https://app.balancer.fi/#/ethereum/pool/0x15c1cdacd3da1e1c1304200b1beb080d50bbbc0f00020000000000000000045f). This pool consists of 50% USDC - Circle’s USD stablecoin, and 50% TRYB(BiLira), a Turkish Lira backed and 1:1 collateralized ERC-20 compatible stablecoin. The gauge will be with a 2% emission cap.\n>\n>Pairing TRYB with USDC will enable direct transfers between Turkish Lira and USDC allowing the Turkish community to directly use DeFi applications by using Balancer to swap their tokens. Furthermore, there are several benefits associated with enabling a gauge for TRYB/ USDC pool:\n>* Increased Liquidity: Turkish traders will have access to deeper liquidity than before which should lead to lower spreads between buy/sell prices resulting in an improved trading performance\n>* Greater Accessibility: By including TRYB in the Balancer Protocol alongside other popular currencies like USDT and USDC, traders around the world, including Turkish traders, will have greater access to invest and manage their funds digitally through a well-respected decentralized finance protocol like Balancer.\n>* Yields and Transaction Fees: While Turkish investors will be able to enjoy the benefits of utilizing Balancer in the most accessible manner; at the same time, Balancer will earn additional yields from fees collected from trading activities within the platform. BiLira will act as an on/off ramp for the community and they will benefit from Balancer directly.\n\n**References/Useful links:**\n\n> Link to:\n    •  [Website](https://www.bilira.co/en/home)\n    •  [Audit Reports](https://www.bilira.co/en/audit-reports)\n    •  [Issuance & Redemption](https://drive.google.com/file/d/1Sj3zdgjM1Wip5yBb-hIgkYtCJ_vqXK2u/view)\n    •  [Documentation](https://uploads-ssl.webflow.com/5fb683a258cbdf70262c0b77/6023c066d244a79a1c000761_Whitepaper-(EN-1.0).pdf)\n    •  [Twitter](https://twitter.com/BiLira_Official)\n    •  Contracts: [Ethereum](https://etherscan.io/token/0x2c537e5624e4af88a7ae4060c022609376c8d0eb), [Avalanche](https://avascan.info/blockchain/c/address/0x564a341df6c126f90cf3ecb92120fd7190acb401), [Polygon](https://polygonscan.com/token/0x4fb71290ac171e1d144f7221d882becac7196eb5), [Solana](https://explorer.solana.com/address/A94X2fRy3wydNShU4dRaDyap2UuoeWJGWyATtyp61WZf), [BNB](https://bscscan.com/address/0xC1fdbed7Dac39caE2CcC0748f7a80dC446F6a594)\n\n\n**Protocol Description:**\n\n> The BiLira (TRYB) token is a full-reserve stable cryptocurrency that is built on 5 different blockchains, issued and managed by the BiLira organization, backed by the Turkish Lira and collateralized 1 : 1, secure and compatible with ERC-20 token standards. Users can use the web application on [BiLira.co](http://bilira.co) to conduct TRYB issuances and redemptions between their local banks and their digital wallets.\n>\n>The minting of on-chain TRYB is from fully collateralized bank deposits. Users connect their wallets and deposit fiat currency (TRY) into BiLira’s bank account. BiLira confirms the transaction and verifies the smart contract. The smart contract then mints corresponding TRYB tokens and sends them to the customer’s crypto wallet. Corresponding fiat currency is held in BiLira’s reserves. This information can be verified through our audit reports that are done via 3 party firms.(link to the reports can be found below). Another factor is that BiLira doesn’t hold the users crypto assets. The issuance process is non-custodial and the assets are sent to the users wallet addresses that they provide. For redemption, users send their TRYB to their BiLira redemption wallets, and convert the specified TRYB to Turkish Lira through [bilira.co](https://www.bilira.co/). All of the redeemed TRYB from customers are burned in a monthly routine. BiLira firm uses enterprise-grade multi-layer security measures such as Multi-Sig wallets through Fireblocks.\n\n**Motivation:**\n\n> Cryptocurrency adoption in Turkey is one of the highest in the world and continues to grow as a result of the increasing demand for digital assets and financial services. A survey by [ING](https://www.ing.com.tr/F/Documents/27062018_ING_IIS_BB.pdf) illustrates that almost 18% of Turkish people have used or owned cryptocurrency in some form, compared to 9% across the European Union. This has been driven by the high inflation rate and economic uncertainty that has been experienced in Turkey over the last few years. The Turkish Lira (TRY) has been especially severely impacted, with its value dropping by over 40% since the beginning of 2020. As a result, Turkish users actively seek for alternative financial instruments and solutions.\nBy creating the [TRYB/USDC pool](https://etherscan.io/address/0x15c1cdacd3da1e1c1304200b1beb080d50bbbc0f), we wanted to open the gates of Balancer to the Turkish DeFi users.\n>\n>With such a large base of crypto users, TRYB pools on Balancer would provide Turkish users with easy access to the decentralized finance ecosystem and make it easier for them to adopt and trade crypto assets. \n>\n>Furthermore, by incentivizing TRYB on Balancer there will be an incentive for users to provide liquidity and actively swap tokens. This will consequently result in more users joining the platform, increased trading volumes and the pool established for TRYB on Balancer will also help increase awareness of BiLira’s token and its utility as a stablecoin pegged 1:1 with the Turkish Lira. Providing this type of service could draw in new Turkish traders who may not have previously considered investing in cryptocurrencies or utilizing decentralized platforms. For instance, as more people begin using TRYB tokens for their transactions or contribute to the relevant liquidity pool, traders will have more opportunities to arbitrage between different exchanges and earn profits from price discrepancies across markets. As a matter of fact, incentivizing TRYB on Balancer will also create new opportunities for institutional investors who are looking for ways to diversify their portfolio with digital assets.\n\n**Specifications:**\n You may find the full details on the project in the BiLira whitepaper and for all the other information please refer to [BiLira homepage.](https://www.bilira.co/en/home)\n1. **Governance:** \nTRYB is centralized and issued by BiLira and does not have a governance forum.\n\n2. **Oracles:** \nTRYB has a Chainlink oracle that can be found here: [Oracle\n](https://data.chain.link/ethereum/mainnet/fiat/try-usd)\n\n3. **Audits:** \nBiLira’s TRYB is being audited twice a year by an independent auditor to ensure all TRYB’s are fully backed by TRY. [See the latest audits here](https://www.bilira.co/en/audit-reports).\n\n4. **Centralization vectors:** \nTRYB is inherently centralized and issued by BiLira. Users who complete the KYC/AML process are allowed to issue and redeem TRYB for TRY 24/7. \n\n\n5. **Market History:** \nTRYB has been on blockchains since early 2019. It has been listed and used on numerous DEXs and CEXs since its launch. Until today more than 5 billion TRYB has been issued by BiLira to fulfill the user demand. [See Coingecko history here.](https://www.coingecko.com/en/coins/bilira)\nFrom August 2020 and up until 31 October 2022, TRYB was within +/-1% of the peg 93.14% of the time and within +/-2% 98.90% of the time.\nThere are some market places where there is lack of liquidity which does not make a sufficient impact on the peg. Outliers on the TRYB/TRY peg distribution rarely occur on these marketplaces with relatively less volume. However, TRYB peg is guaranteed with the TRY held in the bank account of BiLira. Users can always redeem TRYB for TRY(1:1) via [this link.](https://app.bilira.co/redemptions)\n\nPool: [TRYB/USDC](https://app.balancer.fi/#/ethereum/pool/0x15c1cdacd3da1e1c1304200b1beb080d50bbbc0f00020000000000000000045f)\nGauge w/ 2% emission: [Gauge Link](https://etherscan.io/address/0x41962010E675E8f4951777A518B0E43dBab3e874)\n\n \n6. **Value:** \nAs explained above, the Turkish community will benefit from providing liquidity to Balancer. Many people will be interested in moving over to Balancer. We will also be actively participating in the ecosystem.\n\nThe DAO Multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with the AuthorizerAdaptor at `0x8F42aDBbA1B16EaAE3BB5754915E0D06059aDd75` and call performAction with the GaugeController at `0xC128468b7Ce63eA702C1f104D55A2566b13D3ABD` for the target(address) argument and using `0x3a04f900` followed by the gauge address `0x41962010E675E8f4951777A518B0E43dBab3e874` and the corresponding gauge type for the data(bytes) argument.\n\ndata(bytes) :\n0x3a04f90000000000000000000000000041962010e675e8f4951777a518b0e43dbab3e8740000000000000000000000000000000000000000000000000000000000000002",
+        "end_utc": "2023-02-13T21:00:00Z",
+        "similarity_score": 0.1204,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way"
+          ],
+          "scores": [
+            1398146.1091293006,
+            0.08461922806462248
+          ],
+          "scores_total": 1398146.1937485286,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-02-13T21:00:00",
+          "pre_tvl_avg": 1138638813.5,
+          "post_tvl_avg": 1199124733.0,
+          "abnormal_change": 5.3121,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.053121,
+          "abnormal_change_pct": 5.3121
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-02-13T21:00:00",
+          "pre_price_avg": 6.345068725,
+          "post_price_avg": 7.136884200000001,
+          "abnormal_change": 12.4792,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.124792,
+          "abnormal_change_pct": 12.4792
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x78e1e1243888b3c6f0bd6f4d4eeae66e8a753fb58db97502f3ddf6a6098bef6c",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.85,
+    "summary": "The proposal updates the Balancer bug bounty program to include v3 assets and introduces light KYC onboarding, maintaining existing reward and scope structures. This enhances security coverage for new assets while continuing community protections.",
+    "key_arguments_for": [
+      "Extends bug bounty coverage to v3 assets, improving overall protocol security.",
+      "Introduces light KYC onboarding with minimal impact on report volume.",
+      "Maintains clear reward structure aligned with vulnerability severity.",
+      "Similar past proposals with 'Yes' outcomes have been successful and well-received."
+    ],
+    "key_arguments_against": [
+      "Slight negative price impact observed post-vote in similar proposals, though likely unrelated to proposal merit.",
+      "One forum comment expressed concerns about KYC changes, indicating minor community caution."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.balancer.fi/t/bip-758-update-bug-bounty-program-scope-for-v3-assets/6295",
+        "quote": "Mostly neutral sentiment in forum comments with one negative comment expressing caution about KYC."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Snapshot proposal timeline metrics",
+        "quote": "Strong lead and stability for 'Yes, let's do it' option throughout voting period."
+      },
+      {
+        "source_tool": "govnews_search_governance_news",
+        "reference": "Adjacent proposals data",
+        "quote": "Similar proposals recommended 'Yes, let's do it' with stable voting and positive organizational outcomes."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-01-16T19:00:00Z",
+    "event_end_utc": "2025-01-20T19:00:00Z",
+    "event_time_utc": "2025-01-20T19:00:00Z",
+    "address_of_governance_token": "0xba100000625a3754423978a60c9317c58a424e3d",
+    "token_price_impact_pct": -6.9663,
+    "tvl_impact_pct": 0.3051,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        2838758.106478913,
+        0.0,
+        0.0
+      ],
+      "scores_total": 2838758.106478913,
+      "margin_abs": 2838758.106478913,
+      "margin_pct": 1.0
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Timeline analysis shows consistent strong support and stability for 'Yes, let's do it'.\n- Forum sentiment is mostly neutral with minor concerns, overall not opposing the proposal.\n- Historical similar proposals with 'Yes' decisions had successful organizational outcomes despite minor price declines, reinforcing positive precedent.\n- Market impact on TVL is slightly positive, indicating sustained protocol health.\n- Recommendation aligns with aggregated sentiment and maximizes long-term security benefits for the DAO.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x86f4d00790410ea0d6d1c777258b95cd4a8b12550fc583a155af282605ec39ee",
+        "title": "[BIP-750] 2025 Gauge Management Proposal",
+        "end_utc": "2025-01-13T19:00:00Z",
+        "summary": "[BIP-750] 2025 Gauge Management Proposal closed on 2025-01-13T19:00:00Z. Timeline analytics noted 4 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.08)",
+        "market_response": "token -0.05%; TVL +3.98%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0x9ce98920a42aea2ec2bbecaa84e1eaf2ce18e480896ba36ec505e0af2491dbc6",
+        "title": "[BIP-751] Fund the DAO Gas Station Operations for 2025",
+        "end_utc": "2025-01-13T19:00:00Z",
+        "summary": "[BIP-751] Fund the DAO Gas Station Operations for 2025 closed on 2025-01-13T19:00:00Z. Timeline analytics noted 4 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.07)",
+        "market_response": "token -0.05%; TVL +3.98%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -6.9663,
+    "ex_post_tvl_impact_pct": 0.3051,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -6.97%; TVL +0.31%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 1,
+    "Positive": 0,
+    "Neutral": 2,
+    "total_comments": 3
+  }
+}

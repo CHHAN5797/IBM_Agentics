@@ -1,0 +1,1148 @@
+{
+  "captured_at_utc": "2025-10-08T20:35:28.378169+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x762f8789a28394088d7ce1a035d420b274eb72f7221739fd5b929207f9500055",
+  "focus": null,
+  "votes_count": 6,
+  "timeline_metrics_current": {
+    "unique_voters": 6,
+    "total_votes": 6,
+    "first_vote_at": "2025-02-14T12:08:11Z",
+    "last_vote_at": "2025-02-17T08:37:40Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        362574.50655900396,
+        0.0,
+        0.0
+      ],
+      [
+        613.4511075284179,
+        0.0,
+        0.0
+      ],
+      [
+        197364.32518323357,
+        0.0,
+        0.0
+      ],
+      [
+        2539823.820117569,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.762554,
+    "spike_follow_support_ratio": 0.0,
+    "stairwise_ratio": 0.237446,
+    "half_slope_diff": 186.895335
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x3d39e0c869368fc202c1be5a289432d6d4b666050028f0773b946a0162953959",
+      "title": "[BIP-774] Initial Gauges on Arbitrum and Base",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-02-10T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 4,
+        "total_votes": 4,
+        "first_vote_at": "2025-02-07T18:50:33Z",
+        "last_vote_at": "2025-02-10T17:43:38Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.06810283485988088,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2554638.0944370986,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.929679,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.070321,
+        "half_slope_diff": -10.224491
+      },
+      "price_impact_pct": 4.8904,
+      "tvl_impact_pct": -2.2386,
+      "similarity": 0.1732,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2554638.1625399333,
+        "scores_total": 2554638.1625399333,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0x101ed27e3f033b5704971cf17ef0c4370099cee9316967e88d7e0c9632f6abb1",
+      "title": "[BIP-773] Enable Gauge for dvstETH wstETH [Ethereum]",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-02-10T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 4,
+        "total_votes": 4,
+        "first_vote_at": "2025-02-07T18:50:16Z",
+        "last_vote_at": "2025-02-10T17:44:28Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.06810374384689712,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2554010.3729974907,
+            0.0,
+            624.3354379710761
+          ]
+        ],
+        "spike_index": 0.929906,
+        "spike_follow_support_ratio": 0.996525,
+        "stairwise_ratio": 0.070094,
+        "half_slope_diff": 10.142245
+      },
+      "price_impact_pct": 4.8904,
+      "tvl_impact_pct": -2.2386,
+      "similarity": 0.1122,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2553386.1056632632,
+        "scores_total": 2554634.7765392056,
+        "margin_pct": 0.9995112135451182
+      }
+    },
+    {
+      "id": "0x065351bbfa19f5b4b3b8cb2d732a9809adeee6e424c9ede6815854a0dab9caeb",
+      "title": "[BIP-772] Enable Boosted GHO/PYUSD on Balancer v3",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-02-03T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 6,
+        "total_votes": 6,
+        "first_vote_at": "2025-01-30T22:46:44Z",
+        "last_vote_at": "2025-02-03T18:43:07Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            346173.323556492,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            183017.51428206303,
+            0.0,
+            0.0
+          ],
+          [
+            2476495.06992025,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.787166,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.212834,
+        "half_slope_diff": -2.221182
+      },
+      "price_impact_pct": -13.2932,
+      "tvl_impact_pct": -13.9951,
+      "similarity": 0.2636,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 3005685.907758805,
+        "scores_total": 3005685.907758805,
+        "margin_pct": 1.0
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0xb4525d95c2696da4802905fee739ff1dfdd459962e63be01679d6ce1a65e9b84",
+      "cleaned": {
+        "proposal_id": "0xb4525d95c2696da4802905fee739ff1dfdd459962e63be01679d6ce1a65e9b84",
+        "title": "[BIP-763] Enable Boosted GHO 3pool on Balancer v3",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "end_utc": "2025-01-20T22:30:00Z",
+        "similarity_score": 0.4247,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2837616.8721215622,
+        "margin_pct": 1.0,
+        "scores_total": 2837616.8721215622,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 6,
+        "total_votes": 6,
+        "first_vote_at": "2025-01-16T22:49:54Z",
+        "last_vote_at": "2025-01-20T08:51:07Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            291786.71603126684,
+            0.0,
+            0.0
+          ],
+          [
+            586.2605072505238,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2545243.895583045,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.828624,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.171376,
+        "half_slope_diff": 509.621527
+      },
+      "raw": {
+        "id": "0xb4525d95c2696da4802905fee739ff1dfdd459962e63be01679d6ce1a65e9b84",
+        "title": "[BIP-763] Enable Boosted GHO 3pool on Balancer v3",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "body": "PR with payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1678\n\n## Summary\n\nIn preparations for migrating GHO liquidity from Balancer v2 to v3, @TokenLogic proposes enabling the new Boosted 3pool gauge on Ethereum.\n\nThis pool is to be considered “core pool” under BIP-19, meaning the protocol fees earned by these pool would be used to bribe for votes on it.\n\nWithin this proposal legacy gauges not being used on Balancer v2 are to be sunset.\n\n## Motivation\n\nWith several GHO liquidity pools on Balancer v2, this publication begins the process by proposing to enable a new Boosted 3pool gauge and migrating liquidity from our largest liquidity pool across to Balancer v3.\n\nThe [Boosted 3pool](https://balancer.fi/pools/ethereum/v3/0x85B2b559bC2D21104C4DEFdd6EFcA8A20343361D) is to deploy each asset into Aave v3 to earn yield.\n\n- GHO into Aave Prime\n- USDC into Aave Core\n- USDT into Aave Core\n\nFor information specific to each of the constituents mentioned above, please refer to the following Balancer v2 forum post.\n\n* [GHO/USDC/USDT Gauge Proposal](https://forum.balancer.fi/t/bip-411-enable-gho-usdt-usdc-gauge-ethereum/5135)\n\nYou can find detailed information about all these assets in the [rate provider registry]( https://github.com/balancer/code-review/blob/main/rate-providers/registry.json), which serves as a comprehensive source for all relevant details required for the review.\n\nWe will also, use this opportunity to sunset a few under-utilised gauges across Arbitrum and Ethereum. \n\nThe following Balancer v2 gauges are to be sunset:\n\n| Network  |      Pool      | Gauge Address   |\n| :------: | :------------:  | :---------------: |\n| Ethereum | [GHO/PYUSD #1](https://balancer.fi/pools/ethereum/v2/0x4c4ed61d81f531dcb34ad4d498548917aba3d193000200000000000000000680)   | `0xb71C90F165cf99d4004499fF058E265Aa68fAC85`  |\n| Ethereum | [GHO/PYUSD #2](https://balancer.fi/pools/ethereum/v2/0x8950e720eb51af9709a86941345844134517bcf40002000000000000000006e9)   | `0xAf1b4bfA0a69B9e669d925888b99741E15e37253` |\n| Arbitrum | [GHO/USDC/USDT](https://balancer.fi/pools/arbitrum/v2/0xf890360473c12d8015da8dbf7af11da87337a065000000000000000000000570) | `0x7d907D8D66B6CAd285D4349F507EcdfD11FD23D2` |\n| Arbitrum | [USDe/waGHO](https://balancer.fi/pools/arbitrum/v2/0x38161e9efb8de52d00a1eb0f773223fd28fdd7c20002000000000000000005a0) | `0xcfab2efef3affdd158568dc896115eac26b3c498` |\n\n## Specification\n\n### Enable Gauges\n\nThe Balancer Maxi LM Multisig `0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the `GaugeAdderv4` at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function with the following arguments based on the table above:\n\nPool address: [0x85B2b559bC2D21104C4DEFdd6EFcA8A20343361D](https://balancer.fi/pools/ethereum/v3/0x85B2b559bC2D21104C4DEFdd6EFcA8A20343361D)\nGauge(address): `0x9fdD52eFEb601E4Bc78b89C6490505B8aC637E9f`\nGaugeType(string): `Ethereum`\n\n### Kill Gauges\n\nThe DAO Multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with the `AuthorizerAdaptorEntrypoint` at `0xf5dECDB1f3d1ee384908Fbe16D2F0348AE43a9eA` and call performAction using `0xab8f0945` for the data(bytes) argument and the “Root Gauge Address” list for each pool below will be used for the target(address) argument.\n\n## Disclosure\n\nTokenLogic is a service provider to Aave DAO and receives no payment for creating this proposal.",
+        "end_utc": "2025-01-20T22:30:00Z",
+        "similarity_score": 0.4247,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2837616.8721215622,
+            0,
+            0
+          ],
+          "scores_total": 2837616.8721215622,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2025-01-20T22:30:00",
+          "pre_tvl_avg": 1089697189.5,
+          "post_tvl_avg": 1093022186.0,
+          "abnormal_change": 0.3051,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.003051,
+          "abnormal_change_pct": 0.3051
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2025-01-20T22:30:00",
+          "pre_price_avg": 2.766507605,
+          "post_price_avg": 2.64911341,
+          "abnormal_change": -4.2434,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.042434,
+          "abnormal_change_pct": -4.2434
+        }
+      }
+    },
+    {
+      "proposal_id": "0x065351bbfa19f5b4b3b8cb2d732a9809adeee6e424c9ede6815854a0dab9caeb",
+      "cleaned": {
+        "proposal_id": "0x065351bbfa19f5b4b3b8cb2d732a9809adeee6e424c9ede6815854a0dab9caeb",
+        "title": "[BIP-772] Enable Boosted GHO/PYUSD on Balancer v3",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2025-02-03T19:00:00Z",
+        "similarity_score": 0.262,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3005685.907758805,
+        "margin_pct": 1.0,
+        "scores_total": 3005685.907758805,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 6,
+        "total_votes": 6,
+        "first_vote_at": "2025-01-30T22:46:44Z",
+        "last_vote_at": "2025-02-03T18:43:07Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            346173.323556492,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            183017.51428206303,
+            0.0,
+            0.0
+          ],
+          [
+            2476495.06992025,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.787166,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.212834,
+        "half_slope_diff": -2.221182
+      },
+      "raw": {
+        "id": "0x065351bbfa19f5b4b3b8cb2d732a9809adeee6e424c9ede6815854a0dab9caeb",
+        "title": "[BIP-772] Enable Boosted GHO/PYUSD on Balancer v3",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1715\n\n>## Summary\n>\n>This publication proposes creating a new gauge for the Boosted GHO/PYUSD Pool on Ethereum.\n>\n>This pool is to be considered “core pool”, meaning the protocol fees earned by these pool would be used to bribe for votes on it.\n\n>## Motivation\n>\n>With both Buffer Pools adequately funded, this publication proposes enabling the gauge. \n>\n>Balancer v3 - Boosted GHO / PYUSD\n>\n>Each asset is deployed into Aave v3 to earn yield.\n>\n>* GHO into Aave Prime\n>* PYUSD into Aave Core\n>\n>The PYUSD deposits into the Core instance of Aave v3 will benefit from the ongoing liquidity mining program with [4.00% yield](https://governance.aave.com/t/arfc-pyusd-reserve-configuration-update-incentive-campaign/19573) being provided until a target of 75M in deposits is achieved. \n>\n>Details relating to GHO and PYUSD specifically are well documented in [previous gauge submissions](https://forum.balancer.fi/t/bip-736-enable-gho-pyusd-e-clp-gauge-ethereum/6202). \n\n>## Specification\n>\n>Enable Gauge\n>\n>The Balancer Maxi LM Multisig `0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the `addGauge` function with the following arguments based on the table above:\n>\n>Pool address: `0x64B84023CfE8397dF83C67eACCC2C03ecDA4aeE5`\n>Gauge(address): `0x6C0a4550C575C917435F228D36939125A437a98b`\n>Rate Providers: `0x851b73c4BFd5275D47FFf082F9e8B4997dCCB253`\n>GaugeType(string): Ethereum\n\n>## Disclosure\n>\n>TokenLogic does not receive any payment for this proposal.\n\n># Copyright\n>\n>Copyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+        "end_utc": "2025-02-03T19:00:00Z",
+        "similarity_score": 0.262,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3005685.907758805,
+            0,
+            0
+          ],
+          "scores_total": 3005685.907758805,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2025-02-03T19:00:00",
+          "pre_tvl_avg": 1013693328.0,
+          "post_tvl_avg": 871826366.5,
+          "abnormal_change": -13.9951,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.139951,
+          "abnormal_change_pct": -13.9951
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2025-02-03T19:00:00",
+          "pre_price_avg": 2.1476638450000003,
+          "post_price_avg": 1.905691155,
+          "abnormal_change": -11.2668,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.112668,
+          "abnormal_change_pct": -11.2668
+        }
+      }
+    },
+    {
+      "proposal_id": "0xc2dd5357fee7eef6a7e1b99ae457769c69866480dfe88d035fa182ee3b397406",
+      "cleaned": {
+        "proposal_id": "0xc2dd5357fee7eef6a7e1b99ae457769c69866480dfe88d035fa182ee3b397406",
+        "title": "[BIP-717] Enable GHO/wUSDL Gauge on Arbitrum",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "end_utc": "2024-10-14T18:00:00Z",
+        "similarity_score": 0.1812,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2256060.192919382,
+        "margin_pct": 0.7644400279096353,
+        "scores_total": 2951258.5821658093,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 6,
+        "total_votes": 6,
+        "first_vote_at": "2024-10-11T08:13:19Z",
+        "last_vote_at": "2024-10-14T07:40:39Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.032854838237975977,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            346999.96550240385
+          ],
+          [
+            0.0,
+            0.0,
+            599.2291208097275
+          ],
+          [
+            2603659.354687758,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.90999,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.09001,
+        "half_slope_diff": 14.911968
+      },
+      "raw": {
+        "id": "0xc2dd5357fee7eef6a7e1b99ae457769c69866480dfe88d035fa182ee3b397406",
+        "title": "[BIP-717] Enable GHO/wUSDL Gauge on Arbitrum",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "body": "PR With Payload:\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1423\n\n> ## Summary\n>\n>@TokenLogic and @karpatkey proposes creating a gauge for the new GHO/USDL ComposableStable Pool on Arbitrum.\n>\n> GHO/wUSDL Pool - Composable Stable Amp 500\n>\n>This gauge would enter as a “core pool” under BIP-19, meaning protocol fees earned by this pool would be used to bribe for votes on it.\n \n>## References/Useful links\n>\n>**GHO**\n>* [Website](https://app.aave.com/markets/)\n>* [Documentation](https://docs.aave.com/hub/)\n>* [Github Page](https://github.com/aave/interface)\n>* [Communities](https://governance.aave.com/)\n>\n>**wUSDL**\n>* [Website](https://liftdollar.com/)\n>* [Documentation](https://docs.liftdollar.com/)\n>* [WhitePaper](https://whitepaper.liftdollar.com/index.html)\n>* [X](https://x.com/LiftDollar_USDL)\n \n>## Protocol Description\n>\n>**GHO & Aave Protocol**\nThe Aave Protocol is a decentralized liquidity protocol that is deployed across many EVM compatible networks including but not limited to Optimism, Arbitrum, Avalanche and Polygon. Currently, the Aave Protocol has a TVL of approximately $10.7 Billion.\n>\n>GHO is a decentralized multi-collateral stable coin that is fully backed, transparent and native to the Aave Protocol.\n>\n>**wUSDL & Paxos**\n>\n> USDL is issued by Paxos International which is regulated by the Financial Services Regulatory Authority (FSRA) in Abu Dhabi Global Market (ADGM).\n>\n>Lift Dollar (USDL) is an ERC-20 token that distributes yield generated by its cash and cash equivalent reserve assets through a daily rebasing mechanism embedded in the smart contract. The wrapped version of USDL, wUSDL, compounds the yield over time to provide holders with a native savings rate. \n>\n>USDL Contract Address: [`0x7f850b0ab1988dd17b69ac564c1e2857949e4dee`](https://arbiscan.io/address/0x7f850b0ab1988dd17b69ac564c1e2857949e4dee)\n>wUSDL Contract Address: [`0x7751e2f4b8ae93ef6b79d86419d42fe3295a4559`](https://arbiscan.io/address/0x7751e2f4b8ae93ef6b79d86419d42fe3295a4559\n)\n\n>## Motivation\n>\n>This proposal is to enable BAL emissions to the following gauge:\n>\n>* GHO/wUSDL ComposableStable Pool on Arbitrum Amp 1,000\n>\n>Paxos is expected to provide 5M initial liquidity to seed the pool.\n>\n>At a later date, when Gyroscope has progressed through Paxo's risk assessment process, this pool may transition to an ECLP. To support the launch of USDL, the Composable Stable pool type was preferred.\n\n>## Specification\n>\n>1. **Governance:** \n>\n>* AAVE, aAAVE and stkAAVE serve as the governance tokens for the Aave DAO. Holders can vote on proposals at both a Snapshot level and through the Aave DAO [on-chain governance portal](https://app.aave.com/governance/).\n> \n>* Paxos International is a Paxos-affiliate company based in the Abu Dhabi Global Market, the financial free zone of Abu-Dhabi Emirates in UAE. Paxos International’s corporate activities and performance are overseen by a Board of Directors.\n>\n>2. **Oracles:**\n>\n>* rateProvider0 (for GHO): 0x0 (none)\n>* rateProvider1 (for wUSDL): \n>\n>3. **Audits:**\n>\n>*Aave v3*\n>\n>* [ABDK](https://github.com/aave/aave-v3-core/blob/master/audits/27-01-2022_ABDK_AaveV3.pdf)\n>* [OpenZeppelin ](https://github.com/aave/aave-v3-core/blob/master/audits/01-11-2021_OpenZeppelin_AaveV3.pdf)\n>* [Trail of Bits](https://github.com/aave/aave-v3-core/blob/master/audits/07-01-2022_TrailOfBits_AaveV3.pdf)\n>* [Peckshield](https://github.com/aave/aave-v3-core/blob/master/audits/14-01-2022_PeckShield_AaveV3.pdf)\n>* [SigmaPrime](https://github.com/aave/aave-v3-core/blob/master/audits/27-01-2022_SigmaPrime_AaveV3.pdf)\n>\n>*GHO*\n>\n>* [Sigma Prime](https://github.com/aave/gho-core/blob/main/audits/02-06-2023_SigmaPrime.pdf)\n>* [Sigma Prime](https://github.com/aave/gho-core/blob/main/audits/07-03-2023_SigmaPrime.pdf)\n>* [ABDK](https://github.com/aave/gho-core/blob/main/audits/01-03-2023_ABDK.pdf)\n>* [OpenZeppelin-v2](https://github.com/aave/gho-core/blob/main/audits/10-11-2022_Openzeppelin-v2.pdf)\n>* [OpenZeppelin-v1](https://github.com/aave/gho-core/blob/main/audits/12-08-2022_Openzeppelin-v1.pdf)\n>\n>*wUSDL*\n>\n>* [Audits](https://support.liftdollar.com/hc/en-us/articles/25044783537300-Audit-Requests) can be requested with a Paxos International registered email address. \n>\n>4. **Centralization vectors:** \n>\n>* Aave Governance is decentralized, and all changes must go through a transparent and well-tested governance process.\n>\n>* Paxos governance is centralised company overseen by a Board of Directors.\n>\n>5. **Market History:** \n>\n>* GHO recently launched on Arbitrum whilst USDL is preparing to launch.\n>\n>6. **Value:**\n>\n>* GHO/wUSDL is to be onboarded as a Core Pool with a portion of the wUSDL yield to accrue to the Balancer treasury. \n\n>## Pool Details\n>\n>Link to Pool: GHO/wUSDL Pool - Composable Stable\n>Link to Gauges: B-GHO-wUSDL - Root Gauge: [0x2e8A05f0216c6cC43BC123EE7dEf58901d3844D2](https://etherscan.io/address/0x2e8A05f0216c6cC43BC123EE7dEf58901d3844D2#readContract) \n> Child Chain Gauge: [0xcC014e60585259dA1C8501b00789521659e7a4fC](https://arbiscan.io/address/0xcC014e60585259dA1C8501b00789521659e7a4fC#readContract) \n>\n>The Balancer Maxi LM Multisig eth:`0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the `addGauge` function with the following arguments:\n>\n>gauge(address): `0x2e8A05f0216c6cC43BC123EE7dEf58901d3844D2`\n>gaugeType(string): `Arbitrum`\n\n>## Disclosure\n>\n>This proposal is the work of TokenLogic and karpatkey who are both Service Providers and delegates within the Aave Ecosystem.",
+        "end_utc": "2024-10-14T18:00:00Z",
+        "similarity_score": 0.1812,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2603659.3875425956,
+            0,
+            347599.1946232135
+          ],
+          "scores_total": 2951258.5821658093,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-10-14T18:00:00",
+          "pre_tvl_avg": 717487491.5,
+          "post_tvl_avg": 742660077.5,
+          "abnormal_change": 3.5084,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.035084,
+          "abnormal_change_pct": 3.5084
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-10-14T18:00:00",
+          "pre_price_avg": 1.95975882,
+          "post_price_avg": 2.02399925,
+          "abnormal_change": 3.278,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.03278,
+          "abnormal_change_pct": 3.278
+        }
+      }
+    },
+    {
+      "proposal_id": "0x1f78c06855b528a708c183de0a097e6eebca73d00583459e709ee5694bcdb47b",
+      "cleaned": {
+        "proposal_id": "0x1f78c06855b528a708c183de0a097e6eebca73d00583459e709ee5694bcdb47b",
+        "title": "[BIP-755] Enable tETH-wstETH Gauge [Arbitrum]",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2025-01-20T19:00:00Z",
+        "similarity_score": 0.1754,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2838766.767278266,
+        "margin_pct": 1.0,
+        "scores_total": 2838766.767278266,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5,
+        "total_votes": 5,
+        "first_vote_at": "2025-01-16T22:33:02Z",
+        "last_vote_at": "2025-01-20T08:51:07Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            292406.1174064907,
+            0.0,
+            0.0
+          ],
+          [
+            587.218299178201,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2545773.431572597,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.828288,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.171712,
+        "half_slope_diff": 469.241295
+      },
+      "raw": {
+        "id": "0x1f78c06855b528a708c183de0a097e6eebca73d00583459e709ee5694bcdb47b",
+        "title": "[BIP-755] Enable tETH-wstETH Gauge [Arbitrum]",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1668\n\n# Summary\n\nTreehouse proposes introducing a Balancer Gauge for the tETH-wstETH pool on Arbitrum without an emissions cap. [Treehouse’s tETH-wstETH pool](https://balancer.fi/pools/ethereum/v2/0x1d13531bf6344c102280ce4c458781fbf14dad140000000000000000000006df) on Ethereum Mainnet successfully reached a TVL of $7M, with the gauge being a key driver of this success. We are confident that implementing a similar gauge will enable us to replicate this TVL on Arbitrum.\n\n# Motivation:\n\nTreehouse is expanding its tETH offering to Arbitrum as part of our mission to enhance accessibility and reduce onboarding costs for tETH users. We have bridged tETH to Arbitrum and are in the process of establishing a Balancer pool. To further bolster liquidity, Treehouse Protocol is working to set up the tETH-wstETH (Arbitrum) Gauge on Balancer. Having a gauge will draw liquidity for our pool, and will be critical for facilitating seamless transactions for our protocol on Arbitrum.\n\n# Specifications\n\n1. **Governance:**\nAll ownable contracts are secured with a 5/7 multi-sig. Only the tETH contract is upgradable for future expansion plans.\n2. **Oracles:**\ntETH-wstETH exchange rate provider is based on wstETH as a base asset, it is not compatible with any pools aside from a wstETH pairing for the intended use of a rate provider.\n  1. tETH-wstETH Exchange Rate / Arbitrum\n    1. https://arbiscan.io/address/0x98a977Ba31C72aeF2e15B950Eb5Ae3158863D856.\n3. **Audits:**\nTreehouse Protocol has been audited by entities such as Fuzzland, Sigma Prime, and Trail of Bits. The reports can be viewed in the GitHub repository [here](https://github.com/treehouse-gaia/audit-report).\n4. **Centralization vectors:**\nThe centralization vector primarily involves the execution of actions in the strategy contract, which is done by a multi-sig appointed by the contract owner. However, all action contracts are well-defined, and the executors can only perform the whitelisted actions included in the strategy contract.\n5. **Market History:**\ntETH has reached a Total Value Locked (TVL) of $360M since its launch on 10th September 2024. The tETH-wstETH Balancer pool has been in inception since 23 October 2024. More information about tETH and the Treehouse Protocol ecosystem can be found on our [Dune Dashboard](https://dune.com/treehouseprotocol/treehousefi).\n\ntETH-wstETH pool on Arbitrum: https://balancer.fi/pools/arbitrum/v2/0x65c2d90b33f7bf693a7ef54662435f2cf3251c210000000000000000000005e7                \n— Child gauge https://arbiscan.io/address/0xc7995A4bA51574Ecd93e777cded6900ce42ff805#code and.                                          \n— root gauge https://etherscan.io/address/0x870D8Fd230a6261DB8d4C168038E55AE3a7Eb4B2\n\n6. **Value:**\nThe tETH-wstETH pool on Balancer is designed to be a key source of liquidity for the token on the Arbitrum network. By pairing tETH with wstETH, the pool aims to provide a seamless trading experience while also offering enhanced rewards for liquidity providers. This structure is intended to optimize both liquidity and profitability within the ecosystem. In addition, users who stake their tETH-wstETH LP tokens will be able to earn points from our current ongoing points program.\n\n# Relevant Links\n\n* [Website](https://treehouse.finance/)\n* [dApp](https://app.treehouse.finance/)\n* [Discord](https://discord.gg/treehousefi)\n* [Twitter](https://x.com/TreehouseFi)\n* [Docs](https://docs.treehouse.finance/protocol)\n* [Github](https://github.com/treehouse-gaia/tETH)\n* [Audits](https://github.com/treehouse-gaia/audit-report)\n\n### Technical Specification\nThe Balancer Maxi LM Multisig `e0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function with the following arguments: gauge(address):`0x870D8Fd230a6261DB8d4C168038E55AE3a7Eb4B2` \ngaugeType(string): `Arbitrum`",
+        "end_utc": "2025-01-20T19:00:00Z",
+        "similarity_score": 0.1754,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2838766.767278266,
+            0,
+            0
+          ],
+          "scores_total": 2838766.767278266,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2025-01-20T19:00:00",
+          "pre_tvl_avg": 1089697189.5,
+          "post_tvl_avg": 1093022186.0,
+          "abnormal_change": 0.3051,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.003051,
+          "abnormal_change_pct": 0.3051
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2025-01-20T19:00:00",
+          "pre_price_avg": 2.766507605,
+          "post_price_avg": 2.64911341,
+          "abnormal_change": -4.2434,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.042434,
+          "abnormal_change_pct": -4.2434
+        }
+      }
+    },
+    {
+      "proposal_id": "0xb2ebdf950e706a9a9b54bf2d524b1c18b7c1aead51468c1c83b1e681e72e6c81",
+      "cleaned": {
+        "proposal_id": "0xb2ebdf950e706a9a9b54bf2d524b1c18b7c1aead51468c1c83b1e681e72e6c81",
+        "title": "[BIP-451] Enable wstETH/rETH/sfrxETH gauge [Optimism]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-10-16T18:00:00Z",
+        "similarity_score": 0.1711,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3737939.1238750746,
+        "margin_pct": 0.9999998073142687,
+        "scores_total": 3737939.844122747,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 56,
+        "total_votes": 56,
+        "first_vote_at": "2023-10-12T21:10:43Z",
+        "last_vote_at": "2023-10-16T13:36:10Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            4.740488386720005,
+            0.4801651150456782,
+            0.0
+          ],
+          [
+            1766.96427629686,
+            0.0,
+            0.0
+          ],
+          [
+            542403.5210741046,
+            0.0,
+            0.0
+          ],
+          [
+            3193764.138118843,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.854249,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.000388,
+        "half_slope_diff": 315.200606
+      },
+      "raw": {
+        "id": "0xb2ebdf950e706a9a9b54bf2d524b1c18b7c1aead51468c1c83b1e681e72e6c81",
+        "title": "[BIP-451] Enable wstETH/rETH/sfrxETH gauge [Optimism]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/547\n\n**Summary:**\n\n> This pool uses the composable stable pool factory v5 and contains three unique staked ethereum tokens, staked frax eth (sfrxETH), wrapped staked eth from Lido (wstETH), and rocket eth from Rocket pool (rETH). As most Balancer community members know, rocket pool and lido have become pillars of the ecosystem through the use of the metastable / composable stable pool types to leverage their yield bearing assets. Staked frax eth will be joining these two juggernauts to facilitate trading and LPing amongst these diverse staking strategies of ETH. This gauge would enter as a “core pool” under BIP-19, meaning protocol fees earned by this pool would be used to bribe for votes on it.\n\n**References/Useful links:**\n\n> (sfrxETH) Link to:\n> • [Website](https://app.frax.finance/)\n> • [Documentation](https://docs.frax.finance/frax-ether/frxeth-and-sfrxeth)\n> • [Github Page](https://github.com/centrehq/centre-tokens)\n> • [Communities](https://facts.frax.finance/frxeth/validators)\n> (wstETH) Link to:\n> • [Website](https://stake.lido.fi/)\n> • [Documentation](https://blog.lido.fi/)\n> • [Github Page](https://github.com/lidofinance)\n> • [Communities](https://www.coingecko.com/en/coins/lido-dao)\n> (rETH) Link to:\n> • [Website](https://rocketpool.net/)\n> • [Documentation](https://docs.rocketpool.net/guides/)\n> • [Github Page](https://docs.rocketpool.net/developers/usage/contracts/contracts.html#introduction)\n> • [Communities](https://www.coingecko.com/en/coins/rocket-pool)\n\n**Protocol Description:**\n\n> sfrxETH is a Frax’s staked wrapped ETH token, wstETH is a wrapped staked ETH token for Lido, and rETH is the staked ETH token for Rocket Pool.\n\n**Motivation:**\n\n> Balancer is clearly pushing forward on all networks with staked assets as a key focus. By diversifying the protocols which supply staked assets Balancer opens up the door to liquidity providers to gain exposure to multiple providers, while facilitating trade routes for these assets. The protocol benefits greatly from yield bearing assets, and Balancer’s users do just as much. This pool will be a unique and diverse group of Ethereum assets making it exciting for everyone involved.\n\n**Specifications:**\n\n1. **Governance:** Find more information about governance on each projects forum. [sfrxETH ](https://gov.frax.finance/), [wstETH](https://research.lido.fi/), [rETH](https://medium.com/rocket-pool/rocket-pool-staking-protocol-part-2-e0d346911fe1)\n2. **Oracles:** See each rate provider contract linked here respectively [sfrxETH](https://optimistic.etherscan.io/address/0xf752dd899F87a91370C1C8ac1488Aef6be687505), [wstETH ](https://optimistic.etherscan.io/address/0x9aa3cd420f830E049e2b223D0b07D8c809C94d15), [rETH](https://optimistic.etherscan.io/address/0x658843BB859B7b85cEAb5cF77167e3F0a78dFE7f)\n3. **Audits:** See [sfrxETH](https://docs.frax.finance/other/audits), [wstETH](https://github.com/lidofinance/audits), [rETH](https://medium.com/rocket-pool/rocket-pool-staking-protocol-part-4-2635c44e4f7e).\n4. **Centralization vectors:** Rocket Pool is a [protocol for decentralized and trustless ETH2 staking](https://medium.com/rocket-pool/rocket-pool-staking-protocol-part-1-8be4859e5fbd). For Lido and wstETH please read [here](https://lido.fi/faq). Lastly for FRX and sfrxETH see [here](https://docs.frax.finance/frax-ether/overview).\n5. **Market History:** See [rETH](https://www.coingecko.com/en/coins/rocket-pool-eth), [wstETH](https://www.coingecko.com/en/coins/wrapped-steth), and [sfrxETH](https://docs.frax.finance/frax-ether/frxeth-and-sfrxeth)\n6. **Value:** Balancer will earn the protocol fee on all assets in the pool and so will LPs. The BIP-19 flywheel will incentivize TVL to grow here with trading volume and our staked ethereum pillars will continue to have Balancer as their ideal liquidity destination.\n\nLink to pool: https://op.beets.fi/pool/0x5F8893506DDC4C271837187D14A9C87964A074DC000000000000000000000106\nLink to child gauge: https://optimistic.etherscan.io/address/0x5669FB0DCfA758Bf69FB3AdAB14578EDe14cc89A\nLink to root gauge: https://etherscan.io/address/0x6A2C2d4502335638d2c2f40f0171253fb2c2db88#readContract\n\nSpecification: \n\nThe Balancer Maxi LM Multisig eth:`0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function with the following arguments:\ngauge(address):`0x6A2C2d4502335638d2c2f40f0171253fb2c2db88`\ngaugeType(string): `Optimism`",
+        "end_utc": "2023-10-16T18:00:00Z",
+        "similarity_score": 0.1711,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3737939.483998911,
+            0.3601238362842587,
+            0
+          ],
+          "scores_total": 3737939.844122747,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-10-16T18:00:00",
+          "pre_tvl_avg": 685153175.0,
+          "post_tvl_avg": 671906431.5,
+          "abnormal_change": -1.9334,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.019334,
+          "abnormal_change_pct": -1.9334
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-10-16T18:00:00",
+          "pre_price_avg": 3.056577275,
+          "post_price_avg": 2.96013798,
+          "abnormal_change": -3.1551,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.031551,
+          "abnormal_change_pct": -3.1551
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x762f8789a28394088d7ce1a035d420b274eb72f7221739fd5b929207f9500055",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "The proposal to enable Boosted GHO pools on Balancer v3 on Base and Arbitrum aims to expand successful liquidity mechanisms to Layer 2 networks, enhancing yield and protocol efficiency. Voting timeline and adjacent proposal analytics show strong and stable support for this change. Forum sentiment is mixed with one negative and two neutral comments but no strong opposition.",
+    "key_arguments_for": [
+      "Unanimous and stable voting support with all voting power backing 'Yes, let's do it'.",
+      "Successful precedent of similar proposals enabling boosted gauges on Arbitrum and Base with positive or neutral market reactions.",
+      "Strategic expansion following success of boosted 3pool on Ethereum mainnet to Layer 2 chains.",
+      "Enhanced liquidity efficiency and yield opportunities for GHO on Balancer v3, aligning with protocol growth."
+    ],
+    "key_arguments_against": [
+      "One negative forum comment reflecting some concerns or skepticism in community discussion.",
+      "Slightly negative market impacts in price (-1.9%) and TVL (-1.13%) post-proposal period as a caution.",
+      "Limited number of votes (6) which may suggest lower engagement or voter turnout."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Balancer Forum BIP-785 discussion",
+        "quote": "One detailed negative sentiment post explaining the proposal and two neutral posts including positive excitement."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Proposal voting timeline",
+        "quote": "Lead ratio total of 1.0 for 'Yes, let's do it' showing unanimous early and stable support."
+      },
+      {
+        "source_tool": "adjacent_analytics",
+        "reference": "Similar proposals BIP-774 and BIP-773",
+        "quote": "Both prior proposals enabled gauges on Arbitrum and Base with majority 'Yes' votes and positive or neutral market outcomes."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-02-13T19:00:00Z",
+    "event_end_utc": "2025-02-17T19:00:00Z",
+    "event_time_utc": "2025-02-17T19:00:00Z",
+    "address_of_governance_token": "0xba100000625a3754423978a60c9317c58a424e3d",
+    "token_price_impact_pct": -1.9131,
+    "tvl_impact_pct": -1.1317,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        3100376.1029673354,
+        0.0,
+        0.0
+      ],
+      "scores_total": 3100376.1029673354,
+      "margin_abs": 3100376.1029673354,
+      "margin_pct": 1.0
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Voting timeline shows unanimous and stable support for enabling boosted GHO pools, indicating strong consensus.\n- Similar past proposals for enabling gauges on Arbitrum and Base had successful outcomes with positive or neutral market impact, supporting this expansion.\n- Forum sentiment is mixed but does not strongly oppose the proposal; the recommendation aligns with majority voting power rather than limited negative forum sentiment.\n- Slight negative market price and TVL impacts are noted but outweighed by strategic benefits of expanding liquidity and yield mechanisms on Layer 2 networks.\n- Recommendation favors the organization's durable benefit by enabling growth and innovation rather than maintaining status quo.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x065351bbfa19f5b4b3b8cb2d732a9809adeee6e424c9ede6815854a0dab9caeb",
+        "title": "[BIP-772] Enable Boosted GHO/PYUSD on Balancer v3",
+        "end_utc": "2025-02-03T19:00:00Z",
+        "summary": "[BIP-772] Enable Boosted GHO/PYUSD on Balancer v3 closed on 2025-02-03T19:00:00Z. Timeline analytics noted 6 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Moderate text overlap (score 0.26)",
+        "market_response": "token -13.29%; TVL -14.00%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0x3d39e0c869368fc202c1be5a289432d6d4b666050028f0773b946a0162953959",
+        "title": "[BIP-774] Initial Gauges on Arbitrum and Base",
+        "end_utc": "2025-02-10T19:00:00Z",
+        "summary": "[BIP-774] Initial Gauges on Arbitrum and Base closed on 2025-02-10T19:00:00Z. Timeline analytics noted 4 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.17)",
+        "market_response": "token +4.89%; TVL -2.24%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -1.9131,
+    "ex_post_tvl_impact_pct": -1.1317,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -1.91%; TVL -1.13%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 1,
+    "Positive": 0,
+    "Neutral": 2,
+    "total_comments": 3
+  }
+}

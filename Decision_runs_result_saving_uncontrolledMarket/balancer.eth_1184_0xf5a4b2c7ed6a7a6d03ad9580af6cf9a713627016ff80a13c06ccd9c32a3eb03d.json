@@ -1,0 +1,993 @@
+{
+  "captured_at_utc": "2025-10-08T21:32:46.148530+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0xf5a4b2c7ed6a7a6d03ad9580af6cf9a713627016ff80a13c06ccd9c32a3eb03d",
+  "focus": null,
+  "votes_count": 5,
+  "timeline_metrics_current": {
+    "unique_voters": 5,
+    "total_votes": 5,
+    "first_vote_at": "2025-01-16T22:47:23Z",
+    "last_vote_at": "2025-01-20T08:51:07Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        292097.8015889811,
+        0.0,
+        0.0
+      ],
+      [
+        586.6934569693484,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        2545509.8475250797,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.828455,
+    "spike_follow_support_ratio": 0.0,
+    "stairwise_ratio": 0.171545,
+    "half_slope_diff": 505.456112
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0xe8da337f651641f3bb7b13acf5f62334095f435a46e8421b55fe2ba15674fb6f",
+      "title": "[BIP-752] Enable E-CLP gauge for weETH/wstETH [Base]",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-01-13T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 4,
+        "total_votes": 4,
+        "first_vote_at": "2025-01-11T21:37:47Z",
+        "last_vote_at": "2025-01-13T09:14:07Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            298950.5428221082,
+            0.0,
+            0.0
+          ],
+          [
+            2529642.006619039,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.823328,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.176672,
+        "half_slope_diff": 39.609574
+      },
+      "price_impact_pct": -0.0487,
+      "tvl_impact_pct": 3.9837,
+      "similarity": 0.0676,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2828592.549441147,
+        "scores_total": 2828592.549441147,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0x9ce98920a42aea2ec2bbecaa84e1eaf2ce18e480896ba36ec505e0af2491dbc6",
+      "title": "[BIP-751] Fund the DAO Gas Station Operations for 2025",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-01-13T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 4,
+        "total_votes": 4,
+        "first_vote_at": "2025-01-11T21:38:16Z",
+        "last_vote_at": "2025-01-13T09:13:52Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            298955.32544563676,
+            0.0,
+            0.0
+          ],
+          [
+            2529646.1192927663,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.823326,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.176674,
+        "half_slope_diff": 39.727947
+      },
+      "price_impact_pct": -0.0487,
+      "tvl_impact_pct": 3.9837,
+      "similarity": 0.1192,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2828601.444738403,
+        "scores_total": 2828601.444738403,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0x86f4d00790410ea0d6d1c777258b95cd4a8b12550fc583a155af282605ec39ee",
+      "title": "[BIP-750] 2025 Gauge Management Proposal",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-01-13T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 4,
+        "total_votes": 4,
+        "first_vote_at": "2025-01-11T21:38:44Z",
+        "last_vote_at": "2025-01-13T09:13:25Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            298956.77472549386,
+            0.0,
+            0.0
+          ],
+          [
+            2529647.365557532,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.823325,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.176675,
+        "half_slope_diff": 39.941574
+      },
+      "price_impact_pct": -0.0487,
+      "tvl_impact_pct": 3.9837,
+      "similarity": 0.081,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2828604.140283026,
+        "scores_total": 2828604.140283026,
+        "margin_pct": 1.0
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x3bd2815100603a2b7ad7240246ebe06584ecce8aa8efe5c24dab06ace2bc6994",
+      "cleaned": {
+        "proposal_id": "0x3bd2815100603a2b7ad7240246ebe06584ecce8aa8efe5c24dab06ace2bc6994",
+        "title": "[BIP-280] Pay DAO Multisig Stipends for H1 ‘23",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-05-08T18:00:00Z",
+        "similarity_score": 0.2121,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3314608.4565022206,
+        "margin_pct": 0.9999999763489602,
+        "scores_total": 3314608.534896159,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 165,
+        "total_votes": 165,
+        "first_vote_at": "2023-05-04T18:02:10Z",
+        "last_vote_at": "2023-05-08T17:09:28Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            7468.507470637578,
+            0.0,
+            0.0
+          ],
+          [
+            106.6328120882945,
+            0.0,
+            0.0
+          ],
+          [
+            236668.31160369187,
+            0.039196969130434606,
+            0.0
+          ],
+          [
+            3070365.043812772,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.901238,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 1.1e-05,
+        "half_slope_diff": 33.938956
+      },
+      "raw": {
+        "id": "0x3bd2815100603a2b7ad7240246ebe06584ecce8aa8efe5c24dab06ace2bc6994",
+        "title": "[BIP-280] Pay DAO Multisig Stipends for H1 ‘23",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### [PR with Payload](https://github.com/BalancerMaxis/multisig-ops/pull/170)\n\n### Motivation\n\nPer [this proposal](https://forum.balancer.fi/t/proposal-transition-treasury-control-to-governance-multisig/2357), the expectation was set that DAO Multisig signers would be paid 500 BAL every six months. If approved, this BIP would see 5,000 BAL paid out to the 11 DAO Multisig signers for their work over the previous six months.\n\nErnesto (BGD) has opted out from taking his stipend, that's why the amount is 5,000 BAL rather than 5,500 BAL.\n\n### Specification\n\nThe DAO Multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will send 500 BAL to each of the following addresses:\n\nMounir (Paraswap): 0x0951FF0835302929d6c0162b3d2495A85e38ec3A\n0xMaki: 0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1\nAlexLange: 0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA\ntrentmc0: 0x478eC43c6867c2884f87B21c164f1fD1308bD9a3\nsolarcurve: 0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3\nEvan (Copper): 0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7\nnanexcool: 0x823DF0278e4998cD0D06FB857fBD51e85b18A250\nbonustrack87: 0x9BE6ff2A1D5139Eda96339E2644dC1F05d803600\nStefan (Gnosis): 0x9F7dfAb2222A473284205cdDF08a677726d786A0\nDavid Gerai: 0xAc1aA53108712d7f38093A67d380aD54B562a650",
+        "end_utc": "2023-05-08T18:00:00Z",
+        "similarity_score": 0.2121,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3314608.4956991896,
+            0.039196969130434606,
+            0
+          ],
+          "scores_total": 3314608.534896159,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-05-08T18:00:00",
+          "pre_tvl_avg": 1251654266.0,
+          "post_tvl_avg": 1152722354.5,
+          "abnormal_change": -7.9041,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.079041,
+          "abnormal_change_pct": -7.9041
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-05-08T18:00:00",
+          "pre_price_avg": 6.02602471,
+          "post_price_avg": 5.562806095,
+          "abnormal_change": -7.687,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.07687,
+          "abnormal_change_pct": -7.687
+        }
+      }
+    },
+    {
+      "proposal_id": "0xcb4b6510d2aba7fc78823497953cbd079d1fd791616d32f0f4699c24cf52cc32",
+      "cleaned": {
+        "proposal_id": "0xcb4b6510d2aba7fc78823497953cbd079d1fd791616d32f0f4699c24cf52cc32",
+        "title": "[BIP-526] Pay BAL to DAO Multisig signers, H2-2023",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2024-01-08T19:00:00Z",
+        "similarity_score": 0.2065,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 4252906.626434146,
+        "margin_pct": 0.9999995479033915,
+        "scores_total": 4252908.549159678,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 32,
+        "total_votes": 32,
+        "first_vote_at": "2024-01-04T19:33:50Z",
+        "last_vote_at": "2024-01-08T09:03:50Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            351342.97863845556,
+            0.0,
+            0.0
+          ],
+          [
+            1195.2409681388872,
+            0.9543785796668902,
+            0.0
+          ],
+          [
+            111851.09473024213,
+            0.0,
+            0.0
+          ],
+          [
+            3788518.2664758875,
+            0.0,
+            0.013968372862057031
+          ]
+        ],
+        "spike_index": 0.831139,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.026869,
+        "half_slope_diff": 9.067606
+      },
+      "raw": {
+        "id": "0xcb4b6510d2aba7fc78823497953cbd079d1fd791616d32f0f4699c24cf52cc32",
+        "title": "[BIP-526] Pay BAL to DAO Multisig signers, H2-2023",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "## PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/719\n\n### Motivation\n\nPer [this proposal ](https://forum.balancer.fi/t/proposal-transition-treasury-control-to-governance-multisig/2357), the expectation was set that DAO Multisig signers would be paid 500 BAL every six months. If approved, this BIP would see 5,500 BAL paid out to the 11 DAO Multisig signers for their work over the previous six months.\n\nBased on feedback from signers and the team around tax implications, instead of sending BAL to all signers, we asked who wanted it and only included those who responded.  Any of the other signers are free to request BAL payments, which will be paid referencing this BIP\n\n\n### Specification\n\nThe DAO Multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will send 500 BAL to each of the following addresses:\n\nMounir (Paraswap): 0x0951FF0835302929d6c0162b3d2495A85e38ec3A\n0xMaki: 0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1\nEvan (Copper): 0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7\nTritium (Balancer Maxis): 0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F\nnanexcool: 0x823DF0278e4998cD0D06FB857fBD51e85b18A250\nStefan (Gnosis): 0x9F7dfAb2222A473284205cdDF08a677726d786A0\n\n\nFurther, the DAO Multisig is authorized to send 500 BAL each to the following addresses until the end of February if payments is requested.  After this date H2-2023 DAO multisig payments will be considered complete without further payment for  the period authorized under this BIP. \n\n\nAlexLange: 0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA\ntrentmc0: 0x478eC43c6867c2884f87B21c164f1fD1308bD9a3\nbonustrack87: 0x9BE6ff2A1D5139Eda96339E2644dC1F05d803600\nDavid Gerai: 0xAc1aA53108712d7f38093A67d380aD54B562a650",
+        "end_utc": "2024-01-08T19:00:00Z",
+        "similarity_score": 0.2065,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            4252907.580812726,
+            0.9543785796668902,
+            0.013968372862057031
+          ],
+          "scores_total": 4252908.549159678,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-01-08T19:00:00",
+          "pre_tvl_avg": 931422730.5,
+          "post_tvl_avg": 970042554.0,
+          "abnormal_change": 4.1463,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.041463,
+          "abnormal_change_pct": 4.1463
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-01-08T19:00:00",
+          "pre_price_avg": 3.86706437,
+          "post_price_avg": 4.350216675,
+          "abnormal_change": 12.494,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.12494,
+          "abnormal_change_pct": 12.494
+        }
+      }
+    },
+    {
+      "proposal_id": "0x62469e980c0bc935d5d3902e01f12e59ab16a88b2b9ee1278d507dacdbe8fb79",
+      "cleaned": {
+        "proposal_id": "0x62469e980c0bc935d5d3902e01f12e59ab16a88b2b9ee1278d507dacdbe8fb79",
+        "title": " [BIP-99] Pay DAO Multisig Stipends for H2 ‘22",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2022-10-30T17:30:00Z",
+        "similarity_score": 0.1969,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2140008.439497556,
+        "margin_pct": 0.9999983555267922,
+        "scores_total": 2140011.9586898866,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 128,
+        "total_votes": 128,
+        "first_vote_at": "2022-10-27T19:03:41Z",
+        "last_vote_at": "2022-10-30T17:13:34Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            560140.1472595312,
+            0.0
+          ],
+          [
+            1326370.0467811984,
+            1.705261526047172
+          ],
+          [
+            191282.32330061393,
+            0.05433463926682372
+          ],
+          [
+            62217.68175237815,
+            0.0
+          ]
+        ],
+        "spike_index": 0.444762,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.001867,
+        "half_slope_diff": -30.784354
+      },
+      "raw": {
+        "id": "0x62469e980c0bc935d5d3902e01f12e59ab16a88b2b9ee1278d507dacdbe8fb79",
+        "title": " [BIP-99] Pay DAO Multisig Stipends for H2 ‘22",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "### Motivation\n\nPer [this proposal](https://forum.balancer.fi/t/proposal-transition-treasury-control-to-governance-multisig/2357), the expectation was set that DAO Multisig signers would be paid 500 BAL every six months. If approved, this BIP would see 5,500 BAL paid out to the 11 DAO Multisig signers for their work over the previous six months.\n\n### Specification\n\nThe DAO Multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will send 500 BAL to each of the following addresses:\n\nMounir (Paraswap): 0x0951FF0835302929d6c0162b3d2495A85e38ec3A\n0xMaki: 0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1\nAlexLange: 0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA\ntrentmc0: 0x478eC43c6867c2884f87B21c164f1fD1308bD9a3\nsolarcurve: 0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3\nEvan (Copper): 0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7\nnanexcool: 0x823DF0278e4998cD0D06FB857fBD51e85b18A250\nbonustrack87: 0x9BE6ff2A1D5139Eda96339E2644dC1F05d803600\nStefan (Gnosis): 0x9F7dfAb2222A473284205cdDF08a677726d786A0\nErnesto (BGD): 0xA39a62304d8d43B35114ad7bd1258B0E50e139b3\nDavid Gerai: 0xAc1aA53108712d7f38093A67d380aD54B562a650",
+        "end_utc": "2022-10-30T17:30:00Z",
+        "similarity_score": 0.1969,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way"
+          ],
+          "scores": [
+            2140010.1990937213,
+            1.7595961653139955
+          ],
+          "scores_total": 2140011.9586898866,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2022-10-30T17:30:00",
+          "pre_tvl_avg": 1098661923.0,
+          "post_tvl_avg": 1076529390.5,
+          "abnormal_change": -2.0145,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.020145,
+          "abnormal_change_pct": -2.0145
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2022-10-30T17:30:00",
+          "pre_price_avg": 6.816738470000001,
+          "post_price_avg": 6.63897375,
+          "abnormal_change": -2.6078,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.026078,
+          "abnormal_change_pct": -2.6078
+        }
+      }
+    },
+    {
+      "proposal_id": "0xb75c7a15edf0b806ef4b01dfe1224fb243b66d035b7120607ccd26b11a451c8e",
+      "cleaned": {
+        "proposal_id": "0xb75c7a15edf0b806ef4b01dfe1224fb243b66d035b7120607ccd26b11a451c8e",
+        "title": "[BIP-681] Update DAO Multisig Signers and Backup Signers",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "end_utc": "2024-08-19T18:00:00Z",
+        "similarity_score": 0.1962,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2541884.899199216,
+        "margin_pct": 1.0,
+        "scores_total": 2541884.899199216,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 10,
+        "total_votes": 10,
+        "first_vote_at": "2024-08-15T18:04:08Z",
+        "last_vote_at": "2024-08-19T17:56:03Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1224.651354599688,
+            0.0,
+            0.0
+          ],
+          [
+            216015.6015709599,
+            0.0,
+            0.0
+          ],
+          [
+            9294.496743073549,
+            0.0,
+            0.0
+          ],
+          [
+            2315350.149530583,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.910628,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.089372,
+        "half_slope_diff": 7.739735
+      },
+      "raw": {
+        "id": "0xb75c7a15edf0b806ef4b01dfe1224fb243b66d035b7120607ccd26b11a451c8e",
+        "title": "[BIP-681] Update DAO Multisig Signers and Backup Signers",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "body": "## Payload PR\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1223\n## TL;DR\n\n* Replace Trent with Gosuto on the DAO multisig\n* Establish a new, updated, canonical list of Backup Signers for the DAO Multisig.\n* Pay out signers their 500 BAL each for H1-2024\n\n## Background:\n\nThe Balancer DAO multisig is responsible for enacting most governance outside of incentives management. The safes managed by this signer set hold the keys to the protocols on-chain configuration and the treasury. The DAO multisig is a 6/11 gnosis safe on each chain we operate on. Governance operates on a weekly cadence. [The DAO multisig signers](https://docs.balancer.fi/concepts/governance/multisig.html#dao-multisig-signer-set) may be asked to sign once per week, although work is done to try to batch payloads and call on them less often.\n\nAs with many DeFi Protocol Multisigs, the DAO multisig signer set is made up of DeFi OGs and protocol founders who have a long, established and strong reputation as leaders in web3. They are joined by myself, who handles operations and works with the Balancer Maxis to assemble and review payloads and reports for the DAO Multisig to review and sign.\n\nAfter a long tenure on the Balancer DAO Multisig the honorable ser Trent McConaghy has decided not to continue to be on call each week. We deeply thank Trent for his service. We can not be grateful enough.\n\n## Purpose of this Governance:\nAs signers have left in the past, there has been no BIP due to the DAO Multisig Replacement list, last updated June 2022 by [BIP-16](https://forum.balancer.fi/t/bip-16-update-dao-multisig-replacement-list/3361/2). Since this list is both outdated and fragmented between governance texts, this BIP seeks to:\n\n1. Establish a new list of backup signers\n2. Appoint Gosuto, a second operational signer from the Maxis to replace Trent and back me up/share some of the operational workload.\n3. Pay the Mulitsigners, 500 BAL each for their service in H1-2024 according to this circa 2021 [Governance Proposal](https://forum.balancer.fi/t/proposal-transition-treasury-control-to-governance-multisig/2357)\n\n## Updated signers and backup signers\n\nGosuto (`0x11761c7b08287d9489CD84C04DF6852F5C07107b`) will be added to replace Trent.\n\nThe Backup signer list will be replaced to contain the following backup signers:\n\n|Name|Affiliation|Signer Address|\n| --- | --- | --- |\n|Lewis|Stablecoin Labs/Gyro|0xbcf751dBfe314Ee96A660EFA2Fcb259CBc364c29|\n|Anna|Cowswap|0x04ce1ccF81AE660e23ca0c0823911df709B0E7Fc|\n|Hubert|StakeDAO|0x02e4De712d99f4B1b1e12aa3675D8b0A582caA5D|\n|Figue|Paladin|0x009d13e9bec94bf16791098ce4e5c168d27a9f07|\n|Elbagococina|Karpatkey|0x6578183A203b41C419b93DF9121b5e3b26561aC5|\n\nThe Backup signers may be swapped out with standing signers at any time, with notice posted to the forum but no token-holder voting.\n\n## DAO signers foregoing BAL payments\n\nSome signers have asked not to receive funds and/or have not confirmed that they clearly wish to receive them. These signers will not be paid, but instead granted a right to request payment until the end of September 2024 as defined by specification #4 below.\n\n## Specifications\n\nIf this BIP passes:\n\n1: The backup signer list above would become the new, canonical signer list replacing all past signer lists.\n\n2: The DAO multisig on each chain would execute a transaction to replace Trent(`0x478eC43c6867c2884f87B21c164f1fD1308bD9a3`) with Gosuto(`0x11761c7b08287d9489CD84C04DF6852F5C07107b`)\n\n3: The DAO Multisig would send 500 BAL each on mainnet to the following addresses:\n\nMounir (Paraswap): 0x0951FF0835302929d6c0162b3d2495A85e38ec3A\n\n0xMaki: 0x285b7EEa81a5B66B62e7276a24c1e0F83F7409c1\n\nEvan (Copper): 0x59693BA1A5764e087CE166ac0E0085Fc071B9ea7\n\nTritium (Balancer Maxis): 0xcf4fF1e03830D692F52EB094c52A5A6A2181Ab3F\n\nnanexcool(separate payment address): 0x72BA1965320ab5352FD6D68235Cc3C5306a6FFA2\n\nStefan (Gnosis): 0x9F7dfAb2222A473284205cdDF08a677726d786A0\n\n4: The DAO multisig would be permitted to pay 500 BAL each to the following addresses should they request payment by the end of September 2024:\n\nAlexLange: 0x3ABDc84Dd15b0058B281D7e26CCc3932cfb268aA\n\ntrentmc0: 0x478eC43c6867c2884f87B21c164f1fD1308bD9a3\n\nbonustrack87: 0x9BE6ff2A1D5139Eda96339E2644dC1F05d803600\n\nDavid Gerai: 0xAc1aA53108712d7f38093A67d380aD54B562a650\n\nErnesto: 0xA39a62304d8d43B35114ad7bd1258B0E50e139b3\n\nPlease note this is set to be executed a week later than the snapshot round ends; not immediately after concluding.",
+        "end_utc": "2024-08-19T18:00:00Z",
+        "similarity_score": 0.1962,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2541884.899199216,
+            0,
+            0
+          ],
+          "scores_total": 2541884.899199216,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-08-19T18:00:00",
+          "pre_tvl_avg": 696154337.0,
+          "post_tvl_avg": 727620229.5,
+          "abnormal_change": 4.52,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.0452,
+          "abnormal_change_pct": 4.52
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-08-19T18:00:00",
+          "pre_price_avg": 1.949041175,
+          "post_price_avg": 2.0362447799999996,
+          "abnormal_change": 4.4742,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.044742,
+          "abnormal_change_pct": 4.4742
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0xf5a4b2c7ed6a7a6d03ad9580af6cf9a713627016ff80a13c06ccd9c32a3eb03d",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "The proposal to update the DAO multisig signer set, pay stipends, and add a proposer role is unanimously supported by voters with strong timeline stability and early participation. Forum sentiment is neutral but constructive, reflecting acceptance of the changes. Similar past proposals passed successfully with positive TVL impact.",
+    "key_arguments_for": [
+      "Unanimous early and stable voting support for 'Yes, let's do it'.",
+      "Operational necessity to update multisig signers and finalize stipends for 2024.",
+      "Addition of proposer role adds redundancy and improves transaction proposal process.",
+      "Similar past proposals passed with positive TVL impact, indicating organizational benefit."
+    ],
+    "key_arguments_against": [
+      "No significant opposition or negative sentiment found in forum discussion.",
+      "Minor negative price impact noted in similar proposals but outweighed by TVL growth."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.balancer.fi/t/bip-762-update-dao-multisig-signer-set-and-finalise-2024/6268",
+        "quote": "Forum comments are neutral with no opposition or significant concerns raised."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": null,
+        "quote": "Timeline metrics show unanimous lead for 'Yes, let's do it' with stability and early vote dominance."
+      },
+      {
+        "source_tool": "adjacent_analytics",
+        "reference": "Three similar proposals with IDs 0xe8da33..., 0x9ce989..., 0x86f4d0...",
+        "quote": "All passed with 'Yes, let's do it', had positive TVL impact and minimal price declines."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-01-16T19:00:00Z",
+    "event_end_utc": "2025-01-20T19:00:00Z",
+    "event_time_utc": "2025-01-20T19:00:00Z",
+    "address_of_governance_token": "0xba100000625a3754423978a60c9317c58a424e3d",
+    "token_price_impact_pct": -6.9663,
+    "tvl_impact_pct": 0.3051,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        2838194.34257103,
+        0.0,
+        0.0
+      ],
+      "scores_total": 2838194.34257103,
+      "margin_abs": 2838194.34257103,
+      "margin_pct": 1.0
+    },
+    "simulation_reason": "Recommendation based on timeline metrics, forum sentiment, and historical analogous proposals to maximize organizational operational efficiency and stability.",
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- The proposal has unanimous and stable early voting support indicating strong consensus.\n- Forum sentiment is neutral and does not oppose the changes, aligning with the vote outcome.\n- Similar past proposals aimed at operational improvements passed with positive TVL impacts, supporting the benefit of this proposal.\n- Market price impact is negative but should not override the clear operational necessity and community consensus.\n- Recommendation aligns with aggregated forum sentiment and voting trends to ensure durable organizational benefit.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x9ce98920a42aea2ec2bbecaa84e1eaf2ce18e480896ba36ec505e0af2491dbc6",
+        "title": "[BIP-751] Fund the DAO Gas Station Operations for 2025",
+        "end_utc": "2025-01-13T19:00:00Z",
+        "summary": "[BIP-751] Fund the DAO Gas Station Operations for 2025 closed on 2025-01-13T19:00:00Z. Timeline analytics noted 4 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.12)",
+        "market_response": "token -0.05%; TVL +3.98%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0x86f4d00790410ea0d6d1c777258b95cd4a8b12550fc583a155af282605ec39ee",
+        "title": "[BIP-750] 2025 Gauge Management Proposal",
+        "end_utc": "2025-01-13T19:00:00Z",
+        "summary": "[BIP-750] 2025 Gauge Management Proposal closed on 2025-01-13T19:00:00Z. Timeline analytics noted 4 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.08)",
+        "market_response": "token -0.05%; TVL +3.98%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -6.9663,
+    "ex_post_tvl_impact_pct": 0.3051,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -6.97%; TVL +0.31%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 0,
+    "Positive": 0,
+    "Neutral": 2,
+    "total_comments": 2
+  }
+}

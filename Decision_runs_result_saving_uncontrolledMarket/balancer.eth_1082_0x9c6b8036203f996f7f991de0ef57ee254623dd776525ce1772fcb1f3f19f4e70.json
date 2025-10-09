@@ -1,0 +1,1147 @@
+{
+  "captured_at_utc": "2025-10-08T15:14:54.406370+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x9c6b8036203f996f7f991de0ef57ee254623dd776525ce1772fcb1f3f19f4e70",
+  "focus": null,
+  "votes_count": 3,
+  "timeline_metrics_current": {
+    "unique_voters": 3,
+    "total_votes": 3,
+    "first_vote_at": "2025-08-15T23:19:41Z",
+    "last_vote_at": "2025-08-19T08:00:01Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        3.8865295617237128,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        257308.98997296568,
+        0.0,
+        0.0
+      ],
+      [
+        2403934.783612698,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.903311,
+    "spike_follow_support_ratio": 0.0,
+    "stairwise_ratio": 0.096689,
+    "half_slope_diff": 45.206288
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x4945f6194f2935f681173ed1df6265e76852fb86148443a33c1a2bb959f21862",
+      "title": "[BIP-864] Enable RZR/wstETH 80/20 Gauge on Balancer v3 Ethereum",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-08-12T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5,
+        "total_votes": 5,
+        "first_vote_at": "2025-08-08T23:55:18Z",
+        "last_vote_at": "2025-08-12T08:00:00Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            3.9816550502042087,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            772012.2921961055,
+            0.0,
+            0.0
+          ],
+          [
+            2375602.724129336,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.75473,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.24527,
+        "half_slope_diff": 22.088729
+      },
+      "price_impact_pct": 2.2963,
+      "tvl_impact_pct": 5.3028,
+      "similarity": 0.3388,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 3147618.9979804913,
+        "scores_total": 3147618.9979804913,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0x9cd16d8bd89820d6f1575decf678425528a8811237fe01ac329dea1368c3e086",
+      "title": "[BIP-862] Deploy Balancer v3 on HyperEVM",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-07-29T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5,
+        "total_votes": 5,
+        "first_vote_at": "2025-07-27T00:06:36Z",
+        "last_vote_at": "2025-07-29T08:00:01Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            4.15245146570448,
+            0.0,
+            0.0
+          ],
+          [
+            804840.4455590252,
+            0.0,
+            0.0
+          ],
+          [
+            2420600.9852668205,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.75047,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.24953,
+        "half_slope_diff": 23.279435
+      },
+      "price_impact_pct": -6.8332,
+      "tvl_impact_pct": -4.35,
+      "similarity": 0.0956,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 3225445.583277311,
+        "scores_total": 3225445.583277311,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0xe801a3e8f79f3d235f33f0936435f36b59469925ee1fc267546459c644ca4715",
+      "title": "[BIP-861] Grant Permissions to the Balancer Registry Initializer",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-07-29T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5,
+        "total_votes": 5,
+        "first_vote_at": "2025-07-27T00:06:18Z",
+        "last_vote_at": "2025-07-29T08:00:01Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            4.152462496451859,
+            0.0,
+            0.0
+          ],
+          [
+            804842.5987551581,
+            0.0,
+            0.0
+          ],
+          [
+            2420601.9771506186,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.75047,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.24953,
+        "half_slope_diff": 23.27995
+      },
+      "price_impact_pct": -6.8332,
+      "tvl_impact_pct": -4.35,
+      "similarity": 0.0912,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 3225448.728368273,
+        "scores_total": 3225448.728368273,
+        "margin_pct": 1.0
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x4945f6194f2935f681173ed1df6265e76852fb86148443a33c1a2bb959f21862",
+      "cleaned": {
+        "proposal_id": "0x4945f6194f2935f681173ed1df6265e76852fb86148443a33c1a2bb959f21862",
+        "title": "[BIP-864] Enable RZR/wstETH 80/20 Gauge on Balancer v3 Ethereum",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2025-08-12T18:00:00Z",
+        "similarity_score": 0.3396,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3147618.9979804913,
+        "margin_pct": 1.0,
+        "scores_total": 3147618.9979804913,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5,
+        "total_votes": 5,
+        "first_vote_at": "2025-08-08T23:55:18Z",
+        "last_vote_at": "2025-08-12T08:00:00Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            3.9816550502042087,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            772012.2921961055,
+            0.0,
+            0.0
+          ],
+          [
+            2375602.724129336,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.75473,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.24527,
+        "half_slope_diff": 22.088729
+      },
+      "raw": {
+        "id": "0x4945f6194f2935f681173ed1df6265e76852fb86148443a33c1a2bb959f21862",
+        "title": "[BIP-864] Enable RZR/wstETH 80/20 Gauge on Balancer v3 Ethereum",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "**Summary:**\n\nProposal to add a RZR/wstETH Pool on the Ethereum blockchain to the Gauge Controller, enabling users to assign gauge weight and mint BAL.\n\nThe team has seeded over 700k$ of liquidity.\n\nhttps://github.com/BalancerMaxis/multisig-ops/pull/2282\n\n**References/Useful links:**\n\n* **Pool Link:** https://balancer.fi/pools/ethereum/v3/0xf2d8ad2984aa8050dd1ca1e74b862b165f7a622a\n* **Gauge Link**: https://etherscan.io/address/0x14c80b2822c908b9af601ccebe50124c050518ca\n\nOther useful links about the protocol\n\n* Docs: https://rezerve.gitbook.io/protocol\n* Website: [https://rezerve.money/](https://rezerve.money/)\n* DefiLlama: [https://defillama.com/protocol/rezerve-money](https://defillama.com/protocol/rezerve-money)\n* Dune: [https://dune.com/rezerve/rzr-sonic](https://dune.com/rezerve/rzr-sonic)\n* Audits: https://rezerve.gitbook.io/protocol/security/audits\n* Discord: [https://discord.rezerve.money/](https://discord.rezerve.money/)\n* Twitter: [https://x.com/rezervemoney](https://x.com/rezervemoney)\n\n**Protocol Description:**\n\nRezerve is a fair-launched reserve currency (free-floating) that captures every cent of protocol revenue and sends it straight back to the people who stake it—no VCs, no insiders, no backstage market-makers.\n\nVision Statement: https://rezerve.gitbook.io/protocol/the-vision\nRoadmap: https://rezerve.gitbook.io/protocol/roadmap-path-to-1-billion-fdv\n\n**Motivation:**\n\nThe Rezerve protocol seeks to deepen its integration within the **Balancer** ecosystem on Ethereum by incentivizing liquidity for a **wstETH/RZR** pool. This two-asset pool establishes a critical link between **RZR** and **Ethereum-native liquidity**, positioning wstETH as the primary routing asset. By providing a robust liquidity venue for trading between RZR and wstETH, this pool enhances utility, accessibility, and capital efficiency across the ecosystem.\n\nA **Balancer gauge** for this pool would enable **BAL emissions** to be directed toward it, encouraging deeper and more persistent liquidity. This not only improves swap efficiency and reduces slippage for users but also establishes **Balancer as the primary liquidity venue for RZR** on Ethereum Mainnet. Additionally, increased pool depth will strengthen broader protocol integrations, including **reserve-backed lending, stablecoin liquidity routing, and cross-chain liquidity pathways** leveraging RZR.\n\n**Specifications:**\n\n1. **Governance:** The protocol is behind a 1 day timelock with a 3/4 multisig with plans to become a fully decentralized DAO with RZR token holders placing votes in the ecosystem. See https://rezerve.gitbook.io/protocol/security/timelocked-multisig-admin\n2. **Oracles:** The protocol relies heavily on eOracle https://rezerve.gitbook.io/protocol/security/oracles\n3. **Audits:** The protocol has inherited the audits from OlympusDAO but has also conducted an independent audit with Halborn. https://rezerve.gitbook.io/protocol/security/audits\n4. **Centralization vectors:** Besides the multisig + timelock there is no centralization vector. The project was launched as fairly as possible.\n5. **Market History:** There has not been any major price deviations on the project. [https://dexscreener.com/sonic/0x08c5e3b7533ee819a4d1f66e839d0e8f04ae3d0c](https://dexscreener.com/sonic/0x08c5e3b7533ee819a4d1f66e839d0e8f04ae3d0c)\n6. **Value:** Is this pool intended to be the primary source of liquidity for the token(s)? Yes\n\n### Technical specification\nThe Balancer Maxi LM Multisig `0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function with the following arguments: gauge(address):`0x14c80b2822c908b9af601ccebe50124c050518ca` \ngaugeType(string): `Ethereum`",
+        "end_utc": "2025-08-12T18:00:00Z",
+        "similarity_score": 0.3396,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3147618.9979804913,
+            0,
+            0
+          ],
+          "scores_total": 3147618.9979804913,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2025-08-12T18:00:00",
+          "pre_tvl_avg": 936992365.5,
+          "post_tvl_avg": 986678973.0,
+          "abnormal_change": 5.3028,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.053028,
+          "abnormal_change_pct": 5.3028
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2025-08-12T18:00:00",
+          "pre_price_avg": 1.382591165,
+          "post_price_avg": 1.3567716650000001,
+          "abnormal_change": -1.8675,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.018675,
+          "abnormal_change_pct": -1.8675
+        }
+      }
+    },
+    {
+      "proposal_id": "0xe60685310c8a88dd88ba250deb059c563f533b3cf86d4620280f763b7f2e7d80",
+      "cleaned": {
+        "proposal_id": "0xe60685310c8a88dd88ba250deb059c563f533b3cf86d4620280f763b7f2e7d80",
+        "title": "[BIP-728] Enable tETH-wstETH Gauge [Ethereum]",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "end_utc": "2024-11-04T18:00:00Z",
+        "similarity_score": 0.2633,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3055111.4361738293,
+        "margin_pct": 1.0,
+        "scores_total": 3055111.4361738293,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 6,
+        "total_votes": 6,
+        "first_vote_at": "2024-10-31T20:50:20Z",
+        "last_vote_at": "2024-11-04T15:30:14Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            441762.5324173029,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.1750274320737002,
+            0.0,
+            0.0
+          ],
+          [
+            2613348.728729095,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.781826,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.218174,
+        "half_slope_diff": 18.329273
+      },
+      "raw": {
+        "id": "0xe60685310c8a88dd88ba250deb059c563f533b3cf86d4620280f763b7f2e7d80",
+        "title": "[BIP-728] Enable tETH-wstETH Gauge [Ethereum]",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1478\n\n**Summary:**\ntETH is a liquid staking token (LST) that converges the fragmented on-chain ETH interest rates market. Holders of tETH earn real yield in excess of Ethereum’s Proof-of-Stake (PoS) rewards through interest rate arbitrage while still being able to use tETH for DeFi activities. \n\nThe Treehouse Protocol team proposes a Balancer Gauge for the tETH-wstETH pool on Ethereum with no emissions cap. \n\n**References/Useful links:**\n\n> Link to:\n\n* Website - [Treehouse | Decentralized Fixed Income Layer](https://treehouse.finance/)\n* Documentation - [Treehouse Finance Docs](https://docs.treehouse.finance/protocol) \n* CoinGecko - [tETH](https://www.coingecko.com/en/coins/treehouse-eth)\n*  Github Page - [Treehouse - gaia](https://github.com/treehouse-gaia)\n* Discord - [Treehouse](https://discord.com/invite/treehousefi)\n* Twitter - [x.com](https://x.com/TreehouseFi)\n* Gauge deposit contract - [tETH/wstETH](https://etherscan.io/address/0xf697535848B535900c76f70F1e36EC3985D27862)\n* Protocol Audits - [Treehouse audits](https://github.com/treehouse-gaia/audit-report)\n\n\n**Protocol Description:**\n\nTreehouse is a protocol that is building the decentralized fixed income layer for digital assets. Its main product offerings, tAssets and the Decentralized Offered Rate (DOR), were developed to address a critical gap in the fixed income digital assets market and set a standard for decentralized reference rates.\n\ntETH, the first tAsset deployed on the Ethereum mainnet, is a liquid staking token (LST) that converges the fragmented on-chain ETH interest rates market. Holders of tETH earn real yield exceeding Ethereum’s Proof-of-Stake (PoS) rewards through interest rate arbitrage across various lending and borrowing protocols, all while retaining the ability to use tETH for other DeFi activities.\n\nSince its launch, the tETH vault has accumulated a Total Value Locked (TVL) of $140 million worth of ETH within just a month and a half.\n\n**Motivation:**\n\nTreehouse Protocol is working to establish the tETH-wstETH Gauge on Balancer to enhance the liquidity of tETH. Increased liquidity facilitates smoother entry and exit for traders and investors, which is essential for the overall usability and appeal of liquid staking tokens (LSTs) within the DeFi ecosystem. This liquidity boost not only supports market efficiency but also attracts more participants to the Balancer ecosystem, where the tETH-wstETH pool will generate yield for both liquidity providers and Balancer.\n\n**Specifications:**\n \n1. **Governance:** All ownable contracts are secured with a 5/7 multi-sig. Only the tETH contract is upgradable for future expansion plans.\n\n2. **Oracles:** [tETH-wstETH rate provider](https://etherscan.io/address/0x7c53f86d9a6b01821f916802a7606e9255dfe4e2) is based on wstETH as a base asset, it is not compatible with any pools aside from a wstETH pairing for the intended use of a rate provider.\n\n4. **Audits:** Treehouse Protocol has been audited by entities such as Fuzzland, Sigma Prime, and Trail of Bits and the reports can be seen in the GitHub repository [here](https://github.com/treehouse-gaia/audit-report)\n\n5. **Centralization vectors:** The centralization vector primarily involves the execution of actions in the strategy contract which are done by a multi-sig appointed by the contract owner. However, all action contracts are well-defined and the executors can only perform the whitelisted actions included in the strategy contract.\n\n6. **Market History:** tETH has accumulated a Total Value Locked (TVL) of $140M worth of ETH since its launch on 10th September 2024. The tETH-wstETH Balancer pool has been in inception since 23 October 2024. More information about tETH and the Treehouse Protocol ecosystem can be found on the [Dune Dashboard](https://dune.com/treehouseprotocol/treehousefi).\n-[tETH-wstETH pool](https://balancer.fi/pools/ethereum/v2/0x1d13531bf6344c102280ce4c458781fbf14dad140000000000000000000006df)\n-[tETH-wstETH pool gauge](https://etherscan.io/address/0xf697535848B535900c76f70F1e36EC3985D27862)\n \n8. **Value:** The tETH-wstETH pool on Balancer is designed to be a key source of liquidity for the token on the Ethereum network. By pairing tETH with wstETH, the pool aims to provide a seamless trading experience while also offering enhanced rewards for liquidity providers. This structure is intended to optimize both liquidity and profitability within the ecosystem. In addition, users who stake their tETH-wstETH LP tokens will be able to earn points from our current ongoing points program.\n\n**Transaction Specification:**\n\nThe Balancer Maxi LM Multisig `eth:0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the `GaugeAdderv4` at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function with the following arguments:\n\ngauge(address): `0xf697535848B535900c76f70F1e36EC3985D27862`\ngaugeType(string): `Ethereum`",
+        "end_utc": "2024-11-04T18:00:00Z",
+        "similarity_score": 0.2633,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3055111.4361738293,
+            0,
+            0
+          ],
+          "scores_total": 3055111.4361738293,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-11-04T18:00:00",
+          "pre_tvl_avg": 702270972.5,
+          "post_tvl_avg": 737898444.0,
+          "abnormal_change": 5.0732,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.050732,
+          "abnormal_change_pct": 5.0732
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-11-04T18:00:00",
+          "pre_price_avg": 1.7917315299999999,
+          "post_price_avg": 1.9865882099999999,
+          "abnormal_change": 10.8753,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.108753,
+          "abnormal_change_pct": 10.8753
+        }
+      }
+    },
+    {
+      "proposal_id": "0xdeb64e95b5822fe2aa62f1c15a9cc26f7c2ddef8cd3260cf5a9670f3157f10bb",
+      "cleaned": {
+        "proposal_id": "0xdeb64e95b5822fe2aa62f1c15a9cc26f7c2ddef8cd3260cf5a9670f3157f10bb",
+        "title": "[BIP-417] Enable ELFI/WETH Gauge [Ethereum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-09-04T18:00:00Z",
+        "similarity_score": 0.2355,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3138982.488097282,
+        "margin_pct": 0.948177765352815,
+        "scores_total": 3310542.1818547635,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 64,
+        "total_votes": 64,
+        "first_vote_at": "2023-08-31T18:18:23Z",
+        "last_vote_at": "2023-09-04T16:16:13Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1021.4397837586359,
+            0.0,
+            12.354028399752217
+          ],
+          [
+            1214.183376737301,
+            0.19682345690529324,
+            0.0
+          ],
+          [
+            462.1429200221549,
+            85773.15558324725,
+            0.0
+          ],
+          [
+            3222058.3906738367,
+            0.31866530520730724,
+            0.0
+          ]
+        ],
+        "spike_index": 0.976952,
+        "spike_follow_support_ratio": 0.999998,
+        "stairwise_ratio": 5e-06,
+        "half_slope_diff": 19.958526
+      },
+      "raw": {
+        "id": "0xdeb64e95b5822fe2aa62f1c15a9cc26f7c2ddef8cd3260cf5a9670f3157f10bb",
+        "title": "[BIP-417] Enable ELFI/WETH Gauge [Ethereum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR With Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/492\n\n**Summary:**\n\n> Enable a Balancer gauge for ELFI/WETH pool on Ethereum.\n\nLink to pool: [0x10f8EA49255e8a865ca4edA1630168C85cC8ee81](https://etherscan.io/address/0x10f8EA49255e8a865ca4edA1630168C85cC8ee81)\n\nLink to gauge: [0xD5417ACb575c799cEB373f85AdF100C7cD84C8c8](https://etherscan.io/address/0xD5417ACb575c799cEB373f85AdF100C7cD84C8c8)\n\n**References/Useful links:**\n\n> Link to:\n\n• [Website](https://www.element.fi/)\n\n• [TBD Element v2 Documentation](https://hyperdrive.delv.tech/)\n\n• See [docs](https://docs.element.fi/) for more useful links\n\nELFI contract address: 0x5c6D51ecBA4D8E4F20373e3ce96a62342B125D6d\n\n**Protocol Description:**\n\n> ELFI is the governance token for the Element Finance protocol. Element Finance offers fixed-rate solutions and is in preparation for a version 2 (v2) upgrade. The initial version, Element v1, utilized a yield-splitting mechanism that separated principal tokens from yield tokens with defined term lengths. This system allowed users to leverage variable yields in one type of trade, while in another, it provided predictable fixed rates, permitting the acquisition of principal tokens at a discount. The upcoming v2 upgrade is designed to introduce continuous liquidity, *eliminating* the need for preset expiration dates, fragmented liquidity, and LP rollovers. The proposed changes aim to enhance LP efficiency and term underwriting substantially.\n\n**Motivation:** Element Finance is evaluating optimal trading platforms for the ELFI token. Balancer stands out as a potential primary platform, given its features and liquidity management capabilities. The establishment of the ELFI-WETH pool on Balancer supports this direction, aiming to bolster liquidity and trading efficiency. With the integration of this pool gauge and potential BAL incentives, Element Finance seeks to fortify its trading presence on the mainnet.\n\n> Explain why this pool needs incentivisation\n\nThere should be a prioritization in rewarding governance token holders who provide liquidity, recognizing their pivotal role in the protocol's ecosystem. Introducing the ELFI/WETH pool on Balancer aligns with this goal, especially considering the potential future plans to integrate this pool into a voting vault. This integration will enable ELFI/WETH LP tokens to be counted as votes, strengthening governance participation.\n\n**Specifications:**\n\n1. **Governance:** [Provide current information on the protocol’s governance structure. Provide links to any admin and/or multisig addresses, and describe the powers afforded to these addresses. If there are plans to change the governance system in the future, please explain.]\n\n>https://docs.element.fi/governance-council/council-protocol-overview\nElement Finance DAO has implemented the Council Protocol as its main governance system.\n\n2. **Oracles:** Does the protocol rely on external oracles? If so, provide details about the oracles and their implementation in the protocol.\n\n> N/A\n\n3. **Audits:** Provide links to audit reports and any relevant details about security practices.\n\n> TBD for v2 (Completed or on-going audits are not public at the moment)\n\n4. **Centralization vectors:** Is there any component of the protocol that has centralization vectors? E.g. if only 1 dev manages the project, that is a centralized vector. If price oracles need to be updated by a bot, that is a centralized vector. If liquidations are done by the protocol, that is also a centralization vector.\n\n> N/A\n\n5. **Market History:** Has the asset observed severe volatility? In the case of stablecoins, has it depegged? In the case of an unpegged asset, have there been extreme price change events in the past? Provide specific information about the Balancer pool: how long has it been active, TVL, historical volume? **You must provide a direct link to the pool AND a link to your pool's gauge.**\n\n>https://app.balancer.fi/#/ethereum/pool/0x10f8ea49255e8a865ca4eda1630168c85cc8ee810002000000000000000005d3 - this is the existing Balancer pool with no significant trading history.\nhttps://etherscan.io/address/0xD5417ACb575c799cEB373f85AdF100C7cD84C8c8 - this is the link to the pool gauge. There is an [existing Uni v3 pool](https://www.dextools.io/app/en/ether/pair-explorer/0x147ad5aad5a4a063191da088a79207a4eeed79d8) deployed by an unknown actor with very low liquidity.\n\n6. **Value:** Is this pool intended to be the primary source of liquidity for the token(s)? If this is not the case, explain the expected value add to Balancer (can this pool generate consistent fees?)\n\n> The intention is for this pool to be the primary source of liquidity for ELFI.\n\nELFI/WETH\n\nPool: 0x10f8EA49255e8a865ca4edA1630168C85cC8ee81](https://app.balancer.fi/#/ethereum/pool/0x10f8ea49255e8a865ca4eda1630168c85cc8ee810002000000000000000005d3)\n\nGauge (2% Cap): [0xD5417ACb575c799cEB373f85AdF100C7cD84C8c(https://etherscan.io/address/0xD5417ACb575c799cEB373f85AdF100C7cD84C8c8)\n\n**Specifcations:**\n\nThe Balancer Maxi LM Multisig `eth:0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the `GaugeAdderv4` at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function with the following arguments:\ngauge(address): `0xD5417ACb575c799cEB373f85AdF100C7cD84C8c8`\ngaugeType(string): `Ethereum`",
+        "end_utc": "2023-09-04T18:00:00Z",
+        "similarity_score": 0.2355,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3224756.1568632256,
+            85773.66876594347,
+            12.356225594468034
+          ],
+          "scores_total": 3310542.1818547635,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-09-04T18:00:00",
+          "pre_tvl_avg": 693231153.0,
+          "post_tvl_avg": 700904469.0,
+          "abnormal_change": 1.1069,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.011069,
+          "abnormal_change_pct": 1.1069
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-09-04T18:00:00",
+          "pre_price_avg": 3.3678623649999997,
+          "post_price_avg": 3.4175693650000003,
+          "abnormal_change": 1.4759,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.014759,
+          "abnormal_change_pct": 1.4759
+        }
+      }
+    },
+    {
+      "proposal_id": "0xf6e9a3520f41377ac8de2bdc1ad6f096e3134b505136b5aa4e912d33acb3c658",
+      "cleaned": {
+        "proposal_id": "0xf6e9a3520f41377ac8de2bdc1ad6f096e3134b505136b5aa4e912d33acb3c658",
+        "title": "[BIP-440] Enable rETH/ankrETH Gauge with Auto-bribes [Optimism]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-10-02T18:00:00Z",
+        "similarity_score": 0.2308,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3638592.499876978,
+        "margin_pct": 0.9999996587467984,
+        "scores_total": 3638593.7415587413,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 62,
+        "total_votes": 62,
+        "first_vote_at": "2023-09-28T18:55:57Z",
+        "last_vote_at": "2023-10-02T16:54:37Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            7154.4281662526055,
+            0.3982780249792907,
+            0.0
+          ],
+          [
+            846.7911596877489,
+            0.129448746904466,
+            0.0
+          ],
+          [
+            3.902470446055066,
+            0.06544871313640749,
+            0.0
+          ],
+          [
+            3630588.0265868697,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.870764,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.00018,
+        "half_slope_diff": 31.073948
+      },
+      "raw": {
+        "id": "0xf6e9a3520f41377ac8de2bdc1ad6f096e3134b505136b5aa4e912d33acb3c658",
+        "title": "[BIP-440] Enable rETH/ankrETH Gauge with Auto-bribes [Optimism]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/527\n\n**Summary:**\n\n> Ankr proposes to the Balancer community the creation of a rETH/ankrETH on Optimism with the Auto-bribing feature.\n> ankrETH is a form of ETH Liquid Staking from Ankr Staking that offers instant liquidity for your staked ETH, enabling you to connect your ankrETH tokens with DeFi platforms and earn several more layers of rewards with auto-bribes.\n> Ankr is a leader in RPC nodes with projects like Aave, 1inch and SushiSwap as clients and has ~$100M TVL across the Liquid Staking Offering.\n\n**References/Useful links:**\n\n> Link to:\n> • Website: https://www.ankr.com/\n> • Documentation: [Ankr Staking – Ankr](https://www.ankr.com/docs/staking/overview/)\n> • Github Page : [Ankr · GitHub](https://github.com/Ankr-network)\n> • Twitter: https://twitter.com/ankr https://twitter.com/ankrstaking\n> • Reddit: https://www.reddit.com/r/Ankrofficial/\n> • Telegram: Contact @ankrnetwork\n\n**Protocol Description:**\n\n> Ethereum Liquid Staking as provided by Ankr Staking offers instant liquidity for your staked ETH, enabling you to connect your ankrETH tokens with DeFi platforms and earn several more layers of rewards.\n> ankrETH is a reward-bearing token, meaning that the fair value of 1 ankrETH token vs. ETH increases over time as staking rewards accumulate.\n\n**Motivation:**\n\n> The purpose of this proposal is to allow this pool to qualify for BAL incentive distribution in order to deepen the liquidity on Balancer and allow for users to swap ankrETH, the ETH Liquid Staking Asset, for ETH with the help of Auto-bribes on hidden hand.\n> The intuition behind this is to remedy the capital inefficiency associated with providing liquidity since ankrETH is generating a yield from the Staking Rewards of ETH. As a result, users have an opportunity cost when providing liquidity since the other half of the ETH they provide does not generate any yield.\n> Therefore, the goal of this proposal is to utilize BAL incentives,Swap Fees and auto-bribes in order to mitigate this capital inefficiency effect.\n\n**Specifications:**\n\n> 1. **Governance:** ANKR token-holders can propose and vote for changes to the Ankr Staking system. If a change receives enough votes, the Ankr team implements the agreed-upon changes to the platform. Further information may be found here: ANKR Governance Mechanics – Ankr\n> 2. **Oracles:** Rate provider for [ankrETH](https://optimistic.etherscan.io/address/0xCb0006B31e6b403fEeEC257A8ABeE0817bEd7eBa).\n> 3. **Audits:** Ethereum Liquid Staking smart contracts have undergone an external audit by Beosin Blockchain Security. The full audit report may be found below:\n> [Ethereum Liquid Staking – Ankr](https://www.ankr.com/docs/staking/liquid-staking/eth/overview/#audit-details)\n> 4. **Centralization vectors:** Centralisation Vectors: The Ankr 2.0 whitepaper introduced the vision for Ankr Network as a decentralized system where independent node operators work alongside Ankr nodes to power the growth and development of Web3. Further detailed information may be found here:\n> [Delegated ANKR token staking – Ankr](https://www.ankr.com/docs/staking/delegated-staking/ankr/overview/)\n> 5. **Market History:** https://www.coingecko.com/en/coins/ankr-staked-eth\n> 6. **Value:** The pool is intended to be the primary source of liquidity for ankrETH liquidity on Arbitrum and allow for a healthy stimulation of volume.\n\nPool address: [0x004700ba0a4f5f22e1E78a277fCA55e36F47E09C](https://op.beets.fi/pool/0x004700BA0A4F5F22E1E78A277FCA55E36F47E09C000000000000000000000104)\nGauge address: [0x8e486dBACb74C00dd31e489Da93d99bbeBE36cd5](https://etherscan.io/address/0x8e486dBACb74C00dd31e489Da93d99bbeBE36cd5#code)\n\n**Technical Specification:**\n\nThe Balancer Maxi LM Multisig `eth:0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function with the following arguments:\ngauge(address): `0x8e486dBACb74C00dd31e489Da93d99bbeBE36cd5`\ngaugeType(string): `Optimism`",
+        "end_utc": "2023-10-02T18:00:00Z",
+        "similarity_score": 0.2308,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3638593.111891589,
+            0.6120146111633952,
+            0.01765254073743605
+          ],
+          "scores_total": 3638593.7415587413,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-10-02T18:00:00",
+          "pre_tvl_avg": 718611084.5,
+          "post_tvl_avg": 716841847.5,
+          "abnormal_change": -0.2462,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.002462,
+          "abnormal_change_pct": -0.2462
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-10-02T18:00:00",
+          "pre_price_avg": 3.3874482500000003,
+          "post_price_avg": 3.24930149,
+          "abnormal_change": -4.0782,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.040782,
+          "abnormal_change_pct": -4.0782
+        }
+      }
+    },
+    {
+      "proposal_id": "0x014758041154f79d7ed5d11414b352a110e2044b6a7af91dafe792415d0b3578",
+      "cleaned": {
+        "proposal_id": "0x014758041154f79d7ed5d11414b352a110e2044b6a7af91dafe792415d0b3578",
+        "title": "[BIP-493] Enable Ankr/ankrETh Gauge [Arbitrum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-12-04T19:00:00Z",
+        "similarity_score": 0.2233,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 4078870.504581002,
+        "margin_pct": 0.9999999405256546,
+        "scores_total": 4078870.74716917,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 36,
+        "total_votes": 36,
+        "first_vote_at": "2023-11-30T22:36:04Z",
+        "last_vote_at": "2023-12-04T16:53:10Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.9375,
+            0.0,
+            0.0625
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9722222222222222,
+          0.0,
+          0.027777777777777776
+        ],
+        "stability": [
+          0.9722222222222222,
+          0.0,
+          0.027777777777777776
+        ],
+        "early_ratio": [
+          0.9375,
+          0.0,
+          0.0625
+        ],
+        "vp_by_quartile": [
+          [
+            9.836794837808103,
+            0.0,
+            0.12129408404744858
+          ],
+          [
+            1354.4236352947457,
+            0.0,
+            0.0
+          ],
+          [
+            253709.23806953154,
+            0.0,
+            0.0
+          ],
+          [
+            3823797.127375422,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.857393,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.014273,
+        "half_slope_diff": 26.627894
+      },
+      "raw": {
+        "id": "0x014758041154f79d7ed5d11414b352a110e2044b6a7af91dafe792415d0b3578",
+        "title": "[BIP-493] Enable Ankr/ankrETh Gauge [Arbitrum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/664\n\n**Summary:**\n\n> Ankr proposes to the Balancer community the creation of an Ankr/ankrETH on Arbritrum with the Auto-bribing feature.\n> ankrETH is a form of ETH Liquid Staking from Ankr Staking that offers instant liquidity for your staked ETH, enabling you to connect your ankrETH tokens with DeFi platforms and earn several more layers of rewards with auto-bribes.\n> Ankr is a leader in RPC nodes with projects like Aave, 1inch and SushiSwap as clients and has ~$100M TVL across the Liquid Staking Offering.\n\n**References/Useful links:**\n\n> Link to:\n> • Website: https://www.ankr.com/\n> • Documentation: [Ankr Staking – Ankr](https://www.ankr.com/docs/staking/overview/)\n> • Github Page : [Ankr · GitHub](https://github.com/Ankr-network)\n> • Twitter: https://twitter.com/ankr https://twitter.com/ankrstaking\n> • Reddit: [Reddit - Dive into anything](https://www.reddit.com/r/Ankrofficial/)\n> • Telegram: Contact @ankrnetwork\n\n**Protocol Description:**\n\n> Ethereum Liquid Staking as provided by Ankr Staking offers instant liquidity for your staked ETH, enabling you to connect your ankrETH tokens with DeFi platforms and earn several more layers of rewards.\n> ankrETH is a reward-bearing token, meaning that the fair value of 1 ankrETH token vs. ETH increases over time as staking rewards accumulate.\n\n**Motivation:**\n\n> The purpose of this proposal is to allow this pool to qualify for BAL incentive distribution in order to deepen the liquidity on Balancer and allow for users to swap ankrETH, the ETH Liquid Staking Asset, for ETH with the help of Auto-bribes on hidden hand.\n> The intuition behind this is to remedy the capital inefficiency associated with providing liquidity since ankrETH is generating a yield from the Staking Rewards of ETH. As a result, users have an opportunity cost when providing liquidity since the other half of the ETH they provide does not generate any yield.\n> Therefore, the goal of this proposal is to utilize BAL incentives,Swap Fees and auto-bribes in order to mitigate this capital inefficiency effect.\n\n**Specifications:**\n\n> 1. **Governance:** ANKR token-holders can propose and vote for changes to the Ankr Staking system. If a change receives enough votes, the Ankr team implements the agreed-upon changes to the platform. Further information may be found here: ANKR Governance Mechanics – Ankr\n> 2. **Oracles:** Rate provider for [ankrETH ](https://optimistic.etherscan.io/address/0xCb0006B31e6b403fEeEC257A8ABeE0817bEd7eBa).\n> 3. **Audits:** Ethereum Liquid Staking smart contracts have undergone an external audit by Beosin Blockchain Security. The full audit report may be found below:\n> [Ethereum Liquid Staking – Ankr](https://www.ankr.com/docs/staking/liquid-staking/eth/overview/#audit-details)\n> 4. **Centralization vectors:** Centralisation Vectors: The Ankr 2.0 whitepaper introduced the vision for Ankr Network as a decentralized system where independent node operators work alongside Ankr nodes to power the growth and development of Web3. Further detailed information may be found here:\n> [Delegated ANKR token staking – Ankr](https://www.ankr.com/docs/staking/delegated-staking/ankr/overview/)\n> 5. **Market History:** https://www.coingecko.com/en/coins/ankr-staked-eth\n> 6. **Value:** The pool is intended to be the primary source of liquidity for ankrETH liquidity on Arbitrum and allow for a healthy stimulation of volume.\n\nPool address: [0x9f8ed1acfe0c863381b9081aff2144fc867aa773](https://app.balancer.fi/#/arbitrum/pool/0x9f8ed1acfe0c863381b9081aff2144fc867aa7730002000000000000000004d4)\nGauge address: [0x4e15b9184553740f5C822bd3d6169029D302e63e](https://etherscan.io/address/0x4e15b9184553740f5C822bd3d6169029D302e63e#code)\n\n**Specification**:\n\nThe Balancer Maxi LM Multisig eth:`0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function with the following arguments:\ngauge(address):`0x4e15b9184553740f5C822bd3d6169029D302e63e`\ngaugeType(string): `Arbitrum`\n\nAdditionally, this pool is requesting core pool status as per BIP-457",
+        "end_utc": "2023-12-04T19:00:00Z",
+        "similarity_score": 0.2233,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            4078870.625875086,
+            0,
+            0.12129408404744856
+          ],
+          "scores_total": 4078870.74716917,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-12-04T19:00:00",
+          "pre_tvl_avg": 884721094.0,
+          "post_tvl_avg": 927542887.0,
+          "abnormal_change": 4.8401,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.048401,
+          "abnormal_change_pct": 4.8401
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-12-04T19:00:00",
+          "pre_price_avg": 3.984835425,
+          "post_price_avg": 4.228889125,
+          "abnormal_change": 6.1246,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.061246,
+          "abnormal_change_pct": 6.1246
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x9c6b8036203f996f7f991de0ef57ee254623dd776525ce1772fcb1f3f19f4e70",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.9,
+    "summary": "The proposal to enable the TREE/WETH 80/20 pool gauge on Balancer v3 Ethereum is recommended for approval. Voting timeline and power strongly support this option, consistent with positive outcomes from similar past proposals. Despite a slightly negative forum sentiment, the proposal aligns with Balancer's goals to improve liquidity and token accessibility.",
+    "key_arguments_for": [
+      "Unanimous voting power support for enabling the gauge.",
+      "Proposal incentivizes liquidity for TREE/WETH pool, improving trading efficiency.",
+      "Similar past proposals enabling new gauges led to positive market and TVL impacts.",
+      "Supports Balancer as the primary liquidity hub for TREE on Ethereum Mainnet."
+    ],
+    "key_arguments_against": [
+      "One negative forum comment indicating concerns or reservations about the proposal.",
+      "Limited price history for TREE token adds uncertainty to market impact."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.balancer.fi/t/bip-866-enable-tree-weth-80-20-pool-gauge-on-balancer-v3-ethereum-with-a-5-cap/6655",
+        "quote": "3 comments: 1 negative sentiment, 2 neutral sentiments. First comment outlines proposal details and motivation."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": null,
+        "quote": "Early and stable voting support for 'Yes, let's do it' with 100% lead ratio and stability."
+      },
+      {
+        "source_tool": "adjacent_analytics",
+        "reference": null,
+        "quote": "Similar proposals [BIP-864, BIP-862] enabled gauges, had positive TVL and price impacts, and won with 'Yes' votes."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-08-15T18:00:00Z",
+    "event_end_utc": "2025-08-19T18:00:00Z",
+    "event_time_utc": "2025-08-19T18:00:00Z",
+    "address_of_governance_token": "0xba100000625a3754423978a60c9317c58a424e3d",
+    "token_price_impact_pct": 0.0971,
+    "tvl_impact_pct": -1.8438,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        2661247.6601152252,
+        0.0,
+        0.0
+      ],
+      "scores_total": 2661247.6601152252,
+      "margin_abs": 2661247.6601152252,
+      "margin_pct": 1.0
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "• Voting timeline and power strongly support enabling the TREE/WETH gauge.\n• Similar past proposals enabling gauges showed positive market and TVL responses.\n• Forum sentiment is slightly negative but does not reflect the dominant voting power and timeline support.\n• The proposal aligns with Balancer's strategy to improve liquidity and capital efficiency for TREE.\n• Recommendation favors organizational long-term benefit, outweighing limited negative forum sentiment.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x4945f6194f2935f681173ed1df6265e76852fb86148443a33c1a2bb959f21862",
+        "title": "[BIP-864] Enable RZR/wstETH 80/20 Gauge on Balancer v3 Ethereum",
+        "end_utc": "2025-08-12T18:00:00Z",
+        "summary": "[BIP-864] Enable RZR/wstETH 80/20 Gauge on Balancer v3 Ethereum closed on 2025-08-12T18:00:00Z. Timeline analytics noted 5 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Moderate text overlap (score 0.34)",
+        "market_response": "token +2.30%; TVL +5.30%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0x9cd16d8bd89820d6f1575decf678425528a8811237fe01ac329dea1368c3e086",
+        "title": "[BIP-862] Deploy Balancer v3 on HyperEVM",
+        "end_utc": "2025-07-29T18:00:00Z",
+        "summary": "[BIP-862] Deploy Balancer v3 on HyperEVM closed on 2025-07-29T18:00:00Z. Timeline analytics noted 5 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.10)",
+        "market_response": "token -6.83%; TVL -4.35%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 0.0971,
+    "ex_post_tvl_impact_pct": -1.8438,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +0.10%; TVL -1.84%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 1,
+    "Positive": 0,
+    "Neutral": 2,
+    "total_comments": 3
+  }
+}

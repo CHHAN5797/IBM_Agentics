@@ -1,0 +1,969 @@
+{
+  "captured_at_utc": "2025-10-07T05:53:10.258361+00:00",
+  "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x765b297702f21736e7b52c23d781dc76968519fef9c7b1ca1f924d167b2a6899",
+  "focus": null,
+  "votes_count": 2660,
+  "timeline_metrics_current": {
+    "unique_voters": 2660,
+    "total_votes": 2660,
+    "first_vote_at": "2025-07-04T11:15:14Z",
+    "last_vote_at": "2025-07-11T10:41:00Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        0.560625,
+        0.0,
+        0.439375,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      0.7357142857142858,
+      0.0,
+      0.2642857142857143,
+      0.0
+    ],
+    "stability": [
+      0.7357142857142858,
+      0.0,
+      0.2642857142857143,
+      0.0
+    ],
+    "early_ratio": [
+      0.560625,
+      0.0,
+      0.439375,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        306588.8303300099,
+        36314.56639626911,
+        93645.07055885188,
+        36547.27717600854
+      ],
+      [
+        528547.8038917561,
+        53696.17229952573,
+        60039902.543482296,
+        10780.47859952327
+      ],
+      [
+        59100.92185392212,
+        50247.47245882526,
+        29772437.705863107,
+        2337306.891590704
+      ],
+      [
+        738475.5096171526,
+        310727.218427762,
+        50231739.08366533,
+        30951842.25278785
+      ]
+    ],
+    "spike_index": 0.180455,
+    "spike_follow_support_ratio": 0.957128,
+    "stairwise_ratio": 0.00026,
+    "half_slope_diff": 1553.157723
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x65b2b835f03bc18aa401b88702145e6b7686e8d7ddddfd956837251f8a7a7da1",
+      "title": "Updating the OpCo Foundation’s Operational Capability",
+      "author": "0xb5B069370Ef24BC67F114e185D185063CE3479f8",
+      "end_utc": "2025-06-19T14:43:08Z",
+      "timeline_metrics": {
+        "unique_voters": 3300,
+        "total_votes": 3300,
+        "first_vote_at": "2025-06-12T14:50:21Z",
+        "last_vote_at": "2025-06-19T14:38:45Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            2201487.0464804745,
+            237737.4064192698,
+            9728.699877576431
+          ],
+          [
+            206499.9026081695,
+            241.24552613643647,
+            451.9337688640853
+          ],
+          [
+            54023084.331334256,
+            85242.82639661669,
+            206.42535553470128
+          ],
+          [
+            108592405.86727487,
+            4020410.8857544228,
+            24802295.142691996
+          ]
+        ],
+        "spike_index": 0.154462,
+        "spike_follow_support_ratio": 0.999878,
+        "stairwise_ratio": 0.000509,
+        "half_slope_diff": 1691.184437
+      },
+      "price_impact_pct": -8.8589,
+      "tvl_impact_pct": -3.4734,
+      "similarity": 0.1139,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "For",
+        "margin_abs": 140210794.946004,
+        "scores_total": 194179791.71348834,
+        "margin_pct": 0.7220668727098265
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x66812a5c91fe5f590965148c76f1ca609fdc5ded722544673c275a3b2ed94549",
+      "cleaned": {
+        "proposal_id": "0x66812a5c91fe5f590965148c76f1ca609fdc5ded722544673c275a3b2ed94549",
+        "title": "ArbitrumDAO Procurement Committee Phase II",
+        "author": "0x560b03B06eF02B24F994e470d949008cda5e1841",
+        "end_utc": "2024-09-12T11:00:00Z",
+        "similarity_score": 0.1604,
+        "winning_option": "Yes - Extend",
+        "winning_option_index": 0,
+        "margin_abs": 93272132.05856434,
+        "margin_pct": 0.6686837017293578,
+        "scores_total": 139486175.32824987,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 3356,
+        "total_votes": 3356,
+        "first_vote_at": "2024-09-05T11:01:12Z",
+        "last_vote_at": "2024-09-12T10:57:24Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1002422.2969075806,
+            13667.636482544647,
+            17359.98079064459
+          ],
+          [
+            622434.7863689201,
+            12681.549556401751,
+            2230.2609904597202
+          ],
+          [
+            11835741.867236106,
+            13868.184152998045,
+            2868750.9365411275
+          ],
+          [
+            101213561.92145333,
+            21361811.443209723,
+            521644.464560053
+          ]
+        ],
+        "spike_index": 0.136499,
+        "spike_follow_support_ratio": 0.975274,
+        "stairwise_ratio": 0.000951,
+        "half_slope_diff": 380.212999
+      },
+      "raw": {
+        "id": "0x66812a5c91fe5f590965148c76f1ca609fdc5ded722544673c275a3b2ed94549",
+        "title": "ArbitrumDAO Procurement Committee Phase II",
+        "author": "0x560b03B06eF02B24F994e470d949008cda5e1841",
+        "body": "The Arbitrum DAO Procurement Committee (ADPC), composed of Axis Advisory, Areta, and Daimon Legal, is proposing to extend its term for an additional 6 months. The initial phase, which ends on August 20, 2024, was a proof of concept that established a comprehensive procurement process to support Arbitrum DAO's decentralized governance structure. This second phase, starting upon the successful on-chain vote, aims to build on the successes and lessons learned from the pilot phase, with a focus on delivering strategic procurement benefits for the DAO.\n\n## Key Achievements in Phase I:\nDuring its first phase, the ADPC successfully implemented procurement frameworks and marketplaces uniquely tailored for Arbitrum DAO, creating a foundation for cost savings and operational efficiency. Through the development of a solid legal and operational infrastructure, the committee has positioned Arbitrum DAO as a leader not just in the technical sphere but also in decentralized governance. The pilot phase showcased the benefits of using advanced sourcing methodologies and well-structured procurement to enhance the DAO’s operations.\n_______________________\n## Plans for Phase II:\n\n### 1. Procurement for Two Key Vertical Sectors:\n\n**Vertical 1:** Focused on procuring RPC (Remote Procedure Call) providers for projects building in the Arbitrum ecosystem. This decision is based on thorough engagement with DAO delegates and stakeholders, identifying RPC services as a core requirement for projects in the ecosystem.\n\n**Vertical 2:** Aims to manage procurement for events scheduled within the DAO's Events Strategy for 2025. The ADPC will work in collaboration with Entropy Advisors and Disruption Joe, though no separate funding will be requested for event services in this proposal. The ADPC will create evaluation criteria, publish a request for proposals (RFP), and evaluate responses from potential suppliers. However, contract negotiations will not be handled by the ADPC, as they will fall under the purview of the Arbitrum Foundation or other third parties involved.\n\n### 2. Continued Management of the Subsidy Fund for Security Services:\nBuilding on the success of the initial cohort, the ADPC will continue overseeing the security services fund and will publish a proposal for its extension.\n\n### 3. Operational Expense (OpEx) Budget Creation:\nThe ADPC will define and propose an OpEx budget for the Arbitrum DAO, which will be managed by the Multi-Signature Safe (MSS). This will allow the DAO to use services from whitelisted providers without needing to undergo the full proposal process (Forum, Snapshot, On-Chain). The proposal will include multiple budget options for the community to vote on, allowing flexibility in how the budget is allocated.\n\n### 4. Phase II Outcome Report:\nUpon completion of the second phase, the ADPC will publish a detailed report outlining the results and key achievements, similar to the one produced for Phase I. This report will be submitted to the DAO for review.\n\n### 5. Alignment with DAO Stakeholders:\nThe ADPC will continue to engage with key stakeholders within the DAO to ensure that it remains aligned with the evolving governance structure of Arbitrum, particularly as the DAO explores potential changes like establishing an operating company (OpCo). The ADPC will also handle ad-hoc tasks, such as connecting whitelisted service providers with new projects or proposals within the DAO.\n\n### 6. Optional Additional Vertical Sectors:\nUpon successful completion of the work packages outlined above, the ADPC may take on up to two additional verticals based on DAO demand and the committee’s capacity. This work would require approval through the DAO’s governance process and would be contingent on the ADPC’s term being extended if necessary.\n_______________________\n## Budget for Phase II:\nThe total budget for this 6-month period is $414,000. This amount includes operational expenses and will be disbursed in six monthly installments. The funding request will (based on prices at the time of posting and subject to change) total 915,658 ARB, calculated based on the average ARB price at $0.5425/ARB. A buffer is included to protect against ARB price depreciation, ensuring that the ADPC can meet its financial obligations. The funds will be OTC’d to USDC. Any unutilized ARB will be returned to the Arbitrum DAO treasury at the end of the term.\n_______________________\n## Additional Information:\nThe proposal also includes the re-election of the current ADPC members (Axis Advisory, Areta, and Daimon Legal) to continue their roles in Phase II. This is intended to provide continuity and ensure that the progress made in Phase I can be built upon without interruption.\n\nThe committee believes that by extending its tenure, it can continue to deliver significant value to the Arbitrum ecosystem by optimizing procurement processes, securing vital services, and enabling a smoother governance structure for the DAO. Ultimately, the ADPC’s work in Phase II will help position Arbitrum DAO for long-term success, both in terms of operational efficiency and decentralized governance practices.",
+        "end_utc": "2024-09-12T11:00:00Z",
+        "similarity_score": 0.1604,
+        "vote_result": {
+          "choices": [
+            "Yes - Extend",
+            "No - Do Not Extend",
+            "Abstain"
+          ],
+          "scores": [
+            114674160.871966,
+            21402028.81340166,
+            3409985.6428822856
+          ],
+          "scores_total": 139486175.32824987,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "arbitrum",
+          "status": "tvl_data_unavailable",
+          "error": "Could not fetch TVL data: TVL cache not found for slug='arbitrum'"
+        },
+        "price_impact": {
+          "token_id": "11841",
+          "ticker": "ARB",
+          "status": "success",
+          "event_time_utc": "2024-09-12T11:00:00",
+          "pre_price_avg": 0.524448365,
+          "post_price_avg": 0.51195687,
+          "abnormal_change": -2.3818,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.023818,
+          "abnormal_change_pct": -2.3818
+        }
+      }
+    },
+    {
+      "proposal_id": "0xc9fc6b61c7e13a4645937937600397e496a3f4703a8f4d00e11c0f641d86ce9f",
+      "cleaned": {
+        "proposal_id": "0xc9fc6b61c7e13a4645937937600397e496a3f4703a8f4d00e11c0f641d86ce9f",
+        "title": "(V2) Arbitrum Research & Development Collective",
+        "author": "0x560b03B06eF02B24F994e470d949008cda5e1841",
+        "end_utc": "2024-10-24T14:00:00Z",
+        "similarity_score": 0.1565,
+        "winning_option": "Funded with 1.73M USDC + Council",
+        "winning_option_index": 0,
+        "margin_abs": 62906494.01437293,
+        "margin_pct": 0.45006550812355456,
+        "scores_total": 139771861.82661986,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 4354,
+        "total_votes": 4354,
+        "first_vote_at": "2024-10-17T14:01:22Z",
+        "last_vote_at": "2024-10-24T13:57:56Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1400554.5736078403,
+            968943.3830130904,
+            7714008.87445657,
+            4629.227625306136,
+            177993.62027406407
+          ],
+          [
+            5142047.430667049,
+            3302915.5130593465,
+            7408.216962867712,
+            503335.39616591664,
+            66102.19829372456
+          ],
+          [
+            25046635.721257687,
+            712315.318392984,
+            40053.45593153026,
+            10243.869082616879,
+            227798.9339608919
+          ],
+          [
+            71901657.46931066,
+            15112208.161057344,
+            352725.6486063802,
+            7078545.873412084,
+            1738.9414816795877
+          ]
+        ],
+        "spike_index": 0.177789,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.000763,
+        "half_slope_diff": 1994.535695
+      },
+      "raw": {
+        "id": "0xc9fc6b61c7e13a4645937937600397e496a3f4703a8f4d00e11c0f641d86ce9f",
+        "title": "(V2) Arbitrum Research & Development Collective",
+        "author": "0x560b03B06eF02B24F994e470d949008cda5e1841",
+        "body": "![photo_2024-10-17_12-36-01.jpg](ipfs://bafybeifv4ub663gsvifkv225zx76lnrgkldpoytzckxnjqdoxz2cf2ovpi)\n\n## A brief summary of the changes carried out include:\n* Retainer Model (Cost-Effectiveness): One-third of the total cap allocated to each working member’s role will be paid upfront, covering the first 1/3 set of hours.The remaining two-thirds of the cap is tied to project-based deliverables and will be paid in phases: 50% upon commencement of each task, and the final 50% upon successful completion of the task.\n* Removal of the Operations Lead Position: The responsibilities previously managed by the Operations Lead will now fall under the Supervisory Council’s remit.\n* Removal of Hats Protocol: No longer included in the proposed framework, saving 45,000 ARB in costs.\n* Extension Option for the ARDC Term: Introducing the possibility to extend the ARDC’s term by an additional six (6) months, pending approval through a Snapshot proposal. This brings the potential total term to one (1) year.\n* Funding Structure Revision: A restructuring of the funding approach to better align with the updated objectives and framework.\n* Supervisory Council Composition: The Supervisory Council will have responsibilities at both macro and micro levels, ensuring comprehensive oversight, strategic alignment, and effective day-to-day operations. At the micro level, two (2) of the elected members will focus on communications and one (1) will focus on operations.\n* Supervisory Council Elections: Candidates will specify their preferred roles in the application form, but a single general election snapshot will still be conducted as initially proposed. If multiple top-ranking candidates choose the same role, the highest-ranking ones are selected for that role, while others are redirected to fill alternative roles based on their preferences.\n\n## 1. The Supervisory Council: Governance and Strategic Oversight\nOne of the key structural changes in ARDC V2 is the establishment of a Supervisory Council. The Council replaces the previous DAOAdvocate role in ARDC V1 and the proposed role of the Operations Lead, aiming to distribute governance responsibilities more equitably and improve both macro and micro-level oversight. This move is designed to enhance the strategic alignment of the ARDC with the ArbitrumDAO's long-term objectives, ensuring that resources are efficiently managed and that the working members remain accountable.\n\nThe Supervisory Council will be composed of three elected members, each with distinct roles:\n* Two members will focus on communications, ensuring clear and consistent information sharing between the ARDC, the ArbitrumDAO, and external stakeholders such as OffChain Labs and the Arbitrum Foundation.\n* One member will focus on operations, managing day-to-day activities, overseeing financial transactions, and maintaining operational transparency.\n\nEach member will serve a six-month term, with the potential for a six-month extension, depending on the outcome of a Snapshot vote. The introduction of the Council helps bridge the gap between the high-level strategic goals of the DAO and the granular operational needs of the ARDC, allowing for more nuanced management and decision-making. The Supervisory Council will also handle conflict resolution, oversee communication strategies, and mediate between the ARDC and DAO in case of disputes, ensuring that activities remain aligned with the DAO's best interests.\n\n## 2. The Retainer Model: Aligning Incentives with Deliverables\nAnother important improvement in ARDC V2 is the Retainer Model, which aims to reduce the risk of underutilization and misaligned incentives by directly tying payments to project needs. In this model, working members are compensated based on the hours they spend delivering on their tasks, rather than receiving a lump-sum payment upfront. The model follows a structured payment plan:\n* One-third of the total cap allocated to each working member’s role will be paid upfront, covering the first 1/3 set of hours.\n* The remaining two-thirds of the cap is tied to project-based deliverables and will be paid in phases: 50% upon commencement of each task, and the final 50% upon successful completion of the task.\n\nBy requiring applicants to submit hourly rates in their applications, the ARDC incentivizes competitive pricing and ensures that funds are allocated efficiently. The Supervisory Council oversees this process, approving deliverables and tracking the use of working hours to ensure that tasks are being completed as required. This model also mitigates the risk of \"pre-paid\" work not delivering the corresponding value, a challenge encountered during ARDC V1.\n\n## 3. Funding Structure and Extension Mechanics\nARDC V2’s funding structure has been designed with flexibility in mind, allowing the DAO to control costs while still maintaining robust operational capacity. The proposal outlines three funding options—Options A, B, and C—each corresponding to different caps for the Security, Research, and Risk verticals. These options offer varying degrees of financial commitment, allowing the DAO to choose the level of funding that best matches its needs and risk tolerance:\n* Option A allocates $1.73 million USDC for operations.\n* Option B allocates $2.09 million USDC, serving as a middle-ground option.\n* Option C allocates $2.60 million USDC for larger-scale operations.\n\nEach option includes compensation for the Supervisory Council, set at 90,000 ARB across the 6-month term (approx. $46,800 USD at the time of the proposal). The Snapshot voting system will allow the community to decide whether to fund the ARDC under one of these options, abstain, or reject the proposal outright.\n\nFurthermore, the extension mechanics give the DAO flexibility in deciding whether to continue with the ARDC after its initial term. At the end of the 6-month term, the DAO will have the following choices through a Snapshot vote:\n* Extend the ARDC with the same working members.\n* Extend the ARDC with a re-election of working members.\n* Choose not to extend the ARDC.\n\nIf the DAO opts not to extend the ARDC, any unutilized USDC and ARB will be returned to the Treasury, ensuring that funds are not wasted.\n\n## 4. Aera’s Protocol-Owned Execution: Streamlining Fund Management\nTo mitigate volatility and optimize the conversion of ARB into USDC for operational purposes, ARDC V2 will utilize Aera’s Protocol-Owned Execution strategy. This innovative fund management solution employs off-chain logic to monitor on-chain liquidity, model price impact, and execute trades in a way that minimizes slippage and market disruption.\n\nUsing  @aerafinance Vault —guarded by @gauntlet_xyz—ARB tokens will be converted to USDC through @odosprotocol and @bebop_dex, decentralized execution platforms designed for efficient liquidity sourcing.\n\nThe strategy leverages both active and passive execution techniques:\n* Passive execution involves setting concentrated ARB positions in an ARB/USDC liquidity pool, effectively creating limit orders to optimize the conversion process.\n* Active execution takes place during optimal market conditions, as determined by Aera’s price impact modeling, which tracks intraday and medium-term price effects of trades.\n\nThis dual approach ensures that the ARB-into-USDC conversion process is as cost-effective as possible, reducing the risk of adverse market impacts and preserving the value of the DAO’s assets.\n\n## 5. Risk, Security, and Research Seats: Building on ARDC V1\nIn ARDC V2, three specialized roles—Risk, Security, and Research—will build upon the foundations established during ARDC V1. These roles are designed to bring targeted expertise to critical areas of the Arbitrum ecosystem, ensuring focused attention on risk management, security, and research, which were key in delivering the 43 important outputs during ARDC V1 produced by @blockworksres, @chaos_labs & @OpenZeppelin\n\n1. Risk Seat: Ensuring Protocol Safety\nThe Risk Member focuses on evaluating and mitigating risks within DeFi protocols. This builds on work from ARDC V1, where Chaos Labs conducted risk analyses on protocols like @vertex_protocol and @pendle_fi , providing insights on economic efficiency and systemic health. In V2, the Risk Member will continue this work, offering quantitative risk assessments and strategic guidance on managing potential threats in the ecosystem.\n\n2. Security Seat: Fortifying Governance and Contracts\nThe Security Member ensures smart contracts and governance mechanisms are secure, expanding on the significant security evaluations performed by OpenZeppelin in ARDC V1. Their work will focus on bug detection, fuzz testing, and ensuring governance upgrades are secure—similar to ARDC V1’s BOLD Security Analysis and Arbitrum Governor V2 Review.\n\n3. Research Seat: Data-Driven Insights\nThe Research Member will provide objective, data-driven analysis on key topics like sequencers and fraud proofs, echoing the work done by @delphi_digital and @blockworksres in ARDC V1. Research outputs will support governance decisions and help guide the DAO's strategic direction, just as V1 delivered insights like the Arbitrum DAO Treasury Research and analysis of STIP programs.\n\n### Interplay Between These Seats\nTogether, the Risk, Security, and Research members form the backbone of ARDC V2’s specialized expertise. By focusing on their respective verticals, these members ensure that the ArbitrumDAO is equipped to handle the complex challenges of the DeFi ecosystem, from managing risks and securing smart contracts to fostering a data-driven approach to governance and innovation.\n\nThe Supervisory Council will oversee the performance of each of these members, ensuring that their work aligns with the strategic priorities of the ArbitrumDAO. Furthermore, this structure allows for flexibility in allocating resources to the most pressing tasks, whether those relate to immediate security concerns, risk management, or long-term research initiatives.",
+        "end_utc": "2024-10-24T14:00:00Z",
+        "similarity_score": 0.1565,
+        "vote_result": {
+          "choices": [
+            "Funded with 1.73M USDC + Council",
+            "Funded with 2.09M USDC + Council",
+            "Funded with 2.60M USDC + Council",
+            "Abstain",
+            "Do not fund the ARDC"
+          ],
+          "scores": [
+            90700635.70066504,
+            27794141.686292112,
+            10922761.792975094,
+            8835028.13580752,
+            1519294.5108801308
+          ],
+          "scores_total": 139771861.82661986,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "arbitrum",
+          "status": "tvl_data_unavailable",
+          "error": "Could not fetch TVL data: TVL cache not found for slug='arbitrum'"
+        },
+        "price_impact": {
+          "token_id": "11841",
+          "ticker": "ARB",
+          "status": "success",
+          "event_time_utc": "2024-10-24T14:00:00",
+          "pre_price_avg": 0.569315955,
+          "post_price_avg": 0.51666565,
+          "abnormal_change": -9.248,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.09248,
+          "abnormal_change_pct": -9.248
+        }
+      }
+    },
+    {
+      "proposal_id": "0x5bede8277e7fe0beef5764d2915d1d1c288fcc47747c6fa576b501f5cb3d6115",
+      "cleaned": {
+        "proposal_id": "0x5bede8277e7fe0beef5764d2915d1d1c288fcc47747c6fa576b501f5cb3d6115",
+        "title": "Request for Continuation of the Arbitrum DDA Program Request",
+        "author": "0xAbAbE91A907fAdff921720C43ABe4098e7245E99",
+        "end_utc": "2024-03-18T00:01:05Z",
+        "similarity_score": 0.1374,
+        "winning_option": "For",
+        "winning_option_index": 0,
+        "margin_abs": 141386027.81270352,
+        "margin_pct": 0.9502856667543222,
+        "scores_total": 148782658.47742826,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2024-03-11T00:01:41Z",
+        "last_vote_at": "2024-03-11T17:11:16Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.630909,
+            0.369091,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.6309090909090909,
+          0.3690909090909091,
+          0.0
+        ],
+        "stability": [
+          0.6309090909090909,
+          0.3690909090909091,
+          0.0
+        ],
+        "early_ratio": [
+          0.6309090909090909,
+          0.3690909090909091,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            13944407.471850215,
+            200275.02638623113,
+            302676.2359290723
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.521229,
+        "spike_follow_support_ratio": 0.997796,
+        "stairwise_ratio": 0.002434,
+        "half_slope_diff": 1219.504724
+      },
+      "raw": {
+        "id": "0x5bede8277e7fe0beef5764d2915d1d1c288fcc47747c6fa576b501f5cb3d6115",
+        "title": "Request for Continuation of the Arbitrum DDA Program Request",
+        "author": "0xAbAbE91A907fAdff921720C43ABe4098e7245E99",
+        "body": "## **Summary**\n\nAs we near the end of allocating the initial grant budget (link to proposal), where through the [Arbitrum Grants Program ](https://arbitrum.questbook.app/) run via the Delegated Domain Allocation model by Questbook, $912k has already been allocated to over 60 proposals. Based on the overwhelming response and number of quality proposals the grant program has received, we propose to start a new program for the Arbitrum Grants via DDA through Questbook with a budget of $4,000,000 spread across 4 domains over the next two quarters. We have received great feedback and support from the community, builders, and domain allocators for requesting additional budget and continue funding projects through the delegated domain allocation model.\n\n### **Proposal**\n\nBased on the impact and insights derived from Arbitrum DDA program, we propose renewing the Program with a budget of $4M for two quarters. The domain allocators will utilize this budget to fund proposals that align with Arbitrum’s roadmap. After researching, gathering feedback from domain allocators, active community members, and builders, we propose supporting the same domains as the previous program:\n\n|Domain|Domain Allocator|Proposed Budget|\n| --- | --- | --- |\n|New Protocol Ideas|Jojo|$920,000|\n|Gaming|Adam|$920,000|\n|Dev Tooling|Juandi|$920,000|\n|Education, Growth, Community and Events|Cattin (Seed Latam)|$920,000|\n\n**RFPs, acceptance criteria and specifications for each domain**\n\n1. New Protocol Ideas - [Link ](https://docs.google.com/document/d/120s88WVycDyP2pUfgcT0eE8ILuribuayHDnd5aeZxbM/edit#heading=h.4th1bgre9sv4)\n2. Gaming - [Link](https://docs.google.com/document/d/1UIQA_kGeLsXQOZsIiGaNzE35TRTbqXBl5JauNt4LECQ/edit#heading=h.ig7e612gb5vt)\n3. Dev Tooling - [Link](https://docs.google.com/document/d/144gTfeKKXOtPxMTEB9d73wELepJ9mNPjMJHjvCSy3uE/edit)\n4. Education, Growth, Community and Events - [Link](https://www.notion.so/e8e86fbd9ee349beb0d9046607dae812?pvs=21)\n\n* We propose increasing the allocated grants budget for all domains equally to a higher budget based on the number of proposals received in the previous round.\n* Additionally, in the first round we set a soft cap of $25,000, and we propose increasing the cap to $50,000, with a few more steps for approving a grant that is larger than $25,000, requiring the involvement of two DAs to approve a proposal rather than just the specific domain allocator.\n* Considering the previous softcap being half of what is currently proposed, and that for an average of $220,000 for each domain the program was able to run for around 3.5 months before being maxed out, we project that providing 4X the amount of the previous iteration to each domain should allow the program to constantly allocate, at the same rate or even higher, for the full 6 months projected duration\n* The increased cap will allow the Questbook Program to keep covering the bootstrap belt of grant between $1,000 to $25,000 while, at the same time, be able to serve larger protocols that inherently might have larger needs.\n\n### Specifications and Implementation\n\nSimilar to the model implemented in the initial program, the renewed grants program will be run using **[Delegated Domain Capital Allocation Model 1](https://blog.questbook.xyz/posts/min-grants-dao-max-community-participation/)**. Each *domain allocator* will run their respective domain on-chain for full transparency using Questbook. The data and performance across key metrics will be visible to the community.\n\nWhile the program has produced, accordingly to preliminary conversation with protocols and delegates, good results, we want to address and integrate the feedbacks so far proposed and partially covered in the previous section, such as:\n\n* have better accountability for the increased soft cap\n* define a more robust and structured set of rules for applicants, in regards to providing a timeline for their project(s)\n* define a cost for the management and verification of milestones after the program is completed\n* define a plan to manage the volatility of funds being distributed by the DAO in ARB token.\n\nThe DA will evaluate all the proposals through the rubrics provided for each domain, with the following framework:\n\n* in case of request below or equal to $25,000, the evaluation process will be the same of the previous iteration, with rubrics being evaluated and scored by the specific DA\n* in case of request above $25,000, and below the new soft cap of $50,000, the evaluation will involve a second DA, chosen by the first one based on the proximity of the specific expertise and knowledge to that proposal, that will have to publish a second evaluation of the rubrics alongside the score. Assuming N rubrics, scored from 1 to 5, the grant will be approved only if both the DA will give each a scoring equal or above to N*3.\n\nThe disbursement of the grant will take place on-chain from a multi-sig wallet controlled by the program manager & the domain allocator. The domain allocator will approve or reject the application based on evaluation rubric. A Grants SAFE, with 3/5 multi-sig, between the program manager and 4 domain allocators will be setup. We will then have 4 SAFEs for each of the domains with a 2/2 between the program manager and the specific domain allocator. The funds for the grants program will flow from the treasury into the Grants SAFE. This SAFE will hold the funds related to operational costs, committee compensation, and the grants budget. Funds that will be disbursed to the proposers will reside in the domain-level SAFEs.\n\nAfter the end of two quarters, the grants committee and the Arbitrum community shall evaluate the performance of each domain using publicly available data and decide to eventually, renew the program and, if so, change any specification of the domains, the domain allocators or the program manager.\n\nTo ensure predictability of the funding of the program and a proper runaway, upon receiving the amount from the DAO, the DAs alongside the PM will convert it in stables. If the protocols request it, specific grants or milestones might be paid in $ARB by converting the needed amount at the moment of payout.\n\nArbitrum DDA program closed accepting new proposals from mid February. If the program will be renewed in the terms above, the DDA program will take care, alongside the evaluation of new proposal, to keep evaluating the milestones of the previous program, thus allowing for the continuity of the previous iteration in an accountable way for grantees.\n\n### Compensation\n\nWe propose the following payment structure for the PM and DAs, with a base salary of $100/h and an increased projected workload of DA by 33% compared to the previous program, in consideration of the fact that DA not only have on average worked more than what initially was expected in the previous program, but also that they will need to spend time to cross evaluate all proposals above $25,000. On the other hand, the compensation of the PM is instead unchanged.\nWe are also adding overhead for an extra 6 months, equivalent to 20% of full-time salaries, for the Domain Allocators and the PM to keep evaluating the milestones of the grantees after the natural end of the program. This will ensure the proper continuation of the program and the followup with grantees, despite the program potentially not being renewed if so decided by the DAO. In case the program would be renewed with the same structure and people, or in case the milestone verification would come to an end before the due time, any leftover would be given back to the Arbitrum DAO.\n\n|Role|Monthly Cost|Total|\n| --- | --- | --- |\n|Program Manager and Questbook|$10000|$60,000*|\n|Domain Allocator|$8000|$192,000|\n|Overhead for extra 6 months|$8400|$50,400|\n|Operations Cost, Misc.||$10,000|\n||Totals:|$312,400|\n\n*Note: Questbook will provide the grants committee its grants orchestration tool at a cost of $5000 per month, included in the numbers above with the PM’s payment.\n\nAs per the above, the current costs to run program would be 7.8% of the overall budget of the grant program.\n\n* We suggest that the grants committee continue with [Synapse ](https://www.synaps.io/) for KYC services and [Docusign](https://www.docusign.com/en-in) for all contractual agreements, as we have been using these services throughout the Arbitrum DDA program 1.\n* However, for any specific asks from the grants team in order to run the process more smoothly, Questbook will charge for any additional feature requests based on the development overhead through a retrospective grant proposal from Arbitrum at the end of two quarters.\n\n### Read the whole proposal on the forum for Domain Allocator roles, responsibilities, KPIs, and Expectations",
+        "end_utc": "2024-03-18T00:01:05Z",
+        "similarity_score": 0.1374,
+        "vote_result": {
+          "choices": [
+            "For",
+            "Against",
+            "Abstain"
+          ],
+          "scores": [
+            144792709.55550635,
+            583267.179118986,
+            3406681.7428028416
+          ],
+          "scores_total": 148782658.47742826,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "arbitrum",
+          "status": "tvl_data_unavailable",
+          "error": "Could not fetch TVL data: TVL cache not found for slug='arbitrum'"
+        },
+        "price_impact": {
+          "token_id": "11841",
+          "ticker": "ARB",
+          "status": "success",
+          "event_time_utc": "2024-03-18T00:01:05",
+          "pre_price_avg": 1.746547595,
+          "post_price_avg": 1.7152705300000002,
+          "abnormal_change": -1.7908,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.017908,
+          "abnormal_change_pct": -1.7908
+        }
+      }
+    },
+    {
+      "proposal_id": "0x1de2707ab4cf792721544a8f82eee98535c16ce437ba2ac95a78c85c20b6d8b0",
+      "cleaned": {
+        "proposal_id": "0x1de2707ab4cf792721544a8f82eee98535c16ce437ba2ac95a78c85c20b6d8b0",
+        "title": "Wind Down the MSS + Transfer Payment Responsibilities to the Arbitrum Foundation",
+        "author": "0xb4c064f466931B8d0F637654c916E3F203c46f13",
+        "end_utc": "2025-06-05T23:00:00Z",
+        "similarity_score": 0.1342,
+        "winning_option": "For: Wind Down the MSS",
+        "winning_option_index": 0,
+        "margin_abs": 142713866.22385234,
+        "margin_pct": 0.7761934789152288,
+        "scores_total": 183863778.9424648,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 2728,
+        "total_votes": 2728,
+        "first_vote_at": "2025-05-29T23:28:26Z",
+        "last_vote_at": "2025-06-05T22:56:50Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            2534618.621269793,
+            257029.76626284627,
+            60824.5862884162
+          ],
+          [
+            466599.17230673827,
+            56437.758327766474,
+            2711.795771260091
+          ],
+          [
+            36382252.34307633,
+            4620513.177060063,
+            83648.66130150389
+          ],
+          [
+            121376276.58518775,
+            124171.02098534467,
+            17898695.454627026
+          ]
+        ],
+        "spike_index": 0.158559,
+        "spike_follow_support_ratio": 0.999973,
+        "stairwise_ratio": 0.000471,
+        "half_slope_diff": 411.369372
+      },
+      "raw": {
+        "id": "0x1de2707ab4cf792721544a8f82eee98535c16ce437ba2ac95a78c85c20b6d8b0",
+        "title": "Wind Down the MSS + Transfer Payment Responsibilities to the Arbitrum Foundation",
+        "author": "0xb4c064f466931B8d0F637654c916E3F203c46f13",
+        "body": "### Non-constitutional\n\n## Abstract\n\nThis proposal seeks to get the conversation started regarding the future of the Multisig Support Services (MSS). In collaboration with the Arbitrum Foundation, input from MSS members, and based on conversations with key stakeholders and delegates, we are proposing to move forward by sunsetting the MSS. The multisig administration and payment processing responsibilities would be transferred to the Arbitrum Foundation, which is already deeply involved in the compliance and execution of nearly all MSS activity. MSS Signers will immediately begin the transition if this proposal passes Snapshot, and following the completion of this transition, receive final payments for their work. \n\nIf rejected, then Entropy will consider that delegates prefer to keep utilizing the MSS and will work to bring forward a proposal that restructures the MSS and a solution for the shortfall of funds.\n\n\n## Motivation & Rationale\n\nWhen the MSS was proposed in April 2024, the DAO was managing six active multisig wallets. Entropy accurately predicted that the number and complexity of DAO-affiliated multisigs would grow significantly, and today the MSS is involved with eight active multisigs, including:\n\n* MSS Payroll + R3gen\n* Delegate Incentive Program\n* Event Horizon\n* ADPC Subsidies\n* Hackathon Continuation Program\n* Stylus Sprint\n* ARDC V2\n* 2025 Events Budget\n\nThe original MSS proposal approved 600k ARB to cover the costs for R3gen’s monthly token reports and payments for the 3 chairs and 9 signers connected to the MSS. Despite an ample buffer at the time, market conditions over the last year have placed the MSS in a position where funds will run out before the end of its term, unless ARB suddenly starts performing extremely well.\n\nAs a reminder, the MSS was originally structured with 9 signers paid a fixed monthly fee of $1500 in ARB and 3 Chairs paid $2500 per month in ARB, both using the spot price at the time of payment. R3gen charges $6650 per month, paid upfront in ARB on the 1st of the month, also using USD/ARB spot price.\n\nThe MSS payroll multisig currently has 131,209.2 ARB (~$52,000, with ARB priced at ~$0.4) remaining, but with currently 2 active chairs and 8 signers, there is a total of $81,300 in commitments remaining. R3gen is owed two more payments for their June and July token reports, while the MSS members have 4 months of payment remaining (May-August) on their current term. At current prices, this would put the MSS on track to be short of funds following the July 1st payment to R3gen.\n\nIn April, Entropy, the Arbitrum Foundation, and MSS discussed potential solutions for the shortfall. Transferring the payment processing function to the Foundation was an option discussed and [shared](https://forum.arbitrum.foundation/t/mss-for-arbitrum-communication-thread-arbitrum-multisig-support-service/26508/25?u=entropy) with the DAO by MSS chair @cattin. Following confirmation from the Foundation that they have operational bandwidth to take on such responsibilities, a partial transfer was considered by all parties, but it was deemed unfair to reduce MSS member pays due to the sustained level of risk MSS members take on by being signers. Even at $0.4, reducing the overall number of MSS members to 1 chair and 4 signers would still result in a shortfall. Another option is providing a top up of funds and beginning conversations on a restructured MSS; however, Entropy believes the best path forward is to formally wind down the MSS and recognize that the Arbitrum Foundation is better suited to take on payment responsibilities in the interim until OpCo is stood up, at which point the conversation shifts to moving the payment function to this entity.\n\nOver the MSS’ tenure, operational improvements have happened and some of the recognized frictions could likely be further negated by restructuring the MSS to less signers, as the somewhat high threshold of 7/12 or 8/12 has proven to be inherently slow and inefficient. Regardless, given that the Foundation must be involved in every multisig anyway, the contributors of this proposal feel as though it’s sensible for the DAO to formally recognize this reality and consolidate multisig operations under the Foundation’s purview for the time being.\n\nThe primary rationale for consolidating the DAO’s multisigs and payment processing under the Arbitrum Foundation instead of approving additional funds or restructuring pertains to the required compliance process and coordination between signers and the Arbitrum Foundation. The compliance requirements create a system that requires the Foundation to approve and review the recipient of nearly every payment. Whether under OpCo or the AF, consolidating the payment function under one accountable entity with the capabilities to conduct KYC/KYB is the most effective long-term solution.\n\nAdditional benefits include not only a reduction in total OpEx spending by the DAO, but also with full-time employees trained in OpSec and internal legal capacities, we believe that the funds will be safest in the hands of the Arbitrum Foundation until OpCo possesses similar capabilities. Finally, by marking the clear owner of the payroll function as the AF, responsibility for successes and failures will fall on a single party, giving the DAO greater accountability beyond the committee structure.\n\n## Specifications\n\nAfter inquiry, delegates expressed a preference to honor the agreement with R3gen and have them finish out the planned monthly token reports. To ensure that the MSS Payroll multisig has sufficient ARB to pay out R3gen for the remaining 2 reports, Entropy is proposing that the MSS wind down begins by transitioning the following multisigs to the Arbitrum Foundation with a target completion date of June 15th:\n\n* Delegate Incentive Program\n* Stylus Sprint\n* Hackathon Continuation Program\n* The DAO’s 2025 Event Budget\n* Event Horizon\n* ADPC Subsidies\n* ARDC V2\n\nFollowing the completion of this transfer, the Arbitrum Foundation will share the updated addresses for the seven initiatives being transferred in the MSS communication thread. The Arbitrum Foundation has confirmed that funds for these ongoing programs will be separated into unique wallets so that they can continue to be easily tracked. Going forward, the Arbitrum Foundation has also agreed to continue this practice for any new initiatives in order to ensure delegates and the DAO have transparency on the state and flow of funds. Additionally, the Foundation has committed to providing updates when necessary; however, delegates should expect these to be at an informal cadence.\n\nThe following multisigs will remain under the control of the MSS:\n\n* MSS Payroll and R3gen\n\nAt the passing of this proposal (June 6th), the MSS will have discretion to pay R3gen upfront for their July token report if the price of ARB is high enough to secure the avoidance of a shortfall.\n\nOnce the above-mentioned multisigs have been transferred to the Arbitrum Foundation, the MSS will complete its tenure by sending a final payment to the MSS members for their work in June. With a target completion date of June 15th, MSS members will be paid one-half of their normal monthly compensation for June. If work for the MSS extends beyond June 15th, the members will be paid a pro-rata monthly rate up until June 30th. Following these final payments, the MSS will formally dissolve, returning any remaining ARB to the DAO’s treasury and being absolved of any future payment responsibilities and risk.\n\nSimilar to the upfront payment of R3gen’s work and if necessary due to extreme changes in market conditions, MSS members will have the discretion to send payments related to June work at an earlier date to avoid a shortfall.\n\nGoing forward, the payment vertical and its structure will be left up to the Arbitrum Foundation. In the event of resource constraints, Entropy recommends to the AF that they onboard a limited number of community members to assist with multisigs for smaller programs; however, this is something that will be up to the discretion of the Foundation. If the AF chooses to do so, they will have the mandate to structure the involvement of community contributions in the payroll function as they wish.\n\nOnce the OpCo has been operationalized and possesses similar payroll capabilities as the Arbitrum Foundation, we believe that responsibilities for the DAO’s multisigs should be transferred to that entity. When that time comes, Entropy recommends for the Arbitrum Foundation and future head of OpCo to update the DAO with a joint statement.\n\nIf this proposal is rejected, then delegates would be signalling a preference to keep utilizing the MSS until OpCo’s formation, at which point the conversation can be restarted on moving the payment function to that entity. If this is the prevailing decision, a top up would almost certainly be necessary to allow time for the full onchain proposal process & any possible follow-up procedures. In this scenario, Entropy will work to create a proposal that restructures the MSS, taking into account learnings and the opinions of relevant parties.\n\n## Timeline\n\nMay 22nd: Forum Post\nMay 29th - June 5th: Snapshot vote\nJune 6th: If approved, transfer of the previous MSS multisigs to the Foundation will begin.\nJune 15th: MSS' term comes to an end\n\n## Voting Options\n\n1. **For (Wind Down the MSS):** In support of winding down the MSS and transferring ownership of the payment vertical to the Arbitrum Foundation in the interim.\n2. **Against (Continue with the MSS):** Entropy begins working on a solution to the shortfall and creating a revised proposal that addresses the future structure of the payment vertical.\n3. **Abstain**",
+        "end_utc": "2025-06-05T23:00:00Z",
+        "similarity_score": 0.1342,
+        "vote_result": {
+          "choices": [
+            "For: Wind Down the MSS",
+            "Against: Continue with the MSS",
+            "Abstain"
+          ],
+          "scores": [
+            160759746.72184056,
+            5058151.722636019,
+            18045880.497988217
+          ],
+          "scores_total": 183863778.9424648,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "arbitrum",
+          "status": "tvl_data_unavailable",
+          "error": "Could not fetch TVL data: TVL cache not found for slug='arbitrum'"
+        },
+        "price_impact": {
+          "token_id": "11841",
+          "ticker": "ARB",
+          "status": "success",
+          "event_time_utc": "2025-06-05T23:00:00",
+          "pre_price_avg": 0.359682585,
+          "post_price_avg": 0.34508531,
+          "abnormal_change": -4.0584,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.040584,
+          "abnormal_change_pct": -4.0584
+        }
+      }
+    },
+    {
+      "proposal_id": "0xd05fe5e629072098183d454fb5084715a19d5b3285af2b87c3dad7b61d614954",
+      "cleaned": {
+        "proposal_id": "0xd05fe5e629072098183d454fb5084715a19d5b3285af2b87c3dad7b61d614954",
+        "title": "Terms of Tenure for STEP program manager",
+        "author": "0x1B686eE8E31c5959D9F5BBd8122a58682788eeaD",
+        "end_utc": "2024-09-19T22:00:00Z",
+        "similarity_score": 0.1341,
+        "winning_option": "Additional funds for one year ",
+        "winning_option_index": 1,
+        "margin_abs": 139599967.76007113,
+        "margin_pct": 0.9515444919267356,
+        "scores_total": 146708818.07891297,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 2827,
+        "total_votes": 2827,
+        "first_vote_at": "2024-09-12T22:01:44Z",
+        "last_vote_at": "2024-09-19T20:10:03Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            146255.27013614794,
+            325987.9963047403,
+            17339.71220651368,
+            312897.26030082843,
+            203468.37960473116
+          ],
+          [
+            262816.966606107,
+            887411.2915659002,
+            1883.1637762242299,
+            6408.454817360138,
+            90863.34576878221
+          ],
+          [
+            202631.67073104603,
+            79973937.57177801,
+            2017.0268447257988,
+            200495.3305970496,
+            112787.57129997785
+          ],
+          [
+            10589.948368937054,
+            61143515.775689855,
+            2709644.972439808,
+            1867.3509774992854,
+            95999.01909856252
+          ]
+        ],
+        "spike_index": 0.124277,
+        "spike_follow_support_ratio": 0.999917,
+        "stairwise_ratio": 0.000523,
+        "half_slope_diff": 1867.698118
+      },
+      "raw": {
+        "id": "0xd05fe5e629072098183d454fb5084715a19d5b3285af2b87c3dad7b61d614954",
+        "title": "Terms of Tenure for STEP program manager",
+        "author": "0x1B686eE8E31c5959D9F5BBd8122a58682788eeaD",
+        "body": "**Abstract**\n\nOn June 12th 2024, the DAO held an election for the role of STEP program manager to oversee ~$30 million diversified into liquid, stable and yield bearing RWAs. Steakhouse Financial won the vote with 60% in favor of their selection, with fees of $174,000 quoted in their application. \n\nThe Tally proposal in April 2024 listed 100k ARB as program management costs, which converted to $86,581 in June-July 2024 by the Arbitrum Foundation. This is insufficient to cover one year of Steakhouse Financials fees. Note: even if the ARB price had gone up, they would not have earned more - all applicant fees were quoted in dollar value and not ARB.\n\nThis proposal seeks input on the right way forward, with the options to\n- Approve only a 6 month contract from available funds\n- Earmark additional funds from yield earned so they complete the one year tenure\n- Not have a program manager, which will result in liquidation of the RWAs\n- Conduct a new RFP to select a program manager for one year at $86,581\n- Abstain\n\n**Motivation** \n\nOn April 10th 2024, the DAO approved 35 million ARB for diversification into RWAs. Of this, 100,000 ARB was budgeted for the role of program manager. The Arbitrum Foundation got an average price of 87 cents per ARB, resulting in $86,581 to pay the program manager.\n\n \n![2024-09-12 23.22.46.jpg](ipfs://bafkreicuaeyplf7wz2ayqzy33iailoxby5zohrg4gngmda4h5q3ja5otei)\n    \n\nIn June 2024, applications for the program manager role opened up where all applicants listed their fees in dollars. Given the funds received from the 100,000 ARB sale ($86,531) are less than the amount necessary to pay the $174,000 listed in Steakhouse Financials application, we need to either shorten their term to 6 months or approve an additional 6 months pay (from yield earned via the program). We can also declare the earlier election null and void while putting out a call for program managers willing to serve at $86,581 for a year. If there is no program manager to oversee investments, assets are liquidated and returned to the DAO.\n\n**Rationale** \n\nWhile writing the Tally proposal, 100k ARB was budgeted for the program manager role based on a sample quotation received from another provider and the prevailing ARB price at the time.\n\nSteakhouse financial and the other applicants prepared their budget in dollar value based on the sample provided instead of in ARB. As a result, the program manager role in the STEP program became under-budgeted and now needs approval from the DAO on provisioning either a shortened tenure of 6 months or additional funding to complete the one year. The additional funds will be requested from the yield earned on the RWAs (estimated at between $1-2 million per year) to prevent ARB liquidations. Alternatively, we can hold a new RFP seeking program managers at a fixed price of $86,581 for the year and invalidate the earlier election.\n\n**Specifications**\n\nThe STEP program is one of the largest diversification initiatives at any DAO, seeking to diversify our treasury while simultaneously growing the RWA ecosystem. Given the complications that can arise in managing the large sums of money, it is imperative that the DAO have a capable program manager to recommend liquidations ,conduct firedrills, monitor interest payments to the DAO treasury, and track underlying changes in service providers.\n\n**Steps to Implement**\n\nAfter ratification of Steakhouse Financials role as STEP program manager and whether it is 6 months or 1 year, the Arbitrum foundation will sign an agreement with Steakhouse Financial and begin investments into selected RWA providers.\n\n**Timeline**\n\n\nPost on forum\n\nUpload on Snapshot (Thursday, 12th September)\n\nFoundation negotiates agreement with Steakhouse and pays the first 6 months of their payment from the initial 100,000 ARB budgeted for in the STEP proposal\n\nAfter RWA yield is returned to the treasury, this proposal is taken to Tally requesting balance of $87,419 (provided one year tenure is approved in the snapshot)\n\n**Overall Cost**\n\nIf the entire one year tenure is ratified, the cost to the DAO is $87,419 paid via yield earned from the program. If 6 month tenure is approved, the cost is needing another election for program manager in a shortened time. If the proposal is rejected, we liquidate all $30 million and return assets to the DAO. If a new RFP is held seeking program manager services for $86,581 for a year, we delay the start of the STEP program and possibly get a less capable pool of applicants at the lower price point.\n\nThere is no budget required for work done on this proposal as it has been paid for through a Thrivecoin ThankArbitrum firestarter grant to the treasury and sustainability working group",
+        "end_utc": "2024-09-19T22:00:00Z",
+        "similarity_score": 0.1341,
+        "vote_result": {
+          "choices": [
+            "6 months from available funds",
+            "Additional funds for one year ",
+            "Liquidation of RWAs and STEP",
+            "New election at $86,581 per year",
+            "Abstain"
+          ],
+          "scores": [
+            622293.8558422376,
+            142330852.6353384,
+            2730884.8752672705,
+            521668.3966927377,
+            503118.3157720539
+          ],
+          "scores_total": 146708818.07891297,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "arbitrum",
+          "status": "tvl_data_unavailable",
+          "error": "Could not fetch TVL data: TVL cache not found for slug='arbitrum'"
+        },
+        "price_impact": {
+          "token_id": "11841",
+          "ticker": "ARB",
+          "status": "success",
+          "event_time_utc": "2024-09-19T22:00:00",
+          "pre_price_avg": 0.524789265,
+          "post_price_avg": 0.60861395,
+          "abnormal_change": 15.973,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.15973,
+          "abnormal_change_pct": 15.973
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x765b297702f21736e7b52c23d781dc76968519fef9c7b1ca1f924d167b2a6899",
+    "selected_choice_label": "Extend ARDC V2",
+    "selected_choice_index": 0,
+    "confidence": 0.75,
+    "summary": "The proposal seeks to extend the Arbitrum Research & Development Collective V2 for an additional 6 months, releasing the remaining 50% of funds approved. Forum discussions reflect a split with significant concerns about the current retainer funding model and calls for more demand-driven, impact-oriented research. Despite critiques, there is substantial support for continuity and acknowledgment of valuable contributions. Timeline metrics show a strong lead for 'Extend ARDC V2'. Historical lessons from similar proposals underscore the importance of structural changes to improve effectiveness but do not suggest outright rejection.",
+    "key_arguments_for": [
+      "Continuity is key to maintaining momentum in research, security, and risk initiatives.",
+      "The current team has demonstrated strong coordination, transparency, and cost-efficiency.",
+      "ARDC reports have provided valuable context for governance and security decisions.",
+      "Extension offers a transitional window to evolve the research structure alongside the upcoming OpCo."
+    ],
+    "key_arguments_against": [
+      "The fixed-term retainer model incentivizes research quantity over actionable impact.",
+      "Lack of clear prioritization and ownership leads to underutilized research outputs.",
+      "Demand for more flexible, on-demand, and accountable research funding mechanisms.",
+      "Calls for transitioning research responsibilities to new operational entities like OpCo."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Post #2 by danielo",
+        "quote": "Highlights organizational challenges including decline in transparency, lack of clear prioritization, and perception of ARDC as a mouthpiece."
+      },
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Post #5 by GozmanGonzalez",
+        "quote": "Strong support for Option A citing operational transparency and cost-efficiency."
+      },
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Post #7 by Entropy",
+        "quote": "Recommendation against extension citing structural frictions requiring fundamental redesign."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Timeline metrics",
+        "quote": "Strong timeline lead and stability for 'Extend ARDC V2' option with early and total VP dominance."
+      }
+    ],
+    "available_choices": [
+      "Extend ARDC V2",
+      "Extend w/ Re-Elections",
+      "Don't Extend",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-07-04T11:14:18Z",
+    "event_end_utc": "2025-07-11T11:14:18Z",
+    "event_time_utc": "2025-07-11T11:14:18Z",
+    "address_of_governance_token": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+    "token_price_impact_pct": 11.228,
+    "tvl_impact_pct": 1.8938,
+    "actual_vote_result": {
+      "winner_label": "Don't Extend",
+      "winner_index": 2,
+      "scores": [
+        1737215.882785058,
+        326660.5823880211,
+        140146808.15516698,
+        33347215.17865885
+      ],
+      "scores_total": 175557899.7989989,
+      "margin_abs": 106799592.97650814,
+      "margin_pct": 0.608344
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Extend ARDC V2' selected with stance to keep 'Change'.",
+    "ai_final_reason": "• The voting timeline metrics indicate a clear and stable lead for the 'Extend ARDC V2' option, supported by early and consistent voting power.\n• Forum sentiment is mixed but leans towards continuation, recognizing ARDC's valuable contributions while calling for structural improvements.\n• Historical similar proposals emphasize the need for redesign but do not negate the benefits of extending the current program with improvements.\n• Market impacts are positive, suggesting confidence in the extension.\n• The recommendation to extend aligns moderately with forum sentiment, acknowledging community concerns and the necessity for evolving the ARDC model in future terms.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x65b2b835f03bc18aa401b88702145e6b7686e8d7ddddfd956837251f8a7a7da1",
+        "title": "Updating the OpCo Foundation’s Operational Capability",
+        "end_utc": "2025-06-19T14:43:08Z",
+        "summary": "Updating the OpCo Foundation’s Operational Capability closed on 2025-06-19T14:43:08Z. Timeline analytics noted 3300 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.11)",
+        "market_response": "token -8.86%; TVL -3.47%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 11.228,
+    "ex_post_tvl_impact_pct": 1.8938,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +11.23%; TVL +1.89%"
+  },
+  "agentic_ai_choice": "Extend ARDC V2",
+  "actual_outcome": "Don't Extend",
+  "match_result": "different",
+  "forum_sentiment_summary": {
+    "Negative": 16,
+    "Positive": 8,
+    "Neutral": 16,
+    "total_comments": 40
+  }
+}

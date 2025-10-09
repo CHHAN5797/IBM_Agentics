@@ -1,0 +1,244 @@
+{
+  "captured_at_utc": "2025-10-07T05:27:18.753290+00:00",
+  "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0x10e6378f193ec4a2953b3ca73b86947586676250191346a90ed4c83593f14883",
+  "focus": null,
+  "votes_count": 5500,
+  "timeline_metrics_current": {
+    "unique_voters": 5500,
+    "total_votes": 5500,
+    "first_vote_at": "2022-04-05T14:03:18Z",
+    "last_vote_at": "2022-04-06T02:10:13Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        4225.387135428352,
+        1.95443
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.546695,
+    "spike_follow_support_ratio": 1.0,
+    "stairwise_ratio": 0.0,
+    "half_slope_diff": -0.086251
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0xef82c1c9388dc1e99f1c2c108e8f6cb2f4b3100363d87948c2ee35749117b6c7",
+      "title": "Donation to support people in Ukraine",
+      "author": "0xF4293427a88C24AA48516B78d0021739d02c0bc2",
+      "end_utc": "2022-02-28T13:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 200,
+        "total_votes": 200,
+        "first_vote_at": "2022-02-27T11:10:44Z",
+        "last_vote_at": "2022-02-28T12:25:31Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 2,
+        "lead_ratio_by_quartile": [
+          [
+            0.125,
+            0.0,
+            0.875
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.03,
+          0.0,
+          0.97
+        ],
+        "stability": [
+          0.03,
+          0.0,
+          0.97
+        ],
+        "early_ratio": [
+          0.125,
+          0.0,
+          0.875
+        ],
+        "vp_by_quartile": [
+          [
+            997.434427741096,
+            0.0,
+            35945.16763720919
+          ],
+          [
+            24.068750435434318,
+            1.024987351290481,
+            20659.950400362577
+          ],
+          [
+            49.030027796740434,
+            0.0,
+            1467.7148407774582
+          ],
+          [
+            6.490961284062823,
+            0.0,
+            10.989736415605744
+          ]
+        ],
+        "spike_index": 0.424199,
+        "spike_follow_support_ratio": 0.98442,
+        "stairwise_ratio": 0.004036,
+        "half_slope_diff": -9.252429
+      },
+      "price_impact_pct": 2.4742,
+      "tvl_impact_pct": 3.6778,
+      "similarity": 0.1667,
+      "actual_vote_result": {
+        "winner_index": 2,
+        "winner_label": "No",
+        "margin_abs": 57006.7984475075,
+        "scores_total": 59161.87176937346,
+        "margin_pct": 0.9635732735051566
+      }
+    }
+  ],
+  "similar_proposals_data": [],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0x10e6378f193ec4a2953b3ca73b86947586676250191346a90ed4c83593f14883",
+    "selected_choice_label": "Yes",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "This proposal seeks approval for the Bored Ghosts Developing (BGD) team, consisting of founding members with deep expertise in Aave, to provide dedicated technical development and support to the Aave protocol over 15 months. The proposal includes a detailed roadmap of tasks, compensation in stablecoins and AAVE tokens, and clear evaluation metrics. Forum sentiment strongly supports this initiative, recognizing the team's critical role and experience. The vote timeline shows overwhelming early support for 'Yes'.",
+    "key_arguments_for": [
+      "BGD Labs founders are original architects of Aave protocol with unmatched expertise and commitment.",
+      "The proposal addresses critical ongoing and future technical needs including migrations, governance evolution, and UI improvements.",
+      "Strong community and expert support visible in forum comments emphasizing security, stability, and decentralization.",
+      "Fixed compensation model with predictable costs and detailed task commitments ensures transparency and accountability."
+    ],
+    "key_arguments_against": [
+      "Concerns about the relatively large allocation from the treasury and its long duration of 15 months.",
+      "Potential regulatory risk perceived around centralized development roles, mitigated by service provider model.",
+      "Some community members desire more frequent accountability and feedback mechanisms."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://governance.aave.com/t/aave-bored-ghosts-developing-bgd/7527",
+        "quote": "Forum sentiment is predominantly positive with 13 positive, 3 negative, and 19 neutral comments. Early comments emphasize trust in BGD's expertise and commitment."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Snapshot proposal timeline",
+        "quote": "Timeline metrics show a 100% early vote ratio supporting 'Yes', perfect stability, and no late opposition spikes."
+      },
+      {
+        "source_tool": "registry_lookup",
+        "reference": "aavedao.eth",
+        "quote": "Governance token address confirmed as 0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9."
+      }
+    ],
+    "available_choices": [
+      "Yes",
+      "No"
+    ],
+    "event_start_utc": "2022-04-05T14:00:00Z",
+    "event_end_utc": "2022-04-11T14:00:00Z",
+    "event_time_utc": "2022-04-11T14:00:00Z",
+    "address_of_governance_token": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+    "token_price_impact_pct": -7.5548,
+    "tvl_impact_pct": -1.4953,
+    "actual_vote_result": {
+      "winner_label": "Yes",
+      "winner_index": 0,
+      "scores": [
+        278392.73256231064,
+        65.78756303952181
+      ],
+      "scores_total": 278458.52012535016,
+      "margin_abs": 278326.94499927113,
+      "margin_pct": 0.999527
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- The proposal benefits from overwhelming early vote support and strong forum sentiment endorsing the expertise and dedication of BGD Labs.\n- Historical similar proposals with negative price/TVL impact caution against insufficient technical support; this proposal directly addresses that risk with a skilled core team.\n- Market metrics show a negative short-term price and TVL impact, but these do not outweigh the long-term protocol health gained by securing technical continuity.\n- Forum sentiment aligns with the recommendation, reflecting community trust and approval, reinforcing that the decision mirrors collective views.\n- The compensation structure and transparency measures mitigate concerns about accountability and budget allocation.\n- Overall, endorsing this proposal maximizes durable benefit to the Aave ecosystem by ensuring sustainable, expert-driven protocol development.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0xef82c1c9388dc1e99f1c2c108e8f6cb2f4b3100363d87948c2ee35749117b6c7",
+        "title": "Donation to support people in Ukraine",
+        "end_utc": "2022-02-28T13:00:00Z",
+        "summary": "Donation to support people in Ukraine closed on 2022-02-28T13:00:00Z. Timeline analytics noted 200 unique voters, timeline-only analysis (no final tally), recommended option index 2.",
+        "similarity_reason": "Related text overlap (score 0.17)",
+        "market_response": "token +2.47%; TVL +3.68%",
+        "change_stance": null
+      }
+    ],
+    "ex_post_price_impact_pct": -7.5548,
+    "ex_post_tvl_impact_pct": -1.4953,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -7.55%; TVL -1.50%"
+  },
+  "agentic_ai_choice": "Yes",
+  "actual_outcome": "Yes",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 3,
+    "Positive": 13,
+    "Neutral": 19,
+    "total_comments": 35
+  }
+}

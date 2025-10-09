@@ -1,0 +1,865 @@
+{
+  "captured_at_utc": "2025-10-08T23:03:39.726935+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0xccccbbc78b257823913a94383157a1033a28d09f1cc141b54deb3b0d7302e14f",
+  "focus": null,
+  "votes_count": 5,
+  "timeline_metrics_current": {
+    "unique_voters": 5,
+    "total_votes": 5,
+    "first_vote_at": "2024-10-18T10:19:48Z",
+    "last_vote_at": "2024-10-21T05:27:21Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        339747.92967021605,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.19026978085552063,
+        0.0,
+        0.0
+      ],
+      [
+        2640240.282224341,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.806842,
+    "spike_follow_support_ratio": 1.0,
+    "stairwise_ratio": 0.193158,
+    "half_slope_diff": 29.07568
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0xc57dc7846d473aedb168b8b830c915dda27e0f344c29cc004bfdaff8823ab9ac",
+      "title": "[BIP-718] Enable Gauge for dvstETH / wstETH (Ethereum)",
+      "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+      "end_utc": "2024-10-14T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 6,
+        "total_votes": 6,
+        "first_vote_at": "2024-10-11T08:13:39Z",
+        "last_vote_at": "2024-10-14T07:42:26Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.03283106903775326,
+            0.0,
+            0.0
+          ],
+          [
+            346989.9654713897,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            599.2119982979493
+          ],
+          [
+            2603650.7991797365,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.802979,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.197021,
+        "half_slope_diff": 15.935515
+      },
+      "price_impact_pct": 4.5852,
+      "tvl_impact_pct": 3.5084,
+      "similarity": 0.0756,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2950041.5854838975,
+        "scores_total": 2951240.009480493,
+        "margin_pct": 0.9995939252677702
+      }
+    },
+    {
+      "id": "0xc2dd5357fee7eef6a7e1b99ae457769c69866480dfe88d035fa182ee3b397406",
+      "title": "[BIP-717] Enable GHO/wUSDL Gauge on Arbitrum",
+      "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+      "end_utc": "2024-10-14T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 6,
+        "total_votes": 6,
+        "first_vote_at": "2024-10-11T08:13:19Z",
+        "last_vote_at": "2024-10-14T07:40:39Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.032854838237975977,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            346999.96550240385
+          ],
+          [
+            0.0,
+            0.0,
+            599.2291208097275
+          ],
+          [
+            2603659.354687758,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.90999,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.09001,
+        "half_slope_diff": 14.911968
+      },
+      "price_impact_pct": 4.5852,
+      "tvl_impact_pct": 3.5084,
+      "similarity": 0.1021,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2256060.192919382,
+        "scores_total": 2951258.5821658093,
+        "margin_pct": 0.7644400279096353
+      }
+    },
+    {
+      "id": "0xb05035263a2acdc555b35c4e496ae92834ce00fd5a9bf4594e8c4fb92af228a4",
+      "title": "[BIP-716] Enable USDC/GYD Gauge [Ethereum]",
+      "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+      "end_utc": "2024-10-14T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5,
+        "total_votes": 5,
+        "first_vote_at": "2024-10-11T08:12:58Z",
+        "last_vote_at": "2024-10-14T07:40:02Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.03259875280426668,
+            0.0,
+            0.0
+          ],
+          [
+            347023.2989081036,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            599.26907333721
+          ],
+          [
+            2603679.3175398074,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.802962,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.197038,
+        "half_slope_diff": 11.575704
+      },
+      "price_impact_pct": 4.5852,
+      "tvl_impact_pct": 3.5084,
+      "similarity": 0.0646,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2950103.3799733263,
+        "scores_total": 2951301.918120001,
+        "margin_pct": 0.9995938951080146
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x4f843d83755ca517bdd0b54bb9711e1ab98e3afcf23616e745636b4787e78a4e",
+      "cleaned": {
+        "proposal_id": "0x4f843d83755ca517bdd0b54bb9711e1ab98e3afcf23616e745636b4787e78a4e",
+        "title": "[BIP-647] Supporting the DUCATA Initiative",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2024-07-01T18:00:00Z",
+        "similarity_score": 0.1253,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2617782.8145890892,
+        "margin_pct": 0.9389599987087679,
+        "scores_total": 2787959.88986644,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 10,
+        "total_votes": 10,
+        "first_vote_at": "2024-06-28T06:23:56Z",
+        "last_vote_at": "2024-07-01T15:33:39Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1.063610004524902,
+            0.0,
+            0.3699698325394491
+          ],
+          [
+            0.9226975314175063,
+            0.0,
+            0.0
+          ],
+          [
+            266771.44132201304,
+            0.0,
+            0.0
+          ],
+          [
+            2521186.0922670583,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.838458,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.161542,
+        "half_slope_diff": 11.071698
+      },
+      "raw": {
+        "id": "0x4f843d83755ca517bdd0b54bb9711e1ab98e3afcf23616e745636b4787e78a4e",
+        "title": "[BIP-647] Supporting the DUCATA Initiative",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "**A Stable and Autonomous DeFi Ecosystem**\n\n**SUMMARY/TLDR;**\nDUCATA requests to join the Balancer Partnership Program and requests an exception to the open-source license, similar to Gyroscope, to protect the DUCA Reflexivity Protocol. DUCATA’s innovative protocol aims to provide stability and liquidity through protocol-owned liquidity, leveraging parts of Balancer’s V2 code. The partnership will benefit Balancer by showcasing its capabilities and supporting financial innovation as well as monetary compensation and DUCATA in reducing development time and leveraging Balancer’s proven technology. DUCATA is committed to a transition towards full decentralisation and proposes a licensing fee to support Balancer’s development. With your support, we can build a more stable and autonomous DeFi ecosystem.\n\nIf this proposal is accepted, the Partnership Program will still be subject to successful due diligence and mutual assent to terms in a licensing agreement. \n\n---\n\nThe DUCA Protocol operates on a unique model where value is derived from market perceptions and demand-supply dynamics, independent of external collateral. This approach uses reflexivity to maintain a dynamic balance between market demand and protocol supply, fostering stability even amidst volatility. DUCATA’s goal is to solve the stablecoin trilemma and create the first viable form of **Programmatic Money** with the DUCA Reflexivity Protocol.\n\n**STABILITY THROUGH INNOVATION**\nThe DUCA Reflexivity Protocol ensures continuous capital flow throughout the system, not by pegging to a fixed FIAT value but by maintaining liquidity under all market conditions. This is achieved through protocol-owned liquidity, made possible by Balancer’s infrastructure, ensuring stability and reducing dependency on external liquidity providers.\n\n**WHY WE NEED YOUR SUPPORT**\nTo maintain the integrity and operational autonomy of the DUCA Protocol, we require an exception to Balancer’s open-source license. This exception is vital to protect our unique business model and prevent unauthorised copies that could undermine our efforts and the benefits we aim to deliver. We understand the importance of open-source principles. This exception is likely a temporary measure to ensure the protocol’s integrity, with a clear roadmap towards full decentralisation where the community will decide on the DUCA protocol’s software status.\n\nBecause we believe in commitment to our collaboration with the Balancer Community, we commit to a payment for a licensing fee to use the Balancer V2 code for the DUCA Reflexivity Protocol. As a usual transaction-based fee would compromise the unique mechanism of DUCATA, we propose to pay a periodical continuous fixed technical licensing fee to Balancer. This fee will help support the continued development and maintenance of Balancer’s infrastructure, which is crucial to the success of the DUCA Protocol. We propose the following annual license fee structure:\n\n* An annual flat fee of 250K per year for unlimited deployment, also paid in equal monthly amounts\n\nDUCATA aims to launch on the Arbitrum Layer 2 with a first expansion on Ethereum Main.\n\n**BENEFITS TO THE BALANCER COMMUNITY:**\n1. Protocol-Owned Liquidity: The DUCA Reflexivity Protocol relies on protocol-owned liquidity, made possible through Balancer’s infrastructure. This ensures a stable and reliable liquidity source, reducing dependency on external liquidity providers. A unique application of the Balancer code-base that will showcase and further propel the innovations possible.\n2. Supporting Innovation: This collaboration is a cornerstone for creating a new financial system. By integrating DUCATA, Balancer becomes part of the foundation for a new, innovative approach to DeFi and a new form of money: Programmatic Money. A fully on-chain, crypto-native and autonomous form of money that protects purchasing power and generates sustainable yield.\n3. Promoting Ecosystem Growth: The success of DUCATA and its unique stability mechanisms will enhance the reputation of Balancer as a platform that supports pioneering projects. Just as Balancer’s collaboration with CoW demonstrated significant benefits, we foresee similar or greater success with the DUCATA partnership, driving innovation and growth.\n\n**OUR COMMITMENT TO THE DEFI ETHOS AND BALANCER**\nWhile our immediate need is to protect the protocol through a proprietary license, we are committed to a gradual transition towards a more open and decentralized approach. Our long-term vision includes launching a DAO, and ensuring that all future decisions, including licensing, are governed by the community.\n\nDUCATA agrees to protect the resiliency of the DAO and promote its growth by adhering to basic ecosystem standards.\n\n1. [Ecosystem Values ](https://quark-ceres-740.notion.site/Ecosystem-Values-a216455689414e4c94ad24e51e2632cb?pvs=25)\n2. [DAO Accountability Guidelines ](https://quark-ceres-740.notion.site/Accountability-Guidelines-b442a4b852db46d4826a0b1c4eb0dd76?pvs=74) *This includes adhering to any contract terms covered by an agreement with the Balancer OpCo.\n3. [Dos and Donts of Business Development and Marketing ](https://quark-ceres-740.notion.site/Dos-and-Donts-of-Ecosystem-BD-Marketing-c583dd97a421496cb9cd86cac27211d9?pvs=74)related to Balancer\n4. To prevent fraud, theft and token manipulation as much as possible.\n5. To protect the confidentiality and privacy of data and information received in the course of Balancer work.\n\n**CONCLUSION**\nWe believe that with your support, DUCATA can significantly contribute to the Balancer ecosystem, the broader DeFi space and even the global financial system. Together, we can create a resilient, innovative financial system that benefits all participants. Your support is pivotal in realising this vision and ensuring a thriving future for DeFi. Creating money for the people, by the people.\n\nThank you for considering our proposal. We look forward to your support and to building a stronger, more innovative DeFi ecosystem together.\n\nIf you want to read more about DUCATA and the DUCA Reflexivity Protocol you can do so here:\n\n[Whitepaper](https://ducata.gitbook.io/duca-reflexivity-protocol/whitepaper/duca-design) | [Doc Centre](https://ducata.gitbook.io/duca-reflexivity-protocol) | [Website](https://ducata.com/)\n\nIf you have questions you are welcome to connect with the DUCATA Community and DUCATA Team in Discord.",
+        "end_utc": "2024-07-01T18:00:00Z",
+        "similarity_score": 0.1253,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2702871.3522277647,
+            0,
+            85088.53763867561
+          ],
+          "scores_total": 2787959.88986644,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-07-01T18:00:00",
+          "pre_tvl_avg": 913278234.0,
+          "post_tvl_avg": 879765718.0,
+          "abnormal_change": -3.6695,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.036695,
+          "abnormal_change_pct": -3.6695
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-07-01T18:00:00",
+          "pre_price_avg": 2.9803697,
+          "post_price_avg": 2.53644062,
+          "abnormal_change": -14.8951,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.148951,
+          "abnormal_change_pct": -14.8951
+        }
+      }
+    },
+    {
+      "proposal_id": "0x71093cb5f1ed8359856757cc04c08f6905ea2b0bf7c7d78780745d27977a1102",
+      "cleaned": {
+        "proposal_id": "0x71093cb5f1ed8359856757cc04c08f6905ea2b0bf7c7d78780745d27977a1102",
+        "title": "[BIP-514] Fund Balancer Maxis Q1-2024",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-12-25T19:00:00Z",
+        "similarity_score": 0.1238,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3673928.349047134,
+        "margin_pct": 0.8699523498195332,
+        "scores_total": 4223137.450929663,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 27,
+        "total_votes": 27,
+        "first_vote_at": "2023-12-21T21:13:40Z",
+        "last_vote_at": "2023-12-25T17:54:00Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            374004.533722373,
+            0.0,
+            0.0
+          ],
+          [
+            1.0439930465157383,
+            0.0,
+            0.0
+          ],
+          [
+            1279.6470049902352,
+            0.0,
+            0.0
+          ],
+          [
+            3573247.675267988,
+            0.0,
+            274604.5509412651
+          ]
+        ],
+        "spike_index": 0.8916,
+        "spike_follow_support_ratio": 0.161104,
+        "stairwise_ratio": 0.014871,
+        "half_slope_diff": 4.191901
+      },
+      "raw": {
+        "id": "0x71093cb5f1ed8359856757cc04c08f6905ea2b0bf7c7d78780745d27977a1102",
+        "title": "[BIP-514] Fund Balancer Maxis Q1-2024",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "## PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/697\n\n## Introduction\n\n \n![BIP-514.png](ipfs://bafkreid33cuhfiqmn7wlhpbarprz3ge736wizqnwf4lllitlrxb5zzfeii)\n    \n\n> Maxis queue up to embark on the v3 journey\n\nThe Balancer Maxis are thrilled to announce our pivotal role in the upcoming development of Balancer v3. Recognized as key contributors and the vital link between partners and the protocol, our dedication to the DAO is unwavering. As we embark on another quarter, our commitment is not just to continue, but to evolve – to redefine our engagement and amplify our positive impact on the DAO in 2024.\n\nThe third quarter marked a significant transition for the Maxis. Following the departure of our strategic visionary, Solarcurve, we embraced change and innovation. Tritium rose to the occasion, leading critical initiatives like the [core pool incentive automation](https://forum.balancer.fi/t/bip-457-core-pool-incentive-program-automation/5254), as well as securing and executing on the Arbitrum STIP, demonstrating our adaptability and resilience.\n\nOur evolution goes beyond roles and responsibilities. The Maxis are transforming from a collective of passionate enthusiasts to a team of full-time, professional experts. The new full-time addition consists of @Xeonus who will spearhead our strategic direction.\n\nOur mindful approach to funding allocation ensures an efficient use of resources – balancing USDC and BAL demands with maximum effectiveness. Our focus is not just on growth but on impact and transparency.\n\nIn 2024 we want to make the most impact by driving forward exciting initiatives while providing excellent mission-critical services to the DAO. We have identified four main (non-v3 dependent) initiatives to channel our efforts, while continuing to provide the core services that have been the backbone of the DAO for over two years.\n\n## Initiatives\n\nBeyond regular operations, the Maxi’s are focused on trying to create successful narratives in the Balancer ecosystem through various focused initiatives. In 2024, we strive to focus on a few of them, ensure that our focus areas have a clear leader/champion and some defined goals and that time and resources are available to focus on these topics. The impact of those topics is directly related to the achieved objectives.\n\n### Initiative 1: Growth beyond Mainnet\n\nLead: Tritium\n\nTeam: Shakotan (tech and operations), Xenous (data)\n\nKey ecosystem interactions: Grants Committee, Beethoven (Marketing + Beets grants)\n\nSummary\n\nThe initiative aims to further strengthen the DAO's presence beyond mainnet, focusing on Arbitrum, zkEVM, and Gnosis. The initiative emphasizes the successful execution of the Arbitrum STIP, but most of all development of strong competencies in creating data-driven narrative showcasing Balancer’s competitiveness, and collaboration with key blockchain partners such as Polygon and Aribtrum. The strategy includes adaptability to pivot based on market trends and performance metrics and an ever growing understanding of the KPIs that our grant providing partners care about.\n\nObjectives\n\n1. Timely STIP Execution: Ensure punctual and successful delivery of the current STIP, including consistent reporting and active engagement with the DAO.\n2. Data Narrative Development: Work to build a competency within Balancer to tell stories about how we are using our emissions to drive growth for our protocol and in the ecosystems we exist in.\n\n  1. We should be able to put out velodrome style reports that tell our story.\n\n3. KPI-Focused Program Management: Stay close to various grant programs and look at successful grant recipients to understand the KPIs they set and how they achieve them.\n\n  1. Propose changes at Balancer to make this possible or point out why we are not well suited to meet the kinds of KPIs that chain ecosystems see value in.\n\n4. Next Grant Cycle Preparation: Identify potential grant sources for the upcoming cycle and strategize engagement.\n5. Feedback Integration: Actively seek and incorporate feedback to enhance the effectiveness of the initiative.\n6. STIP Comparative Analysis: Collaborate with the STIP body to assess and report on Balancer's performance in comparison to peers.\n7. Impact Report Creation: Develop a comprehensive report detailing the impact of extra incentives delivered through balancer on L2 ecosystems.\n8. Strategic Partnerships: Strengthen collaborations with Gnosis Chain, Base, Arbitrum and Polygon to share successes and apply learnings, particularly in the context of zkEVM scaling.\n9. Collaborate with Beets as much as possible to create a shared competency here.\n\n### Initiative 2: Redesign of the Gauge Framework v1\n\nLead: Xeonus\n\nTeam: Shakotan (building automation), Tritium, Zekraken, Zen Dragon and Mike B (design)\n\nSummary\n\nThis initiative aims to introduce an automated, dynamic system for evaluating and adjusting gauge emissions based on performance metrics. This new framework is designed to efficiently allocate BAL rewards, optimizing support for both high-cap and emerging projects. The goal is to ensure a more responsive and adaptable system that balances revenue optimization with nurturing potential future revenue generators.\n\nObjectives\n\n1. Automated Gauge Evaluation: Develop a system for automatic assessment of gauges based on predefined metrics.\n2. Dynamic Emission Cap Adjustments: Implement a mechanism to adjust emission caps (ranging from 2% to 10%) based on gauge performance, potentially reducing underperforming gauges to a certain cap (e.g. 0.5%).\n3. Adaptive Framework: Ensure the framework is responsive to market dynamics and capital efficiency, allowing for more flexible and efficient allocation of BAL rewards.\n4. Rules around Duplication: Rules for handling the same Token in multiple pools/chains or the same DAO with multiple tokens.\n\n### Initiative 3: Support Balancer v3 Design\n\nLead: Mike B\n\nTeam: Xeonus, Zen Dragon, Tritium, Shakotan(tech and automation)\n\nKey ecosystem interactions: Balancer Labs, Beethoven (Tech)\n\nSummary: Balancer v3 is set to compete with the established developer community of Uni v4. It's crucial to foster the development of a robust ecosystem based on Balancer v3, ensuring it offers a compelling alternative for developers and projects.\n\nObjectives:\n\n1. Onboarding of Innovative Teams: Attract and integrate teams that are developing novel automated market makers (AMMs) for Balancer v3.\n2. Market Fit Identification for v3 Products: Assess and establish the market relevance of v3 offerings like TWAMMs, boosted pools, and dynamic ECLPs, and effectively pitch these to ecosystem projects.\n3. Serving as a Liaison: Act as the primary point of contact for external teams working on Balancer v3, facilitating seamless communication and collaboration.\n4. Technical Support Coordination: Collaborate with the integrations and BLabs teams to ensure that building teams receive adequate technical assistance.\n5. Finalizing v3 Feature Scope: Conclude the initial feature set for Balancer v3, aligning it with market needs and developer capabilities.\n\n### Initiative 4: Automation ownership transfer & on-chain automation improvements\n\nLead: Shakotan\n\nTeam: Tritium\n\nKey ecosystem interactions: Balancer Labs\n\nSummary:\n\nOngoing automation for both on-chain and off-chain processes. Improving existing operational contracts, such as Gauge injector and improving Defender codebase so it becomes maintainable.\n\nObjectives\n\n1. OZ Defender automation takeover from Balancer Labs and Markus\n2. Full tech and development for on-chain tasks\n3. ChildGaugeInjector version 2 release with new features + factory deployment to support better events and data used by Data Team\n4. Potential fees-handler-sc implementation to reduce rugability of the fees bags + improve data flow.\n\nService Provider Name & Overview: Balancer Maxis\n\nLeader(s): Xeonus, joined by the talented Mike B, Zekraken, Zen Dragon, Danko, Tritium, Shakotan and Gosuto\n\nContributors (a.k.a. Ballers): Gosuto, Gleb, Cosme Fulanito and Dubstard\n\nPledge to abide by the DAO’s [Code of Conduct](https://fifth-broom-2e6.notion.site/Code-of-Conduct-fef15e2ed1f5453f8bd56f338c70bb88): YES\n\nPledge to abide by the [Accountability Guidelines](https://fifth-broom-2e6.notion.site/Accountability-Guidelines-229d93372403415688f8d3dc4cb964b1): YES\n\nDomains of Operation:\n\n* Governance and Protocol Operations\n* Strategy and Business Development\n* On-Chain Operations (DevOps)\n* Community Engagement\n* Pool Design and Ecosystem Coordination\n* Finance and Risk Management\n* Data Analytics and Reporting\n* Outreach and Anti-Scam Oversight\n\nKey Objectives per Operational Discipline:\n\n#### 1. Governance and Protocol Operations\n\n* Leading governance procedures, ensuring their execution and integrity.\n* Facilitating technical discussions within governance scopes.\n* Setting up governance votes and reviewing payloads for DAO transactions.\n\n* Crafting detailed governance proposals and specifications.\n* Offering deep technological insights during governance deliberations.\n* Assisting in specifications to proposals for proper payload execution\n\n* Advise Foundation/OpCo on DAO Governance and BizDev\n* Ecosystem council liaison addressing GRC inquiries\n* Operational functionality within the DAO\n\n* Infrastructure and tool creation for enhancing governance operations.\n* Automating tasks, reducing human dependency in governance functions.\n* Creating UI tools that support operational tasks (past examples: pool creation, reward injectors, linear pool deployment [deprecated])\n\n#### 2. Strategy and Business Development\n\n* Leading strategic partnerships and business growth initiatives.\n* Applying profound product and technical knowledge in strategic planning.\n* Engaging with new partners and broader Web3 communities.\n\n* Providing technical support and insights for strategic development.\n* Assisting in custom pool creations and new chain launches.\n\n* Managing revenue flows and direct incentives with partners.\n* Facilitating discussions on financial incentives and revenue optimization.\n* Acting as active partner support and assisting new partners navigate the ecosystem\n\n#### 3. On-Chain Operations (DevOps)\n\n* Overseeing DevOps and automating multisig operations.\n* Building multisig payloads and conducting multi-person peer-reviews\n* Guidance on infrastructure-related aspects.\n* Overseeing Stipend Distribution Automation\n* Coordinating protocol fee sweep automation\n\n* Core development, aiding in automation and data management.\n* Smart contract development(when needed)\n* Taking over on chain automation for OZ Defender and migrating to new version of it\n* Support in technical best practices.\n\n* Bi-weekly fees processing and reporting\n* Arbitrum STIP grant program management and operations\n\n#### 4. Community Engagement\n\n* Managing community interactions\n* Onboarding new contributors and service providers\n* Planning ecosystem meetups and events (onsites) and handling logistical arrangements\n\n* Discord user support\n* Weekly Newsletter (Medium)\n* Governance Recap (Twitter) weekly\n\n* Discord user support\n* Weekly Newsletter (Medium)\n* Governance Recap (Twitter) weekly\n\n* Assisting in AMA sessions and coordinated marketing efforts.\n* Engaging with community members on various platforms.\n\n#### 5. Pool Design and Ecosystem Coordination\n\n* Designing pools for the protocol, aligning with governance specifications.\n* Liaising with the ecosystem for synchronized functionality and growth.\n* Assistance in pool design and migration to v3\n\n* Token whitelisting and front-end testing.\n* Assisting in the technical aspects of pool and gauge creation.\n* Testing of v3 front-end infrastructure\n\n#### 6. DAO Treasury and Risk Management\n\n* Overseeing budget, payments, and financial transactions.\n* Due diligence for new service providers.\n* Risk inventory and assessment with GRC\n\n#### 7. Data Analytics and Reporting\n\n* Spearheading data analytics, offering valuable insights through reports and dashboards.\n* Maintaining high-level expertise in protocol-related data.\n* Providing quarterly financial reports\n\n* Assisting in data handling, contributing to informed decision-making.\n\n#### 8. Outreach and Anti-Scam Oversight\n\n* Leading efforts against scam activities within the Balancer ecosystem.\n* Pen-testing of security infrastructure\n* Take down of scam sites\n\n* Services and subscriptions admin (Discord, Notion, etc.).\n\n* Networking and outreach, bringing in new ecosystem participants.\n* Facilitating communications and partnerships through various channels.\n\nLength of Engagement & Budget:\n\nLength of engagement: 3 months\n\n**Budget: 108’095 USDC, 35’718 BAL and 20 ETH**\n\nImpact on the Treasury\n\nThe Treasury currently holds ~4M BAL. Funding the Balancer Maxis for Q1 2024 would cost around 0.9% of the treasury’s BAL holdings, which annualizes to ~3.5% of the treasury’s BAL. The Treasury currently holds ~4.3M in USDC. Funding the USDC portion would cost around 2.5% of the treasury’s USDC, which annualizes to ~10%.\n\nFurthermore, this table provides an overview of the last years impact putting this proposal into perspective:\n\n|Year|Quarter|BAL|BAL Price|USDC|ETH|ETH price|Operations cost|People cost|Total|\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|2023|Q1|48000|$6|$0.00|0|1201|0|$266,400|$266,400.00|\n|2023|Q2|42150|$7|$0.00|5|1795|8975|$291,257|$300,231.50|\n|2023|Q3|26025|$5|$132,630.00|20|1853|37060|$251,825|$288,884.50|\n|2023|Q4|31695|$3|$168,770.00|20|1652|33040|$271,779|$304,819|\n|2024|Q1|35718|$4|$108,095.00|20|2170|43400|$250,969|$294,369|\n\nAlthough the Maxis will have around 1 FTE more manpower at their disposal, the impact on the treasury stays nearly the same. Maxis have undergone internal optimizations in pay to reduce the impact on the DAOs USDC as much as possible given the current market conditions. In that regard, 49.5% of requested funding will be locked in our stkauraBAL vesting contract. We will also roll over $37,720.00 in savings from our Q3 and Q4 budget (bizdev, bounties etc.) and deduct that amount from the current proposal, which further reduced our overall demand for USDC.\n\nETH Address to Receive Funds: `0x166f54F44F271407f24AA1BE415a730035637325`\n\nLink to SLA (if going through the Foundation): N/A\n\nTechnical specifications\n\nThe Balancer DAO multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with USDC `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48` by writing `transfer` passing the Maxi Safe `0x166f54F44F271407f24AA1BE415a730035637325` as recipient and amount `108095` USDC as `108095000000`.\n\nFurthermore the Balancer DAO multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with BAL `0xba100000625a3754423978a60c9317c58a424e3D` by writing `transfer` passing the Maxi Safe `0x166f54F44F271407f24AA1BE415a730035637325` as recipient and amount `35718` as `35718000000000000000000`\n\nThe DAO Multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with WETH `0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2` by writing `deposit` with amount `20` to wrap the required ETH. Afterwards the DAO Multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f `will interact with WETH `0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2` by writing `transfer` passing the Maxis Multisig address as the recipient `0x166f54F44F271407f24AA1BE415a730035637325` and `amount` `20000000000000000000`",
+        "end_utc": "2023-12-25T19:00:00Z",
+        "similarity_score": 0.1238,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3948532.8999883994,
+            0,
+            274604.5509412652
+          ],
+          "scores_total": 4223137.450929663,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-12-25T19:00:00",
+          "pre_tvl_avg": 940248910.0,
+          "post_tvl_avg": 953239957.0,
+          "abnormal_change": 1.3817,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.013817,
+          "abnormal_change_pct": 1.3817
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-12-25T19:00:00",
+          "pre_price_avg": 4.141005475,
+          "post_price_avg": 4.5243818650000005,
+          "abnormal_change": 9.2581,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.092581,
+          "abnormal_change_pct": 9.2581
+        }
+      }
+    },
+    {
+      "proposal_id": "0xaa71cbfadc894d5ddb14a21b2ee38821a9c9b56ef1211f854d68eeccbaaa931b",
+      "cleaned": {
+        "proposal_id": "0xaa71cbfadc894d5ddb14a21b2ee38821a9c9b56ef1211f854d68eeccbaaa931b",
+        "title": "[BIP-611] Delegate BalancerDAO ARB to karpatkey",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "end_utc": "2024-05-27T18:00:00Z",
+        "similarity_score": 0.122,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 1391709.0512458764,
+        "margin_pct": 0.48370241961068977,
+        "scores_total": 2877200.9293771987,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 16,
+        "total_votes": 16,
+        "first_vote_at": "2024-05-23T18:07:49Z",
+        "last_vote_at": "2024-05-27T05:57:24Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.774852477973746,
+            0.0,
+            0.10797875765410697
+          ],
+          [
+            600.3197880493606,
+            0.0,
+            0.0
+          ],
+          [
+            1027.9627912075641,
+            0.0,
+            303542.6027548788
+          ],
+          [
+            2572029.161211827,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.912097,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.087903,
+        "half_slope_diff": 10.529209
+      },
+      "raw": {
+        "id": "0xaa71cbfadc894d5ddb14a21b2ee38821a9c9b56ef1211f854d68eeccbaaa931b",
+        "title": "[BIP-611] Delegate BalancerDAO ARB to karpatkey",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "body": "Payload with PR\nhttps://github.com/BalancerMaxis/multisig-ops/pull/982\n\ntitle: [BIP-611] Delegate BalancerDAO ARB to karpatkey\nauthor: karpatkey\ncreated: 2024-05-15\n\n## Summary\n\nThis proposal aims to delegate the [2M](https://arbiscan.io/address/0xaf23dc5983230e9eeaf93280e312e57539d098d0) ARB voting power held in the Balancer DAO treasury to karpatkey's delegation multisig. This voting power will be actively used by karpatkey in the Arbitrum governance process.\n\n## Abstract\n\nSince the passing of [[BIP-103]](https://snapshot.org/#/balancer.eth/proposal/0xddc174b931a0d2e5e32276a3d0d7110367797dd24248f078d0f7876d0987c92f), karpatkey has been serving as the treasury manager for Balancer DAO, a role that involves active governance interaction. In this capacity, karpatkey has engaged in governance across various protocols and chains. The Balancer DAO has recognised our expertise and commitment, selecting us through the [BIP-452](https://snapshot.org/#/balancer.eth/proposal/0x3a8d63ce6dbebf9b559fcd1acb367ce0c1625b805bde893b62c5a2ba2e827cbc) to be your delegate on Aave. Since December 2023, karpatkey has also been an active delegate in the Arbitrum DAO, contributing to the launch of their Arbitrum delegation [platform](https://forum.arbitrum.foundation/t/karpatkey-delegate-communication-thread/20085).\n\nAs delegates in Arbitrum, we have [provided research](https://forum.arbitrum.foundation/t/arbitrum-treasury-and-sustainability-research/20630) to the Treasury and Sustainability working group. This research presented insights into how the Arbitrum DAO could address treasury management challenges, including recommended practices, tools, or service providers the DAO should adopt. \n\nAdditionally, karpatkey serves as one of six members on the screening committee for the [Stable Treasury Endowment Program (STEP)](https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x5050ef61a4cbff56344ad558c2c880b547fef3b81df607818238ed3031f840b3). This committee will oversee the review and screening of Real World Asset (RWA) service providers that are applying to STEP. This program will support the RWA ecosystem on Arbitrum by diversifying 35 million ARB from their treasury.\n\n\n## Motivation\nThis proposal aims to establish an ARB delegation, empowering karpatkey to provide enhanced support for initiatives that align the Balancer and Arbitrum ecosystems. \n\nkarpatkey, as the treasury manager for the Balancer DAO and an active delegate in Arbitrum, is not just a passive participant. With this positioning and awareness, the karpatkey team will actively and effectively represent the Balancer DAO's delegation.\n\nkarpatkey's active participation and awareness as a delegate are evident in its past initiatives. For instance, we led a proposal on behalf of the Arbitrum community on Aave, which successfully [removed ARB from isolation mode](https://governance.aave.com/t/arfc-remove-arb-from-isolation-mode-on-arbitrum-market/16703). This initiative was mutually beneficial for both Aave and Arbitrum, showcasing the potential for future initiatives led by karpatkey. The same can be said of the proposal led by karpatkey to [deepen the synergies between Aave and the Balancer Ecosystem](https://governance.aave.com/t/arfc-enhancing-aave-daos-liquidity-incentive-strategy-on-balancer/15061), which helped to make Balancer an important source of GHO's liquidity. \n\nBy delegating this voting power, karpatkey can utilise it to vote in alignment with Balancer's interests on topics such as:\n* Incentive programs;\n* Arbitrum's ARB on-chain liquidity enhancement; and\n* Arbitrum's treasury diversification strategies.\n\n## Specification\nThe Balancer treasury vault managed by karpatkey `0xaf23dc5983230e9eeaf93280e312e57539d098d0` on Arbitrum One will interact with the ARB `0x912CE59144191C1204E64559FE8253a0e49E6548` token contract by calling the `delegate` function, passing the karpatkey governance multisig `0x583E3EDc26E1B8620341bce90547197bfE2c1ddD` as the delegatee.\n\nThese actions will delegate the ARB voting power in the Balancer's Treasury wallet on Arbitrum One to karpatkey's governance multi-sig.\n\n### Interacted Addresses \n| Address | Description |\n| ---- | ----- \n| [0x912CE59144191C1204E64559FE8253a0e49E6548](https://arbiscan.io/address/0x912CE59144191C1204E64559FE8253a0e49E6548) | ARB Token |\n| [0xaf23dc5983230e9eeaf93280e312e57539d098d0](https://arbiscan.io/address/0xaf23dc5983230e9eeaf93280e312e57539d098d0)| Balancer Treasury (Delegator) |\n| [0x583E3EDc26E1B8620341bce90547197bfE2c1ddD](https://arbiscan.io/address/0x583E3EDc26E1B8620341bce90547197bfE2c1ddD) | karpatkey multisig (Delegatee) |\n\n\n## Disclosure\nWe have disclosed that karpatkey is the active treasury manager for Balancer DAO.\n\n## Copyright\nCopyright and related rights waived via CC0.",
+        "end_utc": "2024-05-27T18:00:00Z",
+        "similarity_score": 0.122,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2134454.9903115374,
+            0,
+            742745.939065661
+          ],
+          "scores_total": 2877200.9293771987,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-05-27T18:00:00",
+          "pre_tvl_avg": 1150380135.0,
+          "post_tvl_avg": 1165007142.0,
+          "abnormal_change": 1.2715,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.012715,
+          "abnormal_change_pct": 1.2715
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-05-27T18:00:00",
+          "pre_price_avg": 4.007848515,
+          "post_price_avg": 3.95885032,
+          "abnormal_change": -1.2226,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.012226,
+          "abnormal_change_pct": -1.2226
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0xccccbbc78b257823913a94383157a1033a28d09f1cc141b54deb3b0d7302e14f",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.9,
+    "summary": "Proposal to have Balancer act as a technical delegate in the Polygon governance system received unanimous early support in voting and positive forum sentiment, aligning with community governance values and cross-chain collaboration goals.",
+    "key_arguments_for": [
+      "Balancer has strong governance expertise and a track record of decentralized decision-making.",
+      "Participation enhances Balancer's cross-chain presence and influence in Polygon ecosystem governance.",
+      "Forum sentiment is positive and supportive, emphasizing mutual benefit and collaboration.",
+      "Timeline metrics show strong, stable, and early support for the proposal."
+    ],
+    "key_arguments_against": [
+      "No explicit opposition found in forum or voting data.",
+      "Potential risks around resource allocation or governance focus dilution are not discussed."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Balancer forum discussion BIP-721",
+        "quote": "Two initial comments express strong support citing governance expertise and strategic benefits for Balancer and Polygon."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Voting timeline",
+        "quote": "Lead ratio and stability metrics indicate unanimous and early voting support for 'Yes, let's do it'."
+      },
+      {
+        "source_tool": "registry_lookup",
+        "reference": "Balancer governance token",
+        "quote": "Governance token address 0xba100000625a3754423978a60c9317c58a424e3D confirmed."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2024-10-17T18:00:00Z",
+    "event_end_utc": "2024-10-21T18:00:00Z",
+    "event_time_utc": "2024-10-21T18:00:00Z",
+    "address_of_governance_token": "0xba100000625a3754423978a60c9317c58a424e3D",
+    "token_price_impact_pct": -4.7047,
+    "tvl_impact_pct": -2.1057,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        2971092.2012715465,
+        0.0,
+        8896.200892791234
+      ],
+      "scores_total": 2979988.4021643377,
+      "margin_abs": 2962196.0003787554,
+      "margin_pct": 0.994029
+    },
+    "simulation_reason": "Recommendation based on timeline metrics, forum sentiment, and historical adjacent proposal analysis, independent of final tally.",
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Timeline analysis shows unanimous early and stable support for the 'Yes, let's do it' option, indicating strong voter conviction.\n- Forum sentiment is predominantly positive, with key community leaders endorsing the proposal and highlighting governance expertise and collaboration benefits.\n- Adjacent similar proposals also passed with strong yes votes, though their post-vote market impact was positive, suggesting community alignment with technical governance participation.\n- Market and TVL impacts are slightly negative post-vote but do not outweigh governance and strategic benefits for Balancer's long-term positioning.\n- The recommendation aligns with forum sentiment and voting trends, reflecting community views and durable organizational benefit.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0xc2dd5357fee7eef6a7e1b99ae457769c69866480dfe88d035fa182ee3b397406",
+        "title": "[BIP-717] Enable GHO/wUSDL Gauge on Arbitrum",
+        "end_utc": "2024-10-14T18:00:00Z",
+        "summary": "[BIP-717] Enable GHO/wUSDL Gauge on Arbitrum closed on 2024-10-14T18:00:00Z. Timeline analytics noted 6 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.10)",
+        "market_response": "token +4.59%; TVL +3.51%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0xc57dc7846d473aedb168b8b830c915dda27e0f344c29cc004bfdaff8823ab9ac",
+        "title": "[BIP-718] Enable Gauge for dvstETH / wstETH (Ethereum)",
+        "end_utc": "2024-10-14T18:00:00Z",
+        "summary": "[BIP-718] Enable Gauge for dvstETH / wstETH (Ethereum) closed on 2024-10-14T18:00:00Z. Timeline analytics noted 6 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.08)",
+        "market_response": "token +4.59%; TVL +3.51%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -4.7047,
+    "ex_post_tvl_impact_pct": -2.1057,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -4.70%; TVL -2.11%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 0,
+    "Positive": 2,
+    "Neutral": 2,
+    "total_comments": 4
+  }
+}

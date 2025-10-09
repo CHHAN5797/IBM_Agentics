@@ -1,0 +1,1147 @@
+{
+  "captured_at_utc": "2025-10-08T22:12:30.059423+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0xf738bbb126c9dd33091292949c1241c428e62d2cda64dad576916ec0e022e2c6",
+  "focus": null,
+  "votes_count": 3,
+  "timeline_metrics_current": {
+    "unique_voters": 3,
+    "total_votes": 3,
+    "first_vote_at": "2024-12-20T22:23:56Z",
+    "last_vote_at": "2024-12-23T09:48:44Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        522793.8827514289,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        2362036.511790537,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.818778,
+    "spike_follow_support_ratio": 0.0,
+    "stairwise_ratio": 0.181222,
+    "half_slope_diff": 13.613102
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x6f780afa01bbe0a29c4276bf1185ba04372f8a08744f17928fc975a66313fb61",
+      "title": "[BIP-744] Kill the 80wstETH/20GHO Gauge",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2024-12-16T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 4,
+        "total_votes": 4,
+        "first_vote_at": "2024-12-13T15:56:47Z",
+        "last_vote_at": "2024-12-16T10:49:52Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            328128.89418559085,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2577283.326389285,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.815926,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.184074,
+        "half_slope_diff": 22.367609
+      },
+      "price_impact_pct": -11.5696,
+      "tvl_impact_pct": -2.3521,
+      "similarity": 0.0876,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2905412.220574876,
+        "scores_total": 2905412.220574876,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0x0afebd8a2caed356c8d5f5db5282458cb49c2ed3b245caa1035b8f04502a842b",
+      "title": "[BIP-743] Enable USR/GYD gauge [Ethereum]",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2024-12-16T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 4,
+        "total_votes": 4,
+        "first_vote_at": "2024-12-13T15:55:51Z",
+        "last_vote_at": "2024-12-16T10:49:31Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            328130.63332141936,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2577284.817281551,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.815925,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.184075,
+        "half_slope_diff": 22.418872
+      },
+      "price_impact_pct": -11.5696,
+      "tvl_impact_pct": -2.3521,
+      "similarity": 0.1389,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2905415.450602971,
+        "scores_total": 2905415.450602971,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0x8de0f6df2dc1c832d43667dd51279900fc84969018347269a955639069717241",
+      "title": "[BIP-738] Request for Additional Marketing Funding to Maximize Balancer v3 Launch Impact",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2024-12-02T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 9,
+        "total_votes": 9,
+        "first_vote_at": "2024-11-29T17:44:08Z",
+        "last_vote_at": "2024-12-02T16:01:34Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.14471104860589976,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            296166.07665062806,
+            0.0,
+            587.2282252719855
+          ],
+          [
+            139056.77221363032,
+            0.0,
+            2334680.5734846382
+          ]
+        ],
+        "spike_index": 0.999749,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.000251,
+        "half_slope_diff": 0.0
+      },
+      "price_impact_pct": 15.9871,
+      "tvl_impact_pct": 5.6955,
+      "similarity": 0.0679,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 852.1147965891287,
+        "scores_total": 2770490.7952852175,
+        "margin_pct": 0.0003075681745773152
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0xf9243927488220f77c43ca190e087ee0e698b3c53803cfde1831ca0373d6867d",
+      "cleaned": {
+        "proposal_id": "0xf9243927488220f77c43ca190e087ee0e698b3c53803cfde1831ca0373d6867d",
+        "title": "[BIP-727] Enable wstETH-weETHs Gauge [Ethereum]",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "end_utc": "2024-10-28T18:00:00Z",
+        "similarity_score": 0.4529,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3082340.28108665,
+        "margin_pct": 1.0,
+        "scores_total": 3082340.28108665,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 7,
+        "total_votes": 7,
+        "first_vote_at": "2024-10-24T20:27:49Z",
+        "last_vote_at": "2024-10-28T04:51:33Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            452096.2494244395,
+            0.0,
+            0.0
+          ],
+          [
+            1.3491435699029426,
+            0.0,
+            0.0
+          ],
+          [
+            0.6778349147697015,
+            0.0,
+            0.0
+          ],
+          [
+            2630242.0046837255,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.778816,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.221184,
+        "half_slope_diff": -18.795178
+      },
+      "raw": {
+        "id": "0xf9243927488220f77c43ca190e087ee0e698b3c53803cfde1831ca0373d6867d",
+        "title": "[BIP-727] Enable wstETH-weETHs Gauge [Ethereum]",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "body": "PR with Payload:\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1456\n\n**Summary**\n\nThe [ether.fi ](http://ether.fi/) team proposes a Balancer Boosted Gauge for a wstETH-weETHs pool on Ethereum, with no emissions cap. This will serve as a 100% yield bearing pair.\n\nReferences/Useful links:\n\n• Website - https://www.ether.fi/\n\n• Documentation - [ether.fi Whitepaper | ether.fi](https://etherfi.gitbook.io/etherfi/ether.fi-whitepaper)\n\n• Github Page - [etherfi-protocol · GitHub](https://github.com/etherfi-protocol)\n\n• Discord - [ether.fi](https://discord.com/invite/zqGzcuQWvD)\n\n• Twitter - https://twitter.com/ether_fi\n\n**Protocol Description:**\n\n[ether.fi ](http://ether.fi/) is a decentralised, non-custodial liquid staking protocol built on Ethereum, allowing users to stake their ETH and participate in the DeFi ecosystem without losing liquidity. The protocols weETHs is a liquid restaking token, serving as a representation of ETH staked on the Beacon Chain and restaked on Symbiotic. Users can deposit ETH into the liquidity pool on Ethereum Mainnet to mint weETHs, hold weETHs to accrue rewards, and use weETHs within DeFi or swap it back to ETH at any time via the liquidity pool. The protocol currently employs a permissioned validator set, however this will transition to permissionless based on the protocol roadmap.\n\nETH staked through the[ ether.fi ](http://ether.fi/) liquidity pool into weETHs accrues normal Ethereum staking rewards and will also be natively restaked with Symbiotic. Staking with weETHs on[ ether.fi ](http://ether.fi/) automatically restakes that ETH to Symbiotic and accrues normal staking rewards while allowing users to keep composability on their weETHs in other DeFi protocols. Being a liquid representation of staked Ethereum, the price of the token is aligned to the price of ETH.\n\nThrough these mechanisms, weETHs acts as a conduit for individuals to engage in Ethereum’s staking & restaking process with the added liquidity, making it easier for them to enter and exit staking positions while also benefiting from boosted rewards.\n\n**Motivation:**\n\n[ether.fi ](http://ether.fi/) is looking to seed a wstETH-weETHs pool on balancer to serve as a primary source of liquidity for weETHs on Ethereum. Incentivizing a Balancer pool will continue to boost the liquidity of the LRT on Ethereum. Higher liquidity ensures that traders and investors can easily enter or exit positions, which is essential for the overall usability and attractiveness of the LRT token within the DeFi ecosystem.\n\n**Specifications:**\n\n1. Governance: - Currently, the protocol utilizes a DAO and a governance token model to push large initiatives and objectives.\n\n2. Oracles: - The Protocol relies on an oracle for withdrawals and beacon state, however, the reliance on an oracle for beacon state is set to go away in an upcoming Ethereum upgrade. The Oracle is based on the hash consensus mechanism and run by the internal & external committee members.\n\n3. Audits: - Audit reports for the[ ether.fi ](http://ether.fi/) protocol are found on the GitBook page -[ Audits - ether.fi](https://etherfi.gitbook.io/etherfi/security/audits). The audits have been carried out by reputable firms such as Certik, Zellic, Nethermind, Omniscia and Solidified to ensure the security of the protocol. An audit competition was also recently completed through Hats Finance.\n4. Centralization vectors: - The centralization vectors primarily relate to the Oracle which is run by a multi-party committee. The price (staking rewards for rebasing) and the validator management (spinning up new validators and exiting them for liquidation) are also tied into the functionality of the protocol oracle.\n5. Market History: - weETHs has been deployed and functional since June '24. Market history and protocol information can be found here on the[ ether.fi ](http://ether.fi/) Dune dashboard -[ https://dune.com/ether_fi/etherfi ](https://dune.com/ether_fi/etherfi)\n6. Value: - The wstETH-weETHs pool on Balancer is intended to serve as one of the primary liquidity sources for the token on Ethereum. The pairing of wstETH with weETHs will maintain the originally intended smooth trading experience, while yielding more rewards for the liquidity providers.\n\nweETHs on Ethereum: 0x917cee801a67f933f2e6b33fc0cd1ed2d5909d88\n\nwstETH/weETHs Base pool on Balancer:[ Balancer 2 ](https://balancer.fi/pools/ethereum/v2/0x2ab8df7429f4fce60eb2c1233f0326767765e2f30000000000000000000006da)\n\n**Specification**\n\nTransaction: The Balancer Maxi LM Multisig eth:`0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function with the following arguments:\n\ngauge(address): `0x0Bb8B971AaF99eddfddE2e71736eBEBe8CC7769b`\n\ngaugeType(string): `Ethereum`",
+        "end_utc": "2024-10-28T18:00:00Z",
+        "similarity_score": 0.4529,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3082340.28108665,
+            0,
+            0
+          ],
+          "scores_total": 3082340.28108665,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-10-28T18:00:00",
+          "pre_tvl_avg": 714577556.0,
+          "post_tvl_avg": 766195573.5,
+          "abnormal_change": 7.2236,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.072236,
+          "abnormal_change_pct": 7.2236
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-10-28T18:00:00",
+          "pre_price_avg": 1.875358575,
+          "post_price_avg": 1.9267275000000001,
+          "abnormal_change": 2.7392,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.027392,
+          "abnormal_change_pct": 2.7392
+        }
+      }
+    },
+    {
+      "proposal_id": "0x985fbb80e2960e2d1fd4ab3e67294236ab7b346329909ae00a4bc6f611adcdc8",
+      "cleaned": {
+        "proposal_id": "0x985fbb80e2960e2d1fd4ab3e67294236ab7b346329909ae00a4bc6f611adcdc8",
+        "title": "[BIP-596] Enable weETH/WETH Gauge [BASE]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2024-05-06T18:00:00Z",
+        "similarity_score": 0.3753,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2887049.209712828,
+        "margin_pct": 0.9995575082297745,
+        "scores_total": 2888327.2707598573,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 16,
+        "total_votes": 16,
+        "first_vote_at": "2024-05-02T20:02:04Z",
+        "last_vote_at": "2024-05-06T12:28:16Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1118.6407596116455,
+            0.0,
+            0.0
+          ],
+          [
+            230501.3933709112,
+            0.0,
+            0.0
+          ],
+          [
+            1.4171465767235598,
+            0.0,
+            0.0
+          ],
+          [
+            2656066.7889592433,
+            0.0,
+            639.0305235142619
+          ]
+        ],
+        "spike_index": 0.826699,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.173301,
+        "half_slope_diff": 27.423056
+      },
+      "raw": {
+        "id": "0x985fbb80e2960e2d1fd4ab3e67294236ab7b346329909ae00a4bc6f611adcdc8",
+        "title": "[BIP-596] Enable weETH/WETH Gauge [BASE]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "PR with payload \nhttps://github.com/BalancerMaxis/multisig-ops/pull/945\nSummary\nThe [ether.fi](http://ether.fi) team proposes a Balancer Boosted Gauge for a weETH-WETH pool on Base, with no emissions cap. This will serve as a 100% yield bearing pair.\n\nReferences/Useful links:\n\n• Website - https://www.ether.fi/\n\n• Documentation - https://etherfi.gitbook.io/etherfi/ether.fi-whitepaper\n\n• Github Page - https://github.com/etherfi-protocol\n\n• Discord - https://discord.com/invite/zqGzcuQWvD\n\n• Twitter - https://twitter.com/ether_fi\n\nProtocol Description:\n\n[ether.fi](http://ether.fi) is a decentralised, non-custodial liquid staking protocol built on Ethereum, allowing users to stake their ETH and participate in the DeFi ecosystem without losing liquidity. The protocols eETH is a liquid restaking token (weETH is the non-rebasing equivalent), serving as a representation of ETH staked on the Beacon Chain, which rebases daily to reflect the associated staking rewards. Users can deposit ETH into the liquidity pool on Ethereum Mainnet to mint eETH, hold eETH to accrue rewards, and use eETH within DeFi or swap it back to ETH at any time via the liquidity pool. The protocol currently employs a permissioned validator set, however this will transition to permissionless based on the protocol roadmap.\n\nETH staked through the[ ether.fi](http://ether.fi) liquidity pool accrues normal Ethereum staking rewards and will also be natively restaked with EigenLayer. Staking with eETH on[ ether.fi](http://ether.fi) automatically natively restakes that ETH to EigenLayer and accrues normal staking rewards while allowing users to keep composability on their eETH in other DeFi protocols.\n\nThe eETH contract has been live since June 2023, with eETH launching to the open market on November 15th, 2023, and has approx. 1.23 million ETH held within it. Being a liquid representation of staked Ethereum, the price of the token is aligned to the price of ETH.\n\nThrough these mechanisms, eETH acts as a conduit for individuals to engage in Ethereum’s staking & restaking process with the added liquidity, making it easier for them to enter and exit staking positions while also benefiting from boosted rewards.\n\nMotivation:\n\n[ether.fi](http://ether.fi) is looking to seed a weETH/WETH pool on balancer to serve as a primary source of liquidity for weETH on Base. Incentivising a Balancer pool will continue to boost the liquidity of the LRT on Base. Higher liquidity ensures that traders and investors can easily enter or exit positions, which is essential for the overall usability and attractiveness of the LRT token within the L2 DeFi ecosystem.\n\nSpecifications:\n\n1. Governance: - Currently, the protocol utilises a multi signature wallet, with the signatories being doxxed[ ether.fi](http://ether.fi) executives. This will change with the evolution of the protocol, moving to decentralised governance with a DAO and a governance token.\n2. Oracles: - The Protocol relies on an oracle for withdrawals and beacon state, however, the reliance on an oracle for beacon state is set to go away in an upcoming Ethereum upgrade. The Oracle is based on the hash consensus mechanism and run by the committee members. Initially, the[ ether.fi](http://ether.fi) team will be the only ones to operate the Oracle nodes, however as the protocol grows, it will add more external parties to join the committee.\n\n* The exchange rate feed for weETH-ETH on Base has been deployed by Chainlink.\n\n3. Audits: - Audit reports for the[ ether.fi](http://ether.fi) protocol are found on the GitBook page -[ Audits - ether.fi](https://etherfi.gitbook.io/etherfi/security/audits). The audits have been carried out by reputable firms such as Certik, Zellic, Nethermind, Omniscia and Solidified to ensure the security of the protocol. An audit competition was also recently completed through Hats Finance.\n4. Centralization vectors: - The centralization vectors primarily relate to the Oracle until it becomes decentralised, in line with the protocol roadmap. The price (staking rewards for rebasing) and the validator management (spinning up new validators and exiting them for liquidation) are also currently centralised for the early stages of the protocol to ensure mobility. As mentioned above, the signatories currently consist of the doxxed executive team at[ ether.fi](http://ether.fi), however this will be upgraded with the implementation of the[ ether.fi](http://ether.fi) DAO and governance.\n5. Market History: - eETH was first deployed November 15, 2023. Market history and protocol information can be found here on the[ ether.fi](http://ether.fi) Dune dashboard -[ https://dune.com/ether_fi/etherfi](https://dune.com/ether_fi/etherfi)\n6. Value: - The weETH/WETH pool on Balancer is intended to serve as a primary liquidity source for the token on Base. The pairing of weETH with WETH will maintain the originally intended smooth trading experience, while yielding more rewards for the liquidity providers.\n\nweETH on Base: 0x04C0599Ae5A44757c0af6F9eC3b93da8976c150A\n\nweETH/WETH Base pool on Balancer:[ Balancer 2](https://app.balancer.fi/#/base/pool/0xab99a3e856deb448ed99713dfce62f937e2d4d74000000000000000000000118)\n\nChild chain gauge[ 0xF7862A614fFEA2BF8Ef2D66a872bE2Df735D22E6](https://basescan.org/address/0xf7862a614ffea2bf8ef2d66a872be2df735d22e6)— mainnet root: [0x2280B8C8B401CA54eBF15736B77E1d3bF4924A9D](https://etherscan.io/address/0x2280B8C8B401CA54eBF15736B77E1d3bF4924A9D#code)\n\nSpecification\n\nTransaction: The Balancer Maxi LM Multisig eth:0xc38c5f97B34E175FFd35407fc91a937300E33860 will interact with the GaugeAdderv4 at 0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd and call the addGauge function with the following arguments:\n\ngauge(address): 0x2280B8C8B401CA54eBF15736B77E1d3bF4924A9D\n\ngaugeType(string): Base",
+        "end_utc": "2024-05-06T18:00:00Z",
+        "similarity_score": 0.3753,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2887688.2402363424,
+            0,
+            639.0305235142619
+          ],
+          "scores_total": 2888327.2707598573,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-05-06T18:00:00",
+          "pre_tvl_avg": 1064500915.5,
+          "post_tvl_avg": 1033384027.5,
+          "abnormal_change": -2.9231,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.029231,
+          "abnormal_change_pct": -2.9231
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-05-06T18:00:00",
+          "pre_price_avg": 3.627341295,
+          "post_price_avg": 3.526669925,
+          "abnormal_change": -2.7753,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.027753,
+          "abnormal_change_pct": -2.7753
+        }
+      }
+    },
+    {
+      "proposal_id": "0x106037af670b965bea22ff12b37cf3207d2acd798ed4dbd0c9dc241d8d9b5d22",
+      "cleaned": {
+        "proposal_id": "0x106037af670b965bea22ff12b37cf3207d2acd798ed4dbd0c9dc241d8d9b5d22",
+        "title": "[BIP-554] Enable weETH/rETH Gauge w/ 10% cap [Arbitrum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2024-03-04T19:00:00Z",
+        "similarity_score": 0.3627,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3527415.1706390325,
+        "margin_pct": 1.0000000000000002,
+        "scores_total": 3527415.170639032,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 24,
+        "total_votes": 24,
+        "first_vote_at": "2024-02-29T19:13:42Z",
+        "last_vote_at": "2024-03-04T16:58:38Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            448.2942556775251,
+            0.0,
+            0.0
+          ],
+          [
+            1.7876219564737381,
+            0.0,
+            0.0
+          ],
+          [
+            408434.5496428833,
+            0.0,
+            0.0
+          ],
+          [
+            3118530.5391185153,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.795,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.089823,
+        "half_slope_diff": 69.02563
+      },
+      "raw": {
+        "id": "0x106037af670b965bea22ff12b37cf3207d2acd798ed4dbd0c9dc241d8d9b5d22",
+        "title": "[BIP-554] Enable weETH/rETH Gauge w/ 10% cap [Arbitrum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/823\n\n**Summary**\nThe ether.fi team proposes a Balancer Boosted Gauge for a weETH-rETH pool on Arbitrum, with a 10% emissions cap. This will serve as a 100% yield bearing pair. \n\n**References/Useful links:**\n\n```\n• Website - https://www.ether.fi/\n• Documentation - https://etherfi.gitbook.io/etherfi/ether.fi-whitepaper\n• Github Page - https://github.com/etherfi-protocol\n• Discord - https://discord.com/invite/zqGzcuQWvD\n• Twitter - https://twitter.com/ether_fi\n```\n\n**Protocol Description:**\n\nether.fi is a decentralized, non-custodial liquid staking protocol built on Ethereum, allowing users to stake their ETH and participate in the DeFi ecosystem without losing liquidity. The protocols eETH is a liquid restaking token (weETH is the non-rebasing equivalent), serving as a representation of ETH staked on the Beacon Chain, which rebases daily to reflect the associated staking rewards. Users can deposit ETH into the liquidity pool on Ethereum Mainnet to mint eETH, hold eETH to accrue rewards, and use eETH within DeFi or swap it back to ETH at any time via the liquidity pool. The protocol currently employs a permissioned validator set, however this will transition to permisionless based on the protocol roadmap.\n\nETH staked through the ether.fi liquidity pool accrues normal Ethereum staking rewards, and will also be natively restaked with EigenLayer. Staking with eETH on ether.fi automatically natively restakes that ETH to EigenLayer and accrues normal staking rewards while allowing users to keep composability on their eETH in other DeFi protocols. \n\nThe eETH contract has been live since June 2023, with eETH launching to the open market on November 15th, 2023, and has approx. 515k ETH held within it. Being a liquid representation of staked Ethereum, the price of the token is aligned to the price of ETH.\n\nThrough these mechanisms, eETH acts as a conduit for individuals to engage in Ethereum’s staking & restaking process with the added liquidity, making it easier for them to enter and exit staking positions while also benefiting from boosted rewards.\n\n**Motivation:**\n\nether.fi is looking to seed a weETH/rETH pool on balancer to serve as a primary source of liquidity for weETH on Arbitrum. Incentivising a Balancer pool will continue to boost the liquidity of the LRT on Arbitrum. Higher liquidity ensures that traders and investors can easily enter or exit positions, which is essential for the overall usability and attractiveness of the LRT token within the L2 DeFi ecosystem. \n\n**Specifications:**\n\n1. **Governance:** - Currently, the protocol utilises a multi signature wallet, with the signatories being doxxed ether.fi executives. This will change with the evolution of the protocol, moving to decentralized governance with a DAO and a governance token.\n\n2. **Oracles:** - The Protocol relies on an oracle for withdrawals and beacon state, however, the reliance on an oracle for beacon state is set to go away in an upcoming Ethereum upgrade. The Oracle is based on the hash consensus mechanism and run by the committee members. Initially, the ether.fi team will be the only ones to operate the Oracle nodes, however as the protocol grows, it will add more external parties to join the committee.\n\n* The exchange rate feed for weETH-ETH on Arbitrum has been deployed by Chainlink. \n\n3. **Audits:** - Audit reports for the ether.fi protocol are found on the GitBook page - [Audits - ether.fi](https://etherfi.gitbook.io/etherfi/security/audits). The audits have been carried out by reputable firms such as Certik, Zellic, Nethermind, Omniscia and Solidified to ensure the security of the protocol. An audit competition was also recently completed through Hats Finance.\n\n4. **Centralization vectors:** - The centralization vectors primarily relate to the Oracle until it becomes decentralized, in line with the protocol roadmap. The price (staking rewards for rebasing) and the validator management (spinning up new validators and exiting them for liquidation) are also currently centralized for the early stages of the protocol to ensure mobility. As mentioned above, the signatories currently consist of the doxxed executive team at ether.fi, however this will be upgraded with the implementation of the ether.fi DAO and governance.\n\n5. **Market History:** - eETH was first deployed November 15, 2023. Market history and protocol information can be found here on the ether.fi Dune dashboard - https://dune.com/ether_fi/etherfi\n\n6. **Value:** - The weETH/rETH pool on Balancer is intended to serve as a primary liquidity source for the token on Arbitrum. The pairing of eETH with rETH will maintain the originally intended smooth trading experience, while yielding more rewards for the liquidity providers.\n\nweETH on Arbitrum: 0x35751007a407ca6FEFfE80b3cB397736D2cf4dbe\n\nweETH/rETH Arbitrum pool on Balancer: https://app.balancer.fi/#/arbitrum/pool/0x4b3af34eb1135d59df8b9cdc2ff07d30d05334c400000000000000000000050d\n\nChild chain gauge [0x8C206459a557aA736F698401BD6029fC0Db3f3c8](https://arbiscan.io/address/0x8C206459a557aA736F698401BD6029fC0Db3f3c8#code) — mainnet root: [0xB5dCdE9aDCace88705658Aa276C557afC011FE55]\n\n### Specification\n\nTransaction: The Balancer Maxi LM Multisig `eth:0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the `addGauge` function with the following arguments:\n\ngauge(address): `0xB5dCdE9aDCace88705658Aa276C557afC011FE55`\n\ngaugeType(string): `Arbitrum`",
+        "end_utc": "2024-03-04T19:00:00Z",
+        "similarity_score": 0.3627,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3527415.1706390325,
+            0,
+            0
+          ],
+          "scores_total": 3527415.170639032,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-03-04T19:00:00",
+          "pre_tvl_avg": 1338707812.5,
+          "post_tvl_avg": 1384228231.5,
+          "abnormal_change": 3.4003,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.034003,
+          "abnormal_change_pct": 3.4003
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-03-04T19:00:00",
+          "pre_price_avg": 5.21338803,
+          "post_price_avg": 5.73393735,
+          "abnormal_change": 9.9849,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.099849,
+          "abnormal_change_pct": 9.9849
+        }
+      }
+    },
+    {
+      "proposal_id": "0x141051b2fe6f18e322539c0e54b2fb0d9872b6096f2c3fd71fa3bf27e5c7b8f8",
+      "cleaned": {
+        "proposal_id": "0x141051b2fe6f18e322539c0e54b2fb0d9872b6096f2c3fd71fa3bf27e5c7b8f8",
+        "title": "[BIP-492] Enable weETH/WETH Gauge [Ethereum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-11-27T19:00:00Z",
+        "similarity_score": 0.3407,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 4064168.400032744,
+        "margin_pct": 0.9996888492611453,
+        "scores_total": 4065433.3626272897,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 52,
+        "total_votes": 52,
+        "first_vote_at": "2023-11-23T20:00:56Z",
+        "last_vote_at": "2023-11-27T18:52:57Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.958333,
+            0.041667,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9807692307692307,
+          0.019230769230769232,
+          0.0
+        ],
+        "stability": [
+          0.9807692307692307,
+          0.019230769230769232,
+          0.0
+        ],
+        "early_ratio": [
+          0.9583333333333334,
+          0.041666666666666664,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            258868.45458039115,
+            0.0160085528444447,
+            0.0
+          ],
+          [
+            1045.8500859904384,
+            0.0,
+            632.1818003342084
+          ],
+          [
+            1.6421876605319192,
+            0.0,
+            0.0
+          ],
+          [
+            3804885.2179643624,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.84776,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 3e-06,
+        "half_slope_diff": 22.398117
+      },
+      "raw": {
+        "id": "0x141051b2fe6f18e322539c0e54b2fb0d9872b6096f2c3fd71fa3bf27e5c7b8f8",
+        "title": "[BIP-492] Enable weETH/WETH Gauge [Ethereum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/645\n\n**Summary:**\nThe [ether.fi](https://www.ether.fi/) team proposes a Balancer Boosted Gauge for a weETH-WETH pool on Ethereum mainnet, with a 10% emissions cap.\n\n**References/Useful links:**\n\n    • Website - https://www.ether.fi/\n    • Documentation - https://etherfi.gitbook.io/etherfi/ether.fi-whitepaper\n    • Github Page - https://github.com/etherfi-protocol\n    • Discord - https://discord.com/invite/zqGzcuQWvD\n    • Twitter - https://twitter.com/ether_fi\n\n**Protocol Description:**\n\nEther.fi is a decentralized, non-custodial liquid staking protocol built on Ethereum, allowing users to stake their ETH and participate in the DeFi ecosystem without losing liquidity. The protocols eETH is a liquid restaking token (weETH is the non-rebasing equivalent), serving as a representation of ETH staked on the Beacon Chain, which rebases daily to reflect the associated staking rewards. Users can deposit ETH into the liquidity pool to mint eETH, hold eETH to accrue rewards, and use eETH within DeFi or swap it back to ETH at any time via the liquidity pool. The protocol currently employs a permissioned validator set, however this will transition to permisionless based on the protocol roadmap.\n\nETH staked through the ether.fi protocol liquidity pool accrues normal Ethereum staking rewards, and will also be natively restaked with EigenLayer. Currently when users wish to restake their LST’s they lock their tokens, which breaks composability in DeFi. Staking with eETH on [ether.fi](http://ether.fi) automatically natively restakes that ETH to EigenLayer and accrues normal staking rewards while allowing users to keep composability on their eETH in other DeFi protocols. No other liquid staking protocol has this capability.\n\nThe eETH contract has been live since June 2023 and has approx. 10,000 ETH held within in - this ETH was accumulated before eETH was officially launched and available for end users to hold directly. Being a liquid representation of staked Ethereum, the price of the token is aligned to the price of ETH.\n\nThrough these mechanisms, eETH acts as a conduit for individuals to engage in Ethereum's staking & restaking process with the added liquidity, making it easier for them to enter and exit staking positions while also benefiting from boosted rewards.\n\n**Motivation:**\n\nEther.fi is looking to seed a weETH/wETH pool on balancer to serve as a primary source of liquidity for eETH. Incentivising a Balancer pool could significantly boost the liquidity of the LRT. Higher liquidity ensures that traders and investors can easily enter or exit positions, which is essential for the overall usability and attractiveness of the LRT token within the DeFi ecosystem. To ensure success, ether.fi is committed to enhancing the value of the veBAL ecosystem by promoting pool liquidity through Hidden Hand voting incentives\n\n**Specifications:**\n \n1. **Governance:**  - Currently, the protocol utilises a multi signature wallet, with the signatories being doxxed ether.fi executives. This will change with the evolution of the protocol, moving to decentralized governance with a DAO and a governance token in approx. 3-6 months.\n\n2. **Oracles:** - The Protocol relies on an oracle for withdrawals and beacon state, however, the reliance on an oracle for beacon state is set to go away in an upcoming Ethereum upgrade. The Oracle is based on the hash consensus mechanism and run by the committee members. Initially, the ether.fi team will be the only ones to operate the Oracle nodes, however the protocol grows, it will add more external parties to join the committee.\n\n3. **Audits:** - Audit reports for the ether.fi protocol are found on the GitBook page - https://etherfi.gitbook.io/etherfi/security/audits. The audits have been carried out by reputable firms such as Certik, Zellic, Nethermind, Omniscia and Solidified to ensure the security of the protocol. An audit competition was also recently completed through Hats Finance. \n\n4. **Centralization vectors:** - The centralization vectors primarily relate to the Oracle until it becomes decentralized, in line with the protocol roadmap. The price (staking rewards for rebasing) and the validator management (spinning up new validators and exiting them for liquidation) are also currently centralized for the early stages of the protocol to ensure mobility. As mentioned above, the signatories currently consist of the doxxed executive team at Ether.fi, however this will be upgraded with the implementation of the ether.fi DAO and governance.\n\n5. **Market History:** eETH is a brand new Liquid restaking token, therefore there is not much in the way of market history as Balancer will serve as the first pool to support wrapped eETH. \nweETH/wETH pool on Balancer: [0xb9dEbDDF1d894c79D2B2d09f819FF9B856FCa552](https://etherscan.io/address/0xb9debddf1d894c79d2b2d09f819ff9b856fca552)\nGauge: [0x5D7C0521DB5a6F37aD839d0eEfbaF8205389adD8](https://etherscan.io/address/0x5D7C0521DB5a6F37aD839d0eEfbaF8205389adD8) \n\n6. **Value:** - The weETH/wETH pool on Balancer is intended to serve as a primary liquidity source for the token. The pairing of eETH with wETH allows for a more seamless trading experience within the Ethereum ecosystem, which could attract more users and, in turn, generate more fees for the platform.\n\n**Specification**:\n\nThe Balancer Maxi LM Multisig eth:`0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function with the following arguments:\ngauge(address):`0x5D7C0521DB5a6F37aD839d0eEfbaF8205389adD8`\ngaugeType(string): `Ethereum`",
+        "end_utc": "2023-11-27T19:00:00Z",
+        "similarity_score": 0.3407,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            4064800.780163658,
+            0.20233271781795428,
+            632.3801309138153
+          ],
+          "scores_total": 4065433.3626272897,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-11-27T19:00:00",
+          "pre_tvl_avg": 869826761.0,
+          "post_tvl_avg": 837224491.0,
+          "abnormal_change": -3.7481,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.037481,
+          "abnormal_change_pct": -3.7481
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-11-27T19:00:00",
+          "pre_price_avg": 3.810750285,
+          "post_price_avg": 3.65660173,
+          "abnormal_change": -4.0451,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.040451,
+          "abnormal_change_pct": -4.0451
+        }
+      }
+    },
+    {
+      "proposal_id": "0x2de50d7498d63bae2e1dba09f2475ded81bd6190448351219c4fbd5223063f82",
+      "cleaned": {
+        "proposal_id": "0x2de50d7498d63bae2e1dba09f2475ded81bd6190448351219c4fbd5223063f82",
+        "title": "[BIP-507] Enable weETH/rETH Gauge w/ 10% Cap [Ethereum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-12-18T19:00:00Z",
+        "similarity_score": 0.3357,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 4410626.417213523,
+        "margin_pct": 1.0,
+        "scores_total": 4410626.417213523,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 33,
+        "total_votes": 33,
+        "first_vote_at": "2023-12-15T06:10:10Z",
+        "last_vote_at": "2023-12-18T16:56:55Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.8143404752831634,
+            0.0,
+            0.0
+          ],
+          [
+            236294.46961259632,
+            0.0,
+            0.0
+          ],
+          [
+            1898.3917316834554,
+            0.0,
+            0.0
+          ],
+          [
+            4172432.74152877,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.798566,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.066053,
+        "half_slope_diff": 103.424835
+      },
+      "raw": {
+        "id": "0x2de50d7498d63bae2e1dba09f2475ded81bd6190448351219c4fbd5223063f82",
+        "title": "[BIP-507] Enable weETH/rETH Gauge w/ 10% Cap [Ethereum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/683\n\n**Summary:**\nThe [ether.fi](https://www.ether.fi/) team proposes a Balancer Boosted Gauge for a weETH-rETH pool on Ethereum mainnet, with a 10% emissions cap. The goal is to move from the current weETH-WETH pool to this one over time because of the 100% yield bearing nature in the new pairing. The proposal below is based on the original proposal of [BIP-492](https://forum.balancer.fi/t/bip-492-enable-weeth-weth-gauge-ethereum/5353).\n\n**Protocol Description:**\n\n[Ether.fi](http://ether.fi/) is a decentralized, non-custodial liquid staking protocol built on Ethereum, allowing users to stake their ETH and participate in the DeFi ecosystem without losing liquidity. The protocols eETH is a liquid restaking token (weETH is the non-rebasing equivalent), serving as a representation of ETH staked on the Beacon Chain, which rebases daily to reflect the associated staking rewards. Users can deposit ETH into the liquidity pool to mint eETH, hold eETH to accrue rewards, and use eETH within DeFi or swap it back to ETH at any time via the liquidity pool. The protocol currently employs a permissioned validator set, however this will transition to permisionless based on the protocol roadmap.\n\nETH staked through the [ether.fi ](http://ether.fi/) protocol liquidity pool accrues normal Ethereum staking rewards, and will also be natively restaked with EigenLayer. Currently when users wish to restake their LST’s they lock their tokens, which breaks composability in DeFi. Staking with eETH on [ether.fi ](http://ether.fi/) automatically natively restakes that ETH to EigenLayer and accrues normal staking rewards while allowing users to keep composability on their eETH in other DeFi protocols. No other liquid staking protocol has this capability.\n\nThe eETH contract has been live since June 2023 and has approx. 10,000 ETH held within in - this ETH was accumulated before eETH was officially launched and available for end users to hold directly. Being a liquid representation of staked Ethereum, the price of the token is aligned to the price of ETH.\n\nThrough these mechanisms, eETH acts as a conduit for individuals to engage in Ethereum’s staking & restaking process with the added liquidity, making it easier for them to enter and exit staking positions while also benefiting from boosted rewards.\n\n**Motivation:**\n\n[Ether.fi](http://ether.fi/) is looking to seed a weETH/rETH pool on balancer to serve as a primary source of liquidity for eETH. Incentivising a Balancer pool could significantly boost the liquidity of the LRT. Higher liquidity ensures that traders and investors can easily enter or exit positions, which is essential for the overall usability and attractiveness of the LRT token within the DeFi ecosystem. To ensure success, [ether.fi ](http://ether.fi/) is committed to enhancing the value of the veBAL ecosystem by promoting pool liquidity through Hidden Hand voting incentives\n\n**Specifications:**\n\n1. **Governance:** - Currently, the protocol utilises a multi signature wallet, with the signatories being doxxed [ether.fi ](http://ether.fi/) executives. This will change with the evolution of the protocol, moving to decentralized governance with a DAO and a governance token in approx. 3-6 months.\n2. **Oracles:** - The Protocol relies on an oracle for withdrawals and beacon state, however, the reliance on an oracle for beacon state is set to go away in an upcoming Ethereum upgrade. The Oracle is based on the hash consensus mechanism and run by the committee members. Initially, the [ether.fi ](http://ether.fi/) team will be the only ones to operate the Oracle nodes, however the protocol grows, it will add more external parties to join the committee. \n- The rate provder for weETH is the same contract as the token and has been reviewed by the integrations team. It was deemed SAFE [here](https://github.com/threerocks-defi/code-review/blob/main/rate-providers/WeETH.md). \n3. **Audits:** - Audit reports for the [ether.fi ](http://ether.fi/) protocol are found on the GitBook page - https://etherfi.gitbook.io/etherfi/security/audits. The audits have been carried out by reputable firms such as Certik, Zellic, Nethermind, Omniscia and Solidified to ensure the security of the protocol. An audit competition was also recently completed through Hats Finance.\n4. **Centralization vectors:** - The centralization vectors primarily relate to the Oracle until it becomes decentralized, in line with the protocol roadmap. The price (staking rewards for rebasing) and the validator management (spinning up new validators and exiting them for liquidation) are also currently centralized for the early stages of the protocol to ensure mobility. As mentioned above, the signatories currently consist of the doxxed executive team at [Ether.fi](http://ether.fi/), however this will be upgraded with the implementation of the [ether.fi ](http://ether.fi/) DAO and governance.\n5. **Market History:** eETH is a brand new Liquid restaking token, therefore there is not much in the way of market history as Balancer will serve as the first pool to support wrapped eETH.\nweETH/rETH pool on Balancer: [0x05ff47AFADa98a98982113758878F9A8B9FddA0a](https://app.balancer.fi/#/ethereum/pool/0x05ff47afada98a98982113758878f9a8b9fdda0a000000000000000000000645)\nGauge: [0xC859BF9d7B8C557bBd229565124c2C09269F3aEF](https://etherscan.io/address/0xC859BF9d7B8C557bBd229565124c2C09269F3aEF)\n6. **Value:** - The weETH/rETH pool on Balancer is intended to serve as a primary liquidity source for the token. The pairing of eETH with rETH will maintain the originally intended smooth trading experience, while yielding more rewards for the liquidity providers. \n\n**Specification**:\n\nThe Balancer Maxi LM Multisig eth:`0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function with the following arguments:\ngauge(address): `0xC859BF9d7B8C557bBd229565124c2C09269F3aEF`\ngaugeType(string): `Ethereum`",
+        "end_utc": "2023-12-18T19:00:00Z",
+        "similarity_score": 0.3357,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            4410626.417213523,
+            0,
+            0
+          ],
+          "scores_total": 4410626.417213523,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-12-18T19:00:00",
+          "pre_tvl_avg": 934201277.5,
+          "post_tvl_avg": 902080057.5,
+          "abnormal_change": -3.4384,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.034384,
+          "abnormal_change_pct": -3.4384
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-12-18T19:00:00",
+          "pre_price_avg": 3.95226796,
+          "post_price_avg": 3.9702763,
+          "abnormal_change": 0.4556,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.004556,
+          "abnormal_change_pct": 0.4556
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0xf738bbb126c9dd33091292949c1241c428e62d2cda64dad576916ec0e022e2c6",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.9,
+    "summary": "The proposal to enable the eBTC-WBTC gauge on Ethereum by the Ether.fi team is well-supported by the community, showing stable and consistent voting for 'Yes, let's do it'. The forum discussion is neutral to positive, with detailed rationale provided. Similar past proposals enabling new gauges had positive or neutral market impacts and were successful. The positive TVL and price impact indicators reinforce the benefit of this change.",
+    "key_arguments_for": [
+      "Strong timeline voting metrics with consistent lead for 'Yes' option.",
+      "Neutral to positive forum sentiment with detailed technical rationale.",
+      "Similar past proposals enabling gauges led to positive or neutral market outcomes.",
+      "Post-event TVL and price impact percentages are positive, indicating network growth."
+    ],
+    "key_arguments_against": [
+      "No negative or opposing forum comments found before proposal deadline.",
+      "No signs of community concerns or risks highlighted in discussion."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.balancer.fi/t/bip-745-enable-ebtc-wbtc-gauge-ethereum/6233",
+        "quote": "Two forum comments before deadline, both neutral sentiment, detailed proposal description by Showtime."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Balancer Snapshot Proposal 0xf738bbb126c9dd33091292949c1241c428e62d2cda64dad576916ec0e022e2c6",
+        "quote": "Stable voting lead for 'Yes, let's do it' with no vote changes, high lead ratios and stability."
+      },
+      {
+        "source_tool": "adjacent_analytics",
+        "reference": "Similar proposals BIP-744 and BIP-743",
+        "quote": "Similar proposals enabled gauges with positive or neutral market impact and successful vote outcomes."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2024-12-19T19:00:00Z",
+    "event_end_utc": "2024-12-23T19:00:00Z",
+    "event_time_utc": "2024-12-23T19:00:00Z",
+    "address_of_governance_token": "0xBA100000625a3754423978a60c9317c58a424e3D",
+    "token_price_impact_pct": 4.1902,
+    "tvl_impact_pct": 6.9293,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        2884830.394541966,
+        0.0,
+        0.0
+      ],
+      "scores_total": 2884830.394541966,
+      "margin_abs": 2884830.394541966,
+      "margin_pct": 1.0
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Strong timeline voting metrics indicate stable and consistent support for enabling the gauge.\n- Forum discussion is neutral but informative, with no opposing views expressed before deadline.\n- Similar historical proposals enabling gauges resulted in positive or neutral market and TVL impacts, supporting the change.\n- Positive price and TVL impact percentages post-event suggest this change will benefit the protocol's growth.\n- Forum sentiment aligns with the vote recommendation, indicating the decision reflects community views.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x0afebd8a2caed356c8d5f5db5282458cb49c2ed3b245caa1035b8f04502a842b",
+        "title": "[BIP-743] Enable USR/GYD gauge [Ethereum]",
+        "end_utc": "2024-12-16T19:00:00Z",
+        "summary": "[BIP-743] Enable USR/GYD gauge [Ethereum] closed on 2024-12-16T19:00:00Z. Timeline analytics noted 4 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.14)",
+        "market_response": "token -11.57%; TVL -2.35%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0x6f780afa01bbe0a29c4276bf1185ba04372f8a08744f17928fc975a66313fb61",
+        "title": "[BIP-744] Kill the 80wstETH/20GHO Gauge",
+        "end_utc": "2024-12-16T19:00:00Z",
+        "summary": "[BIP-744] Kill the 80wstETH/20GHO Gauge closed on 2024-12-16T19:00:00Z. Timeline analytics noted 4 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.09)",
+        "market_response": "token -11.57%; TVL -2.35%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 4.1902,
+    "ex_post_tvl_impact_pct": 6.9293,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +4.19%; TVL +6.93%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 0,
+    "Positive": 0,
+    "Neutral": 2,
+    "total_comments": 2
+  }
+}

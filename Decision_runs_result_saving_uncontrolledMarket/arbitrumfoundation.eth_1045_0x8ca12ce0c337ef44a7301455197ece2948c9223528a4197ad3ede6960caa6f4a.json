@@ -1,0 +1,263 @@
+{
+  "captured_at_utc": "2025-10-08T08:10:26.661057+00:00",
+  "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x8ca12ce0c337ef44a7301455197ece2948c9223528a4197ad3ede6960caa6f4a",
+  "focus": null,
+  "votes_count": 5500,
+  "timeline_metrics_current": {
+    "unique_voters": 5500,
+    "total_votes": 5500,
+    "first_vote_at": "2023-10-06T02:07:26Z",
+    "last_vote_at": "2023-10-07T16:06:38Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        6385399.298039301,
+        2246797.360468278,
+        67143.98556741394
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.63565,
+    "spike_follow_support_ratio": 0.99837,
+    "stairwise_ratio": 0.006508,
+    "half_slope_diff": 255.716839
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x66b953a7cf4de9f6de54e6eb87ae291b5cc62f12c7fed68eba91043607883221",
+      "title": "Proposal: Building the Future of NFTs: The Rarible Protocol - Arbitrum Integration Proposal [REVISED]",
+      "author": "0x1B686eE8E31c5959D9F5BBd8122a58682788eeaD",
+      "end_utc": "2023-09-01T19:16:02Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-08-25T19:16:41Z",
+        "last_vote_at": "2023-08-26T07:14:21Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            7345732.6864043195,
+            116990.02409824789,
+            226269.1116841672
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.892797,
+        "spike_follow_support_ratio": 0.529713,
+        "stairwise_ratio": 0.010323,
+        "half_slope_diff": -55.484426
+      },
+      "price_impact_pct": -5.292,
+      "tvl_impact_pct": -5.0423,
+      "similarity": 0.0239,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "For",
+        "margin_abs": 94945293.04926684,
+        "scores_total": 120779306.30293971,
+        "margin_pct": 0.786105633121656
+      }
+    }
+  ],
+  "similar_proposals_data": [],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x8ca12ce0c337ef44a7301455197ece2948c9223528a4197ad3ede6960caa6f4a",
+    "selected_choice_label": "For",
+    "selected_choice_index": 0,
+    "confidence": 0.9,
+    "summary": "The proposal requests a 1.5M ARB grant for KyberSwap to bootstrap and optimize liquidity on Arbitrum, aiming to double TVL and increase volume by 1.5x over 3 months. The timeline analytics show strong early and stable support for the 'For' option. Forum sentiment is mixed but leans positive with significant endorsement of KyberSwap's commitment and sustainable liquidity strategy. Historical similar proposals had mixed market responses but KyberSwap's plan emphasizes sustainable growth and strong partnerships.",
+    "key_arguments_for": [
+      "KyberSwap has demonstrated commitment to Arbitrum with over 7,488 liquidity providers and $17.7M current TVL.",
+      "The proposed incentives aim to sustainably grow liquidity, trading volume, and attract new liquidity partnerships.",
+      "Forum supporters highlight KyberSwap's strong UI, aggregator reliability, and deep liquidity incentives including native token matching.",
+      "Timeline metrics show unanimous early voting for 'For' with strong voting power and stability."
+    ],
+    "key_arguments_against": [
+      "Concerns over large grant size relative to Arbitrum budget and non-native status of KyberSwap.",
+      "Criticism about allocation to low fee core pools and insufficient support for native USDC pairs.",
+      "Some forum voices caution about potential mercenary capital and predatory market practices.",
+      "Calls to reduce grant size and diversify incentive allocation to better support native builders."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.arbitrum.foundation/t/kyberswap-final-stip-round-1/17317",
+        "quote": "Forum sentiment mixed with 8 positive, 11 negative, 15 neutral comments; early comments summarized as detailed proposal intro (negative) and critique of grant size and allocation (positive)."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "snapshot timeline metrics",
+        "quote": "Strong early voting and stable unanimous lead for 'For' option with 100% lead ratio and 90% voting power in first quartile."
+      },
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Castle Capital feedback",
+        "quote": "Castle Capital supports but recommends reducing grant size and clarifying long-term liquidity strategy."
+      },
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Blockworks Research feedback",
+        "quote": "Blockworks Research inclined to support conditional on grant size reduction to 1M ARB."
+      }
+    ],
+    "available_choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2023-10-06T02:00:00Z",
+    "event_end_utc": "2023-10-13T02:00:00Z",
+    "event_time_utc": "2023-10-13T02:00:00Z",
+    "address_of_governance_token": "0x912ce59144191c1204e64559fe8253a0e49e6548",
+    "token_price_impact_pct": -0.6138,
+    "tvl_impact_pct": -0.4497,
+    "actual_vote_result": {
+      "winner_label": "For",
+      "winner_index": 0,
+      "scores": [
+        168458944.63619852,
+        7443752.547723608,
+        651762.4048429002
+      ],
+      "scores_total": 176554459.58876508,
+      "margin_abs": 161015192.0884749,
+      "margin_pct": 0.911986
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'For' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- The timeline shows a strong and stable early lead for the 'For' option, indicating decisive early voter confidence.\n- Forum sentiment, while mixed, has a notable positive faction supporting KyberSwap's sustained commitment, UI, and liquidity strategy.\n- The proposal's emphasis on sustainable liquidity growth and partnerships aligns with Arbitrum ecosystem goals.\n- Historical lessons from similar proposals suggest cautious budget management, which is addressed by the adjusted 1.5M ARB request.\n- The recommendation aligns with aggregated forum sentiment favoring the proposal despite some critiques on grant size and allocation.\n- Market impact is mildly negative but should not weigh against the long-term benefits of liquidity growth and ecosystem expansion.\n\nThus, the recommendation is to support the proposal for change, balancing community sentiment and strategic ecosystem growth.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x66b953a7cf4de9f6de54e6eb87ae291b5cc62f12c7fed68eba91043607883221",
+        "title": "Proposal: Building the Future of NFTs: The Rarible Protocol - Arbitrum Integration Proposal [REVISED]",
+        "end_utc": "2023-09-01T19:16:02Z",
+        "summary": "Proposal: Building the Future of NFTs: The Rarible Protocol - Arbitrum Integration Proposal [REVISED] closed on 2023-09-01T19:16:02Z. Timeline analytics noted 5500 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.02)",
+        "market_response": "token -5.29%; TVL -5.04%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -0.6138,
+    "ex_post_tvl_impact_pct": -0.4497,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -0.61%; TVL -0.45%"
+  },
+  "agentic_ai_choice": "For",
+  "actual_outcome": "For",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 11,
+    "Positive": 8,
+    "Neutral": 15,
+    "total_comments": 34
+  }
+}

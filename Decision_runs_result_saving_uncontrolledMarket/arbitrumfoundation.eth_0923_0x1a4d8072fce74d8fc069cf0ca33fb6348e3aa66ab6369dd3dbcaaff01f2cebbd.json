@@ -1,0 +1,257 @@
+{
+  "captured_at_utc": "2025-10-08T01:52:50.466484+00:00",
+  "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x1a4d8072fce74d8fc069cf0ca33fb6348e3aa66ab6369dd3dbcaaff01f2cebbd",
+  "focus": null,
+  "votes_count": 5097,
+  "timeline_metrics_current": {
+    "unique_voters": 5097,
+    "total_votes": 5097,
+    "first_vote_at": "2024-04-09T00:34:17Z",
+    "last_vote_at": "2024-04-15T23:55:32Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        2164211.2492440487,
+        9498.127160800646,
+        75511.48929216944
+      ],
+      [
+        30192423.57561237,
+        1520.3206972173055,
+        315491.65527821647
+      ],
+      [
+        3797740.016722938,
+        6282.431733598732,
+        477125.9682672171
+      ],
+      [
+        116473201.48242871,
+        11026.75169408834,
+        141114.11555789196
+      ]
+    ],
+    "spike_index": 0.133587,
+    "spike_follow_support_ratio": 0.999928,
+    "stairwise_ratio": 0.000453,
+    "half_slope_diff": 823.714721
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x24344ab10eb905a4d7fa5885c6f681290e765a08a5f558ff6cfc5fedab42afb6",
+      "title": "[Non-constitutional] Proposal to fund Plurality Labs Milestone 1B(ridge)",
+      "author": "0xAD16ebE6FfC7d96624A380F394cD64395B0C6144",
+      "end_utc": "2024-03-07T21:24:06Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2024-02-29T21:24:53Z",
+        "last_vote_at": "2024-03-02T08:34:47Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            6719391.923696769,
+            230021.73845637773,
+            535596.9822574104
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.482203,
+        "spike_follow_support_ratio": 0.998061,
+        "stairwise_ratio": 0.010574,
+        "half_slope_diff": -78.426675
+      },
+      "price_impact_pct": 5.8306,
+      "tvl_impact_pct": 5.7363,
+      "similarity": 0.0558,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "For",
+        "margin_abs": 137535665.70519233,
+        "scores_total": 173256628.83388567,
+        "margin_pct": 0.7938262831897661
+      }
+    }
+  ],
+  "similar_proposals_data": [],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x1a4d8072fce74d8fc069cf0ca33fb6348e3aa66ab6369dd3dbcaaff01f2cebbd",
+    "selected_choice_label": "For",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "The proposal to fund Aave DAO with 750k ARB for liquidity mining and incentives on Arbitrum has strong support reflected in voting timeline metrics, positive forum sentiment, and favorable historical precedent. The grant aims to grow native stablecoin GHO liquidity and user retention on Aave v3 Arbitrum, with well-defined KPIs and execution plans. Forum comments reveal some concern over grant size but largely endorse the proposal's benefits to the Arbitrum ecosystem.",
+    "key_arguments_for": [
+      "Strong voting timeline support with consistent leading votes for 'For'.",
+      "The proposal aims to increase TVL and user retention on Arbitrum via incentivized borrowing and liquidity mining.",
+      "Positive historical precedent with a similar proposal leading to growth and successful market response.",
+      "Forum sentiment is largely positive with supportive community members and delegates.",
+      "Well-structured plan with clear milestones, KPIs, and risk management."
+    ],
+    "key_arguments_against": [
+      "Concerns from some community members about the large grant size and potential benefit to whales.",
+      "Some forum comments highlight lack of novelty and the protocol's dominance possibly stifling smaller projects."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.arbitrum.foundation/t/aave-ltipp-application-final/21741",
+        "quote": "5 positive, 1 negative, 8 neutral comments; first comment detailed positive application; delegates and community mostly support the proposal."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Snapshot voting timeline",
+        "quote": "Lead ratio total shows 100% support for 'For'; high stability and early ratio metrics indicating strong early and consistent support."
+      },
+      {
+        "source_tool": "govnews_proposal_news_window",
+        "reference": "Similar proposal 0x24344ab10eb905a4d7fa5885c6f681290e765a08a5f558ff6cfc5fedab42afb6",
+        "quote": "Similar proposal to fund Plurality Labs with positive market response and a winning 'For' vote."
+      }
+    ],
+    "available_choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2024-04-09T00:00:00Z",
+    "event_end_utc": "2024-04-16T00:00:00Z",
+    "event_time_utc": "2024-04-16T00:00:00Z",
+    "address_of_governance_token": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+    "token_price_impact_pct": 0.7243,
+    "tvl_impact_pct": -2.131,
+    "actual_vote_result": {
+      "winner_label": "For",
+      "winner_index": 0,
+      "scores": [
+        152627576.324008,
+        28327.631285705032,
+        1009243.2283954947
+      ],
+      "scores_total": 153665147.18368918,
+      "margin_abs": 151618333.0956125,
+      "margin_pct": 0.98668
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'For' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Voting timeline metrics show unanimous and stable early support for 'For' option.\n- Forum sentiment analysis reveals majority positive or neutral comments supporting the proposal with only minor opposition.\n- Similar historical proposal had successful market outcomes, indicating funding impact can be positive.\n- Market impact shows slight positive price effect and manageable TVL decline.\n- The proposal aligns with the community’s interest in expanding liquidity and user retention on Arbitrum.\n- While some concerns about grant size and whale benefit exist, the overall benefit to the ecosystem and alignment with community sentiment justify the recommendation.\n- Therefore, the recommendation to 'Change' reflects both the quantitative data and qualitative community feedback, mirroring forum opinion.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x24344ab10eb905a4d7fa5885c6f681290e765a08a5f558ff6cfc5fedab42afb6",
+        "title": "[Non-constitutional] Proposal to fund Plurality Labs Milestone 1B(ridge)",
+        "end_utc": "2024-03-07T21:24:06Z",
+        "summary": "[Non-constitutional] Proposal to fund Plurality Labs Milestone 1B(ridge) closed on 2024-03-07T21:24:06Z. Timeline analytics noted 5500 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.06)",
+        "market_response": "token +5.83%; TVL +5.74%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 0.7243,
+    "ex_post_tvl_impact_pct": -2.131,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +0.72%; TVL -2.13%"
+  },
+  "agentic_ai_choice": "For",
+  "actual_outcome": "For",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 1,
+    "Positive": 5,
+    "Neutral": 8,
+    "total_comments": 14
+  }
+}

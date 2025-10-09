@@ -1,0 +1,262 @@
+{
+  "captured_at_utc": "2025-10-06T01:03:49.048741+00:00",
+  "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0xf95bc210e3e93c2112c694cb158db22c93504155b48c03d9358e4c41c33ee782",
+  "focus": null,
+  "votes_count": 973,
+  "timeline_metrics_current": {
+    "unique_voters": 973,
+    "total_votes": 973,
+    "first_vote_at": "2023-12-14T13:49:42Z",
+    "last_vote_at": "2023-12-17T13:46:18Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        173.74795821215702,
+        19.97951027105681,
+        0.010422113326452102
+      ],
+      [
+        370575.0079046134,
+        20017.924179899714,
+        1500.6115099927836
+      ],
+      [
+        609.6635734723328,
+        0.16750662098875016,
+        7.357289611459567
+      ],
+      [
+        60502.48855080146,
+        0.8308646320524751,
+        91.37641140410749
+      ]
+    ],
+    "spike_index": 0.334197,
+    "spike_follow_support_ratio": 0.836917,
+    "stairwise_ratio": 8.2e-05,
+    "half_slope_diff": -13.853671
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x6dcd1bec49cc196c02c53746f5d63a96044eb476a9320120aa1fe773c7b47502",
+      "title": "Freeze price feeds on v3 Harmony following shutdown of Harmony services by Chainlink",
+      "author": "0xf71fc92e2949ccF6A5Fd369a0b402ba80Bc61E02",
+      "end_utc": "2023-12-01T14:32:23Z",
+      "timeline_metrics": {
+        "unique_voters": 2619,
+        "total_votes": 2619,
+        "first_vote_at": "2023-11-28T14:34:23Z",
+        "last_vote_at": "2023-12-01T14:20:49Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            318470.9937354133,
+            4.661629029592901,
+            0.9998341289585722
+          ],
+          [
+            67431.22821844829,
+            2.7282762635051268,
+            263.5799881195968
+          ],
+          [
+            61990.48730080057,
+            1.2805562464226992,
+            0.9906163492913832
+          ],
+          [
+            21237.01600159905,
+            0.16555762360752746,
+            0.6931719670422755
+          ]
+        ],
+        "spike_index": 0.233654,
+        "spike_follow_support_ratio": 0.9999,
+        "stairwise_ratio": 0.000244,
+        "half_slope_diff": -9.107292
+      },
+      "price_impact_pct": 4.7659,
+      "tvl_impact_pct": 6.4144,
+      "similarity": 0.0685,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "For",
+        "margin_abs": 468863.46164569503,
+        "scores_total": 469404.82488598814,
+        "margin_pct": 0.9988467028637283
+      }
+    }
+  ],
+  "similar_proposals_data": [],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0xf95bc210e3e93c2112c694cb158db22c93504155b48c03d9358e4c41c33ee782",
+    "selected_choice_label": "For",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "The proposal requests a security budget of $121,200 for two security review procedures on Aave and a refund of $30,000 to BGD Labs for an extra voting tokens audit. The timeline voting metrics show unanimous and stable support for the 'For' option, with early and consistent voting patterns. The forum sentiment is mostly neutral with some negative, but no opposition strong enough to outweigh the vote momentum. Historical similar proposals with continuous security engagements have been successful, and the market impact from similar proposals was positive. The current market impact shows slight declines, but these do not detract from the long-term benefit of enhanced security.",
+    "key_arguments_for": [
+      "Continuous security reviews are essential for a protocol as large and critical as Aave.",
+      "BGD Labs has already covered some costs, showing commitment and confidence in their service.",
+      "Engagement with multiple security firms ensures diversified and thorough coverage.",
+      "Timeline metrics show strong and stable support for the proposal."
+    ],
+    "key_arguments_against": [
+      "Some forum participants expressed concerns about the payment method and budget details.",
+      "Negative sentiment in some forum comments about the complexity of payment in GHO tokens.",
+      "Requests for more detailed implementation specifications from the community."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://governance.aave.com/t/arfc-bgd-security-budget-request-december-2023/15783",
+        "quote": "Request for a budget of $121,200 for security reviews and refund of $30,000 to BGD Labs; forum sentiment mostly neutral with some negative comments about payment complexity."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Snapshot proposal voting timeline",
+        "quote": "Timeline metrics show unanimous lead for 'For' option with stable voting pattern and early strong support."
+      },
+      {
+        "source_tool": "registry_lookup",
+        "reference": "aavedao.eth governance token",
+        "quote": "Governance token address: 0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9"
+      },
+      {
+        "source_tool": "govnews_search_governance_news",
+        "reference": "Adjacent similar proposal",
+        "quote": "Similar past proposal for security review engagement was successful with positive market and TVL impact."
+      }
+    ],
+    "available_choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2023-12-14T13:47:31Z",
+    "event_end_utc": "2023-12-17T13:47:31Z",
+    "event_time_utc": "2023-12-17T13:47:31Z",
+    "address_of_governance_token": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+    "token_price_impact_pct": -6.0161,
+    "tvl_impact_pct": -1.9639,
+    "actual_vote_result": {
+      "winner_label": "For",
+      "winner_index": 0,
+      "scores": [
+        431860.90798709897,
+        20038.90206142381,
+        1599.355633121677
+      ],
+      "scores_total": 453499.1656816445,
+      "margin_abs": 411822.00592567516,
+      "margin_pct": 0.908099
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'For' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Timeline voting metrics show unanimous and stable support for 'For' option with early voting dominance, indicating strong community backing.\n- Forum sentiment, while mixed with some negative comments, largely remains neutral and does not contradict the vote trend, showing general acceptance.\n- Historical lessons from similar proposals involving security budgets demonstrate positive outcomes and increased protocol security, reinforcing the proposal's merit.\n- Despite a slight negative market and TVL impact observed in the current cycle, the long-term benefits of enhanced security justify supporting the change.\n- The recommendation aligns with the aggregated forum sentiment and voting dynamics, reflecting community views effectively.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x6dcd1bec49cc196c02c53746f5d63a96044eb476a9320120aa1fe773c7b47502",
+        "title": "Freeze price feeds on v3 Harmony following shutdown of Harmony services by Chainlink",
+        "end_utc": "2023-12-01T14:32:23Z",
+        "summary": "Freeze price feeds on v3 Harmony following shutdown of Harmony services by Chainlink closed on 2023-12-01T14:32:23Z. Timeline analytics noted 2619 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.07)",
+        "market_response": "token +4.77%; TVL +6.41%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -6.0161,
+    "ex_post_tvl_impact_pct": -1.9639,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -6.02%; TVL -1.96%"
+  },
+  "agentic_ai_choice": "For",
+  "actual_outcome": "For",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 2,
+    "Positive": 0,
+    "Neutral": 6,
+    "total_comments": 8
+  }
+}

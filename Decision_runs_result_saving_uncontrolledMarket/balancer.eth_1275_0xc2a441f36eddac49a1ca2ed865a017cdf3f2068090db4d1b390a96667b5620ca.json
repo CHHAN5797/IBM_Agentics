@@ -1,0 +1,1134 @@
+{
+  "captured_at_utc": "2025-10-09T01:55:32.885599+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0xc2a441f36eddac49a1ca2ed865a017cdf3f2068090db4d1b390a96667b5620ca",
+  "focus": null,
+  "votes_count": 9,
+  "timeline_metrics_current": {
+    "unique_voters": 9,
+    "total_votes": 9,
+    "first_vote_at": "2024-08-09T09:14:34Z",
+    "last_vote_at": "2024-08-12T08:38:49Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        0.8268365969831775,
+        0.0,
+        0.0
+      ],
+      [
+        1245.704517081313,
+        0.0,
+        0.0
+      ],
+      [
+        613.5690503342887,
+        0.0,
+        223662.46704386635
+      ],
+      [
+        2319365.5457942435,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.999198,
+    "spike_follow_support_ratio": 0.0,
+    "stairwise_ratio": 0.000802,
+    "half_slope_diff": 15.368918
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0xf9bc2c094bf303a185e730360f2464bfe9d4a2b31ef823bd162b57e247f134d2",
+      "title": "[BIP-666] Provide Balancer DAO POL to CoWAMM Pools",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2024-08-05T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 9,
+        "total_votes": 9,
+        "first_vote_at": "2024-08-02T08:58:52Z",
+        "last_vote_at": "2024-08-05T15:08:14Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.2100796687150606,
+            0.0,
+            0.0
+          ],
+          [
+            230155.5152778791,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2300930.9535105433,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.905298,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.094702,
+        "half_slope_diff": 13.087921
+      },
+      "price_impact_pct": -10.2675,
+      "tvl_impact_pct": -13.6542,
+      "similarity": 0.0701,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2530628.4013576256,
+        "scores_total": 2531086.678868091,
+        "margin_pct": 0.9998189404123171
+      }
+    },
+    {
+      "id": "0xc83ca2e347ee9c5e0f4002b4a40a0c34011083e635c2b6c2bf66538b10cc8969",
+      "title": "[BIP-665] Enable COPM:WETH and COPM:USDC “FXPool” Gauges on Polygon",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2024-08-05T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 10,
+        "total_votes": 10,
+        "first_vote_at": "2024-08-02T08:58:23Z",
+        "last_vote_at": "2024-08-05T15:07:43Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.2100828771728129,
+            0.0,
+            0.0
+          ],
+          [
+            230156.81963111402,
+            0.0,
+            0.0
+          ],
+          [
+            127642.44967164421,
+            0.0,
+            0.0
+          ],
+          [
+            9543.435956740836,
+            2291390.559022095,
+            0.0
+          ]
+        ],
+        "spike_index": 1.0,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.0,
+        "half_slope_diff": 0.0
+      },
+      "price_impact_pct": -10.2675,
+      "tvl_impact_pct": -13.6542,
+      "similarity": 0.1135,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 103145.58388712863,
+        "scores_total": 2658733.474364471,
+        "margin_pct": 0.03879500705191368
+      }
+    },
+    {
+      "id": "0x0ea2055f9ae746dcf14c1107dbd1355add527d83cfe7b58093dfce3a003127c4",
+      "title": "[BIP-664] Engage with market makers to enhance BAL liquidity on central exchanges",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2024-07-29T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 13,
+        "total_votes": 13,
+        "first_vote_at": "2024-07-25T22:13:27Z",
+        "last_vote_at": "2024-07-29T09:04:18Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.625,
+            0.0,
+            0.375
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.7692307692307693,
+          0.0,
+          0.23076923076923078
+        ],
+        "stability": [
+          0.7692307692307693,
+          0.0,
+          0.23076923076923078
+        ],
+        "early_ratio": [
+          0.625,
+          0.0,
+          0.375
+        ],
+        "vp_by_quartile": [
+          [
+            149755.68210555843,
+            0.0,
+            637.586536181012
+          ],
+          [
+            238864.58167431937,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2303421.1267711394,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.855641,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.144359,
+        "half_slope_diff": 42.855772
+      },
+      "price_impact_pct": -5.1412,
+      "tvl_impact_pct": -1.0015,
+      "similarity": 0.0957,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2687895.2342743007,
+        "scores_total": 2692678.9770871988,
+        "margin_pct": 0.9982234262407051
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x26a69983600e49d42fb2f6d7eebdc01f51504de574bd81273b91b225424c0f6b",
+      "cleaned": {
+        "proposal_id": "0x26a69983600e49d42fb2f6d7eebdc01f51504de574bd81273b91b225424c0f6b",
+        "title": "[BIP-273] Permissions Preset Update Request #1",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-05-01T18:00:00Z",
+        "similarity_score": 0.1793,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3922483.5778486603,
+        "margin_pct": 0.999999433193929,
+        "scores_total": 3922485.8011374255,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 155,
+        "total_votes": 155,
+        "first_vote_at": "2023-04-27T18:07:57Z",
+        "last_vote_at": "2023-05-01T14:48:40Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            47387.42219820982,
+            0.0,
+            0.0
+          ],
+          [
+            217742.13297609135,
+            0.027985831272579895,
+            0.0
+          ],
+          [
+            193419.80579566953,
+            0.0,
+            0.0
+          ],
+          [
+            3463935.0501379278,
+            0.8052734064354524,
+            0.5567702888680601
+          ]
+        ],
+        "spike_index": 0.758838,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 1.1e-05,
+        "half_slope_diff": 30.139603
+      },
+      "raw": {
+        "id": "0x26a69983600e49d42fb2f6d7eebdc01f51504de574bd81273b91b225424c0f6b",
+        "title": "[BIP-273] Permissions Preset Update Request #1",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/158\n\n# Summary\n\nRequest the BalancerDAO to update the Zodiac Roles Modifier permissions granted to the Manager SAFE owned by karpatkey to allow for: \n* Improving swap efficiency using alternative routes on Uniswap.\n* Increasing liquidity on the WBTC-WETH pool on Uniswap v3 with NFT ID 430246.\n* Implementing a more detailed scoping of swaps in Balancer pools.\n\n*Note: reviewing and providing feedback on the preset update payload would be a great service to the Balancer community. We welcome anyone who is willing to take the time to verify the content and encourage community members to share their feedback with us.*\n\n\n# Motivation\n\nPer [BIP-103](https://snapshot.org/#/balancer.eth/proposal/0xddc174b931a0d2e5e32276a3d0d7110367797dd24248f078d0f7876d0987c92f), karpatkey has been tasked with deploying yield-generating strategies using a portion of the existing funds in the treasury in a risk-adjusted, trust-minimised, and non-custodial manner.\n\nA new SAFE owned by the BalancerDAO was created, a Manager preset was applied to allow a specific subset of transactions and the in-scope funds were transferred. More details can be found in [this post](https://forum.balancer.fi/t/bip-162-karpatkey-investment-strategy/4220/11?u=santinomics). Since February, karpatkey has been managing the treasury portfolio, and [weekly reports](https://forum.balancer.fi/t/karpatkey-s-weekly-report-on-balancerdao-farms/4386) are published on the forum. \n\nAs we anticipated, the permissions preset is an evolving configuration that needs to be adjusted regularly. In this first update request, we are looking to fulfill the following objectives:\n\n* To further improve the efficiency of the swaps, we request the BalancerDAO to introduce new permissions to the preset allowing swapping on Uniswap v3 using the ```exactInputSingle``` function, which is expected to provide alternative swapping routes that will yield better results.\n\n* Additionally, a new permission to increase liquidity on the existing WBTC-WETH pool on Uniswap v3 with [NFT ID 430246](https://app.uniswap.org/#/pool/430246) is necessary. This is because, when configuring the permissions for the first time, a different position on the pool was created ([NFT ID 418522](https://app.uniswap.org/#/pools/418522)). However, at the time of deploying the funds into the pool, the position was out of range. Therefore, a new position was created but the ```increaseLiquidity``` function has never been whitelisted until now.\n\n* Lastly, we request adjustments to the swap function on the Balancer Vault contract to implement a more detailed scoping of swaps, which will allow for a more robust and secure swapping process.\n\nA new version of the [_“Preset permissions - Balancer”_ document](https://docs.google.com/document/d/1XKHGuPr6omIA1e10jfZg0IMYtNu0mfnHtbInPBMEsYY/edit?usp=sharing) that lists all the permissions applied to the Manager preset (including the ones being requested now) has been created. In this v2, the requested permissions are clearly highlighted as updates.\n\n\n# Specification\n\nThis proposal is expected to be voted on Snapshot, and upon successful passing, the Safe multisig holding the in-scope assets will execute the following payload. Please note that the payload only contains the changes between the deployed version and the new one. The BalancerDAO multisig owners will receive a .json file with the payload, which can be executed through the Transaction Builder app on the SAFE environment. To keep this post concise, an explanation of the requested actions is provided in this accompanying [file](https://docs.google.com/document/d/1Efr2mM8kV13xvY2uaEv0r9Brm_-9BM2ywiV4976a8-s/edit?usp=sharing).      \n\n# Additional references\n\n<span style=\"text-decoration:underline;\">Avatar Safe address</span>: [0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89](https://etherscan.io/address/0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89)\n\n<span style=\"text-decoration:underline;\">Roles Modifier address</span>: [0xd8dd9164E765bEF903E429c9462E51F0Ea8514F9](https://etherscan.io/address/0xd8dd9164E765bEF903E429c9462E51F0Ea8514F9)\n\n<span style=\"text-decoration:underline;\">Manager Safe address</span>: [0x60716991aCDA9E990bFB3b1224f1f0fB81538267](https://etherscan.io/address/0x60716991aCDA9E990bFB3b1224f1f0fB81538267)\n\n<span style=\"text-decoration:underline;\">Current configuration of the Manager Preset</span>: [https://github.com/gnosis/zodiac-modifier-roles/blob/mainnet-presets-progress/packages/sdk/src/presets/mainnet/deFiManageBalancer1.ts](https://github.com/gnosis/zodiac-modifier-roles/blob/mainnet-presets-progress/packages/sdk/src/presets/mainnet/deFiManageBalancer1.ts)",
+        "end_utc": "2023-05-01T18:00:00Z",
+        "similarity_score": 0.1793,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3922484.411107898,
+            0.8332592377080323,
+            0.5567702888680601
+          ],
+          "scores_total": 3922485.8011374255,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-05-01T18:00:00",
+          "pre_tvl_avg": 1225886703.0,
+          "post_tvl_avg": 1213133930.5,
+          "abnormal_change": -1.0403,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.010403,
+          "abnormal_change_pct": -1.0403
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-05-01T18:00:00",
+          "pre_price_avg": 6.086912965,
+          "post_price_avg": 6.09779595,
+          "abnormal_change": 0.1788,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.001788,
+          "abnormal_change_pct": 0.1788
+        }
+      }
+    },
+    {
+      "proposal_id": "0xeb91b3428ad81bdcb840d83dc8977ae4ff5432d10ae338a8b890e7966248b7b2",
+      "cleaned": {
+        "proposal_id": "0xeb91b3428ad81bdcb840d83dc8977ae4ff5432d10ae338a8b890e7966248b7b2",
+        "title": "[BIP-162] Karpatkey Investment Strategy",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2023-01-30T19:00:00Z",
+        "similarity_score": 0.165,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3794171.063709581,
+        "margin_pct": 0.9998289630922885,
+        "scores_total": 3794820.118007886,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 314,
+        "total_votes": 314,
+        "first_vote_at": "2023-01-26T19:07:27Z",
+        "last_vote_at": "2023-01-30T17:46:18Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            722588.1968450118,
+            0.0
+          ],
+          [
+            683.1421760179758,
+            323.8624325516231
+          ],
+          [
+            334733.0744900314,
+            0.6647166013502619
+          ],
+          [
+            2736491.1773476726,
+            0.0
+          ]
+        ],
+        "spike_index": 0.699289,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 1.9e-05,
+        "half_slope_diff": -26.079006
+      },
+      "raw": {
+        "id": "0xeb91b3428ad81bdcb840d83dc8977ae4ff5432d10ae338a8b890e7966248b7b2",
+        "title": "[BIP-162] Karpatkey Investment Strategy",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "In order to initiate operations as per [BIP-103](https://forum.balancer.fi/t/bip-103-karpatkey-balancer-treasury-cu-proposal-update/3895), Karpatkey respectfully requests the Balancer DAO to take the following actions:\n\n1. Dismantle specific positions on the current multisigs on Mainnet, Polygon, and Arbitrum (as outlined in the Execution Details section);\n2. Bridge specific in-scope assets from Polygon and Arbitrum back to Mainnet (as outlined in the Execution Details section);\n3. Transfer all in-scope assets (totaling approximately $5,900,000 as of the day of this writing) to a new SAFE provided by Karpatkey and owned by the Balancer DAO (as outlined in the Next Steps and Execution Details sections).\n\n## Motivation\n\nAfter internal discussion, the Karpatkey team has determined that the Balancer DAO would be best served by a simpler and more direct approach. Since Karpatkey has already been voted in as the treasury manager, there is no longer a need for further discussion or a new vote on the specific allocation of funds, despite having recently proposed the \"Base vs Expanded allocation\" approach.\n\nTo streamline deployment, Karpatkey proposes beginning with the base allocation and then expanding as needed. This approach takes advantage of the Zodiac Roles Modifier permissions preset that has already been created and tested for allowlisting specific functions and protocols related to the base allocation. Karpatkey intends to move forward with this approach and will propose future adjustments in accordance with the guidelines set forth in the original proposal. However, any future adjustments to the strategy, and thus the preset, will ultimately require the approval of the Balancer DAO through the execution of a batch of transactions to apply the adjusted preset.\n\n### Zodiac Roles Modifier preset to be applied\n\nThe original post proposed the following:\n\n[quote=\"karpatkey, post:1, topic:4220\"]\n## Base allocation\n\nIf this proposal was selected, specific functions within the protocols below would be whitelisted. More technical details regarding the whitelisting process will be provided shortly.\n\n* Staking:\n  * Lido\n  * Stakewise\n* Lending:\n  * Compound v2\n  * Aave v2\n* AMM:\n  * Uniswap v3\n[/quote]\n\nTo increase flexibility and adapt to changing market conditions, Karpatkey suggests expanding protocols and functions to include ETH wrappers and unwrappers, swaps on Balancer and Uniswap v3. These swaps, except for regularly swapped reward tokens, are intended to provide Karpatkey with the ability to take immediate action in specific market conditions, such as a stablecoin losing its peg. The pools were chosen based on liquidity to maximize results for the Balancer DAO, but new permissions may be necessary as market conditions change.\n\nThe Manager preset consists of the complete list of permissions that Karpatkey asks the Balancer DAO to grant. This list can be found in this [Annex Document](https://docs.google.com/document/d/1_gtLsmCexiY0XWFwWdgpEaq2wgNDW7Z0ZvsX7p5-C2E/edit?usp=sharing). Through the Zodiac Role Modifier, the Manager preset will be applied to the Manager Role, which in turn will be assigned to Karpatkey’s Manager SAFE.\n\n### Future permissions and roles\n\nOnce the initial strategy is deployed, there will be a periodic need to adapt the portfolio to changing market conditions. If a particular strategy no longer provides sufficient yield, or if a particular pool in which the Balancer DAO has a position becomes deprecated and needs to be migrated, new permissions will be required.\n\nIn addition, creating new roles to improve or expand operations will also be necessary. Two new roles are planned for the near future: the *Harvester Role* and the *Swapper Role*. Both roles will be granted specific subsets of the Manager preset permissions and will be assigned to EOAs to automate certain tasks. The Harvester Role will be allowed to claim rewards, while the Swapper Role will be allowed to swap these rewards for ETH or stablecoins.\n\nWhen deemed appropriate, Karpatkey will create a new forum post requesting the Balancer DAO to update the preset or deploy new roles. The post will include an explanation of why the permissions and/or roles are needed and the executable payload. The proposal will need to be passed by the community and, once approved, it will be executed by the multisig according to the DAO standard operating practices. It is important that this process is as simple and straightforward as possible, since every day of waiting may represent an opportunity cost to the DAO's treasury. A summary of the new permissions and/or roles will be included as a separate section in every corresponding weekly report.\n\n### Next steps\n\nThe next steps for implementing this proposal are as follows:\n\n1. Karpatkey will create a new SAFE, deploy the Roles Modifier contract, and apply the Manager Role preset (as outlined in the Annex Document) to simplify the process for the Balancer DAO.\n2. Karpatkey will conduct a small-scale replication of the strategy for a second round of testing.\n3. Once the SAFE is created, tested, and permissions are applied, Karpatkey will transfer ownership of it to the Balancer DAO and remove themselves as owner.\n4. This proposal will be submitted to Snapshot for approval.\n5. If the proposal is approved, the Balancer DAO will execute the steps described in the Execution Details section.\n\n### Execution details\n\nThe following list is intended to serve as a clear execution roadmap for the Balancer DAO once (if) this proposal is approved:\n\n1. Dismantle the Balancer Boosted AAVE USD position on Mainnet and withdraw 100% of the funds in DAI.\n2. Dismantle WBTC + ETH position on Mainnet and withdraw the two assets in equal proportion.\n3. Dismantle ETH + GTC position on Mainnet and withdraw the two assets in equal proportion.\n4. Dismantle MATIC + USDC + WETH + BAL position on Polygon and withdraw the four assets in equal proportion.\n5. Bridge USDC and WETH from Polygon back to Mainnet.\n6. Dismantle WBTC + WETH + USDC position on Arbitrum and withdraw the three assets in equal proportion.\n7. Bridge WBTC, WETH + USDC from Arbitrum back to Mainnet.\n8. Transfer in-scope assets to the new SAFE. The approximate balances (as of the day of this writing) of in-scope assets that will be transferred are:\n\n|Token|Price|Approx Balance|Total Value|Share %|\n| --- | --- | --- | --- | --- |\n|USDC|$1.00|2,514,827|$2,514,827|42.61%|\n|AAVE|$79.50|16,907|$1,344,129|22.77%|\n|stETH|$1,542.51|312.86|$482,590|8.18%|\n|WETH|$1,552.80|266.81|$414,301|7.02%|\n|wstETH|$1,707.08|155.02|$264,632|4.48%|\n|DAI|$1.00|239,996|$239,996|4.07%|\n|WBTC|$21,007.20|11.06|$232,289|3.94%|\n|USDT|$1.00|218,949|$218,949|3.71%|\n|ETH|$1,553.00|122.82|$190,733|3.23%|\n|Grand Total|||$5,902,446|100.00%|\n\n### Specification\n\nKarpatkey has prepared the Gnosis safe on Ethereum at `0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89`. It currently has the same signers as the DAO Multisig at `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f`, aside from an extra 12th signer with address `0x7f87c1C42BeF332245F8B3cCAdD8224541CDaEcE`.\n\nThe DAO Multisig signers will reject tx #38 which is failing on simulation and initiate a new tx to remove this 12th signer.\n\nThe DAO Treasury on Polygon at `matic:0xeE071f4B516F69a1603dA393CdE8e76C40E5Be85` will initiate a transfer of \"B-Polybase BPT\" (contract `0x0297e37f1873D2DAb4487Aa67cD56B58E2F27875`) in the amount of `26536547394777662718278` to the LM Multisig at `matic:0xc38c5f97B34E175FFd35407fc91a937300E33860`. From there, BPT will be withdrawn and all funds bridged back to Ethereum. USDC & WETH will be sent to the Karpatkey Safe `0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89`, BAL & WMATIC sent to the Treasury `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f`\n\nThe DAO Treasury on Arbitrum at `arb1:0xaF23DC5983230E9eEAf93280e312e57539D098D0` will initiate a transfer of \"B-33WETH-33WBTC-33USDC\" (contract `0x64541216bAFFFEec8ea535BB71Fbc927831d0595`) in the amount of `532147981134526165239` to the LM Multisig at `arb1:0xc38c5f97B34E175FFd35407fc91a937300E33860`. From there, BPT will be withdrawn and funds bridged back to Ethereum. All funds will be sent to the Karpatkey safe `0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89`\n\nThe DAO Treasury on Ethereum `eth:0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will send the following assets to the LM Multisig `eth:0xc38c5f97B34E175FFd35407fc91a937300E33860`, which will withdraw the BPTs and send the assets to the Karpatkey Safe `0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89`, except where indicated otherwise:\n\nAave v2 boosted pool (contract: `0x7B50775383d3D6f0215A8F290f2C9e2eEBBEceb2`) amount: `682682196629189057534951`\nWBTC/WETH BPT (contract `0xA6F548DF93de924d73be7D25dC02554c6bD66dB5`) amount: `58598401025232390138`\nWETH/GTC BPT (contract `0xfF083f57A556bfB3BBe46Ea1B4Fa154b2b1FBe88`) amount: `7725430893893258147597` Note: GTC will be returned to the DAO Treasury. \n\nThe DAO Treasury on Ethereum `eth:0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will send the following assets to the Karpatkey Safe `0x0EFcCBb9E2C09Ea29551879bd9Da32362b32fc89`:\n\nUSDC (contract `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48`) amount: `2139935999712`\nAave (contract `0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9`) amount: `16907280000000000000000`\nstETH (contract `0xae7ab96520DE3A18E5e111B5EaAb095312D7fE84`) amount: `312988890260928536597`\nwstETH (contract `0x7f39C581F595B53c5cb19bD0b3f8dA6c935E2Ca0`) amount: `140236048902346440000`\nweth (contract `0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2`) amount: `61323265453850206284`",
+        "end_utc": "2023-01-30T19:00:00Z",
+        "similarity_score": 0.165,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way"
+          ],
+          "scores": [
+            3794495.5908587337,
+            324.5271491529734
+          ],
+          "scores_total": 3794820.118007886,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-01-30T19:00:00",
+          "pre_tvl_avg": 1084781371.5,
+          "post_tvl_avg": 1140966475.5,
+          "abnormal_change": 5.1794,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.051794,
+          "abnormal_change_pct": 5.1794
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-01-30T19:00:00",
+          "pre_price_avg": 6.98164757,
+          "post_price_avg": 6.996471095,
+          "abnormal_change": 0.2123,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.002123,
+          "abnormal_change_pct": 0.2123
+        }
+      }
+    },
+    {
+      "proposal_id": "0xd987cfc35c7014d0a8d84b6ac0b52bb4ecaef9ca049417c9abbb2cc1e750d046",
+      "cleaned": {
+        "proposal_id": "0xd987cfc35c7014d0a8d84b6ac0b52bb4ecaef9ca049417c9abbb2cc1e750d046",
+        "title": "[BIP-442] Permissions Preset Update Request #2",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-10-02T18:00:00Z",
+        "similarity_score": 0.1628,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3638542.271346782,
+        "margin_pct": 0.9999997567994584,
+        "scores_total": 3638543.156242448,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 63,
+        "total_votes": 63,
+        "first_vote_at": "2023-09-28T18:55:44Z",
+        "last_vote_at": "2023-10-02T16:54:17Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            7154.6004016084835,
+            0.4006460618851698,
+            0.0
+          ],
+          [
+            846.777398413926,
+            0.0,
+            0.0
+          ],
+          [
+            5.0017441840016685,
+            0.0,
+            0.0
+          ],
+          [
+            3630536.3472063956,
+            0.028845783259650714,
+            0.0
+          ]
+        ],
+        "spike_index": 0.870765,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 6e-06,
+        "half_slope_diff": 8.284355
+      },
+      "raw": {
+        "id": "0xd987cfc35c7014d0a8d84b6ac0b52bb4ecaef9ca049417c9abbb2cc1e750d046",
+        "title": "[BIP-442] Permissions Preset Update Request #2",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/528\n\n# Abstract\n\nThis proposal introduces additional actions and strategies to the portion of the treasury managed by karpatkey (as per [BIP-103](https://forum.balancer.fi/t/bip-103-karpatkey-balancer-treasury-cu-proposal-update/3895)), aiming to enhance the treasury’s performance, adaptability, and diversification.\n\n\n# Motivation\n\nPermissions granted to karpatkey to manage the BalancerDAO treasury are not static, and require regular updates to effectively respond to evolving market conditions and to capitalise on emerging opportunities.\n\nAs it’s customary, any changes to the preset permissions must be executed by the DAO.\n\n\n# Specification\n\nPermissions that will be added in this proposal are:\n\n\n\n1. Deposit USDC on Compound v3;\n2. Deposit DAI on AAVE v3;\n3. Deposit USDC on AAVE v3;\n4. Deposit DAI on MakerDAO’s Dai Savings Rate (DSR) module;\n5. Unstake stETH on Lido;\n6. Stake (and unstake) ETH on Rocket Pool (rETH);\n7. Swap on Cow Swap\n\n\n### Audit considerations\n\nWe propose an updated version of the [Preset permissions - Balancer Treasury](https://docs.google.com/document/d/1QQjkn6DAqXhdqYag0KSIfqJvdkLilOb6dM4KqaiybXc/edit) document that shows all the permissions granted to karpatkey, including the ones that are being requested now, highlighted in green.\n\nReviewing and providing feedback on the preset update [payload](https://gist.github.com/santinomics/1f0d96856166d673551e2f316bace89d) would be a great service to the Balancer community. We welcome anyone who is willing to take the time to verify the content and encourage community members to share their feedback with us.\n\nkarpatkey's tech team is diligently working on enhancing the auditing process. Our primary goal is to provide a clearer visual representation of potential Zodiac preset modifications before implementing any proposed payload. We are committed to keeping the community informed about our progress and developments.\n\n# Proposed Actions Overview\n\n\n\n### 1. Deposit USDC on Compound v3\n\n[Compound v3](https://docs.compound.finance/) is a streamlined protocol version emphasising security, capital efficiency, and user experience. Following a [proposal](https://compound.finance/governance/proposals/180) executed on September 18th, v2 is being phased out, with measures in place to transition users to v3. [OpenZeppelin](https://blog.openzeppelin.com/compound-iii-audit/) and [ChainSecurity](https://chainsecurity.com/security-audit/compound-iii/) have audited v3. As of the day of this writing, $319M USDC is deposited in v3, offering an APR of 4.3%, inclusive of COMP token rewards.\n\n\n\n### 2. Deposit DAI on AAVE v3\n\nThis strategy aims to diversify stablecoin holdings via AAVE v3, a leading decentralised money market with a strong link to the Balancer DAO. [AAVE v3](https://governance.aave.com/t/introducing-aave-v3/6035) was officially [deployed on mainnet](https://aave.mirror.xyz/K9gQPsv-hAH-gO4oH2i0Oen8uQEHYL5q8x9xjN9XnmA) in January 2023 after being live across six networks [since March 2022](https://aave.mirror.xyz/2TnHYHQRnNhSG56Y4CcssulFArSVqrFbmAdYfU7Kxp0). This version introduces features for enhanced capital efficiency and decentralisation, coupled with new risk management tools. Comprehensive audits by firms like [Trail of Bits](https://github.com/aave/aave-v3-core/blob/master/audits/07-01-2022_TrailOfBits_AaveV3.pdf), [ABDK](https://github.com/aave/aave-v3-core/blob/master/audits/27-01-2022_ABDK_AaveV3.pdf), [Peckshield](https://github.com/aave/aave-v3-core/blob/master/audits/14-01-2022_PeckShield_AaveV3.pdf), OpenZeppelin, SigmaPrime, and formal verification by [Certora](https://github.com/aave/aave-v3-core/blob/master/Certora/certora/Verification_Report.pdf). Currently, [AAVE v3](https://app.aave.com/reserve-overview/?underlyingAsset=0x6b175474e89094c44da98b954eedeac495271d0f&marketName=proto_mainnet_v3) holds $51.6M DAI with an expected APY of 3.82%.\n\n\n\n### 3. Deposit USDC on AAVE v3\n\nSame logic as above but for USDC. As of the day of this writing, the total USDC supplied on [AAVE v3](https://app.aave.com/reserve-overview/?underlyingAsset=0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48&marketName=proto_mainnet_v3) is $299M, and the expected APY is 2.86%.\n\n\n\n### 4. Deposit DAI on MakerDAO’s DAI Savings Rate (DSR) module\n\nMakerDAO, renowned for creating DAI, is a leading DAO in the DeFi sector. A recent [DSR rate hike](https://forum.makerdao.com/t/stability-scope-parameter-changes-2-non-scope-defined-parameter-changes-may-2023/20981) in May and the [introduction of eDSR](https://vote.makerdao.com/executive/template-executive-vote-enhanced-dai-savings-rate-activation-spark-protocol-debt-ceiling-increase-rwa-vault-updates-avc-member-compensation-for-q2-2023-dao-resolution-for-monetalis-clydesdale-launch-project-funding-spark-proxy-spell-execution-august-2-2023) (enhanced DSR) in August make it an attractive strategy from a risk/reward perspective. Currently, eDSR offers an APR of 5%. By diversifying the Balancer treasury’s stablecoin allocation and capitalising on the higher yield offered by one of the most battle-tested protocols, the investment approach can be optimised.\n\n\n\n### 5. Unstake stETH on Lido\n\nPost the Shapella fork in April, users can now unstake or withdraw staked ETH from the different LST providers. This action was not part of the previous preset update request to the Balancer DAO due to its timing.\n\n\n\n### 6. Stake (and unstake) ETH on Rocket Pool (rETH)\n\nTo diversify LST holdings, we suggest adding [RocketPool](https://rocketpool.net/) to the whitelist for ETH staking and unstaking. RocketPool ranks [third](https://dune.com/queries/2433350/3997605) in the liquid staking market, holding about 691,000 ETH, or 6% of the total market. In market share, Rocket Pool's rETH trails Lido's stETH (76%) and Coinbase's cbETH (11%). Despite slightly lower liquidity for rETH to ETH swaps on major DEXes, Balancer DAO treasury's allocated amount should face minimal slippage. For example, [DeFi Llama](https://defillama.com/liquidity) indicates a swap of ~5,700 rETH for ETH would have under 0.1% slippage. Currently, rETH offers an APR of 3.26%.\n\n\n\n### 7. Swap on Cow Swap\n\nThanks to the efforts of the Gnosis Builders and the karpatkey tech team, Cow Swap can now be seamlessly integrated with the Zodiac Roles Modifier. This enhancement allows for the exclusive swapping of only those tokens that are included in the whitelisted strategies.",
+        "end_utc": "2023-10-02T18:00:00Z",
+        "similarity_score": 0.1628,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3638542.709475952,
+            0.4381291703507336,
+            0.00863732520591313
+          ],
+          "scores_total": 3638543.156242448,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-10-02T18:00:00",
+          "pre_tvl_avg": 718611084.5,
+          "post_tvl_avg": 716841847.5,
+          "abnormal_change": -0.2462,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.002462,
+          "abnormal_change_pct": -0.2462
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-10-02T18:00:00",
+          "pre_price_avg": 3.3874482500000003,
+          "post_price_avg": 3.24930149,
+          "abnormal_change": -4.0782,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.040782,
+          "abnormal_change_pct": -4.0782
+        }
+      }
+    },
+    {
+      "proposal_id": "0x9e0a4c87103d9858a9e3662993cd864a161b9a259b5a64894194cf9b3cd4e48b",
+      "cleaned": {
+        "proposal_id": "0x9e0a4c87103d9858a9e3662993cd864a161b9a259b5a64894194cf9b3cd4e48b",
+        "title": "[BIP-473] Permissions Preset Update Request #2 (Revised version of BIP-442)",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-11-06T19:00:00Z",
+        "similarity_score": 0.1497,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3685289.3768020114,
+        "margin_pct": 0.999999621159882,
+        "scores_total": 3685290.772938003,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 64,
+        "total_votes": 64,
+        "first_vote_at": "2023-11-02T22:24:09Z",
+        "last_vote_at": "2023-11-06T18:41:17Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            103536.96969599824,
+            0.0,
+            0.0
+          ],
+          [
+            1126.5019071457552,
+            0.0,
+            0.0
+          ],
+          [
+            6.386577754805663,
+            0.0,
+            0.0
+          ],
+          [
+            3580620.912079033,
+            0.00267806915598673,
+            0.0
+          ]
+        ],
+        "spike_index": 0.871311,
+        "spike_follow_support_ratio": 0.998739,
+        "stairwise_ratio": 0.000235,
+        "half_slope_diff": 26.680043
+      },
+      "raw": {
+        "id": "0x9e0a4c87103d9858a9e3662993cd864a161b9a259b5a64894194cf9b3cd4e48b",
+        "title": "[BIP-473] Permissions Preset Update Request #2 (Revised version of BIP-442)",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/604\n\n# Abstract\n\nIn this revised iteration of [BIP-442](https://forum.balancer.fi/t/bip-442-permissions-preset-update-request-2/5209/1), we've made a significant adjustment by excluding all Cow Protocol permissions from the preset. This decision arises from a recent protocol [update](https://forum.balancer.fi/t/bip-442-permissions-preset-update-request-2/5209/5), which rendered the Zodiac Role Modifier incompatible with the Cow Protocol. To ensure the Balancer Maxis do not execute the outdated payload included in BIP-442, we preemptively halted its implementation to avoid introducing unnecessary permissions.\n\nHaving seized the opportunity to fine-tune our proposal, we've chosen to seamlessly integrate new permission requests into this framework. This approach streamlines all permissions into a unified structure, eliminating the need for another BIP in the coming weeks.\n\n\n# Motivation\n\nPermissions granted to karpatkey to manage the BalancerDAO treasury are not static, and require regular updates to effectively respond to evolving market conditions and to capitalise on emerging opportunities.\n\nAs it’s customary, any changes to the preset permissions must be executed by the DAO.\n\n\n# Specification\n\nThis proposal encompasses the addition of the following permissions:\n\n\n\n1. Deposit USDC on Compound v3\n2. Deposit DAI on AAVE v3\n3. Deposit USDC on AAVE v3\n4. Deposit DAI on MakerDAO’s Dai Savings Rate (DSR) Module\n5. Unstake stETH on Lido\n6. Stake (and unstake) ETH on Rocket Pool (rETH)\n7. Swap various tokens on SushiSwap\n8. Swap rETH &lt;> WETH on Balancer\n9. Swap rETH &lt;> WETH on Uniswap v3\n10. Swap stETH &lt;> WETH on Curve\n11. Restake AAVE in the Safety Module\n12. Delegate AAVE/stkAAVE to karpatkey\n13. Wrap stETH\n\n\n# Audit Considerations\n\nWe propose an updated version of the [Preset permissions - Balancer Treasury](https://docs.google.com/document/d/1QQjkn6DAqXhdqYag0KSIfqJvdkLilOb6dM4KqaiybXc/edit?usp=sharing) document that shows all the permissions granted to karpatkey, including the ones that are being requested now, highlighted in green.\n\nReviewing and providing feedback on the preset update [payload](https://gist.github.com/santinomics/6db0eea31d2c5dd8e08cb7735d3a68a9) would be a great service to the Balancer community. We welcome anyone who is willing to take the time to verify the content and encourage community members to share their feedback with us.",
+        "end_utc": "2023-11-06T19:00:00Z",
+        "similarity_score": 0.1497,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3685289.8421806754,
+            0.46537866381834647,
+            0.46537866381834647
+          ],
+          "scores_total": 3685290.772938003,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-11-06T19:00:00",
+          "pre_tvl_avg": 799151789.5,
+          "post_tvl_avg": 489131984.5,
+          "abnormal_change": -38.7936,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.387936,
+          "abnormal_change_pct": -38.7936
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-11-06T19:00:00",
+          "pre_price_avg": 3.59469704,
+          "post_price_avg": 3.864296545,
+          "abnormal_change": 7.4999,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.074999,
+          "abnormal_change_pct": 7.4999
+        }
+      }
+    },
+    {
+      "proposal_id": "0x8a1c9e93a42713c5075dbd02ceac4bd7c6bd612d5b716a217492e014c925f3f6",
+      "cleaned": {
+        "proposal_id": "0x8a1c9e93a42713c5075dbd02ceac4bd7c6bd612d5b716a217492e014c925f3f6",
+        "title": " [BIP-217] Enable RDNT/wETH 80/20 Gauge [Arbitrum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-03-27T19:00:00Z",
+        "similarity_score": 0.1326,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 4032214.913288024,
+        "margin_pct": 0.9996440914389607,
+        "scores_total": 4033650.524041771,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 276,
+        "total_votes": 276,
+        "first_vote_at": "2023-03-23T19:24:32Z",
+        "last_vote_at": "2023-03-27T18:58:36Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            356290.10835022066,
+            269.3984560307498,
+            564.8092862636606
+          ],
+          [
+            195160.41689510678,
+            0.0026367422546762,
+            18.211395628202162
+          ],
+          [
+            676909.6950279069,
+            0.16829719068182447,
+            0.0
+          ],
+          [
+            2804437.713696682,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.695322,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 1.3e-05,
+        "half_slope_diff": 2.169042
+      },
+      "raw": {
+        "id": "0x8a1c9e93a42713c5075dbd02ceac4bd7c6bd612d5b716a217492e014c925f3f6",
+        "title": " [BIP-217] Enable RDNT/wETH 80/20 Gauge [Arbitrum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "## Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/115\n\n## Summary:\n\nProposal to add gauge support for the newly created Radiant 80/20 RDNT/WETH pool which is currently the largest liquidity pool on Balancer Arbitrum.\n\nThe Radiant Capital DAO, a week into its v2 launch on Arbitrum and days from adding its second chain (BNB chain) to become DeFi’s 1st omnichain money market, has approved and implemented a Balancer 80/20 RDNT/WETH pool as its primary liquidity hub on Arbitrum via DAO governance[ RFP-3.](https://dao.radiant.capital/#/proposal/0x6d1af397fd5ca984694b29616364885620985980b21177991ddfa6c9a08c5940)\n\nWith v2, the DAO has fully aligned its tokenomics for activities that are compatible with the DAO’s collective-benefit ethos and a long-termism mindset. The results of this new Balancer pool have exceeded all expectations, and its first week’s volume was greater than all Arbitrum pools combined. To leverage this successful position further, the DAO is optimistically establishing this gauge and proposing to enable BAL emissions.\n\n## References/Useful links:\n\n* Website https://radiant.capital/\n* Documentation https://docs.radiant.capital/radiant/\n* Github Page https://github.com/radiant-capital/\n* Communities https://community.radiant.capital/\n* Other useful links?\n  * https://twitter.com/RDNTCapital\n  * https://discord.gg/radiantcapital\n  * https://t.me/radiantcapitalofficial\n  * https://dao.radiant.capital/\n  * https://medium.com/@RadiantCapital\n  * https://www.youtube.com/c/RadiantCapital/\n\n## Protocol Description:\n\nRadiant aims to be the first omnichain money market where users can deposit any major asset on any major chain and borrow various supported assets across multiple chains.\n\nThe Radiant DAO's primary goal is to consolidate the ~$20 billion of fragmented liquidity (lending TVL) dispersed across the top ten alternative layers (source:[ DefiLlama](https://defillama.com/protocols/lending)).\n\nLenders who provide liquidity to Radiant are interacting and providing utility to the platform. In addition, lenders can capture the added value from the communities’ engagement through the native token $RDNT.\n\nBorrowers can withdraw against collateralized assets to obtain liquidity (working capital) without selling their assets and closing their positions.\n\n## Motivation:\n\nThe Radiant DAO aims to be the most fee-earning & omnichain protocol in crypto whilst ushering in the next 100m of new DeFi users. Adding this gauge to the robust[ Dynamic liquidity](https://dao.radiant.capital/#/proposal/0x058ea8db46ec92bfec2a36691aba75f671f04e99c6ffa7141768e3760d8bf584) vault (current liquidity is 30+m within its first week) represents another step in strengthening the relationship between the two protocols. In addition, this pool is intended to be the primary source of liquidity on the rapidly growing Arbitrum chain.\n\n\n\n## Details:\n\n1. Governance: The Radiant DAO governance model can be found here: https://docs.radiant.capital/radiant/governance/proposal-process.\n\n2. Oracles: Radiant price feeds are secured by[ Chainlink oracles](https://docs.radiant.capital/radiant/contracts-and-security/contracts).\n\n3. Omnichain: The RDNT token in v2 is an omnifungible (OFT-20) token and the v2 dApp provides users with an innovative borrow & bridge function via Layer0’s stargate stable router interface.\n\n4. Audits: While Radiant v2 is primarily composed of the same codebase as Radiant v1 — the Radiant DAO takes safety & security seriously and tripled down on audits.\n\nWe did multiple top-to-bottom v2 audits with[ Peckshield](https://docsend.com/view/4irymmv5uifge3tr) and[ Zokyo](https://docsend.com/view/vcux2vysnzcehq9b), with zero unresolved critical or high issues.[ BlockSec](https://blocksec.com/) was also hired for white hat hacking with zero unresolved issues.\n\n5. Centralization vectors:\n\n   1. The Radiant DAO asserts that the network's governance, development, or usage is not centralized \n   and progressively gets more decentralized as the number of RDNT token holders grows. Together \n   with Fenwick, Radiant set up the Radiant DAO governance portal (dao.radiant.capital) and ratified \n   the first two governance proposals, RFP-1, and RFP-2, on which RDNT token holders voted.\n\n   2. The Radiant DAO Constitution includes a very clear process for the community to discuss, \n   propose, and vote on new measures, regardless of whether the team ceases to exist. This includes \n   technical changes, improvements, bug fixes, protocol changes (emissions, allocation points), or \n   other protocol improvements. The establishment of the DAO formalizes this, as well as voting power \n   through RDNT liquidity tokens.\n\n   3. The smart contracts are verified, and any community member may propose changes or \n   improvements. Several community members who are not affiliated with the project at launch have \n   been brought on as “core contributors” in developing smart contract improvements and helping \n   manage portions of the Radiant community.\n\n   4. Because Radiant was built on a similar framework to Aave and Geist, many of the core contracts \n   are upgradable by the owner. To mitigate security concerns and foster transparency, all Radiant \n   smart contracts are placed behind a[ timelock](https://docs.radiant.capital/radiant/contracts-and- \n   security/security-timelock), with a two-day delay for any action. The Radiant team has no intentions \n   to ever push upgrades to these contracts except to address a critical vulnerability. We will \n   prominently inform the community prior to any admin-related actions involving the timelock and \n   encourage community members to monitor inbound transactions to the timelock address. The \n   Radiant team will always announce all admin-related actions prior to queuing them in the timelock\n\n   5. 48,000 unique wallets have interacted with the protocol. Administrative functions within the smart \n   contracts are under timelock and Gnosis multisig. The committee that manages that multisig was \n   ratified as part of Radiant DAO’s first proposal,[ RFP-1] \n (https://dao.radiant.capital/#/proposal/0xffe6588f96159f052ea6ccb9c683a971b6a4fa8b2532f0d0755504be72fdeb6f).\n\n6. Market History: Radiant fair launched on 7/24/2022 and was self-funded with no VCs. Radiant v1 became the top lending protocol on Arbitrum with 148.45m TVL before the transition to v2.\n\n7. Value: This pool is intended to be the primary source of liquidity for Radiant on Arbitrum. In addition, the Radiant DAO sees the value of this gauge in alignment with other protocols in the ecosystem and sees potential and value in doing so with Balancer.\n\n## Specifications \n### Gauge Weight Cap\nThe RDNT v2 token and pool is quite new.  Based on it's mcap, weighting and fee contributions, it sits just on the boarder of the [Capped Gauge Framework](https://forum.balancer.fi/t/bip-57-introduce-gauge-framework-v1/3604), sitting currently slightly over the limit allowing for an uncapped gauge based on high trading fees.   The current intention of this pool is to allow collected fees to be paid back in to the gauge via Core Pool Bribes.  \n\nA Gauge capped at 10% provides more than enough room for these activities for the foreseeable future.  In order to alleviate any concerns around RDNT being used in an \"capture most of the pool and over-vote for it\" scheme, a voluntary 10% cap has been placed on the gauge.   Radiant may return to governance at a later date to request an increase as the need arises and the pool has more history to be used to evaluate it against BIP-57.\n\n### Gauge Type\nNote that this gauge is a traditional gauge, not a single recipient gauge used as part of the ve80/20 program.  As a result BAL incentives will be paid out to addresses depositing tokens in the Balancer Gauge.  Not to a single smart contract that redirects these tokens to lockers.\n\n### Core Pools Designation:\nWhile this pool contains no boosted tokens, a 0.5% fee has been set on the pool with an intention to participate in the [BIP-19](https://forum.balancer.fi/t/bip-19-incentivize-core-pools-l2-usage/3329) boosted pool program.  As with RBN/USDC gauge, It is therefore requested that 100% of the fees earned by this pool and not paid to the DAO are used to pay bribes on the pool.   It is further requested that these fees are used bribe the RDNT/WETH pool directly, instead of participating in the distribution of bribes by TVL as following the protocol for mainnet instead of for side-chains specified in BIP-19.  Handling of this pool should change in line with changes to BIP-19.\n\n### Details of Gauge to be whitelisted\n   1. Gauge address: [0x19ff30f9B2d32bfb0F21f2DB6c6A3A8604Eb8C2B](https://etherscan.io/address/0x19ff30f9B2d32bfb0F21f2DB6c6A3A8604Eb8C2B)\n   2. Pool address: 0x32df62dc3aed2cd6224193052ce665dc181658410002000000000000000003bd\n\nThe specific actions of authorizing the DAO multisig, adding the gauge, and removing the authorization using the gauge address above are included in the linked payload.",
+        "end_utc": "2023-03-27T19:00:00Z",
+        "similarity_score": 0.1326,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            4032797.933969916,
+            269.56938996368626,
+            583.0206818918628
+          ],
+          "scores_total": 4033650.524041771,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-03-27T19:00:00",
+          "pre_tvl_avg": 1316565867.0,
+          "post_tvl_avg": 1351167428.0,
+          "abnormal_change": 2.6282,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.026282,
+          "abnormal_change_pct": 2.6282
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-03-27T19:00:00",
+          "pre_price_avg": 6.739457164999999,
+          "post_price_avg": 6.865969245,
+          "abnormal_change": 1.8772,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.018772,
+          "abnormal_change_pct": 1.8772
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0xc2a441f36eddac49a1ca2ed865a017cdf3f2068090db4d1b390a96667b5620ca",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "Proposal to upgrade the Zodiac Roles Modifier to v2 with improved permissions policy, adding CoW Swap and removing obsolete permissions, aiming to enhance treasury management security and efficiency.",
+    "key_arguments_for": [
+      "Unanimous and stable voting timeline support for 'Yes, let's do it' option.",
+      "Forum sentiment predominantly positive with detailed support for improved usability and security.",
+      "Proposal includes fee cap on CoW Swap orders addressing earlier concerns.",
+      "Historical similar proposals mostly passed with positive or neutral market impacts."
+    ],
+    "key_arguments_against": [
+      "Some concerns about unrestricted fee parameters initially raised in forum, later mitigated.",
+      "One historical similar proposal showed slight negative token price and TVL post-vote, indicating caution."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.balancer.fi/t/bip-667-roles-v2-migration-new-treasury-permissions/5742",
+        "quote": "Forum comments show positive sentiment and detailed support for the proposal improvements."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Balancer Proposal 0xc2a441f3 Timeline Metrics",
+        "quote": "Lead ratio and stability metrics indicate unanimous support for the first choice."
+      },
+      {
+        "source_tool": "govnews_search_governance_news",
+        "reference": "Adjacent proposal BIP-666, BIP-665",
+        "quote": "Similar proposals passed with positive market outcomes."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2024-08-08T18:00:00Z",
+    "event_end_utc": "2024-08-12T18:00:00Z",
+    "event_time_utc": "2024-08-12T18:00:00Z",
+    "address_of_governance_token": "0xba100000625a3754423978a60c9317c58a424e3d",
+    "token_price_impact_pct": 1.4544,
+    "tvl_impact_pct": 3.3207,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        1739992.87346482,
+        0.0,
+        804895.2397773017
+      ],
+      "scores_total": 2544888.113242122,
+      "margin_abs": 935097.6336875183,
+      "margin_pct": 0.367442
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "• Timeline voting metrics show unanimous and stable support for the 'Yes, let's do it' option.\n• Forum sentiment is largely positive with detailed technical support and only minor concerns that were addressed with a fee cap update.\n• Market impacts are positive with price and TVL increases post-event.\n• Similar past proposals had mostly positive or neutral market outcomes, reinforcing confidence.\n• The recommendation aligns well with the aggregated forum sentiment, indicating community support.\n• This proposal's changes improve treasury permissions by removing obsolete actions, adding safer swap mechanisms, and enhancing transparency, which benefits the DAO's long-term health.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0xc83ca2e347ee9c5e0f4002b4a40a0c34011083e635c2b6c2bf66538b10cc8969",
+        "title": "[BIP-665] Enable COPM:WETH and COPM:USDC “FXPool” Gauges on Polygon",
+        "end_utc": "2024-08-05T18:00:00Z",
+        "summary": "[BIP-665] Enable COPM:WETH and COPM:USDC “FXPool” Gauges on Polygon closed on 2024-08-05T18:00:00Z. Timeline analytics noted 10 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.11)",
+        "market_response": "token -10.27%; TVL -13.65%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0x0ea2055f9ae746dcf14c1107dbd1355add527d83cfe7b58093dfce3a003127c4",
+        "title": "[BIP-664] Engage with market makers to enhance BAL liquidity on central exchanges",
+        "end_utc": "2024-07-29T18:00:00Z",
+        "summary": "[BIP-664] Engage with market makers to enhance BAL liquidity on central exchanges closed on 2024-07-29T18:00:00Z. Timeline analytics noted 13 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.10)",
+        "market_response": "token -5.14%; TVL -1.00%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 1.4544,
+    "ex_post_tvl_impact_pct": 3.3207,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +1.45%; TVL +3.32%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 1,
+    "Positive": 2,
+    "Neutral": 4,
+    "total_comments": 7
+  }
+}

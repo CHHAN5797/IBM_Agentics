@@ -63,6 +63,8 @@ class ProposalDecision(BaseModel):
     event_time_utc: Optional[str] = None
     address_of_governance_token: Optional[str] = None
     token_price_impact_pct: Optional[float] = None
+    token_price_market_pct: Optional[float] = None
+    token_price_market_adjusted_pct: Optional[float] = None
     tvl_impact_pct: Optional[float] = None
     actual_vote_result: Optional[ActualVoteResult] = None
     simulation_reason: Optional[str] = None
@@ -89,6 +91,8 @@ class DecisionAgentContext:
     votes_count: int
     timeline_metrics: Dict[str, Any]
     token_price_impact_pct: Optional[float]
+    token_price_market_pct: Optional[float]
+    token_price_market_adjusted_pct: Optional[float]
     tvl_impact_pct: Optional[float]
     adjacent_analytics: List[Dict[str, Any]]
     focus: Optional[str] = None
@@ -119,7 +123,10 @@ def _build_decision_prompt(ctx: DecisionAgentContext) -> List[str]:
         f"TIMELINE_METRICS(current): {json.dumps(ctx.timeline_metrics, ensure_ascii=False)}",
         (
             "MARKET_IMPACTS(current): "
-            f"price_pct={ctx.token_price_impact_pct}, tvl_pct={ctx.tvl_impact_pct}"
+            f"price_pct={ctx.token_price_impact_pct}, "
+            f"market_pct={ctx.token_price_market_pct}, "
+            f"price_abnormal_pct={ctx.token_price_market_adjusted_pct}, "
+            f"tvl_pct={ctx.tvl_impact_pct}"
         ),
         (
             "ADJACENT_ANALYTICS(≤3): "

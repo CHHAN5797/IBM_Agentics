@@ -1,0 +1,862 @@
+{
+  "captured_at_utc": "2025-10-07T01:48:18.904288+00:00",
+  "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0xb4c756ac701b5cbc0ec2d832652e4f1c820aa40f7d9be18eb81f87080a52c5f1",
+  "focus": null,
+  "votes_count": 5500,
+  "timeline_metrics_current": {
+    "unique_voters": 5500,
+    "total_votes": 5500,
+    "first_vote_at": "2023-02-15T22:00:28Z",
+    "last_vote_at": "2023-02-16T15:17:05Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 2,
+    "lead_ratio_by_quartile": [
+      [
+        0.000182,
+        0.0,
+        0.999818,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      0.0001818181818181818,
+      0.0,
+      0.9998181818181818,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      0.0001818181818181818,
+      0.0,
+      0.9998181818181818,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      0.0001818181818181818,
+      0.0,
+      0.9998181818181818,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        139.44000728128725,
+        13.389306266493765,
+        708.9764425726895,
+        8.484633240126042,
+        0.4800532646242513
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.292918,
+    "spike_follow_support_ratio": 0.990185,
+    "stairwise_ratio": 0.02584,
+    "half_slope_diff": 0.057058
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x4f97f52ef593bbdddc1037597729e1575ed8d4df997c1781334795b569ca25ce",
+      "title": "[ARC] Compensate Bug Bounty Contributor",
+      "author": "0xDD659911EcBD4458db07Ee7cDdeC79bf8F859AbC",
+      "end_utc": "2023-01-28T04:35:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-01-21T04:35:26Z",
+        "last_vote_at": "2023-01-21T22:12:33Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            92856.63197814174,
+            15.576506763331867,
+            3.3404031092221005
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.96998,
+        "spike_follow_support_ratio": 0.957474,
+        "stairwise_ratio": 0.000544,
+        "half_slope_diff": -0.693712
+      },
+      "price_impact_pct": -3.7624,
+      "tvl_impact_pct": -0.0609,
+      "similarity": 0.0727,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Pay 20 AAVE Tokens",
+        "margin_abs": 600828.0060904537,
+        "scores_total": 601013.7846133917,
+        "margin_pct": 0.999690891410989
+      }
+    },
+    {
+      "id": "0xdbd0215c5c05701838792a5f68637a304c9fc5500a19566be6512712a291aa03",
+      "title": "[ARC] Interest Rate Curve Changes for Aave V2 ETH",
+      "author": "0xDD659911EcBD4458db07Ee7cDdeC79bf8F859AbC",
+      "end_utc": "2023-01-20T23:50:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-01-17T20:50:18Z",
+        "last_vote_at": "2023-01-18T19:03:09Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            245672.8130743052,
+            3.687768367780169,
+            0.5845608410632543
+          ],
+          [
+            90107.14121470718,
+            1.4279770151543891,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.702078,
+        "spike_follow_support_ratio": 0.995977,
+        "stairwise_ratio": 0.000161,
+        "half_slope_diff": 34.384322
+      },
+      "price_impact_pct": 3.7112,
+      "tvl_impact_pct": 5.216,
+      "similarity": 0.06,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "YAE",
+        "margin_abs": 622886.1457121271,
+        "scores_total": 622916.8163393432,
+        "margin_pct": 0.9999507628845271
+      }
+    },
+    {
+      "id": "0xd096f98237c642614fe154844c5037a85c1f287f3323c4b003a83bd3f4ea658a",
+      "title": "[ARC] Updated: Gauntlet <> Aave Renewal",
+      "author": "0xDD659911EcBD4458db07Ee7cDdeC79bf8F859AbC",
+      "end_utc": "2022-12-19T22:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2022-12-16T01:30:12Z",
+        "last_vote_at": "2022-12-19T07:47:53Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            430290.7229365571,
+            18.400170872748845,
+            9.89565812339356
+          ],
+          [
+            90837.9177083091,
+            7.04251495953379,
+            2.9720977443137335
+          ],
+          [
+            42567.940400336294,
+            10.49529106463741,
+            0.04115412591272673
+          ],
+          [
+            80236.87579702023,
+            0.08535675559958263,
+            0.00266064220182156
+          ]
+        ],
+        "spike_index": 0.139867,
+        "spike_follow_support_ratio": 0.742959,
+        "stairwise_ratio": 0.00025,
+        "half_slope_diff": -9.405358
+      },
+      "price_impact_pct": -0.2482,
+      "tvl_impact_pct": 2.1233,
+      "similarity": 0.1,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "YAE",
+        "margin_abs": 810930.3827197431,
+        "scores_total": 811020.660588189,
+        "margin_pct": 0.9998886861052584
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0xc31254fac1369090cea7c0105cbc6381b72189c038391996f855708ff2e0c02e",
+      "cleaned": {
+        "proposal_id": "0xc31254fac1369090cea7c0105cbc6381b72189c038391996f855708ff2e0c02e",
+        "title": "[ARC] Aave Ethereum V3 market initial onboarded assets",
+        "author": "0x329c54289Ff5D6B7b7daE13592C6B1EDA1543eD4",
+        "end_utc": "2023-01-14T11:08:00Z",
+        "similarity_score": 0.1242,
+        "winning_option": "Chaos Labs Proposal",
+        "winning_option_index": 0,
+        "margin_abs": 234443.989615501,
+        "margin_pct": 0.7062284146985295,
+        "scores_total": 331966.23746097647,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-01-11T11:08:15Z",
+        "last_vote_at": "2023-01-13T03:24:32Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            119010.11949474114,
+            712.3249837157572
+          ],
+          [
+            98377.15964701315,
+            15.461574163094053
+          ],
+          [
+            231.47700887353355,
+            5.722166429001726
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.499176,
+        "spike_follow_support_ratio": 0.972184,
+        "stairwise_ratio": 0.003229,
+        "half_slope_diff": 0.071455
+      },
+      "raw": {
+        "id": "0xc31254fac1369090cea7c0105cbc6381b72189c038391996f855708ff2e0c02e",
+        "title": "[ARC] Aave Ethereum V3 market initial onboarded assets",
+        "author": "0x329c54289Ff5D6B7b7daE13592C6B1EDA1543eD4",
+        "body": "## Aave Ethereum V3 market initial onboarded assets3\n\nThere are currently two different proposals to select the onboarded assets on Aave Ethereum V3 markets on deployments.\n\nwhile both proposals have their own merits, the aave governance is invited to select their preferred option, as both proposals are in the forum since long enough to be considered mature for snapshot vote phase, a vote will be published today with a start 24h in the future.\n\nThe vote will be between the following options:\n\nChaos Labs Proposal - full details on the methodology and proposal can be found [here](https://governance.aave.com/t/chaos-labs-aave-v3-ethereum-initial-parameters/11159)\n \n![image](ipfs://bafkreibru7ckv3jh4scrfeueuwl4sfqnq6mqsqbbdy3yb2rqdsnzxlj72u)\n    \nIR curve parameters are to be set to the current Ethereum v2 configurations.\n\nIn addition, we recommend configuring an Ethereum-correlated (wstETH & ETH) e-mode category with the following parameters:\n\nCategory\tAssets included\tLT\tLTV\tLiquidation Bonus\nEthereum Correlated\tWETH, wstETH\t90%\t93%\t1%\nGauntlet Proposal\nfull details on the methodology and proposal can be found [here](https://governance.aave.com/t/arc-aave-v3-ethereum-deployment-assets-and-configurations/10238/22)\n \n![image](ipfs://bafkreihcfwkcr2zsu45levacomsa45kttkiu3frkrferub6rlxkewmjivq)\n    \nTLDR\nGauntlet Proposal:\nRecommendations based on information and insights from simulations Gauntlet conducted on current Aave V2 ETH and Aave V3 AVAX\nFull list of assets as previously [voted on](https://snapshot.org/#/aave.eth/proposal/0x288caef0d79e5883884324b90daa3c5550135ea0c78738e7ca2363243340c2da).\nChaos Labs Proposal:\nMore conservative, risk-off, and guarded launch - recommendations based on current market conditions rather than parameters configured on v2 and other v3 deployments.\n",
+        "end_utc": "2023-01-14T11:08:00Z",
+        "similarity_score": 0.1242,
+        "vote_result": {
+          "choices": [
+            "Chaos Labs Proposal",
+            "Gauntlet proposal"
+          ],
+          "scores": [
+            283205.1135382389,
+            48761.12392273793
+          ],
+          "scores_total": 331966.23746097647,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2023-01-14T11:08:00",
+          "pre_tvl_avg": 4219390554.5,
+          "post_tvl_avg": 4551668730.0,
+          "abnormal_change": 7.875,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.07875,
+          "abnormal_change_pct": 7.875
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2023-01-14T11:08:00",
+          "pre_price_avg": 69.551298205,
+          "post_price_avg": 82.93178556500001,
+          "abnormal_change": 19.2383,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.192383,
+          "abnormal_change_pct": 19.2383
+        }
+      }
+    },
+    {
+      "proposal_id": "0x6def87c35510ef55466c104e4e28fb3ed4da5d42ae78334d0855f5ca070af428",
+      "cleaned": {
+        "proposal_id": "0x6def87c35510ef55466c104e4e28fb3ed4da5d42ae78334d0855f5ca070af428",
+        "title": " [ARC] Risk Parameter Updates for Aave V2 ETH 2022-11-17",
+        "author": "0xDD659911EcBD4458db07Ee7cDdeC79bf8F859AbC",
+        "end_utc": "2022-11-21T14:00:00Z",
+        "similarity_score": 0.1212,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 105433.81879509057,
+        "margin_pct": 0.9870205716575507,
+        "scores_total": 106820.28503015953,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 4502,
+        "total_votes": 4502,
+        "first_vote_at": "2022-11-18T02:07:45Z",
+        "last_vote_at": "2022-11-21T13:58:53Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            90811.03451907462,
+            280.0052306855291,
+            548.4483920427438
+          ],
+          [
+            13741.318674658183,
+            5.793026057431011,
+            0.44176901260045837
+          ],
+          [
+            1173.3069019946342,
+            0.49145986018530075,
+            0.5351418754947729
+          ],
+          [
+            257.926932768014,
+            0.6400516547214721,
+            0.3429304746305456
+          ]
+        ],
+        "spike_index": 0.849687,
+        "spike_follow_support_ratio": 0.022952,
+        "stairwise_ratio": 0.001277,
+        "half_slope_diff": -0.839755
+      },
+      "raw": {
+        "id": "0x6def87c35510ef55466c104e4e28fb3ed4da5d42ae78334d0855f5ca070af428",
+        "title": " [ARC] Risk Parameter Updates for Aave V2 ETH 2022-11-17",
+        "author": "0xDD659911EcBD4458db07Ee7cDdeC79bf8F859AbC",
+        "body": "## Simple Summary\n\nA proposal to adjust two (2) total risk parameters, including Liquidation Threshold and Loan To Value, across one (1) Aave V2 asset. \n\n\n## Motivation\n\nThis set of recommendations follows [AIP 117](https://app.aave.com/governance/proposal/?proposalId=117) to further de-risk the REN market. \n\n### Supporting Data on Aave V2\n\n**Top 30 borrowers’ aggregate positions & borrow usages**\n\n![](https://i.imgur.com/ktXGW6P.png)\n\n**Top 30 borrowers’ entire supply**\n\n![](https://i.imgur.com/zoCKkVn.png)\n\n**Top 30 borrowers’ entire borrows**\n\n![](https://i.imgur.com/xO974Ct.png)\n\n**Price changes of key assets since 2022-11-03**\n\n![](https://i.imgur.com/9D7yUOW.png)\n\n**Time series of Value at Risk (VaR) since 2022-11-03**\n\n![](https://i.imgur.com/R8enrDr.png)\n\n**Top 10 REN suppliers and percentage of total REN supplies:**\n\n![](https://i.imgur.com/m3qrkWx.png)\n\n**Top 10 REN suppliers and borrow usages:**\n\n![](https://i.imgur.com/CNBpVd8.png)\n\n**Entire supply positions for top 10 REN suppliers:**\n\n![](https://i.imgur.com/rMEczds.png)\n\n**Entire borrow positions for top 10 REN suppliers:**\n\n![](https://i.imgur.com/HEKWdu8.png)\n\n\nBelow, Gauntlet analyzes the user which contributes the most Value at Risk per our simulations.\n\nUser: `0x364d5077c4c6bce6280705fe657fc4c55fdac363`\n\n**User supply breakdown**\n\n![](https://i.imgur.com/QZW65gh.png)\n\n**Relevant collateral factors**\n\n![](https://i.imgur.com/nOdid9p.png)\n\n**User borrowing power breakdown**\n\n![](https://i.imgur.com/xsPK0i7.png)\n\n**User borrows breakdown**\n\n![](https://i.imgur.com/1Tz7Anr.png)\n\n**User borrow usage**\n\n![](https://i.imgur.com/Tnwhl0a.png)\n\nNote that this user has been elastic as of late, updating their token positions often.\n\n\n## Aave V2 Parameter Changes Specification\n\nGauntlet's simulation engine will continue to adjust risk parameters to maintain protocol market risk at safe levels while optimizing for capital efficiency.\n\nThese parameter recommendations reflect the unique situation of REN in the current market conditions.  \n\n| Parameter | Current Value | Recommended Value |\n| -------- | -------- | -------- |\n| **REN Liquidation Threshold**     | 65%     | ***60%***     |\n| **REN Loan To Value**     | 60%     | ***55%***     |\n\n\n\n## Notable Accounts to Flag\n\nAs of 11/16/2022, the data shows that only one dust account, `0x0e1337ea2c604f9a937d2623af206cdd02167b38` would be liquidated as a result of these parameter updates. This account has a total of ~$100 in supply.\n\nThis could change if prices move significantly. On a daily basis, up until this proposal is executed, we will check whether these parameter updates will cause any liquidations and update the community on this forum post.\n\n\n\n## Risk Dashboard\n\nThe community should use Gauntlet's [Aave V2 Risk Dashboard](https://gov.gauntlet.network/aave) to understand better the updated parameter suggestions and general market risk in Aave V2. Gauntlet has also launched the [Aave Arc Risk Dashboard](https://gov.gauntlet.network/aave_arc).\n\nValue at Risk represents the 95th percentile **insolvency value** that occurs from simulations we run over a range of volatilities to approximate a tail event. \n\nLiquidations at Risk represents the 95th percentile **liquidation volume** that occurs from simulations we run over a range of volatilities to approximate a tail event.\n\n\n\n## Next Steps\n* Targeting an AIP on 2022-11-21\n\n## Quick Links\n[Analytics Dashboard](https://metabase.gauntlet.network/public/dashboard/f4930651-29be-4ff3-b664-a34462e286c5)\n[Risk Dashboard](https://gov.gauntlet.network/aave)\n[Aave Arc Risk Dashboard](https://gov.gauntlet.network/aave_arc)\n[Gauntlet Parameter Recommendation Methodology](https://medium.com/gauntlet-networks/gauntlets-parameter-recommendation-methodology-8591478a0c1c)\n[Gauntlet Model Methodology](https://medium.com/gauntlet-networks/gauntlets-model-methodology-ea150ff0bafd) \n\nGauntlet launched an insolvency refund for Aave that contains a portion of our payment stream that can be clawed back in the event of insolvencies due to market risk. Since our last recommendation there have been no new insolvencies in Aave. Gauntlet’s Insolvency Refund vault is still live and can be seen here [0x7667095Caa12b79fCa489ff6E2198Ca01fDAe057](https://etherscan.io/address/0x7667095Caa12b79fCa489ff6E2198Ca01fDAe057)\n\n*By approving this proposal, you agree that any services provided by Gauntlet shall be governed by the terms of service available at gauntlet.network/tos.*",
+        "end_utc": "2022-11-21T14:00:00Z",
+        "similarity_score": 0.1212,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "ABSTAIN",
+            "NAY"
+          ],
+          "scores": [
+            105983.58702849604,
+            286.9297682578667,
+            549.7682334054698
+          ],
+          "scores_total": 106820.28503015953,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2022-11-21T14:00:00",
+          "pre_tvl_avg": 4254502699.5,
+          "post_tvl_avg": 3793477794.5,
+          "abnormal_change": -10.8362,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.108362,
+          "abnormal_change_pct": -10.8362
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2022-11-21T14:00:00",
+          "pre_price_avg": 57.398588565,
+          "post_price_avg": 58.257763515,
+          "abnormal_change": 1.4969,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.014969,
+          "abnormal_change_pct": 1.4969
+        }
+      }
+    },
+    {
+      "proposal_id": "0x19df23070be999efbb7caf6cd35c320eb74dd119bcb15d003dc2e82c2bbd0d94",
+      "cleaned": {
+        "proposal_id": "0x19df23070be999efbb7caf6cd35c320eb74dd119bcb15d003dc2e82c2bbd0d94",
+        "title": "[ARC] Risk Parameter Updates for Ethereum Aave v2 Market",
+        "author": "0xc290Cfb8D020c0615e9C63036f4319Cc41717E68",
+        "end_utc": "2022-08-29T09:00:00Z",
+        "similarity_score": 0.12,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 272429.0720071453,
+        "margin_pct": 0.9999425742507632,
+        "scores_total": 272444.7173491647,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 1816,
+        "total_votes": 1816,
+        "first_vote_at": "2022-08-25T17:03:57Z",
+        "last_vote_at": "2022-08-29T08:54:59Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            10884.107300831372,
+            0.05230138016102842,
+            1.0013666245639248
+          ],
+          [
+            68741.27681690027,
+            0.8326498694541473,
+            3.4127008457907797
+          ],
+          [
+            192058.39139086762,
+            2.31913583454389,
+            1.8023589265764894
+          ],
+          [
+            751.5130302780556,
+            0.008191472227292268,
+            0.000105334560295615
+          ]
+        ],
+        "spike_index": 0.611767,
+        "spike_follow_support_ratio": 0.538708,
+        "stairwise_ratio": 0.000245,
+        "half_slope_diff": 0.312017
+      },
+      "raw": {
+        "id": "0x19df23070be999efbb7caf6cd35c320eb74dd119bcb15d003dc2e82c2bbd0d94",
+        "title": "[ARC] Risk Parameter Updates for Ethereum Aave v2 Market",
+        "author": "0xc290Cfb8D020c0615e9C63036f4319Cc41717E68",
+        "body": "Title: [ARC] Risk Parameter Updates for Ethereum Aave v2 Market\nauthor: @MarcZeller @MatthewGraham @Llamaxyz \ncreated: 20-08-2022\n\n## Simple Summary\n\nIn response to Tribe DAO’s proposal to enter a terminal state, this ARC proposes disabling Deposits, disabling Borrowing and route 100% of the interest paid by FEI borrowers to the Reserve Factor.\n\n## Abstract\n\nTribe DAO is dissolving the DAO’s assets and TRIBE governance token. As a result, FEI will become backed 1:1 with DAI and redeemable 1FEI:1DAI. With Tribe DAO transitioning into a terminal state, the FEI stablecoin will overtime be redeemed for DAI.\n\nAs FEI is redeemed for DAI, over time FEI’s circulating supply and liquidity will also fall away. Without sufficient liquidity, liquidations can not be performed efficiently which creates a risk for the Ethereum Aave v2 market.\n\nIn response to recent events, this ARC proposes disabling Deposits, disabling Borrowing and route 100% of the interest paid by borrowers to the Reserve Factor. A separate forum post will emerge that recommends all aFEI be redeemed for FEI and swapped for DAI via the contracts deployed by Tribe DAO.\n\nThis proposal is to disable lending and borrowing of FEI whilst enabling existing debt to be repaid and collateral to be withdrawn.\n\n## Motivation\n\nWith the emergence of news that Tribe DAO intends to dissolve FEI and the Protocol Controlled Value (PCV) backing the stablecoin, there is a need to amend the FEI lending market in preparation of the risks to emerge with transition Tribe DAO to a terminal state.\n\nThe details around how Tribe DAO will transition from current state to terminal state can be found [here](https://tribe.fei.money/t/tip-121-proposal-for-the-future-of-the-tribe-dao/4475).\n\nAs FEI will be redeemed for DAI, the stablecoin will suffer diminishing liquidity and diminishing supply. This renders the FEI stablecoin not suitable as a supported asset on Aave markets.\n\n## Specification\n\nThe recommendation is to disabling Deposits, disabling Borrowing and route 100% of the interest paid by borrowers to the Reserve Factor.\n\n**Risk Parameters:**\n\nFreeze the FEI market which will:\n\nBorrowing Enabled → Disable \nLending Enabled → Disable \n\nAlso,\n\nReserve Factor 20% → 100%\n\n## Next Steps\n\nThe next step for this ARC is after a period of discussion of at least 5 days to publish a governance snapshot vote at the **earliest 24th August 2022**, with YAE / NAY / ABSTAIN options and in the case of YAE majority publish an AIP to modify FEI risk parameters as outlined above at the earliest possible date **29th August 2022**.\n\n## Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+        "end_utc": "2022-08-29T09:00:00Z",
+        "similarity_score": 0.12,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "NAE",
+            "ABSTAIN"
+          ],
+          "scores": [
+            272435.2885388768,
+            3.2122785563863583,
+            6.2165317314914885
+          ],
+          "scores_total": 272444.7173491647,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2022-08-29T09:00:00",
+          "pre_tvl_avg": 6217568357.5,
+          "post_tvl_avg": 6148517328.0,
+          "abnormal_change": -1.1106,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.011106,
+          "abnormal_change_pct": -1.1106
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2022-08-29T09:00:00",
+          "pre_price_avg": 80.30831972499999,
+          "post_price_avg": 85.66757928,
+          "abnormal_change": 6.6734,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.066734,
+          "abnormal_change_pct": 6.6734
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0xb4c756ac701b5cbc0ec2d832652e4f1c820aa40f7d9be18eb81f87080a52c5f1",
+    "selected_choice_label": "Conservative only for small mkts",
+    "selected_choice_index": 2,
+    "confidence": 0.9,
+    "summary": "This proposal seeks community alignment on risk management assumptions for borrow and supply caps on Aave V3 markets on Avalanche and Optimism chains, balancing risk mitigation with growth potential by offering three risk preference options. The timeline and vote progress strongly favor the 'Conservative only for small mkts' option, reflecting a prudent yet growth-aware stance. Historical proposals with similar risk parameter adjustments showed cautious but effective changes, with market metrics indicating minimal negative impact.",
+    "key_arguments_for": [
+      "Mitigates insolvency risk by focusing on local-chain liquidity, which empirical data shows is critical for liquidations.",
+      "Balances risk and growth by applying conservative caps only to smaller markets while allowing strategic assets room for organic growth.",
+      "Community feedback supports a principled approach to risk management with clear assumptions, reducing governance fatigue.",
+      "Historical similar proposals demonstrated that cautious parameter adjustments effectively protected protocol health."
+    ],
+    "key_arguments_against": [
+      "Conservative caps may limit growth potential for smaller markets and could lead to liquidity blockers.",
+      "Aggressive options, while promoting growth, expose the protocol to higher insolvency risk if cross-chain liquidity assumptions fail.",
+      "Some community members express concern about insufficient data on cross-chain liquidation liquidity and potential losses.",
+      "The Abstain and Nay options reflect uncertainty or disagreement with the assumptions, signaling the need for further clarity."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://governance.aave.com/t/arc-gauntlet-borrow-supply-cap-updates-for-aave-v3-op-and-aave-v3-avax-2023-01-27/11488",
+        "quote": "Community discourse highlights a preference for conservative assumptions focused on local-chain liquidity, with support for option 3 balancing risk and growth."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": null,
+        "quote": "Voting timeline metrics indicate a dominant early lead and stability for 'Conservative only for small mkts' option, showing community consensus."
+      },
+      {
+        "source_tool": "govnews_search_governance_news",
+        "reference": null,
+        "quote": "Historical proposals involving risk parameter updates showed cautious adjustments leading to minimal negative post-vote market impacts."
+      }
+    ],
+    "available_choices": [
+      "Conservative",
+      "Aggressive",
+      "Conservative only for small mkts",
+      "Abstain",
+      "Nay"
+    ],
+    "event_start_utc": "2023-02-15T22:00:00Z",
+    "event_end_utc": "2023-02-21T22:00:00Z",
+    "event_time_utc": "2023-02-21T22:00:00Z",
+    "address_of_governance_token": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+    "token_price_impact_pct": -6.7606,
+    "tvl_impact_pct": -3.6119,
+    "actual_vote_result": {
+      "winner_label": "Aggressive",
+      "winner_index": 1,
+      "scores": [
+        1748.2065327634698,
+        492177.8999821013,
+        305646.84600832686,
+        45.70497450940591,
+        160.37673333052916
+      ],
+      "scores_total": 799779.0342309871,
+      "margin_abs": 186531.05397377443,
+      "margin_pct": 0.233228
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Conservative only for small mkts' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- The voting timeline and analytics show strong early and sustained support for the 'Conservative only for small mkts' option, indicating community alignment on balancing risk and growth.\n- Forum sentiment reveals nuanced community discussions favoring conservative risk management for smaller markets while allowing major assets room to grow, with concerns about liquidity and insolvency risk informing this preference.\n- Historical proposals with similar risk parameter adjustments highlight the benefits of cautious changes to protect protocol health, avoiding significant post-vote negative market or TVL impacts.\n- Market impact data indicates a negative price and TVL trend, reinforcing the prudence of conservative risk controls to mitigate further downside.\n- The recommendation aligns with aggregated forum sentiment, reflecting community views and promoting durable protocol benefit by balancing safety and growth potential.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0xd096f98237c642614fe154844c5037a85c1f287f3323c4b003a83bd3f4ea658a",
+        "title": "[ARC] Updated: Gauntlet <> Aave Renewal",
+        "end_utc": "2022-12-19T22:00:00Z",
+        "summary": "[ARC] Updated: Gauntlet <> Aave Renewal closed on 2022-12-19T22:00:00Z. Timeline analytics noted 5500 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.10)",
+        "market_response": "token -0.25%; TVL +2.12%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0x4f97f52ef593bbdddc1037597729e1575ed8d4df997c1781334795b569ca25ce",
+        "title": "[ARC] Compensate Bug Bounty Contributor",
+        "end_utc": "2023-01-28T04:35:00Z",
+        "summary": "[ARC] Compensate Bug Bounty Contributor closed on 2023-01-28T04:35:00Z. Timeline analytics noted 5500 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.07)",
+        "market_response": "token -3.76%; TVL -0.06%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -6.7606,
+    "ex_post_tvl_impact_pct": -3.6119,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -6.76%; TVL -3.61%"
+  },
+  "agentic_ai_choice": "Conservative only for small mkts",
+  "actual_outcome": "Aggressive",
+  "match_result": "different",
+  "forum_sentiment_summary": {
+    "Negative": 8,
+    "Positive": 1,
+    "Neutral": 6,
+    "total_comments": 15
+  }
+}

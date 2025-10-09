@@ -1,0 +1,958 @@
+{
+  "captured_at_utc": "2025-10-06T00:32:58.086055+00:00",
+  "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0x4bc99a842adab6cdd8c7d5c7a787ee4c0056be554fde0d008d53b45b3e795065",
+  "focus": null,
+  "votes_count": 944,
+  "timeline_metrics_current": {
+    "unique_voters": 944,
+    "total_votes": 944,
+    "first_vote_at": "2024-01-13T20:43:45Z",
+    "last_vote_at": "2024-01-16T20:32:42Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        0.84949,
+        0.15051,
+        0.0,
+        0.0
+      ],
+      [
+        0.265823,
+        0.734177,
+        0.0,
+        0.0
+      ],
+      [
+        0.536232,
+        0.463768,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      0.5370762711864406,
+      0.4629237288135593,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      0.5370762711864406,
+      0.4629237288135593,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      0.8494897959183674,
+      0.15051020408163265,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        45.35008827657549,
+        86680.48742803682,
+        0.33497926340026,
+        6.081486684179258
+      ],
+      [
+        19.929227889365738,
+        60807.81358769175,
+        2.4263455136897494,
+        0.027224936077890984
+      ],
+      [
+        28.952825999420842,
+        263415.5909668838,
+        6.786508174739776,
+        0.024031269524285002
+      ],
+      [
+        10.472687771836354,
+        20.370170113858215,
+        0.2970000000487617,
+        24.655135206155364
+      ]
+    ],
+    "spike_index": 0.232175,
+    "spike_follow_support_ratio": 0.997022,
+    "stairwise_ratio": 0.000125,
+    "half_slope_diff": 30.361654
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0xff6853c25774ad63a7ce2a92f0a4393112dad2941cf93e392ed8a10d7eac6664",
+      "title": "[ARFC] Upgrade Safety Module with StkGHO",
+      "author": "0x329c54289Ff5D6B7b7daE13592C6B1EDA1543eD4",
+      "end_utc": "2023-12-01T13:25:21Z",
+      "timeline_metrics": {
+        "unique_voters": 2577,
+        "total_votes": 2577,
+        "first_vote_at": "2023-11-28T13:27:34Z",
+        "last_vote_at": "2023-12-01T13:24:59Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            256665.8774409406,
+            61790.418928483195,
+            9.278746395793702
+          ],
+          [
+            67399.82768242495,
+            285.55905162609383,
+            19.40271515301807
+          ],
+          [
+            61769.28108853786,
+            15.070300760568394,
+            0.547253246714434
+          ],
+          [
+            21368.917958216123,
+            0.24402106191499845,
+            0.2869217651987288
+          ]
+        ],
+        "spike_index": 0.269187,
+        "spike_follow_support_ratio": 0.596738,
+        "stairwise_ratio": 0.000253,
+        "half_slope_diff": -20.159195
+      },
+      "price_impact_pct": 4.7659,
+      "tvl_impact_pct": 6.4144,
+      "similarity": 0.3073,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "YAE",
+        "margin_abs": 345112.61186818656,
+        "scores_total": 469324.7121086105,
+        "margin_pct": 0.7353386748327053
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0xff6853c25774ad63a7ce2a92f0a4393112dad2941cf93e392ed8a10d7eac6664",
+      "cleaned": {
+        "proposal_id": "0xff6853c25774ad63a7ce2a92f0a4393112dad2941cf93e392ed8a10d7eac6664",
+        "title": "[ARFC] Upgrade Safety Module with StkGHO",
+        "author": "0x329c54289Ff5D6B7b7daE13592C6B1EDA1543eD4",
+        "end_utc": "2023-12-01T13:25:21Z",
+        "similarity_score": 0.2882,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 345112.61186818656,
+        "margin_pct": 0.7353386748327053,
+        "scores_total": 469324.7121086105,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 2577,
+        "total_votes": 2577,
+        "first_vote_at": "2023-11-28T13:27:34Z",
+        "last_vote_at": "2023-12-01T13:24:59Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            256665.8774409406,
+            61790.418928483195,
+            9.278746395793702
+          ],
+          [
+            67399.82768242495,
+            285.55905162609383,
+            19.40271515301807
+          ],
+          [
+            61769.28108853786,
+            15.070300760568394,
+            0.547253246714434
+          ],
+          [
+            21368.917958216123,
+            0.24402106191499845,
+            0.2869217651987288
+          ]
+        ],
+        "spike_index": 0.269187,
+        "spike_follow_support_ratio": 0.596738,
+        "stairwise_ratio": 0.000253,
+        "half_slope_diff": -20.159195
+      },
+      "raw": {
+        "id": "0xff6853c25774ad63a7ce2a92f0a4393112dad2941cf93e392ed8a10d7eac6664",
+        "title": "[ARFC] Upgrade Safety Module with StkGHO",
+        "author": "0x329c54289Ff5D6B7b7daE13592C6B1EDA1543eD4",
+        "body": "**Title:** [ARFC] Upgrade Safety Module with StkGHO\n\n**Author:** Marc Zeller - ACI (Aave Chan Initiative)\n\n**Date:** 2023-11-21\n\n---\n\n## Summary\nThis ARFC introduces an enhancement to the Safety Module by integrating a GHO Safety Module. This new category aims to mitigate risks using GHO’s stablecoin attributes for potential shortfall events within its ecosystem. It also reduces the Safety incentives for StkAAVE and StkBPT.\n\n## Motivation\n\n[AIP-366 was adopted by governance](https://app.aave.com/governance/proposal/366/) to reduce the safety incentives of StkAAVE and StkBPT, but an implementation bug made the AIP execution impossible. After discussion with DAO service providers, it was decided to bundle the re-run of 366 with the creation of the GHO safety module and the StkGHO asset.\n\nThe GHO Safety Module will fortify the Aave Protocol's resilience by adding a stablecoin asset, which is inherently less volatile than AAVE. This strategic move diversifies the Safety Module's capacity to absorb shocks from various risk vectors in case of shortfall events.\n\nThe GHO Safety Module will target a liquidity pool of 9M GHO with an APR range of 12-15%, achievable with a daily emission of 35 AAVE/day over a 90-day period. The module will have a slashing rate set at 100%, meaning the entirety of the deposits could be utilized in a shortfall event, with socialized coverage among StkGHO holders. The cooldown period is adjusted to 10 days, which is suitable for a stablecoin.\n\n## Specification\n**Revised Safety Module Emissions Rate:**\n\n| Asset      | Previous Emissions | Proposed Emissions |\n|------------|-------------------|--------------------|\n| StkAAVE    | 550 AAVE/day      | 385 AAVE/day       |\n| StkBPT     | 550 AAVE/day      | 385 AAVE/day       |\n| StkGHO     | N/A               | 35 AAVE/day        |\n\n- **GHO Safety Module Parameters:**\n  - Target Liquidity: 9M GHO\n  - Target APR: 12-15%\n  - Emissions Period: 35 AAVE/day over a 90-day cycle\n  - Slashing Rate: 100%\n  - Cooldown Period: 10 days\n\n## Next Steps\n1. If the ARFC snapshot outcome is YAE, proceed to the AIP stage.\n\n## Disclosure\nThe Aave-chan Initiative is not presenting this ARFC on behalf of any third party and has not been compensated for creating this ARFC.\n\n## Copyright\nCopyright and related rights waived under [Creative Commons Zero (CC0)](https://creativecommons.org/publicdomain/zero/1.0/).",
+        "end_utc": "2023-12-01T13:25:21Z",
+        "similarity_score": 0.2882,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "NAY",
+            "ABSTAIN"
+          ],
+          "scores": [
+            407203.90417011833,
+            62091.29230193178,
+            29.51563656072494
+          ],
+          "scores_total": 469324.7121086105,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2023-12-01T13:25:21",
+          "pre_tvl_avg": 5770211772.5,
+          "post_tvl_avg": 6140338234.0,
+          "abnormal_change": 6.4144,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.064144,
+          "abnormal_change_pct": 6.4144
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2023-12-01T13:25:21",
+          "pre_price_avg": 97.320260385,
+          "post_price_avg": 101.34047847,
+          "abnormal_change": 4.1309,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.041309,
+          "abnormal_change_pct": 4.1309
+        }
+      }
+    },
+    {
+      "proposal_id": "0x3690a2555731c402ac5dbcd225bdbc64f0bd11991d4d391d2682eb77b5dfa2a6",
+      "cleaned": {
+        "proposal_id": "0x3690a2555731c402ac5dbcd225bdbc64f0bd11991d4d391d2682eb77b5dfa2a6",
+        "title": "[ARFC] USDT Risk Parameters Update Aave V3 ETH Pool",
+        "author": "0x329c54289Ff5D6B7b7daE13592C6B1EDA1543eD4",
+        "end_utc": "2023-06-30T08:16:56Z",
+        "similarity_score": 0.223,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 592182.6354389433,
+        "margin_pct": 0.9990455424987531,
+        "scores_total": 592748.38858478,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 1165,
+        "total_votes": 1165,
+        "first_vote_at": "2023-06-27T08:17:25Z",
+        "last_vote_at": "2023-06-30T08:00:03Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            277324.6434683936,
+            150.12989945967684,
+            1.5342451048272367,
+            129.6749493124882
+          ],
+          [
+            232099.65612493755,
+            43.27989487204245,
+            1.9754866459006861,
+            34.49638030518885
+          ],
+          [
+            290.9879523005883,
+            2.638284067683166,
+            1.0799488286292076,
+            0.6733335518290245
+          ],
+          [
+            82664.01768293159,
+            0.6217112213142046,
+            0.1256853246537353,
+            2.853537522440496
+          ]
+        ],
+        "spike_index": 0.392475,
+        "spike_follow_support_ratio": 0.612628,
+        "stairwise_ratio": 9.3e-05,
+        "half_slope_diff": -0.859434
+      },
+      "raw": {
+        "id": "0x3690a2555731c402ac5dbcd225bdbc64f0bd11991d4d391d2682eb77b5dfa2a6",
+        "title": "[ARFC] USDT Risk Parameters Update Aave V3 ETH Pool",
+        "author": "0x329c54289Ff5D6B7b7daE13592C6B1EDA1543eD4",
+        "body": "---\ntitle: [ARFC] USDT Risk Parameters Update Aave V3 ETH Pool\nauthor: Marc Zeller, Aave-Chan Initiative (ACI)\ndate: 2023-06-06\n---\n\n## Abstract\n\nThis ARFC proposes an update to the risk parameters for USDT in the Aave ETH V3 pool, enabling it as collateral.\n\n## Motivation\n\nThis proposal aims to unlock the potential of USDT as collateral within the Aave ETH V3 pool. By aligning the risk parameters of USDT with those of USDC, we anticipate an increase in borrowing power for users. This change is expected to stimulate borrowing volume on Aave, thereby contributing to the protocol's revenue. The activation of collateral power for USDT is a strategic move towards creating a more dynamic, efficient, and profitable liquidity environment within the Aave ETH V3 pool.\n\n## Specification\n\nThe following table outlines the proposed risk parameters for USDT in the Aave ETH V3 pool, which will replicate the risk parameters of USDC:\n\n| Parameter | Current Value (USDT) | Proposed Value (USDT) | Current Value (USDC) |\n|-----------|----------------------|-----------------------|----------------------|\n| LTV       | 0%                   | 74%                  | 74%                  |\n| LT        | 0%                   | 76%                  | 76%                  |\n| LB        | 0%                   | 4.5%                 | 4.5%                 |\n\n## Next Steps\n\n- If the ARFC Snapshot is successful, the proposal will be escalated to the Aave Improvement Proposal (AIP) stage for final approval.\n\n## Disclaimer\n\nThe Aave Chan Initiative has not been compensated by any third party for publishing this ARFC.\n\n## Copyright\n\nCopyright and related rights waived via CC0.",
+        "end_utc": "2023-06-30T08:16:56Z",
+        "similarity_score": 0.223,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "YAE (Isolation Mode)",
+            "NAY",
+            "ABSTAIN"
+          ],
+          "scores": [
+            592379.305228564,
+            196.66978962071664,
+            4.715365904010864,
+            167.69820069194657
+          ],
+          "scores_total": 592748.38858478,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2023-06-30T08:16:56",
+          "pre_tvl_avg": 5600123314.5,
+          "post_tvl_avg": 5893228569.0,
+          "abnormal_change": 5.2339,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.052339,
+          "abnormal_change_pct": 5.2339
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2023-06-30T08:16:56",
+          "pre_price_avg": 61.28843983,
+          "post_price_avg": 71.79521202999999,
+          "abnormal_change": 17.1432,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.171432,
+          "abnormal_change_pct": 17.1432
+        }
+      }
+    },
+    {
+      "proposal_id": "0x4e17faf4fdb1ea2c8974d19e710724daf98dde225cd2078a9af4fbb5f0895512",
+      "cleaned": {
+        "proposal_id": "0x4e17faf4fdb1ea2c8974d19e710724daf98dde225cd2078a9af4fbb5f0895512",
+        "title": "ARFC] Activate LUSD as Collateral on Aave V3 ETH Pool",
+        "author": "0x329c54289Ff5D6B7b7daE13592C6B1EDA1543eD4",
+        "end_utc": "2023-08-10T15:41:33Z",
+        "similarity_score": 0.1962,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 482350.5752532738,
+        "margin_pct": 0.9998437641177805,
+        "scores_total": 482425.94749678654,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 2975,
+        "total_votes": 2975,
+        "first_vote_at": "2023-08-07T15:45:45Z",
+        "last_vote_at": "2023-08-10T15:39:37Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            251244.43522487947,
+            6.1717534226160975,
+            3.7276333318718904
+          ],
+          [
+            85360.94528075418,
+            1.6451290266292493,
+            8.948412032011737
+          ],
+          [
+            20201.06579761055,
+            0.30583192334245574,
+            1.7954069256948455
+          ],
+          [
+            125574.52170014073,
+            22.270035737870547,
+            0.11529100220374225
+          ]
+        ],
+        "spike_index": 0.487885,
+        "spike_follow_support_ratio": 0.939449,
+        "stairwise_ratio": 0.000249,
+        "half_slope_diff": -165.974945
+      },
+      "raw": {
+        "id": "0x4e17faf4fdb1ea2c8974d19e710724daf98dde225cd2078a9af4fbb5f0895512",
+        "title": "ARFC] Activate LUSD as Collateral on Aave V3 ETH Pool",
+        "author": "0x329c54289Ff5D6B7b7daE13592C6B1EDA1543eD4",
+        "body": "---\ntitle: [ARFC] Activate LUSD as Collateral on Aave V3 ETH Pool\nauthor: Marc Zeller @marczeller - Aave Chan Initiative\ndate: 2023-08-06\n---\n\n## Summary\n\nThis ARFC proposes to activate LUSD as a collateral asset on the Aave V3 ETH pool. The proposed risk parameters for LUSD will mirror those currently in place for USDC on the same pool.\n\n## Motivation\n\nLUSD is a decentralized stablecoin minted by users of the Liquity Protocol. It has demonstrated its resilience and maintained a stable peg, even in volatile market conditions. By adding LUSD as a collateral asset on the Aave V3 ETH pool, we can offer our users more options for their DeFi activities. Furthermore, the integration of LUSD could potentially synergize with the GHO, enhancing liquidity and further reinforcing the stability of the peg.\n\n## Specification\n\nThe proposed risk parameters for LUSD on the Aave V3 ETH pool are as follows:\n\n| Parameter | Value |\n| --- | --- |\n| Loan-to-Value (LTV) | 77% |\n| Liquidation Threshold (LT) | 80% |\n| Liquidation Penalty | 4.5% |\n\nThese parameters are identical to those currently in place for USDC on the Aave V3 ETH pool.\n\n## Disclaimer\n\nThis proposal is part of the [Skyward](https://governance.aave.com/t/introducing-skyward-a-free-service-for-aave-dao-by-aave-chan-initiative/13173/13) program, the ACI has not been compensated by any third-party to present this ARFC.\nAt the time of writing, the author does not hold LQTY tokens but owns some LUSD.\n\n## Next Steps\n\n1. If the Snapshot outcome is YAE, escalate to AIP for final approval and implementation.\n\n## Copyright\n\nCopyright and related rights waived via CC0.",
+        "end_utc": "2023-08-10T15:41:33Z",
+        "similarity_score": 0.1962,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "NAY",
+            "ABSTAIN"
+          ],
+          "scores": [
+            482380.9680033843,
+            30.39275011045834,
+            14.58674329178221
+          ],
+          "scores_total": 482425.94749678654,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2023-08-10T15:41:33",
+          "pre_tvl_avg": 4965676832.0,
+          "post_tvl_avg": 4997744291.0,
+          "abnormal_change": 0.6458,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.006458,
+          "abnormal_change_pct": 0.6458
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2023-08-10T15:41:33",
+          "pre_price_avg": 66.81450478,
+          "post_price_avg": 65.89618876,
+          "abnormal_change": -1.3744,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.013744,
+          "abnormal_change_pct": -1.3744
+        }
+      }
+    },
+    {
+      "proposal_id": "0xc3c8768fa4bbdc12eea40c6cdd0d3d9f61847142a37b17cafcab3fdac7ce32d2",
+      "cleaned": {
+        "proposal_id": "0xc3c8768fa4bbdc12eea40c6cdd0d3d9f61847142a37b17cafcab3fdac7ce32d2",
+        "title": "[ARFC] Align AAVE Risk Parameters on Aave V3 Ethereum Market with Aave V2",
+        "author": "0x329c54289Ff5D6B7b7daE13592C6B1EDA1543eD4",
+        "end_utc": "2023-04-15T10:00:00Z",
+        "similarity_score": 0.1961,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 545848.5449604982,
+        "margin_pct": 0.9998355800720796,
+        "scores_total": 545938.3080977646,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-04-12T10:00:29Z",
+        "last_vote_at": "2023-04-13T08:48:18Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            288813.5990264574,
+            33.38184614893655,
+            3.8003409806661845
+          ],
+          [
+            127.27666343853132,
+            1.1372540386063799,
+            0.07464674270469493
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.834961,
+        "spike_follow_support_ratio": 0.890334,
+        "stairwise_ratio": 6.3e-05,
+        "half_slope_diff": -45.232643
+      },
+      "raw": {
+        "id": "0xc3c8768fa4bbdc12eea40c6cdd0d3d9f61847142a37b17cafcab3fdac7ce32d2",
+        "title": "[ARFC] Align AAVE Risk Parameters on Aave V3 Ethereum Market with Aave V2",
+        "author": "0x329c54289Ff5D6B7b7daE13592C6B1EDA1543eD4",
+        "body": "title: [ARFC] Align AAVE Risk Parameters on Aave V3 Ethereum Market with Aave V2\nAuthor: @Marczeller - Aave-Chan Initiative\nDate: 2023-04-05\n\n## **Summary**\nThis Aave Request for Comments (ARFC) proposes the alignment of the AAVE risk parameters on the Aave V3 Ethereum market with those on Aave V2, as the current parameters on Aave V3 are less attractive for users considering migration. By matching the Aave V2 parameters, we aim to encourage migration and ensure a smoother transition for users. This proposal does not suggest any changes to Aave V3 caps or interest rate strategies.\n\n### **Proposed Aave V3 Parameter Changes**\nTo make Aave V3 more attractive for migration and to match Aave V2 parameters, we propose the following changes:\n\n1. Loan-to-Value (LTV): Increase the LTV from 60% to 66%.\n2. Liquidation Threshold (LT): Increase the LT from 70% to 73%.\n3. Liquidation Penalty (LP): Maintain the current LP of 7.5%, as it is already in alignment with Aave V2.\n\nNo changes to Aave V3 caps or interest rate strategies are proposed in this ARFC.\n\n### **Recap Table**\n| Parameter                | Current Aave V3 | Current Aave V2 | Proposed Aave V3 |\n|--------------------------|-----------------|-----------------|------------------|\n| Loan-to-Value (LTV)      | 60%             | 66%             | 66%              |\n| Liquidation Threshold (LT)| 70%             | 73%             | 73%              |\n| Liquidation Penalty (LP)  | 7.5%            | 7.5%            | 7.5%             |\n\n## **Disclaimer**\nThe Aave-Chan Initiative (ACI) is not compensated in any form for creating this ARFC proposal.\nThis ARFC has been prepared solely to facilitate community discussion.\nAt the time of writing, the author owns ~26k AAVE or related assets for a value of approx $2M.\n\n## **Next Steps**\n1. Gather feedback and input from the Aave community and risk service providers on the proposed risk parameters and deployment details.\n2. Refine the ARFC based on community feedback and risk service provider recommendations.\n3. If consensus is reached and the proposal is refined, submit the ARFC for a snapshot vote for final approval.\n4. If consensus is reached, submit an Aave Improvement Proposal (AIP) to update the risk parameters on the Aave V3 Ethereum market.\n\n## **Copyright**\nCopyright and related rights waived via CC0.",
+        "end_utc": "2023-04-15T10:00:00Z",
+        "similarity_score": 0.1961,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "NAY",
+            "ABSTAIN"
+          ],
+          "scores": [
+            545889.1869775719,
+            40.642017073658145,
+            8.479103119126433
+          ],
+          "scores_total": 545938.3080977646,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2023-04-15T10:00:00",
+          "pre_tvl_avg": 5932021028.5,
+          "post_tvl_avg": 5952663162.0,
+          "abnormal_change": 0.348,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.00348,
+          "abnormal_change_pct": 0.348
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2023-04-15T10:00:00",
+          "pre_price_avg": 81.92173477,
+          "post_price_avg": 81.454330145,
+          "abnormal_change": -0.5706,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.005706,
+          "abnormal_change_pct": -0.5706
+        }
+      }
+    },
+    {
+      "proposal_id": "0x25557cd27107c25e5bd55f7e23af7665d16eba3ad8325f4dc5cc8ade9b7c6d1f",
+      "cleaned": {
+        "proposal_id": "0x25557cd27107c25e5bd55f7e23af7665d16eba3ad8325f4dc5cc8ade9b7c6d1f",
+        "title": "[ARFC] Further increase GHO Borrow Rate",
+        "author": "0x57ab7ee15cE5ECacB1aB84EE42D5A9d0d8112922",
+        "end_utc": "2023-10-16T09:51:36Z",
+        "similarity_score": 0.1818,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 582878.4573061579,
+        "margin_pct": 0.9971407543928423,
+        "scores_total": 584549.8288364232,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 1739,
+        "total_votes": 1739,
+        "first_vote_at": "2023-10-13T09:52:12Z",
+        "last_vote_at": "2023-10-16T09:50:07Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            349580.69521057524,
+            384.81820995973516,
+            0.6856966345916605
+          ],
+          [
+            40172.62884164013,
+            80.18571396486395,
+            2.7320876519028388
+          ],
+          [
+            593.499540570251,
+            2.637934607428596,
+            1.0996788113124234
+          ],
+          [
+            193363.6215585686,
+            364.3459866660793,
+            2.8783767711946493
+          ]
+        ],
+        "spike_index": 0.198312,
+        "spike_follow_support_ratio": 0.999973,
+        "stairwise_ratio": 0.000139,
+        "half_slope_diff": -13.100507
+      },
+      "raw": {
+        "id": "0x25557cd27107c25e5bd55f7e23af7665d16eba3ad8325f4dc5cc8ade9b7c6d1f",
+        "title": "[ARFC] Further increase GHO Borrow Rate",
+        "author": "0x57ab7ee15cE5ECacB1aB84EE42D5A9d0d8112922",
+        "body": "---\ntitle: [ARFC] Further increase GHO Borrow Rate\nauthor: @MarcZeller - Aave Chan Initiative\ncreated: 2023-10-05\n---\n\n## Summary\n\nThis ARFC proposes a further increase in the GHO borrow rate by 50 basis points (bps), raising it from 2.5% to 3%.\n\n## Motivation\n\nThe Aave community has previously recognized the importance of adjusting the GHO borrow rate to maintain the stability and health of the protocol. The motivations for this proposal are:\n\n1. **Strengthening the GHO Peg**: The prior adjustment to the GHO borrow rate resulted in a stronger GHO peg. An additional increase is anticipated to further bolster the peg and get closer to the target value.\n2. **Enhancing GHO Revenue**: By increasing the borrow rate, the protocol is expected to generate additional revenue from GHO borrowings.\n3. **Coordinated Effort**: This proposal aligns with other initiatives, including the GHO buy program set of AIPs, as part of a coordinated effort to support the GHO peg.\n\nThe discount for stkAave holders remains unchanged at 30%.\n\nThis proposal also greenlights the ACI for a `direct-to-AIP` process for 50 bps increments every 30 days, as long as the GHO peg is outside 0,995<>1,005 monthly average price range, up to 5.5% borrow rate. \n\n## Specification\n\n- Asset: GHO  \n- Contract Address: 0x40D16FC0246aD3160Ccc09B8D0D3A2cD28aE6C2f  \n- Current Borrow Rate: 2.5%  \n- Proposed Borrow Rate: 3%  \n- New discounted Borrow Rate: ~2.1%\n\n## Disclaimer\n\nThe Aave-Chan Initiative is not presenting this ARFC on behalf of any third party and is not compensated for creating this ARFC.\n\n\n## Next Steps\n\n1. If the snapshot outcome is YAE, escalate the proposal to AIP stage.\n\n## Copyright\n\nCopyright and related rights waived via CC0.",
+        "end_utc": "2023-10-16T09:51:36Z",
+        "similarity_score": 0.1818,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "NAY",
+            "ABSTAIN"
+          ],
+          "scores": [
+            583710.445151356,
+            831.987845198107,
+            7.395839869001571
+          ],
+          "scores_total": 584549.8288364232,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2023-10-16T09:51:36",
+          "pre_tvl_avg": 4589132295.0,
+          "post_tvl_avg": 4689938283.0,
+          "abnormal_change": 2.1966,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.021966,
+          "abnormal_change_pct": 2.1966
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2023-10-16T09:51:36",
+          "pre_price_avg": 64.16255532,
+          "post_price_avg": 63.02457002,
+          "abnormal_change": -1.7736,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.017736,
+          "abnormal_change_pct": -1.7736
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0x4bc99a842adab6cdd8c7d5c7a787ee4c0056be554fde0d008d53b45b3e795065",
+    "selected_choice_label": "YAE - Option B",
+    "selected_choice_index": 1,
+    "confidence": 0.85,
+    "summary": "The proposal to update StkGHO launch parameters, offering two options for cooldown and budget adjustments, received strong community engagement with 944 voters. Option B, proposing a 20-day cooldown and 50 AAVE/day budget, is recommended based on timeline metrics, forum sentiment, and historical lessons. Forum discussions show cautious support with concerns about cooldown duration and reward size, but overall favor the gradual increase in emissions to balance utility and risk. Similar past proposals introduced GHO into the Safety Module, aiming to diversify risk, with mixed market outcomes suggesting careful parameter calibration is essential.",
+    "key_arguments_for": [
+      "Option B provides a balanced approach with a longer cooldown and moderate budget increase, addressing community concerns.",
+      "Integrating GHO into the Safety Module diversifies risk exposure and strengthens protocol resilience.",
+      "Forum sentiment highlights support for enhanced GHO utility and acknowledges the importance of maintaining peg stability."
+    ],
+    "key_arguments_against": [
+      "Concerns that higher rewards might push GHO above peg, disrupting liquidations and market stability.",
+      "Arguments that cooldown for stable assets like GHO should not be shorter than for more volatile tokens.",
+      "Risk that stkGHO demand vector effectiveness may decline if caps are quickly reached or rewards become sticky."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://governance.aave.com/t/arfc-upgrade-safety-module-with-stkgho/15635",
+        "quote": "Community discussions reflect mixed sentiment with dominant cautious support; first comments emphasize proposal scope and rationale; later comments debate cooldown duration and reward amounts."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Snapshot vote timeline metrics",
+        "quote": "Timeline analysis shows early strong lead for Option A but increasing support for Option B, with final recommendation for Option B."
+      },
+      {
+        "source_tool": "govnews_search_governance_news",
+        "reference": "Adjacent proposal AIP-385",
+        "quote": "Similar past proposal integrated GHO into Safety Module with positive price and TVL impact, informing cautious optimism."
+      }
+    ],
+    "available_choices": [
+      "YAE - Option A",
+      "YAE - Option B",
+      "NAY",
+      "ABSTAIN"
+    ],
+    "event_start_utc": "2024-01-13T20:38:54Z",
+    "event_end_utc": "2024-01-16T20:38:54Z",
+    "event_time_utc": "2024-01-16T20:38:54Z",
+    "address_of_governance_token": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+    "token_price_impact_pct": -2.764,
+    "tvl_impact_pct": -1.8583,
+    "actual_vote_result": {
+      "winner_label": "YAE - Option B",
+      "winner_index": 1,
+      "scores": [
+        104.70482993719834,
+        410924.26215272624,
+        9.844832951878548,
+        30.787878095936804
+      ],
+      "scores_total": 411069.5996937106,
+      "margin_abs": 410819.55732278904,
+      "margin_pct": 0.999392
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'YAE - Option B' selected with stance to keep 'Change'.",
+    "ai_final_reason": "• Timeline metrics indicate a strong and stable support for Option B, with increasing voter engagement supporting a moderate cooldown and budget increase.\n• Forum sentiment, while cautious, predominantly supports the proposal for enhancing GHO utility and Safety Module diversification, aligning with the recommended option.\n• Historical lessons from a similar prior proposal (AIP-385) show positive market and protocol resilience outcomes, reinforcing the approach.\n• Market impacts show slight declines but are typical during protocol adjustments and should not deter the moderate changes proposed.\n• Overall, the recommendation mirrors forum opinion and timeline data, balancing innovation with risk management for Aave's long-term health.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0xff6853c25774ad63a7ce2a92f0a4393112dad2941cf93e392ed8a10d7eac6664",
+        "title": "[ARFC] Upgrade Safety Module with StkGHO",
+        "end_utc": "2023-12-01T13:25:21Z",
+        "summary": "[ARFC] Upgrade Safety Module with StkGHO closed on 2023-12-01T13:25:21Z. Timeline analytics noted 2577 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Moderate text overlap (score 0.31)",
+        "market_response": "token +4.77%; TVL +6.41%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -2.764,
+    "ex_post_tvl_impact_pct": -1.8583,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -2.76%; TVL -1.86%"
+  },
+  "agentic_ai_choice": "YAE - Option B",
+  "actual_outcome": "YAE - Option B",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 10,
+    "Positive": 2,
+    "Neutral": 9,
+    "total_comments": 21
+  }
+}

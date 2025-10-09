@@ -1,0 +1,985 @@
+{
+  "captured_at_utc": "2025-10-07T03:09:25.694454+00:00",
+  "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0xd706dfcb631076d5e835e0640d120b8de333d31ef30f66e3dbb529a380608ea1",
+  "focus": null,
+  "votes_count": 5500,
+  "timeline_metrics_current": {
+    "unique_voters": 5500,
+    "total_votes": 5500,
+    "first_vote_at": "2022-12-09T00:00:15Z",
+    "last_vote_at": "2022-12-10T20:47:47Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        17714.80931500902,
+        34.94629574643855,
+        8.633731274299382
+      ],
+      [
+        171670.1654937168,
+        1.8745022949494703,
+        0.5821883738967913
+      ],
+      [
+        396.7228702375179,
+        5.513333640309299,
+        0.08682228767501823
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.474572,
+    "spike_follow_support_ratio": 0.996656,
+    "stairwise_ratio": 0.000923,
+    "half_slope_diff": 3.644548
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0xf40a7b4a6ecd5325553593f0f9fdc8ba04808573fdf76fc277aee52b5396a588",
+      "title": " [ARC] V3 Supply Cap Recommendations for Uncapped Assets (Fast-track)",
+      "author": "0x8d4384046E47732EE7Ce8b7D96D15f7b9178FD2f",
+      "end_utc": "2022-11-25T23:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 3644,
+        "total_votes": 3644,
+        "first_vote_at": "2022-11-23T21:47:21Z",
+        "last_vote_at": "2022-11-25T22:59:35Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            90717.70776432256,
+            1.5531641753208107,
+            4.409751590655405
+          ],
+          [
+            149912.6457159016,
+            1.2154651879919869,
+            56.54425814478412
+          ],
+          [
+            90136.83890553367,
+            2.61453524062068,
+            0.9501126864184583
+          ],
+          [
+            240744.721804061,
+            2.0213265819457575,
+            4.999853200326104
+          ]
+        ],
+        "spike_index": 0.15757,
+        "spike_follow_support_ratio": 0.977085,
+        "stairwise_ratio": 0.000234,
+        "half_slope_diff": 0.442681
+      },
+      "price_impact_pct": 4.6396,
+      "tvl_impact_pct": -2.589,
+      "similarity": 0.0823,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "YAE",
+        "margin_abs": 571445.0102141979,
+        "scores_total": 571586.2226566288,
+        "margin_pct": 0.999752946385281
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0xb81e12285c6de6f9fec9906c6d0149b33809c2ba6cf79a05cdab26ea70caadff",
+      "cleaned": {
+        "proposal_id": "0xb81e12285c6de6f9fec9906c6d0149b33809c2ba6cf79a05cdab26ea70caadff",
+        "title": "Risk Parameter Updates for Aave v2 Ethereum (DAI LT and LTV)",
+        "author": "0xbC540e0729B732fb14afA240aA5A047aE9ba7dF0",
+        "end_utc": "2022-12-10T23:00:00Z",
+        "similarity_score": 0.5349,
+        "winning_option": "300bps LT decrease & LTV 75%",
+        "winning_option_index": 2,
+        "margin_abs": 269370.4903754235,
+        "margin_pct": 0.9973950205367589,
+        "scores_total": 270074.02767106146,
+        "change_stance": null
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2022-12-07T23:00:39Z",
+        "last_vote_at": "2022-12-10T12:16:51Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 2,
+        "lead_ratio_by_quartile": [
+          [
+            0.240765,
+            0.000445,
+            0.758789,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            1.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.09836363636363636,
+          0.0001818181818181818,
+          0.9014545454545455,
+          0.0
+        ],
+        "stability": [
+          0.09836363636363636,
+          0.0001818181818181818,
+          0.9014545454545455,
+          0.0
+        ],
+        "early_ratio": [
+          0.24076546506453048,
+          0.0004450378282153983,
+          0.7587894971072541,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            37.91608813955881,
+            35.770457762026965,
+            90496.83438762311,
+            12.128950426424026
+          ],
+          [
+            10.310094478682494,
+            23.378652314129983,
+            299.0018463897891,
+            8.532387276981739
+          ],
+          [
+            18.352855899823457,
+            23.75729599285884,
+            98462.28053779918,
+            0.41463770406939077
+          ],
+          [
+            33.321550393869536,
+            45.29096713912638,
+            308.187733216632,
+            4.174078018756667
+          ]
+        ],
+        "spike_index": 0.475112,
+        "spike_follow_support_ratio": 0.99032,
+        "stairwise_ratio": 0.000657,
+        "half_slope_diff": -1.42008
+      },
+      "raw": {
+        "id": "0xb81e12285c6de6f9fec9906c6d0149b33809c2ba6cf79a05cdab26ea70caadff",
+        "title": "Risk Parameter Updates for Aave v2 Ethereum (DAI LT and LTV)",
+        "author": "0xbC540e0729B732fb14afA240aA5A047aE9ba7dF0",
+        "body": "## Simple Summary\nA proposal to adjust 2 total risk parameters, including Liquidation Threshold (LT) and Loan-To-Value (LTV) for DAI on Aave V2 Ethereum.\n\n## Abstract\nFollowing recent market events, the AAVE community has decided to reduce the risk profile across many higher volatile assets by disabling borrow or freezing across v2 markets ([AIP-121](https://app.aave.com/governance/proposal/121/), [AIP-124](https://app.aave.com/governance/proposal/124/), and [AIP-125](https://app.aave.com/governance/proposal/125/))\n\nAfter mitigating the immediate risk to the protocol with the above AIPs, Chaos Labs is exploring the impact and trade-offs of decreasing the Liquidation Thresholds and LTVs of DAI. Reducing capital efficiency on v2 assets will mitigate attack vectors while also serving as effective motivation to shift usage to v3, where users can enjoy the benefits of E-mode with enhanced risk techniques and mitigation methodologies.\n\nAs Liquidation Threshold reductions may lead to user accounts being eligible for liquidations upon their approval, we want to make the full implications clear to the community at each step. To best minimize this impact, we suggest reaching the desired settings by a series of incremental decreases, following the Risk-Off Framework 2 previously approved by the community, with a reduction of up to 3% in any given AIP. In an attempt to avoid liquidations, Chaos Labs will communicate the planned amendments 7 days before their on-chain execution via all available avenues (Twitter, forums, Nansen Connect, and Blockscan Chat 1).\n\n## Motivation\nThe priority of this proposal is not to optimize markets (capital efficiency); but rather to focus on the security and risk mitigation of the protocol. It will be followed up with additional proposals to update risk parameters to reflect the current market conditions accurately.\n\nThe goal of this ARC is two-fold:\n\nReduce LTs → Reducing liquidation thresholds for DAI  effectively reduces capital efficiency and increases the required capital for waging price manipulation attacks on Aave.\nEncourage user migrations to v3 → This also begins to pave the way towards migrating to v3, where these assets can be utilized in E-mode.\nHowever, this is a significant change, and we wanted to present data to quantify and visualize the effect of such reductions on protocol users for community discussion. Specifically, we want to surface data around the liquidations this would trigger, as some are sizable and warrant a discussion of how these should be handled and if this is the most appropriate action forward.\n\n## DAI LT Reduction Implications:\nMainnet snapshot captured on December 6th, 20:00 GMT\n \n \n![Screen Shot 2022-12-06 at 5.59.16 PM.png](ipfs://bafkreiccmsm5me4bjxk72h2wtjebalm2ayx77gkc4hlhg2hdtnqzmthl7e)\n    \n    \n## Summary\nBased on prior community discourse and market activity over the past few weeks, Aave should continue reviewing avenues to derisk all v2 markets with a specific eye on LTs & LTVs. Forced liquidations of user accounts are a major factor in deciding how and when to reduce these parameters to minimize negative user experience.\n\n_Chaos Labs recommends reducing DAI LT by 300 bps (Option 2)_",
+        "end_utc": "2022-12-10T23:00:00Z",
+        "similarity_score": 0.5349,
+        "vote_result": {
+          "choices": [
+            "No change",
+            "150bps LT decrease & LTV 75%",
+            "300bps LT decrease & LTV 75%",
+            "Abstain"
+          ],
+          "scores": [
+            111.40374393956998,
+            279.9800756266546,
+            269650.47045105015,
+            32.17340044460668
+          ],
+          "scores_total": 270074.02767106146,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2022-12-10T23:00:00",
+          "pre_tvl_avg": 3799534298.0,
+          "post_tvl_avg": 3793342906.5,
+          "abnormal_change": -0.163,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.00163,
+          "abnormal_change_pct": -0.163
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2022-12-10T23:00:00",
+          "pre_price_avg": 62.15939005,
+          "post_price_avg": 60.98843348,
+          "abnormal_change": -1.8838,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.018838,
+          "abnormal_change_pct": -1.8838
+        }
+      }
+    },
+    {
+      "proposal_id": "0x4d69f27a92875170e5db685ecac4c3a41a12d4510b4d98c7faab6150444d5db8",
+      "cleaned": {
+        "proposal_id": "0x4d69f27a92875170e5db685ecac4c3a41a12d4510b4d98c7faab6150444d5db8",
+        "title": "Risk Parameter Updates for Aave v2 Ethereum (USDC LT and LTV)",
+        "author": "0xbC540e0729B732fb14afA240aA5A047aE9ba7dF0",
+        "end_utc": "2022-12-10T23:00:00Z",
+        "similarity_score": 0.5349,
+        "winning_option": "150bps LT decrease & LTV 80%",
+        "winning_option_index": 1,
+        "margin_abs": 269342.42314307735,
+        "margin_pct": 0.9968057682364853,
+        "scores_total": 270205.52220478095,
+        "change_stance": "Not change, Status quo"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2022-12-07T23:00:23Z",
+        "last_vote_at": "2022-12-10T15:44:22Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 1,
+        "lead_ratio_by_quartile": [
+          [
+            0.009891,
+            0.141444,
+            0.848665,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.0036363636363636364,
+          0.6843636363636364,
+          0.312,
+          0.0
+        ],
+        "stability": [
+          0.0036363636363636364,
+          0.6843636363636364,
+          0.312,
+          0.0
+        ],
+        "early_ratio": [
+          0.009891196834817012,
+          0.1414441147378833,
+          0.8486646884272997,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            109.4219743600388,
+            90276.27529178731,
+            247.3477285514239,
+            2.7902134049004776
+          ],
+          [
+            8.651062791699166,
+            284.22109777893246,
+            16.356848153372066,
+            2.1873024974643505
+          ],
+          [
+            28.874386236300218,
+            98473.66815565267,
+            11.072157964825436,
+            0.6231537692861833
+          ],
+          [
+            49.19695427405669,
+            80433.51627185955,
+            16.890160826440898,
+            7.213520762850991
+          ]
+        ],
+        "spike_index": 0.334234,
+        "spike_follow_support_ratio": 0.97966,
+        "stairwise_ratio": 0.000461,
+        "half_slope_diff": 1.925895
+      },
+      "raw": {
+        "id": "0x4d69f27a92875170e5db685ecac4c3a41a12d4510b4d98c7faab6150444d5db8",
+        "title": "Risk Parameter Updates for Aave v2 Ethereum (USDC LT and LTV)",
+        "author": "0xbC540e0729B732fb14afA240aA5A047aE9ba7dF0",
+        "body": "## Simple Summary\nA proposal to adjust 2 total risk parameters, including Liquidation Threshold (LT) and Loan-To-Value (LTV) for USDC on Aave V2 Ethereum.\n\n## Abstract\nFollowing recent market events, the AAVE community has decided to reduce the risk profile across many higher volatile assets by disabling borrow or freezing across v2 markets ([AIP-121](https://app.aave.com/governance/proposal/121/), [AIP-124](https://app.aave.com/governance/proposal/124/), and [AIP-125](https://app.aave.com/governance/proposal/125/))\n\nAfter mitigating the immediate risk to the protocol with the above AIPs, Chaos Labs is exploring the impact and trade-offs of decreasing the Liquidation Thresholds and LTVs of USDC. Reducing capital efficiency on v2 assets will mitigate attack vectors while also serving as effective motivation to shift usage to v3, where users can enjoy the benefits of E-mode with enhanced risk techniques and mitigation methodologies.\n\nAs Liquidation Threshold reductions may lead to user accounts being eligible for liquidations upon their approval, we want to make the full implications clear to the community at each step. To best minimize this impact, we suggest reaching the desired settings by a series of incremental decreases, following the Risk-Off Framework 2 previously approved by the community, with a reduction of up to 3% in any given AIP. In an attempt to avoid liquidations, Chaos Labs will communicate the planned amendments 7 days before their on-chain execution via all available avenues (Twitter, forums, Nansen Connect, and Blockscan Chat 1).\n\n## Motivation\nThe priority of this proposal is not to optimize markets (capital efficiency); but rather to focus on the security and risk mitigation of the protocol. It will be followed up with additional proposals to update risk parameters to reflect the current market conditions accurately.\n\nThe goal of this ARC is two-fold:\n\nReduce LTs → Reducing liquidation thresholds for USDC  effectively reduces capital efficiency and increases the required capital for waging price manipulation attacks on Aave.\nEncourage user migrations to v3 → This also begins to pave the way towards migrating to v3, where these assets can be utilized in E-mode.\nHowever, this is a significant change, and we wanted to present data to quantify and visualize the effect of such reductions on protocol users for community discussion. Specifically, we want to surface data around the liquidations this would trigger, as some are sizable and warrant a discussion of how these should be handled and if this is the most appropriate action forward.\n\n## USDC LT Reduction Implications:\nMainnet snapshot captured on December 6th, 20:00 GMT\n \n![Screen Shot 2022-12-06 at 5.43.49 PM.png](ipfs://QmeYWSdMbi4mjtdbPbghx1BxzHF7nQvHiFYV8en5wGEvaT)\n    \n## Summary\nBased on prior community discourse and market activity over the past few weeks, Aave should continue reviewing avenues to derisk all v2 markets with a specific eye on LTs & LTVs. Forced liquidations of user accounts are a major factor in deciding how and when to reduce these parameters to minimize negative user experience.\n\n_Chaos Labs recommends reducing USDC LT by 150 bps (Option 1)_",
+        "end_utc": "2022-12-10T23:00:00Z",
+        "similarity_score": 0.5349,
+        "vote_result": {
+          "choices": [
+            "No change",
+            "150bps LT decrease & LTV 80%",
+            "300bps LT decrease & LTV 80%",
+            "Abstain"
+          ],
+          "scores": [
+            199.27342041489425,
+            269667.90875073726,
+            325.4856076599292,
+            12.854425968723438
+          ],
+          "scores_total": 270205.52220478095,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2022-12-10T23:00:00",
+          "pre_tvl_avg": 3799534298.0,
+          "post_tvl_avg": 3793342906.5,
+          "abnormal_change": -0.163,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.00163,
+          "abnormal_change_pct": -0.163
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2022-12-10T23:00:00",
+          "pre_price_avg": 62.15939005,
+          "post_price_avg": 60.98843348,
+          "abnormal_change": -1.8838,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.018838,
+          "abnormal_change_pct": -1.8838
+        }
+      }
+    },
+    {
+      "proposal_id": "bafkreigdmcfmwvnxfolpds4xkdicgrszgmknig7pz2r2t37tltupdpyfu4",
+      "cleaned": {
+        "proposal_id": "bafkreigdmcfmwvnxfolpds4xkdicgrszgmknig7pz2r2t37tltupdpyfu4",
+        "title": "Risk-Off Framework for the Aave Protocol",
+        "author": "0xDD659911EcBD4458db07Ee7cDdeC79bf8F859AbC",
+        "end_utc": "2022-07-30T03:59:00Z",
+        "similarity_score": 0.1522,
+        "winning_option": "3%",
+        "winning_option_index": 0,
+        "margin_abs": 465249.9328471024,
+        "margin_pct": 0.9940055540651132,
+        "scores_total": 468055.66723888327,
+        "change_stance": null
+      },
+      "timeline_metrics": {
+        "unique_voters": 2575,
+        "total_votes": 2575,
+        "first_vote_at": "2022-07-22T19:36:45Z",
+        "last_vote_at": "2022-07-30T02:00:22Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 3,
+        "lead_ratio_by_quartile": [
+          [
+            0.110294,
+            0.006434,
+            0.001838,
+            0.881434,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.6240776699029126,
+          0.0027184466019417475,
+          0.0007766990291262136,
+          0.3724271844660194,
+          0.0
+        ],
+        "stability": [
+          0.6240776699029126,
+          0.0027184466019417475,
+          0.0007766990291262136,
+          0.3724271844660194,
+          0.0
+        ],
+        "early_ratio": [
+          0.11029411764705882,
+          0.006433823529411764,
+          0.001838235294117647,
+          0.8814338235294118,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            63707.91470196917,
+            106.49891325287399,
+            291.09309215812937,
+            133.8783772385861,
+            16.04890092378761
+          ],
+          [
+            205355.04790960008,
+            52.83908757039114,
+            14.967604108111491,
+            1.2089007154120643,
+            3.2980680397590563
+          ],
+          [
+            11201.297153410278,
+            0.4503214199799197,
+            750.1816278561921,
+            0.13401524070178594,
+            225.75800255420737
+          ],
+          [
+            186091.53014181007,
+            50.1902964815214,
+            49.61473556385483,
+            0.007209200926314751,
+            3.7081797707223503
+          ]
+        ],
+        "spike_index": 0.39321,
+        "spike_follow_support_ratio": 0.016672,
+        "stairwise_ratio": 9.2e-05,
+        "half_slope_diff": 0.645163
+      },
+      "raw": {
+        "id": "bafkreigdmcfmwvnxfolpds4xkdicgrszgmknig7pz2r2t37tltupdpyfu4",
+        "title": "Risk-Off Framework for the Aave Protocol",
+        "author": "0xDD659911EcBD4458db07Ee7cDdeC79bf8F859AbC",
+        "body": "## Rate of Change Consensus \nTo achieve sustainability, Aave must combine *value creation* under favorable market conditions with *protection* of itself and its users when conditions become unfavorable [1]. \n\n**Aave must be able to lower the liquidation threshold of collateral assets to reduce the risk it and its users face under those adverse conditions**. While loan-to-value and liquidation bonus are also useful means of reducing the risk of insolvency, they are not effective substitutes. \n\nOver the last several weeks, Gauntlet has collaborated with BGD Labs, Llama, Governance House, and other community stakeholders to align on how to most effectively serve the protocol regarding the tradeoffs between value creation and protection. \n\nLiquidation threshold reductions can impact users in a number of ways. In particular, if a user's account health is low, this type of parameter change can render the account eligible for liquidation. \n\nIf a user rebalances their position ahead of a liquidation threshold reduction, they will avoid liquidation. For this reason, Gauntlet will provide notice to the community via communication channels that may include the forums and Twitter, among others.\n\nThat said, there is always some chance that a user will not monitor their health factor or fail to supply collateral in time, resulting in \"risk-off liquidations\".\n\n\n\n---\n\n\nBGD, Llama, Governance House, and other community members have emphasized that these liquidations impinge on the borrower user experience. It is therefore important that the community explicitly aligns on a desired maximum reduction to liquidation thresholds per AIP.\n\nCommunity input is also valuable because limits on LT reduction impose an important trade-off:\n1. A lower max LT reduction will minimize the impact to borrowers but at the cost of reducing the rate at which risk can be taken off. This, in turn, limits the extent to which leverage can be increased during favorable conditions, making Aave less capital efficient and coming at the cost of borrow volume. \n2. A higher max LT reduction will strengthen Aave's ability to maximize capital efficiency under favorable market conditions but increase the potential for risk-off liquidations.\n\n\n---\n\nThe options for this Snapshot vote are the following: Per AIP, each collateral asset's liquidation threshold may be reduced by an absolute percentage of up to:\n* 3% (see point (2) above)\n* 2%\n* 1% (see point (1) above)\n* 0% (no risk management)\n* Abstain\n\nNote:\n* *This limit would **not** apply under severe conditions, such as a contract vulnerability.* \n* *It **would** apply to all collateral assets Gauntlet supports, including WETH, WBTC, DAI, &c. [2].*\n\n\n---\n\n\n\n## \n[1] Please find a detailed explanation of Gauntlet's Risk Management methodology [here](https://medium.com/gauntlet-networks/gauntlets-parameter-recommendation-methodology-8591478a0c1c).\n\n[2] A complete list of currently supported assets can be found [here](https://gov.gauntlet.network/aave).",
+        "end_utc": "2022-07-30T03:59:00Z",
+        "similarity_score": 0.1522,
+        "vote_result": {
+          "choices": [
+            "3%",
+            "2%",
+            "1%",
+            "0%",
+            "Abstain"
+          ],
+          "scores": [
+            466355.7899067887,
+            209.97861872476625,
+            1105.8570596862874,
+            135.22850239562626,
+            248.8131512884764
+          ],
+          "scores_total": 468055.66723888327,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2022-07-30T03:59:00",
+          "pre_tvl_avg": 6497952320.0,
+          "post_tvl_avg": 6476249920.0,
+          "abnormal_change": -0.334,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.00334,
+          "abnormal_change_pct": -0.334
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2022-07-30T03:59:00",
+          "pre_price_avg": 98.14412418500001,
+          "post_price_avg": 95.346028555,
+          "abnormal_change": -2.851,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.02851,
+          "abnormal_change_pct": -2.851
+        }
+      }
+    },
+    {
+      "proposal_id": "QmbfxdR8yABDQpjKmXyDbnquWC8AJbdFajjR4zrX3Ss5R5",
+      "cleaned": {
+        "proposal_id": "QmbfxdR8yABDQpjKmXyDbnquWC8AJbdFajjR4zrX3Ss5R5",
+        "title": "Should thirteen (13) total risk parameters across eleven (11) Aave V2 assets be adjusted?",
+        "author": "0xb01474b50382fAe1A847E3A916ECDf07Ba57BcC7",
+        "end_utc": "2021-10-11T16:00:00Z",
+        "similarity_score": 0.1404,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 1729.659241435985,
+        "margin_pct": 0.8472340815138257,
+        "scores_total": 2041.5364291595242,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 183,
+        "total_votes": 183,
+        "first_vote_at": "2021-10-08T04:36:05Z",
+        "last_vote_at": "2021-10-11T10:16:41Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            477.3420535195121,
+            0.0,
+            0.0
+          ],
+          [
+            125.26422734591104,
+            0.0,
+            0.0
+          ],
+          [
+            1210.9269900543895,
+            0.0,
+            0.13969253429673933
+          ],
+          [
+            72.06456437793729,
+            0.0,
+            155.79890132747292
+          ]
+        ],
+        "spike_index": 0.608487,
+        "spike_follow_support_ratio": 0.294873,
+        "stairwise_ratio": 0.006323,
+        "half_slope_diff": -0.015917
+      },
+      "raw": {
+        "id": "QmbfxdR8yABDQpjKmXyDbnquWC8AJbdFajjR4zrX3Ss5R5",
+        "title": "Should thirteen (13) total risk parameters across eleven (11) Aave V2 assets be adjusted?",
+        "author": "0xb01474b50382fAe1A847E3A916ECDf07Ba57BcC7",
+        "body": "[Forum Discussion](https://governance.aave.com/t/arc-risk-parameter-updates-2021-10-7/5854)\n## Simple Summary\n\nA proposal to adjust thirteen (13) total risk parameters across eleven (11) Aave V2 assets including LTV, Liquidation Threshold, and Liquidation Bonus.\n\n\n\n## Abstract\nThis proposal is a batch update of three risk parameters to align with the [Moderate risk level](https://snapshot.org/#/aave.eth/proposal/QmT9T4Rfnh1Z2HYmMPXvtFotMK2vSxiXK8dKStg2b6n4gi) chosen by the Aave community. These parameter updates are a continuation of Gauntlet's regular parameter recommendations, the latest being [AIP-39: Risk Parameter Updates for Aave V2 assets](https://app.aave.com/governance/39-QmXQMnHQMP6KmwkCG8MjBCjxxNEeaHszh9FgFZFASkqPS2).\n\n\n## Motivation\n\nThis set of parameter updates seeks to maintain the overall risk tolerance of the protocol while making risk trade-offs between specific assets. Volatility for non-stablecoin crypto assets remains high. As such, we focused on supporting protocol safety for our parameter changes in this cycle. \n\nAdjustments were also made for three liquidation bonus values. These assets (UNI, BAL, LINK) saw increases in liquidity and trading volume and a reduced liquidation recommended value as a result. As always, simulation recommended values seek to maintain capital efficiency and uphold borrow usage levels.  \n\n\n\n## Specification\n\n| Parameter | Current Value | Recommended Value |\n| -------- | -------- | -------- |\n| REN Loan To Value     | 55%     | 50%     |\n| SNX Loan To Value     | 20%     | 30%     |\n| SNX Liquidation Threshold    | 45.0%     | 55.0%     |\n| DPI Loan To Value     | 60%     | 55%     |\n| UNI Loan To Value     | 60%     | 55%     |\n| UNI Liquidation Bonus    | 10.0%     | 8.0%     |\n| YFI Loan To Value     | 45%     | 50%     |\n| BAL Liquidation Bonus    | 10.0%     | 8.0%     |\n| LINK Liquidation Bonus     | 10.0%     | 7.5%     |\n| BAT Liquidation Threshold    | 75.0%     | 80.0%     |\n| ENJ Liquidation Threshold    | 60.0%     | 65.0%     |\n| MANA Liquidation Threshold    | 65.0%     | 75.0%     |\n| ZRX Liquidation Threshold    | 70.0%     | 75.0%     |\n\n\nSee below volatility and exchange volume data from 9/28 to 10/06 that were important drivers for the updated parameter recommendations.\n\nIt is important to note that these drivers give insight into why Gauntlet's simulations will output a new VaR calculation for a set of parameters, but each parameter can not be estimated by input changes. For example, the decrease in trading volume for DPI indicates lowered liquidity, while there are large increases for ENJ, MANA, and BAT. These suggest more liquidity and easier liquidations, but that relationship changes over time. \n\n|Symbol| 10-06 Volatility| 09-28 Volatility| Volatility Change| Weekly Average Daily Volume Change (%)  |\n|------|---------------|---------------|-----------------|------------|\n|BAL   |1.571708299    |1.639825348    |-0.068117049     |-10.9455427|\n|BAT   |1.26231086     |1.275188876    |-0.012878016     |15.9070933 |\n|DPI   |1.248509981    |1.229162786    |0.019347195      |-32.3316308|\n|ENJ   |1.684204979    |1.660170507    |0.024034472      |41.6823744 |\n|LINK  |1.516493567    |1.544861958    |-0.028368391     |-26.3753689|\n|MANA  |1.496152162    |1.514235863    |-0.018083701     |17.6977064 |\n|REN   |2.073377777    |2.076540272    |-0.003162495     |-30.6057152|\n|SNX   |1.817169075    |1.805791921    |0.011377154      |-8.6204277|\n|UNI   |1.625790476    |1.592116599    |0.033673877      |-10.4719062|\n|YFI   |1.240436029    |1.248934665    |-0.008498636     |-4.4142493|\n|ZRX   |1.496783606    |1.474725052    |0.022058554      |-14.7444996|\n\n\n## Risk Dashboard\n\n\nThe community should use Gauntlet's [Risk Dashboard](https://gov.gauntlet.network/aave) to better understand the updated parameter suggestions and general market risk in Aave V2. \n\n\n![](https://i.imgur.com/UOjd3vU.png)\n\n\n## Next Steps\n* Targeting an AIP on 2021-10-11",
+        "end_utc": "2021-10-11T16:00:00Z",
+        "similarity_score": 0.1404,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "NAY",
+            "ABSTAIN"
+          ],
+          "scores": [
+            1885.5978352977547,
+            0,
+            155.93859386176965
+          ],
+          "scores_total": 2041.5364291595242,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2021-10-11T16:00:00",
+          "pre_tvl_avg": 14918476597.5,
+          "post_tvl_avg": 15084217601.0,
+          "abnormal_change": 1.111,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.01111,
+          "abnormal_change_pct": 1.111
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2021-10-11T16:00:00",
+          "pre_price_avg": 297.88085991,
+          "post_price_avg": 300.59047607499997,
+          "abnormal_change": 0.9096,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.009096,
+          "abnormal_change_pct": 0.9096
+        }
+      }
+    },
+    {
+      "proposal_id": "QmbM7KWvQ5U7aiqjSzBFcHJBktebfffNUK68VR4Lde7erA",
+      "cleaned": {
+        "proposal_id": "QmbM7KWvQ5U7aiqjSzBFcHJBktebfffNUK68VR4Lde7erA",
+        "title": "Should thirteen (13) total risk parameters across nine (9) Aave V2 assets be adjusted?",
+        "author": "0xb01474b50382fAe1A847E3A916ECDf07Ba57BcC7",
+        "end_utc": "2021-10-04T16:00:00Z",
+        "similarity_score": 0.1396,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 14969.18107129531,
+        "margin_pct": 0.9801898234547558,
+        "scores_total": 15271.716470729372,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 574,
+        "total_votes": 574,
+        "first_vote_at": "2021-09-30T16:01:25Z",
+        "last_vote_at": "2021-10-04T13:43:35Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            8171.975850728047,
+            0.0,
+            0.0
+          ],
+          [
+            842.6258360094587,
+            0.0,
+            0.0
+          ],
+          [
+            4772.701674024123,
+            0.0,
+            0.0
+          ],
+          [
+            1333.1454102507455,
+            0.0,
+            151.26769971703004
+          ]
+        ],
+        "spike_index": 0.375888,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.000237,
+        "half_slope_diff": -0.718904
+      },
+      "raw": {
+        "id": "QmbM7KWvQ5U7aiqjSzBFcHJBktebfffNUK68VR4Lde7erA",
+        "title": "Should thirteen (13) total risk parameters across nine (9) Aave V2 assets be adjusted?",
+        "author": "0xb01474b50382fAe1A847E3A916ECDf07Ba57BcC7",
+        "body": "[Forum Discussion](https://governance.aave.com/t/arc-risk-parameter-updates-2021-09-30/5805)\n\n## Simple Summary\n\nA proposal to adjust thirteen (13) total risk parameters across nine (9) Aave V2 assets including LTV, Liquidation Threshold, and Liquidation Bonus.\n\n\n\n## Abstract\nThis proposal is a batch update of three risk parameters based on previously selected community risk level preferences. First, a continuation of the two previous liquidation bonus updates, [AIP-34: Liquidation Bonus Updates](https://app.aave.com/governance/30-QmccRszk94JUyj3xGcBUxUzCo43jZDQYgesEULsudVjm9v) and [AIP-38: Liquidation Bonus Updates for Eleven Aave V2 Assets](https://app.aave.com/governance/38-QmciauyTVnoHG6bAXCxHjHqTsUfiDz7rSGFxMADqFgCh4z). Second, updated LTV and Liquidation Threshold parameters to realign with the [Moderate risk level](https://snapshot.org/#/aave.eth/proposal/QmT9T4Rfnh1Z2HYmMPXvtFotMK2vSxiXK8dKStg2b6n4gi) chosen by the community. \n\n## Motivation\n\nThis set of parameter updates seeks to maintain the overall risk tolerance of the protocol while making risk trade-offs between specific assets. While increased volatility affected most assets in the ecosystem, some tail assets experienced even higher volatility and larger collateral usage (supply that is significantly borrowed against). In addition, increased liquidity and decreased trading slippage for certain assets allow for lower liquidation bonuses. \n\n\n## Specification\n\n\n\n| Parameter | Current Value | Recommended Value |\n| -------- | -------- | -------- |\n| WETH Loan To Value     | 80%     | 82.5%     |\n| CRV Loan To Value     | 40%     | 35%     |\n| ENJ Loan To Value     | 50%     | 55%     |\n| ENJ Liquidation Threshold     | 60%     | 65%     |\n| MANA Loan To Value     | 60%     | 65%     |\n| MANA Liquidation Threshold    | 65%     | 70%     |\n| UNI Loan To Value     | 60%     | 50%     |\n| YFI Loan To Value     | 45%     | 50%     |\n| YFI Liquidation Threshold    | 60%     | 65%     |\n| YFI Liquidation Bonus    | 10%     | 8%     |\n| ZRX Loan To Value     | 60%     | 65%     |\n| XSUSHI Loan To Value     | 35%     | 30%     |\n| USDC Liquidation Bonus     | 5%     | 4%     |\n\n\n\nSee below volatility and collateral usage changes from 9/14 to 9/28 that were important drivers for the updated parameter recommendations.\n\n| Symbol | 09-28 Volatility | 09-14 Volatility | Volatility Change | Collateral Usage Change USD |\n|--------|-----------------|-----------------|-------------------|---------------------------|\n| WETH   | 1.012094901     | 0.979191725     | 0.032903176       | -86338828                 |\n| ZRX    | 1.474725052     | 1.355540968     | 0.119184084       | -328484                   |\n| UNI    | 1.592116599     | 1.324486507     | 0.267630092       | 4821417                   |\n| ENJ    | 1.660170507     | 1.706717325     | -0.046546818      | -2369990                  |\n| YFI    | 1.248934665     | 1.122133261     | 0.126801404       | -1931790                  |\n| CRV    | 2.050875845     | 1.601331664     | 0.449544181       | -2047792                  |\n| MANA   | 1.514235863     | 1.510912129     | 0.003323734       | -1420138                  |\n| SUSHI  | 1.829557712     | 1.499754067     | 0.329803645       | 4744051                   |\n\n## Risk Dashboard\n\n\nThe community should use Gauntlet's [Risk Dashboard](https://gov.gauntlet.network/aave) to better understand the updated parameter suggestions and general market risk in Aave V2. \n\n![](https://i.imgur.com/gbjBPsu.png)\n\n\n## Next Steps\n* Initiate a Snapshot immediately since the community has already weighed in on changes of this nature recently.\n* Targeting an AIP on 2021-10-04",
+        "end_utc": "2021-10-04T16:00:00Z",
+        "similarity_score": 0.1396,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "NAY",
+            "ABSTAIN"
+          ],
+          "scores": [
+            15120.44877101234,
+            0,
+            151.26769971703004
+          ],
+          "scores_total": 15271.716470729372,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2021-10-04T16:00:00",
+          "pre_tvl_avg": 13934296954.5,
+          "post_tvl_avg": 15764332940.5,
+          "abnormal_change": 13.1333,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.131333,
+          "abnormal_change_pct": 13.1333
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2021-10-04T16:00:00",
+          "pre_price_avg": 312.56789041499997,
+          "post_price_avg": 308.940081245,
+          "abnormal_change": -1.1606,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.011606,
+          "abnormal_change_pct": -1.1606
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0xd706dfcb631076d5e835e0640d120b8de333d31ef30f66e3dbb529a380608ea1",
+    "selected_choice_label": "YAE",
+    "selected_choice_index": 0,
+    "confidence": 0.9,
+    "summary": "This proposal aims to adjust risk parameters by reducing Liquidation Thresholds (LT) and Loan-To-Value (LTV) for four long-tail assets on Aave V2 Ethereum, mitigating risk and encouraging migration to V3. Voting timeline and analysis strongly support 'YAE'. Forum sentiment is largely negative due to liquidation concerns but understands the risk mitigation rationale. Adjacent similar proposals also favored risk reduction, with mixed market outcomes.",
+    "key_arguments_for": [
+      "The voting timeline metrics show overwhelming support for the 'YAE' option with high early and stable lead ratios.",
+      "The proposal reduces risk exposure by lowering LTs and LTVs, mitigating price manipulation attack vectors.",
+      "Adjacent similar proposals with similar risk-reducing measures were approved and intended to enhance protocol safety.",
+      "The forum discussion acknowledges the necessity of these changes despite concerns about liquidations."
+    ],
+    "key_arguments_against": [
+      "Negative forum sentiment highlights concerns over potential liquidations impacting users.",
+      "Some community members worry about the capital efficiency reduction and user impact.",
+      "Incremental decreases and communication are suggested to mitigate user disruption."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://governance.aave.com/t/arc-risk-parameter-updates-for-aave-v2-ethereum-lts-and-ltvs-for-long-tail-assets-2022-12-04/10926",
+        "quote": "Forum comments express concerns about liquidations but appreciate risk mitigation and communication plans."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": null,
+        "quote": "Timeline analysis shows strong early support and stability for 'YAE' with lead ratio total of 1.0."
+      },
+      {
+        "source_tool": "govnews_search_governance_news",
+        "reference": null,
+        "quote": "Adjacent proposal ARC V3 Supply Cap Recommendations similarly approved to reduce risk exposure."
+      }
+    ],
+    "available_choices": [
+      "YAE",
+      "NAY",
+      "Abstain"
+    ],
+    "event_start_utc": "2022-12-09T00:00:00Z",
+    "event_end_utc": "2022-12-12T00:00:00Z",
+    "event_time_utc": "2022-12-12T00:00:00Z",
+    "address_of_governance_token": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+    "token_price_impact_pct": 0.829,
+    "tvl_impact_pct": 1.2255,
+    "actual_vote_result": {
+      "winner_label": "YAE",
+      "winner_index": 0,
+      "scores": [
+        314661.2206537858,
+        43.73750070101459,
+        11.862789507073993
+      ],
+      "scores_total": 314716.82094399456,
+      "margin_abs": 314617.48315308476,
+      "margin_pct": 0.999684
+    },
+    "simulation_reason": "Recommendation based on timeline metrics, forum sentiment, and adjacent proposal analysis without ex-post tally.",
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'YAE' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Timeline analysis indicates unanimous strong early support and stability for the 'YAE' option, signaling community consensus.\n- Forum sentiment is predominantly negative, focused on liquidation risks, but acknowledges the proposal's importance for protocol safety and risk mitigation.\n- Adjacent similar proposals also pursued risk parameter reductions, reinforcing the rationale for this change.\n- Market impacts show modest positive price and TVL changes, supporting the proposal's beneficial effect.\n- The recommendation aligns with the leading vote option but cautiously weighs community concerns to ensure durable protocol health.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0xf40a7b4a6ecd5325553593f0f9fdc8ba04808573fdf76fc277aee52b5396a588",
+        "title": " [ARC] V3 Supply Cap Recommendations for Uncapped Assets (Fast-track)",
+        "end_utc": "2022-11-25T23:00:00Z",
+        "summary": " [ARC] V3 Supply Cap Recommendations for Uncapped Assets (Fast-track) closed on 2022-11-25T23:00:00Z. Timeline analytics noted 3644 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.08)",
+        "market_response": "token +4.64%; TVL -2.59%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 0.829,
+    "ex_post_tvl_impact_pct": 1.2255,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +0.83%; TVL +1.23%"
+  },
+  "agentic_ai_choice": "YAE",
+  "actual_outcome": "YAE",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 9,
+    "Positive": 0,
+    "Neutral": 2,
+    "total_comments": 11
+  }
+}

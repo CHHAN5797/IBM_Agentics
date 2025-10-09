@@ -1,0 +1,1141 @@
+{
+  "captured_at_utc": "2025-10-08T15:17:14.719472+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x225eda1b88f88fdbdfc0ae01c95123575ea29e416d7ffebe7e5b43bbf428ff7f",
+  "focus": null,
+  "votes_count": 3,
+  "timeline_metrics_current": {
+    "unique_voters": 3,
+    "total_votes": 3,
+    "first_vote_at": "2025-08-15T23:19:22Z",
+    "last_vote_at": "2025-08-19T08:00:01Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        3.886546107844781,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        257310.29432483713,
+        0.0,
+        0.0
+      ],
+      [
+        2403934.783612698,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.903311,
+    "spike_follow_support_ratio": 0.0,
+    "stairwise_ratio": 0.096689,
+    "half_slope_diff": 45.141772
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x4945f6194f2935f681173ed1df6265e76852fb86148443a33c1a2bb959f21862",
+      "title": "[BIP-864] Enable RZR/wstETH 80/20 Gauge on Balancer v3 Ethereum",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-08-12T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5,
+        "total_votes": 5,
+        "first_vote_at": "2025-08-08T23:55:18Z",
+        "last_vote_at": "2025-08-12T08:00:00Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            3.9816550502042087,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            772012.2921961055,
+            0.0,
+            0.0
+          ],
+          [
+            2375602.724129336,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.75473,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.24527,
+        "half_slope_diff": 22.088729
+      },
+      "price_impact_pct": 2.2963,
+      "tvl_impact_pct": 5.3028,
+      "similarity": 0.0831,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 3147618.9979804913,
+        "scores_total": 3147618.9979804913,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0x9cd16d8bd89820d6f1575decf678425528a8811237fe01ac329dea1368c3e086",
+      "title": "[BIP-862] Deploy Balancer v3 on HyperEVM",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-07-29T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5,
+        "total_votes": 5,
+        "first_vote_at": "2025-07-27T00:06:36Z",
+        "last_vote_at": "2025-07-29T08:00:01Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            4.15245146570448,
+            0.0,
+            0.0
+          ],
+          [
+            804840.4455590252,
+            0.0,
+            0.0
+          ],
+          [
+            2420600.9852668205,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.75047,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.24953,
+        "half_slope_diff": 23.279435
+      },
+      "price_impact_pct": -6.8332,
+      "tvl_impact_pct": -4.35,
+      "similarity": 0.0646,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 3225445.583277311,
+        "scores_total": 3225445.583277311,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0xe801a3e8f79f3d235f33f0936435f36b59469925ee1fc267546459c644ca4715",
+      "title": "[BIP-861] Grant Permissions to the Balancer Registry Initializer",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-07-29T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5,
+        "total_votes": 5,
+        "first_vote_at": "2025-07-27T00:06:18Z",
+        "last_vote_at": "2025-07-29T08:00:01Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            4.152462496451859,
+            0.0,
+            0.0
+          ],
+          [
+            804842.5987551581,
+            0.0,
+            0.0
+          ],
+          [
+            2420601.9771506186,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.75047,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.24953,
+        "half_slope_diff": 23.27995
+      },
+      "price_impact_pct": -6.8332,
+      "tvl_impact_pct": -4.35,
+      "similarity": 0.1905,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 3225448.728368273,
+        "scores_total": 3225448.728368273,
+        "margin_pct": 1.0
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x25dc8b275484866182ee83076f48d16a5f7dbc5d99b862a86266d9a4cdd0bb6e",
+      "cleaned": {
+        "proposal_id": "0x25dc8b275484866182ee83076f48d16a5f7dbc5d99b862a86266d9a4cdd0bb6e",
+        "title": "[BIP-803] Grant v3 ECLP disable Permissions to the Emergency DAO Multisigs",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2025-03-24T19:00:00Z",
+        "similarity_score": 0.3629,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2898163.9465893777,
+        "margin_pct": 1.0,
+        "scores_total": 2898163.9465893777,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5,
+        "total_votes": 5,
+        "first_vote_at": "2025-03-21T10:58:44Z",
+        "last_vote_at": "2025-03-24T08:00:03Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            327133.86214926135,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2571030.0844401163,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.823625,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.176375,
+        "half_slope_diff": 5853.696927
+      },
+      "raw": {
+        "id": "0x25dc8b275484866182ee83076f48d16a5f7dbc5d99b862a86266d9a4cdd0bb6e",
+        "title": "[BIP-803] Grant v3 ECLP disable Permissions to the Emergency DAO Multisigs",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1834\n\n### Motivation \nWith the imminent launch of ECLPs on Balancer v3 on Mainnet, Arbitrum, Base and Gnosis chain, the emergency subDAO needs permissions to disable the factories in the case of a potential malfunction. It is therefore proposed that the emergency subDAO wallets on these chains are granted following roles by the authorizer:\n\n#### Emergency DAO\n\n`GyroECLPPoolFactory.disable`\n\n| Network | Emergency Safe | Action ID |\n| :---- | :---- | :---- |\n| Mainnet | 0xA29F61256e948F3FB707b4b3B138C5cCb9EF9888 | 0x2d6f2043f87de4e7d3300eb8d3235d0a0015939b896057526473bb03cb53af84 |\n| Arbitrum | 0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D | 0x95095549d7b771b285d8bc313117157a9c18db08596228d492e3fbc7c5dc751b |\n| Base | 0x183C55A0dc7A7Da0f3581997e764D85Fd9E9f63a | 0x9a2847fdb9a96a453c9e5f3eda469d4f53b4e5616cbf9c20f6c820d30a30e40c |\n| Gnosis | 0xd6110A7756080a4e3BCF4e7EBBCA8E8aDFBC9962 | 0x43951d61361ec89c52166ef54cf1f4d74ead1426b610bb3fd62aeea215ce8faa |\n\nThe action IDs can be verified by going to each chain and checking 20250124-v3-gyro-eclp, disable(), e.g. [here](https://github.com/balancer/balancer-deployments/blob/33e050a42ddd7d17a7a2594c63348c3da42ea45e/action-ids/mainnet/action-ids.json#L1773)\n\n## Technical Specifications\n\nThe DAO multisig on each network will interact with the Authorizer by calling `grantRole`, with `role` as the corresponding action ID mentioned in the table above and `account` as the Emergency subDAO safe.\n\nEdit:\n* added payload",
+        "end_utc": "2025-03-24T19:00:00Z",
+        "similarity_score": 0.3629,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2898163.9465893777,
+            0,
+            0
+          ],
+          "scores_total": 2898163.9465893777,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2025-03-24T19:00:00",
+          "pre_tvl_avg": 683059505.0,
+          "post_tvl_avg": 695020522.0,
+          "abnormal_change": 1.7511,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.017511,
+          "abnormal_change_pct": 1.7511
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2025-03-24T19:00:00",
+          "pre_price_avg": 1.475416855,
+          "post_price_avg": 1.4766645349999998,
+          "abnormal_change": 0.0846,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.000846,
+          "abnormal_change_pct": 0.0846
+        }
+      }
+    },
+    {
+      "proposal_id": "0xddc31cd49431116a8c1bf29a5579ef03fddf4d632665b5d20d84382800b7b2e2",
+      "cleaned": {
+        "proposal_id": "0xddc31cd49431116a8c1bf29a5579ef03fddf4d632665b5d20d84382800b7b2e2",
+        "title": "[BIP-845] Grant Admin Permissions to Balancer v3 ReCLAMM pools",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2025-06-24T18:00:00Z",
+        "similarity_score": 0.2137,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2711774.11604846,
+        "margin_pct": 1.0,
+        "scores_total": 2711774.11604846,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 3,
+        "total_votes": 3,
+        "first_vote_at": "2025-06-21T00:29:15Z",
+        "last_vote_at": "2025-06-24T08:00:00Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            4.612727784671218,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            295152.8626713328,
+            0.0,
+            0.0
+          ],
+          [
+            2416616.6406493424,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.891157,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.108843,
+        "half_slope_diff": 32.246062
+      },
+      "raw": {
+        "id": "0xddc31cd49431116a8c1bf29a5579ef03fddf4d632665b5d20d84382800b7b2e2",
+        "title": "[BIP-845] Grant Admin Permissions to Balancer v3 ReCLAMM pools",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/2117\n\n## Summary\nGrant administrative privilege permissions to the Maxis Omnisig safe to operate ReCLAMM pools\nGrant permissions to the Emergency subDAO safe to disable the ReCLAMM pool factory\n\n## Motivation\nWith the launch of ReCLAMM pools across Balancer deployments, we seek to grant following permissions to various multi-sigs so the DAO can manage this new pool type efficiently.\n\nThe Maxis Omnisig for the Balancer deployments and the LM multi-sig on OP shall receive following operations permissions:\n* `ReClammPool.stopPriceRatioUpdate()`\n* `ReClammPool.startPriceRatioUpdate()`\n* `ReClammPool.setDailyPriceShiftExponent()`\n* `ReClammPool.setCenterednessMargin()`\n\nThe Emergency multi-sig shall receive one permission:\n* `ReClammPoolFactory.disable()`\n\nTechnical Specification\nThe respective DAO multi-sig on each chain will call the AuthorizerAdaptorEntrypoint and grant following roles:\n\n### Mainnet\n\n```\n+-----------------------+---------------------+--------------------------------------------+-------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| function              | caller_name         | caller_address                             | fx_paths                                              | action_ids                                                         | bip | tx_index |\n+-----------------------+---------------------+--------------------------------------------+-------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| Authorizer/grantRoles | multisigs/emergency | 0xA29F61256e948F3FB707b4b3B138C5cCb9EF9888 | 20250409-v3-reclamm-pool/ReClammPoolFactory/disable() | 0xd6ef2cdea6236fe8b350fe1371523aade37cb3ec44de40e46a13ac44ab467e9e | N/A |    0     |\n+-----------------------+---------------------+--------------------------------------------+-------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n\n+-----------------------+---------------------+--------------------------------------------+-------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| function              | caller_name         | caller_address                             | fx_paths                                                                            | action_ids                                                         | bip | tx_index |\n+-----------------------+---------------------+--------------------------------------------+-------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| Authorizer/grantRoles | multisigs/maxi_omni | 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e | 20250409-v3-reclamm-pool/ReClammPool/stopPriceRatioUpdate()                         | 0x01de4c053a60444da7268081ed113502caa3ffee3a4bfa3414d85a54dc88acec | N/A |    0     |\n|                       |                     |                                            | 20250409-v3-reclamm-pool/ReClammPool/startPriceRatioUpdate(uint256,uint256,uint256) | 0xbc893e2d6e1362a8409880d32b05a49c7c67e33489453b78304e4a912a339729 |     |          |\n|                       |                     |                                            | 20250409-v3-reclamm-pool/ReClammPool/setDailyPriceShiftExponent(uint256)            | 0xd032be3b96ecc5fac2f052295a6bb8352b088445f26e8798a251ffdc87bc7622 |     |          |\n|                       |                     |                                            | 20250409-v3-reclamm-pool/ReClammPool/setCenterednessMargin(uint256)                 | 0x1dc8aedad4a691f9b5cd63e9c364be99e5787cfb1e641440b2d0cab530d772f0 |     |          |\n+-----------------------+---------------------+--------------------------------------------+-------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n```\n\n### Arbitrum\n\n```\n+-----------------------+---------------------+--------------------------------------------+-------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| function              | caller_name         | caller_address                             | fx_paths                                              | action_ids                                                         | bip | tx_index |\n+-----------------------+---------------------+--------------------------------------------+-------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| Authorizer/grantRoles | multisigs/emergency | 0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D | 20250409-v3-reclamm-pool/ReClammPoolFactory/disable() | 0x668986fc2832f58b18f6dbb6bd3930239eb176f8c74768d3386c75061f84eabd | N/A |    0     |\n+-----------------------+---------------------+--------------------------------------------+-------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n\n+-----------------------+---------------------+--------------------------------------------+-------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| function              | caller_name         | caller_address                             | fx_paths                                                                            | action_ids                                                         | bip | tx_index |\n+-----------------------+---------------------+--------------------------------------------+-------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| Authorizer/grantRoles | multisigs/maxi_omni | 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e | 20250409-v3-reclamm-pool/ReClammPool/stopPriceRatioUpdate()                         | 0x88231e1b202c07a43d9358792a93fe8f997690cddc3de65936ad6dca17ccebac | N/A |    0     |\n|                       |                     |                                            | 20250409-v3-reclamm-pool/ReClammPool/startPriceRatioUpdate(uint256,uint256,uint256) | 0x5fb8b6cd494cbe90988ca6d485eae55c2de57e694219ce25be7f4d38addac178 |     |          |\n|                       |                     |                                            | 20250409-v3-reclamm-pool/ReClammPool/setDailyPriceShiftExponent(uint256)            | 0xf0965833ab10492aee52b7abc365544892b981527e54e0780c886c3aa0ad47b4 |     |          |\n|                       |                     |                                            | 20250409-v3-reclamm-pool/ReClammPool/setCenterednessMargin(uint256)                 | 0x5a0f2587cf3923c4c723345de0c97eb51231505849b8be143b7f5d2d7ba0d210 |     |          |\n+-----------------------+---------------------+--------------------------------------------+-------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n```\n\n### Base\n\n```\n+-----------------------+---------------------+--------------------------------------------+-------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| function              | caller_name         | caller_address                             | fx_paths                                              | action_ids                                                         | bip | tx_index |\n+-----------------------+---------------------+--------------------------------------------+-------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| Authorizer/grantRoles | multisigs/emergency | 0x183C55A0dc7A7Da0f3581997e764D85Fd9E9f63a | 20250409-v3-reclamm-pool/ReClammPoolFactory/disable() | 0xfd7d049f57516387fe0b442e1455675b11c641859ce76b39f121f650f51650ac | N/A |    0     |\n+-----------------------+---------------------+--------------------------------------------+-------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n\n+-----------------------+---------------------+--------------------------------------------+-------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| function              | caller_name         | caller_address                             | fx_paths                                                                            | action_ids                                                         | bip | tx_index |\n+-----------------------+---------------------+--------------------------------------------+-------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| Authorizer/grantRoles | multisigs/maxi_omni | 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e | 20250409-v3-reclamm-pool/ReClammPool/stopPriceRatioUpdate()                         | 0x79d23828a0070fac92ca509b09eedd5551d5d142551bb89eef681e300a523c83 | N/A |    0     |\n|                       |                     |                                            | 20250409-v3-reclamm-pool/ReClammPool/startPriceRatioUpdate(uint256,uint256,uint256) | 0xe6233647b0d18f03fbaa931de0ccf211a612e132d06f9bd1990a986388b50dd6 |     |          |\n|                       |                     |                                            | 20250409-v3-reclamm-pool/ReClammPool/setDailyPriceShiftExponent(uint256)            | 0xea2466bd2dd8d2de349d97b340ba0dfd5ffdc814b32c6fb94e1373186dbc5a22 |     |          |\n|                       |                     |                                            | 20250409-v3-reclamm-pool/ReClammPool/setCenterednessMargin(uint256)                 | 0xcc73a53b59f7ccabdf36b2f881cc2c73956d3d05ad21481643b09336cb572f9f |     |          |\n+-----------------------+---------------------+--------------------------------------------+-------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n```\n\n### Gnosis\n\n```\n+-----------------------+---------------------+--------------------------------------------+-------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| function              | caller_name         | caller_address                             | fx_paths                                              | action_ids                                                         | bip | tx_index |\n+-----------------------+---------------------+--------------------------------------------+-------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| Authorizer/grantRoles | multisigs/emergency | 0xd6110A7756080a4e3BCF4e7EBBCA8E8aDFBC9962 | 20250409-v3-reclamm-pool/ReClammPoolFactory/disable() | 0x73a1eeb77ca61ca45182001a741196e8ddfeadba139db913fe77b98594ba95a4 | N/A |    0     |\n+-----------------------+---------------------+--------------------------------------------+-------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n\n+-----------------------+---------------------+--------------------------------------------+-------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| function              | caller_name         | caller_address                             | fx_paths                                                                            | action_ids                                                         | bip | tx_index |\n+-----------------------+---------------------+--------------------------------------------+-------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| Authorizer/grantRoles | multisigs/maxi_omni | 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e | 20250409-v3-reclamm-pool/ReClammPool/stopPriceRatioUpdate()                         | 0xc5ce181cfa37785008601920e8c4ffaefcea1fb4e28cb5710dbdb404c830cd36 | N/A |    0     |\n|                       |                     |                                            | 20250409-v3-reclamm-pool/ReClammPool/startPriceRatioUpdate(uint256,uint256,uint256) | 0x734903bf8e30d99717cdcd539634c418f29875ace588479f42dd47c892a7c5c9 |     |          |\n|                       |                     |                                            | 20250409-v3-reclamm-pool/ReClammPool/setDailyPriceShiftExponent(uint256)            | 0x16b45eb16b9e29d9ac9f5af68e67893c11e8eda835ba7dd067cd678eec72a217 |     |          |\n|                       |                     |                                            | 20250409-v3-reclamm-pool/ReClammPool/setCenterednessMargin(uint256)                 | 0x691518eb05b1bac2af937685c50bb8a58f24b6a965347547748cd659667ed13a |     |          |\n+-----------------------+---------------------+--------------------------------------------+-------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n```\n\n### Avalanche\n\n\n```\n+-----------------------+---------------------+--------------------------------------------+-------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| function              | caller_name         | caller_address                             | fx_paths                                              | action_ids                                                         | bip | tx_index |\n+-----------------------+---------------------+--------------------------------------------+-------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| Authorizer/grantRoles | multisigs/emergency | 0x308f8d3536261C32c97D2f85ddc357f5cCdF33F0 | 20250409-v3-reclamm-pool/ReClammPoolFactory/disable() | 0x0c7a521518492bafe8bb3109ed0848eafcbfa5382840684d4c1f3f937d7de214 | N/A |    0     |\n+-----------------------+---------------------+--------------------------------------------+-------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n\n\n+-----------------------+---------------------+--------------------------------------------+-------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| function              | caller_name         | caller_address                             | fx_paths                                                                            | action_ids                                                         | bip | tx_index |\n+-----------------------+---------------------+--------------------------------------------+-------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| Authorizer/grantRoles | multisigs/maxi_omni | 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e | 20250409-v3-reclamm-pool/ReClammPool/stopPriceRatioUpdate()                         | 0x2cd44f7180492cb72db2386c418a5a431835ac212ef513756e2defbe7df6dfbe | N/A |    0     |\n|                       |                     |                                            | 20250409-v3-reclamm-pool/ReClammPool/startPriceRatioUpdate(uint256,uint256,uint256) | 0xe774fca950134465234dd2773cab89492cf048e8f904a47047f77c9a90e6b4b1 |     |          |\n|                       |                     |                                            | 20250409-v3-reclamm-pool/ReClammPool/setDailyPriceShiftExponent(uint256)            | 0x054419ca82786d37908e27054aadb9a853aa9bc4b8d005626b019165a0f33303 |     |          |\n|                       |                     |                                            | 20250409-v3-reclamm-pool/ReClammPool/setCenterednessMargin(uint256)                 | 0xa11689780dd3e2bf325f90a5766500ed258b394bad149bf71b8b6c24d706007a |     |          |\n+-----------------------+---------------------+--------------------------------------------+-------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n```\n\n### Optimism\n\n\n```\n+-----------------------+---------------------+--------------------------------------------+-------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| function              | caller_name         | caller_address                             | fx_paths                                              | action_ids                                                         | bip | tx_index |\n+-----------------------+---------------------+--------------------------------------------+-------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| Authorizer/grantRoles | multisigs/emergency | 0xd4c87b33afcE39F1E3F4aF1ce8fFFF7241d9128B | 20250409-v3-reclamm-pool/ReClammPoolFactory/disable() | 0x3f6401a12ca8f8048783a6e5b059877235fcf452f62691cbcbe45ebe6bf3c217 | N/A |    0     |\n+-----------------------+---------------------+--------------------------------------------+-------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n\n\n+-----------------------+--------------+--------------------------------------------+-------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| function              | caller_name  | caller_address                             | fx_paths                                                                            | action_ids                                                         | bip | tx_index |\n+-----------------------+--------------+--------------------------------------------+-------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| Authorizer/grantRoles | multisigs/lm | 0x09Df1626110803C7b3b07085Ef1E053494155089 | 20250409-v3-reclamm-pool/ReClammPool/setCenterednessMargin(uint256)                 | 0x7c79070d868f39f7c4bcc35d33b1d2bedc80d3e44de8fe1189f58d9c66389ee2 | N/A |    0     |\n|                       |              |                                            | 20250409-v3-reclamm-pool/ReClammPool/setDailyPriceShiftExponent(uint256)            | 0x1de86ceaf07d14a63d412678b4e26cffbb8e21ba401f159c8de273f2a862a726 |     |          |\n|                       |              |                                            | 20250409-v3-reclamm-pool/ReClammPool/startPriceRatioUpdate(uint256,uint256,uint256) | 0x0b15127ffd27b52818f57c5573504fc5ee7072d38999b4eb94c155d0e646aff4 |     |          |\n|                       |              |                                            | 20250409-v3-reclamm-pool/ReClammPool/stopPriceRatioUpdate()                         | 0x4a1d26432de4236d7a6776eaa81a5c3e2ee306db1d821d08e3123ef539d25825 |     |          |\n+-----------------------+--------------+--------------------------------------------+-------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n```",
+        "end_utc": "2025-06-24T18:00:00Z",
+        "similarity_score": 0.2137,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2711774.11604846,
+            0,
+            0
+          ],
+          "scores_total": 2711774.11604846,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2025-06-24T18:00:00",
+          "pre_tvl_avg": 700074899.5,
+          "post_tvl_avg": 727230163.5,
+          "abnormal_change": 3.8789,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.038789,
+          "abnormal_change_pct": 3.8789
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2025-06-24T18:00:00",
+          "pre_price_avg": 0.95225504,
+          "post_price_avg": 0.96190103,
+          "abnormal_change": 1.013,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.01013,
+          "abnormal_change_pct": 1.013
+        }
+      }
+    },
+    {
+      "proposal_id": "0xebe410db6a69ddb5bb46f9b3bc99679d5b3730a6fd6e631ded92afd006649aca",
+      "cleaned": {
+        "proposal_id": "0xebe410db6a69ddb5bb46f9b3bc99679d5b3730a6fd6e631ded92afd006649aca",
+        "title": "[BIP-820] Grant Maxis StableSurge v2 Parameter Change Permissions",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2025-05-05T18:00:00Z",
+        "similarity_score": 0.1976,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3085565.086857446,
+        "margin_pct": 1.0,
+        "scores_total": 3085565.086857446,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 7,
+        "total_votes": 7,
+        "first_vote_at": "2025-05-02T11:55:48Z",
+        "last_vote_at": "2025-05-05T08:00:01Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.520898169427003,
+            0.0,
+            0.0
+          ],
+          [
+            283644.77010874083,
+            0.0,
+            0.0
+          ],
+          [
+            418608.3571440423,
+            0.0,
+            0.0
+          ],
+          [
+            2383311.4387064935,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.772407,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.227593,
+        "half_slope_diff": 16.652088
+      },
+      "raw": {
+        "id": "0xebe410db6a69ddb5bb46f9b3bc99679d5b3730a6fd6e631ded92afd006649aca",
+        "title": "[BIP-820] Grant Maxis StableSurge v2 Parameter Change Permissions",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "### PR with Payload\n\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1973\n\n# Summary & Motivation\n\nAs Balancer labs has deployed a new and improved Stable surge hook contract with version 2, we are requesting to be allowed to control the same parameter set as with the v1 version as per [[BIP-778]](https://forum.balancer.fi/t/bip-778-grant-maxis-stablesurge-parameter-change-permissions/6346). This includes following parameters:\n\n* setMaxSurgeFeePercentage\n* setSurgeThresholdPercentage\n\non all networks Balancer v3 is currently deployed on and operated by the Balancer DAO (Mainnet, Arbitrum, Gnosis, and Base). These are key parameters in determining how the hook will affect the pool performance and the liquidity providers which the Maxis have been managing with v1 and intend to continue to do so with v2. Note that these permissions were already granted for Avalanche during the respective wire-up with [[BIP-813]](https://forum.balancer.fi/t/bip-813-grant-permissions-for-latest-v3-chain-deployment-avalanche/6465).\n\n# Technical Specifications\n\nAll action-ids associated with StableSurge v2 can be verified with the associated [pull request](https://github.com/balancer/balancer-deployments/commit/5958f3ad13bedba44d0808665ff2e683f1db1a82).\n\n## Ethereum\n\nOn Mainnet the Balancer DAO Multisig 0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f will interact with the Authorizer 0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6 calling grantRoles passing: [0xf38ecb07c88c5307ae7e207ff9f96c7707a6093a6abb7c5c61020119536cc236, 0x2b49aa01d0b0251c5fa59f092390a988da3dbdc3609dc3c4bc36a4491da73681] for roles, and account Maxi omni-chain multisig: 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e\n\n## Arbitrum\n\nOn Arbitrum the Balancer DAO Multisig 0xaF23DC5983230E9eEAf93280e312e57539D098D0 will interact with the Authorizer 0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6 calling grantRoles passing: [0x7ed51e972f7682e8a513e8d697daf6179714308b17bffd3d972a34a8a86fe107, 0x3e5b3786c2433c83d82d4d118259a3cf5b7dd26b4f21c6c56115c2ce1cfa825b] for roles, and account Maxi omni-chain multisig: 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e\n\n## Base\n\nOn Base the Balancer DAO Multisig 0xC40DCFB13651e64C8551007aa57F9260827B6462 will interact with the Authorizer 0x809B79b53F18E9bc08A961ED4678B901aC93213a calling grantRoles passing: [0x01ef05374c39f0094ff2f8278f21a14a89ed025e8564c7a541d4f26ed9bd23fd, 0xccde3eb1bbf6269f3b1ff650d0e3bf089ad0a119c82f5e48db9761d64a346c77] for roles, and account Maxi omni-chain multisig: 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e\n\n## Gnosis\n\nOn Gnosis the Balancer DAO Multisig 0x2a5AEcE0bb9EfFD7608213AE1745873385515c18 will interact with the Authorizer 0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6 calling grantRoles passing: [0x6648ca4015a562c4110635d0f2f8f402af08c32926b73b04307f778a4662ea47, 0xa9902a51b5285acf6244965666f9096d34561241355f4bd05e099f319fe8fde1] for roles, and account Maxi omni-chain multisig: 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e",
+        "end_utc": "2025-05-05T18:00:00Z",
+        "similarity_score": 0.1976,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3085565.086857446,
+            0,
+            0
+          ],
+          "scores_total": 3085565.086857446,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2025-05-05T18:00:00",
+          "pre_tvl_avg": 656861424.0,
+          "post_tvl_avg": 649810103.0,
+          "abnormal_change": -1.0735,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.010735,
+          "abnormal_change_pct": -1.0735
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2025-05-05T18:00:00",
+          "pre_price_avg": 1.061395535,
+          "post_price_avg": 1.087708385,
+          "abnormal_change": 2.4791,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.024791,
+          "abnormal_change_pct": 2.4791
+        }
+      }
+    },
+    {
+      "proposal_id": "0xabf31cc484359de2273689566d9d85e47f496b7d80e458386f93668cfc2c589e",
+      "cleaned": {
+        "proposal_id": "0xabf31cc484359de2273689566d9d85e47f496b7d80e458386f93668cfc2c589e",
+        "title": "[BIP-778] Grant Maxis StableSurge Parameter Change Permissions",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2025-02-17T19:00:00Z",
+        "similarity_score": 0.1933,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2902429.164346801,
+        "margin_pct": 1.0,
+        "scores_total": 2902429.164346801,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5,
+        "total_votes": 5,
+        "first_vote_at": "2025-02-14T12:13:18Z",
+        "last_vote_at": "2025-02-17T08:40:58Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            362581.7529582896,
+            0.0,
+            0.0
+          ],
+          [
+            613.4635227205403,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2539233.9478657907,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.814356,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.185644,
+        "half_slope_diff": 190.971899
+      },
+      "raw": {
+        "id": "0xabf31cc484359de2273689566d9d85e47f496b7d80e458386f93668cfc2c589e",
+        "title": "[BIP-778] Grant Maxis StableSurge Parameter Change Permissions",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "PR with payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1755\n\n### Summary & Motivation\n\nThe [StableSurge](https://medium.com/balancer-protocol/balancers-stablesurge-hook-09d2eb20f219) hook has been deployed by the Balancer Labs team marking an exciting milestone for Balancer V3 as the first wave of hooks are hitting production. With these innovations come additional permissions related to the management of each hooks unique parameters. In the case of StableSurge the maxSurgeFeePercentage and surgeThresholdPercentage are key factors in determining how the hook will affect the pool performance and the liquidity providers. This proposal will act to grant the permissions to change both of these parameters to the Balancer Maxis on all currently deployed networks, Ethereum Mainnet, Gnosis, Arbitrum, and Base.\n\n**Technical Specification:**\n\nAll deployments and action-ids can be verified in this StableSurgePoolFactory [pull request](https://github.com/balancer/balancer-deployments/pull/163/files#diff-17e7d1b01753c19be2eee514c14e09736db3af94d24025c7fd9876c73b6e7950).\n\n**Ethereum**\n\nOn Mainnet the Balancer DAO Multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with the Authorizer `0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6` calling `grantRoles` passing: [`0x2f27aa67b6bf44b4441ea2656c22e09252261845a98dc577a6fc06b6526f8bcc`, `0x66c657ea0d5ce1dc0286795937131c61620bb6ccd0f126fbfe3799d8b89a9753`] for roles, and account Maxi omni-chain multisig: `0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e`\n\n**Arbitrum**\n\nOn Arbitrum the Balancer DAO Multisig `0xaF23DC5983230E9eEAf93280e312e57539D098D0` will interact with the Authorizer `0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6` calling `grantRoles` passing: [`0x261258d23af1013ceb3a0574a5f194e3d4d09a07c0b9014665519c3f1b37f792`, `0x5968f4b1f98171ccadc78df4f25cf8262b250f2f12a83c45b7311b4674d23e0a`] for roles, and account Maxi omni-chain multisig: `0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e`\n\n**Base**\n\nOn Base the Balancer DAO Multisig `0xC40DCFB13651e64C8551007aa57F9260827B6462` will interact with the Authorizer `0x809B79b53F18E9bc08A961ED4678B901aC93213a` calling `grantRoles` passing: [`0xe81edd4ccc5901443972e580b5d997ced38f33bd4f7e9bca8829dc5efcca6fed`, `0x4a7d099f7d634af69cf552b5b1c76ed8d44074051cbca5a59b842154288b96f1`] for roles, and account Maxi omni-chain multisig: `0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e`\n\n**Gnosis**\n\nOn Gnosis the Balancer DAO Multisig `0x2a5AEcE0bb9EfFD7608213AE1745873385515c18` will interact with the Authorizer `0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6` calling `grantRoles` passing: [`0x2f27aa67b6bf44b4441ea2656c22e09252261845a98dc577a6fc06b6526f8bcc`, `0x66c657ea0d5ce1dc0286795937131c61620bb6ccd0f126fbfe3799d8b89a9753`] for roles, and account Maxi omni-chain multisig: `0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e`",
+        "end_utc": "2025-02-17T19:00:00Z",
+        "similarity_score": 0.1933,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2902429.164346801,
+            0,
+            0
+          ],
+          "scores_total": 2902429.164346801,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2025-02-17T19:00:00",
+          "pre_tvl_avg": 854096726.0,
+          "post_tvl_avg": 844430891.5,
+          "abnormal_change": -1.1317,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.011317,
+          "abnormal_change_pct": -1.1317
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2025-02-17T19:00:00",
+          "pre_price_avg": 1.9757971300000001,
+          "post_price_avg": 1.9641881149999998,
+          "abnormal_change": -0.5876,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.005876,
+          "abnormal_change_pct": -0.5876
+        }
+      }
+    },
+    {
+      "proposal_id": "0x170b8248639ea716f628d6bd935324e5a4168d8b0e489722268cfc933f98c526",
+      "cleaned": {
+        "proposal_id": "0x170b8248639ea716f628d6bd935324e5a4168d8b0e489722268cfc933f98c526",
+        "title": "[BIP-856] Grant Admin Permissions to Balancer v3 ReCLAMM v2 pools",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2025-07-15T18:00:00Z",
+        "similarity_score": 0.1892,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3236745.642234455,
+        "margin_pct": 1.0,
+        "scores_total": 3236745.642234455,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 6,
+        "total_votes": 6,
+        "first_vote_at": "2025-07-12T00:05:07Z",
+        "last_vote_at": "2025-07-15T08:00:01Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            4.3476295098280815,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            804791.700171862,
+            0.0,
+            0.0
+          ],
+          [
+            2431949.5944330827,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.751356,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.248644,
+        "half_slope_diff": 18.792556
+      },
+      "raw": {
+        "id": "0x170b8248639ea716f628d6bd935324e5a4168d8b0e489722268cfc933f98c526",
+        "title": "[BIP-856] Grant Admin Permissions to Balancer v3 ReCLAMM v2 pools",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "### PR with Payload\n\n[https://github.com/BalancerMaxis/multisig-ops/pull/2186](https://github.com/BalancerMaxis/multisig-ops/pull/2186) \n\n# Summary\n\n* Grant administrative privilege permissions to the Maxis Omnisig safe to operate ReCLAMM v2 pools  \n* Grant permissions to the Emergency subDAO safe to disable ReCLAMM v2 pool factory\n\n# \n\n# Motivation\n\nReCLAMM v1 pools have been tested on various networks for a couple of weeks. During that time-period we also conducted in depth simulations on pool performance and math. The learnings we took from that deployment were directly used to improve the pool logic. Therefore, a significantly improved version of the ReCLAMM pools has been deployed. \n\nAnalogous to [\\[BIP-845\\]](https://forum.balancer.fi/t/bip-845-grant-admin-permissions-to-balancer-v3-reclamm-pools/6579) The Maxis Omnisig for the Balancer deployments and the LM multi-sig on OP shall receive following operations permissions:\n\n`ReClammPool.stopPriceRatioUpdate()`  \n`ReClammPool.startPriceRatioUpdate()`  \n`ReClammPool.setDailyPriceShiftExponent()`  \n`ReClammPool.setCenterednessMargin()`\n\nThe Emergency multi-sig shall receive one permission:\n\n`ReClammPoolFactory.disable()`\n\n# \n\n# Technical Specification\n\nThe respective DAO multi-sig on each chain will call the AuthorizerAdaptorEntrypoint and grant following roles:\n\n## Mainnet\n\n```\n+-----------------------+---------------------+--------------------------------------------+----------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| function              | caller_name         | caller_address                             | fx_paths                                                 | action_ids                                                         | bip | tx_index |\n+-----------------------+---------------------+--------------------------------------------+----------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| Authorizer/grantRoles | multisigs/emergency | 0xA29F61256e948F3FB707b4b3B138C5cCb9EF9888 | 20250702-v3-reclamm-pool-v2/ReClammPoolFactory/disable() | 0xb814b4a688650028b26d7a24a419c4e135cf1f059728d7876fec5721aad3464c | N/A |    0     |\n+-----------------------+---------------------+--------------------------------------------+----------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n\n+-----------------------+---------------------+--------------------------------------------+----------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| function              | caller_name         | caller_address                             | fx_paths                                                                               | action_ids                                                         | bip | tx_index |\n+-----------------------+---------------------+--------------------------------------------+----------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| Authorizer/grantRoles | multisigs/maxi_omni | 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e | 20250702-v3-reclamm-pool-v2/ReClammPool/setCenterednessMargin(uint256)                 | 0x2b1b539d3e0f79314cfc629f04c11c4acb5b9024226551e2ae3e8de6f04b7b15 | N/A |    0     |\n|                       |                     |                                            | 20250702-v3-reclamm-pool-v2/ReClammPool/setDailyPriceShiftExponent(uint256)            | 0xf3554f1a08e2d242de673ef6ae68ec6528624e538da6416d6ec48f554310e5fd |     |          |\n|                       |                     |                                            | 20250702-v3-reclamm-pool-v2/ReClammPool/startPriceRatioUpdate(uint256,uint256,uint256) | 0xd91e7705518a0b73797c031c2ef8be4f5ab12544cd54d889ccfbcf70a4213fbb |     |          |\n|                       |                     |                                            | 20250702-v3-reclamm-pool-v2/ReClammPool/stopPriceRatioUpdate()                         | 0x5b724a9636dde55c9382dbb0106888a5d582b4a3f76ef3c734cb7cfeef775456 |     |          |\n+-----------------------+---------------------+--------------------------------------------+----------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n\n```\n\n## Arbitrum\n\n```\n+-----------------------+---------------------+--------------------------------------------+----------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| function              | caller_name         | caller_address                             | fx_paths                                                 | action_ids                                                         | bip | tx_index |\n+-----------------------+---------------------+--------------------------------------------+----------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| Authorizer/grantRoles | multisigs/emergency | 0xf404C5a0c02397f0908A3524fc5eb84e68Bbe60D | 20250702-v3-reclamm-pool-v2/ReClammPoolFactory/disable() | 0x09eaaa4fc70a58025778f7e9050483e650efa93a4ba794acdd119615c345b4d4 | N/A |    0     |\n\n+-----------------------+---------------------+--------------------------------------------+----------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n\n+-----------------------+---------------------+--------------------------------------------+----------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| function              | caller_name         | caller_address                             | fx_paths                                                                               | action_ids                                                         | bip | tx_index |\n+-----------------------+---------------------+--------------------------------------------+----------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| Authorizer/grantRoles | multisigs/maxi_omni | 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e | 20250702-v3-reclamm-pool-v2/ReClammPool/stopPriceRatioUpdate()                         | 0x6e046fe940d85928049936e9d9bdb308ad4f3976555fd604de80d328add103dd | N/A |    0     |\n|                       |                     |                                            | 20250702-v3-reclamm-pool-v2/ReClammPool/startPriceRatioUpdate(uint256,uint256,uint256) | 0x8db4ac6c119a5cc0416d2807822f1b5b5a3d77a4388dda0d76edd6f275b8fc1b |     |          |\n|                       |                     |                                            | 20250702-v3-reclamm-pool-v2/ReClammPool/setDailyPriceShiftExponent(uint256)            | 0xe0fcb73a58b98efeebb2e03cd2438ef9c013d9a25da2028a4937fa3ccf559e0c |     |          |\n|                       |                     |                                            | 20250702-v3-reclamm-pool-v2/ReClammPool/setCenterednessMargin(uint256)                 | 0x2d2f06c0ad430fbe424d230caf8b6e734be0b5774a9aac513c28d9b60cc8fd1e |     |          |\n+-----------------------+---------------------+--------------------------------------------+----------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n\n```\n\n## Base\n\n```\n+-----------------------+---------------------+--------------------------------------------+----------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| function              | caller_name         | caller_address                             | fx_paths                                                 | action_ids                                                         | bip | tx_index |\n+-----------------------+---------------------+--------------------------------------------+----------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| Authorizer/grantRoles | multisigs/emergency | 0x183C55A0dc7A7Da0f3581997e764D85Fd9E9f63a | 20250702-v3-reclamm-pool-v2/ReClammPoolFactory/disable() | 0xed6f8a5f0602534601834cae86e16a9424b7bf30c562d15bd781fbcd5026d9a1 | N/A |    0     |\n+-----------------------+---------------------+--------------------------------------------+----------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n\n+-----------------------+---------------------+--------------------------------------------+----------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| function              | caller_name         | caller_address                             | fx_paths                                                                               | action_ids                                                         | bip | tx_index |\n+-----------------------+---------------------+--------------------------------------------+----------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| Authorizer/grantRoles | multisigs/maxi_omni | 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e | 20250702-v3-reclamm-pool-v2/ReClammPool/stopPriceRatioUpdate()                         | 0x9ab650e0d79e50d3072ec3ea6b32de3a2d95d9cf4b0e85ed25e44c6875c4ceef | N/A |    0     |\n|                       |                     |                                            | 20250702-v3-reclamm-pool-v2/ReClammPool/startPriceRatioUpdate(uint256,uint256,uint256) | 0xe36c8a29e382a9e068016ba59a17df30e94d2a62e291922464818cf0da07e9ad |     |          |\n|                       |                     |                                            | 20250702-v3-reclamm-pool-v2/ReClammPool/setDailyPriceShiftExponent(uint256)            | 0xd1f6775ef61086b605c69359e45fd6475d73a8dca463f8420ec61087bbd84f99 |     |          |\n|                       |                     |                                            | 20250702-v3-reclamm-pool-v2/ReClammPool/setCenterednessMargin(uint256)                 | 0x184f484b1c3cf21d4d9d31bf73151563fbd39b438a0c6203a89fe7ddb66438e4 |     |          |\n+-----------------------+---------------------+--------------------------------------------+----------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n\n```\n\n## Gnosis\n\n```\n+-----------------------+---------------------+--------------------------------------------+----------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| function              | caller_name         | caller_address                             | fx_paths                                                 | action_ids                                                         | bip | tx_index |\n+-----------------------+---------------------+--------------------------------------------+----------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| Authorizer/grantRoles | multisigs/emergency | 0xd6110A7756080a4e3BCF4e7EBBCA8E8aDFBC9962 | 20250702-v3-reclamm-pool-v2/ReClammPoolFactory/disable() | 0x1aab3fe6c33fdd6984ee5875d4ef82d2c408d8afb24f8fce02559430a8dc66fb | N/A |    0     |\n+-----------------------+---------------------+--------------------------------------------+----------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n\n+-----------------------+---------------------+--------------------------------------------+----------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| function              | caller_name         | caller_address                             | fx_paths                                                                               | action_ids                                                         | bip | tx_index |\n+-----------------------+---------------------+--------------------------------------------+----------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| Authorizer/grantRoles | multisigs/maxi_omni | 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e | 20250702-v3-reclamm-pool-v2/ReClammPool/stopPriceRatioUpdate()                         | 0x270e56b87d366a006dfd6146f9bae90acf2a9ddd5aa53e2310c1f39ce7e238e7 | N/A |    0     |\n|                       |                     |                                            | 20250702-v3-reclamm-pool-v2/ReClammPool/startPriceRatioUpdate(uint256,uint256,uint256) | 0x1b8e603d2618e05149e6cae78d37c515b263b873ba9b1b005746fba93c0a128c |     |          |\n|                       |                     |                                            | 20250702-v3-reclamm-pool-v2/ReClammPool/setDailyPriceShiftExponent(uint256)            | 0xd57b236c91a0a902043dd86febd8a865b659cfc01d6b85f2b2f950b36fc01442 |     |          |\n|                       |                     |                                            | 20250702-v3-reclamm-pool-v2/ReClammPool/setCenterednessMargin(uint256)                 | 0x2f3e803cad2ce866627abdba6c01f57593596a903aa07406a95c9775641e5e19 |     |          |\n+-----------------------+---------------------+--------------------------------------------+----------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n\n```\n\n## Avalanche\n\n```\n+-----------------------+---------------------+--------------------------------------------+----------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| function              | caller_name         | caller_address                             | fx_paths                                                 | action_ids                                                         | bip | tx_index |\n+-----------------------+---------------------+--------------------------------------------+----------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| Authorizer/grantRoles | multisigs/emergency | 0x308f8d3536261C32c97D2f85ddc357f5cCdF33F0 | 20250702-v3-reclamm-pool-v2/ReClammPoolFactory/disable() | 0x0ddb27cb2342e41e9877e708ffb6688bf54cc7cb229f8e9e13fcb94123c8ae8e | N/A |    0     |\n+-----------------------+---------------------+--------------------------------------------+----------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n\n+-----------------------+---------------------+--------------------------------------------+----------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| function              | caller_name         | caller_address                             | fx_paths                                                                               | action_ids                                                         | bip | tx_index |\n+-----------------------+---------------------+--------------------------------------------+----------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| Authorizer/grantRoles | multisigs/maxi_omni | 0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e | 20250702-v3-reclamm-pool-v2/ReClammPool/stopPriceRatioUpdate()                         | 0xb3d8576074dc51b671adf838c9ea405fcee3ad81574df01d5992bc9123e0fee8 | N/A |    0     |\n|                       |                     |                                            | 20250702-v3-reclamm-pool-v2/ReClammPool/startPriceRatioUpdate(uint256,uint256,uint256) | 0xda5b7988d29178b108abb65c47e1b696feefe673ac478e4097350036fcb124cf |     |          |\n|                       |                     |                                            | 20250702-v3-reclamm-pool-v2/ReClammPool/setDailyPriceShiftExponent(uint256)            | 0x1c75a1f4cafde1981ef618745f3e3f790245b0dcd0085ff28da2094cf34f2943 |     |          |\n|                       |                     |                                            | 20250702-v3-reclamm-pool-v2/ReClammPool/setCenterednessMargin(uint256)                 | 0x405c51665b7764cb7b8a0ec626780dfc8b9a34e1bc68c66784fd8185ff73f730 |     |          |\n+-----------------------+---------------------+--------------------------------------------+----------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n\n```\n\n## Optimism\n\n```\n+-----------------------+---------------------+--------------------------------------------+----------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| function              | caller_name         | caller_address                             | fx_paths                                                 | action_ids                                                         | bip | tx_index |\n+-----------------------+---------------------+--------------------------------------------+----------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| Authorizer/grantRoles | multisigs/emergency | 0xd4c87b33afcE39F1E3F4aF1ce8fFFF7241d9128B | 20250702-v3-reclamm-pool-v2/ReClammPoolFactory/disable() | 0x7576f83c39a4f75ece8e6da99676712301067f196442916c688500f9320af5fb | N/A |    0     |\n+-----------------------+---------------------+--------------------------------------------+----------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n\n+-----------------------+--------------+--------------------------------------------+----------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| function              | caller_name  | caller_address                             | fx_paths                                                                               | action_ids                                                         | bip | tx_index |\n+-----------------------+--------------+--------------------------------------------+----------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n| Authorizer/grantRoles | multisigs/lm | 0x09Df1626110803C7b3b07085Ef1E053494155089 | 20250702-v3-reclamm-pool-v2/ReClammPool/stopPriceRatioUpdate()                         | 0x8b408ccd53b2ae4c2ce1ed83e9af719ed711a8e38a82471d5f28cb5fab4ab223 | N/A |    0     |\n|                       |              |                                            | 20250702-v3-reclamm-pool-v2/ReClammPool/startPriceRatioUpdate(uint256,uint256,uint256) | 0x4c59a6a3b0c9f281668e9fafa669ca3f1b1897e4fee5e5d7cd1287e99d3c047c |     |          |\n|                       |              |                                            | 20250702-v3-reclamm-pool-v2/ReClammPool/setDailyPriceShiftExponent(uint256)            | 0x85f0be3893671607f6319eada53a17b0ec9c9c0808ee6ff1a74dc5ad18da1a0f |     |          |\n|                       |              |                                            | 20250702-v3-reclamm-pool-v2/ReClammPool/setCenterednessMargin(uint256)                 | 0xcc936382e676c0559a9e68d9b56d58ef88d7b570099c5a4df89abdbca4a06c4c |     |          |\n+-----------------------+--------------+--------------------------------------------+----------------------------------------------------------------------------------------+--------------------------------------------------------------------+-----+----------+\n```",
+        "end_utc": "2025-07-15T18:00:00Z",
+        "similarity_score": 0.1892,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3236745.642234455,
+            0,
+            0
+          ],
+          "scores_total": 3236745.642234455,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2025-07-15T18:00:00",
+          "pre_tvl_avg": 825284592.0,
+          "post_tvl_avg": 890436855.5,
+          "abnormal_change": 7.8945,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.078945,
+          "abnormal_change_pct": 7.8945
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2025-07-15T18:00:00",
+          "pre_price_avg": 1.106290375,
+          "post_price_avg": 1.244384015,
+          "abnormal_change": 12.4826,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.124826,
+          "abnormal_change_pct": 12.4826
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x225eda1b88f88fdbdfc0ae01c95123575ea29e416d7ffebe7e5b43bbf428ff7f",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "The proposal seeks to grant missing emergency disable permissions to the subDAO for various v3 pool factories across multiple networks, ensuring critical security controls are in place. Voting timeline shows unanimous support, and forum sentiment is cautiously supportive. Historical proposals with similar changes mostly had positive outcomes, reinforcing the recommendation to approve.",
+    "key_arguments_for": [
+      "Missing emergency disable permissions pose a security risk that must be addressed promptly.",
+      "Voting timeline shows stable and unanimous support for granting permissions.",
+      "Similar past proposals to enable new permissions resulted in positive or neutral market responses.",
+      "Forum discussion acknowledges the importance of these permissions despite some cautious concerns."
+    ],
+    "key_arguments_against": [
+      "One forum comment expresses negative sentiment possibly due to concerns about granting additional permissions."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.balancer.fi/t/bip-865-grant-emergency-subdao-missing-v3-pool-factory-disable-permissions/6653",
+        "quote": "The emergency subDAO is missing critical disable permissions for some v3 pool factories. In case of a potential malfunction or security issue, the emergency subDAO needs the ability to disable these factories immediately."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "https://snapshot.org/#/balancer.eth/proposal/0x225eda1b88f88fdbdfc0ae01c95123575ea29e416d7ffebe7e5b43bbf428ff7f",
+        "quote": "Timeline metrics show 100% lead ratio for 'Yes, let's do it' with stable voting power and early votes supporting the option."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-08-15T18:00:00Z",
+    "event_end_utc": "2025-08-19T18:00:00Z",
+    "event_time_utc": "2025-08-19T18:00:00Z",
+    "address_of_governance_token": "0xba100000625a3754423978a60c9317c58a424e3d",
+    "token_price_impact_pct": 0.0971,
+    "tvl_impact_pct": -1.8438,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        2661248.964483643,
+        0.0,
+        0.0
+      ],
+      "scores_total": 2661248.964483643,
+      "margin_abs": 2661248.964483643,
+      "margin_pct": 1.0
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- The timeline voting metrics show unanimous and stable support for 'Yes, let's do it', reflecting strong voter confidence.\n- Forum sentiment, while limited, aligns moderately with the voting outcome, showing concern but general agreement on the necessity of granting emergency disable permissions for security.\n- Historical similar proposals mostly resulted in positive or neutral market impacts, indicating such permission grants support protocol health.\n- The market impact data shows minor positive price influence and slight TVL decline, which does not contradict the recommendation.\n- Overall, this recommendation mirrors community sentiment and vote dynamics, aiming to enhance the protocol's security posture by enabling emergency controls.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0xe801a3e8f79f3d235f33f0936435f36b59469925ee1fc267546459c644ca4715",
+        "title": "[BIP-861] Grant Permissions to the Balancer Registry Initializer",
+        "end_utc": "2025-07-29T18:00:00Z",
+        "summary": "[BIP-861] Grant Permissions to the Balancer Registry Initializer closed on 2025-07-29T18:00:00Z. Timeline analytics noted 5 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.19)",
+        "market_response": "token -6.83%; TVL -4.35%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0x4945f6194f2935f681173ed1df6265e76852fb86148443a33c1a2bb959f21862",
+        "title": "[BIP-864] Enable RZR/wstETH 80/20 Gauge on Balancer v3 Ethereum",
+        "end_utc": "2025-08-12T18:00:00Z",
+        "summary": "[BIP-864] Enable RZR/wstETH 80/20 Gauge on Balancer v3 Ethereum closed on 2025-08-12T18:00:00Z. Timeline analytics noted 5 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.08)",
+        "market_response": "token +2.30%; TVL +5.30%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 0.0971,
+    "ex_post_tvl_impact_pct": -1.8438,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +0.10%; TVL -1.84%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 1,
+    "Positive": 0,
+    "Neutral": 1,
+    "total_comments": 2
+  }
+}

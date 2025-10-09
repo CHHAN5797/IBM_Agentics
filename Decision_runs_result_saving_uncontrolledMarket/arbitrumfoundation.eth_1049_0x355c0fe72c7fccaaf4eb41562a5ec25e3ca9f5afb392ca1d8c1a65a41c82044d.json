@@ -1,0 +1,262 @@
+{
+  "captured_at_utc": "2025-10-08T08:18:36.390795+00:00",
+  "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x355c0fe72c7fccaaf4eb41562a5ec25e3ca9f5afb392ca1d8c1a65a41c82044d",
+  "focus": null,
+  "votes_count": 5500,
+  "timeline_metrics_current": {
+    "unique_voters": 5500,
+    "total_votes": 5500,
+    "first_vote_at": "2023-10-06T02:06:02Z",
+    "last_vote_at": "2023-10-07T17:18:24Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        0.932182,
+        0.067818,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      0.9321818181818182,
+      0.06781818181818182,
+      0.0
+    ],
+    "stability": [
+      0.9321818181818182,
+      0.06781818181818182,
+      0.0
+    ],
+    "early_ratio": [
+      0.9321818181818182,
+      0.06781818181818182,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        2614717.47591797,
+        2706027.6248572795,
+        236688.38588882284
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.342433,
+    "spike_follow_support_ratio": 0.002401,
+    "stairwise_ratio": 0.017194,
+    "half_slope_diff": -22.501205
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x66b953a7cf4de9f6de54e6eb87ae291b5cc62f12c7fed68eba91043607883221",
+      "title": "Proposal: Building the Future of NFTs: The Rarible Protocol - Arbitrum Integration Proposal [REVISED]",
+      "author": "0x1B686eE8E31c5959D9F5BBd8122a58682788eeaD",
+      "end_utc": "2023-09-01T19:16:02Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-08-25T19:16:41Z",
+        "last_vote_at": "2023-08-26T07:14:21Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            7345732.6864043195,
+            116990.02409824789,
+            226269.1116841672
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.892797,
+        "spike_follow_support_ratio": 0.529713,
+        "stairwise_ratio": 0.010323,
+        "half_slope_diff": -55.484426
+      },
+      "price_impact_pct": -5.292,
+      "tvl_impact_pct": -5.0423,
+      "similarity": 0.024,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "For",
+        "margin_abs": 94945293.04926684,
+        "scores_total": 120779306.30293971,
+        "margin_pct": 0.786105633121656
+      }
+    }
+  ],
+  "similar_proposals_data": [],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x355c0fe72c7fccaaf4eb41562a5ec25e3ca9f5afb392ca1d8c1a65a41c82044d",
+    "selected_choice_label": "For",
+    "selected_choice_index": 0,
+    "confidence": 0.9,
+    "summary": "The proposal requests a 500,000 ARB grant to subsidize bridge fees for users migrating liquidity to Arbitrum via XY Finance, aiming to reduce onboarding costs and friction. Timeline metrics strongly favor 'For' with early and stable support. Forum sentiment is mixed with neutral and negative comments, mainly concerned about grant size, but some support recognizing XY Finance's ecosystem contributions. Historical adjacent proposal showed strong support but resulted in negative market impact, serving as a cautionary lesson.",
+    "key_arguments_for": [
+      "Strong early and stable voting support with over 93% lead ratio in favor.",
+      "Proposal aims to reduce onboarding friction and costs for users migrating liquidity to Arbitrum.",
+      "XY Finance is a reputable cross-chain bridge aggregator with multiple integrations and a large user base.",
+      "Grant funds will be fully used to subsidize bridging fees, incentivizing liquidity inflow."
+    ],
+    "key_arguments_against": [
+      "Some forum comments express concern that the requested grant size is excessive.",
+      "Market impact of a similar past proposal was negative, indicating potential risks.",
+      "Negative and neutral forum sentiment suggests some community reservations."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Forum discussion posts",
+        "quote": "Several posts highlight support for the project but raise concerns about grant size; sentiment analysis shows 5 negative, 4 neutral, 0 positive comments."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Timeline metrics",
+        "quote": "Early ratio and stability at 93% in favor; spike index moderate; recommendation index is 'For'."
+      },
+      {
+        "source_tool": "registry_lookup",
+        "reference": "Arbitrum governance token",
+        "quote": "Governance token address is 0x912CE59144191C1204E64559FE8253a0e49E6548 (ARB)."
+      },
+      {
+        "source_tool": "adjacent_analytics",
+        "reference": "Similar past proposal",
+        "quote": "Previous proposal on NFT integration had strong support but negative price and TVL impact post-vote."
+      }
+    ],
+    "available_choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2023-10-06T02:00:00Z",
+    "event_end_utc": "2023-10-13T02:00:00Z",
+    "event_time_utc": "2023-10-13T02:00:00Z",
+    "address_of_governance_token": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+    "token_price_impact_pct": -0.6138,
+    "tvl_impact_pct": -0.4497,
+    "actual_vote_result": {
+      "winner_label": "Against",
+      "winner_index": 1,
+      "scores": [
+        4235210.693976691,
+        101440773.421167,
+        4147320.7963758567
+      ],
+      "scores_total": 109823304.91152039,
+      "margin_abs": 97205562.72719032,
+      "margin_pct": 0.885109
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'For' selected with stance to keep 'Change'.",
+    "ai_final_reason": "• Timeline voting metrics show strong early and consistent support for 'For' option with a lead ratio above 93%, indicating decisive voter preference.\n• Forum sentiment analysis shows a majority of neutral and negative comments, mostly concerned about grant size, but some acknowledge the project's importance and ecosystem contributions.\n• The adjacent historical proposal, while similar in scale and approach, experienced negative market price and TVL impact post-vote, advising caution but not negating the potential benefits.\n• Market impacts here are slightly negative but minimal, and the proposal aims to reduce friction and costs for onboarding, likely to have durable positive ecosystem effects.\n• The recommendation aligns with the timeline voting majority but diverges somewhat from forum sentiment, which is more cautious; this is noted to ensure the decision maximizes long-term ecosystem health despite mixed community feelings.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x66b953a7cf4de9f6de54e6eb87ae291b5cc62f12c7fed68eba91043607883221",
+        "title": "Proposal: Building the Future of NFTs: The Rarible Protocol - Arbitrum Integration Proposal [REVISED]",
+        "end_utc": "2023-09-01T19:16:02Z",
+        "summary": "Proposal: Building the Future of NFTs: The Rarible Protocol - Arbitrum Integration Proposal [REVISED] closed on 2023-09-01T19:16:02Z. Timeline analytics noted 5500 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.02)",
+        "market_response": "token -5.29%; TVL -5.04%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -0.6138,
+    "ex_post_tvl_impact_pct": -0.4497,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -0.61%; TVL -0.45%"
+  },
+  "agentic_ai_choice": "For",
+  "actual_outcome": "Against",
+  "match_result": "different",
+  "forum_sentiment_summary": {
+    "Negative": 5,
+    "Positive": 0,
+    "Neutral": 4,
+    "total_comments": 9
+  }
+}

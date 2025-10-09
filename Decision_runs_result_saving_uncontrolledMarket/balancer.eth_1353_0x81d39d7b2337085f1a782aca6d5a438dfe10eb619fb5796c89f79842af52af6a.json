@@ -1,0 +1,993 @@
+{
+  "captured_at_utc": "2025-10-09T05:03:24.499343+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x81d39d7b2337085f1a782aca6d5a438dfe10eb619fb5796c89f79842af52af6a",
+  "focus": null,
+  "votes_count": 19,
+  "timeline_metrics_current": {
+    "unique_voters": 19,
+    "total_votes": 19,
+    "first_vote_at": "2024-04-18T18:58:22Z",
+    "last_vote_at": "2024-04-22T15:24:25Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        560.2320727964396,
+        0.0,
+        0.0
+      ],
+      [
+        414668.7224212612,
+        0.0,
+        0.0
+      ],
+      [
+        242819.64429473522,
+        0.0,
+        0.0
+      ],
+      [
+        2541305.0944018182,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.773491,
+    "spike_follow_support_ratio": 1.0,
+    "stairwise_ratio": 0.226509,
+    "half_slope_diff": 37.341479
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0xe04f0c88c95f24c1cac5a816f4d702fdbeb2316c1a05bddd307298008b4aceb8",
+      "title": "[BIP-584] Enable PRF/WETH (80/20) Gauges with 2% emission cap (Arbitrum)",
+      "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+      "end_utc": "2024-04-08T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 18,
+        "total_votes": 18,
+        "first_vote_at": "2024-04-04T21:25:04Z",
+        "last_vote_at": "2024-04-08T13:16:32Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1.449610061369465,
+            0.0,
+            0.0
+          ],
+          [
+            1.5600543487144312,
+            0.0,
+            0.0
+          ],
+          [
+            359363.64584479015,
+            0.0,
+            0.0
+          ],
+          [
+            2517757.937776294,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.874965,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.125035,
+        "half_slope_diff": 313.416344
+      },
+      "price_impact_pct": 4.2768,
+      "tvl_impact_pct": 3.7518,
+      "similarity": 0.0714,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2877124.5932854945,
+        "scores_total": 2877124.5932854945,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0xe3d26ad2edcb9b565ffc2f1bdcff5aa8fb3002e59c8e65e3c2e8217e61ae5986",
+      "title": "[BIP-583] Enable Gauges for sUSDe / USDC and USDe / USDC [Arbitrum]",
+      "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+      "end_utc": "2024-04-08T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 15,
+        "total_votes": 15,
+        "first_vote_at": "2024-04-04T21:31:30Z",
+        "last_vote_at": "2024-04-08T13:15:59Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1.4268000376587084,
+            0.0,
+            0.0
+          ],
+          [
+            1.3729434089500907,
+            0.0,
+            0.0
+          ],
+          [
+            359815.00449945073,
+            0.0,
+            0.0
+          ],
+          [
+            2517765.6609301534,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.874828,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.125172,
+        "half_slope_diff": 364.078711
+      },
+      "price_impact_pct": 4.2768,
+      "tvl_impact_pct": 3.7518,
+      "similarity": 0.0672,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2877583.4651730503,
+        "scores_total": 2877583.4651730503,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0x0ba45a5cdaf3875e1ebcd9f67f3a4e3ba827c110d89d726fb0c173af441d4478",
+      "title": "[BIP-582] Enable shezUSD/sDAI Gauge w 2% cap [Ethereum]",
+      "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+      "end_utc": "2024-04-08T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 15,
+        "total_votes": 15,
+        "first_vote_at": "2024-04-04T21:25:53Z",
+        "last_vote_at": "2024-04-08T13:15:25Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1.4480208304095126,
+            0.0,
+            0.0
+          ],
+          [
+            1.3729496873019686,
+            0.0,
+            0.0
+          ],
+          [
+            359816.4734588483,
+            0.0,
+            0.0
+          ],
+          [
+            2517769.1868095496,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.874828,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.125172,
+        "half_slope_diff": 370.698923
+      },
+      "price_impact_pct": 4.2768,
+      "tvl_impact_pct": 3.7518,
+      "similarity": 0.0868,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2877588.481238915,
+        "scores_total": 2877588.481238915,
+        "margin_pct": 1.0
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0xb46bbb3bcbad604816d525b9f6a55cbd00833e423515c3f35012be932a45f53d",
+      "cleaned": {
+        "proposal_id": "0xb46bbb3bcbad604816d525b9f6a55cbd00833e423515c3f35012be932a45f53d",
+        "title": "[BIP-306] Proposal to deploy Balancer on Scroll",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-05-29T18:00:00Z",
+        "similarity_score": 0.1378,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3136859.271066385,
+        "margin_pct": 0.9999997956744779,
+        "scores_total": 3136859.912006924,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 87,
+        "total_votes": 87,
+        "first_vote_at": "2023-05-25T18:10:13Z",
+        "last_vote_at": "2023-05-29T11:48:58Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            7412.6152511550035,
+            0.0,
+            0.0
+          ],
+          [
+            17.780862082352986,
+            0.2902997713494765,
+            0.0
+          ],
+          [
+            88339.85644362526,
+            0.0,
+            0.0
+          ],
+          [
+            3041089.3691502907,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.969469,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 1.2e-05,
+        "half_slope_diff": 0.709305
+      },
+      "raw": {
+        "id": "0xb46bbb3bcbad604816d525b9f6a55cbd00833e423515c3f35012be932a45f53d",
+        "title": "[BIP-306] Proposal to deploy Balancer on Scroll",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "## **Summary**\n\nScroll is live on the Goerli Testnet today and is expected to launch on Mainnet in early August this year. We view Balancer’s composable liquidity products as critical building blocks of decentralized finance and we want to work with you to further expand your growth on Scroll into the future.\n\nIf approved, Balancer contributors will launch on Scroll as soon as possible after our Mainnet launch. This would add Scroll to the list of networks approved as new deployments by governance.\n\n## Background\n\n### About Scroll\n\nTwitter: [https://twitter.com/Scroll_ZKP](https://twitter.com/Scroll_ZKP) \nForum: [https://community.scroll.io/](https://community.scroll.io/)\n\nScroll is an L2 scaling solution that is pushing the development of an Ethereum-equivalent zkEVM. Our main priorities are to implement a bytecode-level compatible zkEVM with sound zero knowledge proofs, work on related initiatives to coordinate the development of Layer 1 and zkEVM, and reach a community standard to improve Ethereum for the end game. Security is of the highest priority for us and our current EVM implementation is well-specified and robust. Our in-house security team also operates in close conjunction with the highest-caliber auditors in the industry.\n\nScroll is built on a completely open source basis. This includes the ZK circuits, the proving system, and the verifier smart contract. Code security is also closely monitored by community developers from projects such as Zcash, 0xPARC, Privacy and Scaling Explorations, and Filecoin.\n\nToday, Scroll is currently live on the Goerli Testnet and contracts can be deployed permissionlessly by anyone anywhere. We maintain a trustless Layer 1 <> Layer 2 bridge that supports arbitrary message delivery. The bridge is part of the rollup mechanism, verified by the smart contract and the zkEVM, which is more secure than classical relayer-based bridges.\n\n### **Goals**\n\nWe propose for Balancer to deploy on Scroll as early as possible (pending Scroll’s Mainnet launch). The Scroll Foundation will actively ensure that early dApp deployments to Scroll will run sustainably after launch.\n\nOn our side, there is growing interest from Lending Protocols (including Aave) and Liquid Staking Protocols such as Lido and Rocket Pool for Balancer to deploy on Scroll. These protocols have shown interest in expanding their existing efforts with Balancer onto Scroll, which signals to us that the deployment of Balancer on Scroll is a high-priority task. We want to enable opportunities for Balancer to solidify a strong position in the Scroll ecosystem early on to bring value to both of our communities. \n\nCurrent areas where we see Balancer playing a key role include: \n- Supporting Liquid staking derivative projects seed liquidity for their respective assets on Scroll \n- Utilizing Cross-chain gauge boosts to leverage Aura Finance following LayerZero’s deployment on Scroll\n\nWe will also actively discover areas within our ecosystem where Balancer’s offerings will find fit, and make those connections accordingly with the DAO.\n\n## Specification\n\nIf approved, Balancer contributors will launch on Scroll as soon as possible after our Mainnet launch. This would add Scroll to the list of networks approved as new deployments by governance.",
+        "end_utc": "2023-05-29T18:00:00Z",
+        "similarity_score": 0.1378,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3136859.5719138742,
+            0.300847489592051,
+            0.03924556068427722
+          ],
+          "scores_total": 3136859.912006924,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-05-29T18:00:00",
+          "pre_tvl_avg": 1046078482.0,
+          "post_tvl_avg": 1048398963.0,
+          "abnormal_change": 0.2218,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.002218,
+          "abnormal_change_pct": 0.2218
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-05-29T18:00:00",
+          "pre_price_avg": 5.295371835,
+          "post_price_avg": 5.23258799,
+          "abnormal_change": -1.1856,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.011856,
+          "abnormal_change_pct": -1.1856
+        }
+      }
+    },
+    {
+      "proposal_id": "0x879647bf10dd150496f1263b7aa32b8d4a3096305ad1ad27c3f74de34eca11f4",
+      "cleaned": {
+        "proposal_id": "0x879647bf10dd150496f1263b7aa32b8d4a3096305ad1ad27c3f74de34eca11f4",
+        "title": "[BIP-333] - Deploy Balancer on Linea",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-06-19T18:00:00Z",
+        "similarity_score": 0.1319,
+        "winning_option": "Abstain",
+        "winning_option_index": 2,
+        "margin_abs": 2775613.601780328,
+        "margin_pct": 0.836048437980845,
+        "scores_total": 3319919.6071507055,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 78,
+        "total_votes": 78,
+        "first_vote_at": "2023-06-15T18:06:41Z",
+        "last_vote_at": "2023-06-19T17:14:24Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.970588,
+            0.029412,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9871794871794872,
+          0.01282051282051282,
+          0.0
+        ],
+        "stability": [
+          0.9871794871794872,
+          0.01282051282051282,
+          0.0
+        ],
+        "early_ratio": [
+          0.9705882352941176,
+          0.029411764705882353,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            25.94768423912942,
+            0.5091792572528854,
+            0.0
+          ],
+          [
+            1208.3393933472676,
+            0.0,
+            0.056240881566872604
+          ],
+          [
+            114.54178115472133,
+            0.0,
+            0.0
+          ],
+          [
+            67661.80638507499,
+            202899.8826997889,
+            3048008.5237869616
+          ]
+        ],
+        "spike_index": 1.0,
+        "spike_follow_support_ratio": 1e-06,
+        "stairwise_ratio": 0.0,
+        "half_slope_diff": -14.408661
+      },
+      "raw": {
+        "id": "0x879647bf10dd150496f1263b7aa32b8d4a3096305ad1ad27c3f74de34eca11f4",
+        "title": "[BIP-333] - Deploy Balancer on Linea",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "Greetings Balancer Community! Cameron from the ecosystem team at Consensys reaching out regarding a proposal for a Balancer deployment on Linea.\n\n*Please see the contact information below if you would like to reach out directly regarding this proposal.*\n\n## Intro\n\nWe recently launched the public Linea Testnet and saw overwhelmingly positive feedback from community members, users, and builders. To date, Linea has processed >11M transactions, many of which are helping us stress-test the network. In addition, the Linea team is closely aligned with developers in the ecosystem. As such, we aim to serve developers, protocols, and builders. We see Balancer as a critical piece of DeFi infrastructure to enable innovation.\n\nBalancer is more than a unique AMM; it's a versatile and adaptive protocol offering innovative features such as multi-asset pools, custom weight allocation, boosted pools, and the x-chain gauges enabled with L0. These features facilitate a wide array of DeFi strategies while providing significant advantages for growing ecosystems and the start-ups building in them.\n\nMetaMask swaps is also leveraging Balancer among the meta aggregator providers, so this deployment is key for Linea to ensure MetaMask swaps can work on Linea on mainnet from day 0 with a low switching cost.\n\n## Proposal Details\n\n### Proposal\n\nThis proposal asks the Balancer community to support deployment on the Linea testnet & Linea mainnet. Balancer's unique capabilities, paired with Linea's advanced zkEVM technology, would be a leap forward in strengthening and diversifying the DeFi ecosystem on Linea.\n\nThis proposal to deploy Balancer on Linea is about more than just bringing a protocol to Linea. It's about enabling innovation and opportunities for builders.\n\n### Motivation\n\nWe have had significant interest from Linea builders, partners, and the MetaMask team to have a deployment of Balancer. These builders look forward to leveraging x-chain boosts, multiasset pools, and building protocols on top of balancer as infrastructure.\n\nMoreso, although Consensys will not always be the only support for linea development, we have a team of engineers to assist with onboarding and the innovation of new features enabled through Zks or account abstraction.\n\nWe look forward to featuring the protocol on Linea’s portal and supporting the success of the protocol on Linea.\n\n## About Linea\n\n### Linea\n\nLinea handles native EVM bytecode for proving and verification to allow the execution of Solidity smart contracts and enable developers to build on a zk-rollup while using familiar tools and infrastructure. The ConsenSys zkEVM aims to be a Type 2 zkEVM and achieve EVM-equivalence with the Ethereum VM specification specified in the yellow paper.\n\nLinea does not use transpilers or custom compilers to generate the zkProofs. Taking the compiled bytecode directly from solidity significantly reduces deployment costs and surface area risk for bugs and hacks.\n\n### Other Information\n\nPlease see more details here:\n\n1. [Linea Website](http://linea.build)\n2. [Linea Block Explorer](https://explorer.goerli.linea.build/)\n3. [Linea Docs](https://docs.linea.build/)\n4. [Consensys: R&D](https://consensys.net/research-and-development/)\n\n### Timeline/Next Steps\n\nWe encourage thoughtful community discussion and will facilitate that. If this proposal passes, we will work closely with contributors on a timeline that aligns with Balancer contributors and Linea mainnet deployment.\n\n## Conclusion\n\nIn light of this proposal, we are eager to strengthen our alliance with Balancer through this deployment. By deploying Balancer on Linea, we aim to enable a seamless user experience and growth in our communities!\n\nBuild on,\n\n## Contact Information\n\n- Email: [Governance@Consensys.net](mailto:Cameron.ODonnell@Consensys.net)\n- Forum: DAOstrat.C\n- Tg: DAOstrat\n- Calendly: [Link](https://calendly.com/daostrat/balancer-deployment-proposal-on-linea)",
+        "end_utc": "2023-06-19T18:00:00Z",
+        "similarity_score": 0.1319,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            138505.22161228437,
+            202900.3918790461,
+            2978513.9936593743
+          ],
+          "scores_total": 3319919.6071507055,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-06-19T18:00:00",
+          "pre_tvl_avg": 947035268.5,
+          "post_tvl_avg": 1005458391.5,
+          "abnormal_change": 6.1691,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.061691,
+          "abnormal_change_pct": 6.1691
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-06-19T18:00:00",
+          "pre_price_avg": 4.4023449150000005,
+          "post_price_avg": 4.736171575,
+          "abnormal_change": 7.5829,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.075829,
+          "abnormal_change_pct": 7.5829
+        }
+      }
+    },
+    {
+      "proposal_id": "0xdf9e5ffc46a29e62465f66a6a5b778e19cd8141b335224a4035e7d05be76ba5f",
+      "cleaned": {
+        "proposal_id": "0xdf9e5ffc46a29e62465f66a6a5b778e19cd8141b335224a4035e7d05be76ba5f",
+        "title": "Enable Matic<>MaticX Gauge [Polygon]",
+        "author": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+        "end_utc": "2022-05-11T14:00:00Z",
+        "similarity_score": 0.1318,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 126184.59170317274,
+        "margin_pct": 1.0,
+        "scores_total": 126184.59170317274,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 48,
+        "total_votes": 48,
+        "first_vote_at": "2022-05-08T14:08:49Z",
+        "last_vote_at": "2022-05-11T13:33:44Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            57436.13193416025,
+            0.0
+          ],
+          [
+            39091.41880959192,
+            0.0
+          ],
+          [
+            29460.008402899664,
+            0.0
+          ],
+          [
+            197.03255652089757,
+            0.0
+          ]
+        ],
+        "spike_index": 0.239232,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.268995,
+        "half_slope_diff": -22.46842
+      },
+      "raw": {
+        "id": "0xdf9e5ffc46a29e62465f66a6a5b778e19cd8141b335224a4035e7d05be76ba5f",
+        "title": "Enable Matic<>MaticX Gauge [Polygon]",
+        "author": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+        "body": "This proposal appears on [Balancer's forum](https://forum.balancer.fi/t/proposal-to-add-matic-maticx-gauge-on-balancer/3108)\n\n**Summary**\n\nStader proposes adding a gauge for the Matic<>MaticX pool on Balancer. MaticX is a liquid token for Matic staking built by StaderLabs, a multi-chain staking infrastructure provider with ~770 mn $ in TVL. The incentivization of the Matic<>MaticX pool on Balancer will help:\n\n1. Build deep liquidity would be a prerequisite to make staked Matic truly liquid in the Polygon Defi ecosystem and incentives would be an important mechanism to aid this\n2. Establish Balancer as the prime DEX for Matic <> MaticX pool. Two reasons why this is important:\n  1. $3 bn in assets locked in polygon staking currently that is set to be unlocked by liquid staking solutions like MaticX\n  2. With its metastable pool technology, Balancer is best placed to serve Matic <> MaticX\n\n**# References/Useful links**\n\n<Restricted due to 2 links due to posting restrictions. Other links to be shared in the first comment>\n\n* Website: https://staderlabs.com/\n\n**Protocol description**\n\n*Background on Staderlabs:*\n\nStaderLabs is a multi-chain staking infrastructure provider. We are live on 4 blockchains including Terra, Polygon, Fantom and Hedera.\n\nWithin a few months of launch, Stader has more than 770 Mn USD of total assets staking on the platform.\n\n1. ~ $700 M+ Luna staked\n2. ~$60 M+ HBAR staked\n3. Over 40k+ users staking with Stader smart contracts\n\nStader Protocol’s native token is the SD Token, and we have incentivized liquidity pools on other DEXes by giving out rewards in SD tokens (listed on coin gecko). \n\n*About MaticX:*\n\nMaticX is a liquid token that users get when they stake their Matic with Stader. The MaticX tokens are a representation of users’ staked Matic. They allow users to swap them at a later date for their staked Matic and accrued rewards with Stader. Meanwhile, they will be able to use it on multiple protocols on Polygon to participate in DeFi. MaticX is an ERC20 token.\n\nSafety and security are paramount for Stader and we do multiple audits of our smart contracts to safeguard user’s funds. MaticX contracts have been audited successfully by two reputed audit firms Halborn and Immunebytes. \n\n**Motivation**\n\nAdding incentivization to the Matic<>MaticX pool on Balancer will help unlock the large liquidity currently locked in staked Matic for the Polygon and Balancer community and in the process, bring significant liquidity and trading volumes to the Balancer ecosystem\n\n* Liquid staking is large and MaticX aims to be the primary liquid staking token for Polygon:\n  * Staking on polygon currently has ~3bn $ of assets staked. Liquid staking can help unlock a large part of this for use in the Defi ecosystem making this an asset class of interest to the Polygon and Balancer communities\n  * Stader’s experience in building strong liquid staking solutions on multiple chains, especially Terra and Hedera, with ~770 mn$ in TVL makes it one of the leading candidates to help unlock this liquidity through MaticX\n  * MaticX is off to a strong start within a few weeks of launch with staking TVL for Matic already at 2.5+ Million Matic. We also recently launched staking on the Polygon Mainnet directly (Polygon's staking protocol is native to Ethereum, so Stader Polygon v1 only supported staking Matic on Ethereum) and this will help increase staking penetration and in turn, MaticX\n  * We will build deep liquidity for MaticX to truly enable users to unlock their staked assets and participate in Defi on Polygon. The MaticX <> Matic LP is already live on Quickswap and has a liquidity of around 5 million USD with average daily trading volume of $246,333 in the last 7 days (Apr 27-May 3)\n  * We expect MaticX to continue to grow in demand as we integrate across more ecosystem partners and also increase overall staking participation in Polygon (currently only 14,000 wallets of total of 140m active wallets stake on Polygon)\n* Balancer is best suited to provide deep liquidity for Matic<>MaticX given its unique metastable pool technology, a great fit for liquid staking assets\n\n**Other Specifications**\n\nGauge: 0xf01541837CF3A64BC957F53678b0AB113e92911b\n\n* Balancer Pool Address: https://polygon.balancer.fi/#/pool/0xc17636e36398602dd37bb5d1b3a9008c7629005f0002000000000000000004c4\n\nWe would like to hear feedback and update any specific information/ parameters as suggested by the Polygon and Balancer community",
+        "end_utc": "2022-05-11T14:00:00Z",
+        "similarity_score": 0.1318,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way"
+          ],
+          "scores": [
+            126184.59170317274,
+            0
+          ],
+          "scores_total": 126184.59170317274,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2022-05-11T14:00:00",
+          "pre_tvl_avg": 1638999876.0,
+          "post_tvl_avg": 1151834169.0,
+          "abnormal_change": -29.7234,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.297234,
+          "abnormal_change_pct": -29.7234
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2022-05-11T14:00:00",
+          "pre_price_avg": 10.86169829,
+          "post_price_avg": 9.180243695000001,
+          "abnormal_change": -15.4806,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.154806,
+          "abnormal_change_pct": -15.4806
+        }
+      }
+    },
+    {
+      "proposal_id": "0xfac459b1f0ce7eec8965814a062a3eac195b5988990ae7a6a59e4022304837c3",
+      "cleaned": {
+        "proposal_id": "0xfac459b1f0ce7eec8965814a062a3eac195b5988990ae7a6a59e4022304837c3",
+        "title": "[BIP-206] Deploy Balancer to Avalanche",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-03-06T19:00:00Z",
+        "similarity_score": 0.1307,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 4557103.133288204,
+        "margin_pct": 0.9997616714170123,
+        "scores_total": 4558189.480127992,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 295,
+        "total_votes": 295,
+        "first_vote_at": "2023-03-02T19:05:36Z",
+        "last_vote_at": "2023-03-06T17:31:59Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.908451,
+            0.091549,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9559322033898305,
+          0.04406779661016949,
+          0.0
+        ],
+        "stability": [
+          0.9559322033898305,
+          0.04406779661016949,
+          0.0
+        ],
+        "early_ratio": [
+          0.9084507042253521,
+          0.09154929577464789,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            725597.3440968163,
+            50.70653128490547,
+            517.3959274485733
+          ],
+          [
+            295837.90383311646,
+            0.148393909315595,
+            0.1206306959358045
+          ],
+          [
+            337749.0377266494,
+            0.3268528484197292,
+            0.0
+          ],
+          [
+            3198436.430162494,
+            0.0,
+            0.06597272832415754
+          ]
+        ],
+        "spike_index": 0.611849,
+        "spike_follow_support_ratio": 0.996722,
+        "stairwise_ratio": 2.8e-05,
+        "half_slope_diff": -68.403292
+      },
+      "raw": {
+        "id": "0xfac459b1f0ce7eec8965814a062a3eac195b5988990ae7a6a59e4022304837c3",
+        "title": "[BIP-206] Deploy Balancer to Avalanche",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### Motivation\n\nThere has long been a desire to see Balancer on Avalanche from many in the community. Over the last few months important projects like making it easier for the UI to support new chains and generalized boosted pool support have been completed which removes previous blockers for Balancer to expand to new chains.\n\nIn terms of top chains by TVL per Defillama, Avalanche sits between Polygon and Optimism. It’s weathered the bear market quite well, and other metrics like volume are also comparable to networks we’re already deployed on. Importantly, Aave has a large presence on Avalanche and I believe Aave v3 Boosted Pools would be a very popular new primitive for users and developers. Beyond that, there’s a growing market for liquid staked AVAX, in particular sAVAX by Benqi who have signaled an interest in seeing liquidity on Balancer if we were to come. Therefore, Balancer could bring value to Avalanche through its composable liquidity products.\n\nWhen assessing whether a new chain makes sense I think three important factors are:\n\n* Network size & growth trajectory\n* Balancer’s competitive advantage (boosted pools & liquid staked tokens)\n* 3rd party incentives\n\nIn this case Avalanche is of a similar size to networks we already support and seems at least on par with others in terms of growth/metrics lately. We have a strong partner in Aave for boosted pools and interest from new friends to grow liquid staked AVAX. The DAO has been in early discussions of bootstrapping AVAX incentives but no agreements have been made yet.\n\nAnother reason I think expansion is a good idea is because of how effective BIP-19 has been in growing Balancer’s position on networks beyond Ethereum. Before things got derailed with [the issue](https://forum.balancer.fi/t/reentrancy-vulnerability-scope-expanded/4345) disclosed in January we had gained significant ground on Polygon to nearly become the top DEX by TVL. The imminent launch of Aave v3 boosted pools will be a major growth catalyst in key markets like Arbitrum & Polygon and combined with BIP-19 I’m optimistic on our multi-chain future.\n\n### Specification\n\nThis vote does not have any particular on-chain execution. If approved, the various contributors to Balancer DAO will work towards deploying on Avalanche in the next 2-3 months. If not approved then this deployment will be scrapped, pending further discussion or another vote.",
+        "end_utc": "2023-03-06T19:00:00Z",
+        "similarity_score": 0.1307,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            4557620.715819077,
+            51.1817780426408,
+            517.5825308728333
+          ],
+          "scores_total": 4558189.480127992,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-03-06T19:00:00",
+          "pre_tvl_avg": 1230262238.0,
+          "post_tvl_avg": 1260757429.5,
+          "abnormal_change": 2.4788,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.024788,
+          "abnormal_change_pct": 2.4788
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-03-06T19:00:00",
+          "pre_price_avg": 6.3584822800000005,
+          "post_price_avg": 5.939900345,
+          "abnormal_change": -6.583,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.06583,
+          "abnormal_change_pct": -6.583
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x81d39d7b2337085f1a782aca6d5a438dfe10eb619fb5796c89f79842af52af6a",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "The proposal to enable Balancer deployment onto Mode Network is strongly supported by voting timeline analytics, positive forum sentiment, and successful precedents from similar past proposals.",
+    "key_arguments_for": [
+      "Mode Network is a rapidly growing L2 with over $240M TVL, offering new opportunities for Balancer liquidity and trading efficiency.",
+      "Balancer's deployment on Mode would position it as a key DeFi pillar within an emerging ecosystem, supported by liquidity incentives and developer integrations.",
+      "Voting timeline shows unanimous early and sustained support with a stability score of 1.0, indicating consistent voter alignment for the proposal.",
+      "Similar past proposals enabling new deployments received full support and led to positive market and TVL impacts, validating the approach."
+    ],
+    "key_arguments_against": [
+      "Uncertainty about technical blockers and the need for a follow-up vote to authorize all components if deployment proceeds.",
+      "One forum comment expressed caution about proceeding without clear technical details, suggesting the vote is a preliminary signal."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.balancer.fi/t/bip-589-enable-balancer-deployment-into-mode/5681",
+        "quote": "Introduction post advocating for Balancer deployment on Mode Network highlighting rapid TVL growth and ecosystem benefits."
+      },
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.balancer.fi/t/bip-589-enable-balancer-deployment-into-mode/5681",
+        "quote": "Forum comment noting the proposal as a feeler vote with technical uncertainties and need for subsequent authorization vote."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Proposal timeline analytics",
+        "quote": "Voting shows 100% lead and stability for 'Yes, let's do it' option with no votes for alternatives."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2024-04-18T18:00:00Z",
+    "event_end_utc": "2024-04-22T18:00:00Z",
+    "event_time_utc": "2024-04-22T18:00:00Z",
+    "address_of_governance_token": "0xba100000625a3754423978a60c9317c58a424e3d",
+    "token_price_impact_pct": 0.6756,
+    "tvl_impact_pct": 2.3277,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        3199353.693190611,
+        0.0,
+        0.0
+      ],
+      "scores_total": 3199353.693190611,
+      "margin_abs": 3199353.693190611,
+      "margin_pct": 1.0
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- The voting timeline shows unanimous and stable support for enabling Balancer deployment on Mode, indicating clear voter consensus.\n- Forum sentiment is mixed but leans positive overall, with the initial proposal post enthusiastic about growth opportunities, despite a cautionary comment noting technical uncertainties.\n- Similar past proposals enabling deployments on new chains had full voter support and resulted in positive TVL and price impacts, suggesting strong precedent for success.\n- Market impacts and TVL projections for this proposal are positive, reinforcing the strategic benefit of expansion.\n- The recommendation aligns with the aggregated forum sentiment and vote dynamics, supporting a change stance for long-term growth and ecosystem integration.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x0ba45a5cdaf3875e1ebcd9f67f3a4e3ba827c110d89d726fb0c173af441d4478",
+        "title": "[BIP-582] Enable shezUSD/sDAI Gauge w 2% cap [Ethereum]",
+        "end_utc": "2024-04-08T18:00:00Z",
+        "summary": "[BIP-582] Enable shezUSD/sDAI Gauge w 2% cap [Ethereum] closed on 2024-04-08T18:00:00Z. Timeline analytics noted 15 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.09)",
+        "market_response": "token +4.28%; TVL +3.75%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0xe04f0c88c95f24c1cac5a816f4d702fdbeb2316c1a05bddd307298008b4aceb8",
+        "title": "[BIP-584] Enable PRF/WETH (80/20) Gauges with 2% emission cap (Arbitrum)",
+        "end_utc": "2024-04-08T18:00:00Z",
+        "summary": "[BIP-584] Enable PRF/WETH (80/20) Gauges with 2% emission cap (Arbitrum) closed on 2024-04-08T18:00:00Z. Timeline analytics noted 18 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.07)",
+        "market_response": "token +4.28%; TVL +3.75%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 0.6756,
+    "ex_post_tvl_impact_pct": 2.3277,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +0.68%; TVL +2.33%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 1,
+    "Positive": 1,
+    "Neutral": 1,
+    "total_comments": 3
+  }
+}

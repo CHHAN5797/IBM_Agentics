@@ -1,0 +1,725 @@
+{
+  "captured_at_utc": "2025-10-09T03:44:30.128057+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x0c0c423cddcca818243aaeb202aac341de5cba764e4f01580c9ab963a13a9f92",
+  "focus": null,
+  "votes_count": 15,
+  "timeline_metrics_current": {
+    "unique_voters": 15,
+    "total_votes": 15,
+    "first_vote_at": "2024-06-14T00:33:58Z",
+    "last_vote_at": "2024-06-17T15:01:11Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        0.857143,
+        0.0,
+        0.142857
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      0.9333333333333333,
+      0.0,
+      0.06666666666666667
+    ],
+    "stability": [
+      0.9333333333333333,
+      0.0,
+      0.06666666666666667
+    ],
+    "early_ratio": [
+      0.8571428571428571,
+      0.0,
+      0.14285714285714285
+    ],
+    "vp_by_quartile": [
+      [
+        6.409901180255516,
+        0.0,
+        0.38766194417545397
+      ],
+      [
+        281428.9775647736,
+        0.0,
+        0.0
+      ],
+      [
+        124599.01296407363,
+        0.0,
+        0.0
+      ],
+      [
+        0.027656403089964494,
+        0.0,
+        2307633.918110688
+      ]
+    ],
+    "spike_index": 1.0,
+    "spike_follow_support_ratio": 0.0,
+    "stairwise_ratio": 0.0,
+    "half_slope_diff": 31.129134
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0xc2914f9b68295c5934a8c87a168625d64f9b65abe45df1dfa1e87e2f9f3a6fec",
+      "title": "[BIP-619] Enable Gauge for sUSDe/wstETH [Ethereum]",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2024-06-10T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 26,
+        "total_votes": 26,
+        "first_vote_at": "2024-06-06T20:19:50Z",
+        "last_vote_at": "2024-06-10T17:28:47Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1.4934123534958927,
+            0.0,
+            0.0
+          ],
+          [
+            2.035299332807603,
+            0.10372945393410407,
+            0.0
+          ],
+          [
+            289461.14732404123,
+            0.0,
+            0.0
+          ],
+          [
+            2503910.7983235135,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.821215,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.075162,
+        "half_slope_diff": 39.409874
+      },
+      "price_impact_pct": -5.0018,
+      "tvl_impact_pct": -4.5807,
+      "similarity": 0.0779,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2793375.3706297874,
+        "scores_total": 2793375.578088695,
+        "margin_pct": 0.9999999257318245
+      }
+    },
+    {
+      "id": "0x58e1267492d2f95ad5a30f0c849f48ed17902562427147f73486b357d2ecf8ae",
+      "title": "[BIP-618] Enable D2D/GYD 80/20 Gauge [Arbitrum]",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2024-06-10T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 24,
+        "total_votes": 24,
+        "first_vote_at": "2024-06-06T20:19:19Z",
+        "last_vote_at": "2024-06-10T16:00:29Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1.49342420353712,
+            0.0,
+            0.0
+          ],
+          [
+            2.139048301444422,
+            0.0,
+            0.0
+          ],
+          [
+            289462.88648643205,
+            0.0,
+            0.0
+          ],
+          [
+            2499032.3737862953,
+            0.0,
+            626.1737505399558
+          ]
+        ],
+        "spike_index": 0.821146,
+        "spike_follow_support_ratio": 0.000212,
+        "stairwise_ratio": 0.075049,
+        "half_slope_diff": 42.517471
+      },
+      "price_impact_pct": -5.0018,
+      "tvl_impact_pct": -4.5807,
+      "similarity": 0.1068,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2787872.718994692,
+        "scores_total": 2789125.066495772,
+        "margin_pct": 0.9995509891198054
+      }
+    },
+    {
+      "id": "0x95c829194d909e045988bcf3481d8b2706b8dc2c0486da087736e58ec8585108",
+      "title": "[BIP-617] Request for BAL to reward UI beta testers",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2024-06-03T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 15,
+        "total_votes": 15,
+        "first_vote_at": "2024-05-30T20:49:47Z",
+        "last_vote_at": "2024-06-03T09:09:13Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1.789148997563169,
+            0.0,
+            0.0
+          ],
+          [
+            295694.1717384979,
+            0.11364879269486138,
+            0.0
+          ],
+          [
+            0.10561034203195314,
+            0.0,
+            0.014884336648320073
+          ],
+          [
+            2335169.9808732714,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.887224,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.112776,
+        "half_slope_diff": 28.960125
+      },
+      "price_impact_pct": 0.612,
+      "tvl_impact_pct": 1.0408,
+      "similarity": 0.0965,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2630865.8281119745,
+        "scores_total": 2630866.175904238,
+        "margin_pct": 0.9999998678031339
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x2a0dc7f9df02324b90c437336085342becca47bdbf133c438e7b1a07d5a48a34",
+      "cleaned": {
+        "proposal_id": "0x2a0dc7f9df02324b90c437336085342becca47bdbf133c438e7b1a07d5a48a34",
+        "title": "[BIP-598] Claim Extra Safe Airdrop",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2024-05-06T18:00:00Z",
+        "similarity_score": 0.2154,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2905098.823920939,
+        "margin_pct": 1.0,
+        "scores_total": 2905098.823920939,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 18,
+        "total_votes": 18,
+        "first_vote_at": "2024-05-02T20:03:09Z",
+        "last_vote_at": "2024-05-06T12:27:05Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            13341.684018701617,
+            0.0,
+            0.0
+          ],
+          [
+            230498.6418298071,
+            0.0,
+            0.0
+          ],
+          [
+            4561.331431208628,
+            0.0,
+            0.0
+          ],
+          [
+            2656697.166641221,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.821744,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.178256,
+        "half_slope_diff": 256.179964
+      },
+      "raw": {
+        "id": "0x2a0dc7f9df02324b90c437336085342becca47bdbf133c438e7b1a07d5a48a34",
+        "title": "[BIP-598] Claim Extra Safe Airdrop",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "# Payload with PR\n\nhttps://github.com/BalancerMaxis/multisig-ops/pull/920\n\n\n# Abstract\n\n\n[GIP-64](https://snapshot.org/#/gnosis.eth/proposal/0xd9dbc0cebba7b9a27f6fa3f30987b89b4dd50140ee3e21624ebc9bdb16049654) prompted GnosisDAO to distribute an additional portion of the SAFE supply, aimed at promoting decentralisation on the Gnosis Chain. In the context of a [token swap agreement](https://snapshot.org/#/balancer.eth/proposal/0x8d4969e56fa8eb13abc7a3404b3d42fe6b4afa1c7f29111bd012314f093a2fd2), Balancer DAO received GNO tokens from GnosisDAO, which were then locked in the [LGNO locking contract](https://etherscan.io/address/0x4f8ad938eba0cd19155a835f617317a6e788c868). This deposit qualifies the Balancer DAO for these additional benefits, as it satisfies the requirement of having \"GNO in locking contracts on Ethereum and Gnosis Chain.\" The current proposal aims to claim 119,196.473 Safe tokens, receiving them in the  [Balancer DAO treasury](https://etherscan.io/address/0x10a19e7ee7d7f8a52822f6817de8ea18204f2e4f).\n\n\n# Specification\n\nThe DAO Multisig on Ethereum Mainnet ```0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f``` will interact with the SAFE contract at ```0x20cF5bA8aBA68Cd7Ca3d0cAfAc54dA807c772418``` and write the claim function for the total amount allocated, passing \n  \n```\"0xe3f30724dc7b68f4dc7bef54b812e18454d9b9b278887f4f09de5ee8dd2fbb97\"```                                        ,                                                                                      ```\"0x403b039b300b5d3f14f5a95011807ad1f279c31b5c6668e9dad1cbd43d5d9271\"```                                         ,                                                 ```\"0x25ddc11367cfc9aeab1086adcc396ffdaeb90e491021ab488fcacd43037cd4e6\"```                                        ,                                                                                                  ```\"0xc2628e8800f0dbbce626dcf83c09a30a5a97d79413dcb79ca32a75d3cc1e66b8\"```                                        ,\n```\"0x933f0c6611414cc50cc739051a4e8140ca04f4ca6113746cedf8e9174aa9a6df\"]```\n\nfor the ```merkleProof``` argument, and ```119196472786989781864064``` for the ```amountAllocated``` argument.",
+        "end_utc": "2024-05-06T18:00:00Z",
+        "similarity_score": 0.2154,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2905098.823920939,
+            0,
+            0
+          ],
+          "scores_total": 2905098.823920939,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-05-06T18:00:00",
+          "pre_tvl_avg": 1064500915.5,
+          "post_tvl_avg": 1033384027.5,
+          "abnormal_change": -2.9231,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.029231,
+          "abnormal_change_pct": -2.9231
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-05-06T18:00:00",
+          "pre_price_avg": 3.627341295,
+          "post_price_avg": 3.526669925,
+          "abnormal_change": -2.7753,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.027753,
+          "abnormal_change_pct": -2.7753
+        }
+      }
+    },
+    {
+      "proposal_id": "0x8029bf3058ff3ad4c392e106bf9a4c308c3fd060507e6e9e31425b4792b6f8d4",
+      "cleaned": {
+        "proposal_id": "0x8029bf3058ff3ad4c392e106bf9a4c308c3fd060507e6e9e31425b4792b6f8d4",
+        "title": "[BIP-453] Deposit 160k BAL into Aave v3",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-10-16T18:00:00Z",
+        "similarity_score": 0.1346,
+        "winning_option": "Abstain",
+        "winning_option_index": 2,
+        "margin_abs": 1251167.5179050595,
+        "margin_pct": 0.3345128976306188,
+        "scores_total": 3740266.897830181,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 67,
+        "total_votes": 67,
+        "first_vote_at": "2023-10-12T18:20:55Z",
+        "last_vote_at": "2023-10-16T13:35:42Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1184.2427327192618,
+            0.02138557703727014,
+            0.01872087621007522
+          ],
+          [
+            1765.4133339925647,
+            0.0,
+            0.0
+          ],
+          [
+            543587.4404012221,
+            0.0,
+            0.0
+          ],
+          [
+            1.9049932482915135,
+            0.0,
+            3193727.856262546
+          ]
+        ],
+        "spike_index": 0.999802,
+        "spike_follow_support_ratio": 0.999445,
+        "stairwise_ratio": 0.000198,
+        "half_slope_diff": 0.040642
+      },
+      "raw": {
+        "id": "0x8029bf3058ff3ad4c392e106bf9a4c308c3fd060507e6e9e31425b4792b6f8d4",
+        "title": "[BIP-453] Deposit 160k BAL into Aave v3",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "Payload With PR\nhttps://github.com/BalancerMaxis/multisig-ops/pull/550\n\n### Summary & Motivation\n\nSince inception Balancer has been closely partnered with Aave, be it through their safety module on v1, boosted pools for a period of time, and as a delegate and voter. Balancer DAO has a large sum of BAL tokens idle in the treasury, and one of the best possible ways to benefit ourselves and the greater ecosystem would to have BAL available to borrow on Aave. The treasury would earn returns on the deposit, and anyone interested in borrowing BAL would have access. \n\nAt the time of writing 188.34k out of 350k total BAL is deposited in the Aave v3 [module](https://app.aave.com/reserve-overview/?underlyingAsset=0xba100000625a3754423978a60c9317c58a424e3d&marketName=proto_mainnet_v3). I propose we deposit 160k, nearly the total remaining supply possible. As time goes on we can increase or decrease this strategy depending on market conditions. \n\nSpecification:\n\nThe DAO Multisig on mainnet `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with the BAL token address `0xba100000625a3754423978a60c9317c58a424e3D` by writing the `approve` function with spender(address) as Aave v3's proxy `0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2` and amount as `160000000000000000000000`. \n\nThen the DAO Multisig will then interact with Aave's contract `0x87870Bca3F3fD6335C3F4ce8392D69350B4fA4E2` by writing the `supply` function with the following arguements: \n- asset: `0xba100000625a3754423978a60c9317c58a424e3D` \n- amount: `160000000000000000000000`\n- onBehalfOf: `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f`\n- referralCode: `0`",
+        "end_utc": "2023-10-16T18:00:00Z",
+        "similarity_score": 0.1346,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            1244549.6846161664,
+            0.01069278851863507,
+            2495717.202521226
+          ],
+          "scores_total": 3740266.897830181,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-10-16T18:00:00",
+          "pre_tvl_avg": 685153175.0,
+          "post_tvl_avg": 671906431.5,
+          "abnormal_change": -1.9334,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.019334,
+          "abnormal_change_pct": -1.9334
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-10-16T18:00:00",
+          "pre_price_avg": 3.056577275,
+          "post_price_avg": 2.96013798,
+          "abnormal_change": -3.1551,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.031551,
+          "abnormal_change_pct": -3.1551
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x0c0c423cddcca818243aaeb202aac341de5cba764e4f01580c9ab963a13a9f92",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.85,
+    "summary": "The proposal to lock the SAFE balance in the Balancer DAO multisig into a reward booster is supported by strong early and stable vote timelines and positive forum sentiments. Historical similar proposals passed with 'Yes' but showed negative post-vote market impacts, which advises cautious optimism. The recommendation is to proceed with the change to maximize long-term value.",
+    "key_arguments_for": [
+      "Strong early and consistent vote support for 'Yes, let's do it' option.",
+      "Forum discussion includes positive support for maximizing value from SAFE tokens and locking incentives.",
+      "Similar past proposals passed with 'Yes' and aimed to enable gauges or rewards, supporting incremental improvements.",
+      "Locking SAFE tokens into the reward booster could increase rewards with no greater risk than holding tokens idle."
+    ],
+    "key_arguments_against": [
+      "Forum discussion shows some negative sentiment and concerns about risks, though limited.",
+      "Post-vote market impacts for similar proposals showed price and TVL declines, suggesting caution.",
+      "Potential uncertainty about the actual rewards and benefits of the locking mechanism."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.balancer.fi/t/bip-621-lock-safe-balance/5788",
+        "quote": "Forum discussion shows mixed sentiments with some positive support and some negative concerns."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Snapshot proposal timeline analysis",
+        "quote": "Strong lead ratio and stability metrics favor the 'Yes, let's do it' option throughout the voting period."
+      },
+      {
+        "source_tool": "adjacent_analytics",
+        "reference": "Similar proposals BIP-619 and BIP-618",
+        "quote": "Both similar proposals passed with 'Yes' but had negative post-vote price and TVL impacts."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2024-06-13T18:00:00Z",
+    "event_end_utc": "2024-06-17T18:00:00Z",
+    "event_time_utc": "2024-06-17T18:00:00Z",
+    "address_of_governance_token": "0xba100000625a3754423978a60c9317c58a424e3D",
+    "token_price_impact_pct": -6.4007,
+    "tvl_impact_pct": -5.2305,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        1408239.7947245997,
+        0.0,
+        1305428.9391344634
+      ],
+      "scores_total": 2713668.733859063,
+      "margin_abs": 102810.85559013626,
+      "margin_pct": 0.037886
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "• Timeline analysis shows strong, early, and stable support for 'Yes, let's do it' option.\n• Forum sentiment is mixed but with positive voices supporting locking SAFE for rewards, indicating community interest.\n• Historical similar proposals passed with 'Yes' but had negative post-vote price and TVL impacts, signaling need for cautious optimism.\n• The proposal aims to increase rewards on locked SAFE tokens with limited additional risk, aligning with long-term value maximization.\n• The recommendation aligns with aggregated sentiment and timeline data, reflecting community and durable benefit despite some market caution.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x58e1267492d2f95ad5a30f0c849f48ed17902562427147f73486b357d2ecf8ae",
+        "title": "[BIP-618] Enable D2D/GYD 80/20 Gauge [Arbitrum]",
+        "end_utc": "2024-06-10T18:00:00Z",
+        "summary": "[BIP-618] Enable D2D/GYD 80/20 Gauge [Arbitrum] closed on 2024-06-10T18:00:00Z. Timeline analytics noted 24 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.11)",
+        "market_response": "token -5.00%; TVL -4.58%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0x95c829194d909e045988bcf3481d8b2706b8dc2c0486da087736e58ec8585108",
+        "title": "[BIP-617] Request for BAL to reward UI beta testers",
+        "end_utc": "2024-06-03T18:00:00Z",
+        "summary": "[BIP-617] Request for BAL to reward UI beta testers closed on 2024-06-03T18:00:00Z. Timeline analytics noted 15 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.10)",
+        "market_response": "token +0.61%; TVL +1.04%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -6.4007,
+    "ex_post_tvl_impact_pct": -5.2305,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -6.40%; TVL -5.23%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 1,
+    "Positive": 1,
+    "Neutral": 1,
+    "total_comments": 3
+  }
+}

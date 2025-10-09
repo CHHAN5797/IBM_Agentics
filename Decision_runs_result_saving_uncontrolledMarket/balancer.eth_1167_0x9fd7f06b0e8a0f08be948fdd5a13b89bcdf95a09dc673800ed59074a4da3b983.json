@@ -1,0 +1,1142 @@
+{
+  "captured_at_utc": "2025-10-08T20:50:00.284477+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x9fd7f06b0e8a0f08be948fdd5a13b89bcdf95a09dc673800ed59074a4da3b983",
+  "focus": null,
+  "votes_count": 4,
+  "timeline_metrics_current": {
+    "unique_voters": 4,
+    "total_votes": 4,
+    "first_vote_at": "2025-02-14T12:12:46Z",
+    "last_vote_at": "2025-02-17T08:00:03Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        362580.7384623896,
+        0.0,
+        0.0
+      ],
+      [
+        0.06142784020395847,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        2539828.0953531894,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.814567,
+    "spike_follow_support_ratio": 0.0,
+    "stairwise_ratio": 0.185433,
+    "half_slope_diff": 624.295115
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x3d39e0c869368fc202c1be5a289432d6d4b666050028f0773b946a0162953959",
+      "title": "[BIP-774] Initial Gauges on Arbitrum and Base",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-02-10T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 4,
+        "total_votes": 4,
+        "first_vote_at": "2025-02-07T18:50:33Z",
+        "last_vote_at": "2025-02-10T17:43:38Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.06810283485988088,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2554638.0944370986,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.929679,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.070321,
+        "half_slope_diff": -10.224491
+      },
+      "price_impact_pct": 4.8904,
+      "tvl_impact_pct": -2.2386,
+      "similarity": 0.0723,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2554638.1625399333,
+        "scores_total": 2554638.1625399333,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0x101ed27e3f033b5704971cf17ef0c4370099cee9316967e88d7e0c9632f6abb1",
+      "title": "[BIP-773] Enable Gauge for dvstETH wstETH [Ethereum]",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-02-10T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 4,
+        "total_votes": 4,
+        "first_vote_at": "2025-02-07T18:50:16Z",
+        "last_vote_at": "2025-02-10T17:44:28Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.06810374384689712,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2554010.3729974907,
+            0.0,
+            624.3354379710761
+          ]
+        ],
+        "spike_index": 0.929906,
+        "spike_follow_support_ratio": 0.996525,
+        "stairwise_ratio": 0.070094,
+        "half_slope_diff": 10.142245
+      },
+      "price_impact_pct": 4.8904,
+      "tvl_impact_pct": -2.2386,
+      "similarity": 0.1592,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2553386.1056632632,
+        "scores_total": 2554634.7765392056,
+        "margin_pct": 0.9995112135451182
+      }
+    },
+    {
+      "id": "0x065351bbfa19f5b4b3b8cb2d732a9809adeee6e424c9ede6815854a0dab9caeb",
+      "title": "[BIP-772] Enable Boosted GHO/PYUSD on Balancer v3",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-02-03T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 6,
+        "total_votes": 6,
+        "first_vote_at": "2025-01-30T22:46:44Z",
+        "last_vote_at": "2025-02-03T18:43:07Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            346173.323556492,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            183017.51428206303,
+            0.0,
+            0.0
+          ],
+          [
+            2476495.06992025,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.787166,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.212834,
+        "half_slope_diff": -2.221182
+      },
+      "price_impact_pct": -13.2932,
+      "tvl_impact_pct": -13.9951,
+      "similarity": 0.0884,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 3005685.907758805,
+        "scores_total": 3005685.907758805,
+        "margin_pct": 1.0
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x4fee8f6d6a0fac76f86faab2ee31d52eab2ef6a8b27d3b6092509cc893803f16",
+      "cleaned": {
+        "proposal_id": "0x4fee8f6d6a0fac76f86faab2ee31d52eab2ef6a8b27d3b6092509cc893803f16",
+        "title": "[BIP-645] Enable Gauge for inETH/wstETH [Arbitrum]",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2024-07-01T18:00:00Z",
+        "similarity_score": 0.4856,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2786590.425905919,
+        "margin_pct": 1.0,
+        "scores_total": 2786590.425905919,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 9,
+        "total_votes": 9,
+        "first_vote_at": "2024-06-28T06:24:33Z",
+        "last_vote_at": "2024-07-01T15:34:16Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1.4335885777411808,
+            0.0,
+            0.0
+          ],
+          [
+            1421.4329377298864,
+            0.0,
+            0.0
+          ],
+          [
+            266773.470313813,
+            0.0,
+            0.0
+          ],
+          [
+            2518394.0890657986,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.838869,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.161131,
+        "half_slope_diff": 7.801214
+      },
+      "raw": {
+        "id": "0x4fee8f6d6a0fac76f86faab2ee31d52eab2ef6a8b27d3b6092509cc893803f16",
+        "title": "[BIP-645] Enable Gauge for inETH/wstETH [Arbitrum]",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1108\n\n**Summary:**\n> This is a proposal on behalf of InceptionLRT to enable a gauge for inETH/wstETH on Arbitrum. inETH is the Restaking Token dedicated to ETH, obtained through InceptionLRT’s restaking mechanism and platform.\nInceptionLRT is an omnichain liquid restaking protocol offering both Native and Isolated restaking to users. \n\n**References/Useful links:**\n\n> Link to:\n    • Website: https://www.inceptionlrt.com/\n    • Documentation: https://docs.inceptionlrt.com/\n    • Github Page: https://github.com/inceptionlrt/smart-contracts/tree/master\n    • Communities: https://twitter.com/InceptionLRT, Discord: [InceptionLRT](https://discord.com/invite/gBswunawAn)\n\n**Protocol Description:**\n\n> InceptionLRT is an omnichain liquid restaking protocol offering both Native and Isolated restaking to users. \nPowered by the Flash Unstake mechanism and supported by node operators with DVT Technology, InceptionLRT aims to become the most complete liquid restaking protocol in DeFi. The isolated architecture combined with the flash unstake feature solves the only drawback of isolated LRTs - liquidity fragmentation! \n\n**Motivation:**\n\n> InceptionLRT aims to enable a gauge for inETH/wstETH to substantially increase the liquidity of inETH, while supporting its utility and viability for integration into a range of DeFi protocols.\n\n**Specifications:**\n \n1. **Governance:** ING holders participate in decision-making, influencing the protocol’s direction and policies, including the Node Operators, AVSs and restaking strategies.\nIncentive Allocation: Through gauge weight voting, veING holders direct incentives and rewards towards preferred liquidity, impacting the protocol’s dynamics.\nRewards and Participation: Providing ING to liquidity pools like the 80-20 Balancer Liquidity Pools and locking the LP token earns veING, granting access to various protocol.   \n\n2. **Oracles:** Rate Provider for [inETH](https://etherscan.io/address/0x971b35225361535d04828f16442aaa54009efe1a). \n\n3. **Audits:** InceptionLRT undergoes security audits and checks to ensure the safety of user funds. Latest: https://docs.inceptionlrt.com/security/audit-reports.\n\n4. **Centralization vectors:** The InceptionLRT Litepaper introduced the vision for Inception as a decentralized system where independent node operators work to power the growth and development of Web3. Further detailed information may be found here: [EigenLayer - Inception iLRTs Docs](https://docs.inceptionlrt.com/introduction/eigenlayer#the-decentralization-factor-on-eigen-layer).\n\n5. **Market History:** No major volatility - [CoinGecko](https://www.coingecko.com/en/coins/inception-restaked-eth).\n \n6. **Value:** The pool is intended to be the primary source of liquidity for inETH on Arbitrum and allow for a healthy stimulation of volume.\n\nPool: https://app.balancer.fi/#/arbitrum/pool/0xb8cb384e65096386c1edaaf784e842c957fa3645000000000000000000000571\nChild Chain Gauge: https://arbiscan.io/address/0x2dEafe52b0bCb9801d3aaDc0D75c7879cB2E5825\nRoot Gauge: https://etherscan.io/address/0xE3A23a49128Aa55d0705E4F97ac4dc3149dFf729\n\n### Technical Specifications:\n\nTransaction: The Balancer Maxi LM Multisig eth:`0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function with the following arguments:\n\ngauge(address): `0xE3A23a49128Aa55d0705E4F97ac4dc3149dFf729`\n\ngaugeType(string): `Arbitrum`",
+        "end_utc": "2024-07-01T18:00:00Z",
+        "similarity_score": 0.4856,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2786590.425905919,
+            0,
+            0
+          ],
+          "scores_total": 2786590.425905919,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-07-01T18:00:00",
+          "pre_tvl_avg": 913278234.0,
+          "post_tvl_avg": 879765718.0,
+          "abnormal_change": -3.6695,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.036695,
+          "abnormal_change_pct": -3.6695
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-07-01T18:00:00",
+          "pre_price_avg": 2.9803697,
+          "post_price_avg": 2.53644062,
+          "abnormal_change": -14.8951,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.148951,
+          "abnormal_change_pct": -14.8951
+        }
+      }
+    },
+    {
+      "proposal_id": "0xdd96f9ec754d45cd86ef50f6810000fa08d83a283fef3aef0f66c218a95e8e01",
+      "cleaned": {
+        "proposal_id": "0xdd96f9ec754d45cd86ef50f6810000fa08d83a283fef3aef0f66c218a95e8e01",
+        "title": "[BIP-646] Enable Gauge for instETH/wstETH [Arbitrum]",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2024-07-01T18:00:00Z",
+        "similarity_score": 0.473,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2786590.4880676586,
+        "margin_pct": 1.0,
+        "scores_total": 2786590.4880676586,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 9,
+        "total_votes": 9,
+        "first_vote_at": "2024-06-28T06:24:13Z",
+        "last_vote_at": "2024-07-01T15:33:58Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1.4335867047390027,
+            0.0,
+            0.0
+          ],
+          [
+            1421.4311725196565,
+            0.0,
+            0.0
+          ],
+          [
+            266773.0355298559,
+            0.0,
+            0.0
+          ],
+          [
+            2518394.587778578,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.838869,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.161131,
+        "half_slope_diff": 7.802717
+      },
+      "raw": {
+        "id": "0xdd96f9ec754d45cd86ef50f6810000fa08d83a283fef3aef0f66c218a95e8e01",
+        "title": "[BIP-646] Enable Gauge for instETH/wstETH [Arbitrum]",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "PR With Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1109\n\n**Summary:**\n> This is a proposal on behalf of InceptionLRT to enable a gauge for instETH/wstETH on Arbitrum. instETH is the Restaking Token dedicated to stETH, obtained through InceptionLRT’s restaking mechanism and platform.\nInceptionLRT is an omnichain liquid restaking protocol offering both Native and Isolated restaking to users.\n**References/Useful links:**\n\n> Link to:\n    • Website: https://www.inceptionlrt.com/\n    • Documentation: https://docs.inceptionlrt.com/\n    • Github Page: [GitHub - inceptionlrt/smart-contracts: Smart contracts, vaults, tokens, and associated tests for the InceptionLRT project](https://github.com/inceptionlrt/smart-contracts/tree/master)\n    • Communities: x.com, Discord: [InceptionLRT](https://discord.com/invite/gBswunawAn)\n\n**Protocol Description:**\n\n> InceptionLRT is an omnichain liquid restaking protocol offering both Native and Isolated restaking to users.\nPowered by the Flash Unstake mechanism and supported by node operators with DVT Technology, InceptionLRT aims to become the most complete liquid restaking protocol in DeFi. The isolated architecture combined with the flash unstake feature solves the only drawback of isolated LRTs - liquidity fragmentation!\n\n**Motivation:**\n\n> InceptionLRT aims to enable a gauge for instETH/wstETH to substantially increase the liquidity of instETH, while supporting its utility and viability for integration into a range of DeFi protocols.\n\n**Specifications:**\n \n1. **Governance:** ING holders participate in decision-making, influencing the protocol’s direction and policies, including the Node Operators, AVSs and restaking strategies.\nIncentive Allocation: Through gauge weight voting, veING holders direct incentives and rewards towards preferred liquidity, impacting the protocol’s dynamics.\nRewards and Participation: Providing ING to liquidity pools like the 80-20 Balancer Liquidity Pools and locking the LP token earns veING, granting access to various protocol.\n\n2. **Oracles:** Rate Provider for [instETH](https://etherscan.io/address/0x57a5a0567187ff4a8dcc1a9bba86155e355878f2).\n\n3. **Audits:** InceptionLRT undergoes security audits and checks to ensure the safety of user funds. Latest: [Audit Reports | InceptionLRT Docs](https://docs.inceptionlrt.com/security/audit-reports).\n\n4. **Centralization vectors:** The InceptionLRT Litepaper introduced the vision for Inception as a decentralized system where independent node operators work to power the growth and development of Web3. Further detailed information may be found here: [EigenLayer - Inception iLRTs Docs](https://docs.inceptionlrt.com/introduction/eigenlayer#the-decentralization-factor-on-eigen-layer).\n\n5. **Market History:** 1. No major volatility - [CoinGecko](https://www.coingecko.com/en/coins/inception-steth).\n \n6. **Value:** The pool is intended to be the primary source of liquidity for instETH on Arbitrum and allow for a healthy stimulation of volume.\nChild Chain Gauge: [Vyper_contract | Address 0x2dEafe52b0bCb9801d3aaDc0D75c7879cB2E5825 | Arbiscan](https://arbiscan.io/address/0xb072496eEf1F88a2Bd1BA93F880c7ed685264EB1)\nRoot Gauge: [ArbitrumRootGauge | Address 0xE3A23a49128Aa55d0705E4F97ac4dc3149dFf729 | Etherscan](https://etherscan.io/address/0x82bc385C57447188de50Ba8237210cAaA43a0BB3)\n\n### Technical Specifications:\n\nTransaction: The Balancer Maxi LM Multisig eth:`0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function with the following arguments:\n\ngauge(address): `0x82bc385C57447188de50Ba8237210cAaA43a0BB3`\n\ngaugeType(string): `Arbitrum`",
+        "end_utc": "2024-07-01T18:00:00Z",
+        "similarity_score": 0.473,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2786590.4880676586,
+            0,
+            0
+          ],
+          "scores_total": 2786590.4880676586,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-07-01T18:00:00",
+          "pre_tvl_avg": 913278234.0,
+          "post_tvl_avg": 879765718.0,
+          "abnormal_change": -3.6695,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.036695,
+          "abnormal_change_pct": -3.6695
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-07-01T18:00:00",
+          "pre_price_avg": 2.9803697,
+          "post_price_avg": 2.53644062,
+          "abnormal_change": -14.8951,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.148951,
+          "abnormal_change_pct": -14.8951
+        }
+      }
+    },
+    {
+      "proposal_id": "0x587297bf1a75f30c9a93955d721c89cd41badc56e529f2443a9905eca11c6e9e",
+      "cleaned": {
+        "proposal_id": "0x587297bf1a75f30c9a93955d721c89cd41badc56e529f2443a9905eca11c6e9e",
+        "title": "[BIP-549] Enable Gauge for instETH/wstETH [Ethereum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2024-02-26T19:00:00Z",
+        "similarity_score": 0.4506,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3602443.83030731,
+        "margin_pct": 0.9999999207197576,
+        "scores_total": 3602444.1159099527,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 27,
+        "total_votes": 27,
+        "first_vote_at": "2024-02-22T20:08:33Z",
+        "last_vote_at": "2024-02-26T12:18:54Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            417978.7462888654,
+            0.0,
+            0.07196096188199985
+          ],
+          [
+            459.98879890621026,
+            0.0,
+            0.011594139037891847
+          ],
+          [
+            1444.38661125521,
+            0.0,
+            0.0
+          ],
+          [
+            3182560.9106558245,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.793904,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.090456,
+        "half_slope_diff": -1.577424
+      },
+      "raw": {
+        "id": "0x587297bf1a75f30c9a93955d721c89cd41badc56e529f2443a9905eca11c6e9e",
+        "title": "[BIP-549] Enable Gauge for instETH/wstETH [Ethereum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\n\nhttps://github.com/BalancerMaxis/multisig-ops/pull/811\n\n**Summary:**\n> This is a proposal on behalf of InceptionLRT to enable a gauge for instETH/wstETH on Ethereum. instETH is the Restaked Token dedicated to stETH, obtained through InceptionLRT's restaking mechanism and platform. \nInceptionLRT is an isolated Liquid Restaking protocol for Liquid Staking Tokens (LSTs), enabling the restaking of various LSTs with the initial focus on stETH and rETH. Its core feature is the issuance of Isolated Liquid Restaking Tokens (iLRTs) for each restaked LST. \n\n**References/Useful links:**\n\n> Link to:\n    • Website: https://www.inceptionlrt.com/\n    • Documentation: https://docs.inceptionlrt.com/\n    • Github Page: https://github.com/inceptionlrt/smart-contracts/tree/master\n    • Communities: https://twitter.com/InceptionLRT, Discord: https://discord.com/invite/gBswunawAn\n\n**Protocol Description:**\n\n> InceptionLRT is an isolated Liquid Restaking protocol for Liquid Staking Tokens (LSTs), enabling the restaking of various LSTs with the initial focus on stETH and rETH. Its core feature is the issuance of Isolated Liquid Restaking Tokens (iLRTs) for each restaked LST. \nThese iLRTs can be freely traded and used in other DeFi protocols while maintaining segregation from the underlying LSTs. This architecture addresses potential risks associated with basket-based LRTs like increased complexity, counterparty risk, and often unclear pool rebalancing rules.\nInceptionLRT is specifically designed to bolster the EigenLayer framework by addressing a critical challenge: the issue of liquidity locking in the protocol. This advancement positions InceptionLRT as a key player in enhancing the fluidity and accessibility of restaking in the DeFi landscape.\n\n\n**Motivation:**\n\n> InceptionLRT aims to enable a gauge for instETH/wstETH to substantially increase the liquidity of instETH, while supporting its utility and viability for integration into a range of DeFi protocols.\n\n**Specifications:**\n \n>1. **Governance:** ING holders participate in decision-making, influencing the protocol’s direction and policies, including the Node Operators, AVSs and restaking strategies.\nIncentive Allocation: Through gauge weight voting, veING holders direct incentives and rewards towards preferred liquidity, impacting the protocol's dynamics.\nRewards and Participation: Providing ING to liquidity pools like the 80-20 Balancer Liquidity Pools and locking the LP token earns veING, granting access to various protocol.\n>2. **Oracles:** Rate Provider for [instETH](https://etherscan.io/address/0x343281bb5029c4b698fe736d800115ac64d5de39#readContract).\n>3. **Audits:** InceptionLRT undergoes security audits and checks to ensure the safety of user funds. Latest by Veridise: [Audit](https://549839982-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FH5cQR703CA1JD1dlB1kD%2Fuploads%2Fnb7LLR0qt6qsNbvhex8f%2Fveridise-inceptionlrt-12-jan-2024.pdf?alt=media&token=d08d44bc-6bc6-409a-886b-294599a96e12)\n>4. **Centralization vectors:** The InceptionLRT Litepaper introduced the vision for Inception as a decentralized system where independent node operators work to power the growth and development of Web3. Further detailed information may be found here: https://docs.inceptionlrt.com/introduction/eigenlayer#the-decentralization-factor-on-eigen-layer.\n>5. **Market History:** No major volatility - [CoinGecko](https://www.coingecko.com/en/coins/inception-restaked-steth).\n >6. **Value:**  The pool is intended to be the primary source of liquidity for instETH on Ethereum and allow for a healthy stimulation of volume.\n\nPool: [0xe3e0022d25194431a98e8bf5034d2617c96e1d44](https://app.balancer.fi/#/ethereum/pool/0xe3e0022d25194431a98e8bf5034d2617c96e1d44000000000000000000000670) \nGauge: [0xCDA1B6704B108dF230d2a36da4C088C6afd6f335](https://etherscan.io/address/0xCDA1B6704B108dF230d2a36da4C088C6afd6f335)\n\nTransaction: The Balancer Maxi LM Multisig `eth:0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the `addGauge` function with the following arguments:\n\ngauge(address): `0xCDA1B6704B108dF230d2a36da4C088C6afd6f335`\n\ngaugeType(string): `Ethereum`",
+        "end_utc": "2024-02-26T19:00:00Z",
+        "similarity_score": 0.4506,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3602443.9434855212,
+            0.059246220223491776,
+            0.1131782110316376
+          ],
+          "scores_total": 3602444.1159099527,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-02-26T19:00:00",
+          "pre_tvl_avg": 1159529033.0,
+          "post_tvl_avg": 1289433839.5,
+          "abnormal_change": 11.2032,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.112032,
+          "abnormal_change_pct": 11.2032
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-02-26T19:00:00",
+          "pre_price_avg": 4.695090895,
+          "post_price_avg": 4.994378565,
+          "abnormal_change": 6.3745,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.063745,
+          "abnormal_change_pct": 6.3745
+        }
+      }
+    },
+    {
+      "proposal_id": "0x41dfd6f9c5088fd8a1cfe06459bc079c89800feb0ad1d14daddf443d41f81afc",
+      "cleaned": {
+        "proposal_id": "0x41dfd6f9c5088fd8a1cfe06459bc079c89800feb0ad1d14daddf443d41f81afc",
+        "title": "[BIP-605] Enable Gauge for inankrETH/ankrETH [Ethereum] ",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "end_utc": "2024-05-13T18:00:00Z",
+        "similarity_score": 0.4421,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2701384.615068657,
+        "margin_pct": 0.9999999480824892,
+        "scores_total": 2701384.755317829,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 15,
+        "total_votes": 15,
+        "first_vote_at": "2024-05-10T07:48:36Z",
+        "last_vote_at": "2024-05-13T10:29:39Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.3061206129169728,
+            0.0,
+            0.0
+          ],
+          [
+            1089.4193725781886,
+            0.0,
+            0.10518687867979737
+          ],
+          [
+            318287.22076694487,
+            0.0,
+            0.0
+          ],
+          [
+            2382007.7038708148,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.881773,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.118227,
+        "half_slope_diff": 55.794611
+      },
+      "raw": {
+        "id": "0x41dfd6f9c5088fd8a1cfe06459bc079c89800feb0ad1d14daddf443d41f81afc",
+        "title": "[BIP-605] Enable Gauge for inankrETH/ankrETH [Ethereum] ",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "body": "Payload with PR\n\nhttps://github.com/BalancerMaxis/multisig-ops/pull/959\n\nSummary:\n\nThis is a proposal on behalf of InceptionLRT to enable a gauge for inankrETH/ankrETH on Ethereum. inankrETH is the Restaked Token dedicated to ankrETH, obtained through InceptionLRT’s restaking mechanism and platform.\nInceptionLRT is an isolated Liquid Restaking protocol for Liquid Staking Tokens (LSTs), enabling the restaking of various LSTs. Its core feature is the issuance of Isolated Liquid Restaking Tokens (iLRTs) for each restaked LST.\n\nReferences/Useful links:\n\nLink to:\n• Website: https://www.inceptionlrt.com/ 1\n• Documentation: https://docs.inceptionlrt.com/\n• Github Page: GitHub - inceptionlrt/smart-contracts: Smart contracts, vaults, tokens, and associated tests for the InceptionLRT project\n• Communities: https://twitter.com/InceptionLRT, Discord: InceptionLRT\n\nProtocol Description:\n\nInceptionLRT is an isolated Liquid Restaking protocol for Liquid Staking Tokens (LSTs), enabling the restaking of various LSTs. Its core feature is the issuance of Isolated Liquid Restaking Tokens (iLRTs) for each restaked LST.\nThese iLRTs can be freely traded and used in other DeFi protocols while maintaining segregation from the underlying LSTs. This architecture addresses potential risks associated with basket-based LRTs like increased complexity, counterparty risk, and often unclear pool rebalancing rules.\nInceptionLRT is specifically designed to bolster the EigenLayer framework by addressing a critical challenge: the issue of liquidity locking in the protocol. This advancement positions InceptionLRT as a key player in enhancing the fluidity and accessibility of restaking in the DeFi landscape.\n\nMotivation:\n\nInceptionLRT aims to enable a gauge for inankrETH/ankrETH to substantially increase the liquidity of inankrETH, while supporting its utility and viability for integration into a range of DeFi protocols.\n\nSpecifications:\n\nGovernance: ING holders participate in decision-making, influencing the protocol’s direction and policies, including the Node Operators, AVSs and restaking strategies.\nIncentive Allocation: Through gauge weight voting, veING holders direct incentives and rewards towards preferred liquidity, impacting the protocol’s dynamics.\nRewards and Participation: Providing ING to liquidity pools like the 80-20 Balancer Liquidity Pools and locking the LP token earns veING, granting access to various protocol.\n\nOracles: Rate Provider for inankrETH 1. Rate provider review deemed SAFE.\n\nAudits: InceptionLRT undergoes security audits and checks to ensure the safety of user funds. Latest by Veridise: Audit\n\nCentralization vectors: The InceptionLRT Litepaper introduced the vision for Inception as a decentralized system where independent node operators work to power the growth and development of Web3. Further detailed information may be found here: EigenLayer - Inception iLRTs Docs.\n\nMarket History: No major volatility - CoinGecko.\n\nValue: The pool is intended to be the primary source of liquidity for inankrETH on Ethereum and allow for a healthy stimulation of volume.\n\nPool: Balancer\n\nGauge: Vyper_contract | Address 0xCC9723faDed81a9448a9664c39C0Df2e77FDfA2E | Etherscan\n\nSpecification:\nThe Balancer Maxi LM Multisig eth:0xc38c5f97B34E175FFd35407fc91a937300E33860 will interact with the GaugeAdderv4 at 0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd and call the addGauge function with the following arguments:\n\ngauge(address): 0xCC9723faDed81a9448a9664c39C0Df2e77FDfA2E\ngaugeType(string): Ethereum",
+        "end_utc": "2024-05-13T18:00:00Z",
+        "similarity_score": 0.4421,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2701384.667662096,
+            0.03506229289326578,
+            0.05259343933989869
+          ],
+          "scores_total": 2701384.755317829,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-05-13T18:00:00",
+          "pre_tvl_avg": 986641419.0,
+          "post_tvl_avg": 984722273.5,
+          "abnormal_change": -0.1945,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.001945,
+          "abnormal_change_pct": -0.1945
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-05-13T18:00:00",
+          "pre_price_avg": 3.399454845,
+          "post_price_avg": 3.46075222,
+          "abnormal_change": 1.8032,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.018032,
+          "abnormal_change_pct": 1.8032
+        }
+      }
+    },
+    {
+      "proposal_id": "0x7556b8f9d3b909840501c7a3e4c88f95f0946cf67b79379938ab4353c0d9982d",
+      "cleaned": {
+        "proposal_id": "0x7556b8f9d3b909840501c7a3e4c88f95f0946cf67b79379938ab4353c0d9982d",
+        "title": "[BIP-671] Enable Gauge for inETH/wstETH [Optimism]",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2024-08-12T18:00:00Z",
+        "similarity_score": 0.3138,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2543650.650498337,
+        "margin_pct": 0.9995178186677057,
+        "scores_total": 2544877.7430390017,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 8,
+        "total_votes": 8,
+        "first_vote_at": "2024-08-09T12:16:57Z",
+        "last_vote_at": "2024-08-12T08:38:49Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.8267871945035494,
+            0.0,
+            0.0
+          ],
+          [
+            1245.6586788502727,
+            0.0,
+            0.0
+          ],
+          [
+            223651.16266098077,
+            0.0,
+            613.5462703320704
+          ],
+          [
+            2319366.548641644,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.911606,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.088394,
+        "half_slope_diff": 16.204445
+      },
+      "raw": {
+        "id": "0x7556b8f9d3b909840501c7a3e4c88f95f0946cf67b79379938ab4353c0d9982d",
+        "title": "[BIP-671] Enable Gauge for inETH/wstETH [Optimism]",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1225\n\n**Summary:**\n\nThis is a proposal to enable uncapped Balancer gauge for inETH/wstETH pool on Optimism.\n\n**References/Useful links:**\n\n• Website: https://www.inceptionlrt.com/\n\n• Documentation: https://docs.inceptionlrt.com/\n\n• Github Page: https://github.com/inceptionlrt/smart-contracts/tree/master\n\n• Twitter: https://x.com/InceptionLRT\n\n**Protocol Description:**\n\nInceptionLRT is an omnichain liquid restaking protocol offering both Native and Isolated restaking to users. Powered by the Flash Unstake mechanism and supported by node operators with DVT Technology, InceptionLRT aims to become the most complete liquid restaking protocol in DeFi. The isolated architecture combined with the flash unstake feature solves the only drawback of isolated LRTs - liquidity fragmentation! inETH is the native LRT that users get by depositing ETH.\n\nstETH is a rebase token by Lido that also represents staked ether but instead of the exchange rate accumulation method, the staking rewards are given as extra stETH. Effectively, stETH always stays pegged 1:1 with ETH and stETH token balances are updated when the oracle reports the change in the total (initial deposit + staking rewards) every day. wstETH is the wrapped version of regular stETH which allows for stETH accumulation in the contract and turns the rebase model of stETH into the C-token model of other LSTs.\n\n**Motivation:**\n\nSubstantially increase the liquidity of inETH on Optimism.\n\n**Specifications:**\n\n1. **Governance:** ING holders participate in decision-making, influencing the protocol’s direction and policies, including the Node Operators, AVSs and restaking strategies.\n\nIncentive Allocation:\n\n2. **Oracles:**\n\n[inETH rate provider](https://optimistic.etherscan.io/address/0x210ABdFD989f3eE5C08614a8f4e096Cf8408f5DF)\n\n[wstETH rate provider](https://optimistic.etherscan.io/address/0xef42D000a3e85C4e71C57e2C6A1E600e86f5a91B)\n\n3. **Audits:**\n\nInceptionLRT undergoes security audits and checks to ensure the safety of user funds. Latest: https://docs.inceptionlrt.com/security/audit-reports\n\n4. **Centralization vectors:**\n\nThe InceptionLRT Litepaper introduced the vision for Inception as a decentralized system where independent node operators work to power the growth and development of Web3.\n\n5. **Market History:**\n\nMarket history and protocol information can be found here: https://www.coingecko.com/en/coins/inception-restaked-eth\n\n6. **Value:**\n\nThe pool is intended to be a major source of liquidity for inETH on Optimism and allow for a healthy stimulation of volume.\n\n**Contracts:**\n\n[inETH contract](https://optimistic.etherscan.io/address/0x5A7a183B6B44Dc4EC2E3d2eF43F98C5152b1d76d)\n\n[inETH rate provider](https://optimistic.etherscan.io/address/0x210ABdFD989f3eE5C08614a8f4e096Cf8408f5DF)\n\n[wstETH contract](https://optimistic.etherscan.io/address/0x1f32b1c2345538c0c6f582fcb022739c4a194ebb)\n\n[wstETH rate provider](https://optimistic.etherscan.io/address/0x9aa3cd420f830E049e2b223D0b07D8c809C94d15)\n\n[Pool link](https://op.beets.fi/pool/0x0ccb0c34d4898dfa8de3ece9d814074e60adefd0000000000000000000000142)\n\n[Pool contract](https://optimistic.etherscan.io/address/0x0ccb0c34d4898dfa8de3ece9d814074e60adefd0)\n\n[Child gauge on Optimism](https://optimistic.etherscan.io/address/0x476F2DedF358eB87c4C22DFaf5e511f68e0272e0)\n\n[Root gauge on Ethereum](https://etherscan.io/address/0x24E9A49Ffd2B2189940E802e62f318382fAB395c)\n\n**Specification:**\n\nThe Balancer Maxi LM Multisig `eth:0xc38c5f97B34E175FFd35407fc91a937300E33860`\nwill interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function with the following arguments:\ngauge(address): `0x24E9A49Ffd2B2189940E802e62f318382fAB395c`\ngaugeType(string): `Optimism`",
+        "end_utc": "2024-08-12T18:00:00Z",
+        "similarity_score": 0.3138,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2544264.1967686694,
+            0,
+            613.5462703320705
+          ],
+          "scores_total": 2544877.7430390017,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-08-12T18:00:00",
+          "pre_tvl_avg": 684397144.5,
+          "post_tvl_avg": 707123854.0,
+          "abnormal_change": 3.3207,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.033207,
+          "abnormal_change_pct": 3.3207
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-08-12T18:00:00",
+          "pre_price_avg": 1.9008912900000001,
+          "post_price_avg": 1.902855425,
+          "abnormal_change": 0.1033,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.001033,
+          "abnormal_change_pct": 0.1033
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x9fd7f06b0e8a0f08be948fdd5a13b89bcdf95a09dc673800ed59074a4da3b983",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "Proposal to enable a gauge for inwstETHs/WETH on Ethereum to increase liquidity and support integration with DeFi protocols.",
+    "key_arguments_for": [
+      "InceptionLRT aims to substantially increase liquidity of inwstETHs, supporting its utility and integration into protocols like Morpho, Compound, and Gearbox.",
+      "Governance and incentives via veING holders ensure aligned decision-making and reward participation.",
+      "The pool will be the primary source of liquidity for inwstETHs on Ethereum, stimulating volume healthily.",
+      "Timeline analysis shows unanimous early and stable support for the proposal."
+    ],
+    "key_arguments_against": [
+      "No significant negative sentiment or arguments were detected in forum discussions prior to proposal end.",
+      "Market impacts currently show a slight negative price and TVL change, but these are not considered in the recommendation."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.balancer.fi/t/bip-779-enable-gauge-for-inwsteths-weth-ethereum/6351",
+        "quote": "Neutral sentiment in the two forum comments; first comment detailed proposal purpose and specifications; second comment linked to Snapshot proposal."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": null,
+        "quote": "Timeline metrics indicate early, stable, and unanimous voting support for 'Yes, let's do it' option."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-02-13T19:00:00Z",
+    "event_end_utc": "2025-02-17T19:00:00Z",
+    "event_time_utc": "2025-02-17T19:00:00Z",
+    "address_of_governance_token": "0xba100000625a3754423978a60c9317c58a424e3d",
+    "token_price_impact_pct": -1.9131,
+    "tvl_impact_pct": -1.1317,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        2902408.895243419,
+        0.0,
+        0.0
+      ],
+      "scores_total": 2902408.895243419,
+      "margin_abs": 2902408.895243419,
+      "margin_pct": 1.0
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- The voting timeline shows unanimous and early support for enabling the gauge, indicating clear community backing.\n- Forum discussion sentiment is neutral but informative, providing clear rationale without opposition, aligning with the 'Yes' vote.\n- Historical similar proposals with 'Yes' outcomes showed positive market reactions and successful integration, supporting adoption here.\n- Slight negative price and TVL changes post-vote are noted but do not outweigh the benefits of increased liquidity and protocol integration.\n- The recommendation aligns well with aggregated sentiment, reinforcing the community's preference for change.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x101ed27e3f033b5704971cf17ef0c4370099cee9316967e88d7e0c9632f6abb1",
+        "title": "[BIP-773] Enable Gauge for dvstETH wstETH [Ethereum]",
+        "end_utc": "2025-02-10T19:00:00Z",
+        "summary": "[BIP-773] Enable Gauge for dvstETH wstETH [Ethereum] closed on 2025-02-10T19:00:00Z. Timeline analytics noted 4 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.16)",
+        "market_response": "token +4.89%; TVL -2.24%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0x065351bbfa19f5b4b3b8cb2d732a9809adeee6e424c9ede6815854a0dab9caeb",
+        "title": "[BIP-772] Enable Boosted GHO/PYUSD on Balancer v3",
+        "end_utc": "2025-02-03T19:00:00Z",
+        "summary": "[BIP-772] Enable Boosted GHO/PYUSD on Balancer v3 closed on 2025-02-03T19:00:00Z. Timeline analytics noted 6 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.09)",
+        "market_response": "token -13.29%; TVL -14.00%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -1.9131,
+    "ex_post_tvl_impact_pct": -1.1317,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -1.91%; TVL -1.13%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 0,
+    "Positive": 0,
+    "Neutral": 2,
+    "total_comments": 2
+  }
+}

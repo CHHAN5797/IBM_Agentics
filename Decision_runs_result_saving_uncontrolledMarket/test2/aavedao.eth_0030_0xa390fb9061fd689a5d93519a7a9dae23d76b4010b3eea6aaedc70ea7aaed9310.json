@@ -1,0 +1,941 @@
+{
+  "captured_at_utc": "2025-10-02T23:18:37.329101+00:00",
+  "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0xa390fb9061fd689a5d93519a7a9dae23d76b4010b3eea6aaedc70ea7aaed9310",
+  "focus": null,
+  "votes_count": 190,
+  "timeline_metrics_current": {
+    "unique_voters": 190,
+    "total_votes": 190,
+    "first_vote_at": "2025-06-20T19:50:19Z",
+    "last_vote_at": "2025-06-23T16:31:58Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        333769.07659939415,
+        2028.8428725310107,
+        154.25879734849343
+      ],
+      [
+        39614.9431730776,
+        2.9514419285649e-05,
+        8.5959088699983e-05
+      ],
+      [
+        42025.63105883654,
+        9999.9999,
+        0.0
+      ],
+      [
+        67671.93826630594,
+        1.4990060586936103,
+        0.0
+      ]
+    ],
+    "spike_index": 0.596085,
+    "spike_follow_support_ratio": 0.971284,
+    "stairwise_ratio": 3.9e-05,
+    "half_slope_diff": 0.82238
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x4dfc398fabb63305900572dff38b2ff8e104b0710077f6b7e48049de173d186b",
+      "title": "[ARFC] Base Incentive Campaign Funding",
+      "author": "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1",
+      "end_utc": "2025-05-23T07:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 230,
+        "total_votes": 230,
+        "first_vote_at": "2025-05-20T07:06:43Z",
+        "last_vote_at": "2025-05-23T06:34:59Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.626168,
+            0.373832,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.8260869565217391,
+          0.17391304347826086,
+          0.0
+        ],
+        "stability": [
+          0.8260869565217391,
+          0.17391304347826086,
+          0.0
+        ],
+        "early_ratio": [
+          0.6261682242990654,
+          0.37383177570093457,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            412306.7689430956,
+            2.8959781433588785,
+            0.012340170186175671
+          ],
+          [
+            68232.91815467032,
+            2103.488097400914,
+            1.3297895440665e-05
+          ],
+          [
+            126083.0300716226,
+            0.0,
+            0.0
+          ],
+          [
+            10003.695621946154,
+            0.03410373198466916,
+            0.118002
+          ]
+        ],
+        "spike_index": 0.474147,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 4.2e-05,
+        "half_slope_diff": -14.095112
+      },
+      "price_impact_pct": 3.5043,
+      "tvl_impact_pct": 0.9096,
+      "similarity": 0.2234,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "For",
+        "margin_abs": 614519.9946120584,
+        "scores_total": 618732.9613260786,
+        "margin_pct": 0.9931909774048712
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x7b59c555f5a51a3377b1aee0f5f21fc205958f1388926efb94172644bacfa1d6",
+      "cleaned": {
+        "proposal_id": "0x7b59c555f5a51a3377b1aee0f5f21fc205958f1388926efb94172644bacfa1d6",
+        "title": "[ARFC] Aave Liquidity Committee Funding Phase IV",
+        "author": "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1",
+        "end_utc": "2024-10-04T13:47:14Z",
+        "similarity_score": 0.2217,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 752144.5178030216,
+        "margin_pct": 0.9999969268633471,
+        "scores_total": 752146.8292530109,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 217,
+        "total_votes": 217,
+        "first_vote_at": "2024-10-01T14:02:28Z",
+        "last_vote_at": "2024-10-04T13:19:51Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            222319.92430185186,
+            0.06630016657230506,
+            0.00022849497568498
+          ],
+          [
+            109036.12331869637,
+            0.0,
+            0.012163108286937254
+          ],
+          [
+            288464.41312464396,
+            0.0,
+            1.10993764541945
+          ],
+          [
+            132325.17938707836,
+            0.000491325445739851,
+            0.0
+          ]
+        ],
+        "spike_index": 0.379508,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 4.6e-05,
+        "half_slope_diff": 181.189704
+      },
+      "raw": {
+        "id": "0x7b59c555f5a51a3377b1aee0f5f21fc205958f1388926efb94172644bacfa1d6",
+        "title": "[ARFC] Aave Liquidity Committee Funding Phase IV",
+        "author": "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1",
+        "body": "---\n\nTitle: [ARFC] Aave Liquidity Committee Funding Phase IV\nAuthor: @karpatkey_TokenLogic\nCreated: 2024-09-25\n\n---\n\n# Summary\n\nThis publication presents the Aave Liquidity Committee (ALC) Phase IV request. \n\n# Phase III Update\n\n## Ethereum\n\nDuring the previous phase of the ALC, GHO's peg has been resilent and more recently, has been trading above peg due to demand for stkGHO. A 5M GHO swap resulting in a low quoted price impact.\n\n![Screenshot 2024-09-25 at 16.31.13](https://hackmd.io/_uploads/Skw0hibAA.png)\n\nOverall, TVL is sitting around $45M with the amount of GHO allocated to DEXes being approximately 10M. These numbers don't account for GHO Stability Modules (GSM) totaling 16M across USDC and USDT. \n\n![Screenshot 2024-09-22 at 13.32.20](https://hackmd.io/_uploads/HJXwCYaTR.png)\n\nThe Tricrypto pool on Curve and 80/20 wstETH/GHO pool on Balancer have seen inflows in response coordinating liquidity and boosting rewards to those pools. By workingly closely with various fund managers, we have been able to achieve significant deposit growth over the last month. \n\nWith perp funding rates drifting lower, the cost of capital has also drifted lower from 17.5% to around 10-12%. In general, providing DEX liquidity has become more attraction from a capital allocation perspective. However, stkGHO remains the more attractive investment and we consistently receive this feedback from various fund managers across the industry.\n\n![Screenshot 2024-09-22 at 13.52.38](https://hackmd.io/_uploads/Bkc7X56aA.png)\n\nOn Ethereum, the more battle tested pools like [Balancer's GHO/USDC/USDT 3pool](https://balancer.fi/pools/ethereum/v2/0x8353157092ed8be69a9df8f95af097bbf33cb2af0000000000000000000005d9) have had good success with attracting liquidity relative to the newer [ECLPs by Gyroscope](https://app.gyro.finance/pools/ethereum/). On Arbitrum, with a more retail LP user base, the reverse appears to be true. \n\nMore generally, this is leading to a re-think of how we approach ECLPs in general with Maverick proving to be more effective and responsive as a peg defense tool on Ethereum with over 6M of liquidity.\n\nThe [Notional Finance](https://www.notional.finance/vaults/mainnet/0xeeb885af7c8075aa3b93e2f95e1c0bd51c758f91/CreateVaultPosition?borrowOption=0x00000000eeb885af7c8075aa3b93e2f95e1c0bd51c758f910003ffffffffff0a) integration provides a large portion of the 3pool liquidity on Balancer by offering users the ability to leverage farm the incentives to amplify the returns. Leveraging the BPT postion on Aura Finance, has proven an effective tool to help support the peg.\n\nThe below provides an overview of GHO's current liquidity incentive distribution on Ethereum:\n\n![Screenshot 2024-09-22 at 13.26.19](https://hackmd.io/_uploads/r1jepF6pA.png)\n\n\n## Arbitrum\n\nGHO's growth on Arbitrum has been slower than intended due to lack of volume through the bridge. \n\nThere is no native supply on Aave and transferring GHO to Arbitrum for yield is directly competing with stkGHO and liquidity provisioning on Ethereum. Borrowing GHO on Ethereum to provide liquidity on Arbitrum requires extra steps and generates similar returns. Of the GHO that was coordinated through the bridge, a large portion has been swapped out of DEX liquidity pools and now resides on Aave. The ability to arbitrum GHO's price between networks becomes more practical with growing supply on both networks.\n\nThe above has influenced in GHO consistently trading above $1.00, with a 5M swap resulting in a higher price impact (above 50%). The TVL in GHO pools in Arbitrum is $5.7M, with GHO representing about $1.2M.\n\n# Phase IV Lookahead\n\n## Ethereum\n\nIn the near future we expect GHO to be listed on InstadApp with several curated vaults providing additional utility and yield opportunites that use GHO.\n\nA sUSDS/GHO strategy vault is expected to launch on Contango with support from the Contango team. Early stage discussions with prospective investors is promising.\n\nWe also expect GHO to feature in the upcoming Royco launch with the intent to drive flows into several yield strategies across Ethereum and Arbitrum.\n\nAchieving 50M of DEX liquidity on Ethereum across various integrations remains a key focus. Whilst we are yet to acheive this target, we are currently very well positioned for current market conditions. \n\nThe 80/20 wstETH/GHO pool on Balancer and GHO/wBTC/wstETH pool on Curve are to be consolidated into GHO/tBTC/wETH pool. This is expected to reduce cost and offer better swap routings.\n\nIn the near future, we expect further joint collaborations between Paxos, Balancer and the ALC resulting in a new liquidity pool and acheiving the 50M TVL target. Looking beyond this, there will be an increasing focus on integrations that create utility for GHO.\n\nWith GHO surpassing 150M circulating supply and approaching 50M in DEX liquidity, we expect potential opportunities for the ALC to support GHO listing on centralised exchanges. \n\nWhen accounting for the above, the proposed quarterly budget for the Ethereum ecosystem is 650,000 GHO.\n\n## Arbitrum\n\nTo boost GHO supply on Arbitrum, the September Finance update proposes transferring 5M GHO from the Treasury on Ethereum to Aave v3 on Arbitrum. This is substantially increase the GHO supply on the network.\n\nIn the near future, we expect GHO to be listed on Synthetixs v3 with under-utilised liquidity deposited into Aave v3 to earn yield.\n\nA USDe/aGHO ECLP is to launch soon with x30 Sats with support from the ALC. \n\nThe ALC's focus on Arbitrum is shifting towards creating utility and demand sinks for GHO as DEX liquidity is well positioned to support the peg. \n\nThe previous ARB budget for GHO liquidity on Arbitrum was 375,000 ARB over 3 months. This is equivalent to around $200,000 at spot prices. With the expected GHO listing on Synthetix in the near future, the overal Arbitrum budget is to replace existing liquidity spending and also focus on the broader adoption of GHO within the ecosystem.\n\nThe quarterly budget for the Arbitrum ecosystem is 300,000 GHO. \n\n## Performance Metrics\n\nThe below details some high-level GHO metrics:\n\n| Description | Ethereum Value | Arbitrum Value |\n| --------  | :--------:  | :--------:  |\n| TVL DEX Liquidity Pools | 50M | 30M |\n| TVL Utility Liquidity Pools (Excl. stkGHO)  | 15M  | 10M |\n| DEX Liquidity Composition | < 50% GHO (< 33% for 3pools)  | < 50% GHO (< 33% for 3pools)  |\n| Swap Price Impact $5M Swap (GHO to USDC) | < 0.10%  | < 0.25%  |\n| Annualised Peg Volatility | < 5.00%  | < 5.00%  |\n| Price level for >90% time | $0.995 using [Redstone Medium Price](https://app.redstone.finance/#/app/token/GHO)  | $0.995 using [Redstone Medium Price](https://app.redstone.finance/#/app/token/GHO) |\n\nPlease note, each of the above targets has external dependencies beyond the control of the ALC. The above table serves as a North Star for the ALC to strive towards over the next three months. Having measurable targets provides a clear direction and goal to achieve.\n\n# Specification\n\nCreate an Allowance for GHO on Ethereum for a total of 950,000 GHO.\n\nALC Ethereum SAFE: `0xA1c93D2687f7014Aaf588c764E3Ce80aF016229b`\n\n# Disclosure\n\nTokenLogic and karpatkey receive no payment for this proposal. TokenLogic and karpatkey are both delegates within the Aave community.\n\n# Next Steps\n\n1. Gather feedback from the community.\n2. If consensus is reached on this ARFC, escalate this proposal to the Snapshot stage.\n3. If Snapshot outcome is YAE, an AIP will implement this proposal.\n\n# Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+        "end_utc": "2024-10-04T13:47:14Z",
+        "similarity_score": 0.2217,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "NAY",
+            "ABSTAIN"
+          ],
+          "scores": [
+            752145.6401322703,
+            0.0667914920180449,
+            1.1223292486820722
+          ],
+          "scores_total": 752146.8292530109,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2024-10-04T13:47:14",
+          "pre_tvl_avg": 11879235582.5,
+          "post_tvl_avg": 11949524649.0,
+          "abnormal_change": 0.5917,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.005917,
+          "abnormal_change_pct": 0.5917
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2024-10-04T13:47:14",
+          "pre_price_avg": 141.33754211500002,
+          "post_price_avg": 148.4252625,
+          "abnormal_change": 5.0147,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.050147,
+          "abnormal_change_pct": 5.0147
+        }
+      }
+    },
+    {
+      "proposal_id": "0x2af009587f8c624f798ec36e20572a69be7fc6321882b1ba19143da29d45f1ac",
+      "cleaned": {
+        "proposal_id": "0x2af009587f8c624f798ec36e20572a69be7fc6321882b1ba19143da29d45f1ac",
+        "title": "[ARFC] Aave Liquidity Committee Funding Phase VI",
+        "author": "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1",
+        "end_utc": "2025-04-12T06:00:00Z",
+        "similarity_score": 0.2208,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 566678.067274632,
+        "margin_pct": 0.9999996053992757,
+        "scores_total": 566678.2908862961,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 189,
+        "total_votes": 189,
+        "first_vote_at": "2025-04-09T06:00:25Z",
+        "last_vote_at": "2025-04-12T04:36:32Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            384951.0348319469,
+            0.0,
+            0.0
+          ],
+          [
+            54835.284194777894,
+            0.0,
+            0.012709128335363556
+          ],
+          [
+            124357.1746009258,
+            0.0,
+            0.09909670365399852
+          ],
+          [
+            2534.6854528140902,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.469489,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 4.8e-05,
+        "half_slope_diff": -8.724416
+      },
+      "raw": {
+        "id": "0x2af009587f8c624f798ec36e20572a69be7fc6321882b1ba19143da29d45f1ac",
+        "title": "[ARFC] Aave Liquidity Committee Funding Phase VI",
+        "author": "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1",
+        "body": "---\n\ntitle: [ARFC] Aave Liquidity Committee Funding Phase VI\nauthor: @TokenLogic\ncreated: 2025-04-03\n\n---\n\n# Summary\n\nThis publication presents the Aave Liquidity Committee (ALC) Phase VI Funding request. \n\n# Phase V Update\n\n## GHO Supply\n\nOver the course of the last quarter, the market dynamics surrounding GHO experienced a notable shift. As yield opportunities in the broader DeFi landscape became less attractive due to declining funding rates, users began redirecting their capital in search of alternative sources of return.\n\nGHO, particularly through its liquidity provision use cases, emerged as a compelling destination. This resurgence in interest was further reinforced by the reactivation and full replenishment of the GSMs, which had previously been nearly emptied. These modules went from holding negligible balances to over $28M in total during the period. \n\n![Screenshot 2025-04-03 at 20.01.51](https://hackmd.io/_uploads/BkpQj8ha1e.png)\n\n## Ethereum\n\n### DEX Liquidity\n\nOn Ethereum, GHO's peg has been resilient and consistent during Q1 of 2025 and the deeper DEX liquidity has enabled larger swap sizes to be processed with minimal price impact.\n\nWith perp funding rates and broader DeFi liquidity costs trending lower, Liquidity Provider (LPs) deposits across GHO DEX pools experienced significant growth, surpassing $85M. \n\n![Screenshot 2025-04-03 at 19.28.53](https://hackmd.io/_uploads/HJs_7Un6kl.png)\n\nIn addition, USDT volatility helped grow GSM TVL to over $28M, ensuring continuous, on-demand support for GHO's peg.\n\n![Screenshot 2025-04-03 at 19.37.44](https://hackmd.io/_uploads/rJUtSIh6yg.png)\n\n### Balancer v3\n\nGHO became the centrepiece asset within the new generation of Balancer pools, reflecting its growing systemic importance. On Ethereum, the primary GHO 3pool successfully migrated to the v3 boosted model, is approaching $30M in TVL.\n\nThe new Aave Boosted 3pool has exceeded the previous v2 pool’s performance, whilst also delivering superior capital efficiency and deeper liquidity provisioning. On Arbitrum liquidity was migrated from v2 to v3 liquidity and new v3 pools created on Base. \n\nOn Arbitrum and Base, these pools incorporated the new “surge” pricing mechanism, which dynamically increases swap fees as the pool diverges from the peg. This mechanism adds an additional layer of price defense, reinforcing the GHO's peg on L2s.\n\n![Screenshot 2025-04-03 at 19.43.34](https://hackmd.io/_uploads/HJQywLh6Jl.png)\n\n### Prime Instance\n\nAnother major milestone during Phase V was the introduction of the GHO and the Gho Mint facilitator on the Prime instance. This new market brought new multifaceted utility to GHO.\n\n- Created a structure in which GHO could be pre-minted and held by the DAO, providing operational flexibility and improving responsiveness to market demand.\n- Enables GHO to earn yield directly through variable-rate borrow mechanisms, enabling more capital-efficient stablecoin management.\n- Unlocked additional yield opportunities for Balancer v3 pools to deposit into, incentivizing further liquidity provisioning.\n\nLastly, the Prime instance permitted a portion of the GHO allowances allocated to service providers and ecosystem initiatives to be deposited into yield-bearing positions, improving overal capital efficiency of the assets held in the DAO's treasury.\n\n![Screenshot 2025-04-03 at 19.46.58](https://hackmd.io/_uploads/S1G3vI261g.png)\n\n### Fluid and Rings Integration\n\nFluid has been whitelisted to be the home of GHO from the backing of scUSD. It has grown to over 6M without incentive on Fluid directly with a very low acquisition cost due to a deposit campaign featuring Bungee to encourage GHO deposits in Rings.\n\nOver the coming weeks, Rings is expected to onboard Gearbox by Veda. As GHO deposits continue to grow, GHO liquidity is expected to be distributed across Fluid and Gearbox. \n\nReference: https://x.com/Token_Logic/status/1905352281027166589\n\n### PYUSD/GHO Liquidity\n\n7.5M liquidity was sourced for the PYUSD/GHO Balancer v3 liquidity pool.\n\n### Resolv Collaboration\n\nOne of the most innovative integrations of the quarter was GHO’s entry into the Resolv ecosystem. In collaboration with Resolv, the ALC deployed a campaign centred on the Curve GHO/USR LP token, and worked with both Pendle and Spectra to create yield markets enabling the ALC to receive a higher ROI on bribe spend, ~x2.2-2.4 multiplier compared to x1.1-1.3 directly on DEXs. \n\nThis was a great success knowing that no other asset of its kind had previously gained such traction in structured yield products. The campaign was enhanced by a one-month point-boost from Resolv, supplemented by strategic incentives from the ALC. The result was unprecedented: the initiative led to the formation of the largest GHO and USR liquidity pools, reaching up to $35 million in TVL.\n\n![Screenshot 2025-04-03 at 19.48.37](https://hackmd.io/_uploads/Sk_zuLhTJg.png)\n\n### Arbitrum\n\nDespite the broader success seen on Ethereum and Base, GHO’s growth on Arbitrum remains modest. The lack of meaningful traction can be attributed to delays in strategic integrations, most notably the anticipated collaboration with Synthetix, which ultimately opted to shift its primary focus and development efforts to the Base network. As a result, the GHO ecosystem on Arbitrum has yet to reach critical mass, although foundational infrastructure remains in place for future expansion.\n\n### Base\n\nPhase V also saw the deployment of GHO on Base, a move that has already begun to bear fruit. GHO’s main liquidity pool on Base, the Balancer v3 GHO/USDC pool, has surpassed $13.5 million in TVL within a relatively short period. This rapid growth reflects strong initial interest and suggests high potential for deeper integrations. One such opportunity lies in the upcoming collaboration with Synthetix, which is now in advanced planning stages with Odos soon to integrate the stataToken factory enabling the waBasGHO integration to advance with Synthetix. \n\n# Phase VI Lookahead\n\n## Ethereum\n\nGHO has already secured a strong presence on Ethereum, with integrations across a wide range of protocols. It is now actively used within lending protocols such as Gearbox and Fluid, offering users capital-efficient strategies centred on GHO. In the DEX landscape, GHO is supported across Balancer, Curve, Maverick, and Fluid, demonstrating its growing utility and liquidity footprint across various AMMs. \n\nGHO will remain at the front stage of Ethereum's DeFi, ALC members are actively looking for collaboration with promising projects at early stage to give access to interesting opportunities for GHO holders. The latest best example was the Resolv collaboration. This will continue during Phase VI as well.\n\n### L2s and Multichain Strategies\n\nA core priority for Phase VI will be the continued development of GHO’s multichain strategy, centered around the use of one facilitator on Ethereum, the use of the CCIP bridge, and the implementation of GSMs on destination chains. These Stability Modules will be pre-filled by the Ethereum facilitator, enabling native swaps into GHO on arrival chains and eliminating the need for inefficient bridging. \n\nThis architecture significantly enhances capital efficiency by allowing users to mint or swap GHO directly on their preferred chain. It also addresses one of the key friction points observed in Phase V, as bridging has proven to be a major brake on growth. By enabling native, trust-minimized GHO access across chains, the stataGSMs will remove barriers to adoption and improve user experience across ecosystems.\n\nThe modified stataGSM is currently in the last stages of review with @TokenLogic and @AaveLabs. \n\n### Sonic, Avalanche and Gnosis\n\nThree key chains are being targeted for GHO deployment in the near future: Sonic, Avalanche, and Gnosis. Each of these networks offers a unique opportunity to tailor GHO’s integration to the strengths of the local ecosystem.\n\nOn Sonic with @TokenLogic leading the deployment, the ALC plans to position GHO at the heart of one of the most innovative DeFi environments currently emerging. The goal is to create strong synergies with leading protocols such as Pendle, Rings, Beets, and Silo. Sonic offers a highly composable, fast-moving landscape where GHO can fit perfectly.\n\nOn Avalanche, with @AaveLabs leading the deployment, GHO will benefit from the support of the Avalanche Foundation, which is preparing to launch new incentive programs at the chain level. The ALC is working to ensure that GHO is a key participant in these initiatives. The playbook established with Balancer v3 on Ethereum may be replicated here, with additional attention to exploring synergies with Avalanche’s native stablecoin AUSD. This deployment will be focused on ecosystem-wide coordination.\n\nOn Gnosis, with @AaveLabs leading the deployment, the vision is centred on integrating GHO into the Gnosis Card ecosystem. The objective is to streamline both on- and off-ramping processes. The ALC will work closely with KPK and the Gnosis Foundation to facilitate this integration, creating a seamless user experience for payments, transfers, and financial access via GHO on Gnosis.\n\n## Performance Metrics\n\nThe below details some high-level GHO metrics:\n\n| Description | Ethereum | Arbitrum |Avalanche | Base |\n| --------  | :--------:  | :--------:  | :--------:  | :--------:  |\n| TVL DEX Liquidity Pools | 85M | 10M | 10M | 20M |\n| TVL Utility Liquidity Pools (Excl. stkGHO)  | 15M  | 5M | 5M | 5M|\n| DEX Liquidity Composition | < 50% GHO (< 33% for 3pools)  | < 50% GHO (< 33% for 3pools)  | < 50% GHO  (< 33% for 3pools) | < 50% GHO  (< 33% for 3pools) | \n| Swap Price Impact $5M Swap (GHO to USDC) | < 0.10%  | < 0.25%  | < 0.25%  | < 0.25%  |\n| Annualised Peg Volatility | < 5.00%  | < 5.00%  |< 5.00%  |< 5.00%  |\n| Price level for >90% time | $0.995  | $0.995 | $0.995 | $0.995 |\n\nPlease note, each of the above targets has external dependencies beyond the control of the ALC. The above table serves as a North Star for the ALC to strive towards over the next three months. Having measurable targets provides a clear direction and goal to achieve.\n\n# Specification\n\nCreate an Allowance enabling the ALC to withdraw GHO from the Prime instance for a total of 3,500,000 GHO.\n\nALC Ethereum SAFE: `0xA1c93D2687f7014Aaf588c764E3Ce80aF016229b`\n\n# Disclosure\n\nTokenLogic receives no payment for this proposal. \n\n# Next Steps\n\n1. Gather feedback from the community.\n2. If consensus is reached on this ARFC, escalate this proposal to the Snapshot stage.\n3. If Snapshot outcome is YAE, an AIP will implement this proposal.\n\n# Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+        "end_utc": "2025-04-12T06:00:00Z",
+        "similarity_score": 0.2208,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "NAY",
+            "ABSTAIN"
+          ],
+          "scores": [
+            566678.1790804641,
+            0,
+            0.11180583198936209
+          ],
+          "scores_total": 566678.2908862961,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2025-04-12T06:00:00",
+          "pre_tvl_avg": 17363843107.0,
+          "post_tvl_avg": 17769872467.5,
+          "abnormal_change": 2.3384,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.023384,
+          "abnormal_change_pct": 2.3384
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2025-04-12T06:00:00",
+          "pre_price_avg": 134.20415577,
+          "post_price_avg": 135.731289025,
+          "abnormal_change": 1.1379,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.011379,
+          "abnormal_change_pct": 1.1379
+        }
+      }
+    },
+    {
+      "proposal_id": "0x4dfc398fabb63305900572dff38b2ff8e104b0710077f6b7e48049de173d186b",
+      "cleaned": {
+        "proposal_id": "0x4dfc398fabb63305900572dff38b2ff8e104b0710077f6b7e48049de173d186b",
+        "title": "[ARFC] Base Incentive Campaign Funding",
+        "author": "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1",
+        "end_utc": "2025-05-23T07:00:00Z",
+        "similarity_score": 0.2189,
+        "winning_option": "For",
+        "winning_option_index": 0,
+        "margin_abs": 614519.9946120584,
+        "margin_pct": 0.9931909774048712,
+        "scores_total": 618732.9613260786,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 230,
+        "total_votes": 230,
+        "first_vote_at": "2025-05-20T07:06:43Z",
+        "last_vote_at": "2025-05-23T06:34:59Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.626168,
+            0.373832,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.8260869565217391,
+          0.17391304347826086,
+          0.0
+        ],
+        "stability": [
+          0.8260869565217391,
+          0.17391304347826086,
+          0.0
+        ],
+        "early_ratio": [
+          0.6261682242990654,
+          0.37383177570093457,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            412306.7689430956,
+            2.8959781433588785,
+            0.012340170186175671
+          ],
+          [
+            68232.91815467032,
+            2103.488097400914,
+            1.3297895440665e-05
+          ],
+          [
+            126083.0300716226,
+            0.0,
+            0.0
+          ],
+          [
+            10003.695621946154,
+            0.03410373198466916,
+            0.118002
+          ]
+        ],
+        "spike_index": 0.474147,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 4.2e-05,
+        "half_slope_diff": -14.095112
+      },
+      "raw": {
+        "id": "0x4dfc398fabb63305900572dff38b2ff8e104b0710077f6b7e48049de173d186b",
+        "title": "[ARFC] Base Incentive Campaign Funding",
+        "author": "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1",
+        "body": "---\n\ntitle: [ARFC] Base Incentive Campaign Funding \nauthor: @TokenLogic\ncreated: 2025-05-06\n\n---\n\n# Summary\n\nThis publication proposes launching a targeted incentive campaign to accelerate Aave's adoption and growing market share on the Base network. \n\n# Motivation\n\nDuring April variable Debt on Base has increased strongly on Aave Protocol from 337.9M to 377.9M, an 11.83% increase, meanwhile user deposits increased by only 3.92%. The growing demand for liquidity creates a competitive environment for both attracting user deposits and providing attractive funding rates.\n\nThe chart below highlights the improvement in demand for liquidity on the Base instance of Aave v3. The recent uptick in debt during April was only bettered by Avalanche and Ethereum v3 instances. Whilst Base continues to grow, Aave's positioning can be improved by capturing a large portion of the debt expansion in the coming months.\n\n![Screenshot 2025-05-03 at 00.05.54](https://hackmd.io/_uploads/S1-1gRzxgx.png)\n\nWith the use of incentives to create an improved deposit yield and lower cost of capital for borrowers, the resulting demand is expected to attract new liquidity deposits and new users seeking access to lower borrowing costs. Improving the value proposition for the end user is expected to strengthen Aave's positioning within the Base ecosystem. \n\n### Incentives Allocation\n\nWith the use of targeted incentives and enhanced capital efficiency, the expected returns are strengthen by only rewarding Aave aligned user actions. The MASiv incentive distribution platform provides the infrastructure needed to reward users who migrate liquidity to Aave Protocol whilst also recognising the loyalty of existing users.\n\nThe table below outlines the initial rewards to be distributed to eligible users of Aave Protocol. The core component on the program relies on providing users with a low cost of capital whilst providing an attractive deposit rate that exceeds the SSR within defined budgetary constraints.\n\n|    Action   |  Borrow Rewards | Campaign Duration | Reward Asset |          Criteria           |\n| :---------: | :-------------: | :---------------: | :----------: | :-------------------------- |\n| Borrow USDC | 2.00% up to 250M before dilution  |     6 months      | aUSDC | Borrow USDC whilst having no idle USDC or aUSDC holdings. When total USDC debt on Aave exceeds 250M the rewards begin to dilute with increasing debt pro-rata. ie: 500M USDC debt equates to 1.00% in rewards.|\n| Borrow GHO | 2.50% up to 50M  before dilution |     6 months      | aGHO | Borrow GHO whilst having no idle or aToken stablecoin holdings. When total GHO debt on Aave exceeds 50M the rewards begin to dilute with increasing debt pro-rata. ie: 100M GHO debt equates to 1.50% in rewards. |\n\nAn additional boost is to be provided to users who meet the criteria outlined below. To support identifying eligible users, a Snapshot of non Aave Protocol users was taken on the 2nd May 2025.\n\n|    Action   |  Supply Boost   | Campaign Duration | Reward Asset |         Criteria           |\n| :---------: | :-------------: | :---------------: | :----------: |:-------------------------- |\n| Deposit cbBTC |  0.20%  | 3 months | acbBTC  | Migrate 100% of holdings from Morpho on Base and/or Ethereum to Aave on Base, **Borrow USDC, GHO, WETH or EURC**, Maintain Health Factor <2 with no idle or aToken USDC, GHO, WETH or EURC holdings.|\n| Deposit wstETH |  0.50%  | 3 months | awstETH  | Migrate 100% of holdings from Morpho to Aave on Base only, **Borrow USDC, GHO, WETH or EURC**, Maintain Health Factor <2 with no idle or aToken USDC, GHO, WETH or EURC holdings.|\n| Deposit USDC |   1.00%  | 3 months | aUSDC  | Withdraw 100% of holdings from Moonwell and Gauntlet vaults on Morpho on Base to Aave on Base.  |\n| Deposit GHO |   1.25%  | 3 months | aGHO  | Withdraw 100% of USDC holdings from Moonwell and Gauntlet vaults on Morpho on Base to Aave on Base. |\n| Deposit ETH |   1.25%  | 3 months | aWETH  | Migrate 100% of holdings from Moonwell and Gauntlet vaults on Morpho to Aave on Base Network.  |\n| Deposit ETH |   1.50%  | 3 months | aWETH  |  Migrate 100% of holdings from Moonwell and Gauntlet vaults on Morpho on Base to Aave on Base only, **Borrow USDC or EURC**, Maintain Health Factor <2 with no idle or aToken stablecoin holdings. |\n| Deposit ETH |   1.75%  | 3 months | aWETH  |  Migrate 100% of holdings from Moonwell and Gauntlet vaults on Morpho on Base to Aave on Base only, **Borrow GHO**, Maintain Health Factor <2 with no idle or aToken stablecoin holdings.   |\n\nFor example:\n\nA user with cbBTC on Morpho at the time of Snapshot can migrate 100% of the position to Aave, borrow USDC and GHO such that the health factor of the loan is <2 and earns 0.35% deposit yield, receive 2% discount on the USDC debt and 2.50% discount on any GHO debt.\n\nThe GHO portion of the debt receives a 3.00% discount whilst the USDC portion of the debt receives 2.50% discount.\n\nIf the borrowed USDC or GHO is held idle or deposited into Aave, the user receives no USDC and no GHO debt rewards. \n\nIf 99% of the cbBTC position withdrawn and migrated to Aave, but 1% remain on Morpho, user receives no deposit deposit yield.\n\nIf the cbBTC price appreciates and the Health Factor is >2, the user forgoes the 0.35% deposit yield for this duration of time. \n\nUsers are encouraged to manage the position on Aave to ensure eligibility is maintained. \n\n### Funding\n\nAave has accumulated significant revenues on the Base network via its Collector contract. To further stimulate growth, adoption on Base, this proposal aims to reinvest past revenue directly into ecosystem incentives. \n\nSince the Base instance was deployed a total of 1.3M USD in revenue has been generated for the Aave DAO with 675,510 USD year to date. The Reserve Factor (Borrow Fees) is the dominant fee type generating 365.7K during Q4 2024 and 397.7K during Q1 2025, with liquidation fees providing a notable 140.6k USD contribution during Q1.\n\nThe charts below shows the weekly revenue generated by the Aave Protocol, Velora integration on the frontend and aTokens held in the Treasury.\n\n![Screenshot 2025-05-02 at 23.31.28](https://hackmd.io/_uploads/B1AaPaGlee.png)\n\n![Screenshot 2025-05-06 at 21.53.17|1318x414](upload://e9PEtKpXJMixtk0cbiEickpcFT1.png)\n\nTo fund the upcoming incentive campaign, USDC, USDbC and cbBTC aTokens held in the Treasury is to be reinvested directly into ecosystem incentives. The ETH rewards component is to be funded from the existing Ahab Budget and GHO rewards mostly funded from the ALC budget. \n\nBased upon Q1 2025 USDC Reserve Factor revenue, 236.1K USD, without considering the impact of the program, approximately 39% of the associated USDC Borrow Rewards cost would be recovered. If 100% growth in USDC debt is achieved, revenue would double along with the USDC Borrow Rewards cost. \n\n![Screenshot 2025-05-03 at 13.08.07](https://hackmd.io/_uploads/H184vFmeee.png)\n\nGranting the AFC the permission to claim and transfer these funds to the MASiv address will enable efficient reinvestment of capital, supporting user growth, liquidity incentives, and ecosystem expansion on Base.\n\nThis ARFC proposes to grant the Aave Finance Committee (AFC) the allowance to claim all the revenues currently accrued to the Aave Collector on Base. The claimed revenues will be directed to the MASiv address to be used as incentives for the Aave ecosystem on Base.\n\n# Specification\n\nCreate allowances for the Aave Finance Committee to fund the Base incentive campaign.\n\n| Asset     | Amount   | Address  |\n| --------  | -------- | -------- |\n| aBasUSDC  |    ALL   | Base: `0x4e65fE4DbA92790696d040ac24Aa414708F5c0AB` |\n| aBascbBTC |    ALL   | Base: `0xBdb9300b7CDE636d9cD4AFF00f6F009fFBBc8EE6` |\n| aBasUSDbC |    ALL   | Base: `0x0a1d576f3eFeF75b330424287a95A366e8281D54` |\n| aEthUSDC  |   2.4M   | Ethereum: `0x98C23E9d8f34FEFb1B7BD6a91B7FF122F4e16F5c` |\n\n- Spender: AFC `0x22740deBa78d5a0c24C58C740e3715ec29de1bFa`\n- Method: approve() aBasUSDC, aBascbBTC and aBasUSDbC on the Aave Base Collector contract `0xBA9424d650A4F5c80a0dA641254d1AcCE2A37057`to the AFC address\n\nAll claimed funds will be sent to the MASiv address when the whole incentive structure is finished, which will be responsible for managing and distributing incentives on Base.\n\n# Disclosure\n\nTokenLogic does not receive any payment for this proposal.\n\n# Next Steps\n\n1. Gather feedback from the community.\n2. If consensus is reached on this ARFC, escalate this proposal to the Snapshot stage.\n3. If Snapshot outcome is YAE, an AIP will implement this proposal.\n\n# Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+        "end_utc": "2025-05-23T07:00:00Z",
+        "similarity_score": 0.2189,
+        "vote_result": {
+          "choices": [
+            "For",
+            "Against",
+            "Abstain"
+          ],
+          "scores": [
+            616626.4127913347,
+            2106.4181792762583,
+            0.13035546808161633
+          ],
+          "scores_total": 618732.9613260786,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2025-05-23T07:00:00",
+          "pre_tvl_avg": 24531147968.5,
+          "post_tvl_avg": 24754292874.0,
+          "abnormal_change": 0.9096,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.009096,
+          "abnormal_change_pct": 0.9096
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2025-05-23T07:00:00",
+          "pre_price_avg": 252.173793945,
+          "post_price_avg": 267.95767736000005,
+          "abnormal_change": 6.2591,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.062591,
+          "abnormal_change_pct": 6.2591
+        }
+      }
+    },
+    {
+      "proposal_id": "0xe6740e5aec256ccf1dfbf538591f6b1631927f8d950b17067fe6912b74158332",
+      "cleaned": {
+        "proposal_id": "0xe6740e5aec256ccf1dfbf538591f6b1631927f8d950b17067fe6912b74158332",
+        "title": "[ARFC] Aave Liquidity Committee Funding Phase V",
+        "author": "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1",
+        "end_utc": "2024-12-12T14:43:22Z",
+        "similarity_score": 0.209,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 877168.9458927921,
+        "margin_pct": 0.9999948675025027,
+        "scores_total": 877173.4479833186,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 138,
+        "total_votes": 138,
+        "first_vote_at": "2024-12-09T14:43:59Z",
+        "last_vote_at": "2024-12-12T14:39:29Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            442334.48883899406,
+            0.0,
+            0.0
+          ],
+          [
+            60926.95353746315,
+            0.000359033343350395,
+            0.0
+          ],
+          [
+            373795.2881495747,
+            2.077184804320528,
+            0.0
+          ],
+          [
+            114.2929105983097,
+            0.0,
+            0.34700285102905803
+          ]
+        ],
+        "spike_index": 0.421018,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.000328,
+        "half_slope_diff": -12.153407
+      },
+      "raw": {
+        "id": "0xe6740e5aec256ccf1dfbf538591f6b1631927f8d950b17067fe6912b74158332",
+        "title": "[ARFC] Aave Liquidity Committee Funding Phase V",
+        "author": "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1",
+        "body": "---\n\ntitle: [ARFC] Aave Liquidity Committee Funding Phase V\nauthor: @karpatkey_TokenLogic\ncreated: 2024-12-03\n\n---\n\n# Summary\n\nThis publication presents the Aave Liquidity Committee (ALC) Phase V request. \n\n# Phase IV Update\n\nBuoyant market conditions in November drove strong demand for stablecoin debt that resulted in the composition of DEX liquidity pools being increasingly concentrated in GHO, and outflows from the the GSMs. Three small Borrow Rate increases were implemented with minimal effect and ultimately GHO's peg began showing signs of stress from November 12th up until the 1st December.\n\nFrom late October to early November, GHO's debt continued to expand leading to a noticeable shift in the composition of the Balancer 3pool liquidity pool in favour of GHO. A few days later, the GSMs started experiencing outflows resulting in GHO being burnt and USDC plus USDT reserves being distributing.\n\nNote: The composition of the Balancer 3pool started shifting on October 28th, prior to the GSM experiencing outflows on the 3rd November and eight days before the Curve NP Pool's composition began favouring GHO. This is due to the high amp in the 3pool and the current the fees configuration on the GSMs. \n\n![Screenshot 2024-12-01 at 13.29.01](https://hackmd.io/_uploads/HJehNJcQkg.png)\nSource: https://aave.tokenlogic.xyz/liquidity-pools\n\nBetween the 4th to 10th November, ~16M units of GHO were burned and all but small amount of the 8M units of USDC and 8M units of USDT remain in the GSM.\n\n![Screenshot 2024-12-01 at 12.43.16](https://hackmd.io/_uploads/r1Vl9CFXkl.png)\nSource: https://aave.tokenlogic.xyz/gho-stability-module\n\nThree Borrow Rate amendments were pushed by the GHO Stewards, 50bps on 7th November, 75bps on 12th November and 50bps on the 18th November. All three Borrow Rate increases were ineffective and demand from prevailing market conditions proving more influential with ETH trading from 2,720 USD on the 7th November to 3,204 USD on the 18th November.\n\nON the 11th November, DEX pools heavily nominated in GHO and the GSMs depleted, GHO's spot price began to come under pressure. On the 12th November, the GHO Stewards increased the Borrow Rate for a second time and reduced the Borrow Cap to prevent new GHO from being borrowed.\n\nOver the next few days, GHO was redeemed from Maverick and borrowed on Fluid, before being swapped to other assets which resulted in downwards pressure on the weak peg.\n\n![image](https://hackmd.io/_uploads/ByK9d0Ymke.png)\nSource: https://aave.tokenlogic.xyz/gho\n\nThe third Borrow Rate increase, 50 bps on the 18th November, had minimal affect and on the 20th November, the GHO Stewards increased the Borrow Rate by 300bps to recover the peg. \n\nThe 300bps increase was successful with 12.3M units of GHO being repaid. Soon afterwards, general stablecoin borrow rates increased across Aave v3 and this resulted in users borrowing GHO causing the peg to deteriorate. \n\n![Screenshot 2024-12-01 at 12.47.14](https://hackmd.io/_uploads/BJbkjAYm1l.png)\n\nA second 350bps Borrow Rate was implemented resulting in 14.5M units of GHO debt being repaid and resulted in GHO trading 0.999 USD.\n\n![Screenshot 2024-12-01 at 13.05.53](https://hackmd.io/_uploads/rJwrk19Q1x.png)\nSource: https://aave.tokenlogic.xyz/borrow-rate\n\nThe Paraswap v6 integrating on the main frontend facilitated swaps into GHO helping recover the peg as users migrated away from GHO debt. The ability to change between to and from GHO debt on the frontend has proven to be both a critical growth and peg stability tool. \n\n## Ethereum\n\n### DEX Liquidity\n\nDuring Phase IV, buoyant market conditions resulted in GHO's peg to experiencing more volatility than the prior reporting period. \n\nThe returns from a 5M GHO to USDC swap is shown below and highlights the low quoted price impact of performing the swap. The primarily consideration in the image below is the spot pricing of GHO being 0.9980.\n\n![Screenshot 2024-12-01 at 13.48.58](https://hackmd.io/_uploads/S1jLK1cm1x.png)\nSource: https://swap.defillama.com\n\nOverall, AUM in G=DEX liquidity pools is $37M with around half, or 19.4M units, being nominated in GHO.\n\n![Screenshot 2024-12-01 at 14.39.52](https://hackmd.io/_uploads/S1dHBxcX1x.png)\nSource: https://aave.tokenlogic.xyz/liquidity-pools\n\n![Screenshot 2024-12-01 at 14.40.44](https://hackmd.io/_uploads/rysuBg9mJx.png)\nSource: https://aave.tokenlogic.xyz/liquidity-pools\n\nThe recent reduction in GHO within DEX liquidity pool correlates with GHO's circulating supply contracting due to users repaying GHO debt in response to the recent 350bps Borrow Rate increase.\n\nThe [wBTC/GHO/wstETH](https://curve.fi/#/ethereum/pools/factory-tricrypto-31/deposit) Tricrypto Pool and [GHO/wstETH](https://balancer.fi/pools/ethereum/v2/0x7d98f308db99fdd04bbf4217a4be8809f38faa6400020000000000000000059b) 80/20 Weight Pool on Curve and Balancer respectively have been consolidated into [cbBTC/GHO/wETH](https://curve.fi/#/ethereum/pools/factory-tricrypto-47/deposit) on Curve. The consolidation of two pools into a single pool is expected to result in a cost saving to the ALC. The timing of this was dictated by the largest LP in the 80/20 pool developing the ability to hedge both BTC and ETH price exposure. \n\n### Funding Rates\n\nPerp funding rates have increased significantly over recent weeks making providing liquidity in DEX pools less attractive. With asset prices generally trending higher, the GHO liquidity rewards have been able to continue offering a competitive yield. However, sustaining the amount of the liquidity is resulting in elevated spending levels. \n\n### InstadApp - Fluid Integration\n\nLaunching GHO on InstadApp's Fluid for lending has proven successful with over 12M of GHO deposited. The largest LP in this pool has a collateral and a GHO debt position on Aave.\n\n![Screenshot 2024-12-01 at 16.12.41](https://hackmd.io/_uploads/HJiboWcXkg.png)\n\nAhead of launching GHO as Smart Collateral and Smart Debt on Fluid, the ALC coordinated with GHO Stewards to recover the peg via second large Borrow Rate increase. The ALC views the Smart Collateral and Smart Debt features as beneficial for supporting swaps and providing deeper liquidity. \n\n### PYUSD/GHO Liquidity\n\nWith funding received, members of the ALC are actively working with various fund managers to source the GHO/PYUSD liquidity. Seeding this 8M of liquidity when GHO is at peg will help the ALC to retain GHO's peg. At the time of writing, the ALC expects the 8M of PYUSD/GHO liquidity to be seeded week starting 1st December 2024. \n\n<insert image of gyroscope profile here>\n\n### Royco\n\nWith the objective of stimulating demand for GHO in challenging market conditions, the ALC created and funded Quest on Royco to reward users for swapping USDC to GHO and staking the GHO for 30 days before being able to call the cool down function.\n\nThe Quest is targeting 5M of USDC being swapped to GHO to help rebalance the composition of the DEX liquidity pools.\n\n## Arbitrum\n\nGHO's growth on Arbitrum continues to be slow. \n\nIn collaboration with Paxos, the wUSDL/GHO pool on Balancer has been funded and the ALC is working with Paxos to progress this liquidity from a ComposableStable pool type on Balancer v2 to v3 and ideally into a Concentrated liquidity pool type.\n\n![Screenshot 2024-12-01 at 16.39.01](https://hackmd.io/_uploads/SJIVZMcXyx.png)\n\nGHO was proposed and approved as liquidity on Synthetix v3 and recently, the ALC received feedback for GHO to be added as both Liquidity and Margin on Synthetixs. A Pull Request is currently with the Synthetixs team for review to support onboarding GHO as Liquidity and Margin. \n\nGHO is expected to be listed on Synthetix v3 in the near future and are liaising with several funds regarding the prospect of providing liquidity to kick start the integration. \n\n# Phase V Lookahead\n\n## Ethereum\n\nIn response to recent peg volatility, the primary focus of the ALC is to retain the peg and create deep liquidity supportive of facilitating large swaps with minimal price impact.\n\n### Balancer v3\n\nEarly December Balancer v3 will launch without any gauges and with some incentives to attract liquidity. Several major GHO liquidity provider are yet to have had the opportunity to review Balancer v3's code base or audits. As a result, we expect the migration to v3 to take some time and may not be pursued until sometime in the new year when all the pools are configured with gauges via governance.\n\n### GHO on Aave Prime\n\nGHO is expected to be launched on the Prime instance of Aave v3 with initial seed liquidity provided by the DAO. The sUSDe eMode is expected to create strong demand for stablecoins and GHO alike. The initial seed liquidity is hopefully sufficient enough to entice users to borrow GHO. With adequate GHO debt in the reserve, this should create a high native yield for GHO deposits.\n\nThe introduction of dedicated Merit program may be used to help attract deposits.\n\n### Royco Quests\n\nPending the results of the initial Royco Quest, the ALC may continue to use Royco as a means of stimulating demand for GHO and promoting the adoption of GHO in other protocols. \n\nEncouraging GHO Smart Collateral and Smart Debt on Fluid and deposits into Gearbox when Pendle PTs are added remain near term opportunities for the ALC to consider. \n\n## Arbitrum\n\nWith the GHO intended for Arbitrum used for the INST purchase, the ALC still advocates for additional liquidity to be provided into Aave v3 to support the adoption of GHO on Arbitrum. This is most likely to be achieved with a new facilitator on Ethereum that leads to GHO being minted, bridged and deposited into Aave v3.\n\nAs mentioned earlier, in the near future, we expect GHO to be listed on Synthetixs v3 as a deposit asset that earn yields and also as margin. Do note, any un-utilised liquidity is deposited into Aave v3 to earn yield.\n\nA USDe/aGHO ECLP was launched with x30 Sats and has achieved minimal inflows despite ample rewards. The ALC is likely to reduce spend on this pool and reprioritise this portion of the budget.\n\nThe ALC is continuing to explore other potential integrations for GHO on Arbitrum with a high frequency oracle being developed by Chainlink to enable new integrations that haven't been technically possible this far.\n\n## Base and Avalanche \n\nPhase V will oversee the deployment of GHO on Base and Avalanche, marking the first multi-chain expansion since GHO was successful launch on Arbitrum. These integrations aim to extend GHO’s adoption and utility to new ecosystems.\n\naToken GSMs are expected to help maintain the peg on each respectively network. Leveraging existing relationships, the ALC intends to promote DEX liquidity at launch and a Synthetix integration on Base soon after launch. \n\n## Performance Metrics\n\nThe below details some high-level GHO metrics:\n\n| Description | Ethereum Value | Arbitrum Value |Avalanche Value | Base Value |\n| --------  | :--------:  | :--------:  | :--------:  | :--------:  |\n| TVL DEX Liquidity Pools | 50M | 20M | 20M | 20M |\n| TVL Utility Liquidity Pools (Excl. stkGHO)  | 15M  | 7.5M | 7.5M | 7.5M|\n| DEX Liquidity Composition | < 50% GHO (< 33% for 3pools)  | < 50% GHO (< 33% for 3pools)  | < 50% GHO  (< 33% for 3pools) | < 50% GHO  (< 33% for 3pools) | \n| Swap Price Impact $5M Swap (GHO to USDC) | < 0.10%  | < 0.25%  | < 0.25%  | < 0.25%  |\n| Annualised Peg Volatility | < 5.00%  | < 5.00%  |< 5.00%  |< 5.00%  |\n| Price level for >90% time | $0.995  | $0.995 | $0.995 | $0.995 |\n\nPlease note, each of the above targets has external dependencies beyond the control of the ALC. The above table serves as a North Star for the ALC to strive towards over the next three months. Having measurable targets provides a clear direction and goal to achieve.\n\n# Specification\n\nSwap the following assets to GHO and deposit into the Prime instance on Ethereum.\n\n| Ethereum         | \n| :--------------: | \n| aEthUSDT (1.25M) |\n| aEthUSDC (1.25M) | \n\nCreate an Allowance allowaing the ALC to withdraw GHO from the Prime instance for a total of 2,000,000 GHO.\n\nALC Ethereum SAFE: `0xA1c93D2687f7014Aaf588c764E3Ce80aF016229b`\n\n# Disclosure\n\nTokenLogic and karpatkey receive no payment for this proposal. \n\n# Next Steps\n\n1. Gather feedback from the community.\n2. If consensus is reached on this ARFC, escalate this proposal to the Snapshot stage.\n3. If Snapshot outcome is YAE, an AIP will implement this proposal.\n\n# Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+        "end_utc": "2024-12-12T14:43:22Z",
+        "similarity_score": 0.209,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "NAY",
+            "ABSTAIN"
+          ],
+          "scores": [
+            877171.0234366298,
+            2.077543837663878,
+            0.34700285102905803
+          ],
+          "scores_total": 877173.4479833186,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2024-12-12T14:43:22",
+          "pre_tvl_avg": 20885132128.5,
+          "post_tvl_avg": 22307724328.0,
+          "abnormal_change": 6.8115,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.068115,
+          "abnormal_change_pct": 6.8115
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2024-12-12T14:43:22",
+          "pre_price_avg": 288.51335156,
+          "post_price_avg": 367.43795588499995,
+          "abnormal_change": 27.3556,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.273556,
+          "abnormal_change_pct": 27.3556
+        }
+      }
+    },
+    {
+      "proposal_id": "0xe88851746761eee3418eb49105349bd272917759c922133506e420fcf6c4d9eb",
+      "cleaned": {
+        "proposal_id": "0xe88851746761eee3418eb49105349bd272917759c922133506e420fcf6c4d9eb",
+        "title": "[TEMP CHECK] GHO Aave Savings Upgrade",
+        "author": "0xF1dF824419879Bb8a7E758173523F88EfB7Af193",
+        "end_utc": "2025-03-14T10:41:40Z",
+        "similarity_score": 0.2067,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 824423.262217691,
+        "margin_pct": 0.9999938052390017,
+        "scores_total": 824428.3693543994,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 259,
+        "total_votes": 259,
+        "first_vote_at": "2025-03-11T10:42:34Z",
+        "last_vote_at": "2025-03-14T10:39:47Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.990476,
+            0.009524,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9961389961389961,
+          0.003861003861003861,
+          0.0
+        ],
+        "stability": [
+          0.9961389961389961,
+          0.003861003861003861,
+          0.0
+        ],
+        "early_ratio": [
+          0.9904761904761905,
+          0.009523809523809525,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            596933.8661546803,
+            2.4316052265652393,
+            0.06823584919398747
+          ],
+          [
+            163265.72599054832,
+            0.012206736004096138,
+            0.0
+          ],
+          [
+            39477.216117174365,
+            0.07005387684501303,
+            0.011169180543446644
+          ],
+          [
+            24748.967821127586,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.442376,
+        "spike_follow_support_ratio": 0.999981,
+        "stairwise_ratio": 3.9e-05,
+        "half_slope_diff": -36.685414
+      },
+      "raw": {
+        "id": "0xe88851746761eee3418eb49105349bd272917759c922133506e420fcf6c4d9eb",
+        "title": "[TEMP CHECK] GHO Aave Savings Upgrade",
+        "author": "0xF1dF824419879Bb8a7E758173523F88EfB7Af193",
+        "body": "# [TEMP CHECK] GHO Aave Savings Upgrade\n\n---\n\n**title: [TEMP CHECK] GHO Aave Savings Upgrade**\n**author: @TokenLogic @ACI**\n**created: 2025-03-04**\n\n---\n\n# Summary\n\nThis proposal seeks governance feedback and consensus for creating sGHO and defining the Aave Savings Rate (ASR).\n\n# Motivation\n\nAave's GHO stablecoin is growing strongly during 2025 and is the [20th largest stablecoin](https://defillama.com/stablecoins). Whilst growth to date has been strong, growing from 200M to over 300M presents a different set of challenges requiring a different approach.\n\nTo date, stkGHO launched by @ACI, rewards users for contributing to the protocol's security, has been instrumental to GHO's growth journey and currently represents 67% of GHO's circulating supply. After the Umbrella upgrade, stkGHO will remain vital to Aave Protocol's security and is expected to transition towards a size reflective of the protocol's security needs.\n\nBy sizing stkGHO to reflect the Aave Protocol's security needs, this creates an opportunity for Aave to offer a variety of risk profile yield products. This presents an opportunity for the Aave DAO to introduce a new low risk profile saving product that is expected to lead the next chapter of GHO's growth and adoption.\n\nIntroducing sGHO, a low risk savings product that rewards users for staking GHO by earning the Aave Savings Rate (ASR), that compounds over time.\n\n# sGHO\n\nBy depositing GHO into sGHO, users will earn the Aave Savings Rate by holding an ERC-20 receipt token accruing value over time which is easily integrated with other protocols.\n\nsGHO is to be sustained from revenue generated by Aave Protocol and is specifically designed to have the lowest risk profile of Aave DAO's yield product offering.\n\nThe below outlines key benefits of sGHO's design:\n\n* Interest compounding Aave Savings Rate;\n* No rehypothecation providing instance liquidity;\n* Minimal smart contract risk surface area; and,\n* No Deposit or Withdrawal Fees.\n\nA configurable Aave Savings Rate provides the DAO with sufficient flexibility to offer either a fixed or variable savings rate that moves with the broader market conditions.\n\n## Re-hypothecation\n\nTo minimise risk, deposited GHO will remain in the sGHO contract and shall not be deployed to generated yield. This ensures liquidity is always available for users to withdraw and users are not exposed to any protocol risk.\n\nWhilst depositing GHO held within sGHO appears to be the most capital efficient path, this introduces some exit liquidity risks whereby GHO deposited into a protocol can be borrowed by another user. By using a facilitator to Mint and deposit GHO into the yield source, the same capital efficiency upside can be acheived in a more controlled manner.\n\n## Facilitator\n\nWith sGHO expected to create substantial demand for GHO, facilitators are to provide liquidity for user to access GHO. stataGSMs are to provide GHO liquidity via aggregators to avoid GHO deviating from peg whilst other facilitators support GHO being borrowed into circulating supply.\n\nNew Facilitator(s) can Mint and deploy GHO to earn yield. In doing so, rather than deploying GHO held within the sGHO contract, GHO can be Minted and deployed in a controlled manner by the Gho Stewards. This approach preserves the utilisation of liquidity within reserves enabling it to be optimised for achieving a intended borrow rate and maintaining the peg.\n\nFurthermore, Minting GHO via a facilitator increases GHO circulating supply when borrowed. Overal, this approach is similar to how the Gho Stewards manage GHO and how Sky manages USDS on the Prime instance.\n\nThe process of depoloying any additional GHO facilitator(s) is controlled by DAO governance and will be handled separately to this proposal.\n\n## Supply Cap\n\nWith each unit of sGHO being minted, the Aave DAO provides a defined amount of yield that extends the DAOs financial outlay. In isolation, as the portion of GHO held by sGHO increases, the revenue derived from GHO is distributed across the larger sGHO holding base results in either the Aave Savings Rate being revised lower, or requiring additional funding to sustain the savings rate.\n\nTo facilitate processing large withdrawals from sGHO and users exchanging GHO to another asset, DEX liquidity and GSM holding balances are key to sustaining the peg. With these interwoven co-dependencies in place, a Supply Cap on sGHO is proposed. The sGHO `Supply Cap` will be maintained by the Gho Stewards.\n\n## Fees\n\nTo enhance the user experience, there are no deposit or withdrawal fees applied to sGHO. Being a yield product, creating friction via fees would act to reduce the appeal of the offering placing sGHO at a disadvantage to similar offerings available in the market.\n\n# Introductin Aave Savings Rate\n\nBefore reading on, a brief recap of some key terms referenced within.\n\ni) `Deposit Yield` = `Incentive Yield` + `Native Yield`\n\nWhere,\n\n`Incentive Yield` = Yield derived from incentives, commonly referred to as LM rewards.\n`Native Yield` = Yield derived from fees native to Aave Protocol.\n`Deposit Yield` = Total Yield user receives.\n\nAcross Aave Protocol there are two dominant stablecoins, USDC by Circle and USDT by Tether. USDT is the largest, with an emerging trend of some networks preferring to favour one stablecoin over another. Two fast growing networks, Base and Sonic both exhibit a clear bias for USDC over USDT, of which Base has generated substantial growth for Aave Protocol in recent months.\n\nWhen comparing the Native Yield of USDC and USDT across variaous instances Aave Protocol, USDC was found to exhibit a less volatile and more consistent Native Yield relative to USDT. USDC offers both strong market correlation and lower volaility relative to USDT, both are favourable qaulities for deriving a market correlated savings rate.\n\nThe chart below shows USDT and USDC Native yield across Core instances on Ethereum, Arbitrum, Avalanche, Base and Optimism.\n\n![Screenshot 2025-02-18 at 19.11.02](https://hackmd.io/_uploads/r1tM3LGc1l.png)\n\nWhen specifically comparing USDT to USDC, the chart below provides a clear visual reflecting USDCs smoother Native yield profile relative to USDT.\n\n![Screenshot 2025-02-18 at 19.15.58](https://hackmd.io/_uploads/H1AOhUMqyx.png)\n\nThe Core instance of Aave v3 on Ethereum offers the deepest USDC liquidity and for this reason, the Aave Savings Rate incorporated the USDC Native Yield Rate from the Core instance on Etheruem as its preferred `Index Rate` .\n\nThe Aave Savings Rate definition:\n\n`Aave Savings Rate` = `Amp` x `Index Rate` + `Premium`\n\nWhere,\n\n`Index Rate` = Representative of market conditions\n`Amp` = Amplification Factor\n`Premium` = Nominal Amount\n\nA linear function provides sufficient flexibility to curate the yield to be either variable or fixed and to change the `Index Rate` to which the Aave Savings Rate is correlated to. The `Amp` can be adjusted to offset periods of low USDC utilisation, whilst the `Premium` allows for a discrete amount of extra relative yield to be applied.\n\nWhilst the Aave Savings Rate is expected to exceed the GHO Borrow Rate, the differential is to be managed such that it encourages adoption whilst being insufficent to promote arbitrage.\n\n# Beyond 200M GHO Growth Phase\n\nsGHO is the next step towards realising GHO's longer term growth potential, and with a very well capitalised balance sheet, Aave can accelerate the next chapter of GHO's growth potential.\n\nThe introduction of the Aave Savings Rate is expected to stimulate demand for GHO that will initially improve the peg and then lead to new GHO entering circulating supply via the stataToken GSMs. During the early growth phase for GHO, significant traction was achieved by aggressively incentivising growth and then tapering rewards to retain the growth.\n\nAave DAO is in a very fortunate financial position that is supportive of pursuing an aggressive growth strategy that captures the upside during what is a depressed yield market relative to late Q4, 2024. Launching sGHO with a premium to other similar savings products is expected to lead to significant growth whilst balancing the yield profile as to not overly encourage arbitraging the GHO Borrow Rate and Aave Savings Rate.\n\nThe chart below shows sUSDe, SSR, USDC Native Yield and USDS Deposit Yield on Core instance.\n\n![Screenshot 2025-03-02 at 16.08.50](https://hackmd.io/_uploads/SJloMWzjyl.png)\n\nIn terms of risk profile, sGHO is most similar to sUSDS offering from the Sky Ecosystem. For sGHO to compete, given its relative size, a premium would be required to attract meaningful amounts of capital. The USDS Deposit Yield realtive to the SSR highlights the premium for introducing Aave Protocol risk and the utility of being collateral.\n\nOn a risk adjusted basis, the Aave Savings Rate used for sGHO would fall somewhere between the SSR and USDS Deposit Yield on Aave from a competition for capital perspective.\n\nFurther details on the precise Aave Savings Rate to be used when sGHO launches will be provided in the ARFC stage of the governance process.\n\n# Sustainability\n\nDuring the expansion phase, the Aave Savings Rate is expected to present an appealing interest rate that exceeds the GHO Borrow Rate and the Native Rate of the assets held within the stataGSMs. Especially during the early growth stage, the overal economic balance of GHO revenue and costs is going to be heavily shaped by the proportion of GHO's circulating supply deposited in sGHO.\n\nThe below highlights current and near term GHO revenue sources:\n\n* GHO Borrowed via Core instance;\n* stataToken GSM holdings; and,\n* Facilitator liquidity deposits.\n\nBorrowing GHO that has been minted by a facilitor, generates revenue for the DAO through either Borrow Interest like on Core or Native Yield plus Reserve Factor fees as on Prime.\n\n## stkGHO\n\nLonger term, right sizing stkGHO reflecting the Aave Protocol's security needs, is expected to free up budget contributing to sustaining sGHO. Allocating budget from stkGHO to sGHO is exected to reduce per unit of GHO staked spend and lead to an increase in the circulating supply of GHO. This transition is expected to materially impact GHO's revenue upside.\n\nDetails relating to the optimal yield and amount of stkGHO are presented in the Umbrella forum post.\n\n## stataGSM\n\nThe rollout of stataGSMs across Ethereum, Arbitrum and Base is expected to improve the DAO's revenue streams with currently idle capital being deployed to earn yield for the Aave DAO. On Arbitrum and Base, the GSMs will provide users with the ability to `Transafer` GHO into circulating Suppy.\n\n# Specification\n\nThis proposal is to be further refined at the ARFC stage, the following summarises the key characteristics of sGHO:\n\n* No Re-Hypothecation minimising smart contract risk;\n* Facilitators are to be used to Mint and Deploy GHO for yield;\n* No Deposit & Withdrawal Fees promoting frictionless user experience;\n* Introduce a Supply Cap to limit DAO's financial exposure; and,\n* Aave Savings Rate set by GHO Stewards determines sGHO yield;\n\nExecution and implementation is to be a collaboration between by Aave DAO service providers.\n\nThe Aave Savings Rate, budget and sGHO paramaters are to be finalised during the ARFC stage of the governance process.\n\n# Disclosure\n\nThe TokenLogic team extends its sincere gratitude to all Aave service providers, delegates, and community members who contributed to this proposal’s peer review. Your expertise and insights have been invaluable in refining and strengthening this TEMP CHECK.\n\n# Next Steps\n\n1. Gather feedback from the community.\n2. If consensus is reached on this [TEMP CHECK], escalate this proposal to the Snapshot stage.\n3. If Snapshot outcome is YAE, escalate this proposal to the [ARFC] stage.\n\n# Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+        "end_utc": "2025-03-14T10:41:40Z",
+        "similarity_score": 0.2067,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "NAY",
+            "Abstain"
+          ],
+          "scores": [
+            824425.7760835305,
+            2.5138658394143474,
+            0.07940502973743413
+          ],
+          "scores_total": 824428.3693543994,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2025-03-14T10:41:40",
+          "pre_tvl_avg": 17109503695.0,
+          "post_tvl_avg": 17635901691.5,
+          "abnormal_change": 3.0766,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.030766,
+          "abnormal_change_pct": 3.0766
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2025-03-14T10:41:40",
+          "pre_price_avg": 168.81288246999998,
+          "post_price_avg": 169.944768815,
+          "abnormal_change": 0.6705,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.006705,
+          "abnormal_change_pct": 0.6705
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0xa390fb9061fd689a5d93519a7a9dae23d76b4010b3eea6aaedc70ea7aaed9310",
+    "selected_choice_label": "For",
+    "selected_choice_index": 0,
+    "confidence": 0.9,
+    "summary": "The proposal aims to allocate 5 million GHO tokens from the DAO treasury to fund a CEX Earn incentive program and market maker engagement to boost GHO adoption on centralized exchanges. The program is designed to expand GHO's reach to retail and institutional users, improve liquidity, and enable new utilities such as margin trading and perpetual contracts. The incentive design is not perpetual but tapering, focusing on verified GHO holdings on CEXs with a long-term vision of sustainable growth and ecosystem integration.",
+    "key_arguments_for": [
+      "The proposal offers a strategic lever to broaden GHO adoption via centralized exchanges, reaching a wider and diverse user base.",
+      "It provides new utility for GHO, enabling collateral use in perpetual contracts and margin trading not available on-chain yet.",
+      "The incentive program is carefully designed to be cost-efficient and aligned with actual GHO holdings, minimizing waste.",
+      "Similar prior incentive campaigns with active utility showed better retention, suggesting this program’s potential success.",
+      "Adjacent analysis shows a similar prior Base Incentive Campaign Funding proposal was successful, with positive price and TVL impacts."
+    ],
+    "key_arguments_against": [
+      "Concerns exist about the large 5 million GHO incentive amount relative to circulating supply and the risk of CEX users exiting after incentives end.",
+      "Some community members favor prioritizing on-chain liquidity promotion over CEX incentives to maintain peg strength and reduce fragmentation.",
+      "Potential regulatory and legal challenges for listing decentralized stablecoins on centralized exchanges might limit impact.",
+      "The margin trading and collateral status might come naturally only after GHO matures and gains acceptance on-chain.",
+      "Liquidity fragmentation risk could arise if significant liquidity migrates off-chain, weakening on-chain markets."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://governance.aave.com/t/arfc-gho-cex-earn-incentive-program/22284",
+        "quote": "Forum sentiment is mixed but leans positive, with 5 positive, 4 neutral, and 2 negative comments before proposal end. Early comments highlight strategic benefits and cost-efficiency; later comments stress retention risks and regulatory concerns."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": null,
+        "quote": "Voting timeline metrics show unanimous early and sustained support for 'For' option with stability and spike support ratios near 1.0, indicating strong early consensus and consistent vote lead."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": null,
+        "quote": "Lead ratio by quartile is 1.0 for 'For', 0 for others, indicating dominant preference and vote stability throughout the proposal period."
+      },
+      {
+        "source_tool": "adjacent_analytics",
+        "reference": "0x4dfc398fabb63305900572dff38b2ff8e104b0710077f6b7e48049de173d186b",
+        "quote": "A similar prior proposal '[ARFC] Base Incentive Campaign Funding' focused on incentivizing GHO supply and liquidity had a positive price impact of +3.5% and TVL increase +0.9%, and passed with large margin, supporting the efficacy of incentive programs."
+      }
+    ],
+    "available_choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-06-20T19:47:43Z",
+    "event_end_utc": "2025-06-23T19:47:43Z",
+    "event_time_utc": "2025-06-23T19:47:43Z",
+    "address_of_governance_token": "0x18eFE565A5373f430e2F809b97De30335B3ad96A",
+    "token_price_impact_pct": 4.0305,
+    "tvl_impact_pct": -1.2998,
+    "actual_vote_result": {
+      "winner_label": "For",
+      "winner_index": 0,
+      "scores": [
+        483081.5890976145,
+        12030.341808104124,
+        154.25888330758212
+      ],
+      "scores_total": 495266.18978902616,
+      "margin_abs": 471051.2472895104,
+      "margin_pct": 0.951107
+    },
+    "simulation_reason": "Recommendation based on timeline voting metrics, forum sentiment, and adjacent successful incentive precedent.",
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'For' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Timeline metrics show unanimous and stable support for 'For', indicating strong community backing in voting behavior.\n- Forum sentiment is generally positive with key community members endorsing the strategic expansion and incentive program, though some concerns remain about retention and on-chain liquidity.\n- Adjacent analytics from a similar prior incentive proposal demonstrate successful outcomes with positive price and TVL impacts, supporting the rationale for change.\n- Despite some negative and cautious voices, the recommendation to 'Change' aligns with the aggregated sentiment and vote dynamics, prioritizing durable growth and GHO adoption benefits.\n- The proposal’s design includes cost efficiency and tapering incentives to mitigate risks of liquidity fragmentation and incentive exhaustion, reflecting lessons learned from past programs.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x4dfc398fabb63305900572dff38b2ff8e104b0710077f6b7e48049de173d186b",
+        "title": "[ARFC] Base Incentive Campaign Funding",
+        "end_utc": "2025-05-23T07:00:00Z",
+        "summary": "[ARFC] Base Incentive Campaign Funding closed on 2025-05-23T07:00:00Z. Timeline analytics noted 230 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Moderate text overlap (score 0.22)",
+        "market_response": "token +3.50%; TVL +0.91%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 4.0305,
+    "ex_post_tvl_impact_pct": -1.2998,
+    "ex_post_window": "7d pre / 7d post around event end",
+    "ex_post_note": "Token price +4.03%; TVL -1.30%"
+  },
+  "agentic_ai_choice": "For",
+  "actual_outcome": "For",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 2,
+    "Positive": 5,
+    "Neutral": 4,
+    "total_comments": 11
+  }
+}

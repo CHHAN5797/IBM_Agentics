@@ -1,0 +1,1141 @@
+{
+  "captured_at_utc": "2025-10-05T17:30:47.874774+00:00",
+  "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0x9674191acdb3cae244e010069df7637d6b7b3e30849f91570f0349323c5330d9",
+  "focus": null,
+  "votes_count": 391,
+  "timeline_metrics_current": {
+    "unique_voters": 391,
+    "total_votes": 391,
+    "first_vote_at": "2024-05-30T19:11:25Z",
+    "last_vote_at": "2024-06-02T18:59:29Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        0.994475,
+        0.0,
+        0.005525
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      0.9974424552429667,
+      0.0,
+      0.0025575447570332483
+    ],
+    "stability": [
+      0.9974424552429667,
+      0.0,
+      0.0025575447570332483
+    ],
+    "early_ratio": [
+      0.994475138121547,
+      0.0,
+      0.0055248618784530384
+    ],
+    "vp_by_quartile": [
+      [
+        3146.971858195731,
+        0.11634269269008106,
+        0.6712721353905508
+      ],
+      [
+        188751.3646552501,
+        0.01035123046631955,
+        1.5638403585802585
+      ],
+      [
+        152893.17341547145,
+        0.013007018512373208,
+        0.020187439648107226
+      ],
+      [
+        280093.0523638512,
+        0.13591075183943582,
+        26.56099424741057
+      ]
+    ],
+    "spike_index": 0.283211,
+    "spike_follow_support_ratio": 1.0,
+    "stairwise_ratio": 6.1e-05,
+    "half_slope_diff": 2.616732
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0xe3a29b7d6d936a22ee340811f842a29e4be654e08972f53f43dde7748c722195",
+      "title": "[ARFC] LT/LTV Reductions on Aave V2 Stablecoins",
+      "author": "0x5d49dBcdd300aECc2C311cFB56593E71c445d60d",
+      "end_utc": "2024-05-10T15:04:01Z",
+      "timeline_metrics": {
+        "unique_voters": 458,
+        "total_votes": 458,
+        "first_vote_at": "2024-05-07T15:08:50Z",
+        "last_vote_at": "2024-05-10T14:47:43Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 1,
+        "lead_ratio_by_quartile": [
+          [
+            0.389163,
+            0.610837,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.17248908296943233,
+          0.8275109170305677,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          0.17248908296943233,
+          0.8275109170305677,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.3891625615763547,
+          0.6108374384236454,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            46.460616945969086,
+            88937.30795248265,
+            0.011100334798858314,
+            1.3842461178344545
+          ],
+          [
+            2.425797534072553,
+            326480.626851305,
+            0.08483609838472238,
+            0.1278433243237998
+          ],
+          [
+            26.11178781776593,
+            151710.25878821898,
+            1.0176145086194763,
+            0.2494564364462552
+          ],
+          [
+            4.6677738449065025,
+            81151.88051661484,
+            2.0060129900000003,
+            1.5863063336061045
+          ]
+        ],
+        "spike_index": 0.334373,
+        "spike_follow_support_ratio": 0.999996,
+        "stairwise_ratio": 4.5e-05,
+        "half_slope_diff": 23.970986
+      },
+      "price_impact_pct": -5.7457,
+      "tvl_impact_pct": -0.743,
+      "similarity": 0.2401,
+      "actual_vote_result": {
+        "winner_index": 1,
+        "winner_label": "Conservative",
+        "margin_abs": 648200.4081324788,
+        "scores_total": 648366.2075009085,
+        "margin_pct": 0.9997442812927145
+      }
+    },
+    {
+      "id": "0xf6aaa50a6a76f44df9cfbbb760ca80878854dd16d88b16a3fc0f5fa6920741f0",
+      "title": "[ARFC] Deprecation of Small-cap Stablecoins on V2 Ethereum",
+      "author": "0x5d49dBcdd300aECc2C311cFB56593E71c445d60d",
+      "end_utc": "2024-05-06T13:23:27Z",
+      "timeline_metrics": {
+        "unique_voters": 548,
+        "total_votes": 548,
+        "first_vote_at": "2024-05-03T13:26:25Z",
+        "last_vote_at": "2024-05-06T12:18:06Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            586390.5261172875,
+            1.0102190922941765,
+            0.000185033718047164
+          ],
+          [
+            50202.69558959543,
+            0.19267438662055864,
+            0.0
+          ],
+          [
+            45847.22223313789,
+            1.019775680308645,
+            0.2891816929348523
+          ],
+          [
+            3510.1540974041545,
+            0.03266537486542128,
+            0.011250100287389299
+          ]
+        ],
+        "spike_index": 0.31601,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 5.1e-05,
+        "half_slope_diff": -23.169195
+      },
+      "price_impact_pct": -1.4055,
+      "tvl_impact_pct": -2.0464,
+      "similarity": 0.1871,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "YAE",
+        "margin_abs": 685948.3427028914,
+        "scores_total": 685953.1539887867,
+        "margin_pct": 0.9999929859847319
+      }
+    },
+    {
+      "id": "0x389b244cae117793a02673cf1600579b26ce409e3c25a2ea9bf5a5cc57d0a92d",
+      "title": "[ARFC] Chaos Labs Risk Parameter Updates - GNO on V3 Gnosis",
+      "author": "0x5d49dBcdd300aECc2C311cFB56593E71c445d60d",
+      "end_utc": "2024-04-20T13:05:33Z",
+      "timeline_metrics": {
+        "unique_voters": 463,
+        "total_votes": 463,
+        "first_vote_at": "2024-04-17T13:06:01Z",
+        "last_vote_at": "2024-04-20T12:53:16Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.989529,
+            0.010471,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9956803455723542,
+          0.004319654427645789,
+          0.0
+        ],
+        "stability": [
+          0.9956803455723542,
+          0.004319654427645789,
+          0.0
+        ],
+        "early_ratio": [
+          0.9895287958115183,
+          0.010471204188481676,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            247305.24292936487,
+            0.21938850487465777,
+            0.01110032705804935
+          ],
+          [
+            144585.34762726465,
+            0.05512193,
+            2.079844178990878
+          ],
+          [
+            241557.91904505878,
+            0.0,
+            1.575695048111325
+          ],
+          [
+            2127.3377911356547,
+            0.08366412711652293,
+            0.04314086562757177
+          ]
+        ],
+        "spike_index": 0.379725,
+        "spike_follow_support_ratio": 0.992332,
+        "stairwise_ratio": 6e-05,
+        "half_slope_diff": 0.128737
+      },
+      "price_impact_pct": 9.9899,
+      "tvl_impact_pct": 6.6265,
+      "similarity": 0.3565,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "YAE",
+        "margin_abs": 635572.1376124043,
+        "scores_total": 635579.9153478061,
+        "margin_pct": 0.9999877627734705
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0xbaaf99c1e738da5755166fc6b1429265243507fdb9638a31ca177dd81a8b7313",
+      "cleaned": {
+        "proposal_id": "0xbaaf99c1e738da5755166fc6b1429265243507fdb9638a31ca177dd81a8b7313",
+        "title": "[ARFC] Chaos Labs Risk Parameter Updates - OP on V3 Optimism",
+        "author": "0x5d49dBcdd300aECc2C311cFB56593E71c445d60d",
+        "end_utc": "2024-04-19T14:28:50Z",
+        "similarity_score": 0.3456,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 626494.2609394466,
+        "margin_pct": 0.9999279359763424,
+        "scores_total": 626539.4118904475,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 439,
+        "total_votes": 439,
+        "first_vote_at": "2024-04-16T14:37:31Z",
+        "last_vote_at": "2024-04-19T14:24:13Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            85807.74301878113,
+            1.1340557875384856,
+            0.026557523057187907
+          ],
+          [
+            194663.5169347183,
+            0.0,
+            19.55229177
+          ],
+          [
+            82913.26331844529,
+            0.48438579204299276,
+            2.1684449576336897
+          ],
+          [
+            263131.5039222125,
+            0.0,
+            0.01896045993405645
+          ]
+        ],
+        "spike_index": 0.385216,
+        "spike_follow_support_ratio": 0.999877,
+        "stairwise_ratio": 5.7e-05,
+        "half_slope_diff": 14.02785
+      },
+      "raw": {
+        "id": "0xbaaf99c1e738da5755166fc6b1429265243507fdb9638a31ca177dd81a8b7313",
+        "title": "[ARFC] Chaos Labs Risk Parameter Updates - OP on V3 Optimism",
+        "author": "0x5d49dBcdd300aECc2C311cFB56593E71c445d60d",
+        "body": "## Summary\n\nA proposal to increase OP’s liquidation threshold and LTV on Aave V3 Optimism.\n\n## Motivation\n\nOP is currently configured with a liquidation threshold (LT) of 40% and max loan-to-value (LTV) of 30%. These parameters were intentionally [set](https://governance.aave.com/t/arc-add-op-as-collateral-to-aave-v3/9087/18) conservatively and in isolation mode, when the asset was first listed to ensure mechanisms were working as intended. In [October 2023](https://governance-v2.aave.com/governance/proposal/337/), OP was removed from isolation mode. Following our observations, we believe it prudent to increase the LT and LTV for OP.\n\nOP's average market cap over the past 180 days is $1.78BN, and its daily average volume is $192M.\n\nIt has registered a daily annualized volatility of 98.53%, a 30-day annualized volatility of 92.6%, and its largest single-day price drop was 17.7%.\n\n3.7M of the 7.4M OP supplied is supplied by a single [user](https://community.chaoslabs.xyz/aave/risk/wallets/0x790c9422839fd93a3a4e31e531f96cc87f397c00), who also maintains large positions on Arbitrum and Ethereum. Their last deposit on Optimism was 252K OP on March 12; they repaid $1M USDT on April 6 and currently hold a health score of 2.02.\n\nThe majority of assets borrowed against OP collateral are stablecoins. That puts these positions at risk of liquidation in the event OP’s price moves falls.\nHowever, collateral at risk does not exceed $100K until OP’s price falls to $2.13, a 35% drop from current levels.\n\nGiven these observations, we recommend first aligning OP’s parameters with ARB’s on Arbitrum (50% LTV and 60% LT), an asset with a similar supply distribution and liquidity profile. Following observations at these levels and utilizing our simulation platform, these parameters may be further optimized.\n\n## Specification\n\n| Chain | Asset | Current LTV | Recommended LTV | Current LT | Recommended LT |\n| --- | --- | --- | --- | --- | --- |\n| Optimism | OP | 30.00% | 50.00% | 40.00% | 60.00% |\n\n# Next Steps\n\nWe invite a community discussion around the proposed parameter updates and, barring community objection, will follow up with a Snapshot vote in five days.\n\n# Disclaimer\n\nChaos Labs has not been compensated by any third party for publishing this ARFC.\n\n# Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain)",
+        "end_utc": "2024-04-19T14:28:50Z",
+        "similarity_score": 0.3456,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "NAY",
+            "Abstain"
+          ],
+          "scores": [
+            626516.0271941572,
+            1.6184415795814784,
+            21.766254710624935
+          ],
+          "scores_total": 626539.4118904475,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2024-04-19T14:28:50",
+          "pre_tvl_avg": 10121488222.0,
+          "post_tvl_avg": 10639668217.5,
+          "abnormal_change": 5.1196,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.051196,
+          "abnormal_change_pct": 5.1196
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2024-04-19T14:28:50",
+          "pre_price_avg": 84.54038733499999,
+          "post_price_avg": 93.737495525,
+          "abnormal_change": 10.879,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.10879,
+          "abnormal_change_pct": 10.879
+        }
+      }
+    },
+    {
+      "proposal_id": "0x389b244cae117793a02673cf1600579b26ce409e3c25a2ea9bf5a5cc57d0a92d",
+      "cleaned": {
+        "proposal_id": "0x389b244cae117793a02673cf1600579b26ce409e3c25a2ea9bf5a5cc57d0a92d",
+        "title": "[ARFC] Chaos Labs Risk Parameter Updates - GNO on V3 Gnosis",
+        "author": "0x5d49dBcdd300aECc2C311cFB56593E71c445d60d",
+        "end_utc": "2024-04-20T13:05:33Z",
+        "similarity_score": 0.3316,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 635572.1376124043,
+        "margin_pct": 0.9999877627734705,
+        "scores_total": 635579.9153478061,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 463,
+        "total_votes": 463,
+        "first_vote_at": "2024-04-17T13:06:01Z",
+        "last_vote_at": "2024-04-20T12:53:16Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.989529,
+            0.010471,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9956803455723542,
+          0.004319654427645789,
+          0.0
+        ],
+        "stability": [
+          0.9956803455723542,
+          0.004319654427645789,
+          0.0
+        ],
+        "early_ratio": [
+          0.9895287958115183,
+          0.010471204188481676,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            247305.24292936487,
+            0.21938850487465777,
+            0.01110032705804935
+          ],
+          [
+            144585.34762726465,
+            0.05512193,
+            2.079844178990878
+          ],
+          [
+            241557.91904505878,
+            0.0,
+            1.575695048111325
+          ],
+          [
+            2127.3377911356547,
+            0.08366412711652293,
+            0.04314086562757177
+          ]
+        ],
+        "spike_index": 0.379725,
+        "spike_follow_support_ratio": 0.992332,
+        "stairwise_ratio": 6e-05,
+        "half_slope_diff": 0.128737
+      },
+      "raw": {
+        "id": "0x389b244cae117793a02673cf1600579b26ce409e3c25a2ea9bf5a5cc57d0a92d",
+        "title": "[ARFC] Chaos Labs Risk Parameter Updates - GNO on V3 Gnosis",
+        "author": "0x5d49dBcdd300aECc2C311cFB56593E71c445d60d",
+        "body": "# Summary\n\nA proposal to update GNO’s liquidation threshold, LTV, and debt ceiling on V3 Gnosis.\n\n# Motivation\n\nGNO has an average market cap of $445M and a daily trading volume of $3M over the last 180 days. \n\nOver this same timeframe, the largest single-day drop was 9.11%, with a daily annualized volatility of 63.75% and a 30-day daily annualized volatility of 94.46%.\n\n### Positions Analysis\n\nThere is currently one major [user](https://community.chaoslabs.xyz/aave/risk/wallets/0xa99640210d21a7318c3b85c19ce5b3d49251e04d) utilizing GNO as collateral on V3 Ethereum, borrowing ~$845 in USDC and WXDAI against his 18K GNO collateral, accounting for over 84% of the debt ceiling. The user’s current health score is 2.86.\n\n### Recommendations\n\nGNO is currently listed with relatively conservative parameters: 36% LT and 31% LTV. We recommend an increase to 50% and 45%, respectively. Following observations at these levels and utilizing our simulation platform, these parameters may be further optimized.\n\nGiven current market conditions and utilizing our [Isolation Mode Methodology](https://governance.aave.com/t/chaos-labs-isolation-mode-methodology/12440) we recommend doubling the debt ceiling to $2M.\n\n# Specification\n\n| Asset | Parameter | Current |  Recommended  |\n| --- | --- | --- | --- | \n| GNO | LT | 36.00% | 50.00% | \n| GNO | LTV | 31.00% | 45.00% | \n| GNO | Debt Ceiling | $1,000,000 | $2,000,000 | \n\n# Next Steps\n\nWe invite a community discussion around the proposed parameter updates and, barring community objection, will follow up with a Snapshot vote in five days.\n\n# Disclaimer\n\nChaos Labs has not been compensated by any third party for publishing this ARFC.\n\n# Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain)",
+        "end_utc": "2024-04-20T13:05:33Z",
+        "similarity_score": 0.3316,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "NAY",
+            "Abstain"
+          ],
+          "scores": [
+            635575.8473928241,
+            0.35817456199118075,
+            3.709780419787824
+          ],
+          "scores_total": 635579.9153478061,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2024-04-20T13:05:33",
+          "pre_tvl_avg": 10097565012.5,
+          "post_tvl_avg": 10766683782.0,
+          "abnormal_change": 6.6265,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.066265,
+          "abnormal_change_pct": 6.6265
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2024-04-20T13:05:33",
+          "pre_price_avg": 85.67274997999999,
+          "post_price_avg": 95.56613069,
+          "abnormal_change": 11.5479,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.115479,
+          "abnormal_change_pct": 11.5479
+        }
+      }
+    },
+    {
+      "proposal_id": "0xb3163709f822b662241395c1fde5ecaa8b39d52b1bc81722136c6084a4b3959c",
+      "cleaned": {
+        "proposal_id": "0xb3163709f822b662241395c1fde5ecaa8b39d52b1bc81722136c6084a4b3959c",
+        "title": "[ARFC] Chaos Labs Risk Parameter Updates - Increase MKR Debt Ceiling on V3 Ethereum - 11.07.2023",
+        "author": "0x5d49dBcdd300aECc2C311cFB56593E71c445d60d",
+        "end_utc": "2023-11-18T15:50:25Z",
+        "similarity_score": 0.2719,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 561105.434005351,
+        "margin_pct": 0.9999578175051869,
+        "scores_total": 561129.1038308629,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 1426,
+        "total_votes": 1426,
+        "first_vote_at": "2023-11-15T15:54:20Z",
+        "last_vote_at": "2023-11-18T15:48:50Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            303795.0533834718,
+            6.311155068915602,
+            0.06900588340698316
+          ],
+          [
+            255341.91957165746,
+            0.2845884961751388,
+            0.23542931495272043
+          ],
+          [
+            318.41833687424133,
+            1.5638921183203949,
+            0.33404978118577894
+          ],
+          [
+            1658.7751741252075,
+            0.5728250944033535,
+            5.566418976733982
+          ]
+        ],
+        "spike_index": 0.207639,
+        "spike_follow_support_ratio": 0.999999,
+        "stairwise_ratio": 0.000118,
+        "half_slope_diff": -12.80979
+      },
+      "raw": {
+        "id": "0xb3163709f822b662241395c1fde5ecaa8b39d52b1bc81722136c6084a4b3959c",
+        "title": "[ARFC] Chaos Labs Risk Parameter Updates - Increase MKR Debt Ceiling on V3 Ethereum - 11.07.2023",
+        "author": "0x5d49dBcdd300aECc2C311cFB56593E71c445d60d",
+        "body": "## Simple Summary\n\nA proposal to increase the debt ceiling of MKR on V3 Ethereum\n\n## Motivation\n\nThe current debt ceiling for MKR on V3 Ethereum, set at $6M, has reached 100% utilization. \n\nGiven current market conditions and improved liquidity for MKR on Ethereum over the past months, our [Isolation Mode Methodology](https://governance.aave.com/t/chaos-labs-isolation-mode-methodology/12440) supports increasing the debt ceiling for MKR to $8.5M. \n\nIt is important to note that the majority of MKR debt positions are concentrated within two accounts, accounting for over 80% of the total debt, as outlined below. While this concentration does not affect the current recommendation, it is something to continue monitoring and will be considered in future MKR recommendations and in cases of significant market changes.\n\n### V2 → V3 Migration\n\nThere are still nearly 3,400 MKR supplied on V2 Ethereum, with nearly $750K in stablecoins borrowed against MKR collateral. The current supply caps and proposed debt ceiling should allow for the migration of these positions.  \n\n### Positions Analysis\n\nThere are currently two major users utilizing MKR as collateral on V3 Ethereum:\n\n1. [0xa9dee54892713f43c221509cfedbd717d16791a0](https://community-staging.chaoslabs.xyz/aave/risk/wallets/0xa9dee54892713f43c221509cfedbd717d16791a0) -  borrowing $3.11M DAI against his 5,914 MKR collateral, accounting for nearly 52% of the debt ceiling. The user's current health score is 1.77.\n2. [0x8af700ba841f30e0a3fcb0ee4c4a9d223e1efa05](https://community-staging.chaoslabs.xyz/aave/risk/wallets/0x8af700ba841f30e0a3fcb0ee4c4a9d223e1efa05) -  borrowing $1.84M USDC against his 4,077 MKR collateral, accounting for nearly 31% of the debt ceiling. The user's current health score is 2.06.\n\n## Specification:\n\n| Asset | Parameter | Current | Recommended |\n| --- | --- | --- | --- |\n| MKR | Debt Ceiling | 6,000,000 | 8,500,000 |\n\n## Next Steps\n\n1. Following community feedback, submit the ARFC for a snapshot vote for final approval.\n2. If consensus is reached, submit an Aave Improvement Proposal (AIP) to implement the proposed updates.\n\n## Disclaimer\n\nChaos Labs has not been compensated by any third party for publishing this ARFC.\n\n## Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain)",
+        "end_utc": "2023-11-18T15:50:25Z",
+        "similarity_score": 0.2719,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "NAY",
+            "Abstain"
+          ],
+          "scores": [
+            561114.1664661289,
+            8.732460777814488,
+            6.204903956279466
+          ],
+          "scores_total": 561129.1038308629,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2023-11-18T15:50:25",
+          "pre_tvl_avg": 5797358572.0,
+          "post_tvl_avg": 5781789131.0,
+          "abnormal_change": -0.2686,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.002686,
+          "abnormal_change_pct": -0.2686
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2023-11-18T15:50:25",
+          "pre_price_avg": 89.875184315,
+          "post_price_avg": 87.59632503,
+          "abnormal_change": -2.5356,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.025356,
+          "abnormal_change_pct": -2.5356
+        }
+      }
+    },
+    {
+      "proposal_id": "0xe1a36b7daaf5ab8555510edf53fc75645c7a0ac26b3d47cfe9295b94f96bcf3a",
+      "cleaned": {
+        "proposal_id": "0xe1a36b7daaf5ab8555510edf53fc75645c7a0ac26b3d47cfe9295b94f96bcf3a",
+        "title": "[ARFC] Chaos Labs Risk Parameter Updates - Increase Debt Ceiling for SNX and MKR on V3 Ethereum - 01.31.2024",
+        "author": "0x5d49dBcdd300aECc2C311cFB56593E71c445d60d",
+        "end_utc": "2024-02-11T21:18:27Z",
+        "similarity_score": 0.2593,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 603285.522991201,
+        "margin_pct": 0.9994749352283105,
+        "scores_total": 603602.4533755739,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 1307,
+        "total_votes": 1307,
+        "first_vote_at": "2024-02-08T21:19:21Z",
+        "last_vote_at": "2024-02-11T21:17:40Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            308424.0853957055,
+            0.8937350359910813,
+            0.8913615424961636
+          ],
+          [
+            208502.6557772758,
+            0.0674530399314024,
+            1.7377537532370968
+          ],
+          [
+            61332.79487668622,
+            0.18407412729619402,
+            149.75865589567982
+          ],
+          [
+            25183.86273965144,
+            0.03352593383377846,
+            5.488026926486708
+          ]
+        ],
+        "spike_index": 0.227219,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 8.4e-05,
+        "half_slope_diff": -19.060307
+      },
+      "raw": {
+        "id": "0xe1a36b7daaf5ab8555510edf53fc75645c7a0ac26b3d47cfe9295b94f96bcf3a",
+        "title": "[ARFC] Chaos Labs Risk Parameter Updates - Increase Debt Ceiling for SNX and MKR on V3 Ethereum - 01.31.2024",
+        "author": "0x5d49dBcdd300aECc2C311cFB56593E71c445d60d",
+        "body": "## Simple Summary\n\nA proposal to increase the debt ceiling of SNX and MKR on V3 Ethereum\n\n## Motivation\n\n### SNX\n\nThe current debt ceiling for SNX on V3 Ethereum set at $2.5M, has reached 94% utilization.\n\nGiven current market conditions our [Isolation Mode Methodology](https://governance.aave.com/t/chaos-labs-isolation-mode-methodology/12440) supports increasing the debt ceiling to $4M.\n\nIt is important to note that the majority of SNX debt positions are concentrated within two accounts, accounting for over 90% of the total debt, as outlined below. While this concentration does not affect the current recommendation, it is something to continue monitoring and will be considered in future recommendations and cases of significant market changes.\n\n### Positions Analysis\n\nThere are currently two major users utilizing SNX as collateral on V3 Ethereum:\n\n1. [0x09d86d566092bec46d449e72087ee788937599d2](https://community.chaoslabs.xyz/aave/risk/wallets/0x09d86d566092bec46d449e72087ee788937599d2) - borrowing $1.81M in stables (USDC and USDT) against his 1.4M SNX collateral, accounting for nearly 73% of the debt ceiling. The user's current health score is 1.59.\n2. [0x97cfb214adcd7243efd6b491a6c719c493d04122](https://community.chaoslabs.xyz/aave/risk/wallets/0x97cfb214adcd7243efd6b491a6c719c493d04122) - borrowing ~$448K USDT against his ~595K SNX collateral, accounting for nearly 18% of the debt ceiling. The user's current health score is 2.73.\n\n\n### MKR\n\nThe current debt ceiling for MKR on V3 Ethereum set at $8.5M, has reached 99% utilization.\n\nGiven current market conditions our [Isolation Mode Methodology](https://governance.aave.com/t/chaos-labs-isolation-mode-methodology/12440) supports increasing the debt ceiling to $12M.\n\nThere are currently four major users using MKR as collateral on V3 Ethereum, utilizing 87.5% of the debt ceiling. While this concentration does not affect the current recommendation, it is something to continue monitoring and will be considered in future recommendations and cases of significant market changes\n\n### Positions Analysis\n\n1. [0xa9dee54892713f43c221509cfedbd717d16791a0](https://community.chaoslabs.xyz/aave/risk/wallets/0xa9dee54892713f43c221509cfedbd717d16791a0) - borrowing ~$3.79 DAI against his ~6,27K MKR collateral, accounting for nearly 45% of the debt ceiling. The user's current health score is 2.27.\n2. [0x09eda5af6b634dcee8e4c563a97a18dde1a11c81](https://community.chaoslabs.xyz/aave/risk/wallets/0x09eda5af6b634dcee8e4c563a97a18dde1a11c81) - borrowing ~$2.11M USDC against his ~2.79K MKR collateral, accounting for nearly 25% of the debt ceiling. The user's current health score is 1.81.\n3. [0xf47841f562689ad85363b41c235d61136c0ccf26](https://community.chaoslabs.xyz/aave/risk/wallets/0xf47841f562689ad85363b41c235d61136c0ccf26) - borrowing ~$801K USDC against his ~1.04K MKR collateral, accounting for nearly 9.5% of the debt ceiling. The user's current health score is 1.79.\n4. [0x1e7267fa2628d66538822fc44f0edb62b07272a4](https://community.chaoslabs.xyz/aave/risk/wallets/0x1e7267fa2628d66538822fc44f0edb62b07272a4) - borrowing ~$711K in stables (USDC and USDT) against his ~700 MKR collateral, accounting for nearly 8% of the debt ceiling. The user's current health score is 1.59.\n\n## Specification:\n\n| Asset | Parameter | Current | Recommended |\n| --- | --- | --- | --- |\n| SNX | Debt Ceiling | 2,500,000 | 4,000,000 |\n| MKR | Debt Ceiling | 8,500,000 | 12,000,000 |\n\n## Next Steps\n\n1. Following community feedback, submit the ARFC for a snapshot vote for final approval.\n2. If consensus is reached, submit an Aave Improvement Proposal (AIP) to implement the proposed updates.\n\n## Disclaimer\n\nChaos Labs has not been compensated by any third party for publishing this ARFC.\n\n## Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain)",
+        "end_utc": "2024-02-11T21:18:27Z",
+        "similarity_score": 0.2593,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "NAY",
+            "Abstain"
+          ],
+          "scores": [
+            603443.398789319,
+            1.1787881370524562,
+            157.87579811789976
+          ],
+          "scores_total": 603602.4533755739,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2024-02-11T21:18:27",
+          "pre_tvl_avg": 7295746192.0,
+          "post_tvl_avg": 7842488311.5,
+          "abnormal_change": 7.494,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.07494,
+          "abnormal_change_pct": 7.494
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2024-02-11T21:18:27",
+          "pre_price_avg": 88.01101911,
+          "post_price_avg": 90.36434143,
+          "abnormal_change": 2.6739,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.026739,
+          "abnormal_change_pct": 2.6739
+        }
+      }
+    },
+    {
+      "proposal_id": "0xe3a29b7d6d936a22ee340811f842a29e4be654e08972f53f43dde7748c722195",
+      "cleaned": {
+        "proposal_id": "0xe3a29b7d6d936a22ee340811f842a29e4be654e08972f53f43dde7748c722195",
+        "title": "[ARFC] LT/LTV Reductions on Aave V2 Stablecoins",
+        "author": "0x5d49dBcdd300aECc2C311cFB56593E71c445d60d",
+        "end_utc": "2024-05-10T15:04:01Z",
+        "similarity_score": 0.2253,
+        "winning_option": "Conservative",
+        "winning_option_index": 1,
+        "margin_abs": 648200.4081324788,
+        "margin_pct": 0.9997442812927145,
+        "scores_total": 648366.2075009085,
+        "change_stance": "Not change, Status quo"
+      },
+      "timeline_metrics": {
+        "unique_voters": 458,
+        "total_votes": 458,
+        "first_vote_at": "2024-05-07T15:08:50Z",
+        "last_vote_at": "2024-05-10T14:47:43Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 1,
+        "lead_ratio_by_quartile": [
+          [
+            0.389163,
+            0.610837,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.17248908296943233,
+          0.8275109170305677,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          0.17248908296943233,
+          0.8275109170305677,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.3891625615763547,
+          0.6108374384236454,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            46.460616945969086,
+            88937.30795248265,
+            0.011100334798858314,
+            1.3842461178344545
+          ],
+          [
+            2.425797534072553,
+            326480.626851305,
+            0.08483609838472238,
+            0.1278433243237998
+          ],
+          [
+            26.11178781776593,
+            151710.25878821898,
+            1.0176145086194763,
+            0.2494564364462552
+          ],
+          [
+            4.6677738449065025,
+            81151.88051661484,
+            2.0060129900000003,
+            1.5863063336061045
+          ]
+        ],
+        "spike_index": 0.334373,
+        "spike_follow_support_ratio": 0.999996,
+        "stairwise_ratio": 4.5e-05,
+        "half_slope_diff": 23.970986
+      },
+      "raw": {
+        "id": "0xe3a29b7d6d936a22ee340811f842a29e4be654e08972f53f43dde7748c722195",
+        "title": "[ARFC] LT/LTV Reductions on Aave V2 Stablecoins",
+        "author": "0x5d49dBcdd300aECc2C311cFB56593E71c445d60d",
+        "body": "# Summary\n\nA proposal to reduce LT and LTV for USDC on Aave V2\n\n# Motivation\n\nFollowing our [ongoing reduction](https://governance.aave.com/t/generalized-lt-ltv-reduction-on-aave/16766) of stablecoin LTs and LTVs on Aave V3 markets, we propose reducing LTs and LTVs on V2 to limit risks posed by the current parameters and align them closer to V3’s parameters. \n\nIt is important to note that in some cases, it is difficult to reduce LTs because of users looping assets with themselves. For example, on Ethereum, there are 58 wallets that are both supplying and borrowing more than 10,000 USDC. This leads us to recommend two different options on which the community can decide: a more aggressive LT reduction, which will result in more liquidations but help reduce LT more quickly and a conservative LT reduction, which will prioritize limiting liquidations. For all options, we recommend decreasing LTV to the target of 75%. \n\n## LT/LTV Reduction\n\nThe overall goal of our stablecoin LT/LTV reduction is the same as on V3, ultimately achieving the following parameters:\n\n| Final LTV | Final LT |\n| --- | --- |\n| 75.00% | 78.00% |\n\n***USDC (Ethereum)***\n\nCurrently, reducing LT would require inducing a significant number of liquidations; a reduction of just 0.50% would create $137K in new liquidations, and a 2% reduction would create $200K in new liquidations. This is largely caused by two users ([1](https://community.chaoslabs.xyz/aave-v2/risk/wallets/0xb60bda0bab52839a3334bd849d2afb2aa566e631), [2](https://community.chaoslabs.xyz/aave-v2/risk/wallets/0xf451d30a7ac2e56f52a36825b155b0ac1fb7a867)), both of whom are looping USDC with itself. Thus, our conservative proposal is not adjusting LT, while the aggressive calls for reducing it by 0.50%.\n| Asset | Value Liquidated ($) | Accounts Liquidated |\n| --- | --- | --- |\n| Conservative | - | - |\n| Aggressive | 137.3K | 10 |\n\n***USDC.e (Polygon)***\n\nSimilar to USDC on Ethereum, it is difficult to reduce the LT without inducing large liquidations, thus the conservative proposal calls for a reduction to 84.50%.\n\nThe three largest potential liquidations ([1](https://community.chaoslabs.xyz/aave-v2/risk/wallets/0xb3095b2861fba8ebcfd199546ce9488c75676850),[2](https://community.chaoslabs.xyz/aave-v2/risk/wallets/0x299b189f47838ee8ebb630c3024bb1cd9f109ee8),[3](https://community.chaoslabs.xyz/aave-v2/risk/wallets/0x818b84cc4c3012cb6b36bfb627fd82438718fc7c)), representing the majority of new value eligible for liquidation, are all wallets that are looping USDC.e with itself.\n\nThe more aggressive approach would reduce LT to 83% and potentially induce $103K worth of liquidations.\n\n| Asset | Value Liquidated ($) | Accounts Liquidated |\n| --- | --- | --- |\n| Conservative | 10K | 45 |\n| Aggressive | 103K | 235 |\n\n\n***USDC.e (Avalanche)***\n\nOur approach involves reducing USDC.e’s LT to 78%, inducing $10,300 worth of liquidations across 11 new wallets.\n\nAgain, the largest liquidation would be a [user](https://community.chaoslabs.xyz/aave-v2/risk/wallets/0xdb815d4071c3d8b2ebec6c003f30bfbfa6a5d8b8) who is looping USDC.e. This would bring the market in line with our final parameters, and thus there is no need for an aggressive proposal.\n\n# Specification\n\n| Chain | Asset | Current LTV | Rec. LTV | Current LT | Rec LT (Moderate/Aggressive) | \n| --- | --- | --- | --- | --- | --- | \n| Ethereum | USDC | 80.00% | 75.00% | 87.50% | No Change / 87.00% | \n| Polygon | USDC.e | 80.00% | 75.00% | 85.00% | 84.50% / 83.00% | \n| Avalanche | USDC.e | 75.00% | No Change | 80.00% | 78.00% | \n\n\n# Next Steps\n\n1. Following community feedback, submit the ARFC for a snapshot vote for final approval.\n2. If consensus is reached, submit an Aave Improvement Proposal (AIP) to implement the proposed updates.\n\n# Disclaimer\n\nChaos Labs has not been compensated by any third party for publishing this ARFC.\n\n# Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain)",
+        "end_utc": "2024-05-10T15:04:01Z",
+        "similarity_score": 0.2253,
+        "vote_result": {
+          "choices": [
+            "Aggressive",
+            "Conservative",
+            "NAY",
+            "Abstain"
+          ],
+          "scores": [
+            79.66597614271413,
+            648280.0741086216,
+            3.119563931803057,
+            3.3478522122106145
+          ],
+          "scores_total": 648366.2075009085,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2024-05-10T15:04:01",
+          "pre_tvl_avg": 10430602561.5,
+          "post_tvl_avg": 10353106196.5,
+          "abnormal_change": -0.743,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.00743,
+          "abnormal_change_pct": -0.743
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2024-05-10T15:04:01",
+          "pre_price_avg": 88.073587705,
+          "post_price_avg": 82.88989896999999,
+          "abnormal_change": -5.8856,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.058856,
+          "abnormal_change_pct": -5.8856
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0x9674191acdb3cae244e010069df7637d6b7b3e30849f91570f0349323c5330d9",
+    "selected_choice_label": "YAE",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "The proposal seeks to update risk parameters (LTV and Liquidation Threshold) for five Aave V3 assets to enhance capital efficiency while maintaining risk controls.",
+    "key_arguments_for": [
+      "Strong timeline voting support with near unanimous early and sustained votes for YAE option.",
+      "Risk analysis by Chaos Labs indicates minimal increase in risk with proposed parameter changes based on LT simulations and user/liquidity distribution.",
+      "Historical similar proposals also recommended conservative parameter increases with positive post-vote TVL and price impacts.",
+      "Forum sentiment, while limited in volume, is generally neutral to slightly negative but does not oppose the technical merit of the proposal."
+    ],
+    "key_arguments_against": [
+      "Minor negative sentiment in forum comments possibly reflecting concerns or caution.",
+      "Historical lessons show some proposals with risk parameter changes had temporary token price declines, advising cautious incremental changes."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://governance.aave.com/t/arfc-chaos-labs-risk-parameter-updates-aave-v3-05-24-2024/17788",
+        "quote": "Proposal to adjust ten risk parameters across five assets with balanced risk management; forum sentiment mostly neutral or negative in limited comments."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": null,
+        "quote": "Timeline metrics show overwhelming support for YAE option with 99.7% lead ratio and high stability."
+      },
+      {
+        "source_tool": "registry_lookup",
+        "reference": "aavedao.eth",
+        "quote": "Governance token address 0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9 identified for voting context."
+      }
+    ],
+    "available_choices": [
+      "YAE",
+      "NAY",
+      "Abstain"
+    ],
+    "event_start_utc": "2024-05-30T19:06:39Z",
+    "event_end_utc": "2024-06-02T19:06:39Z",
+    "event_time_utc": "2024-06-02T19:06:39Z",
+    "address_of_governance_token": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+    "token_price_impact_pct": -0.6833,
+    "tvl_impact_pct": 0.8998,
+    "actual_vote_result": {
+      "winner_label": "YAE",
+      "winner_index": 0,
+      "scores": [
+        624884.5622927684,
+        0.27561169350820963,
+        28.816294181029487
+      ],
+      "scores_total": 624913.654198643,
+      "margin_abs": 624855.7459985873,
+      "margin_pct": 0.999907
+    },
+    "simulation_reason": "Recommendation based on timeline analytics, sentiment analysis, and historical lessons prioritizing organizational durable benefit.",
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'YAE' selected with stance to keep 'Change'.",
+    "ai_final_reason": "• Timeline analytics show near unanimous and stable support for 'YAE', indicating strong voter confidence in proposed parameter updates.\n• Forum sentiment is limited but leans neutral to slightly negative; the recommendation aligns with the vote outcome and technical rationale, suggesting the vote reflects community views.\n• Historical similar proposals also recommended parameter increases and led to positive TVL outcomes, reinforcing cautious optimism for this update.\n• Market impact is modest and TVL shows slight positive growth, supporting the proposal's risk-managed approach.\n• Overall, the recommendation favors adopting the changes to enhance capital efficiency while maintaining risk controls, maximizing long-term health of the protocol.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x389b244cae117793a02673cf1600579b26ce409e3c25a2ea9bf5a5cc57d0a92d",
+        "title": "[ARFC] Chaos Labs Risk Parameter Updates - GNO on V3 Gnosis",
+        "end_utc": "2024-04-20T13:05:33Z",
+        "summary": "[ARFC] Chaos Labs Risk Parameter Updates - GNO on V3 Gnosis closed on 2024-04-20T13:05:33Z. Timeline analytics noted 463 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Moderate text overlap (score 0.36)",
+        "market_response": "token +9.99%; TVL +6.63%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0xe3a29b7d6d936a22ee340811f842a29e4be654e08972f53f43dde7748c722195",
+        "title": "[ARFC] LT/LTV Reductions on Aave V2 Stablecoins",
+        "end_utc": "2024-05-10T15:04:01Z",
+        "summary": "[ARFC] LT/LTV Reductions on Aave V2 Stablecoins closed on 2024-05-10T15:04:01Z. Timeline analytics noted 458 unique voters, timeline-only analysis (no final tally), recommended option index 1.",
+        "similarity_reason": "Moderate text overlap (score 0.24)",
+        "market_response": "token -5.75%; TVL -0.74%",
+        "change_stance": "Not change, Status quo"
+      }
+    ],
+    "ex_post_price_impact_pct": -0.6833,
+    "ex_post_tvl_impact_pct": 0.8998,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -0.68%; TVL +0.90%"
+  },
+  "agentic_ai_choice": "YAE",
+  "actual_outcome": "YAE",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 2,
+    "Positive": 0,
+    "Neutral": 1,
+    "total_comments": 3
+  }
+}

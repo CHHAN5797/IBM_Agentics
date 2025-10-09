@@ -1,0 +1,1155 @@
+{
+  "captured_at_utc": "2025-10-06T23:06:33.890768+00:00",
+  "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0x953f0edc544fe50e68a0aa19d31542d15458bc3394478a31a294f748198fa906",
+  "focus": null,
+  "votes_count": 5500,
+  "timeline_metrics_current": {
+    "unique_voters": 5500,
+    "total_votes": 5500,
+    "first_vote_at": "2023-03-27T09:00:47Z",
+    "last_vote_at": "2023-03-27T13:25:30Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        249571.4643503414,
+        0.41887953994003757,
+        0.033347543140895865
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.955843,
+    "spike_follow_support_ratio": 0.992093,
+    "stairwise_ratio": 4e-06,
+    "half_slope_diff": -1.81736
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x1b816c12b6f547a1982198ffd0e36412390b05828b560c9edee4e8a6903c4882",
+      "title": "[ARFC] Migrate & Consolidate Polygon Treasury",
+      "author": "0xc290Cfb8D020c0615e9C63036f4319Cc41717E68",
+      "end_utc": "2023-03-19T12:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-03-15T12:00:23Z",
+        "last_vote_at": "2023-03-16T04:32:20Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            156168.97051154904,
+            1.2151971505007781,
+            8.510188836807487
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.687168,
+        "spike_follow_support_ratio": 0.998374,
+        "stairwise_ratio": 8.3e-05,
+        "half_slope_diff": -1.212425
+      },
+      "price_impact_pct": -0.3951,
+      "tvl_impact_pct": 9.2412,
+      "similarity": 0.1667,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "YAE",
+        "margin_abs": 629580.2508576721,
+        "scores_total": 629695.7078234481,
+        "margin_pct": 0.9998166464145434
+      }
+    },
+    {
+      "id": "0x05182d6092e7a075b94ab937a6cd57968f36c6ac225196561a58b437e591065f",
+      "title": "[ARFC] Deploy BAL & aBAL from the Collector Contract",
+      "author": "0xc290Cfb8D020c0615e9C63036f4319Cc41717E68",
+      "end_utc": "2023-03-16T12:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-03-13T12:38:56Z",
+        "last_vote_at": "2023-03-14T01:22:54Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.996727,
+            0.003273,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9967272727272727,
+          0.0032727272727272726,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          0.9967272727272727,
+          0.0032727272727272726,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.9967272727272727,
+          0.0032727272727272726,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            52712.93631739046,
+            2.0703442907179768,
+            0.05149452719213608,
+            0.16418048396528462
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.790583,
+        "spike_follow_support_ratio": 0.979839,
+        "stairwise_ratio": 2.4e-05,
+        "half_slope_diff": -0.822783
+      },
+      "price_impact_pct": 2.3283,
+      "tvl_impact_pct": 4.6543,
+      "similarity": 0.1308,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "YAE - Locking veBAL",
+        "margin_abs": 324848.5399000491,
+        "scores_total": 325173.0646125642,
+        "margin_pct": 0.999001993867783
+      }
+    },
+    {
+      "id": "0x6045a328e60be9369c4cd87a6b444d88fa1e1e3862d240f244e4190414e8f132",
+      "title": "[ARFC] Extend Safety Module Coverage to Polygon v3",
+      "author": "0xc290Cfb8D020c0615e9C63036f4319Cc41717E68",
+      "end_utc": "2023-03-16T12:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-03-13T12:00:10Z",
+        "last_vote_at": "2023-03-13T16:16:53Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            10842.544884858444,
+            1.4467846378070004,
+            1.1547316053369217
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.97738,
+        "spike_follow_support_ratio": 0.672886,
+        "stairwise_ratio": 7.9e-05,
+        "half_slope_diff": -0.093329
+      },
+      "price_impact_pct": 2.3283,
+      "tvl_impact_pct": 4.6543,
+      "similarity": 0.1392,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "YAE",
+        "margin_abs": 407190.99643904914,
+        "scores_total": 407323.58742033085,
+        "margin_pct": 0.9996744824376083
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x402647b83c436aecbe2fe404870f08767b5509225cbe606913e50801f87f5db8",
+      "cleaned": {
+        "proposal_id": "0x402647b83c436aecbe2fe404870f08767b5509225cbe606913e50801f87f5db8",
+        "title": "[ARFC] Add wstETH to Arbitrum Aave v3",
+        "author": "0xc290Cfb8D020c0615e9C63036f4319Cc41717E68",
+        "end_utc": "2023-02-09T12:00:00Z",
+        "similarity_score": 0.31,
+        "winning_option": "YAE - with Ethereum eMode",
+        "winning_option_index": 0,
+        "margin_abs": 551517.4472296769,
+        "margin_pct": 0.9995275167985281,
+        "scores_total": 551778.1531379737,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-02-06T12:00:11Z",
+        "last_vote_at": "2023-02-07T08:22:43Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            146235.62167121566,
+            6.509673971388316,
+            0.16301454629577505,
+            2.310443699698004
+          ],
+          [
+            34.25633139682365,
+            0.6309095966153102,
+            0.08699049920755024,
+            1.0104978913315052
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.616966,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.000286,
+        "half_slope_diff": -31.611889
+      },
+      "raw": {
+        "id": "0x402647b83c436aecbe2fe404870f08767b5509225cbe606913e50801f87f5db8",
+        "title": "[ARFC] Add wstETH to Arbitrum Aave v3",
+        "author": "0xc290Cfb8D020c0615e9C63036f4319Cc41717E68",
+        "body": "---\n\ntitle: [ARFC] Add wstETH to Arbitrum Aave v3\nDiscussion: https://governance.aave.com/t/arc-add-support-for-wsteth-on-arbitrum-aave-v3/11387\nshort description: Add wstETH to Arbitrum Aave v3 deployment as collateral with borrowing enabled and the option to create an Ethereum eMode.\nauthor: Llama - Defi_Consulting\ndated: 2023-02-05\n\n---\n\n# Summary\n\nThis ARFC presents the community with the opportunity to add wstETH to the Arbitrum v3 Liquidity Pool.\n\n# Abstract\n\nAcross the Aave Liquidity Pools, stETH is listed on Aave v2 Ethereum and wstETH is listed on Aave v3 Ethereum. This proposal seeks to list wstETH on the Arbitrum Liquidity Pool as Collateral with Borrowing enabled.  \n\nThe stETH/wETH rewards-maximising loop on Aave v2 is the main source of borrowing demand for wETH and the wETH reserve generates a material portion of Aave’s revenue, $279k in January 2023. By listing wstETH on Arbitrum users will be able to enter the same recursive strategy creating borrowing demand for wETH and revenue for Aave.\n \nThe risk parameters have been provided by Gauntlet and Chaos Labs, with this post using the more conservative of the two risk service providers.\n\n# Motivation\n\nThe stETH reserve on Aave v2 is the largest reserve across all Aave deployments with $1.56B in deposits, exceeding USDC ($0.81B) and ETH ($1.39B). This is partially due to several communities having built products that deposit stETH and borrow ETH as part of a rewards-maximising strategy. \n\nDemand for borrowing wETH on Aave v2 Ethereum increased significantly when stETH was listed as collateral. InstaDapp, Index Coop, Galleon DAO and others have all built products on top of Aave v2 that utilise the rewards-maximising stETH/ETH strategy. By adding wstETH to the Arbitrum Liquidity Pool, Aave moves closer towards enabling developers to deploy similar products on Arbitrum. This is expected to create borrowing demand for wETH and boost Aave’s revenue.\n\nThe charts below show the effect of stETH has had on the Aave v2 Ethereum liquidity pool. stETH drives most of the wETH borrowing demand and resulting wETH fee-revenue. The wETH reserve generated approximately $217k in revenue during December and $279k during January 2023.\n\n\n\n\nListing of stETH by Aave has enabled Aave to offer the best return on wETH, in wETH terms, across major lending markets, continually outperforming Compound. By listing wstETH on Arbitrum, the Aave community is helping create an environment capable of replicating the success of the Aave v2 Ethereum Liquidity Pool.\n\n# Specification\n\nThis section presents the risk parameters and interest rates parameters as discussed on the governance forum. The parameters shown below are a combination of Gauntlet’s and Chao’s work and utilise the same interest rate proposed by Llama for wstETH on Arbitrum.\n\n\nGauntlet’s and Chao’s combined but differing risk assessments can be found [here](https://governance.aave.com/t/arc-add-support-for-wsteth-on-arbitrum-aave-v3/11387/7).\n\n\n## Risk Parameters\n\n\n|Parameter|Value|\n| --- | --- |\n|Isolation Mode|No|\n|Borrowable|Yes|\n|Collateral Enabled| Yes|\n|Supply Cap (in tokens)| 1,200|\n|Borrow Cap (in tokens)| 190|\n|Debt Ceiling| 0|\n|LTV| 70.0%|\n|LT| 79.0%|\n|Liquidation Bonus| 7.2%|\n|Liquidation Protocol Fee |10%|\n\n\n### ETH eMode Category\n\n\n|Category|Assets Included|Loan to Value|Liquidation Threshold|Liquidation Bonus|\n| --- | --- | --- | --- | --- |\n|Ethereum Correlated|wstETH wETH|90%|93%|2%|\n\n\n### Borrow Rates\n\n\n|Category|Value|\n|---|---|\n|Base|0.25%|\n|Slope1|4.50%|\n|Slope2|80.00%|\n|Uoptimal|45.00|\n|Reserve Factor|15.00|\n\n# Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).\n\n",
+        "end_utc": "2023-02-09T12:00:00Z",
+        "similarity_score": 0.31,
+        "vote_result": {
+          "choices": [
+            "YAE - with Ethereum eMode",
+            "YAE - without Ethereum eMode",
+            "NAE",
+            "ABSTAIN"
+          ],
+          "scores": [
+            551635.4783851927,
+            21.621438572453258,
+            3.022158692900689,
+            118.03115551576596
+          ],
+          "scores_total": 551778.1531379737,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2023-02-09T12:00:00",
+          "pre_tvl_avg": 4698226969.5,
+          "post_tvl_avg": 4389734098.5,
+          "abnormal_change": -6.5662,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.065662,
+          "abnormal_change_pct": -6.5662
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2023-02-09T12:00:00",
+          "pre_price_avg": 87.880659145,
+          "post_price_avg": 78.40648342,
+          "abnormal_change": -10.7807,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.107807,
+          "abnormal_change_pct": -10.7807
+        }
+      }
+    },
+    {
+      "proposal_id": "0x0ddd9784d8ac59ffcabc8ce86d2993179e044eeb102df1644b5b58d04ff25e63",
+      "cleaned": {
+        "proposal_id": "0x0ddd9784d8ac59ffcabc8ce86d2993179e044eeb102df1644b5b58d04ff25e63",
+        "title": "[ARFC] Add wstETH to Optimism Aave v3",
+        "author": "0x329c54289Ff5D6B7b7daE13592C6B1EDA1543eD4",
+        "end_utc": "2023-02-02T12:00:00Z",
+        "similarity_score": 0.3004,
+        "winning_option": "YAE (without emode)",
+        "winning_option_index": 1,
+        "margin_abs": 537270.3256576224,
+        "margin_pct": 0.9880063798060648,
+        "scores_total": 543792.3647447326,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-01-31T12:01:04Z",
+        "last_vote_at": "2023-02-01T08:33:03Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            280.3021405041701,
+            10983.0333448566,
+            1.800156863793336,
+            0.3281543590666087
+          ],
+          [
+            2852.5409478275137,
+            112.20179549751573,
+            0.3695894527537989,
+            1.014112604202604
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.954966,
+        "spike_follow_support_ratio": 0.316178,
+        "stairwise_ratio": 0.002866,
+        "half_slope_diff": -0.050995
+      },
+      "raw": {
+        "id": "0x0ddd9784d8ac59ffcabc8ce86d2993179e044eeb102df1644b5b58d04ff25e63",
+        "title": "[ARFC] Add wstETH to Optimism Aave v3",
+        "author": "0x329c54289Ff5D6B7b7daE13592C6B1EDA1543eD4",
+        "body": "---\n\ntitle: [ARFC] Add wstETH to Optimism Aave v3\nDiscussion: https://governance.aave.com/t/arc-add-wsteth-to-aave-v3-on-optimism/10932\nshort description: Add wstETH to Optimism Aave v3 deployment as collateral with borrowing enabled. Create an Ethereum eMode.\nauthor: Llama - Defi_Consulting\ndated: 2023-01-29\n\n---\n\n# Summary\n\nThis ARFC presents the community with the opportunity to add wstETH to the Optimism V3 Liquidity Pool.\n\n# Abstract\n\nAcross the Aave Liquidity Pools, stETH is listed on Aave v2 Ethereum and wstETH is listed on Aave v3 Ethereum. This proposal seeks to list wstETH on the Optimism Liquidity Pool as Collateral with Borrowing enabled.  \n\nThe stETH/wETH rewards-maximising loop on Aave v2 is the main source of borrowing demand for wETH and the wETH reserve generates a material portion of Aave’s revenue, more than $281k in January 2023. By listing wstETH on Optimism users will be able to enter the same recursive strategy creating borrowing demand for wETH and revenue for Aave.\n \nThe risk parameters have been provided by Gauntlet and Llama, with this post using the parameters agreed between the two service providers.\n\n# Motivation\n\nThe stETH reserve on Aave v2 is the largest reserve across all Aave deployments with $1.55B in deposits, exceeding USDC ($0.83B) and ETH ($1.42B). This is partially due to several communities having built products that deposit stETH and borrow ETH as part of a rewards-maximising strategy. \n\nDemand for borrowing wETH on Aave v2 Ethereum increased significantly when stETH was listed as collateral. InstaDapp, Index Coop, Galleon DAO and others have all built products on top of Aave v2 that utilise the rewards-maximising stETH/ETH strategy. By adding wstETH to the Optimism Liquidity Pool, Aave moves closer towards enabling developers to deploy similar products on Optimism. This is expected to create borrowing demand for wETH and boost Aave’s revenue.\n\nThe charts below show the effect of stETH has had on the Aave v2 Ethereum liquidity pool. stETH drives most of the wETH borrowing demand and resulting wETH fee-revenue. The wETH reserve generated approximately $217k in revenue during December and has already generated $281k by late January.\n \n![Screenshot 2023-01-29 at 19.09.51.png](ipfs://bafkreifbt44i7me57hhozvj664bdjcfjotmg4zi5qzjficp4k2boshqt6y)\n    \nListing of stETH by Aave has enabled Aave to offer the best return on wETH, in wETH terms, across major lending markets, continually outperforming Compound. By listing wstETH on Optimism, the Aave community is helping create an environment capable of replicating the success of the Aave v2 Ethereum Liquidity Pool.\n\n# Specification\n\nThis section presents the risk parameters and interest rates parameters as discussed on the governance forum. The parameters shown below are a combination of Gauntlet’s and Llama’s work.\n\n\nGauntlet’s Risk Assessment can be found [here](https://governance.aave.com/t/arc-add-wsteth-to-aave-v3-on-optimism/10932/2).\n\nLlama’s Risk Assessment can be found [here](https://governance.aave.com/t/arc-add-wsteth-to-aave-v3-on-optimism/10932/4).\n\n## Risk Parameters\n\n|Parameter|Value|\n| --- | --- |\n|Isolation Mode|No|\n|Borrowable|Yes|\n|Collateral Enabled| Yes|\n|Supply Cap (wstETH)| 6000|\n|Borrow Cap (wstETH)| **940**|\n|Debt Ceiling| 0|\n|LTV| 70.0%|\n|LT| 79.0%|\n|Liquidation Bonus| 7.2%|\n|Liquidation Protocol Fee |10%|\n\n## ETH eMode Category\n\n|Category|Assets Included|Loan to Value|Liquidation Threshold|Liquidation Bonus|\n| --- | --- | --- | --- | --- |\n|Ethereum Correlated|wstETH wETH|90%|93%|**2%**|\n\n## Borrow Rates\n\n|Category|Value|\n|---|---|\n|Base|0.25%|\n|Slope1|4.50%|\n|Slope2|80.00%|\n|Uoptimal|45.00|\n|Reserve Factor|**15.00**|\n \n![Screenshot 2023-01-29 at 19.10.59.png](ipfs://bafkreidrs3igaqvlz575egn46yjlp2mum2356owg3pqsxweqzbf3hkci3u)\n    \n# Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).\n\n",
+        "end_utc": "2023-02-02T12:00:00Z",
+        "similarity_score": 0.3004,
+        "vote_result": {
+          "choices": [
+            "YAE (with emode)",
+            "YAE (without emode)",
+            "NAE",
+            "ABSTAIN"
+          ],
+          "scores": [
+            3257.004403535988,
+            540527.3300611584,
+            5.1001443329831515,
+            2.930135696928694
+          ],
+          "scores_total": 543792.3647447326,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2023-02-02T12:00:00",
+          "pre_tvl_avg": 4555366101.0,
+          "post_tvl_avg": 4726326195.0,
+          "abnormal_change": 3.7529,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.037529,
+          "abnormal_change_pct": 3.7529
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2023-02-02T12:00:00",
+          "pre_price_avg": 85.64426398500001,
+          "post_price_avg": 87.197811675,
+          "abnormal_change": 1.814,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.01814,
+          "abnormal_change_pct": 1.814
+        }
+      }
+    },
+    {
+      "proposal_id": "0xf4aec3fbab5096752be96f0e5b522f37318c1902cf8b897b049b7a94d478de73",
+      "cleaned": {
+        "proposal_id": "0xf4aec3fbab5096752be96f0e5b522f37318c1902cf8b897b049b7a94d478de73",
+        "title": "[ARFC] Add MKR to Ethereum v3",
+        "author": "0xc290Cfb8D020c0615e9C63036f4319Cc41717E68",
+        "end_utc": "2023-03-13T12:00:00Z",
+        "similarity_score": 0.2558,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 660059.9569165846,
+        "margin_pct": 0.9999216316376548,
+        "scores_total": 660111.6887885999,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-03-08T12:01:22Z",
+        "last_vote_at": "2023-03-08T17:45:23Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            238124.815560838,
+            1.0084764904500931,
+            0.13963505916024535
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.998635,
+        "spike_follow_support_ratio": 0.999916,
+        "stairwise_ratio": 5e-06,
+        "half_slope_diff": -3.985378
+      },
+      "raw": {
+        "id": "0xf4aec3fbab5096752be96f0e5b522f37318c1902cf8b897b049b7a94d478de73",
+        "title": "[ARFC] Add MKR to Ethereum v3",
+        "author": "0xc290Cfb8D020c0615e9C63036f4319Cc41717E68",
+        "body": "---\n\nTitle: [ARFC] Add MKR to Ethereum v3\nAuthor: @Llamaxyz - DeFi_Consulting (@matthewgraham), ACI (@MarcZeller) and 3SE\nDated: 2023-02-18\n\n---\n\n# Summary\n\nThis proposal presents Aave the opportunity to onboard MKR to the Ethereum v3 Liquidity Pool.\n\n# Abstract\n\nMKR is the governance token of the Maker DAO ecosystem. MKR token holders govern the Maker Protocol, the smart contracts that power DAI. There is currently $12.71m of MKR deposited into Aave v2 on Ethereum. This proposal grants Aave the opportunity to list the governance token of the community supporting DAI which contributes $167m of TVL on the Ethereum v2 deployment.\n\nThis ARFC is a joint effort with ACI and 3SE to allow a selection of v2 listed assets to be onboarded on V3 via the governance process. Subject to a favourable Snapshot vote, Llama will submit an AIP for voting.\n\n# Motivation\n\nMaker DAO has over $7.45B in TVL and is ranked second on Defi Llama TVL rankings. The Maker Protocol is only deployed on the Ethereum network. The stable coin DAI, provides $167m of deposits into Aave v2 on Ethereum, with over $103m of this supply being borrowed by users.\n\nThe risk parameters provided here within are from Gauntlet’s original Aave v3 initial [assets listings and configurations](https://governance.aave.com/t/arc-aave-v3-ethereum-deployment-assets-and-configurations/10238/22) forum thread. These parameters are to be revised by Gauntlet and feedback will be incorporated before progressing to a Snapshot vote.\n\nThe interest rate provided in the proposal mirrors the v2 deployment with exception of the parameters specific to stable interest rates. The stable rates proposed are the somewhat generic listing rates as stable borrowing is disabled. However, if stable borrowing was enabled, the suggested parameters are suitable and don’t create any undesirable dynamics between stable and variable rates.\n\nWe note that this proposal is to be reviewed by Gauntlet, with feedback incorporated, prior to progressing to Snapshot.\n\n# Specification\n\nTicker: MKR\n\nContract Address: [0xba100000625a3754423978a60c9317c58a424e3D](https://etherscan.io/address/0x9f8F72aA9304c8B593d555F12eF6589cC3A579A2)\n\n|Risk Parameter|Value|\n| --- | --- |\n|Isolation Mode|YES|\n|Enable Borrow|YES|\n|Enable Collateral|YES|\n|Loan To Value|65.00%|\n|Liquidation Threshold|70.00%|\n|Liquidation Bonus|8.50%|\n|Reserve Factor|20.00%|\n|Liquidation Protocol Fee|10.00%|\n|Borrow Cap|1,500|\n|Supply Cap|6,000|\n|Debt Ceiling|$2,500,000|\n|Variable Base|0.00%|\n|Variable Slope1|7.00%|\n|Variable Slope2|300.00%|\n|Uoptimal|45%|\n|Stable Borrowing|Disabled|\n|Stable Slope1|13.00%|\n|Stable Slope2|300.00%|\n|Base Stable Rate Offset|3.00%|\n|Stable Rate Excess Offset|5.00%|\n|Optimal Stable To Total Debt Ratio|20.00%|\n\nNote: Stable borrowing is disabled, however parameters are provided in case stable borrowing is enabled at a later date without amending any parameters.\n\n# Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+        "end_utc": "2023-03-13T12:00:00Z",
+        "similarity_score": 0.2558,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "NAE",
+            "ABSTAIN"
+          ],
+          "scores": [
+            660079.7172730677,
+            12.211159049689565,
+            19.76035648306368
+          ],
+          "scores_total": 660111.6887885999,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2023-03-13T12:00:00",
+          "pre_tvl_avg": 4451320318.5,
+          "post_tvl_avg": 5151318134.0,
+          "abnormal_change": 15.7256,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.157256,
+          "abnormal_change_pct": 15.7256
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2023-03-13T12:00:00",
+          "pre_price_avg": 70.18116037,
+          "post_price_avg": 74.537476395,
+          "abnormal_change": 6.2072,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.062072,
+          "abnormal_change_pct": 6.2072
+        }
+      }
+    },
+    {
+      "proposal_id": "0xe394799e4d006c15e0cb13155701de495888b7e7dad8f917a6b5dd1c8106cea5",
+      "cleaned": {
+        "proposal_id": "0xe394799e4d006c15e0cb13155701de495888b7e7dad8f917a6b5dd1c8106cea5",
+        "title": "[ARFC] Add BAL Ethereum v3",
+        "author": "0xc290Cfb8D020c0615e9C63036f4319Cc41717E68",
+        "end_utc": "2023-02-18T12:00:00Z",
+        "similarity_score": 0.2482,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 652817.1192815703,
+        "margin_pct": 0.9998796094960873,
+        "scores_total": 652895.7217265114,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-02-15T12:00:14Z",
+        "last_vote_at": "2023-02-17T08:30:00Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            2705.0837026364547,
+            1.0154122395049276,
+            3.5410711681283495
+          ],
+          [
+            353837.2321676682,
+            1.6215149078537423,
+            0.9556136392586198
+          ],
+          [
+            44275.01791031525,
+            0.9085929074711994,
+            0.2983567904875011
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.58785,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.000378,
+        "half_slope_diff": 19.097061
+      },
+      "raw": {
+        "id": "0xe394799e4d006c15e0cb13155701de495888b7e7dad8f917a6b5dd1c8106cea5",
+        "title": "[ARFC] Add BAL Ethereum v3",
+        "author": "0xc290Cfb8D020c0615e9C63036f4319Cc41717E68",
+        "body": "---\n\ntitle: [ARFC] Add BAL Ethereum v3\nAuthor: @Llamaxyz - DeFi_Consultants & @solarcurve (Balancer DAO)\nDated: 2023-01-31\n\n---\n\n# Summary\n\nThis proposal presents Aave the opportunity to onboard BAL to the Ethereum v3 Liquidity Pool.\n\n# Abstract\n\nBAL is a strategic asset to Aave and any BAL earned from the pool could be used by Aave to bootstrap the adoption of GHO and/or the new aToken being developed by @AaveCompanies.\n\nThe risk parameters provided within are the same as those provided by Gauntlet within the [initial forum post](https://governance.aave.com/t/arc-aave-v3-ethereum-deployment-assets-and-configurations/10238/22) discussing which assets to onboard to v3 Ethereum.\n\nBy presenting each asset to be onboarded to v3 Ethereum individually, the community can focus on a specific asset, with individual Snapshots determining how to proceed. Finally, approved assets listings can be grouped for the on-chain AIP vote.\n\n# Motivation\n\nListing BAL as a priority for Aave v3 reflects the strategic relationship between the two communities. Balancer and Aave completed a [200,000 BAL for AAVE token swap](https://app.aave.com/governance/proposal/87/) and Aave later purchased an additional [100,000 BAL via a swap contract](https://app.aave.com/governance/proposal/115/). With the launch of [GHO ](https://governance.aave.com/t/gho-development-update/10267)getting closer and the [new aToken](https://governance.aave.com/t/arc-staked-atokens-a-new-aave-primitive-exploring-vote-escrow-economies/10406) from @AaveCompanies currently in queue for audit, the potential use cases for veBAL are numerous.\n\nDue to the potential use cases for veBAL in supporting bootstrap the growth of Aave, the BAL token is considered a strategic asset. Therefore, we believe listing BAL on Aave v3 Ethereum is a priority.\n\nBalancer DAO is a large provider of liquidity on Ethereum v2 and also Polygon v3. A proposal by @llamaxyz for Balancer to deposit [additional BAL](https://forum.balancer.fi/t/bip-164-deposit-bal-into-aave-polygon-v3/4295) into Polygon v3, up to the current SupplyCap, was recently approved by Balancer DAO.\n\n![\\ 301x183](https://lh5.googleusercontent.com/TZTd4ME5QCWDn4QEX1LBlBXodWExL-NKJMrKaB3MDQGtixZhk9cNhtChax0ZV11SvSvtcALlWCPOG2wVUC0dGAHjKeB5baY2unhodAufQt51ONoZSTBOTFPVEXDvRg_O6HYu9Z3WydTumJUSHk8t5l0) ![\\ 303x181](https://lh3.googleusercontent.com/6KxbH6MUdPdvoU4PbSKSutQZbnkfVtwj7cVpfWhSix3-vC8AF9zllQt4sp6P8nP4jmRcJ3KRs0Of1CPtBqCfPCd8OaAgHVAZSFlDYxskkHfL2S_oECl5NqL-6ex0S7RhSeHVnhmQDk66_865w0PXA-M)\n\nFor listing BAL, this proposal uses risk parameters suggested by Gauntlet on the original [[ARC] Aave v3 Ethereum Deployment: Assets and Configurations](https://governance.aave.com/t/arc-aave-v3-ethereum-deployment-assets-and-configurations/10238/22) post. The interest rate curve parameters have been sourced from @Llamaxyz’s [[ARFC] BAL Interest Rate Curve Upgrade](https://governance.aave.com/t/arfc-bal-interest-rate-curve-upgrade/10484) post, which has passed through Snapshot.\n\n# Specification\n\nTicker: BAL\n\nContract Address: [0xba100000625a3754423978a60c9317c58a424e3D](https://etherscan.io/address/0xba100000625a3754423978a60c9317c58a424e3d)\n\n|Risk Parameter|Value|\n| --- | --- |\n|Isolation Mode|YES|\n|Enable Borrow|YES|\n|Enable Collateral|YES|\n|Loan To Value|57%|\n|Liquidation Threshold|62%|\n|Liquidation Bonus|8.3%|\n|Reserve Factor|20%|\n|Liquidation Protocol Fee|10%|\n|Borrow Cap|185k|\n|Supply Cap|700k|\n|Debt Ceiling|2.9m|\n|Variable Base|3%|\n|Variable Slope1|14%|\n|Variable Slope2|150%|\n|Uoptimal|80%|\n|Stable Borrowing|Disabled|\n|Stable Slope1|20%|\n|Stable Slope2|150%|\n|Base Stable Rate Offset|3|\n|Stable Rate Excess Offset|5|\n|Optimal Stable To Total Debt Ratio|20|\n\nNote: Stable borrowing is disabled, however parameters are provided in case enabled at a later date without amending other parameters specific to stable borrowing. The last 6 rows in the table above are to be confirm Gauntlet.\n\n# Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+        "end_utc": "2023-02-18T12:00:00Z",
+        "similarity_score": 0.2482,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "NAE",
+            "ABSTAIN"
+          ],
+          "scores": [
+            652845.1431460632,
+            28.023864492944544,
+            22.554715954885783
+          ],
+          "scores_total": 652895.7217265114,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2023-02-18T12:00:00",
+          "pre_tvl_avg": 4887702602.0,
+          "post_tvl_avg": 4978226923.5,
+          "abnormal_change": 1.8521,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.018521,
+          "abnormal_change_pct": 1.8521
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2023-02-18T12:00:00",
+          "pre_price_avg": 85.27306104499999,
+          "post_price_avg": 89.731721005,
+          "abnormal_change": 5.2287,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.052287,
+          "abnormal_change_pct": 5.2287
+        }
+      }
+    },
+    {
+      "proposal_id": "0x51d67ef69e901b34f1d111f2cd5d582c59cffa8d70b7939023febd20f7613b88",
+      "cleaned": {
+        "proposal_id": "0x51d67ef69e901b34f1d111f2cd5d582c59cffa8d70b7939023febd20f7613b88",
+        "title": "[ARFC] Add UNI to Ethereum v3",
+        "author": "0xc290Cfb8D020c0615e9C63036f4319Cc41717E68",
+        "end_utc": "2023-03-13T12:00:00Z",
+        "similarity_score": 0.2452,
+        "winning_option": "YEA",
+        "winning_option_index": 0,
+        "margin_abs": 618304.244511039,
+        "margin_pct": 0.9999617830284475,
+        "scores_total": 618327.8751298529,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-03-08T12:00:25Z",
+        "last_vote_at": "2023-03-09T04:00:28Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            248739.65933105073,
+            1.529653156414527,
+            2.8826108130533283
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.956019,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 3.3e-05,
+        "half_slope_diff": -8.798209
+      },
+      "raw": {
+        "id": "0x51d67ef69e901b34f1d111f2cd5d582c59cffa8d70b7939023febd20f7613b88",
+        "title": "[ARFC] Add UNI to Ethereum v3",
+        "author": "0xc290Cfb8D020c0615e9C63036f4319Cc41717E68",
+        "body": "---\n\nTitle: [ARFC] Add UNI to Ethereum v3\nAuthor: @Llamaxyz - DeFi_Consulting (@matthewgraham), ACI (@MarcZeller) and 3SE\nDated: 2023-02-18\n\n---\n\n# Summary\n\nThis proposal presents Aave the opportunity to onboard UNI to the Ethereum v3 Liquidity Pool.\n\n# Abstract\n\nThe UNI token is the governance token of the Uniswap ecosystem and is a DeFi bluechip. UNI was one of the first governance tokens to be integrated into the Aave ecosystem when it was listed on v1 and was included on Aave v2 when it was launched in December 2020.\n\nThis ARFC is a joint effort with ACI and 3SE to allow a selection of v2 listed assets to be onboarded on V3 via the governance process. Subject to a favourable Snapshot vote, Llama will submit an AIP for voting.\n\n# Motivation\n\nUniswap is a DEX with $4.18B in TVL, second only to Curve Finance with $5.06B, according to Defi Llama’s data. Uniswap is deployed on five networks. UNI provides Aave v2 with $15.86m of TVL. Something to note, it is possible with Aave v3 to delegate Aave’s UNI reserve holding governance influence to an address which can be used for voting on Uniswap proposals.\n\nThe risk parameters provided here within are from Gauntlet’s original Aave v3 initial [assets listings and configurations](https://governance.aave.com/t/arc-aave-v3-ethereum-deployment-assets-and-configurations/10238/22) forum thread. These parameters are to be revised by Gauntlet and feedback will be incorporated before progressing to a Snapshot vote.\n\nThe interest rate provided in the proposal mirrors the v2 deployment with exception of the parameters specific to stable interest rates. The stable rates proposed are the somewhat generic listing rates as stable borrowing is disabled. However, if stable borrowing was enabled, the suggested parameters are suitable and don’t create any undesirable dynamics between stable and variable rates.\n\nWe note that this proposal is to be reviewed by Gauntlet, with feedback to be incorporated, prior to progressing to Snapshot.\n\n# Specification\n\nTicker: UNI\n\nContract Address: [0x1f9840a85d5af5bf1d1762f925bdaddc4201f984](https://etherscan.io/address/0x1f9840a85d5af5bf1d1762f925bdaddc4201f984)\n\n|Risk Parameter|Value|\n| --- | --- |\n|Isolation Mode|YES|\n|Enable Borrow|YES|\n|Enable Collateral|YES|\n|Loan To Value|65.00%|\n|Liquidation Threshold|77.00%|\n|Liquidation Bonus|10.00%|\n|Reserve Factor|20.00%|\n|Liquidation Protocol Fee|10.00%|\n|Borrow Cap|500,000 units|\n|Supply Cap|2,000,000 units|\n|Debt Ceiling|$17,000,000|\n|Variable Base|0.00%|\n|Variable Slope1|7.00%|\n|Variable Slope2|300.00%|\n|Uoptimal|45.00%|\n|Stable Borrowing|Disabled|\n|Stable Slope1|13.00%|\n|Stable Slope2|300.00%|\n|Base Stable Rate Offset|3.00%|\n|Stable Rate Excess Offset|5.00%|\n|Optimal Stable To Total Debt Ratio|20.00%|\n\nNote: Stable borrowing is disabled, however parameters are provided in case stable borrowing is enabled at a later date without amending any parameters.\n\n# Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+        "end_utc": "2023-03-13T12:00:00Z",
+        "similarity_score": 0.2452,
+        "vote_result": {
+          "choices": [
+            "YEA",
+            "NAE",
+            "ABSTAIN"
+          ],
+          "scores": [
+            618313.8326127188,
+            4.454415454696725,
+            9.588101679830212
+          ],
+          "scores_total": 618327.8751298529,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2023-03-13T12:00:00",
+          "pre_tvl_avg": 4451320318.5,
+          "post_tvl_avg": 5151318134.0,
+          "abnormal_change": 15.7256,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.157256,
+          "abnormal_change_pct": 15.7256
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2023-03-13T12:00:00",
+          "pre_price_avg": 70.18116037,
+          "post_price_avg": 74.537476395,
+          "abnormal_change": 6.2072,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.062072,
+          "abnormal_change_pct": 6.2072
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0x953f0edc544fe50e68a0aa19d31542d15458bc3394478a31a294f748198fa906",
+    "selected_choice_label": "YAE",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "The proposal to add LDO support on Aave V3 Ethereum has overwhelming early voting support, with strong timeline metrics favoring YAE. Forum sentiment is mixed but leans slightly positive with key community experts supporting the proposal. Historical similar proposals to add new assets with conservative risk parameters have been successful, and LDO's listing is expected to benefit Aave's ecosystem by expanding collateral options with reasonable risk management.",
+    "key_arguments_for": [
+      "LDO is a top 50 token by market cap and is heavily used for governance in Lido DAO, representing a strategic asset addition.",
+      "Conservative risk parameters recommended by Gauntlet and Chaos Labs reduce exposure risks and prevent potential attacks.",
+      "Adding LDO aligns with previous successful asset onboarding proposals, supporting ecosystem growth and first-mover advantage.",
+      "Forum experts and risk analysts support listing LDO with isolation mode and capped borrow limits, enhancing safety."
+    ],
+    "key_arguments_against": [
+      "LDO is currently mainly a governance token with limited immediate use cases beyond governance voting.",
+      "Potential risks linked to Lido's Shanghai upgrade and stETH redemption process could impact LDO's collateral quality.",
+      "Some community members question the immediate utility and risks of listing LDO on Aave V3."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://governance.aave.com/t/arfc-add-support-for-ldo-on-ethereum-v3/12045",
+        "quote": "Early comments include detailed risk analysis by Gauntlet and Chaos Labs supporting conservative parameters for listing LDO, and community discussion addressing use case and risk concerns."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Snapshot voting timeline",
+        "quote": "Voting timeline metrics show unanimous early voting for YAE with high stability and lead ratios, indicating strong early consensus."
+      },
+      {
+        "source_tool": "adjacent_analytics",
+        "reference": "Similar proposals from March 2023",
+        "quote": "Similar previous proposals to add assets with isolation mode and caps were approved and resulted in positive market responses without negative TVL impact."
+      }
+    ],
+    "available_choices": [
+      "YAE",
+      "NAE",
+      "ABSTAIN"
+    ],
+    "event_start_utc": "2023-03-27T09:00:00Z",
+    "event_end_utc": "2023-03-30T22:00:00Z",
+    "event_time_utc": "2023-03-30T22:00:00Z",
+    "address_of_governance_token": "0x5a98fcbea516cf06857215779fd812ca3bef1b32",
+    "token_price_impact_pct": 2.9491,
+    "tvl_impact_pct": 0.8327,
+    "actual_vote_result": {
+      "winner_label": "YAE",
+      "winner_index": 0,
+      "scores": [
+        562895.7425548369,
+        8.326592270887886,
+        42.893618940935205
+      ],
+      "scores_total": 562946.9627660481,
+      "margin_abs": 562852.848935896,
+      "margin_pct": 0.999833
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'YAE' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Timeline voting data strongly supports YAE with unanimous early votes and stable support.\n- Forum sentiment is mixed but leans positive, with expert risk analyses endorsing the proposal with conservative parameters.\n- Similar past proposals to onboard assets with isolation mode and caps have been successful and not detrimental to the protocol.\n- The recommendation aligns with the overall positive sentiment and risk mitigation, supporting a strategic expansion of collateral options.\nThe recommendation mirrors aggregated forum sentiment, reflecting community views.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x1b816c12b6f547a1982198ffd0e36412390b05828b560c9edee4e8a6903c4882",
+        "title": "[ARFC] Migrate & Consolidate Polygon Treasury",
+        "end_utc": "2023-03-19T12:00:00Z",
+        "summary": "[ARFC] Migrate & Consolidate Polygon Treasury closed on 2023-03-19T12:00:00Z. Timeline analytics noted 5500 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.17)",
+        "market_response": "token -0.40%; TVL +9.24%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0x6045a328e60be9369c4cd87a6b444d88fa1e1e3862d240f244e4190414e8f132",
+        "title": "[ARFC] Extend Safety Module Coverage to Polygon v3",
+        "end_utc": "2023-03-16T12:00:00Z",
+        "summary": "[ARFC] Extend Safety Module Coverage to Polygon v3 closed on 2023-03-16T12:00:00Z. Timeline analytics noted 5500 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.14)",
+        "market_response": "token +2.33%; TVL +4.65%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 2.9491,
+    "ex_post_tvl_impact_pct": 0.8327,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +2.95%; TVL +0.83%"
+  },
+  "agentic_ai_choice": "YAE",
+  "actual_outcome": "YAE",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 2,
+    "Positive": 2,
+    "Neutral": 4,
+    "total_comments": 8
+  }
+}

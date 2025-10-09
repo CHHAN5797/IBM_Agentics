@@ -1,0 +1,1141 @@
+{
+  "captured_at_utc": "2025-10-08T20:17:24.534455+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x313f35c623fd1651fffdd10db8cdb3e4180489eaa5c1c735ca6664fb57d1f381",
+  "focus": null,
+  "votes_count": 3,
+  "timeline_metrics_current": {
+    "unique_voters": 3,
+    "total_votes": 3,
+    "first_vote_at": "2025-03-08T21:48:02Z",
+    "last_vote_at": "2025-03-10T08:00:01Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        340799.80134564056,
+        0.0,
+        0.0
+      ],
+      [
+        2564343.2222400745,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.81738,
+    "spike_follow_support_ratio": 0.0,
+    "stairwise_ratio": 0.18262,
+    "half_slope_diff": 684.324175
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0xc28a9f2622e66d866e7ce24b9baa884da18595d5723333a8c4692ff112499b07",
+      "title": "[BIP-791] Enable Gauge for 80-IMO/20-ETH Pool on Base",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-03-03T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 4,
+        "total_votes": 4,
+        "first_vote_at": "2025-02-28T10:06:17Z",
+        "last_vote_at": "2025-03-03T08:48:03Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            348045.7658473047,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            700.8981830618068
+          ],
+          [
+            2545484.5618773014,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.81281,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.18719,
+        "half_slope_diff": 67.196803
+      },
+      "price_impact_pct": -7.071,
+      "tvl_impact_pct": 1.1514,
+      "similarity": 0.102,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2892829.429541544,
+        "scores_total": 2894231.2259076675,
+        "margin_pct": 0.9995156584748395
+      }
+    },
+    {
+      "id": "0xf79cc1f749ae50f709e55860b9b7a8663e88b10c0eebfc5afbf072c34022480e",
+      "title": "[BIP-790] Grant Maxis Role for Balancer Contract Registry",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-03-03T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 4,
+        "total_votes": 4,
+        "first_vote_at": "2025-02-28T10:05:42Z",
+        "last_vote_at": "2025-03-03T08:47:45Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            348047.07019917615,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            700.9006835120798,
+            0.0,
+            0.0
+          ],
+          [
+            2545486.2307076487,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.812613,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.187387,
+        "half_slope_diff": 67.613995
+      },
+      "price_impact_pct": -7.071,
+      "tvl_impact_pct": 1.1514,
+      "similarity": 0.1257,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2894234.201590337,
+        "scores_total": 2894234.201590337,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0x8920e7386b86c1bd1178cbd13830528007f159704ee3e4322e48863191511196",
+      "title": "[BIP-789] Grant Maxis Parameter Control on the MEV Tax Hook",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-03-03T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 4,
+        "total_votes": 4,
+        "first_vote_at": "2025-02-28T10:05:03Z",
+        "last_vote_at": "2025-03-03T08:47:32Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            348048.22962306184,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            700.9029061345447,
+            0.0,
+            0.0
+          ],
+          [
+            2545487.822420263,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.812612,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.187388,
+        "half_slope_diff": 67.922652
+      },
+      "price_impact_pct": -7.071,
+      "tvl_impact_pct": 1.1514,
+      "similarity": 0.133,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2894236.9549494595,
+        "scores_total": 2894236.9549494595,
+        "margin_pct": 1.0
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0xabf31cc484359de2273689566d9d85e47f496b7d80e458386f93668cfc2c589e",
+      "cleaned": {
+        "proposal_id": "0xabf31cc484359de2273689566d9d85e47f496b7d80e458386f93668cfc2c589e",
+        "title": "[BIP-778] Grant Maxis StableSurge Parameter Change Permissions",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2025-02-17T19:00:00Z",
+        "similarity_score": 0.1733,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2902429.164346801,
+        "margin_pct": 1.0,
+        "scores_total": 2902429.164346801,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5,
+        "total_votes": 5,
+        "first_vote_at": "2025-02-14T12:13:18Z",
+        "last_vote_at": "2025-02-17T08:40:58Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            362581.7529582896,
+            0.0,
+            0.0
+          ],
+          [
+            613.4635227205403,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2539233.9478657907,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.814356,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.185644,
+        "half_slope_diff": 190.971899
+      },
+      "raw": {
+        "id": "0xabf31cc484359de2273689566d9d85e47f496b7d80e458386f93668cfc2c589e",
+        "title": "[BIP-778] Grant Maxis StableSurge Parameter Change Permissions",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "PR with payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1755\n\n### Summary & Motivation\n\nThe [StableSurge](https://medium.com/balancer-protocol/balancers-stablesurge-hook-09d2eb20f219) hook has been deployed by the Balancer Labs team marking an exciting milestone for Balancer V3 as the first wave of hooks are hitting production. With these innovations come additional permissions related to the management of each hooks unique parameters. In the case of StableSurge the maxSurgeFeePercentage and surgeThresholdPercentage are key factors in determining how the hook will affect the pool performance and the liquidity providers. This proposal will act to grant the permissions to change both of these parameters to the Balancer Maxis on all currently deployed networks, Ethereum Mainnet, Gnosis, Arbitrum, and Base.\n\n**Technical Specification:**\n\nAll deployments and action-ids can be verified in this StableSurgePoolFactory [pull request](https://github.com/balancer/balancer-deployments/pull/163/files#diff-17e7d1b01753c19be2eee514c14e09736db3af94d24025c7fd9876c73b6e7950).\n\n**Ethereum**\n\nOn Mainnet the Balancer DAO Multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with the Authorizer `0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6` calling `grantRoles` passing: [`0x2f27aa67b6bf44b4441ea2656c22e09252261845a98dc577a6fc06b6526f8bcc`, `0x66c657ea0d5ce1dc0286795937131c61620bb6ccd0f126fbfe3799d8b89a9753`] for roles, and account Maxi omni-chain multisig: `0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e`\n\n**Arbitrum**\n\nOn Arbitrum the Balancer DAO Multisig `0xaF23DC5983230E9eEAf93280e312e57539D098D0` will interact with the Authorizer `0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6` calling `grantRoles` passing: [`0x261258d23af1013ceb3a0574a5f194e3d4d09a07c0b9014665519c3f1b37f792`, `0x5968f4b1f98171ccadc78df4f25cf8262b250f2f12a83c45b7311b4674d23e0a`] for roles, and account Maxi omni-chain multisig: `0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e`\n\n**Base**\n\nOn Base the Balancer DAO Multisig `0xC40DCFB13651e64C8551007aa57F9260827B6462` will interact with the Authorizer `0x809B79b53F18E9bc08A961ED4678B901aC93213a` calling `grantRoles` passing: [`0xe81edd4ccc5901443972e580b5d997ced38f33bd4f7e9bca8829dc5efcca6fed`, `0x4a7d099f7d634af69cf552b5b1c76ed8d44074051cbca5a59b842154288b96f1`] for roles, and account Maxi omni-chain multisig: `0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e`\n\n**Gnosis**\n\nOn Gnosis the Balancer DAO Multisig `0x2a5AEcE0bb9EfFD7608213AE1745873385515c18` will interact with the Authorizer `0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6` calling `grantRoles` passing: [`0x2f27aa67b6bf44b4441ea2656c22e09252261845a98dc577a6fc06b6526f8bcc`, `0x66c657ea0d5ce1dc0286795937131c61620bb6ccd0f126fbfe3799d8b89a9753`] for roles, and account Maxi omni-chain multisig: `0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e`",
+        "end_utc": "2025-02-17T19:00:00Z",
+        "similarity_score": 0.1733,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2902429.164346801,
+            0,
+            0
+          ],
+          "scores_total": 2902429.164346801,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2025-02-17T19:00:00",
+          "pre_tvl_avg": 854096726.0,
+          "post_tvl_avg": 844430891.5,
+          "abnormal_change": -1.1317,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.011317,
+          "abnormal_change_pct": -1.1317
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2025-02-17T19:00:00",
+          "pre_price_avg": 1.9757971300000001,
+          "post_price_avg": 1.9641881149999998,
+          "abnormal_change": -0.5876,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.005876,
+          "abnormal_change_pct": -0.5876
+        }
+      }
+    },
+    {
+      "proposal_id": "0xd7d54fbc7389666ee0157e8a6afa6355c86b7926474afa2d0780401e2c1d7d9a",
+      "cleaned": {
+        "proposal_id": "0xd7d54fbc7389666ee0157e8a6afa6355c86b7926474afa2d0780401e2c1d7d9a",
+        "title": "[BIP-272] Weighted Pool v1 Permission Granting",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-05-01T18:00:00Z",
+        "similarity_score": 0.1562,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3704535.4845045707,
+        "margin_pct": 0.999990532467147,
+        "scores_total": 3704570.5576480315,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 146,
+        "total_votes": 146,
+        "first_vote_at": "2023-04-27T18:09:31Z",
+        "last_vote_at": "2023-05-01T15:42:18Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            202.07273717289644,
+            0.0,
+            16.272661107045103
+          ],
+          [
+            217740.98538262444,
+            0.02798613916172543,
+            0.4246605003839253
+          ],
+          [
+            193420.80734960933,
+            0.0,
+            0.0
+          ],
+          [
+            3293188.6809052425,
+            0.921417169402786,
+            0.3645484685819144
+          ]
+        ],
+        "spike_index": 0.803482,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 9e-06,
+        "half_slope_diff": 32.691341
+      },
+      "raw": {
+        "id": "0xd7d54fbc7389666ee0157e8a6afa6355c86b7926474afa2d0780401e2c1d7d9a",
+        "title": "[BIP-272] Weighted Pool v1 Permission Granting",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "#### PR with payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/157\n\n### Motivation\n\nVesta Finance has requested the swap fee be changed on WETH/VSTA [Arbitrum] to 1% but the Maxis currently lack the role to do so. They plan to use this pool as part of a staking/farming system. This proposal grants the Maxi LM multisig on Arbitrum the role for changing swap fees on v1 weighted pools on Arbitrum.\n\n### Specification\n\nThe DAO Multisig on Arbitrum `arb1:0xaF23DC5983230E9eEAf93280e312e57539D098D0` will interact with the Authorizer `0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6` calling `grantRole` with the following arguments:\n\nrole: `0x6213e9042b9814b9567bde72d3c7a61372862c3ac88c2df77d3205221af6c871`\n\ncan be confirmed [here](https://github.com/balancer/balancer-v2-monorepo/blob/master/pkg/deployments/action-ids/arbitrum/action-ids.json#L72). \n\naccount: `0xc38c5f97B34E175FFd35407fc91a937300E33860`\n\nwhich corresponds to the Maxi LM Multisig, confirmed [here](https://quark-ceres-740.notion.site/Multisig-List-Guidelines-402e18cff13e4f2fa571bc14ed007546).",
+        "end_utc": "2023-05-01T18:00:00Z",
+        "similarity_score": 0.1562,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3704552.546374647,
+            0.9494033085645112,
+            17.06187007601094
+          ],
+          "scores_total": 3704570.5576480315,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-05-01T18:00:00",
+          "pre_tvl_avg": 1225886703.0,
+          "post_tvl_avg": 1213133930.5,
+          "abnormal_change": -1.0403,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.010403,
+          "abnormal_change_pct": -1.0403
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-05-01T18:00:00",
+          "pre_price_avg": 6.086912965,
+          "post_price_avg": 6.09779595,
+          "abnormal_change": 0.1788,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.001788,
+          "abnormal_change_pct": 0.1788
+        }
+      }
+    },
+    {
+      "proposal_id": "0xcb47d22732eaad634cff1c8fdb2265028b7b4880241196ad2e0ebf2dad07b667",
+      "cleaned": {
+        "proposal_id": "0xcb47d22732eaad634cff1c8fdb2265028b7b4880241196ad2e0ebf2dad07b667",
+        "title": "[BIP-787] Grant Maxis Amplification Parameter Change Permissions for StableSurge Pools",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "end_utc": "2025-02-24T19:00:00Z",
+        "similarity_score": 0.1348,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2739277.730911774,
+        "margin_pct": 1.0,
+        "scores_total": 2739277.730911774,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 4,
+        "total_votes": 4,
+        "first_vote_at": "2025-02-21T10:52:35Z",
+        "last_vote_at": "2025-02-24T08:00:01Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            355113.81240488274,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2384163.9185068915,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.870101,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.129899,
+        "half_slope_diff": 66.452432
+      },
+      "raw": {
+        "id": "0xcb47d22732eaad634cff1c8fdb2265028b7b4880241196ad2e0ebf2dad07b667",
+        "title": "[BIP-787] Grant Maxis Amplification Parameter Change Permissions for StableSurge Pools",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "body": "PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1784\n\n**Summary & Motivation**\n\nIn order for StableSurge to continue to gain adoption, the flexibility for the amplification factor to be changed allows for more or less slippage between the pairs in the pool. Due to the nature of stable surge, the end goal is to allow for more efficient swaps and charge higher fees when volatility occurs. The permission to manage this parameter will give the hook maximum opportunity for success.\n\nReference the deployments [repository](https://github.com/balancer/balancer-deployments/tree/bbe1ebb272b8b3085a7b91c33ff997ff72520327/action-ids) to confirm the corresponding action-ids. For example Base can be seen [here](https://github.com/balancer/balancer-deployments/blob/bbe1ebb272b8b3085a7b91c33ff997ff72520327/action-ids/base/action-ids.json#L514). \n\nTechnical Specification:\n\nThe DAO Multisig on each network, Ethereum, Gnosis, Base, and Arbitrum will write the respective `Authorizer` calling `grantRoles` with the respective roles for `startAmplificationParameterUpdate` and `stopAmplificationParameterUpdate` for StableSurge factory created pools, the role will be granted to `0x9ff471F9f98F42E5151C7855fD1b5aa906b1AF7e` on all networks.. This will correspond to the following table.\n\n|Network|DAO Multisig Address|Authorizer Address|startAmplificationParameterUpdate Role|stopAmplificationParameterUpdate Role|\n|---|---|---|---|---|\n|Ethereum|0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f|0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6|0x3050dfbb6294dc29c5cae13acb241fddea61d345d9b8c809f216c8259b013ff8|0x866d7d17a9b007d202e4da84f38a0bfbb310db8184a4f1d2e6de3c8e78ecd1e0|\n|Gnosis|0x2a5AEcE0bb9EfFD7608213AE1745873385515c18|0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6|0x4acf55e494b685b95a5b14cf8c5507d75bd1aa71a85fc1214c0e8b825a469170|0x472cb2d86bd228ad5c01dda464760927533d1f2075d5857fb2c01bfee9790125|\n|Base|0xC40DCFB13651e64C8551007aa57F9260827B6462|0x809B79b53F18E9bc08A961ED4678B901aC93213a|0xbf865f1c6f8d104fabfc55638d1622f92901741c27314f329670c51b54f3eded|0x1a357d5b1643481255960a2981adcdd96069c98aff413a5e8387d5e199d34a64|\n|Arbitrum|0xaF23DC5983230E9eEAf93280e312e57539D098D0|0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6|0x2fbb47746d921903b9f91d439cf9e524a40a377607923d64f01c38c5d0ea1b14|0xdecec4789661e9e43897955fb7d3796d8f5159ba0cc6593dbf71f88c8f4da475|",
+        "end_utc": "2025-02-24T19:00:00Z",
+        "similarity_score": 0.1348,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2739277.730911774,
+            0,
+            0
+          ],
+          "scores_total": 2739277.730911774,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2025-02-24T19:00:00",
+          "pre_tvl_avg": 847092494.5,
+          "post_tvl_avg": 764618176.0,
+          "abnormal_change": -9.7362,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.097362,
+          "abnormal_change_pct": -9.7362
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2025-02-24T19:00:00",
+          "pre_price_avg": 2.04926035,
+          "post_price_avg": 1.76427426,
+          "abnormal_change": -13.9068,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.139068,
+          "abnormal_change_pct": -13.9068
+        }
+      }
+    },
+    {
+      "proposal_id": "0xd991e9f3c6edd148bd37c600d7ada3d28db1758e3cfd703c02d290f502906f05",
+      "cleaned": {
+        "proposal_id": "0xd991e9f3c6edd148bd37c600d7ada3d28db1758e3cfd703c02d290f502906f05",
+        "title": "[BIP-295] Fee Discount for CowSwap Solvers",
+        "author": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+        "end_utc": "2023-05-22T20:00:00Z",
+        "similarity_score": 0.13,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3701019.255662383,
+        "margin_pct": 0.9999806537943082,
+        "scores_total": 3701090.8577274005,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 61,
+        "total_votes": 61,
+        "first_vote_at": "2023-05-18T20:20:51Z",
+        "last_vote_at": "2023-05-22T19:17:27Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            6141.787895218837,
+            35.79632050313671,
+            0.0
+          ],
+          [
+            6.518336975222121,
+            0.00471200547337566,
+            0.0
+          ],
+          [
+            220115.66776303842,
+            0.0,
+            0.0
+          ],
+          [
+            3474791.082699659,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.830507,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.002891,
+        "half_slope_diff": 12.856491
+      },
+      "raw": {
+        "id": "0xd991e9f3c6edd148bd37c600d7ada3d28db1758e3cfd703c02d290f502906f05",
+        "title": "[BIP-295] Fee Discount for CowSwap Solvers",
+        "author": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+        "body": "https://github.com/BalancerMaxis/multisig-ops/pull/195\n\n### Motivation\n\nBalancer contributors have recently been exploring ways to increase non-toxic flow through the protocol. One opportunity which has presented itself is to leverage our close partnership with CowSwap to implement a fee discount when solvers route trades through Balancer liquidity. This would be done by granting the role for calling `setSwapFeePercentage` to the `GPv2Settlement` contract - then solvers would pass in interactions which lower the fee on the pool, execute the swap, then return the fee to the previous value. The swap fee could be lowered in this manner by around 50-75% to enable a significant increase in “good flow” to Balancer pools.\n\nMost of Balancer’s protocol fees are generated from yield rather than swaps. There is a chance this proposal leads to more swap fees but even if it does not, one of the most important goals for the Balancer ecosystem is to grow our DEX volume market share. This is likely one of the best chances we have to move the needle on that on Ethereum.\n\n### Risks\n\nThe Maxis will retain the ability to call `setSwapFeePercentage` on all pool factories so if something unexpected happens and fees are dramatically lowered or raised globally by accident it can be fixed very quickly by the Maxis. Governance can also revoke this role at any time in the future through a future BIP.\n\n### Specification\n\nIf approved, the DAO Multisig `eth:0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with the Authorizer `0xA331D84eC860Bf466b4CdCcFb4aC09a1B43F3aE6` and call `grantRoles` with the following arguments:\n\nRoles: `0x3697d13ee45583cf9c2c64a978ab5886bcd07ec2b851efbea2fced982b8f9596,0xc065d550fa98abc242b6baf98e7b2063590675f1ddd81bdb9ea8d8f5c5d52f98,0x7b09f4b61ccfe85436161b0223489b187d9f9158c542b5e6105df147afc78aca,0x15d3918ca8f9895d8906a780f5f402d32707bada7b1b5e7b21b7351257103a35,0xcf5e03a737e4f5ba6d13e23f893a1e0255b362d8ce22e9568e1565fcf92789c7,0x6c3a14f10cbcc5a3f4d0e4e8ad279e7a842735ab188e2b13fb84c6542cc3320c,0x78e9adfe5f05d7114a59d0870d78971192f871f57bb36e2aff2edbe75d425844,0xdee20d81c6075dcc437dbaaf02d316ab255cfcae4a154e04b17abdebc70a5b48,0xd8638fc873fb8c5c0e67c437099a19eb0546fb439dab8babff44196f11d44831,0x1a88f724f61d4985675e65a2ba85b2a985d250dac00d27e06303f4cdabc906ae,0xa5547190e3d59f2bfeb4174ca3454b2f2acaeed644bc7ad7018014516f73f2bd,0x0acc45f3ac7c04369514ee383aad82d5c1eef484fbf9ca5f6d87ad5c5859da40`\n\n\n[details=\"Which correspond to the roles for calling `setSwapFeePercentage` on the following pool factories\"]\nWeightedPool v1\n\nWeightedPool2TokensFactory\n\nStable Pool v1\n\nMetastable\n\nStable Pool v2\n\nComposableStablePool\n\nWeightedPool v2\n\nComposableStablePool v2\n\nWeightedPool v3\n\nComposableStablePool v3\n\nWeightedPool v4\n\nComposableStablePool v4\n[/details]\n\n\nAccount: `0x9008D19f58AAbD9eD0D60971565AA8510560ab41`\n\nWhich corresponds to the address for Cowswap’s `GPv2Settlement` contract",
+        "end_utc": "2023-05-22T20:00:00Z",
+        "similarity_score": 0.13,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3701055.056694892,
+            35.801032508610085,
+            0
+          ],
+          "scores_total": 3701090.8577274005,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-05-22T20:00:00",
+          "pre_tvl_avg": 1060781460.0,
+          "post_tvl_avg": 1054519051.5,
+          "abnormal_change": -0.5904,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.005904,
+          "abnormal_change_pct": -0.5904
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-05-22T20:00:00",
+          "pre_price_avg": 5.352216545,
+          "post_price_avg": 5.225431585,
+          "abnormal_change": -2.3688,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.023688,
+          "abnormal_change_pct": -2.3688
+        }
+      }
+    },
+    {
+      "proposal_id": "0x2008af2f1151fdf0e10ec99fdd626742fd07f35bfec909296153d43862379644",
+      "cleaned": {
+        "proposal_id": "0x2008af2f1151fdf0e10ec99fdd626742fd07f35bfec909296153d43862379644",
+        "title": "[BIP-381] Enable Aave Boosted USDC/USDC.e Gauge [Arbitrum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-07-31T18:00:00Z",
+        "similarity_score": 0.1267,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3698786.2166441362,
+        "margin_pct": 0.9999999978016509,
+        "scores_total": 3698786.2247753595,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 40,
+        "total_votes": 40,
+        "first_vote_at": "2023-07-27T21:22:13Z",
+        "last_vote_at": "2023-07-31T14:23:31Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1199.8701369152952,
+            0.0,
+            0.0
+          ],
+          [
+            518.5028758297072,
+            0.0,
+            0.0
+          ],
+          [
+            0.40205602904469173,
+            0.0,
+            0.0
+          ],
+          [
+            3697067.4497065847,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.84389,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.021991,
+        "half_slope_diff": 15.840964
+      },
+      "raw": {
+        "id": "0x2008af2f1151fdf0e10ec99fdd626742fd07f35bfec909296153d43862379644",
+        "title": "[BIP-381] Enable Aave Boosted USDC/USDC.e Gauge [Arbitrum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/398\n\n**Summary:**\n\n> This pool uses the composable stable pool factory v5 and contains two separate linear pool tokens; bb-a-USDC and bb-a-USDC. These are Balancer’s AAVE boosted Arbitrum native USDC, and bridged USDC. As Circle migrates from bridged to native USDC there are several dexes offering the ability to swap between both assets, which do bring in considerable volume. Balancer protocol will be earning yield on both boosted portions of this pool, making the token pairing more efficient for LPs. This gauge would enter as a “core pool” under BIP-19, meaning protocol fees earned by this pool would be used to bribe for votes on it. The gauge can be uncapped.\n\n**References/Useful links:**\n\n> USDC: Link to:\n> • [Website ](https://www.circle.com/en/usdc)\n> • [Documentation ](https://developers.circle.com/docs/what-is-usdc)\n> • [Github Page ](https://github.com/centrehq/centre-tokens)\n> • [Communities ](https://www.coingecko.com/en/coins/usd-coin) - Coingecko link\n\n**Protocol Description:**\n\n> bb-a-USDC is a Balancer’s USDC boosted token implementation of USDC, leveraging AAVE’s boosted strategy. USDCe is bridged USDC from mainnet to Arbitrum.\n\n**Motivation:**\n\n> This provides a trading route between the two USDC assets on Arbitrum. With the boosted aspect, an A of 5000, and swap fee of 0.005%, this swap route highly competitive, and more sustainable for liquidity providers to place their funds. The risk of a high A factor exposing the pool to being off balance is mute due the assets being virtually interchangeable. Competitors use higher swap fees and see utilization upwards of 100%. \n\n**Specifications:**\n\n1. **Governance:** USDC is centralized and does not have a governance forum. \n2. **Oracles:** This pool only relies on the rate providers of the linear pools to inform when yield is earned.\n3. **Audits:** N/A\n4. **Centralization vectors:** USDC is inherently centralized. \n5. **Market History:** See [here ](https://www.coingecko.com/en/coins/usdc).\n6. **Value:** Balancer will earn the protocol fee on underlying bb-a-USDC and bb-a-USDCe yield. BIP-19 will incentivize TVL to continue to grow here with trading volume and this implementation will continue to draw in new volume, as well as showcase the power of these pool types.\n\nLink to pool [0x9ceBf13BB702F253AbF1579294694A1eDAD00EAA](https://app.balancer.fi/#/arbitrum/pool/0x9cebf13bb702f253abf1579294694a1edad00eaa000000000000000000000486)\nLink to gauge: [0x90DDAa2A6D192Db2F47195d847626F94E940c7Ac](https://etherscan.io/address/0x90DDAa2A6D192Db2F47195d847626F94E940c7Ac)\n\n**Specification:**\n\nThe Balancer Maxi LM Multisig `eth:0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the `GaugeAdderv4` at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the `addGauge` function with the following arguments:\n\ngauge(address): `0x90DDAa2A6D192Db2F47195d847626F94E940c7Ac`\n\ngaugeType(string): `Arbitrum`",
+        "end_utc": "2023-07-31T18:00:00Z",
+        "similarity_score": 0.1267,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3698786.219354544,
+            0.002710407716738355,
+            0.002710407716738355
+          ],
+          "scores_total": 3698786.2247753595,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-07-31T18:00:00",
+          "pre_tvl_avg": 1027954082.0,
+          "post_tvl_avg": 957387729.0,
+          "abnormal_change": -6.8647,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.068647,
+          "abnormal_change_pct": -6.8647
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-07-31T18:00:00",
+          "pre_price_avg": 4.43141534,
+          "post_price_avg": 4.26425004,
+          "abnormal_change": -3.7723,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.037723,
+          "abnormal_change_pct": -3.7723
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x313f35c623fd1651fffdd10db8cdb3e4180489eaa5c1c735ca6664fb57d1f381",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "The proposal to grant setTokenCacheRateDuration permissions to the Omni-Multisig for Balancer V2 pools on Gnosis is recommended for approval based on strong timeline vote support, consistent historical precedent, and mixed but generally supportive forum sentiment.",
+    "key_arguments_for": [
+      "Timeline analysis shows unanimous and stable support for the 'Yes, let's do it' option across all vote quartiles.",
+      "Similar past proposals with analogous permission grants were approved and maintained positive TVL impacts, supporting the benefits of this change.",
+      "Forum discussion includes supportive comments emphasizing the restriction to Gnosis and focus on V3 liquidity, indicating cautious but positive community engagement."
+    ],
+    "key_arguments_against": [
+      "Forum sentiment is mixed with an equal number of positive and negative comments before the deadline, indicating some community concerns.",
+      "Market impacts show a price decline post-proposal, which may reflect market caution about the change."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.balancer.fi/t/bip-792-grant-settokencacherateduration-permissions-to-omni-multisig-for-balancer-v2-pools-on-gnosis/6401",
+        "quote": "First comment expressed concerns about the proposal's necessity; second comment supported restricting permissions to Gnosis only."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Snapshot voting timeline",
+        "quote": "Lead ratio and vote power across all quartiles strongly favor the 'Yes, let's do it' option."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-03-06T19:00:00Z",
+    "event_end_utc": "2025-03-10T19:00:00Z",
+    "event_time_utc": "2025-03-10T19:00:00Z",
+    "address_of_governance_token": "0xBA12222222228d8Ba445958a75a0704d566BF2C8",
+    "token_price_impact_pct": -10.3414,
+    "tvl_impact_pct": -7.7044,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        2905143.023585715,
+        0.0,
+        0.0
+      ],
+      "scores_total": 2905143.023585715,
+      "margin_abs": 2905143.023585715,
+      "margin_pct": 1.0
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Timeline vote analysis shows full and stable support for the approval.\n- Similar historical proposals granted permissions with positive TVL impact despite some price declines, supporting this change.\n- Forum sentiment is mixed but includes key supportive voices emphasizing prudent scope restriction.\n- Market price decline post-vote is noted but does not outweigh the organizational benefits of the change.\n- The recommendation aligns with voting and timeline data but partially diverges from mixed forum sentiment, reflecting a balanced stance for long-term health.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x8920e7386b86c1bd1178cbd13830528007f159704ee3e4322e48863191511196",
+        "title": "[BIP-789] Grant Maxis Parameter Control on the MEV Tax Hook",
+        "end_utc": "2025-03-03T19:00:00Z",
+        "summary": "[BIP-789] Grant Maxis Parameter Control on the MEV Tax Hook closed on 2025-03-03T19:00:00Z. Timeline analytics noted 4 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.13)",
+        "market_response": "token -7.07%; TVL +1.15%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0xf79cc1f749ae50f709e55860b9b7a8663e88b10c0eebfc5afbf072c34022480e",
+        "title": "[BIP-790] Grant Maxis Role for Balancer Contract Registry",
+        "end_utc": "2025-03-03T19:00:00Z",
+        "summary": "[BIP-790] Grant Maxis Role for Balancer Contract Registry closed on 2025-03-03T19:00:00Z. Timeline analytics noted 4 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.13)",
+        "market_response": "token -7.07%; TVL +1.15%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -10.3414,
+    "ex_post_tvl_impact_pct": -7.7044,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -10.34%; TVL -7.70%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 1,
+    "Positive": 1,
+    "Neutral": 1,
+    "total_comments": 3
+  }
+}

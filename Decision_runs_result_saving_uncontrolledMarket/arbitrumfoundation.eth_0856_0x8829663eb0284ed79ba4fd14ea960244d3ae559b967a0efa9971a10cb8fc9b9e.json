@@ -1,0 +1,956 @@
+{
+  "captured_at_utc": "2025-10-07T20:58:31.462734+00:00",
+  "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x8829663eb0284ed79ba4fd14ea960244d3ae559b967a0efa9971a10cb8fc9b9e",
+  "focus": null,
+  "votes_count": 5500,
+  "timeline_metrics_current": {
+    "unique_voters": 5500,
+    "total_votes": 5500,
+    "first_vote_at": "2024-04-25T08:49:13Z",
+    "last_vote_at": "2024-04-27T06:03:59Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        34509283.05743175,
+        59231.27250265945,
+        126796.80733848875
+      ],
+      [
+        84227.39961640644,
+        80.16708566194959,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.426171,
+    "spike_follow_support_ratio": 0.976738,
+    "stairwise_ratio": 0.00201,
+    "half_slope_diff": 288.123165
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0xfecc89e867edd3f626b497c935bc6aa93b389f306e5047cc0c740687cefe8551",
+      "title": "Primex LTIPP Council Recommended Proposal",
+      "author": "0x18BF1a97744539a348304E9d266aAc7d446a1582",
+      "end_utc": "2024-04-16T00:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2024-04-09T00:03:07Z",
+        "last_vote_at": "2024-04-12T20:53:56Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            954004.8922708846,
+            26342.869753292893,
+            73017.14819218927
+          ],
+          [
+            16609098.459246837,
+            24406163.589831796,
+            1824897.1110312676
+          ],
+          [
+            36371.64355292947,
+            15985.149696608583,
+            1062.1992570745144
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.833844,
+        "spike_follow_support_ratio": 0.000845,
+        "stairwise_ratio": 0.000108,
+        "half_slope_diff": 212.713664
+      },
+      "price_impact_pct": 0.7243,
+      "tvl_impact_pct": -2.131,
+      "similarity": 0.121,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "For",
+        "margin_abs": 13519346.317995876,
+        "scores_total": 136142748.25912732,
+        "margin_pct": 0.09930272813549956
+      }
+    },
+    {
+      "id": "0x5ee25b6d2de2c7a4a93672c8a483efd249e961e800f21303a102b80a14b01c45",
+      "title": "Poolside LTIPP Council Recommended Proposal",
+      "author": "0x18BF1a97744539a348304E9d266aAc7d446a1582",
+      "end_utc": "2024-04-16T00:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2024-04-09T00:20:19Z",
+        "last_vote_at": "2024-04-14T05:50:31Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1723382.264174974,
+            11128.755358190012,
+            14015.806045694204
+          ],
+          [
+            50028772.17870344,
+            7744.189139353406,
+            4332220.433063761
+          ],
+          [
+            13305891.586119948,
+            5499.923242681731,
+            4425.93641107897
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.313352,
+        "spike_follow_support_ratio": 0.995024,
+        "stairwise_ratio": 0.001114,
+        "half_slope_diff": 557.618543
+      },
+      "price_impact_pct": 0.7243,
+      "tvl_impact_pct": -2.131,
+      "similarity": 0.123,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "For",
+        "margin_abs": 151169068.3243477,
+        "scores_total": 160090824.7917109,
+        "margin_pct": 0.9442706571162275
+      }
+    },
+    {
+      "id": "0x04097bb3affd01c6ffb1644bba4c85efffa9fe65a744dbd57a63a95578b64a7a",
+      "title": "Pike LTIPP Council Recommended Proposal",
+      "author": "0x18BF1a97744539a348304E9d266aAc7d446a1582",
+      "end_utc": "2024-04-16T00:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2024-04-09T00:03:55Z",
+        "last_vote_at": "2024-04-14T14:47:32Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1716064.756673606,
+            28162.330075879778,
+            10991.510461930395
+          ],
+          [
+            18020015.385519326,
+            4025306.988904953,
+            382970.212656461
+          ],
+          [
+            167851.29493154027,
+            7291075.196211828,
+            484014.8749704299
+          ],
+          [
+            13615.739837954861,
+            2223.483447733655,
+            3524.8497700620214
+          ]
+        ],
+        "spike_index": 0.761381,
+        "spike_follow_support_ratio": 0.363688,
+        "stairwise_ratio": 0.003595,
+        "half_slope_diff": -47.817109
+      },
+      "price_impact_pct": 0.7243,
+      "tvl_impact_pct": -2.131,
+      "similarity": 0.126,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "For",
+        "margin_abs": 35425656.15080621,
+        "scores_total": 132726718.22875033,
+        "margin_pct": 0.26690674359740596
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0xaacd63dad6f3f9f0f5deacd5bf75a9b4b71bb32e08b6d79972d7f92edf348f33",
+      "cleaned": {
+        "proposal_id": "0xaacd63dad6f3f9f0f5deacd5bf75a9b4b71bb32e08b6d79972d7f92edf348f33",
+        "title": "APX Finance LTIPP Council Recommended Proposal",
+        "author": "0xAD16ebE6FfC7d96624A380F394cD64395B0C6144",
+        "end_utc": "2024-04-16T00:00:00Z",
+        "similarity_score": 0.1328,
+        "winning_option": "For",
+        "winning_option_index": 0,
+        "margin_abs": 50164826.68532077,
+        "margin_pct": 0.3609729490559144,
+        "scores_total": 138971152.31632018,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5103,
+        "total_votes": 5103,
+        "first_vote_at": "2024-04-09T00:35:50Z",
+        "last_vote_at": "2024-04-15T23:59:42Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.998282,
+            0.000859,
+            0.000859
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9996080736821478,
+          0.0001959631589261219,
+          0.0001959631589261219
+        ],
+        "stability": [
+          0.9996080736821478,
+          0.0001959631589261219,
+          0.0001959631589261219
+        ],
+        "early_ratio": [
+          0.9982817869415808,
+          0.000859106529209622,
+          0.000859106529209622
+        ],
+        "vp_by_quartile": [
+          [
+            463356.429603509,
+            53867.3904974529,
+            80609.49869980902
+          ],
+          [
+            31869703.490695834,
+            3140.9154914476044,
+            326657.0740436671
+          ],
+          [
+            4310435.868397174,
+            8973.118606004986,
+            3883.586336269365
+          ],
+          [
+            51583029.44627863,
+            37995717.12505958,
+            12271778.372610984
+          ]
+        ],
+        "spike_index": 0.231099,
+        "spike_follow_support_ratio": 0.006923,
+        "stairwise_ratio": 0.000688,
+        "half_slope_diff": 532.069871
+      },
+      "raw": {
+        "id": "0xaacd63dad6f3f9f0f5deacd5bf75a9b4b71bb32e08b6d79972d7f92edf348f33",
+        "title": "APX Finance LTIPP Council Recommended Proposal",
+        "author": "0xAD16ebE6FfC7d96624A380F394cD64395B0C6144",
+        "body": "## Link to Application\nhttps://forum.arbitrum.foundation/t/apx-finance-ltipp-application-draft/21744\n\n## Council -  3/5 Yes Votes\n\n### Feedback\n\n*GFX Feedback*\nWe found it interesting that the applicant plans to combine the liquidity from BSC and Arbitrum (to Arbitrum’s benefit as the smaller market). The grant plan generally scored well all around. We recommend this grant be approved.\n\n*Karel Feedback*\nVote FOR APX Finance's proposal.\n\nStrong proposal that scored well on rubric. Protocol has great traction on BSC and as evidenced in their various dashboards, and is an opportunity to draw a net new market to Arbitrum. Would have liked to see the following: (i) more granularity in milestones to highlight other key KPIs applied weekly/biweekly instead of monthly; and (ii) more detail behind stickiness strategies as they lightly touched on (centered around community and product delight) with a focus on rewarding ARB holders vs. driving stickiness of users/usage/liquidity + touching on strategy after incentives end\n\n*404 DAO Feedback*\nAPX scored well across a variety of categories and presented a thorough application. Links for team members would have been appreciated to verify the content they have presented. We felt their trading competition left a lot of details out relating to sybil attacks & wash trading. We appreciate the attempt to make the trading competition social in creating teams, but focusing around a volume based challenge rewards larger users to come together to maximize their allocation. Unfortunately we will not be supporting this proposal\n\n*GMX Feedback*\nThe proposal outlines a detailed plan for increasing TVL and trading volume on Arbitrum, accompanied by clear objectives and execution strategies. However, the milestones set are too low. Currently, the proposal suggests spending on incentives to create a $5 million pool on Arbitrum, but most trading is expected to occur on BSC rather than Arbitrum. While the team trading contest is a novel and promising idea, unfortunately, we cannot support the proposal.\n\n*Wintermute Feedback*\nAPX Finance’s application was thorough in their justification and details. They have proven their ability to natively run their own incentive programs which has worked out well. The unification of cross-chain liquidity will be a win for Arbitrum and their execution strategy seems sufficient. Their product has seen great traction outside of Arbitrum and we are hoping that this grant will be able to migrate existing users.\nWe would’ve liked to have seen a PnL Trading tournament alongside their trading volume tournament to encourage more organic trading activity. We also don’t really see the need for the ARB holder incentives, but it will be interesting data nonetheless.\nOverall, we believe this application is solid enough to present it to the DAO.",
+        "end_utc": "2024-04-16T00:00:00Z",
+        "similarity_score": 0.1328,
+        "vote_result": {
+          "choices": [
+            "For",
+            "Against",
+            "Abstain"
+          ],
+          "scores": [
+            88226525.23497523,
+            38061698.54965446,
+            12682928.531690732
+          ],
+          "scores_total": 138971152.31632018,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "arbitrum",
+          "status": "tvl_data_unavailable",
+          "error": "Could not fetch TVL data: TVL cache not found for slug='arbitrum'"
+        },
+        "price_impact": {
+          "token_id": "11841",
+          "ticker": "ARB",
+          "status": "success",
+          "event_time_utc": "2024-04-16T00:00:00",
+          "pre_price_avg": 1.1224173466666667,
+          "post_price_avg": 1.1225794999999998,
+          "abnormal_change": 0.0144,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.000144,
+          "abnormal_change_pct": 0.0144
+        }
+      }
+    },
+    {
+      "proposal_id": "0x979c4e09025029df81cd0a30dbb24e505e2f0ab5525d45cd83d48c879da6294b",
+      "cleaned": {
+        "proposal_id": "0x979c4e09025029df81cd0a30dbb24e505e2f0ab5525d45cd83d48c879da6294b",
+        "title": "Covenant Finance LTIPP Council Recommended Proposal",
+        "author": "0xAD16ebE6FfC7d96624A380F394cD64395B0C6144",
+        "end_utc": "2024-04-16T00:00:00Z",
+        "similarity_score": 0.1235,
+        "winning_option": "For",
+        "winning_option_index": 0,
+        "margin_abs": 82493901.30831964,
+        "margin_pct": 0.6797413552151493,
+        "scores_total": 121360721.50885826,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5376,
+        "total_votes": 5376,
+        "first_vote_at": "2024-04-09T00:38:43Z",
+        "last_vote_at": "2024-04-15T23:58:50Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.999134,
+            0.0,
+            0.000866
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9998139880952381,
+          0.0,
+          0.00018601190476190475
+        ],
+        "stability": [
+          0.9998139880952381,
+          0.0,
+          0.00018601190476190475
+        ],
+        "early_ratio": [
+          0.9991341991341991,
+          0.0,
+          0.0008658008658008658
+        ],
+        "vp_by_quartile": [
+          [
+            487233.9585957082,
+            36296.27803394949,
+            68234.07234294072
+          ],
+          [
+            18704870.40903799,
+            8251.270465032736,
+            632796.1671584653
+          ],
+          [
+            3237455.2982468097,
+            7285224.530850015,
+            477010.8740147596
+          ],
+          [
+            75770659.10433306,
+            124413.1974013776,
+            14528276.348377995
+          ]
+        ],
+        "spike_index": 0.207623,
+        "spike_follow_support_ratio": 0.863706,
+        "stairwise_ratio": 0.000611,
+        "half_slope_diff": -444.977489
+      },
+      "raw": {
+        "id": "0x979c4e09025029df81cd0a30dbb24e505e2f0ab5525d45cd83d48c879da6294b",
+        "title": "Covenant Finance LTIPP Council Recommended Proposal",
+        "author": "0xAD16ebE6FfC7d96624A380F394cD64395B0C6144",
+        "body": "## Link to Application\nhttps://forum.arbitrum.foundation/t/covenant-finance-ltipp-application-draft/21821\n\n## Council -  3/4 Yes Votes\n\n### Feedback\n\n*Wintermute Feedback*\nCovenant Finance’s application was decent and they provided a clear vision of how they expect to benefit the Arbitrum ecosystem. Their product is unique and introduces a new primitive to DeFi.\nTheir grant request is not large and their justification is sound. However, we are concerned about their ability to execute given their age and lack of adoption due to Beta and Alpha stages.\nTheir composability with Uniswap V3 is great and the ability for the protocol to work with long-tail and obscure assets is a great added benefit.\nGiven they are deployed on Optimism, we feel it should ultimately be up to the DAO to decide whether or not they want to take a risk in funding a potentially new DeFi primitive that improves Arbitrum’s competitive advantage. We will be supporting this application.\n\n\n*GFX Feedback*\nWe found this to be an interesting project, and a grant plan that was simple and clear. Unfortunately, the applicant did not quite meet the cutoff where we recommend a grant be approved. Recommend the applicant resubmit in later grants cycles and focus on improving their score in the security and product usage areas. What would make this grant plan much stronger would be to go live, have some success, identify the levers that were pulled to make that happen, and then tailor a grant to scale or reproduce that initial success.\n\n*GMX Feedback*\n\nCovenant Finance aims to bring new debt markets to the Arbitrum and Crypto Markets. The product is innovative as it allows for a perpetual debt which is not currently offered on Arbitrum. The project is able to integrate many of the native debt tokens in the ecosystem including Pendle-YT tokens. Although the project is in early stages I feel the level of innovation the project brings may be a net positive for the ecosystem, the grant size is modest and I think worth the risk for the DAO. The KPIs and milestones also seem reasonable and well thought out. We would be supporting the proposal. \n\n\n*404 DAO Feedback*\nCovenant presents a novel DeFi primitive focusing on instantiating liquidity for perpetual debt markets. While they lack usage, we believe this is an interesting use-case for Arbitrum’s DeFi ecosystem. They provided a strong execution plan and KPIs with relatively sound milestones. While this grant ask is a bit high given current usage, this is a project we think it is worth it for the DAO to take a risk on and will be supporting.",
+        "end_utc": "2024-04-16T00:00:00Z",
+        "similarity_score": 0.1235,
+        "vote_result": {
+          "choices": [
+            "For",
+            "Against",
+            "Abstain"
+          ],
+          "scores": [
+            98200218.7702138,
+            7454185.276750373,
+            15706317.461894156
+          ],
+          "scores_total": 121360721.50885826,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "arbitrum",
+          "status": "tvl_data_unavailable",
+          "error": "Could not fetch TVL data: TVL cache not found for slug='arbitrum'"
+        },
+        "price_impact": {
+          "token_id": "11841",
+          "ticker": "ARB",
+          "status": "success",
+          "event_time_utc": "2024-04-16T00:00:00",
+          "pre_price_avg": 1.1224173466666667,
+          "post_price_avg": 1.1225794999999998,
+          "abnormal_change": 0.0144,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.000144,
+          "abnormal_change_pct": 0.0144
+        }
+      }
+    },
+    {
+      "proposal_id": "0x9d088b1ba3fff0b46e9658d9a3aedd5a166c5a646a190c02264921124f25c2d1",
+      "cleaned": {
+        "proposal_id": "0x9d088b1ba3fff0b46e9658d9a3aedd5a166c5a646a190c02264921124f25c2d1",
+        "title": "Integral LTIPP Council Recommended Proposal",
+        "author": "0x1B686eE8E31c5959D9F5BBd8122a58682788eeaD",
+        "end_utc": "2024-04-16T00:00:00Z",
+        "similarity_score": 0.1208,
+        "winning_option": "For",
+        "winning_option_index": 0,
+        "margin_abs": 123666349.58311401,
+        "margin_pct": 0.9866019784741964,
+        "scores_total": 125345734.43119077,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2024-04-09T00:42:02Z",
+        "last_vote_at": "2024-04-15T23:03:08Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.99759,
+            0.0,
+            0.00241
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9994545454545455,
+          0.0,
+          0.0005454545454545455
+        ],
+        "stability": [
+          0.9994545454545455,
+          0.0,
+          0.0005454545454545455
+        ],
+        "early_ratio": [
+          0.9975903614457832,
+          0.0,
+          0.0024096385542168677
+        ],
+        "vp_by_quartile": [
+          [
+            564689.2155199752,
+            4718.731918401157,
+            13250.90733425164
+          ],
+          [
+            17950347.93619862,
+            81394.08992024929,
+            626915.3255286134
+          ],
+          [
+            615845.524827979,
+            8913.731354929803,
+            3701.6913170556163
+          ],
+          [
+            104769301.57703848,
+            33221.67413618916,
+            114794.51174323361
+          ]
+        ],
+        "spike_index": 0.164552,
+        "spike_follow_support_ratio": 0.355709,
+        "stairwise_ratio": 0.000545,
+        "half_slope_diff": 8932.554541
+      },
+      "raw": {
+        "id": "0x9d088b1ba3fff0b46e9658d9a3aedd5a166c5a646a190c02264921124f25c2d1",
+        "title": "Integral LTIPP Council Recommended Proposal",
+        "author": "0x1B686eE8E31c5959D9F5BBd8122a58682788eeaD",
+        "body": "## Link to Application\nhttps://forum.arbitrum.foundation/t/integral-ltipp-application-final/21693\n\n## Council -  3/4 Yes Votes\n\n### Feedback\n\n*GFX Feedback)*\nGenerally, this grant suffered from being a very large request, having milestones that appear extremely easy to meet with the size of the request. We would have preferred to see the applicant highlight something that had already worked well in the past, identified the mechanism responsible, and tailored a grant request to scaling or replicating that past success. The requested amount is simply too much for experimentation unless the plan also includes very rigorous milestones to meet in order to unlock full funding.\n\n*GMX Feedback)*\n Integral's grant proposal outlines a comprehensive strategy to grow the liquidity on Arbitrum, focusing on enhancing the trading experience and growing platform adoption. The allocation of rewards for LPs and integration efforts with aggregators reflects a well-considered approach to incentivizing participation. The emphasis on sustainable growth, along with proactive engagement with token projects and aggregators, underscores a commitment to long-term ecosystem development. Transparent metrics tracking and milestone setting provide clarity and accountability. With Integral's track record of building highly capital-efficient products, particularly in offering the most efficient swaps, their plan to allocate funds evenly between liquidity incentives and integration support appears sound. The proposed KPIs and milestones align well with the goals of increasing liquidity and fostering ecosystem growth on Arbitrum. Integral's focus on enabling other protocols to integrate and build on top of their platform could contribute significantly to Arbitrum's growth by offering cheaper swaps, attracting more users, and reducing friction. Overall, supporting this proposal could prove to be a mutually beneficial decision for the DAO and the broader Arbitrum ecosystem.\n\n*404 Feedback)*\n\nIntegral presented a strong application that highlighted their recent growth, strong execution strategy, and thorough KPIs. The milestones should have been much more robust and while the grant ask is relatively large we believe given the recent growth there is value in supporting this request so we support this application. \n\n*Karel Feedback)*\nVote FOR Integral's proposal.\n\nGood proposal with very detailed justification behind grant size, and execution plan. and milestones/KPIs by week (re: LP incentives). Grant size is on the larger end in contrast to performance on Arbitrum vs. Ethereum but well justified re: capital efficiency + increased Arbitrum adoption and all in all presents a worthwhile experiment for Arbitrum to invest in scaling out. Would have liked to see more detail behind the development incentives (representing ~44% of the grant) and detail on parameters to be used to inform the 2-30k ARB incentives.",
+        "end_utc": "2024-04-16T00:00:00Z",
+        "similarity_score": 0.1208,
+        "vote_result": {
+          "choices": [
+            "For",
+            "Against",
+            "Abstain"
+          ],
+          "scores": [
+            124441910.8021382,
+            128262.41002822462,
+            775561.2190241779
+          ],
+          "scores_total": 125345734.43119077,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "arbitrum",
+          "status": "tvl_data_unavailable",
+          "error": "Could not fetch TVL data: TVL cache not found for slug='arbitrum'"
+        },
+        "price_impact": {
+          "token_id": "11841",
+          "ticker": "ARB",
+          "status": "success",
+          "event_time_utc": "2024-04-16T00:00:00",
+          "pre_price_avg": 1.1224173466666667,
+          "post_price_avg": 1.1225794999999998,
+          "abnormal_change": 0.0144,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.000144,
+          "abnormal_change_pct": 0.0144
+        }
+      }
+    },
+    {
+      "proposal_id": "0x04097bb3affd01c6ffb1644bba4c85efffa9fe65a744dbd57a63a95578b64a7a",
+      "cleaned": {
+        "proposal_id": "0x04097bb3affd01c6ffb1644bba4c85efffa9fe65a744dbd57a63a95578b64a7a",
+        "title": "Pike LTIPP Council Recommended Proposal",
+        "author": "0x18BF1a97744539a348304E9d266aAc7d446a1582",
+        "end_utc": "2024-04-16T00:00:00Z",
+        "similarity_score": 0.1203,
+        "winning_option": "For",
+        "winning_option_index": 0,
+        "margin_abs": 35425656.15080621,
+        "margin_pct": 0.26690674359740596,
+        "scores_total": 132726718.22875033,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2024-04-09T00:03:55Z",
+        "last_vote_at": "2024-04-14T14:47:32Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1716064.756673606,
+            28162.330075879778,
+            10991.510461930395
+          ],
+          [
+            18020015.385519326,
+            4025306.988904953,
+            382970.212656461
+          ],
+          [
+            167851.29493154027,
+            7291075.196211828,
+            484014.8749704299
+          ],
+          [
+            13615.739837954861,
+            2223.483447733655,
+            3524.8497700620214
+          ]
+        ],
+        "spike_index": 0.761381,
+        "spike_follow_support_ratio": 0.363688,
+        "stairwise_ratio": 0.003595,
+        "half_slope_diff": -47.817109
+      },
+      "raw": {
+        "id": "0x04097bb3affd01c6ffb1644bba4c85efffa9fe65a744dbd57a63a95578b64a7a",
+        "title": "Pike LTIPP Council Recommended Proposal",
+        "author": "0x18BF1a97744539a348304E9d266aAc7d446a1582",
+        "body": "## Link to Application\nhttps://forum.arbitrum.foundation/t/pike-ltipp-application-draft/21824\n\n## Council -  3/4 Yes Votes\n\n### Feedback\n\n*Wintermute Feedback)*\nPike’s application was very strong and they scored well in a range of criteria. Their application was very thorough in describing their execution strategy, goals, milestones, and KPIs. They had a good emphasis on attempting to attract new users and deposits to Arbitrum using their existing user base.\nTheir requested grant size is very large given their age and protocol usage. Typically we would be against such a request however, they have provided performance-based milestones to unlock further tranches of their grant.\nThe other concern is that they currently have no audit (one is being completed with ottersec).\nUltimately, we think that Pike brings new and novel infrastructure to Arbitrum making it easier to connect with users across different chains. It will allow collateral to stay on Arbitrum while users explore other chains; and vice versa. Therefore, we feel like it’s ultimately the DAO’s decision as to whether or not they want to take a risk on the potential long-term benefits of Pike. We will support this application.\n\n*GFX Feedback)*\nThis was a strong proposal in most areas other than request size and audits (which are still ongoing). Given the clear execution strategy, milestones, and metrics to proceed with the grant plan, Pike was able to overcome the softer scores in those areas of the rubric. We recommend approving this grant.\n\n*GMX Feedback)*\nWhile the product offering seems compelling, I question the size of the requested ARB and the ability for Pike to deliver on their aspirational goals relative to the size of the ask. If Pike were to lower their ask, I would be more receptive to their application. The Pike Protocol is aiming to bring cross-chain lending to the Arbitrum Ecosystem, they are in a capped launch at the moment, the product has yet to prove that it has significant demand for cross-chain lending/borrowing. They have stiff competition with native borrowing/lending platforms that are native to Arbitrum including Radiant. Their grant request has a wide range but overall I think it is too expensive and I fear when the incentives dry up so will the TVL gathered from the protocol. It would be better if they had a firm lower ask to test if their protocol gathered significant traction and then come back to the DAO for a large ask at a later time. \n\n*Karel Feedback)*\nVote FOR Pike's proposal.\n\nComprehensive proposal that scored well across the rubric with a detailed execution plan, milestones, and with a lens to maintaining stickiness throughout LTIPP. While this is a very large (ranged) grant size request in contrast to their life, the protocol has seen strong adoption across TVL and users, and the grant unlocked will be conditional upon the achievement of milestones which reduces risk. Over to the DAO.",
+        "end_utc": "2024-04-16T00:00:00Z",
+        "similarity_score": 0.1203,
+        "vote_result": {
+          "choices": [
+            "For",
+            "Against",
+            "Abstain"
+          ],
+          "scores": [
+            70435577.85224459,
+            27281218.675067134,
+            35009921.701438375
+          ],
+          "scores_total": 132726718.22875033,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "arbitrum",
+          "status": "tvl_data_unavailable",
+          "error": "Could not fetch TVL data: TVL cache not found for slug='arbitrum'"
+        },
+        "price_impact": {
+          "token_id": "11841",
+          "ticker": "ARB",
+          "status": "success",
+          "event_time_utc": "2024-04-16T00:00:00",
+          "pre_price_avg": 1.1224173466666667,
+          "post_price_avg": 1.1225794999999998,
+          "abnormal_change": 0.0144,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.000144,
+          "abnormal_change_pct": 0.0144
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x8829663eb0284ed79ba4fd14ea960244d3ae559b967a0efa9971a10cb8fc9b9e",
+    "selected_choice_label": "For",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "This proposal requests a 425,000 ARB grant to incentivize trader competitions aimed at increasing trading volume and onboarding users to Rage Trade's Arbitrum-based perpetual markets. The proposal is supported by strong early voting metrics, positive forum sentiment, and lessons learned from previous similar proposals. The grant will primarily fund daily and weekly trading competitions with robust anti-wash trading measures to ensure fairness and genuine engagement.",
+    "key_arguments_for": [
+      "The proposal demonstrates a strong track record with over $240 million in cumulative trading volume and more than 1,800 traders onboarded.",
+      "Robust anti-wash trading mechanisms and ROI-based competitions ensure fair distribution of incentives and reduce abuse.",
+      "Positive forum sentiment from delegates and council members noting improved proposal revisions and effective execution plans.",
+      "The timeline metrics show early and stable support for the 'For' choice with high voter participation and vote stability."
+    ],
+    "key_arguments_against": [
+      "Initial concerns about the large grant size and limited current integration beyond GMX on Arbitrum.",
+      "Some community members suggested lowering the ask or expanding integrations to include other Arbitrum native DEXs for broader value.",
+      "The proposal had to reduce its initial requested amount significantly from 1.25M ARB to 425,000 ARB after feedback.",
+      "Negative sentiments focus on grant size and perceived overlap with existing GMX incentives."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Arbitrum Foundation Forum Thread 'Rage Trade LTIPP Application - FINAL'",
+        "quote": "Delegates and council members expressed support for the revised proposal, noting detailed prize distributions, anti-wash trading measures, and effective response to feedback."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Proposal voting timeline metrics",
+        "quote": "The voting timeline shows a strong and early lead for the 'For' option with stability and 100% early ratio, indicating confident voter support."
+      },
+      {
+        "source_tool": "adjacent_analytics",
+        "reference": "Similar proposals Primex, Poolside, Pike",
+        "quote": "Similar proposals focused on LTIPP council recommendations with successful vote outcomes, reinforcing the approach of incentivizing trading activities."
+      }
+    ],
+    "available_choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2024-04-25T08:48:46Z",
+    "event_end_utc": "2024-05-02T08:48:46Z",
+    "event_time_utc": "2024-05-02T08:48:46Z",
+    "address_of_governance_token": "0xff970a61a04b1ca14834a43f5de4533ebddb5cc8",
+    "token_price_impact_pct": 1.9575,
+    "tvl_impact_pct": 1.4197,
+    "actual_vote_result": {
+      "winner_label": "For",
+      "winner_index": 0,
+      "scores": [
+        138131865.64452308,
+        78038.17510646587,
+        18923943.793491036
+      ],
+      "scores_total": 157133847.6131211,
+      "margin_abs": 119207921.85103205,
+      "margin_pct": 0.758639
+    },
+    "simulation_reason": "Independent recommendation based on timeline analytics, forum sentiment, and historical lessons to maximize long-term benefit.",
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'For' selected with stance to keep 'Change'.",
+    "ai_final_reason": "• The timeline voting metrics show a stable and early dominant lead for the 'For' choice with a lead ratio of 1.0 in early quartiles, indicating strong confident voter support.\n• Forum sentiment analysis reveals overall positive and neutral comments supporting the proposal revisions, with delegates acknowledging addressed concerns and improved execution plans.\n• The proposal incorporates robust anti-wash trading measures and clear incentive breakdowns, mitigating risks of abuse and enhancing fair participation.\n• Lessons from similar prior LTIPP council recommended proposals show successful adoption of incentive-driven trading growth strategies, informing a positive outlook for this proposal.\n• The recommendation aligns with aggregated forum sentiment, reflecting community support for the proposed changes.\n• Market impacts including positive token price and TVL changes during the event window further support the potential positive effect of this proposal.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x04097bb3affd01c6ffb1644bba4c85efffa9fe65a744dbd57a63a95578b64a7a",
+        "title": "Pike LTIPP Council Recommended Proposal",
+        "end_utc": "2024-04-16T00:00:00Z",
+        "summary": "Pike LTIPP Council Recommended Proposal closed on 2024-04-16T00:00:00Z. Timeline analytics noted 5500 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.13)",
+        "market_response": "token +0.72%; TVL -2.13%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0x5ee25b6d2de2c7a4a93672c8a483efd249e961e800f21303a102b80a14b01c45",
+        "title": "Poolside LTIPP Council Recommended Proposal",
+        "end_utc": "2024-04-16T00:00:00Z",
+        "summary": "Poolside LTIPP Council Recommended Proposal closed on 2024-04-16T00:00:00Z. Timeline analytics noted 5500 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.12)",
+        "market_response": "token +0.72%; TVL -2.13%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 1.9575,
+    "ex_post_tvl_impact_pct": 1.4197,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +1.96%; TVL +1.42%"
+  },
+  "agentic_ai_choice": "For",
+  "actual_outcome": "For",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 5,
+    "Positive": 4,
+    "Neutral": 11,
+    "total_comments": 20
+  }
+}

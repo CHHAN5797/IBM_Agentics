@@ -1,0 +1,1090 @@
+{
+  "captured_at_utc": "2025-10-06T18:05:42.168772+00:00",
+  "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0x33cdbe42706aa449c2e7d55d6c1e81da4bf3f153bb5c1010df71e8ab296fe525",
+  "focus": null,
+  "votes_count": 3242,
+  "timeline_metrics_current": {
+    "unique_voters": 3242,
+    "total_votes": 3242,
+    "first_vote_at": "2023-05-09T11:00:42Z",
+    "last_vote_at": "2023-05-13T21:55:09Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        319.4979283816699,
+        316125.1071026594,
+        6.696031088253753,
+        73.81140633126088
+      ],
+      [
+        152303.04218612556,
+        81179.9633326468,
+        1.2636695716746553,
+        1243.2266059080937
+      ],
+      [
+        81546.91344173471,
+        23901.510568880276,
+        0.5428908492129794,
+        5.260962872579036
+      ],
+      [
+        140.99501914511413,
+        784.5575566995003,
+        4.514163904724446,
+        31.07983172640701
+      ]
+    ],
+    "spike_index": 0.544767,
+    "spike_follow_support_ratio": 0.095143,
+    "stairwise_ratio": 5.9e-05,
+    "half_slope_diff": 0.86855
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x013f763e92d253926bc7f04d79138593a1b31c969a34db7f0955e46850c796d9",
+      "title": "[ARFC] Polygon v2 - Parameter Update",
+      "author": "0x16645967f660AC05EA542D3DE2f46E41b86436d9",
+      "end_utc": "2023-05-05T17:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 3671,
+        "total_votes": 3671,
+        "first_vote_at": "2023-05-01T17:03:09Z",
+        "last_vote_at": "2023-05-05T16:53:05Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 1,
+        "lead_ratio_by_quartile": [
+          [
+            0.384615,
+            0.614469,
+            0.0,
+            0.0,
+            0.000916
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.11441024244075183,
+          0.8853173522201035,
+          0.0,
+          0.0,
+          0.00027240533914464724
+        ],
+        "stability": [
+          0.11441024244075183,
+          0.8853173522201035,
+          0.0,
+          0.0,
+          0.00027240533914464724
+        ],
+        "early_ratio": [
+          0.38461538461538464,
+          0.6144688644688645,
+          0.0,
+          0.0,
+          0.0009157509157509158
+        ],
+        "vp_by_quartile": [
+          [
+            757.0467563570154,
+            3780.540786345383,
+            5.683111667941675,
+            2.428711662442686,
+            36.91049728191286
+          ],
+          [
+            19.62869736240875,
+            1237.9923124423813,
+            0.28965998686001876,
+            1.5867473104229457,
+            120.63267156100248
+          ],
+          [
+            54.11300461724616,
+            162829.15725084572,
+            2.5270356858110254,
+            0.21841573385372665,
+            1.235876011483219
+          ],
+          [
+            14.35356431182352,
+            150204.6827796853,
+            2.853051502165075,
+            0.085,
+            1.3217423391796073
+          ]
+        ],
+        "spike_index": 0.339893,
+        "spike_follow_support_ratio": 0.847328,
+        "stairwise_ratio": 0.000364,
+        "half_slope_diff": 1.08279
+      },
+      "price_impact_pct": -1.9277,
+      "tvl_impact_pct": 0.6613,
+      "similarity": 0.174,
+      "actual_vote_result": {
+        "winner_index": 1,
+        "winner_label": "Option 2 - Conservative",
+        "margin_abs": 317207.2311066717,
+        "scores_total": 319073.2876727118,
+        "margin_pct": 0.994151636510687
+      }
+    },
+    {
+      "id": "0x7057a6311c791ebd57b93acb4a231dfd4fb92755fc02fa1de4723d0a5510d2ed",
+      "title": "[ARFC] MaticX Supply Cap Increase Polygon v3",
+      "author": "0x16645967f660AC05EA542D3DE2f46E41b86436d9",
+      "end_utc": "2023-05-01T22:55:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-04-27T11:03:35Z",
+        "last_vote_at": "2023-04-27T14:58:06Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.966727,
+            0.033091,
+            0.0,
+            0.000182
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9667272727272728,
+          0.03309090909090909,
+          0.0,
+          0.0001818181818181818
+        ],
+        "stability": [
+          0.9667272727272728,
+          0.03309090909090909,
+          0.0,
+          0.0001818181818181818
+        ],
+        "early_ratio": [
+          0.9667272727272728,
+          0.03309090909090909,
+          0.0,
+          0.0001818181818181818
+        ],
+        "vp_by_quartile": [
+          [
+            82076.10006173611,
+            30.24277132379644,
+            1.9568317605582237,
+            1.7922776290010858
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.999075,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 9e-06,
+        "half_slope_diff": -30.678429
+      },
+      "price_impact_pct": -1.8944,
+      "tvl_impact_pct": 0.107,
+      "similarity": 0.1595,
+      "actual_vote_result": {
+        "winner_index": 1,
+        "winner_label": "Option 2 - YAE 29.3M Supply Cap",
+        "margin_abs": 68449.9733707887,
+        "scores_total": 582948.4667030963,
+        "margin_pct": 0.1174202820326676
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0xf92c5647c7f60a4a3db994b4953fc4408f5946cafdc0cebcd4c5924f40e04d36",
+      "cleaned": {
+        "proposal_id": "0xf92c5647c7f60a4a3db994b4953fc4408f5946cafdc0cebcd4c5924f40e04d36",
+        "title": "[ARFC] Deploy aCRV & CRV to veCRV",
+        "author": "0xc290Cfb8D020c0615e9C63036f4319Cc41717E68",
+        "end_utc": "2023-03-30T22:00:00Z",
+        "similarity_score": 0.1829,
+        "winning_option": "YAE - sdCRV",
+        "winning_option_index": 2,
+        "margin_abs": 137998.32353212414,
+        "margin_pct": 0.2355683935766142,
+        "scores_total": 585810.0122724774,
+        "change_stance": null
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-03-27T09:00:14Z",
+        "last_vote_at": "2023-03-28T05:44:43Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 2,
+        "lead_ratio_by_quartile": [
+          [
+            0.21,
+            0.0,
+            0.79,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.21,
+          0.0,
+          0.79,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          0.21,
+          0.0,
+          0.79,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.21,
+          0.0,
+          0.79,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            42088.03019589627,
+            7.937698720376638,
+            360797.3341493339,
+            0.32060601568376285,
+            1.5885222437143525
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.669494,
+        "spike_follow_support_ratio": 0.783792,
+        "stairwise_ratio": 1.4e-05,
+        "half_slope_diff": -5.763759
+      },
+      "raw": {
+        "id": "0xf92c5647c7f60a4a3db994b4953fc4408f5946cafdc0cebcd4c5924f40e04d36",
+        "title": "[ARFC] Deploy aCRV & CRV to veCRV",
+        "author": "0xc290Cfb8D020c0615e9C63036f4319Cc41717E68",
+        "body": "- - -\n\ntitle: [ARFC] Deploy aCRV & CRV to veCRV\nauthor: @llamaxyz - TokenLogic & @Dydymoon \ndate: 2023.02.09\n\n- - -\n\n# Simple Summary\n\nThis proposal presents Aave with thr options for managing the CRV holding, with @Llamaxyz recommending to lock the CRV for veCRV via Curve Finance.\n\n# Abstract\n\nAave currently holds approximately 696k CRV across Ethereum and Polygon networks. Llama has been looking at potential sources for CRV yield and governance influence. This proposal presents one high yield and one governance focused strategy for consideration:\n\nOption 1) veCRV - Lowest risk, governance and direct control CRV emissions\nOption 2) st-yCRV - High yield, no CRV emission influence and exit liquidity risk\nOption 3 ) sdCRV - High yield, proportional CRV emission influence and exit liquidity risk\n\nTo vote NAE is to deposit CRV in Aave v3 on the network it was earned. This represents the “do nothing” approach.\n\nA Snapshot vote presenting the three options will determine which options will be presented as an AIP. Each option has varying degrees of complexity to implement, with Option 1) being the most difficult in a decentralized way, but more closely aligned with Aave’s GHO and staked aToken direction.\n\n# Motivation\n\nAave currently holds 696k of CRV across Ethereum and Polygon networks. \n\nTo support Aave in choosing how best to manage the CRV holding, Llama presents three high-level strategies to choose between.\n\n## Option 1) veCRV - Lowest risk, governance and direct control CRV emissions\n\nOption 1) includes locking CRV, participating in Curve Finance governance, and voting to direct incentives to pools of Aave’s choosing. veCRV could be used to boost adoption of GHO, yield on staked aToken reserves, and yield on Protocol Owned Liquidity, to name a few potential use cases.\n\n### Pros\n\n* **Gauge weight power (Influence on CRV weekly emission)**\n\nBy locking it 4 years and relocking periodically to get the max voting power, the DAO would be able to redirect 0.0068 CRV/veCRV on the pools of its choice (Most likely directed to a GHO one) \n\nWith the current emission (reduced every year by 15%) the DAO would control 4,740 CRV of emission per week, representing $234.13K per year obtained without any additional expenses. \n\n* **Protocol fees (Profit sharing in 3CRV Stable pool)**\n\n50% of all protocol fees on Curve are directed to LPs, and the other 50% goes to veCRV holders. The current APR is 3,43% which is representative of the usual economic activity. With regular volumes, the APR is close to 2-5%, but weeks like USDC depeg, the APR was 15%. \nNo extra counterparty risk (No protocol on top of Curve) \n\nUnlike the two other options, the CRV will be locked on Curve directly from the Collector contract. This reduces the risks compared to using protocols on top of Curve which adds an additional layer of smart contract counterparty risks. \n\n* **Easy management of the veCRV position & votes** \n\nRe-locking the veCRV position can be made accessible, via adding a function on the Collector Contract. Llama can then create a bot which automatically calls the function and re-commits the veCRV holding. \nThe veCRV option only requires to lock CRV, no extra token required. \n\nWhen a gauge vote is submitted on Curve, there is no need to revote each week even if the position is increased, unless Aave decides to change the vote. \n\n* **Additional features from holding veCRV** \n\nGovernance Power to participate in the DAO decisions (On-Chain)\n\nveBoost which can be sold or utilized to maximize the rewards on the funds deposited: While we agree that the impact will be minimal at first, the veBoost will grow over time with the veCRV holdings, compared to both other solutions where it is lost. \n\n### Cons\n\n* **4 unlock period with frequent relock to keep the max voting power**\n\nThe goal of this strategy is to always relock to have the maximum voting power, and increase the position over time with the CRV earned. If Aave decides to stop this strategy at a later stage, the same amount of CRV that was locked will be available after 4 years. \n\nLlama can automate the relock periodically to avoid the decay. \n\n* **Complex participation in DAO decisions**\n\nGovernance participation can be challenging with the collector contract because of the important amount of DAO decisions voted, and there is no way to delegate the veCRV governance power. \n\n## Option 2) st-yCRV - High yield, no CRV emission influence and exit liquidity risk\n\nOption 2) focuses on yield, forgoes governance influence (participating in votes), and presents a higher-yielding investment strategy that, over time, will lead to Aave own more CRV relative to Option 1).\n\nThis option does not offer any governance influence which leads to an easier management. \n\nHowever, considering the recent events such as USDC de-peg and Euler hack which impacted many protocols, Llama believes that security should be prioritized and Aave  should proceed with the lowest risk proposal. \n\n### Pros\n\n* **Gauge weight power profits (Influence on CRV weekly emission)** \n\nWhile it’s not possible to directly vote with st-yCRV, Yearn utilizes the voting power to vote for the highest vote incentives on the market, then sells everything for CRV and compounds the strategy overtime. \n\n* **Boosted protocol fees profits (Profit sharing in 3CRV Stable pool)**\n\nYearn utilize its veCRV holdings to boost the distribution of the 3CRV (Currently 1.66x) \nAll 3CRV are collected, sold for CRV and compounded overtime.\n\n* **Temporary MegaBoost in CRV**\n\nAs mentioned earlier in this thread, Yearn decided to distribute 30k CRV/Week for a defined amount of time to maximize the yield. These CRV are also compounded in the strategy. Unless the decision is renewed, this should not be taken into account as the initial incentives should end soon. \n\n* **Easy management of the CRV position**\n\nRequires a deposit & stake to enter the strategy. The yield sources are collected in, or sold for CRV which are automatically compounded in st-yCRV. No further action is required by Aave post-staking yCRV.\n\nTotal current APR: 33%\n\n* **Transferable Asset (yCRV)** \n\nWhen CRV are deposited on Yearn, it is periodically relocked as veCRV, but the protocol mint yCRV at 1:1. These yCRV can be staked for st-yCRV and transferred or sold on the yCRV-CRV pool on Curve. \n\n### Cons\n\nNo direct governance influence** \n\nAll the gauge weight power and 3CRV are sold for CRV, and the governance power and veBoost are kept by Yearn. \n\nExtra counterparty risk (Yearn on top of Curve)** \n\nThis solution adds extra smart contract and counterparty risks as required to trust Yearn as a good manager of the strategy. \n\nHigh risk asset profile (Depeg risk)**\n\nThe yCRV is transferable, but the liquidity remains limited: $8.4M.\n \nWith the current Aave holdings and yCRV liquidity, it would be possible to exchange 680k yCRV with a rate of 0.9936:1. \n\nHowever, any selling pressure on the yCRV could lead to Aave incurring significant slippage when trying to exit the position. \n\n## Option 3) sdCRV - High yield, proportional CRV emission influence and exit liquidity risk\n\nsdCRV was proposed by the Stake DAO team in the comments, and presents as an hybrid solution between maximizing yield and governance influence. However, it requires veSDT holdings or boost delegation to Aave to be considered efficient compared to other solutions. \n\nUntil recently, the voting power on sdCRV was acquired progressively over a 30 day period. Stake DAO mentioned a parameter change related to asdcrv, but we couldn’t find any vote or public announcement about this update. However, even after this period, the voting power of 1 sdCRV was not equal to 1 veCRV if Aave does not lock SDT itself  or receive delegation from veSDT holders. \n\n## Pros\n\n* **Proportional gauge weight power (Influence on CRV weekly emission)**\n\nBy depositing 696k CRV on Stake, it would result in a voting power of 0.61 veCRV vote / sdCRV. With the current emission (reduced every year by 15%) the Aave would control 2,891 CRV of emission per week, representing $142.80K per year obtained without any additional expenses or veSDT boost holdings or delegation. \n\nTo avoid a SDT acquisition and reduced voting power, Marc Zeller from ACI is to delegate all his veSDT voting power (270k) to Aave for one year, as well as relocking & re-delegating every week enabling Aave to retain the provided boost. \n\nOther parties mentioned on the forum said that they consider to delegate, but no one other than ACI confirmed that they will delegate, relock & redelegate frequently or disclosed their holdings to track the delegation, so it’s not taken into account in this recap.  \n\nAccording to AaveChan engagement, the veSDT holding delegation would boost the voting power  to 1.14x for 1 year. \n\nWith the current emission (reduced every year by 15%) the DAO would control 5,403 CRV of emission per week, representing $266.9K per year obtained with 270k veSDT boost delegated. However, as soon as the delegation is over, the voting power will be back to 0.61x. \n\n* **Proportional protocol fees (Profit sharing in 3CRV Stable pool)**\n\nSame as on Curve, the 3CRV fees are distributed to sdCRV stakers. \n\n* **Transferable Asset (sdCRV)** \n\nWhen CRV are deposited on Stake DAO, it is periodically relocked as veCRV, but the protocol mint sdCRV at 1:1. These sdCRV can be staked for sdCRV-gauge, transferred or sold on the sdCRV-CRV pool on Curve. \n\nAdditionally, the Stake DAO team communicated that the votes now operate like veCRV.  Please note, Llama has not been able to publicly find this announcement beyond this forum thread.\n\n## Cons\n\n* **Extra counterparty risk (Stake on top of Curve)**\n\nThis solution adds extra smart contracts risks, similar to st-yCRV with additional counterparty risk through reliance on ACI and/or others to provide delegated veSDT support. This veSDT support requires weekly relock and redelegation to avoid impacting the boost.\n\nAs Aave’s CRV continues to grow in line with Aave revenue, additional veSDT delegation will be required to maintain the maximum boost. Llama does not question ACI’s dedication to Aave. After the initial committed 1 year period, Aave will receive reduced voting power if an alternative veSDT delegate is not found.\n\n* **High risk asset profile (Depeg risk)** \n\nThe sdCRV is transferable, but the liquidity remains limited: $3.8M.\n\n\nWith the current Aave holdings and liquidity, it would be possible to exchange 680k sdCRV with a rate of 0.9826:1.\n\n* **Management of the rewards**\n\nConsidering that Aave will vote for pools with no vote incentives have decided on the Curve pools, Aave would not earn part of the yield disclosed on the UI. \n\n\nMoreover, all rewards from vote incentives are sold for SDT and distributed. If Aave is to accumulate a CRV holding over time, the SDT tokens would need to be swapped to CRV. \n\n* **No veBoost (Kept by Stake DAO)** \n\nSame as Yearn, Stake DAO would keep the veBoost to maximize the yield on their strategies. \n\n## NAE - aCRV on v3 Liquidity Pools\n\nTo vote NAE involves Aave holding all CRV positions in the form of aCRV.\n\nAll CRV is to be migrated/deposited into Aave v3 on the respective network and held as aCRV. In order to achieve this, CRV must first be listed on Aave v3 Ethereum. The only smart contract exposure is the Aave protocol and this strategy best represents the “do nothing” approach versus either optimizing for governance influence with yield, Option 1), or outright CRV yield, Option 2).\n\n## Comments\n\nLlama suggests Option 1) to focus on accumulating active voting power and enabling Aave to determine how to manage the position.\n\nWe are particularly interested in creating an Aave aToken liquidity pool and explore what can be done to support GHO and staked aTokens when more details emerge around those upgrades. In our opinion, Option 2) has several significant unknowns which can impact the success of the strategy.\n\n# Next Steps\n\nThe proposal with the most YAE votes will be presented as an AIP  for voting. \n\n# Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+        "end_utc": "2023-03-30T22:00:00Z",
+        "similarity_score": 0.1829,
+        "vote_result": {
+          "choices": [
+            "YAE - veCRV",
+            "YAE - st-yCRV",
+            "YAE - sdCRV",
+            "NAE",
+            "ABSTAIN"
+          ],
+          "scores": [
+            223863.1174055209,
+            42.21780378455575,
+            361861.44093764503,
+            32.39284916331697,
+            10.843276423838155
+          ],
+          "scores_total": 585810.0122724774,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2023-03-30T22:00:00",
+          "pre_tvl_avg": 5488039008.5,
+          "post_tvl_avg": 5533736038.0,
+          "abnormal_change": 0.8327,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.008327,
+          "abnormal_change_pct": 0.8327
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2023-03-30T22:00:00",
+          "pre_price_avg": 71.756570495,
+          "post_price_avg": 73.624622155,
+          "abnormal_change": 2.6033,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.026033,
+          "abnormal_change_pct": 2.6033
+        }
+      }
+    },
+    {
+      "proposal_id": "0x05182d6092e7a075b94ab937a6cd57968f36c6ac225196561a58b437e591065f",
+      "cleaned": {
+        "proposal_id": "0x05182d6092e7a075b94ab937a6cd57968f36c6ac225196561a58b437e591065f",
+        "title": "[ARFC] Deploy BAL & aBAL from the Collector Contract",
+        "author": "0xc290Cfb8D020c0615e9C63036f4319Cc41717E68",
+        "end_utc": "2023-03-16T12:00:00Z",
+        "similarity_score": 0.1822,
+        "winning_option": "YAE - Locking veBAL",
+        "winning_option_index": 0,
+        "margin_abs": 324848.5399000491,
+        "margin_pct": 0.999001993867783,
+        "scores_total": 325173.0646125642,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-03-13T12:38:56Z",
+        "last_vote_at": "2023-03-14T01:22:54Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.996727,
+            0.003273,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9967272727272727,
+          0.0032727272727272726,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          0.9967272727272727,
+          0.0032727272727272726,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.9967272727272727,
+          0.0032727272727272726,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            52712.93631739046,
+            2.0703442907179768,
+            0.05149452719213608,
+            0.16418048396528462
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.790583,
+        "spike_follow_support_ratio": 0.979839,
+        "stairwise_ratio": 2.4e-05,
+        "half_slope_diff": -0.822783
+      },
+      "raw": {
+        "id": "0x05182d6092e7a075b94ab937a6cd57968f36c6ac225196561a58b437e591065f",
+        "title": "[ARFC] Deploy BAL & aBAL from the Collector Contract",
+        "author": "0xc290Cfb8D020c0615e9C63036f4319Cc41717E68",
+        "body": "---\n\n[ARFC] Deploy BAL & aBAL from the Collector Contract\nAuthor: @llamaxyz - DeFi_Consulting (@MatthewGraham) and @dydymoon\nCreated: 2023-02-05 (updated)\n\n---\n\n# Simple Summary\n\nThis proposal presents two options for deploying the approximately 100k BAL tokens being acquired by AIP 115 and the aBAL holding in the Ethereum Collector Contract, [1].\n\n# Abstract\n\nAIP 115 has been successfully implemented and Aave has acquired an additional 100k BAL on market. The total BAL and aBAL holding is now 308,978.30. With 200k BAL already committed to veBAL, this proposal will determine how to deploy the remaining 108,978.30 BAL with the overall objective of maximizing the growth potential of Aave, [4,16].\n\nAave Snapshot voters can choose between two options, each of which has varying degrees of complexity and represents different means of achieving similar goals over different time horizons.\n\nOption 1) Locking veBAL.\nOption 2) Staking auraBAL.\n\nOption 1) is about locking B-80BAL-20WETH enabling Aave to participate in Balancer gauge and governance votes, and benefit from the Liquidity Provider (LP) boosting and protocol fees earnings.\n\nOption 2) focuses on yield, forgoes governance influence (participating in votes) and presents a higher yield investment strategy that over time, will lead to more governance influence relative to Option 1).\n\nA Snapshot will be posted enabling the community to choose between both options. Llama recommends voting for Option 1).\n\n# Motivation\n\nThis BAL holding has been acquired by the Aave with the goal of supporting Aave lending market adoption. In pursuit of driving growth to the Aave markets, the BAL holding needs to be deployed and utilised.\n\nAave has the following BAL and aBAL holdings on Ethereum:\n\n* 200k BAL acquired via a token swap with Balancer DAO, [1].\n* 100k BAL acquired via an on market acquisition swap contract, [4].\n* 8,978.30 aBAL acquired through user borrowing BAL on Aave, [10].\n\nThis proposal will focus on how best to deploy the 100k BAL and 8,978.30 aBAL.\n\n## Option 1) Locking veBAL\n\nThe Balancer Liquidity Mining system is an automated program which governs the minting of all BAL tokens based on on-chain voting by veBAL holders. veBAL is obtained by joining the canonical 80/20 BAL/ETH Weighted Pool and then locking the Pool shares token (often called BPT, for 'Balancer Pool Token') for a time duration. The longer the 80/20 BPT is locked for, the more veBAL and voting power is obtained.\n\nIn Option 1), Aave DAO converts all BAL (incl. Redeem aBAL for BAL) with sufficient WETH to B-80BAL-20WETH. The B-80BAL-20WETH token is then deposited into the VotingEscrow veBAL contract and locked for the maximum duration, 1 year. This proposal will acquire the B-80BAL-20WETH and explain the goals of utilising the veBAL holdings while a separate proposal will detail how the veBAL is to be managed before being deployed to veBAL.\n\n### What’s veBAL ?\n\nveBAL are not transferable and the voting influence decays on the veTokens balance over time requiring the veBAL to be relocked periodically to maintain maximum voting influence. The B-80BAL-20WETH can be locked from 1 week to 1 year. Ie: 1 B-80BAL-20WETH locked 1 year = 1 veBAL, locked 6 months = 0,5 veBAL etc\n\n* **Gauge-weight Power**\nVoting power which influences the BAL emissions on the different gauges. The votes happen every week on Balancer governance. It can be used for several goals which will be described later on this post.\n\n* **Governance Power**\nVoting influence in Balancer DAO proposals. Since Balancer DAO utilities off-chain governance, the voting power can be delegated via Snapshot. Note: Llama is currently a Balancer DAO delegate.\n\n* **veBoost**\nLocking B-80BAL-20WETH earns a boost of up to 2.5x on the liquidity provided on Balancer.\n\n* **Protocol Fees**\n75% of all trading fees consolidated for bb-a-USD (stable) + BAL coming from the veBAL gauge are distributed to lockers, [9].\n\n### veBAL Position Overview\n\nBy maximising the veBAL holding and using over 308.9K BAL with the proportional amount of WETH (326.88) for a combined worth of $2,719,000 at the time of writing, Aave would receive an estimated ~153,520.38 units of B-80BAL-20WETH. Converted to veBAL, the ~153,520.38 units would represent approximately 1.10% of the BPT liquidity and 1.40% of the veBAL supply. Aave would be one of the largest veBAL holders along with Aave Companies, [5].\n\nWith 145,000 BAL tokens currently being minted and distributed each week across four networks and Aave holding 1.40% of veBAL supply, this is equivalent to controlling the distribution of 2036 BAL per week, or $14,496 per week ($753,8080 per year, assuming a BAL price $7.12).\n\nBAL emissions reduce yearly as per the inflation schedule and the next reduction will occur at the end of March 2023, pivoting from 145,000 to 121,930 BAL/week. With 2023 emission and the same veBAL share, Aave would be able to redirect 1,712 BAL/week, or $12,189 per week or $633,850 per year, assuming a BAL price at $7.12.\n\nAave can utilise its veBAL holdings to support, not limited to, the below strategies:\n\n* Redirect incentives on existing Balancer pools\n* Optimise the yield on treasury strategies\n* Bootstrap the Staked aToken Reserves\n* Grow and sustain the GHO liquidity\n* Help sustain the Safety Module yield\n\nThe boost amount received depends on the value of the funds deposited and the relative sizing of the veBAL holding. The boost can be used directly on the Collector Contract but considering the amounts of available funds, the boost is unlikely to be sufficient to boost all of Aave’s positions in Balancer Liquidity Pools. Therefore, it is likely any treasury strategies will be a mix of both depositing into Balancer gauges directly or via Aura Finance.\n\nThere remains the possibility to sell the veBoost on secondary markets like Warden, [6].\n\n### veBAL yield overview\n\nThe veTokens yield can vary a lot depending on several parameters:\n\n* bb-a-USD fees depends on the trading volume (Swap fee: 0.67% APR)\n* BAL rewards are coming from the veBAL gauge (BAL rewards: up to 0.91% APR)\n* The veBoost yield is hard to estimate as it won’t be the same if used on POL (up to 2.5x the yield), or sold\n\nIn the second case, the current minimum price listed on Warden is 0.00014 BAL/veBAL/week\n\nveBoost if sold: from 0.27% APR with a BAL price of 7.14$ and a veBAL price of $18.92\n\n* Bribes: The biggest variation on the veBAL yield comes from the bribes received for the gauge weight power. Last week, the average cost was ~$0.085/veBAL vote/week. Gauges weight APR: 23.3%.\n\nIt’s important to note that the yield impact is better when some funds are deployed in strategies, farming boosted rewards on the pools voted.\n\n## Option 2) Staking auraBAL\n\nOption 2) maximises earning whilst forgoing Aave’s ability to participate in BAL emission distribution votes. Both Option 1) and 2) involve obtaining the B-80BAL-20WETH position.\n\nAfter the B-80BAL-20WETH position is obtained, Aave could deposit it into Aura Finance’s auraBAL wrapper contract to earn staking yield in the several forms (1.87% stables (bb-a-USD), 24.09% in BAL and 34.59% in AURA for a total of 60.56% APR), [8].\n\nDepositing into the B-80BAL-20WETH/Aura pool and staking the BPT was considered, however this is more complex to execute and maintain for margin additional yield.\n\nThe yield received from the auraBAL holding can be compounded to earn additional yield.\n\n* BAL (24.09% of 60.56%): BAL, aBAL and WETH from the Collector Contract can be swapped for B-80BAL-20WETH and staked on Aura Finance.\n* bb-a-USD (1.87% of 60.56%): bb-a-USD can be deposited on Aura to earn 6.53% in (0.06% swap fees, 0.83% bb-a-USD, 2.30% BAL, 3.35% AURA).\n* AURA (34.67% of 60.32%): AURA can be locked for vlAURA and used to vote where BAL and AURA incentives will be directed. The vlAURA position generates around 3.34% in auraBAL as well as gives vote weight for proposal and gauge weight voting, [11]. The vlAURA lock period is 16 weeks and 4 days, depending on locking date and after this time, the AURA can be redeemed and swapped.\n\nGrowing a vlAURA position over time in addition to the veBAL one will increase the total voting power controlled over time, which will help to drive TVL to Aave markets and generate more earnings.\n\nWith 200K BAL from the token swap + WETH to be deposited in veBAL and 108,978.30 BAL + WETH into the auraBAL staking contract, Aave will own ~54,220 auraBAL and ~99,600 veBAL.\n\nBy staking 54,220 auraBAL, Aave DAO will hold approximately 1,99% of the auraBAL supply, [7].\n\nOption 2) is focused on depositing B-80BAL-20WETH on Aura to earn more BAL & AURA rewards.\n\n## Comments\n\nTo help with the decision making, the table below presents some pros and cons of each approach. The TL;DR: veBAL has an immediate impact whilst auraBAL is a longer term, higher return strategy that compounds over time.\n\n![](https://i.imgur.com/JasIpLf.png)\n\nLlama suggests Option 1) to focus on accumulating voting power as soon as possible, to support all possibilities mentioned above.\n\nThere are several more advanced strategies to which Aave could deploy assets to grow its strategic voting power over time which will be detailed in the RF strategies deployment proposal.\n\nIt is reasonable to think that, in time, AURA could be listed as collateral on Aave, generating aAURA revenue which could also be used to bolster this strategy. The compounding effects of using Aave’s revenue stream presents a unique opportunity to gain influence in how BAL and AURA incentives are distributed.\n\n# Implementation\n\nThis section has been up dated and uses data from early March 2023 which differs from older data mentioned earlier in this post.\n\nTo summarise, the below shows the current BAL and wETH to be swapped to B-80BAL-20WETH.\n\n|Asset|Amount|Price|Value|\n| --- | --- | --- | --- |\n|BAL|309,102.07|$6.61|$2,043,756.21|\n|wETH|326.31|$1,565.79|$510,939.05|\n|B-80BAL-20wETH|||$2,554,695.26|\n\nThe amount of B-80BAL-20WETH received is estimated to be 152,617.94 units valued at\n\nLlama proposes the following methodology for obtaining the B-80BAL-20WETH holding:\n\n1. Redeem 326.31 awETH for wETH\n2. Approve 326.31 wETH on Cowswap\n3. Swap all 326.31 WETH to BAL. This routing minimises slippage.\n![|307x257](https://lh5.googleusercontent.com/91M03SGqVM-CY3EA640gypvHrKToAMDGkze_9_55Ac9ZuOH3fB16bQXc50YjlxsgHbp0auh2pd7aLjNmdjzWevNnyB1zOurqwNRuO88x1VtW4MvifbzV8tVuIo3Ec8icnAPyZ4qj5rtrNUYsMiIfR_Q)\nThe BAL holdings are now 78,011.66 + 309,102.07 = 387,113.73 BAL\n4. Approve BAL on Cowswap\n5. Swap all BAL for B-80BAL-20WETH\n\n![|312x312](https://lh5.googleusercontent.com/NyamWu2oOW0-UTQrXfcgD2kR4Z6J64pqWmD2kFrcZd_8Ay-MrXsGlGtIXnKSbhcHjzvfFFMtGTc_Hlpuel5Qp0j8GevSPNkqB9AkPN5LZhQLmAW-c8jYmESZPCkEI4QkSc8QaOhdFarIytRV6uq2QNA)\n\nAave is expected to receive 152,617.94 units of B-80BAL-20WETH. The B-80BAL-20WETH can be deposited into the voter escrow contract and locked to create a veBAL holding for Aave.\n\nAt the time of writing there are [14,133,907](https://dune.com/balancerlabs/veBAL) units of B-80BAL-20WETH in circulating supply backed by 28,685,996 BAL and 29,196 wETH valued at $235,329,238.4 or $16.65/unit of B-80BAL-20WETH.\n\n152,617.94*16.65 = $2,541,088.70\n$2,541,088.70 - $2,554,695.26 = -$13,606.56\n\nIn performing the above transactions, Aave incurs $13,606.56 (0.53%) of price impact (slippage) in converting 309,102.07 units of BAL and 326.31 units of wETH.\n\nFor comparison purposes, the Balancer veBAL tool generates 153,121.46 units of B-80BAL-20WETH for depositing 309,102 units of BAL and 323 units of wETH. Using this reference data, Aave would incur 0.33% of price impact. This is reflective of the estimated difference in B-80BAL-20WETH received between Cowswap and [Balancer’s veBAL Tool](https://balancer.tools/veBAL).\n\nThe number above are accurate at the time the post was drafted and shared for review. The final numbers to be used will be based upon the actual BAL and aBAL holding at the time.\n\n\n\n# Future Considerations\n\nThe above proposal focuses on whether Aave’s preference is for maximum governance influence or yield. Depending upon which direction Aave elects to proceed, there will be various other considerations and discussions that emerge.\n\nThose considerations are:\n\n* Determine how to use the veBAL and/or vlAURA holdings, GHO, staked aToken pools, pools include in the Safety Module upgrade\n* Implementation of meta-governance, via Snapshot, AIP, multi-sig etc…, [3,4]\n* Continual conversion of aBAL and awETH to veBAL, if Option 1) is voted\n\n# References\n\n[1] https://app.aave.com/governance/proposal/115\n[2] https://snapshot.org/#/aave.eth/proposal/QmVqWgpRmoEvvhvXZFepmAgYU5ZK9XpSs39MExEUpiJZw3\n[3] https://app.aave.com/governance/proposal/87/\n[4] https://governance.aave.com/t/arfc-bal-interest-rate-curve-upgrade/10484/19\n[5] https://dune.com/queries/782195/1395498\n[6] https://app.warden.vote/dashboard/\n[7] https://etherscan.io/tx/0x94ac1109d58b02b5b74f10d92fb816a9cdc4b198fd455cc2bb2fdbb52ae84f9e\n[8] https://etherscan.io/token/0x616e8BfA43F920657B3497DBf40D6b1A02D4608d?a=0x5e5ea2048475854a5702f5b8468a51ba1296efcc\n[9] https://dev.balancer.fi/resources/deploy-pools-from-factory/creation/aavelinearpool\n[10] https://etherscan.io/token/0x272f97b7a56a387ae942350bbc7df5700f8a4576?a=0x464c71f6c2f760dda6093dcb91c24c39e5d6e18c\n[11] https://app.aura.finance/#/lock\n[12] https://app.balancer.fi/#/ethereum/pool/0x3dd0843a028c86e0b760b1a76929d1c5ef93a2dd000200000000000000000249\n[13] https://creativecommons.org/publicdomain/zero/1.0/\n\n# Copyright\n\nCopyright and related rights waived via CC0, [13].",
+        "end_utc": "2023-03-16T12:00:00Z",
+        "similarity_score": 0.1822,
+        "vote_result": {
+          "choices": [
+            "YAE - Locking veBAL",
+            "YAE - Staking auraBAL",
+            "NAE",
+            "ABSTAIN"
+          ],
+          "scores": [
+            324976.8088663544,
+            128.2689663053082,
+            5.020787483777567,
+            62.965992421027536
+          ],
+          "scores_total": 325173.0646125642,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2023-03-16T12:00:00",
+          "pre_tvl_avg": 5223340127.0,
+          "post_tvl_avg": 5466448449.0,
+          "abnormal_change": 4.6543,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.046543,
+          "abnormal_change_pct": 4.6543
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2023-03-16T12:00:00",
+          "pre_price_avg": 76.67328129500001,
+          "post_price_avg": 78.69688347499999,
+          "abnormal_change": 2.6393,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.026393,
+          "abnormal_change_pct": 2.6393
+        }
+      }
+    },
+    {
+      "proposal_id": "0x40871bfdae8e39b8ddfd7cc63b9138ca115dbd7ab84097dc953e74b8da042ef8",
+      "cleaned": {
+        "proposal_id": "0x40871bfdae8e39b8ddfd7cc63b9138ca115dbd7ab84097dc953e74b8da042ef8",
+        "title": "ARC - Strategic Investment BAL Token",
+        "author": "0xc290Cfb8D020c0615e9C63036f4319Cc41717E68",
+        "end_utc": "2022-04-13T22:59:00Z",
+        "similarity_score": 0.1726,
+        "winning_option": "FOR",
+        "winning_option_index": 0,
+        "margin_abs": 28691.702649869887,
+        "margin_pct": 0.9994424286536165,
+        "scores_total": 28707.709245965743,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2022-04-10T23:05:01Z",
+        "last_vote_at": "2022-04-11T13:07:36Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            26978.322891830794,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.918548,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.0,
+        "half_slope_diff": -0.056063
+      },
+      "raw": {
+        "id": "0x40871bfdae8e39b8ddfd7cc63b9138ca115dbd7ab84097dc953e74b8da042ef8",
+        "title": "ARC - Strategic Investment BAL Token",
+        "author": "0xc290Cfb8D020c0615e9C63036f4319Cc41717E68",
+        "body": "---\n\ntitle: ARC - Strategic Investment BAL Token\nstatus: WIP\nauthor: Llama Community - @MatthewGraham\ncreated: 21-03-2022\n\n---\n\n# Simple Summary\n\nAcquire 200,000 BAL tokens via a combination of performing a BAL for AAVE token swap. The BAL tokens are to be complemented with ETH and deposited into the 80/20 BAL/ETH pool. The BPT token is deposited into the veBAL contract and locked for 1 year. The veBAL holding is then used to direct incentives to new aToken Boosted Pools, [1].\n\n# Abstract\n\nPerform a token swap with Balancer by exchanging AAVE from the Ecosystem Reserve for 200,000 BAL tokens. The exchange rate to be used is the 90-day moving average price when the votes pass on both sides. \n\nAll 200,000 BAL tokens plus the aBAL tokens in the Reserve Factor (redeemed for BAL) are to be paired with sufficient ETH and deposited into the Balancer V2 BAL:ETH (80:20) pool. The veBAL holding will then participate in Balancer's revised tokenomics that commenced on the 28th March. \n\nInitially, the veBAL will be used to vote BAL rewards to pools which support aTokens that create TVL for Aave and/or AAVE liquidity pools.\n\n# Motivation\n\nAave and Balance have a long history of working together. The AAVE : ETH (80/20) Balancer V1 pool BPT is accepted within the Aave Safe Module and the newly created Balancer Boosted Pools drive TVL to Aave markets, [2].\n\nWhen the AAVE : ETH (80/20) Balancer V1 pool is moved to Balancer V2 and integrated into Aave’s Safety Module, the veBAL tokens can be used to vote BAL rewards to the newly created AAVE : ETH (80/20) Balancer V2 pool.\n\nIn addition, the veBAL can be used to vote BAL rewards to Balancer Boosted Pools which utilise Aave markets in the background to create yield for passively held liquidity, [3]. There are likely to be many more Balancer Boosted Pools that utilise aTokens in the future and the veBAL votes can be used to help bootstrap these pools by directing BAL rewards to those pools. Using veBAL to vote for BAL rewards to pools that strengthen Aave is a strategic advantage of deploying the BAL tokens into the BAL:ETH pool.\n\nBy exchanging AAVE for BAL, the tokenswap reflects the ongoing collaboration and shared vision through governance in each other’s community. The token exchange, plus additional acquisition, is significant enough for Aave to become just outside of the Top 50 BAL tokens holder, based on etherscan BAL holder rankings, [4]. Balancer will become a Top 80 AAVE holder, [5]. Each community will have influence in the other’s governance process, enabling them to best represent their interests and to collaborate.\n\nAave will likely be one of the first movers in the upcoming BAL wars and will gain a strategic advantage to bootstrap new Balancer Boosted Pools which lead to tokens being deposited in Aave markets to earn yield. This has the benefit of creating TVL and Revenue for Aave.\n\nThe initial sizing to acquire 200,000 BAL was something that was reached via discussions with the Balancer community and happens to be the same size as the recent Tribe DAO and Balancer token swap, [6].\n\nThe initial sizing was also determined by the ability to influence how the BAL emissions are to be distributed. If all BPT from the BAL : ETH pool are converted to veBAL, Aave will receive 3.3% of the 14,500 BAL emission schedule which is equivalent to 478 BAL weekly, or $8,126/week at $17/BAL or $422,552/year. If 100% of the current BPT were deposited into the veBAL contract, the yield is very close to 10%. Other deployments from the Reserve Factor will also earn BAL rewards over time, [7].\n\nWith 3.3% of veBAL supply, Aave will determine where 2,680 of the 81,200 BAL tokens are to be distributed each week via the Ethereum mainnet pool gauge. This is equivalent to 5% APR on a $47.40M pool without any compounding or other yield sources like swap fees or yield from Aave markets. This is sufficient to support bootstrapping new liquidity pools that support growing TVL for the Aave community. Given the size of the Aave community investment in the Balancer community, it is reasonable to think that Liquidity Mining Committee may also be voting to allocate a portion of there 14,500 weekly BAL emission to support Balancer Boosted Pools which drive TVL to Aave markets.\n\n# Implementation\n\nThe token swap is to be performed by both Balancer and Aave by depositing tokens into a contract like how Tribe DAO swapped TRIBE for INDEX, [8].\n\nThe aBAL holding in the Reserve Factor, 1,890 aBAL at the time of writing which will be redeemed for BAL and deployed along with the 200,000 BAL tokens attained via the proposed swap, [9].\n\nOnce the BAL has been received it will be transferred to the Reserve Factor from there the BAL and matching amount of ETH will be deployed into the BAL : ETH pool on Balancer V2. The BPT token is deposited into the veBAL contract and locked for 1 year.\n\nThe veBAL holding is then used to direct incentives to new aToken Boosted Pools\n\n# References:\n\n[1] https://forum.balancer.fi/t/introducing-vebal-tokenomics/2512\n[2] https://pools.balancer.exchange/#/pool/0xc697051d1c6296c24ae3bcef39aca743861d9a81/\n[3] https://app.balancer.fi/#/pool/0x7b50775383d3d6f0215a8f290f2c9e2eebbeceb20000000000000000000000fe\n[4] https://etherscan.io/token/0xba100000625a3754423978a60c9317c58a424e3d#balances\n[5] https://etherscan.io/token/0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9#balances\n[6] https://tribe.fei.money/t/fip-33-swap-between-balancer-dao-and-fei-dao/3555\n[7] https://governance.aave.com/t/arc-consolidate-aave-v1-v2-amm-reserve-factors-purchase-cvx-and-deploy-to-earn-yield/6797\n[8] [https://github.com/fei-protocol/fei-protocol-core/blob/develop/contracts/utils/OtcEscrow.sol](https://eur03.safelinks.protection.outlook.com/?url=https%3A%2F%2Fgithub.com%2Ffei-protocol%2Ffei-protocol-core%2Fblob%2Fdevelop%2Fcontracts%2Futils%2FOtcEscrow.sol&data=04%7C01%7Cmatthew.graham2%40technipfmc.com%7Cfcf199dfb3f64bb3b4ca08da0b1a125b%7C0804c95193a0405d80e4fa87c7551d6a%7C0%7C0%7C637834504350429866%7CUnknown%7CTWFpbGZsb3d8eyJWIjoiMC4wLjAwMDAiLCJQIjoiV2luMzIiLCJBTiI6Ik1haWwiLCJXVCI6Mn0%3D%7C2000&sdata=wnFuy5LgP7IJ2G7A4%2B1x%2FBMp1k1bbqw9%2Bk6jkuimd0E%3D&reserved=0)\n[9] https://etherscan.io/address/0x464c71f6c2f760dda6093dcb91c24c39e5d6e18c\n\n# Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+        "end_utc": "2022-04-13T22:59:00Z",
+        "similarity_score": 0.1726,
+        "vote_result": {
+          "choices": [
+            "FOR",
+            "AGAINST"
+          ],
+          "scores": [
+            28699.705947917813,
+            8.003298047927991
+          ],
+          "scores_total": 28707.709245965743,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2022-04-13T22:59:00",
+          "pre_tvl_avg": 13205664838.0,
+          "post_tvl_avg": 13273920443.0,
+          "abnormal_change": 0.5169,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.005169,
+          "abnormal_change_pct": 0.5169
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2022-04-13T22:59:00",
+          "pre_price_avg": 161.191159105,
+          "post_price_avg": 174.28500238499998,
+          "abnormal_change": 8.1232,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.081232,
+          "abnormal_change_pct": 8.1232
+        }
+      }
+    },
+    {
+      "proposal_id": "0xa460ff7c6b7531bd659c43d58a2cf6f4d23f08af010327350bc428583cc8942e",
+      "cleaned": {
+        "proposal_id": "0xa460ff7c6b7531bd659c43d58a2cf6f4d23f08af010327350bc428583cc8942e",
+        "title": "ARC - Consolidate Aave V1, V2 & AMM Reserve Factors, Purchase CVX and Deploy to Earn Yield",
+        "author": "0xc290Cfb8D020c0615e9C63036f4319Cc41717E68",
+        "end_utc": "2022-02-10T23:59:00Z",
+        "similarity_score": 0.1724,
+        "winning_option": "Yes - Go in this direction",
+        "winning_option_index": 0,
+        "margin_abs": 33931.9506871881,
+        "margin_pct": 0.9229386591894917,
+        "scores_total": 36765.120140255625,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 159,
+        "total_votes": 159,
+        "first_vote_at": "2022-02-08T00:11:10Z",
+        "last_vote_at": "2022-02-10T22:03:54Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1309.8308655685569,
+            1403.9861453158605
+          ],
+          [
+            22949.42011743018,
+            1.7780750172447777
+          ],
+          [
+            10959.42342180843,
+            0.16360705162002773
+          ],
+          [
+            129.86100891468425,
+            10.656899149043179
+          ]
+        ],
+        "spike_index": 0.533238,
+        "spike_follow_support_ratio": 0.982182,
+        "stairwise_ratio": 0.000224,
+        "half_slope_diff": -0.159178
+      },
+      "raw": {
+        "id": "0xa460ff7c6b7531bd659c43d58a2cf6f4d23f08af010327350bc428583cc8942e",
+        "title": "ARC - Consolidate Aave V1, V2 & AMM Reserve Factors, Purchase CVX and Deploy to Earn Yield",
+        "author": "0xc290Cfb8D020c0615e9C63036f4319Cc41717E68",
+        "body": "---\nThis is direction vote to continue with proceed with the forum post. The final proposal will reflect the discussion on the governance forum.\n\ntitle: ARC - Consolidate Aave V1, V2 & AMM Reserve Factors, Purchase CVX and Deploy to Earn Yield\nauthor: Llama Community @MatthewGraham @Dydymoon \ncreated: 03/01/2022\n\nhttps://governance.aave.com/t/arc-consolidate-aave-v1-v2-amm-reserve-factors-purchase-cvx-and-deploy-to-earn-yield/6797\n---\n\n# Simple Summary\n\nThe Aave V1, V2, and AMM market Reserve Factors (RF) on the Ethereum network hold a combined value of over [$28.27M](https://dune.xyz/llama/Aave-Treasury-Finances-by-Llama?Trailing%20Num%20Time-Series=60). The Llama Community proposes consolidating the RF into the V2 RF and deploying the capital with the intention of retaining TVL and earning additional yield. The yield generated comes with the added benefit of acquiring governance tokens of other DeFi protocols and increasing Aave’s metagovernance influence.\n\n# Abstract\n\nThe Llama Community recommends implementing several yield generating strategies spanning Balancer, Curve, and Convex and subsequently participating in the respective communities' tokenomic constructs. Aave will earn yield in the form of swap fee income, aToken yield derived from Aave V2, and governance token incentives in the form of BAL, CRV, CVX, stkAAVE and LDO.\n\nThe first investment theme is deploying capital into the Balancer Boosted Pool and BTC Stable Pool to earn a vAPY of around 13.4% and 4.6% respectively. The Balancer Boosted Pool invests around 80% or more of the deposited liquidity into Aave V2 to earn yield whilst also generating swap fees, stkAAVE, and BAL rewards. The Stable Pool generates income via swap fees and BAL rewards, with the latter making up the majority of the incentives on both strategies.\n\nThe second investment theme is more complex. It involves acquiring both CVX and veCRV to participate in gauge weight voting on Curve in order to influence a portion of the CRV inflation schedules to be distributed to aToken pool Liquidity Providers (LPs). Aave will deploy stables and ETH from the RF to earn additional CRV and CVX rewards, which will be used to further boost the incentive allocation to the aToken pools.\n\nThe data presented here is accurate as of the end of December 2021 data.\n\n# Motivation\n\n## Part A - Consolidation\n\nThe legacy V1 market continues to generate mostly flash loan fee revenue and this has slowed down in recent times. There is only ~[$219M](https://app-v1.aave.com/home) of TVL remaining in the V1 market, and at the rate of which revenue is generated is expected to continue declining as more and more users move to V2 or V3 over time.\n\n![|602x232](https://lh4.googleusercontent.com/Kqln89Od7cLnxfnd5sEq4gn6xMD2yrAocqa8nJOaXQoyjQ4GlNkgfw8pQ7E2skefYXPdtiqSLwWL_KtYcNiO6Qjciy0I296Q7eiz0R9_NEO1nhZSPJtMqR-eDXg4N7SOqTj-zsEC)\n\nThis proposal recommends consolidating the Aave V1, V2, and AMM market revenue into a single location before deploying the capital to earn additional yield. The V1 RF holds around ~[$821K](https://etherscan.io/address/0xe3d9988f676457123c5fd01297605efdd0cba1ae) of assets at the time of writing, whereas the Ethereum V2 + AMM market holds [$27.45M](https://etherscan.io/address/0x464c71f6c2f760dda6093dcb91c24c39e5d6e18c) of assets. Consolidating the RF balance would increase the mainnet treasury to around [$28.27M](https://dune.xyz/llama/Aave-Treasury-Finances-by-Llama?Trailing%20Num%20Time-Series=60). A summary of the main assets held in the V1 RF are shown below:\n\n![|602x232](https://aws1.discourse-cdn.com/standard21/uploads/aave/original/2X/9/947026c5031f95dbb5c76d9939f772d746867d90.png)\n\n## Part B - Retain TVL & Increase Returns\n\nWhilst holding aTokens is arguably one of the lowest risk yield opportunities in DeFi and something Llama Community encourages most, if not all, treasuries to hold. The Aave DAO is fortunate since it receives income in the form of aTokens. Thus, Llama recommends firstly making all unproductive stable coins productive and then optimizing further by earning additional yield and metagovernance influence.\n\nThe two main high level strategies proposed in this ARC share three common goals:\n\n* Retain TVL within Aave\n* Exceed aToken returns\n* Accumulate metagovernance influence\n\nIn addition to these three goals, the Convex / Curve strategies have the added benefit of improving the extrinsic use cases for aTokens. aToken holders will be able to deposit liquidity into the Curve aToken pools and then deposit the Liquidity Provider (LP) token into either Curve or Convex to earn additional yield.\n\nThe Compound pool on Curve has [$174.5M](https://curve.fi/compound/) of TVL relative to the Aave pool which has [$55.3M](https://curve.fi/aave/) of TVL.This is most likely due to the higher incentive APR that the Compound pool, 10.13% vAPY, relative to the Aave pool earning 7.58% vAPY on Convex.\n\n# Specification\n\n## Overview\n\nLlama proposes diversifying $26,67M (94.36%) of the combined Ethereum RFs across three protocols: Convex, Curve and Balancer. The combined Aave V1, AMM, and V2 market RF totals [$28.27M](https://dune.xyz/llama/Aave-Treasury-Finances-by-Llama?Trailing%20Num%20Time-Series=60) at the time of writing. A detailed breakdown of the consolidated constituents can be found on the [Aave Treasury Finances by Llama Dune Dashboard](https://dune.xyz/llama/Aave-Treasury-Finances-by-Llama?Trailing%20Num%20Time-Series=60) and a high-level overview is shown in the figure below.\n\n**![|602x372](https://lh3.googleusercontent.com/bst-8FdWe_RfGSXcDYeItuso4X58wWylaIo06XSnRjax0JJ7UfnjUPM7p-5bGYdu6QrdtGkkUzbzyu5kLe-4a17tLCFY5WD5Wj6gPD7YSuoHfjVfsqNfy2nlM47NQNmZPp7GeQKH \"Chart\")**\n\nThe table below shows the assets that will be deployed within this proposal. Note this is only 94.4% of the assets and 5.6% of the assets are to remain unchanged within the Aave V2 RF.**\n\n![|602x372](https://aws1.discourse-cdn.com/standard21/uploads/aave/original/2X/c/c10a19f49f9edbbd241d7a280d0a0541e2bf9316.png)\n\n\nThe table above includes the following stablecoins, DAI, USDC, USDT, TUSD, BUSD and sUSD from the Aave V1 and V2 markets. The AMM markets holdings have not been included as they only total $119.3K at the time of writing.\n\nThe table below shows asset allocation per each strategy:\n\n![|602x372](https://aws1.discourse-cdn.com/standard21/uploads/aave/original/2X/3/33eaba04a8080fdd0c5b6496090155a98965bab4.png)\n\nThe balance within the Aave V2 RF, not deployed in one of the above strategies is shown as Other (Longtailed Assets) in the figure below. The percentages reflect the overall composition of the RF, noting that 94.4% of the consolidated RF is deployed into one of the strabled detailed in the above table.\n\n**![|602x372](https://lh3.googleusercontent.com/DLtTpPMVMYL0mhKSaCrroYwwD4r3-3uRDgwUjLIeZjrmMwnQ8i7-PSfgrwnHJLJnd5b4GfeTIhVuaW1emtWc12o-YFyQTqgVMOMyPni023sKbTxZFpyneBVCGu_eV3u-UuvOcsLc \"Chart\")**\n\nThe actual implementation of this proposal is likely to be spread across several AIPs. This is to reduce the implementation complexity and allow the several positions to be swapped / redeemed before being deployed into a bonding curve whilst we await the Chainlink CVX oracle being released and getting the Aave V2 RF whitelisted to deposit into the CRV locking contract to attain veCRV.\n\nThe subsequent sections provide further insight into each strategy and how they are to be funded.\n\n## Convex / Curve Strategy\n\n### Convex Allocation\n\nThe Convex (CVX) allocation is to be funded by the assets mentioned in the table below:\n\n**![|602x372](https://aws1.discourse-cdn.com/standard21/uploads/aave/original/2X/4/468f451db851df2f8c4ec9f3bc28fd81647492da.png)**\n\nIn order to fund the initial $2M purchase of CVX, all of the AMPL, BUSD and TUSD will be used ($842.2K) and the balance, $1,16M, will be funded with USDC. This is the initial purchase of CVX and with a unit price of $43.20 is equivalent to about 46,300 CVX tokens.\n\nWe expect to make additional CVX purchases in order to meet the minimum voting hurdle required to influence how Convex’s veCRV holding is deployed on Curve gauges. Based upon this [snapshot](https://vote.convexfinance.com/#/proposal/QmRgsaGswSgzuzaiiH385StTGsv5TVdhAA1LWBGWR3yyLp) and the [Voting Rules and Information](https://docs.convexfinance.com/convexfinance/general-information/voting-and-gauge-weights) section of Convex’s documentation, we estimate around 70,000 CVX votes are needed to clear the hurdle rate. This is expected to cost a further $1.02M to what is proposed above and represents less than 1 months revenue. We intend to fund this through future revenue and have a sufficient buffer to the hurdle rate based upon voter participation on Convex’s snapshot.\n\nThe assets are to be converted to ETH and then used to purchase CVX via a Bonding Curve with a 50 bps premium that utilizes a Chainlink oracle price feed. Alternative methods can be discussed in the comments. However, we opt for a solution that can be implemented entirely through the AIP governance process and does not include manual trading.\n\nAMPL is the most illiquid of the mentioned tokens and this position will need to be converted to ETH over a series of transactions. Trades are to be routed through an aggregator with MEV protection like CowSwap. The most liquid AMPL pools are on Uniswap V2 and Sushiswap. Wherever possible, aTokens will be swapped rather than redeemed in an attempt to retain TVL in the Aave V2 market.\n\nThe newly acquired CVX will be locked for 16 weeks with voting rights delegated to Llama in order to vote on both Aave and sAave gauges via Convex’s snapshot to increase the amount of CRV rewards received on the Curve pools. Voting occurs every 2 weeks via Snapshot and thus the need for a delegate.\n\nThe locked CVX also receives a portion of the protocol fee income and votes on how Convex’s veCRV are distributed across Curve’s gauges. Llama Community acting as the delegate will vote to boost CRV rewards on the Aave pool as a priority and sAave once sufficient voting influence has been attained.\n\n### 4 Year Locked Curve (veCRV) Allocation\n\nThe aCRV tokens that have accumulated within Aave V2 are to be redeemed for CRV and then locked for 4 years on Curve to receive an equal amount of veCRV. This strategy is subject to Aave’s V2 RF being approved and whitelisted via Curve’s governance process.\n\n![|602x372](https://aws1.discourse-cdn.com/standard21/uploads/aave/original/2X/2/21477469e7d025cafd72614e98c3e6cd4e3236cf.png)\n\nThe veCRV position will then be used to vote for CRV incentives to be allocated to the Aave and sAave pools via the respective gauges. Based on the CVX strategy discussed prior, these veCRV votes are likely to be allocated to the sAave gauge.\n\nSubject to the timeline and attaining the whitelist permission to deposit into Curve’s veCRV contract, the alternative strategy is to convert CRV to cvxCRV, then stake to earn CRV, CVX and 3crv, pulse any airdrops that go to veCRV holders. This is expected to generate 47.35% vAPY, see snippet below.\n\n**![|602x244](https://lh3.googleusercontent.com/v6jyNfHVIrr7ovNveVCupxypxFTzoZfLAP3_aGSwRHVcNezLxZIPvmmLHitPMI7TzrFRm9G-SRpimpcuJqnZLX-OvJ5SUai1_2jStwPxr02Uyge60q2WDCx0dS4eU4GnwAblDACD)**\n\nThe earned CRV will be converted to cvxCRV and this will compound over time. The earned CVX will be locked to increase Aave’s voting influence and the 3crv will be exchanged for CRV, then converted to cvxCRV to further compound the strategies returns over time.\n\n### Productive aToken Stable Strategy\n\nThe sAave and Aave strategies include depositing capital into a Curve pool and then staking the LP token on Convex to earn stkAAVE, CVX and CRV rewards. The two strategies are expected to generate around 4.07% vAPY and 6.19% vAPY before Aave’s CRV and CVX voting influences the CRV incentive derived yield.\n\nThe table below shows the allocation, how each strategy is funded, and which pool those funds are to be deposited into.\n\n![|602x244](https://aws1.discourse-cdn.com/standard21/uploads/aave/original/2X/0/03ca5c3d9bf70c960c6769e35b6a630d64b6ce18.png)\n\n### Productive ETH Strategy\n\nAfter transferring the ETH from Aave V1 RF to Aave V2 RF, the awETH is to be redeemed for ETH and the combined ETH deposited into the Curve stETH pool. The LP token steCRV is to then be deposited and staked in Convex to earn CRV, CVX and LDO incentives. The expected yield is around 6.65% vAPY.\n\n![|602x244](https://aws1.discourse-cdn.com/standard21/uploads/aave/original/2X/3/3d101f6f395bb1310f0d58031136da366e6ee838.png)\n\nNo vlCVX or veCRV voting rights will be used to attract CRV incentives on this pool as the pool does not contain any aTokens.\n\n## Balancer Strategy\n\n### Balancer Boosted Pool Strategy\n\nBalancer has recently launched the first [Boosted Pool](https://app.balancer.fi/#/pool/0x7b50775383d3d6f0215a8f290f2c9e2eebbeceb20000000000000000000000fe?utm_source=website&utm_medium=banner&utm_campaign=aaveboostedpools) on Wednesday 16th December and liquidity mining incentives have already commenced generating around 13.4% vAPY at the time of writing. Using the [Stable Pool](https://app.balancer.fi/#/pool/0x06df3b2bbb68adc8b0e302443692037ed9f91b42000000000000000000000063) as a guide, we expect Balancer to grow the Boosted Pool with the use of Liquidity Mining (LM) and even replace the Stable Pool in time.\n\nThe Balancer Boosted Pools earn swap fee income, LM incentives, and a new type of yield derived from unproductive capital being deposited into Aave V2 to earn yield. Llama expects the yield of the Boosted pool to exceed the Stable Pool in order to entice users to move across. Llama expects LM incentives to be the mechanism for achieving an elevated return while the pool is in its bootstrapping phase.\n\nThe strategy for Aave is to deposit an equal amount of DAI, USDC and USDT into the Boosted Pool. All BAL rewards are to be retained to accumulate governance influence.\n\n![|602x244](https://aws1.discourse-cdn.com/standard21/uploads/aave/original/2X/5/57b902e46f625cfea122142b56fd0d0ccbe75579.png)\n\nPost is to long.\n\nsee: https://governance.aave.com/t/arc-consolidate-aave-v1-v2-amm-reserve-factors-purchase-cvx-and-deploy-to-earn-yield/6797",
+        "end_utc": "2022-02-10T23:59:00Z",
+        "similarity_score": 0.1724,
+        "vote_result": {
+          "choices": [
+            "Yes - Go in this direction",
+            "No - Do not go in this direction"
+          ],
+          "scores": [
+            35348.53541372187,
+            1416.5847265337686
+          ],
+          "scores_total": 36765.120140255625,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2022-02-10T23:59:00",
+          "pre_tvl_avg": 13594325254.0,
+          "post_tvl_avg": 13390698802.0,
+          "abnormal_change": -1.4979,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.014979,
+          "abnormal_change_pct": -1.4979
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2022-02-10T23:59:00",
+          "pre_price_avg": 186.21518912,
+          "post_price_avg": 160.386558255,
+          "abnormal_change": -13.8703,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.138703,
+          "abnormal_change_pct": -13.8703
+        }
+      }
+    },
+    {
+      "proposal_id": "0x478169c0840488588b31d7e23b889b5f9442057db9c7a5b9b6cfdd61fe7108ff",
+      "cleaned": {
+        "proposal_id": "0x478169c0840488588b31d7e23b889b5f9442057db9c7a5b9b6cfdd61fe7108ff",
+        "title": "[TEMP CHECK] Polygon v2 to v3 Liquidity Migration ",
+        "author": "0xc290Cfb8D020c0615e9C63036f4319Cc41717E68",
+        "end_utc": "2023-03-30T22:00:00Z",
+        "similarity_score": 0.1664,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 481555.14054652746,
+        "margin_pct": 0.8484806030592253,
+        "scores_total": 567549.9696873025,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-03-27T09:00:38Z",
+        "last_vote_at": "2023-03-28T00:33:43Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            360124.34762142,
+            2.0921276067663612,
+            0.6904801033268912
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.670745,
+        "spike_follow_support_ratio": 0.970177,
+        "stairwise_ratio": 2.1e-05,
+        "half_slope_diff": -26.205969
+      },
+      "raw": {
+        "id": "0x478169c0840488588b31d7e23b889b5f9442057db9c7a5b9b6cfdd61fe7108ff",
+        "title": "[TEMP CHECK] Polygon v2 to v3 Liquidity Migration ",
+        "author": "0xc290Cfb8D020c0615e9C63036f4319Cc41717E68",
+        "body": "---\n\ntitle: [TEMP CHECK] Polygon v2 to v3 Liquidity Migration \nAuthor: TokenLogic @MatthewGraham\nDated: 2023-03-18\n\n---\n\n# Simple Summary\n\nTokenLogic presents an opportunity to help kick start the migration from v2 to v3 by capitalising on the favourable conditions presented by the imminent multi-token liquidity mining program on the Polygon v3 market.\n\n# Abstract\n\nOn Polygon, there are two Aave deployments in production and the majority of the liquidity is deposited into the obsolete v2 deployment. With Chainlink expected to monetise oracles, v2 partially frozen and several communities about to distribute rewards on v3, this publication seeks to further encourage the migration of users from v2 to v3.\n\nWith SD, LDO, stMATIC and MaticX rewards to be flowing across the v3 deployment imminently, Aave is presented with an incredibly unique set of conditions that offer an ideal opportunity for further encouraging the onboarding of users onto the v3 deployment. The lion share of TVL on Polygon v2 could be migrated with simple changes presented within.\n\nThis publication provides initial parameter changes supportive of encouraging the migration of funds without putting any users' positions at risk of liquidation. Users with debt positions are encouraged to migrate to reduce borrowing costs and users with deposits are encouraged to migrate to receive a higher deposit rate.\n\nThis initiative is open for discussion and will be changed to reflect the evolving discussion in the comments section below. The key consideration here is the oversized upside realized by acting early during the liquidity mining campaign.  \n\n# Motivation\n\nIn recent months, Llama’s has coordinated across several teams to bring Liquid Staking Tokens (LSTs) and rewards to the Polygon v3 deployment. Stader Labs is currently distributing SD rewards, with Lido DAO and Polygon Foundation expected to commence distributing LDO, MaticX and stMATIC rewards in the very near future. Next week, cough.\n\nNormally, with rewards being distributed across the Aave v3 deployment, usage and therefore deposit rates are expected to increase. However, on this occasion, incentives are not expected to be applied to stable coin deposits and the higher deposit rate on stable coins will need to be demand driven. \n\nCurrently, Aave v2 offers higher deposit rates and higher borrowing rates on 2 of 3 major stable coins. Table 1 below compares the three main stable coins. \n\n![](https://i.imgur.com/IoyNytW.png)\n\nFor stable coin deposit rates to increase on v3, the liquidity mining will be reliant on wMATIC, stMATIC and MaticX deposits being used as collateral to borrow stable coins. With this approach to liquidity mining, some demand for borrowing stable coins is expected on v3, but it is not certain and it creates the need for further action from the Aave community to encourage migration.\n\nThis proposed upgrade, coinciding with the lucrative incentive campaign on v3, is intended to further encourage users to migrate from v2 to v3 by reducing the v2 deployments capital efficiency. V2 will remain very much functional and supportive of communities to migrate to v3 on their timeline. \n\nFor reserves where the utilization is less than the Uoptimal value, this proposal seeks to update the Uoptimal parameter to be the midpoint between current utilization and Uoptimal value. This will lead to higher borrowing costs, estimated to be around 35% higher (borrow interest 2.37% to 2.96%) on average for the main stable coins, and if the RF is not adjusted, will lead to higher deposit rates. By increasing the RF, from 10% to around 30%, the additional interest that would have been received by depositors will be redirected to Aave’s Collector Contract. As a result, deposit rates will not meaningfully change on v2 and borrow rates increase.\n\nIf/when the liquidity mining on v3 leads to higher borrowing cost, if no action is taken on v2, v2 will offer the lowest borrowing rates. For assets like wETH, BTC and AAVE being used as collateral to borrow stable coins there will be no incentive to migrate to v3. By increasing borrowing rates on v2, the v3 deployment will remain more competitive when utilization on comparable reserves are similar, see Table 2. In fact, the v3 deployment can have higher utilization and still offer a lower cost of capital which gives v3 a competitive advantage over v2, see Table 3.\n\n![](https://i.imgur.com/csUT2wP.png)\n\nIf just the RF was increased on v2, then deposit rates on v2 would reduce and borrowing which is already slightly more expensive relative to v3 would remain unchanged, thus providing no additional incentive for borrowers to migrate. This is especially true for those that have deposited wMATIC, wETH or wBTC and borrowed stable coins. Thus the need to increase borrowing costs on v2 relative to v3.\n\nBy decreasing the Uoptimal value, the capital efficiency of the reserves is reduced and with each redemption/deposit (removal of liquidity) the borrowing rate will be more sensitive as the gradient of the first portion of the interest rate curve is slightly steeper. Each larger redemption, withdrawal of liquidity, will cause borrow rates to increase that bit more than otherwise which continues to encourage migration over time.\n\nTo continually adjust the Uoptimal lower would be a rather aggressive approach towards migrating users. Until the timeline around when Chainlink intends to begin charging for oracles, future changes may focus on reducing the deposit rate by adjusting the RF over time. For frozen assets, adjusting the RF appears to be the most effective way forward as it was shown to be successful when applied to FEI.\n\nAs rewards being distributed on Aave v3 are finite (bear market) and for a limited amount of time (3 months), the time to initiate the migration from v2 to v3 is now. With any luck, the rewards will lead to a lot of funds migrating and this proposal then ensures v2 offers higher borrow costs relative to v3 which further encourages migration. There is a risk here that the borrow cost increase proposed in this proposal is too subtle. However, this is not intended to be a mass migration push proposal but instead a smaller change that compliments the v3 liquidity mining program to Aave benefit. \n\nFollow up proposals can further adjust Upotimal values once utilization on reserves like USDT have reverted back to more normal conditions.\n\n### Uoptimal Parameter\n\nThis publication splits the difference between current utilization and Uoptimal values. Ie: If utilization is 20% and the Uoptimal is 60%, then the proposed Uoptimal is 40%, the midpoint between the existing utilization and Uoptimal value.\n\n### Slope 2 Parameter\n\nBy reducing the Uoptimal parameter, the gradient of the borrow rate between utilisations Uoptimal and 100% is lowered. In order to maintain the current gradient, the Slope2 parameter is revised higher. In the image below, Slope 2 changes from 75% to 150% in response to the Uoptimal parameter being reduced from 80% to 60%. Notice how the red and blue lines are parallel during the second leg of the curve, this is because they have the same gradient. \n\n![](https://i.imgur.com/ojX6SLn.png)\n\n### Reserve Factor\n\nAs a portion of the interest paid by borrowers is directed to users who provide liquidity, by increasing the borrow rate, the deposit rate also increases assuming the reserves utilization remains unchanged. To counter the higher deposit rate, which encourages more deposits, the RF is increased.  This redirects  interest paid by borrowers to Aave instead of depositors. The table in the Specification section outlines how each RF is adjusted to keep the deposit rate mostly unchanged despite the higher borrow rates. \n\nDue to abnormally high USDT usage, 84.51% at the time of writing, this proposal suggests increasing the RF to be the average of proposed DAI and USDC RFs. The justification for this is to reduce the deposit rate of USDT, such that it encourages migration whilst avoiding reducing the Uoptimal such that borrowing cost increases substantially by shifting utilizing onto the more stepper portion of the yield curve. When utilization drops by a material amount, it would be prudent to reduce the Uoptiomal value in line with other stable coins. \n\n# Specification\n\nTable 4 below presents the current asset configuration on Polygon v2.\n\n![](https://i.imgur.com/An2aWJq.png)\n\nBased upon the methodology presented above, Table 5 details the parameter changes.\n\n![](https://i.imgur.com/2gqgoQr.png)\n\nDo note, the parameters to be changed have been rounded to nearest whole number and no Uoptimal was increased.\n\nPior to any AIP submission the numbers should be updated in line with the strategy to avoid any un-favourable parameter configurations. \n\n# Next Steps\n\nCommunity discussion, whereby any service provider or contributor can elect to work with the author on the implementation. The main intent here is for Aave to make the most of the rewards distribution programs that are about to add to Stader Lab’s existing reward program.\n\nIt would be greatly appreciated if a risk service provider could confirm the above will not adversely affect users, which hopefully will resonate with delegates within the community.\n\nThe key with this proposal is time, as rewards on v3 will last only a finite amount of time. The author believes the changes presented here within, thought of as a one-off, or opportunistic, will lead to the migration of the majority of most liquidity. The liquidity mining campaign coordinated by Llama should be capitalized upon. \n\n# Disclosoure\n\nTokenLogic is publishing this proposal as the scope falls outside of Llama’s core role within the Aave ecosystem, that said, at TokenLogic we are more than happy for any contributor to progress this proposal. There are no payments to TokenLogic, direct or indirect, relating to this forum post. \n\n# Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+        "end_utc": "2023-03-30T22:00:00Z",
+        "similarity_score": 0.1664,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "NAE",
+            "ABSTAIN"
+          ],
+          "scores": [
+            524544.0526331585,
+            42988.91208663106,
+            17.004967552727496
+          ],
+          "scores_total": 567549.9696873025,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2023-03-30T22:00:00",
+          "pre_tvl_avg": 5488039008.5,
+          "post_tvl_avg": 5533736038.0,
+          "abnormal_change": 0.8327,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.008327,
+          "abnormal_change_pct": 0.8327
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2023-03-30T22:00:00",
+          "pre_price_avg": 71.756570495,
+          "post_price_avg": 73.624622155,
+          "abnormal_change": 2.6033,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.026033,
+          "abnormal_change_pct": 2.6033
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0x33cdbe42706aa449c2e7d55d6c1e81da4bf3f153bb5c1010df71e8ab296fe525",
+    "selected_choice_label": "YAE - 80/20 AAVE/wstETH",
+    "selected_choice_index": 1,
+    "confidence": 0.9,
+    "summary": "Recommendation to migrate the AAVE liquidity pool to Balancer v2 with the 80/20 AAVE/wstETH composition to improve capital efficiency and align with current market trends and community preferences.",
+    "key_arguments_for": [
+      "Improved capital efficiency by including wstETH, a proven liquid staking token with yield benefits.",
+      "Community and forum sentiment favors the inclusion of wstETH due to its dominant market position and protocol alignment.",
+      "Maintains the familiar 80/20 pool weight, reducing user friction and operational complexity.",
+      "Supports Aave's strategic partnership with Balancer and Lido for sustainable liquidity."
+    ],
+    "key_arguments_against": [
+      "Some concerns about Lido's risk exposure and potential liquidity issues with wstETH.",
+      "Skepticism about the overall efficacy of Safety Module assets and systemic risks.",
+      "Historical caution against changing pool weights drastically due to user friction.",
+      "Technical complexities and delayed implementation due to ongoing upgrades and market conditions."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://governance.aave.com/t/temp-check-safety-module-update-part-i-migrate-aave-weth-balancer-v1-pool-to-balancer-v2/12748",
+        "quote": "Forum comments reflect preference for Option 2 (80/20 AAVE/wstETH) due to capital efficiency and alignment with Lido's wstETH, despite some risk concerns."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": null,
+        "quote": "Timeline analysis shows strong early and consistent lead for option index 0 (80/20 AAVE/wETH), indicating robust voter support."
+      },
+      {
+        "source_tool": "registry_lookup",
+        "reference": "aavedao.eth",
+        "quote": "Governance token address is 0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9 (AAVE)."
+      }
+    ],
+    "available_choices": [
+      "YAE - 80/20 AAVE/wETH",
+      "YAE - 80/20 AAVE/wstETH",
+      "NAE - Rework Proposal",
+      "ABSTAIN"
+    ],
+    "event_start_utc": "2023-05-09T11:00:00Z",
+    "event_end_utc": "2023-05-13T22:00:00Z",
+    "event_time_utc": "2023-05-13T22:00:00Z",
+    "address_of_governance_token": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+    "token_price_impact_pct": -1.426,
+    "tvl_impact_pct": -0.0775,
+    "actual_vote_result": {
+      "winner_label": "YAE - 80/20 AAVE/wstETH",
+      "winner_index": 1,
+      "scores": [
+        234310.44857538748,
+        421991.13856088585,
+        13.016755413865832,
+        1353.3788068383406
+      ],
+      "scores_total": 657667.9826985267,
+      "margin_abs": 187680.68998549838,
+      "margin_pct": 0.285373
+    },
+    "simulation_reason": "Recommendation balances timeline analytics, forum sentiment, and historical caution to maximize long-term protocol health.",
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'YAE - 80/20 AAVE/wstETH' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Timeline analytics show strong and stable support for 80/20 pool migration.\n- Forum sentiment generally favors wstETH inclusion for capital efficiency and protocol alignment.\n- Historical lessons caution against drastic pool weight changes; 80/20 is a balanced approach.\n- Market impacts are minor; recommendation supports durable protocol benefit.\n- Recommendation mirrors aggregated forum sentiment and balances voter momentum.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x013f763e92d253926bc7f04d79138593a1b31c969a34db7f0955e46850c796d9",
+        "title": "[ARFC] Polygon v2 - Parameter Update",
+        "end_utc": "2023-05-05T17:00:00Z",
+        "summary": "[ARFC] Polygon v2 - Parameter Update closed on 2023-05-05T17:00:00Z. Timeline analytics noted 3671 unique voters, timeline-only analysis (no final tally), recommended option index 1.",
+        "similarity_reason": "Related text overlap (score 0.17)",
+        "market_response": "token -1.93%; TVL +0.66%",
+        "change_stance": "Not change, Status quo"
+      },
+      {
+        "proposal_id": "0x7057a6311c791ebd57b93acb4a231dfd4fb92755fc02fa1de4723d0a5510d2ed",
+        "title": "[ARFC] MaticX Supply Cap Increase Polygon v3",
+        "end_utc": "2023-05-01T22:55:00Z",
+        "summary": "[ARFC] MaticX Supply Cap Increase Polygon v3 closed on 2023-05-01T22:55:00Z. Timeline analytics noted 5500 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.16)",
+        "market_response": "token -1.89%; TVL +0.11%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -1.426,
+    "ex_post_tvl_impact_pct": -0.0775,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -1.43%; TVL -0.08%"
+  },
+  "agentic_ai_choice": "YAE - 80/20 AAVE/wstETH",
+  "actual_outcome": "YAE - 80/20 AAVE/wstETH",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 7,
+    "Positive": 0,
+    "Neutral": 7,
+    "total_comments": 14
+  }
+}

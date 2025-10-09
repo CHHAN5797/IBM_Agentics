@@ -1,0 +1,932 @@
+{
+  "captured_at_utc": "2025-10-05T17:28:50.357072+00:00",
+  "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0x9cc7906f04f45cebeaa48a05ed281f49da00d89c4dd988a968272fa179f14d06",
+  "focus": null,
+  "votes_count": 378,
+  "timeline_metrics_current": {
+    "unique_voters": 378,
+    "total_votes": 378,
+    "first_vote_at": "2024-05-31T12:01:58Z",
+    "last_vote_at": "2024-06-03T11:36:10Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        188332.65131265885,
+        0.04073938358830515,
+        0.0
+      ],
+      [
+        153254.26147302295,
+        0.032070733033005096,
+        0.07969322806594502
+      ],
+      [
+        103417.14588143995,
+        0.134211096713396,
+        0.18428389752785282
+      ],
+      [
+        205414.42245753677,
+        0.02536710727802697,
+        0.012886066377613591
+      ]
+    ],
+    "spike_index": 0.272093,
+    "spike_follow_support_ratio": 1.0,
+    "stairwise_ratio": 5.2e-05,
+    "half_slope_diff": 6.030821
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x95643085ee16eb0eaa4110a9f0ea8223009f9521e596e1a958303705a5001363",
+      "title": "[ARFC] Polygon v2 Borrow Rate Adjustments",
+      "author": "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1",
+      "end_utc": "2024-04-14T05:52:01Z",
+      "timeline_metrics": {
+        "unique_voters": 544,
+        "total_votes": 544,
+        "first_vote_at": "2024-04-11T06:09:32Z",
+        "last_vote_at": "2024-04-14T05:06:56Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            178796.06439393974,
+            135782.83750707633,
+            4.551922767950939
+          ],
+          [
+            52983.885902786686,
+            1220.7426676394548,
+            5.990409664670481
+          ],
+          [
+            22694.366145715187,
+            1866.9316585216802,
+            3.9295719054304983
+          ],
+          [
+            103164.0584836241,
+            0.014032434172898234,
+            0.0
+          ]
+        ],
+        "spike_index": 0.49178,
+        "spike_follow_support_ratio": 0.303696,
+        "stairwise_ratio": 4.9e-05,
+        "half_slope_diff": -3.332181
+      },
+      "price_impact_pct": -14.355,
+      "tvl_impact_pct": -7.1899,
+      "similarity": 0.2595,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "YAE",
+        "margin_abs": 218767.84906039407,
+        "scores_total": 496523.3726960755,
+        "margin_pct": 0.4405992972143589
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x770ff4e02634c77aaa09952345551168920f7878b32ab03fcef92763a5fb70ab",
+      "cleaned": {
+        "proposal_id": "0x770ff4e02634c77aaa09952345551168920f7878b32ab03fcef92763a5fb70ab",
+        "title": "[ARFC] Avalanche v2 Reserve Factor Adjustment",
+        "author": "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1",
+        "end_utc": "2024-03-30T21:03:40Z",
+        "similarity_score": 0.4903,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 489842.47235579096,
+        "margin_pct": 0.9950782119194438,
+        "scores_total": 492265.29783112765,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 562,
+        "total_votes": 562,
+        "first_vote_at": "2024-03-27T21:09:21Z",
+        "last_vote_at": "2024-03-30T20:58:57Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            110888.6530368049,
+            0.10367959290550274,
+            1201.2619809421267
+          ],
+          [
+            621.5098888901629,
+            0.14178957093763353,
+            0.16111174784025448
+          ],
+          [
+            262867.7682142469,
+            19.65729177,
+            0.0
+          ],
+          [
+            116666.00179058363,
+            0.001564934562681073,
+            0.03748204419842811
+          ]
+        ],
+        "spike_index": 0.366321,
+        "spike_follow_support_ratio": 0.999534,
+        "stairwise_ratio": 8e-05,
+        "half_slope_diff": 0.472811
+      },
+      "raw": {
+        "id": "0x770ff4e02634c77aaa09952345551168920f7878b32ab03fcef92763a5fb70ab",
+        "title": "[ARFC] Avalanche v2 Reserve Factor Adjustment",
+        "author": "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1",
+        "body": "---\n\ntitle: [ARFC] Avalanche v2 Reserve Factor Adjustment\nauthor: @karpatkey_TokenLogic @ChaosLabs\ncreated: 2024-03-19\n\n---\n\n# Summary\n\nThis publication proposes periodically increasing the Aave v2 Avalanche Reserve Factor (RF) to encourage users to migrate to Aave v3.\n\n# Motivation\n\nSimilar to other Aave v2 deployments, this publication seeks to periodically increase the RF across the last remaining v2 deployment, Avalanche. \n\nIn doing so, the first AIP will align the RF values with the Ethereum v2 deployment, and each subsequent AIP publication will increase the RF by a further 5.00% up to a maximum of 99.99%. To minimise governance overhead, the Ethereum v2 and Avalanche v2 updates will be combined, with the later implemented by the Guardian. There remains only one to two Polygon RF updates and these will be submitted separately.\n\nDo note increasing the RF parameter does not directly affect user's health factor, and this method has already been implemented on [Polygon v2](https://governance.aave.com/t/arfc-reserve-factor-updates-polygon-aave-v2/13937) and [Ethereum v2](https://governance.aave.com/t/arfc-ethereum-v2-reserve-factor-adjustment/16764).\n\n# Specification\n\nThe below shows the current and proposed RF for each reserve.\n\n| Asset | Current RF| Initial RF Increase | Subsequent RF Increase|\n| :---:  | :---:    |:---:     |:---:     |\n| DAI.e  | 10.00% | 35.00% | 40.00% |\n| USDC.e | 10.00% | 35.00% | 40.00% |\n| USDT.e | 10.00% | 35.00% | 40.00% |\n| wAVAX  | 15.00% | 35.00% | 40.00% |\n| WBTC.e | 10.00% | 40.00% | 45.00% |\n| WETH.e | 10.00% | 35.00% | 40.00% |\n\nUpon implementing this proposal, a subsequent AIP will be submitted every 2 weeks that increases the RF by 5.00% up to a maximum of 99.99%, subject to market conditions.\n\n# Disclosure\n\nTokenLogic, karpatkey and Chaos Labs receive no payment for this proposal. TokenLogic and karpatkey are both delegates within the Aave community.\n\n# Next Steps\n\n1) Gather feedback from the community.\n2) If consensus is reached on this ARFC, escalate this proposal to the Snapshot stage.\n3) If Snapshot outcome is YAE, escalate this proposal to AIP stage\n4) Subsequent AIP submission are expected to follow every 14 days thereafter, if deemed applicable\n\n# Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+        "end_utc": "2024-03-30T21:03:40Z",
+        "similarity_score": 0.4903,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "NAY",
+            "ABSTAIN"
+          ],
+          "scores": [
+            491043.9329305251,
+            19.904325868405817,
+            1201.4605747341654
+          ],
+          "scores_total": 492265.29783112765,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2024-03-30T21:03:40",
+          "pre_tvl_avg": 11371447788.5,
+          "post_tvl_avg": 11474627542.0,
+          "abnormal_change": 0.9074,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.009074,
+          "abnormal_change_pct": 0.9074
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2024-03-30T21:03:40",
+          "pre_price_avg": 127.717737775,
+          "post_price_avg": 122.33708383499999,
+          "abnormal_change": -4.2129,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.042129,
+          "abnormal_change_pct": -4.2129
+        }
+      }
+    },
+    {
+      "proposal_id": "0x26a03c08359c340f63b78b0c3e96d37aa0adeda65814643b0886d4719048ea7e",
+      "cleaned": {
+        "proposal_id": "0x26a03c08359c340f63b78b0c3e96d37aa0adeda65814643b0886d4719048ea7e",
+        "title": " [ARFC] Ethereum v2 Reserve Factor Adjustment",
+        "author": "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1",
+        "end_utc": "2024-03-08T20:09:51Z",
+        "similarity_score": 0.3682,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 538166.8511576131,
+        "margin_pct": 0.9999208617081059,
+        "scores_total": 538209.4441337031,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 935,
+        "total_votes": 935,
+        "first_vote_at": "2024-03-05T20:11:43Z",
+        "last_vote_at": "2024-03-08T20:08:28Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            432863.3744072783,
+            0.2296702034205601,
+            19.82257773667135
+          ],
+          [
+            55544.994657540185,
+            0.4273070945667514,
+            0.4728074384226877
+          ],
+          [
+            49646.96050352824,
+            1.0300889540429359,
+            0.000157661736354585
+          ],
+          [
+            131.97131380201267,
+            0.006460766726227857,
+            0.15418169889923888
+          ]
+        ],
+        "spike_index": 0.352181,
+        "spike_follow_support_ratio": 0.997694,
+        "stairwise_ratio": 0.000119,
+        "half_slope_diff": -33.612623
+      },
+      "raw": {
+        "id": "0x26a03c08359c340f63b78b0c3e96d37aa0adeda65814643b0886d4719048ea7e",
+        "title": " [ARFC] Ethereum v2 Reserve Factor Adjustment",
+        "author": "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1",
+        "body": "---\n\ntitle: [ARFC] Ethereum v2 Reserve Factor Adjustment\nauthor: @karpatkey_TokenLogic @ChaosLabs\ncreated: 2024-02-27\n\n---\n\n# Summary\n\nThis publication proposes periodically increasing the Aave v2 Ethereum Reserve Factor (RF) to encourage users to migrate to Aave v3.\n\n# Motivation\n\nWith Aave v3 now crossing the $8 Billion TVL threshold and $3 Billion remaining in Aave v2, this publication seeks to encourage users to migrate from v2 to v3 by increasing the RF.\n\nWith all other variables held constant, increasing the RF over time in isolation will result in a reducing deposit rate. Users are encourage to migrate to v3 in search of higher yield.\n\nWith market conditions permitting, we propose initiating a periodic 5.00% RF increase across all assets every 14 days as mentioned [here](https://governance.aave.com/t/arfc-chaos-labs-incremental-reserve-factor-updates-aave-v2-ethereum/13766) up to a threshold of 99.99%. During each increase cycle, we will monitor how users respond and, if any potential risks are identified, the next RF increase will be delayed until it is safe to implement.\n\nDo note increasing the RF parameter does not directly affect users' health factor, and this method has already been [implemented on Polygon v2](https://governance.aave.com/t/temp-check-polygon-v2-to-v3-liquidity-migration/12350) for some time. \n\n# Specification\n\nThe below shows the current and proposed RF for each reserve.\n\n| Asset | Current RF| Recommended RF | \n| ---  | ---    |---     |\n| 1INCH| 99.00% | 99.99% |\n| AMPL | 99.90% | 99.99% |\n| BUSD | 99.90% | 99.99% |\n| BAL  | 99.00% | 99.99% |\n| BAT  | 99.00% | 99.99% |\n| CRV  | 99.00% | 99.99% |\n| CVX  | 99.00% | 99.99% |\n| DAI  | 25.00% | 30.00% |\n| DPI  | 99.00% | 99.99% |\n| ENS  | 99.00% | 99.99% |\n| ENJ  | 99.00% | 99.99% |\n| FEI  | 99.00% | 99.99% |\n| FRAX | 30.00% | 35.00% |\n| GUSD | 20.00% | 25.00% |\n| KNC  | 99.00% | 99.99% |\n| LINK | 30.00% | 35.00% |\n| LUSD | 25.00% | 30.00% |\n| MANA | 99.00% | 99.99% |\n| MKR  | 99.00% | 99.99% |\n| RAI  | 99.00% | 99.99% |\n| REN  | 99.00% | 99.99% |\n| renFIL| 35.00%| 99.99% |\n| SNX  | 99.00% | 99.99% |\n| sUSD | 30.00% | 35.00% |\n| SUSHI| 99.00% | 99.99% |\n| TUSD | 99.00% | 99.99% |\n| UNI  | 99.00% | 99.99% |\n| USDC | 25.00% | 30.00% |\n| USDP | 20.00% | 25.00% |\n| USDT | 25.00% | 30.00% |\n| UST  | 99.00% | 99.99% |\n| wBTC | 30.00% | 35.00% |\n| wETH | 25.00% | 30.00% |\n| YFI  | 99.00% | 99.99% |\n| ZRX  | 99.00% | 99.99% |\n\nUpon implementing this proposal, a subsequent AIP will be submitted every 2 weeks that increases the RF by 5.00% up to a maximum of 99.99%, subject to market conditions. \n\n# Disclosure\n\nTokenLogic, karpatkey and Chaos Labs receive no payment for this proposal. TokenLogic and karpatkey are both delegates within the Aave community.\n\n# Next Steps\n\n1) Gather feedback from the community.\n2) If consensus is reached on this ARFC, escalate this proposal to the Snapshot stage.\n3) If Snapshot outcome is YAE, escalate this proposal to AIP stage\n4) Subsequent AIP submission are expected to follow every 14 days thereafter\n\n# Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+        "end_utc": "2024-03-08T20:09:51Z",
+        "similarity_score": 0.3682,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "NAY",
+            "ABSTAIN"
+          ],
+          "scores": [
+            538187.3008821488,
+            1.693527018756475,
+            20.449724535729622
+          ],
+          "scores_total": 538209.4441337031,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2024-03-08T20:09:51",
+          "pre_tvl_avg": 10824599431.5,
+          "post_tvl_avg": 11541637402.5,
+          "abnormal_change": 6.6242,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.066242,
+          "abnormal_change_pct": 6.6242
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2024-03-08T20:09:51",
+          "pre_price_avg": 130.62214181000002,
+          "post_price_avg": 131.69895043,
+          "abnormal_change": 0.8244,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.008244,
+          "abnormal_change_pct": 0.8244
+        }
+      }
+    },
+    {
+      "proposal_id": "0x95643085ee16eb0eaa4110a9f0ea8223009f9521e596e1a958303705a5001363",
+      "cleaned": {
+        "proposal_id": "0x95643085ee16eb0eaa4110a9f0ea8223009f9521e596e1a958303705a5001363",
+        "title": "[ARFC] Polygon v2 Borrow Rate Adjustments",
+        "author": "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1",
+        "end_utc": "2024-04-14T05:52:01Z",
+        "similarity_score": 0.2614,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 218767.84906039407,
+        "margin_pct": 0.4405992972143589,
+        "scores_total": 496523.3726960755,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 544,
+        "total_votes": 544,
+        "first_vote_at": "2024-04-11T06:09:32Z",
+        "last_vote_at": "2024-04-14T05:06:56Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            178796.06439393974,
+            135782.83750707633,
+            4.551922767950939
+          ],
+          [
+            52983.885902786686,
+            1220.7426676394548,
+            5.990409664670481
+          ],
+          [
+            22694.366145715187,
+            1866.9316585216802,
+            3.9295719054304983
+          ],
+          [
+            103164.0584836241,
+            0.014032434172898234,
+            0.0
+          ]
+        ],
+        "spike_index": 0.49178,
+        "spike_follow_support_ratio": 0.303696,
+        "stairwise_ratio": 4.9e-05,
+        "half_slope_diff": -3.332181
+      },
+      "raw": {
+        "id": "0x95643085ee16eb0eaa4110a9f0ea8223009f9521e596e1a958303705a5001363",
+        "title": "[ARFC] Polygon v2 Borrow Rate Adjustments",
+        "author": "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1",
+        "body": "---\n\nTitle: [ARFC] Polygon v2 Borrow Rate Adjustments\nAuthor: @karpatkey_TokenLogic & @ChaosLabs \nCreated: 2024-04-04\n\n---\n\n# Summary\n\nThis publication proposes gradually revising the Borrow Rate on Polygon v2 to provide further encouragement for users to migrate to Aave v3.\n\n# Motivation\n\nOver the last [8 months](https://governance-v2.aave.com/governance/proposal/284/) the Reserve Factor (RF) on Polygon v2 has gradually increased from as low as 21.00% to 99.99%. As a result, deposit yield converged to zero and the capital efficiency of Aave v2 has been reduced on Polygon.\n\nWith the RF now approaching the maximum across all reserves, this publication seek to gradually increase the cost of capital via periodic borrow rate adjustments, every two weeks in a predictable fashion.\n\nBased upon recent borrow rates behaviour, the market has demonstrated the ability to withstand periods of elevated borrowing rates. \n\n## Non Frozen Assets\n\nFor non-frozen assets, this proposal recommends increasing the Slope1 parameter by 75bps every two weeks, or 1.5% per month, to encourage further migration of users from v2 to v3. The outcome of this [vote](https://snapshot.org/#/aave.eth/proposal/0xe2dd228640c3cad93f5418c40c4b5743b3c6c85aa0aae9eee53cbdbca2ed5c2d) has been taken into consideration when drafting the current IR parameters included in this proposal.\n\nThe Slope2 parameter is to be revised to discourage utilisation exceeding the Uoptimal value. Note, several reserves are experiencing utilisation marginally exceeding Uoptimal. \n\nAs utilisation of each reserve decreases over time, the Uoptimal will be periodically lowered to discourage new debt positions emerging. Any proposed changes to the Uoptimal parameter will be presented via a separate ARFC. \n\nUpon implementation, this change will not trigger liquidation of any users funds and will gradually increase the cost for users who remain on v2. Please note, there is a Migration Tool that was developed by BGD to aid users migrating from v2 to v3. \n\nAssets in scope: DAI, MATIC, wBTC, wETH, USDC and USDT.\n\n## Frozen Assets\n\nEach frozen reserve contains a small portion of funds with a very minimal amount of debt. For these assets we recommend a more aggressive implementation: reduce the Uoptimal to 10.00%, revise Slope1 to 50.00% and Slope2 to 500.00% - with  the exception of BAL, which receives a Uoptimal of 20% due to current utilisation being around 15%.\n\nAssets in scope: BAL, CRV, DPI, GHST, LINK and SUSHI.\n\n# Specification\n\nThe following parameters are to be updated as follows:\n\n| Asset | Current Slope1 | Proposed Slope1 | Current Uoptimal | Proposed Uoptimal | Current Slope2 | Proposed Slope2 |\n| :---: |  :---: |  :---: |  :---: |  :---: |  :---:  |   :---:   |\n| BAL   | 27.00% | 50.00% | 65.00% | 20.00% | 236.00% | 500.00% |\n| CRV   | 17.00% | 50.00% | 25.00% | 10.00% | 392.00% | 500.00% |\n| DAI   | 12.00% | 12.75% | 71.00% | 71.00% | 105.00% |   200.00% |\n| GHST  |  7.00% | 50.00% | 23.00% | 10.00% | 413.00% | 500.00% |\n| LINK  |  7.00% | 50.00% | 25.00% | 10.00% | 402.00% | 500.00% |\n| USDT  | 12.00% | 12.75% | 52.00% | 52.00% | 236.00% |   236.00% |\n| wBTC  |  4.00% |  4.75% | 37.00% | 37.00% | 536.00% |   536.00% |\n| wETH  |  4.00% |  4.75% | 40.00% | 40.00% | 167.00% |   200.00% |\n| wMATIC|  6.00% |  6.75% | 48.00% | 48.00% | 440.00% |   500.00% |\n| wUSDC | 12.00% | 12.75% | 77.00% | 77.00% | 134.00% |   200.00% |\n\nSubject to approval from @ChaosLabs, a subsequent proposal will be submitted every two weeks.\n\n# Next Steps\n\n1) Gather feedback from the community.\n2) If consensus is reached on this ARFC, escalate this proposal to the Snapshot stage.\n3) If Snapshot outcome is YAE, escalate this proposal to AIP stage\n4) Review, and where applicable, submit an AIP every 2 weeks\n\n# Disclosure\n\nTokenLogic and karpatkey receive no payment for this proposal. TokenLogic and karpatkey are both delegates within the Aave community.\n\n# Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+        "end_utc": "2024-04-14T05:52:01Z",
+        "similarity_score": 0.2614,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "NAY",
+            "ABSTAIN"
+          ],
+          "scores": [
+            357638.37492606574,
+            138870.52586567166,
+            14.47190433805192
+          ],
+          "scores_total": 496523.3726960755,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2024-04-14T05:52:01",
+          "pre_tvl_avg": 10983525043.0,
+          "post_tvl_avg": 10193819293.5,
+          "abnormal_change": -7.1899,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.071899,
+          "abnormal_change_pct": -7.1899
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2024-04-14T05:52:01",
+          "pre_price_avg": 91.48235737499999,
+          "post_price_avg": 85.237389895,
+          "abnormal_change": -6.8264,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.068264,
+          "abnormal_change_pct": -6.8264
+        }
+      }
+    },
+    {
+      "proposal_id": "0x5c1fcbd2561751d899feee2fd2dde9e5d6aa61bd1fcd6ee7c410e19595e3c1f7",
+      "cleaned": {
+        "proposal_id": "0x5c1fcbd2561751d899feee2fd2dde9e5d6aa61bd1fcd6ee7c410e19595e3c1f7",
+        "title": "[ARFC] Chaos Labs - Incremental Reserve Factor Updates - Aave V2 Ethereum ",
+        "author": "0x5d49dBcdd300aECc2C311cFB56593E71c445d60d",
+        "end_utc": "2023-06-30T11:54:45Z",
+        "similarity_score": 0.224,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 593341.959691132,
+        "margin_pct": 0.9999304034509009,
+        "scores_total": 593383.2571181206,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 986,
+        "total_votes": 986,
+        "first_vote_at": "2023-06-27T11:55:59Z",
+        "last_vote_at": "2023-06-30T11:53:48Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            82261.11062175485,
+            0.9190849578422104,
+            9.971738623877838
+          ],
+          [
+            428254.49543671985,
+            3.462772420524775,
+            4.029161346077422
+          ],
+          [
+            259.4862874449113,
+            3.3215240133584127,
+            1.1030145978991472
+          ],
+          [
+            82583.35964388239,
+            0.6094482580805735,
+            1.3883841016042482
+          ]
+        ],
+        "spike_index": 0.393227,
+        "spike_follow_support_ratio": 0.999165,
+        "stairwise_ratio": 0.0001,
+        "half_slope_diff": 31.16925
+      },
+      "raw": {
+        "id": "0x5c1fcbd2561751d899feee2fd2dde9e5d6aa61bd1fcd6ee7c410e19595e3c1f7",
+        "title": "[ARFC] Chaos Labs - Incremental Reserve Factor Updates - Aave V2 Ethereum ",
+        "author": "0x5d49dBcdd300aECc2C311cFB56593E71c445d60d",
+        "body": "## Simple Summary\n\nA proposal for a series of Reserve Factor (RF) increases across all V2 Ethereum assets.\n\n## Motivation\n\nIn line with our [V2 to V3 migration plan](https://governance.aave.com/t/temp-check-ethereum-v2-to-v3-migration/12636), we propose a series of RF increases on Aave V2 Ethereum.\n\nBy progressively increasing the reserve factors, the interest rate for supplying these assets on V2 will be increasingly less attractive, thus encouraging suppliers to transition positions to V3.\n\nThis proposal intends to incrementally increase the reserve factors by 5% at each step. After implementing each increment, we'll assess user elasticity and the impact of the updates before moving forward with additional increases. We will ensure a minimum gap of 2 weeks between each subsequent update.\n\n*Please note that a separate proposal will be made for frozen assets on V2.*\n\n## Specification\n\n| Asset | Current RF | Recommended RF |\n| --- | --- | --- |\n| DAI | 10% | 15% |\n| FRAX | 20% | 25% |\n| GUSD | 10% | 15% |\n| LUSD | 10% | 15% |\n| sUSD | 20% | 25% |\n| TUSD | 20% | 25% |\n| USDC | 10% | 15% |\n| USDP | 10% | 15% |\n| USDT | 10% | 15% |\n| 1INCH | 20% | 25% |\n| CRV | 20% | 25% |\n| ENS | 20% | 25% |\n| LINK | 20% | 25% |\n| MKR | 20% | 25% |\n| SNX | 35% | 40% |\n| UNI | 20% | 25% |\n| WBTC | 20% | 25% |\n| ETH | 15% | 20% |\n\n## Next Steps\n\n1. Following community feedback, submit the ARFC for a snapshot vote for final approval.\n2. If consensus is reached, submit the first Aave Improvement Proposal (AIP) to implement the proposed updates.\n3. Subsequent increments will be done directly through an AIP to reduce the governance overhead.\n\n## Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+        "end_utc": "2023-06-30T11:54:45Z",
+        "similarity_score": 0.224,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "NAY",
+            "Abstain"
+          ],
+          "scores": [
+            593358.4519898014,
+            8.312829649805973,
+            16.49229866945866
+          ],
+          "scores_total": 593383.2571181206,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2023-06-30T11:54:45",
+          "pre_tvl_avg": 5600123314.5,
+          "post_tvl_avg": 5893228569.0,
+          "abnormal_change": 5.2339,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.052339,
+          "abnormal_change_pct": 5.2339
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2023-06-30T11:54:45",
+          "pre_price_avg": 61.28843983,
+          "post_price_avg": 71.79521202999999,
+          "abnormal_change": 17.1432,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.171432,
+          "abnormal_change_pct": 17.1432
+        }
+      }
+    },
+    {
+      "proposal_id": "0x4518ee2130b2299fdf0827aa6a97b8211b3273f5b07b6f13b8141e5b9ad89e5f",
+      "cleaned": {
+        "proposal_id": "0x4518ee2130b2299fdf0827aa6a97b8211b3273f5b07b6f13b8141e5b9ad89e5f",
+        "title": "[ARFC] Set ARB Emission Admin to Gauntlet",
+        "author": "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1",
+        "end_utc": "2024-02-18T10:33:48Z",
+        "similarity_score": 0.2216,
+        "winning_option": "YAE",
+        "winning_option_index": 0,
+        "margin_abs": 618590.6982578889,
+        "margin_pct": 0.935615115548166,
+        "scores_total": 661159.3677550451,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 1813,
+        "total_votes": 1813,
+        "first_vote_at": "2024-02-15T10:34:17Z",
+        "last_vote_at": "2024-02-18T10:33:39Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            430267.25180595723,
+            0.9965162394193263,
+            21280.282348130684
+          ],
+          [
+            104535.1246816265,
+            1.1619628571114113,
+            0.09619112070141442
+          ],
+          [
+            104844.89224934472,
+            2.286004385135563,
+            0.44993881219775317
+          ],
+          [
+            225.251864517061,
+            0.5803265618458079,
+            0.993865492778915
+          ]
+        ],
+        "spike_index": 0.295101,
+        "spike_follow_support_ratio": 0.813193,
+        "stairwise_ratio": 0.000132,
+        "half_slope_diff": -2.708061
+      },
+      "raw": {
+        "id": "0x4518ee2130b2299fdf0827aa6a97b8211b3273f5b07b6f13b8141e5b9ad89e5f",
+        "title": "[ARFC] Set ARB Emission Admin to Gauntlet",
+        "author": "0x2cc1ADE245020FC5AAE66Ad443e1F66e01c54Df1",
+        "body": "---\n\ntitle: [ARFC] Set ARB Emission Admin to Gauntlet\nauthor: @karpatkey_TokenLogic & @Gauntlet\ncreated: 2024-02-05\n\n---\n\n\n# Simple Summary\n\nThis proposal enables Gauntlet to distribute ARB rewards across Aave v3 on Arbitrum. \n\n# Motivation\n\nGauntlet has been engaged by the Arbitrum Foundation to support the migration from bridged USDC.e to native USDC on the network. As part of this project, Gauntlet seeks to distribute ARB rewards across Aave v3 on Arbitrum to encourage migration from USDC.e to USDC.\n\nThere is currently 15.59M units of USDC.e deposited on Arbitrum v3 that Gauntlet & the Arbitrum Foundation intend to attract to USDC with the use of ARB rewards.\n\n# Specification\n\nThe `EmissionManager`, a governance controlled function, assigns the `Emission_Admin` role for a specified token, ARB on the Arbitrum network. \n\nThe `Emission_Admin` role controls the distribution of the specified token, ARB, across the specified Aave v3 deployment.\n\nThe `Emission_Admin` can distribute ARB anywhere across the Aave v3 Arbitrum Liquidity Pool.\n\n# Implementation\n\nSet `Emission_Admin` permission for ARB to the following Gauntlet address: \n\n**Aave v3 Arbitrum**\nAddress Reward (ARB): `0x912CE59144191C1204E64559FE8253a0e49E6548`\nEMISSION_ADMIN: `0xE79C65a313a1f4Ca5D1d15414E0c515056dA90b4`\n\nThe AIP call setEmissionAdmin() method in the emission_manager contract.\n\nEMISSION_MANAGER.setEmissionAdmin(ARB,EMISSION_ADMIN);\n\n# Disclosure\n\nTokenLogic and karpatkey receive no payment for this proposal. TokenLogic and karpatkey are both delegates within the Aave community.\n\n# Next Steps\n\n1) Gather feedback from the community and risk service providers.\n2) If consensus is reached on this ARFC, escalate this proposal to the Snapshot stage.\n3) If Snapshot outcome is YAE, escalate this proposal to AIP stage\n\n# Copyright\n\nCopyright and related rights waived via [CC0](https://creativecommons.org/publicdomain/zero/1.0/).",
+        "end_utc": "2024-02-18T10:33:48Z",
+        "similarity_score": 0.2216,
+        "vote_result": {
+          "choices": [
+            "YAE",
+            "NAY",
+            "ABSTAIN"
+          ],
+          "scores": [
+            639872.5206014452,
+            5.024810043512107,
+            21281.822343556356
+          ],
+          "scores_total": 661159.3677550451,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "aave",
+          "status": "success",
+          "event_time_utc": "2024-02-18T10:33:48",
+          "pre_tvl_avg": 8307127814.5,
+          "post_tvl_avg": 8597953659.5,
+          "abnormal_change": 3.5009,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.035009,
+          "abnormal_change_pct": 3.5009
+        },
+        "price_impact": {
+          "token_id": "7278",
+          "ticker": "AAVE",
+          "status": "success",
+          "event_time_utc": "2024-02-18T10:33:48",
+          "pre_price_avg": 94.25009191500001,
+          "post_price_avg": 92.818870115,
+          "abnormal_change": -1.5185,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.015185,
+          "abnormal_change_pct": -1.5185
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/aavedao.eth/proposal/0x9cc7906f04f45cebeaa48a05ed281f49da00d89c4dd988a968272fa179f14d06",
+    "selected_choice_label": "YAE",
+    "selected_choice_index": 0,
+    "confidence": 0.85,
+    "summary": "Proposal to increase bridged USDC reserve factor across multiple deployments is strongly supported by vote timeline and early participation. Forum sentiment is largely neutral with some negative notes. Historical similar proposals recommended similar changes but were followed by negative price and TVL reactions, advising caution. Recommendation is to support the change with awareness of these risks.",
+    "key_arguments_for": [
+      "Strong unanimous early and stable vote lead for YAE option",
+      "Increasing reserve factor incentivizes shift to native USDC, aligning with protocol goals",
+      "Historical similar proposals confirm procedural precedent for this adjustment"
+    ],
+    "key_arguments_against": [
+      "Historical similar proposals led to negative token price and TVL impacts, signaling market risk",
+      "Forum sentiment includes negative comments, indicating some community concerns",
+      "Slight negative token price impact during event window observed"
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://governance.aave.com/t/arfc-increase-bridged-usdc-reserve-factor-across-all-deployments/17787",
+        "quote": "Proposal details and community discussion with mostly neutral sentiment; first comment explains incremental RF increase."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": null,
+        "quote": "Timeline metrics show 100% lead for YAE with perfect stability and early voting ratio."
+      },
+      {
+        "source_tool": "govnews_search_governance_news",
+        "reference": null,
+        "quote": "Adjacent proposal on Polygon v2 borrow rate adjustments showed -14.355% price impact and -7.1899% TVL impact post-vote."
+      }
+    ],
+    "available_choices": [
+      "YAE",
+      "NAY",
+      "Abstain"
+    ],
+    "event_start_utc": "2024-05-31T11:56:23Z",
+    "event_end_utc": "2024-06-03T11:56:23Z",
+    "event_time_utc": "2024-06-03T11:56:23Z",
+    "address_of_governance_token": "0x7Fc66500c84A76Ad7e9c93437bFc5Ac33E2DDaE9",
+    "token_price_impact_pct": -0.973,
+    "tvl_impact_pct": 1.6328,
+    "actual_vote_result": {
+      "winner_label": "YAE",
+      "winner_index": 0,
+      "scores": [
+        650418.481124658,
+        0.2323883206127332,
+        0.2768631919714114
+      ],
+      "scores_total": 650418.9903761706,
+      "margin_abs": 650418.204261466,
+      "margin_pct": 0.999999
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'YAE' selected with stance to keep 'Change'.",
+    "ai_final_reason": "• The vote timeline shows a unanimous and stable lead for the YAE option with strong early participation, reflecting clear voter preference.\n• Forum discussion sentiment is predominantly neutral with some negative comments, indicating mixed community feelings but no strong opposition.\n• Historical similar proposals (e.g., Polygon v2 borrow rate adjustment) recommended similar reserve factor increases but were followed by significant negative token price and TVL impacts, signaling market caution.\n• Despite slight negative token price impact observed during the event window, the positive TVL impact and protocol alignment with encouraging native USDC use support approving the change.\n• The recommendation to select 'YAE' aligns with voting behavior but diverges slightly from forum sentiment, reflecting a balanced decision aimed at maximizing long-term protocol health.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x95643085ee16eb0eaa4110a9f0ea8223009f9521e596e1a958303705a5001363",
+        "title": "[ARFC] Polygon v2 Borrow Rate Adjustments",
+        "end_utc": "2024-04-14T05:52:01Z",
+        "summary": "[ARFC] Polygon v2 Borrow Rate Adjustments closed on 2024-04-14T05:52:01Z. Timeline analytics noted 544 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Moderate text overlap (score 0.26)",
+        "market_response": "token -14.36%; TVL -7.19%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -0.973,
+    "ex_post_tvl_impact_pct": 1.6328,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -0.97%; TVL +1.63%"
+  },
+  "agentic_ai_choice": "YAE",
+  "actual_outcome": "YAE",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 2,
+    "Positive": 0,
+    "Neutral": 9,
+    "total_comments": 11
+  }
+}

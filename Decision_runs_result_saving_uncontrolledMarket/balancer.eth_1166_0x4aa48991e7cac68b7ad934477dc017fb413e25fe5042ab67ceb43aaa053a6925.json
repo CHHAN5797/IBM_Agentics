@@ -1,0 +1,1129 @@
+{
+  "captured_at_utc": "2025-10-08T20:47:43.801193+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x4aa48991e7cac68b7ad934477dc017fb413e25fe5042ab67ceb43aaa053a6925",
+  "focus": null,
+  "votes_count": 5,
+  "timeline_metrics_current": {
+    "unique_voters": 5,
+    "total_votes": 5,
+    "first_vote_at": "2025-02-14T12:10:18Z",
+    "last_vote_at": "2025-02-17T08:37:40Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        362579.7239664896,
+        0.0,
+        0.0
+      ],
+      [
+        0.06142677971910619,
+        0.0,
+        0.0
+      ],
+      [
+        197367.0869965382,
+        0.0,
+        0.0
+      ],
+      [
+        2539233.8273906056,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.762657,
+    "spike_follow_support_ratio": 0.0,
+    "stairwise_ratio": 0.237343,
+    "half_slope_diff": 195.055233
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x3d39e0c869368fc202c1be5a289432d6d4b666050028f0773b946a0162953959",
+      "title": "[BIP-774] Initial Gauges on Arbitrum and Base",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-02-10T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 4,
+        "total_votes": 4,
+        "first_vote_at": "2025-02-07T18:50:33Z",
+        "last_vote_at": "2025-02-10T17:43:38Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.06810283485988088,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2554638.0944370986,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.929679,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.070321,
+        "half_slope_diff": -10.224491
+      },
+      "price_impact_pct": 4.8904,
+      "tvl_impact_pct": -2.2386,
+      "similarity": 0.0692,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2554638.1625399333,
+        "scores_total": 2554638.1625399333,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0x101ed27e3f033b5704971cf17ef0c4370099cee9316967e88d7e0c9632f6abb1",
+      "title": "[BIP-773] Enable Gauge for dvstETH wstETH [Ethereum]",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-02-10T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 4,
+        "total_votes": 4,
+        "first_vote_at": "2025-02-07T18:50:16Z",
+        "last_vote_at": "2025-02-10T17:44:28Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.06810374384689712,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            2554010.3729974907,
+            0.0,
+            624.3354379710761
+          ]
+        ],
+        "spike_index": 0.929906,
+        "spike_follow_support_ratio": 0.996525,
+        "stairwise_ratio": 0.070094,
+        "half_slope_diff": 10.142245
+      },
+      "price_impact_pct": 4.8904,
+      "tvl_impact_pct": -2.2386,
+      "similarity": 0.1509,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2553386.1056632632,
+        "scores_total": 2554634.7765392056,
+        "margin_pct": 0.9995112135451182
+      }
+    },
+    {
+      "id": "0x065351bbfa19f5b4b3b8cb2d732a9809adeee6e424c9ede6815854a0dab9caeb",
+      "title": "[BIP-772] Enable Boosted GHO/PYUSD on Balancer v3",
+      "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+      "end_utc": "2025-02-03T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 6,
+        "total_votes": 6,
+        "first_vote_at": "2025-01-30T22:46:44Z",
+        "last_vote_at": "2025-02-03T18:43:07Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            346173.323556492,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            183017.51428206303,
+            0.0,
+            0.0
+          ],
+          [
+            2476495.06992025,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.787166,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.212834,
+        "half_slope_diff": -2.221182
+      },
+      "price_impact_pct": -13.2932,
+      "tvl_impact_pct": -13.9951,
+      "similarity": 0.0955,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 3005685.907758805,
+        "scores_total": 3005685.907758805,
+        "margin_pct": 1.0
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x2c69e0abd6e4fde8f67812f2636c80ced6e155c14dd64752fe521e26c8f300e0",
+      "cleaned": {
+        "proposal_id": "0x2c69e0abd6e4fde8f67812f2636c80ced6e155c14dd64752fe521e26c8f300e0",
+        "title": "[BIP-654] Enable Gauges for baoETH-wstETH, baoETH-rETH, baoUSD-sUSDe, baoUSD-sDAI w 2% cap [Ethereum]",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2024-07-08T18:00:00Z",
+        "similarity_score": 0.7821,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 379599.1559307191,
+        "margin_pct": 0.13137128342744475,
+        "scores_total": 2889513.9487646744,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 12,
+        "total_votes": 12,
+        "first_vote_at": "2024-07-05T07:37:22Z",
+        "last_vote_at": "2024-07-08T13:28:03Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.05334908440930202,
+            0.0,
+            0.0
+          ],
+          [
+            1393.8939670345167,
+            0.0,
+            0.0
+          ],
+          [
+            553314.8755395235,
+            0.0,
+            0.0
+          ],
+          [
+            0.6674588410604283,
+            0.0,
+            2334804.458450191
+          ]
+        ],
+        "spike_index": 1.0,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.0,
+        "half_slope_diff": 0.0
+      },
+      "raw": {
+        "id": "0x2c69e0abd6e4fde8f67812f2636c80ced6e155c14dd64752fe521e26c8f300e0",
+        "title": "[BIP-654] Enable Gauges for baoETH-wstETH, baoETH-rETH, baoUSD-sUSDe, baoUSD-sDAI w 2% cap [Ethereum]",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1131\n\n**Summary:**\n> This proposal aims to approve the creation of four new gauges on main net with a 2% cap:\n> - baoETH-wsETH\n> - baoETH-rETH\n> - baoUSD-sUSD\n> - baoUSD-sDAI\n\n**References/Useful links:**\n> Link to:\n> * Website: https://www.baofinance.io/\n> * Documentation: https://info.bao.finance/docs\n> * Github Page• [Bao.Finance · GitHub](https://github.com/baofinance)\n> * Communities• [Bao Finance](https://discord.com/invite/BW3P62vJXT), https://twitter.com/BaoCommunity\n\n**Protocol Description:**\n\n> Bao Finance is a community-run project creating onchain tokenized derivatives (synths) and infrastrcture. Our current synths, baoUSD and baoETH, are backed by ETH based debt positions via our vaults.\n>\n>\n>\n> BaoETH is minted by whitelisted contracts, which currently are “the fed” and “ammFED” (AMO). The Bao multisig has control over which contracts are whitelisted. Changes are approved via governance.\n>\n>\n>\n> The fed mints synths into our borrow vaults, ready to be borrowed against highly liquid & decentralized ETH based collaterals such as wstETH and rETH. Controlling the available supply also affects the variable loan interest rate, helping maintain the peg.\n>\n>\n>\n> The ammFED mints synths directly into balancer liquidity pools containing a backing asset, helping to maintain the peg and profiting from peg deviations.\n\n**Motivation:**\n\n> Bao has made Balancer our primary source of liquidity for our synths. We have recently adapted our strategy to help with volume and participation from liquidity providers, which includes creating new liquidity pools with the most liquid yield bearing assets we can use in stable pools.\n\n\n**Specifications:**\n \n> **Governance:** Bao is governed by the Bao community. Actions voted on are carried out by the community “council of guardians” via its 3/7 multi-sig. This multisig/ council of guardians controls various synth parameters like the mint limit and collaterals.  We plan on using governor bravo or similar in the future to improve decentralization.\n> \n\n> **Oracles:** Chainlink oracles are used to find collateral prices.\n> \n\n> **Audits:** Bao re-uses battle-tested compound, inverse and curve with some changes & has had bug bounties open on immunefi for several years covering all of our live contracts.\n> \n\n> **Centralization vectors:** The 3/7 multisig controls various parameters such as collateral factors, IMF factor (CF factor reduces as loan size increases), liquidation incentive, ability to deposit collateral, price oracle, new collateral additions, mint limits and the ammFED.\n> \n\n> **Market History:** All Bao’s synths have remained closely pegged to their target prices since inception and have robust mechanisms to help stay pegged. The one historically exception to this was a temporary depeg of baoUSD during USDC’s depeg. Since then all synths no longer accept USDC as collateral, relying on decentralized, highly liquid ETH backed tokens like wstETH, rETH and LUSD instead.\n> \n\n> **Value:** Balancer will benefit through trading fees and increased voting incentives for BAL and AURA holders. Bao has a track record of providing vote incentives and building governance power within the Balancer ecosystem.\n>\n\n**baoETH-wstETH:** \n- pool: 0x8296057edb832feac03269e9fce8304ebcbabcaf \n- gauge: 0x001EDF44D8aa79922dBE74f57C703EbCe2E13B43 \n\n **baoETH-rETH:** \n- pool: 0xabc7d08ef73fe3fb67efd900f4471cca788b0899 \n- gauge: 0x80f129622dC60f5A7De85cBc98F7e3a99b09E57f\n\n**baoUSD-sUSDe:** \n- pool: 0x79AF734562f741946566D5126bBDed4Cb699E355\n- gauge: 0xF91BA601c53F831869DA4aCeAAEc11c479413972\n\n **baoUSD-sDAI** \n- pool: 0xC5B3F108024da9776D024fD9CEFa4b48e021f1A2 \n- gauge: 0x17753fC89894A5eBD8b327F7d6121038e9240437\n\n### Technical Specification\nThe Balancer Maxi LM Multisig `0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the `addGauge` function with the following arguments: gauge(address):`0x001EDF44D8aa79922dBE74f57C703EbCe2E13B43 `\ngaugeType(string): `Ethereum`\ngauge(address):`0x80f129622dC60f5A7De85cBc98F7e3a99b09E57f `\ngaugeType(string): `Ethereum`\ngauge(address):`0xF91BA601c53F831869DA4aCeAAEc11c479413972 `\ngaugeType(string): `Ethereum`\ngauge(address):`0x17753fC89894A5eBD8b327F7d6121038e9240437` \ngaugeType(string): `Ethereum`",
+        "end_utc": "2024-07-08T18:00:00Z",
+        "similarity_score": 0.7821,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            1592763.552541438,
+            83585.9996125168,
+            1213164.396610719
+          ],
+          "scores_total": 2889513.9487646744,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-07-08T18:00:00",
+          "pre_tvl_avg": 801068139.0,
+          "post_tvl_avg": 796604005.5,
+          "abnormal_change": -0.5573,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.005573,
+          "abnormal_change_pct": -0.5573
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-07-08T18:00:00",
+          "pre_price_avg": 2.433113515,
+          "post_price_avg": 2.51082393,
+          "abnormal_change": 3.1939,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.031939,
+          "abnormal_change_pct": 3.1939
+        }
+      }
+    },
+    {
+      "proposal_id": "0xa5df2c98f317991929f7a98f24c5b32fd8fc0494ce633356be99cf93d963d737",
+      "cleaned": {
+        "proposal_id": "0xa5df2c98f317991929f7a98f24c5b32fd8fc0494ce633356be99cf93d963d737",
+        "title": "[BIP-643] Enable Gauges for BAO/baoUSD-LUSD 80/20 and BAO/baoETH-ETH 80/20 w 2% cap [Ethereum]",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2024-07-01T18:00:00Z",
+        "similarity_score": 0.7752,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2786590.501437844,
+        "margin_pct": 0.9999999999999998,
+        "scores_total": 2786590.5014378442,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 9,
+        "total_votes": 9,
+        "first_vote_at": "2024-06-28T06:25:00Z",
+        "last_vote_at": "2024-07-01T15:34:57Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            1.433596694083951,
+            0.0,
+            0.0
+          ],
+          [
+            1421.4405869742156,
+            0.0,
+            0.0
+          ],
+          [
+            266775.35437762726,
+            0.0,
+            0.0
+          ],
+          [
+            2518392.2728765486,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.838867,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.161133,
+        "half_slope_diff": 7.794818
+      },
+      "raw": {
+        "id": "0xa5df2c98f317991929f7a98f24c5b32fd8fc0494ce633356be99cf93d963d737",
+        "title": "[BIP-643] Enable Gauges for BAO/baoUSD-LUSD 80/20 and BAO/baoETH-ETH 80/20 w 2% cap [Ethereum]",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "Payload with PR\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1105\n\n**Summary:**\n> This proposal aims to approve the creation of two new gauges on main net with a 2% cap for new 80/20 pools, BAO/baoETH-ETH and BAO/baoUSD-LUSD.\n\n**References/Useful links:**\n\n> Link to:\n    • Website: https://www.baofinance.io/\n    • Documentation: https://info.bao.finance/docs\n    • Github Page: https://github.com/baofinance\n    • Communities: [Bao Finance](https://discord.com/invite/BW3P62vJXT), https://twitter.com/BaoCommunity\n\n\n**Protocol Description:**\n\n> Bao Finance is a community-run project creating onchain tokenized derivatives (synths) and infrastrcture. Our current synths, baoUSD and baoETH, are backed by ETH based debt positions via our vaults.\n>\n>\n>\n> BaoETH is minted by whitelisted contracts, which currently are “the fed” and “ammFED” (AMO). The Bao multisig has control over which contracts are whitelisted. Changes are approved via governance.\n>\n>\n>\n> The fed mints synths into our borrow vaults, ready to be borrowed against highly liquid & decentralized ETH based collaterals such as wstETH and rETH. Controlling the available supply also affects the variable loan interest rate, helping maintain the peg.\n>\n>\n>\n> The ammFED mints synths directly into balancer liquidity pools containing a backing asset, helping to maintain the peg and profiting from peg deviations.\n\n**Motivation:**\n\n> We have made Balancer our primary source of liquidity for our synths and would like to improve liquidity for our governance token by switching to and incentivising new 80/20 pools, which we also plan to switch incentives to on our own platform pending a governance vote.\n\n**Specifications:**\n \n1. **Governance:**Bao is governed by the Bao community. Actions voted on are carried out by the community “council of guardians” via its 3/7 multi-sig. This multisig/ council of guardians controls various synth parameters like the mint limit and collaterals.  We plan on using governor bravo or similar in the future to improve decentralization.\n\n2. **Oracles:** Chainlink oracles are used to find collateral prices.\n\n3. **Audits:** Bao re-uses battle-tested compound, inverse and curve with some changes & has had bug bounties open on immunefi covering all of our live contracts. \n\n4. **Centralization vectors:** The 3/7 multisig controls various parameters such as collateral factors, IMF factor (CF factor reduces as loan size increases), liquidation incentive, ability to deposit collateral, price oracle, new collateral additions, mint limits and the ammFED.\n\n5. **Market History:** All Bao’s synths have remained closely pegged to their target prices since inception and have robust mechanisms to help stay pegged. The one historically exception to this was a temporary depeg of baoUSD during USDC’s depeg. Since then all synths no longer accept USDC as collateral, relying on decentralized, highly liquid ETH backed tokens like wstETH, rETH and LUSD instead. The BAO token has not seen any extreme volatility and has been relatively stable since tokenomics were changed several months ago to remove inflation.\n \n6. **Value:** These pools are intended to be the primary liquidity for the BAO governance token. Balancer will benefit through trading fees and increased voting incentives for BAL and AURA holders. Bao has a track record of providing vote incentives and building governance power within the Balancer ecosystem.\n\nPools: \n\n- **[20B-baoUSD-LUSD-BPT-80BAO](https://app.balancer.fi/#/ethereum/pool/0x9412206f58cc72b9b4e340422a95354372a3ec3d00020000000000000000069a)**: 0x9412206f58cc72b9b4e340422a95354372a3ec3d\n- **[20B-baoETH-ETH-BPT-80BAO](https://app.balancer.fi/#/ethereum/pool/0x19df5bb37380186bc8efc5ad91516373a2c5459f000200000000000000000698):** 0x19DF5BB37380186bC8EFc5Ad91516373A2C5459f\n\nGauge 2% cap: \n\n- **20B-baoUSD-LUSD-BPT-80BAO-gauge:** 0x6b9dE817875952Cb23d985AbF6fa9ec4b7f66ad5\n- **20B-baoETH-ETH-BPT-80BAO-gauge:** 0x7C02ac2BAd481dC4E566D3D54359244f381d58dC\n\n### Technical Specification\n\n> The Balancer Maxi LM Multisig `0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the GaugeAdderv4 at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the addGauge function with the following arguments: \n>\n>gauge(address): `0x6b9dE817875952Cb23d985AbF6fa9ec4b7f66ad5 `\n> gaugeType(string): `Ethereum`\n>\n>gauge(address): `0x7C02ac2BAd481dC4E566D3D54359244f381d58dC`\n> gaugeType(string): `Ethereum`",
+        "end_utc": "2024-07-01T18:00:00Z",
+        "similarity_score": 0.7752,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2786590.501437844,
+            0,
+            0
+          ],
+          "scores_total": 2786590.5014378442,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-07-01T18:00:00",
+          "pre_tvl_avg": 913278234.0,
+          "post_tvl_avg": 879765718.0,
+          "abnormal_change": -3.6695,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.036695,
+          "abnormal_change_pct": -3.6695
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-07-01T18:00:00",
+          "pre_price_avg": 2.9803697,
+          "post_price_avg": 2.53644062,
+          "abnormal_change": -14.8951,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.148951,
+          "abnormal_change_pct": -14.8951
+        }
+      }
+    },
+    {
+      "proposal_id": "0xe99e3d2b1b3ffaeff1597de59c252fe829259f877a2d78a417bbe7521cbe8d7f",
+      "cleaned": {
+        "proposal_id": "0xe99e3d2b1b3ffaeff1597de59c252fe829259f877a2d78a417bbe7521cbe8d7f",
+        "title": "[BIP-270] Enable baoUSD/LUSD gauge w/2% cap [Ethereum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-05-01T18:00:00Z",
+        "similarity_score": 0.4005,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3487400.418064019,
+        "margin_pct": 0.9999852179080191,
+        "scores_total": 3487451.9698998174,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 138,
+        "total_votes": 138,
+        "first_vote_at": "2023-04-27T18:10:43Z",
+        "last_vote_at": "2023-05-01T14:53:09Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.62963,
+            0.0,
+            0.37037
+          ],
+          [
+            0.769231,
+            0.0,
+            0.230769
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.8115942028985508,
+          0.0,
+          0.18840579710144928
+        ],
+        "stability": [
+          0.8115942028985508,
+          0.0,
+          0.18840579710144928
+        ],
+        "early_ratio": [
+          0.6296296296296297,
+          0.0,
+          0.37037037037037035
+        ],
+        "vp_by_quartile": [
+          [
+            23.689276652878895,
+            0.717444069898205,
+            22.65957408057453
+          ],
+          [
+            7.908065804779692,
+            0.0,
+            1.9072927493687115
+          ],
+          [
+            193426.4738639621,
+            0.0,
+            0.24843816884592554
+          ],
+          [
+            3293967.5570826386,
+            0.41394164836837277,
+            0.39492004130254044
+          ]
+        ],
+        "spike_index": 0.853522,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 8e-06,
+        "half_slope_diff": 43.555906
+      },
+      "raw": {
+        "id": "0xe99e3d2b1b3ffaeff1597de59c252fe829259f877a2d78a417bbe7521cbe8d7f",
+        "title": "[BIP-270] Enable baoUSD/LUSD gauge w/2% cap [Ethereum]",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "#### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/156\n\n**Summary:**\n> This proposal aims to approve the creation of a gauge with a 2% cap for baoUSD/LUSD Composable stable pool.\nIf the gauges are added, Bao intends to build on their locked BAL position as well as incentivise voters to vote for the pool and seed liquidity in the pool\nThe baoUSD/LUSD Balancer pool will act as a base pool for Bao USD liquidity gauges.\n\n\n**References/Useful links:**\n\n> Link to:\n> * Website: https://app.bao.finance/ \n> * Documentation: https://info.bao.finance/docs/ \n> * Github Page• https://github.com/baofinance \n> * Communities• https://discord.com/invite/BW3P62vJXT, https://twitter.com/BaoCommunity\n\n\n**Protocol Description:**\n\n> Bao Finance is a community-run protocol creating synthetic assets and markets for any data. Our first synth, baoUSD, is backed by debt positions created in our vaults, and stable assets via its PSM.\n>\n> BaoUSD is minted by whitelisted contracts, which currently are “the fed” and “the ballast”. The Bao multisig has control over which contracts are whitelisted. Changes are approved via governance.\n>\n> The fed mints baoUSD into our vaults, ready to be borrowed against highly liquid collaterals. Controlling the borrowable supply also affects the variable loan interest rate, helping maintain the peg.\n>\n> The baoUSD ballast mints baoUSD when supplied with DAI at a 1:1 ratio. While there is DAI available, baoUSD can be burned to claim DAI at a 1:1 ratio. The baoUSD “mint limit” is controlled by the BAO multisig.\n>\n> Bao also issues basket tokens, representing an index of underlying tokens with the option to a yield strategy. These underlying assets are not tradeable with each other, so don’t suffer from the same risk vectors as an LP position, where a single asset could destroy the value of the entire position, or pool balances can be manipulated into an exploitable state. Each basket token represents the holders’ share of underlying assets. It can be minted with a supply asset (ETH, DAI), which is traded for the underlying assets and deposited into their yield strategy. Underlying assets can be redeemed at any time by basket token holders. The composition of each basket is managed via governance.\n>\n>bSTBL is Bao's first basket and is designed to be ideal collateral for baoUSD, focusing on the industry’s lowest risk, most liquid stable-coins, and the safest yield strategies. Using bSTBL as collateral for baoUSD allows highly liquid, stable, and yield-bearing collateral whose underlying assets and strategies can be adapted over time with the market, without relying on users to alter their positions. The current composition of bSTBL is 50% DAI and 50% USDC.\n>\n>Further baskets and synthetics are planned in the future, beginning with the upcoming bETH and baoETH, which will work similarly to bSTBL and baoUSD.\n>\n>Currently the only exchange with baoUSD liquidity is curve. The baoUSD/3crv pool can be found here: https://curve.fi/#/ethereum/pools/factory-v2-84/swap 5\n\n\n**Motivation:**\n\n> We would like Balancer to become an essential marketplace for our synthetics. Integrations outside our liquidity gauges are key to sustainability. Balancer was chosen to create Bao’s USD base pool, baoUSD/LUSD, because it is easy to pair with any other token whether stable or volatile. Bao intends to use this property to increase adoption of baoUSD by allowing other projects to pair with this pool and incentivise it with Bao emissions on the Bao Finance platform. If successful, the balancer community will benefit from their growing adoption through trading fees and boosts to liquidity in addition to bribes to vote for the pool.\n\n\n**Specifications:**\n \n> 1. Governance: Currently baoUSD is governed by the BAO community. Actions voted on are carried out by the community “council of guardians” via its 4/7 multi-sig. This multisig/ council of guardians controls various baoUSD parameters like it's mint limit and collaterals. The council of guardians includes at least one member of each permanent Galaxy (sub team), and any guardian can be recalled at any time via public vote. We plan on using governor bravo or similar in the future to improve decentralization.\n\n> 2. Oracles: Chainlink oracles are used to find collateral prices.\n\n> 3. Audits: Bao re-uses battle-tested compound, inverse, and curve code with some changes and is in the process of auditing\n\n> 4. Centralization vectors: The 4/7 multisig controls the supply of baoUSD available in the PSM and lending market. Other parameters under the multisig control are collateral factors, IMF factor (CF factor reduces as loan size increases), liquidation incentive, ability to deposit collateral, price oracle, new collateral additions.\n\n> 5. Market History: baoUSD has been closely pegged since its inception and has robust, battle-tested mechanisms to help it stay pegged. It did suffer a similar depeg to USDC recently, primarily due to most of the available liquidity being in pools containing USDC and DAI. Steps are being taken to reduce reliance on USDC.\n\n> 6. Value: baoUSD is in its infancy, but balancer has an opportunity to become the primary source of liquidity for it and future synthetics. The Bao protocol gained a lot of exposure during 2021, attracting up to $200m in liquidity with only a vision, and now the community lead project is launching its first products. \n\nContract Addresses\n\n> * **baoUSD-LUSD StablePool:** https://etherscan.io/address/0x7e9afd25f5ec0eb24d7d4b089ae7ecb9651c8b1f\n> * **baoUSD-LUSD StablePool Gauge:** https://etherscan.io/address/0x5af3b93fb82ab8691b82a09cbbae7b8d3eb5ac11#readContract\n\nSpecification:\n\nThe DAO Multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with the AuthorizerAdaptor at `0x8F42aDBbA1B16EaAE3BB5754915E0D06059aDd75` and call performAction with the GaugeController at `0xC128468b7Ce63eA702C1f104D55A2566b13D3ABD` for the target(address) argument and using 0x3a04f900 followed by the gauge address `0x5aF3B93Fb82ab8691b82a09CBBae7b8D3eB5Ac11` and the corresponding gauge type for the data(bytes) argument.\n\ndata(bytes) :\n`0x3a04f9000000000000000000000000005af3b93fb82ab8691b82a09cbbae7b8d3eb5ac110000000000000000000000000000000000000000000000000000000000000002`",
+        "end_utc": "2023-05-01T18:00:00Z",
+        "similarity_score": 0.4005,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3487425.6282890593,
+            1.131385718266578,
+            25.210225040091704
+          ],
+          "scores_total": 3487451.9698998174,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-05-01T18:00:00",
+          "pre_tvl_avg": 1225886703.0,
+          "post_tvl_avg": 1213133930.5,
+          "abnormal_change": -1.0403,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.010403,
+          "abnormal_change_pct": -1.0403
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-05-01T18:00:00",
+          "pre_price_avg": 6.086912965,
+          "post_price_avg": 6.09779595,
+          "abnormal_change": 0.1788,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.001788,
+          "abnormal_change_pct": 0.1788
+        }
+      }
+    },
+    {
+      "proposal_id": "0x080aff473f1c6c096e96897830e82a4569b5865f22329cfcef586b3889759076",
+      "cleaned": {
+        "proposal_id": "0x080aff473f1c6c096e96897830e82a4569b5865f22329cfcef586b3889759076",
+        "title": "[BIP-317 Enable baoETH/ETH gauge w/2% emissions cap",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-06-12T18:00:00Z",
+        "similarity_score": 0.3926,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3575035.8106210455,
+        "margin_pct": 0.9996903558574859,
+        "scores_total": 3576143.142397881,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 93,
+        "total_votes": 93,
+        "first_vote_at": "2023-06-08T19:56:12Z",
+        "last_vote_at": "2023-06-12T13:53:06Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.722222,
+            0.0,
+            0.277778
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.8387096774193549,
+          0.0,
+          0.16129032258064516
+        ],
+        "stability": [
+          0.8387096774193549,
+          0.0,
+          0.16129032258064516
+        ],
+        "early_ratio": [
+          0.7222222222222222,
+          0.0,
+          0.2777777777777778
+        ],
+        "vp_by_quartile": [
+          [
+            5970.507173871857,
+            0.0,
+            553.4184894555118
+          ],
+          [
+            17.336201558709885,
+            0.0,
+            0.00638657860915173
+          ],
+          [
+            247109.01960934262,
+            0.0,
+            0.0
+          ],
+          [
+            3322492.8545370735,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.851517,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 9e-06,
+        "half_slope_diff": 13.278228
+      },
+      "raw": {
+        "id": "0x080aff473f1c6c096e96897830e82a4569b5865f22329cfcef586b3889759076",
+        "title": "[BIP-317 Enable baoETH/ETH gauge w/2% emissions cap",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### [PR with Payload](https://github.com/BalancerMaxis/multisig-ops/pull/250)\n\n> This proposal aims to approve the creation of a gauge with a 2% cap for baoETH/ETH Composable stable pool.\n> Bao intends to continue to build on their locked BAL position as well as incentivize voters to vote for the pool, and seed liquidity in the pool\n> The baoETH/ETH Balancer pool will act as a base pool for Bao ETH liquidity gauges and will have incentivised liquidity on the Bao platform beginning BAO/baoETH-ETH and bETH/baoETH-ETH\n\n**References/Useful links:**\n\n> Link to:\n>\n>\n>\n> * Website: [https://app.bao.finance/ ](https://app.bao.finance/)\n> * Documentation: [Bao Finance - Bao Finance Docs ](https://info.bao.finance/docs/)\n> * Github Page• [Bao.Finance · GitHub](https://github.com/baofinance)\n> * Communities• [Bao Finance](https://discord.com/invite/BW3P62vJXT), https://twitter.com/BaoCommunity\n\n**Protocol Description:**\n\n> Bao Finance is a community-run protocol creating synthetic assets and markets for any data. Our synths, baoUSD and baoETH, are backed by debt positions created in our vaults, and stable assets via its PSM.\n>\n>\n>\n> BaoETH is minted by whitelisted contracts, which currently are “the fed” and “the ballast”. The Bao multisig has control over which contracts are whitelisted. Changes are approved via governance.\n>\n>\n>\n> The fed mints baoETH into our vaults, ready to be borrowed against highly liquid collaterals. Controlling the borrowable supply also affects the variable loan interest rate, helping maintain the peg.\n>\n>\n>\n> The baoETH ballast mints baoETH when supplied with ETH at a 1:1 ratio. While there is ETH available, baoETH can be burned to claim ETH at a 1:1 ratio. The baoETH“mint limit” is controlled by the BAO multisig.\n>\n>\n>\n> Bao also issues basket tokens, representing an index of underlying tokens with the option to a yield strategy. These underlying assets are not tradeable with each other, so don’t suffer from the same risk vectors as an LP position, where a single asset could destroy the value of the entire position, or pool balances can be manipulated into an exploitable state. Each basket token represents the holders’ share of underlying assets. It can be minted with a supply asset (ETH, DAI), which is traded for the underlying assets and deposited into their yield strategy. Underlying assets can be redeemed at any time by basket token holders. The composition of each basket is managed via governance. Our current baskets are bSTBL (yield bearing USD basket) and bETH (a basket of LSD tokens)\n>\n>\n>\n> bSTBL and bETH are designed to be ideal collateral for baoETH, focusing on the industry’s lowest risk, most liquid stable-coins and LSDs, and the safest yield strategies. Using bSTBL and bETH as collateral for baoETH allows highly liquid, stable, and yield-bearing collateral whose underlying assets and strategies can be adapted over time with the market, without relying on users to alter their positions. The current composition of bSTBL is 50% DAI and 50% USDC and the composition of bETH is initially 71% wstETH and 29% rETH.\n>\n>\n>\n> Further baskets and synthetics are planned in the future.\n>\n>\n>\n> Currently there is no incentivised liquidity for baoETH although this is expected to change shortly as there is a routine governance proposal on the Bao governance forum activating rewards for several gauges based around the beoETH balancer base pool - baoETH/ETH, BAO/baoETH-ETH and bETH/baoETH-ETH. https://gov.bao.finance/t/bip-36-base-pool-gauges/1229\n\nAdditional details on our expansion and decentralization plans can be found here, in our successful baoUSD gauge proposal: https://forum.balancer.fi/t/bip-270-enable-baousd-lusd-gauge-w-2-cap-ethereum/4673/6?u=chickn\n\n**Motivation:**\n\n> We would like Balancer to become an essential marketplace for our synthetics. Integrations outside our liquidity gauges are key to sustainability. Balancer was chosen to create Bao’s USD base pool, baoUSD/LUSD, because it is easy to pair with any other token whether stable or volatile. We would like to continue this relationship with our baoETH base pool. Bao intends to use the flexibility of balancers pools to increase adoption of baoETH by allowing other projects to pair tokens with our base pools and incentivise liquidity with Bao emissions on the Bao Finance platform. If successful, the balancer community will benefit from their growing adoption through trading fees and boosts to liquidity in addition to bribes to vote for the pool. \n\n**Specifications:**\n\n> 1. Governance: Currently baoETH is governed by the BAO community. Actions voted on are carried out by the community “council of guardians” via its 4/7 multi-sig. This multisig/ council of guardians controls various baoETH parameters like it’s mint limit and collaterals. The council of guardians includes at least one member of each permanent Galaxy (sub team), and any guardian can be recalled at any time via public vote. We plan on using governor bravo or similar in the future to improve decentralization.\n\n> 2. Oracles: Chainlink oracles are used to find collateral prices.\n\n> 3. Audits: Bao re-uses battle-tested compound, inverse, and curve code with some changes and is in the process of auditing\n\n> 4. Centralization vectors: The 4/7 multisig controls the supply of baoUSD available in the PSM and lending market. Other parameters under the multisig control are collateral factors, IMF factor (CF factor reduces as loan size increases), liquidation incentive, ability to deposit collateral, price oracle, new collateral additions.\n\n> 5. Market History: baoETH has been closely pegged since its inception and has robust, battle-tested mechanisms to help it stay pegged. It did suffer a similar depeg to USDC recently, primarily due to most of the available liquidity being in pools containing USDC and DAI. Steps are being taken to reduce reliance on USDC.\n\n> 6. Value: baoETH is in its infancy, but balancer has an opportunity to become the primary source of liquidity for it and future synthetics. The Bao protocol gained a lot of exposure during 2021, attracting up to $200m in liquidity with only a vision, and now the community lead project is launching its first products.\n\nPool: [0x1A44E35d5451E0b78621A1B3e7a53DFaA306B1D0](https://app.balancer.fi/#/ethereum/pool/0x1a44e35d5451e0b78621a1b3e7a53dfaa306b1d000000000000000000000051b)\nGauge 2% cap: [0xD449Efa0A587f2cb6BE3AE577Bc167a774525810](https://etherscan.io/address/0xD449Efa0A587f2cb6BE3AE577Bc167a774525810#code)\n\n**Specification:**\n\nThe Balancer Maxi LM Multisig `eth:0xc38c5f97B34E175FFd35407fc91a937300E33860` will interact with the `GaugeAdderv4` at `0x5DbAd78818D4c8958EfF2d5b95b28385A22113Cd` and call the `addGauge` function with the following arguments:\n\ngauge(address): `0xD449Efa0A587f2cb6BE3AE577Bc167a774525810` which corresponds to the 2% capped gauge for this pool\ngaugeType(string): `Ethereum`",
+        "end_utc": "2023-06-12T18:00:00Z",
+        "similarity_score": 0.3926,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3575589.414833979,
+            0.1233509676920891,
+            553.6042129334834
+          ],
+          "scores_total": 3576143.142397881,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-06-12T18:00:00",
+          "pre_tvl_avg": 994090761.0,
+          "post_tvl_avg": 950952749.5,
+          "abnormal_change": -4.3394,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.043394,
+          "abnormal_change_pct": -4.3394
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-06-12T18:00:00",
+          "pre_price_avg": 4.52449452,
+          "post_price_avg": 4.258680425,
+          "abnormal_change": -5.875,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.05875,
+          "abnormal_change_pct": -5.875
+        }
+      }
+    },
+    {
+      "proposal_id": "0x0f431ff3cf1319c5b87fe09c6f9a08aa323dbd043d23841019c77a9818a10644",
+      "cleaned": {
+        "proposal_id": "0x0f431ff3cf1319c5b87fe09c6f9a08aa323dbd043d23841019c77a9818a10644",
+        "title": "[BIP-226] Enable SILO/ETH 80/20 Gauge w/ 2% emissions cap [Ethereum]",
+        "author": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+        "end_utc": "2023-04-03T18:00:00Z",
+        "similarity_score": 0.1973,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 4235848.126372321,
+        "margin_pct": 0.9999995470380647,
+        "scores_total": 4235850.045051155,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 295,
+        "total_votes": 295,
+        "first_vote_at": "2023-03-30T18:13:56Z",
+        "last_vote_at": "2023-04-03T17:51:00Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            346469.1732160699,
+            0.21023886710691086
+          ],
+          [
+            7128.245557308562,
+            0.00359011780825089
+          ],
+          [
+            137622.20898686122,
+            0.29295953303335076
+          ],
+          [
+            3744629.4579514964,
+            0.4525508994190518
+          ]
+        ],
+        "spike_index": 0.678993,
+        "spike_follow_support_ratio": 0.999999,
+        "stairwise_ratio": 1.3e-05,
+        "half_slope_diff": 5147.427969
+      },
+      "raw": {
+        "id": "0x0f431ff3cf1319c5b87fe09c6f9a08aa323dbd043d23841019c77a9818a10644",
+        "title": "[BIP-226] Enable SILO/ETH 80/20 Gauge w/ 2% emissions cap [Ethereum]",
+        "author": "0x512fce9B07Ce64590849115EE6B32fd40eC0f5F3",
+        "body": "[Combined  2023 Week 14 Payload PR](https://github.com/BalancerMaxis/multisig-ops/pull/122)\n\n**Summary**\n\nThis is a proposal to add a gauge for SILO/ETH 80:20 Pool that will serve as the base layer for Silo Finance’s veSILO governance module.\n\n* Silo Finance has a large amount of POL in Balancer, earning incentives that are recycled through voting incentives for AURA and BAL holders to further bolster the pool liquidity. Silo Finance continues to increase its voting incentives over time as protocol revenue increases and is committed to support the Balancer ecosystem long-term.\n\n* Silo Finance is a longtime partner of the Balancer DAO.\n\n* Silo Finance core contributors have allocated roughly $1.4M~ of personal liquidity to the SILO/ETH 80:20 pool to help expand the governance base of SiloDAO.\n\n**References/Useful Links:**\n\n* Silo Website: https://www.silo.finance/\n* Dev Docs: https://devdocs.silo.finance/protocol-architecture/protocol-overview\n* Silopedia: https://silopedia.silo.finance/\n* Twitter: https://twitter.com/SiloFinance\n* Forum: https://gov.silo.finance/\n* Snapshot: https://snapshot.org/#/silofinance.eth\n* Tally: https://www.tally.xyz/gov/silo/proposals\n* 80/20 SILO ETH Pool: https://app.balancer.fi/#/ethereum/pool/0x9cc64ee4cb672bc04c54b00a37e1ed75b2cc19dd0002000000000000000004c1\n* 50/50 SILO ETH Pool: https://app.balancer.fi/#/ethereum/pool/0x48607651416a943bf5ac71c41be1420538e78f87000200000000000000000327\n\n* Silo Token Address: https://etherscan.io/token/0x6f80310ca7f2c654691d1383149fa1a57d8ab1f8\n* Defillama: https://defillama.com/protocol/silo-finance\n\n**Protocol Description**\n\nHow does Silo Finance work?\n\nSilo Finance is a lending market that allows users to lend and borrow any asset in a risk-isolated way through the use of bridge assets. Essentially, the protocol creates an individual lending market (or ‘silo’) for each token asset and connects all markets via bridge assets that serve as a protocol-wide accepted collateral. This design creates a security benefit where an exploit taking place in one market doesn’t spread to other markets like it is the case in traditional DeFi lending markets.\n\nSilo Finance Facts\n\n- Protocol is not upgradable (contracts are battle-tested since Aug. 2022)\n\n- Non-custodial: Neither DAO or core team can ever take custody of user funds\n\n- No multi-sigs: DAO controls limited admin functions\n\nhttps://devdocs.silo.finance/protocol-architecture/system-roles\n\n**State of $SILO liquidity**\n\nOur two largest liquidity pools are Balancer 80:20 SILO-ETH and 50:50 SILO-ETH pools with total TVL ~ $2.2M. We conduct regular buybacks of $SILO using SiloDAO’s revenue directly from our balancer pools, increasing Balancer’s fee revenue. Additionally, we use part of revenues to increase our voting incentives to BAL and AURA holders\n\n**Motivation**\n\nAn 80:20 pool confers lower IL exposure to LPs, allowing users to maintain greater upside exposure to the base asset. The upcoming veSILO tokenomics upgrade is designed around a locked version of 80:20 SILO-ETH BPT, similar to veBAL. Having a whitelisted gauge will provide greater incentives for $SILO holders to lock tokens which will allow additional locked TVL to flow to Balancer.\n\n**Specifications**\n\nGovernance: Silo Finance is operated as a DAO and governance decisions are completely decentralized. SiloDAO is a Cayman Foundation operating under the name of Silo Labs. Token holders create proposals, on-chain and on Snapshot, to manage funds and affect changes to markets such as replacing oracles, updating interest model settings, etc.\n\nOracles: Silo’s lending markets currently use Uniswap v3, Balancer v2 and Chainlink oracles in order to read asset prices. This is required to gauge lending parameters such as LTV and Health Factors to allow liquidation of undercollateralized positions. We also have some custom Chainlink oracle implementations for assets with things like a rebasing index such as gOHM and wstETH. Users however are only exposed to the oracles that their particular market uses.\n\nAudits & Formal Verification: Our audit reports from ABDK and Quantstamp as well as a Certora Formal Verification Report can be found here https://silopedia.silo.finance/security/audits-and-formal-verification\n\nCentralization vectors: No, token holders are the only ones with any sort of control over the protocol but even then they are limited to only being able to update certain things like oracles, bridge assets, interest rates, LTV/LT settings, and protocol fees. Any changes made are also locked behind a TimeLock Controller, allowing users ample time to withdraw should they not agree with the aforementioned changes.\n\nMarket History: $SILO price had been seeing a lot of fluctuations given its limited DEX liquidity. We have been seeing positive price action and volume as of late as liquidity increased. Historically, the one sharp drop in token price happened as a result of the largest token holder then - large fund- going underwater in the aftermath of Terra collapse.\n\nValue: Balancer has long been SILO’s liquidity hub and our 80:20 SILO:ETH Balancer pool will continue to be our primary source of liquidity for $SILO on Ethereum.\n\n**Specification:**\nGauge Address:  [0x6661136537dfDCA26EEA05c8500502d7D5796E5E] (https://etherscan.io/address/0x6661136537dfDCA26EEA05c8500502d7D5796E5E#code)\nFor Pool with address: `0x9CC64EE4CB672Bc04C54B00a37E1Ed75b2Cc19Dd`\nCapped at 2%\n\nShould be added by the DAO Multisig on mainnet.  It can be added using the following call data for the addGauge function on the gauge controller(`0xC128468b7Ce63eA702C1f104D55A2566b13D3ABD`).\n\nThis can be done via the authorizerAdapter after granting the proper roles as defined in the payload.  The calldata for performAction is calculated as follows using eth-brownie:\n\n```python\ncontroller=Contract(\"0xC128468b7Ce63eA702C1f104D55A2566b13D3ABD\")\ncontroller.add_gauge.encode_input(\"0x6661136537dfDCA26EEA05c8500502d7D5796E5E\", 2)\n```\nThe resulting call data is `0x3a04f9000000000000000000000000006661136537dfdca26eea05c8500502d7d5796e5e0000000000000000000000000000000000000000000000000000000000000002`",
+        "end_utc": "2023-04-03T18:00:00Z",
+        "similarity_score": 0.1973,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way"
+          ],
+          "scores": [
+            4235849.085711738,
+            0.9593394173675642
+          ],
+          "scores_total": 4235850.045051155,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-04-03T18:00:00",
+          "pre_tvl_avg": 1373678092.0,
+          "post_tvl_avg": 1400765331.0,
+          "abnormal_change": 1.9719,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.019719,
+          "abnormal_change_pct": 1.9719
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-04-03T18:00:00",
+          "pre_price_avg": 6.897627105,
+          "post_price_avg": 7.18590725,
+          "abnormal_change": 4.1794,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.041794,
+          "abnormal_change_pct": 4.1794
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0x4aa48991e7cac68b7ad934477dc017fb413e25fe5042ab67ceb43aaa053a6925",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.9,
+    "summary": "The proposal seeks approval to create a baoBTC/tBTC gauge on Ethereum with a 2% cap to enhance liquidity for Bao Finance's synthetic tokens on Balancer V3. Voting timeline and adjacent analytics strongly favor approval, with historical similar proposals also passing successfully and bringing value to the ecosystem.",
+    "key_arguments_for": [
+      "Bao Finance is a community-run project with battle-tested synths and strong governance controls.",
+      "Balancer will benefit from increased trading fees and vote incentives for BAL and AURA holders.",
+      "Bao's synths have maintained robust peg mechanisms and rely on decentralized collateral.",
+      "Timeline voting metrics show unanimous early and stable support for the 'Yes, let's do it' option."
+    ],
+    "key_arguments_against": [
+      "One negative sentiment comment noted migration plans could be slow, but this is a minor concern.",
+      "Market impacts show slight price and TVL declines post-vote in this and similar proposals, signaling caution."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.balancer.fi/t/bip-780-enable-gauge-with-2-cap-for-baobtc-tbtc-on-ethereum/6350",
+        "quote": "Proposal aims to approve creation of baoBTC/tBTC gauge with 2% cap. Bao Finance governance, oracle usage, audits, and centralization vectors explained. Voting incentives and liquidity benefits noted."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Snapshot voting timeline",
+        "quote": "Voting timeline shows 100% lead ratio and stability for 'Yes, let's do it' option with strong early voting participation."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-02-13T19:00:00Z",
+    "event_end_utc": "2025-02-17T19:00:00Z",
+    "event_time_utc": "2025-02-17T19:00:00Z",
+    "address_of_governance_token": "0xba100000625a3754423978a60c9317c58a424e3D",
+    "token_price_impact_pct": -1.9131,
+    "tvl_impact_pct": -1.1317,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        3099180.699780413,
+        0.0,
+        0.0
+      ],
+      "scores_total": 3099180.699780413,
+      "margin_abs": 3099180.699780413,
+      "margin_pct": 1.0
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "• The voting timeline analysis indicates unanimous and early strong support for enabling the baoBTC/tBTC gauge with a 2% cap.\n• Forum discussion reflects overall neutral to positive sentiment with only minor concerns about migration speed, not opposing the proposal.\n• Historical adjacent proposals with similar scope passed and brought increased value and governance incentives to Balancer, despite some minor post-vote market dips.\n• The proposal aligns well with Balancer’s long-term liquidity and governance incentive goals, outweighing minor market impact concerns.\n• The recommendation mirrors the aggregated forum sentiment and voting timeline, supporting a change stance for organizational benefit.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x101ed27e3f033b5704971cf17ef0c4370099cee9316967e88d7e0c9632f6abb1",
+        "title": "[BIP-773] Enable Gauge for dvstETH wstETH [Ethereum]",
+        "end_utc": "2025-02-10T19:00:00Z",
+        "summary": "[BIP-773] Enable Gauge for dvstETH wstETH [Ethereum] closed on 2025-02-10T19:00:00Z. Timeline analytics noted 4 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.15)",
+        "market_response": "token +4.89%; TVL -2.24%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0x065351bbfa19f5b4b3b8cb2d732a9809adeee6e424c9ede6815854a0dab9caeb",
+        "title": "[BIP-772] Enable Boosted GHO/PYUSD on Balancer v3",
+        "end_utc": "2025-02-03T19:00:00Z",
+        "summary": "[BIP-772] Enable Boosted GHO/PYUSD on Balancer v3 closed on 2025-02-03T19:00:00Z. Timeline analytics noted 6 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.10)",
+        "market_response": "token -13.29%; TVL -14.00%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -1.9131,
+    "ex_post_tvl_impact_pct": -1.1317,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -1.91%; TVL -1.13%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 1,
+    "Positive": 0,
+    "Neutral": 3,
+    "total_comments": 4
+  }
+}

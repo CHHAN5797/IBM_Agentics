@@ -1,0 +1,258 @@
+{
+  "captured_at_utc": "2025-10-08T01:39:50.814117+00:00",
+  "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x24e0269932de20e738d598e1c769ffe849c7b1eed5b08038ac5791ea9d1cac49",
+  "focus": null,
+  "votes_count": 5093,
+  "timeline_metrics_current": {
+    "unique_voters": 5093,
+    "total_votes": 5093,
+    "first_vote_at": "2024-04-09T00:35:41Z",
+    "last_vote_at": "2024-04-15T23:58:46Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        852052.147917354,
+        25563.436315638675,
+        13655.715991051164
+      ],
+      [
+        30261058.37608767,
+        3191.9299660797215,
+        309469.67500027095
+      ],
+      [
+        3661210.105204749,
+        2424.7970232309945,
+        70462.84274828444
+      ],
+      [
+        107709549.26913804,
+        27752.255473215886,
+        7398103.427610395
+      ]
+    ],
+    "spike_index": 0.143097,
+    "spike_follow_support_ratio": 0.996915,
+    "stairwise_ratio": 0.000492,
+    "half_slope_diff": 4092.233314
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x1a9f2097b0b5a0021628e9edb0e7c9bffae4fdbb104f9996463e40a3129c7718",
+      "title": "Catalyze Arbitrum Gaming: HADOUKEN!",
+      "author": "0xF92F185AbD9E00F56cb11B0b709029633d1E37B4",
+      "end_utc": "2024-03-22T15:52:34Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2024-03-15T15:54:44Z",
+        "last_vote_at": "2024-03-16T21:30:05Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            27578222.48496946,
+            476400.6092981732,
+            53141.59239317471
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.458964,
+        "spike_follow_support_ratio": 0.978661,
+        "stairwise_ratio": 0.002563,
+        "half_slope_diff": -3287.326307
+      },
+      "price_impact_pct": -2.2408,
+      "tvl_impact_pct": 1.5776,
+      "similarity": 0.0412,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Press Start (For)",
+        "margin_abs": 146154723.00624233,
+        "scores_total": 155798546.68087962,
+        "margin_pct": 0.9381006827079676
+      }
+    }
+  ],
+  "similar_proposals_data": [],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x24e0269932de20e738d598e1c769ffe849c7b1eed5b08038ac5791ea9d1cac49",
+    "selected_choice_label": "For",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "The proposal requests 500,000 ARB to incentivize liquidity and growth for Reserve Protocol RTokens on Arbitrum, aiming to reach $20M TVL and foster composability and innovation in the ecosystem. It presents a detailed execution plan, team experience, and strong community engagement.",
+    "key_arguments_for": [
+      "Strong and experienced team with proven track record in Reserve Protocol growth and DeFi expertise.",
+      "Detailed and feasible execution strategy targeting $20M TVL with milestones and incentives distribution.",
+      "Reserve Protocol brings unique overcollateralized, composable, and yield-bearing RTokens to Arbitrum, enhancing ecosystem liquidity and innovation.",
+      "Forum sentiment and voting timeline metrics show overwhelming support and stability for 'For' choice.",
+      "Previous similar proposals with comparable profiles showed positive outcomes and network benefits."
+    ],
+    "key_arguments_against": [
+      "Moderate negative TVL impact (-2.131%) observed during the event window which may indicate short-term liquidity shifts.",
+      "No explicit opposition in forum but some negative sentiment detected due to lexicon classification of proposal text itself.",
+      "Large grant size may require rigorous milestone enforcement to ensure efficient use of funds."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.arbitrum.foundation/t/reserve-protocol-ltipp-application-draft/22019",
+        "quote": "Forum comments are mostly neutral or supportive. The proposal is detailed and well-received with no significant opposition."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Snapshot proposal timeline metrics",
+        "quote": "Voting timeline metrics show unanimous lead for 'For' choice with perfect stability and early voting dominance."
+      },
+      {
+        "source_tool": "govnews_search_governance_news",
+        "reference": "Adjacent analytics on similar proposals",
+        "quote": "Similar past proposal 'Catalyze Arbitrum Gaming: HADOUKEN!' was successful with strong 'For' support and positive market reactions."
+      }
+    ],
+    "available_choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2024-04-09T00:00:00Z",
+    "event_end_utc": "2024-04-16T00:00:00Z",
+    "event_time_utc": "2024-04-16T00:00:00Z",
+    "address_of_governance_token": "0x320623b8e4ff03373931769a31fc52a4e78b5d70",
+    "token_price_impact_pct": 0.7243,
+    "tvl_impact_pct": -2.131,
+    "actual_vote_result": {
+      "winner_label": "For",
+      "winner_index": 0,
+      "scores": [
+        142483869.89834777,
+        58932.41877816526,
+        7791691.661350008
+      ],
+      "scores_total": 150334493.97847602,
+      "margin_abs": 134692178.23699775,
+      "margin_pct": 0.89595
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'For' selected with stance to keep 'Change'.",
+    "ai_final_reason": "• Voting timeline metrics show unanimous and stable support for 'For' throughout the voting period, indicating strong community backing.\n• Forum discussion is largely neutral to positive with no significant opposition, reflecting alignment with the recommended choice.\n• The proposal presents a robust and detailed plan with clear objectives, milestones, and execution strategy enhancing the likelihood of successful implementation.\n• Market impact shows a minor positive price effect but a slight negative TVL impact; however, historical lessons from similar proposals indicate long-term benefits outweigh short-term liquidity shifts.\n• Overall, the recommendation to 'For' aligns with both quantitative voting data and qualitative community sentiment, supporting a durable benefit for the organization and ecosystem.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x1a9f2097b0b5a0021628e9edb0e7c9bffae4fdbb104f9996463e40a3129c7718",
+        "title": "Catalyze Arbitrum Gaming: HADOUKEN!",
+        "end_utc": "2024-03-22T15:52:34Z",
+        "summary": "Catalyze Arbitrum Gaming: HADOUKEN! closed on 2024-03-22T15:52:34Z. Timeline analytics noted 5500 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.04)",
+        "market_response": "token -2.24%; TVL +1.58%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 0.7243,
+    "ex_post_tvl_impact_pct": -2.131,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +0.72%; TVL -2.13%"
+  },
+  "agentic_ai_choice": "For",
+  "actual_outcome": "For",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 2,
+    "Positive": 0,
+    "Neutral": 7,
+    "total_comments": 9
+  }
+}

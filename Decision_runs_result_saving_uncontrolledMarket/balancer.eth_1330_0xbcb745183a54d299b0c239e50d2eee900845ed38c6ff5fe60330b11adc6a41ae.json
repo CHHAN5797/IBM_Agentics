@@ -1,0 +1,1146 @@
+{
+  "captured_at_utc": "2025-10-09T04:04:41.742742+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0xbcb745183a54d299b0c239e50d2eee900845ed38c6ff5fe60330b11adc6a41ae",
+  "focus": null,
+  "votes_count": 21,
+  "timeline_metrics_current": {
+    "unique_voters": 21,
+    "total_votes": 21,
+    "first_vote_at": "2024-05-23T18:07:22Z",
+    "last_vote_at": "2024-05-27T16:16:54Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        0.7727505086799307,
+        0.0,
+        0.10780830449330871
+      ],
+      [
+        599.3522364371041,
+        0.0,
+        0.0
+      ],
+      [
+        304003.6025789974,
+        0.0,
+        0.0
+      ],
+      [
+        2350946.8865327216,
+        0.0,
+        224927.06648293653
+      ]
+    ],
+    "spike_index": 0.885295,
+    "spike_follow_support_ratio": 0.0,
+    "stairwise_ratio": 0.114705,
+    "half_slope_diff": 5.346138
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x0d58256348456ae5454fda9beb9672064bb90e0edae7c61a90997c12e0ec991d",
+      "title": "[BIP-609] Enable Gauge for wrsETH/WETH [Optimism]",
+      "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+      "end_utc": "2024-05-20T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 17,
+        "total_votes": 17,
+        "first_vote_at": "2024-05-16T18:13:48Z",
+        "last_vote_at": "2024-05-20T05:26:57Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            310855.71849177533,
+            0.0,
+            613.1887578073922
+          ],
+          [
+            68672.92899026365,
+            0.0,
+            1042.3086824595896
+          ],
+          [
+            0.4740457578717326,
+            0.0,
+            0.0
+          ],
+          [
+            2359299.9793267623,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.861427,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.138573,
+        "half_slope_diff": -25.295513
+      },
+      "price_impact_pct": 12.8988,
+      "tvl_impact_pct": 16.0138,
+      "similarity": 0.0667,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2737173.5443164087,
+        "scores_total": 2740484.598294826,
+        "margin_pct": 0.9987917998223826
+      }
+    },
+    {
+      "id": "0x57fe0f1c5f49f5fa5b46da1b98ac461b1ac673f61906979bbcd7e2f9040fbafa",
+      "title": "[BIP-608] Deploy Balancer on Fraxtal",
+      "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+      "end_utc": "2024-05-20T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 15,
+        "total_votes": 15,
+        "first_vote_at": "2024-05-16T18:13:24Z",
+        "last_vote_at": "2024-05-20T05:26:57Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            310903.61731602653,
+            613.2392287349844,
+            0.0
+          ],
+          [
+            69739.00239869246,
+            0.0,
+            0.0
+          ],
+          [
+            0.4741322680874876,
+            0.0,
+            0.0
+          ],
+          [
+            2359298.946042549,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.861076,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.138924,
+        "half_slope_diff": 2.226575
+      },
+      "price_impact_pct": 12.8988,
+      "tvl_impact_pct": 16.0138,
+      "similarity": 0.1233,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2739328.8006608007,
+        "scores_total": 2740555.279118271,
+        "margin_pct": 0.9995524708197585
+      }
+    },
+    {
+      "id": "0xd13ba8f3cff914b5d99bc610ec0dfa6290a30eceddd3be2e0e518d75138e9b13",
+      "title": "[BIP-607] Update FTM Multisig to Claim vested BEETS",
+      "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+      "end_utc": "2024-05-20T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 15,
+        "total_votes": 15,
+        "first_vote_at": "2024-05-16T18:12:59Z",
+        "last_vote_at": "2024-05-20T05:26:57Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            311526.58366507007,
+            0.0,
+            0.0
+          ],
+          [
+            71737.83557591065,
+            0.0,
+            0.0
+          ],
+          [
+            0.4666596032658404,
+            0.0,
+            0.0
+          ],
+          [
+            2359298.946042549,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.860253,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.139747,
+        "half_slope_diff": 0.517094
+      },
+      "price_impact_pct": 12.8988,
+      "tvl_impact_pct": 16.0138,
+      "similarity": 0.039,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2742563.8319431324,
+        "scores_total": 2742563.8319431324,
+        "margin_pct": 1.0
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0xd24e07b8444ee2b67ef4a44cfe5775aa53ed634d5d17661f27d73eba6eecdf26",
+      "cleaned": {
+        "proposal_id": "0xd24e07b8444ee2b67ef4a44cfe5775aa53ed634d5d17661f27d73eba6eecdf26",
+        "title": "[BIP-314] - Funding Proposal For Beethoven X DAO - Marketing",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-06-05T18:00:00Z",
+        "similarity_score": 0.1815,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3420182.4236507,
+        "margin_pct": 0.8943563054230199,
+        "scores_total": 3824183.2733912403,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 98,
+        "total_votes": 98,
+        "first_vote_at": "2023-06-01T18:06:14Z",
+        "last_vote_at": "2023-06-05T15:26:19Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            71434.46906887392,
+            0.32917098138336304,
+            0.4899464988594545
+          ],
+          [
+            6473.927386929938,
+            3.2236716567419132,
+            0.0
+          ],
+          [
+            353666.35129336943,
+            0.0,
+            0.0
+          ],
+          [
+            3190606.368932804,
+            0.0,
+            201998.11392012646
+          ]
+        ],
+        "spike_index": 0.840172,
+        "spike_follow_support_ratio": 0.421778,
+        "stairwise_ratio": 3.4e-05,
+        "half_slope_diff": 563.049803
+      },
+      "raw": {
+        "id": "0xd24e07b8444ee2b67ef4a44cfe5775aa53ed634d5d17661f27d73eba6eecdf26",
+        "title": "[BIP-314] - Funding Proposal For Beethoven X DAO - Marketing",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payloads\nhttps://github.com/BalancerMaxis/multisig-ops/pull/225\n\n**Service Provider Name:** Beethoven X DAO - Marketing\n\n**Core Contributor(s):** JediRasta, Naly, Jeff, Vee, Skly, Tom, Josey, Ardordo\n\n**Pledge to abide by the DAO's [Code of Conduct](https://www.notion.so/balancergrants/Code-of-Conduct-fef15e2ed1f5453f8bd56f338c70bb88) (or link to your own):** Yes\n\n**Pledge to abide by the [Accountability Guidelines](https://www.notion.so/balancergrants/Accountability-Guidelines-229d93372403415688f8d3dc4cb964b1):** Yes\n\n**Introduction & Domains of Operation:**\n\nAfter a three-month trial contract facilitated by Balancer Labs, the Balancer community [passed](https://snapshot.org/#/balancer.eth/proposal/0x686cfe15ffd35178814276eaff348b791bfd8fd1684e2731f222e9881df61279) [BIP-254](https://forum.balancer.fi/t/bip-254-funding-proposal-for-beethoven-x-dao/4652) to fund Beethoven X DAO as an official Service Provider from May 1, 2023 - July 31, 2023.\n\nShortly after the ratification of BIP-254, Orb Co. [relinquished its responsibilities of all marketing-related work](https://forum.balancer.fi/t/orb-collective-april-2023-high-level-updates/4735) and has since [released all marketing personnel](https://forum.balancer.fi/t/orb-collective-updated-q2-budget-forecast-5-12-23/4775). These actions created a void wherein a critical service essential for the Balancer ecosystem ceased to exist almost overnight.\n\nIn order to ensure a smooth transition and mitigate any harm to the Balancer brand, Beethoven X contributors have activated significant resources to allow us to step in to fill the gap in the domain of marketing/content and are now running the marketing efforts at Balancer.\n\nApril 26: https://forum.balancer.fi/t/rfc-balancer-marketing-analysis/4705/14?u=jedirasta26\nMay 4: https://forum.balancer.fi/t/beethoven-x-marketing-update/4731?u=jedirasta26\nMay 19: https://forum.balancer.fi/t/bi-weekly-marketing-update-beethoven-x/4797?u=jedirasta26\n\nAs our initial budget did not account for the significant amount of additional work we’ve undertaken over the course of the last month, this proposal seeks to amend BIP-254 in the following ways:\n\n1. Increase funding for marketing/content-related efforts from $15k to $30k per month starting June 1.\n2. In an attempt to answer community concerns around having service providers that are “too big,” we will split marketing and technical services into two distinct service provider proposals moving forward. Passage of this proposal would additionally remove the marketing budget from BIP-254.\n\n**Key Objectives & Success Metrics:**\n\nOver the past 3 months, the marketing efforts to support Orb were focused on the following key areas:\n\n* Developer Landing Page\n* Content and Education\n* Social Media Presence\n\nHowever, in light of the transitions of the Orb marketing team, our efforts over the past month have shifted focus and have been put towards building a foundation to adequately fill the role previously occupied by Orb. To achieve this we have established the following:\n\n* We have defined a strategy for content creation that is focused on highlighting current developments in the Balancer ecosystem.\n* We are attending weekly meetings with [@Solarcurve](https://forum.balancer.fi/u/solarcurve) and Maxis to make sure that content is relevant and closely aligned with BD efforts.\n* We have created a notion-based system to organize, develop, and schedule content coming out on social media channels and share with all relevant contributors.\n* We established a baseline cadence for content coming out on Twitter.\n* We have built a base layer of visual assets to support all of the content copy.\n* We have begun to develop a distinctive voice/style to authentically represent the Balancer brand.\n* We have been working closely with Balancer’s lead designer [@uxui](https://forum.balancer.fi/u/uxui) to develop an aesthetic for the Balancer brand/social media presence.\n* We have connected with the Balancer community contributors to begin to define a working relationship, support their contributions and build a framework for future collaboration.\n* We have continued to work on the developer landing page.\n* We have furthered our relationship with Aura to closely align on the Balancer brand direction and over-arching marketing strategy.\n\nNow that a baseline has been built, our focus moving forward is to showcase Balancer as a highly relevant and flourishing ecosystem. Leveraging our current expertise and familiarity with the ecosystem/tech alongside support from key contributors from the Balancer DAO we aim to achieve this by working on 4 key areas:\n\n1. Social Media\n2. Core Growth Pillars\n3. Brand Development\n4. Long-Term Initiatives\n\nBelow we have outlined the intention for these initiatives with relevant KPIs for their measurement/success.\n\n1.Social Media: Twitter is the main point of visibility for the content coming through Balancer and as such it will remain a major priority for our marketing efforts. To continue to build relevancy for the Balancer brand and increase our reach we will be working on the following:\n\n  * Consistent threads focused around the core growth pillars identified with BD.\n  * Building rapport with key partners in the space to increase network effect.\n  * Refining Balancer's visual style and tone of voice.\n  * The inclusion of visual forms of educational content.\n  * Community initiatives and a focus on increasing engagement.\n\nKPIs: To measure growth across Twitter we will use the following metrics on a bi-monthly basis. Our hope is to see these figures trend upward over time.\n\n \n![beetsM1.jpeg](ipfs://bafkreig4ilgccqfynilp635t7m2ote2ng4ya4n7djlgnzxke7fekecgncm)\n    \n\n\n2.Core Growth Pillars: Re-establishing “relevancy” has been identified as an area that will be critical for the future growth of Balancer’s ecosystem. The following narratives have been outlined as highly relevant to Balancer's success:\n\n  * ve8020\n  * LST’s\n  * Boosted Pools\n  * Building on Balancer\n\nWith these core growth pillars identified, our goal is to curate content focused on bringing these pillars to the forefront of users' attention. We aim to achieve this in the following way:\n\n* Focus marketing efforts around highlighting the vast benefits of the ve8020 model. Showcase successful case partner studies with statistics and growth metrics, as well as build out a ve8020 initiative pack to further educate, onboard, and align new participants.\n* Continue to highlight the unique technology that sets Balancer apart for hosting and facilitating the growth of Liquid Staked Tokens.\n* Showcase the power and effectiveness of Boosted Pools for facilitating ecosystem-wide growth.\n* Provide content and material for builders to onboard into the Balancer ecosystem.\n\nKPIs:\n\n* Ve8020: With a push for the adoption of ve8020 we would like to see the number of protocols adopting this governance model increase over the rest of the quarter. Currently, 8 protocols have embraced the initiative, we would like to see this number increase to 15+ protocols by Q3.\n\n* LST dominance: Since Shapella, we have seen LST liquidity on Ethereum rise week after week, with total ETH staked up over 4 million since April. Throughout the next quarter, we expect this to continue to increase with Liquid Staked protocols directly impacted by an influx of capital. With an innovative tech stack tailored to facilitate the growth of Liquid Staked liquidity, Balancer is uniquely positioned to become the dominant hub for these YB asset types. The goal is to see every LST hosted on Balancer increase in % by the start of Q3.\n\n \n![beetsM2.jpeg](ipfs://bafkreiapq5p773dkibw67p4uej63jr4bwiqsm2irnvblxcfxzitapkp34q)\n    \n\n* Building on Balancer: At the start of our service provider contract we had begun work on a developer-focused landing page. However, during the transition of Orb this project has seen less attention as our focus shifted to building a baseline for operations. With a baseline now in place, the goal for the next 3 months is to have completed a beta version of the Landing Page for the community to test out.\n\n3.Brand Development: One of the major areas identified as having potential for improvement has been the overall design and UX for Balancer. Working closely with lead designer Pon, we have been exploring different avenues for how this could be achieved.\n\n  Over the coming months, we hope to bring to life all of the conceptual work we have done by working on the following:\n\n  * Curate and present to the community 2-3 refined brand aesthetics with UX/UI prototypes.\n  * Build out the Balancer developer landing page integrating new brand aesthetic.\n  * Incorporate new look and feel into Twitter and content-related efforts.\n\n4.Long-Term Initiatives\n\nBelow we have outlined 2 long-term marketing goals.\n\n1.Education (Balancer Media Hub)\n\nThe Balancer Media Hub aims to create a central hub dedicated to curating high-quality, engaging content for the Balancer ecosystem. Articles, Videos, and Podcasts, all on one site. With a tech stack uniquely positioned to educate users on a plethora of different DeFi topics, the Balancer Media Hub has the potential to onboard the next wave of DeFi participants. The primary motivations for the development of the media hub are to:\n\n* Facilitate the widespread adoption of users into Balancer/DeFi\n* Create a space where educational content is accessible, fun, and engaging.\n* Continue to push the evolution of the Balancer marketing department\n* Build a foundation for the community to contribute to the growth and education of Balancer.\n* Make sure that we stay not only relevant but “ahead of the curve” moving into the future.\n\n2.Community Development\n\nWe are strong believers in grassroots movements and want to encourage community contributions in our marketing efforts. Our aim would be to foster community content creators to contribute towards the larger efforts of education in DeFi. By incentivizing users with innovative financial gamification mechanisms, we could create an initiative that would provide a platform for community members to showcase content relevant to the ecosystem in the following ways:\n\n* Serve as a space of development for engaged community members and a space of inspiration for aspiring members.\n* Introduce structures of gamification that add to participation and interaction within our community dynamic.\n* Provide a framework for engagement that would have an effect on both visibility and education.\n* Create a network of trust which allows the community to thrive.\n* Potentially integrate into the Balancer Media hub to help scale community contributions\n\n**Deprioritization of PR and Live Events:**\n\nThis is an area that previously received a significant amount of resources from the Orb marketing team. While we value the potential upside this type of marketing can bring, we feel that the cost-benefit doesn’t justify the continuation of these efforts. For the time being, we have chosen to sunset these domains for our marketing strategy and will instead focus on the areas described above. This means that we will not be actively pursuing PR-related activity or officially organizing/attending live events as part of our service provider contributions.\n\n**Length of Engagement & Budget:**\n\nFor the services described above, we are requesting an increase in the current funding outlined in BIP-254 for marketing-related efforts from $15k per month to $30k per month starting from June 1, 2023, until July 31, 2023.\n\nAs part of this proposal, we would also like to make a formal revision to BIP-254. Presently, we offer both technical and non-technical services to the Balancer ecosystem under one service provider proposal. If accepted by the Balancer community, the passing of this proposal would split our services into 2 distinctive proposals; one service provider contract for technical services and another for marketing services. Moving forward this would mean that we will always request marketing budget changes/renewals separately, and any complaints/objections for marketing services would be treated as separate issues from the technical services provided.\n\nAs these funds will be used to cover contributor salaries, we request that this amount be made available in a liquid form. If approved, $30,000 USDC or BAL equivalent would be sent to the below ETH address around the first of each month.\n\nETH Address to Receive Funds: 0x811912c19eEF91b9Dc3cA52fc426590cFB84FC86",
+        "end_utc": "2023-06-05T18:00:00Z",
+        "similarity_score": 0.1815,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3622181.057238876,
+            3.582564188547229,
+            201998.63358817575
+          ],
+          "scores_total": 3824183.2733912403,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-06-05T18:00:00",
+          "pre_tvl_avg": 1046436758.5,
+          "post_tvl_avg": 1024957475.0,
+          "abnormal_change": -2.0526,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.020526,
+          "abnormal_change_pct": -2.0526
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-06-05T18:00:00",
+          "pre_price_avg": 5.22717755,
+          "post_price_avg": 4.9294141499999995,
+          "abnormal_change": -5.6964,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.056964,
+          "abnormal_change_pct": -5.6964
+        }
+      }
+    },
+    {
+      "proposal_id": "0x686cfe15ffd35178814276eaff348b791bfd8fd1684e2731f222e9881df61279",
+      "cleaned": {
+        "proposal_id": "0x686cfe15ffd35178814276eaff348b791bfd8fd1684e2731f222e9881df61279",
+        "title": "[BIP-254] Funding Proposal For Beethoven X DAO",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-04-24T18:00:00Z",
+        "similarity_score": 0.1761,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3391289.017090736,
+        "margin_pct": 0.8729733244810214,
+        "scores_total": 3884756.7525695493,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 122,
+        "total_votes": 122,
+        "first_vote_at": "2023-04-20T20:15:25Z",
+        "last_vote_at": "2023-04-24T16:22:27Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            6174.139709805989,
+            0.0,
+            1.0594114038368734
+          ],
+          [
+            18.224356364831195,
+            0.0,
+            0.0311421125419809
+          ],
+          [
+            309256.7078484904,
+            0.0,
+            246731.6271190069
+          ],
+          [
+            3322573.6757690576,
+            0.27429284502905993,
+            1.0129204609795508
+          ]
+        ],
+        "spike_index": 0.796237,
+        "spike_follow_support_ratio": 0.999999,
+        "stairwise_ratio": 1.1e-05,
+        "half_slope_diff": 40.51043
+      },
+      "raw": {
+        "id": "0x686cfe15ffd35178814276eaff348b791bfd8fd1684e2731f222e9881df61279",
+        "title": "[BIP-254] Funding Proposal For Beethoven X DAO",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "## PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/143\n\n**Service Provider Name:**  Beethoven X DAO\n\n **Core Contributor(s):** franz, vee, jedi rasta, naly, josey, jeff, groninge, tom, daniel\n\n**Pledge to abide by the DAO's [Code of Conduct](https://www.notion.so/balancergrants/Code-of-Conduct-fef15e2ed1f5453f8bd56f338c70bb88) (or link to your own):** Yes\n\n**Pledge to abide by the [Accountability Guidelines](https://www.notion.so/balancergrants/Accountability-Guidelines-229d93372403415688f8d3dc4cb964b1):** Yes\n\n**Introduction & Domains of Operation:**\n\nSince becoming a [Friendly Fork](https://vote.balancer.fi/#/proposal/0x95db8e797145ad590b467f8dbecb23404c25c2a7090aa8a8d65428ad9f7373fc), Beethoven X and Balancer have developed a strong working relationship, marked by the successful launch of a [joint venture on Optimism](https://snapshot.org/#/balancer.eth/proposal/0xd281d8cad43c97814b2496270498c4396b16c0f2ce522d5bc554aae9fed4e4d7).\n\nThroughout this collaboration, it has become clear that there is a significant amount of overlap in the work being done on both sides, and there is an opportunity to streamline efforts. Recognizing this, both Balancer and Beethoven X have continually expressed a desire to work closer together.\n\nIn an effort to accelerate the collaboration, Balancer Labs engaged Beethoven X contributors in a 3-month trial contract beginning on February 1, 2023. This collaboration has allowed both teams to leverage each other's strengths and work together to drive technical innovation for the Balancer DAO.\n\nAs Balancer pursues its path towards further decentralization, we believe the inclusion of the Beethoven X DAO in its pool of service providers would represent a significant step in furthering this goal.\n\nIn this proposal, we will provide an update on the progress of the collaboration and present our plans for the future. We believe that by working collaboratively, we can achieve greater efficiency and drive innovation for the benefit of the entire Balancer ecosystem.\n\n**Balancer API**\n\nBeethoven X launched a custom UI in August 2022, with the goal of providing a fast and smooth user experience. To facilitate this goal, a significant amount of energy and resources were invested into the development of a custom backend API.\n\n[https://github.com/beethovenxfi/beethovenx-backend/](https://github.com/beethovenxfi/beethovenx-backend/)\n\nWhile OpCo has also been in the process of developing their own API, it was recognized that the Beethoven X API is in a more mature state and both sides would benefit from collectively supporting and building on a single API moving forward. Over the last two months, members from OpCo, Balancer Labs and Beethoven X have worked collaboratively to deploy a joint API infrastructure that will service both Balancer and Beethoven X moving forward:\n\n[https://api-v3.balancer.fi/](https://api-v3.balancer.fi/)\n\nOpCo has started the process of integrating the API into the Balancer UI, which should serve to provide a smoother UX in many ways. The success of this project speaks to the collaborative nature of all teams involved.\n\n**Scaffold-balancer**\n\nAs part of the roadmap planning for Q1 of 2023, Beethoven X contributors proposed the development of a suite of tools that could make it significantly easier to start developing a custom pool contract on top of the Balancer protocol.\n\n[https://github.com/balancer/scaffold-balancer](https://github.com/balancer/scaffold-balancer)\n\nScaffold-balancer is a fork of the well known scaffold-eth project geared specifically around facilitating the rapid prototyping of new Balancer pool types. We strongly believe that if we make it simple to get started and succeed early, it will provide developers the motivation and inspiration to slowly peel back the layers of complexity that is the Balancer protocol and develop something truly innovative.\n\nCurrent feature set:\n\n* Generic Pool UI - Allows you to interact with any existing or locally deployed pool contracts, making the time-to-test significantly shorter. The UI focuses on single contract actions (swap/join/exit) for both query and tx submission.\n* SOR Playground - Provides granular config on the pools, tokens, types, etc that are included into the routing. The idea being that you can provide tight constraints around the dataset to see how your custom pool performs when benchmarked against existing liquidity, although it could also quite easily be used to benchmark the performance of the SOR generally.\n* Batchswap builder - A UI for building arbitrarily complex batch swaps.\n\nBeyond the initially developed feature set, João from Orb integrations has also started to build out [managed pool controller examples inside scaffold-balancer](https://forum.balancer.fi/t/orb-collective-march-2023-integrations-update/4613).\n\nWhile still in its infancy, we believe this tool already provides significant value to developers looking to start the journey of developing their own custom pool on Balancer.\n\n**SDK / SOR**\n\nThe existing SOR was built before the widespread adoption of BigInt math and the advent of boosted pools. As the number of deployed pools has continued to grow, the existing SOR has come up against performance limitations. Mike McDonald recently initiated a project to rewrite the SOR with a focus on speed and performance. We’ve supported Mike in this process, including implementing a novel graph traversal algorithm for path finding that is boosted pool native.\n\n[https://github.com/balancer/b-sdk](https://github.com/balancer/b-sdk)\n\nThe implementation of a robust API has presented an opportunity to rethink the role that the Balancer SDK should fill. This repo will become the home of the new Balancer SDK.\n\n**Technical Advisor**\n\nWhile I (daniel) am a builder at heart, I’ve worked in senior developer and CTO roles for the better part of 10 years, and have worked professionally as a software developer for 15 years. The Balancer Labs leadership has been incredibly open and allowed me to begin to play a larger role across the entire ecosystem. Over the last several months, I’ve started attending regular ecosystem meetings, engaged in conversations on product development, participated in partnership discussions, and taken a role in helping to collaboratively define the future of the Balancer SDK.\n\n**Marketing, content and design**\n\nOver the past 18 months the Beethoven X marketing team have established a brand that has come to be recognised for not only its unique personality but its approach to community building and content creation. Our goal has been to build a competent community of engaged users that are as passionate about our ecosystem as we are.\n\nThe focus for our marketing efforts has been centered around producing high quality educational material on the underlying technology as well as cultivating an ethos of care and compassion for our community. Combining a strong visual aesthetic with an approachable brand identity has allowed our content, voice and style to flourish and has cemented our place as one of the top DeFi protocols on Fantom and Optimism.\n\nWeekly newsletters, threads, docs, NFTs, giveaways, community competitions, animations, long form articles, ambassador programs, live events, and financial reporting has enabled community members to keep up to date with the Beethoven X ecosystem.\n\nBuilding from a foundation of innovation that intertwines within current trends, social narratives and symbiosis offers the opportunity to establish a flourishing community base that is educated and empowered to engage in the ecosystem.\n\nWhile not part of the original agreement, we set forth to showcase this competency. For the past 3 months the marketing team has started to work on the following initiatives.\n\n**Landing Page**\n\nAs part of the roadmap planning for Q1 2023, Beethoven X contributors proposed the development of a landing page that clearly, concisely and with strong visuals, answers the question that is at the center of the growth of Balancer as a platform. “Why should I build on Balancer?” To date, 10 in-depth interviews have been performed with developers and key contributors across the Balancer ecosystem, and work has begun on developing a cohesive storyline. The landing page will intertwine strong visual design with technical information to create an engaging experience that highlights what sets Balancer apart.\n\n**Social Media & Design**\n\nBeethoven X contributors have started developing a framework for the evolution of the Balancer social media presence. The goal is to create a strong visual identity that not only showcases the technical capabilities of Balancer but also embodies a compelling personality that leverages current trends and social narratives, similar to what we strive for with the Beethoven X brand.\n\n**Content Creation**\n\nBeethoven X contributors have started producing in depth twitter threads on relevant topics in the Balancer ecosystem:\n\n[https://twitter.com/Balancer/status/1643985415135952896 \n](https://twitter.com/Balancer/status/1643985415135952896)https://twitter.com/Balancer/status/1633490690788462592\n\nand kickstarted a technical article series:\n\n[https://medium.com/balancer-protocol/inside-balancer-contracts-a-composable-symphony-1-229f6e90224](https://medium.com/balancer-protocol/inside-balancer-contracts-a-composable-symphony-1-229f6e90224d)\n\n**Key Objectives & Success Metrics:** \n\n* **Make it easier to build on Balancer** - Having become domain experts on Balancer tech, Beethoven X collaborators are uniquely positioned to identify and help build solutions for many of the pain points that exist in the current Balancer tech stack.\n* **Reduce duplicate effort across the ecosystem** - A joint API deployment is the first of several projects we see where Beethoven X contributors can leverage their domain expertise to reduce duplicate effort. How do we as an ecosystem invest significantly more energy into the future success of Balancer protocol and spend less time on the problems of today?\n* **Help drive the direction of the Balancer protocol** - We believe Balancer protocol should be a platform that empowers current and future AMM innovation. We will continue to work to align the various parties in the balancer ecosystem around this vision. How do we put a true focus on this goal? How do we empower developers to build the next generation of AMMs on Balancer protocol?\n\nOur strategy for Balancer marketing would be to highlight the major benefits of Balancer protocol across its user demographics in an engaging, informative manner. The focus of this strategy would be to educate users on product innovation, current trends and partnership developments. Coupled with engaging design / visuals the strategy stands to bring Balancer back into the limelight on social media and hopefully ignite a flywheel for growth based on relevancy, product and community.\n\nBalancer has never been more successful than it is today and we would strive to complement its immense success.\n\nIn this regard there are 2 key focuses:\n\n- **Brand Development** - Encapture the core brand values and inspire. Although a reputable figure, there is room to create an inspirational brand aesthetic that speaks well to current trends in a timeless, tasteful fashion.\n- **Social Presence** - Building from a foundation of insightful content and leveraging an unique aesthetic, social presence represents Balancer’s voice. As a thought leader in the industry the goal for the  Balancer voice is to showcase competency and relevancy through  social media outlets in a playful, engaging manner.\n\n**Length of Engagement & Budget:**\nBeethoven X is requesting 3 months of funding starting May 1, 2023 and ending July 31, 2023. \n\nWe request to continue the budget of $25,000 USDC (or BAL equivalent) per month for technical development and advisory. Additionally, we strongly believe that Beethoven X contributors can provide significant value in the areas of marketing, content creation and design. For this effort, we propose an additional budget of $15,000 USDC (or BAL equivalent) per month.\n\nAs these funds will be used to cover a portion of contributor salaries, we request that this amount be made available in a liquid form. If approved, $40,000 USDC or BAL equivalent would be sent to the below ETH address around the first of each month.\n\n**ETH Address to Receive Funds:** 0x811912c19eEF91b9Dc3cA52fc426590cFB84FC86",
+        "end_utc": "2023-04-24T18:00:00Z",
+        "similarity_score": 0.1761,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3638022.74768372,
+            0.27429284502905993,
+            246733.73059298427
+          ],
+          "scores_total": 3884756.7525695493,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-04-24T18:00:00",
+          "pre_tvl_avg": 1254338037.0,
+          "post_tvl_avg": 1231374548.0,
+          "abnormal_change": -1.8307,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.018307,
+          "abnormal_change_pct": -1.8307
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-04-24T18:00:00",
+          "pre_price_avg": 6.17468062,
+          "post_price_avg": 6.15251094,
+          "abnormal_change": -0.359,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.00359,
+          "abnormal_change_pct": -0.359
+        }
+      }
+    },
+    {
+      "proposal_id": "0xeca45642f0e3310d29e4add137f89f2e38c234c0bb0ee7a54d10e8fa38a4b5ac",
+      "cleaned": {
+        "proposal_id": "0xeca45642f0e3310d29e4add137f89f2e38c234c0bb0ee7a54d10e8fa38a4b5ac",
+        "title": "[BIP-519] Funding Proposal for the Beethoven X DAO Marketing SP - Jan - Jun 24’ ",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-12-25T19:00:00Z",
+        "similarity_score": 0.1654,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3981050.6489270716,
+        "margin_pct": 0.8576286396600212,
+        "scores_total": 4641928.294868078,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 31,
+        "total_votes": 31,
+        "first_vote_at": "2023-12-21T21:20:21Z",
+        "last_vote_at": "2023-12-25T17:52:02Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            369880.20582245156,
+            0.0,
+            0.0
+          ],
+          [
+            311299.4485104821,
+            0.0,
+            0.0
+          ],
+          [
+            1279.6597425752539,
+            111688.52551272152,
+            0.0
+          ],
+          [
+            3573185.895065705,
+            0.0,
+            274594.5602141428
+          ]
+        ],
+        "spike_index": 0.827243,
+        "spike_follow_support_ratio": 0.161106,
+        "stairwise_ratio": 0.08598,
+        "half_slope_diff": 7.332128
+      },
+      "raw": {
+        "id": "0xeca45642f0e3310d29e4add137f89f2e38c234c0bb0ee7a54d10e8fa38a4b5ac",
+        "title": "[BIP-519] Funding Proposal for the Beethoven X DAO Marketing SP - Jan - Jun 24’ ",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "https://github.com/BalancerMaxis/multisig-ops/pull/702\n\n**Introduction & Domains of Operation:**\n\nOver the past nine months, The Beethoven X DAO has strived to play a pivotal role in strengthening Balancer's presence and influence within DeFi.\n\nOur journey commenced in April 2023 when we assumed the role of a dedicated Service Provider, initially focusing on technical support as outlined in[ BIP-254](https://forum.balancer.fi/t/bip-254-funding-proposal-for-beethoven-x-dao/4652).\n\nIn response to the evolving landscape and the departure of Orb Co, The Beethoven X DAO transitioned to bolster Balancer's marketing efforts, originally undertaken by Orb Co.This strategic shift prompted modifications to BIP-254, expanding its scope to include marketing responsibilities.\n\nThe subsequent introduction of [BIP-314](https://forum.balancer.fi/t/bip-314-funding-proposal-for-beethoven-x-dao-marketing/4810) clearly defined the nuanced parameters for the services provided by the Beethoven X DAO, distinctly categorising them into technical and marketing domains.\n\nThe implementation of [BIP-394](https://forum.balancer.fi/t/bip-394-fund-beethoven-x-dao-marketing-for-aug-dec/4973) marked the adoption of a more refined marketing strategy, aiming to build upon the foundation laid over the preceding three months. From August 1, 2023, to December 31, 2023, a concentrated effort has been made to amplify Balancer's presence across social media, highlight various growth pillars central to Balancer's Product-Market-Fit (PMF), continued brand development, and the development of long-term initiatives, aiming for a robust and enduring impact for the Balancer ecosystem.\n\nAdditionally, with the imminent launch of Balancer V3, substantial efforts have been directed towards planning a successful Go-to-Market (G2M) campaign and ensuring an impactful release at the beginning of Q2 24’.\n\nAs the current funding period under BIP-394 draws to a close, this proposal seeks an extension of funding exclusively for the continuation of marketing services from January 1, 2024, to June 30, 2024.\n\nThe subsequent sections will delve into the key objectives and success metrics guiding our past endeavours as well as highlight future goals.\n\n---\n\n**Key Objectives & Success Metrics**\n\nOver the last 5 months, our primary objective in marketing has been to position the Balancer ecosystem as a leading force at the forefront of DeFi innovation. Our strategic focus involves the creation of high-quality educational content on core technology, the cultivation of a robust community, and the amalgamation of a captivating visual identity with an approachable brand voice to reinforce the Balancer vision.\n\nOur approach revolves around a synergistic relationship between users and diverse content forms to sustain and amplify engagement. For an in-depth exploration of our philosophy and marketing strategy, please refer to the following [post.\n](https://forum.balancer.fi/t/rfc-balancer-marketing-analysis/4705/14)\nTo achieve this goal we have focused our energy on the following areas:\n\n* Social Media\n* Core Growth Pillars\n\nBelow we have outlined the intention for these initiatives with relevant KPIs for their measurement/success.\n\n**Social Media:** Social Media (X), plays a pivotal role in Balancer's branding and outreach strategy. As the primary platform for showcasing Balancer's content, Twitter serves as a critical avenue for communicating our brand narrative, educating users on our key products and maintaining a direct line of connection with our audience.\n\nOur social media growth strategy for Balancer encompasses several pivotal elements. We prioritize the creation of consistent content aligned with Balancer's core growth pillars, emphasizing simplicity and educational value. We actively cultivate partnerships to broaden our network impact, refining our visual identity and voice for a cohesive brand representation. Additionally, our engagement extends to community initiatives (AMAs etc.), fostering increased participation and interaction within the Balancer community.\n\n**Content:** Content serves as the linchpin for our entire communication strategy, permeating most aspects of our brand marketing and establishing the overarching tone for the ecosystem. As such a major focus is to deliver high-quality content to our users in a clear and easily digestible manner. Ranginng from individual tweets, to more detailed threads and educational articles we have curated a wide variety of content to dynamically showcase the nuances to both the Balancer ecosystem and its technology.\n\nFor an updated library of Balancer content plese see the following [link.](https://balancer.notion.site/ca695d5e71904d7291d43698f98615d1?v=d4f41a042f0c424ba99f5b9aab17700b&pvs=4)\n\n**Community Contributors:** In addition to core content the contributions from the community contributors have continued to drive significant value for the Balancer ecosystem with weekly Balancer Reports, Gauge Updates, and the staked ETH animations.\n\nFor a list of all community contributor content please see the following content [library.](https://balancer.notion.site/538e20956a59419da640569b5a14a258?v=b4ca723fff314372a7cbac39b8980450&pvs=4)\n\n**KPIs / Data Analysis**\n\n \n![BIP-519.jpg](ipfs://bafybeifqo55laradyf6tdurabet433tust5iojyu3doavav7wpuem64tvu)\n    \n\n*The overall number of followers has increased by 8.7%, for a cumulative total of 1151.86K. The number of impressions has increased by 78%, totalling 6,402,075. Tweet engagement also saw an increase of 106% with a total of 72,128, while the total number of profile clicks was up 99.5% with 21,038.*\n\n**Overview:** From April 01, 2023, to Dec 04, 2023, Balancer has seen significant progress in key social media metrics, reflecting positive impacts on the brand's online presence and engagement.\n\n**Social Media Growth:** The total followers increased by 8.7%, reaching 1151.86K, showcasing consistent community expansion. Impressions increased by 78% to 6,402,075, indicating a broader reach and increased visibility on X (Twitter).\n\n**Engagement Metrics:** Tweet engagement increased by 106% to 72,128, highlighting heightened audience interaction. Profile clicks rose by 99.5% to 21,038, signalling a growing interest in exploring the Balancer profile and the brand.\n\n**General Trend:** A consistent positive trend in Balancer's social media performance is evident, with collective growth in followers, impressions, and engagement metrics. This suggests an expanding and more engaged audience, affirming the effectiveness of SP-led marketing efforts in elevating Balancer's visibility in the DeFi landscape.\n\n**Outliers:** During August and September, two notable exploits impacted the Balancer protocol, causing a spike in activity. This reflected hyper inflated reactions related to the exploits.\n\n**Conclusion:** The cumulative increase in followers, impressions, and engagement metrics underscores the success of our marketing goals during the SP role. This positive trajectory affirms that implemented strategies have effectively contributed to Balancer's growth and engagement on social media platforms, solidifying its relevance in the ecosystem.\n\n---\n\n**Core Growth Pillars**\n\nIn collaboration with the BD team, it was apparent early on that targeting marketing efforts towards the most important areas defining Balancer's PMF was going to be crucial to long term success. To measure efforts in this regard we have identified key core growth pillars that are critical to the success of Balancer’s ecosystem. These pillars are:\n\n* 8020\n* Liquid staked tokens (LSTs) / Boosted Pools\n* Building on Balancer\n* Ecosystem Growth\n\nTo promote the development of each of these core growth pillars the following strategies have been implemented:\n\n**8020:** We have concentrated our marketing endeavours on showcasing the advantages of the 8020 model. Additionally, we've introduced an 8020 partnership initiative, aiming to highlight successful case studies, collaborate on co-marketing initiatives, and develop an educational resource pack. Our goal has been to provide users with valuable insights into the benefits of the 8020 approach.\n\n* [Qi Dao Case Study](https://x.com/Balancer/status/1716877324594131078?s=20)\n* [ParaSwap Case Study\n](https://twitter.com/Balancer/status/1691804406004793749?s=20)[Radiant Case Study](https://twitter.com/Balancer/status/1683854697038516224?s=20)\n* [8020 Initiative Article](https://twitter.com/Balancer/status/1676954525603860481?s=20)\n* [8020 Partnership Pack](https://balancer.notion.site/The-8020-Initiative-999c0a6e1f774e39b02f26b11c581714?pvs=4)\n* [8020 Dashboard](https://dune.com/balancer/8020-initiative)\n\nThere are currently 20+ protocols that have successfully onboarded into the 8020 with more planned for the near future.\n\n**LSTs / Boosted Pools:** With the growing importance of interest bearing assets, Balancer's cutting-edge technology is instrumental in supporting LSTs. To magnify it’s unique PMF we have focused content to highlights the unique features that distinguish Balancer, emphasising its role in hosting and facilitating the growth of LSTs within DeFi.\n\n* [The Balancer LST Hub](https://twitter.com/Balancer/status/1676244564598984704?s=20)\n* [ETHx Case Study](https://twitter.com/balancer/status/1681937019373764609?s=61&t=hl_0kBnKZqMUp5x-XYybZg)\n\n**Building on Balancer:** More than a DEX Balancer offers a clear proposition as a programmable base layer for developers. It has become the backbone for numerous successful projects, streamlining development and unlocking innovation. To amplify this capability we have focused on educating users on the numerous benefits Balancer provides.\n\n* [Understanding Balancer Technology](https://x.com/Balancer/status/1673722923717369857?s=20)\n* [Building on Balancer Series](https://medium.com/balancer-protocol/built-on-balancer-a-new-defi-series-b898b25b4a93)\n* [BoB Gyroscope Case Study](https://x.com/Balancer/status/1714718036505358556?s=20)\n\n**Ecosystem Growth:** Balancer plays a pivotal role in fostering growth across diverse verticals. Whether it's expanding into new ecosystems, facilitating the liquidity growth of supported protocols, or empowering developers to innovate new primitives, our strategic marketing efforts have centred on spotlighting these invaluable benefits.\n\n* [Ecosystem Launch Pad](https://twitter.com/Balancer/status/1666822455745462281?s=20)\n* [Base Launch](https://twitter.com/Balancer/status/1687102165066924035?s=20)\n* [Avax Launch](https://twitter.com/Balancer/status/1687376484032462848?s=20)\n* [Chainlink Rate Providers](https://twitter.com/Balancer/status/1692585845834781039?s=20)\n* [Arbitrum LGP](https://x.com/Balancer/status/1707047608404029627?s=20)\n\n---\n\n**Balancer V3**\n\nSince the Milan Onsite in early October, a significant portion of time has been dedicated towards the planning and execution of a larger G2M campaign for the launch of Balancer 3.\n\nTo maintain consistent momentum for the V3 campaign the G2M strategy has been structured into three distinct phases:\n\n**Phase 1:** Unveiling V3 (Nov - 31 Dec)\n**Phase 2:** Pre-Launch (01 Jan - 17 Mar)\n**Phase 3:** Launch (18 Mar - May)\n\nCurrently, we're moving through the end of Phase 1 with the official unveiling of V3 now behind us. Below, we've outlined the key tasks.\n\n**Phase 1:** Over the course of phase 1 our priorities were set on creating the foundations necessary for a successful start to the V3 campaign. This included:\n\n* BD Notion Partner Pack\n* BD Partner Outreach\n* Teaser Campaign\n* Public Announcement and PR\n* Finalise G2M Campaign\n\nHere's a brief summary on each key action items:\n\n**BD Notion Pack**: This involved creating a notion pack that highlights all of the major technical innovations for Balancer V3.\n\n**BD Partner Outreach:** With the Notion Pack complete, the next step was to build rapport and foster synergy with key partners through in-person calls to inform them about V3 and explore collaboration opportunities / co-marketing.\n\n**Teaser Campaign:** With V3 set for a public unveiling at the beginning of Dec, we set about curating content and coordinating with key partners to ensure a successful release.\n\n**Public Announcement and PR:** Aiming to create general awareness about V3 without revealing full technical details, we focused efforts on building hype for the unveil through a launch article. To amplify this launch we co-marketed with key players in the ecosystem.\n\n* [Launch Post](https://twitter.com/balancer/status/1732037889993883688?s=61&t=gzNsdZuJRQwstDGAUw5qNQ)\n\n**Finalising G2M Campaign:** Fine-tuning details for the larger G2M strategy, including ad campaigns, visual direction, roadmaps, partner relationships and press release.\n\n**Phase 2 & 3:** As we embark on the successful first leg of our journey, the road ahead in phases 2 and 3 requires dedicated efforts to maintain the V3 momentum. Our overarching objective is to meticulously showcase the technical innovations of V3 through an in-depth exploration series, establishing robust partnerships for a united launch and fostering collaboration in BD. Additionally, we plan to refine our PR strategy for optimal coverage, launch diverse ad campaigns and community initiatives to generate excitement and enhance engagement. Education will remain a central theme and we plan to release various forms of educational content to make sure all user demographics are fully informed on the benefits and innovations of Balancer V3. To elevate our branding efforts across the board, we're committed to up-skilling our design department, ensuring that we have a competitive edge in our visual identity/branding efforts.\n\nThere's still much to be done, but we're ready to embrace the challenges ahead and we are focused on making sure Balancer is well-positioned for a groundbreaking and successful V3 launch, solidifying its status as a pioneering force in the DeFi.\n\n---\n\n**Notable Events**\n\n**Security Incidents:** Q3 presented challenges for the Balancer ecosystem, marked by two significant security breaches. During this period, our primary marketing focus shifted towards providing ample space and attention to effectively communicate about the linear pool vulnerability / DNS exploit. In an effort to foster trust and transparency, we temporarily adjusted our regular content schedule, prioritising relevant communications on social media channels related to the security incidents.\n\nThese incidents have served as invaluable learning experiences for our marketing team. The challenges posed by the exploits have reinforced the importance of adaptability and responsiveness in our communication strategy. This period of intense focus on addressing vulnerabilities has not only strengthened our crisis management capabilities but has also deepened our commitment to building trust and transparency within the Balancer community. Moving forward, these learnings will fortify our marketing team, ensuring we are well-prepared to handle unexpected challenges and to maintain an unwavering commitment to open communication.\n\n**Supplementary Funding Update:** Over the course of our SP contract, the requested supplementary budget of up to $5000 USDC per month in BIP-394 for external marketing services (animations, design, content, etc.) was established in response to the discontinuation of Coordinape funding. This reserve was intended as a buffer to temporarily augment service output or engage external expertise as needed. However, to date, there has been no necessity to utilise this potential reserve.\n\n---\n\n**Length of Engagement & Budget:**\n\nFor the services described above, we are requesting an extension of the current funding outlined in [BIP-394] of $30K USDC / month for marketing-related services for the period of January 1, 2024, until June 30, 2024.\n\nOur marketing efforts consist of 2 FT contributors working at 100% as well as 2/3 PT contributors working at 25-50%. As our team is small, our contributors work across several disciplines; Jedi and Naly (FT) work on the overall marketing strategy, content curation, and social media management. Vee (PT) works on brand development and visual design. Skly (PT) specialises in smart contract development and assists with technically focused articles. Jeff (PT) works on BD and partnership coordination.\n\nAdditionally, outside of the active contributions this month, the Beethoven X DAO has access to several contributors whose expertise ranges from financial accountants, quantitative analysts, and engineers to DeFi social scientists with PhDs that we will tap into as and when needed, all scoped within the above budget.\n\nThese funds will be used solely to cover contributor salaries and as such we request that this amount be made available in a liquid form.\n\nIf approved, $30,000 USDC would be sent to the below ETH address around the first of each month.\n\nETH Address to Receive Funds: 0x811912c19eEF91b9Dc3cA52fc426590cFB84FC86\n\nMoreover, we propose the continuation of a potential for a supplementary budget of up to $5000 USDC per month dedicated to financing external marketing services (animations, design, content, etc.), to be administered by the Balancer DAO. This allocation would be invoked solely on an as-needed basis, adhering to a maximum cap of $5000 USDC for any given month, with all expenditures meticulously documented in a monthly budget breakdown. The envisaged application of this budget aligns strategically with the significant V3 launch in Q2 2024, offering a valuable resource to maximise the effectiveness of our G2M strategy. In the event we need to cover costs larger than that stipulated in the buffer budget for marketing efforts around the V3 launch, a separate proposal to the Balancer DAO will be made.\n\n---\n\n**Closing Remarks**\n\nIn conclusion, the past nine months have seen The Beethoven X DAO actively contribute to enhancing Balancer's position in the DeFi space. As we navigate these dynamic landscapes, our commitment remains steadfast, and we are poised to overcome future challenges while maintaining an unwavering dedication to transparency, trust, and communication within the Balancer community.\n\nWe are honoured and deeply grateful for the opportunity to play a role in Balancer's success. While we take pride in our accomplishments thus far, we view them as milestones in an ongoing journey of improvement and heightened contribution. Our team maintains a long-term outlook, aspiring to continuously evolve and be the best version in service to Balancer and its community.\n\nAs we anticipate the pivotal launch of V3, our determination and commitment are only strengthened. This significant event marks a crucial moment in Balancer's trajectory, and we are enthusiastic about contributing to its success, further solidifying Balancer's pioneering role in the DeFi space.",
+        "end_utc": "2023-12-25T19:00:00Z",
+        "similarity_score": 0.1654,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            4255645.209141214,
+            111688.52551272152,
+            274594.5602141428
+          ],
+          "scores_total": 4641928.294868078,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-12-25T19:00:00",
+          "pre_tvl_avg": 940248910.0,
+          "post_tvl_avg": 953239957.0,
+          "abnormal_change": 1.3817,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.013817,
+          "abnormal_change_pct": 1.3817
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-12-25T19:00:00",
+          "pre_price_avg": 4.141005475,
+          "post_price_avg": 4.5243818650000005,
+          "abnormal_change": 9.2581,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.092581,
+          "abnormal_change_pct": 9.2581
+        }
+      }
+    },
+    {
+      "proposal_id": "0x71093cb5f1ed8359856757cc04c08f6905ea2b0bf7c7d78780745d27977a1102",
+      "cleaned": {
+        "proposal_id": "0x71093cb5f1ed8359856757cc04c08f6905ea2b0bf7c7d78780745d27977a1102",
+        "title": "[BIP-514] Fund Balancer Maxis Q1-2024",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-12-25T19:00:00Z",
+        "similarity_score": 0.1613,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3673928.349047134,
+        "margin_pct": 0.8699523498195332,
+        "scores_total": 4223137.450929663,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 27,
+        "total_votes": 27,
+        "first_vote_at": "2023-12-21T21:13:40Z",
+        "last_vote_at": "2023-12-25T17:54:00Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            374004.533722373,
+            0.0,
+            0.0
+          ],
+          [
+            1.0439930465157383,
+            0.0,
+            0.0
+          ],
+          [
+            1279.6470049902352,
+            0.0,
+            0.0
+          ],
+          [
+            3573247.675267988,
+            0.0,
+            274604.5509412651
+          ]
+        ],
+        "spike_index": 0.8916,
+        "spike_follow_support_ratio": 0.161104,
+        "stairwise_ratio": 0.014871,
+        "half_slope_diff": 4.191901
+      },
+      "raw": {
+        "id": "0x71093cb5f1ed8359856757cc04c08f6905ea2b0bf7c7d78780745d27977a1102",
+        "title": "[BIP-514] Fund Balancer Maxis Q1-2024",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "## PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/697\n\n## Introduction\n\n \n![BIP-514.png](ipfs://bafkreid33cuhfiqmn7wlhpbarprz3ge736wizqnwf4lllitlrxb5zzfeii)\n    \n\n> Maxis queue up to embark on the v3 journey\n\nThe Balancer Maxis are thrilled to announce our pivotal role in the upcoming development of Balancer v3. Recognized as key contributors and the vital link between partners and the protocol, our dedication to the DAO is unwavering. As we embark on another quarter, our commitment is not just to continue, but to evolve – to redefine our engagement and amplify our positive impact on the DAO in 2024.\n\nThe third quarter marked a significant transition for the Maxis. Following the departure of our strategic visionary, Solarcurve, we embraced change and innovation. Tritium rose to the occasion, leading critical initiatives like the [core pool incentive automation](https://forum.balancer.fi/t/bip-457-core-pool-incentive-program-automation/5254), as well as securing and executing on the Arbitrum STIP, demonstrating our adaptability and resilience.\n\nOur evolution goes beyond roles and responsibilities. The Maxis are transforming from a collective of passionate enthusiasts to a team of full-time, professional experts. The new full-time addition consists of @Xeonus who will spearhead our strategic direction.\n\nOur mindful approach to funding allocation ensures an efficient use of resources – balancing USDC and BAL demands with maximum effectiveness. Our focus is not just on growth but on impact and transparency.\n\nIn 2024 we want to make the most impact by driving forward exciting initiatives while providing excellent mission-critical services to the DAO. We have identified four main (non-v3 dependent) initiatives to channel our efforts, while continuing to provide the core services that have been the backbone of the DAO for over two years.\n\n## Initiatives\n\nBeyond regular operations, the Maxi’s are focused on trying to create successful narratives in the Balancer ecosystem through various focused initiatives. In 2024, we strive to focus on a few of them, ensure that our focus areas have a clear leader/champion and some defined goals and that time and resources are available to focus on these topics. The impact of those topics is directly related to the achieved objectives.\n\n### Initiative 1: Growth beyond Mainnet\n\nLead: Tritium\n\nTeam: Shakotan (tech and operations), Xenous (data)\n\nKey ecosystem interactions: Grants Committee, Beethoven (Marketing + Beets grants)\n\nSummary\n\nThe initiative aims to further strengthen the DAO's presence beyond mainnet, focusing on Arbitrum, zkEVM, and Gnosis. The initiative emphasizes the successful execution of the Arbitrum STIP, but most of all development of strong competencies in creating data-driven narrative showcasing Balancer’s competitiveness, and collaboration with key blockchain partners such as Polygon and Aribtrum. The strategy includes adaptability to pivot based on market trends and performance metrics and an ever growing understanding of the KPIs that our grant providing partners care about.\n\nObjectives\n\n1. Timely STIP Execution: Ensure punctual and successful delivery of the current STIP, including consistent reporting and active engagement with the DAO.\n2. Data Narrative Development: Work to build a competency within Balancer to tell stories about how we are using our emissions to drive growth for our protocol and in the ecosystems we exist in.\n\n  1. We should be able to put out velodrome style reports that tell our story.\n\n3. KPI-Focused Program Management: Stay close to various grant programs and look at successful grant recipients to understand the KPIs they set and how they achieve them.\n\n  1. Propose changes at Balancer to make this possible or point out why we are not well suited to meet the kinds of KPIs that chain ecosystems see value in.\n\n4. Next Grant Cycle Preparation: Identify potential grant sources for the upcoming cycle and strategize engagement.\n5. Feedback Integration: Actively seek and incorporate feedback to enhance the effectiveness of the initiative.\n6. STIP Comparative Analysis: Collaborate with the STIP body to assess and report on Balancer's performance in comparison to peers.\n7. Impact Report Creation: Develop a comprehensive report detailing the impact of extra incentives delivered through balancer on L2 ecosystems.\n8. Strategic Partnerships: Strengthen collaborations with Gnosis Chain, Base, Arbitrum and Polygon to share successes and apply learnings, particularly in the context of zkEVM scaling.\n9. Collaborate with Beets as much as possible to create a shared competency here.\n\n### Initiative 2: Redesign of the Gauge Framework v1\n\nLead: Xeonus\n\nTeam: Shakotan (building automation), Tritium, Zekraken, Zen Dragon and Mike B (design)\n\nSummary\n\nThis initiative aims to introduce an automated, dynamic system for evaluating and adjusting gauge emissions based on performance metrics. This new framework is designed to efficiently allocate BAL rewards, optimizing support for both high-cap and emerging projects. The goal is to ensure a more responsive and adaptable system that balances revenue optimization with nurturing potential future revenue generators.\n\nObjectives\n\n1. Automated Gauge Evaluation: Develop a system for automatic assessment of gauges based on predefined metrics.\n2. Dynamic Emission Cap Adjustments: Implement a mechanism to adjust emission caps (ranging from 2% to 10%) based on gauge performance, potentially reducing underperforming gauges to a certain cap (e.g. 0.5%).\n3. Adaptive Framework: Ensure the framework is responsive to market dynamics and capital efficiency, allowing for more flexible and efficient allocation of BAL rewards.\n4. Rules around Duplication: Rules for handling the same Token in multiple pools/chains or the same DAO with multiple tokens.\n\n### Initiative 3: Support Balancer v3 Design\n\nLead: Mike B\n\nTeam: Xeonus, Zen Dragon, Tritium, Shakotan(tech and automation)\n\nKey ecosystem interactions: Balancer Labs, Beethoven (Tech)\n\nSummary: Balancer v3 is set to compete with the established developer community of Uni v4. It's crucial to foster the development of a robust ecosystem based on Balancer v3, ensuring it offers a compelling alternative for developers and projects.\n\nObjectives:\n\n1. Onboarding of Innovative Teams: Attract and integrate teams that are developing novel automated market makers (AMMs) for Balancer v3.\n2. Market Fit Identification for v3 Products: Assess and establish the market relevance of v3 offerings like TWAMMs, boosted pools, and dynamic ECLPs, and effectively pitch these to ecosystem projects.\n3. Serving as a Liaison: Act as the primary point of contact for external teams working on Balancer v3, facilitating seamless communication and collaboration.\n4. Technical Support Coordination: Collaborate with the integrations and BLabs teams to ensure that building teams receive adequate technical assistance.\n5. Finalizing v3 Feature Scope: Conclude the initial feature set for Balancer v3, aligning it with market needs and developer capabilities.\n\n### Initiative 4: Automation ownership transfer & on-chain automation improvements\n\nLead: Shakotan\n\nTeam: Tritium\n\nKey ecosystem interactions: Balancer Labs\n\nSummary:\n\nOngoing automation for both on-chain and off-chain processes. Improving existing operational contracts, such as Gauge injector and improving Defender codebase so it becomes maintainable.\n\nObjectives\n\n1. OZ Defender automation takeover from Balancer Labs and Markus\n2. Full tech and development for on-chain tasks\n3. ChildGaugeInjector version 2 release with new features + factory deployment to support better events and data used by Data Team\n4. Potential fees-handler-sc implementation to reduce rugability of the fees bags + improve data flow.\n\nService Provider Name & Overview: Balancer Maxis\n\nLeader(s): Xeonus, joined by the talented Mike B, Zekraken, Zen Dragon, Danko, Tritium, Shakotan and Gosuto\n\nContributors (a.k.a. Ballers): Gosuto, Gleb, Cosme Fulanito and Dubstard\n\nPledge to abide by the DAO’s [Code of Conduct](https://fifth-broom-2e6.notion.site/Code-of-Conduct-fef15e2ed1f5453f8bd56f338c70bb88): YES\n\nPledge to abide by the [Accountability Guidelines](https://fifth-broom-2e6.notion.site/Accountability-Guidelines-229d93372403415688f8d3dc4cb964b1): YES\n\nDomains of Operation:\n\n* Governance and Protocol Operations\n* Strategy and Business Development\n* On-Chain Operations (DevOps)\n* Community Engagement\n* Pool Design and Ecosystem Coordination\n* Finance and Risk Management\n* Data Analytics and Reporting\n* Outreach and Anti-Scam Oversight\n\nKey Objectives per Operational Discipline:\n\n#### 1. Governance and Protocol Operations\n\n* Leading governance procedures, ensuring their execution and integrity.\n* Facilitating technical discussions within governance scopes.\n* Setting up governance votes and reviewing payloads for DAO transactions.\n\n* Crafting detailed governance proposals and specifications.\n* Offering deep technological insights during governance deliberations.\n* Assisting in specifications to proposals for proper payload execution\n\n* Advise Foundation/OpCo on DAO Governance and BizDev\n* Ecosystem council liaison addressing GRC inquiries\n* Operational functionality within the DAO\n\n* Infrastructure and tool creation for enhancing governance operations.\n* Automating tasks, reducing human dependency in governance functions.\n* Creating UI tools that support operational tasks (past examples: pool creation, reward injectors, linear pool deployment [deprecated])\n\n#### 2. Strategy and Business Development\n\n* Leading strategic partnerships and business growth initiatives.\n* Applying profound product and technical knowledge in strategic planning.\n* Engaging with new partners and broader Web3 communities.\n\n* Providing technical support and insights for strategic development.\n* Assisting in custom pool creations and new chain launches.\n\n* Managing revenue flows and direct incentives with partners.\n* Facilitating discussions on financial incentives and revenue optimization.\n* Acting as active partner support and assisting new partners navigate the ecosystem\n\n#### 3. On-Chain Operations (DevOps)\n\n* Overseeing DevOps and automating multisig operations.\n* Building multisig payloads and conducting multi-person peer-reviews\n* Guidance on infrastructure-related aspects.\n* Overseeing Stipend Distribution Automation\n* Coordinating protocol fee sweep automation\n\n* Core development, aiding in automation and data management.\n* Smart contract development(when needed)\n* Taking over on chain automation for OZ Defender and migrating to new version of it\n* Support in technical best practices.\n\n* Bi-weekly fees processing and reporting\n* Arbitrum STIP grant program management and operations\n\n#### 4. Community Engagement\n\n* Managing community interactions\n* Onboarding new contributors and service providers\n* Planning ecosystem meetups and events (onsites) and handling logistical arrangements\n\n* Discord user support\n* Weekly Newsletter (Medium)\n* Governance Recap (Twitter) weekly\n\n* Discord user support\n* Weekly Newsletter (Medium)\n* Governance Recap (Twitter) weekly\n\n* Assisting in AMA sessions and coordinated marketing efforts.\n* Engaging with community members on various platforms.\n\n#### 5. Pool Design and Ecosystem Coordination\n\n* Designing pools for the protocol, aligning with governance specifications.\n* Liaising with the ecosystem for synchronized functionality and growth.\n* Assistance in pool design and migration to v3\n\n* Token whitelisting and front-end testing.\n* Assisting in the technical aspects of pool and gauge creation.\n* Testing of v3 front-end infrastructure\n\n#### 6. DAO Treasury and Risk Management\n\n* Overseeing budget, payments, and financial transactions.\n* Due diligence for new service providers.\n* Risk inventory and assessment with GRC\n\n#### 7. Data Analytics and Reporting\n\n* Spearheading data analytics, offering valuable insights through reports and dashboards.\n* Maintaining high-level expertise in protocol-related data.\n* Providing quarterly financial reports\n\n* Assisting in data handling, contributing to informed decision-making.\n\n#### 8. Outreach and Anti-Scam Oversight\n\n* Leading efforts against scam activities within the Balancer ecosystem.\n* Pen-testing of security infrastructure\n* Take down of scam sites\n\n* Services and subscriptions admin (Discord, Notion, etc.).\n\n* Networking and outreach, bringing in new ecosystem participants.\n* Facilitating communications and partnerships through various channels.\n\nLength of Engagement & Budget:\n\nLength of engagement: 3 months\n\n**Budget: 108’095 USDC, 35’718 BAL and 20 ETH**\n\nImpact on the Treasury\n\nThe Treasury currently holds ~4M BAL. Funding the Balancer Maxis for Q1 2024 would cost around 0.9% of the treasury’s BAL holdings, which annualizes to ~3.5% of the treasury’s BAL. The Treasury currently holds ~4.3M in USDC. Funding the USDC portion would cost around 2.5% of the treasury’s USDC, which annualizes to ~10%.\n\nFurthermore, this table provides an overview of the last years impact putting this proposal into perspective:\n\n|Year|Quarter|BAL|BAL Price|USDC|ETH|ETH price|Operations cost|People cost|Total|\n| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |\n|2023|Q1|48000|$6|$0.00|0|1201|0|$266,400|$266,400.00|\n|2023|Q2|42150|$7|$0.00|5|1795|8975|$291,257|$300,231.50|\n|2023|Q3|26025|$5|$132,630.00|20|1853|37060|$251,825|$288,884.50|\n|2023|Q4|31695|$3|$168,770.00|20|1652|33040|$271,779|$304,819|\n|2024|Q1|35718|$4|$108,095.00|20|2170|43400|$250,969|$294,369|\n\nAlthough the Maxis will have around 1 FTE more manpower at their disposal, the impact on the treasury stays nearly the same. Maxis have undergone internal optimizations in pay to reduce the impact on the DAOs USDC as much as possible given the current market conditions. In that regard, 49.5% of requested funding will be locked in our stkauraBAL vesting contract. We will also roll over $37,720.00 in savings from our Q3 and Q4 budget (bizdev, bounties etc.) and deduct that amount from the current proposal, which further reduced our overall demand for USDC.\n\nETH Address to Receive Funds: `0x166f54F44F271407f24AA1BE415a730035637325`\n\nLink to SLA (if going through the Foundation): N/A\n\nTechnical specifications\n\nThe Balancer DAO multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with USDC `0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48` by writing `transfer` passing the Maxi Safe `0x166f54F44F271407f24AA1BE415a730035637325` as recipient and amount `108095` USDC as `108095000000`.\n\nFurthermore the Balancer DAO multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with BAL `0xba100000625a3754423978a60c9317c58a424e3D` by writing `transfer` passing the Maxi Safe `0x166f54F44F271407f24AA1BE415a730035637325` as recipient and amount `35718` as `35718000000000000000000`\n\nThe DAO Multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f` will interact with WETH `0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2` by writing `deposit` with amount `20` to wrap the required ETH. Afterwards the DAO Multisig `0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f `will interact with WETH `0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2` by writing `transfer` passing the Maxis Multisig address as the recipient `0x166f54F44F271407f24AA1BE415a730035637325` and `amount` `20000000000000000000`",
+        "end_utc": "2023-12-25T19:00:00Z",
+        "similarity_score": 0.1613,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3948532.8999883994,
+            0,
+            274604.5509412652
+          ],
+          "scores_total": 4223137.450929663,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-12-25T19:00:00",
+          "pre_tvl_avg": 940248910.0,
+          "post_tvl_avg": 953239957.0,
+          "abnormal_change": 1.3817,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.013817,
+          "abnormal_change_pct": 1.3817
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-12-25T19:00:00",
+          "pre_price_avg": 4.141005475,
+          "post_price_avg": 4.5243818650000005,
+          "abnormal_change": 9.2581,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.092581,
+          "abnormal_change_pct": 9.2581
+        }
+      }
+    },
+    {
+      "proposal_id": "0x65f56258442e1a10a76014aa693ada4b15dc0731d4f0beb0dbc7bc24203f49a9",
+      "cleaned": {
+        "proposal_id": "0x65f56258442e1a10a76014aa693ada4b15dc0731d4f0beb0dbc7bc24203f49a9",
+        "title": "[BIP-394] Fund Beethoven X DAO - Marketing for Aug - Dec",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "end_utc": "2023-08-07T18:00:00Z",
+        "similarity_score": 0.1583,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 3019695.1754683135,
+        "margin_pct": 0.8500921722661314,
+        "scores_total": 3552197.366338014,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 74,
+        "total_votes": 74,
+        "first_vote_at": "2023-08-03T18:27:18Z",
+        "last_vote_at": "2023-08-07T16:12:02Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            33347.84831411191,
+            0.0,
+            0.0
+          ],
+          [
+            583.9376259490559,
+            0.0,
+            0.0
+          ],
+          [
+            40730.91068359292,
+            0.05966962325560855,
+            0.0
+          ],
+          [
+            3211283.5536300023,
+            0.0,
+            266251.05641473446
+          ]
+        ],
+        "spike_index": 0.952034,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.000693,
+        "half_slope_diff": 207.356563
+      },
+      "raw": {
+        "id": "0x65f56258442e1a10a76014aa693ada4b15dc0731d4f0beb0dbc7bc24203f49a9",
+        "title": "[BIP-394] Fund Beethoven X DAO - Marketing for Aug - Dec",
+        "author": "0x9f74662aD05840Ba35d111930501c617920dD68e",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/431\n\n**Service Provider Name:** Beethoven X DAO - Marketing\n\n**Core Contributor(s):** JediRasta, Naly, Jeff, Vee, Skly, Tom, Josey, Ardordo\n\n**Pledge to abide by the DAO’s [Code of Conduct 1](https://www.notion.so/balancergrants/Code-of-Conduct-fef15e2ed1f5453f8bd56f338c70bb88) (or link to your own):** Yes\n\n**Pledge to abide by the [Accountability Guidelines](https://www.notion.so/balancergrants/Accountability-Guidelines-229d93372403415688f8d3dc4cb964b1):** Yes\n\n**Introduction & Domains of Operation:**\n\nOn April 25th, 2023 the Beethoven X DAO engaged as an official Service Provider for the Balancer ecosystem.\n\nInitially, the primary focus of this commitment was to provide Balancer with support in technical areas with a secondary focus to provide support to Orb Co with content and social media. This engagement was contracted for the period of May 1, 2023 - July 31, 2023; specific details can be found in [BIP-254](https://forum.balancer.fi/t/bip-254-funding-proposal-for-beethoven-x-dao/4652).\n\nShortly after the ratification of BIP-254, changes were made to key service providers contributing to the Balancer ecosystem; namely the dissolution of [Orb Co and its contribution towards marketing-related services.](https://forum.balancer.fi/t/orb-collective-april-2023-high-level-updates/4735)\n\nTo help maintain consistent output for Balancer’s marketing, the Beethoven X DAO stepped in to fulfill the role Orb Co provided. Consequently, modifications were made to BIP-254 to account for the additional services/responsibilities relating to marketing services. [[BIP-314]](https://forum.balancer.fi/t/bip-314-funding-proposal-for-beethoven-x-dao-marketing/4810) outlines the most recent parameters defining the services provided by the Beethoven X DAO.\n\nAs part of its implementation, a key change to the service provider arrangement was the distinct separation of services provided by the Beethoven X DAO into 2 independent proposals: technical and marketing services.\n\nAs the current funding period for [BIP-314] is coming to an end, this proposal seeks to extend funding for marketing services for the period of August 1, 2023 - December 31, 2023.\n\n**Key Objectives & Success Metrics:**\n\nOver the past 3 months, the marketing efforts of Beethoven X have been focused on building a foundation to adequately fill the role previously occupied by Orb and subsequently to showcase Balancer as a highly relevant player in DeFi.\n\nTo achieve this we have focused our energy on developing the following areas:\n\n1. Social Media\n2. Core Growth Pillars\n3. Brand Development\n4. Long-Term Initiatives\n\nBelow we have outlined the intention for these initiatives with relevant KPIs for their measurement/success.\n\n1. Social Media\n\nTwitter is a key platform for Balancer to reach its target audience and build brand awareness.\n\nGoal: To build relevancy for the Balancer brand and increase reach on Twitter.\n\nStrategies:\n\n* Consistent threads focused around the core growth pillars identified with BD to help ensure Balancer's content is relevant and informative to its target audience.\n* Building rapport with key partners in the space to increase network effect and help amplify Balancer's reach/visibility.\n* Refining Balancer's visual style and tone of voice. This will help to create a more cohesive and professional brand identity.\n* The inclusion of visual forms of educational content to help make Balancer's content more engaging and accessible.\n* Social Media Launch campaigns for new Balancer chain deployments.\n* Community initiatives and a focus on increasing engagement. This will help to build a strong and engaged community around Balancer.\n\nContent Library (May, 1st - present):\n\n[Content Library ](https://balancer.notion.site/ca695d5e71904d7291d43698f98615d1?v=d4f41a042f0c424ba99f5b9aab17700b&pvs=4)\n\nKPIs:\n\n* Twitter followers: The number of followers on Balancer's Twitter account.\n* Tweet impressions: The number of times Balancer's tweets are seen.\n* Engagement rate: The number of times Balancer's tweets are liked, retweeted, or replied to.\n* Profile clicks: The number of times the profile is clicked per day.\n\n \n![marketing1jpeg.jpeg](ipfs://bafybeie46mpx566d5up5bcfoayhkawtzwxh7kbnjmvhahmq4wsfzc5cy6e)\n    \n\n*Twitter analytics starting from May, 1st (SPs contract start date). This is the first set of quarterly data we have collected and will be used to create comparisons for future reports.*\n\n2. Core Growth Pillars\n\nBalancer has identified four core growth pillars that are critical to the future success of its ecosystem. These pillars are:\n\n* 8020\n* LSTs: Liquid staked tokens (LSTs)\n* Boosted Pools\n* Building on Balancer\n\nGoal: Drive education and awareness around the most important areas defining the Balancer ecosystem.\n\nStrategies:\n\nTo promote each of these core growth pillars the following strategies have been implemented:\n\n* 8020: Focused marketing efforts on highlighting the benefits of the 8020 model. Furthermore, an 8020 partnership initiative has been created to showcase successful case studies, facilitate co-marketing efforts, and build out an educational resource pack to help users learn more about the benefits.\n  * [Radiant 8020 Case Study](https://twitter.com/Balancer/status/1654557833621323778?s=20)\n  * [Aave 8020 Case Study](https://twitter.com/Balancer/status/1663576105155170305?s=20)\n  * [8020 Initiative Article](https://medium.com/balancer-protocol/the-8020-initiative-64a7a6cab976)\n  * [8020 Partnership Pack](https://balancer.notion.site/The-8020-Initiative-999c0a6e1f774e39b02f26b11c581714?pvs=4)\n  * [8020 Welcome Pack](https://balancer.notion.site/Welcome-Pack-9d6f2cd4d5134adebdf055eb799fc6d6?pvs=4)\n\n* LSTs/Boosted Pools: Continued efforts to curate content that highlights the unique technology that sets Balancer apart. Specifically, for the means of hosting and facilitating the growth of LSTs as well as showcasing the power and effectiveness of Boosted Pools for facilitating ecosystem-wide liquidity growth.\n  * [Weekly Staked ETH update](https://twitter.com/Balancer/status/1670325518850465792?s=20)\n  * [LST liquidity Flywheel ](https://twitter.com/Balancer/status/1653534845228945408?s=20)\n  * [Boosted Pool Breakdown](https://twitter.com/Balancer/status/1671926096001105920?s=20)\n  * [Balancer LST Hub](https://twitter.com/Balancer/status/1676244564598984704?s=20)\n\n* Building on Balancer: Highlight the importance of protocols building on Balancer with content and development of a developer-focused landing page to provide specific content/material for builders to easily onboard into the Balancer ecosystem.\n  * [Ecosystem Launch Pad](https://twitter.com/Balancer/status/1666822455745462281?s=20)\n  * [Building on Balancer Thread](https://twitter.com/Balancer/status/1673722923717369857?s=20)\n  * [Inside Balancer Contracts Part 2](https://medium.com/balancer-protocol/inside-balancer-contracts-a-composable-symphony-2-767cca4d4a97)\n  * [Inside Balancer Contracts Part 3](https://medium.com/balancer-protocol/inside-balancer-contracts-a-composable-symphony-3-720861c42dcf)\n\nKPIs\n\nTo measure the success of its core growth pillars, the following KPIs have been tracked:\n\n* 8020: The number of protocols that adopt the 8020 model.\n* LST dominance: The percentage of LST liquidity that is hosted on Balancer.\n* Building on Balancer: The number of developers who build new products and services on Balancer.\n\nAnalysis\n\n* 8020: At the start of [BIP-324](https://forum.balancer.fi/t/bip-314-funding-proposal-for-beethoven-x-dao-marketing/4810#:~:text=KPIs%3A-,Ve8020,-%3A%20With%20a%20push) we set out to increase the number of protocols adopting an 8020 model from 8-15+ by the end of Q3. Currently, we have 15 protocols engaged with the 8020 initiative with a plan to onboard more over the next quarter.\n\n* LST dominance: Our overarching goal for LSTs is for Balancer to become the dominant hub for YB assets. As a platform Balancer offers a tailor-made tech stack to facilitate the growth of LST liquidity and our expectations are to see LST dominance on Balancer increase over time. While we have continued to drive marketing material to educate users and protocols on the advantages of the Balancer LST tech stack, from the start of Q2 to the start of Q3 we saw the majority of YB assets hosted on Balancer actually decrease with the exception of sfrxETH (Ethereum), stMATIC (Polygon) and rETH (Optimism). While there may be multiple reasonings behind this, it seems likely the recent enabling of [recovey mode](https://forum.balancer.fi/t/bip-343-grant-emergencydao-disable-recovery-mode-on-weighted-and-composablestable-pools/4925), and the resulting reduction in core pool incentives has had a considerable effect.\n\n \n![marketing2.png](ipfs://bafkreifz2kn5x6fdmdstyfrl7lgi5ygy2zicwtyw77dra6dkjioyotlk5m)\n    \n\n* Building on Balancer: At the start of our service provider contract we had begun work on a developer-focused landing page. However, during the transition of Orb this project has seen less attention as our focus shifted to building a baseline for operations. With a baseline now in place, the goal for the next 3 months is to have completed a beta version of the Landing Page for the community to test out.\n\n3. Brand Development\n\nGoal: To help improve the overall design and UX for Balancer.\n\nStrategies:\n\n* The development and exploration of 2-3 refined brand aesthetics with UX/UI prototypes.\n* Build out the Balancer developer landing page integrating new brand aesthetics.\n* Incorporate a new look and feel into Twitter and content-related efforts.\n\n \n![marketing3.jpeg](ipfs://bafybeiekakatliwirw36gc6ywcb3mostfnnlsaftpcmzs7wj6og5e65b44)\n    \n\n*Sample images of UI prototypes/design concepts.*\n\n4. Long-Term Initiatives\n\nAs we progress into our service provider role we have outlined [2 long-term marketing goals](https://forum.balancer.fi/t/bip-314-funding-proposal-for-beethoven-x-dao-marketing/4810#:~:text=4.Long%2DTerm,scale%20community%20contributions) that we would like to pursue:\n\n* Education (Balancer Media Hub)\n* Community Development (Ambassador Program)\n\nThe first step in this regard will be to continue to work on developing more animated forms of educational content. We have piloted an initial series to highlight the key pillars driving balancer growth and this will serve as a foundation for more expansive forms of visual content. The first thread in this series will be released later this week.\n\nSecondly, we will be working on a concept for an effective ambassador program. In alignment with the bounty board managed by the Balancer Maxis, the goal would be to create an initiative that encourages community participation and user-generated content through gamification/incentivization.\n\n---\n\nThese initiatives will continue to remain the core focus for our efforts moving into the next phase of our service provider contributions. The past three months have served as a foundation for us to assimilate into the Balancer ecosystem and build familiarity with people and processes.\n\nOver the next 3 months, we would like to build on the foundation we have established and start to explore ways we can develop our marketing strategy to amplify our efforts / expand the awareness of the Balancer ecosystem.\n\n**Length of Engagement & Budget:**\n\nFor the services described above, we are requesting an extension of the current funding outlined in [BIP-314] of $30K USDC for marketing-related services for the period of August 1, 2023, until December 31, 2023.\n\nThese funds will be used solely to cover contributor salaries and as such we request that this amount be made available in a liquid form.\n\nIf approved, $30,000 USDC or BAL equivalent would be sent to the below ETH address around the first of each month.\n\nETH Address to Receive Funds: 0x811912c19eEF91b9Dc3cA52fc426590cFB84FC86\n\nFurthermore, in light of the discontinuation of funding for [Coordinape](https://forum.balancer.fi/t/bip-347-fund-balancer-maxis-for-q3-2023/4891#:~:text=We%E2%80%99ll%20also%20be,monthly%20forum%20update.), we are also requesting a supplementary budget of up to $5000 USDC per month to fund external marketing services (animations, design, content, etc). This would be held by the Balancer DAO and would only be requested on an as-needed basis. Spending would be capped at a maximum of $5000 USD for a given month and all expenditure will be recorded in a monthly budget breakdown.",
+        "end_utc": "2023-08-07T18:00:00Z",
+        "similarity_score": 0.1583,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            3285946.242335526,
+            0.057135276489578654,
+            266251.06686721224
+          ],
+          "scores_total": 3552197.366338014,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2023-08-07T18:00:00",
+          "pre_tvl_avg": 936056801.5,
+          "post_tvl_avg": 941868616.0,
+          "abnormal_change": 0.6209,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.006209,
+          "abnormal_change_pct": 0.6209
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2023-08-07T18:00:00",
+          "pre_price_avg": 4.262769860000001,
+          "post_price_avg": 4.247853895,
+          "abnormal_change": -0.3499,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.003499,
+          "abnormal_change_pct": -0.3499
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0xbcb745183a54d299b0c239e50d2eee900845ed38c6ff5fe60330b11adc6a41ae",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "Proposal seeks funding to enhance Balancer's presence at key live events to promote Balancer v3. Voting and timeline analysis show unanimous and stable support for approval. Forum sentiment is positive and aligns with the recommendation. Similar past proposals with similar unanimous support led to positive outcomes, reinforcing this choice.",
+    "key_arguments_for": [
+      "Unanimous and early voting support for 'Yes, let's do it' option.",
+      "Positive forum sentiment with no negative comments before deadline.",
+      "Similar past proposals passed unanimously and had positive market and TVL responses.",
+      "Funding supports strategic marketing to boost Balancer v3 launch visibility and partnerships."
+    ],
+    "key_arguments_against": [
+      "No significant arguments against were expressed in forum or vote patterns."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "https://forum.balancer.fi/t/bip-612-funding-for-live-event-participation/5768",
+        "quote": "Positive comments emphasize the importance of event presence and support budget feasibility."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Balancer proposal 0xbcb745183a54d299b0c239e50d2eee900845ed38c6ff5fe60330b11adc6a41ae",
+        "quote": "Timeline metrics show stable, early, and unanimous lead for 'Yes, let's do it'."
+      },
+      {
+        "source_tool": "govnews_search_governance_news",
+        "reference": null,
+        "quote": "Market impact post-event shows modest positive price and TVL changes."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2024-05-23T18:00:00Z",
+    "event_end_utc": "2024-05-27T18:00:00Z",
+    "event_time_utc": "2024-05-27T18:00:00Z",
+    "address_of_governance_token": "0xba100000625a3754423978a60c9317c58a424e3d",
+    "token_price_impact_pct": 0.4952,
+    "tvl_impact_pct": 1.2715,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        2655550.568389245,
+        0.01523647296703664,
+        224927.20476418696
+      ],
+      "scores_total": 2880477.7883899054,
+      "margin_abs": 2430623.363625058,
+      "margin_pct": 0.843826
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Unanimous and stable voting support for option 'Yes, let's do it' across all quartiles.\n- Forum sentiment is positive and supports the proposal, with no negative opposition detected, indicating community alignment.\n- Similar past proposals with unanimous support resulted in positive market and TVL responses, reinforcing the recommendation to approve funding.\n- The proposal advances Balancer's strategic marketing goals to boost Balancer v3 launch visibility and community engagement, promoting long-term organizational benefit.\n- The recommendation mirrors aggregated forum sentiment and vote dynamics, indicating a coherent community-driven decision.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x57fe0f1c5f49f5fa5b46da1b98ac461b1ac673f61906979bbcd7e2f9040fbafa",
+        "title": "[BIP-608] Deploy Balancer on Fraxtal",
+        "end_utc": "2024-05-20T18:00:00Z",
+        "summary": "[BIP-608] Deploy Balancer on Fraxtal closed on 2024-05-20T18:00:00Z. Timeline analytics noted 15 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.12)",
+        "market_response": "token +12.90%; TVL +16.01%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0x0d58256348456ae5454fda9beb9672064bb90e0edae7c61a90997c12e0ec991d",
+        "title": "[BIP-609] Enable Gauge for wrsETH/WETH [Optimism]",
+        "end_utc": "2024-05-20T18:00:00Z",
+        "summary": "[BIP-609] Enable Gauge for wrsETH/WETH [Optimism] closed on 2024-05-20T18:00:00Z. Timeline analytics noted 17 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.07)",
+        "market_response": "token +12.90%; TVL +16.01%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 0.4952,
+    "ex_post_tvl_impact_pct": 1.2715,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +0.50%; TVL +1.27%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 0,
+    "Positive": 2,
+    "Neutral": 3,
+    "total_comments": 5
+  }
+}

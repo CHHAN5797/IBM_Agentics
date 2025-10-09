@@ -1,0 +1,952 @@
+{
+  "captured_at_utc": "2025-10-07T06:30:37.841408+00:00",
+  "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0xbb7500b713ccf4eff3f2dcb61e3c9d8db5ed5628a4b2f891656a0c0de98907bd",
+  "focus": null,
+  "votes_count": 3370,
+  "timeline_metrics_current": {
+    "unique_voters": 3370,
+    "total_votes": 3370,
+    "first_vote_at": "2025-05-01T16:01:05Z",
+    "last_vote_at": "2025-05-08T15:43:49Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 1,
+    "lead_ratio_by_quartile": [
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        43602.375685712235,
+        7002640.716456551,
+        7551.838883236918,
+        99889.77156028982
+      ],
+      [
+        53228.326242220675,
+        1975626.3120837978,
+        3900.2961595132474,
+        29446.53883566783
+      ],
+      [
+        3672255.2482258775,
+        55982077.865693666,
+        63759.73056726859,
+        6408.986318792216
+      ],
+      [
+        14210.347851789957,
+        122734502.02207556,
+        2323.362298719306,
+        18473878.810861062
+      ]
+    ],
+    "spike_index": 0.13707,
+    "spike_follow_support_ratio": 0.541768,
+    "stairwise_ratio": 0.000427,
+    "half_slope_diff": 3125.896066
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0xdd38e103e337b9e02a9d9ac73c2587db5be6cfb46506e13c0e897f7331895cf4",
+      "title": "TMC Stablecoin Recommendation",
+      "author": "0xb4c064f466931B8d0F637654c916E3F203c46f13",
+      "end_utc": "2025-04-03T21:11:34Z",
+      "timeline_metrics": {
+        "unique_voters": 3132,
+        "total_votes": 3132,
+        "first_vote_at": "2025-03-27T21:19:14Z",
+        "last_vote_at": "2025-04-03T21:05:22Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            9845806.143829318,
+            57457.29873853266,
+            4259.897836293367
+          ],
+          [
+            6646073.216894014,
+            126806.7411075322,
+            62278.0674102522
+          ],
+          [
+            37867444.73757409,
+            1018.3492802439894,
+            2129323.022850455
+          ],
+          [
+            60476147.126243114,
+            3430196.535004786,
+            38147014.74244351
+          ]
+        ],
+        "spike_index": 0.138386,
+        "spike_follow_support_ratio": 0.999933,
+        "stairwise_ratio": 0.00066,
+        "half_slope_diff": -4557.458366
+      },
+      "price_impact_pct": -7.1596,
+      "tvl_impact_pct": -8.2787,
+      "similarity": 0.1337,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "YES, Deploy Stablecoin Strategy",
+        "margin_abs": 74492595.49400006,
+        "scores_total": 158793825.8792119,
+        "margin_pct": 0.4691151880846022
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0xd096c5d610d4455bcae4bff719d18345939c5d6b20d56c6a1f37d0247ad10f71",
+      "cleaned": {
+        "proposal_id": "0xd096c5d610d4455bcae4bff719d18345939c5d6b20d56c6a1f37d0247ad10f71",
+        "title": "Pilot for a Questbook Jumpstart fund for problem definition and DAO improvement",
+        "author": "0xb5B069370Ef24BC67F114e185D185063CE3479f8",
+        "end_utc": "2024-07-22T22:59:19Z",
+        "similarity_score": 0.1629,
+        "winning_option": "Against",
+        "winning_option_index": 2,
+        "margin_abs": 84969001.70210075,
+        "margin_pct": 0.5789428612922763,
+        "scores_total": 146765781.8812012,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 3622,
+        "total_votes": 3622,
+        "first_vote_at": "2024-07-15T23:12:56Z",
+        "last_vote_at": "2024-07-22T22:48:53Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.913179,
+            0.0,
+            0.086821,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.989733,
+            0.0,
+            0.010267,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9602429596907786,
+          0.0,
+          0.03975704030922143,
+          0.0
+        ],
+        "stability": [
+          0.8102429596907785,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          0.9131792629606496,
+          0.0,
+          0.0868207370393504,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            826567.673284233,
+            3395899.545816388,
+            312867.0166818858,
+            9033.394812197568
+          ],
+          [
+            108891.08424982056,
+            470756.11892372527,
+            36804886.50979967,
+            6149.238220528442
+          ],
+          [
+            22100.355114031172,
+            1172.5507597737026,
+            16476220.942185912,
+            1801635.8990935814
+          ],
+          [
+            1031395.4213098156,
+            18130694.78832433,
+            53373550.23725732,
+            13993961.105367612
+          ]
+        ],
+        "spike_index": 0.166915,
+        "spike_follow_support_ratio": 0.999817,
+        "stairwise_ratio": 0.000442,
+        "half_slope_diff": 67.618715
+      },
+      "raw": {
+        "id": "0xd096c5d610d4455bcae4bff719d18345939c5d6b20d56c6a1f37d0247ad10f71",
+        "title": "Pilot for a Questbook Jumpstart fund for problem definition and DAO improvement",
+        "author": "0xb5B069370Ef24BC67F114e185D185063CE3479f8",
+        "body": "# Jumpstart fund for DAO improvement\n**Non-Constitutional**\n\n\nChallenge Statement: The DAO struggles with funding the initial steps needed for problem definition, alignment and scoping, causing slow progress and overburdening delegates with inadequate proposals.\nTeam Lead: Daniel, @mrjackalop on telegram \n\n\n[Slides presentation](https://docs.google.com/presentation/d/1WcCyR5Ty6SMsRNqykT5ZHTwdE_RQde4ddemh3P6fP68/edit?usp=sharing)\n\n\n[2 min video](https://www.loom.com/share/c4ee6c313a514e939f7c2ff0087efcbd?sid=5f6e4c5d-c1e5-4789-80fb-496e7c652e14)\n\n\n# Abstract\nThis proposal allows the DAO to proactively define key problem areas and have the community untangle them, as opposed to having delegates be reactive to proposals that benefit small subgroups of community members.\nThe DAO currently struggles with funding the initial steps needed for problem definition, alignment and scoping, causing slow progress and overburdening delegates with inadequate proposals. To address this, a pilot fund is proposed, utilizing Questbook's small grants model to support early-stage initiatives focused on problem definition (root causes, gathering requirements), alignment, and scoping proposals for operational and governance improvements. A problem gathering exercise will be conducted to inform proposers and the assessor by identifying key problem areas through user research interviews, qualitative surveys of delegates and other stakeholders, and a collective intelligence algorithm, clustering initiatives to ensure alignment between proposals and the DAO's current needs.\nThe pilot fund will prioritize initiatives aiming to improve ArbiturmDAO's operations and governance. An assessor, elected by the DAO, will oversee the proposal assessment, following the established Questbook program rules. The success of this pilot will be measured by the number of initiatives that receive subsequent funding, clarity and alignment generated within the community, and an over 80% approval rate in a Snapshot vote to continue the program.\n\n\n# The Problem:\n\n\nThe DAO has multiple challenges but currently needs a way to fund the initial steps of addressing them. As a result, only groups with a lot to win will invest all the necessary time and effort and take the risk to evolve a proposal without being paid.\n\n\nAreas like organisation design, strategy, spending plan, and more require not just crafting a proposal but they require problem definition work: significant stakeholder engagement to determine the right approach, understand root causes and requirements, generate buy-in, and craft the right proposal to make. There’s currently no way to fund all this problem definition and preparatory work leading to the DAO advancing slowly, delegates being overwhelmed assessing proposals that don’t quite hit the mark, and meanwhile key decisions and needed proposals don’t happen.\n\n\n# Proposed Solution:\n\n\n1. A method for the DAO to aggregate challenge statements or problems\n2. A funding program for initiatives that will carry out problem definition and initial solution work on one of the challenge statements.\n\n\nQuestbook has shown to be a viable mechanism for distributing small grants to groups. We propose to use this model and set up a pilot fund to evolve proposals that address key Operational and Governance needs to improve Arbiturm DAO.\n\n\nAdditionally, we’ll carry out a “collective intelligence exercise” to identify the key problem areas.\nAnd we're including an option in the Snapshot to also fund a Playbook for Proposing to the DAO, where we'll gather the learnings of the grantees who successfully pass a proposal through the DAO and the challenges of those who didn't, and document them as material for future grantees.\n\n\n**What will be funded via the Jumpstart Fund:**\n\n\n* Early-stage initiatives aiming to improve ArbiturmDAO ops and gov\n* Priority for funding initiatives advancing problem definition and alignment around key challenges.\n* Requirement for being referred by at least 3 of the top 30 delegates.\n* Priority for proposals including a last milestone for a successful snapshot vote (i.e. success bonus of at least 10%).\n* Initiatives expected to last up to 3 months.\n* Initiatives can request up to USD$50k equivalent (subsequent submissions considered).\n* product/protocol development will not be funded (that’s better suited for other Questbook tracks or programs).\n\n\n**How are proposals assessed:**\n\n\n* An assessor will be selected by the DAO via an election as conducted for previous Questbook tracks.\n* Proposals up to USD $25k can be approved directly by the assessor for this track. Proposals above this amount requires cross-checking with the assessors form other tracks.\n\n\n**Fund governance:**\n\n\nThis track will follow the same rules as the ongoing Questbook program ([link](https://forum.arbitrum.foundation/t/questbook-dda-program-phase-2-request-for-continuation/21326)), whereby funds are held in the multisig operated by the assessors of the multiple Questbook tracks.\nThe totality of the funds are to be transferred there and the signers will provide payment for the service provision parts upon completion (e.g. problem assessment, playbook if completed, etc).\n\n\n**Method to Identify Problem Areas:**\n\n\nBefore opening the fund to proposals, we’ll work with the DAO to identify key problem areas that could then lead to proposals for problem definition and alignment work. This work will be carried by RnDAO's research team.\n\n\nBased on Professor Daniel Kahneman’s work, we have selected a collective intelligence method that provides high efficiency (low time involvement required from delegates) and is credibly neutral. The method is based on the use of a qualitative survey of delegates and other stakeholders to collect a list of statements proposing key challenges. We'll complement this mechanism with user research interviews with the top 30 delegates.\nThe statements are then analysed using a collective intelligence algorithm (SimScore) that identifies a theoretical ‘central’ statement that would be most agreed upon, and then analyses the provided statements to rank them for proximity to said theoretical centre.\n\n\nThe ranked statements, as well as the graph (positioning of statements relative to each other), will then be made publicly available to inform (not mandate, just inform) those proposing initiatives to the pilot fund.\n\n\n(Further untangling between statements and root cause analysis is part of the work this Questbook track will fund.)\n\n\n# Timeline:\n\n\nThe Pilot is expected to last 4-6 months depending on whether the option to distil learnings into a playbook for proposing to the DAO is approved in Snapshot or not.\n\n\n* Month 1 for identifying problem areas.\n* Month 2-4 for assessing and funding proposals.\n* Month 5 for reporting\n* month 6 for (optional) collecting learnings about proposal development into playbook\n\n\n# What does success look like?\n\n\n* Experts in the community can work towards improving Arbiturm DAO.\n* The initiatives funded generate clarity, buy-in, and alignment,\n* The initiatives funded evolve towards full proposals for the DAO and are funded.\n* The delegates love this pilot and want to continue funding it.\n\n\n**KPIs:**\n\n\n* 40%+ of initiatives continued and received subsequent funding\n* Over 80% approval in a Snapshot vote asking delegates whether the program should be continued after the pilot\n\n\n# Budget \n![Screenshot 2024-07-15 at 4.57.04 PM.png](ipfs://bafkreigovxyqq2et74lbej5yjjpwfdt4wgxdg5mz4rcvhjpk75owswl62a)",
+        "end_utc": "2024-07-22T22:59:19Z",
+        "similarity_score": 0.1629,
+        "vote_result": {
+          "choices": [
+            "In favor, and including playbook",
+            "In favor, but excluding playbook",
+            "Against",
+            "Abstain"
+          ],
+          "scores": [
+            1988954.5339579,
+            21998523.003824156,
+            106967524.70592491,
+            15810779.637493914
+          ],
+          "scores_total": 146765781.8812012,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "arbitrum",
+          "status": "tvl_data_unavailable",
+          "error": "Could not fetch TVL data: TVL cache not found for slug='arbitrum'"
+        },
+        "price_impact": {
+          "token_id": "11841",
+          "ticker": "ARB",
+          "status": "success",
+          "event_time_utc": "2024-07-22T22:59:19",
+          "pre_price_avg": 0.791306275,
+          "post_price_avg": 0.7192744200000001,
+          "abnormal_change": -9.1029,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.091029,
+          "abnormal_change_pct": -9.1029
+        }
+      }
+    },
+    {
+      "proposal_id": "0xd05fe5e629072098183d454fb5084715a19d5b3285af2b87c3dad7b61d614954",
+      "cleaned": {
+        "proposal_id": "0xd05fe5e629072098183d454fb5084715a19d5b3285af2b87c3dad7b61d614954",
+        "title": "Terms of Tenure for STEP program manager",
+        "author": "0x1B686eE8E31c5959D9F5BBd8122a58682788eeaD",
+        "end_utc": "2024-09-19T22:00:00Z",
+        "similarity_score": 0.1526,
+        "winning_option": "Additional funds for one year ",
+        "winning_option_index": 1,
+        "margin_abs": 139599967.76007113,
+        "margin_pct": 0.9515444919267356,
+        "scores_total": 146708818.07891297,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 2827,
+        "total_votes": 2827,
+        "first_vote_at": "2024-09-12T22:01:44Z",
+        "last_vote_at": "2024-09-19T20:10:03Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            146255.27013614794,
+            325987.9963047403,
+            17339.71220651368,
+            312897.26030082843,
+            203468.37960473116
+          ],
+          [
+            262816.966606107,
+            887411.2915659002,
+            1883.1637762242299,
+            6408.454817360138,
+            90863.34576878221
+          ],
+          [
+            202631.67073104603,
+            79973937.57177801,
+            2017.0268447257988,
+            200495.3305970496,
+            112787.57129997785
+          ],
+          [
+            10589.948368937054,
+            61143515.775689855,
+            2709644.972439808,
+            1867.3509774992854,
+            95999.01909856252
+          ]
+        ],
+        "spike_index": 0.124277,
+        "spike_follow_support_ratio": 0.999917,
+        "stairwise_ratio": 0.000523,
+        "half_slope_diff": 1867.698118
+      },
+      "raw": {
+        "id": "0xd05fe5e629072098183d454fb5084715a19d5b3285af2b87c3dad7b61d614954",
+        "title": "Terms of Tenure for STEP program manager",
+        "author": "0x1B686eE8E31c5959D9F5BBd8122a58682788eeaD",
+        "body": "**Abstract**\n\nOn June 12th 2024, the DAO held an election for the role of STEP program manager to oversee ~$30 million diversified into liquid, stable and yield bearing RWAs. Steakhouse Financial won the vote with 60% in favor of their selection, with fees of $174,000 quoted in their application. \n\nThe Tally proposal in April 2024 listed 100k ARB as program management costs, which converted to $86,581 in June-July 2024 by the Arbitrum Foundation. This is insufficient to cover one year of Steakhouse Financials fees. Note: even if the ARB price had gone up, they would not have earned more - all applicant fees were quoted in dollar value and not ARB.\n\nThis proposal seeks input on the right way forward, with the options to\n- Approve only a 6 month contract from available funds\n- Earmark additional funds from yield earned so they complete the one year tenure\n- Not have a program manager, which will result in liquidation of the RWAs\n- Conduct a new RFP to select a program manager for one year at $86,581\n- Abstain\n\n**Motivation** \n\nOn April 10th 2024, the DAO approved 35 million ARB for diversification into RWAs. Of this, 100,000 ARB was budgeted for the role of program manager. The Arbitrum Foundation got an average price of 87 cents per ARB, resulting in $86,581 to pay the program manager.\n\n \n![2024-09-12 23.22.46.jpg](ipfs://bafkreicuaeyplf7wz2ayqzy33iailoxby5zohrg4gngmda4h5q3ja5otei)\n    \n\nIn June 2024, applications for the program manager role opened up where all applicants listed their fees in dollars. Given the funds received from the 100,000 ARB sale ($86,531) are less than the amount necessary to pay the $174,000 listed in Steakhouse Financials application, we need to either shorten their term to 6 months or approve an additional 6 months pay (from yield earned via the program). We can also declare the earlier election null and void while putting out a call for program managers willing to serve at $86,581 for a year. If there is no program manager to oversee investments, assets are liquidated and returned to the DAO.\n\n**Rationale** \n\nWhile writing the Tally proposal, 100k ARB was budgeted for the program manager role based on a sample quotation received from another provider and the prevailing ARB price at the time.\n\nSteakhouse financial and the other applicants prepared their budget in dollar value based on the sample provided instead of in ARB. As a result, the program manager role in the STEP program became under-budgeted and now needs approval from the DAO on provisioning either a shortened tenure of 6 months or additional funding to complete the one year. The additional funds will be requested from the yield earned on the RWAs (estimated at between $1-2 million per year) to prevent ARB liquidations. Alternatively, we can hold a new RFP seeking program managers at a fixed price of $86,581 for the year and invalidate the earlier election.\n\n**Specifications**\n\nThe STEP program is one of the largest diversification initiatives at any DAO, seeking to diversify our treasury while simultaneously growing the RWA ecosystem. Given the complications that can arise in managing the large sums of money, it is imperative that the DAO have a capable program manager to recommend liquidations ,conduct firedrills, monitor interest payments to the DAO treasury, and track underlying changes in service providers.\n\n**Steps to Implement**\n\nAfter ratification of Steakhouse Financials role as STEP program manager and whether it is 6 months or 1 year, the Arbitrum foundation will sign an agreement with Steakhouse Financial and begin investments into selected RWA providers.\n\n**Timeline**\n\n\nPost on forum\n\nUpload on Snapshot (Thursday, 12th September)\n\nFoundation negotiates agreement with Steakhouse and pays the first 6 months of their payment from the initial 100,000 ARB budgeted for in the STEP proposal\n\nAfter RWA yield is returned to the treasury, this proposal is taken to Tally requesting balance of $87,419 (provided one year tenure is approved in the snapshot)\n\n**Overall Cost**\n\nIf the entire one year tenure is ratified, the cost to the DAO is $87,419 paid via yield earned from the program. If 6 month tenure is approved, the cost is needing another election for program manager in a shortened time. If the proposal is rejected, we liquidate all $30 million and return assets to the DAO. If a new RFP is held seeking program manager services for $86,581 for a year, we delay the start of the STEP program and possibly get a less capable pool of applicants at the lower price point.\n\nThere is no budget required for work done on this proposal as it has been paid for through a Thrivecoin ThankArbitrum firestarter grant to the treasury and sustainability working group",
+        "end_utc": "2024-09-19T22:00:00Z",
+        "similarity_score": 0.1526,
+        "vote_result": {
+          "choices": [
+            "6 months from available funds",
+            "Additional funds for one year ",
+            "Liquidation of RWAs and STEP",
+            "New election at $86,581 per year",
+            "Abstain"
+          ],
+          "scores": [
+            622293.8558422376,
+            142330852.6353384,
+            2730884.8752672705,
+            521668.3966927377,
+            503118.3157720539
+          ],
+          "scores_total": 146708818.07891297,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "arbitrum",
+          "status": "tvl_data_unavailable",
+          "error": "Could not fetch TVL data: TVL cache not found for slug='arbitrum'"
+        },
+        "price_impact": {
+          "token_id": "11841",
+          "ticker": "ARB",
+          "status": "success",
+          "event_time_utc": "2024-09-19T22:00:00",
+          "pre_price_avg": 0.524789265,
+          "post_price_avg": 0.60861395,
+          "abnormal_change": 15.973,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.15973,
+          "abnormal_change_pct": 15.973
+        }
+      }
+    },
+    {
+      "proposal_id": "0xbe03044e4eeddfe838b719cffe234aced53238da1cef7f3e5e8c2a86aadcccb6",
+      "cleaned": {
+        "proposal_id": "0xbe03044e4eeddfe838b719cffe234aced53238da1cef7f3e5e8c2a86aadcccb6",
+        "title": "Fund the Stylus Sprint",
+        "author": "0xb4c064f466931B8d0F637654c916E3F203c46f13",
+        "end_utc": "2024-09-13T03:11:23Z",
+        "similarity_score": 0.1438,
+        "winning_option": "For",
+        "winning_option_index": 0,
+        "margin_abs": 148560233.88671803,
+        "margin_pct": 0.9493763365511151,
+        "scores_total": 156481922.0441139,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 3463,
+        "total_votes": 3463,
+        "first_vote_at": "2024-09-06T03:16:34Z",
+        "last_vote_at": "2024-09-13T03:00:54Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.998441,
+            0.0,
+            0.001559
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.9994224660698816,
+          0.0,
+          0.0005775339301183945
+        ],
+        "stability": [
+          0.9994224660698816,
+          0.0,
+          0.0005775339301183945
+        ],
+        "early_ratio": [
+          0.9984411535463756,
+          0.0,
+          0.001558846453624318
+        ],
+        "vp_by_quartile": [
+          [
+            764937.8122149415,
+            38616.75896645705,
+            33833.808862639686
+          ],
+          [
+            498938.8591002526,
+            35412.430919366,
+            23925.587627857985
+          ],
+          [
+            41255535.575574026,
+            2968945.75133008,
+            126442.28494389844
+          ],
+          [
+            109907626.15166709,
+            823829.5706222042,
+            3877.4522851876395
+          ]
+        ],
+        "spike_index": 0.121982,
+        "spike_follow_support_ratio": 0.999759,
+        "stairwise_ratio": 0.000576,
+        "half_slope_diff": 487.953554
+      },
+      "raw": {
+        "id": "0xbe03044e4eeddfe838b719cffe234aced53238da1cef7f3e5e8c2a86aadcccb6",
+        "title": "Fund the Stylus Sprint",
+        "author": "0xb4c064f466931B8d0F637654c916E3F203c46f13",
+        "body": "Please find the full proposal on the forums, several sections have been removed to adhere to character limits: https://forum.arbitrum.foundation/t/rfc-fund-the-stylus-sprint/26437?u=entropy\n\n## Abstract\n\nThe [ArbOS 31 “Bianca”](https://www.tally.xyz/gov/arbitrum/proposal/108288822474129076868455956066667369439381709547570289793612729242368710728616) onchain vote on Tally has passed quorum, signaling the DAO’s approval to activate Arbitrum Stylus on Arbitrum One and Nova. To bolster the impact of this upgrade, this proposal presents the one-time \"Stylus Sprint\" program, aimed at encouraging the early development of Stylus smart contracts and tooling by awarding up to 5,000,000 ARB to teams who build with Stylus. Applications will be open for 8 weeks and the program will run for 1 year. The Sprint will include a mix of open applications where teams are encouraged to be creative in their ideas as well as invitational/RFQs with strategically targeted objectives. The requested funding is intended to cover development costs, including hiring talent, training teams, adopting new tools, infrastructure expenses, and audits at the discretion of the recipient. This campaign's primary objectives are to engage new and existing Arbitrum protocol teams with this novel technology, showcase use cases only feasible with Stylus, and create foundational Stylus building blocks for widespread use.\n\nInterested teams must apply through a designated application process and grant recipients will be selected by an Evaluation Committee based on specific criteria detailed in this proposal. As the program progresses, participating teams will receive staged funding as they reach predefined and agreed-upon milestones, culminating in the deployment and long-term upkeep of their projects.\n\n## Specifications\n\n### Application Process & RFP Details:\n\nAs mentioned, the Stylus Sprint program invites teams to submit applications either in the open-applications track or in response to lightweight Request for Proposals (RFPs, listed below) that target specific verticals, published by the Evaluation Committee. The below lists are non-exhaustive and serve as inspiration. Participants in the open track will have ample opportunity for innovation and creativity. All requests for both the open-application track and RFPs must be denominated in ARB.\n\nThe application approach described above for both open applications and RFPs ensures a structured yet flexible framework for harnessing the potential of Stylus technology. Not all funds will necessarily be deployed, and even if an RFP has quotes, there is no guarantee that any will be deemed satisfactory and chosen. The above categories are non-exhaustive and meant to be viewed as examples. If this proposal passes, the Evaluation Committee will cement an official list before applications open.\n\nTeams are required to submit a detailed application outlining their plans for utilizing the funding. These applications will be thoroughly reviewed by the Evaluation Committee, which will also approve them. Upon approval, milestone payments will be systematically allocated to the teams based on their progress. If no satisfactory applications are received, as decided at the discretion of the Evaluation Committee, 0 ARB will be spent, and all unspent funds will be returned to DAO.\n\n### Evaluation Committee and Committee Advisors\n\nTo effectively administer the program, it is essential to establish an Evaluation Committee composed of Stylus experts. Additionally, a group of advisors will provide consultative support to the committee. Given the innovative nature and specific technical nuances of Stylus, we propose that the committee be primarily made up of members from Offchain Labs and OpenZeppelin, the two entities responsible for developing Stylus thus far. Currently, there are limited experts qualified to assess Stylus applications effectively. However, should the DAO prefer to engage in a broader selection process that we believe would be inefficient and lead to a less successful program, Entropy Advisors is more than happy to facilitate an RFP process instead, contingent upon a DAO vote to define and appoint these roles.\n\nEvaluation Committee\n\n1. Stylus Team Members - Offchain Labs (Waiving Payment)\n2. Dev Team - Arbitrum Foundation (Waiving Payment)\n3. Entropy Advisors (Waiving Payment)\n4. Michael Lewellen - OpenZeppelin (5000 ARB per month)\n5. Gustavo Gonzalez - OpenZeppelin (5000 ARB per month)\n\nCommittee Advisors\n\n1. Entropy Advisors (Waiving Payment)\n\nThe Committee Advisors’ main role will be facilitating discourse with the DAO, applicants, and general project management in order to reduce the burden on the Evaluation Committee where possible. **Members of the Evaluation Committee and Committee Advisors will not be eligible to apply to the program in any capacity due to conflicts of interest.**\n\nJudges and Advisors will serve for approximately 14.5 months. In the first 2 weeks, they will work together to refine the application and evaluation criteria as well as specifics around the RFPs to kickstart the process. The following 2 months will be used to review proposals as they come in. Subsequent 2 weeks will be taken to officially accept and reject projects. **Both accepted and rejected applications will receive public rationale from the Evaluation Committee as to why the choice was made so that the DAO may have a view into the decisions and the teams can adjust accordingly in the future.** In the next 12 months, contributors will greenlight milestone payments as projects achieve their goals and periodically give guidance to participants. Advisors will report back to the DAO through monthly updates over the lifespan of the program.\n\n### Multisig Setup\n\nThe Stylus Sprint multi-sig will be created and allocated 5M ARB for the Stylus Sprint Program and 150K ARB for payments to judges. Funds will be sent to an MSS-secured multisig. The funds in the multisig belong to the DAO and the signers act as grant managers on behalf of the DAO in coordination with the Arbitrum Foundation. Funds held in the multisig are explicitly banned from usage in DAO governance, including delegation.\n\n### Funding Levels and Disbursement\n\nTeams will apply for their appropriate levels of funding. Suggested levels in ARB are 1M, 750K, 500K, 250K, 100K, or 50K. If teams want a different amount of funding, they must specify why in their application. These funding levels have been set to streamline the review process. However, teams are encouraged to request specific amounts of funding best suited to their needs. Teams will have 1 year to deploy their project and meet their 2 post-deployment milestones.\n\nUnallocated funds will be returned to the DAO treasury after all applications have been reviewed and grant sizes have been determined. An additional dispersal to the DAO could occur if projects don’t manage to hit their goals within the 1-year timeline and if the budget has remaining ARB. There is absolutely no need to allocate all funds, and it will only be done if more than 5M in exemplary proposals are received during the 8-week application cycle.\n\nFunding will be distributed based on achieving certain development milestones. 50% of funds will be distributed after deployment to encourage teams to think about growth and sustainability post-launch. The criteria for these 2 checkpoints will be proposed by teams in their applications.\n\nAll projects will be required to use milestones in order to ensure progress is being made before funds are fully allocated. The above milestone structure, however, is not required. For RFPs, custom milestone payments can be included in the quotes provided by service providers. Approved projects will submit requests as they reach milestones. The judges, with help from their advisors, will be responsible for ensuring validity and greenlighting payment to be sent as milestones are hit, in accordance with the Evaluation Criteria mentioned above. The evaluation committee will have the autonomy and authority to expel projects from the program at any point in their life cycle and stop all future milestone payments.\n\n## Timeline\n\n1. Stylus Sprint Forum Post - August 20, 2024\n2. Snapshot Vote Begins - August 29, 2024\n3. On-Chain Vote - Sept 12, 2024\n6. Stylus Sprint Begins - Oct 4, 2024\n\nThe program will begin on the Monday following the onchain proposal’s passing. The first 2 weeks will be used to refine and post the RFPs, followed by open applications for 8 weeks, then a 2-week application review process. Feedback between the Evaluation Committee and applicants will be conducted on an ongoing/continuous basis over the next 10 weeks. KYC with the foundation will then begin and first milestone payments may be allocated upon completion. The MSS chairs, Arbitrum Foundation, and Entropy Advisors will need to work closely to ensure a strict payment process.\n\n## Overall Cost\n\n**5,180,000 ARB**\n\nUp to 5M to be awarded to projects building on Stylus\n\n75,000 ARB payment in total over 14.5 months per committee member for 2 committee members = 150,000 ARB\n\n30,000 ARB paid up front to Questbook.",
+        "end_utc": "2024-09-13T03:11:23Z",
+        "similarity_score": 0.1438,
+        "vote_result": {
+          "choices": [
+            "For",
+            "Against",
+            "Abstain"
+          ],
+          "scores": [
+            152427038.39855614,
+            3866804.511838108,
+            188079.1337195837
+          ],
+          "scores_total": 156481922.0441139,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "arbitrum",
+          "status": "tvl_data_unavailable",
+          "error": "Could not fetch TVL data: TVL cache not found for slug='arbitrum'"
+        },
+        "price_impact": {
+          "token_id": "11841",
+          "ticker": "ARB",
+          "status": "success",
+          "event_time_utc": "2024-09-13T03:11:23",
+          "pre_price_avg": 0.51987549,
+          "post_price_avg": 0.51131814,
+          "abnormal_change": -1.646,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.01646,
+          "abnormal_change_pct": -1.646
+        }
+      }
+    },
+    {
+      "proposal_id": "0x45513bb63946582432afa7213bcb2677e877dabbd5722210efd5eaf45797031c",
+      "cleaned": {
+        "proposal_id": "0x45513bb63946582432afa7213bcb2677e877dabbd5722210efd5eaf45797031c",
+        "title": "Request to Increase the Stylus Sprint Committee's Budget",
+        "author": "0xb4c064f466931B8d0F637654c916E3F203c46f13",
+        "end_utc": "2025-02-13T18:55:46Z",
+        "similarity_score": 0.1437,
+        "winning_option": "For",
+        "winning_option_index": 0,
+        "margin_abs": 150452503.15188113,
+        "margin_pct": 0.9223026884287508,
+        "scores_total": 163127035.23416412,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 4120,
+        "total_votes": 4120,
+        "first_vote_at": "2025-02-06T19:01:32Z",
+        "last_vote_at": "2025-02-13T18:48:20Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            25052107.555099204,
+            54848.376054728375,
+            89438.40349193676
+          ],
+          [
+            11376521.489334602,
+            54367.44512955545,
+            1847.6980118317313
+          ],
+          [
+            31201094.377331644,
+            2841663.2000569925,
+            128213.72762826136
+          ],
+          [
+            88983537.81877631,
+            3209879.067419079,
+            133516.0758303734
+          ]
+        ],
+        "spike_index": 0.13225,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.00057,
+        "half_slope_diff": 75.589071
+      },
+      "raw": {
+        "id": "0x45513bb63946582432afa7213bcb2677e877dabbd5722210efd5eaf45797031c",
+        "title": "Request to Increase the Stylus Sprint Committee's Budget",
+        "author": "0xb4c064f466931B8d0F637654c916E3F203c46f13",
+        "body": "### Non-Constitutional\n\n## Abstract\n\n* The Stylus Sprint program saw overwhelming demand, with 147 applications requesting ~31.92 million ARB, significantly exceeding the initial budget.\n* This proposal requests an **additional 4 million ARB** to extend the committee’s original budget. The funds will enable the evaluation committee to fund a set of exceptional applications that were excluded due to budget constraints.\n* The committee has provided the list of applicants that it strongly recommends deserve to be funded as part of the Sprint, in addition to the 5M ARB already [allocated](https://forum.arbitrum.foundation/t/stylus-sprint-results-announcing-the-accepted-applications/28294). Rationale and a summary of the applicants is linked in the proposal.\n* We will be moving this request to **Snapshot next Thursday, February 6th**. If approved, an onchain vote will move forward the following Thursday as to not further disrupt the proposed timelines of the applicants.\n\n## Motivation/Rationale\n\nWith 147 applications and ~31.92 million ARB in funding requests, demand for the Stylus Sprint program significantly exceeded expectations. The committee received a large number of exceptional applications, but unfortunately, due to the initial budget constraints, the committee was only able to fund 17 applications. They were chosen based on a combination of factors including cost, timeline, necessity for immediate start, RFP category importance, and the priority to fund both applications and infrastructure/tooling.\n\nWhile the committee has [accepted](https://forum.arbitrum.foundation/t/stylus-sprint-results-announcing-the-accepted-applications/28294) a subset of the applicants, there remains an important opportunity to support impactful ideas and high-quality teams. With Stylus as one of Arbitrum’s strongest competitive advantages, the committee strongly believes that enabling all impressive applications received as a part of the Stylus Sprint with funding is a worthwhile investment for the DAO.\n\nThis proposal seeks an additional allocation of 4 million ARB tokens to extend funding opportunities to promising projects that were not initially accepted into the Sprint. With this budget extension, the committee will be able to fund an additional group of applicants, outlined in detail below. While there are many more strong applications, the recommended list scored especially high during the review process and are ones that the committee is confident have the potential to provide value to the Arbitrum and Stylus ecosystems.\n\n## Specifications\n\nAs stated in the original Stylus Sprint proposal, large requests may be directed to the DAO directly to request funding. This process was communicated to applicants, some of which elected to go this route over reducing their request. The smaller applicants in this list are in the committee’s opinion worthwhile investments that have the potential to improve Stylus long-term.\n\nThe following list of applicants are the ones that come with a strong recommendation from the committee and to reiterate were unable to be accepted due to budget constraints.\n\nOpen Application\n\n1. [Pyth Oracle Implementation in Stylus](https://questbook.app/dashboard/?grantId=671a105a2047c84bb8a73770&chainId=10&proposalId=677ead288f4a6bf40504bf73&isRenderingProposalBody=true) - ARB Requested: 1,000,000\n2. [Sylow](https://questbook.app/dashboard/?grantId=671a105a2047c84bb8a73770&chainId=10&proposalId=6736959690449961f536371f&isRenderingProposalBody=true) - ARB Requested: 700,000\n3. [Nuffle Labs](https://questbook.app/dashboard/?grantId=671a105a2047c84bb8a73770&chainId=10&proposalId=675080fe90449961f5919181&isRenderingProposalBody=true) - ARB Requested: 500,000\n4. [Syndicate MintVM](https://questbook.app/dashboard/?grantId=671a105a2047c84bb8a73770&chainId=10&proposalId=677c5c2bfaef5017a82a1d09&isRenderingProposalBody=true) - ARB Requested: 210,000\n5. [Ember: LP Optimization with Volatility-based Dynamic Fees](https://questbook.app/dashboard/?grantId=671a105a2047c84bb8a73770&chainId=10&proposalId=677b6194faef5017a81d9e61&isRenderingProposalBody=true) - ARB Requested: 100,000\n\nRFP Track\n\n1. [Moving Stylus: Move to Stylus-compatible WASM compiler](https://questbook.app/dashboard/?grantId=671a105a2047c84bb8a73770&chainId=10&proposalId=677b5396faef5017a81d67fb&isRenderingProposalBody=true) - ARB Requested: 450,000\n2. [Trail of Bits: Add Stylus as a Solang compiler target](https://questbook.app/dashboard/?grantId=671a105a2047c84bb8a73770&chainId=10&proposalId=6771b86f8f4a6bf405ad6d8c&isRenderingProposalBody=true) - ARB Requested: 440,000\n3. [StylusFuzz: Advanced Property Testing for WASM Contracts](https://questbook.app/dashboard/?grantId=671a105a2047c84bb8a73770&chainId=10&proposalId=674fb60d902931f05c15e3c9&isRenderingProposalBody=true) - ARB Requested: 408,200\n4. [CodeTracer](https://questbook.app/dashboard/?grantId=671a105a2047c84bb8a73770&chainId=10&proposalId=6767477ffaef5017a89b48a2&isRenderingProposalBody=true) - ARB Requested: 250,000\n\nRationale and a summary of each applicant’s proposed scope can be found in this [document](https://docs.google.com/document/d/17YvYmIuYI0Yx0IKrjVL1epDEGRChLRYNnSlkFU-IEKw/edit?usp=sharing).\n\nIt is important to note that the decision to include the above applicants is based on the finalized version of their submission that was reviewed during the grading period.\n\nDue to the open nature of the DAO, applicants not included in this recommendation maintain the ability to move their request directly to the forums in case they feel like they have a compelling case despite the non-acceptance from the committee, effectively circumventing the Stylus Sprint and evaluation committee. The committee is aware of some applicants that may bring revised versions and/or lower budgets than when they were originally reviewed. While we appreciate that Arbitrum DAO’s open and decentralized essence provides the freedom to make such requests, we’d encourage delegates to be mindful of the possible precedent funding projects circumventing the program would set. When appropriate, the committee has already directed certain applications to be on the look out for alternative DAO programs, such as the Season 3 of [Arbitrum D.A.O](https://forum.arbitrum.foundation/t/non-constitutional-rfc-arbitrum-d-a-o-domain-allocator-offerings-grant-program-season-3/27584) program if it's approved.\n\nIf this proposed extension is approved on Snapshot, we will move it immediately to an onchain vote the following Thursday, February 20th. The recommended applicants will be held to the current Stylus Sprint timeline, so the committee would like to not unnecessarily delay the ability to fund these projects. Projects funded as part of the Stylus Sprint’s budget increase will benefit from the infrastructure already in place as far as MSS/payments and milestone reviews by the evaluation committee.\n\nThe Snapshot vote will be a basic vote with For, Against, and Abstain as options.\n\n## Budget\n\nThe Stylus Sprint committee is requesting an **additional 4,000,000 ARB** to extend its Stylus Sprint budget. If approved, the funds will be sent to the existing MSS-controlled Stylus Sprint multisig.\n\n## Timeline\n\n**January 30th:** Forum Post\n**February 6-13th:** Snapshot Vote\n**February 20th - March 6th:** Tally Vote\n**March 9th:** Funds delivered to Stylus Sprint multisig\n**March 10th:** Recommended teams join the Stylus Sprint\n\n## Conflicts of Interest\n\nEntropy and the committee have no conflicts of interest associated with the recommended applicants or this proposal requesting an extension of funds.",
+        "end_utc": "2025-02-13T18:55:46Z",
+        "similarity_score": 0.1437,
+        "vote_result": {
+          "choices": [
+            "For",
+            "Against",
+            "Abstain"
+          ],
+          "scores": [
+            156613261.2405415,
+            6160758.088660357,
+            353015.9049624032
+          ],
+          "scores_total": 163127035.23416412,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "arbitrum",
+          "status": "tvl_data_unavailable",
+          "error": "Could not fetch TVL data: TVL cache not found for slug='arbitrum'"
+        },
+        "price_impact": {
+          "token_id": "11841",
+          "ticker": "ARB",
+          "status": "success",
+          "event_time_utc": "2025-02-13T18:55:46",
+          "pre_price_avg": 0.478191355,
+          "post_price_avg": 0.47557312500000004,
+          "abnormal_change": -0.5475,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.005475,
+          "abnormal_change_pct": -0.5475
+        }
+      }
+    },
+    {
+      "proposal_id": "0x5bede8277e7fe0beef5764d2915d1d1c288fcc47747c6fa576b501f5cb3d6115",
+      "cleaned": {
+        "proposal_id": "0x5bede8277e7fe0beef5764d2915d1d1c288fcc47747c6fa576b501f5cb3d6115",
+        "title": "Request for Continuation of the Arbitrum DDA Program Request",
+        "author": "0xAbAbE91A907fAdff921720C43ABe4098e7245E99",
+        "end_utc": "2024-03-18T00:01:05Z",
+        "similarity_score": 0.1436,
+        "winning_option": "For",
+        "winning_option_index": 0,
+        "margin_abs": 141386027.81270352,
+        "margin_pct": 0.9502856667543222,
+        "scores_total": 148782658.47742826,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2024-03-11T00:01:41Z",
+        "last_vote_at": "2024-03-11T17:11:16Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            0.630909,
+            0.369091,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          0.6309090909090909,
+          0.3690909090909091,
+          0.0
+        ],
+        "stability": [
+          0.6309090909090909,
+          0.3690909090909091,
+          0.0
+        ],
+        "early_ratio": [
+          0.6309090909090909,
+          0.3690909090909091,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            13944407.471850215,
+            200275.02638623113,
+            302676.2359290723
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.521229,
+        "spike_follow_support_ratio": 0.997796,
+        "stairwise_ratio": 0.002434,
+        "half_slope_diff": 1219.504724
+      },
+      "raw": {
+        "id": "0x5bede8277e7fe0beef5764d2915d1d1c288fcc47747c6fa576b501f5cb3d6115",
+        "title": "Request for Continuation of the Arbitrum DDA Program Request",
+        "author": "0xAbAbE91A907fAdff921720C43ABe4098e7245E99",
+        "body": "## **Summary**\n\nAs we near the end of allocating the initial grant budget (link to proposal), where through the [Arbitrum Grants Program ](https://arbitrum.questbook.app/) run via the Delegated Domain Allocation model by Questbook, $912k has already been allocated to over 60 proposals. Based on the overwhelming response and number of quality proposals the grant program has received, we propose to start a new program for the Arbitrum Grants via DDA through Questbook with a budget of $4,000,000 spread across 4 domains over the next two quarters. We have received great feedback and support from the community, builders, and domain allocators for requesting additional budget and continue funding projects through the delegated domain allocation model.\n\n### **Proposal**\n\nBased on the impact and insights derived from Arbitrum DDA program, we propose renewing the Program with a budget of $4M for two quarters. The domain allocators will utilize this budget to fund proposals that align with Arbitrum’s roadmap. After researching, gathering feedback from domain allocators, active community members, and builders, we propose supporting the same domains as the previous program:\n\n|Domain|Domain Allocator|Proposed Budget|\n| --- | --- | --- |\n|New Protocol Ideas|Jojo|$920,000|\n|Gaming|Adam|$920,000|\n|Dev Tooling|Juandi|$920,000|\n|Education, Growth, Community and Events|Cattin (Seed Latam)|$920,000|\n\n**RFPs, acceptance criteria and specifications for each domain**\n\n1. New Protocol Ideas - [Link ](https://docs.google.com/document/d/120s88WVycDyP2pUfgcT0eE8ILuribuayHDnd5aeZxbM/edit#heading=h.4th1bgre9sv4)\n2. Gaming - [Link](https://docs.google.com/document/d/1UIQA_kGeLsXQOZsIiGaNzE35TRTbqXBl5JauNt4LECQ/edit#heading=h.ig7e612gb5vt)\n3. Dev Tooling - [Link](https://docs.google.com/document/d/144gTfeKKXOtPxMTEB9d73wELepJ9mNPjMJHjvCSy3uE/edit)\n4. Education, Growth, Community and Events - [Link](https://www.notion.so/e8e86fbd9ee349beb0d9046607dae812?pvs=21)\n\n* We propose increasing the allocated grants budget for all domains equally to a higher budget based on the number of proposals received in the previous round.\n* Additionally, in the first round we set a soft cap of $25,000, and we propose increasing the cap to $50,000, with a few more steps for approving a grant that is larger than $25,000, requiring the involvement of two DAs to approve a proposal rather than just the specific domain allocator.\n* Considering the previous softcap being half of what is currently proposed, and that for an average of $220,000 for each domain the program was able to run for around 3.5 months before being maxed out, we project that providing 4X the amount of the previous iteration to each domain should allow the program to constantly allocate, at the same rate or even higher, for the full 6 months projected duration\n* The increased cap will allow the Questbook Program to keep covering the bootstrap belt of grant between $1,000 to $25,000 while, at the same time, be able to serve larger protocols that inherently might have larger needs.\n\n### Specifications and Implementation\n\nSimilar to the model implemented in the initial program, the renewed grants program will be run using **[Delegated Domain Capital Allocation Model 1](https://blog.questbook.xyz/posts/min-grants-dao-max-community-participation/)**. Each *domain allocator* will run their respective domain on-chain for full transparency using Questbook. The data and performance across key metrics will be visible to the community.\n\nWhile the program has produced, accordingly to preliminary conversation with protocols and delegates, good results, we want to address and integrate the feedbacks so far proposed and partially covered in the previous section, such as:\n\n* have better accountability for the increased soft cap\n* define a more robust and structured set of rules for applicants, in regards to providing a timeline for their project(s)\n* define a cost for the management and verification of milestones after the program is completed\n* define a plan to manage the volatility of funds being distributed by the DAO in ARB token.\n\nThe DA will evaluate all the proposals through the rubrics provided for each domain, with the following framework:\n\n* in case of request below or equal to $25,000, the evaluation process will be the same of the previous iteration, with rubrics being evaluated and scored by the specific DA\n* in case of request above $25,000, and below the new soft cap of $50,000, the evaluation will involve a second DA, chosen by the first one based on the proximity of the specific expertise and knowledge to that proposal, that will have to publish a second evaluation of the rubrics alongside the score. Assuming N rubrics, scored from 1 to 5, the grant will be approved only if both the DA will give each a scoring equal or above to N*3.\n\nThe disbursement of the grant will take place on-chain from a multi-sig wallet controlled by the program manager & the domain allocator. The domain allocator will approve or reject the application based on evaluation rubric. A Grants SAFE, with 3/5 multi-sig, between the program manager and 4 domain allocators will be setup. We will then have 4 SAFEs for each of the domains with a 2/2 between the program manager and the specific domain allocator. The funds for the grants program will flow from the treasury into the Grants SAFE. This SAFE will hold the funds related to operational costs, committee compensation, and the grants budget. Funds that will be disbursed to the proposers will reside in the domain-level SAFEs.\n\nAfter the end of two quarters, the grants committee and the Arbitrum community shall evaluate the performance of each domain using publicly available data and decide to eventually, renew the program and, if so, change any specification of the domains, the domain allocators or the program manager.\n\nTo ensure predictability of the funding of the program and a proper runaway, upon receiving the amount from the DAO, the DAs alongside the PM will convert it in stables. If the protocols request it, specific grants or milestones might be paid in $ARB by converting the needed amount at the moment of payout.\n\nArbitrum DDA program closed accepting new proposals from mid February. If the program will be renewed in the terms above, the DDA program will take care, alongside the evaluation of new proposal, to keep evaluating the milestones of the previous program, thus allowing for the continuity of the previous iteration in an accountable way for grantees.\n\n### Compensation\n\nWe propose the following payment structure for the PM and DAs, with a base salary of $100/h and an increased projected workload of DA by 33% compared to the previous program, in consideration of the fact that DA not only have on average worked more than what initially was expected in the previous program, but also that they will need to spend time to cross evaluate all proposals above $25,000. On the other hand, the compensation of the PM is instead unchanged.\nWe are also adding overhead for an extra 6 months, equivalent to 20% of full-time salaries, for the Domain Allocators and the PM to keep evaluating the milestones of the grantees after the natural end of the program. This will ensure the proper continuation of the program and the followup with grantees, despite the program potentially not being renewed if so decided by the DAO. In case the program would be renewed with the same structure and people, or in case the milestone verification would come to an end before the due time, any leftover would be given back to the Arbitrum DAO.\n\n|Role|Monthly Cost|Total|\n| --- | --- | --- |\n|Program Manager and Questbook|$10000|$60,000*|\n|Domain Allocator|$8000|$192,000|\n|Overhead for extra 6 months|$8400|$50,400|\n|Operations Cost, Misc.||$10,000|\n||Totals:|$312,400|\n\n*Note: Questbook will provide the grants committee its grants orchestration tool at a cost of $5000 per month, included in the numbers above with the PM’s payment.\n\nAs per the above, the current costs to run program would be 7.8% of the overall budget of the grant program.\n\n* We suggest that the grants committee continue with [Synapse ](https://www.synaps.io/) for KYC services and [Docusign](https://www.docusign.com/en-in) for all contractual agreements, as we have been using these services throughout the Arbitrum DDA program 1.\n* However, for any specific asks from the grants team in order to run the process more smoothly, Questbook will charge for any additional feature requests based on the development overhead through a retrospective grant proposal from Arbitrum at the end of two quarters.\n\n### Read the whole proposal on the forum for Domain Allocator roles, responsibilities, KPIs, and Expectations",
+        "end_utc": "2024-03-18T00:01:05Z",
+        "similarity_score": 0.1436,
+        "vote_result": {
+          "choices": [
+            "For",
+            "Against",
+            "Abstain"
+          ],
+          "scores": [
+            144792709.55550635,
+            583267.179118986,
+            3406681.7428028416
+          ],
+          "scores_total": 148782658.47742826,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "arbitrum",
+          "status": "tvl_data_unavailable",
+          "error": "Could not fetch TVL data: TVL cache not found for slug='arbitrum'"
+        },
+        "price_impact": {
+          "token_id": "11841",
+          "ticker": "ARB",
+          "status": "success",
+          "event_time_utc": "2024-03-18T00:01:05",
+          "pre_price_avg": 1.746547595,
+          "post_price_avg": 1.7152705300000002,
+          "abnormal_change": -1.7908,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.017908,
+          "abnormal_change_pct": -1.7908
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0xbb7500b713ccf4eff3f2dcb61e3c9d8db5ed5628a4b2f891656a0c0de98907bd",
+    "selected_choice_label": "Yes to both",
+    "selected_choice_index": 1,
+    "confidence": 0.95,
+    "summary": "The proposal seeks to top-up the Hackathon Continuation Program (HCP) using leftover funds from the Domain Allocator Season 1, and allocate any remaining funds to the Treasury Management Committee (TMC) to bolster stablecoin reserves for future service provider shortfalls. The community sentiment is mostly positive, recognizing this as a necessary one-time fix due to unforeseen market volatility impacting ARB token conversion. The timeline analysis confirms strong stable support for this option throughout the voting period. Market data indicates positive price and TVL response post-vote, reinforcing confidence. Historical lessons emphasize the need for improved risk management but support the current remedial action.",
+    "key_arguments_for": [
+      "Addresses immediate funding shortfall for HCP to keep projects on track and prevent builder migration.",
+      "Utilizes leftover funds without requiring new DAO capital, minimizing fiscal impact.",
+      "Allocates remaining funds to TMC stablecoin pool to create a buffer for future funding gaps.",
+      "Strong community and delegate support with recognition as a one-time exception.",
+      "Improves operational process with future safeguards and more proactive treasury management."
+    ],
+    "key_arguments_against": [
+      "Concerns about setting a precedent for reallocating unspent funds.",
+      "Calls for clearer, streamlined processes to avoid frequent governance votes on similar issues.",
+      "Some prefer leftover funds to be returned directly to the DAO treasury for simplicity and transparency.",
+      "Suggestions to incorporate operational buffers and sensitivity analyses in future proposals."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Forum discussion posts and sentiment summary",
+        "quote": "Community mostly supports the proposal as a one-time fix, highlighting the importance of timely funding for HCP projects and prudent management of leftover funds via TMC."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Timeline voting metrics",
+        "quote": "The 'Yes to both' option maintained a stable and consistent lead throughout the voting period, with 100% lead ratios by quartile."
+      },
+      {
+        "source_tool": "govnews_search_governance_news",
+        "reference": "Adjacent analytics on similar proposals",
+        "quote": "Similar past proposal on stablecoin strategy saw negative market reaction post-vote, underscoring the need for careful financial risk management."
+      }
+    ],
+    "available_choices": [
+      "Only top-up the HCP",
+      "Yes to both",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2025-05-01T16:00:00Z",
+    "event_end_utc": "2025-05-08T16:00:00Z",
+    "event_time_utc": "2025-05-08T16:00:00Z",
+    "address_of_governance_token": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+    "token_price_impact_pct": 34.926,
+    "tvl_impact_pct": 12.62,
+    "actual_vote_result": {
+      "winner_label": "Yes to both",
+      "winner_index": 1,
+      "scores": [
+        3783296.298005599,
+        187694846.9163096,
+        77535.22790873807,
+        18609624.107575815
+      ],
+      "scores_total": 210165302.5498002,
+      "margin_abs": 169085222.8087338,
+      "margin_pct": 0.804534
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes to both' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- The voting timeline metrics show a clear and stable lead for the 'Yes to both' option, indicating strong voter conviction.\n- The forum sentiment is predominantly positive, supporting the proposal as a necessary one-time fix while urging for improved future processes.\n- Market impact post-vote shows positive price and TVL changes, reinforcing confidence in the proposal's benefits.\n- Historical lessons from similar proposals emphasize the importance of financial risk management and avoiding repeated precedents.\n- The recommendation aligns with community sentiment and balances immediate program needs with long-term financial resilience and governance maturity.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0xdd38e103e337b9e02a9d9ac73c2587db5be6cfb46506e13c0e897f7331895cf4",
+        "title": "TMC Stablecoin Recommendation",
+        "end_utc": "2025-04-03T21:11:34Z",
+        "summary": "TMC Stablecoin Recommendation closed on 2025-04-03T21:11:34Z. Timeline analytics noted 3132 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.13)",
+        "market_response": "token -7.16%; TVL -8.28%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": 34.926,
+    "ex_post_tvl_impact_pct": 12.62,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price +34.93%; TVL +12.62%"
+  },
+  "agentic_ai_choice": "Yes to both",
+  "actual_outcome": "Yes to both",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 8,
+    "Positive": 31,
+    "Neutral": 26,
+    "total_comments": 65
+  }
+}

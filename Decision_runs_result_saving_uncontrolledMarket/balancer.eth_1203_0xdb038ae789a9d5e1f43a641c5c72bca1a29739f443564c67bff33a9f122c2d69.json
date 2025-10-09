@@ -1,0 +1,860 @@
+{
+  "captured_at_utc": "2025-10-08T22:19:50.618722+00:00",
+  "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0xdb038ae789a9d5e1f43a641c5c72bca1a29739f443564c67bff33a9f122c2d69",
+  "focus": null,
+  "votes_count": 5,
+  "timeline_metrics_current": {
+    "unique_voters": 5,
+    "total_votes": 5,
+    "first_vote_at": "2024-12-06T19:49:09Z",
+    "last_vote_at": "2024-12-09T09:02:48Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 0,
+    "lead_ratio_by_quartile": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ],
+      [
+        1.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "stability": [
+      1.0,
+      0.0,
+      0.0
+    ],
+    "early_ratio": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.13662742707047743,
+        0.0,
+        0.0
+      ],
+      [
+        500493.789436362,
+        0.0,
+        0.0
+      ],
+      [
+        2355012.7836443656,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.824727,
+    "spike_follow_support_ratio": 0.0,
+    "stairwise_ratio": 0.175273,
+    "half_slope_diff": 13.674411
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0xaddf0129b9b4bbe767c8bc4153c4f305ad3e851b057a6009ce3a7dd480caa85f",
+      "title": "[BIP-733] Enable ynETH/wETH Gauge [Ethereum]",
+      "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+      "end_utc": "2024-11-25T19:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 5,
+        "total_votes": 5,
+        "first_vote_at": "2024-11-22T11:30:09Z",
+        "last_vote_at": "2024-11-25T18:25:29Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            303100.11920622445,
+            0.0,
+            0.0
+          ],
+          [
+            0.15196067455392187,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            599.103059418665
+          ],
+          [
+            2572217.7204090976,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.823105,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.176895,
+        "half_slope_diff": 7.28262
+      },
+      "price_impact_pct": 6.0184,
+      "tvl_impact_pct": 7.0528,
+      "similarity": 0.0714,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 2874718.888516578,
+        "scores_total": 2875917.0946354154,
+        "margin_pct": 0.9995833655563047
+      }
+    },
+    {
+      "id": "0xb066f1ecdc2cf736bfd54c97a0d102b17ef0747ecc1895126650764e6d169b2f",
+      "title": "[BIP-731] Enable several E-CLP gauges [Base]",
+      "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+      "end_utc": "2024-11-04T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 6,
+        "total_votes": 6,
+        "first_vote_at": "2024-10-31T20:49:45Z",
+        "last_vote_at": "2024-11-04T16:16:32Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            441609.9007906205,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.17490653680054027,
+            0.0,
+            0.0
+          ],
+          [
+            2617679.404066462,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.782206,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.217794,
+        "half_slope_diff": 18.361308
+      },
+      "price_impact_pct": 2.3968,
+      "tvl_impact_pct": 5.0732,
+      "similarity": 0.0455,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 3059289.4797636196,
+        "scores_total": 3059289.4797636196,
+        "margin_pct": 1.0
+      }
+    },
+    {
+      "id": "0x7b2917d9b588999bddc2ae34d4368d2da8ae85c96a4d510e793cd463442c58dc",
+      "title": "[BIP-730] Enable two E-CLP gauges [Ethereum]",
+      "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+      "end_utc": "2024-11-04T18:00:00Z",
+      "timeline_metrics": {
+        "unique_voters": 6,
+        "total_votes": 6,
+        "first_vote_at": "2024-10-31T20:49:57Z",
+        "last_vote_at": "2024-11-04T16:15:46Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            441723.8963413758,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.1749968295108201,
+            0.0,
+            0.0
+          ],
+          [
+            2617757.5990528795,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.782158,
+        "spike_follow_support_ratio": 1.0,
+        "stairwise_ratio": 0.217842,
+        "half_slope_diff": 19.64608
+      },
+      "price_impact_pct": 2.3968,
+      "tvl_impact_pct": 5.0732,
+      "similarity": 0.047,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "Yes, let's do it",
+        "margin_abs": 3059481.6703910846,
+        "scores_total": 3059481.6703910846,
+        "margin_pct": 1.0
+      }
+    }
+  ],
+  "similar_proposals_data": [
+    {
+      "proposal_id": "0x89539da97c74805ad2c9d3b25b2f95c22a2267f76db2fad0c580d100efebf8bd",
+      "cleaned": {
+        "proposal_id": "0x89539da97c74805ad2c9d3b25b2f95c22a2267f76db2fad0c580d100efebf8bd",
+        "title": "[BIP-629] Balancer DAO Service Provider & Grantee Standards",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2024-06-24T18:00:00Z",
+        "similarity_score": 0.1376,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2544263.927264269,
+        "margin_pct": 1.0,
+        "scores_total": 2544263.927264269,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 10,
+        "total_votes": 10,
+        "first_vote_at": "2024-06-21T05:16:15Z",
+        "last_vote_at": "2024-06-24T08:07:07Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.3822576875802739,
+            0.0,
+            0.0
+          ],
+          [
+            276010.5049193072,
+            0.0,
+            0.0
+          ],
+          [
+            0.8918223457033728,
+            0.0,
+            0.0
+          ],
+          [
+            2268252.1482649287,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.891516,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.108484,
+        "half_slope_diff": 10.868457
+      },
+      "raw": {
+        "id": "0x89539da97c74805ad2c9d3b25b2f95c22a2267f76db2fad0c580d100efebf8bd",
+        "title": "[BIP-629] Balancer DAO Service Provider & Grantee Standards",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "### Summary\n \nThis proposal updates [[BIP-372]](https://forum.balancer.fi/t/bip-372-adopt-sp-standards/5009) that adopted Standards for the DAO's service providers and adds the grantees to abide.\n\nI. Service Provider (SP) agrees to protect the resiliency of the DAO and promote its growth by adhering to basic ecosystem standards. SP agrees to use best efforts to adhere to the following:\n\n1. [Ecosystem Values ](https://quark-ceres-740.notion.site/Ecosystem-Values-a216455689414e4c94ad24e51e2632cb?pvs=25)\n3. [DAO Accountability Guidelines](https://quark-ceres-740.notion.site/Accountability-Guidelines-b442a4b852db46d4826a0b1c4eb0dd76?pvs=74) * This includes adhering to any contract terms covered by an agreement the Foundation/OpCo needs to sign for SP’s work\n4. [Dos and Donts of Business Development and Marketing](https://quark-ceres-740.notion.site/Dos-and-Donts-of-Ecosystem-BD-Marketing-c583dd97a421496cb9cd86cac27211d9?pvs=74)\n5. To prevent fraud, theft and token manipulation as much as possible\n6. To protect the confidentiality and privacy of data and information received in the course of Balancer work. For example, adhering to the Data Retention Policy for communications and NDA (need-to-know only sharing).\n\nII. Grantee agrees to protect the resiliency of the DAO and promote its growth by adhering to basic ecosystem standards. Grantee agrees to use best efforts to adhere to the following:\n\n1. [Ecosystem Values ](https://quark-ceres-740.notion.site/Ecosystem-Values-a216455689414e4c94ad24e51e2632cb?pvs=25) \n2. [DAO Code of Conduct](https://quark-ceres-740.notion.site/Code-of-Conduct-ee8eac523cc3425192b6782f32f984ff) * This includes adhering to any contract terms covered by an agreement the Foundation/OpCo needs to sign for grantees work\n3. To prevent fraud, theft and token manipulation as much as possible by reporting issues to Balancer OpCo as needed\n4. For marketing or promoting the Balancer protocol, to do so within community ethos to be fair, transparency and accurate\n5. To protect the confidentiality and privacy of data and information received in the course of ant Balancer ecosystem work.\n6. To operate in a manner that would not cause the grantee or a member of the Balancer ecosystem to be in violation of any laws or regulations and provide the necessary information to confirm this. This includes verification of key project members, legal entities, and anyone with access to the wallet receiving any grant funds.\n\n### Specification\n\nIf approved, these standards apply to all current and future SPs and grantees.",
+        "end_utc": "2024-06-24T18:00:00Z",
+        "similarity_score": 0.1376,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2544263.927264269,
+            0,
+            0
+          ],
+          "scores_total": 2544263.927264269,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-06-24T18:00:00",
+          "pre_tvl_avg": 948539282.5,
+          "post_tvl_avg": 924622854.0,
+          "abnormal_change": -2.5214,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.025214,
+          "abnormal_change_pct": -2.5214
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-06-24T18:00:00",
+          "pre_price_avg": 3.0693684350000003,
+          "post_price_avg": 3.00319412,
+          "abnormal_change": -2.156,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.02156,
+          "abnormal_change_pct": -2.156
+        }
+      }
+    },
+    {
+      "proposal_id": "0x5c90e47f7cc287641f835ac32538cf82b2ecde8d1a9314994a096a69851ecc86",
+      "cleaned": {
+        "proposal_id": "0x5c90e47f7cc287641f835ac32538cf82b2ecde8d1a9314994a096a69851ecc86",
+        "title": "[BIP-702] Balancer DAO Service Providers and Grantee Standards",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "end_utc": "2024-09-30T18:00:00Z",
+        "similarity_score": 0.1321,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 2896092.25274523,
+        "margin_pct": 1.0,
+        "scores_total": 2896092.25274523,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 6,
+        "total_votes": 6,
+        "first_vote_at": "2024-09-26T18:39:21Z",
+        "last_vote_at": "2024-09-30T05:14:00Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.003377047776069095,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            510757.6017015117,
+            0.0,
+            0.0
+          ],
+          [
+            2385334.647666671,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.823639,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.176361,
+        "half_slope_diff": 11.866456
+      },
+      "raw": {
+        "id": "0x5c90e47f7cc287641f835ac32538cf82b2ecde8d1a9314994a096a69851ecc86",
+        "title": "[BIP-702] Balancer DAO Service Providers and Grantee Standards",
+        "author": "0x7c2eA10D3e5922ba3bBBafa39Dc0677353D2AF17",
+        "body": "Authors: @Xeonus, @0xDanko \n\n## I. Introduction\n\nThis document builds upon the existing standards for Service Providers (SP) and Grantees, introducing new guidelines for SP funding proposals and accountability measures.\n\nThis proposal updates [[BIP-629]](https://forum.balancer.fi/t/bip-629-balancer-dao-service-provider-grantee-standards/5808)  for all SP and Grantees to abide.\n\n## I. Service Provider Standards\n\nService Provider (SP) agrees to protect the resiliency of the DAO and promote its growth by adhering to basic ecosystem standards. SP agrees to use best efforts to adhere to the following:\n\n- [Ecosystem Values](https://quark-ceres-740.notion.site/Ecosystem-Values-a216455689414e4c94ad24e51e2632cb?pvs=25)\n- [DAO Code of Conduct](https://quark-ceres-740.notion.site/Code-of-Conduct-ee8eac523cc3425192b6782f32f984ff)\n- [DAO Accountability Guidelines](https://quark-ceres-740.notion.site/Accountability-Guidelines-b442a4b852db46d4826a0b1c4eb0dd76?pvs=74) * This includes adhering to any contract terms covered by an agreement the Foundation/OpCo needs to sign for SP’s work\n- [Dos and Donts of Business Development and Marketing](https://quark-ceres-740.notion.site/Dos-and-Donts-of-Ecosystem-BD-Marketing-c583dd97a421496cb9cd86cac27211d9?pvs=74)\nTo prevent fraud, theft and token manipulation as much as possible\nTo protect the confidentiality and privacy of data and information received in the course of Balancer work. For example, adhering to the Data Retention Policy for communications and NDA (need-to-know only sharing).\n- To protect the security and integrity of the ecosystem by developing code or building resilience features to mitigate hacks, theft or other misconduct.\n\n## II. Grantee Standards\n\nGrantee agrees to protect the resiliency of the DAO and promote its growth by adhering to basic ecosystem standards. Grantee agrees to use best efforts to adhere to the following:\n\n- [Ecosystem Values](https://quark-ceres-740.notion.site/Ecosystem-Values-a216455689414e4c94ad24e51e2632cb?pvs=25)\n[DAO Code of Conduct](https://quark-ceres-740.notion.site/Code-of-Conduct-ee8eac523cc3425192b6782f32f984ff)\n- [DAO Accountability Guidelines](https://quark-ceres-740.notion.site/Accountability-Guidelines-b442a4b852db46d4826a0b1c4eb0dd76?pvs=74) * This includes adhering to any contract terms covered by an agreement the Foundation/OpCo needs to sign for grantees work\n- To prevent fraud, theft and token manipulation as much as possible by reporting issues to Balancer OpCo as needed\n- For marketing or promoting the Balancer protocol, to do so within community ethos to be fair, transparency and accurate\n- To protect the confidentiality and privacy of data and information received in the course of any Balancer ecosystem work.\n- To operate in a manner that would not cause the grantee or a member of the Balancer ecosystem to be in violation of any laws or regulations and provide the necessary information to confirm this. This includes verification of key project members, legal entities, and anyone with access to the wallet receiving any grant funds.\n\n## III. Funding Proposal Guidelines\n\nTo enhance transparency and accountability, all SP funding proposals must now include the following elements:\n\n### A. Cost Basis Breakdown\n\n1. **People Cost:**\n- Provide a clear description of the cost per Full-Time Equivalent (FTE) employee.\n- Break down the cost into categories such as salary, benefits, and overhead.\n- Present this information in an easy-to-understand format such as tables or aggregate overviews.\n\n2. **Non-People Cost:**\n- Itemize all infrastructure costs associated with the proposal.\n- Include expenses such as software licenses, cloud services, and hardware requirements.\n\n3. **Discretionary Budget:**\n- Outline any discretionary spending proposed, such as for research, travel, or professional development or freelance budgeting requests.\n- Provide justification for each discretionary item.\n- It is expected that discretionary spendings are fully detailed in updates (see below)\n\n### B. Objectives and Key Results (OKR) Approach\n\n1. **Objectives:**\n- Clearly state the objectives of the SP in alignment with the Balancer protocol\n- Each objective should be specific, measurable, and time-bound.\n\n2. **Key Results:**\n- For each objective, define 2-4 key results that will indicate progress and success.\n- Key results must be quantifiable and directly tied to the stated objectives.\n\n3. **Value Proposition:**\n- Explicitly state the expected return on investment for the DAO.\n- Highlight how achieving these OKRs will contribute to the growth and success of the Balancer ecosystem.\n\n## IV. Accountability Guidelines\n\nThe Accountability Guidelines will be updated to embrace the following:\n\n1. **Mid-funding OKR Reports:**\n- Submit reports detailing progress on each OKR at least once in the middle of the funding period (e.g. after one quarter for bi-yearly funding).\n- These reports should be posted publicly on the Balancer Forum.\n\n2. **Quarterly Financial Reviews:**\n- Provide a detailed breakdown of how funds were utilized, comparing actual spending to the proposed budget.\n- Explain any significant variances from the original proposal.\n\n3. **Annual Performance Evaluation:**\n- Undergo an annual review process where other ecosystem participants can assess the SP's performance against their stated OKRs and budget utilization.\n- This summary of this evaluation will be posted publicly to inform future funding decisions.\n\n## V. Proposal and Renewal Process\n\n1. **Initial Proposal:**\n- SPs must submit a comprehensive proposal following the guidelines outlined in Section III.\n- The proposal should cover a specified period, typically 3 months for new SP and 6-12 months for vested teams.\n\n2. **Community Review:**\n- All proposals will undergo a one-week community review period (minimum) on the Balancer Forum.\n- SPs are expected to engage with the community and address any questions or concerns raised during this period.\n\n3. **Voting:**\n- After the review period, the proposal will be put to a vote by veBAL holders.\n\n4. **Renewal:**\n- For continued funding, SPs must submit a renewal proposal before their current funding period ends.\n- Renewal proposals should refer to the monthly reports to showcase past performance and updated OKRs for the next period.\n\n## VI. Amendments\nThis guideline may be amended through the standard Balancer Improvement Proposal (BIP) process. Any changes will be subject to community review and voting.\n\n## Specification\n\nIf approved, these standards apply to all current and future SPs and grantees.",
+        "end_utc": "2024-09-30T18:00:00Z",
+        "similarity_score": 0.1321,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            2896092.25274523,
+            0,
+            0
+          ],
+          "scores_total": 2896092.25274523,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-09-30T18:00:00",
+          "pre_tvl_avg": 774612648.0,
+          "post_tvl_avg": 710349381.5,
+          "abnormal_change": -8.2962,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.082962,
+          "abnormal_change_pct": -8.2962
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-09-30T18:00:00",
+          "pre_price_avg": 2.15849127,
+          "post_price_avg": 1.961576125,
+          "abnormal_change": -9.1228,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": -0.091228,
+          "abnormal_change_pct": -9.1228
+        }
+      }
+    },
+    {
+      "proposal_id": "0x8de0f6df2dc1c832d43667dd51279900fc84969018347269a955639069717241",
+      "cleaned": {
+        "proposal_id": "0x8de0f6df2dc1c832d43667dd51279900fc84969018347269a955639069717241",
+        "title": "[BIP-738] Request for Additional Marketing Funding to Maximize Balancer v3 Launch Impact",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "end_utc": "2024-12-02T19:00:00Z",
+        "similarity_score": 0.1214,
+        "winning_option": "Yes, let's do it",
+        "winning_option_index": 0,
+        "margin_abs": 852.1147965891287,
+        "margin_pct": 0.0003075681745773152,
+        "scores_total": 2770490.7952852175,
+        "change_stance": "To change"
+      },
+      "timeline_metrics": {
+        "unique_voters": 9,
+        "total_votes": 9,
+        "first_vote_at": "2024-11-29T17:44:08Z",
+        "last_vote_at": "2024-12-02T16:01:34Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            1.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            0.14471104860589976,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            296166.07665062806,
+            0.0,
+            587.2282252719855
+          ],
+          [
+            139056.77221363032,
+            0.0,
+            2334680.5734846382
+          ]
+        ],
+        "spike_index": 0.999749,
+        "spike_follow_support_ratio": 0.0,
+        "stairwise_ratio": 0.000251,
+        "half_slope_diff": 0.0
+      },
+      "raw": {
+        "id": "0x8de0f6df2dc1c832d43667dd51279900fc84969018347269a955639069717241",
+        "title": "[BIP-738] Request for Additional Marketing Funding to Maximize Balancer v3 Launch Impact",
+        "author": "0x7019Be4E4eB74cA5F61224FeAf687d2b43998516",
+        "body": "### PR with Payload\nhttps://github.com/BalancerMaxis/multisig-ops/pull/1532\n\n**Service Provider Name:** Beethoven X - Marketing\n\n **Leader(s):** Jedi Rasta, Naly\n\n**Pledge to abide by [[BIP-629]](https://forum.balancer.fi/t/bip-629-balancer-dao-service-provider-grantee-standards/5808) Balancer DAO Service Provider & Grantee Standards**: Yes \n\n### **Introduction**\n\nBalancer v3 represents the most significant evolution in our platform’s history, showcasing unparalleled innovation in DeFi. To fully realize the potential of this milestone, we propose securing **$60,000 in additional marketing funding**. This funding will enable us to amplify the v3 launch through targeted PR efforts, creative marketing campaigns, and strategic amplification, ensuring the reach and impact necessary to position Balancer as a leader in DeFi.\n\n### **Rationale**\n\nThe v3 launch introduces transformative features that redefine DeFi innovation. While our current organic reach is effective for ongoing community engagement, it may not suffice for the market-wide impact required for this pivotal moment. By strategically leveraging marketing resources, we can:\n\n- **Secure Coverage**: Establish Balancer’s presence in top-tier crypto media outlets, podcasts, and newsletters.\n- **Engage Key Stakeholders**: Connect directly with industry thought leaders, influencers, developers, and institutional players.\n- **Expand Reach**: Attract new audiences, including liquidity providers and developers, while strengthening Balancer’s position among DeFi natives.\n\n**The Role of PR**\n\nA strategic PR campaign amplifies internal marketing efforts by leveraging agency expertise and established media relationships. This approach maximizes cost-effectiveness and streamlines outreach, crafting a cohesive narrative that resonates across multiple channels.\n\n**Amplification to Drive Focused Engagement**\n\nAn amplification campaign educates the market, enhances mindshare, and drives adoption by highlighting v3’s unique features in DeFi-native newsletters and outlets. These efforts expand awareness among liquidity providers and DeFi-native users, fueling the user acquisition funnel.\n\n**Creative Marketing for Enhanced Engagement**\n\nInteractive and gamified content will enhance community engagement and highlight the innovative features of v3 in a visually compelling and accessible way. By targeting both DeFi-native and new audiences, creative marketing will complement PR and amplification efforts to maximize the launch’s impact.\n\n### **Funding Breakdown**\n\nTo maximize the impact of the Balancer v3 launch, we have identified the following strategic outreach and creative marketing needs:\n\n**1. Full-Service PR Agency Engagement**\n\n- **Scope**: Comprehensive media management, including press releases, influencer collaborations, and strategic engagements over three months.\n- **Benefits**:\n    - Broad coverage across top-tier crypto publications and podcasts.\n    - Industry expertise to craft tailored messaging and maximize impact.\n    - Resource efficiency, allowing internal teams to focus on core priorities.\n    - Expands Balancer’s mindshare among both crypto natives and non-native audiences.\n- **Estimated Cost**: Up to **$35,000**.\n\n**2. Amplification Campaign**\n\n- **Scope**: Short-term amplification using targeted crypto-focused media outlets (e.g., Chainwire) and grassroots DeFi-native newsletters.\n- **Benefits**:\n    - Rapid dissemination to relevant audiences.\n    - Timely announcements for maximum visibility.\n    - Expands Balancer v3 mindshare among DeFi natives during launch.\n- **Estimated Cost**: **$15,000**.\n\n**3. Creative Marketing Campaign**\n\n- **Scope**: Development of interactive and gamified content to enhance community engagement and showcase v3’s innovative features.\n- **Benefits**:\n    - Engages users through visually compelling and interactive content.\n    - Drives awareness by highlighting v3’s unique benefits in a dynamic and accessible way.\n    - Complements PR and amplification efforts by targeting DeFi-native and new audiences.\n- **Estimated Cost**: **$10,000**.\n\n**Summary**\n\n| **Category** | **Allocation** | **Description** |\n| --- | --- | --- |\n| **PR Agency Partnership** | Up to $35,000 | Comprehensive media management, press releases, influencer outreach, and strategy. |\n| **Amplification Campaign** | Up to $15,000 | Short-term amplification via Chainwire and DeFi-native newsletters. |\n| **Creative Marketing Campaign** | Up to $10,000 | Development of interactive and engaging content for v3's launch. |\n| **Total Requested Funding** | **$60,000** | Ensures impactful marketing and outreach for the v3 launch. |\n| **Unused Funds** | N/A | Returned to the DAO by the end of Q1 for transparency and accountability. |\n\n### **Execution Plan**\n\n1. **Secure PR Partner**: Engage a full-service PR agency to lead media outreach efforts and manage key campaigns.\n2. **Execute Amplification Campaign**: Deploy amplification strategies using Chainwire and targeted DeFi-native newsletters to enhance v3 launch visibility.\n3. **Execute Creative Marketing Campaign**: Develop and distribute interactive content to highlight v3’s unique features, engaging both existing and new audiences.\n4. **Align Marketing Efforts with v3 Timeline**: Synchronize all activities with the v3 launch schedule to ensure maximum impact.\n5. **Measure and Report**: Post-launch, provide the DAO with a comprehensive report, including outreach results, engagement metrics, and budget utilization.\n\n### Funding and Allocation\n\nThe requested $60,000 will flow through OpCo, which will manage all payments and spending related to the Balancer v3 launch efforts, ensuring efficient use of funds. This funding will cover PR, amplification, and creative marketing initiatives. OpCo’s oversight will ensure that expenditures align with our broader financial planning and support for the Balancer ecosystem. Any unspent funds will be returned to the DAO by the end of Q1, reflecting our commitment to transparency and financial prudence.\n\nThe multisig 0x10A19e7eE7d7F8a52822f6817de8ea18204F2e4f will interact with USDC at 0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48 by writing transfer, passing 0x3B8910F378034FD6E103Df958863e5c684072693 as recipient and the amount 60000 as 60000000000.\n\n### **Conclusion**\n\nThe launch of Balancer v3 represents an unprecedented opportunity to solidify Balancer’s leadership in DeFi. By securing **$60,000** for targeted PR, amplification, and creative marketing, we can amplify this milestone, engage new and existing audiences, and maximize v3’s impact. This funding supports a clear and strategic path to success, ensuring Balancer remains at the forefront of innovation and engagement in DeFi",
+        "end_utc": "2024-12-02T19:00:00Z",
+        "similarity_score": 0.1214,
+        "vote_result": {
+          "choices": [
+            "Yes, let's do it",
+            "No, this is not the way",
+            "Abstain"
+          ],
+          "scores": [
+            1385671.4550409033,
+            0,
+            1384819.3402443142
+          ],
+          "scores_total": 2770490.7952852175,
+          "state": "closed"
+        },
+        "tvl_impact": {
+          "protocol_slug": "balancer-v1+balancer-v2+balancer-v3",
+          "protocol_slugs": [
+            "balancer-v1",
+            "balancer-v2",
+            "balancer-v3"
+          ],
+          "status": "success",
+          "aggregation": "sum",
+          "event_time_utc": "2024-12-02T19:00:00",
+          "pre_tvl_avg": 991842813.5,
+          "post_tvl_avg": 1048332962.0,
+          "abnormal_change": 5.6955,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.056955,
+          "abnormal_change_pct": 5.6955
+        },
+        "price_impact": {
+          "token_id": "5728",
+          "ticker": "BAL",
+          "status": "success",
+          "event_time_utc": "2024-12-02T19:00:00",
+          "pre_price_avg": 2.9624283499999997,
+          "post_price_avg": 3.582457485,
+          "abnormal_change": 20.9298,
+          "pre_days": 3,
+          "post_days": 3,
+          "abnormal_change_raw": 0.209298,
+          "abnormal_change_pct": 20.9298
+        }
+      }
+    }
+  ],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/balancer.eth/proposal/0xdb038ae789a9d5e1f43a641c5c72bca1a29739f44356467bff33a9f122c2d69",
+    "selected_choice_label": "Yes, let's do it",
+    "selected_choice_index": 0,
+    "confidence": 0.95,
+    "summary": "The proposal to mandate monthly spending accountability reports for Balancer DAO Service Providers and Grantees is strongly supported by voters and the community. It aims to enhance financial transparency and oversight, aligning with DAO goals.",
+    "key_arguments_for": [
+      "Improves financial transparency and cash flow forecasting for the DAO",
+      "Enables proactive resource management aligned with protocol goals",
+      "Supports ongoing DAO growth with data-informed, transparent reporting",
+      "Strong forum support with positive sentiment emphasizing transparency benefits"
+    ],
+    "key_arguments_against": [
+      "Potential overhead for Service Providers in monthly reporting",
+      "Concerns about balancing reporting burden and transparency"
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Forum posts 1-3",
+        "quote": "Positive comments highlight the importance of transparency and accountability in spending reports."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Voting timeline",
+        "quote": "Unanimous and stable support for 'Yes, let's do it' throughout the voting period."
+      }
+    ],
+    "available_choices": [
+      "Yes, let's do it",
+      "No, this is not the way",
+      "Abstain"
+    ],
+    "event_start_utc": "2024-12-05T19:00:00Z",
+    "event_end_utc": "2024-12-09T19:00:00Z",
+    "event_time_utc": "2024-12-09T19:00:00Z",
+    "address_of_governance_token": "0xC128a9954e6c874eA3d62ce62B468bA073093F25",
+    "token_price_impact_pct": -10.5664,
+    "tvl_impact_pct": -4.7648,
+    "actual_vote_result": {
+      "winner_label": "Yes, let's do it",
+      "winner_index": 0,
+      "scores": [
+        2855506.7097081547,
+        0.0,
+        0.0
+      ],
+      "scores_total": 2855506.7097081547,
+      "margin_abs": 2855506.7097081547,
+      "margin_pct": 1.0
+    },
+    "simulation_reason": null,
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'Yes, let's do it' selected with stance to keep 'Change'.",
+    "ai_final_reason": "• The voting timeline shows unanimous and stable support for the 'Yes, let's do it' option with all voting power backing it.\n• Forum sentiment is predominantly positive with key community members highlighting the benefits of increased financial transparency and accountability.\n• Similar past proposals with positive voting outcomes led to beneficial changes, supporting the current recommendation.\n• Despite a slight negative price and TVL impact post-vote, the strong community and timeline support indicate the change will enhance long-term DAO financial oversight and resilience.\n• Forum sentiment aligns with the vote recommendation, confirming the community's support for this change.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0xaddf0129b9b4bbe767c8bc4153c4f305ad3e851b057a6009ce3a7dd480caa85f",
+        "title": "[BIP-733] Enable ynETH/wETH Gauge [Ethereum]",
+        "end_utc": "2024-11-25T19:00:00Z",
+        "summary": "[BIP-733] Enable ynETH/wETH Gauge [Ethereum] closed on 2024-11-25T19:00:00Z. Timeline analytics noted 5 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.07)",
+        "market_response": "token +6.02%; TVL +7.05%",
+        "change_stance": "To change"
+      },
+      {
+        "proposal_id": "0x7b2917d9b588999bddc2ae34d4368d2da8ae85c96a4d510e793cd463442c58dc",
+        "title": "[BIP-730] Enable two E-CLP gauges [Ethereum]",
+        "end_utc": "2024-11-04T18:00:00Z",
+        "summary": "[BIP-730] Enable two E-CLP gauges [Ethereum] closed on 2024-11-04T18:00:00Z. Timeline analytics noted 6 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.05)",
+        "market_response": "token +2.40%; TVL +5.07%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -10.5664,
+    "ex_post_tvl_impact_pct": -4.7648,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -10.57%; TVL -4.76%"
+  },
+  "agentic_ai_choice": "Yes, let's do it",
+  "actual_outcome": "Yes, let's do it",
+  "match_result": "same",
+  "forum_sentiment_summary": {
+    "Negative": 0,
+    "Positive": 3,
+    "Neutral": 2,
+    "total_comments": 5
+  }
+}

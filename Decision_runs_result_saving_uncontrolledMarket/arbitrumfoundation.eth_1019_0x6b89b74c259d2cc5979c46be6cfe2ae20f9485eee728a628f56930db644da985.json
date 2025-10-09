@@ -1,0 +1,258 @@
+{
+  "captured_at_utc": "2025-10-08T07:06:11.643942+00:00",
+  "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x6b89b74c259d2cc5979c46be6cfe2ae20f9485eee728a628f56930db644da985",
+  "focus": null,
+  "votes_count": 5500,
+  "timeline_metrics_current": {
+    "unique_voters": 5500,
+    "total_votes": 5500,
+    "first_vote_at": "2023-10-06T02:12:16Z",
+    "last_vote_at": "2023-10-07T20:33:10Z",
+    "series_step_hours": 6.0,
+    "summary": "timeline-only analysis (no final tally)",
+    "recommended_index": 1,
+    "lead_ratio_by_quartile": [
+      [
+        0.029487,
+        0.970513,
+        0.0
+      ],
+      [
+        0.0,
+        1.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "lead_ratio_total": [
+      0.029272727272727273,
+      0.9707272727272728,
+      0.0
+    ],
+    "stability": [
+      0.029272727272727273,
+      0.9707272727272728,
+      0.0
+    ],
+    "early_ratio": [
+      0.029487179487179487,
+      0.9705128205128205,
+      0.0
+    ],
+    "vp_by_quartile": [
+      [
+        7057815.882698193,
+        18996798.168848753,
+        28316.700344069006
+      ],
+      [
+        5742.882794266782,
+        2430.6119722240337,
+        106.73557126363664
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.0,
+        0.0
+      ]
+    ],
+    "spike_index": 0.642669,
+    "spike_follow_support_ratio": 0.01205,
+    "stairwise_ratio": 0.003332,
+    "half_slope_diff": 94.714808
+  },
+  "adjacent_analytics": [
+    {
+      "id": "0x66b953a7cf4de9f6de54e6eb87ae291b5cc62f12c7fed68eba91043607883221",
+      "title": "Proposal: Building the Future of NFTs: The Rarible Protocol - Arbitrum Integration Proposal [REVISED]",
+      "author": "0x1B686eE8E31c5959D9F5BBd8122a58682788eeaD",
+      "end_utc": "2023-09-01T19:16:02Z",
+      "timeline_metrics": {
+        "unique_voters": 5500,
+        "total_votes": 5500,
+        "first_vote_at": "2023-08-25T19:16:41Z",
+        "last_vote_at": "2023-08-26T07:14:21Z",
+        "series_step_hours": 6.0,
+        "summary": "timeline-only analysis (no final tally)",
+        "recommended_index": 0,
+        "lead_ratio_by_quartile": [
+          [
+            1.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "lead_ratio_total": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "stability": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "early_ratio": [
+          1.0,
+          0.0,
+          0.0
+        ],
+        "vp_by_quartile": [
+          [
+            7345732.6864043195,
+            116990.02409824789,
+            226269.1116841672
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0,
+            0.0
+          ]
+        ],
+        "spike_index": 0.892797,
+        "spike_follow_support_ratio": 0.529713,
+        "stairwise_ratio": 0.010323,
+        "half_slope_diff": -55.484426
+      },
+      "price_impact_pct": -5.292,
+      "tvl_impact_pct": -5.0423,
+      "similarity": 0.0239,
+      "actual_vote_result": {
+        "winner_index": 0,
+        "winner_label": "For",
+        "margin_abs": 94945293.04926684,
+        "scores_total": 120779306.30293971,
+        "margin_pct": 0.786105633121656
+      }
+    }
+  ],
+  "similar_proposals_data": [],
+  "semantic_references": [],
+  "decision": {
+    "snapshot_url": "https://snapshot.org/#/arbitrumfoundation.eth/proposal/0x6b89b74c259d2cc5979c46be6cfe2ae20f9485eee728a628f56930db644da985",
+    "selected_choice_label": "For",
+    "selected_choice_index": 0,
+    "confidence": 0.85,
+    "summary": "The proposal to allocate 4M ARB to incentivize wstETH liquidity on Arbitrum receives strong early voting support and is aligned with ecosystem growth objectives. Forum sentiment is mixed with notable concerns on grant size and centralization risk, but the potential benefits to liquidity and DeFi activity justify a positive recommendation.",
+    "key_arguments_for": [
+      "Strong early and stable vote lead for the 'For' option indicating community backing.",
+      "Proposal aims to enhance liquidity on major DEXes and lending protocols, supporting ecosystem growth.",
+      "Long-term goal of enabling native stETH minting on Arbitrum to expand liquid staking usage.",
+      "Liquidity improvements could unlock higher supply caps and institutional interest on Arbitrum."
+    ],
+    "key_arguments_against": [
+      "Grant size (4M ARB) is considered disproportionately large for a non-native protocol by many community members.",
+      "Concerns over centralization risks due to Lido's dominance in the liquid staking space.",
+      "Some forum participants question the incremental value of incentivizing an already liquid asset.",
+      "Negative sentiment about prioritizing Lido over other native or emerging projects."
+    ],
+    "evidence": [
+      {
+        "source_tool": "forums_fetch_discussion",
+        "reference": "Forum discussion https://forum.arbitrum.foundation/t/lido-final-stip-round-1/17119",
+        "quote": "Mixed sentiment with 13 positive, 16 negative, and 28 neutral comments before proposal deadline."
+      },
+      {
+        "source_tool": "timeline_analyze_timeline",
+        "reference": "Snapshot proposal timeline metrics",
+        "quote": "Strong lead and stability for 'For' option with early voting ratio near 1.0."
+      },
+      {
+        "source_tool": "registry_lookup",
+        "reference": null,
+        "quote": "Lido is a dominant liquid staking provider with 32% market share and $130M TVL on Arbitrum."
+      }
+    ],
+    "available_choices": [
+      "For",
+      "Against",
+      "Abstain"
+    ],
+    "event_start_utc": "2023-10-06T02:00:00Z",
+    "event_end_utc": "2023-10-13T02:00:00Z",
+    "event_time_utc": "2023-10-13T02:00:00Z",
+    "address_of_governance_token": "0x912CE59144191C1204E64559FE8253a0e49E6548",
+    "token_price_impact_pct": -0.6138,
+    "tvl_impact_pct": -0.4497,
+    "actual_vote_result": {
+      "winner_label": "Against",
+      "winner_index": 1,
+      "scores": [
+        75887073.89669684,
+        87089048.91463126,
+        37685612.03946592
+      ],
+      "scores_total": 200661734.8507953,
+      "margin_abs": 11201975.017934427,
+      "margin_pct": 0.055825
+    },
+    "simulation_reason": "Recommendation based on early vote timeline metrics and forum sentiment analysis, independent of final tally.",
+    "references": null,
+    "decision_stance": "Change",
+    "ai_final_conclusion": "Option 'For' selected with stance to keep 'Change'.",
+    "ai_final_reason": "- Timeline metrics show a decisive early lead and stable support for the 'For' option.\n- Forum discussion reveals mixed sentiment with significant concerns on grant size and centralization, but also strong endorsements highlighting liquidity benefits.\n- Adjacent proposal experiences indicate caution due to negative post-vote price and TVL impacts, but this proposal's focus on liquidity and ecosystem integration is critical.\n- The recommendation balances community concerns with the strategic importance of liquidity incentives to drive Arbitrum's growth, choosing to support change with monitored oversight.",
+    "similar_proposals": [
+      {
+        "proposal_id": "0x66b953a7cf4de9f6de54e6eb87ae291b5cc62f12c7fed68eba91043607883221",
+        "title": "Proposal: Building the Future of NFTs: The Rarible Protocol - Arbitrum Integration Proposal [REVISED]",
+        "end_utc": "2023-09-01T19:16:02Z",
+        "summary": "Proposal: Building the Future of NFTs: The Rarible Protocol - Arbitrum Integration Proposal [REVISED] closed on 2023-09-01T19:16:02Z. Timeline analytics noted 5500 unique voters, timeline-only analysis (no final tally), recommended option index 0.",
+        "similarity_reason": "Related text overlap (score 0.02)",
+        "market_response": "token -5.29%; TVL -5.04%",
+        "change_stance": "To change"
+      }
+    ],
+    "ex_post_price_impact_pct": -0.6138,
+    "ex_post_tvl_impact_pct": -0.4497,
+    "ex_post_window": "3d pre / 3d post around event end",
+    "ex_post_note": "Token price -0.61%; TVL -0.45%"
+  },
+  "agentic_ai_choice": "For",
+  "actual_outcome": "Against",
+  "match_result": "different",
+  "forum_sentiment_summary": {
+    "Negative": 16,
+    "Positive": 13,
+    "Neutral": 28,
+    "total_comments": 57
+  }
+}
